@@ -1,0 +1,13 @@
+[project]
+name = "procounsel-neet-api"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.125.0",
+  "uvicorn[standard]==0.38.0",
+  "pydantic==2.12.5",
+  "pypdf==6.4.1",
+]
+
+[tool.vercel]
+entrypoint = "index:app"
