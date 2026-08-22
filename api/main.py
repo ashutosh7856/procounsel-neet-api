@@ -8,6 +8,7 @@ from typing import Any, Literal
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 
 
@@ -57,6 +58,9 @@ app = FastAPI(
     title="Procounsel NEET Counselling API",
     version="1.0.0",
     description="Read-only NEET counselling APIs for colleges, score-rank estimate, recommendations, target college checks, and fee benefit notes.",
+    docs_url="/api/docs",
+    redoc_url="/api/redoc",
+    openapi_url="/api/openapi.json",
 )
 
 app.add_middleware(
@@ -73,9 +77,20 @@ def root() -> dict[str, Any]:
     return {
         "name": "Procounsel NEET API",
         "status": "ok",
-        "docs": "/docs",
+        "docs": "/api/docs",
         "health": "/health",
+        "api_health": "/api/health",
     }
+
+
+@app.get("/api")
+def api_root() -> dict[str, Any]:
+    return root()
+
+
+@app.get("/docs", include_in_schema=False)
+def docs_redirect() -> RedirectResponse:
+    return RedirectResponse(url="/api/docs")
 
 
 class PredictRequest(BaseModel):
@@ -350,6 +365,7 @@ def state_cutoff_college_response(row: dict[str, Any]) -> dict[str, Any]:
 
 
 @app.get("/health")
+@app.get("/api/health")
 def health() -> dict[str, Any]:
     return {
         "ok": True,
