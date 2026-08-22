@@ -31,6 +31,26 @@ Health check:
 GET http://127.0.0.1:8000/health
 ```
 
+## Deploy On Vercel
+
+Import this repository in Vercel as a Python/FastAPI project.
+
+Recommended settings:
+
+- Framework Preset: `Other`
+- Build Command: leave empty
+- Output Directory: leave empty
+- Install Command: `pip install -r requirements.txt`
+
+Vercel uses `api/index.py` as the serverless entrypoint and `vercel.json` rewrites all routes to the FastAPI app. After deploy, verify:
+
+```http
+GET https://your-vercel-domain.vercel.app/
+GET https://your-vercel-domain.vercel.app/health
+GET https://your-vercel-domain.vercel.app/docs
+GET https://your-vercel-domain.vercel.app/api/v1/states
+```
+
 ## Main Endpoints
 
 - `GET /health`

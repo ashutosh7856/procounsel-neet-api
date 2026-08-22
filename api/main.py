@@ -68,6 +68,16 @@ app.add_middleware(
 )
 
 
+@app.get("/")
+def root() -> dict[str, Any]:
+    return {
+        "name": "Procounsel NEET API",
+        "status": "ok",
+        "docs": "/docs",
+        "health": "/health",
+    }
+
+
 class PredictRequest(BaseModel):
     neet_air: int | None = Field(default=None, ge=1, description="NEET All India Rank. More accurate when available.")
     neet_score: int | None = Field(default=None, ge=1, le=720, description="NEET score. Used to estimate AIR when neet_air is missing.")
