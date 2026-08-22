@@ -1,0 +1,65 @@
+{
+  "All India": {
+    "status": "verification_pending",
+    "authority": "MCC plus state scholarship and college fee authorities",
+    "sourceUrl": "",
+    "note": "All India counselling does not create one automatic gender fee concession. Check the admitting institute, quota, state scholarship portal, and central/minority/category schemes."
+  },
+  "Andaman and Nicobar Islands": { "status": "verification_pending", "authority": "Andaman and Nicobar Administration", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Andhra Pradesh": { "status": "verification_pending", "authority": "Dr. NTR University of Health Sciences / Andhra Pradesh scholarship authorities", "sourceUrl": "https://drntr.uhsap.in/index/notification_admission", "note": "Verify state scholarship, fee reimbursement, income, category, and quota rules before reducing fees." },
+  "Arunachal Pradesh": { "status": "verification_pending", "authority": "Arunachal Pradesh counselling and scholarship authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Assam": { "status": "verification_pending", "authority": "Directorate of Medical Education, Assam", "sourceUrl": "https://dme.assam.gov.in/", "note": "Verify official counselling brochure and scholarship portal before reducing fees." },
+  "Bihar": { "status": "verification_pending", "authority": "BCECEB / Bihar education and scholarship authorities", "sourceUrl": "https://bceceboard.bihar.gov.in/UGMACIndex.php", "note": "Verify UGMAC brochure, category rules, and state scholarship schemes." },
+  "Chandigarh": { "status": "verification_pending", "authority": "Chandigarh medical counselling authority", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Chhattisgarh": { "status": "verification_pending", "authority": "CGDME", "sourceUrl": "https://cgdme.admissions.nic.in/", "note": "Verify official counselling brochure and fee reimbursement rules." },
+  "Dadra and Nagar Haveli": { "status": "verification_pending", "authority": "Dadra and Nagar Haveli counselling authority", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Delhi": { "status": "verification_pending", "authority": "MCC / Delhi state and university authorities", "sourceUrl": "https://mcc.nic.in/ug-medical-counselling/", "note": "Verify institute-level fee orders and scholarship eligibility; MCC allotment alone is not a fee concession." },
+  "Goa": { "status": "verification_pending", "authority": "Goa medical education and counselling authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Gujarat": { "status": "verification_pending", "authority": "ACPUGMEC / Government of Gujarat scholarship authorities", "sourceUrl": "https://www.medadmgujarat.org/ug/home.aspx", "note": "Verify official fee order, scholarship, category, income, and quota rules." },
+  "Haryana": { "status": "verification_pending", "authority": "DMER Haryana / UHSR", "sourceUrl": "https://uhsrugcounselling.com/", "note": "Verify counselling brochure and state scholarship schemes before reducing fees." },
+  "Himachal Pradesh": { "status": "verification_pending", "authority": "AMRU HP / Himachal Pradesh scholarship authorities", "sourceUrl": "https://amruhp.ac.in/", "note": "No verified automatic gender fee concession imported yet." },
+  "Jammu and Kashmir": { "status": "verification_pending", "authority": "JKBOPEE / Jammu and Kashmir scholarship authorities", "sourceUrl": "https://www.jkbopee.gov.in/", "note": "Verify official allotment, scholarship, income, category, and quota rules." },
+  "Jharkhand": { "status": "verification_pending", "authority": "JCECEB / Jharkhand scholarship authorities", "sourceUrl": "https://jceceb.jharkhand.gov.in/Links/download.aspx/exam_notice.aspx", "note": "Verify state counselling brochure and scholarship portal before reducing fees." },
+  "Karnataka": { "status": "verification_pending", "authority": "KEA / Karnataka scholarship authorities", "sourceUrl": "https://cetonline.karnataka.gov.in/kea/ugneet2026", "note": "Verify KEA fee order, quota, category, income, and scholarship rules." },
+  "Kerala": { "status": "verification_pending", "authority": "CEE Kerala / Kerala scholarship authorities", "sourceUrl": "https://www.cee.kerala.gov.in/keam2026/allotlist", "note": "Verify CEE fee order, category, income, and scholarship rules." },
+  "Madhya Pradesh": { "status": "verification_pending", "authority": "DME MPOnline / Madhya Pradesh scholarship authorities", "sourceUrl": "https://dme.mponline.gov.in/portal/services/dmemp/DMEFMGE/Profile/ProfileLoginHome.aspx", "note": "Verify official fee order and scholarship eligibility before reducing fees." },
+  "Maharashtra": {
+    "status": "verified_guidance",
+    "authority": "Directorate of Technical Education, Maharashtra",
+    "sourceUrl": "https://dte.maharashtra.gov.in/rajarshi-chhatrapati-shahu-maharaj/",
+    "sourceTitle": "Rajarshi Chhatrapati Shahu Maharaj Education Fee Scholarship Scheme",
+    "female": {
+      "title": "Possible Maharashtra female fee benefit",
+      "badge": "Up to 100%",
+      "lines": [
+        "Official Maharashtra scholarship pages list 100% tuition fee and exam fee benefit for eligible girls in professional courses from academic year 2024-25.",
+        "Eligibility still needs Maharashtra domicile, family income up to Rs 8 lakh, eligible scheme/category such as EBC/EWS/SEBC/OBC as applicable, and admission through the competent CAP process.",
+        "Do not subtract hostel, mess, deposit, bond, NRI, or management/institution-level fees unless the official fee order confirms it."
+      ]
+    },
+    "male": {
+      "title": "Possible Maharashtra male fee benefit",
+      "badge": "Up to 50%",
+      "lines": [
+        "Official Maharashtra scholarship pages list 50% tuition fee and exam fee benefit for eligible boys in professional courses under the income-linked scheme.",
+        "Eligibility depends on Maharashtra domicile, family income up to Rs 8 lakh, eligible category/scheme, and CAP admission route.",
+        "The predictor keeps full fees visible until documents are verified, because reimbursement is scheme approval, not automatic college fee reduction."
+      ]
+    }
+  },
+  "Manipur": { "status": "verification_pending", "authority": "Manipur counselling and scholarship authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Meghalaya": { "status": "verification_pending", "authority": "Meghalaya counselling and scholarship authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Mizoram": { "status": "verification_pending", "authority": "Mizoram counselling and scholarship authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Nagaland": { "status": "verification_pending", "authority": "Nagaland counselling and scholarship authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Odisha": { "status": "verification_pending", "authority": "OJEE / Odisha scholarship authorities", "sourceUrl": "https://ojee.nic.in/couselling-for-mbbs_bds_courses/", "note": "Verify OJEE brochure, fee order, category, income, and scholarship rules." },
+  "Puducherry": { "status": "verification_pending", "authority": "CENTAC Puducherry / scholarship authorities", "sourceUrl": "", "note": "Verify CENTAC fee order and state scholarship rules." },
+  "Punjab": { "status": "verification_pending", "authority": "BFUHS / Punjab scholarship authorities", "sourceUrl": "https://admission.bfuhsonline.ac.in/mbbs_bds/mbbsbds.asp", "note": "Verify BFUHS prospectus, fee order, category, income, and scholarship rules." },
+  "Rajasthan": { "status": "verification_pending", "authority": "Rajasthan NEET UG counselling board / scholarship authorities", "sourceUrl": "", "note": "Verify official counselling board source before reducing fees." },
+  "Sikkim": { "status": "verification_pending", "authority": "Sikkim counselling and scholarship authorities", "sourceUrl": "", "note": "No verified automatic gender fee concession imported yet." },
+  "Tamil Nadu": { "status": "verification_pending", "authority": "Selection Committee, DMER Tamil Nadu", "sourceUrl": "https://tnmedicalselection.net/archives/", "note": "Verify prospectus, government quota, management quota, first-generation/minority/category schemes, and fee order before reducing fees." },
+  "Telangana": { "status": "verification_pending", "authority": "KNRUHS / Telangana scholarship authorities", "sourceUrl": "https://tsmedadm.tsche.in/", "note": "Verify competent authority quota, management quota, category, income, and state scholarship rules." },
+  "Tripura": { "status": "verification_pending", "authority": "Tripura Medical Counselling Committee", "sourceUrl": "https://trmcc.admissions.nic.in/ug-counselling/", "note": "Verify counselling brochure and scholarship rules before reducing fees." },
+  "Uttar Pradesh": { "status": "verification_pending", "authority": "DGME UP / UP scholarship authorities", "sourceUrl": "https://upneet.gov.in/NewandGO.aspx", "note": "Verify UPNEET brochure, fee order, category, income, minority, and scholarship rules." },
+  "Uttarakhand": { "status": "verification_pending", "authority": "HNBUMU / Uttarakhand scholarship authorities", "sourceUrl": "https://meta-secure.com/HNBUMU_NEETUG", "note": "Verify HNBUMU brochure, fee order, quota, category, and scholarship rules." },
+  "West Bengal": { "status": "verification_pending", "authority": "WBMCC / West Bengal scholarship authorities", "sourceUrl": "https://wbmcc.nic.in/", "note": "Verify WBMCC brochure, fee order, category, income, and scholarship rules." }
+}

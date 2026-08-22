@@ -1,0 +1,603 @@
+{
+ "source": "Derived from (AIR, Score) pairs in neetugguidance.in cutoff tables — approximate, verify before use.",
+ "builtAt": "2026-08-20T18:28:44.833Z",
+ "pairCount": 4175,
+ "tableCount": 150,
+ "anchors": [
+  {
+   "score": 705,
+   "rank": 778,
+   "samples": 1
+  },
+  {
+   "score": 700,
+   "rank": 1212,
+   "samples": 1
+  },
+  {
+   "score": 695,
+   "rank": 1770,
+   "samples": 3
+  },
+  {
+   "score": 690,
+   "rank": 1770,
+   "samples": 1
+  },
+  {
+   "score": 680,
+   "rank": 6717,
+   "samples": 3
+  },
+  {
+   "score": 675,
+   "rank": 10091,
+   "samples": 5
+  },
+  {
+   "score": 670,
+   "rank": 11828,
+   "samples": 12
+  },
+  {
+   "score": 665,
+   "rank": 15460,
+   "samples": 7
+  },
+  {
+   "score": 660,
+   "rank": 19357,
+   "samples": 15
+  },
+  {
+   "score": 655,
+   "rank": 23204,
+   "samples": 20
+  },
+  {
+   "score": 650,
+   "rank": 25050,
+   "samples": 33
+  },
+  {
+   "score": 645,
+   "rank": 28702,
+   "samples": 3
+  },
+  {
+   "score": 640,
+   "rank": 33604,
+   "samples": 6
+  },
+  {
+   "score": 635,
+   "rank": 38124,
+   "samples": 6
+  },
+  {
+   "score": 630,
+   "rank": 38124,
+   "samples": 2
+  },
+  {
+   "score": 625,
+   "rank": 38124,
+   "samples": 3
+  },
+  {
+   "score": 620,
+   "rank": 52339,
+   "samples": 6
+  },
+  {
+   "score": 615,
+   "rank": 52339,
+   "samples": 6
+  },
+  {
+   "score": 610,
+   "rank": 52339,
+   "samples": 17
+  },
+  {
+   "score": 605,
+   "rank": 52339,
+   "samples": 6
+  },
+  {
+   "score": 600,
+   "rank": 52339,
+   "samples": 16
+  },
+  {
+   "score": 595,
+   "rank": 81029,
+   "samples": 10
+  },
+  {
+   "score": 590,
+   "rank": 81029,
+   "samples": 12
+  },
+  {
+   "score": 585,
+   "rank": 81029,
+   "samples": 10
+  },
+  {
+   "score": 580,
+   "rank": 81029,
+   "samples": 21
+  },
+  {
+   "score": 575,
+   "rank": 81029,
+   "samples": 18
+  },
+  {
+   "score": 570,
+   "rank": 81029,
+   "samples": 24
+  },
+  {
+   "score": 565,
+   "rank": 81029,
+   "samples": 44
+  },
+  {
+   "score": 560,
+   "rank": 81029,
+   "samples": 54
+  },
+  {
+   "score": 555,
+   "rank": 81029,
+   "samples": 68
+  },
+  {
+   "score": 550,
+   "rank": 81029,
+   "samples": 90
+  },
+  {
+   "score": 545,
+   "rank": 81029,
+   "samples": 109
+  },
+  {
+   "score": 540,
+   "rank": 81029,
+   "samples": 113
+  },
+  {
+   "score": 535,
+   "rank": 81029,
+   "samples": 105
+  },
+  {
+   "score": 530,
+   "rank": 81029,
+   "samples": 124
+  },
+  {
+   "score": 525,
+   "rank": 81029,
+   "samples": 164
+  },
+  {
+   "score": 520,
+   "rank": 81029,
+   "samples": 176
+  },
+  {
+   "score": 515,
+   "rank": 81029,
+   "samples": 76
+  },
+  {
+   "score": 510,
+   "rank": 81029,
+   "samples": 97
+  },
+  {
+   "score": 505,
+   "rank": 81029,
+   "samples": 96
+  },
+  {
+   "score": 500,
+   "rank": 81029,
+   "samples": 83
+  },
+  {
+   "score": 495,
+   "rank": 81029,
+   "samples": 64
+  },
+  {
+   "score": 490,
+   "rank": 81029,
+   "samples": 85
+  },
+  {
+   "score": 485,
+   "rank": 81029,
+   "samples": 79
+  },
+  {
+   "score": 480,
+   "rank": 81029,
+   "samples": 85
+  },
+  {
+   "score": 475,
+   "rank": 84406,
+   "samples": 86
+  },
+  {
+   "score": 470,
+   "rank": 91996,
+   "samples": 72
+  },
+  {
+   "score": 465,
+   "rank": 98226,
+   "samples": 89
+  },
+  {
+   "score": 460,
+   "rank": 106077,
+   "samples": 81
+  },
+  {
+   "score": 455,
+   "rank": 113892,
+   "samples": 53
+  },
+  {
+   "score": 450,
+   "rank": 122244,
+   "samples": 58
+  },
+  {
+   "score": 445,
+   "rank": 129260,
+   "samples": 45
+  },
+  {
+   "score": 440,
+   "rank": 136959,
+   "samples": 69
+  },
+  {
+   "score": 435,
+   "rank": 146182,
+   "samples": 75
+  },
+  {
+   "score": 430,
+   "rank": 155440,
+   "samples": 42
+  },
+  {
+   "score": 425,
+   "rank": 163196,
+   "samples": 61
+  },
+  {
+   "score": 420,
+   "rank": 172752,
+   "samples": 56
+  },
+  {
+   "score": 415,
+   "rank": 180896,
+   "samples": 64
+  },
+  {
+   "score": 410,
+   "rank": 190041,
+   "samples": 84
+  },
+  {
+   "score": 405,
+   "rank": 199708,
+   "samples": 42
+  },
+  {
+   "score": 400,
+   "rank": 209513,
+   "samples": 61
+  },
+  {
+   "score": 395,
+   "rank": 218317,
+   "samples": 53
+  },
+  {
+   "score": 390,
+   "rank": 229261,
+   "samples": 33
+  },
+  {
+   "score": 385,
+   "rank": 238558,
+   "samples": 19
+  },
+  {
+   "score": 380,
+   "rank": 247793,
+   "samples": 38
+  },
+  {
+   "score": 375,
+   "rank": 261551,
+   "samples": 20
+  },
+  {
+   "score": 370,
+   "rank": 270848,
+   "samples": 25
+  },
+  {
+   "score": 365,
+   "rank": 281732,
+   "samples": 42
+  },
+  {
+   "score": 360,
+   "rank": 296075,
+   "samples": 26
+  },
+  {
+   "score": 355,
+   "rank": 304952,
+   "samples": 22
+  },
+  {
+   "score": 350,
+   "rank": 314363,
+   "samples": 29
+  },
+  {
+   "score": 345,
+   "rank": 326537,
+   "samples": 29
+  },
+  {
+   "score": 340,
+   "rank": 337356,
+   "samples": 28
+  },
+  {
+   "score": 335,
+   "rank": 351380,
+   "samples": 22
+  },
+  {
+   "score": 330,
+   "rank": 362491,
+   "samples": 28
+  },
+  {
+   "score": 325,
+   "rank": 375194,
+   "samples": 28
+  },
+  {
+   "score": 320,
+   "rank": 392077,
+   "samples": 18
+  },
+  {
+   "score": 315,
+   "rank": 401768,
+   "samples": 21
+  },
+  {
+   "score": 310,
+   "rank": 415733,
+   "samples": 26
+  },
+  {
+   "score": 305,
+   "rank": 431007,
+   "samples": 25
+  },
+  {
+   "score": 300,
+   "rank": 443750,
+   "samples": 21
+  },
+  {
+   "score": 295,
+   "rank": 458412,
+   "samples": 22
+  },
+  {
+   "score": 290,
+   "rank": 472397,
+   "samples": 17
+  },
+  {
+   "score": 285,
+   "rank": 487437,
+   "samples": 15
+  },
+  {
+   "score": 280,
+   "rank": 500475,
+   "samples": 23
+  },
+  {
+   "score": 275,
+   "rank": 515174,
+   "samples": 21
+  },
+  {
+   "score": 270,
+   "rank": 533406,
+   "samples": 32
+  },
+  {
+   "score": 265,
+   "rank": 550427,
+   "samples": 21
+  },
+  {
+   "score": 260,
+   "rank": 565481,
+   "samples": 16
+  },
+  {
+   "score": 255,
+   "rank": 585287,
+   "samples": 26
+  },
+  {
+   "score": 250,
+   "rank": 602856,
+   "samples": 20
+  },
+  {
+   "score": 245,
+   "rank": 617922,
+   "samples": 14
+  },
+  {
+   "score": 240,
+   "rank": 632914,
+   "samples": 23
+  },
+  {
+   "score": 235,
+   "rank": 657132,
+   "samples": 17
+  },
+  {
+   "score": 230,
+   "rank": 673856,
+   "samples": 15
+  },
+  {
+   "score": 225,
+   "rank": 690996,
+   "samples": 14
+  },
+  {
+   "score": 220,
+   "rank": 711167,
+   "samples": 12
+  },
+  {
+   "score": 215,
+   "rank": 738584,
+   "samples": 11
+  },
+  {
+   "score": 210,
+   "rank": 749358,
+   "samples": 7
+  },
+  {
+   "score": 205,
+   "rank": 781615,
+   "samples": 16
+  },
+  {
+   "score": 200,
+   "rank": 810672,
+   "samples": 4
+  },
+  {
+   "score": 195,
+   "rank": 828910,
+   "samples": 4
+  },
+  {
+   "score": 190,
+   "rank": 846369,
+   "samples": 16
+  },
+  {
+   "score": 185,
+   "rank": 869328,
+   "samples": 12
+  },
+  {
+   "score": 180,
+   "rank": 890095,
+   "samples": 11
+  },
+  {
+   "score": 175,
+   "rank": 917270,
+   "samples": 12
+  },
+  {
+   "score": 170,
+   "rank": 945567,
+   "samples": 11
+  },
+  {
+   "score": 165,
+   "rank": 977952,
+   "samples": 10
+  },
+  {
+   "score": 160,
+   "rank": 1005395,
+   "samples": 14
+  },
+  {
+   "score": 155,
+   "rank": 1026458,
+   "samples": 10
+  },
+  {
+   "score": 150,
+   "rank": 1058234,
+   "samples": 22
+  },
+  {
+   "score": 145,
+   "rank": 1094655,
+   "samples": 24
+  },
+  {
+   "score": 140,
+   "rank": 1119297,
+   "samples": 11
+  },
+  {
+   "score": 135,
+   "rank": 1151809,
+   "samples": 15
+  },
+  {
+   "score": 130,
+   "rank": 1191671,
+   "samples": 20
+  },
+  {
+   "score": 125,
+   "rank": 1226894,
+   "samples": 12
+  },
+  {
+   "score": 120,
+   "rank": 1270515,
+   "samples": 15
+  },
+  {
+   "score": 115,
+   "rank": 1295398,
+   "samples": 38
+  },
+  {
+   "score": 110,
+   "rank": 1295398,
+   "samples": 2
+  }
+ ]
+}
