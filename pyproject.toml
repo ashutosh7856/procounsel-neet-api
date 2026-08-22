@@ -9,5 +9,5 @@ dependencies = [
   "pypdf==6.4.1",
 ]
 
-[tool.vercel]
-entrypoint = "index:app"
+[project.scripts]
+app = "api.main:app"
