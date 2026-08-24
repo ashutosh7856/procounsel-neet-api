@@ -65,12 +65,28 @@ College response rows include cutoff year metadata:
     "R1": "official_state_cutoff",
     "R2": "directory_reference"
   },
+  "year_wise_rounds": {
+    "2025": {
+      "R1": {
+        "closing_rank": 38404,
+        "source": "official_state_cutoff",
+        "source_label": "State Common Entrance Test Cell, Maharashtra",
+        "verified": true
+      },
+      "R2": {
+        "closing_rank": 41052,
+        "source": "directory_reference",
+        "source_label": "Directory reference",
+        "verified": false
+      }
+    }
+  },
   "cutoff_year": 2025,
   "official_cutoffs": []
 }
 ```
 
-For directory rows without an explicit source year, the API marks imported cutoff ranks as `2025` because the current directory cutoff dataset is 2025-based. Official MCC/state cutoff rows use the exact normalized source year. When official state rows match a directory college, `round_sources` shows which rounds came from `official_state_cutoff` versus `directory_reference`, and `official_cutoffs` contains the parsed source rows.
+For directory rows without an explicit source year, the API marks imported cutoff ranks as `2025` because the current directory cutoff dataset is 2025-based. Official MCC/state cutoff rows use the exact normalized source year. New frontend work should prefer `year_wise_rounds`; older fields `rounds`, `round_years`, and `round_sources` remain for backward compatibility. When official state rows match a directory college, `round_sources` shows which rounds came from `official_state_cutoff` versus `directory_reference`, and `official_cutoffs` contains the parsed source rows.
 
 ## Score To Estimated AIR
 

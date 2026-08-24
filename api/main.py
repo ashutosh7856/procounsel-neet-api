@@ -333,6 +333,42 @@ def directory_round_years(college: dict[str, Any], cutoff_year: int | None) -> d
     return {str(round_name): cutoff_year for round_name in rounds}
 
 
+def build_year_wise_rounds(
+    rounds: dict[str, Any] | None,
+    round_years: dict[str, int],
+    round_sources: dict[str, str],
+    official_rows_by_round: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, dict[str, dict[str, Any]]]:
+    if not isinstance(rounds, dict):
+        return {}
+
+    official_rows_by_round = official_rows_by_round or {}
+    grouped: dict[str, dict[str, dict[str, Any]]] = {}
+    for round_name, closing_rank in rounds.items():
+        round_key = str(round_name)
+        year = round_years.get(round_key)
+        if year is None:
+            continue
+        source = round_sources.get(round_key, "directory_reference")
+        official_row = official_rows_by_round.get(round_key)
+        grouped.setdefault(str(year), {})[round_key] = {
+            "closing_rank": closing_rank,
+            "source": source,
+            "source_label": official_row.get("authority") if official_row else "Directory reference",
+            "verified": source != "directory_reference",
+        }
+        if official_row:
+            grouped[str(year)][round_key].update(
+                {
+                    "quota": official_row.get("quota"),
+                    "category": official_row.get("category"),
+                    "source_url": official_row.get("sourceUrl"),
+                    "verification_status": official_row.get("verificationStatus"),
+                }
+            )
+    return grouped
+
+
 def college_response(college: dict[str, Any], state: str) -> dict[str, Any]:
     tracks = parse_fee_tracks(college.get("fees"))
     cutoff_year = infer_directory_cutoff_year(college)
@@ -374,6 +410,7 @@ def college_response(college: dict[str, Any], state: str) -> dict[str, Any]:
         "rounds": rounds,
         "round_years": round_years,
         "round_sources": round_sources,
+        "year_wise_rounds": build_year_wise_rounds(rounds, round_years, round_sources, official_rounds),
         "cutoff_year": official_latest_year or cutoff_year,
         "detail": detail,
         "official_cutoffs": official_cutoffs,
@@ -455,6 +492,9 @@ def filter_state_cutoffs(
 def state_cutoff_college_response(row: dict[str, Any]) -> dict[str, Any]:
     round_name = row.get("round", "Round")
     cutoff_year = row.get("year")
+    rounds = {round_name: row.get("closingRank")}
+    round_years = {round_name: cutoff_year} if cutoff_year else {}
+    round_sources = {round_name: "official_state_cutoff"}
     return {
         "name": row.get("collegeName", ""),
         "state": row.get("state", ""),
@@ -465,9 +505,10 @@ def state_cutoff_college_response(row: dict[str, Any]) -> dict[str, Any]:
         "closing_rank": row.get("closingRank"),
         "fees": "",
         "fee_tracks": [],
-        "rounds": {round_name: row.get("closingRank")},
-        "round_years": {round_name: cutoff_year} if cutoff_year else {},
-        "round_sources": {round_name: "official_state_cutoff"},
+        "rounds": rounds,
+        "round_years": round_years,
+        "round_sources": round_sources,
+        "year_wise_rounds": build_year_wise_rounds(rounds, round_years, round_sources, {round_name: row}),
         "cutoff_year": cutoff_year,
         "detail": f"{row.get('authority')} · {row.get('year')} {row.get('round')} · {row.get('quota')} · {row.get('category')} · Source: {row.get('sourceUrl')}",
         "official_cutoff": row,
@@ -790,6 +831,12 @@ def target_college_check(request: TargetCollegeCheckRequest) -> dict[str, Any]:
         base["rounds"] = {row.get("round", "Round"): closing_rank}
         base["round_years"] = {row.get("round", "Round"): row.get("year")}
         base["round_sources"] = {row.get("round", "Round"): "official_state_cutoff"}
+        base["year_wise_rounds"] = build_year_wise_rounds(
+            base["rounds"],
+            base["round_years"],
+            base["round_sources"],
+            {row.get("round", "Round"): row},
+        )
         base["cutoff_year"] = row.get("year")
         base["official_cutoff"] = row
         base["detail"] += f" · Official cutoff: {row.get('authority')} {row.get('year')} {row.get('round')} {row.get('quota')} {row.get('category')}."
