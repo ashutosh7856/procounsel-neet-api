@@ -19,6 +19,7 @@ MCC_CUTOFFS_PATH = NORMALIZED_DIR / "mcc-cutoffs.json"
 STATE_CUTOFFS_PATH = NORMALIZED_DIR / "state-cutoffs.json"
 COURSE_YEARS = 5
 USD_TO_INR = 88
+DIRECTORY_DEFAULT_CUTOFF_YEAR = 2025
 
 CollegeType = Literal["All types", "Government", "Private", "Deemed"]
 CounsellingType = Literal["State quota", "Deemed counselling", "All types"]
@@ -258,8 +259,26 @@ def fit_percent(rank: int, closing_rank: int) -> int:
     return round(max(40, min(96, fit)))
 
 
+def infer_directory_cutoff_year(college: dict[str, Any]) -> int | None:
+    detail = str(college.get("detail", ""))
+    matches = re.findall(r"\b(20\d{2})\b", detail)
+    if matches:
+        return int(matches[-1])
+    has_rank = str(college.get("closingRank", "")).isdigit()
+    has_rounds = bool(college.get("rounds"))
+    return DIRECTORY_DEFAULT_CUTOFF_YEAR if has_rank or has_rounds else None
+
+
+def directory_round_years(college: dict[str, Any], cutoff_year: int | None) -> dict[str, int]:
+    rounds = college.get("rounds")
+    if not isinstance(rounds, dict) or cutoff_year is None:
+        return {}
+    return {str(round_name): cutoff_year for round_name in rounds}
+
+
 def college_response(college: dict[str, Any], state: str) -> dict[str, Any]:
     tracks = parse_fee_tracks(college.get("fees"))
+    cutoff_year = infer_directory_cutoff_year(college)
     return {
         "name": college.get("name", ""),
         "state": state,
@@ -271,6 +290,8 @@ def college_response(college: dict[str, Any], state: str) -> dict[str, Any]:
         "fees": college.get("fees", ""),
         "fee_tracks": tracks,
         "rounds": college.get("rounds"),
+        "round_years": directory_round_years(college, cutoff_year),
+        "cutoff_year": cutoff_year,
         "detail": college.get("detail", ""),
     }
 
@@ -348,6 +369,8 @@ def filter_state_cutoffs(
 
 
 def state_cutoff_college_response(row: dict[str, Any]) -> dict[str, Any]:
+    round_name = row.get("round", "Round")
+    cutoff_year = row.get("year")
     return {
         "name": row.get("collegeName", ""),
         "state": row.get("state", ""),
@@ -358,7 +381,9 @@ def state_cutoff_college_response(row: dict[str, Any]) -> dict[str, Any]:
         "closing_rank": row.get("closingRank"),
         "fees": "",
         "fee_tracks": [],
-        "rounds": {row.get("round", "Round"): row.get("closingRank")},
+        "rounds": {round_name: row.get("closingRank")},
+        "round_years": {round_name: cutoff_year} if cutoff_year else {},
+        "cutoff_year": cutoff_year,
         "detail": f"{row.get('authority')} · {row.get('year')} {row.get('round')} · {row.get('quota')} · {row.get('category')} · Source: {row.get('sourceUrl')}",
         "official_cutoff": row,
     }
@@ -678,6 +703,8 @@ def target_college_check(request: TargetCollegeCheckRequest) -> dict[str, Any]:
         closing_rank = row["closingRank"]
         base["closing_rank"] = closing_rank
         base["rounds"] = {row.get("round", "Round"): closing_rank}
+        base["round_years"] = {row.get("round", "Round"): row.get("year")}
+        base["cutoff_year"] = row.get("year")
         base["official_cutoff"] = row
         base["detail"] += f" · Official cutoff: {row.get('authority')} {row.get('year')} {row.get('round')} {row.get('quota')} {row.get('category')}."
 

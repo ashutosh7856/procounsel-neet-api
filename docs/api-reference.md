@@ -49,6 +49,24 @@ Query params:
 - `limit`: 1 to 500
 - `offset`: pagination offset
 
+College response rows include cutoff year metadata:
+
+```json
+{
+  "rounds": {
+    "R1": 273017,
+    "R2": 300369
+  },
+  "round_years": {
+    "R1": 2025,
+    "R2": 2025
+  },
+  "cutoff_year": 2025
+}
+```
+
+For directory rows without an explicit source year, the API marks imported cutoff ranks as `2025` because the current directory cutoff dataset is 2025-based. Official MCC/state cutoff rows use the exact normalized source year.
+
 ## Score To Estimated AIR
 
 ```http
