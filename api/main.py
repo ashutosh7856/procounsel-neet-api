@@ -9,6 +9,7 @@ from typing import Any, Literal
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
+from fastapi.routing import APIRoute
 from pydantic import BaseModel, Field
 
 from .mht_cet import get_predictor as get_mht_cet_predictor
@@ -872,3 +873,8 @@ def target_college_check(request: TargetCollegeCheckRequest) -> dict[str, Any]:
 
     base.update({"matched": True, "rank_used": rank, "rank_label": rank_label, "verdict": chance, "tone": tone, "message": message})
     return base
+
+
+for route in app.routes:
+    if isinstance(route, APIRoute) and route.include_in_schema and not route.tags:
+        route.tags = ["NEET"]
