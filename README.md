@@ -1,6 +1,6 @@
-# Procounsel NEET API
+# Procounsel Counselling API
 
-FastAPI backend for Procounsel NEET counselling intelligence.
+FastAPI backend for Procounsel counselling intelligence.
 
 This API serves imported counselling data for:
 
@@ -11,6 +11,7 @@ This API serves imported counselling data for:
 - Rank-based college recommendations
 - Target college reach checks
 - Gender/category/state fee-benefit guidance
+- MHT-CET engineering college prediction by rank, percentile, or marks
 
 ## Run Locally
 
@@ -64,12 +65,21 @@ GET https://your-vercel-domain.vercel.app/api/v1/states
 - `GET /api/v1/state-cutoffs`
 - `POST /api/v1/predict`
 - `POST /api/v1/target-college-check`
+- `GET /api/v1/mht-cet/health`
+- `GET /api/v1/mht-cet/predict`
+- `GET /api/v1/mht-cet/predict/by-percentile`
+- `GET /api/v1/mht-cet/predict/by-marks`
+- `GET /api/v1/mht-cet/convert`
+- `GET /api/v1/mht-cet/categories`
+- `GET /api/v1/mht-cet/branches`
+- `GET /api/v1/mht-cet/colleges`
 
 Full API reference: `docs/api-reference.md`
 
 ## Data Folders
 
 - `data/reference/`: college directory, score-rank anchors, fee-benefit guidance
+- `data/reference/mht-cet/`: MHT-CET college cutoff CSV
 - `data/official/normalized/`: normalized MCC and official state cutoff JSON
 
 ## Import Official PDFs

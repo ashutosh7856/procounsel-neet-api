@@ -11,6 +11,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 
+from .mht_cet import get_predictor as get_mht_cet_predictor
+from .mht_cet import router as mht_cet_router
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "reference"
@@ -57,9 +60,9 @@ OFFICIAL_STATE_CUTOFF_STATES = {row.get("state") for row in STATE_CUTOFFS.get("c
 
 
 app = FastAPI(
-    title="Procounsel NEET Counselling API",
+    title="Procounsel Counselling API",
     version="1.0.0",
-    description="Read-only NEET counselling APIs for colleges, score-rank estimate, recommendations, target college checks, and fee benefit notes.",
+    description="Read-only counselling APIs for NEET and MHT-CET college prediction.",
     docs_url="/api/docs",
     redoc_url="/api/redoc",
     openapi_url="/api/openapi.json",
@@ -73,11 +76,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(mht_cet_router)
+
 
 @app.get("/")
 def root() -> dict[str, Any]:
     return {
-        "name": "Procounsel NEET API",
+        "name": "Procounsel Counselling API",
         "status": "ok",
         "docs": "/api/docs",
         "health": "/health",
@@ -518,12 +523,17 @@ def state_cutoff_college_response(row: dict[str, Any]) -> dict[str, Any]:
 @app.get("/health")
 @app.get("/api/health")
 def health() -> dict[str, Any]:
+    try:
+        mht_cet_rows = len(get_mht_cet_predictor().df)
+    except Exception:
+        mht_cet_rows = 0
     return {
         "ok": True,
         "states": len(STATES_WITH_DATA),
         "colleges": sum(len(items) for items in DIRECTORY.values()),
         "mcc_cutoff_groups": MCC_CUTOFFS.get("cutoffGroups", 0),
         "state_cutoff_groups": STATE_CUTOFFS.get("cutoffGroups", 0),
+        "mht_cet_rows": mht_cet_rows,
     }
 
 

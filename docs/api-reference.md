@@ -182,6 +182,51 @@ Query params:
 - `limit`: 1 to 500
 - `offset`: pagination offset
 
+## MHT-CET
+
+MHT-CET engineering prediction endpoints are available under `/api/v1/mht-cet`.
+
+Health:
+
+```http
+GET /api/v1/mht-cet/health
+```
+
+Predict by rank:
+
+```http
+GET /api/v1/mht-cet/predict?rank=5000&category=OPEN&branch=Computer&top_n=15
+```
+
+Predict by percentile:
+
+```http
+GET /api/v1/mht-cet/predict/by-percentile?percentile=97.5&category=OBC&branch=IT&top_n=15
+```
+
+Predict by marks:
+
+```http
+GET /api/v1/mht-cet/predict/by-marks?marks=150&category=OPEN&branch=Mechanical&top_n=15
+```
+
+Convert marks or percentile to estimated rank:
+
+```http
+GET /api/v1/mht-cet/convert?marks=150
+GET /api/v1/mht-cet/convert?percentile=97.5
+```
+
+Reference lists:
+
+```http
+GET /api/v1/mht-cet/categories
+GET /api/v1/mht-cet/branches?category=OPEN
+GET /api/v1/mht-cet/colleges?q=pune&branch=computer&category=OPEN&limit=20
+```
+
+Prediction rows include `college`, `best_branch`, `branches`, `best_closing_rank`, `best_closing_percentile`, and `chance`.
+
 ## MCC Cutoffs
 
 ```http
