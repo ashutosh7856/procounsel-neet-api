@@ -1,0 +1,12 @@
+{
+  "id": "pc-cat-mock-01",
+  "title": "ProCounsel CAT Mock 01",
+  "examVersionYear": 2025,
+  "year": null,
+  "slot": null,
+  "source": {
+    "kind": "original",
+    "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-11"
+  }
+}

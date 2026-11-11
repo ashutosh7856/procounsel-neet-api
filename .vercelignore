@@ -1,0 +1,2 @@
+# Not needed at runtime (seeded into Firestore by scripts/mba); keeps the serverless bundle small.
+data/mba/

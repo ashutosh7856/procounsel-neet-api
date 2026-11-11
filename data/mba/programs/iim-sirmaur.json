@@ -1,0 +1,469 @@
+{
+  "slug": "iim-sirmaur",
+  "name": "Indian Institute of Management Sirmaur",
+  "shortName": "IIM Sirmaur",
+  "city": "Paonta Sahib (Sirmaur)",
+  "state": "Himachal Pradesh",
+  "website": "https://iimsirmaur.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "feeTotal": 2100000,
+      "feeNote": "Includes admission, tuition, hostel, alumni, mediclaim; excludes refundable caution money 30000.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Brief 2026 (Fee Structure MBA 2026-28)",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-brief-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Fee Structure (MBA 2026 - 28) ... Total Fee (A) | 1102500 | YEAR – II (2027-28) ... Total Fee (B) | 997500 | Total (A+B) | 21,00,000 | Security Deposit / Caution Money (Refundable) 30,000"
+      },
+      "intake": 285,
+      "intakeNote": "NIRF sanctioned intake AY 2024-25 for all 2-year PG programmes combined (MBA + MBA Tourism variants); flagship-only intake not officially stated.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "IIM Sirmaur - Submitted Institute Data for NIRF'2026'",
+        "url": "https://iimsirmaur.ac.in/sites/default/files/2026-04/INDIAN%20INSTITUTE%20OF%20MANAGEMENT%20SIRMAUR20260402-.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake Academic Year 2024-25 2023-24 ... PG [2 Year Program(s)] 285 320"
+      },
+      "medianSalary": 1420000,
+      "medianSalaryYear": 2025,
+      "salaryNote": "NIRF 2026 median of placed graduates, graduating AY 2024-25, all 2-year PG programmes. The official Final Placement Report AY 2024-25 (https://iimsirmaur.ac.in/sites/default/files/inline-files/Final%20Placement%20Report%20AY%202024-25.pdf) states only averages ('The overall average CTC for the batch was ₹ 13.3 lakhs').",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Sirmaur - Submitted Institute Data for NIRF'2026'",
+        "url": "https://iimsirmaur.ac.in/sites/default/files/2026-04/INDIAN%20INSTITUTE%20OF%20MANAGEMENT%20SIRMAUR20260402-.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "2023-24 320 312 2024-25 295 293 1420000(Fourteen lakh twenty thousand)"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 90,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | General | 65 | 65 | 65 | 90 | 65 | 65 | 65 | 85"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 85,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | General | 65 | 65 | 65 | 90 | 65 | 65 | 65 | 85"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 75,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | EWS | 50 | 50 | 50 | 75 | 50 | 50 | 50 | 70"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 70,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | EWS | 50 | 50 | 50 | 75 | 50 | 50 | 50 | 70"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 75,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | NC OBC | 45 | 45 | 45 | 75 | 45 | 45 | 45 | 70"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 70,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | NC OBC | 45 | 45 | 45 | 75 | 45 | 45 | 45 | 70"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 60,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | SC | 40 | 40 | 40 | 60 | 40 | 40 | 40 | 55"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 55,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | SC | 40 | 40 | 40 | 60 | 40 | 40 | 40 | 55"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | ST | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 35,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | ST | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 35,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 35,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 35,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 35,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 35,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "CAP 2026 PI shortlisting cut-offs (CAT 2025), decided at CAP Directors' meeting and notified on institute website. Column order VARC, DILR, QA, Overall. Female row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Sirmaur - MBA Admission Policy 2026 (AY 2026-28), incl. 'MBA (CAP 2026) Cut Off' table",
+        "url": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (CAP 2026) Cut Off | Male | Female | VARC | DILR | QA | Overall | VARC | DILR | QA | Overall | PwD | 25 | 30 | 30 | 38 | 25 | 30 | 30 | 35"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

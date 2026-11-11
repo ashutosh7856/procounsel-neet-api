@@ -1,0 +1,702 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Festival Talk Schedule",
+      "contentHtml": "<p>A literature festival schedules six talks, one on each day from Monday to Saturday of a single week. The six speakers are Farah, Gopal, Hema, Imran, Jaya and Kunal, and each gives exactly one talk. Every talk is held in one of three halls: Lotus, Maple and Neem. Each hall hosts exactly two of the six talks, and no hall is used on two consecutive days.</p><p>The following is also known:</p><ol><li>Jaya speaks in Neem.</li><li>Hema speaks in Maple.</li><li>Gopal speaks on the day immediately before the day of Hema's talk.</li><li>Farah and Imran speak in the same hall.</li><li>Exactly two days separate the talks of Farah and Kunal (for example, if one of them speaks on Monday, the other speaks on Thursday).</li><li>Imran speaks on a later day than Jaya.</li></ol>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Quarterly Orders by City",
+      "contentHtml": "<p>An online home-goods retailer operates in five cities. The table below gives the number of orders (in thousands) it received from each city in each quarter of a financial year, together with the average order value (AOV) in that city for the year. Assume the AOV of a city was the same in every quarter, so that revenue from a city in a period = orders in that period &#215; AOV of that city.</p><table><tr><th>City</th><th>Q1 orders ('000)</th><th>Q2 orders ('000)</th><th>Q3 orders ('000)</th><th>Q4 orders ('000)</th><th>AOV (&#8377;)</th></tr><tr><td>Agra</td><td>40</td><td>46</td><td>44</td><td>52</td><td>640</td></tr><tr><td>Bhopal</td><td>35</td><td>33</td><td>40</td><td>49</td><td>720</td></tr><tr><td>Cuttack</td><td>28</td><td>31</td><td>37</td><td>36</td><td>580</td></tr><tr><td>Dehradun</td><td>50</td><td>48</td><td>55</td><td>58</td><td>600</td></tr><tr><td>Erode</td><td>22</td><td>27</td><td>25</td><td>30</td><td>810</td></tr></table>"
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "Five-Team Hockey League",
+      "contentHtml": "<p>Five hockey teams, P, Q, R, S and T, played a single round-robin tournament, in which each team played every other team exactly once. A win earned 3 points, a draw earned 1 point to each team, and a loss earned 0 points.</p><p>The following facts are known about the tournament:</p><ol><li>No two teams finished with the same number of points.</li><li>Exactly three matches ended in a draw.</li><li>R was the only team that did not lose any match.</li><li>T did not win any match.</li><li>Q won more matches than any other team.</li><li>P finished with exactly 7 points.</li></ol>"
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Stationery Warehouse Stock",
+      "contentHtml": "<p>A stationery warehouse stocks four items: Pens, Notebooks, Files and Markers (all figures in cartons). For every item and every month, Closing stock = Opening stock + Received - Dispatched, and the closing stock of a month is the opening stock of the next month.</p><p>The table gives the opening stock on 1 January, the cartons received and dispatched in January, February and March, and the closing stock on 31 March. Some entries are missing and are shown as ?.</p><table><tr><th>Item</th><th>Opening (1 Jan)</th><th>Received Jan</th><th>Received Feb</th><th>Received Mar</th><th>Dispatched Jan</th><th>Dispatched Feb</th><th>Dispatched Mar</th><th>Closing (31 Mar)</th></tr><tr><td>Pens</td><td>120</td><td>80</td><td>100</td><td>60</td><td>110</td><td>95</td><td>?</td><td>35</td></tr><tr><td>Notebooks</td><td>200</td><td>50</td><td>?</td><td>120</td><td>140</td><td>170</td><td>85</td><td>125</td></tr><tr><td>Files</td><td>60</td><td>40</td><td>30</td><td>70</td><td>45</td><td>50</td><td>40</td><td>?</td></tr><tr><td>Markers</td><td>75</td><td>25</td><td>65</td><td>?</td><td>?</td><td>55</td><td>70</td><td>10</td></tr></table><p>Additionally: the total number of cartons received by the warehouse (all four items) in February was 345, and the total number of cartons dispatched (all four items) in January was 355.</p>"
+    },
+    {
+      "key": "DILR-S5",
+      "kind": "dilr_set",
+      "title": "Archery Scorecard",
+      "contentHtml": "<p>Four archers, Aditi, Bhavna, Charu and Divya, each shot exactly four arrows at a target. Each arrow either landed in one of four rings or missed the target, and scored points as follows: Gold 10, Red 7, Blue 4, Black 1, Miss 0. An archer's score is the total of the points of her four arrows.</p><table><tr><th>Ring</th><th>Gold</th><th>Red</th><th>Blue</th><th>Black</th><th>Miss</th></tr><tr><td>Points</td><td>10</td><td>7</td><td>4</td><td>1</td><td>0</td></tr></table><p>The following is known:</p><ol><li>The four archers' scores were 31, 25, 22 and 15, in some order.</li><li>Altogether, exactly four arrows hit Gold and exactly one arrow missed the target.</li><li>Bhavna did not hit Gold with any arrow.</li><li>Aditi scored more than Charu.</li><li>Every archer hit Blue with at least one arrow.</li><li>Divya hit Black with exactly one arrow, and Charu hit Black with at least one arrow.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following speakers can NOT give the talk on Monday?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Hema"
+        },
+        {
+          "id": "B",
+          "textHtml": "Farah"
+        },
+        {
+          "id": "C",
+          "textHtml": "Jaya"
+        },
+        {
+          "id": "D",
+          "textHtml": "Kunal"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Each hall hosts exactly two talks. Farah and Imran share a hall. If that hall were Neem, Neem would host Farah, Imran and Jaya (three talks); if it were Maple, Maple would host Farah, Imran and Hema. Both are impossible, so Farah and Imran are in <strong>Lotus</strong>, which is then full. Gopal and Kunal therefore occupy the remaining Neem and Maple slots. Gopal speaks on the day just before Hema (Maple), and Maple cannot be used on consecutive days, so Gopal is in <strong>Neem</strong> and Kunal is in <strong>Maple</strong>.</p><p>So the hall pairs are Lotus: Farah, Imran; Neem: Jaya, Gopal; Maple: Hema, Kunal, and the two talks of a pair can never be on consecutive days.</p><p><strong>Placing the Gopal-Hema block</strong> (days numbered 1 = Monday to 6 = Saturday):</p><ul><li>G-H on 1-2: Farah and Kunal must be 3 apart among days 3-6, so they take 3 and 6; Kunal on 3 would follow Hema (both Maple), so Kunal = 6, Farah = 3. Jaya and Imran take 4 and 5 with Jaya first. Valid: G H F J I K.</li><li>G-H on 2-3: Farah/Kunal take 1 and 4; Kunal on 4 would follow Hema, so Kunal = 1, Farah = 4; Jaya = 5, Imran = 6. Valid: K G H F J I.</li><li>G-H on 3-4: Farah/Kunal take 2 and 5; Kunal = 5 is next to Hema, so Kunal = 2, Farah = 5; then Jaya = 1, Imran = 6, making Farah and Imran (both Lotus) consecutive. Invalid.</li><li>G-H on 4-5: Farah/Kunal take 3 and 6; Kunal = 6 is next to Hema, so Kunal = 3, Farah = 6; Jaya = 1, Imran = 2. Valid: J I K G H F.</li><li>G-H on 5-6: Farah/Kunal take 1 and 4; Jaya = 2, Imran = 3. Farah = 4 would be next to Imran (Lotus), so Farah = 1, Kunal = 4. Valid: F J I K G H.</li></ul><p>Exactly four schedules survive:</p><table><tr><th>Schedule</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td>1</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td></tr><tr><td>2</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td></tr><tr><td>3</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td></tr><tr><td>4</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td></tr></table><p>Monday is taken by Gopal, Kunal, Jaya or Farah in the four schedules. Hema always speaks the day after Gopal, so Hema can never be on Monday. Answer: <strong>Hema</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>In which hall does Gopal speak?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Lotus"
+        },
+        {
+          "id": "B",
+          "textHtml": "Maple"
+        },
+        {
+          "id": "C",
+          "textHtml": "Neem"
+        },
+        {
+          "id": "D",
+          "textHtml": "Cannot be determined"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Each hall hosts exactly two talks. Farah and Imran share a hall. If that hall were Neem, Neem would host Farah, Imran and Jaya (three talks); if it were Maple, Maple would host Farah, Imran and Hema. Both are impossible, so Farah and Imran are in <strong>Lotus</strong>, which is then full. Gopal and Kunal therefore occupy the remaining Neem and Maple slots. Gopal speaks on the day just before Hema (Maple), and Maple cannot be used on consecutive days, so Gopal is in <strong>Neem</strong> and Kunal is in <strong>Maple</strong>.</p><p>So the hall pairs are Lotus: Farah, Imran; Neem: Jaya, Gopal; Maple: Hema, Kunal, and the two talks of a pair can never be on consecutive days.</p><p><strong>Placing the Gopal-Hema block</strong> (days numbered 1 = Monday to 6 = Saturday):</p><ul><li>G-H on 1-2: Farah and Kunal must be 3 apart among days 3-6, so they take 3 and 6; Kunal on 3 would follow Hema (both Maple), so Kunal = 6, Farah = 3. Jaya and Imran take 4 and 5 with Jaya first. Valid: G H F J I K.</li><li>G-H on 2-3: Farah/Kunal take 1 and 4; Kunal on 4 would follow Hema, so Kunal = 1, Farah = 4; Jaya = 5, Imran = 6. Valid: K G H F J I.</li><li>G-H on 3-4: Farah/Kunal take 2 and 5; Kunal = 5 is next to Hema, so Kunal = 2, Farah = 5; then Jaya = 1, Imran = 6, making Farah and Imran (both Lotus) consecutive. Invalid.</li><li>G-H on 4-5: Farah/Kunal take 3 and 6; Kunal = 6 is next to Hema, so Kunal = 3, Farah = 6; Jaya = 1, Imran = 2. Valid: J I K G H F.</li><li>G-H on 5-6: Farah/Kunal take 1 and 4; Jaya = 2, Imran = 3. Farah = 4 would be next to Imran (Lotus), so Farah = 1, Kunal = 4. Valid: F J I K G H.</li></ul><p>Exactly four schedules survive:</p><table><tr><th>Schedule</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td>1</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td></tr><tr><td>2</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td></tr><tr><td>3</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td></tr><tr><td>4</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td></tr></table><p>Gopal must be in the hall left over after Lotus (Farah, Imran) is full and Maple cannot be used on the day before Hema's Maple talk. Hence Gopal speaks in <strong>Neem</strong> in every valid schedule.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many different complete schedules (specifying the speaker and the hall for each day) satisfy all the given conditions?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Each hall hosts exactly two talks. Farah and Imran share a hall. If that hall were Neem, Neem would host Farah, Imran and Jaya (three talks); if it were Maple, Maple would host Farah, Imran and Hema. Both are impossible, so Farah and Imran are in <strong>Lotus</strong>, which is then full. Gopal and Kunal therefore occupy the remaining Neem and Maple slots. Gopal speaks on the day just before Hema (Maple), and Maple cannot be used on consecutive days, so Gopal is in <strong>Neem</strong> and Kunal is in <strong>Maple</strong>.</p><p>So the hall pairs are Lotus: Farah, Imran; Neem: Jaya, Gopal; Maple: Hema, Kunal, and the two talks of a pair can never be on consecutive days.</p><p><strong>Placing the Gopal-Hema block</strong> (days numbered 1 = Monday to 6 = Saturday):</p><ul><li>G-H on 1-2: Farah and Kunal must be 3 apart among days 3-6, so they take 3 and 6; Kunal on 3 would follow Hema (both Maple), so Kunal = 6, Farah = 3. Jaya and Imran take 4 and 5 with Jaya first. Valid: G H F J I K.</li><li>G-H on 2-3: Farah/Kunal take 1 and 4; Kunal on 4 would follow Hema, so Kunal = 1, Farah = 4; Jaya = 5, Imran = 6. Valid: K G H F J I.</li><li>G-H on 3-4: Farah/Kunal take 2 and 5; Kunal = 5 is next to Hema, so Kunal = 2, Farah = 5; then Jaya = 1, Imran = 6, making Farah and Imran (both Lotus) consecutive. Invalid.</li><li>G-H on 4-5: Farah/Kunal take 3 and 6; Kunal = 6 is next to Hema, so Kunal = 3, Farah = 6; Jaya = 1, Imran = 2. Valid: J I K G H F.</li><li>G-H on 5-6: Farah/Kunal take 1 and 4; Jaya = 2, Imran = 3. Farah = 4 would be next to Imran (Lotus), so Farah = 1, Kunal = 4. Valid: F J I K G H.</li></ul><p>Exactly four schedules survive:</p><table><tr><th>Schedule</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td>1</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td></tr><tr><td>2</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td></tr><tr><td>3</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td></tr><tr><td>4</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td></tr></table><p>Since every speaker's hall is fixed, a schedule is fixed by the day order. Exactly <strong>4</strong> orders survive.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the Lotus hall is used on Monday, who speaks on Thursday?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Gopal"
+        },
+        {
+          "id": "B",
+          "textHtml": "Imran"
+        },
+        {
+          "id": "C",
+          "textHtml": "Jaya"
+        },
+        {
+          "id": "D",
+          "textHtml": "Kunal"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Each hall hosts exactly two talks. Farah and Imran share a hall. If that hall were Neem, Neem would host Farah, Imran and Jaya (three talks); if it were Maple, Maple would host Farah, Imran and Hema. Both are impossible, so Farah and Imran are in <strong>Lotus</strong>, which is then full. Gopal and Kunal therefore occupy the remaining Neem and Maple slots. Gopal speaks on the day just before Hema (Maple), and Maple cannot be used on consecutive days, so Gopal is in <strong>Neem</strong> and Kunal is in <strong>Maple</strong>.</p><p>So the hall pairs are Lotus: Farah, Imran; Neem: Jaya, Gopal; Maple: Hema, Kunal, and the two talks of a pair can never be on consecutive days.</p><p><strong>Placing the Gopal-Hema block</strong> (days numbered 1 = Monday to 6 = Saturday):</p><ul><li>G-H on 1-2: Farah and Kunal must be 3 apart among days 3-6, so they take 3 and 6; Kunal on 3 would follow Hema (both Maple), so Kunal = 6, Farah = 3. Jaya and Imran take 4 and 5 with Jaya first. Valid: G H F J I K.</li><li>G-H on 2-3: Farah/Kunal take 1 and 4; Kunal on 4 would follow Hema, so Kunal = 1, Farah = 4; Jaya = 5, Imran = 6. Valid: K G H F J I.</li><li>G-H on 3-4: Farah/Kunal take 2 and 5; Kunal = 5 is next to Hema, so Kunal = 2, Farah = 5; then Jaya = 1, Imran = 6, making Farah and Imran (both Lotus) consecutive. Invalid.</li><li>G-H on 4-5: Farah/Kunal take 3 and 6; Kunal = 6 is next to Hema, so Kunal = 3, Farah = 6; Jaya = 1, Imran = 2. Valid: J I K G H F.</li><li>G-H on 5-6: Farah/Kunal take 1 and 4; Jaya = 2, Imran = 3. Farah = 4 would be next to Imran (Lotus), so Farah = 1, Kunal = 4. Valid: F J I K G H.</li></ul><p>Exactly four schedules survive:</p><table><tr><th>Schedule</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td>1</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td></tr><tr><td>2</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td></tr><tr><td>3</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td><td>Farah (Lotus)</td></tr><tr><td>4</td><td>Farah (Lotus)</td><td>Jaya (Neem)</td><td>Imran (Lotus)</td><td>Kunal (Maple)</td><td>Gopal (Neem)</td><td>Hema (Maple)</td></tr></table><p>Lotus hosts only Farah and Imran, and Imran can never be on Monday (he follows Jaya). Only schedule 4 has Farah on Monday: Farah, Jaya, Imran, Kunal, Gopal, Hema. Thursday's speaker is <strong>Kunal</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Growth Rates",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which city recorded the highest percentage increase in orders from Q1 to Q4?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Agra"
+        },
+        {
+          "id": "B",
+          "textHtml": "Erode"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cuttack"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bhopal"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Growth from Q1 to Q4: Agra (52 - 40)/40 = 30.0%; Bhopal (49 - 35)/35 = 40.0%; Cuttack (36 - 28)/28 = 28.6%; Dehradun (58 - 50)/50 = 16.0%; Erode (30 - 22)/22 = 36.4%. The highest is <strong>Bhopal</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Revenue",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which city generated the second-highest revenue for the full year?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Agra"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bhopal"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dehradun"
+        },
+        {
+          "id": "D",
+          "textHtml": "Erode"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Annual orders ('000): Agra 182, Bhopal 157, Cuttack 132, Dehradun 211, Erode 104.</p><p>Annual revenue (&#8377; thousand) = annual orders &#215; AOV: Agra 182 &#215; 640 = 1,16,480; Bhopal 157 &#215; 720 = 1,13,040; Cuttack 132 &#215; 580 = 76,560; Dehradun 211 &#215; 600 = 1,26,600; Erode 104 &#215; 810 = 84,240.</p><p>Dehradun is first and <strong>Agra</strong> is second.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Counting",
+      "difficulty": "easy",
+      "stemHtml": "<p>In how many instances did a city's orders in a quarter fall compared with its orders in the immediately preceding quarter? (Count each city-quarter pair separately.)</p>",
+      "answer": "5",
+      "solutionHtml": "<p>Agra: Q2&#8594;Q3 (46 to 44). Bhopal: Q1&#8594;Q2 (35 to 33). Cuttack: Q3&#8594;Q4 (37 to 36). Dehradun: Q1&#8594;Q2 (50 to 48). Erode: Q2&#8594;Q3 (27 to 25). Every other quarter-on-quarter change is an increase. Total = <strong>5</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Share",
+      "difficulty": "medium",
+      "stemHtml": "<p>In which quarter was Cuttack's share of the retailer's total orders (all five cities) the highest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Q1"
+        },
+        {
+          "id": "B",
+          "textHtml": "Q2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Q3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Q4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Total orders ('000): Q1 175, Q2 185, Q3 201, Q4 225.</p><p>Cuttack's share: Q1 28/175 = 16.0%; Q2 31/185 = 16.8%; Q3 37/201 = 18.4%; Q4 36/225 = 16.0%. Highest in <strong>Q3</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Projection",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose that in the next financial year every city receives, in each of the four quarters, exactly as many orders as it received in Q4 of this year, and the AOV of every city remains unchanged. By approximately how much would the retailer's total annual revenue rise compared with this year?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "&#8377;6.92 crore"
+        },
+        {
+          "id": "B",
+          "textHtml": "&#8377;7.72 crore"
+        },
+        {
+          "id": "C",
+          "textHtml": "&#8377;7.24 crore"
+        },
+        {
+          "id": "D",
+          "textHtml": "&#8377;8.14 crore"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>For each city, increase in annual orders ('000) = 4 &#215; Q4 orders - this year's total: Agra 208 - 182 = 26; Bhopal 196 - 157 = 39; Cuttack 144 - 132 = 12; Dehradun 232 - 211 = 21; Erode 120 - 104 = 16.</p><p>Increase in revenue (&#8377; thousand): 26 &#215; 640 = 16,640; 39 &#215; 720 = 28,080; 12 &#215; 580 = 6,960; 21 &#215; 600 = 12,600; 16 &#215; 810 = 12,960. Sum = 77,240 thousand = &#8377;7.72 crore. Answer: <strong>&#8377;7.72 crore</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournament",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many points did Q score in the tournament?</p>",
+      "answer": "9",
+      "solutionHtml": "<p><strong>Deductions.</strong> P has 7 points from 4 matches. With w wins and d draws, 3w + d = 7 and w + d &#8804; 4, so w = 2, d = 1: P won 2, drew 1, lost 1.</p><p>Q won more matches than anyone, so Q has at least 3 wins (P already has 2). R never lost, so Q did not beat R; hence Q beat P, S and T. Q must have lost a match (R is the only unbeaten team), and its only remaining match is against R: <strong>R beat Q</strong>. Q has 3 wins and 1 loss = <strong>9 points</strong>.</p><p>P's only loss is to Q. P could not beat R (unbeaten), so P drew with R and beat S and T.</p><p>Six results are now fixed (Q beat P, S, T; R beat Q; P drew R; P beat S, T), with one draw (P-R). The remaining matches R-S, R-T and S-T must contain exactly two draws. R cannot lose and T cannot win, so the one decisive match is R beats S, R beats T, or S beats T:</p><ul><li>R beats S; R-T and S-T drawn: P 7, Q 9, R 8, S 1, T 2.</li><li>R beats T; R-S and S-T drawn: P 7, Q 9, R 8, S 2, T 1.</li><li>S beats T; R-S and R-T drawn: P 7, Q 9, R 6, S 4, T 1.</li></ul><p>In each case all point totals are distinct and Q has strictly the most wins (R has at most 2), so all three cases are valid.</p><p>Q scored <strong>9</strong> points.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournament",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following must be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "R beat S"
+        },
+        {
+          "id": "B",
+          "textHtml": "S beat T"
+        },
+        {
+          "id": "C",
+          "textHtml": "R finished second"
+        },
+        {
+          "id": "D",
+          "textHtml": "P drew with R"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Deductions.</strong> P has 7 points from 4 matches. With w wins and d draws, 3w + d = 7 and w + d &#8804; 4, so w = 2, d = 1: P won 2, drew 1, lost 1.</p><p>Q won more matches than anyone, so Q has at least 3 wins (P already has 2). R never lost, so Q did not beat R; hence Q beat P, S and T. Q must have lost a match (R is the only unbeaten team), and its only remaining match is against R: <strong>R beat Q</strong>. Q has 3 wins and 1 loss = <strong>9 points</strong>.</p><p>P's only loss is to Q. P could not beat R (unbeaten), so P drew with R and beat S and T.</p><p>Six results are now fixed (Q beat P, S, T; R beat Q; P drew R; P beat S, T), with one draw (P-R). The remaining matches R-S, R-T and S-T must contain exactly two draws. R cannot lose and T cannot win, so the one decisive match is R beats S, R beats T, or S beats T:</p><ul><li>R beats S; R-T and S-T drawn: P 7, Q 9, R 8, S 1, T 2.</li><li>R beats T; R-S and S-T drawn: P 7, Q 9, R 8, S 2, T 1.</li><li>S beats T; R-S and R-T drawn: P 7, Q 9, R 6, S 4, T 1.</li></ul><p>In each case all point totals are distinct and Q has strictly the most wins (R has at most 2), so all three cases are valid.</p><p>P drew with R in every case. R beat S only in case 1, S beat T only in case 3, and R is third (6 points, behind P's 7) in case 3. Answer: <strong>P drew with R</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournament",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the maximum number of points that S could have scored?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Deductions.</strong> P has 7 points from 4 matches. With w wins and d draws, 3w + d = 7 and w + d &#8804; 4, so w = 2, d = 1: P won 2, drew 1, lost 1.</p><p>Q won more matches than anyone, so Q has at least 3 wins (P already has 2). R never lost, so Q did not beat R; hence Q beat P, S and T. Q must have lost a match (R is the only unbeaten team), and its only remaining match is against R: <strong>R beat Q</strong>. Q has 3 wins and 1 loss = <strong>9 points</strong>.</p><p>P's only loss is to Q. P could not beat R (unbeaten), so P drew with R and beat S and T.</p><p>Six results are now fixed (Q beat P, S, T; R beat Q; P drew R; P beat S, T), with one draw (P-R). The remaining matches R-S, R-T and S-T must contain exactly two draws. R cannot lose and T cannot win, so the one decisive match is R beats S, R beats T, or S beats T:</p><ul><li>R beats S; R-T and S-T drawn: P 7, Q 9, R 8, S 1, T 2.</li><li>R beats T; R-S and S-T drawn: P 7, Q 9, R 8, S 2, T 1.</li><li>S beats T; R-S and R-T drawn: P 7, Q 9, R 6, S 4, T 1.</li></ul><p>In each case all point totals are distinct and Q has strictly the most wins (R has at most 2), so all three cases are valid.</p><p>S scores 1, 2 or 4 points across the three cases. Maximum = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournament",
+      "difficulty": "medium",
+      "stemHtml": "<p>If S won at least one match, how many points did R score?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Deductions.</strong> P has 7 points from 4 matches. With w wins and d draws, 3w + d = 7 and w + d &#8804; 4, so w = 2, d = 1: P won 2, drew 1, lost 1.</p><p>Q won more matches than anyone, so Q has at least 3 wins (P already has 2). R never lost, so Q did not beat R; hence Q beat P, S and T. Q must have lost a match (R is the only unbeaten team), and its only remaining match is against R: <strong>R beat Q</strong>. Q has 3 wins and 1 loss = <strong>9 points</strong>.</p><p>P's only loss is to Q. P could not beat R (unbeaten), so P drew with R and beat S and T.</p><p>Six results are now fixed (Q beat P, S, T; R beat Q; P drew R; P beat S, T), with one draw (P-R). The remaining matches R-S, R-T and S-T must contain exactly two draws. R cannot lose and T cannot win, so the one decisive match is R beats S, R beats T, or S beats T:</p><ul><li>R beats S; R-T and S-T drawn: P 7, Q 9, R 8, S 1, T 2.</li><li>R beats T; R-S and S-T drawn: P 7, Q 9, R 8, S 2, T 1.</li><li>S beats T; R-S and R-T drawn: P 7, Q 9, R 6, S 4, T 1.</li></ul><p>In each case all point totals are distinct and Q has strictly the most wins (R has at most 2), so all three cases are valid.</p><p>S lost to P and Q and did not beat R (unbeaten), so its only possible win is against T: that is case 3, where R drew with S and T, beat Q and drew with P: 1 + 1 + 3 + 1 = <strong>6</strong> points.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Missing Data",
+      "difficulty": "easy",
+      "stemHtml": "<p>What was the closing stock of Notebooks at the end of February?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "80"
+        },
+        {
+          "id": "B",
+          "textHtml": "90"
+        },
+        {
+          "id": "C",
+          "textHtml": "100"
+        },
+        {
+          "id": "D",
+          "textHtml": "110"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Filling the gaps.</strong> Notebooks received in Feb = 345 - (100 + 30 + 65) = 150. Markers dispatched in Jan = 355 - (110 + 140 + 45) = 60. Pens: 120 + 80 + 100 + 60 - 110 - 95 - x = 35 gives x = 120 dispatched in March. Markers: 75 + 25 + 65 + y - 60 - 55 - 70 = 10 gives y = 30 received in March. Files closing on 31 Mar = 60 + 40 + 30 + 70 - 45 - 50 - 40 = 65.</p><p>Month-wise opening &#8594; closing: Pens 120 &#8594; 90 &#8594; 95 &#8594; 35; Notebooks 200 &#8594; 110 &#8594; 90 &#8594; 125; Files 60 &#8594; 55 &#8594; 35 &#8594; 65; Markers 75 &#8594; 40 &#8594; 50 &#8594; 10.</p><p>Notebooks: 200 + 50 - 140 = 110 at end of Jan; 110 + 150 - 170 = <strong>90</strong> at end of Feb.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Missing Data",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many cartons of Pens were dispatched in March?</p>",
+      "answer": "120",
+      "solutionHtml": "<p><strong>Filling the gaps.</strong> Notebooks received in Feb = 345 - (100 + 30 + 65) = 150. Markers dispatched in Jan = 355 - (110 + 140 + 45) = 60. Pens: 120 + 80 + 100 + 60 - 110 - 95 - x = 35 gives x = 120 dispatched in March. Markers: 75 + 25 + 65 + y - 60 - 55 - 70 = 10 gives y = 30 received in March. Files closing on 31 Mar = 60 + 40 + 30 + 70 - 45 - 50 - 40 = 65.</p><p>Month-wise opening &#8594; closing: Pens 120 &#8594; 90 &#8594; 95 &#8594; 35; Notebooks 200 &#8594; 110 &#8594; 90 &#8594; 125; Files 60 &#8594; 55 &#8594; 35 &#8594; 65; Markers 75 &#8594; 40 &#8594; 50 &#8594; 10.</p><p>Pens dispatched in March = <strong>120</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Ratios",
+      "difficulty": "medium",
+      "stemHtml": "<p>For which item was the ratio of cartons dispatched in March to the cartons available in March (opening stock of March + cartons received in March) the highest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Pens"
+        },
+        {
+          "id": "B",
+          "textHtml": "Notebooks"
+        },
+        {
+          "id": "C",
+          "textHtml": "Files"
+        },
+        {
+          "id": "D",
+          "textHtml": "Markers"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Filling the gaps.</strong> Notebooks received in Feb = 345 - (100 + 30 + 65) = 150. Markers dispatched in Jan = 355 - (110 + 140 + 45) = 60. Pens: 120 + 80 + 100 + 60 - 110 - 95 - x = 35 gives x = 120 dispatched in March. Markers: 75 + 25 + 65 + y - 60 - 55 - 70 = 10 gives y = 30 received in March. Files closing on 31 Mar = 60 + 40 + 30 + 70 - 45 - 50 - 40 = 65.</p><p>Month-wise opening &#8594; closing: Pens 120 &#8594; 90 &#8594; 95 &#8594; 35; Notebooks 200 &#8594; 110 &#8594; 90 &#8594; 125; Files 60 &#8594; 55 &#8594; 35 &#8594; 65; Markers 75 &#8594; 40 &#8594; 50 &#8594; 10.</p><p>March ratios: Pens 120/(95 + 60) = 0.77; Notebooks 85/(90 + 120) = 0.40; Files 40/(35 + 70) = 0.38; Markers 70/(50 + 30) = 0.875. Highest: <strong>Markers</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Missing Data",
+      "difficulty": "hard",
+      "stemHtml": "<p>Considering each of the four items in each of the three months (12 item-month combinations), in how many combinations was the closing stock of that month lower than the opening stock of that month?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Filling the gaps.</strong> Notebooks received in Feb = 345 - (100 + 30 + 65) = 150. Markers dispatched in Jan = 355 - (110 + 140 + 45) = 60. Pens: 120 + 80 + 100 + 60 - 110 - 95 - x = 35 gives x = 120 dispatched in March. Markers: 75 + 25 + 65 + y - 60 - 55 - 70 = 10 gives y = 30 received in March. Files closing on 31 Mar = 60 + 40 + 30 + 70 - 45 - 50 - 40 = 65.</p><p>Month-wise opening &#8594; closing: Pens 120 &#8594; 90 &#8594; 95 &#8594; 35; Notebooks 200 &#8594; 110 &#8594; 90 &#8594; 125; Files 60 &#8594; 55 &#8594; 35 &#8594; 65; Markers 75 &#8594; 40 &#8594; 50 &#8594; 10.</p><p>Closing lower than opening: Pens Jan, Mar; Notebooks Jan, Feb; Files Jan, Feb; Markers Jan, Mar. Total = <strong>8</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Scoring",
+      "difficulty": "easy",
+      "stemHtml": "<p>What was Aditi's score?</p>",
+      "answer": "31",
+      "solutionHtml": "<p><strong>Deductions.</strong> A score of 31 with four arrows can only be 10+10+10+1, 10+10+7+4 or 10+7+7+7. Bhavna (no Gold) can score at most 28, so she is not 31; Charu is below Aditi, so she is not 31. Divya must hit Blue and exactly one Black; of the three combinations only 10+10+7+4 contains a Blue, and it has no Black, so Divya is not 31. Hence <strong>Aditi = 31 = Gold, Gold, Red, Blue</strong> (she must hit Blue).</p><p>That leaves exactly 2 Golds for Bhavna, Charu and Divya, and Bhavna has none. Charu and Divya each contain at least one Blue (4) and one Black (1), i.e. 5 points from two arrows; the other two arrows must make up the rest of 25, 22 or 15:</p><ul><li>25: two arrows totalling 20 = Gold + Gold.</li><li>22: two arrows totalling 17 = Gold + Red.</li><li>15: two arrows totalling 10 = Gold + Miss.</li></ul><p>(A second Black would need a single arrow worth 19, 16 or 9, which is impossible.) So Charu and Divya each hit at least one Gold; with only 2 Golds left, each hit exactly one, so neither scored 25. Therefore Charu and Divya scored 22 and 15 in some order, and <strong>Bhavna = 25</strong>, which without Gold and with a Blue can only be Red, Red, Red, Blue.</p><p>The 22-scorer shot Gold, Red, Blue, Black; the 15-scorer shot Gold, Blue, Black, Miss (the only miss). Both orders of Charu/Divya satisfy all conditions, giving two possible cases.</p><p>Aditi scored <strong>31</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Scoring",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many arrows, in total across all four archers, hit Red?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Deductions.</strong> A score of 31 with four arrows can only be 10+10+10+1, 10+10+7+4 or 10+7+7+7. Bhavna (no Gold) can score at most 28, so she is not 31; Charu is below Aditi, so she is not 31. Divya must hit Blue and exactly one Black; of the three combinations only 10+10+7+4 contains a Blue, and it has no Black, so Divya is not 31. Hence <strong>Aditi = 31 = Gold, Gold, Red, Blue</strong> (she must hit Blue).</p><p>That leaves exactly 2 Golds for Bhavna, Charu and Divya, and Bhavna has none. Charu and Divya each contain at least one Blue (4) and one Black (1), i.e. 5 points from two arrows; the other two arrows must make up the rest of 25, 22 or 15:</p><ul><li>25: two arrows totalling 20 = Gold + Gold.</li><li>22: two arrows totalling 17 = Gold + Red.</li><li>15: two arrows totalling 10 = Gold + Miss.</li></ul><p>(A second Black would need a single arrow worth 19, 16 or 9, which is impossible.) So Charu and Divya each hit at least one Gold; with only 2 Golds left, each hit exactly one, so neither scored 25. Therefore Charu and Divya scored 22 and 15 in some order, and <strong>Bhavna = 25</strong>, which without Gold and with a Blue can only be Red, Red, Red, Blue.</p><p>The 22-scorer shot Gold, Red, Blue, Black; the 15-scorer shot Gold, Blue, Black, Miss (the only miss). Both orders of Charu/Divya satisfy all conditions, giving two possible cases.</p><p>Red arrows: Aditi 1, Bhavna 3, the 22-scorer 1, the 15-scorer 0. Total = <strong>5</strong> in either case.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Scoring",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following must be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Divya hit Gold with exactly one arrow"
+        },
+        {
+          "id": "B",
+          "textHtml": "Charu missed the target with one arrow"
+        },
+        {
+          "id": "C",
+          "textHtml": "Bhavna hit Blue with exactly two arrows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Charu scored 22"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Deductions.</strong> A score of 31 with four arrows can only be 10+10+10+1, 10+10+7+4 or 10+7+7+7. Bhavna (no Gold) can score at most 28, so she is not 31; Charu is below Aditi, so she is not 31. Divya must hit Blue and exactly one Black; of the three combinations only 10+10+7+4 contains a Blue, and it has no Black, so Divya is not 31. Hence <strong>Aditi = 31 = Gold, Gold, Red, Blue</strong> (she must hit Blue).</p><p>That leaves exactly 2 Golds for Bhavna, Charu and Divya, and Bhavna has none. Charu and Divya each contain at least one Blue (4) and one Black (1), i.e. 5 points from two arrows; the other two arrows must make up the rest of 25, 22 or 15:</p><ul><li>25: two arrows totalling 20 = Gold + Gold.</li><li>22: two arrows totalling 17 = Gold + Red.</li><li>15: two arrows totalling 10 = Gold + Miss.</li></ul><p>(A second Black would need a single arrow worth 19, 16 or 9, which is impossible.) So Charu and Divya each hit at least one Gold; with only 2 Golds left, each hit exactly one, so neither scored 25. Therefore Charu and Divya scored 22 and 15 in some order, and <strong>Bhavna = 25</strong>, which without Gold and with a Blue can only be Red, Red, Red, Blue.</p><p>The 22-scorer shot Gold, Red, Blue, Black; the 15-scorer shot Gold, Blue, Black, Miss (the only miss). Both orders of Charu/Divya satisfy all conditions, giving two possible cases.</p><p>Charu and Divya each hit exactly one Gold in both cases, so <strong>Divya hit Gold with exactly one arrow</strong> must be true. Charu may score 22 or 15 (so she may or may not have missed), and Bhavna hit Blue only once.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Scoring",
+      "difficulty": "medium",
+      "stemHtml": "<p>If Divya scored more than Charu, what was Divya's score?</p>",
+      "answer": "22",
+      "solutionHtml": "<p><strong>Deductions.</strong> A score of 31 with four arrows can only be 10+10+10+1, 10+10+7+4 or 10+7+7+7. Bhavna (no Gold) can score at most 28, so she is not 31; Charu is below Aditi, so she is not 31. Divya must hit Blue and exactly one Black; of the three combinations only 10+10+7+4 contains a Blue, and it has no Black, so Divya is not 31. Hence <strong>Aditi = 31 = Gold, Gold, Red, Blue</strong> (she must hit Blue).</p><p>That leaves exactly 2 Golds for Bhavna, Charu and Divya, and Bhavna has none. Charu and Divya each contain at least one Blue (4) and one Black (1), i.e. 5 points from two arrows; the other two arrows must make up the rest of 25, 22 or 15:</p><ul><li>25: two arrows totalling 20 = Gold + Gold.</li><li>22: two arrows totalling 17 = Gold + Red.</li><li>15: two arrows totalling 10 = Gold + Miss.</li></ul><p>(A second Black would need a single arrow worth 19, 16 or 9, which is impossible.) So Charu and Divya each hit at least one Gold; with only 2 Golds left, each hit exactly one, so neither scored 25. Therefore Charu and Divya scored 22 and 15 in some order, and <strong>Bhavna = 25</strong>, which without Gold and with a Blue can only be Red, Red, Red, Blue.</p><p>The 22-scorer shot Gold, Red, Blue, Black; the 15-scorer shot Gold, Blue, Black, Miss (the only miss). Both orders of Charu/Divya satisfy all conditions, giving two possible cases.</p><p>Charu and Divya share 22 and 15; if Divya scored more, Divya scored <strong>22</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Scoring",
+      "difficulty": "hard",
+      "stemHtml": "<p>For how many of the four archers can the ring (or miss) of each of her four arrows be determined uniquely, ignoring the order in which the arrows were shot?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Deductions.</strong> A score of 31 with four arrows can only be 10+10+10+1, 10+10+7+4 or 10+7+7+7. Bhavna (no Gold) can score at most 28, so she is not 31; Charu is below Aditi, so she is not 31. Divya must hit Blue and exactly one Black; of the three combinations only 10+10+7+4 contains a Blue, and it has no Black, so Divya is not 31. Hence <strong>Aditi = 31 = Gold, Gold, Red, Blue</strong> (she must hit Blue).</p><p>That leaves exactly 2 Golds for Bhavna, Charu and Divya, and Bhavna has none. Charu and Divya each contain at least one Blue (4) and one Black (1), i.e. 5 points from two arrows; the other two arrows must make up the rest of 25, 22 or 15:</p><ul><li>25: two arrows totalling 20 = Gold + Gold.</li><li>22: two arrows totalling 17 = Gold + Red.</li><li>15: two arrows totalling 10 = Gold + Miss.</li></ul><p>(A second Black would need a single arrow worth 19, 16 or 9, which is impossible.) So Charu and Divya each hit at least one Gold; with only 2 Golds left, each hit exactly one, so neither scored 25. Therefore Charu and Divya scored 22 and 15 in some order, and <strong>Bhavna = 25</strong>, which without Gold and with a Blue can only be Red, Red, Red, Blue.</p><p>The 22-scorer shot Gold, Red, Blue, Black; the 15-scorer shot Gold, Blue, Black, Miss (the only miss). Both orders of Charu/Divya satisfy all conditions, giving two possible cases.</p><p>Aditi (Gold, Gold, Red, Blue) and Bhavna (Red, Red, Red, Blue) are fixed, but Charu and Divya can swap between the two remaining combinations. Answer: <strong>2</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

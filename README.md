@@ -13,6 +13,18 @@ This API serves imported counselling data for:
 - Gender/category/state fee-benefit guidance
 - MHT-CET engineering college prediction by rank, percentile, or marks
 
+## Database
+
+Firestore is shared with the Java backend and is write-guarded. See [docs/database.md](docs/database.md).
+
+## Developer Setup
+
+1. `cp .env.example .env` and fill it in (ask a maintainer for the secrets).
+2. Put the service-account file at `.secrets/firebase-prod.json`.
+3. Run as below and check `GET /api/v1/db/health`.
+
+Never commit `.env` or `.secrets/`.
+
 ## Run Locally
 
 ```bash

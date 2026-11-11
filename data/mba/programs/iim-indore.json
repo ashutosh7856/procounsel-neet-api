@@ -1,0 +1,259 @@
+{
+  "slug": "iim-indore",
+  "name": "Indian Institute of Management Indore",
+  "shortName": "IIM Indore",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "website": "https://iimidr.ac.in",
+  "programs": [
+    {
+      "code": "PGP",
+      "name": "Post Graduate Programme in Management (PGP) leading to award of MBA",
+      "durationYears": 2,
+      "feeTotal": 2400000,
+      "feeNote": "Course fee for CAT students, batch 2026-28 (INR 12 lakh x 2). With caution deposit, mess deposit and alumni fee the stated year totals add up to INR 25,15,800.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Indore - PGP Fee Structure, Fees Structure for PGP Batch 2026-28 (updated 09 January 2026)",
+        "url": "https://iimidr.ac.in/programmes/academic-programmes/post-graduate-programme-in-management-pgp/feestructure/",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Fees Structure for PGP Batch 2026-28 ... For Indian Students through CAT ... Course Fee | 12,00,000 (AY 2026-27) | 12,00,000 (AY 2027-28) ... Grand Total | 13,04,000 | 12,11,800 ... Course fee does not include cost of text books."
+      },
+      "intake": 633,
+      "intakeNote": "NIRF 2025 sanctioned intake (academic year 2023-24) for all 2-year PG programmes of the institute combined, not only this programme. May include IPM students in their PG years.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by institution (Indian Institute of Management Indore) [IR-M-S-8918]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8918.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake ... Academic Year 2023-24 2022-23 ... PG [2 Year Program(s)] 633 635"
+      },
+      "medianSalary": 2500000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Class of 2026: 586 graduates (492 MBA and 94 IPM dual-degree) combined; no PGP-only median published.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Indore Consolidated Placement Report - Final Placement Report 2024-26 (PGP and IPM)",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2026/08/Final-Placement-Report-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "IIM Indore successfully concluded its Final Placements for the Class of 2026 ... Average and median packages stood strong at ₹27.27 Lakhs and ₹25.00 Lakhs, respectively."
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "overall": 90,
+      "varc": 80,
+      "dilr": 80,
+      "qa": 80,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "overall": 90,
+      "varc": 80,
+      "dilr": 80,
+      "qa": 80,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "overall": 80,
+      "varc": 70,
+      "dilr": 70,
+      "qa": 70,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "overall": 60,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "overall": 45,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "overall": 45,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "overall": 45,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "overall": 45,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "overall": 45,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "overall": 45,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimidr.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Indore — Two-Year PGP 2026-28 Batch Admission Procedure for CAT 2025 Applicants, Table 1: CAT 2025 Sectional and Overall Percentile Cut-offs",
+        "url": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80.00 80.00 80.00 90.00 / EWS 80.00 80.00 80.00 90.00 / NC-OBC 70.00 70.00 70.00 80.00 / SC 55.00 55.00 55.00 60.00 / ST 40.00 40.00 40.00 45.00 / PwD 40.00 40.00 40.00 45.00 (QA, DILR, VARC, Overall)"
+      },
+      "gender": null
+    }
+  ],
+  "cutoffNotes": null
+}

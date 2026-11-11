@@ -1,0 +1,259 @@
+{
+  "slug": "iim-bangalore",
+  "name": "Indian Institute of Management Bangalore",
+  "shortName": "IIM Bangalore",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "website": "https://www.iimb.ac.in",
+  "programs": [
+    {
+      "code": "PGP",
+      "name": "Post Graduate Programme in Management (PGP) - MBA",
+      "durationYears": 2,
+      "feeTotal": 2600000,
+      "feeNote": "PGP 2024-26 (domestic) programme fee: tuition, library, hostel rent, insurance etc.; mess advance and caution deposits extra. A newer official fee could not be verified.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIMB PGP Programme Expenses (official page; text as captured by Internet Archive on 2026-04-16 at http://web.archive.org/web/20260416141558/https://www.iimb.ac.in/pgp-programme-expenses)",
+        "url": "https://www.iimb.ac.in/pgp-programme-expenses",
+        "year": 2024,
+        "retrievedAt": "2026-11-11",
+        "quote": "The fees (in INR) for the batch of PGP 2024-26 (Domestic) is: Fees* for 2 years Rs. 26,00,000 ... * Fees covers Tuition, Library, Internet, Case Permission Royalty, Course Material, Hostel Room Rent and Service Charge, Medical Insurance, Personal Accident Insurance and Alumni Activity. ... students will have to pay mess advance of Rs. 30,000 each term."
+      },
+      "intake": 598,
+      "intakeNote": "NIRF 2025 sanctioned intake (academic year 2023-24) for all 2-year PG programmes of the institute combined, not only this programme.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by institution (Indian Institute of Management Bangalore) [IR-M-S-8903]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8903.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake ... Academic Year 2023-24 2022-23 ... PG [2 Year Program(s)] 598 525"
+      },
+      "medianSalary": 3475000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "PGP and PGPBA combined, Class of 2026.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIMB Career Development Services - Placement Report 2026",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/Placement-Report-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Compensation Details PGP + PGPBA 2024-26 Summary of Compensation (in lakhs) per annum Median Salary 34.75 Average Salary 35.35"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "overall": 85,
+      "varc": 80,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "overall": 75,
+      "varc": 70,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "overall": 75,
+      "varc": 70,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "overall": 70,
+      "varc": 65,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "overall": 65,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "overall": 60,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "overall": 60,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "overall": 60,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "overall": 60,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "overall": 60,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Published in the 2027-29 procedure as the first-shortlist cut-offs applied to CAT 2025 (batch 2026-28); IIMB says 'The scores of those called for interviews were higher.' A positive raw score in every CAT section is also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Bangalore — PGP (MBA) 2027-29 Admission Procedure, Annexure I: Cut-offs for the batch of 2026-28, based on CAT 2025",
+        "url": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "General 80 75 75 85 / NC-OBC 70 65 65 75 / EWS 70 65 65 75 / SC 65 60 60 70 / ST 55 55 55 65 / PWD 50 50 50 60 (VARC, DILR, QA, Aggregate)"
+      },
+      "gender": null
+    }
+  ],
+  "cutoffNotes": null
+}

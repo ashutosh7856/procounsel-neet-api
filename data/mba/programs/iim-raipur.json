@@ -1,0 +1,259 @@
+{
+  "slug": "iim-raipur",
+  "name": "Indian Institute of Management Raipur",
+  "shortName": "IIM Raipur",
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "website": "https://iimraipur.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "feeTotal": 2008000,
+      "feeNote": "Total for 2026-28 excluding caution deposit, boarding and medical insurance.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Raipur - Fee Structure for the MBA 2026-28 Batch (Updated 04.05.2026)",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2026/05/Updated_Fee-Structure-2026-28_04.05.2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Total Fees (Excluding caution deposit, boarding charges and medical insurance charges) 20,08,000"
+      },
+      "intake": 331,
+      "intakeNote": "NIRF sanctioned intake for all 2-year PG programmes of the institute combined (not only this programme).",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by Indian Institute of Management Raipur [IR-M-S-8868]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8868.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake / Academic Year 2023-24 2022-23 ... / PG [2 Year Program(s)] 331 331"
+      },
+      "medianSalary": 1840000,
+      "medianSalaryYear": 2025,
+      "salaryNote": "Median CTC of offers accepted, final placement report 2023-25 (graduating 2025; image-only PDF, figure read from the page). No 2024-26 report found on the official site.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Raipur - Final Placement Report, PGP Batch 2023-25 (linked from iimraipur.ac.in/final-placement-report/)",
+        "url": "https://alumni.iimraipur.edu.in/IIMRaipurAnualReport/FP_Report_2023-25.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "The average CTC stood at INR 18.83 lakhs, median CTC at INR 18.40 lakhs and highest CTC reached INR 33.12 lakhs (These figures are those who accepted the offer). [image-only PDF; transcribed visually from rendered page]"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 90,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Minimums from the common JAP 2026 policy (hosted by IIM Raipur as coordinator), referenced by IIM Raipur's own MBA 2026-28 admission policy page. Academic minimums: X 60 / XII 60 / Grad 50 %. Positive scaled score required in all sections. Actual PI shortlist cut-offs (decided later and published on the JAP portal) were higher - IIM Ranchi/Trichy pages list GEN 95.25, EWS 89, NC-OBC 88.5, SC 75, ST 44, PwD 30 overall. IIM Raipur additionally requires graduation % for its merit list: GEN/EWS/NC-OBC 60, SC 50, ST 45, PwD 45.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 75,
+      "varc": 60,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Minimums from the common JAP 2026 policy (hosted by IIM Raipur as coordinator), referenced by IIM Raipur's own MBA 2026-28 admission policy page. Academic minimums: X 60 / XII 60 / Grad 50 %. Positive scaled score required in all sections. Actual PI shortlist cut-offs (decided later and published on the JAP portal) were higher - IIM Ranchi/Trichy pages list GEN 95.25, EWS 89, NC-OBC 88.5, SC 75, ST 44, PwD 30 overall. IIM Raipur additionally requires graduation % for its merit list: GEN/EWS/NC-OBC 60, SC 50, ST 45, PwD 45.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 75,
+      "varc": 60,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Minimums from the common JAP 2026 policy (hosted by IIM Raipur as coordinator), referenced by IIM Raipur's own MBA 2026-28 admission policy page. Academic minimums: X 60 / XII 60 / Grad 50 %. Positive scaled score required in all sections. Actual PI shortlist cut-offs (decided later and published on the JAP portal) were higher - IIM Ranchi/Trichy pages list GEN 95.25, EWS 89, NC-OBC 88.5, SC 75, ST 44, PwD 30 overall. IIM Raipur additionally requires graduation % for its merit list: GEN/EWS/NC-OBC 60, SC 50, ST 45, PwD 45.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 50,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Minimums from the common JAP 2026 policy (hosted by IIM Raipur as coordinator), referenced by IIM Raipur's own MBA 2026-28 admission policy page. Academic minimums: X 55 / XII 55 / Grad 45 %. Positive scaled score required in all sections. Actual PI shortlist cut-offs (decided later and published on the JAP portal) were higher - IIM Ranchi/Trichy pages list GEN 95.25, EWS 89, NC-OBC 88.5, SC 75, ST 44, PwD 30 overall. IIM Raipur additionally requires graduation % for its merit list: GEN/EWS/NC-OBC 60, SC 50, ST 45, PwD 45.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Minimums from the common JAP 2026 policy (hosted by IIM Raipur as coordinator), referenced by IIM Raipur's own MBA 2026-28 admission policy page. Academic minimums: X 55 / XII 55 / Grad 45 %. Positive scaled score required in all sections. Actual PI shortlist cut-offs (decided later and published on the JAP portal) were higher - IIM Ranchi/Trichy pages list GEN 95.25, EWS 89, NC-OBC 88.5, SC 75, ST 44, PwD 30 overall. IIM Raipur additionally requires graduation % for its merit list: GEN/EWS/NC-OBC 60, SC 50, ST 45, PwD 45.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Policy has a single 'PwD' row (X 45 / XII 45 / Grad 45 %; 25/25/25 sectional; 30 total), applied here to PwD candidates of every category.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Policy has a single 'PwD' row (X 45 / XII 45 / Grad 45 %; 25/25/25 sectional; 30 total), applied here to PwD candidates of every category.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Policy has a single 'PwD' row (X 45 / XII 45 / Grad 45 %; 25/25/25 sectional; 30 total), applied here to PwD candidates of every category.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Policy has a single 'PwD' row (X 45 / XII 45 / Grad 45 %; 25/25/25 sectional; 30 total), applied here to PwD candidates of every category.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: JAP registration (minimum eligibility for PI-shortlisting pool). Policy has a single 'PwD' row (X 45 / XII 45 / Grad 45 %; 25/25/25 sectional; 30 total), applied here to PwD candidates of every category.",
+      "source": {
+        "kind": "official",
+        "title": "JAP 2026 Policy (Joint Admission Process 2026 - IIM Kashipur, Raipur, Ranchi, Tiruchirappalli; coordinator IIM Raipur), v25.12.2025",
+        "url": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1. Minimum eligibility criteria for JAP 2026 Registration Process / Category SSC/Class X (%) HSC/Class XII (%) Graduation (%) VARC DILR QA Scaled Percentile Total Percentile / GEN 60 60 50 75 75 75 90 / EWS 60 60 50 60 60 60 75 / NC-OBC 60 60 50 60 60 60 75 / SC 55 55 45 45 45 45 50 / ST 55 55 45 25 25 25 30 / PwD 45 45 45 25 25 25 30"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

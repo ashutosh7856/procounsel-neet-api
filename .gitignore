@@ -10,3 +10,9 @@ env/
 .env.*
 api_smoke_stdout.log
 api_smoke_stderr.log
+
+# Firebase credentials / emulator
+.secrets/
+*-firebase-adminsdk-*.json
+
+!.env.example

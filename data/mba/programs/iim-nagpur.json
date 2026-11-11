@@ -1,0 +1,259 @@
+{
+  "slug": "iim-nagpur",
+  "name": "Indian Institute of Management Nagpur",
+  "shortName": "IIM Nagpur",
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "website": "https://www.iimnagpur.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA) / Post Graduate Programme in Management (PGP)",
+      "durationYears": 2,
+      "feeTotal": 2100000,
+      "feeNote": "Total programme fee for the 2026-28 batch as stated.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA - Fees, Financial Aid & Scholarship",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/fees-financial-aid-scholarship/",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "The total fee of the program for the batch of 2026-28 is Rs.21,00,000 , and the fee payable at the time of acceptance of the admission offer is Rs 1,00,000"
+      },
+      "intake": 340,
+      "intakeNote": "Batch size for MBA 2026-28.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "The batch size for MBA 2026-28 will be 340 students ... Total Seats 340"
+      },
+      "medianSalary": 1631600,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Median CTC, final placement report 2024-26 (not marked audited). The audited 2023-25 report gives a median MEP of INR 17,03,700.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA 2024-2026 Placement Report",
+        "url": "https://www.iimnagpur.ac.in/wp-content/uploads/2026/10/Final-Placement-Report_.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Median CTC ₹ 16,31,600/- ... 'The median CTC settled at ₹16.32 LPA'. (Not marked as audited; latest audited report is 2023-25: 'Median maximum earning potential: Rs. 17,03,700' https://www.iimnagpur.ac.in/wp-content/uploads/2026/08/Audited-Final-Placement-Report-2023-25.pdf. NIRF 2025 (IR-M-S-15962): 1600000 for graduates of 2023-24.)"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 95,
+      "varc": 70,
+      "dilr": 70,
+      "qa": 70,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 85,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 85,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 65,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Stage: shortlisting (Stage 1 eligibility for application / PI shortlist). CAT 2025. 'Only candidates with positive scores (>0) in all sections of the CAT will be considered'. No separate Class X/XII % minimum stated in the policy; PAP used in scoring. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Nagpur MBA Admissions Policy 2026-28",
+        "url": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 2. CAT 2025 Sectional & Overall cut offs for different categories — Category | VARC | DILR | QA | Overall: General 70 70 70 95; EWS 55 55 55 85; NC-OBC 55 55 55 85; SC 40 40 40 65; ST 30 30 30 40; DAP 25 25 25 40"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

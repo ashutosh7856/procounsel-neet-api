@@ -1,0 +1,259 @@
+{
+  "slug": "iim-ranchi",
+  "name": "Indian Institute of Management Ranchi",
+  "shortName": "IIM Ranchi",
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "website": "https://iimranchi.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA) - Two-Year Post Graduate Programme in Management",
+      "durationYears": 2,
+      "feeTotal": 1920000,
+      "feeNote": "Batch 2026-28 fee for MBA, MBA-HRM and MBA-BA, excluding mess (scanned PDF; figure read from the page).",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Ranchi - MBA/MBA-HRM/MBA-BA 2026-28 Fees Details (Fee Structure and Withdrawal Policy, dated 28.04.2026)",
+        "url": "https://iimranchi.ac.in/media/2026/04/Fee-Structure-and-Withdrawal-Policy.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "The fee for MBA, MBA-HRM & MBA-BA programmes for the batch 2026-28 will be Rs.19.20 Lakh (Excluding Mess Expense). ... Tuition Fee (in INR) 3,45,000 3,15,000 3,15,000 3,15,000 3,15,000 3,15,000 Total 19,20,000 [scanned PDF; transcribed visually]"
+      },
+      "intake": 380,
+      "intakeNote": "NIRF sanctioned intake for all 2-year PG programmes of the institute combined (not only this programme).",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by Indian Institute of Management Ranchi [IR-M-S-8904]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8904.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake / Academic Year 2023-24 2022-23 ... / PG [2 Year Program(s)] 380 380"
+      },
+      "medianSalary": 1800000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Median, audited final placement report for the batch graduating 2026.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Ranchi - Audited Final Placement Report, Academic Year 2025-26, Batch 2024-26",
+        "url": "https://iimranchi.ac.in/media/2024/01/Audited-Final-Placement-Report-2025-26-compressed.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "RANCHI MBA ... Highest 52.50 Median 18.00 ... Average 19.26 ... *per annum figures in INR Lakhs"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 95.25,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 89,
+      "varc": 60,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 88.5,
+      "varc": 60,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 75,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 44,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Single 'PwD' row applied to PwD candidates of every category. 'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Single 'PwD' row applied to PwD candidates of every category. 'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Single 'PwD' row applied to PwD candidates of every category. 'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Single 'PwD' row applied to PwD candidates of every category. 'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 30,
+      "varc": 25,
+      "dilr": 25,
+      "qa": 25,
+      "notes": "Single 'PwD' row applied to PwD candidates of every category. 'The CAT cut-off percentile scores for consideration for admission to IIM Ranchi' (initial shortlisting for PI via JAP 2026); positive scaled score required in each section; 'every eligible candidate as per Table1 may not find a place in the shortlist'. Lower JAP 2026 registration minimums also apply (GEN 90/75s, EWS & NC-OBC 75/60s, SC 50/45s, ST 30/25s, PwD 30/25s) with academic minimums Class X/XII 60% and graduation 50% (SC/ST: 55/55/45; PwD 45/45/45).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ranchi - Common Admission Criteria for Two-Year PGP in Management (MBA, MBA-BA, MBA-HRM) 2026-28 for admission through JAP",
+        "url": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1 [Category / VARC / DILR / QA / Total - Scaled Score, Percentile] General >0 75 >0 75 >0 75 >0 95.25 / EWS >0 60 >0 60 >0 60 >0 89 / NC-OBC >0 60 >0 60 >0 60 >0 88.5 / SC >0 45 >0 45 >0 45 >0 75 / ST >0 25 >0 25 >0 25 >0 44 / PwD >0 25 >0 25 >0 25 >0 30"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

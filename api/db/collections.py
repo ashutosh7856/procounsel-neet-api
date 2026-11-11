@@ -1,0 +1,48 @@
+"""Collection registry for the shared Firestore database.
+
+The Python API shares Firestore with the Java ProcounsellorApp backend. To make
+sure this service can never alter existing data, every collection is READ-ONLY
+unless it is listed in ``WRITABLE_COLLECTIONS``.
+
+Rules for adding a collection here:
+  * It must be a NEW collection owned by this service.
+  * It must not appear in ``JAVA_OWNED_COLLECTIONS`` (enforced by tests).
+"""
+
+from __future__ import annotations
+
+# New collections this service owns and may write. Add feature collections here.
+WRITABLE_COLLECTIONS: frozenset[str] = frozenset({
+    # MBA prep (docs/mba-api.md)
+    "mbaExams", "mbaPapers", "mbaQuestionSets", "mbaQuestions", "mbaTests", "mbaAttempts",
+    "mbaProfiles", "mbaQuestionStats", "mbaStudyTasks", "mbaAiUsage",
+    # MBA Phase D: programmes (cutoffs embedded) and student shortlists
+    "mbaPrograms", "mbaShortlists",
+})
+
+# Top-level collections used by the Java backend (snapshot taken 2026-11-11 from
+# ProcounsellorApp). Python must treat these as read-only.
+JAVA_OWNED_COLLECTIONS: frozenset[str] = frozenset({
+    "admins", "appVersionComparision", "appointments", "banner", "bannerInteraction",
+    "banners", "becomeCounsellorPoints", "blogs", "callHistory", "callHistoryProBuddy",
+    "callHistoryUser", "chats", "clients", "colleges", "communityActivity",
+    "communityAnswers", "communityComments", "communityQuestions", "communityReplies",
+    "counsellorActivityLogs", "counsellorAppointments", "counsellorBusinessDetails",
+    "counsellorChats", "counsellorCourseList", "counsellorCourseReviews", "counsellorCourses",
+    "counsellorLiveSession", "counsellorOfflineTransactions", "counsellorReview",
+    "counsellorTestGroupList", "counsellorTestGroupReview", "counsellorTransactions",
+    "counsellors", "courseCoupons", "courseTypes", "courses", "dailyGames",
+    "deletedCounsellors", "deletedProBuddy", "deletedUsers", "deleted_counsellors",
+    "deleted_users", "earningsAndPayout", "enquiry", "eventDeadlines", "exams",
+    "foreignStudent", "gameItems", "gameSessions", "gameSets", "games",
+    "grandMockTestRegistrations", "leads", "listOfQuestions", "liveSessionRequestApproval",
+    "manualSubscriptionRequest", "notesForCounsellorRelatedToUser", "optionFormRegistrations",
+    "otpEmailService", "outOfOffice", "out_of_office", "pcsatRegistrations", "proBuddy",
+    "proBuddyCallRequests", "proBuddyReview", "proBuddyTransactions", "processedPayouts",
+    "publicApiCollege", "rankingBodies", "reviews", "reviews_proBuddy", "schoolStudents",
+    "states", "subscriptions", "successStories", "testGroup", "testSeries",
+    "userActivityLogs", "userAppointments", "userChats", "userCoursesDetails",
+    "userFavouriteCounsellors", "userOfflineTransactions", "userProBuddyReview",
+    "userReview", "userSubscribedCounsellors", "userTestAnswers", "userTestAttempts",
+    "userTestGroupDetails", "userTransactions", "users", "withdrawalRequests", "youtubeTokens",
+})
