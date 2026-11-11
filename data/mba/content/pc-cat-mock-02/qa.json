@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Partnership",
+      "difficulty": "easy",
+      "stemHtml": "<p>Arun starts a business with ₹24,000. Four months later Bela joins him with ₹36,000, and six months after the start Chetan joins with ₹40,000. Nobody withdraws any capital. At the end of the first year the total profit is ₹51,000, which is shared in the ratio of capital × time. What is Chetan's share of the profit?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹17,000"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹18,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹15,000"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹12,750"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Capital × time (in ₹ × months): Arun = 24,000 × 12 = 2,88,000; Bela = 36,000 × 8 = 2,88,000; Chetan = 40,000 × 6 = 2,40,000.</p><p><strong>Step 2:</strong> Ratio = 288 : 288 : 240 = 6 : 6 : 5 (dividing by 48). Total = 17 parts.</p><p><strong>Step 3:</strong> Chetan's share = 5/17 × 51,000 = 5 × 3,000 = <strong>₹15,000</strong>.</p><p><strong>Quick method:</strong> Divide every product by 48,000: 6 : 6 : 5. One part = 51,000/17 = ₹3,000, so Chetan gets 5 × 3,000 = ₹15,000.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Boats and Streams",
+      "difficulty": "medium",
+      "stemHtml": "<p>A motorboat takes 10 hours to go 36 km upstream and 48 km downstream. It takes 9 hours to go 24 km upstream and 60 km downstream. Assuming the speed of the boat in still water and the speed of the stream are constant, what is the speed of the boat in still water (in km/h)?</p>",
+      "answer": "9",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the upstream speed be U and the downstream speed be D (km/h). Then 36/U + 48/D = 10 and 24/U + 60/D = 9.</p><p><strong>Step 2:</strong> Put a = 1/U and b = 1/D: 36a + 48b = 10 and 24a + 60b = 9. Multiply the first equation by 2 and the second by 3: 72a + 96b = 20 and 72a + 180b = 27.</p><p><strong>Step 3:</strong> Subtracting, 84b = 7, so b = 1/12, i.e. D = 12 km/h. Then 36a = 10 − 4 = 6, so a = 1/6, i.e. U = 6 km/h.</p><p><strong>Step 4:</strong> Speed in still water = (U + D)/2 = (6 + 12)/2 = <strong>9</strong> km/h (and the stream flows at 3 km/h).</p><p><strong>Quick method:</strong> Check: 36/6 + 48/12 = 6 + 4 = 10 h and 24/6 + 60/12 = 4 + 5 = 9 h.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Pipes and Cisterns",
+      "difficulty": "medium",
+      "stemHtml": "<p>Pipes P and Q can fill an empty tank in 12 hours and 15 hours respectively, while pipe R can empty the full tank in 20 hours. All three pipes are opened together when the tank is empty. After 3 hours, pipe R is closed and P and Q continue. How long after the start does the tank become full?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7 hours 20 minutes"
+        },
+        {
+          "id": "B",
+          "textHtml": "7 hours 40 minutes"
+        },
+        {
+          "id": "C",
+          "textHtml": "8 hours"
+        },
+        {
+          "id": "D",
+          "textHtml": "7 hours 30 minutes"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Take the tank capacity as LCM(12, 15, 20) = 60 units. Rates: P = 5, Q = 4 units/hour (filling), R = 3 units/hour (emptying).</p><p><strong>Step 2:</strong> With all three open, net rate = 5 + 4 − 3 = 6 units/hour. In 3 hours, 18 units are filled.</p><p><strong>Step 3:</strong> Remaining = 60 − 18 = 42 units, filled by P and Q at 9 units/hour in 42/9 = 4 2/3 hours = 4 hours 40 minutes.</p><p><strong>Step 4:</strong> Total time = 3 h + 4 h 40 min = <strong>7 hours 40 minutes</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>In an election contested by two candidates, 12% of the registered voters did not vote, and 500 of the votes cast were declared invalid. The winning candidate received 55% of the valid votes and won by a margin of 1,600 votes. How many registered voters were there?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18,750"
+        },
+        {
+          "id": "B",
+          "textHtml": "18,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "19,250"
+        },
+        {
+          "id": "D",
+          "textHtml": "20,000"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Winner gets 55% and loser 45% of the valid votes, so the margin is 10% of the valid votes. Valid votes = 1,600 ÷ 0.10 = 16,000.</p><p><strong>Step 2:</strong> Votes cast = valid + invalid = 16,000 + 500 = 16,500.</p><p><strong>Step 3:</strong> These are 88% of the registered voters, so registered voters = 16,500 ÷ 0.88 = <strong>18,750</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio, Proportion and Variation",
+      "difficulty": "medium",
+      "stemHtml": "<p>The price of a gemstone varies directly as the square of its weight. A gemstone worth ₹72,000 falls and breaks into three pieces whose weights are in the ratio 1 : 2 : 3. What is the total loss in value (in ₹) due to the breakage?</p>",
+      "answer": "44000",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the weights of the pieces be w, 2w and 3w, so the original weight is 6w. Price = k × (weight)<sup>2</sup>.</p><p><strong>Step 2:</strong> Original price = k(6w)<sup>2</sup> = 36kw<sup>2</sup> = 72,000, so kw<sup>2</sup> = 2,000.</p><p><strong>Step 3:</strong> Value of pieces = kw<sup>2</sup>(1 + 4 + 9) = 14 × 2,000 = ₹28,000.</p><p><strong>Step 4:</strong> Loss = 72,000 − 28,000 = <strong>44000</strong>.</p><p><strong>Quick method:</strong> Loss fraction = 1 − (1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup>)/6<sup>2</sup> = 1 − 14/36 = 22/36, and 72,000 × 22/36 = 44,000.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance (Escalators)",
+      "difficulty": "hard",
+      "stemHtml": "<p>An escalator moves upwards at a constant speed. Ravi walks up the moving escalator and takes 30 steps to reach the top. Sameer, who takes 3 steps in the time Ravi takes 1 step, walks up the same moving escalator and takes 60 steps to reach the top. How many steps are visible on the escalator when it is stationary?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "90"
+        },
+        {
+          "id": "B",
+          "textHtml": "100"
+        },
+        {
+          "id": "C",
+          "textHtml": "150"
+        },
+        {
+          "id": "D",
+          "textHtml": "120"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let N be the number of visible steps and let the escalator move e steps in the time Ravi takes one step.</p><p><strong>Step 2:</strong> Ravi takes 30 steps, so he is on the escalator for 30 'Ravi-step' time units; the escalator contributes 30e steps. Hence N = 30 + 30e.</p><p><strong>Step 3:</strong> Sameer takes 60 steps at 3 steps per unit, so he is on the escalator for 20 units; the escalator contributes 20e steps. Hence N = 60 + 20e.</p><p><strong>Step 4:</strong> Equating: 30 + 30e = 60 + 20e, so e = 3 and N = 30 + 90 = <strong>120</strong>.</p><p><strong>Quick method:</strong> Check with Sameer: 60 + 20 × 3 = 120. The key idea is that the steps covered by the escalator are proportional to the time spent on it.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Simple and Compound Interest (Instalments)",
+      "difficulty": "medium",
+      "stemHtml": "<p>A loan is repaid in two equal annual instalments of ₹8,820 each, the first being paid one year after the loan is taken. If interest is charged at 5% per annum compounded annually, what was the amount of the loan (in ₹)?</p>",
+      "answer": "16400",
+      "solutionHtml": "<p><strong>Step 1:</strong> The loan equals the sum of the present values of the instalments.</p><p><strong>Step 2:</strong> Present value of the first instalment = 8,820 ÷ 1.05 = ₹8,400.</p><p><strong>Step 3:</strong> Present value of the second instalment = 8,820 ÷ (1.05)<sup>2</sup> = 8,820 ÷ 1.1025 = ₹8,000.</p><p><strong>Step 4:</strong> Loan = 8,400 + 8,000 = <strong>16400</strong>.</p><p><strong>Quick method:</strong> 1.05 = 21/20, so the present values are 8,820 × 20/21 = 8,400 and 8,400 × 20/21 = 8,000.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time and Work (Wages)",
+      "difficulty": "easy",
+      "stemHtml": "<p>Kiran can finish a job alone in 10 days and Lata can finish it alone in 15 days. With the help of Mohan, the three together finish the job in 4 days and receive ₹9,000, which is shared in proportion to the work each person does. How much does Mohan receive?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹2,400"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹3,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹3,600"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹2,700"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> In 4 days Kiran does 4/10 = 2/5 of the job and Lata does 4/15 of the job.</p><p><strong>Step 2:</strong> Mohan does 1 − 2/5 − 4/15 = 1 − 6/15 − 4/15 = 5/15 = 1/3 of the job.</p><p><strong>Step 3:</strong> Mohan's share = 1/3 × 9,000 = <strong>₹3,000</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Linear Equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>3 pens and 5 notebooks cost ₹210 in all, while 5 pens and 3 notebooks cost ₹190 in all. What is the total cost of 4 pens and 7 notebooks?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹270"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹300"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹290"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹310"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let a pen cost p and a notebook cost n. Then 3p + 5n = 210 and 5p + 3n = 190.</p><p><strong>Step 2:</strong> Adding: 8p + 8n = 400, so p + n = 50. Subtracting: 2n − 2p = 20, so n − p = 10.</p><p><strong>Step 3:</strong> Hence n = 30 and p = 20.</p><p><strong>Step 4:</strong> 4p + 7n = 80 + 210 = <strong>₹290</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Maxima and Minima",
+      "difficulty": "medium",
+      "stemHtml": "<p>x and y are real numbers such that x + y = 10. What is the minimum possible value of x<sup>2</sup> + 3y<sup>2</sup>?</p>",
+      "answer": "75",
+      "solutionHtml": "<p><strong>Step 1:</strong> Substitute x = 10 − y: x<sup>2</sup> + 3y<sup>2</sup> = (10 − y)<sup>2</sup> + 3y<sup>2</sup> = 4y<sup>2</sup> − 20y + 100.</p><p><strong>Step 2:</strong> This quadratic in y is minimised at y = 20/(2 × 4) = 2.5, giving x = 7.5.</p><p><strong>Step 3:</strong> Minimum value = 4(6.25) − 50 + 100 = <strong>75</strong>.</p><p><strong>Quick method:</strong> At the minimum, x = 3y (equal 'marginal' rates: 2x = 6y). With x + y = 10, y = 2.5 and x = 7.5, giving 56.25 + 18.75 = 75.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Sequences and Series",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the value of 1/(1 × 3) + 1/(3 × 5) + 1/(5 × 7) + … + 1/(39 × 41)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20/41"
+        },
+        {
+          "id": "B",
+          "textHtml": "40/41"
+        },
+        {
+          "id": "C",
+          "textHtml": "19/41"
+        },
+        {
+          "id": "D",
+          "textHtml": "21/41"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Each term can be split: 1/((2k − 1)(2k + 1)) = (1/2)[1/(2k − 1) − 1/(2k + 1)].</p><p><strong>Step 2:</strong> Summing from k = 1 to k = 20 (since 2k + 1 = 41 gives k = 20), all middle terms cancel (telescoping).</p><p><strong>Step 3:</strong> Sum = (1/2)(1 − 1/41) = (1/2)(40/41) = <strong>20/41</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions and Graphs (Modulus)",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many real values of x satisfy |x<sup>2</sup> − 6|x| + 5| = 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "2"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let t = |x| ≥ 0. The equation becomes |t<sup>2</sup> − 6t + 5| = 3, i.e. t<sup>2</sup> − 6t + 5 = 3 or t<sup>2</sup> − 6t + 5 = −3.</p><p><strong>Step 2:</strong> Case 1: t<sup>2</sup> − 6t + 2 = 0 gives t = 3 ± √7. Both values are positive (3 − √7 ≈ 0.35), so 2 valid values of t.</p><p><strong>Step 3:</strong> Case 2: t<sup>2</sup> − 6t + 8 = 0 gives t = 2 or t = 4, both positive, so 2 more values of t.</p><p><strong>Step 4:</strong> Each positive t gives two values of x (x = ±t). Total = 4 × 2 = <strong>8</strong>.</p><p><strong>Quick method:</strong> Graphically, y = |x<sup>2</sup> − 6|x| + 5| is a 'W' on each side of the y-axis with peaks of height 4 at x = ±3 and value 5 at x = 0; the line y = 3 cuts each side 4 times.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many integers x satisfy both (x − 2)(x − 5)(x − 9) &lt; 0 and |x| ≤ 12?</p>",
+      "answer": "17",
+      "solutionHtml": "<p><strong>Step 1:</strong> The critical points are 2, 5 and 9. For large x the product is positive, and the sign alternates across each critical point.</p><p><strong>Step 2:</strong> So the product is negative for x &lt; 2 and for 5 &lt; x &lt; 9.</p><p><strong>Step 3:</strong> With −12 ≤ x ≤ 12: integers from −12 to 1 give 14 values; integers 6, 7, 8 give 3 values.</p><p><strong>Step 4:</strong> Total = 14 + 3 = <strong>17</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles (Similarity)",
+      "difficulty": "easy",
+      "stemHtml": "<p>In triangle ABC, points D and E lie on AB and AC respectively such that DE is parallel to BC and AD : DB = 2 : 3. If the area of the quadrilateral DBCE is 84 cm<sup>2</sup>, what is the area of triangle ABC (in cm<sup>2</sup>)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "96"
+        },
+        {
+          "id": "B",
+          "textHtml": "105"
+        },
+        {
+          "id": "C",
+          "textHtml": "120"
+        },
+        {
+          "id": "D",
+          "textHtml": "100"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Since DE ∥ BC, triangle ADE is similar to triangle ABC with ratio AD : AB = 2 : 5.</p><p><strong>Step 2:</strong> Ratio of areas = (2/5)<sup>2</sup> = 4/25. So the quadrilateral DBCE is 1 − 4/25 = 21/25 of triangle ABC.</p><p><strong>Step 3:</strong> Area of ABC = 84 × 25/21 = <strong>100</strong> cm<sup>2</sup>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Circles and Tangents",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two circles have radii 10 cm and 3 cm, and the distance between their centres is 25 cm. What is the length (in cm) of a direct (external) common tangent to the two circles?</p>",
+      "answer": "24",
+      "solutionHtml": "<p><strong>Step 1:</strong> For a direct common tangent, drop perpendiculars from both centres to the tangent; shifting the tangent segment parallel to itself to pass through the smaller centre forms a right triangle.</p><p><strong>Step 2:</strong> In that right triangle, the hypotenuse is the distance between centres (25) and one leg is the difference of radii (10 − 3 = 7).</p><p><strong>Step 3:</strong> Length of direct common tangent = √(25<sup>2</sup> − 7<sup>2</sup>) = √(625 − 49) = √576 = <strong>24</strong>.</p><p><strong>Quick method:</strong> Direct tangent = √(d<sup>2</sup> − (r<sub>1</sub> − r<sub>2</sub>)<sup>2</sup>); 7-24-25 is a Pythagorean triple.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration (Hollow Cylinder)",
+      "difficulty": "medium",
+      "stemHtml": "<p>A hollow metal pipe is 21 cm long. Its external diameter is 10 cm and the metal is 1 cm thick. What is the volume of metal in the pipe (in cm<sup>3</sup>)? (Take π = 22/7.)</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "594"
+        },
+        {
+          "id": "B",
+          "textHtml": "616"
+        },
+        {
+          "id": "C",
+          "textHtml": "528"
+        },
+        {
+          "id": "D",
+          "textHtml": "660"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> External radius R = 5 cm. Since the thickness is 1 cm, the internal radius r = 4 cm.</p><p><strong>Step 2:</strong> Volume of metal = π(R<sup>2</sup> − r<sup>2</sup>)h = (22/7) × (25 − 16) × 21.</p><p><strong>Step 3:</strong> = 22 × 9 × 3 = <strong>594</strong> cm<sup>3</sup>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate Geometry (Lattice Points)",
+      "difficulty": "hard",
+      "stemHtml": "<p>Consider the triangle bounded by the lines y = 2x, 2y = x and x + y = 12. How many points with both coordinates integers lie strictly inside this triangle (that is, not on its sides)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "17"
+        },
+        {
+          "id": "B",
+          "textHtml": "19"
+        },
+        {
+          "id": "C",
+          "textHtml": "21"
+        },
+        {
+          "id": "D",
+          "textHtml": "24"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Vertices: y = 2x and 2y = x meet at (0, 0); y = 2x and x + y = 12 meet at (4, 8); 2y = x and x + y = 12 meet at (8, 4).</p><p><strong>Step 2:</strong> Area = (1/2)|4 × 4 − 8 × 8| = (1/2)(48) = 24.</p><p><strong>Step 3:</strong> Lattice points on each side = gcd of coordinate differences: (0,0)–(4,8): gcd(4, 8) = 4; (4,8)–(8,4): gcd(4, 4) = 4; (8,4)–(0,0): gcd(8, 4) = 4. So boundary points B = 12.</p><p><strong>Step 4:</strong> By Pick's theorem, Area = I + B/2 − 1, so 24 = I + 6 − 1, giving I = <strong>19</strong>.</p><p><strong>Quick method:</strong> Direct count: for x = 1, 2, …, 7, count integers y with x/2 &lt; y &lt; min(2x, 12 − x). The counts are 1, 2, 4, 5, 4, 2, 1, giving a total of 19.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Unit Digits",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the units digit of 7<sup>95</sup> × 3<sup>58</sup>?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Units digits of powers of 7 cycle as 7, 9, 3, 1 (period 4). 95 = 4 × 23 + 3, so 7<sup>95</sup> ends in 3.</p><p><strong>Step 2:</strong> Units digits of powers of 3 cycle as 3, 9, 7, 1. 58 = 4 × 14 + 2, so 3<sup>58</sup> ends in 9.</p><p><strong>Step 3:</strong> Units digit of the product = units digit of 3 × 9 = 27, i.e. <strong>7</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Base Systems",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a certain number base b, the numeral 253 represents the decimal number 136. What is the value of b?</p>",
+      "answer": "7",
+      "solutionHtml": "<p><strong>Step 1:</strong> 253 in base b = 2b<sup>2</sup> + 5b + 3. So 2b<sup>2</sup> + 5b + 3 = 136, i.e. 2b<sup>2</sup> + 5b − 133 = 0.</p><p><strong>Step 2:</strong> b = [−5 + √(25 + 1064)]/4 = (−5 + 33)/4 = 7 (the negative root is rejected).</p><p><strong>Step 3:</strong> Since the digit 5 appears, b must exceed 5, which b = <strong>7</strong> does. Check: 2 × 49 + 35 + 3 = 136.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "HCF and LCM",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many unordered pairs {a, b} of positive integers (with a ≤ b) have least common multiple equal to 360?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "105"
+        },
+        {
+          "id": "B",
+          "textHtml": "48"
+        },
+        {
+          "id": "C",
+          "textHtml": "52"
+        },
+        {
+          "id": "D",
+          "textHtml": "53"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> 360 = 2<sup>3</sup> × 3<sup>2</sup> × 5.</p><p><strong>Step 2:</strong> For an ordered pair (a, b) with LCM 360, for each prime p<sup>k</sup> the larger of the two exponents must equal k. The number of exponent pairs is (k + 1)<sup>2</sup> − k<sup>2</sup> = 2k + 1.</p><p><strong>Step 3:</strong> Number of ordered pairs = (2·3 + 1)(2·2 + 1)(2·1 + 1) = 7 × 5 × 3 = 105.</p><p><strong>Step 4:</strong> Exactly one ordered pair has a = b, namely (360, 360). So unordered pairs = (105 − 1)/2 + 1 = <strong>53</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Set Theory (Venn Diagrams)",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a group of 120 students, 65 like cricket, 50 like football and 45 like hockey. 20 like both cricket and football, 15 like both football and hockey, and 18 like both cricket and hockey (each of these 'both' counts includes those who like all three sports). 10 students like none of the three sports. How many students like exactly one of the three sports?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "63"
+        },
+        {
+          "id": "B",
+          "textHtml": "60"
+        },
+        {
+          "id": "C",
+          "textHtml": "66"
+        },
+        {
+          "id": "D",
+          "textHtml": "57"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Students who like at least one sport = 120 − 10 = 110.</p><p><strong>Step 2:</strong> By inclusion–exclusion: 110 = 65 + 50 + 45 − (20 + 15 + 18) + T = 107 + T, so T (all three) = 3.</p><p><strong>Step 3:</strong> Exactly two: (20 − 3) + (15 − 3) + (18 − 3) = 17 + 12 + 15 = 44.</p><p><strong>Step 4:</strong> Exactly one = 110 − 44 − 3 = <strong>63</strong>. (Region-wise: cricket only 30, football only 18, hockey only 15.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Permutations and Combinations (Distribution)",
+      "difficulty": "hard",
+      "stemHtml": "<p>In how many ways can 10 identical chocolates be distributed among 4 children so that every child gets at least 1 and at most 4 chocolates?</p>",
+      "answer": "44",
+      "solutionHtml": "<p><strong>Step 1:</strong> Give each child 1 chocolate first. Now distribute the remaining 6 among 4 children with each getting at most 3 more: y<sub>1</sub> + y<sub>2</sub> + y<sub>3</sub> + y<sub>4</sub> = 6, 0 ≤ y<sub>i</sub> ≤ 3.</p><p><strong>Step 2:</strong> Without the upper limit: C(6 + 3, 3) = C(9, 3) = 84.</p><p><strong>Step 3:</strong> Subtract cases where some y<sub>i</sub> ≥ 4: set y<sub>i</sub>' = y<sub>i</sub> − 4, leaving 2 to distribute: C(5, 3) = 10 for each child, so 4 × 10 = 40. Two children cannot both get ≥ 4 extra (that needs 8 &gt; 6).</p><p><strong>Step 4:</strong> Answer = 84 − 40 = <strong>44</strong>.</p><p><strong>Quick method:</strong> List the multisets of (y<sub>i</sub>) summing to 6 with entries ≤ 3: {3,3,0,0}: 6 arrangements; {3,2,1,0}: 24; {3,1,1,1}: 4; {2,2,2,0}: 4; {2,2,1,1}: 6. Total = 44.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

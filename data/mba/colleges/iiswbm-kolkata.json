@@ -1,0 +1,96 @@
+{
+  "slug": "iiswbm-kolkata",
+  "name": "Indian Institute of Social Welfare and Business Management",
+  "shortName": "IISWBM",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "type": "government",
+  "website": "https://www.iiswbm.edu/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA) - 2 Years (Day), University of Calcutta",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 830000,
+      "feeYear": "2027-29",
+      "feeNote": "MBA (Day) Admission Brochure 2027-29 course-fee chart: Semester 1 Rs 2,45,000 (Rs 2,15,000 + refundable library caution deposit Rs 5,000 + refundable security deposit Rs 5,000 + student activity fee Rs 20,000) + Semesters 2, 3 and 4 Rs 1,95,000 each = Rs 8,30,000. Same total in the institute's 'Break-up of Student Fees (2026 onwards)' (admission 12,000 + development 12,000 + tuition 1,91,000 per semester etc.). Includes Rs 10,000 refundable deposits; hostel not included. University of Calcutta registration/migration fees extra.",
+      "intake": null,
+      "intakeNote": "Seat count not stated in the MBA (Day) brochure or fee pages.",
+      "medianSalary": 900000,
+      "averageSalary": 800000,
+      "salaryYear": "2024-25 (MBA Day placement snapshot)",
+      "placementNote": "Official 'MBA (Day) Placement Snapshot (2024-2025)' PDF (linked as 'MBA(Day) Placement Report 2025' on IISWBM's placement-reports page): highest domestic package Rs 16 LPA, average Rs 8 LPA, median Rs 9 LPA (median above average as published), 60 companies, 16 first-time recruiters. Batch size and audit not stated.",
+      "sources": {
+        "fee": "https://www.iiswbm.edu/wp-content/uploads/2024/09/mba-day-brochure.pdf",
+        "intake": null,
+        "salary": "https://www.iiswbm.edu/wp-content/uploads/2023/04/mba-day-placement-report.pdf",
+        "admission": "https://www.iiswbm.edu/wp-content/uploads/2024/09/mba-day-brochure.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting on CAT score",
+      "weightage": null,
+      "detail": "IISWBM obtains applicants' CAT scores from the IIM admission committee; candidates above a cut-off mark are called for GD/PI. Application form (Rs 1,500) online or offline; last date of issue and receipt 17 Dec 2026."
+    },
+    {
+      "stage": 2,
+      "name": "Group Discussion and Personal Interview",
+      "weightage": null,
+      "detail": "At IISWBM, Kolkata, mid-March 2027; final list prepared strictly on merit. Eligibility: 3-year bachelor's degree with minimum 50% aggregate (45% SC/ST/NC-OBC/PwD)."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-12-17",
+    "examDate": null,
+    "notes": "MBA (Day) 2027-29 (52nd batch): last date of issue & receipt of application form 17 Dec 2026; GD, interview & result mid-March 2027; session begins 1st week of July 2027. Admission through CAT (Nov 2026).",
+    "source": "https://www.iiswbm.edu/wp-content/uploads/2024/09/mba-day-brochure.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "IISWBM MBA 2-Year (Full-Time) Admission Brochure 2027-2029 (52nd batch)",
+      "url": "https://www.iiswbm.edu/wp-content/uploads/2024/09/mba-day-brochure.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29 (semester chart); selection procedure; eligibility; key dates 2027-29"
+    },
+    {
+      "title": "IISWBM Break-up of Student Fees (2026 onwards)",
+      "url": "https://www.iiswbm.edu/wp-content/uploads/2025/07/fees-break-up-2026-28-onwards.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee components (2 Year MBA (D) grand total 8,30,000)"
+    },
+    {
+      "title": "IISWBM Tentative Admission Schedule",
+      "url": "https://www.iiswbm.edu/admission/tentative-admission-schedule/",
+      "retrievedAt": "2026-11-12",
+      "supports": "MBA (Day) through CAT; GD&PI February; total fee Rs 8,30,000"
+    },
+    {
+      "title": "IISWBM MBA (Day) Placement Snapshot (2024-2025)",
+      "url": "https://www.iiswbm.edu/wp-content/uploads/2023/04/mba-day-placement-report.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "median, average, highest 2024-25"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

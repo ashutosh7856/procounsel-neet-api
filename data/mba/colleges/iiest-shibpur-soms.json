@@ -1,0 +1,92 @@
+{
+  "slug": "iiest-shibpur-soms",
+  "name": "School of Management Sciences, Indian Institute of Engineering Science and Technology, Shibpur",
+  "shortName": "IIEST Shibpur SOMS",
+  "city": "Howrah",
+  "state": "West Bengal",
+  "type": "government",
+  "website": "https://www.iiests.ac.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA), 2-Year Full-Time",
+      "durationYears": 2,
+      "examsAccepted": [
+        "MAT",
+        "CMAT",
+        "CAT",
+        "XAT",
+        "GMAT"
+      ],
+      "specialisations": [
+        "Marketing Management",
+        "Financial Management",
+        "Human Resource Management",
+        "Operations Management"
+      ],
+      "feeTotal": 477700,
+      "feeYear": "2026-28",
+      "feeNote": "Derived from the MBA Admission Brochure 2026-28 fee table: tuition Rs 1,00,000 per semester x 4 = 4,00,000 + other semester charges 11,500 x 4 = 46,000 + annual charges 7,600 x 2 = 15,200 + one-time charges 16,500 (includes refundable caution money, amount not split) = Rs 4,77,700. Amount payable at admission Rs 1,35,600. Hostel not included; fees subject to revision.",
+      "intake": 60,
+      "intakeNote": "Sanctioned seats per 2026-28 brochure: UR 25 (PwD 2), OBC-NCL 16 (PwD 1), SC 9, ST 4, EWS 6 = 60.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No placement statistics published in the brochure (recruiter list only).",
+      "sources": {
+        "fee": "https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf",
+        "intake": "https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf",
+        "salary": null,
+        "admission": "https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Screening of eligible applicants on academic record",
+      "weightage": null,
+      "detail": "Bachelor's with minimum 60% (CGPA 6.5) UR/OBC-NCL/EWS, 55% (CGPA 6.0) SC/ST/PwD, plus a valid MAT/CMAT/CAT/XAT/GMAT score."
+    },
+    {
+      "stage": 2,
+      "name": "Interview (offline on campus or online) and final merit",
+      "weightage": "Academic performance from Class 10 onwards 50%, Interview 50%",
+      "detail": "Preference to consistently good academic records."
+    }
+  ],
+  "selectionWeightage": {
+    "AcademicPerformance": 50,
+    "Interview": 50,
+    "source": "https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf",
+    "note": "Two-tier selection for MBA 2026-28 after initial screening."
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-03-30",
+    "examDate": null,
+    "notes": "MBA 2026-28 cycle (already over): application deadline 30 Mar 2026; interview shortlist 2 Apr 2026; interview 8 Apr 2026; final list 17 Apr 2026. 2027-29 dates not yet published. Application fee Rs 1,500 (Rs 1,000 SC/ST/PwD).",
+    "source": "https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "IIEST Shibpur - Two Years Full Time MBA Program, Academic Session 2026-28, Information Brochure (revised 05-02-2026)",
+      "url": "https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2026-28 (derived total), intake 60, eligibility, selection weights, specialisations, 2026 dates"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "IIEST not in Management ranks 1-100"
+    }
+  ]
+}

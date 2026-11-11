@@ -1,0 +1,702 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Research Tower",
+      "contentHtml": "<p>Five researchers, Kavya, Lalit, Meera, Naveen and Omkar, have their labs in a five-storey research tower, one lab on each floor. The floors are numbered 1 (lowest) to 5 (top). The five researchers come from five different cities, Pune, Surat, Kochi, Indore and Ranchi, and specialise in five different fields, Genomics, Robotics, Optics, Polymers and Acoustics.</p><p>The following is known:</p><ol><li>The researcher from Kochi works on a lower floor than the Robotics specialist.</li><li>There is exactly one floor between the floors of Kavya and Lalit.</li><li>The researcher on the top floor specialises in Optics, or is from Indore, or both.</li><li>Meera is from Pune.</li><li>The Polymers specialist and the researcher from Surat work on adjacent floors.</li><li>Omkar works on a lower floor than Naveen.</li><li>The Genomics specialist is from Surat.</li><li>There are at least two floors between the floors of the Acoustics specialist and the Optics specialist.</li><li>The researcher from Pune works on the floor immediately above the Acoustics specialist.</li><li>Lalit works on the floor immediately above the researcher from Surat.</li></ol>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Ritika's Portfolio",
+      "contentHtml": "<p>On 1 January 2023, an investor, Ritika, held a portfolio of five assets worth &#8377;20 lakh in all (1 lakh = 1,00,000). The table gives the value of each holding on that date and the percentage return earned by each asset in the calendar years 2023 and 2024. The return of an asset in a year is the percentage change in the value of a holding of that asset over the year.</p><p>Ritika made no deposits or withdrawals. Her only transaction was on 31 December 2023, after the 2023 returns had been earned: she sold her entire Crypto holding and invested all the proceeds in the Debt fund. She held everything else unchanged until 31 December 2024.</p><table><tr><th>Asset</th><th>Value on 1 Jan 2023 (&#8377; lakh)</th><th>Return in 2023 (%)</th><th>Return in 2024 (%)</th></tr><tr><td>Equity fund</td><td>8.00</td><td>+25</td><td>-10</td></tr><tr><td>Debt fund</td><td>5.00</td><td>+8</td><td>+7</td></tr><tr><td>Gold ETF</td><td>3.00</td><td>+15</td><td>+20</td></tr><tr><td>REIT</td><td>2.50</td><td>-12</td><td>+15</td></tr><tr><td>Crypto</td><td>1.50</td><td>+60</td><td>-35</td></tr></table>"
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "Two-Round Cook-Off",
+      "contentHtml": "<p>Six chefs, Ishaan, Jhanvi, Kabir, Lavanya, Manav and Nikita, took part in a two-round cooking contest. In each round the judges ranked all six chefs. Ties were allowed, and ranks followed the standard competition convention: a chef's rank is 1 more than the number of chefs placed strictly ahead of him or her. For example, if two chefs tie for the top place, both get rank 1 and the next chef gets rank 3.</p><p>A chef's <em>total</em> is the sum of his or her ranks in the two rounds. In the overall standings the chefs were ranked by total (a lower total is better) using the same convention: a chef's overall rank is 1 more than the number of chefs with a strictly lower total.</p><p>The following is known:</p><ol><li>In Round 1, Ishaan and Manav tied with each other, and Jhanvi was the only chef ranked ahead of them.</li><li>Manav's rank in Round 2 was 6.</li><li>Kabir was ranked ahead of Ishaan in Round 2.</li><li>In Round 2, Ishaan tied with exactly one other chef.</li><li>Nikita's rank was the same in both rounds.</li><li>Ishaan was the only chef with overall rank 1.</li><li>In the overall standings there was exactly one three-way tie and exactly one two-way tie, and no other tie.</li></ol>"
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Courier Road Network",
+      "contentHtml": "<p>A courier company serves seven towns, P, Q, R, S, T, U and V, which are connected by the two-way roads listed below. For each road, the table gives the travel time in minutes and the toll in rupees charged for every use of the road, in either direction. There are no other roads, and time spent inside the towns is ignored.</p><table><tr><th>Road</th><th>Travel time (minutes)</th><th>Toll (&#8377;)</th></tr><tr><td>P - Q</td><td>25</td><td>40</td></tr><tr><td>P - R</td><td>45</td><td>0</td></tr><tr><td>P - S</td><td>80</td><td>20</td></tr><tr><td>Q - R</td><td>20</td><td>30</td></tr><tr><td>Q - T</td><td>50</td><td>80</td></tr><tr><td>R - S</td><td>25</td><td>10</td></tr><tr><td>R - T</td><td>40</td><td>70</td></tr><tr><td>S - U</td><td>35</td><td>0</td></tr><tr><td>T - U</td><td>30</td><td>20</td></tr><tr><td>T - V</td><td>45</td><td>0</td></tr><tr><td>U - V</td><td>25</td><td>40</td></tr></table>"
+    },
+    {
+      "key": "DILR-S5",
+      "kind": "dilr_set",
+      "title": "Badminton Knockout",
+      "contentHtml": "<p>Eight players, Rhea, Sahil, Tara, Uday, Vikram, Wasim, Yamini and Zoya, took part in a knockout badminton tournament. Each player was given a different seed from 1 to 8 (seed 1 being the strongest). The draw was as follows:</p><ul><li>Quarterfinals: QF1 seed 1 vs seed 8; QF2 seed 4 vs seed 5; QF3 seed 3 vs seed 6; QF4 seed 2 vs seed 7.</li><li>Semifinals: SF1 winner of QF1 vs winner of QF2; SF2 winner of QF3 vs winner of QF4.</li><li>Final: winner of SF1 vs winner of SF2.</li></ul><p>A match is called an <em>upset</em> if its winner had a larger seed number than its loser. Every match produced a winner.</p><p>Prize money (in &#8377; thousand) was 80 for the champion, 40 for the player who lost the final, 20 for each player who lost in a semifinal and 10 for each player who lost in a quarterfinal. In addition, a player received a bonus of &#8377;5 thousand for each upset that he or she won.</p><p>The following is known:</p><ol><li>Exactly three of the seven matches were upsets.</li><li>Tara won exactly two matches.</li><li>Vikram defeated Uday, and that match was an upset.</li><li>Sahil won exactly one match, and it was against Wasim.</li><li>Zoya defeated Yamini.</li><li>Sahil was one of the top four seeds (seeds 1 to 4).</li><li>Rhea's seed number was exactly one less than Tara's.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Matrix Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who works on the floor immediately below the Polymers specialist?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Omkar"
+        },
+        {
+          "id": "B",
+          "textHtml": "Meera"
+        },
+        {
+          "id": "C",
+          "textHtml": "Naveen"
+        },
+        {
+          "id": "D",
+          "textHtml": "Kavya"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By conditions 4 and 9, Meera (from Pune) is on the floor just above the Acoustics specialist, so Acoustics is on floor 1, 2, 3 or 4. By condition 8, Acoustics and Optics are at least three floors apart, so (Acoustics, Optics) is (1, 4), (1, 5), (2, 5) or (4, 1).</p><ul><li><strong>Acoustics on 4:</strong> Meera (Pune) is on floor 5 and Optics is on floor 1, so the top-floor researcher is neither from Indore nor in Optics, violating condition 3.</li><li><strong>Acoustics on 2:</strong> Meera is on 3 and Optics on 5. By conditions 7 and 10, Lalit is just above the Surat (Genomics) researcher. Lalit on 4 would put Surat on 3 (Meera, from Pune); Lalit on 5 would put Kavya on 3 (Meera's floor). So Lalit is on 2, with Surat and Genomics on 1. Then by condition 5 Polymers must be on floor 2, which is the Acoustics floor. Impossible.</li><li><strong>Acoustics on 1:</strong> Meera is on 2. Lalit on 3 would put Surat on 2 (Meera); Lalit on 4 would force Kavya onto floor 2 (Meera's). So Lalit is on 5, Surat and Genomics are on 4, and Kavya is on 3. Optics is on 4 or 5, and floor 4 is Genomics, so Optics is on 5 (Lalit). Omkar and Naveen take floors 1 and 4, with Omkar lower: Omkar on 1 (Acoustics) and Naveen on 4 (Surat, Genomics). Polymers is next to Surat (floor 4), so it is on floor 3 (Kavya), and Meera takes Robotics. Kochi is below Robotics (floor 2), so Omkar is from Kochi. Kavya and Lalit are from Indore and Ranchi in some order; condition 3 holds either way because Optics is on the top floor.</li></ul><table><tr><th>Floor</th><th>Researcher</th><th>City</th><th>Field</th></tr><tr><td>5</td><td>Lalit</td><td>Indore or Ranchi</td><td>Optics</td></tr><tr><td>4</td><td>Naveen</td><td>Surat</td><td>Genomics</td></tr><tr><td>3</td><td>Kavya</td><td>Ranchi or Indore</td><td>Polymers</td></tr><tr><td>2</td><td>Meera</td><td>Pune</td><td>Robotics</td></tr><tr><td>1</td><td>Omkar</td><td>Kochi</td><td>Acoustics</td></tr></table><p>Everything is fixed except which of Kavya and Lalit is from Indore and which is from Ranchi.</p><p>The Polymers specialist (Kavya) is on floor 3, and floor 2 belongs to <strong>Meera</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Matrix Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>For how many of the five researchers can both the city and the field of specialisation be determined uniquely?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By conditions 4 and 9, Meera (from Pune) is on the floor just above the Acoustics specialist, so Acoustics is on floor 1, 2, 3 or 4. By condition 8, Acoustics and Optics are at least three floors apart, so (Acoustics, Optics) is (1, 4), (1, 5), (2, 5) or (4, 1).</p><ul><li><strong>Acoustics on 4:</strong> Meera (Pune) is on floor 5 and Optics is on floor 1, so the top-floor researcher is neither from Indore nor in Optics, violating condition 3.</li><li><strong>Acoustics on 2:</strong> Meera is on 3 and Optics on 5. By conditions 7 and 10, Lalit is just above the Surat (Genomics) researcher. Lalit on 4 would put Surat on 3 (Meera, from Pune); Lalit on 5 would put Kavya on 3 (Meera's floor). So Lalit is on 2, with Surat and Genomics on 1. Then by condition 5 Polymers must be on floor 2, which is the Acoustics floor. Impossible.</li><li><strong>Acoustics on 1:</strong> Meera is on 2. Lalit on 3 would put Surat on 2 (Meera); Lalit on 4 would force Kavya onto floor 2 (Meera's). So Lalit is on 5, Surat and Genomics are on 4, and Kavya is on 3. Optics is on 4 or 5, and floor 4 is Genomics, so Optics is on 5 (Lalit). Omkar and Naveen take floors 1 and 4, with Omkar lower: Omkar on 1 (Acoustics) and Naveen on 4 (Surat, Genomics). Polymers is next to Surat (floor 4), so it is on floor 3 (Kavya), and Meera takes Robotics. Kochi is below Robotics (floor 2), so Omkar is from Kochi. Kavya and Lalit are from Indore and Ranchi in some order; condition 3 holds either way because Optics is on the top floor.</li></ul><table><tr><th>Floor</th><th>Researcher</th><th>City</th><th>Field</th></tr><tr><td>5</td><td>Lalit</td><td>Indore or Ranchi</td><td>Optics</td></tr><tr><td>4</td><td>Naveen</td><td>Surat</td><td>Genomics</td></tr><tr><td>3</td><td>Kavya</td><td>Ranchi or Indore</td><td>Polymers</td></tr><tr><td>2</td><td>Meera</td><td>Pune</td><td>Robotics</td></tr><tr><td>1</td><td>Omkar</td><td>Kochi</td><td>Acoustics</td></tr></table><p>Everything is fixed except which of Kavya and Lalit is from Indore and which is from Ranchi.</p><p>Meera, Naveen and Omkar are completely determined; Kavya's and Lalit's cities are not. The answer is <strong>3</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Matrix Arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following is NOT necessarily true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The Optics specialist works on the top floor."
+        },
+        {
+          "id": "B",
+          "textHtml": "The researcher from Indore works on an odd-numbered floor."
+        },
+        {
+          "id": "C",
+          "textHtml": "Kavya is from Ranchi."
+        },
+        {
+          "id": "D",
+          "textHtml": "Omkar specialises in Acoustics."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By conditions 4 and 9, Meera (from Pune) is on the floor just above the Acoustics specialist, so Acoustics is on floor 1, 2, 3 or 4. By condition 8, Acoustics and Optics are at least three floors apart, so (Acoustics, Optics) is (1, 4), (1, 5), (2, 5) or (4, 1).</p><ul><li><strong>Acoustics on 4:</strong> Meera (Pune) is on floor 5 and Optics is on floor 1, so the top-floor researcher is neither from Indore nor in Optics, violating condition 3.</li><li><strong>Acoustics on 2:</strong> Meera is on 3 and Optics on 5. By conditions 7 and 10, Lalit is just above the Surat (Genomics) researcher. Lalit on 4 would put Surat on 3 (Meera, from Pune); Lalit on 5 would put Kavya on 3 (Meera's floor). So Lalit is on 2, with Surat and Genomics on 1. Then by condition 5 Polymers must be on floor 2, which is the Acoustics floor. Impossible.</li><li><strong>Acoustics on 1:</strong> Meera is on 2. Lalit on 3 would put Surat on 2 (Meera); Lalit on 4 would force Kavya onto floor 2 (Meera's). So Lalit is on 5, Surat and Genomics are on 4, and Kavya is on 3. Optics is on 4 or 5, and floor 4 is Genomics, so Optics is on 5 (Lalit). Omkar and Naveen take floors 1 and 4, with Omkar lower: Omkar on 1 (Acoustics) and Naveen on 4 (Surat, Genomics). Polymers is next to Surat (floor 4), so it is on floor 3 (Kavya), and Meera takes Robotics. Kochi is below Robotics (floor 2), so Omkar is from Kochi. Kavya and Lalit are from Indore and Ranchi in some order; condition 3 holds either way because Optics is on the top floor.</li></ul><table><tr><th>Floor</th><th>Researcher</th><th>City</th><th>Field</th></tr><tr><td>5</td><td>Lalit</td><td>Indore or Ranchi</td><td>Optics</td></tr><tr><td>4</td><td>Naveen</td><td>Surat</td><td>Genomics</td></tr><tr><td>3</td><td>Kavya</td><td>Ranchi or Indore</td><td>Polymers</td></tr><tr><td>2</td><td>Meera</td><td>Pune</td><td>Robotics</td></tr><tr><td>1</td><td>Omkar</td><td>Kochi</td><td>Acoustics</td></tr></table><p>Everything is fixed except which of Kavya and Lalit is from Indore and which is from Ranchi.</p><p>Optics is on the top floor in both cases. The researcher from Indore is on floor 3 or floor 5, an odd-numbered floor in both cases. Omkar specialises in Acoustics in both cases. Kavya may be from Ranchi or from Indore, so <strong>'Kavya is from Ranchi'</strong> is not necessarily true.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Matrix Arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the researcher from Ranchi works on a higher floor than the researcher from Indore, which of the following is true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The Polymers specialist is from Indore."
+        },
+        {
+          "id": "B",
+          "textHtml": "Kavya is from Ranchi."
+        },
+        {
+          "id": "C",
+          "textHtml": "Lalit is from Indore."
+        },
+        {
+          "id": "D",
+          "textHtml": "The Optics specialist is from Indore."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By conditions 4 and 9, Meera (from Pune) is on the floor just above the Acoustics specialist, so Acoustics is on floor 1, 2, 3 or 4. By condition 8, Acoustics and Optics are at least three floors apart, so (Acoustics, Optics) is (1, 4), (1, 5), (2, 5) or (4, 1).</p><ul><li><strong>Acoustics on 4:</strong> Meera (Pune) is on floor 5 and Optics is on floor 1, so the top-floor researcher is neither from Indore nor in Optics, violating condition 3.</li><li><strong>Acoustics on 2:</strong> Meera is on 3 and Optics on 5. By conditions 7 and 10, Lalit is just above the Surat (Genomics) researcher. Lalit on 4 would put Surat on 3 (Meera, from Pune); Lalit on 5 would put Kavya on 3 (Meera's floor). So Lalit is on 2, with Surat and Genomics on 1. Then by condition 5 Polymers must be on floor 2, which is the Acoustics floor. Impossible.</li><li><strong>Acoustics on 1:</strong> Meera is on 2. Lalit on 3 would put Surat on 2 (Meera); Lalit on 4 would force Kavya onto floor 2 (Meera's). So Lalit is on 5, Surat and Genomics are on 4, and Kavya is on 3. Optics is on 4 or 5, and floor 4 is Genomics, so Optics is on 5 (Lalit). Omkar and Naveen take floors 1 and 4, with Omkar lower: Omkar on 1 (Acoustics) and Naveen on 4 (Surat, Genomics). Polymers is next to Surat (floor 4), so it is on floor 3 (Kavya), and Meera takes Robotics. Kochi is below Robotics (floor 2), so Omkar is from Kochi. Kavya and Lalit are from Indore and Ranchi in some order; condition 3 holds either way because Optics is on the top floor.</li></ul><table><tr><th>Floor</th><th>Researcher</th><th>City</th><th>Field</th></tr><tr><td>5</td><td>Lalit</td><td>Indore or Ranchi</td><td>Optics</td></tr><tr><td>4</td><td>Naveen</td><td>Surat</td><td>Genomics</td></tr><tr><td>3</td><td>Kavya</td><td>Ranchi or Indore</td><td>Polymers</td></tr><tr><td>2</td><td>Meera</td><td>Pune</td><td>Robotics</td></tr><tr><td>1</td><td>Omkar</td><td>Kochi</td><td>Acoustics</td></tr></table><p>Everything is fixed except which of Kavya and Lalit is from Indore and which is from Ranchi.</p><p>The two cities are on floors 3 (Kavya) and 5 (Lalit). Ranchi above Indore means Lalit (floor 5) is from Ranchi and Kavya (floor 3, Polymers) is from Indore. So <strong>the Polymers specialist is from Indore</strong>. The other options say Kavya is from Ranchi, Lalit is from Indore, and the Optics specialist (Lalit) is from Indore, all of which are false.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Investment - Returns",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the overall percentage return on Ritika's portfolio in 2023?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18.50%"
+        },
+        {
+          "id": "B",
+          "textHtml": "15.75%"
+        },
+        {
+          "id": "C",
+          "textHtml": "19.25%"
+        },
+        {
+          "id": "D",
+          "textHtml": "17.25%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Values in &#8377; lakh:</p><table><tr><th>Asset</th><th>1 Jan 2023</th><th>31 Dec 2023</th></tr><tr><td>Equity fund</td><td>8</td><td>10</td></tr><tr><td>Debt fund</td><td>5</td><td>5.4</td></tr><tr><td>Gold ETF</td><td>3</td><td>3.45</td></tr><tr><td>REIT</td><td>2.5</td><td>2.2</td></tr><tr><td>Crypto</td><td>1.5</td><td>2.4</td></tr><tr><td>Total</td><td>20</td><td>23.45</td></tr></table><p>Return = (23.45 - 20)/20 = 3.45/20 = <strong>17.25%</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Investment - Compounding",
+      "difficulty": "medium",
+      "stemHtml": "<p>For which of the following assets would a holding kept unchanged through both 2023 and 2024 have grown by the smallest percentage over the two years?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Equity fund"
+        },
+        {
+          "id": "B",
+          "textHtml": "Crypto"
+        },
+        {
+          "id": "C",
+          "textHtml": "REIT"
+        },
+        {
+          "id": "D",
+          "textHtml": "Debt fund"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Two-year growth factor = (1 + 2023 return) &#215; (1 + 2024 return): Equity fund: 1.25 &#215; 0.9 = 1.1250; Debt fund: 1.08 &#215; 1.07 = 1.1556; Gold ETF: 1.15 &#215; 1.2 = 1.3800; REIT: 0.88 &#215; 1.15 = 1.0120; Crypto: 1.6 &#215; 0.65 = 1.0400.</p><p>The smallest factor is for the <strong>REIT</strong> (a growth of only 1.2%, against 4% for Crypto).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Investment - Returns",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the value of Ritika's portfolio on 31 December 2024, in rupees?</p>",
+      "answer": "2401600",
+      "solutionHtml": "<p>On 31 December 2023 the Crypto proceeds (&#8377;2.4 lakh) move to the Debt fund, which then holds 5.4 + 2.4 = &#8377;7.8 lakh. Values on 31 December 2024 (&#8377; lakh):</p><table><tr><th>Asset</th><th>Value at start of 2024</th><th>Return in 2024</th><th>Value on 31 Dec 2024</th></tr><tr><td>Equity fund</td><td>10</td><td>-10%</td><td>9</td></tr><tr><td>Debt fund</td><td>7.8</td><td>+7%</td><td>8.346</td></tr><tr><td>Gold ETF</td><td>3.45</td><td>+20%</td><td>4.14</td></tr><tr><td>REIT</td><td>2.2</td><td>+15%</td><td>2.53</td></tr><tr><td>Crypto</td><td>0 (sold)</td><td>-35%</td><td>0</td></tr><tr><td>Total</td><td>23.45</td><td></td><td>24.016</td></tr></table><p>Total = 9 + 8.346 + 4.14 + 2.53 = &#8377;24.016 lakh = &#8377;<strong>24,01,600</strong>, i.e., <strong>2401600</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Investment - Rebalancing",
+      "difficulty": "hard",
+      "stemHtml": "<p>On 31 December 2024, Ritika wants the Equity fund to make up exactly 40% of her portfolio's value. She does this only by moving money from the Debt fund to the Equity fund, so the total value does not change. How much money must she move?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "&#8377;60,640"
+        },
+        {
+          "id": "B",
+          "textHtml": "&#8377;56,200"
+        },
+        {
+          "id": "C",
+          "textHtml": "&#8377;64,800"
+        },
+        {
+          "id": "D",
+          "textHtml": "&#8377;66,080"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>On 31 December 2023 the Crypto proceeds (&#8377;2.4 lakh) move to the Debt fund, which then holds 5.4 + 2.4 = &#8377;7.8 lakh. Values on 31 December 2024 (&#8377; lakh):</p><table><tr><th>Asset</th><th>Value at start of 2024</th><th>Return in 2024</th><th>Value on 31 Dec 2024</th></tr><tr><td>Equity fund</td><td>10</td><td>-10%</td><td>9</td></tr><tr><td>Debt fund</td><td>7.8</td><td>+7%</td><td>8.346</td></tr><tr><td>Gold ETF</td><td>3.45</td><td>+20%</td><td>4.14</td></tr><tr><td>REIT</td><td>2.2</td><td>+15%</td><td>2.53</td></tr><tr><td>Crypto</td><td>0 (sold)</td><td>-35%</td><td>0</td></tr><tr><td>Total</td><td>23.45</td><td></td><td>24.016</td></tr></table><p>40% of &#8377;24.016 lakh = &#8377;9.6064 lakh. The Equity fund holds &#8377;9 lakh, so she must move 9.6064 - 9 = &#8377;0.6064 lakh = <strong>&#8377;60,640</strong>. (The Debt fund holds &#8377;8.346 lakh, so this is possible.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Investment - Scenario",
+      "difficulty": "hard",
+      "stemHtml": "<p>Had Ritika not made the switch from Crypto to the Debt fund, by how many rupees would the value of her portfolio on 31 December 2024 have been lower than its actual value?</p>",
+      "answer": "100800",
+      "solutionHtml": "<p>Only the Crypto and Debt holdings are affected. Without the switch, on 31 December 2024: Crypto = 2.4 &#215; 0.65 = &#8377;1.56 lakh and Debt = 5.4 &#215; 1.07 = &#8377;5.778 lakh, a total of &#8377;7.338 lakh.</p><p>With the switch, Debt = 7.8 &#215; 1.07 = &#8377;8.346 lakh.</p><p>Difference = 8.346 - 7.338 = &#8377;1.008 lakh = <strong>&#8377;1,00,800</strong>, i.e., <strong>100800</strong>. (Equivalently, &#8377;2.4 lakh earned +7% instead of -35%: 2.4 &#215; 0.42 = 1.008.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ranking with Ties",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was Lavanya's rank in Round 1?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By condition 1, Jhanvi's Round 1 rank is 1 and Ishaan's and Manav's are 2. By condition 2, all five other chefs are ahead of Manav in Round 2, so no one else has Round 2 rank 6. Let b be Ishaan's Round 2 rank; his total is 2 + b, and by condition 6 every other chef's total exceeds 2 + b.</p><ul><li>Jhanvi: 1 + (her Round 2 rank) &gt; 2 + b, so her Round 2 rank is at least b + 2. Since it is at most 5, b &#8804; 3.</li><li>Kabir: his Round 2 rank is at most b - 1, so his Round 1 rank is at least 4.</li><li>Ishaan's Round 2 tie partner X: X's Round 1 rank + b &gt; 2 + b, so X's Round 1 rank exceeds 2. X is not Manav (Round 1 rank 2), not Jhanvi (behind Ishaan in Round 2) and not Kabir (ahead of him). So X is Lavanya or Nikita.</li><li>Nikita (rank n in both rounds, total 2n): if she were ahead of Ishaan in Round 2, then n &#8804; b - 1, so 2 + b &lt; 2n &#8804; 2b - 2, giving b &gt; 4, which contradicts b &#8804; 3. So Nikita is not ahead of Ishaan in Round 2.</li></ul><p>So only Kabir, and Lavanya if she is not X, can be ahead of Ishaan in Round 2. If X were Nikita, then n = b and 2b &gt; 2 + b gives b &#8805; 3, so both Kabir and Lavanya would be ahead and b = n = 3. But no one can have rank 3 in Round 1, since two chefs share rank 2 there. Hence <strong>X = Lavanya</strong>, only Kabir is ahead of Ishaan, and in Round 2 <strong>Kabir is 1, Ishaan and Lavanya are 2</strong>. Jhanvi and Nikita have Round 2 ranks 4 or 5, and Manav has 6.</p><p>Totals: Ishaan 4, Manav 8, Nikita 2n with n = 4 or 5, Jhanvi 5 or 6, Kabir (Round 1 rank) + 1, Lavanya (Round 1 rank) + 2. By condition 7, the five chefs other than Ishaan have exactly two distinct totals.</p><ul><li>If n = 5: Nikita 10, Manav 8 and Jhanvi (at most 6) give three distinct totals. Impossible. So <strong>n = 4</strong>, and Nikita's total is 8, equal to Manav's.</li><li>Jhanvi's total is not 8, and Kabir's total (at most 7) is not 8, so Kabir's total equals Jhanvi's: Kabir's Round 1 rank equals Jhanvi's Round 2 rank.</li><li>If Lavanya's total were not 8, she would join Jhanvi and Kabir. Her Round 1 rank is at least 4, so her total is at least 6, forcing totals of 6: Jhanvi's Round 2 rank 5, Kabir's and Lavanya's Round 1 ranks 5 and 4. But Nikita and Lavanya would then tie at rank 4 in Round 1, and the next rank would be 6, not 5. Impossible. So Lavanya's total is 8 and her Round 1 rank is 6.</li></ul><p>In Round 1 Nikita has rank 4 and Lavanya 6, so Kabir has 4 (tied with Nikita) or 5. Correspondingly, Jhanvi's Round 2 rank is 4 (tied with Nikita) or 5. Both cases satisfy every condition:</p><table><tr><th>Chef</th><th>Round 1</th><th>Round 2</th><th>Total</th><th>Overall rank</th></tr><tr><td>Ishaan</td><td>2</td><td>2</td><td>4</td><td>1</td></tr><tr><td>Jhanvi</td><td>1</td><td>4 or 5</td><td>5 or 6</td><td>2</td></tr><tr><td>Kabir</td><td>4 or 5</td><td>1</td><td>5 or 6</td><td>2</td></tr><tr><td>Lavanya</td><td>6</td><td>2</td><td>8</td><td>4</td></tr><tr><td>Manav</td><td>2</td><td>6</td><td>8</td><td>4</td></tr><tr><td>Nikita</td><td>4</td><td>4</td><td>8</td><td>4</td></tr></table><p>(Case 1: Kabir 4 in Round 1 and Jhanvi 4 in Round 2; Case 2: both are 5.)</p><p>Lavanya's Round 1 rank is <strong>6</strong> in both cases.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ranking with Ties",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was Nikita's overall rank?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By condition 1, Jhanvi's Round 1 rank is 1 and Ishaan's and Manav's are 2. By condition 2, all five other chefs are ahead of Manav in Round 2, so no one else has Round 2 rank 6. Let b be Ishaan's Round 2 rank; his total is 2 + b, and by condition 6 every other chef's total exceeds 2 + b.</p><ul><li>Jhanvi: 1 + (her Round 2 rank) &gt; 2 + b, so her Round 2 rank is at least b + 2. Since it is at most 5, b &#8804; 3.</li><li>Kabir: his Round 2 rank is at most b - 1, so his Round 1 rank is at least 4.</li><li>Ishaan's Round 2 tie partner X: X's Round 1 rank + b &gt; 2 + b, so X's Round 1 rank exceeds 2. X is not Manav (Round 1 rank 2), not Jhanvi (behind Ishaan in Round 2) and not Kabir (ahead of him). So X is Lavanya or Nikita.</li><li>Nikita (rank n in both rounds, total 2n): if she were ahead of Ishaan in Round 2, then n &#8804; b - 1, so 2 + b &lt; 2n &#8804; 2b - 2, giving b &gt; 4, which contradicts b &#8804; 3. So Nikita is not ahead of Ishaan in Round 2.</li></ul><p>So only Kabir, and Lavanya if she is not X, can be ahead of Ishaan in Round 2. If X were Nikita, then n = b and 2b &gt; 2 + b gives b &#8805; 3, so both Kabir and Lavanya would be ahead and b = n = 3. But no one can have rank 3 in Round 1, since two chefs share rank 2 there. Hence <strong>X = Lavanya</strong>, only Kabir is ahead of Ishaan, and in Round 2 <strong>Kabir is 1, Ishaan and Lavanya are 2</strong>. Jhanvi and Nikita have Round 2 ranks 4 or 5, and Manav has 6.</p><p>Totals: Ishaan 4, Manav 8, Nikita 2n with n = 4 or 5, Jhanvi 5 or 6, Kabir (Round 1 rank) + 1, Lavanya (Round 1 rank) + 2. By condition 7, the five chefs other than Ishaan have exactly two distinct totals.</p><ul><li>If n = 5: Nikita 10, Manav 8 and Jhanvi (at most 6) give three distinct totals. Impossible. So <strong>n = 4</strong>, and Nikita's total is 8, equal to Manav's.</li><li>Jhanvi's total is not 8, and Kabir's total (at most 7) is not 8, so Kabir's total equals Jhanvi's: Kabir's Round 1 rank equals Jhanvi's Round 2 rank.</li><li>If Lavanya's total were not 8, she would join Jhanvi and Kabir. Her Round 1 rank is at least 4, so her total is at least 6, forcing totals of 6: Jhanvi's Round 2 rank 5, Kabir's and Lavanya's Round 1 ranks 5 and 4. But Nikita and Lavanya would then tie at rank 4 in Round 1, and the next rank would be 6, not 5. Impossible. So Lavanya's total is 8 and her Round 1 rank is 6.</li></ul><p>In Round 1 Nikita has rank 4 and Lavanya 6, so Kabir has 4 (tied with Nikita) or 5. Correspondingly, Jhanvi's Round 2 rank is 4 (tied with Nikita) or 5. Both cases satisfy every condition:</p><table><tr><th>Chef</th><th>Round 1</th><th>Round 2</th><th>Total</th><th>Overall rank</th></tr><tr><td>Ishaan</td><td>2</td><td>2</td><td>4</td><td>1</td></tr><tr><td>Jhanvi</td><td>1</td><td>4 or 5</td><td>5 or 6</td><td>2</td></tr><tr><td>Kabir</td><td>4 or 5</td><td>1</td><td>5 or 6</td><td>2</td></tr><tr><td>Lavanya</td><td>6</td><td>2</td><td>8</td><td>4</td></tr><tr><td>Manav</td><td>2</td><td>6</td><td>8</td><td>4</td></tr><tr><td>Nikita</td><td>4</td><td>4</td><td>8</td><td>4</td></tr></table><p>(Case 1: Kabir 4 in Round 1 and Jhanvi 4 in Round 2; Case 2: both are 5.)</p><p>Ishaan has the lowest total (4), Jhanvi and Kabir share the next total, and Lavanya, Manav and Nikita share total 8 with three chefs ahead of them. Nikita's overall rank is <strong>4</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ranking with Ties",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following can NOT be determined uniquely?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Kabir's rank in Round 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "Manav's overall rank"
+        },
+        {
+          "id": "C",
+          "textHtml": "Jhanvi's rank in Round 2"
+        },
+        {
+          "id": "D",
+          "textHtml": "The chef who tied with Ishaan in Round 2"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By condition 1, Jhanvi's Round 1 rank is 1 and Ishaan's and Manav's are 2. By condition 2, all five other chefs are ahead of Manav in Round 2, so no one else has Round 2 rank 6. Let b be Ishaan's Round 2 rank; his total is 2 + b, and by condition 6 every other chef's total exceeds 2 + b.</p><ul><li>Jhanvi: 1 + (her Round 2 rank) &gt; 2 + b, so her Round 2 rank is at least b + 2. Since it is at most 5, b &#8804; 3.</li><li>Kabir: his Round 2 rank is at most b - 1, so his Round 1 rank is at least 4.</li><li>Ishaan's Round 2 tie partner X: X's Round 1 rank + b &gt; 2 + b, so X's Round 1 rank exceeds 2. X is not Manav (Round 1 rank 2), not Jhanvi (behind Ishaan in Round 2) and not Kabir (ahead of him). So X is Lavanya or Nikita.</li><li>Nikita (rank n in both rounds, total 2n): if she were ahead of Ishaan in Round 2, then n &#8804; b - 1, so 2 + b &lt; 2n &#8804; 2b - 2, giving b &gt; 4, which contradicts b &#8804; 3. So Nikita is not ahead of Ishaan in Round 2.</li></ul><p>So only Kabir, and Lavanya if she is not X, can be ahead of Ishaan in Round 2. If X were Nikita, then n = b and 2b &gt; 2 + b gives b &#8805; 3, so both Kabir and Lavanya would be ahead and b = n = 3. But no one can have rank 3 in Round 1, since two chefs share rank 2 there. Hence <strong>X = Lavanya</strong>, only Kabir is ahead of Ishaan, and in Round 2 <strong>Kabir is 1, Ishaan and Lavanya are 2</strong>. Jhanvi and Nikita have Round 2 ranks 4 or 5, and Manav has 6.</p><p>Totals: Ishaan 4, Manav 8, Nikita 2n with n = 4 or 5, Jhanvi 5 or 6, Kabir (Round 1 rank) + 1, Lavanya (Round 1 rank) + 2. By condition 7, the five chefs other than Ishaan have exactly two distinct totals.</p><ul><li>If n = 5: Nikita 10, Manav 8 and Jhanvi (at most 6) give three distinct totals. Impossible. So <strong>n = 4</strong>, and Nikita's total is 8, equal to Manav's.</li><li>Jhanvi's total is not 8, and Kabir's total (at most 7) is not 8, so Kabir's total equals Jhanvi's: Kabir's Round 1 rank equals Jhanvi's Round 2 rank.</li><li>If Lavanya's total were not 8, she would join Jhanvi and Kabir. Her Round 1 rank is at least 4, so her total is at least 6, forcing totals of 6: Jhanvi's Round 2 rank 5, Kabir's and Lavanya's Round 1 ranks 5 and 4. But Nikita and Lavanya would then tie at rank 4 in Round 1, and the next rank would be 6, not 5. Impossible. So Lavanya's total is 8 and her Round 1 rank is 6.</li></ul><p>In Round 1 Nikita has rank 4 and Lavanya 6, so Kabir has 4 (tied with Nikita) or 5. Correspondingly, Jhanvi's Round 2 rank is 4 (tied with Nikita) or 5. Both cases satisfy every condition:</p><table><tr><th>Chef</th><th>Round 1</th><th>Round 2</th><th>Total</th><th>Overall rank</th></tr><tr><td>Ishaan</td><td>2</td><td>2</td><td>4</td><td>1</td></tr><tr><td>Jhanvi</td><td>1</td><td>4 or 5</td><td>5 or 6</td><td>2</td></tr><tr><td>Kabir</td><td>4 or 5</td><td>1</td><td>5 or 6</td><td>2</td></tr><tr><td>Lavanya</td><td>6</td><td>2</td><td>8</td><td>4</td></tr><tr><td>Manav</td><td>2</td><td>6</td><td>8</td><td>4</td></tr><tr><td>Nikita</td><td>4</td><td>4</td><td>8</td><td>4</td></tr></table><p>(Case 1: Kabir 4 in Round 1 and Jhanvi 4 in Round 2; Case 2: both are 5.)</p><p>Kabir's Round 2 rank is 1, Manav's overall rank is 4, and the chef who tied with Ishaan in Round 2 is Lavanya, all fixed. <strong>Jhanvi's rank in Round 2</strong> can be 4 or 5.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ranking with Ties",
+      "difficulty": "hard",
+      "stemHtml": "<p>If Kabir and Nikita tied with each other in Round 1, what was Jhanvi's total?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> By condition 1, Jhanvi's Round 1 rank is 1 and Ishaan's and Manav's are 2. By condition 2, all five other chefs are ahead of Manav in Round 2, so no one else has Round 2 rank 6. Let b be Ishaan's Round 2 rank; his total is 2 + b, and by condition 6 every other chef's total exceeds 2 + b.</p><ul><li>Jhanvi: 1 + (her Round 2 rank) &gt; 2 + b, so her Round 2 rank is at least b + 2. Since it is at most 5, b &#8804; 3.</li><li>Kabir: his Round 2 rank is at most b - 1, so his Round 1 rank is at least 4.</li><li>Ishaan's Round 2 tie partner X: X's Round 1 rank + b &gt; 2 + b, so X's Round 1 rank exceeds 2. X is not Manav (Round 1 rank 2), not Jhanvi (behind Ishaan in Round 2) and not Kabir (ahead of him). So X is Lavanya or Nikita.</li><li>Nikita (rank n in both rounds, total 2n): if she were ahead of Ishaan in Round 2, then n &#8804; b - 1, so 2 + b &lt; 2n &#8804; 2b - 2, giving b &gt; 4, which contradicts b &#8804; 3. So Nikita is not ahead of Ishaan in Round 2.</li></ul><p>So only Kabir, and Lavanya if she is not X, can be ahead of Ishaan in Round 2. If X were Nikita, then n = b and 2b &gt; 2 + b gives b &#8805; 3, so both Kabir and Lavanya would be ahead and b = n = 3. But no one can have rank 3 in Round 1, since two chefs share rank 2 there. Hence <strong>X = Lavanya</strong>, only Kabir is ahead of Ishaan, and in Round 2 <strong>Kabir is 1, Ishaan and Lavanya are 2</strong>. Jhanvi and Nikita have Round 2 ranks 4 or 5, and Manav has 6.</p><p>Totals: Ishaan 4, Manav 8, Nikita 2n with n = 4 or 5, Jhanvi 5 or 6, Kabir (Round 1 rank) + 1, Lavanya (Round 1 rank) + 2. By condition 7, the five chefs other than Ishaan have exactly two distinct totals.</p><ul><li>If n = 5: Nikita 10, Manav 8 and Jhanvi (at most 6) give three distinct totals. Impossible. So <strong>n = 4</strong>, and Nikita's total is 8, equal to Manav's.</li><li>Jhanvi's total is not 8, and Kabir's total (at most 7) is not 8, so Kabir's total equals Jhanvi's: Kabir's Round 1 rank equals Jhanvi's Round 2 rank.</li><li>If Lavanya's total were not 8, she would join Jhanvi and Kabir. Her Round 1 rank is at least 4, so her total is at least 6, forcing totals of 6: Jhanvi's Round 2 rank 5, Kabir's and Lavanya's Round 1 ranks 5 and 4. But Nikita and Lavanya would then tie at rank 4 in Round 1, and the next rank would be 6, not 5. Impossible. So Lavanya's total is 8 and her Round 1 rank is 6.</li></ul><p>In Round 1 Nikita has rank 4 and Lavanya 6, so Kabir has 4 (tied with Nikita) or 5. Correspondingly, Jhanvi's Round 2 rank is 4 (tied with Nikita) or 5. Both cases satisfy every condition:</p><table><tr><th>Chef</th><th>Round 1</th><th>Round 2</th><th>Total</th><th>Overall rank</th></tr><tr><td>Ishaan</td><td>2</td><td>2</td><td>4</td><td>1</td></tr><tr><td>Jhanvi</td><td>1</td><td>4 or 5</td><td>5 or 6</td><td>2</td></tr><tr><td>Kabir</td><td>4 or 5</td><td>1</td><td>5 or 6</td><td>2</td></tr><tr><td>Lavanya</td><td>6</td><td>2</td><td>8</td><td>4</td></tr><tr><td>Manav</td><td>2</td><td>6</td><td>8</td><td>4</td></tr><tr><td>Nikita</td><td>4</td><td>4</td><td>8</td><td>4</td></tr></table><p>(Case 1: Kabir 4 in Round 1 and Jhanvi 4 in Round 2; Case 2: both are 5.)</p><p>Kabir tied with Nikita in Round 1 means Kabir's Round 1 rank is 4 (Case 1). Then Jhanvi's Round 2 rank is also 4, and her total is 1 + 4 = <strong>5</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Networks and Routes",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following routes from P to V takes the least travel time?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P-R-S-U-V"
+        },
+        {
+          "id": "B",
+          "textHtml": "P-Q-T-V"
+        },
+        {
+          "id": "C",
+          "textHtml": "P-R-T-V"
+        },
+        {
+          "id": "D",
+          "textHtml": "P-Q-R-T-V"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>A cheapest or fastest trip never needs to revisit a town (a repeated town would form a loop that only adds time and toll), so it is enough to compare the 19 routes from P to V that visit no town twice. Cost = 2 &#215; time + toll.</p><table><tr><th>Route</th><th>Time (min)</th><th>Toll (&#8377;)</th><th>Cost (&#8377;)</th></tr><tr><td>P-Q-T-V</td><td>120</td><td>120</td><td>360</td></tr><tr><td>P-R-S-U-V</td><td>130</td><td>50</td><td>310</td></tr><tr><td>P-R-T-V</td><td>130</td><td>70</td><td>330</td></tr><tr><td>P-Q-R-S-U-V</td><td>130</td><td>120</td><td>380</td></tr><tr><td>P-Q-R-T-V</td><td>130</td><td>140</td><td>400</td></tr><tr><td>P-Q-T-U-V</td><td>130</td><td>180</td><td>440</td></tr><tr><td>P-S-U-V</td><td>140</td><td>60</td><td>340</td></tr><tr><td>P-R-T-U-V</td><td>140</td><td>130</td><td>410</td></tr><tr><td>P-Q-R-T-U-V</td><td>140</td><td>200</td><td>480</td></tr><tr><td>P-R-Q-T-V</td><td>160</td><td>110</td><td>430</td></tr><tr><td>P-R-Q-T-U-V</td><td>170</td><td>170</td><td>510</td></tr><tr><td>P-R-S-U-T-V</td><td>180</td><td>30</td><td>390</td></tr><tr><td>P-Q-R-S-U-T-V</td><td>180</td><td>100</td><td>460</td></tr><tr><td>P-S-U-T-V</td><td>190</td><td>40</td><td>420</td></tr><tr><td>P-S-R-T-V</td><td>190</td><td>100</td><td>480</td></tr><tr><td>P-S-R-T-U-V</td><td>200</td><td>160</td><td>560</td></tr><tr><td>P-Q-T-R-S-U-V</td><td>200</td><td>240</td><td>640</td></tr><tr><td>P-S-R-Q-T-V</td><td>220</td><td>140</td><td>580</td></tr><tr><td>P-S-R-Q-T-U-V</td><td>230</td><td>200</td><td>660</td></tr></table><p>The least time is 120 minutes, achieved only by <strong>P-Q-T-V</strong> (25 + 50 + 45). The other three options take 130 minutes each.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Networks and Routes",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the least total toll that has to be paid to travel from P to V?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "&#8377;20"
+        },
+        {
+          "id": "B",
+          "textHtml": "&#8377;40"
+        },
+        {
+          "id": "C",
+          "textHtml": "&#8377;50"
+        },
+        {
+          "id": "D",
+          "textHtml": "&#8377;30"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>A cheapest or fastest trip never needs to revisit a town (a repeated town would form a loop that only adds time and toll), so it is enough to compare the 19 routes from P to V that visit no town twice. Cost = 2 &#215; time + toll.</p><table><tr><th>Route</th><th>Time (min)</th><th>Toll (&#8377;)</th><th>Cost (&#8377;)</th></tr><tr><td>P-Q-T-V</td><td>120</td><td>120</td><td>360</td></tr><tr><td>P-R-S-U-V</td><td>130</td><td>50</td><td>310</td></tr><tr><td>P-R-T-V</td><td>130</td><td>70</td><td>330</td></tr><tr><td>P-Q-R-S-U-V</td><td>130</td><td>120</td><td>380</td></tr><tr><td>P-Q-R-T-V</td><td>130</td><td>140</td><td>400</td></tr><tr><td>P-Q-T-U-V</td><td>130</td><td>180</td><td>440</td></tr><tr><td>P-S-U-V</td><td>140</td><td>60</td><td>340</td></tr><tr><td>P-R-T-U-V</td><td>140</td><td>130</td><td>410</td></tr><tr><td>P-Q-R-T-U-V</td><td>140</td><td>200</td><td>480</td></tr><tr><td>P-R-Q-T-V</td><td>160</td><td>110</td><td>430</td></tr><tr><td>P-R-Q-T-U-V</td><td>170</td><td>170</td><td>510</td></tr><tr><td>P-R-S-U-T-V</td><td>180</td><td>30</td><td>390</td></tr><tr><td>P-Q-R-S-U-T-V</td><td>180</td><td>100</td><td>460</td></tr><tr><td>P-S-U-T-V</td><td>190</td><td>40</td><td>420</td></tr><tr><td>P-S-R-T-V</td><td>190</td><td>100</td><td>480</td></tr><tr><td>P-S-R-T-U-V</td><td>200</td><td>160</td><td>560</td></tr><tr><td>P-Q-T-R-S-U-V</td><td>200</td><td>240</td><td>640</td></tr><tr><td>P-S-R-Q-T-V</td><td>220</td><td>140</td><td>580</td></tr><tr><td>P-S-R-Q-T-U-V</td><td>230</td><td>200</td><td>660</td></tr></table><p>The lowest toll is on P-R-S-U-T-V: 0 + 10 + 0 + 20 + 0 = <strong>&#8377;30</strong>. The next lowest is &#8377;40 (P-S-U-T-V).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Networks and Routes",
+      "difficulty": "hard",
+      "stemHtml": "<p>The company values every minute of driving at &#8377;2, so the cost of a trip is 2 &#215; (travel time in minutes) + (total toll). What is the minimum cost of a trip from P to V?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "&#8377;330"
+        },
+        {
+          "id": "B",
+          "textHtml": "&#8377;310"
+        },
+        {
+          "id": "C",
+          "textHtml": "&#8377;340"
+        },
+        {
+          "id": "D",
+          "textHtml": "&#8377;300"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>A cheapest or fastest trip never needs to revisit a town (a repeated town would form a loop that only adds time and toll), so it is enough to compare the 19 routes from P to V that visit no town twice. Cost = 2 &#215; time + toll.</p><table><tr><th>Route</th><th>Time (min)</th><th>Toll (&#8377;)</th><th>Cost (&#8377;)</th></tr><tr><td>P-Q-T-V</td><td>120</td><td>120</td><td>360</td></tr><tr><td>P-R-S-U-V</td><td>130</td><td>50</td><td>310</td></tr><tr><td>P-R-T-V</td><td>130</td><td>70</td><td>330</td></tr><tr><td>P-Q-R-S-U-V</td><td>130</td><td>120</td><td>380</td></tr><tr><td>P-Q-R-T-V</td><td>130</td><td>140</td><td>400</td></tr><tr><td>P-Q-T-U-V</td><td>130</td><td>180</td><td>440</td></tr><tr><td>P-S-U-V</td><td>140</td><td>60</td><td>340</td></tr><tr><td>P-R-T-U-V</td><td>140</td><td>130</td><td>410</td></tr><tr><td>P-Q-R-T-U-V</td><td>140</td><td>200</td><td>480</td></tr><tr><td>P-R-Q-T-V</td><td>160</td><td>110</td><td>430</td></tr><tr><td>P-R-Q-T-U-V</td><td>170</td><td>170</td><td>510</td></tr><tr><td>P-R-S-U-T-V</td><td>180</td><td>30</td><td>390</td></tr><tr><td>P-Q-R-S-U-T-V</td><td>180</td><td>100</td><td>460</td></tr><tr><td>P-S-U-T-V</td><td>190</td><td>40</td><td>420</td></tr><tr><td>P-S-R-T-V</td><td>190</td><td>100</td><td>480</td></tr><tr><td>P-S-R-T-U-V</td><td>200</td><td>160</td><td>560</td></tr><tr><td>P-Q-T-R-S-U-V</td><td>200</td><td>240</td><td>640</td></tr><tr><td>P-S-R-Q-T-V</td><td>220</td><td>140</td><td>580</td></tr><tr><td>P-S-R-Q-T-U-V</td><td>230</td><td>200</td><td>660</td></tr></table><p>The minimum cost is on P-R-S-U-V: 2 &#215; 130 + 50 = <strong>&#8377;310</strong>. The next best are P-R-T-V (&#8377;330) and P-S-U-V (&#8377;340); the fastest route P-Q-T-V costs &#8377;360 because of its high tolls.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Networks and Routes",
+      "difficulty": "hard",
+      "stemHtml": "<p>A van starts at P, must pass through both S and T (in either order) and must finish at V. Towns and roads may be used more than once. What is the minimum total travel time, in minutes?</p>",
+      "answer": "180",
+      "solutionHtml": "<p>Use the shortest travel times between the towns involved:</p><ul><li>P to S: 70 (P-Q-R-S or P-R-S); P to T: 75 (P-Q-T).</li><li>S to T: 65 (S-U-T).</li><li>T to V: 45 (T-V); S to V: 60 (S-U-V).</li></ul><p>Order P, S, T, V: 70 + 65 + 45 = 180. Order P, T, S, V: 75 + 65 + 60 = 200.</p><p>The minimum is <strong>180</strong> minutes, for example along P-R-S-U-T-V.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who lost the final?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Vikram"
+        },
+        {
+          "id": "B",
+          "textHtml": "Tara"
+        },
+        {
+          "id": "C",
+          "textHtml": "Sahil"
+        },
+        {
+          "id": "D",
+          "textHtml": "Rhea"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Tara won exactly two matches, so she won her quarterfinal and semifinal and lost the final. A semifinal win requires a quarterfinal win, so Sahil's only win (over Wasim) was in the quarterfinals, and Sahil lost his semifinal.</p><p>Tara, Sahil, Vikram and Zoya each won at least one match, so these four are exactly the quarterfinal winners, and Wasim, Rhea, Uday and Yamini lost in the quarterfinals. Hence Vikram beat Uday, and Zoya beat Yamini, in the quarterfinals, and the quarterfinal pairs are Sahil-Wasim, Vikram-Uday, Zoya-Yamini and Tara-Rhea. The only quarterfinal between consecutive seeds is 4 vs 5, so <strong>Rhea is seed 4 and Tara is seed 5</strong>, and Tara's quarterfinal win was an upset.</p><p>Upsets so far: Vikram over Uday and Tara over Rhea. Sahil is among the top four seeds but seed 4 is Rhea's, so he is seeded 1, 2 or 3 and so is the better seed against Wasim; that match was not an upset. Exactly one more upset must occur among the Zoya-Yamini quarterfinal, the two semifinals and the final. Consider which pair plays QF1 (seeds 1 and 8), in the same half as Tara:</p><ul><li><strong>Sahil-Wasim in QF1</strong> (Sahil 1, Wasim 8): Tara (5) beats Sahil (1) in SF1, the third upset. So nothing else is an upset: Zoya is the better seed against Yamini, Zoya (2 or 3) beats Vikram (7 or 6) in SF2, and Zoya beats Tara in the final. Two seedings work: Uday 2, Zoya 3, Yamini 6, Vikram 7, or Zoya 2, Uday 3, Vikram 6, Yamini 7.</li><li><strong>Uday-Vikram in QF1</strong> (Uday 1, Vikram 8): Tara (5) must beat Vikram (8) in SF1, not an upset. In the lower half, Sahil is seeded 2 or 3, and Sahil loses SF2 to Zoya, who then beats Tara in the final. If Zoya were seeded 6 or 7, both her quarterfinal and her semifinal win would be upsets (too many). So Zoya is seeded 2 or 3 and the final is not an upset; the third upset must be Zoya over Sahil, so Zoya is 3 and Sahil is 2, with Yamini 6 and Wasim 7.</li><li><strong>Zoya-Yamini in QF1</strong>: Zoya meets Tara in SF1 and loses (Tara must win). Sahil then loses SF2 to Vikram, who wins the final against Tara. Vikram (6 or 7) beating Sahil (2 or 3) and Tara (5) would be two more upsets, giving four. Impossible.</li></ul><table><tr><th>Case</th><th>Seed 1</th><th>Seed 2</th><th>Seed 3</th><th>Seed 4</th><th>Seed 5</th><th>Seed 6</th><th>Seed 7</th><th>Seed 8</th><th>Champion</th></tr><tr><td>A</td><td>Sahil</td><td>Uday</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Vikram</td><td>Wasim</td><td>Zoya</td></tr><tr><td>B</td><td>Sahil</td><td>Zoya</td><td>Uday</td><td>Rhea</td><td>Tara</td><td>Vikram</td><td>Yamini</td><td>Wasim</td><td>Zoya</td></tr><tr><td>C</td><td>Uday</td><td>Sahil</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Wasim</td><td>Vikram</td><td>Zoya</td></tr></table><p>In every case Zoya is the champion and Tara the runner-up. In Cases A and B, the semifinals are Tara-Sahil and Zoya-Vikram; in Case C they are Tara-Vikram and Zoya-Sahil.</p><p>Tara won exactly two matches, so she must have lost the final. The answer is <strong>Tara</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was Rhea's seed?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Tara won exactly two matches, so she won her quarterfinal and semifinal and lost the final. A semifinal win requires a quarterfinal win, so Sahil's only win (over Wasim) was in the quarterfinals, and Sahil lost his semifinal.</p><p>Tara, Sahil, Vikram and Zoya each won at least one match, so these four are exactly the quarterfinal winners, and Wasim, Rhea, Uday and Yamini lost in the quarterfinals. Hence Vikram beat Uday, and Zoya beat Yamini, in the quarterfinals, and the quarterfinal pairs are Sahil-Wasim, Vikram-Uday, Zoya-Yamini and Tara-Rhea. The only quarterfinal between consecutive seeds is 4 vs 5, so <strong>Rhea is seed 4 and Tara is seed 5</strong>, and Tara's quarterfinal win was an upset.</p><p>Upsets so far: Vikram over Uday and Tara over Rhea. Sahil is among the top four seeds but seed 4 is Rhea's, so he is seeded 1, 2 or 3 and so is the better seed against Wasim; that match was not an upset. Exactly one more upset must occur among the Zoya-Yamini quarterfinal, the two semifinals and the final. Consider which pair plays QF1 (seeds 1 and 8), in the same half as Tara:</p><ul><li><strong>Sahil-Wasim in QF1</strong> (Sahil 1, Wasim 8): Tara (5) beats Sahil (1) in SF1, the third upset. So nothing else is an upset: Zoya is the better seed against Yamini, Zoya (2 or 3) beats Vikram (7 or 6) in SF2, and Zoya beats Tara in the final. Two seedings work: Uday 2, Zoya 3, Yamini 6, Vikram 7, or Zoya 2, Uday 3, Vikram 6, Yamini 7.</li><li><strong>Uday-Vikram in QF1</strong> (Uday 1, Vikram 8): Tara (5) must beat Vikram (8) in SF1, not an upset. In the lower half, Sahil is seeded 2 or 3, and Sahil loses SF2 to Zoya, who then beats Tara in the final. If Zoya were seeded 6 or 7, both her quarterfinal and her semifinal win would be upsets (too many). So Zoya is seeded 2 or 3 and the final is not an upset; the third upset must be Zoya over Sahil, so Zoya is 3 and Sahil is 2, with Yamini 6 and Wasim 7.</li><li><strong>Zoya-Yamini in QF1</strong>: Zoya meets Tara in SF1 and loses (Tara must win). Sahil then loses SF2 to Vikram, who wins the final against Tara. Vikram (6 or 7) beating Sahil (2 or 3) and Tara (5) would be two more upsets, giving four. Impossible.</li></ul><table><tr><th>Case</th><th>Seed 1</th><th>Seed 2</th><th>Seed 3</th><th>Seed 4</th><th>Seed 5</th><th>Seed 6</th><th>Seed 7</th><th>Seed 8</th><th>Champion</th></tr><tr><td>A</td><td>Sahil</td><td>Uday</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Vikram</td><td>Wasim</td><td>Zoya</td></tr><tr><td>B</td><td>Sahil</td><td>Zoya</td><td>Uday</td><td>Rhea</td><td>Tara</td><td>Vikram</td><td>Yamini</td><td>Wasim</td><td>Zoya</td></tr><tr><td>C</td><td>Uday</td><td>Sahil</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Wasim</td><td>Vikram</td><td>Zoya</td></tr></table><p>In every case Zoya is the champion and Tara the runner-up. In Cases A and B, the semifinals are Tara-Sahil and Zoya-Vikram; in Case C they are Tara-Vikram and Zoya-Sahil.</p><p>Rhea and Tara met in the quarterfinals and have consecutive seeds, which is possible only in QF2, so Rhea's seed is <strong>4</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following pairs of players definitely played a match against each other?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Tara and Sahil"
+        },
+        {
+          "id": "B",
+          "textHtml": "Zoya and Vikram"
+        },
+        {
+          "id": "C",
+          "textHtml": "Tara and Rhea"
+        },
+        {
+          "id": "D",
+          "textHtml": "Sahil and Uday"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Tara won exactly two matches, so she won her quarterfinal and semifinal and lost the final. A semifinal win requires a quarterfinal win, so Sahil's only win (over Wasim) was in the quarterfinals, and Sahil lost his semifinal.</p><p>Tara, Sahil, Vikram and Zoya each won at least one match, so these four are exactly the quarterfinal winners, and Wasim, Rhea, Uday and Yamini lost in the quarterfinals. Hence Vikram beat Uday, and Zoya beat Yamini, in the quarterfinals, and the quarterfinal pairs are Sahil-Wasim, Vikram-Uday, Zoya-Yamini and Tara-Rhea. The only quarterfinal between consecutive seeds is 4 vs 5, so <strong>Rhea is seed 4 and Tara is seed 5</strong>, and Tara's quarterfinal win was an upset.</p><p>Upsets so far: Vikram over Uday and Tara over Rhea. Sahil is among the top four seeds but seed 4 is Rhea's, so he is seeded 1, 2 or 3 and so is the better seed against Wasim; that match was not an upset. Exactly one more upset must occur among the Zoya-Yamini quarterfinal, the two semifinals and the final. Consider which pair plays QF1 (seeds 1 and 8), in the same half as Tara:</p><ul><li><strong>Sahil-Wasim in QF1</strong> (Sahil 1, Wasim 8): Tara (5) beats Sahil (1) in SF1, the third upset. So nothing else is an upset: Zoya is the better seed against Yamini, Zoya (2 or 3) beats Vikram (7 or 6) in SF2, and Zoya beats Tara in the final. Two seedings work: Uday 2, Zoya 3, Yamini 6, Vikram 7, or Zoya 2, Uday 3, Vikram 6, Yamini 7.</li><li><strong>Uday-Vikram in QF1</strong> (Uday 1, Vikram 8): Tara (5) must beat Vikram (8) in SF1, not an upset. In the lower half, Sahil is seeded 2 or 3, and Sahil loses SF2 to Zoya, who then beats Tara in the final. If Zoya were seeded 6 or 7, both her quarterfinal and her semifinal win would be upsets (too many). So Zoya is seeded 2 or 3 and the final is not an upset; the third upset must be Zoya over Sahil, so Zoya is 3 and Sahil is 2, with Yamini 6 and Wasim 7.</li><li><strong>Zoya-Yamini in QF1</strong>: Zoya meets Tara in SF1 and loses (Tara must win). Sahil then loses SF2 to Vikram, who wins the final against Tara. Vikram (6 or 7) beating Sahil (2 or 3) and Tara (5) would be two more upsets, giving four. Impossible.</li></ul><table><tr><th>Case</th><th>Seed 1</th><th>Seed 2</th><th>Seed 3</th><th>Seed 4</th><th>Seed 5</th><th>Seed 6</th><th>Seed 7</th><th>Seed 8</th><th>Champion</th></tr><tr><td>A</td><td>Sahil</td><td>Uday</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Vikram</td><td>Wasim</td><td>Zoya</td></tr><tr><td>B</td><td>Sahil</td><td>Zoya</td><td>Uday</td><td>Rhea</td><td>Tara</td><td>Vikram</td><td>Yamini</td><td>Wasim</td><td>Zoya</td></tr><tr><td>C</td><td>Uday</td><td>Sahil</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Wasim</td><td>Vikram</td><td>Zoya</td></tr></table><p>In every case Zoya is the champion and Tara the runner-up. In Cases A and B, the semifinals are Tara-Sahil and Zoya-Vikram; in Case C they are Tara-Vikram and Zoya-Sahil.</p><p>Tara and Rhea met in QF2 in every case. Tara-Sahil and Zoya-Vikram happen only in Cases A and B, and Sahil and Uday never meet. The answer is <strong>Tara and Rhea</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the total prize money, including bonuses, received by Vikram (in &#8377; thousand)?</p>",
+      "answer": "25",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Tara won exactly two matches, so she won her quarterfinal and semifinal and lost the final. A semifinal win requires a quarterfinal win, so Sahil's only win (over Wasim) was in the quarterfinals, and Sahil lost his semifinal.</p><p>Tara, Sahil, Vikram and Zoya each won at least one match, so these four are exactly the quarterfinal winners, and Wasim, Rhea, Uday and Yamini lost in the quarterfinals. Hence Vikram beat Uday, and Zoya beat Yamini, in the quarterfinals, and the quarterfinal pairs are Sahil-Wasim, Vikram-Uday, Zoya-Yamini and Tara-Rhea. The only quarterfinal between consecutive seeds is 4 vs 5, so <strong>Rhea is seed 4 and Tara is seed 5</strong>, and Tara's quarterfinal win was an upset.</p><p>Upsets so far: Vikram over Uday and Tara over Rhea. Sahil is among the top four seeds but seed 4 is Rhea's, so he is seeded 1, 2 or 3 and so is the better seed against Wasim; that match was not an upset. Exactly one more upset must occur among the Zoya-Yamini quarterfinal, the two semifinals and the final. Consider which pair plays QF1 (seeds 1 and 8), in the same half as Tara:</p><ul><li><strong>Sahil-Wasim in QF1</strong> (Sahil 1, Wasim 8): Tara (5) beats Sahil (1) in SF1, the third upset. So nothing else is an upset: Zoya is the better seed against Yamini, Zoya (2 or 3) beats Vikram (7 or 6) in SF2, and Zoya beats Tara in the final. Two seedings work: Uday 2, Zoya 3, Yamini 6, Vikram 7, or Zoya 2, Uday 3, Vikram 6, Yamini 7.</li><li><strong>Uday-Vikram in QF1</strong> (Uday 1, Vikram 8): Tara (5) must beat Vikram (8) in SF1, not an upset. In the lower half, Sahil is seeded 2 or 3, and Sahil loses SF2 to Zoya, who then beats Tara in the final. If Zoya were seeded 6 or 7, both her quarterfinal and her semifinal win would be upsets (too many). So Zoya is seeded 2 or 3 and the final is not an upset; the third upset must be Zoya over Sahil, so Zoya is 3 and Sahil is 2, with Yamini 6 and Wasim 7.</li><li><strong>Zoya-Yamini in QF1</strong>: Zoya meets Tara in SF1 and loses (Tara must win). Sahil then loses SF2 to Vikram, who wins the final against Tara. Vikram (6 or 7) beating Sahil (2 or 3) and Tara (5) would be two more upsets, giving four. Impossible.</li></ul><table><tr><th>Case</th><th>Seed 1</th><th>Seed 2</th><th>Seed 3</th><th>Seed 4</th><th>Seed 5</th><th>Seed 6</th><th>Seed 7</th><th>Seed 8</th><th>Champion</th></tr><tr><td>A</td><td>Sahil</td><td>Uday</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Vikram</td><td>Wasim</td><td>Zoya</td></tr><tr><td>B</td><td>Sahil</td><td>Zoya</td><td>Uday</td><td>Rhea</td><td>Tara</td><td>Vikram</td><td>Yamini</td><td>Wasim</td><td>Zoya</td></tr><tr><td>C</td><td>Uday</td><td>Sahil</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Wasim</td><td>Vikram</td><td>Zoya</td></tr></table><p>In every case Zoya is the champion and Tara the runner-up. In Cases A and B, the semifinals are Tara-Sahil and Zoya-Vikram; in Case C they are Tara-Vikram and Zoya-Sahil.</p><p>In every case, Vikram won his quarterfinal against Uday as an upset (bonus 5) and then lost his semifinal (to Zoya in Cases A and B, to Tara in Case C), earning 20. Total = 20 + 5 = <strong>25</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "hard",
+      "stemHtml": "<p>If Zoya was seeded 2, what was Yamini's seed?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Tara won exactly two matches, so she won her quarterfinal and semifinal and lost the final. A semifinal win requires a quarterfinal win, so Sahil's only win (over Wasim) was in the quarterfinals, and Sahil lost his semifinal.</p><p>Tara, Sahil, Vikram and Zoya each won at least one match, so these four are exactly the quarterfinal winners, and Wasim, Rhea, Uday and Yamini lost in the quarterfinals. Hence Vikram beat Uday, and Zoya beat Yamini, in the quarterfinals, and the quarterfinal pairs are Sahil-Wasim, Vikram-Uday, Zoya-Yamini and Tara-Rhea. The only quarterfinal between consecutive seeds is 4 vs 5, so <strong>Rhea is seed 4 and Tara is seed 5</strong>, and Tara's quarterfinal win was an upset.</p><p>Upsets so far: Vikram over Uday and Tara over Rhea. Sahil is among the top four seeds but seed 4 is Rhea's, so he is seeded 1, 2 or 3 and so is the better seed against Wasim; that match was not an upset. Exactly one more upset must occur among the Zoya-Yamini quarterfinal, the two semifinals and the final. Consider which pair plays QF1 (seeds 1 and 8), in the same half as Tara:</p><ul><li><strong>Sahil-Wasim in QF1</strong> (Sahil 1, Wasim 8): Tara (5) beats Sahil (1) in SF1, the third upset. So nothing else is an upset: Zoya is the better seed against Yamini, Zoya (2 or 3) beats Vikram (7 or 6) in SF2, and Zoya beats Tara in the final. Two seedings work: Uday 2, Zoya 3, Yamini 6, Vikram 7, or Zoya 2, Uday 3, Vikram 6, Yamini 7.</li><li><strong>Uday-Vikram in QF1</strong> (Uday 1, Vikram 8): Tara (5) must beat Vikram (8) in SF1, not an upset. In the lower half, Sahil is seeded 2 or 3, and Sahil loses SF2 to Zoya, who then beats Tara in the final. If Zoya were seeded 6 or 7, both her quarterfinal and her semifinal win would be upsets (too many). So Zoya is seeded 2 or 3 and the final is not an upset; the third upset must be Zoya over Sahil, so Zoya is 3 and Sahil is 2, with Yamini 6 and Wasim 7.</li><li><strong>Zoya-Yamini in QF1</strong>: Zoya meets Tara in SF1 and loses (Tara must win). Sahil then loses SF2 to Vikram, who wins the final against Tara. Vikram (6 or 7) beating Sahil (2 or 3) and Tara (5) would be two more upsets, giving four. Impossible.</li></ul><table><tr><th>Case</th><th>Seed 1</th><th>Seed 2</th><th>Seed 3</th><th>Seed 4</th><th>Seed 5</th><th>Seed 6</th><th>Seed 7</th><th>Seed 8</th><th>Champion</th></tr><tr><td>A</td><td>Sahil</td><td>Uday</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Vikram</td><td>Wasim</td><td>Zoya</td></tr><tr><td>B</td><td>Sahil</td><td>Zoya</td><td>Uday</td><td>Rhea</td><td>Tara</td><td>Vikram</td><td>Yamini</td><td>Wasim</td><td>Zoya</td></tr><tr><td>C</td><td>Uday</td><td>Sahil</td><td>Zoya</td><td>Rhea</td><td>Tara</td><td>Yamini</td><td>Wasim</td><td>Vikram</td><td>Zoya</td></tr></table><p>In every case Zoya is the champion and Tara the runner-up. In Cases A and B, the semifinals are Tara-Sahil and Zoya-Vikram; in Case C they are Tara-Vikram and Zoya-Sahil.</p><p>Zoya is seeded 2 only in Case B, where Yamini is seeded <strong>7</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

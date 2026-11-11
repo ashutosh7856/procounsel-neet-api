@@ -1,0 +1,96 @@
+{
+  "slug": "ibs-hyderabad",
+  "name": "ICFAI Business School, Hyderabad (IFHE)",
+  "shortName": "IBS Hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "type": "deemed",
+  "website": "https://www.ifheindia.org/icfai-business-school-hyderabad",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "IBSAT",
+        "CAT",
+        "XAT",
+        "NMAT",
+        "GMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 1701000,
+      "feeYear": "2027-29",
+      "feeNote": "IFHE fee-structure page: MBA (IBS Hyderabad) 2027-29 programme fee Rs 17,01,000 for 2 years (IBS admissions page: Rs 8.505 lakh per annum). Tuition only; excludes refundable caution deposit Rs 10,000 (with 1st instalment), convocation fee Rs 4,000 (with 5th instalment) and living expenses (hostel/mess not included).",
+      "intake": null,
+      "intakeNote": "Not published on the pages used.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": "Class of 2026 final placements",
+      "placementNote": "IBS Final Placements page, Class of 2026, Hyderabad campus: 93% placed, highest CTC Rs 33.00 LPA, top-10% average Rs 15.58 LPA, top-25% average Rs 13.66 LPA. Batch-wide average and median not published, so both are null.",
+      "sources": {
+        "fee": "https://www.ifheindia.org/icfai-business-school-hyderabad/ibs-fee-structure",
+        "intake": null,
+        "salary": null,
+        "admission": "https://ibsindia.org/admissions/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "IBSAT 2026 / CAT / XAT / NMAT / GMAT score and IBS application",
+      "weightage": null,
+      "detail": "Eligibility: bachelor's degree (15 years of education) with minimum 50%, English-medium graduation; final-year students eligible if degree completed by 31 May 2027. Application fee Rs 1,800."
+    },
+    {
+      "stage": 2,
+      "name": "Micro Presentation and Personal Interview at IBS Hyderabad",
+      "weightage": null,
+      "detail": "Final selection on past academic record and performance in Micro Presentation and Personal Interview; selection process 2nd-3rd week of February 2027. Weights not published."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-07-01",
+    "applicationDeadline": "2026-12-22",
+    "examDate": "2026-12-05",
+    "notes": "IBSAT 2026 applications 1 Jul - 22 Dec 2026; eight IBSAT test dates: 5-6, 12-13, 19-20, 26-27 Dec 2026 (examDate = first test date); selection briefings in January 2027; selection process (Micro Presentation + PI) 2nd-3rd week of February 2027 at IBS Hyderabad.",
+    "source": "https://ibsindia.org/admissions/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 46,
+    "score": 54.4,
+    "nirfInstituteId": "IR-M-U-0012",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+    "note": "Ranked entity is ICFAI Foundation for Higher Education, Hyderabad (shares rank 46)."
+  },
+  "sources": [
+    {
+      "title": "IFHE - IBS Hyderabad fee structure",
+      "url": "https://www.ifheindia.org/icfai-business-school-hyderabad/ibs-fee-structure",
+      "retrievedAt": "2026-11-12",
+      "supports": "MBA fee 2027-29 Rs 17,01,000; caution deposit; convocation fee"
+    },
+    {
+      "title": "IBS admissions page (IBSAT 2026, MBA/PGPM 2027-29)",
+      "url": "https://ibsindia.org/admissions/",
+      "retrievedAt": "2026-11-12",
+      "supports": "exams accepted; eligibility; selection process; key dates; annual fee Rs 8.505 lakh"
+    },
+    {
+      "title": "IBS Final Placements page - Class of 2026",
+      "url": "https://ibsindia.org/final-placements/",
+      "retrievedAt": "2026-11-12",
+      "supports": "Hyderabad: 93% placed, highest 33.00 LPA, top-10%/top-25% averages"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 46 (IFHE Hyderabad), score 54.40"
+    }
+  ]
+}

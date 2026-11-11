@@ -1,0 +1,51 @@
+{
+  "slug": "tezpur-university",
+  "name": "Department of Business Administration, Tezpur University",
+  "city": "Tezpur",
+  "state": "Assam",
+  "program": "MBA (Full Time)",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 54.16,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "General category cut-off for the GD/PI shortlist. Other categories (CAT): OBC-NCL 51, EWS 64.71, SC 20.94, ST 7.77. The notice labels these 'cut-off marks' without a unit; values are consistent with CAT percentiles (the same table gives XAT 68.7 and MAT/CMAT/ATMA as scaled scores). Unit not explicitly stated.",
+      "source": {
+        "title": "Tezpur University DBA - List of candidates shortlisted for Personal Interactions, MBA (Full Time) 2026-2028 (reissued 4 May 2026)",
+        "url": "https://www.tezu.ernet.in/adm26/notice/mbagdpilist.pdf",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "Category-wise cut-off marks are as below: CATEGORY MAT CAT XAT ATMA CMAT CUET / GEN 558.5 54.16 68.7 499.44 175 NA"
+    },
+    {
+      "batch": "2024-26",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 78.3,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Earlier batch, for context. OBC(NCL) 66.94, EWS 57.4, SC 58.88, ST 62.0.",
+      "source": {
+        "title": "Tezpur University DBA - List of candidates shortlisted for Personal Interactions, MBA (Full Time) 2024-2026",
+        "url": "https://www.tezu.ernet.in/academic/2024/April/MBAGDPIshortlist2024.pdf",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "Category-wise cut-off marks are as below: CAT MAT ATMA XAT CMAT# GMAT / General (U/R) 78.3 660.5 702.8 89.9 90.5 N/A"
+    }
+  ],
+  "otherExamsAccepted": [
+    "MAT",
+    "XAT",
+    "ATMA",
+    "GMAT",
+    "CMAT",
+    "CUET-PG"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official department shortlist notice. Caveat: 'cut-off marks' unit is not labelled; treated as CAT percentile. Prospectus (https://www.tezu.ernet.in/adm26/ProspectusMBA2026.pdf) says the test score is only an eligibility criterion and has no bearing in final assessment."
+}

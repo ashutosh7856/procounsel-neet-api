@@ -1,0 +1,108 @@
+{
+  "slug": "iips-davv-indore",
+  "name": "International Institute of Professional Studies, Devi Ahilya Vishwavidyalaya, Indore",
+  "shortName": "IIPS DAVV",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "type": "university department",
+  "website": "https://iips.edu.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "MBA (Advertising and Public Relations)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CUET (PG)"
+      ],
+      "specialisations": [],
+      "feeTotal": 136400,
+      "feeYear": "2026-27",
+      "feeNote": "Derived: DAVV CUET (PG) 2026-27 brochure Table 1 programme fee Rs 68,200 per year x 2 years = Rs 1,36,400 (subject to revision). Plus DAVV student service fee per semester, alumni fee Rs 500, refundable caution money Rs 4,000; hostel separate.",
+      "intake": 40,
+      "intakeNote": "Total seats per DAVV CUET (PG) 2026-27 brochure.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "IIPS Placement Dossier 2026-27 reports for the 'Management Programme Batch 2025-2026' (all IIPS management programmes, incl. the 5-year integrated MBA; not programme-specific): 85/112 placed, average package 7.5 LPA, highest 21.35 LPA; 2024-25: 73% placed, average 6.92 LPA. Not stored in the salary fields because it is not specific to this programme.",
+      "sources": {
+        "fee": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "intake": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "salary": null,
+        "admission": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf"
+      }
+    },
+    {
+      "name": "MBA (Entrepreneurship)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CUET (PG)"
+      ],
+      "specialisations": [],
+      "feeTotal": 136400,
+      "feeYear": "2026-27",
+      "feeNote": "Derived: DAVV CUET (PG) 2026-27 brochure Table 1 programme fee Rs 68,200 per year x 2 years = Rs 1,36,400 (subject to revision). Plus DAVV student service fee per semester, alumni fee Rs 500, refundable caution money Rs 4,000; hostel separate.",
+      "intake": 40,
+      "intakeNote": "Total seats per DAVV CUET (PG) 2026-27 brochure.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "IIPS Placement Dossier 2026-27 reports for the 'Management Programme Batch 2025-2026' (all IIPS management programmes, incl. the 5-year integrated MBA; not programme-specific): 85/112 placed, average package 7.5 LPA, highest 21.35 LPA; 2024-25: 73% placed, average 6.92 LPA. Not stored in the salary fields because it is not specific to this programme.",
+      "sources": {
+        "fee": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "intake": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "salary": null,
+        "admission": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "CUET (PG) score (NTA), paper COQP12",
+      "weightage": null,
+      "detail": "Registration for DAVV counselling at davv.mponline.gov.in; graduation in any stream with min. 50% (5% relaxation for MP-domicile reserved categories and PwD)."
+    },
+    {
+      "stage": 2,
+      "name": "DAVV counselling on CUET (PG) merit",
+      "weightage": null,
+      "detail": "Merit solely on CUET (PG) score; ties broken by age."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "2026-27 cycle: DAVV counselling registration closed 10 Jun 2026. 2027-28 dates not published as of 2026-11-12. IIPS also runs MBA (Management Science) 2-year and 5-year integrated programmes; their 2026 admission route is not stated in the CUET (PG) brochure and they are not listed here.",
+    "source": "https://www.dauniv.ac.in/cuet2026/cuet-pg-2026.php"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "DAVV Indore - CUET (PG) Admission Information Brochure 2026-2027 (updated 29.06.2026)",
+      "url": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "IIPS MBA (APR) and MBA (Entrepreneurship): seats, fee per year, eligibility, merit rule"
+    },
+    {
+      "title": "IIPS DAVV - Placement Dossier 2026-2027 (Management)",
+      "url": "https://iips.edu.in/static/pdf/placement/IIPS_Placement_Brochure_%202026_Management.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "institute-level management placement ratio/average/highest 2024-25 and 2025-26 (placementNote only)"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not ranked in 1-100"
+    }
+  ]
+}

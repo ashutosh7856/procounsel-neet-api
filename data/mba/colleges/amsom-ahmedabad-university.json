@@ -1,0 +1,108 @@
+{
+  "slug": "amsom-ahmedabad-university",
+  "name": "Amrut Mody School of Management, Ahmedabad University",
+  "shortName": "AMSOM (Ahmedabad University)",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "type": "private",
+  "website": "https://ahduni.edu.in/academics/schools-centres/amrut-mody-school-of-management/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA) - 'The Ahmedabad MBA'",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "NMAT",
+        "GMAT",
+        "GRE",
+        "AMSOM Aptitude Test (Arts/Humanities graduates only)"
+      ],
+      "specialisations": [],
+      "feeTotal": 1400000,
+      "feeYear": "2027-29",
+      "feeNote": "Tuition for the incoming MBA class of 2027: INR 7,00,000 per year x 2 = INR 14,00,000 (includes INR 10,000 for course materials, cases and simulation licences). Excludes optional twin-sharing stay, three meals and transport INR 2,46,000 per year (INR 4,92,000 for two years, subject to revision), refundable security deposit INR 20,000 and the international immersion visit. Rs 1,00,000 payable on acceptance.",
+      "intake": 80,
+      "intakeNote": "Total MBA intake 80 (25 through ACPC incl. EWS) per ACPC Gujarat CoE list for AY 2026-27. AMSOM's MBA 2027 brochure describes 'a carefully selected cohort of approximately sixty'.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "AMSOM's official 'Placements 2027' brochure lists recruiters and sectors but publishes no average or median CTC.",
+      "sources": {
+        "fee": "https://ahduni.edu.in/admission/graduate-admission/master-of-business-administration/",
+        "intake": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/01/20260129430897974.pdf",
+        "salary": null,
+        "admission": "https://ahduni.edu.in/admission/graduate-admission/master-of-business-administration/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Online application",
+      "weightage": null,
+      "detail": "Academic records, entrance test score(s), work experience, a two-minute self-video on a set theme and an optional book review; application fee INR 1,500. Minimum 60% in Class 10, Class 12 and bachelor's."
+    },
+    {
+      "stage": 2,
+      "name": "Faculty interaction",
+      "weightage": null,
+      "detail": "30-40 minute faculty interaction on campus or via Zoom; alternatively a book-review interaction with the Vice Chancellor with the possibility of a spot offer."
+    },
+    {
+      "stage": 3,
+      "name": "Result",
+      "weightage": null,
+      "detail": "Holistic decision (Offer / Waitlist / Reject) based on overall profile and interaction; no fixed minimum test cut-off."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-09-01",
+    "applicationDeadline": "2026-12-28",
+    "examDate": null,
+    "notes": "Round 1 for MBA 2027: applications open 1 Sep 2026, close 28 Dec 2026; faculty interactions 12 Jan 2027; decisions 21 Jan 2027. On-campus AMSOM Aptitude Test (Arts/Humanities graduates) on 28 Oct, 3 Dec and 2 Feb. Balance first-semester fee due 15 Jun 2027. Later rounds not listed on the page.",
+    "source": "https://ahduni.edu.in/admission/graduate-admission/master-of-business-administration/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Ahmedabad University not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "Ahmedabad University - MBA Admission 2027 page",
+      "url": "https://ahduni.edu.in/admission/graduate-admission/master-of-business-administration/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29, eligibility, exams, selection process, Round 1 dates"
+    },
+    {
+      "title": "The Ahmedabad MBA 2027 brochure (Oct 2026)",
+      "url": "https://s3.ahduni.edu.in/site/assets/files/20906/mba_2027_oct29_26.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "cohort of approximately sixty"
+    },
+    {
+      "title": "ACPC Gujarat - Provisional List of CoE Institutes and Intake for MBA admissions 2026-27",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/01/20260129430897974.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake 80 (25 via ACPC)"
+    },
+    {
+      "title": "AMSOM Placements 2027 brochure",
+      "url": "https://s3.ahduni.edu.in/site/assets/files/8799/amsom_placement_2027_june16_26.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "checked: no average/median CTC published"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

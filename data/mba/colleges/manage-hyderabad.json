@@ -1,0 +1,104 @@
+{
+  "slug": "manage-hyderabad",
+  "name": "National Institute of Agricultural Extension Management (MANAGE), Hyderabad",
+  "shortName": "MANAGE Hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "type": "government",
+  "website": "https://www.manage.gov.in",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management - Agri-Business Management (PGDM-ABM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "specialisations": [
+        "Agri-Business Management"
+      ],
+      "feeTotal": 975000,
+      "feeYear": "2026-28",
+      "feeNote": "Prospectus 2026-28 total for two years: tuition Rs 4,05,000 (2 x 2,02,500) + boarding & lodging Rs 4,94,000 (fully residential, twin sharing) + other heads (library, study material, computer & internet, student welfare etc.) Rs 76,000 = Rs 9,75,000. Provisional and subject to upward revision; hostel during summer project/vacation extra. 2027-29 prospectus not yet published as of 2026-11-12.",
+      "intake": 120,
+      "intakeNote": "AICTE Mandatory Disclosure: 120 seats (sanctioned 100 from 1996 to 2024, 120 since 2024); 100% of seats through CAT; no management quota.",
+      "medianSalary": null,
+      "averageSalary": 1238000,
+      "salaryYear": "PGDM-ABM batch 2023-25 final placements",
+      "placementNote": "Prospectus 2026-28: maximum CTC for batch 2023-25 Rs 21 LPA, average Rs 12.38 LPA; Mandatory Disclosure lists average package 12.38 LPA (previous two years 12.33 and 12.16 LPA). Median not used here (not in the documents fetched). Audit not stated.",
+      "sources": {
+        "fee": "https://www.manage.gov.in/pgdmabm/prospectus.pdf",
+        "intake": "https://www.manage.gov.in/pgdmabm/mandatory.pdf",
+        "salary": "https://www.manage.gov.in/pgdmabm/prospectus.pdf",
+        "admission": "https://www.manage.gov.in/pgdmabm/prospectus.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting on CAT score/percentile (category-wise)",
+      "weightage": "CAT 55 (candidate's CAT score / highest CAT score x 55)",
+      "detail": "CAT scorecard to be submitted by the stated date (10 Feb in the 2026 cycle). Eligibility: bachelor's in agriculture or allied disciplines with at least 50% (45% SC/ST/PwD)."
+    },
+    {
+      "stage": 2,
+      "name": "Essay writing, group discussion and personal interview at MANAGE Hyderabad",
+      "weightage": "Essay 5, GD 12, PI 17, work experience up to 5, academic record 6 (Class XII x2 + graduation x4)",
+      "detail": "Final merit list on the sum of all components (total 100); PI and essay held in April in the 2026 cycle."
+    }
+  ],
+  "selectionWeightage": {
+    "CAT": 55,
+    "EssayWriting": 5,
+    "GD": 12,
+    "PI": 17,
+    "WorkExperience": 5,
+    "AcademicRecord": 6,
+    "note": "From Prospectus 2026-28 (2026 admission cycle); 2027 policy not yet published.",
+    "source": "https://www.manage.gov.in/pgdmabm/prospectus.pdf"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": "2026-11-29",
+    "notes": "Admission uses CAT 2026 (29 Nov 2026). 2027 admission notification not yet published as of 2026-11-12; in the 2026 cycle CAT scorecards were due 10 Feb 2026, PI/essay in April 2026 and results April/May 2026. Application fee Rs 600 (Rs 200 SC/ST).",
+    "source": "https://www.manage.gov.in/pgdmabm/prospectus.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 95,
+    "score": 45.48,
+    "nirfInstituteId": "IR-M-S-14553",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "MANAGE PGDM(ABM) Prospectus 2026-28",
+      "url": "https://www.manage.gov.in/pgdmabm/prospectus.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2026-28 (Rs 9,75,000); selection weightage; eligibility; average 12.38 LPA and highest 21 LPA batch 2023-25"
+    },
+    {
+      "title": "MANAGE PGDM(ABM) AICTE Mandatory Disclosure",
+      "url": "https://www.manage.gov.in/pgdmabm/mandatory.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake 120; admission 100% through CAT; average package"
+    },
+    {
+      "title": "MANAGE PGDM-ABM Admissions page",
+      "url": "https://www.manage.gov.in/abm-admissions/admissions.asp",
+      "retrievedAt": "2026-11-12",
+      "supports": "admission portal"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 95, score 45.48"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "xiss-ranchi",
+  "name": "Xavier Institute of Social Service (XISS), Ranchi",
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "program": "PGDM (HRM / RM / MM / FM)",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 60,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM-HRM, Unreserved category. Reserved category: 45. XAT 60 / CMAT 70 (Unreserved). Page says the GDPI-call cut-off for 2027 (2027-29 batch) will be announced after CAT/XAT/CMAT scores are available.",
+      "source": {
+        "title": "XISS Ranchi - PGDM Admissions 2027-29 page, 'Cut-off for GDPI call 2026' table",
+        "url": "https://xiss.ac.in/admission/",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "Cut-off for GDPI call 2026 ... Name of the Program CAT (Percentile) ... PGDM - HRM 60 60 70 45 45 60"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 25,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM-RM (Rural Management), Unreserved. Reserved: 20.",
+      "source": {
+        "title": "XISS Ranchi - PGDM Admissions 2027-29 page, 'Cut-off for GDPI call 2026' table",
+        "url": "https://xiss.ac.in/admission/",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "PGDM - RM 25 25 35 20 20 30"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 35,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM-MM (Marketing Management), Unreserved. Reserved: 30.",
+      "source": {
+        "title": "XISS Ranchi - PGDM Admissions 2027-29 page, 'Cut-off for GDPI call 2026' table",
+        "url": "https://xiss.ac.in/admission/",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "PGDM - MM 35 35 45 30 30 40"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 35,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM-FM (Financial Management), Unreserved. Reserved: 30.",
+      "source": {
+        "title": "XISS Ranchi - PGDM Admissions 2027-29 page, 'Cut-off for GDPI call 2026' table",
+        "url": "https://xiss.ac.in/admission/",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "PGDM - FM 35 35 45 30 30 40"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "CMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official admissions page (2027-29 cycle) shows the GDPI-call cut-off table used for the 2026 admissions (2026-28 batch); 2027 cut-offs 'will be announced later'. Index uses the PGDM-HRM row (highest). Unreserved category treated as General."
+}

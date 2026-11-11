@@ -1,0 +1,702 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Office Cafe Table",
+      "contentHtml": "<p>Eight colleagues, Arun, Bela, Chetan, Disha, Eshan, Fiza, Girish and Hina, sit around a circular table with eight equally spaced seats, all facing the centre. Each of them orders exactly one of four drinks: Tea, Coffee, Lassi or Juice, and each drink is ordered by exactly two of them.</p><p>Since everyone faces the centre, the person immediately to the left of anyone is the next person in the clockwise direction. 'X sits second to the left of Y' means that X is two seats away from Y in the clockwise direction.</p><p>The following is known:</p><ol><li>Bela sits second to the left of Arun.</li><li>Chetan sits directly opposite Bela.</li><li>Exactly one person sits between Disha and Girish.</li><li>Hina sits next to Chetan.</li><li>Eshan is not a neighbour of Arun and not a neighbour of Chetan.</li><li>Eshan orders Coffee, and so does the person sitting directly opposite Eshan.</li><li>Arun orders Lassi.</li><li>Girish and Hina order the same drink.</li><li>Fiza orders neither Tea nor Juice.</li><li>Chetan does not order Juice.</li></ol>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Electric Scooter Sales",
+      "contentHtml": "<p>The table below gives the number of electric scooters (in thousand units) sold in a state by five brands in each year from 2021 to 2024. It also gives each brand's average selling price, which stayed the same in all four years.</p><p>Revenue of a brand in a year = units sold in that year &#215; average selling price of that brand.</p><table><tr><th>Brand</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th><th>Average selling price (&#8377; thousand per unit)</th></tr><tr><td>Volta</td><td>42</td><td>55</td><td>68</td><td>80</td><td>95</td></tr><tr><td>Zippy</td><td>30</td><td>36</td><td>50</td><td>63</td><td>80</td></tr><tr><td>Raftaar</td><td>18</td><td>27</td><td>33</td><td>45</td><td>120</td></tr><tr><td>Ecoride</td><td>55</td><td>60</td><td>58</td><td>72</td><td>70</td></tr><tr><td>Glide</td><td>12</td><td>20</td><td>31</td><td>40</td><td>110</td></tr></table>"
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "Studio Electives",
+      "contentHtml": "<p>All 90 first-year students of a design school had to register for at least one of three studio electives: Ceramics, Photography and Typography. A student could register for one, two or all three of them.</p><p>The following is known:</p><ol><li>Ceramics, Photography and Typography received 48, 45 and 38 registrations respectively.</li><li>Exactly 25 students registered for exactly two electives.</li><li>The number of students who registered for Photography only was three times the number who registered for both Ceramics and Typography but not Photography.</li><li>Fewer students registered for Typography only than for Photography only.</li></ol>"
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Municipal Ward Elections",
+      "contentHtml": "<p>In a municipal election, each of five wards, Amrapur, Belgaon, Chandni, Devnagar and Ekpur, elected one councillor. Three parties, Navyug Party (NP), Sahyog Dal (SD) and Janhit Morcha (JM), contested every ward. The remaining votes went to independent candidates, shown together as Others; in every ward each independent polled fewer votes than each of the three party candidates. In each ward, the candidate with the most votes won.</p><p>The table gives, for each ward, the number of registered voters, the turnout (votes cast as a percentage of registered voters) and the share of the votes cast received by each party. Every vote cast was valid, and all the vote counts that follow from the table are whole numbers.</p><table><tr><th>Ward</th><th>Registered voters</th><th>Turnout (%)</th><th>NP (%)</th><th>SD (%)</th><th>JM (%)</th><th>Others (%)</th></tr><tr><td>Amrapur</td><td>80,000</td><td>65</td><td>38</td><td>34</td><td>20</td><td>8</td></tr><tr><td>Belgaon</td><td>60,000</td><td>72</td><td>30</td><td>41</td><td>22</td><td>7</td></tr><tr><td>Chandni</td><td>95,000</td><td>58</td><td>35</td><td>30</td><td>31</td><td>4</td></tr><tr><td>Devnagar</td><td>70,000</td><td>80</td><td>28</td><td>33</td><td>36</td><td>3</td></tr><tr><td>Ekpur</td><td>50,000</td><td>75</td><td>42</td><td>23</td><td>27</td><td>8</td></tr></table>"
+    },
+    {
+      "key": "DILR-S5",
+      "kind": "dilr_set",
+      "title": "Rolling Cube Game",
+      "contentHtml": "<p>A cube has its faces numbered 1 to 6 such that the numbers on opposite faces add up to 7. It rests on a floor marked with square cells, each the size of a face, and can be rolled one cell at a time towards North (N), South (S), East (E) or West (W). Each roll tips the cube over one of its bottom edges:</p><ul><li><strong>Roll N:</strong> the top face turns to face North, the North face goes to the bottom, the bottom face turns to face South, and the South face comes to the top. The East and West faces do not change.</li><li><strong>Roll S:</strong> the reverse of a roll N: the top face turns to face South, and the North face comes to the top.</li><li><strong>Roll E:</strong> the top face turns to face East, the East face goes to the bottom, the bottom face turns to face West, and the West face comes to the top. The North and South faces do not change.</li><li><strong>Roll W:</strong> the reverse of a roll E: the top face turns to face West, and the East face comes to the top.</li></ul><p>Initially the cube shows 1 on top, 2 facing North and 3 facing East (so 6 is at the bottom, 5 faces South and 4 faces West).</p><p><strong>Game.</strong> The cube starts, in this initial position, on the south-west corner cell of a 3 &#215; 3 board and must reach the north-east corner cell in exactly four rolls, each of which is N or E (so exactly two rolls of each kind). The <em>score</em> of a route is the sum of the numbers on the top face after each of the four rolls; the initial top number is not counted.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "easy",
+      "stemHtml": "<p>Who sits directly opposite Fiza?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Girish"
+        },
+        {
+          "id": "B",
+          "textHtml": "Hina"
+        },
+        {
+          "id": "C",
+          "textHtml": "Disha"
+        },
+        {
+          "id": "D",
+          "textHtml": "Arun"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Seating.</strong> Number the seats 0 to 7 clockwise, with Arun in seat 0 (moving clockwise = moving to one's left). By conditions 1 and 2, Bela is in seat 2 and Chetan in seat 6. By condition 4, Hina is in seat 5 or 7. By condition 5, Eshan is not in seats 1, 7 (next to Arun) or 5 (next to Chetan), so Eshan is in seat 3 or 4.</p><p>If Eshan were in seat 4, the person opposite him would be Arun, who orders Lassi (condition 7), contradicting condition 6. So Eshan is in seat 3 and the person in seat 7 orders Coffee. That person is not Girish or Hina: they order the same drink, so both would need Coffee, giving three Coffee orders. If Fiza were in seat 7, Hina would be in seat 5 and seats 1 and 4 would be left for Disha and Girish, who must have exactly one person between them - impossible. Hence Disha is in seat 7. Girish must then be in seat 1 or 5; Hina needs seat 5 (seat 7 is taken), so Girish is in seat 1, Hina in seat 5 and Fiza in seat 4.</p><p><strong>Drinks.</strong> Eshan and Disha order Coffee, and Arun orders Lassi. Fiza orders neither Tea nor Juice, and Coffee is used up, so Fiza orders Lassi. Chetan cannot order Juice, Coffee or Lassi, so he orders Tea. Girish and Hina order the same drink, which must be Tea or Juice; only one Tea is left, so both order Juice, and Bela orders the remaining Tea.</p><table><tr><th>Seat (clockwise from Arun)</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr><tr><td>Person</td><td>Arun</td><td>Girish</td><td>Bela</td><td>Eshan</td><td>Fiza</td><td>Hina</td><td>Chetan</td><td>Disha</td></tr><tr><td>Drink</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td></tr></table><p>Fiza is in seat 4, and the seat opposite it is seat 0, which is Arun's. The answer is <strong>Arun</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following pairs of colleagues ordered the same drink?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Arun and Hina"
+        },
+        {
+          "id": "B",
+          "textHtml": "Fiza and Girish"
+        },
+        {
+          "id": "C",
+          "textHtml": "Bela and Chetan"
+        },
+        {
+          "id": "D",
+          "textHtml": "Disha and Bela"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Seating.</strong> Number the seats 0 to 7 clockwise, with Arun in seat 0 (moving clockwise = moving to one's left). By conditions 1 and 2, Bela is in seat 2 and Chetan in seat 6. By condition 4, Hina is in seat 5 or 7. By condition 5, Eshan is not in seats 1, 7 (next to Arun) or 5 (next to Chetan), so Eshan is in seat 3 or 4.</p><p>If Eshan were in seat 4, the person opposite him would be Arun, who orders Lassi (condition 7), contradicting condition 6. So Eshan is in seat 3 and the person in seat 7 orders Coffee. That person is not Girish or Hina: they order the same drink, so both would need Coffee, giving three Coffee orders. If Fiza were in seat 7, Hina would be in seat 5 and seats 1 and 4 would be left for Disha and Girish, who must have exactly one person between them - impossible. Hence Disha is in seat 7. Girish must then be in seat 1 or 5; Hina needs seat 5 (seat 7 is taken), so Girish is in seat 1, Hina in seat 5 and Fiza in seat 4.</p><p><strong>Drinks.</strong> Eshan and Disha order Coffee, and Arun orders Lassi. Fiza orders neither Tea nor Juice, and Coffee is used up, so Fiza orders Lassi. Chetan cannot order Juice, Coffee or Lassi, so he orders Tea. Girish and Hina order the same drink, which must be Tea or Juice; only one Tea is left, so both order Juice, and Bela orders the remaining Tea.</p><table><tr><th>Seat (clockwise from Arun)</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr><tr><td>Person</td><td>Arun</td><td>Girish</td><td>Bela</td><td>Eshan</td><td>Fiza</td><td>Hina</td><td>Chetan</td><td>Disha</td></tr><tr><td>Drink</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td></tr></table><p>Arun (Lassi) and Hina (Juice) differ; Fiza (Lassi) and Girish (Juice) differ; Disha (Coffee) and Bela (Tea) differ. <strong>Bela and Chetan</strong> both ordered Tea.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Moving clockwise from Arun to Hina, how many people sit between them?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Seating.</strong> Number the seats 0 to 7 clockwise, with Arun in seat 0 (moving clockwise = moving to one's left). By conditions 1 and 2, Bela is in seat 2 and Chetan in seat 6. By condition 4, Hina is in seat 5 or 7. By condition 5, Eshan is not in seats 1, 7 (next to Arun) or 5 (next to Chetan), so Eshan is in seat 3 or 4.</p><p>If Eshan were in seat 4, the person opposite him would be Arun, who orders Lassi (condition 7), contradicting condition 6. So Eshan is in seat 3 and the person in seat 7 orders Coffee. That person is not Girish or Hina: they order the same drink, so both would need Coffee, giving three Coffee orders. If Fiza were in seat 7, Hina would be in seat 5 and seats 1 and 4 would be left for Disha and Girish, who must have exactly one person between them - impossible. Hence Disha is in seat 7. Girish must then be in seat 1 or 5; Hina needs seat 5 (seat 7 is taken), so Girish is in seat 1, Hina in seat 5 and Fiza in seat 4.</p><p><strong>Drinks.</strong> Eshan and Disha order Coffee, and Arun orders Lassi. Fiza orders neither Tea nor Juice, and Coffee is used up, so Fiza orders Lassi. Chetan cannot order Juice, Coffee or Lassi, so he orders Tea. Girish and Hina order the same drink, which must be Tea or Juice; only one Tea is left, so both order Juice, and Bela orders the remaining Tea.</p><table><tr><th>Seat (clockwise from Arun)</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr><tr><td>Person</td><td>Arun</td><td>Girish</td><td>Bela</td><td>Eshan</td><td>Fiza</td><td>Hina</td><td>Chetan</td><td>Disha</td></tr><tr><td>Drink</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td></tr></table><p>Moving clockwise from Arun (seat 0) to Hina (seat 5), we pass Girish, Bela, Eshan and Fiza, so <strong>4</strong> people sit between them.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements is FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Girish sits immediately to the left of Arun."
+        },
+        {
+          "id": "B",
+          "textHtml": "Hina sits immediately to the right of Fiza."
+        },
+        {
+          "id": "C",
+          "textHtml": "The two colleagues who ordered Juice sit directly opposite each other."
+        },
+        {
+          "id": "D",
+          "textHtml": "Eshan sits between Bela and Fiza."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Seating.</strong> Number the seats 0 to 7 clockwise, with Arun in seat 0 (moving clockwise = moving to one's left). By conditions 1 and 2, Bela is in seat 2 and Chetan in seat 6. By condition 4, Hina is in seat 5 or 7. By condition 5, Eshan is not in seats 1, 7 (next to Arun) or 5 (next to Chetan), so Eshan is in seat 3 or 4.</p><p>If Eshan were in seat 4, the person opposite him would be Arun, who orders Lassi (condition 7), contradicting condition 6. So Eshan is in seat 3 and the person in seat 7 orders Coffee. That person is not Girish or Hina: they order the same drink, so both would need Coffee, giving three Coffee orders. If Fiza were in seat 7, Hina would be in seat 5 and seats 1 and 4 would be left for Disha and Girish, who must have exactly one person between them - impossible. Hence Disha is in seat 7. Girish must then be in seat 1 or 5; Hina needs seat 5 (seat 7 is taken), so Girish is in seat 1, Hina in seat 5 and Fiza in seat 4.</p><p><strong>Drinks.</strong> Eshan and Disha order Coffee, and Arun orders Lassi. Fiza orders neither Tea nor Juice, and Coffee is used up, so Fiza orders Lassi. Chetan cannot order Juice, Coffee or Lassi, so he orders Tea. Girish and Hina order the same drink, which must be Tea or Juice; only one Tea is left, so both order Juice, and Bela orders the remaining Tea.</p><table><tr><th>Seat (clockwise from Arun)</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th></tr><tr><td>Person</td><td>Arun</td><td>Girish</td><td>Bela</td><td>Eshan</td><td>Fiza</td><td>Hina</td><td>Chetan</td><td>Disha</td></tr><tr><td>Drink</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td><td>Lassi</td><td>Juice</td><td>Tea</td><td>Coffee</td></tr></table><p>Girish (seat 1) is immediately to the left of Arun (seat 0): true. The Juice drinkers Girish (seat 1) and Hina (seat 5) sit opposite each other: true. Eshan (seat 3) sits between Bela (seat 2) and Fiza (seat 4): true. The person immediately to the right of Fiza (seat 4) is in seat 3, which is Eshan, not Hina. So <strong>'Hina sits immediately to the right of Fiza'</strong> is false.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Growth Rates",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which brand recorded the highest percentage increase in sales from 2022 to 2023?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Zippy"
+        },
+        {
+          "id": "B",
+          "textHtml": "Glide"
+        },
+        {
+          "id": "C",
+          "textHtml": "Volta"
+        },
+        {
+          "id": "D",
+          "textHtml": "Raftaar"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Percentage change from 2022 to 2023: Volta 55 &#8594; 68: 23.6%; Zippy 36 &#8594; 50: 38.9%; Raftaar 27 &#8594; 33: 22.2%; Ecoride 60 &#8594; 58: -3.3%; Glide 20 &#8594; 31: 55.0%.</p><p>The highest is <strong>Glide</strong> (55.0%).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Growth Rates",
+      "difficulty": "medium",
+      "stemHtml": "<p>Consider the 15 combinations of the five brands with the years 2022, 2023 and 2024. In how many of these combinations did the brand's sales grow by more than 25% over its sales in the previous year?</p>",
+      "answer": "8",
+      "solutionHtml": "<p>Year-on-year growth for each brand:</p><table><tr><th>Brand</th><th>2022 vs 2021</th><th>2023 vs 2022</th><th>2024 vs 2023</th><th>Cases above 25%</th></tr><tr><td>Volta</td><td>31.0%</td><td>23.6%</td><td>17.6%</td><td>1</td></tr><tr><td>Zippy</td><td>20.0%</td><td>38.9%</td><td>26.0%</td><td>2</td></tr><tr><td>Raftaar</td><td>50.0%</td><td>22.2%</td><td>36.4%</td><td>2</td></tr><tr><td>Ecoride</td><td>9.1%</td><td>-3.3%</td><td>24.1%</td><td>0</td></tr><tr><td>Glide</td><td>66.7%</td><td>55.0%</td><td>29.0%</td><td>3</td></tr></table><p>Total = 1 + 2 + 2 + 0 + 3 = <strong>8</strong>. (Ecoride's 24.1% in 2024 is just below 25%.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Revenue",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which brand earned the second-highest total revenue over the four years 2021 to 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Volta"
+        },
+        {
+          "id": "B",
+          "textHtml": "Raftaar"
+        },
+        {
+          "id": "C",
+          "textHtml": "Ecoride"
+        },
+        {
+          "id": "D",
+          "textHtml": "Zippy"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Since the price of each brand is constant, total revenue = total units over four years &#215; price. Total revenue (&#8377; million): Volta 245 &#215; 95 = 23,275; Zippy 179 &#215; 80 = 14,320; Raftaar 123 &#215; 120 = 14,760; Ecoride 245 &#215; 70 = 17,150; Glide 103 &#215; 110 = 11,330.</p><p>Volta is first and <strong>Ecoride</strong> is second.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Revenue",
+      "difficulty": "medium",
+      "stemHtml": "<p>In how many of the four years did Raftaar's revenue exceed Zippy's revenue?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Revenue (&#8377; million) - 2021: Raftaar 18 &#215; 120 = 2,160 vs Zippy 30 &#215; 80 = 2,400; 2022: Raftaar 27 &#215; 120 = 3,240 vs Zippy 36 &#215; 80 = 2,880; 2023: Raftaar 33 &#215; 120 = 3,960 vs Zippy 50 &#215; 80 = 4,000; 2024: Raftaar 45 &#215; 120 = 5,400 vs Zippy 63 &#215; 80 = 5,040.</p><p>Raftaar was ahead only in 2022 and 2024, i.e., in <strong>2</strong> years.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Projection",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose every brand's sales grow from 2024 to 2025 by the same percentage as they grew from 2023 to 2024. By how many thousand units would Volta's 2025 sales exceed Ecoride's 2025 sales? Give the answer rounded to the nearest integer.</p>",
+      "answer": "5",
+      "solutionHtml": "<p>If sales grow by the same percentage, 2025 sales = 2024 sales &#215; (2024 sales / 2023 sales).</p><p>Volta: 80 &#215; 80/68 = 94.12 thousand. Ecoride: 72 &#215; 72/58 = 89.38 thousand.</p><p>Difference = 4.74, which rounds to <strong>5</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn Diagrams",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many students registered for all three electives?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Setting up.</strong> Let S, D and T be the numbers of students registered for exactly one, exactly two and all three electives. Then S + D + T = 90, and counting registrations, S + 2D + 3T = 48 + 45 + 38 = 131. Subtracting, D + 2T = 41; with D = 25, <strong>T = 8</strong>.</p><p>Let x = Ceramics and Photography only (not Typography), y = Ceramics and Typography only, z = Photography and Typography only, so x + y + z = 25.</p><p>Photography only = 45 - x - z - 8 = 37 - (25 - y) = 12 + y. By condition 3, 12 + y = 3y, so <strong>y = 6</strong> and <strong>Photography only = 18</strong>. Then x + z = 19.</p><p>Typography only = 38 - y - z - 8 = 24 - z, and Ceramics only = 48 - x - y - 8 = 34 - x = 34 - (19 - z) = 15 + z.</p><p>Condition 4: 24 - z &lt; 18, so z &#8805; 7. Also x = 19 - z &#8805; 0, so z &#8804; 19. Every value of z from 7 to 19 gives a valid distribution.</p><p>The number registered for all three is <strong>8</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn Diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many students registered for Photography only?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18"
+        },
+        {
+          "id": "B",
+          "textHtml": "15"
+        },
+        {
+          "id": "C",
+          "textHtml": "21"
+        },
+        {
+          "id": "D",
+          "textHtml": "24"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Setting up.</strong> Let S, D and T be the numbers of students registered for exactly one, exactly two and all three electives. Then S + D + T = 90, and counting registrations, S + 2D + 3T = 48 + 45 + 38 = 131. Subtracting, D + 2T = 41; with D = 25, <strong>T = 8</strong>.</p><p>Let x = Ceramics and Photography only (not Typography), y = Ceramics and Typography only, z = Photography and Typography only, so x + y + z = 25.</p><p>Photography only = 45 - x - z - 8 = 37 - (25 - y) = 12 + y. By condition 3, 12 + y = 3y, so <strong>y = 6</strong> and <strong>Photography only = 18</strong>. Then x + z = 19.</p><p>Typography only = 38 - y - z - 8 = 24 - z, and Ceramics only = 48 - x - y - 8 = 34 - x = 34 - (19 - z) = 15 + z.</p><p>Condition 4: 24 - z &lt; 18, so z &#8805; 7. Also x = 19 - z &#8805; 0, so z &#8804; 19. Every value of z from 7 to 19 gives a valid distribution.</p><p>Photography only = <strong>18</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn Diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the minimum possible number of students who registered for Ceramics only?</p>",
+      "answer": "22",
+      "solutionHtml": "<p><strong>Setting up.</strong> Let S, D and T be the numbers of students registered for exactly one, exactly two and all three electives. Then S + D + T = 90, and counting registrations, S + 2D + 3T = 48 + 45 + 38 = 131. Subtracting, D + 2T = 41; with D = 25, <strong>T = 8</strong>.</p><p>Let x = Ceramics and Photography only (not Typography), y = Ceramics and Typography only, z = Photography and Typography only, so x + y + z = 25.</p><p>Photography only = 45 - x - z - 8 = 37 - (25 - y) = 12 + y. By condition 3, 12 + y = 3y, so <strong>y = 6</strong> and <strong>Photography only = 18</strong>. Then x + z = 19.</p><p>Typography only = 38 - y - z - 8 = 24 - z, and Ceramics only = 48 - x - y - 8 = 34 - x = 34 - (19 - z) = 15 + z.</p><p>Condition 4: 24 - z &lt; 18, so z &#8805; 7. Also x = 19 - z &#8805; 0, so z &#8804; 19. Every value of z from 7 to 19 gives a valid distribution.</p><p>Ceramics only = 15 + z, and the smallest allowed z is 7 (forced by condition 4). So the minimum is 15 + 7 = <strong>22</strong>. (Check with z = 7: x = 12, Typography only = 17 &lt; 18, and all regions add up to 22 + 18 + 17 + 12 + 6 + 7 + 8 = 90.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn Diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the number of students who registered for Typography only was twice the number who registered for both Ceramics and Photography but not Typography, how many students registered for Ceramics only?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "27"
+        },
+        {
+          "id": "B",
+          "textHtml": "29"
+        },
+        {
+          "id": "C",
+          "textHtml": "31"
+        },
+        {
+          "id": "D",
+          "textHtml": "25"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Setting up.</strong> Let S, D and T be the numbers of students registered for exactly one, exactly two and all three electives. Then S + D + T = 90, and counting registrations, S + 2D + 3T = 48 + 45 + 38 = 131. Subtracting, D + 2T = 41; with D = 25, <strong>T = 8</strong>.</p><p>Let x = Ceramics and Photography only (not Typography), y = Ceramics and Typography only, z = Photography and Typography only, so x + y + z = 25.</p><p>Photography only = 45 - x - z - 8 = 37 - (25 - y) = 12 + y. By condition 3, 12 + y = 3y, so <strong>y = 6</strong> and <strong>Photography only = 18</strong>. Then x + z = 19.</p><p>Typography only = 38 - y - z - 8 = 24 - z, and Ceramics only = 48 - x - y - 8 = 34 - x = 34 - (19 - z) = 15 + z.</p><p>Condition 4: 24 - z &lt; 18, so z &#8805; 7. Also x = 19 - z &#8805; 0, so z &#8804; 19. Every value of z from 7 to 19 gives a valid distribution.</p><p>Typography only = 24 - z and x = 19 - z. The condition gives 24 - z = 2(19 - z), so z = 14 (which lies in the allowed range 7 to 19). Then Ceramics only = 15 + 14 = <strong>29</strong>. (Regions: Ceramics only 29, Photography only 18, Typography only 10, x = 5, y = 6, z = 14, all three 8; total 90.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Elections",
+      "difficulty": "easy",
+      "stemHtml": "<p>In how many wards did NP win?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Votes cast = registered voters &#215; turnout, and each party's votes = votes cast &#215; its share:</p><table><tr><th>Ward</th><th>Votes cast</th><th>NP</th><th>SD</th><th>JM</th><th>Others</th></tr><tr><td>Amrapur</td><td>52,000</td><td>19,760</td><td>17,680</td><td>10,400</td><td>4,160</td></tr><tr><td>Belgaon</td><td>43,200</td><td>12,960</td><td>17,712</td><td>9,504</td><td>3,024</td></tr><tr><td>Chandni</td><td>55,100</td><td>19,285</td><td>16,530</td><td>17,081</td><td>2,204</td></tr><tr><td>Devnagar</td><td>56,000</td><td>15,680</td><td>18,480</td><td>20,160</td><td>1,680</td></tr><tr><td>Ekpur</td><td>37,500</td><td>15,750</td><td>8,625</td><td>10,125</td><td>3,000</td></tr></table><p>Winners: Amrapur NP, Belgaon SD, Chandni NP, Devnagar JM, Ekpur NP. NP won <strong>3</strong> wards.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Elections",
+      "difficulty": "medium",
+      "stemHtml": "<p>In which ward was the winning margin (winner's votes minus runner-up's votes) the largest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Belgaon"
+        },
+        {
+          "id": "B",
+          "textHtml": "Ekpur"
+        },
+        {
+          "id": "C",
+          "textHtml": "Chandni"
+        },
+        {
+          "id": "D",
+          "textHtml": "Amrapur"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Votes cast = registered voters &#215; turnout, and each party's votes = votes cast &#215; its share:</p><table><tr><th>Ward</th><th>Votes cast</th><th>NP</th><th>SD</th><th>JM</th><th>Others</th></tr><tr><td>Amrapur</td><td>52,000</td><td>19,760</td><td>17,680</td><td>10,400</td><td>4,160</td></tr><tr><td>Belgaon</td><td>43,200</td><td>12,960</td><td>17,712</td><td>9,504</td><td>3,024</td></tr><tr><td>Chandni</td><td>55,100</td><td>19,285</td><td>16,530</td><td>17,081</td><td>2,204</td></tr><tr><td>Devnagar</td><td>56,000</td><td>15,680</td><td>18,480</td><td>20,160</td><td>1,680</td></tr><tr><td>Ekpur</td><td>37,500</td><td>15,750</td><td>8,625</td><td>10,125</td><td>3,000</td></tr></table><p>Margins: Amrapur 19,760 - 17,680 = 2,080; Belgaon 17,712 - 12,960 = 4,752; Chandni 19,285 - 17,081 = 2,204; Devnagar 20,160 - 18,480 = 1,680; Ekpur 15,750 - 10,125 = 5,625.</p><p>The largest margin is in <strong>Ekpur</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Elections",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the total number of votes received by SD across the five wards?</p>",
+      "answer": "79027",
+      "solutionHtml": "<p>Votes cast = registered voters &#215; turnout, and each party's votes = votes cast &#215; its share:</p><table><tr><th>Ward</th><th>Votes cast</th><th>NP</th><th>SD</th><th>JM</th><th>Others</th></tr><tr><td>Amrapur</td><td>52,000</td><td>19,760</td><td>17,680</td><td>10,400</td><td>4,160</td></tr><tr><td>Belgaon</td><td>43,200</td><td>12,960</td><td>17,712</td><td>9,504</td><td>3,024</td></tr><tr><td>Chandni</td><td>55,100</td><td>19,285</td><td>16,530</td><td>17,081</td><td>2,204</td></tr><tr><td>Devnagar</td><td>56,000</td><td>15,680</td><td>18,480</td><td>20,160</td><td>1,680</td></tr><tr><td>Ekpur</td><td>37,500</td><td>15,750</td><td>8,625</td><td>10,125</td><td>3,000</td></tr></table><p>SD's total = 17,680 + 17,712 + 16,530 + 18,480 + 8,625 = <strong>79,027</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables - Elections",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose that in every ward, x% of the voters who voted for NP had instead voted for SD, where x is a whole number and all other votes stay unchanged. What is the smallest value of x for which SD would win at least three wards?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Votes cast = registered voters &#215; turnout, and each party's votes = votes cast &#215; its share:</p><table><tr><th>Ward</th><th>Votes cast</th><th>NP</th><th>SD</th><th>JM</th><th>Others</th></tr><tr><td>Amrapur</td><td>52,000</td><td>19,760</td><td>17,680</td><td>10,400</td><td>4,160</td></tr><tr><td>Belgaon</td><td>43,200</td><td>12,960</td><td>17,712</td><td>9,504</td><td>3,024</td></tr><tr><td>Chandni</td><td>55,100</td><td>19,285</td><td>16,530</td><td>17,081</td><td>2,204</td></tr><tr><td>Devnagar</td><td>56,000</td><td>15,680</td><td>18,480</td><td>20,160</td><td>1,680</td></tr><tr><td>Ekpur</td><td>37,500</td><td>15,750</td><td>8,625</td><td>10,125</td><td>3,000</td></tr></table><p>SD already wins Belgaon, and the shift only helps SD there. For each of the other wards, the condition for SD to win is:</p><ul><li>Amrapur: SD needs 17,680 + 19,760x/100 &gt; 19,760(1 - x/100), i.e., 395.2x &gt; 2,080, x &gt; 5.26. So x &#8805; 6.</li><li>Chandni: SD must beat NP: 385.7x &gt; 2,755, x &gt; 7.14; and JM: 16,530 + 192.85x &gt; 17,081, x &gt; 2.86. So x &#8805; 8.</li><li>Devnagar: SD must beat JM: 18,480 + 156.8x &gt; 20,160, x &gt; 10.7. So x &#8805; 11.</li><li>Ekpur: SD must beat NP: 315x &gt; 7,125, x &gt; 22.6. So x &#8805; 23.</li></ul><p>Besides Belgaon, SD needs two more wards, and the two lowest thresholds are Amrapur (x &#8805; 6) and Chandni (x &#8805; 8). With x = 7, SD wins only Belgaon and Amrapur; with x = 8 it also wins Chandni (SD about 18,073 against NP about 17,742 and JM 17,081). The smallest x is <strong>8</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Rules",
+      "difficulty": "easy",
+      "stemHtml": "<p>Starting from the initial position, the cube is rolled N, E, E and then S. Which number faces North at the end?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Track the cube as (top, North, East); the other faces follow from 'opposite faces add to 7'. A roll N makes the new top = old South = 7 - old North and the new North = old top. A roll E makes the new top = old West = 7 - old East and the new East = old top. A roll S makes the new top = old North and the new North = 7 - old top.</p><p>start (top 1, North 2, East 3); N &#8594; (top 5, North 1, East 3); E &#8594; (top 4, North 1, East 5); E &#8594; (top 2, North 1, East 4); S &#8594; (top 1, North 5, East 4).</p><p>At the end, <strong>5</strong> faces North.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Rules",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the highest score that can be obtained in the game?</p>",
+      "answer": "18",
+      "solutionHtml": "<p>Track the cube as (top, North, East); the other faces follow from 'opposite faces add to 7'. A roll N makes the new top = old South = 7 - old North and the new North = old top. A roll E makes the new top = old West = 7 - old East and the new East = old top. A roll S makes the new top = old North and the new North = 7 - old top.</p><p>There are six routes (arrangements of N, N, E, E). Top numbers after each roll:</p><table><tr><th>Route</th><th>Roll 1</th><th>Roll 2</th><th>Roll 3</th><th>Roll 4</th><th>Score</th></tr><tr><td>E, E, N, N</td><td>4</td><td>6</td><td>5</td><td>1</td><td>16</td></tr><tr><td>E, N, E, N</td><td>4</td><td>5</td><td>6</td><td>3</td><td>18</td></tr><tr><td>E, N, N, E</td><td>4</td><td>5</td><td>3</td><td>6</td><td>18</td></tr><tr><td>N, E, E, N</td><td>5</td><td>4</td><td>2</td><td>6</td><td>17</td></tr><tr><td>N, E, N, E</td><td>5</td><td>4</td><td>6</td><td>2</td><td>17</td></tr><tr><td>N, N, E, E</td><td>5</td><td>6</td><td>4</td><td>1</td><td>16</td></tr></table><p>The highest score is <strong>18</strong> (routes E, N, E, N and E, N, N, E).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Rules",
+      "difficulty": "medium",
+      "stemHtml": "<p>Starting from the initial position, which of the following sequences of three rolls ends with 6 on top?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "N, N, E"
+        },
+        {
+          "id": "B",
+          "textHtml": "N, E, N"
+        },
+        {
+          "id": "C",
+          "textHtml": "E, N, N"
+        },
+        {
+          "id": "D",
+          "textHtml": "N, E, E"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Track the cube as (top, North, East); the other faces follow from 'opposite faces add to 7'. A roll N makes the new top = old South = 7 - old North and the new North = old top. A roll E makes the new top = old West = 7 - old East and the new East = old top. A roll S makes the new top = old North and the new North = 7 - old top.</p><ul><li>N, N, E: start (top 1, North 2, East 3); N &#8594; (top 5, North 1, East 3); N &#8594; (top 6, North 5, East 3); E &#8594; (top 4, North 5, East 6)</li><li>N, E, N: start (top 1, North 2, East 3); N &#8594; (top 5, North 1, East 3); E &#8594; (top 4, North 1, East 5); N &#8594; (top 6, North 4, East 5)</li><li>E, N, N: start (top 1, North 2, East 3); E &#8594; (top 4, North 2, East 1); N &#8594; (top 5, North 4, East 1); N &#8594; (top 3, North 5, East 1)</li><li>N, E, E: start (top 1, North 2, East 3); N &#8594; (top 5, North 1, East 3); E &#8594; (top 4, North 1, East 5); E &#8594; (top 2, North 1, East 4)</li></ul><p>Only <strong>N, E, N</strong> ends with 6 on top.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Rules",
+      "difficulty": "hard",
+      "stemHtml": "<p>On an open floor (not the board), the cube is rolled from the initial position repeatedly in the pattern N, E, N, E, N, E, and so on. After how many rolls is the cube in its initial position for the first time again (1 on top, 2 facing North and 3 facing East)?</p>",
+      "answer": "6",
+      "solutionHtml": "<p>Track the cube as (top, North, East); the other faces follow from 'opposite faces add to 7'. A roll N makes the new top = old South = 7 - old North and the new North = old top. A roll E makes the new top = old West = 7 - old East and the new East = old top. A roll S makes the new top = old North and the new North = 7 - old top.</p><p>start (top 1, North 2, East 3); N &#8594; (top 5, North 1, East 3); E &#8594; (top 4, North 1, East 5); N &#8594; (top 6, North 4, East 5); E &#8594; (top 2, North 4, East 6); N &#8594; (top 3, North 2, East 6); E &#8594; (top 1, North 2, East 3).</p><p>None of the first five rolls restores the initial position, and the sixth does. The answer is <strong>6</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Games and Rules",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following routes in the game ends with 6 on top and 2 facing North?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "E, E, N, N"
+        },
+        {
+          "id": "B",
+          "textHtml": "E, N, N, E"
+        },
+        {
+          "id": "C",
+          "textHtml": "N, N, E, E"
+        },
+        {
+          "id": "D",
+          "textHtml": "N, E, E, N"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Track the cube as (top, North, East); the other faces follow from 'opposite faces add to 7'. A roll N makes the new top = old South = 7 - old North and the new North = old top. A roll E makes the new top = old West = 7 - old East and the new East = old top. A roll S makes the new top = old North and the new North = 7 - old top.</p><ul><li>E, E, N, N: final position (top 1, North 5, East 4)</li><li>E, N, N, E: final position (top 6, North 5, East 3)</li><li>N, N, E, E: final position (top 1, North 5, East 4)</li><li>N, E, E, N: final position (top 6, North 2, East 4)</li></ul><p>Only <strong>N, E, E, N</strong> ends with 6 on top and 2 facing North (E, N, N, E ends with 6 on top but 5 facing North).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

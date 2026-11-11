@@ -1,0 +1,99 @@
+{
+  "slug": "calcutta-business-school",
+  "name": "Calcutta Business School",
+  "shortName": "CBS Kolkata",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "type": "private",
+  "website": "https://www.calcuttabusinessschool.org/",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "MAT",
+        "ATMA",
+        "JEE MAT",
+        "CMAT",
+        "GMAT",
+        "CBSAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 770000,
+      "feeYear": "2027-29",
+      "feeNote": "Official fee-structure page (6 instalments, Dec 2027 - Jan 2029): tuition 6,85,000 + admission 50,000 + laboratory 20,000 + library & course material 50,000 = 8,05,000, less Early Bird waiver 25,000 and Uniform & Career Development fee waiver 10,000 for early admission takers = published total Rs 7,70,000. Excludes refundable security deposit Rs 30,000 and optional accommodation (Rs 72,000/yr if paid annually upfront, Rs 84,000/yr in two instalments) and optional bus. Candidates not eligible for the early-bird waivers would pay more; the page does not state that figure.",
+      "intake": null,
+      "intakeNote": "Not stated on the official admission or fee pages.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "Official placement page states 'Average Salary Package INR 7.45 to 7.96 Lakhs Per Annum' and an international placement of Rs 25 LPA, with no batch year; a range is not a single average, so averageSalary is null. No median published.",
+      "sources": {
+        "fee": "https://www.calcuttabusinessschool.org/fee-structure.php",
+        "intake": null,
+        "salary": null,
+        "admission": "https://www.calcuttabusinessschool.org/admission-pgdm-2027-29.php"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting on entrance score and application; CBSAT",
+      "weightage": null,
+      "detail": "Shortlisting on CAT/XAT/MAT/ATMA/JEE MAT/CMAT or GMAT score and application details. All candidates must also qualify CBS's own aptitude test (CBSAT) to be selected for the GD/PI round. Eligibility: minimum 50% in Class X, XII and graduation."
+    },
+    {
+      "stage": 2,
+      "name": "Individual Assessment Process (Situation Analysis, Personal Interview, etc.)",
+      "weightage": null,
+      "detail": "Past academics, individual-assessment performance, work-experience quality and extracurriculars are the core selection components; no weights published."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "PGDM 2027-29: final-year graduates must prove eligibility by 30 Sep 2027. Fee instalments due on admission, 10 Dec 2027, 10 Mar 2028, 18 Aug 2028, 17 Nov 2028 and 19 Jan 2029. Application deadline not published.",
+    "source": "https://www.calcuttabusinessschool.org/admission-pgdm-2027-29.php"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "Calcutta Business School - Fee Structure (PGDM)",
+      "url": "https://www.calcuttabusinessschool.org/fee-structure.php",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29 and instalment dates"
+    },
+    {
+      "title": "Calcutta Business School - Admission PGDM 2027-29",
+      "url": "https://www.calcuttabusinessschool.org/admission-pgdm-2027-29.php",
+      "retrievedAt": "2026-11-12",
+      "supports": "eligibility, exams accepted, CBSAT, selection process"
+    },
+    {
+      "title": "Calcutta Business School - Final Placement",
+      "url": "https://www.calcuttabusinessschool.org/placement.php",
+      "retrievedAt": "2026-11-12",
+      "supports": "average package range 7.45-7.96 LPA (not used as a figure)"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

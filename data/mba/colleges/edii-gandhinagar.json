@@ -1,0 +1,95 @@
+{
+  "slug": "edii-gandhinagar",
+  "name": "Entrepreneurship Development Institute of India",
+  "shortName": "EDII",
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "type": "private",
+  "website": "https://ediindia.ac.in/",
+  "approvals": [
+    "AICTE-approved PGDM",
+    "NBA accredited",
+    "AIU equivalence to MBA"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management - Entrepreneurship (PGDM-E)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "MAT",
+        "XAT",
+        "ATMA",
+        "CMAT",
+        "GMAT",
+        "CUET"
+      ],
+      "specialisations": [],
+      "feeTotal": 1395000,
+      "feeYear": "2027-29",
+      "feeNote": "Non-residential: Year 1 Rs 7,25,000 + Year 2 Rs 6,70,000 = Rs 13,95,000 (first instalment includes Rs 20,000 caution deposit). Residential (double sharing): 8,55,000 + 7,70,000 = Rs 16,25,000 (includes hostel security deposit).",
+      "intake": 120,
+      "intakeNote": "120 seats approved per EDII PGDM-E programme page.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "EDII publishes no average/median placement figures on its PGDM-E page (programme is entrepreneurship-focused; placement assistance for those opting for jobs).",
+      "sources": {
+        "fee": "https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/",
+        "intake": "https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/",
+        "salary": null,
+        "admission": "https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Entrepreneurial Aptitude Test (EAT)",
+      "weightage": null,
+      "detail": "Online/offline; candidates need a valid CAT/MAT/XAT/ATMA/CMAT/GMAT/CUET score and a bachelor's degree with 50% (45% reserved)."
+    },
+    {
+      "stage": 2,
+      "name": "Personal Interview",
+      "weightage": null,
+      "detail": "Conducted by institute experts."
+    },
+    {
+      "stage": 3,
+      "name": "Holistic evaluation",
+      "weightage": null,
+      "detail": "Academics, entrance score, EAT and PI; weights not published."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "No 2027 application dates published on the PGDM-E page as of 2026-11-12.",
+    "source": null
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "EDII - PGDM Entrepreneurship programme page (2027-29)",
+      "url": "https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29, intake 120, exams, selection stages, approvals, address Bhat, Gandhinagar 382428"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

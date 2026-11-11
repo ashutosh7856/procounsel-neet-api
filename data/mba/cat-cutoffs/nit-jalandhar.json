@@ -1,0 +1,32 @@
+{
+  "slug": "nit-jalandhar",
+  "name": "Department of Humanities and Management, Dr B R Ambedkar National Institute of Technology (NIT) Jalandhar",
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "program": "MBA (Two-Year Full-Time)",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "General",
+      "overall": 40,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Floor from the institute's standing MBA Regulations (also in its MBA admission FAQ, PDF dated 2022): percentile below 40 in CAT/GMAT/CMAT/MAT not considered. The 2026-28 advertisement (No. 01/2026, 20.02.2026, https://nitj.ac.in/files/1771821717236-MBA_ADMISSION_ADVERTISEMENT_(REGULAR_CATEGORY)_2026_2028.pdf) uses the same 70% percentile weighting but does not restate the 40 floor. Same floor for all categories.",
+      "source": {
+        "title": "NIT Jalandhar - M.B.A Regulations",
+        "url": "https://v1.nitj.ac.in/nitj_files/links/MBA_Regulations_57981.pdf",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "The weightage for the percentile for CAT/GMAT/CMAT/MAT is given below. Percentile Scores below 40 will not be considered for admission."
+    }
+  ],
+  "otherExamsAccepted": [
+    "CMAT",
+    "MAT",
+    "GMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Standing regulation, not a batch-specific notice; the 2026-28 advertisement does not repeat the floor. Treat as lower-confidence."
+}

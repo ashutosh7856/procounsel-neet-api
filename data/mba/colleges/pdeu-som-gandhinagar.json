@@ -1,0 +1,104 @@
+{
+  "slug": "pdeu-som-gandhinagar",
+  "name": "School of Management, Pandit Deendayal Energy University",
+  "shortName": "SoM-PDEU",
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "type": "private",
+  "website": "https://pdeu.ac.in/school-of-management",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "NMAT",
+        "GMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 1420000,
+      "feeYear": "2027-29",
+      "feeNote": "Tentative fee for Batch 2027-29 (MBA Admission Rules 2027): tuition Rs 3,50,000 x 4 tranches = 14,00,000 + university enrolment & examination fee 5,000 x 4 = 20,000 -> Rs 14,20,000. Excludes AC hostel Rs 1,10,000/yr, mess Rs 62,000/yr and refundable deposits (hostel 5,000, security 10,000, library 3,000); all-in total Rs 17,82,000. NRI tuition US$ 26,000 total. Subject to revision.",
+      "intake": 260,
+      "intakeNote": "260 seats for the 2027 intake (besides supernumerary) per MBA Admission Rules 2027. ACPC's 2026-27 CoE list showed intake 200 (62 via ACPC) for the previous cycle.",
+      "medianSalary": null,
+      "averageSalary": 970000,
+      "salaryYear": "Final placements 'last year' as stated in MBA 2026 brochure (batch not named)",
+      "placementNote": "Official SoM-PDEU MBA 2026 brochure, 'MBA final placements @ SoM in last year': 100% placements, average CTC INR 9.70 LPA, top-25% average 10.70 LPA, highest 24.10 LPA. Median not published; batch year not stated in the brochure.",
+      "sources": {
+        "fee": "https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf",
+        "intake": "https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf",
+        "salary": "https://api.pdeu.ac.in/pdpu/resources/som-mba-brochure.pdf",
+        "admission": "https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting on CAT 2026 / XAT 2027 / NMAT 2026 / GMAT score",
+      "weightage": null,
+      "detail": "Apply via pdeu.ac.in/school-of-management by 31 Mar 2027."
+    },
+    {
+      "stage": 2,
+      "name": "Group Discussion, Written Ability Test, Personal Interview",
+      "weightage": "GD 10%, WAT qualifying, PI 20%",
+      "detail": "Rolling GD/WAT/PI 15 Mar - 15 Apr 2027 at SoM-PDEU or other select locations."
+    },
+    {
+      "stage": 3,
+      "name": "Final selection matrix",
+      "weightage": "Test score 40%, GD 10%, PI 20%, Work experience (min 12 months) 10%, Diversity 10%, Academics 10%",
+      "detail": "Selection list by 20 Apr 2027 (tentative)."
+    }
+  ],
+  "selectionWeightage": {
+    "CAT_XAT_NMAT_GMAT": 40,
+    "GD": 10,
+    "PI": 20,
+    "WorkExperience": 10,
+    "Diversity": 10,
+    "AcademicPerformance": 10,
+    "note": "MBA Admission Rules 2027; WAT is qualifying only.",
+    "source": "https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2027-03-31",
+    "examDate": "2026-11-29",
+    "notes": "Last date for application 31 Mar 2027; GD/WAT/PI 15 Mar - 15 Apr 2027 (rolling, tentative); selected list by 20 Apr 2027. CAT 2026 on 29 Nov 2026.",
+    "source": "https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 89,
+    "score": 46.81,
+    "nirfInstituteId": "IR-M-U-0147",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+    "note": "Ranked entity is Pandit Deendayal Energy University (the university). Campus is at Raisan, Gandhinagar (adjacent to Ahmedabad), not within Ahmedabad city."
+  },
+  "sources": [
+    {
+      "title": "PDEU School of Management - M.B.A. Admission Rules 2027",
+      "url": "https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29, intake 260, eligibility, selection matrix, dates"
+    },
+    {
+      "title": "PDEU SoM - Master of Business Administration 2026 brochure",
+      "url": "https://api.pdeu.ac.in/pdpu/resources/som-mba-brochure.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "average CTC 9.70 LPA, top-25% avg 10.70, highest 24.10 (last year's final placements)"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 89, score 46.81"
+    }
+  ]
+}

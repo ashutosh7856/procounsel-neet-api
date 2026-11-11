@@ -1,0 +1,102 @@
+{
+  "slug": "bk-school-ahmedabad",
+  "name": "B.K. School of Professional and Management Studies, Gujarat University",
+  "shortName": "B.K. School (BKSPMS)",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "type": "university department",
+  "website": "https://bkschool.org.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA) - Grant-in-Aid, full-time",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CMAT"
+      ],
+      "specialisations": [
+        "Finance",
+        "Marketing",
+        "Human Resources",
+        "Operations (minor only)"
+      ],
+      "feeTotal": 13000,
+      "feeYear": null,
+      "feeNote": "Official admission page states 'Rs. 6,500/- per year' (academic year not stated); total = 6,500 x 2 years = Rs 13,000 (derived). Hostel and other charges not stated.",
+      "intake": 120,
+      "intakeNote": "Intake 120 per B.K. School admission page.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "Official Final Placement page lists recruiters only; no salary statistics published.",
+      "sources": {
+        "fee": "https://bkschool.org.in/how-to-apply/",
+        "intake": "https://bkschool.org.in/how-to-apply/",
+        "salary": null,
+        "admission": "https://bkschool.org.in/how-to-apply/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "CMAT (NTA)",
+      "weightage": null,
+      "detail": "Graduation with at least 50% (SC/ST 45%); CMAT score mandatory as per Government of Gujarat norms."
+    },
+    {
+      "stage": 2,
+      "name": "ACPC Gujarat online registration, merit list and seat allotment",
+      "weightage": null,
+      "detail": "Admission entirely through the ACPC portal (gujacpc.admissions.nic.in); selected candidates then report in person to the B.K. School admin office."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "ACPC dates for AY 2027-28 not yet published. For reference, the AY 2026-27 ACPC MBA/MCA cycle ran: registration 25 May-30 Jun 2026; final merit list and Round-1 choice filling 14-17 Jul 2026; Round-1 allotment 21 Jul 2026; CMAT-2026 mandatory.",
+    "source": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/20260526393120850.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "B.K. School - Admission (MBA GIA, Executive MBA, MBA Maritime)",
+      "url": "https://bkschool.org.in/how-to-apply/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee Rs 6,500/yr, intake 120, specialisations, CMAT + ACPC admission"
+    },
+    {
+      "title": "ACPC Gujarat - Online Admission Program for MBA/MCA 2026-27 (advertisement)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/20260525685613535.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "CMAT-2026 mandatory; eligibility 50% (45% reserved)"
+    },
+    {
+      "title": "ACPC Gujarat - Provisional Key Dates for MBA-MCA Admissions 2026-27",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/20260526393120850.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "2026-27 ACPC schedule (reference only)"
+    },
+    {
+      "title": "B.K. School - Final Placement page",
+      "url": "https://bkschool.org.in/final_placement-2/",
+      "retrievedAt": "2026-11-12",
+      "supports": "checked: no salary statistics"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "sets": [
+    {
+      "key": "VARC-P1",
+      "kind": "passage",
+      "title": "Agents and spectators of the self",
+      "contentHtml": "<p>It is natural to think that each of us has a privileged view of our own mind. You may guess that I am anxious from the set of my shoulders, but I, it seems, simply know it, without needing to infer anything. Philosophers who accept this picture have often described self-knowledge as a kind of inner perception: as the eye surveys a room, so an inward faculty surveys the contents of consciousness, and its reports are authoritative because nothing stands between the observer and what is observed.</p><p>The picture has been badly shaken by a body of evidence showing that people are often wrong about the causes of their own behaviour. Asked why they preferred one of several near-identical items, or why they changed their minds after a conversation, subjects confidently cite reasons that demonstrably played no role, while overlooking factors that did. Crucially, their explanations tend to match the explanations that an outside observer, knowing only the situation, would have offered. The subjects, it appears, were not reading off their inner states at all; they were theorising about themselves in the way they would theorise about anyone else, and arriving at plausible but mistaken conclusions.</p><p>Some have concluded that first-person authority is an illusion: that we know ourselves by the same fallible inference we use to know others, merely with more data. This conclusion, however, runs together two different kinds of question. One asks why I did something, which is a question about causes, and causes are matters of fact that may well be hidden from me. The other asks what I now believe or intend, and here my position is different. When you ask whether I intend to accept a job offer, I do not usually answer by surveying an inner state and reporting what I find. I answer by considering the job: its pay, its demands, whether I would be content there. My answer is a conclusion about the world that, in being drawn, settles my intention. The authority I have over it is not that of a privileged observer but that of the person whose business it is to decide.</p><p>On this view, the experiments reveal something real but narrower than it first appears. They show that the inner-perception model is wrong about our access to the causes of our conduct, and that we fill the gap with theory. They do not show that we lack special standing with respect to attitudes we form by deliberating, since there the question of what I think is answered by thinking, not by looking. The view has costs of its own. It fits beliefs and intentions better than it fits moods and sensations, which do not seem to be settled by deliberation, and for such states the old question of how I come to know them returns unanswered. But it at least locates first-person authority where it is least vulnerable: in our role as agents rather than as spectators of ourselves.</p>"
+    },
+    {
+      "key": "VARC-P2",
+      "kind": "passage",
+      "title": "Saying and binding",
+      "contentHtml": "<p>A central bank that sets a short-term interest rate controls, directly, a price that matters surprisingly little. Households and firms borrow mostly at longer horizons — for houses, for machinery, for buildings that will take years to pay for themselves — and the rates they face depend less on today's policy rate than on what lenders expect that rate to be over the life of the loan. The bank's real influence therefore runs through expectations. It moves the economy not chiefly by what it does this month but by what it leads people to believe it will do over the coming years.</p><p>This is why central banks have become talkative. Where they once preferred to act without explanation, many now publish projections, describe the conditions under which they would change course, and sometimes indicate the likely path of rates well into the future. The logic is straightforward: if expectations are the channel, then shaping expectations deliberately should make policy more powerful, and a bank that announces it will keep rates low for an extended period can lower long-term borrowing costs today without moving the policy rate at all.</p><p>The difficulty is that a statement about the future can be heard in two quite different ways. It may be a forecast — the bank's best judgement of what it will probably do, given what it now knows — or it may be a commitment, a promise to act in a certain way even if circumstances change. A forecast is cheap to revise, because everyone understands that forecasts respond to new information; a commitment is valuable precisely because it is costly to break. The bank would like the influence of a commitment together with the flexibility of a forecast, but it cannot reliably choose which one the public hears. If markets treat a forecast as a promise, any revision looks like a broken word, and the bank's credibility suffers even when its change of course was entirely sensible.</p><p>Banks have responded by hedging their guidance with conditions: rates will stay low unless inflation rises above some threshold, or until employment recovers. Conditions protect the bank from charges of bad faith, but each added condition makes the statement less informative, since the public must now forecast the conditions themselves. Taken far enough, conditional guidance merely restates the bank's general approach — it will do what the data warrant — which the public already knew. There is thus a tension at the heart of policy conducted through words: the more a statement could move expectations, the more it binds the speaker, and the more freedom the speaker preserves, the less the statement can achieve. No form of words dissolves the tension; at best, a bank can be clear about which kind of statement it is making, and accept the costs of the kind it has chosen.</p>"
+    },
+    {
+      "key": "VARC-P3",
+      "kind": "passage",
+      "title": "The work that leaves no record",
+      "contentHtml": "<p>Every organisation of any size must decide what it can see. A manager responsible for three hundred people cannot watch each of them work, and so she sees them through records: tickets closed, calls answered, cases resolved, hours billed. These records are not mere conveniences. They define, for practical purposes, what the work is, since whatever the records omit cannot be rewarded, compared or defended in a budget meeting. To be made legible to an organisation is to be translated into the units it knows how to count.</p><p>The translation is never complete, and what it leaves out is not random. Records capture discrete outputs that can be attributed to one person at one time. They are poor at capturing the work that makes those outputs possible: the clerk who notices that a supplier's invoices have begun to arrive with subtly wrong codes and corrects them before they cause a dispute; the nurse who stays a few minutes past her shift to brief an anxious newcomer; the engineer whose chief contribution is that problems routed through her desk tend not to recur. Such work is relational and preventive. Its product is usually an absence — a mistake not made, a crisis that did not develop — and absences leave no record.</p><p>As long as the records are used loosely, the gap does little harm. Workers continue the unrecorded work because they understand that it matters, and managers, many of whom were once workers themselves, make informal allowance for it. The harm begins when the records acquire consequences: when pay, promotion or survival come to depend on the counted outputs alone. Every hour spent on unrecorded work then becomes, from the worker's point of view, an hour wasted, and reasonable people reallocate their effort accordingly. Measured productivity may rise even as the quality of the operation declines, because the preventive work has been withdrawn and the failures it used to forestall begin to arrive.</p><p>What makes the situation hard to correct is the way those failures are read. When an error surfaces, the records identify the person at whose desk it appeared, not the absent work that would have prevented it. The organisation therefore tends to respond by tightening measurement around the visible point of failure, adding a check here and a target there, which further crowds out unmeasured work and invites the next failure somewhere else. The cycle is driven neither by malice nor by stupidity; each step is a reasonable response to the information available. Its source is an information system that structurally under-reports a whole category of labour. Measuring more precisely cannot repair this by itself, since the problem is not imprecision but a systematic blind spot. What is required is the institutional humility to treat the record as a partial account of the work, and to keep room, in pay and in esteem, for contributions that no record will show.</p>"
+    },
+    {
+      "key": "VARC-P4",
+      "kind": "passage",
+      "title": "The flinch and the vote",
+      "contentHtml": "<p>Defenders of systems that rank information by engagement have a simple and, at first, persuasive argument. No one is forced to click, to watch, or to keep scrolling. If people spend their attention on certain items rather than others, they have revealed what they value, and a system that learns from their behaviour is merely serving them better than one that tries to guess. Any complaint about what such systems promote is, on this view, a complaint about the public's own choices, and a critic who wants the rankings changed is substituting his taste for theirs.</p><p>The argument borrows its authority from economics, where the idea that choices reveal preferences has a long and respectable history. But that idea was developed for choices of a particular kind: deliberate selections among alternatives whose costs the chooser can see, such as the purchase of one good rather than another. Attention is not spent in this way. Much of what we look at, we look at before deciding to; an item that is surprising, alarming or socially charged seizes attention by the very features that make it so, and the glance that follows is closer to a reflex than to a selection. To read such glances as expressions of considered preference is to treat the flinch as a vote.</p><p>There is a further complication. Most people hold preferences about their own preferences. A person may find that she is drawn to quarrels among strangers while wishing she were not, and may, when asked, say that she would like to spend less time on them. Behaviour records the first-order pull; it is silent about the second-order wish. A system that optimises solely for behaviour therefore gives systematic priority to the part of the self that acts without reflection over the part that reflects, and it does so not because anyone decided this was right but because only one of the two leaves a trace in the data.</p><p>It would be easy to turn this into an argument for curators who decide, on the public's behalf, what deserves attention, and the cure would be worse than the disease: the curator's taste has no better claim than the engagement metric to stand for what people want. The more defensible conclusion is narrower. If behaviour is an incomplete record of preference, the remedy is not to override behaviour with someone else's judgement but to complete the record — to give people practical means of stating, in advance and at leisure, what they want their attention spent on, and to have systems treat those statements as evidence at least as weighty as the glance. Whether people would use such means is an empirical question. But a system that never asks cannot claim to know the answer, and its defenders' appeal to revealed preference assumes precisely what it has not shown.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "VARC-01",
+      "section": "VARC",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage is primarily concerned with:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "arguing that the experimental evidence proves all self-knowledge to be inferential."
+        },
+        {
+          "id": "B",
+          "textHtml": "defending a limited form of first-person authority by distinguishing knowledge of the causes of one's conduct from knowledge of attitudes one forms by deliberating."
+        },
+        {
+          "id": "C",
+          "textHtml": "defending the inner-perception model of self-knowledge against its experimental critics."
+        },
+        {
+          "id": "D",
+          "textHtml": "showing that moods and sensations are known through deliberation in the same way as intentions."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 3 separates questions about causes from questions about what I now believe or intend; paragraph 4 concludes that the experiments undermine authority over causes but not over deliberated attitudes, and admits limits (moods and sensations). The defence is therefore deliberately limited.</p><p><strong>A</strong> fails: this is the conclusion 'Some have concluded', which the author says 'runs together two different kinds of question'.</p><p><strong>C</strong> fails: the author accepts that the experiments show 'the inner-perception model is wrong' about causes and locates authority elsewhere — in agency, not observation.</p><p><strong>D</strong> fails: the author says moods and sensations 'do not seem to be settled by deliberation', which is a cost of the view.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-02",
+      "section": "VARC",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>The author describes it as 'crucial' that the subjects' explanations matched those that an outside observer would have offered. This matters to the argument because it suggests that the subjects:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "were arriving at their explanations by the same kind of inference available to anyone, rather than by direct access to their own states."
+        },
+        {
+          "id": "B",
+          "textHtml": "were deliberately giving the answers they thought an observer would expect."
+        },
+        {
+          "id": "C",
+          "textHtml": "knew less about their own minds in every respect than outside observers did."
+        },
+        {
+          "id": "D",
+          "textHtml": "had been placed in situations too artificial to reveal anything about self-knowledge."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The next sentence draws exactly this conclusion: the subjects 'were not reading off their inner states at all; they were theorising about themselves in the way they would theorise about anyone else'. If inner access were at work, their answers should diverge from an outsider's guesses; the match is what reveals theorising.</p><p><strong>B</strong> fails: nothing suggests deception; the subjects 'confidently cite' reasons and are described as reaching 'plausible but mistaken conclusions'.</p><p><strong>C</strong> fails: an overreach; the evidence concerns the causes of behaviour only, and the author goes on to argue that subjects do retain special standing over deliberated attitudes.</p><p><strong>D</strong> fails: the author never questions the design of the experiments; he says they 'reveal something real'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-03",
+      "section": "VARC",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Application",
+      "difficulty": "hard",
+      "stemHtml": "<p>On the account developed in paragraphs 3 and 4, which of the following questions is a person LEAST likely to be able to answer with first-person authority?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "'Do you intend to accept the job offer?'"
+        },
+        {
+          "id": "B",
+          "textHtml": "'Having now weighed its costs and benefits, do you think the proposal deserves your support?'"
+        },
+        {
+          "id": "C",
+          "textHtml": "'Now that you have heard the arguments, do you intend to vote for the proposal at tomorrow's meeting?'"
+        },
+        {
+          "id": "D",
+          "textHtml": "'Why did you choose the seat by the window when you came into the room?'"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. This asks for the cause of past conduct. Paragraph 3 says that questions about why I did something concern causes, which 'may well be hidden from me', and paragraph 4 says the experiments show we 'fill the gap with theory' there.</p><p><strong>A</strong> fails: this is the author's own example of an intention settled by deliberation, over which the person has the authority of 'the person whose business it is to decide'.</p><p><strong>B</strong> fails: this asks for a present belief that the person forms by deliberating — the question explicitly follows the weighing of the proposal. On the author's view such questions are 'answered by thinking, not by looking', so authority applies.</p><p><strong>C</strong> fails: this asks for a present intention, which the person settles by deliberating about the arguments. It is exactly parallel to the author's job-offer example and is the kind of attitude over which he says we retain special standing.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-04",
+      "section": "VARC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's Approach / Tone",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best describes the author's approach in the final paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The author abandons his account after recognising that it cannot handle moods and sensations."
+        },
+        {
+          "id": "B",
+          "textHtml": "The author claims to have fully explained how we know every kind of mental state."
+        },
+        {
+          "id": "C",
+          "textHtml": "The author concedes a gap in his own account while maintaining that it places first-person authority on firmer ground than the view it replaces."
+        },
+        {
+          "id": "D",
+          "textHtml": "The author dismisses the experimental evidence as irrelevant to questions of self-knowledge."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. He admits the view 'has costs of its own' — it fits moods and sensations poorly, and for them the old question 'returns unanswered' — but closes with 'it at least locates first-person authority where it is least vulnerable'.</p><p><strong>A</strong> fails: he acknowledges the difficulty but does not abandon the account; 'it at least' signals a qualified endorsement.</p><p><strong>B</strong> fails: he explicitly says that for moods and sensations 'the old question ... returns unanswered'.</p><p><strong>D</strong> fails: he says the experiments 'reveal something real but narrower than it first appears', so he treats them as relevant.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-05",
+      "section": "VARC",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best summarises the argument of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Central banks should stop publishing projections because guidance inevitably damages their credibility."
+        },
+        {
+          "id": "B",
+          "textHtml": "Conditional guidance resolves the conflict between commitment and flexibility."
+        },
+        {
+          "id": "C",
+          "textHtml": "The short-term policy rate is the main determinant of what households and firms pay to borrow."
+        },
+        {
+          "id": "D",
+          "textHtml": "Because a central bank's influence works mainly through expectations, communication is a powerful tool, but it involves an unavoidable trade-off between how strongly a statement can move expectations and how much freedom the bank retains."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Paragraphs 1–2 establish that influence runs through expectations and explain why banks now communicate; paragraphs 3–4 identify the forecast/commitment problem and conclude that 'No form of words dissolves the tension' between moving expectations and preserving freedom.</p><p><strong>A</strong> fails: the author does not recommend silence; the closing advice is to be clear about which kind of statement is being made.</p><p><strong>B</strong> fails: paragraph 4 says conditions make statements less informative and that 'No form of words dissolves the tension'.</p><p><strong>C</strong> fails: paragraph 1 says the opposite: borrowing rates depend 'less on today's policy rate than on what lenders expect that rate to be'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-06",
+      "section": "VARC",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Specific Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>Why, according to the passage, does the short-term policy rate 'matter surprisingly little'?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Central banks change the policy rate too rarely for it to matter."
+        },
+        {
+          "id": "B",
+          "textHtml": "Most borrowing is at longer horizons, and the rates charged on it depend chiefly on what the policy rate is expected to be in future."
+        },
+        {
+          "id": "C",
+          "textHtml": "Households and firms seldom borrow money at all."
+        },
+        {
+          "id": "D",
+          "textHtml": "Interest rates have no effect on borrowing decisions."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 1: households and firms 'borrow mostly at longer horizons', and their rates 'depend less on today's policy rate than on what lenders expect that rate to be over the life of the loan'.</p><p><strong>A</strong> fails: the frequency of rate changes is never mentioned.</p><p><strong>C</strong> fails: the passage says they do borrow, mostly at longer horizons.</p><p><strong>D</strong> fails: the whole argument assumes that (longer-term) rates matter for borrowing; the point is which rate matters.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-07",
+      "section": "VARC",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>It can be inferred from the passage that a statement about future rates which the public correctly understands as a forecast would:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "move expectations less powerfully than a commitment would, but could be revised without much damage to the bank's credibility."
+        },
+        {
+          "id": "B",
+          "textHtml": "have no effect at all on long-term borrowing costs."
+        },
+        {
+          "id": "C",
+          "textHtml": "be more costly to revise than a commitment."
+        },
+        {
+          "id": "D",
+          "textHtml": "have exactly the same effect on expectations as a commitment."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Paragraph 3: a forecast 'is cheap to revise, because everyone understands that forecasts respond to new information', and the bank 'would like the influence of a commitment together with the flexibility of a forecast' — implying that a forecast offers flexibility but less influence than a commitment.</p><p><strong>B</strong> fails: an overreach; the passage implies a forecast has less influence than a commitment, not none.</p><p><strong>C</strong> fails: this reverses paragraph 3: a forecast is 'cheap to revise' while a commitment is 'costly to break'.</p><p><strong>D</strong> fails: if the effects were identical the bank would face no dilemma; the passage treats commitment as giving more influence.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-08",
+      "section": "VARC",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "All EXCEPT",
+      "difficulty": "medium",
+      "stemHtml": "<p>Each of the following is stated or implied in the passage EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "A commitment draws its value from the fact that it is costly to abandon."
+        },
+        {
+          "id": "B",
+          "textHtml": "Attaching conditions to guidance helps protect a bank against accusations of bad faith."
+        },
+        {
+          "id": "C",
+          "textHtml": "A bank may be able to lower long-term borrowing costs without changing its policy rate."
+        },
+        {
+          "id": "D",
+          "textHtml": "Central banks have always explained their decisions to the public in detail."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is the exception. Paragraph 2 says the opposite: 'Where they once preferred to act without explanation, many now publish projections'.</p><p><strong>A</strong> is stated in paragraph 3: 'a commitment is valuable precisely because it is costly to break'.</p><p><strong>B</strong> is stated in paragraph 4: 'Conditions protect the bank from charges of bad faith'.</p><p><strong>C</strong> is stated in paragraph 2: an announcement 'can lower long-term borrowing costs today without moving the policy rate at all'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-09",
+      "section": "VARC",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best expresses the main argument of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Organisational records systematically omit preventive and relational work, and when high stakes are attached to them, a self-reinforcing decline follows that more precise measurement alone cannot cure."
+        },
+        {
+          "id": "B",
+          "textHtml": "Organisations should abolish performance records, since any measurement of work does more harm than good."
+        },
+        {
+          "id": "C",
+          "textHtml": "Managers deliberately ignore preventive work in order to reduce wage costs."
+        },
+        {
+          "id": "D",
+          "textHtml": "Nurses and engineers are underpaid relative to other professionals."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Paragraph 2 identifies what records omit ('relational and preventive' work), paragraph 3 explains the harm once records 'acquire consequences', and paragraph 4 describes the self-reinforcing cycle and says 'Measuring more precisely cannot repair this by itself'.</p><p><strong>B</strong> fails: the author asks organisations to treat records 'as a partial account', not to abolish them, and says loosely used records do 'little harm'.</p><p><strong>C</strong> fails: paragraph 4 says the cycle 'is driven neither by malice nor by stupidity'.</p><p><strong>D</strong> fails: the nurse and engineer are illustrations of unrecorded work; no comparison of pay between professions is made.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-10",
+      "section": "VARC",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Function of Example",
+      "difficulty": "medium",
+      "stemHtml": "<p>The examples of the clerk, the nurse and the engineer in paragraph 2 serve mainly to:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "show that certain occupations contribute more to an organisation than others."
+        },
+        {
+          "id": "B",
+          "textHtml": "suggest that workers exceed their formal duties mainly out of fear of being blamed."
+        },
+        {
+          "id": "C",
+          "textHtml": "illustrate a kind of work whose product is typically an absence and which therefore leaves no trace in the records."
+        },
+        {
+          "id": "D",
+          "textHtml": "demonstrate that records are usually inaccurate even about the outputs they do count."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Each example is preventive or relational, and the paragraph concludes: 'Its product is usually an absence ... and absences leave no record.'</p><p><strong>A</strong> fails: the examples come from different occupations precisely to show a type of work found across them; no ranking of occupations is implied.</p><p><strong>B</strong> fails: paragraph 3 says workers do such work 'because they understand that it matters', not out of fear.</p><p><strong>D</strong> fails: the author's complaint is about what records omit, not about inaccuracy in what they capture; paragraph 4 says the problem 'is not imprecision'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-11",
+      "section": "VARC",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Application",
+      "difficulty": "hard",
+      "stemHtml": "<p>An organisation that ties pay to counted outputs notices a rise in errors in one department and responds by introducing a new target for that department. Based on the passage, the author would most likely predict that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the errors will disappear for good, because the new target addresses their underlying cause."
+        },
+        {
+          "id": "B",
+          "textHtml": "the target may reduce errors where they were noticed, but it will further crowd out unrecorded work and failures are likely to surface elsewhere."
+        },
+        {
+          "id": "C",
+          "textHtml": "workers will resume their unrecorded work, because the new target makes it visible."
+        },
+        {
+          "id": "D",
+          "textHtml": "the organisation's measured productivity will immediately fall."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 4 describes exactly this response — 'adding a check here and a target there' around the visible point of failure — and says it 'further crowds out unmeasured work and invites the next failure somewhere else'.</p><p><strong>A</strong> fails: the author says the source of the problem is a 'systematic blind spot' in the records, which a new target does not touch.</p><p><strong>C</strong> fails: a new target counts another output; it does not record preventive work, and the author says such responses crowd that work out further.</p><p><strong>D</strong> fails: paragraph 3 says measured productivity 'may rise even as the quality of the operation declines'; nothing predicts an immediate fall.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-12",
+      "section": "VARC",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "All EXCEPT",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author would agree with each of the following EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Managers who were once workers themselves may informally credit work that the records miss."
+        },
+        {
+          "id": "B",
+          "textHtml": "The cycle of tightening measurement is made up of individually reasonable responses to incomplete information."
+        },
+        {
+          "id": "C",
+          "textHtml": "Making the records more precise would, on its own, remove the blind spot the passage describes."
+        },
+        {
+          "id": "D",
+          "textHtml": "Records shape, for practical purposes, what counts as work within an organisation."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is the exception. Paragraph 4 explicitly denies this: 'Measuring more precisely cannot repair this by itself, since the problem is not imprecision but a systematic blind spot.'</p><p><strong>A</strong> is supported by paragraph 3: managers, 'many of whom were once workers themselves, make informal allowance for it'.</p><p><strong>B</strong> is supported by paragraph 4: 'each step is a reasonable response to the information available'.</p><p><strong>D</strong> is supported by paragraph 1: records 'define, for practical purposes, what the work is'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-13",
+      "section": "VARC",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author's central claim is best expressed as which of the following?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Ranking by engagement should be replaced by the judgement of expert curators."
+        },
+        {
+          "id": "B",
+          "textHtml": "Engagement data are an incomplete record of what people want, and the remedy is to let people state their reflective preferences rather than to hand the choice to curators."
+        },
+        {
+          "id": "C",
+          "textHtml": "The economic idea that choices reveal preferences is mistaken in every context."
+        },
+        {
+          "id": "D",
+          "textHtml": "Most people do not hold preferences about their own preferences."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraphs 2–3 argue that behaviour captures reflexes and first-order pulls but not considered or second-order preferences; paragraph 4 rejects curators and proposes completing the record by letting people state what they want.</p><p><strong>A</strong> fails: paragraph 4 says this 'cure would be worse than the disease'.</p><p><strong>C</strong> fails: the author accepts its 'long and respectable history' for deliberate choices like purchases; he denies only that it fits the spending of attention.</p><p><strong>D</strong> fails: this contradicts paragraph 3: 'Most people hold preferences about their own preferences.'</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-14",
+      "section": "VARC",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Meaning in Context",
+      "difficulty": "medium",
+      "stemHtml": "<p>By saying that reading glances as considered preferences is 'to treat the flinch as a vote', the author means that such a reading:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "interprets an involuntary reaction as though it were a deliberate expression of what a person wants."
+        },
+        {
+          "id": "B",
+          "textHtml": "gives people's fears too much influence over elections."
+        },
+        {
+          "id": "C",
+          "textHtml": "assumes that people who react strongly to an item form a majority of users."
+        },
+        {
+          "id": "D",
+          "textHtml": "counts only negative reactions while ignoring positive ones."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The preceding sentence says that the glance at an alarming item 'is closer to a reflex than to a selection'; a flinch is a reflex, and a vote is a deliberate expression of preference.</p><p><strong>B</strong> fails: 'vote' is used figuratively; the passage is not about elections.</p><p><strong>C</strong> fails: the passage makes no claim about majorities; the contrast is between reflex and deliberate choice.</p><p><strong>D</strong> fails: the passage does not distinguish negative from positive reactions; 'surprising' and 'socially charged' items are not necessarily negative.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-15",
+      "section": "VARC",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>The author says that an engagement-optimising system favours the unreflective part of the self 'not because anyone decided this was right'. This implies that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the system's designers deliberately exploit users' impulses."
+        },
+        {
+          "id": "B",
+          "textHtml": "the bias is harmless, since no one intended it."
+        },
+        {
+          "id": "C",
+          "textHtml": "users have consciously chosen to give priority to their impulses."
+        },
+        {
+          "id": "D",
+          "textHtml": "the bias arises from which kind of preference happens to leave a trace in behavioural data, rather than from a deliberate choice by the system's designers."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The sentence continues: 'but because only one of the two leaves a trace in the data.' The bias is a by-product of what the data record, not an intention.</p><p><strong>A</strong> fails: this is the opposite of the claim that no one 'decided this was right'.</p><p><strong>B</strong> fails: the author treats the bias as a real problem calling for a remedy; lack of intention does not make it harmless.</p><p><strong>C</strong> fails: the passage says users may wish they were not drawn to such items; their second-order wish runs the other way.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-16",
+      "section": "VARC",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Strengthen / Weaken",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following, if true, would most strengthen the position of the defenders of engagement-based ranking, as described in paragraph 1, against the author's critique in paragraphs 2–4?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Many users say they wish to spend less time on quarrels among strangers but continue to engage with them heavily."
+        },
+        {
+          "id": "B",
+          "textHtml": "Items that are alarming or surprising are clicked more often than calm items of similar length."
+        },
+        {
+          "id": "C",
+          "textHtml": "When people were given easy means of stating in advance what they wanted to see, their stated preferences closely matched the items they in fact engaged with most."
+        },
+        {
+          "id": "D",
+          "textHtml": "Economists have successfully applied the idea of revealed preference to many kinds of purchase."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The author's critique rests on the claim that behaviour is an incomplete record because reflective and second-order preferences differ from what people engage with. If stated reflective preferences turn out to coincide with engagement, behaviour would after all be a good record of what people want — which is the defenders' revealed-preference claim. The author himself calls this 'an empirical question'.</p><p><strong>A</strong> fails: this is the author's own example of a gap between first-order pull and second-order wish; it supports the critique.</p><p><strong>B</strong> fails: this is consistent with the author's claim that such items 'seize attention' reflexively; it does not show that the clicks express considered preference.</p><p><strong>D</strong> fails: the author already grants this; his point is that attention is not spent the way purchases are made, which this finding does not address.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-17",
+      "section": "VARC",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>Lawmakers face a recurring choice between rules and standards. A rule — drive no faster than fifty — is cheap to apply and easy to predict, but it will sometimes forbid conduct that is harmless and permit conduct that is dangerous, since no fixed number suits every road and every night. A standard — drive at a reasonable speed — fits each case better in principle, but it shifts the work of deciding to the moment of application, where judges and juries must fill it with content, often inconsistently, and where citizens cannot know in advance what is required of them. Neither form is superior in general; the choice depends on whether, in the domain at hand, the costs of occasional misfit outweigh the costs of uncertainty and case-by-case judgement.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Standards are superior to rules because they fit each case better."
+        },
+        {
+          "id": "B",
+          "textHtml": "Rules offer predictability at the price of occasional misfit and standards offer fit at the price of uncertainty, so which is better depends on which cost is heavier in a given domain."
+        },
+        {
+          "id": "C",
+          "textHtml": "Rules should be preferred, because citizens must know in advance what the law requires."
+        },
+        {
+          "id": "D",
+          "textHtml": "Judges apply standards inconsistently and should therefore leave such decisions to juries."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. it captures the trade-off on both sides and the conclusion that 'Neither form is superior in general'.</p><p><strong>A</strong> fails: it ignores the costs of standards and contradicts 'Neither form is superior in general'.</p><p><strong>C</strong> fails: one-sided; predictability is one consideration that the passage weighs against misfit, not a decisive reason.</p><p><strong>D</strong> fails: the passage names judges and juries together as filling standards with content; it recommends no reallocation.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-18",
+      "section": "VARC",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Summary",
+      "difficulty": "hard",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>We tend to think of memory as a store from which past experiences are retrieved, faded perhaps but intact in their essentials. A better image might be a performance from a script. Each act of remembering reconstructs the event from fragments, filling gaps with what is typical or expected, and the reconstruction is then stored in place of what was retrieved. A memory recalled often is therefore not a memory preserved often; it may be one that has been revised often, each time drawing a little closer to the story we have come to tell about it. Vividness and confidence, which we treat as marks of accuracy, may instead be marks of rehearsal.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Memories that are recalled most often are the most accurate, because rehearsal preserves them."
+        },
+        {
+          "id": "B",
+          "textHtml": "Memory is best understood as a store from which experiences are retrieved, more or less faded."
+        },
+        {
+          "id": "C",
+          "textHtml": "A memory held with great confidence is always false."
+        },
+        {
+          "id": "D",
+          "textHtml": "Because remembering reconstructs an event and stores the reconstruction, frequently recalled memories may be frequently revised ones, so their vividness and confidence need not indicate accuracy."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. it captures the mechanism (reconstruction replaces what was retrieved), the consequence for often-recalled memories, and the closing point that vividness and confidence 'may' reflect rehearsal rather than accuracy.</p><p><strong>A</strong> fails: the passage argues the reverse: a memory recalled often 'is therefore not a memory preserved often'.</p><p><strong>B</strong> fails: this is the image the author sets aside in favour of 'a performance from a script'.</p><p><strong>C</strong> fails: an overreach; the passage says confidence 'may' be a mark of rehearsal, not that it guarantees error.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-19",
+      "section": "VARC",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumble",
+      "difficulty": "hard",
+      "stemHtml": "<p>The five sentences (labelled 1, 2, 3, 4, 5) given below, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of five numbers as your answer.</p><p>1. The insurer, unable to observe how attentively each such driver behaves, cannot simply charge the careless more.</p><p>2. Insurance protects people against losses, but in doing so it also weakens one of their reasons to avoid those losses.</p><p>3. Deductibles and co-payments are best understood as the insurer's answer to this inability: since it cannot reward care directly, it leaves the client to bear part of every loss, restoring some of the incentive that full cover would remove.</p><p>4. A driver whose car is fully insured, for example, has less to lose from a moment's inattention than one who must pay for every scratch.</p><p>5. Were it able to do so, the problem would largely solve itself, since careful behaviour would be rewarded directly through lower premiums.</p>",
+      "answer": "24153",
+      "solutionHtml": "<p>Answer: <strong>24153</strong>.</p><p>Opener: every sentence except 2 contains a backward link. Sentence 1 has 'each such driver', 3 has 'this inability', 4 has 'for example', and 5 has 'Were it able to do so'. So 2, the general claim, must come first.</p><p>Then: sentence 4 ('for example') illustrates 2's claim that insurance weakens the reason to avoid losses. Sentence 1's 'each such driver' needs the driver of 4, so 4 precedes 1. Sentence 5's 'Were it able to do so' can only mean 'were the insurer able to charge the careless more', so it must come immediately after 1. Sentence 3's 'this inability' refers to the insurer being 'unable to observe' (1). Its clause 'since it cannot reward care directly' answers 5's 'careful behaviour would be rewarded directly', so 3 comes after 5 and closes the paragraph with the remedy.</p><p>Every other order breaks a stated link. With 1 before 4, 'such driver' has no referent. With anything between 1 and 5, 'do so' loses 'charge the careless more'. With 3 before 1, 'this inability' has no referent. With 3 between 1 and 5, 5's 'it ... do so' would attach to the deductibles and the 'directly' contrast would be reversed. With 4 anywhere but second, 'for example' would not follow the claim it illustrates and 'such driver' could not follow it. Only 2-4-1-5-3 survives.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-20",
+      "section": "VARC",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumble",
+      "difficulty": "medium",
+      "stemHtml": "<p>The four sentences (labelled 1, 2, 3, 4) given below, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of four numbers as your answer.</p><p>1. The bidder who wins the auction is, by definition, the one whose estimate was highest.</p><p>2. Experienced bidders therefore shade their bids below their own estimates, not out of timidity, but to correct for a bias that winning itself introduces.</p><p>3. When several bidders estimate the value of the same uncertain asset, such as the mineral deposit beneath a plot of land, their estimates will scatter around its true value, some too high and some too low.</p><p>4. The winner, in other words, is disproportionately likely to be the bidder who overestimated most.</p>",
+      "answer": "3142",
+      "solutionHtml": "<p>Answer: <strong>3142</strong>.</p><p>Sentence 3 sets up the situation (scattered estimates of a common value) and is the only sentence that introduces bidders and estimates. Sentence 1 adds that the winner is the highest estimator. Sentence 4's 'in other words' restates 1 in the light of 3's scatter: highest estimate means likeliest overestimate. Sentence 2's 'therefore' draws the practical conclusion and its 'bias that winning itself introduces' summarises 4.</p><p>Alternatives fail: 4 cannot precede 1 because 'in other words' must restate something already said about the winner; 2 must be last because its 'therefore' and 'bias' depend on 4; 1 before 3 would speak of 'estimate' before any estimates have been introduced.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-21",
+      "section": "VARC",
+      "number": 21,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><p>1. A committee asked to choose among several proposals will often settle on the one that no member strongly opposes rather than the one most members would rank first.</p><p>2. This is not necessarily a failure, since a choice that offends no one may be easier to carry out than one that delights some members and alienates others.</p><p>3. But it does mean that committees tend to favour the inoffensive over the excellent, especially where any member can block a decision he dislikes.</p><p>4. Glassblowers must keep molten glass turning almost constantly, or it will sag under its own weight.</p><p>5. An organisation that routes its most ambitious decisions through committees should therefore expect them to emerge diluted, and should not be surprised when they do.</p>",
+      "answer": "4",
+      "solutionHtml": "<p>Answer: <strong>4</strong>.</p><p>Sentences 1, 2, 3 and 5 form one argument about the <em>compromise bias</em> of committee decisions: committees choose what no one opposes (1); this is not necessarily a failure (2); but it favours the inoffensive over the excellent (3, 'But it does mean'); so ambitious decisions emerge diluted (5, 'therefore'). Order: 1-2-3-5.</p><p>Sentence 4 is about the craft of glassblowing and has nothing to do with committees, organisations or decision-making. It cannot be placed anywhere in the 'not necessarily a failure ... But ... therefore' chain.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-22",
+      "section": "VARC",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><p>1. A book's index is often treated as an afterthought, compiled in haste once the text is finished.</p><p>2. Bamboo is botanically a grass rather than a tree, despite the woody stems of many species.</p><p>3. Yet for many readers, especially those who consult a book rather than read it through, the index is the main way into it.</p><p>4. A good index anticipates the questions such readers will bring, listing ideas under the terms they are likely to look up rather than only under the author's own vocabulary.</p><p>5. A poor one merely lists the words that happen to appear in the text, sending the reader to passages where a term is mentioned rather than discussed.</p>",
+      "answer": "2",
+      "solutionHtml": "<p>Answer: <strong>2</strong>.</p><p>Sentences 1, 3, 4 and 5 form a paragraph about the <em>index</em>: it is neglected (1), yet it is the main way in for consulting readers (3, 'Yet'), and a good index (4) is contrasted with a poor one (5, 'A poor one' — 'one' meaning index). Order: 1-3-4-5.</p><p>Sentence 2 is about plant classification (bamboo) and has nothing to do with books, indexes or readers. Placed after 1, it would also cut the link between the neglect of the index and 'Yet ... the index is the main way into it'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-23",
+      "section": "VARC",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Placement",
+      "difficulty": "hard",
+      "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3 or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> Only the first of these, however, has any say over how the garden is kept.</p><p><strong>Paragraph:</strong> ___(1)___ A well-kept front garden gives pleasure to two groups of people. ___(2)___ There is the owner, who enjoys the flowers from her window and the satisfaction of having grown them, and there are the passers-by, who enjoy them without having lifted a spade. ___(3)___ An owner deciding how much time to give the garden will naturally weigh the effort against her own pleasure, and the pleasure of strangers will count for little in the calculation. ___(4)___ This neglect of strangers' pleasure is why streets on which each household decides alone tend to have fewer flowers than all the residents, taken together, would wish.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Option 3</strong> is correct. 'the first of these' requires the two groups to have been listed in order — owner first, passers-by second — which happens only in the sentence before blank 3. 'however' contrasts the shared pleasure with the fact that only the owner decides, and that fact sets up the next sentence, which describes the owner's private calculation.</p><p>Option 1 fails: nothing has yet been mentioned for 'these' to refer to.</p><p>Option 2 fails: the two groups have been announced but not yet identified or ordered, so 'the first of these' would be unintelligible.</p><p>Option 4 fails: the paragraph has already moved on to the owner's decision, so the sentence would be redundant, and it would separate 'the pleasure of strangers will count for little' from 'This neglect of strangers' pleasure', which refers directly to it.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-24",
+      "section": "VARC",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Completion",
+      "difficulty": "hard",
+      "stemHtml": "<p>Choose the sentence that most appropriately completes the paragraph.</p><p>Historians who study a period through its surviving letters face a problem that is easy to state and hard to escape. Letters survive when someone thought them worth keeping, and people keep the letters of those who became important, the letters that record events thought significant, and the letters that flatter the keeper. The ordinary, the embarrassing and the trivial are thrown away, and with them much of the texture of daily life. ______</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "A collection of letters is therefore not a sample of a period's correspondence but a selection from it, shaped by the very judgements of importance that the historian may be trying to test."
+        },
+        {
+          "id": "B",
+          "textHtml": "Historians should therefore rely only on official documents, which are kept without any selection."
+        },
+        {
+          "id": "C",
+          "textHtml": "This is why letters are the least reliable of all historical sources."
+        },
+        {
+          "id": "D",
+          "textHtml": "Most letters written in any period were therefore trivial."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. it states the 'problem' announced in the first sentence: survival depends on judgements of worth, so the archive is a biased selection rather than a representative sample.</p><p><strong>B</strong> fails: official documents are never discussed, and the claim that they are kept without selection is unsupported.</p><p><strong>C</strong> fails: an overreach; the paragraph compares letters with no other source.</p><p><strong>D</strong> fails: the paragraph says trivial letters are discarded, not that they formed most of the correspondence; 'therefore' does not follow.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

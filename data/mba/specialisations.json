@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-11-12",
+  "note": "Sidecar listing institutes already in data/mba/colleges/ (slug = colleges/<slug>.json) or data/mba/programs/ (slug = programs/<slug>.json) whose OFFICIAL pages list the specialisation. 'basis' gives the strength of the evidence: 'dedicated programme' = a whole MBA/PGDM in that field; 'named specialisation' = a listed specialisation, major or track; 'area of specialisation (electives)' = the official page says students specialise through electives in a named area that covers the field. Elective areas the institute does not describe as a specialisation are excluded (see checkedNotOffered). Evidence is paraphrased. Sources are official institute pages only. Updated 2026-11-12 after new colleges/ records (MANAGE, EDII, IIPS DAVV, IPE Hyderabad) were added: their programmes now count.",
+  "specialisations": {
+    "International Business": [
+      {
+        "slug": "iift-delhi",
+        "institute": "Indian Institute of Foreign Trade, New Delhi",
+        "programme": "MBA (International Business)",
+        "evidence": "The flagship two-year MBA is itself an International Business degree.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "IIFT MBA (International Business) programme page",
+          "url": "https://www.iift.ac.in/mba-ib",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "mdi-gurgaon",
+        "institute": "Management Development Institute Gurgaon",
+        "programme": "Post Graduate Diploma in Management - International Business (PGDM-IB)",
+        "evidence": "Separate CAT/GMAT-based PGDM-IB with a dual degree from Emlyon or ESCP; needs a 4-year bachelor's and 1 year of work experience.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "MDI Gurgaon - PGDM-IB admissions page",
+          "url": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-international-business-pgdm-ib",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "ipe-hyderabad",
+        "institute": "Institute of Public Enterprise (IPE), Hyderabad",
+        "programme": "PGDM - International Business (PGDM-IB)",
+        "evidence": "A separate two-year PGDM in international business (intake 60, running since 2009) covering international finance, marketing, global supply chains and country/currency risk; listed alongside the general PGDM in the 2027-29 brochure.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "IPE Information Brochure 2027-29",
+          "url": "https://www.ipeindia.org/wp-content/uploads/2026/11/IPE-Information-Brochure-2027-29.pdf",
+          "retrievedAt": "2026-11-12"
+        }
+      }
+    ],
+    "IT/Systems Management": [
+      {
+        "slug": "imt-ghaziabad",
+        "institute": "Institute of Management Technology, Ghaziabad",
+        "programme": "PGDM - Full Time",
+        "evidence": "Information Technology Management is one of the PGDM specialisation areas, with its own elective basket (IT outsourcing, digital business, blockchain and similar courses).",
+        "basis": "named specialisation",
+        "source": {
+          "title": "IMT Ghaziabad PGDM Full Time programme page",
+          "url": "https://www.imt.edu/pgdm/pgdm-ft/",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "jbims-mumbai",
+        "institute": "Jamnalal Bajaj Institute of Management Studies (JBIMS)",
+        "programme": "Master of Management Studies (MMS)",
+        "evidence": "Systems is one of the five MMS specialisations, alongside Finance, Marketing, Operations and HR.",
+        "basis": "named specialisation",
+        "source": {
+          "title": "JBIMS MMS course page",
+          "url": "https://jbims.edu/courses-details/master-of-management-studies/",
+          "retrievedAt": "2026-11-11"
+        }
+      },
+      {
+        "slug": "xlri-jamshedpur",
+        "institute": "XLRI - Xavier School of Management",
+        "programme": "PGDM - Business Management (PGDM-BM)",
+        "evidence": "Information Systems is listed among the PGDM-BM specialisation areas.",
+        "basis": "named specialisation",
+        "source": {
+          "title": "XLRI Admission Prospectus 2027",
+          "url": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565",
+          "retrievedAt": "2026-11-11"
+        }
+      },
+      {
+        "slug": "spjimr-mumbai",
+        "institute": "S. P. Jain Institute of Management & Research (SPJIMR)",
+        "programme": "Post Graduate Diploma in Management (PGDM)",
+        "evidence": "Information Management & Analytics is one of the four PGDM specialisations. It combines IT management and analytics.",
+        "basis": "named specialisation",
+        "source": {
+          "title": "SPJIMR PGDM Batch 2027-29 eligibility (domestic)",
+          "url": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf",
+          "retrievedAt": "2026-11-11"
+        }
+      },
+      {
+        "slug": "mdi-gurgaon",
+        "institute": "Management Development Institute Gurgaon",
+        "programme": "Post Graduate Diploma in Management (PGDM)",
+        "evidence": "Second-year students may specialise in up to two functional areas, one of which is Information Management; a specialisation needs at least five electives (15 credits) from that area.",
+        "basis": "named specialisation",
+        "source": {
+          "title": "MDI Gurgaon PGDM programme page",
+          "url": "https://mdi.ac.in/programmes/post-graduate-diploma-in-management-pgdm",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "iim-amritsar",
+        "institute": "IIM Amritsar",
+        "programme": "Master of Business Administration (MBA)",
+        "evidence": "The MBA curriculum lists Information Systems and Analytics among the second-year areas of specialisation.",
+        "basis": "area of specialisation (electives)",
+        "source": {
+          "title": "IIM Amritsar MBA curriculum",
+          "url": "https://iimamritsar.ac.in/academics/mba/curriculum",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "iim-tiruchirappalli",
+        "institute": "IIM Tiruchirappalli",
+        "programme": "Post Graduate Programme in Management (PGPM / MBA)",
+        "evidence": "In the second year students can specialise by taking electives from areas that include Information Systems & Analytics.",
+        "basis": "area of specialisation (electives)",
+        "source": {
+          "title": "IIM Tiruchirappalli PGPM programme page",
+          "url": "https://www.iimtrichy.ac.in/pgpm",
+          "retrievedAt": "2026-11-12"
+        }
+      }
+    ],
+    "Entrepreneurship": [
+      {
+        "slug": "imt-ghaziabad",
+        "institute": "Institute of Management Technology, Ghaziabad",
+        "programme": "PGDM - Full Time",
+        "evidence": "Strategy, Innovation and Entrepreneurship is a PGDM specialisation area with its own electives, such as entrepreneurial finance, HR for start-ups and start-up incubation.",
+        "basis": "named specialisation",
+        "source": {
+          "title": "IMT Ghaziabad PGDM Full Time programme page",
+          "url": "https://www.imt.edu/pgdm/pgdm-ft/",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "scmhrd-pune",
+        "institute": "Symbiosis Centre for Management and Human Resource Development",
+        "programme": "Master of Business Administration (MBA)",
+        "evidence": "Strategy, Innovation & Entrepreneurship is listed as an MBA specialisation.",
+        "basis": "named specialisation",
+        "source": {
+          "title": "SCMHRD MBA programme page",
+          "url": "https://scmhrd.edu/programmes/mba/",
+          "retrievedAt": "2026-11-11"
+        }
+      },
+      {
+        "slug": "iim-tiruchirappalli",
+        "institute": "IIM Tiruchirappalli",
+        "programme": "Post Graduate Programme in Management (PGPM / MBA)",
+        "evidence": "In the second year students can specialise by taking electives from areas that include Strategy & Entrepreneurship.",
+        "basis": "area of specialisation (electives)",
+        "source": {
+          "title": "IIM Tiruchirappalli PGPM programme page",
+          "url": "https://www.iimtrichy.ac.in/pgpm",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "edii-gandhinagar",
+        "institute": "Entrepreneurship Development Institute of India (EDII), Gandhinagar",
+        "programme": "Post Graduate Diploma in Management - Entrepreneurship (PGDM-E)",
+        "evidence": "The flagship two-year PGDM is itself an entrepreneurship programme (new-venture creation, family business and related tracks), 120 seats for 2027-29.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "EDII - PGDM Entrepreneurship programme page (2027-29)",
+          "url": "https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "iips-davv-indore",
+        "institute": "International Institute of Professional Studies (IIPS), DAVV Indore",
+        "programme": "MBA (Entrepreneurship)",
+        "evidence": "A separate two-year MBA (Entrepreneurship) offered by IIPS, admitted through CUET (PG), listed in the DAVV 2026-27 admission brochure.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "DAVV Indore - CUET (PG) Admission Information Brochure 2026-2027",
+          "url": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+          "retrievedAt": "2026-11-12"
+        }
+      }
+    ],
+    "Agribusiness": [
+      {
+        "slug": "iim-ahmedabad",
+        "institute": "IIM Ahmedabad",
+        "programme": "Two-Year Post Graduate Programme in Food and Agri-business Management (MBA-FABM)",
+        "evidence": "A dedicated two-year MBA in food and agri-business management, separate from the flagship MBA-PGP.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "IIM Ahmedabad MBA-FABM programme page",
+          "url": "https://www.iima.ac.in/academics/MBA-FABM",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "iim-lucknow",
+        "institute": "IIM Lucknow",
+        "programme": "MBA in Agri-Business Management (PGP-ABM)",
+        "evidence": "A dedicated two-year agribusiness MBA (PGP-ABM); the 2026 placement cohort was its 21st batch.",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "IIM Lucknow MBA-ABM programme page",
+          "url": "https://www.iiml.ac.in/programme/master-business-administration-mba/mba-abm",
+          "retrievedAt": "2026-11-12"
+        }
+      },
+      {
+        "slug": "manage-hyderabad",
+        "institute": "National Institute of Agricultural Extension Management (MANAGE), Hyderabad",
+        "programme": "Post Graduate Diploma in Management - Agri-Business Management (PGDM-ABM)",
+        "evidence": "A dedicated two-year AICTE-approved PGDM in agri-business management admitted through CAT (120 seats).",
+        "basis": "dedicated programme",
+        "source": {
+          "title": "MANAGE PGDM(ABM) programme page and Prospectus 2026-28",
+          "url": "https://www.manage.gov.in/pgdmabm/pgdmabm.asp",
+          "retrievedAt": "2026-11-12"
+        }
+      }
+    ]
+  },
+  "candidatesNotInData": {
+    "International Business": [
+      {
+        "institute": "FORE School of Management, New Delhi (CAT cut-off file fore-delhi exists, but no colleges/ record)",
+        "programme": "PGDM (International Business)",
+        "url": "https://www.fsm.ac.in/pgdm-international-business"
+      },
+      {
+        "institute": "Symbiosis Institute of International Business (SIIB), Pune",
+        "programme": "MBA - International Business (SNAP)",
+        "url": "https://siib.ac.in/programmes/mba-international-business/"
+      }
+    ],
+    "Agribusiness": [],
+    "Entrepreneurship": [
+      {
+        "institute": "Great Lakes Institute of Management, Chennai (in data, but this is the 1-year PGPM, not the PGDM in colleges/)",
+        "programme": "PGPM - Family Business & Entrepreneurship (PGPM-FBE)",
+        "url": "https://www.greatlakes.edu.in/chennai/pgdm"
+      }
+    ],
+    "IT/Systems Management": []
+  },
+  "checkedNotOffered": [
+    "welingkar-mumbai: International Business is a core course in trimester IV for every major, not a specialisation. Majors are Marketing, Finance, HR and Operations (PGDM brochure 2026-28 and the PGDM page).",
+    "kjsim-mumbai: the five MBA majors are Business Analytics & Data Science, Finance, HR, Marketing and Operations/SCM. No IB, IT/systems, entrepreneurship or agribusiness major. Business Analytics & Data Science was not counted as IT/systems.",
+    "nmims-mumbai: the flagship MBA has no IB, IT or entrepreneurship specialisation on its official pages. International Business Management is only a second-year elective. Its MBA (Business Analytics), MBA (Digital Transformation) and the Pravin Dalal School of Entrepreneurship programmes are separate and were not counted.",
+    "great-lakes-chennai: the PGDM specialisations are marketing, finance, operations and business analytics. The entrepreneurship programme is the separate 1-year PGPM-FBE (see candidatesNotInData).",
+    "iim-ahmedabad (MBA-PGP): Entrepreneurship, Information Systems and Agri Management are elective areas only, with no named specialisation. Not counted for the PGP. Agribusiness is counted through MBA-FABM.",
+    "iim-kozhikode: Information Technology and Systems is an elective area, and International Business is a compulsory course. Neither is called a specialisation, so not counted.",
+    "iim-nagpur: Strategy and Entrepreneurship and Decision Science & Information Systems are elective areas. The curriculum page has no named tracks, so not counted.",
+    "iim-ranchi, iim-udaipur, iim-bodh-gaya (flagship MBA), iim-raipur: only elective areas or courses in these fields (IS & BA, Strategy & Entrepreneurship, International Business courses). IIM Raipur's major/minor areas do not include these four. Not counted.",
+    "iim-sambalpur: Information Management and Entrepreneurial Innovation specialisations exist only in the MBA for Working Professionals, not the flagship MBA. Not counted.",
+    "iim-bangalore: Entrepreneurship and Information Systems are faculty areas. The PGP has no named specialisation on the programme page. Not counted.",
+    "fms-delhi: its 2027 prospectus mentions IT and Entrepreneurship only as career or interest areas, not specialisations.",
+    "sibm-pune: specialisations are Marketing, HRM, Finance, Operations & SCM and Data Analytics. None of the four.",
+    "Not checked in depth or no programme page reachable: imi-delhi (the page lists only PGDM, PGDM-HRM and PGDM-B&FS), pumba-pune (department site unreachable), bimm-pune (domain unreachable), dms-iit-delhi, sjmsom-iit-bombay, tiss-mumbai (HR programme), and the remaining IIMs (Calcutta, Indore, Jammu, Kashipur, Mumbai, Rohtak, Shillong, Sirmaur, Visakhapatnam). Pages fetched for these showed no named specialisation in the four fields."
+  ],
+  "counts": {
+    "International Business": 3,
+    "IT/Systems Management": 7,
+    "Entrepreneurship": 5,
+    "Agribusiness": 3
+  }
+}
