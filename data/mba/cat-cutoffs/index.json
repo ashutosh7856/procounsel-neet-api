@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-12",
   "disclaimer": "Thresholds are OFFICIALLY PUBLISHED minimum-eligibility / shortlisting / published cutoff percentiles taken only from each institute's own documents. They are NOT guarantees of a call or admission and NOT closing percentiles; actual cutoffs are usually higher, and sectional, academic, work-experience and WAT/PI criteria also apply. \"meets\" = published General-category OVERALL threshold <= X; sectional minimums are listed per institute and are not checked.",
   "category": "General",
   "basis": "published General-category (or all-category) overall CAT percentile; non-IIMs: flagship programme row of the latest batch (2025-27 or later); stage given per institute (minimum_to_apply / shortlisting / final = last year closing as disclosed); IIMs: overall CAT percentile only; flagship programme; IIMs from programs/*.json (gender-specific IIMs use the Male/default row)",
@@ -35,9 +35,13 @@
         "iim-ranchi",
         "iim-tiruchirappalli",
         "iim-rohtak",
-        "doms-iisc-bangalore"
+        "doms-iisc-bangalore",
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
       ],
-      "count": 30
+      "count": 34
     },
     "95": {
       "meets": [
@@ -66,9 +70,13 @@
         "iim-jammu",
         "iim-udaipur",
         "iim-ahmedabad",
-        "iim-nagpur"
+        "iim-nagpur",
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
       ],
-      "count": 26
+      "count": 30
     },
     "90": {
       "meets": [
@@ -93,9 +101,13 @@
         "iim-sambalpur",
         "iim-sirmaur",
         "gim-goa",
-        "vgsom-iit-kharagpur"
+        "vgsom-iit-kharagpur",
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
       ],
-      "count": 22
+      "count": 26
     },
     "85": {
       "meets": [
@@ -110,9 +122,13 @@
         "iim-calcutta",
         "iim-kozhikode",
         "iim-mumbai",
-        "spjimr"
+        "spjimr",
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
       ],
-      "count": 12
+      "count": 16
     },
     "80": {
       "meets": [
@@ -121,20 +137,33 @@
         "fore-delhi",
         "iit-jodhpur-sme",
         "ime-iit-kanpur",
-        "welingkar-mumbai"
+        "welingkar-mumbai",
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
       ],
-      "count": 6
+      "count": 10
     },
     "70": {
       "meets": [
         "ifmr-gsb-krea",
-        "imt-nagpur"
+        "imt-nagpur",
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
       ],
-      "count": 2
+      "count": 6
     },
     "60": {
-      "meets": [],
-      "count": 0
+      "meets": [
+        "xiss-ranchi",
+        "nit-silchar",
+        "tezpur-university",
+        "nit-jalandhar"
+      ],
+      "count": 4
     }
   },
   "institutes": [
@@ -650,6 +679,58 @@
       "note": "Only official figure is the State CET Cell All-India CAP closing score, which mixes CAT/CMAT/MAH-CET and is not a CAT-specific percentile; not indexed",
       "dataFile": "cat-cutoffs/jbims.json",
       "sourceUrl": null
+    },
+    {
+      "slug": "xiss-ranchi",
+      "name": "Xavier Institute of Social Service (XISS), Ranchi",
+      "type": "non-IIM",
+      "program": "PGDM-HRM (flagship row; RM 25, MM/FM 35)",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 60,
+      "generalSectional": null,
+      "note": "Unreserved category GDPI-call cut-off for 2026 admissions; 2027 cut-off to be announced. Reserved 45.",
+      "dataFile": "cat-cutoffs/xiss-ranchi.json",
+      "sourceUrl": "https://xiss.ac.in/admission/"
+    },
+    {
+      "slug": "nit-silchar",
+      "name": "Department of Management Studies, National Institute of Technology (NIT) Silchar",
+      "type": "non-IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "generalOverall": 50,
+      "generalSectional": null,
+      "note": "Minimum 50 percentile in CAT 2025 (or MAT/CMAT) to apply; no category split.",
+      "dataFile": "cat-cutoffs/nit-silchar.json",
+      "sourceUrl": "https://doms.nits.ac.in/storage/notice-documents/notice_69e5f8338b7631776678963.pdf"
+    },
+    {
+      "slug": "tezpur-university",
+      "name": "Department of Business Administration, Tezpur University",
+      "type": "non-IIM",
+      "program": "MBA (Full Time)",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 54.16,
+      "generalSectional": null,
+      "note": "GD/PI shortlist cut-off; notice says 'cut-off marks' without unit, treated as CAT percentile. 2024-26 General was 78.3.",
+      "dataFile": "cat-cutoffs/tezpur-university.json",
+      "sourceUrl": "https://www.tezu.ernet.in/adm26/notice/mbagdpilist.pdf"
+    },
+    {
+      "slug": "nit-jalandhar",
+      "name": "Department of Humanities and Management, Dr B R Ambedkar National Institute of Technology (NIT) Jalandhar",
+      "type": "non-IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "generalOverall": 40,
+      "generalSectional": null,
+      "note": "From standing MBA Regulations (percentile below 40 not considered); not restated in the 2026-28 advertisement. Lower confidence.",
+      "dataFile": "cat-cutoffs/nit-jalandhar.json",
+      "sourceUrl": "https://v1.nitj.ac.in/nitj_files/links/MBA_Regulations_57981.pdf"
     }
   ],
   "checkedNoOfficialCutoff": [
@@ -757,6 +838,96 @@
       "slug": "xlri-jamshedpur",
       "name": "XLRI - Xavier School of Management",
       "note": "CAT NOT ACCEPTED. xlri.ac.in/academic-programmes/admission-procedure/overview/xat: 'All Indian candidates can appear for XAT 2027'; NRI/PIO/OCI/foreign via GMAT or XAT. Out of scope for CAT cut-offs."
+    },
+    {
+      "slug": "kiit-ksom",
+      "name": "KIIT School of Management (KSOM), Bhubaneswar",
+      "note": "Checked ksom.ac.in/programs/mba-full-time/faqs/ (2027 cycle): no CAT cut-off; KIITEE cut-off decided after the test; 80 percentile CAT/XAT is a scholarship threshold only. (checked 2026-11-12)"
+    },
+    {
+      "slug": "asia-pacific-delhi",
+      "name": "Asia-Pacific Institute of Management, New Delhi",
+      "note": "Checked asiapacific.edu/faq/ and /post-graduate-programs/pgdm/general/: no minimum CAT percentile stated. Percentile figures appear only in marketing blog posts, not used. (checked 2026-11-12)"
+    },
+    {
+      "slug": "fiib-delhi",
+      "name": "Fortune Institute of International Business (FIIB), New Delhi",
+      "note": "Official selection-criteria and FAQ pages (fiib.edu.in/mba-pgdm-programs/...) returned HTTP 403 to automated fetch; contents unverified. Search snippets mention a 50/60 percentile minimum but these could not be confirmed first-hand. Re-check manually. (checked 2026-11-12)"
+    },
+    {
+      "slug": "xime-bangalore",
+      "name": "Xavier Institute of Management & Entrepreneurship (XIME), Bangalore",
+      "note": "Checked admissions.xime.org (2027-29): eligibility lists accepted exams and 50% graduation only; no percentile cut-off. (checked 2026-11-12)"
+    },
+    {
+      "slug": "taxila-jaipur",
+      "name": "Taxila Business School, Jaipur",
+      "note": "taxila.in/pgdm-with-business-analytics/eligibility-selection-criteria/ gives only a CAT/XAT percentile-to-points scale (20-50 percentile = 10 points ... >91 = 20); no stated minimum. (checked 2026-11-12)"
+    },
+    {
+      "slug": "xidas-jabalpur",
+      "name": "Xavier Institute of Development Action and Studies (XIDAS), Jabalpur",
+      "note": "xidas.in eligibility/admission-procedure pages: weightages only (entrance test 30%); no percentile cut-off. Aggregator figures not used. (checked 2026-11-12)"
+    },
+    {
+      "slug": "nism-mumbai",
+      "name": "National Institute of Securities Markets (NISM)",
+      "note": "PGDM-SM page (2026-28): CAT is the benchmark, scores converted to CAT equivalent; no numeric cut-off. 75 %ile is a scholarship threshold. (checked 2026-11-12)"
+    },
+    {
+      "slug": "iihmr-delhi",
+      "name": "International Institute of Health Management Research, Delhi",
+      "note": "PGDM (Hospital & Health Management) admission-requirements page: valid CAT/MAT/XAT etc. required, no percentile. Aggregator 50-percentile claim not found on official pages. (checked 2026-11-12)"
+    },
+    {
+      "slug": "manage-hyderabad",
+      "name": "National Institute of Agricultural Extension Management (MANAGE)",
+      "note": "PGDM-ABM Admission Policy 2026 and 2026-28 prospectus: shortlisting by CAT percentile category-wise, no number published. GDPI-2026 notice link returns an HTML error page. (checked 2026-11-12)"
+    },
+    {
+      "slug": "mdi-murshidabad",
+      "name": "MDI Murshidabad",
+      "note": "mdim.ac.in/pgdmresidential/ (2027-29): shortlisting on CAT 2026/XAT 2027/GMAT plus application details; no percentile stated. (checked 2026-11-12)"
+    },
+    {
+      "slug": "nia-pune",
+      "name": "National Insurance Academy (NIA), Pune",
+      "note": "pgdm.niapune.org.in/admissions/ (2027) shows an \"Expected Cut off for Shortlisting\" of CAT 75 (General/EWS), 70 (others), placed under PGDM (Technology Management). Labelled expected and above 70 in any case; not indexed. (checked 2026-11-12)"
+    },
+    {
+      "slug": "nit-durgapur",
+      "name": "NIT Durgapur",
+      "note": "MBA Admission 2026-28 notice (nitdgp.ac.in/uploads/MBA_ADMISSION_2026-28.pdf): valid CAT/CMAT/XAT/MAT scorecard required; no percentile floor. (checked 2026-11-12)"
+    },
+    {
+      "slug": "nit-calicut",
+      "name": "NIT Calicut",
+      "note": "MBA Admission 2026-28 notice: valid CAT 2025 score; selection by CAT score + written test/PI; no percentile floor. (checked 2026-11-12)"
+    },
+    {
+      "slug": "svnit-surat",
+      "name": "SVNIT Surat",
+      "note": "MBA 2026 information brochure: CAT/GMAT/GRE/XAT/CMAT/MAT or SVNIT test, 45% weight; no percentile floor. (checked 2026-11-12)"
+    },
+    {
+      "slug": "nit-hamirpur",
+      "name": "NIT Hamirpur",
+      "note": "MBA Admission 2025-26 notice: weighted CAT/CMAT/MAT test percentile; the eligibility table prints no minimum value. (checked 2026-11-12)"
+    },
+    {
+      "slug": "dtu-dsm",
+      "name": "Delhi School of Management, DTU",
+      "note": "MBA (BA) 2026 guidelines: cut-off for CAT 2025/MAT to be decided by the admission committee; not published. (checked 2026-11-12)"
+    },
+    {
+      "slug": "iiswbm-kolkata",
+      "name": "IISWBM Kolkata",
+      "note": "Only figures (MBA Day 55, Evening/HRM 60) are in an AICTE mandatory disclosure uploaded 2022-04 (stale); current MBA pages say only that a cut-off mark is applied. Not indexed. (checked 2026-11-12)"
+    },
+    {
+      "slug": "alliance-bangalore",
+      "name": "Alliance School of Business",
+      "note": "alliance.edu.in MBA admissions page: no CAT percentile stated. (checked 2026-11-12)"
     }
   ],
   "noOverallThreshold": [

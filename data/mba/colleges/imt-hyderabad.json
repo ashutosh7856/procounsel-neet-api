@@ -1,0 +1,101 @@
+{
+  "slug": "imt-hyderabad",
+  "name": "Institute of Management Technology, Hyderabad",
+  "shortName": "IMT Hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "type": "private",
+  "website": "https://www.imthyderabad.edu.in",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "GMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 1600000,
+      "feeYear": "2027-29",
+      "feeNote": "IMT Hyderabad PGDM admissions page: 'Fee Structure for PGDM, PGDM (Finance) Batch 2027-2029 INR 16 Lakhs'; academic fee includes accommodation and mess charges. Instalment schedule not published on the page. Scholarships: 40% academic-fee waiver for CAT/XAT 90+ percentile or GMAT Focus 655+; 20% for all women candidates; TFW scheme.",
+      "intake": null,
+      "intakeNote": "Not stated on the admissions page.",
+      "medianSalary": null,
+      "averageSalary": 1228877,
+      "salaryYear": "PGDM batch 2023-25 final placements",
+      "placementNote": "IMT Hyderabad Annual Report PGDM Batch 2023-2025 (linked from the institute's Placement Data page, hosted on Google Drive): 186 students, 153 placed, 24 not placed, 3 ineligible; highest domestic Rs 30,85,000; average domestic Rs 12,28,877.46; lowest Rs 7,55,000. Median not published. Signed by Director and Head - Corporate Relations; audit not stated.",
+      "sources": {
+        "fee": "https://www.imthyderabad.edu.in/admissions/pgdm",
+        "intake": null,
+        "salary": "https://drive.google.com/file/d/1H7YBWB80qbv1oUWy3OIdMIzzKWXmrDKT/view?usp=sharing",
+        "admission": "https://www.imthyderabad.edu.in/admissions/pgdm"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Online IMT common application (CAT 2026 / XAT 2027 / GMAT)",
+      "weightage": null,
+      "detail": "Eligibility: 3-year bachelor's degree with minimum 50% aggregate; final-year students may apply. Application fee Rs 3,500."
+    },
+    {
+      "stage": 2,
+      "name": "Document submission and offline interview process",
+      "weightage": null,
+      "detail": "IMT admission process starts 1st week of Feb 2027; results 3rd week of Mar 2027. Selection weights not published on the campus page."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "Online common application open from September 2026; IMT admission process starts 1st week of Feb 2027; results 3rd week of Mar 2027; classes begin June 2027. GMAT official scores to IMT central admissions by 15 Jan 2027 (campus-specific applications by 31 Mar 2027).",
+    "source": "https://www.imthyderabad.edu.in/admissions/pgdm"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 72,
+    "score": 49.38,
+    "nirfInstituteId": "IR-M-I-1132",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "IMT Hyderabad PGDM Admissions 2027 page (content served from the institute's API)",
+      "url": "https://www.imthyderabad.edu.in/admissions/pgdm",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29 (INR 16 lakh incl. accommodation & mess); exams; eligibility; admission steps; key dates; scholarships"
+    },
+    {
+      "title": "IMT Hyderabad PGDM admission page data (institute API backing the admissions page)",
+      "url": "https://api.imthyderabad.edu.in/api/pgdm-admission",
+      "retrievedAt": "2026-11-12",
+      "supports": "same content as admissions page (machine-readable)"
+    },
+    {
+      "title": "IMT Hyderabad Placement Data page",
+      "url": "https://www.imthyderabad.edu.in/placementdata",
+      "retrievedAt": "2026-11-12",
+      "supports": "links to annual placement reports"
+    },
+    {
+      "title": "IMT Hyderabad Annual Report PGDM Batch of 2023-2025 (PDF linked from Placement Data page)",
+      "url": "https://drive.google.com/file/d/1H7YBWB80qbv1oUWy3OIdMIzzKWXmrDKT/view?usp=sharing",
+      "retrievedAt": "2026-11-12",
+      "supports": "average, highest, lowest salary; students placed 2023-25"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 72, score 49.38"
+    }
+  ]
+}

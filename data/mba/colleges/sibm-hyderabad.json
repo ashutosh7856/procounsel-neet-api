@@ -1,0 +1,120 @@
+{
+  "slug": "sibm-hyderabad",
+  "name": "Symbiosis Institute of Business Management, Hyderabad",
+  "shortName": "SIBM Hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "type": "deemed",
+  "website": "https://www.sibmhyd.edu.in",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "SNAP"
+      ],
+      "specialisations": [
+        "Finance",
+        "Marketing",
+        "Operations",
+        "Human Resources"
+      ],
+      "feeTotal": 1752000,
+      "feeYear": "2027-29",
+      "feeNote": "Approved fee structure for batch 2027-29 (Indian students): academic fees Rs 8,76,000 per annum, paid as 4 instalments of Rs 4,38,000 (2 per year) = Rs 17,52,000. Excludes refundable institute deposit Rs 20,000, refundable hostel deposit Rs 20,000, mess Rs 1,58,600 p.a. and hostel Rs 1,91,900 (three-sharing) to Rs 3,35,800 (single) p.a. in year 1; hostel fees may rise up to 15% a year; government taxes extra. Discretionary-quota seats pay double academic fees.",
+      "intake": null,
+      "intakeNote": "Not stated on the pages used.",
+      "medianSalary": 820000,
+      "averageSalary": 910000,
+      "salaryYear": "MBA batch 2023-25 final placements",
+      "placementNote": "SIBM Hyderabad Final Placement Report, Batch 2023-2025 (infographic on the institute's placement report page): average CTC 9.1 LPA, median CTC 8.2 LPA, highest 31 LPA, top decile 11.6 LPA, top quartile 10 LPA; 82 participating recruiters. The 2024-26 report page was empty on 2026-11-12. Audit not stated.",
+      "sources": {
+        "fee": "https://www.sibmhyd.edu.in/mba-college-hyderabad-fee-structure",
+        "intake": null,
+        "salary": "https://www.sibmhyd.edu.in/placementreport2023_25",
+        "admission": "https://www.sibmhyd.edu.in/selection-procedure"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "SNAP 2026 test",
+      "weightage": "50 marks (SNAP score out of 60 scaled to 50)",
+      "detail": "Register for SNAP 2026 and separately for SIBM Hyderabad (institute registration fee Rs 1,000); shortlisting declared 15 Jan 2027."
+    },
+    {
+      "stage": 2,
+      "name": "Group Exercise (GE)",
+      "weightage": "10 marks",
+      "detail": "GE-PI on 12-14 and 18-21 Feb 2027."
+    },
+    {
+      "stage": 3,
+      "name": "Personal Interaction (PI)",
+      "weightage": "30 marks",
+      "detail": "Plus 10 marks for institute-specific parameters; merit list out of 100; first merit list 1 Mar 2027."
+    }
+  ],
+  "selectionWeightage": {
+    "SNAP": 50,
+    "GroupExercise": 10,
+    "PersonalInteraction": 30,
+    "InstituteSpecificParameters": 10,
+    "note": "Merit-list weightage as shown on SIBM Hyderabad's selection procedure page (WAT column is commented out of the live table).",
+    "source": "https://www.sibmhyd.edu.in/selection-procedure"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2027-01-15",
+    "examDate": "2026-12-13",
+    "notes": "SNAP 2026 registration & payment closes 25 Nov 2026; SNAP CBT 13, 19 and 26 Dec 2026; SNAP result 12 Jan 2027; SIBM Hyderabad registration closes and shortlist declared 15 Jan 2027; GE-PI slot booking 22-25 Jan 2027; GE-PI 12-14 & 18-21 Feb 2027; first merit list 1 Mar 2027; fee deadline 31 Mar 2027; programme starts 7 Jun 2027 (tentative).",
+    "source": "https://www.sibmhyd.edu.in/importantdates"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "SIBM Hyderabad - Fees Structure (MBA batch 2027-29)",
+      "url": "https://www.sibmhyd.edu.in/mba-college-hyderabad-fee-structure",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29, instalments, hostel/mess"
+    },
+    {
+      "title": "SIBM Hyderabad - Selection Procedure",
+      "url": "https://www.sibmhyd.edu.in/selection-procedure",
+      "retrievedAt": "2026-11-12",
+      "supports": "selection stages; merit weightage 50/10/30/10; registration fees"
+    },
+    {
+      "title": "SIBM Hyderabad - Important Dates (SNAP 2026 & GEPI 2026)",
+      "url": "https://www.sibmhyd.edu.in/importantdates",
+      "retrievedAt": "2026-11-12",
+      "supports": "key dates 2027-29 admission"
+    },
+    {
+      "title": "SIBM Hyderabad - Placement Reports 2023-25 page",
+      "url": "https://www.sibmhyd.edu.in/placementreport2023_25",
+      "retrievedAt": "2026-11-12",
+      "supports": "final placement report batch 2023-25"
+    },
+    {
+      "title": "SIBM Hyderabad Final Placement Report Batch 2023-2025 (infographic image)",
+      "url": "https://www.sibmhyd.edu.in//assets/images/Final%20Placement%20Report_1.png",
+      "retrievedAt": "2026-11-12",
+      "supports": "median 8.2 LPA, average 9.1 LPA, highest 31 LPA"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not separately ranked; SIU's Pune institutes appear separately"
+    }
+  ]
+}

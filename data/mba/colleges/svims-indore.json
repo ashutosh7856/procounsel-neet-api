@@ -1,0 +1,97 @@
+{
+  "slug": "svims-indore",
+  "name": "Shri Vaishnav Institute of Management & Science, Indore",
+  "shortName": "SVIMS Indore",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "type": "private",
+  "website": "https://www.svimi.org/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "MBA (Full Time)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 172000,
+      "feeYear": "2026-28",
+      "feeNote": "Derived: AFRC Madhya Pradesh lists a semester-wise fee of Rs 43,000 for 'Shri Vaishnav Institute of Management and Science, Indore' (M.B.A.) for both 2026-2027 and 2027-2028; 4 semesters x Rs 43,000 = Rs 1,72,000 (regulated fee; other charges not included). A separate AFRC entry 'Shri Vaishnav Institute of Management, Indore Finance' shows fee 0.",
+      "intake": 300,
+      "intakeNote": "NIRF data submitted by SVIMS (header NIRF'2026'): sanctioned intake 300 for all PG 2-year programmes combined (MBA FT, FA, MM) in 2024-25.",
+      "medianSalary": 450000,
+      "averageSalary": null,
+      "salaryYear": "2023-25 batch (graduating 2024-25), NIRF data",
+      "placementNote": "Median salary of placed PG-2-year graduates as submitted by SVIMS in its NIRF data PDF (header NIRF'2026', file named Management_Report_2025): Rs 4,50,000 for 2024-25 (204 graduated, 140 placed); Rs 3,50,000 for 2022-23. The 2023-24 row shows 350000 in figures but 'Two Lakhs fifty thousand' in words, so it is not used. No official average published.",
+      "sources": {
+        "fee": "https://web.afrcmp.org/feesinformation/frm_showinstitutes.aspx",
+        "intake": "https://www.svimi.org/assets/images/ranking-nirf/Management_Report_2025.pdf",
+        "salary": "https://www.svimi.org/assets/images/ranking-nirf/Management_Report_2025.pdf",
+        "admission": "https://www.svimi.org/admission-process.php"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "DTE Madhya Pradesh online off-campus counselling on CMAT common merit list",
+      "weightage": null,
+      "detail": "SVIMS admission page: MBA (FT), MBA (FA) and MBA (MM) admissions are made by DTE MP through counselling on the CMAT common merit list, for MP-domicile, All-India and J&K seats. DTE MP Admission Rules 2026-27: graduation with min. 50% (45% for MP SC/ST/OBC non-creamy layer)."
+    },
+    {
+      "stage": 2,
+      "name": "Further counselling round for vacant seats",
+      "weightage": null,
+      "detail": "If seats remain vacant after round one, the competent authority may hold a round on the entrance-test marks and/or qualifying-exam marks."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "Counselling schedule is published by DTE MP (dte.mponline.gov.in); 2027-28 schedule not published as of 2026-11-12.",
+    "source": null
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "SVIMS Indore - Admission Process (PG)",
+      "url": "https://www.svimi.org/admission-process.php",
+      "retrievedAt": "2026-11-12",
+      "supports": "admission via DTE MP counselling on CMAT merit; MBA programmes"
+    },
+    {
+      "title": "DTE Madhya Pradesh - Admission Rules for online off-campus counselling, academic session 2026-27 (MBA rule book)",
+      "url": "https://dte.mponline.gov.in/Portal/Services/OnlineCounselling/NW/Utilities/InitailizeCommonView.aspx?UserType=C&src=/Quick%20Links/OnlineCounselling/2026/RuleBook/MBA.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "state MBA admission rule and eligibility"
+    },
+    {
+      "title": "AFRC Madhya Pradesh - Institute & Fees Information (Technical Education > M.B.A. > 2026-2027 and 2027-2028 > Indore division/district)",
+      "url": "https://web.afrcmp.org/feesinformation/frm_showinstitutes.aspx",
+      "retrievedAt": "2026-11-12",
+      "supports": "semester fee Rs 43,000 (2026-27 and 2027-28)"
+    },
+    {
+      "title": "SVIMS Indore - Submitted Institute Data for NIRF (header NIRF'2026')",
+      "url": "https://www.svimi.org/assets/images/ranking-nirf/Management_Report_2025.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake 300; median salary 2022-23 and 2024-25"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not ranked in 1-100"
+    }
+  ]
+}

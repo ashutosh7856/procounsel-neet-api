@@ -1,0 +1,104 @@
+{
+  "slug": "jaipuria-indore",
+  "name": "Jaipuria Institute of Management, Indore",
+  "shortName": "Jaipuria Indore",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "type": "private",
+  "website": "https://www.jaipuria.ac.in/indore/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "CMAT",
+        "MAT",
+        "GMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 1350000,
+      "feeYear": "2027-29",
+      "feeNote": "Official Indore fee page 'Fee Structure for PGDM Programmes 2027-29': Year 1 Rs 6,80,000 + Year 2 Rs 6,70,000 = Rs 13,50,000 (6 trimester instalments: 2,50,000 / 2,20,000 / 2,10,000 / 2,50,000 / 2,10,000 / 2,10,000). Excludes refundable security deposit Rs 15,000, hostel (AC double Rs 1,15,000 a year for 2026-27, plus Rs 10,000 refundable hostel deposit; mess extra) and GST/other taxes if notified. Merit scholarships on CAT/MAT/CMAT/XAT scores (up to Rs 5,00,000) are listed on the same page.",
+      "intake": 180,
+      "intakeNote": "NIRF 2026 data submitted by Jaipuria Indore (hosted on jaipuria.ac.in): sanctioned intake 180 for PG 2-year programmes in 2024-25 and 2023-24; 173 first-year students admitted in 2023-24.",
+      "medianSalary": 900000,
+      "averageSalary": null,
+      "salaryYear": "2023-25 batch (graduating 2024-25), NIRF 2026 data",
+      "placementNote": "Median salary of placed PG-2-year graduates as submitted by the institute for NIRF 2026: Rs 9,00,000 for graduating year 2024-25 (169 graduated, 167 placed); Rs 8,40,000 for 2023-24; Rs 8,01,000 for 2022-23. No Indore-specific average published; the group placement page (2024-26) gives only all-campus highest Rs 24.11 LPA and top-10%/top-20% averages, which are not used here.",
+      "sources": {
+        "fee": "https://www.jaipuria.ac.in/indore/fees/",
+        "intake": "https://www.jaipuria.ac.in/wp-content/uploads/2026/04/NIRF-2026-Indore.pdf",
+        "salary": "https://www.jaipuria.ac.in/wp-content/uploads/2026/04/NIRF-2026-Indore.pdf",
+        "admission": "https://www.jaipuria.ac.in/indore/admissions/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Application and shortlisting",
+      "weightage": null,
+      "detail": "Common 'uncampus' application (Rs 1,000 admission process fee) choosing campus and programme; valid CAT 2026 / XAT 2027 / CMAT / MAT / GMAT score required; graduation with min. 50% marks (final-year students eligible, graduation by 30 Jun 2027). Interviews by invitation only."
+    },
+    {
+      "stage": 2,
+      "name": "Case analysis and personal interview; final selection",
+      "weightage": "Test score 45%, Case Analysis 10%, PI 25%, Academics (X, XII, degree) 15%, Work experience/sports/extra-curricular 3%, Diversity 2%",
+      "detail": "Offer letter (incl. scholarship decision) within two weeks; admission confirmed by paying the first-trimester fee."
+    }
+  ],
+  "selectionWeightage": {
+    "EntranceTest": 45,
+    "CaseAnalysis": 10,
+    "PersonalInterview": 25,
+    "AcademicPerformance": 15,
+    "WorkExperienceSportsExtraCurricular": 3,
+    "Diversity": 2,
+    "note": "Selection weightage published on the Jaipuria Indore admissions page for PGDM 2027-29 (test = CAT 2026/XAT 2027/CMAT/MAT/GMAT).",
+    "source": "https://www.jaipuria.ac.in/indore/admissions/"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "No 2027 application deadline or interview dates published on the official Indore admissions page as of 2026-11-12.",
+    "source": null
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Jaipuria Indore (NIRF ID IR-M-S-179) is not in NIRF 2025 Management ranks 1-100; the ranked Jaipuria entries are the Noida (41) and Jaipur (74) campuses. 101-125 band not checked.",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "Jaipuria Institute of Management Indore - Fee Structure (PGDM 2027-29)",
+      "url": "https://www.jaipuria.ac.in/indore/fees/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29, hostel fee 2026-27, scholarships"
+    },
+    {
+      "title": "Jaipuria Institute of Management Indore - PGDM/MBA Admission",
+      "url": "https://www.jaipuria.ac.in/indore/admissions/",
+      "retrievedAt": "2026-11-12",
+      "supports": "eligibility, exams accepted, selection process and weightage"
+    },
+    {
+      "title": "Jaipuria Institute of Management Indore - Submitted Institute Data for NIRF 2026",
+      "url": "https://www.jaipuria.ac.in/wp-content/uploads/2026/04/NIRF-2026-Indore.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake 180; median salary 2022-23 to 2024-25"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not ranked in 1-100"
+    }
+  ]
+}

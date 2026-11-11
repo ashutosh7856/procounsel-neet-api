@@ -1,0 +1,77 @@
+{
+  "slug": "imi-kolkata",
+  "name": "International Management Institute Kolkata",
+  "shortName": "IMI Kolkata",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "type": "private",
+  "website": "https://imi-k.edu.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [],
+      "specialisations": [],
+      "feeTotal": null,
+      "feeYear": null,
+      "feeNote": "Official fee page (imi-k.edu.in programme pages) returned HTTP 522 throughout 2026-11-12; no official 2027-29 fee could be read. Figures seen only on aggregator sites were not used.",
+      "intake": null,
+      "intakeNote": "Not stated on the official admission page.",
+      "medianSalary": 1254000,
+      "averageSalary": 1369000,
+      "salaryYear": "Latest final placements (batch not stated on page)",
+      "placementNote": "Official PGDM 2027-29 admission page 'Placement Statistics': highest CTC 41.36 LPA, average 13.69 LPA, top-10% average 23.68 LPA, median 12.54 LPA. The page does not name the batch (most likely 2024-26). Audit not stated.",
+      "sources": {
+        "fee": null,
+        "intake": null,
+        "salary": "https://admission.imi.edu/kolkata/",
+        "admission": "https://admission.imi.edu/kolkata/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Online application",
+      "weightage": null,
+      "detail": "Applications open September 2026; last date to apply 19 Dec 2026 (PGDM 2027-29)."
+    },
+    {
+      "stage": 2,
+      "name": "Interviews",
+      "weightage": null,
+      "detail": "January 2027; admission decision February 2027. Exams accepted and selection weights are on imi-k.edu.in programme pages that could not be fetched (HTTP 522)."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-12-19",
+    "examDate": null,
+    "notes": "PGDM 2027-29: application opens Sept 2026; last date 19 Dec 2026; interviews Jan 2027; admission decision Feb 2027; programme begins July 2027.",
+    "source": "https://admission.imi.edu/kolkata/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 42,
+    "score": 55.42,
+    "nirfInstituteId": "IR-M-I-1408",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "IMI Kolkata - PGDM Admissions 2027-2029",
+      "url": "https://admission.imi.edu/kolkata/",
+      "retrievedAt": "2026-11-12",
+      "supports": "median, average, highest, top-10% CTC; admission timeline 2027-29"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 42, score 55.42"
+    }
+  ]
+}

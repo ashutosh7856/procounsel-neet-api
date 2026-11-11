@@ -1,0 +1,118 @@
+{
+  "slug": "globsyn-kolkata",
+  "name": "Globsyn Business School",
+  "shortName": "Globsyn (GBS) Kolkata",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "type": "private",
+  "website": "https://www.globsyn.edu.in/",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "MAT",
+        "CMAT",
+        "ATMA",
+        "GAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 895000,
+      "feeYear": null,
+      "feeNote": "Official FAQ: 'PGDM (AICTE approved) - Rs 8.95 Lakh' (same for PGDM-Business Analytics; MBA (Global) with Malaysia University of Science and Technology Rs 8.75 lakh, total fee). Batch year and breakdown not stated; hostel extra (amount not published).",
+      "intake": null,
+      "intakeNote": "Not published on the official pages checked.",
+      "medianSalary": null,
+      "averageSalary": 685000,
+      "salaryYear": "Batch 2023-25 (Placement 2025)",
+      "placementNote": "Official placement page: Placement 2025 for Batch 2023-25 - highest CTC 16.42 LPA, second 12.50 LPA, third 9.50 LPA, average CTC 6.85 LPA, 1000+ opportunities, 100+ recruiters. Covers GBS programmes collectively (PGDM / PGDM-BA / MBA Global not split). No median published.",
+      "sources": {
+        "fee": "https://www.globsyn.edu.in/faq",
+        "intake": null,
+        "salary": "https://www.globsyn.edu.in/placement",
+        "admission": "https://www.globsyn.edu.in/faq"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Application and national entrance test",
+      "weightage": "10 marks (entrance score); 10 marks past academics",
+      "detail": "Score in CAT, XAT, MAT, CMAT or ATMA; Bachelor's degree with minimum 50% aggregate (50% in X and XII also stated on PGDM page)."
+    },
+    {
+      "stage": 2,
+      "name": "Globsyn Aptitude Test (GAT)",
+      "weightage": "25 marks",
+      "detail": "Includes an essay and a short video profile; GAT must be passed."
+    },
+    {
+      "stage": 3,
+      "name": "Group Discussion and Personal Interview",
+      "weightage": "GD 20 marks, PI 25 marks; diversity/extracurriculars 10 marks",
+      "detail": "Selection on a 100-mark scale; minimum total of 50 marks required."
+    }
+  ],
+  "selectionWeightage": {
+    "GAT": 25,
+    "EntranceExam": 10,
+    "PastAcademics": 10,
+    "GroupDiscussion": 20,
+    "PersonalInterview": 25,
+    "DiversityExtracurricular": 10,
+    "source": "https://www.globsyn.edu.in/faq",
+    "note": "Out of 100 marks per official GBS FAQ; candidates must score at least 50. Batch year not stated."
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "No dated admission calendar published; applications via admissions.globsyn.edu.in or walk-in at the Salt Lake admission office.",
+    "source": "https://www.globsyn.edu.in/gbs-admission"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "Globsyn Business School - FAQs",
+      "url": "https://www.globsyn.edu.in/faq",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 8.95 lakh; selection on 100-mark scale; exams; eligibility"
+    },
+    {
+      "title": "Globsyn Business School - Placement (Placement 2025, Batch 2023-25)",
+      "url": "https://www.globsyn.edu.in/placement",
+      "retrievedAt": "2026-11-12",
+      "supports": "average CTC 6.85 LPA, top CTCs - Batch 2023-25"
+    },
+    {
+      "title": "Globsyn Business School - GBS Admission",
+      "url": "https://www.globsyn.edu.in/gbs-admission",
+      "retrievedAt": "2026-11-12",
+      "supports": "programmes, entrance tests, GAT requirement"
+    },
+    {
+      "title": "Globsyn Business School - PGDM programme",
+      "url": "https://www.globsyn.edu.in/programmes/pgdm",
+      "retrievedAt": "2026-11-12",
+      "supports": "GAT + GD + PI process; eligibility"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

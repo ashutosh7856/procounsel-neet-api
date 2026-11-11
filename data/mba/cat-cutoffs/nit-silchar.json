@@ -1,0 +1,31 @@
+{
+  "slug": "nit-silchar",
+  "name": "Department of Management Studies, National Institute of Technology (NIT) Silchar",
+  "city": "Silchar",
+  "state": "Assam",
+  "program": "MBA (Two-Year Full-Time)",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "General",
+      "overall": 50,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility floor for applying: CAT 2025 (or MAT/CMAT Sept 2025-March 2026) with minimum 50 percentile. Same floor stated for all categories (no category split given). Selection weights: CAT/CMAT/MAT percentile 50, GD/WAT/PI 30, academics 20.",
+      "source": {
+        "title": "NIT Silchar DoMS - Admission Notification and Information Brochure, MBA Programme 2026-28",
+        "url": "https://doms.nits.ac.in/storage/notice-documents/notice_69e5f8338b7631776678963.pdf",
+        "retrievedAt": "2026-11-12"
+      },
+      "quote": "A candidate must have appeared in CAT (in the year 2025) or MAT/CMAT (the tests taken between Sept 2025 to March 2026) with a minimum 50 percentile score is eligible to apply with a valid score card."
+    }
+  ],
+  "otherExamsAccepted": [
+    "MAT",
+    "CMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official 2026-28 MBA brochure from the NIT Silchar DoMS notice board. 2027-29 notification not yet published as of 2026-11-12."
+}

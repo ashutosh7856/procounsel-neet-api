@@ -1,0 +1,154 @@
+{
+  "slug": "ims-davv-indore",
+  "name": "Institute of Management Studies, Devi Ahilya Vishwavidyalaya, Indore",
+  "shortName": "IMS DAVV",
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "type": "university department",
+  "website": "https://ims.dauniv.ac.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "MBA (Marketing Management)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CUET (PG)"
+      ],
+      "specialisations": [],
+      "feeTotal": 162008,
+      "feeYear": "2026-27",
+      "feeNote": "Derived: DAVV CUET (PG) 2026-27 brochure Table 1 programme fee Rs 81,004 per year x 2 years = Rs 1,62,008 (fee subject to revision; year-2 fee not separately stated). Additional: student service fee per semester (odd Rs 3,950 boys / 3,730 girls; even Rs 3,500 / 3,280), one-time alumni fee Rs 500, refundable caution money Rs 4,000; hostel and central library fee separate. SC/ST/OBC-NCL fee may be reimbursed by the MP Government.",
+      "intake": 120,
+      "intakeNote": "Total seats per DAVV CUET (PG) 2026-27 brochure; reservation per MP Govt/University norms (reserved seats for MP domicile only); seats may vary at counselling.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No IMS-specific official placement figures retrieved: ims.dauniv.ac.in failed TLS verification on 2026-11-12. DAVV's NIRF Management data is university-wide, not IMS-specific, and is not used.",
+      "sources": {
+        "fee": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "intake": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "salary": null,
+        "admission": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf"
+      }
+    },
+    {
+      "name": "MBA (Financial Administration)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CUET (PG)"
+      ],
+      "specialisations": [],
+      "feeTotal": 162008,
+      "feeYear": "2026-27",
+      "feeNote": "Derived: DAVV CUET (PG) 2026-27 brochure Table 1 programme fee Rs 81,004 per year x 2 years = Rs 1,62,008 (fee subject to revision; year-2 fee not separately stated). Additional: student service fee per semester (odd Rs 3,950 boys / 3,730 girls; even Rs 3,500 / 3,280), one-time alumni fee Rs 500, refundable caution money Rs 4,000; hostel and central library fee separate. SC/ST/OBC-NCL fee may be reimbursed by the MP Government.",
+      "intake": 120,
+      "intakeNote": "Total seats per DAVV CUET (PG) 2026-27 brochure; reservation per MP Govt/University norms (reserved seats for MP domicile only); seats may vary at counselling.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No IMS-specific official placement figures retrieved: ims.dauniv.ac.in failed TLS verification on 2026-11-12. DAVV's NIRF Management data is university-wide, not IMS-specific, and is not used.",
+      "sources": {
+        "fee": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "intake": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "salary": null,
+        "admission": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf"
+      }
+    },
+    {
+      "name": "MBA (Human Resource)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CUET (PG)"
+      ],
+      "specialisations": [],
+      "feeTotal": 162008,
+      "feeYear": "2026-27",
+      "feeNote": "Derived: DAVV CUET (PG) 2026-27 brochure Table 1 programme fee Rs 81,004 per year x 2 years = Rs 1,62,008 (fee subject to revision; year-2 fee not separately stated). Additional: student service fee per semester (odd Rs 3,950 boys / 3,730 girls; even Rs 3,500 / 3,280), one-time alumni fee Rs 500, refundable caution money Rs 4,000; hostel and central library fee separate. SC/ST/OBC-NCL fee may be reimbursed by the MP Government.",
+      "intake": 120,
+      "intakeNote": "Total seats per DAVV CUET (PG) 2026-27 brochure; reservation per MP Govt/University norms (reserved seats for MP domicile only); seats may vary at counselling.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No IMS-specific official placement figures retrieved: ims.dauniv.ac.in failed TLS verification on 2026-11-12. DAVV's NIRF Management data is university-wide, not IMS-specific, and is not used.",
+      "sources": {
+        "fee": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "intake": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "salary": null,
+        "admission": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf"
+      }
+    },
+    {
+      "name": "MBA (E-Commerce)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CUET (PG)"
+      ],
+      "specialisations": [],
+      "feeTotal": 162008,
+      "feeYear": "2026-27",
+      "feeNote": "Derived: DAVV CUET (PG) 2026-27 brochure Table 1 programme fee Rs 81,004 per year x 2 years = Rs 1,62,008 (fee subject to revision; year-2 fee not separately stated). Additional: student service fee per semester (odd Rs 3,950 boys / 3,730 girls; even Rs 3,500 / 3,280), one-time alumni fee Rs 500, refundable caution money Rs 4,000; hostel and central library fee separate. SC/ST/OBC-NCL fee may be reimbursed by the MP Government.",
+      "intake": 60,
+      "intakeNote": "Total seats per DAVV CUET (PG) 2026-27 brochure; reservation per MP Govt/University norms (reserved seats for MP domicile only); seats may vary at counselling.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No IMS-specific official placement figures retrieved: ims.dauniv.ac.in failed TLS verification on 2026-11-12. DAVV's NIRF Management data is university-wide, not IMS-specific, and is not used.",
+      "sources": {
+        "fee": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "intake": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+        "salary": null,
+        "admission": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "CUET (PG) score (NTA), paper COQP12",
+      "weightage": null,
+      "detail": "Candidates must have appeared in CUET (PG); registration for DAVV counselling at davv.mponline.gov.in (Rs 1,500 + Rs 100 portal charges; 2026 deadline was 10 Jun 2026). Eligibility: graduation in any stream with min. 50% (5% relaxation for MP-domicile SC/ST/OBC-NCL and PwD)."
+    },
+    {
+      "stage": 2,
+      "name": "DAVV counselling on CUET (PG) merit",
+      "weightage": null,
+      "detail": "Merit list prepared solely on the CUET (PG) score in the selected test paper; ties broken by age (older ranks higher). Choice filling, allotment and document verification over first and second counselling rounds."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "2026-27 cycle: DAVV counselling registration closed 10 Jun 2026 (NRI/foreign 12 Jun 2026). Dates for 2027-28 (CUET PG 2027) not published as of 2026-11-12.",
+    "source": "https://www.dauniv.ac.in/cuet2026/cuet-pg-2026.php"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "DAVV Indore - CUET (PG) Admission Information Brochure 2026-2027 (updated 29.06.2026)",
+      "url": "https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "programmes, seats, fee per year, additional fees, eligibility, merit rule, registration deadline"
+    },
+    {
+      "title": "DAVV - CUET (PG) 2026 admission notices page",
+      "url": "https://www.dauniv.ac.in/cuet2026/cuet-pg-2026.php",
+      "retrievedAt": "2026-11-12",
+      "supports": "counselling schedule/notices"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not ranked in 1-100"
+    }
+  ]
+}

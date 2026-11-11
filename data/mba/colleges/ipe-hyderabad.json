@@ -1,0 +1,111 @@
+{
+  "slug": "ipe-hyderabad",
+  "name": "Institute of Public Enterprise, Hyderabad",
+  "shortName": "IPE Hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "type": "private",
+  "website": "https://www.ipeindia.org",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "MAT",
+        "CMAT",
+        "ATMA",
+        "GMAT",
+        "TGICET"
+      ],
+      "specialisations": [],
+      "feeTotal": 900000,
+      "feeYear": "2027-29",
+      "feeNote": "IPE tuition & financial aid page (2027-29): Year 1 Rs 5,00,000 (admission 50,000 + tuition 3,00,000 + IT/library/activities 1,50,000) + Year 2 Rs 4,00,000 (tuition 3,00,000 + IT/library/activities 1,00,000) = Rs 9,00,000; 2027-29 brochure: 'Rs. 9 Lakhs for 2 years. Hostel Fee separate'. Excludes hostel (Rs 1.2-2.0 lakh per year), transport (Rs 45,000 per year) and refundable caution deposit Rs 15,000. Same fee shown for IPE's PGDM variants.",
+      "intake": 180,
+      "intakeNote": "IPE Information Brochure 2027-29: PGDM intake 180. Other programmes: PGDM-Marketing 60, PGDM-BFS 120, PGDM-IB 60, PGDM-HRM 60, PGDM-Business Analytics 60.",
+      "medianSalary": null,
+      "averageSalary": 703000,
+      "salaryYear": "PGDM Class of 2025 (page marks placements as 'in process')",
+      "placementNote": "IPE 'Placement details for last 3 years' page: Class of 2025 course-wise - PGDM 78.5% placed, highest Rs 16.25 L, average Rs 7.03 L (placements marked 'in process'). Institute-wide 2025: 81.4% placed, highest Rs 20 LPA, average Rs 7.02 L; 2024: 91.5%, 14.13 L, 7.02 L. Median not published; audit not stated.",
+      "sources": {
+        "fee": "https://www.ipeindia.org/tuition-financial-aid/",
+        "intake": "https://www.ipeindia.org/wp-content/uploads/2026/11/IPE-Information-Brochure-2027-29.pdf",
+        "salary": "https://www.ipeindia.org/placement-details-for-last-3-years-2/",
+        "admission": "https://www.ipeindia.org/admission-procedure-for-indian-students"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Online application + valid CAT/XAT/MAT/ATMA/CMAT/GMAT (brochure also lists TGICET) score",
+      "weightage": null,
+      "detail": "Eligibility: bachelor's degree with at least 50% (45% SC/ST/PC). Shortlisting on test score."
+    },
+    {
+      "stage": 2,
+      "name": "Psychometric test, short essay, group discussion and personal interview",
+      "weightage": "Management aptitude test 40, academic record 20, personal interview 35, sports/extracurricular/academic & gender diversity 5",
+      "detail": "Interviews at IPE Hyderabad and major cities, physical or online. Selection steps per 2027-29 brochure; weights per admission procedure page."
+    }
+  ],
+  "selectionWeightage": {
+    "ManagementAptitudeTest": 40,
+    "AcademicRecord": 20,
+    "PersonalInterview": 35,
+    "SportsExtracurricularDiversity": 5,
+    "note": "Evaluation criteria as published on the IPE admission procedure page (no batch year stated).",
+    "source": "https://www.ipeindia.org/admission-procedure-for-indian-students"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": "2026-11-29",
+    "notes": "Admissions open for 2027-29. Entrance tests per brochure: CAT 29 Nov 2026; MAT 20 & 27 Dec 2026; XAT 3 Jan 2027; CMAT 7 Feb 2027 (examDate = CAT). IPE application deadline not published in the brochure.",
+    "source": "https://www.ipeindia.org/wp-content/uploads/2026/11/IPE-Information-Brochure-2027-29.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "IPE - Tuition & Financial Aid (fee 2027-29)",
+      "url": "https://www.ipeindia.org/tuition-financial-aid/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29 year-wise breakup; hostel/transport/deposit; scholarships"
+    },
+    {
+      "title": "IPE Information Brochure 2027-29",
+      "url": "https://www.ipeindia.org/wp-content/uploads/2026/11/IPE-Information-Brochure-2027-29.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake by programme; fee Rs 9 lakh; exams accepted; selection steps; entrance test dates"
+    },
+    {
+      "title": "IPE - Admission procedure for Indian students",
+      "url": "https://www.ipeindia.org/admission-procedure-for-indian-students",
+      "retrievedAt": "2026-11-12",
+      "supports": "eligibility; evaluation weightage 40/20/35/5"
+    },
+    {
+      "title": "IPE - Placement details for last 3 years",
+      "url": "https://www.ipeindia.org/placement-details-for-last-3-years-2/",
+      "retrievedAt": "2026-11-12",
+      "supports": "average salary Class of 2025 (PGDM 7.03 L) and institute-wide 2023-2025"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

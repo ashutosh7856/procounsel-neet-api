@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from typing import Any
 
 from fastapi import APIRouter
@@ -14,7 +15,12 @@ def db_health() -> dict[str, Any]:
     """Checks the Firestore connection with a single read of a non-existent document."""
     mode = connection_mode()
     if mode == "disabled":
-        return {"ok": False, "mode": mode, "error": "Database is not configured."}
+        # Which settings this deployment can see (presence only, never values) — makes a
+        # missing/unattached Vercel variable obvious.
+        seen = {name: bool(os.getenv(name)) for name in (
+            "FIREBASE_CONFIG", "FIREBASE_CREDENTIALS_PATH", "PROCOUNSEL_JWT_SECRET", "OPENAI_API_KEY")}
+        return {"ok": False, "mode": mode, "error": "Database is not configured.",
+                "vercelEnv": os.getenv("VERCEL_ENV"), "envPresent": seen}
     try:
         db = get_db()
         db.collection("users").document("neet-api-healthcheck").get(timeout=DB_TIMEOUT)

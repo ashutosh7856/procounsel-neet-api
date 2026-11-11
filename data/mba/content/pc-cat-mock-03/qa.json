@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages (Income and Savings)",
+      "difficulty": "easy",
+      "stemHtml": "<p>Neha's monthly income increases by 20% and her monthly expenditure increases by 10%. As a result, her monthly savings increase by 40%. What percentage of her income was she saving before the increase?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "25%"
+        },
+        {
+          "id": "B",
+          "textHtml": "33 1/3%"
+        },
+        {
+          "id": "C",
+          "textHtml": "40%"
+        },
+        {
+          "id": "D",
+          "textHtml": "30%"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the original income be I and expenditure be E, so savings = I − E.</p><p><strong>Step 2:</strong> New savings: 1.2I − 1.1E = 1.4(I − E) = 1.4I − 1.4E.</p><p><strong>Step 3:</strong> So 0.3E = 0.2I, i.e. E = (2/3)I. Savings = I − (2/3)I = (1/3)I, i.e. <strong>33 1/3%</strong> of income.</p><p><strong>Quick method:</strong> The 20% income change is the weighted average of the expenditure change (10%) and the savings change (40%), weighted by E and S. By alligation, E : S = (40 − 20) : (20 − 10) = 2 : 1, so savings were 1/3 of income.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Profit and Loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>A dealer buys a washing machine and a refrigerator for a total of ₹50,000. He sells the washing machine at a profit of 15% and the refrigerator at a loss of 10%, and makes an overall profit of 5% on the whole transaction. What was the cost price of the washing machine (in ₹)?</p>",
+      "answer": "30000",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the cost of the washing machine be x, so the refrigerator costs 50,000 − x.</p><p><strong>Step 2:</strong> Overall profit = 0.15x − 0.10(50,000 − x) = 0.05 × 50,000 = 2,500.</p><p><strong>Step 3:</strong> 0.25x − 5,000 = 2,500, so 0.25x = 7,500 and x = <strong>30000</strong>.</p><p><strong>Quick method:</strong> Alligation: (5 − (−10)) : (15 − 5) = 15 : 10 = 3 : 2 is the ratio of the costs of the washing machine and the refrigerator, so the washing machine costs 3/5 × 50,000 = 30,000.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Races",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a 1 km race, A beats B by 100 m. In another 1 km race, B beats C by 150 m. If all three run at the same constant speeds as before, by how many metres will A beat C in a 1 km race?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "250 m"
+        },
+        {
+          "id": "B",
+          "textHtml": "225 m"
+        },
+        {
+          "id": "C",
+          "textHtml": "240 m"
+        },
+        {
+          "id": "D",
+          "textHtml": "235 m"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> When A runs 1000 m, B runs 900 m. When B runs 1000 m, C runs 850 m.</p><p><strong>Step 2:</strong> So when B runs 900 m, C runs 900 × 850/1000 = 765 m.</p><p><strong>Step 3:</strong> Hence when A finishes 1000 m, C has run 765 m, and A wins by 1000 − 765 = <strong>235 m</strong>.</p><p><strong>Quick method:</strong> Speed ratios multiply: C/A = 0.9 × 0.85 = 0.765.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures and Alligations",
+      "difficulty": "medium",
+      "stemHtml": "<p>Alloy X contains gold and copper in the ratio 7 : 2 by weight, and alloy Y contains gold and copper in the ratio 7 : 11 by weight. In what ratio (by weight) must X and Y be melted together to obtain an alloy containing equal weights of gold and copper?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2 : 5"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 : 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3 : 4"
+        },
+        {
+          "id": "D",
+          "textHtml": "4 : 7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Fraction of gold: in X = 7/9 = 14/18, in Y = 7/18, required = 1/2 = 9/18.</p><p><strong>Step 2:</strong> By alligation, X : Y = (9/18 − 7/18) : (14/18 − 9/18) = 2 : 5.</p><p><strong>Step 3:</strong> Check: 2 kg of X has 14/9 kg gold and 5 kg of Y has 35/18 kg gold; total gold = 28/18 + 35/18 = 63/18 = 3.5 kg out of 7 kg, i.e. exactly half. So the ratio is <strong>2 : 5</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance (Meetings)",
+      "difficulty": "hard",
+      "stemHtml": "<p>Two cyclists start at the same time from towns X and Y and ride towards each other along the same road, each at a constant speed; the cyclist from X is the slower of the two. They first meet at a point 60 km from X. Each continues to the other town, turns back immediately and rides back towards their own starting town. They meet for the second time at a point 40 km from Y. What is the distance between X and Y (in km)?</p>",
+      "answer": "140",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the distance be d. At the first meeting, the two have together covered d, and the cyclist from X has covered 60 km.</p><p><strong>Step 2:</strong> At the second meeting, together they have covered 3d (each has reached the far town and come part of the way back). Since speeds are constant, the cyclist from X has covered 3 × 60 = 180 km.</p><p><strong>Step 3:</strong> The cyclist from X has gone all the way to Y (d km) and then 40 km back, so 180 = d + 40.</p><p><strong>Step 4:</strong> Hence d = <strong>140</strong> km. (Check: speeds are in ratio 60 : 80 = 3 : 4; the X-cyclist covers 180 km while the Y-cyclist covers 240 = 140 + 100 km, i.e. is 100 km from X = 40 km from Y.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time and Work (Alternate Days)",
+      "difficulty": "medium",
+      "stemHtml": "<p>Asha can complete a project alone in 9 days and Bhavna can complete it alone in 12 days. They work on alternate days, with Bhavna working on day 1, Asha on day 2, Bhavna on day 3, and so on. In how many days will the project be completed?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10 1/4"
+        },
+        {
+          "id": "B",
+          "textHtml": "10 1/2"
+        },
+        {
+          "id": "C",
+          "textHtml": "10 1/3"
+        },
+        {
+          "id": "D",
+          "textHtml": "10 2/3"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Take the project as 36 units. Asha does 4 units/day and Bhavna does 3 units/day.</p><p><strong>Step 2:</strong> Every 2-day cycle (Bhavna then Asha) completes 7 units. After 5 cycles (10 days), 35 units are done.</p><p><strong>Step 3:</strong> Day 11 is Bhavna's turn. The remaining 1 unit takes her 1/3 of a day.</p><p><strong>Step 4:</strong> Total time = <strong>10 1/3</strong> days.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Simple and Compound Interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>Ravi invests ₹P in Scheme A, which pays 10% per annum compound interest compounded half-yearly, and another ₹P in Scheme B, which pays r% per annum simple interest. If both investments earn exactly the same interest in 1 year, what is r?</p>",
+      "answer": "10.25",
+      "solutionHtml": "<p><strong>Step 1:</strong> Half-yearly compounding at 10% per annum means 5% per half-year for 2 half-years.</p><p><strong>Step 2:</strong> Interest in Scheme A = P[(1.05)<sup>2</sup> − 1] = P × 0.1025.</p><p><strong>Step 3:</strong> Interest in Scheme B in 1 year = P × r/100. Equating, r = <strong>10.25</strong>.</p><p><strong>Quick method:</strong> Effective annual rate = 5 + 5 + (5 × 5)/100 = 10.25%.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>When a teacher's weight is included with the weights of the 30 students of a class, the average weight increases by 0.5 kg. If instead the teacher replaces one student who weighs 45 kg (so that the group still has 30 people), the average weight increases by 0.8 kg. What is the teacher's weight (in kg)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "66"
+        },
+        {
+          "id": "B",
+          "textHtml": "69"
+        },
+        {
+          "id": "C",
+          "textHtml": "72"
+        },
+        {
+          "id": "D",
+          "textHtml": "68.5"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the average weight of the 30 students be a and the teacher's weight be T.</p><p><strong>Step 2:</strong> Including the teacher: the 31 people have average a + 0.5, so T = a + 31 × 0.5 = a + 15.5.</p><p><strong>Step 3:</strong> Replacing the 45 kg student: the total rises by 30 × 0.8 = 24 kg, so T − 45 = 24, i.e. T = <strong>69</strong> kg.</p><p><strong>Step 4:</strong> (Consistency: a = 69 − 15.5 = 53.5 kg.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>If α and β are the roots of x<sup>2</sup> − 5x + 3 = 0, what is the value of α<sup>4</sup> + β<sup>4</sup>?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "361"
+        },
+        {
+          "id": "B",
+          "textHtml": "307"
+        },
+        {
+          "id": "C",
+          "textHtml": "325"
+        },
+        {
+          "id": "D",
+          "textHtml": "343"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> α + β = 5 and αβ = 3.</p><p><strong>Step 2:</strong> α<sup>2</sup> + β<sup>2</sup> = (α + β)<sup>2</sup> − 2αβ = 25 − 6 = 19.</p><p><strong>Step 3:</strong> α<sup>4</sup> + β<sup>4</sup> = (α<sup>2</sup> + β<sup>2</sup>)<sup>2</sup> − 2(αβ)<sup>2</sup> = 361 − 18 = <strong>343</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Sequences and Series (Arithmetico-Geometric)",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the value of the infinite sum 1/3 + 2/3<sup>2</sup> + 3/3<sup>3</sup> + 4/3<sup>4</sup> + … ? (Give your answer as a decimal.)</p>",
+      "answer": "0.75",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let S = 1/3 + 2/9 + 3/27 + 4/81 + … . Then S/3 = 1/9 + 2/27 + 3/81 + … .</p><p><strong>Step 2:</strong> Subtracting: S − S/3 = 1/3 + 1/9 + 1/27 + … = (1/3)/(1 − 1/3) = 1/2.</p><p><strong>Step 3:</strong> So (2/3)S = 1/2, giving S = 3/4 = <strong>0.75</strong>.</p><p><strong>Quick method:</strong> Use ∑ n x<sup>n</sup> = x/(1 − x)<sup>2</sup> with x = 1/3: (1/3)/(4/9) = 3/4.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions (Composition)",
+      "difficulty": "hard",
+      "stemHtml": "<p>Let f(x) = x<sup>2</sup> − 4x + 3 for all real x. What is the product of all real values of x for which f(f(x)) = 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−3"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "0"
+        },
+        {
+          "id": "D",
+          "textHtml": "−1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let y = f(x). Then f(y) = 3 means y<sup>2</sup> − 4y + 3 = 3, i.e. y(y − 4) = 0, so y = 0 or y = 4.</p><p><strong>Step 2:</strong> f(x) = 0: x<sup>2</sup> − 4x + 3 = 0 gives x = 1 or x = 3.</p><p><strong>Step 3:</strong> f(x) = 4: x<sup>2</sup> − 4x − 1 = 0 gives x = 2 ± √5 (two real roots, product −1).</p><p><strong>Step 4:</strong> All four values are distinct, so the product = 1 × 3 × (−1) = <strong>−3</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Indices and Surds",
+      "difficulty": "medium",
+      "stemHtml": "<p>If 4<sup>x</sup> − 4<sup>x − 1</sup> = 24, then (2x)<sup>x</sup> equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5√5"
+        },
+        {
+          "id": "B",
+          "textHtml": "25"
+        },
+        {
+          "id": "C",
+          "textHtml": "25√5"
+        },
+        {
+          "id": "D",
+          "textHtml": "125"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> 4<sup>x</sup> − 4<sup>x − 1</sup> = 4<sup>x − 1</sup>(4 − 1) = 3 × 4<sup>x − 1</sup> = 24, so 4<sup>x − 1</sup> = 8.</p><p><strong>Step 2:</strong> 2<sup>2x − 2</sup> = 2<sup>3</sup>, so 2x − 2 = 3 and x = 5/2.</p><p><strong>Step 3:</strong> (2x)<sup>x</sup> = 5<sup>5/2</sup> = 5<sup>2</sup> × √5 = <strong>25√5</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Linear Equations (Integer Solutions)",
+      "difficulty": "medium",
+      "stemHtml": "<p>Pencils cost ₹7 each and erasers cost ₹11 each. A student spends exactly ₹200, buying at least one pencil and at least one eraser. How many different combinations (number of pencils, number of erasers) are possible?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Step 1:</strong> We need positive integers p, e with 7p + 11e = 200.</p><p><strong>Step 2:</strong> Working modulo 7: 11e ≡ 200 (mod 7), i.e. 4e ≡ 4 (mod 7), so e ≡ 1 (mod 7). Thus e = 1, 8, 15, … .</p><p><strong>Step 3:</strong> e = 1 gives p = 27; e = 8 gives p = 16; e = 15 gives p = 5; e = 22 would need 242 &gt; 200.</p><p><strong>Step 4:</strong> So there are <strong>3</strong> combinations: (27, 1), (16, 8) and (5, 15).</p><p><strong>Quick method:</strong> Once one solution (27, 1) is found, others come by adding 7 to e and subtracting 11 from p while p stays positive.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles (Angle Bisector)",
+      "difficulty": "medium",
+      "stemHtml": "<p>In triangle ABC, AB = 12 cm, AC = 18 cm and BC = 20 cm. The bisector of angle A meets BC at D. What is the length of AD (in cm)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4√6"
+        },
+        {
+          "id": "B",
+          "textHtml": "2√30"
+        },
+        {
+          "id": "C",
+          "textHtml": "6√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "3√15"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> By the angle bisector theorem, BD : DC = AB : AC = 12 : 18 = 2 : 3, so BD = 8 and DC = 12.</p><p><strong>Step 2:</strong> By Stewart's theorem (or the bisector-length formula), AD<sup>2</sup> = AB × AC − BD × DC = 12 × 18 − 8 × 12 = 216 − 96 = 120.</p><p><strong>Step 3:</strong> AD = √120 = <strong>2√30</strong> cm.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Circles and Tangents",
+      "difficulty": "medium",
+      "stemHtml": "<p>From a point P at a distance of 20 cm from the centre O of a circle of radius 12 cm, two tangents PA and PB are drawn to the circle, touching it at A and B. What is the length of the chord AB (in cm)?</p>",
+      "answer": "19.2",
+      "solutionHtml": "<p><strong>Step 1:</strong> OA ⊥ PA, so the tangent length PA = √(20<sup>2</sup> − 12<sup>2</sup>) = √256 = 16.</p><p><strong>Step 2:</strong> AB is perpendicular to OP and is bisected by it. Let M be the midpoint of AB; AM is the altitude from A to the hypotenuse OP of right triangle OAP.</p><p><strong>Step 3:</strong> AM = (OA × PA)/OP = (12 × 16)/20 = 9.6.</p><p><strong>Step 4:</strong> AB = 2 × 9.6 = <strong>19.2</strong> cm.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration (Cone and Sphere)",
+      "difficulty": "hard",
+      "stemHtml": "<p>A sphere is inscribed in a right circular cone of base radius 6 cm and height 8 cm, so that it touches the base and the curved surface of the cone. What is the ratio of the volume of the sphere to the volume of the cone?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1 : 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "9 : 32"
+        },
+        {
+          "id": "C",
+          "textHtml": "3 : 4"
+        },
+        {
+          "id": "D",
+          "textHtml": "3 : 8"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> The vertical cross-section through the axis is an isosceles triangle with base 12 and height 8, so each slant side = √(6<sup>2</sup> + 8<sup>2</sup>) = 10.</p><p><strong>Step 2:</strong> The sphere's cross-section is the incircle of this triangle. Inradius = Area/semi-perimeter = (½ × 12 × 8)/((10 + 10 + 12)/2) = 48/16 = 3 cm.</p><p><strong>Step 3:</strong> Volume of sphere = (4/3)π(3)<sup>3</sup> = 36π. Volume of cone = (1/3)π(6)<sup>2</sup>(8) = 96π.</p><p><strong>Step 4:</strong> Ratio = 36π : 96π = <strong>3 : 8</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate Geometry (Reflection)",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the reflection (mirror image) of the point (3, 5) in the line x + 2y = 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(−1, −3)"
+        },
+        {
+          "id": "B",
+          "textHtml": "(1, −1)"
+        },
+        {
+          "id": "C",
+          "textHtml": "(−3, −1)"
+        },
+        {
+          "id": "D",
+          "textHtml": "(1, −3)"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> The image (h, k) satisfies (h − 3)/1 = (k − 5)/2 = −2(3 + 2 × 5 − 3)/(1<sup>2</sup> + 2<sup>2</sup>) = −2 × 10/5 = −4.</p><p><strong>Step 2:</strong> So h = 3 − 4 = −1 and k = 5 − 8 = −3.</p><p><strong>Step 3:</strong> Check: the midpoint (1, 1) lies on x + 2y = 3, and the segment joining (3, 5) and (−1, −3) has slope 2, perpendicular to the line's slope −1/2. The image is <strong>(−1, −3)</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Remainders (Factorials)",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the remainder when 1! + 2! + 3! + … + 100! is divided by 21?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9"
+        },
+        {
+          "id": "B",
+          "textHtml": "15"
+        },
+        {
+          "id": "C",
+          "textHtml": "12"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> 21 = 3 × 7, and every n! with n ≥ 7 contains both 3 and 7 as factors, so 7!, 8!, …, 100! are all divisible by 21.</p><p><strong>Step 2:</strong> So we need only 1! + 2! + 3! + 4! + 5! + 6! = 1 + 2 + 6 + 24 + 120 + 720 = 873.</p><p><strong>Step 3:</strong> 873 = 21 × 41 + 12, so the remainder is <strong>12</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Divisibility (Inclusion–Exclusion)",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many integers from 1 to 1000 (both inclusive) are divisible by none of 2, 3 and 5?</p>",
+      "answer": "266",
+      "solutionHtml": "<p><strong>Step 1:</strong> Divisible by 2, 3, 5: 500, 333, 200 respectively. Sum = 1033.</p><p><strong>Step 2:</strong> Divisible by 6, 10, 15: 166, 100, 66. Sum = 332. Divisible by 30: 33.</p><p><strong>Step 3:</strong> Divisible by at least one = 1033 − 332 + 33 = 734.</p><p><strong>Step 4:</strong> Divisible by none = 1000 − 734 = <strong>266</strong>.</p><p><strong>Quick method:</strong> In every block of 30 consecutive integers there are 30 × (1/2)(2/3)(4/5) = 8 such numbers; 33 full blocks (1–990) give 264, and among 991–1000 only 991 and 997 qualify, giving 266.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Remainders (Chinese Remainder)",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the largest three-digit number that leaves remainders 1, 2, 3 and 4 when divided by 3, 4, 5 and 6 respectively, and is also divisible by 7?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "718"
+        },
+        {
+          "id": "B",
+          "textHtml": "658"
+        },
+        {
+          "id": "C",
+          "textHtml": "898"
+        },
+        {
+          "id": "D",
+          "textHtml": "958"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> In each case the remainder is 2 less than the divisor, so N + 2 is divisible by 3, 4, 5 and 6, i.e. by LCM(3, 4, 5, 6) = 60. So N = 60k − 2.</p><p><strong>Step 2:</strong> For divisibility by 7: 60k − 2 ≡ 0 (mod 7). Since 60 ≡ 4 (mod 7), 4k ≡ 2 (mod 7), so k ≡ 4 (mod 7) (as 4 × 4 = 16 ≡ 2).</p><p><strong>Step 3:</strong> k = 4, 11, 18, … gives N = 238, 658, 1078, … .</p><p><strong>Step 4:</strong> The largest three-digit value is <strong>658</strong>. (658 = 7 × 94.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Probability",
+      "difficulty": "hard",
+      "stemHtml": "<p>Three distinct numbers are chosen at random from {1, 2, 3, …, 20}. What is the probability that, when arranged in increasing order, they form an arithmetic progression?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3/38"
+        },
+        {
+          "id": "B",
+          "textHtml": "1/19"
+        },
+        {
+          "id": "C",
+          "textHtml": "9/95"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/12"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Total selections = C(20, 3) = 1140.</p><p><strong>Step 2:</strong> A 3-term AP a, a + d, a + 2d (d ≥ 1) is determined by its first and third terms, which must be of the same parity (their average is the middle term).</p><p><strong>Step 3:</strong> Pairs of same parity: 10 odd numbers give C(10, 2) = 45 pairs and 10 even numbers give 45 pairs, total 90 favourable selections. (Equivalently, for common difference d there are 20 − 2d APs: 18 + 16 + … + 2 = 90.)</p><p><strong>Step 4:</strong> Probability = 90/1140 = <strong>3/38</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Permutations and Combinations (Counting Figures)",
+      "difficulty": "hard",
+      "stemHtml": "<p>A rectangular board is divided into unit squares by grid lines, forming 6 rows and 8 columns of squares. How many rectangles formed by the grid lines are NOT squares?</p>",
+      "answer": "623",
+      "solutionHtml": "<p><strong>Step 1:</strong> There are 7 horizontal and 9 vertical grid lines. Any rectangle is chosen by picking 2 horizontal and 2 vertical lines: C(7, 2) × C(9, 2) = 21 × 36 = 756.</p><p><strong>Step 2:</strong> Squares of side k (1 ≤ k ≤ 6) number (7 − k)(9 − k): 6×8 + 5×7 + 4×6 + 3×5 + 2×4 + 1×3 = 48 + 35 + 24 + 15 + 8 + 3 = 133.</p><p><strong>Step 3:</strong> Non-square rectangles = 756 − 133 = <strong>623</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

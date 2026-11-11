@@ -428,3 +428,226 @@ Retrieved **2026-11-11**. Sources are the institute's own website, brochures, fe
   - **Published by the State CET Cell, not the institute:** the JBIMS and PUMBA CAP cutoffs. The JBIMS cutoff file name says "2025_26" but the document is titled A.Y. 2026-27.
   - **Not published:** FMS, MDI, XLRI, IIFT, IMT, NMIMS, IMI and Great Lakes publish no cutoffs.
 - **SNAP weights (SIBM, SCMHRD):** the 50/10/40 GE-PI weights come from the official SNAP site, not from the institutes' own pages.
+
+## 8. Low CAT bands (70 / 60) additions and specialisation coverage (`cat-cutoffs/`, `specialisations.json`)
+
+Retrieved **2026-11-12**. The same rules as section 6 apply: official institute documents only, and aggregator figures were never used as a source. Unknown values are `null`.
+
+### 8.1 New CAT cut-off files (4)
+| Institute | Programme | Batch | Stage | General overall | Source |
+|---|---|---|---|---|---|
+| XISS Ranchi | PGDM-HRM (RM 25, MM 35, FM 35) | 2026-28 | shortlisting (GDPI call) | 60 (Unreserved; Reserved 45) | https://xiss.ac.in/admission/ |
+| Tezpur University, Dept of Business Administration | MBA (Full Time) | 2026-28 | shortlisting | 54.16 (OBC 51, EWS 64.71, SC 20.94, ST 7.77) | https://www.tezu.ernet.in/adm26/notice/mbagdpilist.pdf |
+| NIT Silchar, DoMS | MBA | 2026-28 | minimum_to_apply | 50 (all categories) | https://doms.nits.ac.in/storage/notice-documents/notice_69e5f8338b7631776678963.pdf |
+| NIT Jalandhar | MBA | 2026-28 | minimum_to_apply | 40 (all categories) | https://v1.nitj.ac.in/nitj_files/links/MBA_Regulations_57981.pdf |
+
+Caveats:
+- **XISS.** The table on the 2027-29 admissions page is the "Cut-off for GDPI call 2026". The page says the 2027 cut-offs will be announced after scores are out. The index uses the PGDM-HRM row because it is the highest.
+- **Tezpur.** The notice says "cut-off marks" and gives no unit. The values are treated as CAT percentiles because they are consistent with percentiles; the 2024-26 notice gives CAT 78.3 next to XAT 89.9. The prospectus (https://www.tezu.ernet.in/adm26/ProspectusMBA2026.pdf) says the test score counts only for eligibility.
+- **NIT Jalandhar.** The 40 floor comes from the standing MBA Regulations and the admission FAQ, a PDF dated 2022. The 2026-28 advertisement (https://nitj.ac.in/files/1771821717236-MBA_ADMISSION_ADVERTISEMENT_(REGULAR_CATEGORY)_2026_2028.pdf) does not repeat it. Lower confidence.
+- **Index.** `generatedAt` is now 2026-11-12. The four institutes were appended and added to every band they meet. Counts: 99 → 34, 95 → 30, 90 → 26, 85 → 16, 80 → 10, 70 → 6, 60 → 4. Existing entries were not changed.
+
+### 8.2 Checked, no usable official figure (appended to `checkedNoOfficialCutoff`)
+- **No CAT cut-off published:**
+  - KIIT KSOM: 80 is a scholarship threshold only.
+  - Asia-Pacific Institute of Management: percentiles appear only in its blog.
+  - XIME Bangalore
+  - Taxila: gives a points scale only.
+  - XIDAS Jabalpur
+  - NISM
+  - IIHMR Delhi
+  - MANAGE: says shortlisting is by CAT percentile but publishes no number.
+  - MDI Murshidabad
+  - NIT Durgapur
+  - NIT Calicut
+  - SVNIT
+  - NIT Hamirpur
+  - DTU DSM: the cut-off is decided by its committee.
+  - Alliance
+- **FIIB:** official pages returned HTTP 403, so they are unverified.
+- **NIA Pune:** gives only an "expected" cut-off of 75.
+- **IISWBM:** the only figures are in a 2022 disclosure, which is stale.
+- **Already listed in 6.2 (re-checked, still none):** Jaipuria, LBSIM, TAPMI, XIM, Great Lakes and BIMTECH. BIMTECH's current page says the cut-off is not pre-defined.
+
+### 8.3 Specialisation coverage (`specialisations.json`)
+A specialisation counts only when an official programme page offers it as a dedicated programme, a named specialisation or major, or a stated elective-area specialisation. Those three bases appear in each entry's `basis` field.
+
+| Institute (slug) | Specialisation | URL |
+|---|---|---|
+| IIFT Delhi | International Business (programme) | https://www.iift.ac.in/mba-ib |
+| MDI Gurgaon | International Business (PGDM-IB) | https://mdi.ac.in/admissions/post-graduate-diploma-in-management-international-business-pgdm-ib |
+| IPE Hyderabad | International Business (PGDM-IB) | https://www.ipeindia.org/wp-content/uploads/2026/11/IPE-Information-Brochure-2027-29.pdf |
+| MDI Gurgaon | IT/Systems (Information Management) | https://mdi.ac.in/programmes/post-graduate-diploma-in-management-pgdm |
+| IMT Ghaziabad | IT/Systems; Entrepreneurship | https://www.imt.edu/pgdm/pgdm-ft/ |
+| JBIMS | IT/Systems (Systems) | https://jbims.edu/courses-details/master-of-management-studies/ |
+| XLRI | IT/Systems (Information Systems) | https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565 |
+| SPJIMR | IT/Systems (Information Management & Analytics) | https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf |
+| IIM Amritsar | IT/Systems (IS & Analytics; elective area) | https://iimamritsar.ac.in/academics/mba/curriculum |
+| IIM Tiruchirappalli | IT/Systems; Entrepreneurship (elective areas) | https://www.iimtrichy.ac.in/pgpm |
+| SCMHRD | Entrepreneurship | https://scmhrd.edu/programmes/mba/ |
+| EDII Gandhinagar | Entrepreneurship (PGDM-E) | https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/ |
+| IIPS DAVV Indore | Entrepreneurship (MBA) | https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf |
+| IIM Ahmedabad | Agribusiness (MBA-FABM) | https://www.iima.ac.in/academics/MBA-FABM |
+| IIM Lucknow | Agribusiness (PGP-ABM) | https://www.iiml.ac.in/programme/master-business-administration-mba/mba-abm |
+| MANAGE Hyderabad | Agribusiness (PGDM-ABM) | https://www.manage.gov.in/pgdmabm/pgdmabm.asp |
+
+**Counts:** International Business 3, IT/Systems Management 7, Entrepreneurship 5, Agribusiness 3.
+
+**Not in our data** (`candidatesNotInData`):
+- FORE PGDM-IB: https://www.fsm.ac.in/pgdm-international-business
+- SIIB Pune MBA-IB: https://siib.ac.in/programmes/mba-international-business/
+- Great Lakes Chennai 1-year PGPM-FBE: https://www.greatlakes.edu.in/chennai/pgdm
+
+**Not counted** (`checkedNotOffered`):
+- Elective-area-only pages at several IIMs.
+- International Business as a core course at Welingkar.
+- International Business Management as an elective at NMIMS.
+
+## 8. City coverage: Hyderabad, Kolkata, Ahmedabad, Indore (`colleges/*.json`)
+
+Retrieved **2026-11-12**. Same rules as section 7: official sources only (institute site, brochure, fee page or placement report; NIRF data the institute submitted or hosts; state admission or fee authorities: ACPC Gujarat, DTE MP, AFRC MP). No coaching or aggregator site was used. Unknown values are `null`. Median and average salaries are stored separately. Derived totals are explained in `feeNote`.
+
+**Institutes per city, including IIMs in `programs/`:**
+- **Hyderabad: 7.** ISB, IMT, IBS (IFHE), IPE, SIBM Hyderabad, SMS University of Hyderabad, MANAGE. There is no IIM in Hyderabad.
+- **Kolkata: 6.** IIM Calcutta, IMI Kolkata, IISWBM, Calcutta Business School, Praxis, Globsyn. IIEST Shibpur is also added, filed under Howrah.
+- **Ahmedabad: 5.** IIM Ahmedabad, MICA, Nirma, AMSOM (Ahmedabad University), B.K. School. PDEU and EDII are also added, filed under Gandhinagar.
+- **Indore: 7.** IIM Indore, Jaipuria, PIMR, IMS DAVV, IIPS DAVV, IPS Academy IBMR, SVIMS.
+
+
+### Hyderabad
+
+| Institute | Supports | Source | URL |
+|---|---|---|---|
+| ISB Hyderabad | fee 2027-28 (₹34.48 L + GST) | ISB PGP Fees & Scholarships | https://www.isb.edu/programmes/post-graduate-programmes/pgp-in-management/fees-and-scholarships |
+| ISB Hyderabad | 1-year duration, batch size, GMAT/GRE, selection | ISB PGP FAQ | https://www.isb.edu/programmes/post-graduate-programmes/pgp-in-management/faqs |
+| ISB Hyderabad | Class of 2028 round deadlines | ISB PGP application deadlines | https://www.isb.edu/programmes/post-graduate-programmes/pgp-in-management/application-deadlines |
+| ISB Hyderabad | average, Class of 2026 (both campuses) | ISB press release, 6 Apr 2026 | https://www.isb.edu/news/press-releases/mohali-isb-graduates-25th-pgp-cohort-in-its-silver-jubilee-year |
+| IMT Hyderabad | fee 2027-29 (₹16 L incl. hostel & mess), exams, steps, dates | PGDM admissions page (content served by institute API https://api.imthyderabad.edu.in/api/pgdm-admission) | https://www.imthyderabad.edu.in/admissions/pgdm |
+| IMT Hyderabad | average 2023-25 | Annual Report PGDM Batch 2023-25 (Google Drive PDF linked from Placement Data page) | https://drive.google.com/file/d/1H7YBWB80qbv1oUWy3OIdMIzzKWXmrDKT/view |
+| IBS Hyderabad | fee 2027-29 | IFHE IBS fee structure | https://www.ifheindia.org/icfai-business-school-hyderabad/ibs-fee-structure |
+| IBS Hyderabad | exams, selection, IBSAT 2026 dates | IBS admissions | https://ibsindia.org/admissions/ |
+| IBS Hyderabad | Class of 2026 % placed, highest, top-10/25% (no average/median) | IBS Final Placements | https://ibsindia.org/final-placements/ |
+| IPE Hyderabad | fee 2027-29 | Tuition & financial aid | https://www.ipeindia.org/tuition-financial-aid/ |
+| IPE Hyderabad | intake, exams, steps, test dates | Information Brochure 2027-29 | https://www.ipeindia.org/wp-content/uploads/2026/11/IPE-Information-Brochure-2027-29.pdf |
+| IPE Hyderabad | weightage 40/20/35/5 | Admission procedure (Indian students) | https://www.ipeindia.org/admission-procedure-for-indian-students |
+| IPE Hyderabad | average, Class of 2025 | Placement details for last 3 years | https://www.ipeindia.org/placement-details-for-last-3-years-2/ |
+| SIBM Hyderabad | fee 2027-29 | Fee structure | https://www.sibmhyd.edu.in/mba-college-hyderabad-fee-structure |
+| SIBM Hyderabad | weightage 50/10/30/10 | Selection procedure | https://www.sibmhyd.edu.in/selection-procedure |
+| SIBM Hyderabad | key dates | Important dates | https://www.sibmhyd.edu.in/importantdates |
+| SIBM Hyderabad | median/average 2023-25 | Final Placement Report 2023-25 (infographic) | https://www.sibmhyd.edu.in/placementreport2023_25 |
+| SMS, Univ. of Hyderabad | exams, GD/PI, intake 75 | MBA Prospectus 2026-28; admission notification 2026-28 | http://acad.uohyd.ac.in/downloads/MBA_PROS26.pdf ; http://acad.uohyd.ac.in/downloads/MBA_AD_Notif_26-28.pdf |
+| SMS, Univ. of Hyderabad | semester-1 fee (derived 2-year total) | University Prospectus 2026-27 fee table | http://acad.uohyd.ac.in/downloads/Pros2026.pdf |
+| SMS, Univ. of Hyderabad | application fees, deadlines | MBA Admissions 2026-28 page | https://acad.uohyd.ac.in/mba26.html |
+| MANAGE Hyderabad | fee 2026-28, weightage, average 2023-25 | PGDM(ABM) Prospectus 2026-28 | https://www.manage.gov.in/pgdmabm/prospectus.pdf |
+| MANAGE Hyderabad | intake 120 | AICTE Mandatory Disclosure | https://www.manage.gov.in/pgdmabm/mandatory.pdf |
+
+#### Caveats
+- **No IIM in Hyderabad.** Seven institutes are added: ISB, IMT, IBS (IFHE), IPE, SIBM Hyderabad, SMS-UoH and MANAGE.
+- **ISB:** the PGP is a one-year programme (`durationYears: 1`). Its fee is for academic year 2027-28 and excludes GST. The ₹37.29 L average is for the whole Class of 2026 across the Hyderabad and Mohali campuses. No median is published. The intake for the Hyderabad campus alone is not published.
+- **IMT Hyderabad:** the site is a JavaScript app. Its fee text comes from the institute's own API. The 2023-25 placement report is a scanned PDF on Google Drive, linked from the official Placement Data page. No intake or selection weightage is published.
+- **IBS Hyderabad:** the Class of 2026 page gives only % placed, highest, and top-10% and top-25% averages, so `averageSalary` and `medianSalary` are both `null`. The NIRF rank 46 belongs to IFHE as a whole.
+- **IPE:** the Class of 2025 PGDM average of ₹7.03 L is labelled "placements are in process". Only the PGDM row is modelled; other PGDM variants are listed in `intakeNote`.
+- **SIBM Hyderabad:** its 2024-26 report page is empty, so the 2023-25 figures are used.
+- **SMS, Univ. of Hyderabad:** the fee total is derived from the University's 2026-27 semester-1 table; the calculation is in `feeNote`. No placement data is published. The 2027-29 notification is not yet out (it is usually issued in January).
+- **MANAGE:** the fee and weights are from the 2026-28 prospectus, as the 2027-29 one is not yet out. The programme is agri-business only (eligibility: agriculture/allied bachelor's).
+- **Not added:** NMIMS (its campus is at Jadcherla, about 80 km from the city) and IIT Hyderabad (no MBA admission or placement data found on iith.ac.in).
+
+### Kolkata
+
+| Institute | Supports | Source | URL |
+|---|---|---|---|
+| IISWBM | fee 2027-29 (Rs 8.3 L), selection (CAT → GD/PI), key dates | MBA 2-Year (Full-Time) Admission Brochure 2027-29 | https://www.iiswbm.edu/wp-content/uploads/2024/09/mba-day-brochure.pdf |
+| IISWBM | fee break-up | Break-up of Student Fees (2026 onwards) | https://www.iiswbm.edu/wp-content/uploads/2025/07/fees-break-up-2026-28-onwards.pdf |
+| IISWBM | median/average 2024-25 | MBA (Day) Placement Snapshot 2024-25 | https://www.iiswbm.edu/wp-content/uploads/2023/04/mba-day-placement-report.pdf |
+| Calcutta Business School | fee 2027-29 (Rs 7.7 L net of early-bird waivers) | PGDM fee structure | https://www.calcuttabusinessschool.org/fee-structure.php |
+| Calcutta Business School | exams, CBSAT, selection | Admission PGDM 2027-29 | https://www.calcuttabusinessschool.org/admission-pgdm-2027-29.php |
+| Praxis Business School | fee 2027-29 (Rs 11 L + 30k deposit) | PGDM Program Fees | https://praxis.ac.in/program-fees-scholarships/ |
+| Praxis Business School | intake 180 | PGDM page (Batch 2027-29) | https://praxis.ac.in/pgdm/ |
+| Praxis Business School | median/average Class of 2026 | Placements – Final Placement Statistics | https://praxis.ac.in/placements/ |
+| Praxis Business School | exams, WAT/PI process | PGDM Eligibility & Selection Process | https://praxis.ac.in/eligibility-selection-process/ |
+| Globsyn Business School | fee (Rs 8.95 L), selection weights (100-mark scale) | GBS FAQs | https://www.globsyn.edu.in/faq |
+| Globsyn Business School | average Batch 2023-25 | Placement 2025 | https://www.globsyn.edu.in/placement |
+| IMI Kolkata | median/average (batch not stated), 2027-29 admission timeline | PGDM Admissions 2027-2029 | https://admission.imi.edu/kolkata/ |
+| IIEST Shibpur SOMS (Howrah) | fee 2026-28 (derived), intake 60, selection weights 50/50, specialisations | MBA Admission Brochure 2026-28 (revised 05-02-2026) | https://www.iiests.ac.in/ckfinder/userfiles/files/MBA_Admission%20Brochure%20Revised%2026-28%20-%20050226.pdf |
+
+#### Caveats
+- **IMI Kolkata:** imi-k.edu.in programme, fee, eligibility and NIRF-data pages returned HTTP 522 all session on 2026-11-12, so fee, exams and selection weights are `null`/empty. Fee figures seen only on aggregators were not used. Salary is from admission.imi.edu/kolkata, which does not name the batch.
+- **IISWBM:** the "MBA(Day) Placement Report 2025" link points to a file under /2023/04/ whose content is titled "MBA (Day) Placement Snapshot (2024-2025)". As published, the median (9 LPA) is above the average (8 LPA). Intake is not published.
+- **Calcutta Business School:** the published total of Rs 7,70,000 is net of the early-bird waiver (25k) and the uniform/career-development waiver (10k). The salary is published only as a range ("7.45 to 7.96 LPA") with no batch, so salary is `null`.
+- **Praxis:** the PGDM landing page (avg 9.08, highest 20.65) and the placements page for the Class of 2026 (avg 9.18, median 9.00, highest 20.62) differ; the dated placements page is used. The fee FAQ shows an older instalment calendar.
+- **Globsyn:** fee has no batch year (`feeYear: null`). The average covers all GBS programmes together; no median is published.
+- **IIEST Shibpur:** city is Howrah, not Kolkata. The fee total is derived and there is no salary data. The dates are for the 2026-28 cycle, which has already passed.
+- **Not added:** Jadavpur University MBA (no current official MBA fee or admission page found on jaduniv.edu.in); Army Institute of Management Kolkata (not researched). IIFT Kolkata is already covered in iift-delhi.json.
+
+### Ahmedabad
+
+| Institute | Supports | Source | URL |
+|---|---|---|---|
+| MICA | fee 2027-29 (29.50 L, PGDM-C and PGDM), seats, MICAT 2027 dates | MICA Admissions '27 | https://www.mica.ac.in/admissions/ |
+| MICA | PGDM-C intake 180, exams | Apply for PGDM-C Admissions 2027 | https://www.mica.ac.in/admissions/pgdm-c/ |
+| MICA | PGDM intake 60, fee | Apply for PGDM Admissions 2027 | https://www.mica.ac.in/admissions/pgdm/ |
+| MICA | fee inclusions, specialisations, approvals | PGDM-C programme page | https://www.mica.ac.in/school-of-management/post-graduate-diploma-in-marketing-communication/ |
+| MICA | selection stages and weights (Batch 2026-28) | Eligibility Criteria & Selection Process | https://www.mica.ac.in/wp-content/uploads/2025/10/MICA-PGPPGDM-C-PGDM.pdf |
+| MICA | median/average 2024-26 | Placement Brochure 2026-27 (Final Placements Batch 2024-26) | https://mica.ac.in/resources/placements-reports/Final-Placement-Brochure-2026.pdf |
+| Nirma (IMNU) | 2027 key dates, intake, weights | MBA and MBA (HRM) admissions page | https://management.nirmauni.ac.in/admission-aid/postgraduate/mba-and-mba-hrm/ |
+| Nirma (IMNU) | fee table (AY 2026-27), intake, selection weights | Information Booklet, Admissions 2027 | https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf |
+| Nirma (IMNU) | checked: specialisation-wise averages only (not used) | Placement Report 2024-25 | https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/02/Placement-report-2024-25-latest.pdf |
+| AMSOM | fee 2027-29, exams, selection, Round 1 dates | MBA Admission 2027 page | https://ahduni.edu.in/admission/graduate-admission/master-of-business-administration/ |
+| AMSOM | cohort of about 60 | The Ahmedabad MBA 2027 brochure | https://s3.ahduni.edu.in/site/assets/files/20906/mba_2027_oct29_26.pdf |
+| AMSOM, Nirma | intake (80; 300/30) | ACPC Gujarat: CoE institutes and intake for MBA 2026-27 | https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/01/20260129430897974.pdf |
+| B.K. School | fee (₹6,500 per year), intake 120, CMAT + ACPC | B.K. School admission page | https://bkschool.org.in/how-to-apply/ |
+| B.K. School | CMAT-2026 rule; 2026-27 ACPC schedule | ACPC MBA/MCA 2026-27 advertisement; provisional key dates | https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/20260525685613535.pdf ; https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/05/20260526393120850.pdf |
+| SoM-PDEU (Gandhinagar) | fee 2027-29, intake 260, weights, dates | M.B.A. Admission Rules 2027 | https://api.pdeu.ac.in/pdpu/resources/mba-policy.pdf |
+| SoM-PDEU (Gandhinagar) | average CTC 9.70 LPA ("last year") | MBA 2026 brochure | https://api.pdeu.ac.in/pdpu/resources/som-mba-brochure.pdf |
+| EDII (Gandhinagar) | fee 2027-29, intake 120, exams, selection stages | PGDM-E programme page | https://ediindia.ac.in/programmes/post-graduate-diploma-in-management-entrepreneurship/ |
+
+#### Caveats
+- **City labels:** PDEU (Raisan) and EDII (Bhat) have official Gandhinagar addresses. Their files say `city: "Gandhinagar"`, so they do not count toward the Ahmedabad total unless the page builder groups the Gandhinagar metro area with Ahmedabad.
+- **MICA:** salary is the "PGP" Batch 2024-26 report (197 placed). It is not split into PGDM-C and PGDM, so it is attached to PGDM-C only. Selection weights are the published Batch 2026-28 version.
+- **Nirma:** `feeTotal` is the derived non-residential academic total (₹13.17 L) from the AY 2026-27 fee table in the Admissions 2027 booklet. The 2024-25 placement report gives only specialisation-wise averages for a combined MBA + B.Tech-MBA pool, so salary is null. The NIRF rank is for Nirma University.
+- **AMSOM:** intake is 80 per ACPC's 2026-27 CoE list, while the brochure says about 60. No salary statistics are published.
+- **B.K. School:** the ₹6,500 per year fee has no academic year stated, and the total is derived. Admission is via CMAT/ACPC, and the 2027-28 ACPC dates are not yet out. No salary data is published.
+- **PDEU:** the brochure average (9.70 LPA) does not name the batch year. No median is published.
+- **Not added:**
+  - GLS University: official MBA page has no fee or salary.
+  - Adani University: domain did not resolve.
+  - Shanti Business School: sbs.ac.in serves a different institute.
+  - K.S. School: integrated programme after Class 12.
+
+### Indore
+
+| Institute | Supports | Source | URL |
+|---|---|---|---|
+| Jaipuria Indore | fee 2027-29 (₹13.5 L), hostel | Jaipuria Indore fee structure (PGDM 2027-29) | https://www.jaipuria.ac.in/indore/fees/ |
+| Jaipuria Indore | exams, selection weights (45/10/25/15/3/2) | Jaipuria Indore PGDM admission page | https://www.jaipuria.ac.in/indore/admissions/ |
+| Jaipuria Indore | intake 180, median 2024-25 (₹9.0 L) | NIRF 2026 submitted data (institute-hosted) | https://www.jaipuria.ac.in/wp-content/uploads/2026/04/NIRF-2026-Indore.pdf |
+| PIMR Indore | selection process, exams | PIMR Admission Policy 2026-27 | https://pimrindore.ac.in/wp-content/uploads/2026/03/Admission-Policy-2026.pdf |
+| PIMR Indore | MBA Core intake 480 | MBA (Full Time - Core) page | https://pimrindore.ac.in/programs/pg-programs/mba-full-time/ |
+| PIMR Indore | median 2024-25 (₹4.74 L), PG intake 900 | NIRF submitted data (header NIRF'2026') | https://pimrindore.ac.in/wp-content/uploads/2025/03/NIRF-Prestige-Institute-of-Management-Research-20250128.pdf |
+| PIMR, IBMR, SVIMS | semester fee (₹95,000 / ₹69,000 / ₹43,000) | AFRC MP Institute & Fees Information (Technical Education > M.B.A. > 2026-27 & 2027-28 > Indore) | https://web.afrcmp.org/feesinformation/frm_showinstitutes.aspx |
+| IMS DAVV, IIPS DAVV | seats, fee/yr (₹81,004 / ₹68,200), eligibility, CUET (PG) merit rule | DAVV CUET (PG) Admission Information Brochure 2026-27 | https://www.dauniv.ac.in/cuet2026/notices/IB_CUET(PG)_2026_29.06.2026.pdf |
+| IMS DAVV, IIPS DAVV | counselling notices | DAVV CUET (PG) 2026 page | https://www.dauniv.ac.in/cuet2026/cuet-pg-2026.php |
+| IIPS DAVV | institute-level management placement (note only) | IIPS Placement Dossier 2026-27 (Management) | https://iips.edu.in/static/pdf/placement/IIPS_Placement_Brochure_%202026_Management.pdf |
+| IPS Academy IBMR | admission on CMAT + CLC | IBMR MBA (Core) page | https://ibmr.ipsacademy.org/mba-core.php |
+| IPS Academy IBMR | intake 540, median 2023-24 (₹4.05 L) | NIRF 2025 submitted data (institute-hosted) | https://ibmr.ipsacademy.org/assets/MANAGEMENT.pdf |
+| SVIMS Indore | admission via DTE MP on CMAT merit | SVIMS admission process | https://www.svimi.org/admission-process.php |
+| SVIMS Indore | intake 300, median 2024-25 (₹4.5 L) | NIRF submitted data (header NIRF'2026') | https://www.svimi.org/assets/images/ranking-nirf/Management_Report_2025.pdf |
+| IBMR, SVIMS | MP MBA admission rule (CMAT common merit list), eligibility | DTE MP Admission Rules 2026-27 (MBA rule book) | https://dte.mponline.gov.in/Portal/Services/OnlineCounselling/NW/Utilities/InitailizeCommonView.aspx?UserType=C&src=/Quick%20Links/OnlineCounselling/2026/RuleBook/MBA.pdf |
+
+#### Caveats
+- **Fees derived from semester fees:** PIMR, IBMR and SVIMS fees are 4 × the AFRC MP semester fee, which is identical for 2026-27 and 2027-28. AFRC is the state fee regulator. Its page is an ASP.NET form with no deep link; the filter path is given in the source title. Neither PIMR nor IBMR publishes a fee on its own site.
+- **Fees derived from annual fees:** IMS and IIPS DAVV fees are 2 × the 2026-27 annual fee in the CUET (PG) brochure. Year-2 revisions are possible.
+- **Median only, from NIRF data the institutes host themselves:**
+  - Jaipuria, PIMR and SVIMS: graduating year 2024-25.
+  - IBMR: 2023-24 (NIRF 2025 file).
+  - No average is stored for any Indore institute. PIMR's and SVIMS's PDFs say NIRF'2026', but their file names and paths say 2025.
+- **Intake:**
+  - **NIRF all-PG figures:** PIMR 900, IBMR 540, SVIMS 300.
+  - **Programme-level figure:** PIMR MBA Core 480, from its programme page.
+- **IMS DAVV:** no salary data. ims.dauniv.ac.in failed TLS certificate verification. DAVV's NIRF Management PDF is university-wide, so it was not used.
+- **IIPS DAVV:** the placement dossier's average of 7.5 LPA covers all of IIPS management for 2025-26, including the integrated MBA. It is kept in `placementNote` only. MBA (Management Science) programmes are not listed because their 2026 admission route is not in the CUET (PG) brochure.
+- **Admission rules for IBMR and SVIMS:** these come from the DTE MP state rule book. The rule book is in Hindi; the MBA rule is in sections 13(1) and 14.3. Each institute's own page also confirms CMAT and DTE counselling.
+- **Not added:** Acropolis (AFMR), Medicaps, SVVV, NMIMS Indore, Symbiosis Indore and IIT Indore.
+  - AFMR's site is rendered with JavaScript. Its AFRC fee is ₹34,500 per semester, revised by appellate order.
+  - The others were not researched in this pass.
+- **Not ranked:** none of the six Indore files is in NIRF 2025 Management ranks 1-100.

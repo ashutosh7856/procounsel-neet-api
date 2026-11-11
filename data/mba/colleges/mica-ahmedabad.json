@@ -1,0 +1,165 @@
+{
+  "slug": "mica-ahmedabad",
+  "name": "MICA (Mudra Institute of Communications, Ahmedabad)",
+  "shortName": "MICA",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "type": "private",
+  "website": "https://www.mica.ac.in/",
+  "approvals": [
+    "AICTE-approved PGDM",
+    "NBA accredited",
+    "AIU equivalence to MBA"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management - Communications (PGDM-C)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "GMAT",
+        "MICAT"
+      ],
+      "specialisations": [
+        "Advanced Product Management",
+        "Advanced Sales & CRM",
+        "Advanced Brand Management",
+        "Campaign Design & Performance Management",
+        "Marketing Technology & AI",
+        "Data Science & Analytics with AI",
+        "Customer Experience Strategy"
+      ],
+      "feeTotal": 2950000,
+      "feeYear": "2027-29",
+      "feeNote": "Total programme fee INR 29.50 lakh for the 2027-29 batch as listed on MICA's Admissions '27 page (indicative, subject to revision). MICA's PGDM-C programme page states the fee includes tuition, hostel, mess, teaching-learning materials and infrastructure. Application fee Rs 2,500 + Rs 500 per additional programme.",
+      "intake": 180,
+      "intakeNote": "180 seats for PGDM-C (2027-29) per MICA admissions pages. MICA also offers PGDM (60 seats).",
+      "medianSalary": 1957000,
+      "averageSalary": 2012000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Official MICA Placement Brochure 2026-27, 'Final Placements - Batch 2024-26' (labelled PGP; 197 students placed, 91 recruiters, 100% placement): highest CTC 45.67 LPA, average 20.12 LPA, median 19.57 LPA, top-25 average 34.00 LPA. The report does not split PGDM-C and PGDM. Not stated as audited. (MICA's PGDM-C web page separately shows 'Average 19.22 LPA, highest 40.91 LPA' labelled 2025 data; not used.)",
+      "sources": {
+        "fee": "https://www.mica.ac.in/admissions/",
+        "intake": "https://www.mica.ac.in/admissions/pgdm-c/",
+        "salary": "https://mica.ac.in/resources/placements-reports/Final-Placement-Brochure-2026.pdf",
+        "admission": "https://www.mica.ac.in/wp-content/uploads/2025/10/MICA-PGPPGDM-C-PGDM.pdf"
+      }
+    },
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "GMAT",
+        "MICAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 2950000,
+      "feeYear": "2027-29",
+      "feeNote": "Total fee INR 29.50 lakh (indicative, subject to revision) for the 2027-29 batch per MICA PGDM admissions page and Admissions '27 table.",
+      "intake": 60,
+      "intakeNote": "60 seats per MICA PGDM admissions page (2027-29).",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No programme-specific PGDM placement figures published; see PGDM-C entry for the combined PGP 2024-26 report.",
+      "sources": {
+        "fee": "https://www.mica.ac.in/admissions/pgdm/",
+        "intake": "https://www.mica.ac.in/admissions/pgdm/",
+        "salary": null,
+        "admission": "https://www.mica.ac.in/wp-content/uploads/2025/10/MICA-PGPPGDM-C-PGDM.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "CAT/XAT/GMAT score (mandatory) and MICAT",
+      "weightage": null,
+      "detail": "MICAT (psychometric, descriptive, aptitude sections) is mandatory; psychometric section is a qualifier, then a minimum CAT/XAT/GMAT cut-off, then sectional cut-offs on MICAT Sections C and B. Best of MICAT I/II counts."
+    },
+    {
+      "stage": 2,
+      "name": "Group Exercise (GE) and Personal Interview (PI)",
+      "weightage": null,
+      "detail": "GE & PI in March at Ahmedabad, Bengaluru, Delhi, Kolkata or Mumbai; candidate must be recommended by a majority of panellists."
+    },
+    {
+      "stage": 3,
+      "name": "Final composite merit list",
+      "weightage": "CAT/XAT/GMAT 35%, MICAT 25%, GE 10%, PI 20%, Class 10/12/graduation 5%, extra-curricular/diversity 5%",
+      "detail": "Weights as published for Batch 2026-2028; MICA had not posted a 2027-29 version of this document as of 2026-11-12."
+    }
+  ],
+  "selectionWeightage": {
+    "CAT_XAT_GMAT": 35,
+    "MICAT": 25,
+    "GE": 10,
+    "PI": 20,
+    "Academics": 5,
+    "ExtraCurricularAndDiversity": 5,
+    "note": "Published for Batch 2026-2028 (PGDM-C and PGDM); 2027-29 weights not separately published as of 2026-11-12.",
+    "source": "https://www.mica.ac.in/wp-content/uploads/2025/10/MICA-PGPPGDM-C-PGDM.pdf"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2027-01-30",
+    "examDate": "2026-12-05",
+    "notes": "MICAT I: registration closes 21 Nov 2026, exam 5 Dec 2026, score 18 Dec 2026. MICAT II: registration 25 Nov 2026 - 30 Jan 2027, exam 12 Feb 2027, score 28 Feb 2027. CAT/XAT/GMAT score submission deadline 30 Jan 2027. GE-PI and merit-list dates for 2027 not yet published.",
+    "source": "https://www.mica.ac.in/admissions/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 33,
+    "score": 59.22,
+    "nirfInstituteId": "IR-M-S-14875",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "MICA Admissions '27 (programmes, seats, fees, MICAT dates)",
+      "url": "https://www.mica.ac.in/admissions/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29 (29.50 L for PGDM-C and PGDM); seats; MICAT I/II dates"
+    },
+    {
+      "title": "MICA Apply for PGDM-C Admissions 2027",
+      "url": "https://www.mica.ac.in/admissions/pgdm-c/",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake 180; exams; score submission deadline"
+    },
+    {
+      "title": "MICA Apply for PGDM Admissions 2027",
+      "url": "https://www.mica.ac.in/admissions/pgdm/",
+      "retrievedAt": "2026-11-12",
+      "supports": "PGDM fee and intake 60"
+    },
+    {
+      "title": "MICA PGDM-C programme page",
+      "url": "https://www.mica.ac.in/school-of-management/post-graduate-diploma-in-marketing-communication/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee inclusions; specialisations; approvals"
+    },
+    {
+      "title": "MICA PGDM-C / PGDM Eligibility Criteria & Selection Process (Batch 2026-2028)",
+      "url": "https://www.mica.ac.in/wp-content/uploads/2025/10/MICA-PGPPGDM-C-PGDM.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "selection stages and final composite weights"
+    },
+    {
+      "title": "MICA Placement Brochure 2026-2027 (Final Placements - Batch 2024-26)",
+      "url": "https://mica.ac.in/resources/placements-reports/Final-Placement-Brochure-2026.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "median 19.57 LPA, average 20.12 LPA, highest 45.67 LPA"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 33, score 59.22"
+    }
+  ]
+}

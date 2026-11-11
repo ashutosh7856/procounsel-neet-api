@@ -1,0 +1,814 @@
+{
+  "sets": [
+    {
+      "key": "VARC-P1",
+      "kind": "passage",
+      "title": "The choice nobody makes",
+      "contentHtml": "<p>Every form that asks a question must also decide what happens when the question goes unanswered. A pension scheme that enrols new employees unless they opt out, and one that leaves them out unless they opt in, offer exactly the same choices; no option is forbidden and none costs more than another. Yet the two designs reliably produce very different results, because a large share of people in either scheme will end up wherever the form leaves them. The designer of the form, in other words, cannot avoid choosing on behalf of those who do not choose.</p><p>Three explanations are usually offered for the power of defaults, and they are worth separating because they point to different remedies. The first is inertia: changing an option takes effort, however small, and effort postponed is easily postponed forever. The second is implied endorsement: people reasonably suppose that whoever set the default had some reason for it, and they treat the pre-selected option as a quiet recommendation. The third is reference dependence: once an option is presented as the starting point, departing from it feels like giving something up, and losses loom larger than equivalent gains. If inertia is the main force, simplifying the act of switching should weaken the default. If endorsement is the main force, the same simplification will achieve little, since people are not stuck but persuaded; what matters then is whether the recommendation deserves the trust it receives.</p><p>This last point is often lost in debates about whether defaults are manipulative. Critics object that steering people through the arrangement of a form bypasses their reasoning. But where the endorsement mechanism is at work, the default does not bypass reasoning at all; it supplies a piece of evidence, namely that someone presumably better informed thought this option sensible, and people act on that evidence much as they would act on advice from a knowledgeable friend. The ethical question is then not whether the default influences choice, since all advice does, but whether the person setting it is in fact well informed and acting in the chooser's interest. A default set by an employer to minimise its own administrative costs borrows the authority of a recommendation without having earned it.</p><p>Defaults also have a subtler limitation. Because they work best on people who are not paying attention, they are least informative about what those people would have wanted. A scheme that enrols nearly everyone automatically can report impressive participation, but the figure says little about whether participants judged the contribution rate appropriate for their circumstances. A young worker burdened with expensive debt might rationally prefer to save nothing for a few years, and a default that keeps her contributing may serve the average employee while failing her. The success of a default is therefore easy to measure and hard to interpret: high take-up proves that the default is sticky, not that it is right.</p><p>None of this is an argument against defaults; a form must have one, and a default chosen with care is better than one chosen by accident. It is an argument for treating the choice of a default as a substantive decision, to be justified by evidence about the people it will govern, rather than as a technical detail of design.</p>"
+    },
+    {
+      "key": "VARC-P2",
+      "kind": "passage",
+      "title": "The one-column ledger of language change",
+      "contentHtml": "<p>Every generation of speakers seems to discover that its language is deteriorating. The complaint takes a familiar form: words are being used carelessly, distinctions that once mattered are being lost, and the young speak in ways their elders find slovenly. What is striking is not that the complaint exists but that it has been made, with equal conviction, about forms of speech that later generations went on to regard as perfectly correct. The careful usage that today's critic defends was, in many cases, the careless innovation that an earlier critic deplored.</p><p>The linguist's usual reply is that languages do not decline; they merely change. This is true but incomplete, because it leaves unexplained why change is so reliably perceived as loss. Part of the explanation lies in an asymmetry of attention. A speaker notices the distinctions that are disappearing, because she was taught them and may have been praised for observing them. She does not notice the distinctions that are emerging, because they arise first in the speech of others, often without being named, and appear to her as mere errors rather than as new structure. Loss is visible in a way that gain is not, and so the ledger of change is kept with only one column.</p><p>There is a second reason. Change frequently proceeds by a word or construction taking on a new function while losing an old one, and in the interval the two uses coexist, sometimes producing genuine ambiguity. During that interval a listener may really misunderstand a speaker, and the critic who points to such misunderstandings is not imagining things. But the interval is temporary. Speakers who are confused by an ambiguity tend to resolve it, by adding a word, shifting stress, or favouring one reading in particular contexts, and the resulting system is usually no less capable of expressing what its speakers need to say. The critic, observing the language at a single moment, sees the confusion; she cannot see the repair that will follow, because it has not happened yet.</p><p>It does not follow that all concern about usage is misplaced. A standard form of a language serves a real purpose: it allows writers separated by distance and dialect to understand one another, and an agreed standard is a public good that can be eroded if no one maintains it. The mistake lies in confusing the maintenance of a convention with the defence of a logic. A standard is valuable because it is shared, not because its particular forms are more rational than the alternatives, and a convention can be changed by common consent without any loss of clarity. The critic who believes she is defending reason itself is often defending only the usage of her own youth, and the energy she spends resisting every innovation might be better spent ensuring that the shared standard, whatever its forms, remains accessible to those who did not grow up speaking it.</p>"
+    },
+    {
+      "key": "VARC-P3",
+      "kind": "passage",
+      "title": "What a review is for",
+      "contentHtml": "<p>Ask readers what they want from an arts critic and many will say a verdict: is the exhibition worth the price of a ticket, is the novel worth a weekend? Publishers have obliged by attaching stars and scores to reviews, so that the conclusion can be absorbed without the argument. Yet the verdict is, on reflection, the least useful part of a review to anyone whose tastes differ from the critic's, and that is most readers. A critic who loves sparse, difficult music and dislikes lush orchestration will rate a lush symphony poorly; a reader of the opposite temperament who trusts the rating will miss something she would have enjoyed. The rating has not misinformed her about the critic's experience, which really was disappointing; it has misinformed her about her own likely experience, which is the only thing she wanted to know.</p><p>What survives a difference of taste is description. A critic who explains that a symphony is lush, that its melodies return in varied orchestration rather than developing, and that its slow movement lingers longer than its material seems to justify, gives every reader the means of reaching her own verdict. The reader who loves lushness learns that she will probably enjoy it; the reader who values development learns that she may grow impatient. The same paragraph serves both, while a single score can serve only those who happen to share the critic's preferences. Description, in effect, hands the reader the materials of judgement instead of its result.</p><p>It might seem to follow that critics should abandon judgement altogether and simply report. But description is not as neutral as this proposal assumes. No account of a work can mention everything, and what a critic chooses to describe already reflects a view about what matters in it. To say that a slow movement 'lingers longer than its material seems to justify' is to make an evaluative claim about proportion, however mildly it is phrased. A review purged of judgement would not be more objective; it would merely hide its judgements in its selection of details, where readers are less able to question them.</p><p>The better course is to make judgement accountable rather than to suppress it. A critic who says what she values, and shows how the work meets or fails those values, allows readers to discount her verdict by the distance between her tastes and theirs. The score at the top of the page cannot do this, because it reports the outcome of a calculation while concealing the weights that produced it. Readers who have followed a critic over many years sometimes learn those weights for themselves, and come to treat a particular reviewer's enthusiasm as a reliable warning. That such readers find the critic useful precisely by disagreeing with her shows that the value of criticism never lay in the verdict alone.</p>"
+    },
+    {
+      "key": "VARC-P4",
+      "kind": "passage",
+      "title": "Asking what a trait is for",
+      "contentHtml": "<p>Biologists are trained to be suspicious of purpose, yet they ask what traits are for constantly. The question is not a lapse into older ways of thinking. When a biologist says that a structure is 'for' some task, she usually means something precise: that ancestors possessing the structure left more descendants than those lacking it, because of the way it performed that task. Function, in this sense, is a claim about history disguised as a claim about design. The phrasing is convenient, and harmless so long as everyone remembers what it abbreviates.</p><p>The disguise causes trouble because a trait's present use and the history that explains its spread need not coincide. A structure may have spread because it did one thing and later come to be used for another. Imagine a population of small animals in which a fold of skin between the limbs first spread because it helped to shed heat, and only many generations later, after the fold had grown larger for unrelated reasons, began to be used for gliding between trees. An observer who studies the living animal will see gliding and may conclude that the fold is 'for' gliding. In the historical sense he would be mistaken about its origin, though right about what it does today, and perhaps right about what keeps it in the population now.</p><p>A further complication is that some features are not for anything at all. Organisms are built by developmental processes that link one part to another, so that selection favouring one feature can carry along others that confer no advantage of their own. A change that lengthens one bone, for instance, may lengthen a neighbouring one as well, whether or not the second change helps. A trait of this kind may be conspicuous and even beautiful, and it invites the question of its function, but any answer will be a story rather than an explanation. The difficulty is that a story about function is almost always available. With enough ingenuity one can imagine an advantage for nearly any trait, and the very ease of the exercise is what should make us cautious about it.</p><p>Critics of functional reasoning have sometimes concluded that the question 'what is it for?' should be abandoned. That conclusion goes too far. The question is a powerful generator of hypotheses, and many such hypotheses have been confirmed by careful comparison across species or by experiment. Its danger lies not in being asked but in being answered too quickly, with a plausible story accepted because it is plausible. A functional claim earns its place when it makes predictions that could fail: that the trait should be found in species facing similar demands and absent in those that do not, or that altering it should impair the task it is said to serve. A story that predicts nothing has not been shown to be false, but it has not been shown to be anything else either.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "VARC-01",
+      "section": "VARC",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following best describes the primary concern of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "To argue that defaults should be abolished because they manipulate those who do not choose actively."
+        },
+        {
+          "id": "B",
+          "textHtml": "To show that defaults always serve the interests of the institutions that design them rather than those of the people enrolled."
+        },
+        {
+          "id": "C",
+          "textHtml": "To examine why defaults shape people's choices and to argue that selecting a default should be treated as a decision requiring justification."
+        },
+        {
+          "id": "D",
+          "textHtml": "To demonstrate that inertia is the main reason defaults are so effective."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Paragraphs 2–4 analyse why defaults work (inertia, implied endorsement, reference dependence), what that means for the charge of manipulation, and why high take-up is hard to interpret; paragraph 5 concludes that choosing a default is 'a substantive decision, to be justified by evidence'.</p><p><strong>A</strong> fails: the final paragraph says 'None of this is an argument against defaults; a form must have one'.</p><p><strong>B</strong> fails: the employer who minimises administrative costs is one possible case, not a universal claim; the author says a default 'chosen with care' can be good.</p><p><strong>D</strong> fails: the author lists three explanations and stresses that they point to different remedies; the passage never establishes which one dominates.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-02",
+      "section": "VARC",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose a pension scheme made switching away from its default far easier, and the proportion of people who stayed with the default barely changed. Based on the passage, this result would most reasonably suggest that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "inertia is the main reason people remain with the default."
+        },
+        {
+          "id": "B",
+          "textHtml": "the default was set by the employer to minimise its own administrative costs."
+        },
+        {
+          "id": "C",
+          "textHtml": "the people in the scheme have judged the default contribution rate appropriate for their own circumstances."
+        },
+        {
+          "id": "D",
+          "textHtml": "the default's hold over people is probably not explained mainly by inertia."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 2: 'If inertia is the main force, simplifying the act of switching should weaken the default.' If simplification leaves take-up unchanged, the prediction of the inertia explanation fails, so inertia is unlikely to be the main force. (The passage notes that under the endorsement explanation 'the same simplification will achieve little', which is consistent with the result.)</p><p><strong>A</strong> fails: this is the reverse of what the passage implies; the inertia account predicts that easier switching would weaken the default.</p><p><strong>B</strong> fails: the result says nothing about who set the default or why; the employer example in paragraph 3 concerns whether a default deserves trust, not how sticky it is.</p><p><strong>C</strong> fails: paragraph 4 warns that high take-up 'proves that the default is sticky, not that it is right'; stickiness does not show considered judgement.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-03",
+      "section": "VARC",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's View",
+      "difficulty": "medium",
+      "stemHtml": "<p>How does the author respond to critics who say that defaults are manipulative because they bypass people's reasoning?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The author accepts the criticism fully, since any influence on a choice bypasses the chooser's reasoning."
+        },
+        {
+          "id": "B",
+          "textHtml": "The author argues that where a default works as an implied recommendation it supplies evidence rather than bypassing reasoning, so the real question is whether the recommendation is deserved."
+        },
+        {
+          "id": "C",
+          "textHtml": "The author rejects the criticism on the ground that people can always switch away from a default."
+        },
+        {
+          "id": "D",
+          "textHtml": "The author argues that any manipulation involved is justified whenever participation rates rise."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 3: under the endorsement mechanism 'the default does not bypass reasoning at all; it supplies a piece of evidence', and 'The ethical question is then ... whether the person setting it is in fact well informed and acting in the chooser's interest.'</p><p><strong>A</strong> fails: the author explicitly denies that the endorsement mechanism bypasses reasoning and notes that 'all advice' influences choice.</p><p><strong>C</strong> fails: freedom to switch is mentioned in paragraph 1 as a feature of both designs, but it is not the author's reply to the manipulation charge.</p><p><strong>D</strong> fails: paragraph 4 says high participation is 'hard to interpret' and does not show a default is right; the author never uses participation to justify manipulation.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-04",
+      "section": "VARC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Function of Example",
+      "difficulty": "hard",
+      "stemHtml": "<p>The example of the young worker burdened with expensive debt is used in the passage primarily to show that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "a high rate of participation under a default does not establish that the default suits each person it enrols."
+        },
+        {
+          "id": "B",
+          "textHtml": "young workers tend to make irrational decisions about saving."
+        },
+        {
+          "id": "C",
+          "textHtml": "employers set default contribution rates in order to reduce their own administrative costs."
+        },
+        {
+          "id": "D",
+          "textHtml": "inertia affects young workers less strongly than older ones."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Paragraph 4 introduces the worker to illustrate that the default 'may serve the average employee while failing her', leading to the conclusion that 'high take-up proves that the default is sticky, not that it is right'.</p><p><strong>B</strong> fails: the passage says the worker 'might rationally prefer to save nothing for a few years' — her preference is presented as rational.</p><p><strong>C</strong> fails: that is a separate point made in paragraph 3 about whether a default deserves trust; the worker example concerns the interpretation of take-up.</p><p><strong>D</strong> fails: no comparison by age is made, and the example is not about the strength of inertia.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-05",
+      "section": "VARC",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>The author's main purpose in the passage is to:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "explain why language change tends to be perceived as decline, while separating a legitimate concern for shared standards from the mistaken belief that particular forms are inherently more logical."
+        },
+        {
+          "id": "B",
+          "textHtml": "argue that standard forms of a language serve no real purpose and should be abandoned."
+        },
+        {
+          "id": "C",
+          "textHtml": "show that language change never causes speakers to misunderstand one another."
+        },
+        {
+          "id": "D",
+          "textHtml": "trace the historical development of particular words that were once condemned and later accepted."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Paragraphs 2–3 give two reasons why change is 'so reliably perceived as loss' (the asymmetry of attention and the visible but temporary ambiguity), and paragraph 4 grants that standards matter while rejecting 'the defence of a logic'.</p><p><strong>B</strong> fails: paragraph 4 says a standard 'serves a real purpose' and is 'a public good'.</p><p><strong>C</strong> fails: paragraph 3 says that during the interval 'a listener may really misunderstand a speaker' and that the critic 'is not imagining things'.</p><p><strong>D</strong> fails: the passage mentions such cases only in general terms in paragraph 1 and traces no specific word.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-06",
+      "section": "VARC",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Specific Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, why does a speaker tend to notice disappearing distinctions more readily than emerging ones?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Emerging distinctions are less useful than the ones they replace."
+        },
+        {
+          "id": "B",
+          "textHtml": "Disappearing distinctions occur far more often in everyday speech than emerging ones."
+        },
+        {
+          "id": "C",
+          "textHtml": "She was taught the disappearing distinctions and may have been praised for observing them, whereas emerging ones first appear unnamed in other people's speech and look to her like errors."
+        },
+        {
+          "id": "D",
+          "textHtml": "Linguists have discouraged speakers from attending to new distinctions."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. This restates paragraph 2 almost directly: she 'was taught them and may have been praised for observing them', while emerging distinctions 'arise first in the speech of others, often without being named, and appear to her as mere errors'.</p><p><strong>A</strong> fails: the passage makes no such claim; paragraph 3 says the resulting system is 'usually no less capable'.</p><p><strong>B</strong> fails: frequency is never discussed; the asymmetry is one of attention, not of frequency.</p><p><strong>D</strong> fails: the linguist's reply in paragraph 2 is that languages merely change; nothing is said about discouraging attention.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-07",
+      "section": "VARC",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>Based on paragraph 3, the critic's error is best described as:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "inventing misunderstandings that do not actually occur."
+        },
+        {
+          "id": "B",
+          "textHtml": "correctly observing a real misunderstanding but treating a temporary stage of a change as if it were its lasting outcome."
+        },
+        {
+          "id": "C",
+          "textHtml": "failing to recognise that the ambiguity produced by change is permanent."
+        },
+        {
+          "id": "D",
+          "textHtml": "overestimating how quickly speakers resolve ambiguities."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The author concedes that the misunderstandings are real ('not imagining things') but says 'the interval is temporary' and that the critic, 'observing the language at a single moment', sees the confusion but not 'the repair that will follow'.</p><p><strong>A</strong> fails: the author explicitly says the critic who points to such misunderstandings 'is not imagining things'.</p><p><strong>C</strong> fails: this reverses the passage, which says the interval of ambiguity is temporary and is usually resolved.</p><p><strong>D</strong> fails: the critic's mistake is failing to foresee any repair at all, not misjudging its speed; the passage says she 'cannot see the repair that will follow'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-08",
+      "section": "VARC",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "All EXCEPT",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author would agree with each of the following statements EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Some forms of speech now regarded as correct were once condemned as careless."
+        },
+        {
+          "id": "B",
+          "textHtml": "An agreed standard helps people separated by distance and dialect to understand one another."
+        },
+        {
+          "id": "C",
+          "textHtml": "A period of genuine ambiguity can arise while a word takes on a new function."
+        },
+        {
+          "id": "D",
+          "textHtml": "The forms of a standard language are valuable chiefly because they are more logical than the alternatives."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is the exception. Paragraph 4 says a standard is valuable 'because it is shared, not because its particular forms are more rational than the alternatives', and calls the confusion of convention with logic 'the mistake'.</p><p><strong>A</strong> is supported by paragraph 1: today's careful usage was 'in many cases, the careless innovation that an earlier critic deplored'.</p><p><strong>B</strong> is supported by paragraph 4, which says a standard 'allows writers separated by distance and dialect to understand one another'.</p><p><strong>C</strong> is supported by paragraph 3: during the interval in which old and new uses coexist, change sometimes produces 'genuine ambiguity'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-09",
+      "section": "VARC",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best expresses the central argument of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Critics should stop judging works and confine themselves to neutral description."
+        },
+        {
+          "id": "B",
+          "textHtml": "A review is most useful when it describes the work and states the critic's values openly, since a bare verdict serves only readers who share the critic's taste and description itself is never free of judgement."
+        },
+        {
+          "id": "C",
+          "textHtml": "Stars and scores are the most efficient way for critics to communicate with busy readers."
+        },
+        {
+          "id": "D",
+          "textHtml": "Lush orchestral music is generally inferior to sparse and difficult music."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraphs 1–2 argue that description survives differences of taste while a verdict does not; paragraph 3 denies that description can be judgement-free; paragraph 4 recommends making judgement 'accountable rather than' suppressing it.</p><p><strong>A</strong> fails: paragraph 3 rejects this proposal: description 'is not as neutral as this proposal assumes', and a judgement-free review would only hide its judgements.</p><p><strong>C</strong> fails: the author argues the opposite: a score conceals 'the weights that produced it' and is least useful to readers whose tastes differ.</p><p><strong>D</strong> fails: the symphony is an illustration of how tastes differ; the author takes no side between the two temperaments.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-10",
+      "section": "VARC",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Function of Example",
+      "difficulty": "medium",
+      "stemHtml": "<p>In paragraph 3, the author quotes the phrase 'lingers longer than its material seems to justify' in order to show that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "language that appears merely descriptive can already carry an evaluative judgement."
+        },
+        {
+          "id": "B",
+          "textHtml": "the symphony under review is, in the author's opinion, badly composed."
+        },
+        {
+          "id": "C",
+          "textHtml": "critics in general tend to dislike slow movements."
+        },
+        {
+          "id": "D",
+          "textHtml": "description is more objective than open judgement."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The author says that to use this phrase 'is to make an evaluative claim about proportion, however mildly it is phrased', supporting the claim that 'description is not as neutral as this proposal assumes'.</p><p><strong>B</strong> fails: the symphony is hypothetical and the author offers no verdict on it; the phrase is analysed, not endorsed.</p><p><strong>C</strong> fails: no generalisation about critics' attitudes to slow movements is made.</p><p><strong>D</strong> fails: the point is the reverse: a review that only describes 'would not be more objective'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-11",
+      "section": "VARC",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>The readers described in the final paragraph, who treat a particular reviewer's enthusiasm as 'a reliable warning', are most likely readers who:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "have stopped reading the critic's reviews altogether."
+        },
+        {
+          "id": "B",
+          "textHtml": "distrust every critic equally and rely on their own judgement alone."
+        },
+        {
+          "id": "C",
+          "textHtml": "believe the critic's scores misreport the quality of the works she reviews."
+        },
+        {
+          "id": "D",
+          "textHtml": "have learned over time that their tastes run contrary to the critic's, and so use her verdicts by reading them in reverse."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The author says these readers have 'learn[ed] those weights for themselves' and find the critic useful 'precisely by disagreeing with her'. Treating enthusiasm as a warning means: if she likes it, I probably will not.</p><p><strong>A</strong> fails: the passage says they have 'followed a critic over many years' and find her useful, so they still read her.</p><p><strong>B</strong> fails: they rely on one particular reviewer, whose verdicts they find reliably informative; nothing suggests general distrust.</p><p><strong>C</strong> fails: the readers' point is that her verdicts consistently reflect tastes opposite to theirs, not that she misreports quality; consistency is what makes her a 'reliable' warning.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-12",
+      "section": "VARC",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's View",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best captures the author's objection to the score at the top of a review?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Publishers inflate scores to attract readers."
+        },
+        {
+          "id": "B",
+          "textHtml": "Scores are calculated carelessly by critics who have not studied the work."
+        },
+        {
+          "id": "C",
+          "textHtml": "It reports the critic's conclusion while hiding the values that produced it, so readers cannot adjust for the difference between the critic's tastes and their own."
+        },
+        {
+          "id": "D",
+          "textHtml": "Scores are useless to every reader."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Paragraph 4: the score 'reports the outcome of a calculation while concealing the weights that produced it', unlike an account of the critic's values, which lets readers 'discount her verdict by the distance between her tastes and theirs'.</p><p><strong>A</strong> fails: the passage says publishers attach scores so the conclusion 'can be absorbed without the argument'; inflation is never mentioned.</p><p><strong>B</strong> fails: the author does not question critics' diligence; the problem is what a score conceals, not how carefully it is reached.</p><p><strong>D</strong> fails: this overstates the author's view: paragraph 2 says a score can serve 'those who happen to share the critic's preferences'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-13",
+      "section": "VARC",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Specific Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, when a biologist says that a structure is 'for' a particular task, she usually means that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the structure was designed with that task in mind."
+        },
+        {
+          "id": "B",
+          "textHtml": "the structure is mainly used for that task in living animals today."
+        },
+        {
+          "id": "C",
+          "textHtml": "no other structure could perform that task as well."
+        },
+        {
+          "id": "D",
+          "textHtml": "ancestors that had the structure left more descendants than those without it, because of how the structure performed that task."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 1 states this meaning directly and adds that function 'is a claim about history disguised as a claim about design'.</p><p><strong>A</strong> fails: the author says the 'for' language only looks like a claim about design; it is really a claim about history.</p><p><strong>B</strong> fails: paragraph 2 distinguishes present use from the history that explains a trait's spread; the biologist's sense is the historical one.</p><p><strong>C</strong> fails: the passage never makes functional claims depend on a structure being uniquely suited to its task.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-14",
+      "section": "VARC",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following can be inferred about the observer of the gliding animal described in paragraph 2?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "He is wrong to think that the animal uses the fold for gliding."
+        },
+        {
+          "id": "B",
+          "textHtml": "He may correctly identify what the fold of skin is used for now while being wrong about why it originally spread."
+        },
+        {
+          "id": "C",
+          "textHtml": "He must be wrong to think that gliding helps keep the fold in the population now."
+        },
+        {
+          "id": "D",
+          "textHtml": "He would be right to conclude that heat shedding is the fold's main use today."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The author says he would be 'mistaken about its origin, though right about what it does today'.</p><p><strong>A</strong> fails: the animal does glide; the author says he is 'right about what it does today'.</p><p><strong>C</strong> fails: the author says he is 'perhaps right about what keeps it in the population now', so this is left open, not ruled out.</p><p><strong>D</strong> fails: in the scenario the fold is now used for gliding; heat shedding explains its original spread, not its current use.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-15",
+      "section": "VARC",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Paragraph Function",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best describes the role of paragraph 3 in the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It argues that most traits are by-products of selection on other features."
+        },
+        {
+          "id": "B",
+          "textHtml": "It shows that developmental processes are too poorly understood to support any functional claim."
+        },
+        {
+          "id": "C",
+          "textHtml": "It points out that some traits serve no function at all and warns that the easy availability of functional stories is itself a reason for caution."
+        },
+        {
+          "id": "D",
+          "textHtml": "It argues that conspicuous or beautiful traits must have evolved because they are advantageous."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Paragraph 3 says 'some features are not for anything at all', carried along by developmental links, and that 'the very ease of the exercise' of imagining an advantage 'is what should make us cautious about it'.</p><p><strong>A</strong> fails: the paragraph says only that 'some features' are by-products; it makes no claim about most traits.</p><p><strong>B</strong> fails: the passage does not say development is poorly understood, and paragraph 4 says many functional hypotheses have been confirmed.</p><p><strong>D</strong> fails: the paragraph says such a trait 'invites the question of its function' but may have none; it warns against exactly this assumption.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-16",
+      "section": "VARC",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Strengthen / Weaken",
+      "difficulty": "medium",
+      "stemHtml": "<p>A researcher claims that a particular beak shape in a group of birds is 'for' cracking hard seeds. Which of the following findings would the author regard as the strongest support for this claim?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Among related species, the beak shape is regularly found in those that feed on hard seeds and is absent in those that feed on soft foods."
+        },
+        {
+          "id": "B",
+          "textHtml": "The researcher has given a detailed and plausible account of how the beak could crack seeds."
+        },
+        {
+          "id": "C",
+          "textHtml": "The beak shape is unusually striking and is one of the birds' most noticeable features."
+        },
+        {
+          "id": "D",
+          "textHtml": "A bird with this beak was observed cracking a hard seed."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Paragraph 4 says a functional claim 'earns its place when it makes predictions that could fail', such as 'that the trait should be found in species facing similar demands and absent in those that do not'. Option A reports exactly such a prediction being tested and borne out.</p><p><strong>B</strong> fails: the author warns against 'a plausible story accepted because it is plausible'; plausibility alone predicts nothing.</p><p><strong>C</strong> fails: paragraph 3 says conspicuous traits invite functional questions but may have no function; conspicuousness is not evidence.</p><p><strong>D</strong> fails: this shows only present use; paragraph 2 explains that present use need not reveal the history that the biologist's 'for' refers to.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-17",
+      "section": "VARC",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>A recipe written by an expert cook is often harder to follow than one written by a competent amateur. The expert has long forgotten what it was like not to know that dough should be worked until it stops sticking, or that onions are 'soft' well before they are brown, and so leaves these steps unstated. The amateur, having learned them only recently, still remembers where she went wrong and writes the warnings in. Expertise can be an obstacle to teaching precisely because it makes the difficult feel obvious; the person best placed to explain a skill is not always the one who performs it best.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Experts may explain a skill less well than recent learners, because mastery hides from them the difficulties a beginner faces."
+        },
+        {
+          "id": "B",
+          "textHtml": "Amateur cooks generally cook better than experts."
+        },
+        {
+          "id": "C",
+          "textHtml": "Recipes should be written only by amateurs."
+        },
+        {
+          "id": "D",
+          "textHtml": "Expert cooks deliberately leave steps out of their recipes to protect their methods."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. it captures both the claim (the best performer is not always the best explainer) and the reason (expertise 'makes the difficult feel obvious').</p><p><strong>B</strong> fails: the passage compares how well recipes are written, not how well people cook; it implies the expert performs better.</p><p><strong>C</strong> fails: an overreach; the passage says the best performer is 'not always' the best explainer, and makes no recommendation.</p><p><strong>D</strong> fails: the omissions are attributed to forgetting what beginners do not know, not to deliberate concealment.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-18",
+      "section": "VARC",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>League tables that rank institutions by a single composite score are often criticised for their arbitrary weightings, and the criticism is fair. But the deeper problem lies elsewhere. Once a ranking becomes influential, institutions begin to manage the indicators that feed it, recruiting, spending and reporting in ways designed to move the score. The ranking then measures, in part, how skilfully each institution has adapted to the ranking itself. Even a table with perfectly chosen weights would suffer this fate, because the act of being watched changes what is watched.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Rankings would measure institutions accurately if only their weightings were chosen carefully."
+        },
+        {
+          "id": "B",
+          "textHtml": "Institutions should refuse to supply data to compilers of league tables."
+        },
+        {
+          "id": "C",
+          "textHtml": "Single indicators give a truer picture of institutions than composite scores do."
+        },
+        {
+          "id": "D",
+          "textHtml": "The deeper flaw of an influential ranking is not its weighting but the fact that institutions adapt to it, so that its score partly reflects that adaptation, however well the weights are chosen."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. it keeps the passage's contrast (weightings are a fair but lesser criticism; adaptation is the 'deeper problem') and the claim that even perfect weights would not prevent it.</p><p><strong>A</strong> fails: this contradicts the final sentence: 'Even a table with perfectly chosen weights would suffer this fate'.</p><p><strong>B</strong> fails: the passage recommends nothing of the kind; it only diagnoses a problem.</p><p><strong>C</strong> fails: the passage never compares single indicators with composite scores, and its argument (institutions manage whatever is watched) would apply to both.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-19",
+      "section": "VARC",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumble",
+      "difficulty": "medium",
+      "stemHtml": "<p>The five sentences (labelled 1, 2, 3, 4, 5) given below, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of five numbers as your answer.</p><p>1. Yet it is in these flat stretches that much of the real learning occurs.</p><p>2. Anyone who has learned a musical instrument knows the discouraging experience of the plateau, a period of weeks in which practice seems to produce no improvement at all.</p><p>3. Then, often abruptly, the new competence surfaces, and the learner finds herself playing passages that had seemed beyond her.</p><p>4. Beneath the unchanging surface, movements that once required deliberate attention are being made automatic, freeing attention for the next level of difficulty.</p><p>5. The learner who abandons practice during a plateau therefore gives up just before the reward that her apparently fruitless effort has been preparing.</p>",
+      "answer": "21435",
+      "solutionHtml": "<p>Answer: <strong>21435</strong>.</p><p>Sentence 2 introduces the plateau and is the only sentence with no back-reference. Sentence 1's 'these flat stretches' and 'Yet' (contrasting with 'no improvement') refer to the plateau in 2. Sentence 4 explains what 'real learning' happens: 'Beneath the unchanging surface' movements are becoming automatic. Sentence 3's 'Then ... the new competence surfaces' continues the image of 4 (what was beneath now surfaces). Sentence 5's 'therefore' draws the practical conclusion, and 'the reward' refers back to the competence described in 3.</p><p>Alternatives fail: 1 cannot open ('these flat stretches' needs an antecedent); 3 cannot precede 4 because there is nothing yet to 'surface'; 5 must come last because its 'therefore' depends on the whole sequence and its 'reward' needs 3.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-20",
+      "section": "VARC",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumble",
+      "difficulty": "easy",
+      "stemHtml": "<p>The four sentences (labelled 1, 2, 3, 4) given below, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of four numbers as your answer.</p><p>1. A road with wide lanes and long sight lines tells drivers, more persuasively than any sign, that high speeds are safe.</p><p>2. Engineers have long tried to slow traffic in residential streets by posting lower speed limits, with only modest success.</p><p>3. Narrowing the carriageway or planting trees at its edge, by contrast, sends the opposite message, and drivers slow down without being told to.</p><p>4. The difficulty is that drivers take their cues less from signs than from the shape of the road itself.</p>",
+      "answer": "2413",
+      "solutionHtml": "<p>Answer: <strong>2413</strong>.</p><p>Sentence 2 states the problem (posted limits achieve 'only modest success') and needs no antecedent. Sentence 4 explains it: 'The difficulty is that' drivers read the shape of the road rather than signs. Sentence 1 illustrates what a road's shape 'tells drivers'. Sentence 3's 'by contrast' and 'the opposite message' require the message described in 1.</p><p>Alternatives fail: 4 needs a prior difficulty (the modest success in 2); 3 cannot come before 1 because 'the opposite message' has no reference; 1 placed straight after 2 would leave the shift from signs to road shape unexplained, which 4 supplies.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-21",
+      "section": "VARC",
+      "number": 21,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd Sentence Out",
+      "difficulty": "easy",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><p>1. An apology that begins by explaining the circumstances of an offence runs the risk of sounding like an excuse.</p><p>2. The listener, waiting to hear the wrongdoer take responsibility, hears instead a list of reasons why the wrong was understandable.</p><p>3. For this reason, the most effective apologies usually place the acknowledgement of fault first and the explanation, if any, afterwards.</p><p>4. Many migratory birds navigate partly by sensing the Earth's magnetic field.</p><p>5. Once responsibility has been accepted, an account of the circumstances is more likely to be heard as context than as evasion.</p>",
+      "answer": "4",
+      "solutionHtml": "<p>Answer: <strong>4</strong>.</p><p>Sentences 1, 2, 3 and 5 form one argument about the <em>order</em> of an apology: leading with explanation sounds like an excuse (1), because the listener is waiting for responsibility (2); hence acknowledge fault first (3, 'For this reason'); after that, explanation is heard as context (5, 'Once responsibility has been accepted'). Order: 1-2-3-5.</p><p>Sentence 4 is about how migratory birds navigate and has nothing to do with apologies, responsibility or listeners. It breaks the chain wherever it is inserted.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-22",
+      "section": "VARC",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><p>1. Bread goes stale not chiefly because it dries out but because the starch inside it, softened during baking, gradually reorganises into a firmer, more crystalline structure.</p><p>2. This is why a stale loaf can be partly revived by brief reheating, which loosens the starch again even though no water has been added.</p><p>3. Sourdough owes its characteristic sour taste to acids produced by the bacteria in its starter.</p><p>4. It also explains the counter-intuitive advice that bread should not be kept in a refrigerator, since the reorganisation of the starch proceeds faster at cool temperatures than at room temperature.</p><p>5. Freezing, by contrast, slows the process almost to a halt, so that bread frozen when fresh can be thawed in nearly its original condition.</p>",
+      "answer": "3",
+      "solutionHtml": "<p>Answer: <strong>3</strong>.</p><p>Sentences 1, 2, 4 and 5 form a paragraph about the mechanism of <em>staling</em> and its consequences: the cause (1), why reheating helps (2, 'This is why'), why refrigeration harms (4, 'It also explains'), and why freezing preserves (5, 'by contrast', 'the process'). Order: 1-2-4-5.</p><p>Sentence 3 concerns the flavour of sourdough, which has nothing to do with staling or starch; no other sentence refers to taste or to bacteria. (No outside knowledge is needed: the odd sentence is identified purely by its topic.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-23",
+      "section": "VARC",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Placement",
+      "difficulty": "medium",
+      "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3 or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> That benefit, however, rested on an assumption: that each new password would be chosen independently of the one before.</p><p><strong>Paragraph:</strong> ___(1)___ Security rules that require users to change their passwords every few weeks were intended to limit the damage a stolen password could do, since a stolen password would soon stop working. ___(2)___ In practice, that assumption fails: users forced to invent new passwords so often tend to make small, predictable alterations to the old one, adding a digit or changing a single letter, so that an attacker who knows one password can often guess the next. ___(3)___ The rule thus produces passwords that are both harder for their owners to remember and easier for attackers to anticipate. ___(4)___</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Option 2</strong> is correct. Two links fix the position. 'That benefit' needs a benefit described immediately before it — limiting damage because a stolen password 'would soon stop working', in the first sentence. And the sentence after blank 2 begins 'In practice, that assumption fails', which needs an assumption to have been stated; only the missing sentence states one ('that each new password would be chosen independently'). The sentence must therefore sit exactly between the first and second sentences.</p><p>Option 1 fails: 'That benefit' would have no antecedent, and 'that assumption' in the second sentence would still have none.</p><p>Option 3 fails: 'In practice, that assumption fails' would then come before any assumption had been mentioned, which leaves it with no referent. The sentence before blank 3 also describes an attacker guessing the next password, which is not a 'benefit'.</p><p>Option 4 fails for the same reason ('that assumption' would come before the assumption is stated), and the sentence would reopen a point after the concluding 'The rule thus ...'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-24",
+      "section": "VARC",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Completion",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the sentence that most appropriately completes the paragraph.</p><p>Translators of poetry face a choice that translators of instructions rarely do. A manual for assembling a bookcase succeeds if the reader ends up with a bookcase; nobody cares whether its sentences in the new language echo the rhythm of the old. A poem, however, means partly through its sound, its line breaks and the order in which its images arrive, and these cannot all be carried across at once. ______</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Instruction manuals are therefore harder to translate than poems."
+        },
+        {
+          "id": "B",
+          "textHtml": "Poems should therefore be read only in the language in which they were written."
+        },
+        {
+          "id": "C",
+          "textHtml": "The translator of a poem must therefore decide which of its qualities to sacrifice, knowing that any version will be faithful to some of them at the expense of others."
+        },
+        {
+          "id": "D",
+          "textHtml": "This is why most readers prefer prose to poetry."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. it draws the consequence of the final sentence (sound, line breaks and image order 'cannot all be carried across at once') and explains the 'choice' announced in the opening sentence.</p><p><strong>A</strong> fails: this contradicts the paragraph, which presents the manual as the easier case.</p><p><strong>B</strong> fails: an overreach; the paragraph describes the translator's choice, not the futility of translation.</p><p><strong>D</strong> fails: readers' preferences are never discussed; the sentence does not follow from anything in the paragraph.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

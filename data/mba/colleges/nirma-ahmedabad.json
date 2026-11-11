@@ -1,0 +1,142 @@
+{
+  "slug": "nirma-ahmedabad",
+  "name": "Institute of Management, Nirma University",
+  "shortName": "IMNU (Nirma)",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "type": "private",
+  "website": "https://management.nirmauni.ac.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "GMAT"
+      ],
+      "specialisations": [
+        "Finance",
+        "Marketing",
+        "Human Resource Management",
+        "Operations"
+      ],
+      "feeTotal": 1317000,
+      "feeYear": "2026-28 (fee table for batch admitted 2026; 2027-29 not separately published)",
+      "feeNote": "Derived total of non-residential academic charges for the batch admitted in 2026 (AY 2026-27 fee table in the Admissions 2027 Information Booklet; subject to revision): tuition Rs 6,40,000 x 2 years = 12,80,000 + examination fee 11,000 x 2 = 22,000 + registration 1,000 + eligibility 1,000 + alumni 3,500 + convocation 2,500 + placement registration 7,000 = Rs 13,17,000. Excludes refundable security deposit 13,000, hostel (Rs 90,000-1,80,000 per year for 10 months depending on room; base non-AC twin Rs 99,000 + GST), mess approx. 58,800/yr, student activity advance 8,000/yr, learning-material advance 8,000/yr, laundry 6,250/yr. NRI tuition US$ 15,000/yr.",
+      "intake": 300,
+      "intakeNote": "Admissions 2027: 300 seats = 180 General (institute) + 45 NRI/NRI-sponsored + 75 ACPC Gujarat state quota (excluding EWS), plus 15% supernumerary for PIO/FN/CIWGC-SEA. ACPC's CoE list for 2026-27 also shows total intake 300 (94 via ACPC incl. EWS).",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "Official Nirma Placement Report 2024-25 gives only specialisation-wise average CTC (Finance 11.50 LPA, Marketing 11.30 LPA, HR 11.10 LPA; highest 20.00/20.00/70.00 LPA) for a pool that combines MBA FT and B.Tech-MBA (602 students); no batch-wide average or median published, so salary fields are null.",
+      "sources": {
+        "fee": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf",
+        "intake": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf",
+        "salary": null,
+        "admission": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf"
+      }
+    },
+    {
+      "name": "Master of Business Administration - Human Resource Management (MBA-HRM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "specialisations": [
+        "Human Resource Management"
+      ],
+      "feeTotal": 1317000,
+      "feeYear": "2026-28 (fee table for batch admitted 2026; 2027-29 not separately published)",
+      "feeNote": "Same fee table as MBA (booklet lists a common 'MBA and MBA(HRM) Programme Fee Structure'). Derived total of non-residential academic charges for the batch admitted in 2026 (AY 2026-27 fee table in the Admissions 2027 Information Booklet; subject to revision): tuition Rs 6,40,000 x 2 years = 12,80,000 + examination fee 11,000 x 2 = 22,000 + registration 1,000 + eligibility 1,000 + alumni 3,500 + convocation 2,500 + placement registration 7,000 = Rs 13,17,000. Excludes refundable security deposit 13,000, hostel (Rs 90,000-1,80,000 per year for 10 months depending on room; base non-AC twin Rs 99,000 + GST), mess approx. 58,800/yr, student activity advance 8,000/yr, learning-material advance 8,000/yr, laundry 6,250/yr. NRI tuition US$ 15,000/yr.",
+      "intake": 30,
+      "intakeNote": "Admissions 2027: 30 seats = 18 General + 5 NRI/NRI-sponsored + 7 ACPC state quota.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No programme-level average/median published (HR specialisation average 11.10 LPA in the 2024-25 report covers the combined pool).",
+      "sources": {
+        "fee": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf",
+        "intake": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf",
+        "salary": null,
+        "admission": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting on CAT 2026 score",
+      "weightage": null,
+      "detail": "Apply separately to Nirma (application fee Rs 1,600; NRI Rs 4,500). Gujarat candidates may also apply via ACPC for state-quota seats."
+    },
+    {
+      "stage": 2,
+      "name": "Personal Interview and Theme Development & Presentation (TDP)",
+      "weightage": "PI 20%, TDP 10%",
+      "detail": "Selection process 1st week of February 2027 (tentative)."
+    },
+    {
+      "stage": 3,
+      "name": "Composite merit",
+      "weightage": "CAT 60%, PI 20%, TDP 10%, Academic performance 10% (+ up to 10 points for relevant full-time work experience)",
+      "detail": "Academic performance = pre-final graduation 50%, Class XII 30%, Class X 20%."
+    }
+  ],
+  "selectionWeightage": {
+    "CAT": 60,
+    "PersonalInterview": 20,
+    "ThemeDevelopmentPresentation": 10,
+    "AcademicPerformance": 10,
+    "note": "Admissions 2027 composite score; additional up to 10 points for relevant full-time work experience.",
+    "source": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-09-14",
+    "applicationDeadline": null,
+    "examDate": "2026-11-29",
+    "notes": "Application opened 14 Sep 2026; last date '3rd week of December 2026'; shortlisting 4th week Jan 2027; PI/TDP 1st week Feb 2027; offers 4th week Feb / 1st week Mar 2027; programme starts 3rd week of June 2027. CAT 2026 on 29 Nov 2026.",
+    "source": "https://management.nirmauni.ac.in/admission-aid/postgraduate/mba-and-mba-hrm/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 53,
+    "score": 53.48,
+    "nirfInstituteId": "IR-M-U-0146",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+    "note": "Ranked entity is Nirma University (the university), not the Institute of Management alone."
+  },
+  "sources": [
+    {
+      "title": "Nirma University Institute of Management - MBA and MBA (HRM) admissions page",
+      "url": "https://management.nirmauni.ac.in/admission-aid/postgraduate/mba-and-mba-hrm/",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake, selection weights, 2027 key dates"
+    },
+    {
+      "title": "IMNU Information Booklet - Admissions 2027 (Sep 2026)",
+      "url": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/09/Information-Booklet-sep-2026.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee table (AY 2026-27), intake, eligibility, selection weights, application fee"
+    },
+    {
+      "title": "IMNU Placement Report 2024-25",
+      "url": "https://nirmawebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/sites/24/2026/02/Placement-report-2024-25-latest.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "specialisation-wise average CTC only (not used for salary fields)"
+    },
+    {
+      "title": "ACPC Gujarat - Provisional List of CoE Institutes and Intake for MBA admissions 2026-27",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35938b4d054136e5d59ada6ec9c295d7a/uploads/2026/01/20260129430897974.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake cross-check (300 MBA, 30 MBA-HRM)"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "NIRF 2025 rank 53 (Nirma University), score 53.48"
+    }
+  ]
+}

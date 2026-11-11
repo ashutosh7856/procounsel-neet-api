@@ -1,0 +1,117 @@
+{
+  "slug": "praxis-kolkata",
+  "name": "Praxis Business School",
+  "shortName": "Praxis Kolkata",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "type": "private",
+  "website": "https://praxis.ac.in/",
+  "approvals": [
+    "AICTE-approved PGDM",
+    "NBA accredited",
+    "AIU equivalence"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "CMAT",
+        "GMAT",
+        "MAT",
+        "ATMA"
+      ],
+      "specialisations": [
+        "Marketing & Sales",
+        "Business Analytics",
+        "Finance",
+        "Human Resources",
+        "Operations"
+      ],
+      "feeTotal": 1100000,
+      "feeYear": "2027-29",
+      "feeNote": "Official PGDM Program Fees page: admission confirmation 76,000 + tuition 7,80,000 + course material 80,000 + placement fee 32,000 + library & IT 32,000 + campus maintenance 1,00,000 = total programme fee Rs 11,00,000 (instalments Oct 2027, Jun 2028, Oct 2028). Plus refundable caution deposit Rs 30,000 (Rs 5,000 of it kept for alumni life membership) = Rs 11,30,000 day-scholar total; hostel Rs 60,000 x 4 = Rs 2,40,000 extra (Rs 13,70,000 with hostel). Fees subject to revision. Note: the page's FAQ still shows an older Oct 2026 - Oct 2027 instalment calendar for the same amounts.",
+      "intake": 180,
+      "intakeNote": "'2-year full-time program - Kolkata campus - 180 seats' (Batch 2027-29) on the official PGDM page.",
+      "medianSalary": 900000,
+      "averageSalary": 918000,
+      "salaryYear": "Class of 2026 (2024-26 batch) final placements",
+      "placementNote": "Official Placements page, Final Placement Statistics Class of 2026: highest CTC 20.62 LPA, average 9.18 LPA, median 9.00 LPA, 94.63% placed, 64 companies, 23 new. Business Analytics segment: average 10.69 / median 11.57 LPA; HR/Operations: average 7.03 / median 7.10 LPA. The PGDM landing page shows different figures (highest 20.65, average 9.08 LPA) without a batch; the dated placements page is used. Audit not stated.",
+      "sources": {
+        "fee": "https://praxis.ac.in/program-fees-scholarships/",
+        "intake": "https://praxis.ac.in/pgdm/",
+        "salary": "https://praxis.ac.in/placements/",
+        "admission": "https://praxis.ac.in/eligibility-selection-process/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Online application with entrance score",
+      "weightage": null,
+      "detail": "Valid score in CAT, XAT, CMAT, GMAT, MAT or ATMA; graduation with minimum 50% aggregate."
+    },
+    {
+      "stage": 2,
+      "name": "Written Ability Test",
+      "weightage": null,
+      "detail": "Assessment of written communication; rolling basis, September 2026 - June 2027."
+    },
+    {
+      "stage": 3,
+      "name": "Personal Interview and offer",
+      "weightage": null,
+      "detail": "Profile, aptitude, motivation and potential; merit-based final selection; no weights published."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "PGDM 2027-29: rolling applications; WAT and PI on a rolling basis September 2026 - June 2027; course commences July 2027.",
+    "source": "https://praxis.ac.in/eligibility-selection-process/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"
+  },
+  "sources": [
+    {
+      "title": "Praxis Business School - PGDM Program Fees",
+      "url": "https://praxis.ac.in/program-fees-scholarships/",
+      "retrievedAt": "2026-11-12",
+      "supports": "fee 2027-29 breakdown, hostel, deposit"
+    },
+    {
+      "title": "Praxis Business School - PGDM (Batch 2027-29, 180 seats)",
+      "url": "https://praxis.ac.in/pgdm/",
+      "retrievedAt": "2026-11-12",
+      "supports": "intake 180; specialisation areas; landing-page placement figures (not used)"
+    },
+    {
+      "title": "Praxis Business School - PGDM Eligibility & Selection Process",
+      "url": "https://praxis.ac.in/eligibility-selection-process/",
+      "retrievedAt": "2026-11-12",
+      "supports": "exams accepted, WAT/PI process, assessment window"
+    },
+    {
+      "title": "Praxis Business School - Placements (Final Placement Statistics, Class of 2026)",
+      "url": "https://praxis.ac.in/placements/",
+      "retrievedAt": "2026-11-12",
+      "supports": "median, average, highest, % placed - Class of 2026"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in ranks 1-100"
+    }
+  ]
+}

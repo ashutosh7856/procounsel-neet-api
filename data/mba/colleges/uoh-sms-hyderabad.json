@@ -1,0 +1,98 @@
+{
+  "slug": "uoh-sms-hyderabad",
+  "name": "School of Management Studies, University of Hyderabad",
+  "shortName": "SMS, University of Hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "type": "university department",
+  "website": "https://sms.uohyd.ac.in",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "MAT",
+        "CMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 219220,
+      "feeYear": "2026-28",
+      "feeNote": "Derived from the University of Hyderabad Prospectus 2026-27 first-semester fee table, MBA row: other fee 6,660 + tuition 46,720 (payable every semester) + students' union 580 + medical insurance 2,010 + student welfare/aid 260 (payable each July-December semester) + refundable deposits 5,485 (at admission) = Rs 61,715 for semester 1. Two-year estimate excl. refundable deposit = 4 x 53,380 + 2 x 2,850 = Rs 2,19,220 at 2026-27 rates (later-semester fees may be revised; medical insurance is at actuals). Hostel/mess extra. MBA Business Analytics is a separate, costlier programme (Rs 1,52,395 in semester 1).",
+      "intake": 75,
+      "intakeNote": "MBA 2026-28 admission notification: intake 75 (GE 30, SC 11, ST 6, OBC 20, EWS 8) plus PH 4 and DP 4; foreign nationals up to 15% supernumerary. 2027-29 notification not yet issued as of 2026-11-12 (2026-28 notification was issued 9 Jan 2026).",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "No official MBA placement statistics found; prospectus only describes placement facilitation through a faculty coordinator and the University's Placement Guidance and Advisory Bureau.",
+      "sources": {
+        "fee": "http://acad.uohyd.ac.in/downloads/Pros2026.pdf",
+        "intake": "http://acad.uohyd.ac.in/downloads/MBA_AD_Notif_26-28.pdf",
+        "salary": null,
+        "admission": "http://acad.uohyd.ac.in/downloads/MBA_PROS26.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting on CAT / MAT / CMAT score",
+      "weightage": null,
+      "detail": "2026-28 cycle: CAT 2025, MAT 2025 or CMAT 2026; eligibility first-class (60%) bachelor's degree. IIMs have no role in selection."
+    },
+    {
+      "stage": 2,
+      "name": "Group Discussion and Interview at University campus",
+      "weightage": null,
+      "detail": "Held Feb/Mar for shortlisted candidates (at own cost); admissions finalised end of March; classes from July. Weights not published."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "2027-29 notification not yet published as of 2026-11-12. For reference, the 2026-28 cycle: notification 9 Jan 2026; last date 31 Jan 2026, extended to 28 Feb 2026 (web page shows a further extension to 20 Mar 2026); GD/PI Feb/Mar 2026; classes July 2026. Application fee: General Rs 600, EWS 550, OBC 400, SC/ST/PwD 275.",
+    "source": "https://acad.uohyd.ac.in/mba26.html"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100 (University of Hyderabad is ranked in other NIRF categories)"
+  },
+  "sources": [
+    {
+      "title": "University of Hyderabad - M.B.A. Admissions 2026-2028 page",
+      "url": "https://acad.uohyd.ac.in/mba26.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "exams accepted; procedure; application fees; deadline extension"
+    },
+    {
+      "title": "University of Hyderabad - MBA Prospectus 2026-28",
+      "url": "http://acad.uohyd.ac.in/downloads/MBA_PROS26.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "eligibility; CAT/MAT/CMAT shortlisting; GD/interview; intake 75; placement facilitation"
+    },
+    {
+      "title": "University of Hyderabad - MBA admission notification 2026-28 (with extension)",
+      "url": "http://acad.uohyd.ac.in/downloads/MBA_AD_Notif_26-28.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "category-wise intake 75; dates"
+    },
+    {
+      "title": "University of Hyderabad Prospectus 2026-27 - first-semester fee table",
+      "url": "http://acad.uohyd.ac.in/downloads/Pros2026.pdf",
+      "retrievedAt": "2026-11-12",
+      "supports": "MBA semester-1 fee Rs 61,715 and components (basis of derived total)"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-12",
+      "supports": "not in management ranks 1-100"
+    }
+  ]
+}
