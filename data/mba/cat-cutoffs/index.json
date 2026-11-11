@@ -1,0 +1,767 @@
+{
+  "generatedAt": "2026-11-11",
+  "disclaimer": "Thresholds are OFFICIALLY PUBLISHED minimum-eligibility / shortlisting / published cutoff percentiles taken only from each institute's own documents. They are NOT guarantees of a call or admission and NOT closing percentiles; actual cutoffs are usually higher, and sectional, academic, work-experience and WAT/PI criteria also apply. \"meets\" = published General-category OVERALL threshold <= X; sectional minimums are listed per institute and are not checked.",
+  "category": "General",
+  "basis": "published General-category (or all-category) overall CAT percentile; non-IIMs: flagship programme row of the latest batch (2025-27 or later); stage given per institute (minimum_to_apply / shortlisting / final = last year closing as disclosed); IIMs: overall CAT percentile only; flagship programme; IIMs from programs/*.json (gender-specific IIMs use the Male/default row)",
+  "bands": {
+    "99": {
+      "meets": [
+        "ifmr-gsb-krea",
+        "imt-nagpur",
+        "fore-delhi",
+        "iit-jodhpur-sme",
+        "ime-iit-kanpur",
+        "welingkar-mumbai",
+        "iim-visakhapatnam",
+        "iim-bangalore",
+        "iim-calcutta",
+        "iim-kozhikode",
+        "iim-mumbai",
+        "spjimr",
+        "iim-amritsar",
+        "iim-bodh-gaya",
+        "iim-indore",
+        "iim-kashipur",
+        "iim-lucknow",
+        "iim-raipur",
+        "iim-sambalpur",
+        "iim-sirmaur",
+        "gim-goa",
+        "vgsom-iit-kharagpur",
+        "iim-jammu",
+        "iim-udaipur",
+        "iim-ahmedabad",
+        "iim-nagpur",
+        "iim-ranchi",
+        "iim-tiruchirappalli",
+        "iim-rohtak",
+        "doms-iisc-bangalore"
+      ],
+      "count": 30
+    },
+    "95": {
+      "meets": [
+        "ifmr-gsb-krea",
+        "imt-nagpur",
+        "fore-delhi",
+        "iit-jodhpur-sme",
+        "ime-iit-kanpur",
+        "welingkar-mumbai",
+        "iim-visakhapatnam",
+        "iim-bangalore",
+        "iim-calcutta",
+        "iim-kozhikode",
+        "iim-mumbai",
+        "spjimr",
+        "iim-amritsar",
+        "iim-bodh-gaya",
+        "iim-indore",
+        "iim-kashipur",
+        "iim-lucknow",
+        "iim-raipur",
+        "iim-sambalpur",
+        "iim-sirmaur",
+        "gim-goa",
+        "vgsom-iit-kharagpur",
+        "iim-jammu",
+        "iim-udaipur",
+        "iim-ahmedabad",
+        "iim-nagpur"
+      ],
+      "count": 26
+    },
+    "90": {
+      "meets": [
+        "ifmr-gsb-krea",
+        "imt-nagpur",
+        "fore-delhi",
+        "iit-jodhpur-sme",
+        "ime-iit-kanpur",
+        "welingkar-mumbai",
+        "iim-visakhapatnam",
+        "iim-bangalore",
+        "iim-calcutta",
+        "iim-kozhikode",
+        "iim-mumbai",
+        "spjimr",
+        "iim-amritsar",
+        "iim-bodh-gaya",
+        "iim-indore",
+        "iim-kashipur",
+        "iim-lucknow",
+        "iim-raipur",
+        "iim-sambalpur",
+        "iim-sirmaur",
+        "gim-goa",
+        "vgsom-iit-kharagpur"
+      ],
+      "count": 22
+    },
+    "85": {
+      "meets": [
+        "ifmr-gsb-krea",
+        "imt-nagpur",
+        "fore-delhi",
+        "iit-jodhpur-sme",
+        "ime-iit-kanpur",
+        "welingkar-mumbai",
+        "iim-visakhapatnam",
+        "iim-bangalore",
+        "iim-calcutta",
+        "iim-kozhikode",
+        "iim-mumbai",
+        "spjimr"
+      ],
+      "count": 12
+    },
+    "80": {
+      "meets": [
+        "ifmr-gsb-krea",
+        "imt-nagpur",
+        "fore-delhi",
+        "iit-jodhpur-sme",
+        "ime-iit-kanpur",
+        "welingkar-mumbai"
+      ],
+      "count": 6
+    },
+    "70": {
+      "meets": [
+        "ifmr-gsb-krea",
+        "imt-nagpur"
+      ],
+      "count": 2
+    },
+    "60": {
+      "meets": [],
+      "count": 0
+    }
+  },
+  "institutes": [
+    {
+      "slug": "doms-iisc-bangalore",
+      "name": "Department of Management Studies, Indian Institute of Science (IISc)",
+      "type": "non-IIM",
+      "program": "Master of Management (M.Mgt)",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 98.85,
+      "generalSectional": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "dataFile": "cat-cutoffs/doms-iisc-bangalore.json",
+      "sourceUrl": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf"
+    },
+    {
+      "slug": "iim-rohtak",
+      "name": "IIM Rohtak",
+      "type": "IIM",
+      "program": "PGP",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 97,
+      "generalSectional": null,
+      "note": null,
+      "dataFile": "programs/iim-rohtak.json",
+      "sourceUrl": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf"
+    },
+    {
+      "slug": "iim-ranchi",
+      "name": "IIM Ranchi",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 95.25,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-ranchi.json",
+      "sourceUrl": "https://iimranchi.ac.in/media/2026/04/Admission-Criteria-2026.pdf"
+    },
+    {
+      "slug": "iim-tiruchirappalli",
+      "name": "IIM Tiruchirappalli",
+      "type": "IIM",
+      "program": "PGPM",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 95.25,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-tiruchirappalli.json",
+      "sourceUrl": "https://www.iimtrichy.ac.in/en/pgpm-admin-criteria"
+    },
+    {
+      "slug": "iim-ahmedabad",
+      "name": "IIM Ahmedabad",
+      "type": "IIM",
+      "program": "MBA-PGP",
+      "batch": "2027-29",
+      "stage": "shortlisting",
+      "generalOverall": 95,
+      "generalSectional": {
+        "varc": 85,
+        "dilr": 85,
+        "qa": 85
+      },
+      "note": null,
+      "dataFile": "programs/iim-ahmedabad.json",
+      "sourceUrl": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf"
+    },
+    {
+      "slug": "iim-nagpur",
+      "name": "IIM Nagpur",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 95,
+      "generalSectional": {
+        "varc": 70,
+        "dilr": 70,
+        "qa": 70
+      },
+      "note": null,
+      "dataFile": "programs/iim-nagpur.json",
+      "sourceUrl": "https://www.iimnagpur.ac.in/admissions/mba/admissions-policy/"
+    },
+    {
+      "slug": "iim-udaipur",
+      "name": "IIM Udaipur",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 94,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-udaipur.json",
+      "sourceUrl": "https://mba.iimu.ac.in/admissions/"
+    },
+    {
+      "slug": "iim-jammu",
+      "name": "IIM Jammu",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 91,
+      "generalSectional": {
+        "varc": 72,
+        "dilr": 72,
+        "qa": 72
+      },
+      "note": "Female minimum 89",
+      "dataFile": "programs/iim-jammu.json",
+      "sourceUrl": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php"
+    },
+    {
+      "slug": "iim-amritsar",
+      "name": "IIM Amritsar",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 80,
+        "dilr": 75,
+        "qa": 80
+      },
+      "note": null,
+      "dataFile": "programs/iim-amritsar.json",
+      "sourceUrl": "https://iimamritsar.ac.in/academics/mba/admission"
+    },
+    {
+      "slug": "iim-bodh-gaya",
+      "name": "IIM Bodh Gaya",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 65,
+        "dilr": 65,
+        "qa": 65
+      },
+      "note": null,
+      "dataFile": "programs/iim-bodh-gaya.json",
+      "sourceUrl": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf"
+    },
+    {
+      "slug": "iim-indore",
+      "name": "IIM Indore",
+      "type": "IIM",
+      "program": "PGP",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 80,
+        "dilr": 80,
+        "qa": 80
+      },
+      "note": null,
+      "dataFile": "programs/iim-indore.json",
+      "sourceUrl": "https://iimidr.ac.in/wp-content/uploads/2025/12/Admissions-Procedure-PGP-2026-28-Batch.pdf"
+    },
+    {
+      "slug": "iim-kashipur",
+      "name": "IIM Kashipur",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-kashipur.json",
+      "sourceUrl": "https://www.iimkashipur.ac.in/admin/pdf/176694001586.pdf"
+    },
+    {
+      "slug": "iim-lucknow",
+      "name": "IIM Lucknow",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 85,
+        "dilr": 85,
+        "qa": 85
+      },
+      "note": null,
+      "dataFile": "programs/iim-lucknow.json",
+      "sourceUrl": "https://www.iiml.ac.in/sites/default/files/upload/news/2143004504IIML%20Admission%20Policy%20Batch%202026-2028.pdf"
+    },
+    {
+      "slug": "iim-raipur",
+      "name": "IIM Raipur",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-raipur.json",
+      "sourceUrl": "https://iimraipur.ac.in/wp-content/uploads/2025/12/JAP-2026-MBA-Admission-Policy-Common-v25.12.2025.pdf"
+    },
+    {
+      "slug": "iim-sambalpur",
+      "name": "IIM Sambalpur",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": null,
+      "note": "Policy: General 90; 85 for women and for men with >=1 year relevant work experience (see programs/iim-sambalpur.json, which stores only the 85 Female row)",
+      "dataFile": "programs/iim-sambalpur.json",
+      "sourceUrl": "https://iimsambalpur.ac.in/wp-content/uploads/2026/01/MBA-2026-28-Admission-Policy-1.pdf"
+    },
+    {
+      "slug": "iim-sirmaur",
+      "name": "IIM Sirmaur",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": {
+        "varc": 65,
+        "dilr": 65,
+        "qa": 65
+      },
+      "note": "Female minimum 85",
+      "dataFile": "programs/iim-sirmaur.json",
+      "sourceUrl": "https://admissions.iimsirmaur.ac.in/mba-admissions-policy-2026"
+    },
+    {
+      "slug": "gim-goa",
+      "name": "Goa Institute of Management (GIM)",
+      "type": "non-IIM",
+      "program": "PGDM",
+      "batch": "2025-27",
+      "stage": "final",
+      "generalOverall": 90,
+      "generalSectional": null,
+      "note": "PGDM (core). 'Cut-off Levels of percentage and percentile score of the candidates in the admission test'. XAT 87. HCM/BDA/BIFS: profile-based shortlisting (no cutoff). 2024-26: CAT 90; 2023-25: CAT 87. Goan domicile may get up to 15 points lower cut-off for interview.",
+      "dataFile": "cat-cutoffs/gim-goa.json",
+      "sourceUrl": "https://gim.ac.in/sites/default/files/inline-files/Mandatory%20Disclosure-2025-26.pdf"
+    },
+    {
+      "slug": "vgsom-iit-kharagpur",
+      "name": "Vinod Gupta School of Management (VGSoM), IIT Kharagpur",
+      "type": "non-IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 90,
+      "generalSectional": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "dataFile": "cat-cutoffs/vgsom-iit-kharagpur.json",
+      "sourceUrl": "https://som.iitkgp.ac.in/MBA/selectionprocess.php"
+    },
+    {
+      "slug": "iim-bangalore",
+      "name": "IIM Bangalore",
+      "type": "IIM",
+      "program": "PGP",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 85,
+      "generalSectional": {
+        "varc": 80,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-bangalore.json",
+      "sourceUrl": "https://www.iimb.ac.in/sites/default/files/inline-files/PGP-admissions-process_2027.pdf"
+    },
+    {
+      "slug": "iim-calcutta",
+      "name": "IIM Calcutta",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2027-29",
+      "stage": "shortlisting",
+      "generalOverall": 85,
+      "generalSectional": {
+        "varc": 80,
+        "dilr": 80,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-calcutta.json",
+      "sourceUrl": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates"
+    },
+    {
+      "slug": "iim-kozhikode",
+      "name": "IIM Kozhikode",
+      "type": "IIM",
+      "program": "PGP",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 85,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-kozhikode.json",
+      "sourceUrl": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf"
+    },
+    {
+      "slug": "iim-mumbai",
+      "name": "IIM Mumbai",
+      "type": "IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 85,
+      "generalSectional": {
+        "varc": 80,
+        "dilr": 80,
+        "qa": 75
+      },
+      "note": null,
+      "dataFile": "programs/iim-mumbai.json",
+      "sourceUrl": "https://iimmumbai.ac.in/admissions/assets/admission-policy-2026-MBA.pdf"
+    },
+    {
+      "slug": "spjimr",
+      "name": "S.P. Jain Institute of Management and Research (SPJIMR)",
+      "type": "non-IIM",
+      "program": "PGDM",
+      "batch": "2027-29",
+      "stage": "minimum_to_apply",
+      "generalOverall": 85,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": "Qualifying score (cut-off) in CAT 2026; mandatory even for profile-based shortlist. No category-wise differentiation stated. Same 85 overall / 75 sectional applies to GMAT.",
+      "dataFile": "cat-cutoffs/spjimr.json",
+      "sourceUrl": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf"
+    },
+    {
+      "slug": "iim-visakhapatnam",
+      "name": "IIM Visakhapatnam",
+      "type": "IIM",
+      "program": "PGP",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 82,
+      "generalSectional": {
+        "varc": 70,
+        "dilr": 70,
+        "qa": 70
+      },
+      "note": null,
+      "dataFile": "programs/iim-visakhapatnam.json",
+      "sourceUrl": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra"
+    },
+    {
+      "slug": "fore-delhi",
+      "name": "FORE School of Management",
+      "type": "non-IIM",
+      "program": "PGDM",
+      "batch": "2025-27",
+      "stage": "final",
+      "generalOverall": 80,
+      "generalSectional": null,
+      "note": "PGDM; 'Cut-Off Marks/rank of admission during the last year (AY 2025-26)'. Same 80 for 2023, 2024, 2025. XAT 80, GMAT 600.",
+      "dataFile": "cat-cutoffs/fore-delhi.json",
+      "sourceUrl": "https://www.fsm.ac.in/pdf/mandatory.pdf"
+    },
+    {
+      "slug": "iit-jodhpur-sme",
+      "name": "School of Management & Entrepreneurship (SME), IIT Jodhpur",
+      "type": "non-IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 80,
+      "generalSectional": {
+        "varc": 55,
+        "dilr": 55,
+        "qa": 55
+      },
+      "note": "Single \"Sectional\" cut-off published; applied here to each of VARC, DILR and QA. PI shortlisting cut-off for CAT 2025.",
+      "dataFile": "cat-cutoffs/iit-jodhpur-sme.json",
+      "sourceUrl": "https://www.iitj.ac.in/PageImages/Gallery/03-2026/Cutoffs-for-shortlisting-candidates-for-the-Personal-Interview-2026-639088599885932754.pdf"
+    },
+    {
+      "slug": "ime-iit-kanpur",
+      "name": "Department of Management Sciences (DoMS, formerly IME), IIT Kanpur",
+      "type": "non-IIM",
+      "program": "MBA",
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "generalOverall": 80,
+      "generalSectional": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff.",
+      "dataFile": "cat-cutoffs/ime-iit-kanpur.json",
+      "sourceUrl": "https://iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2026.pdf"
+    },
+    {
+      "slug": "welingkar-mumbai",
+      "name": "Welingkar Institute of Management (WeSchool)",
+      "type": "non-IIM",
+      "program": "PGDM (Mumbai campus; also Bengaluru)",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": 80,
+      "generalSectional": null,
+      "note": "Mumbai: PGDM, PGDM E-Business, PGDM Research & Business Analytics. Percentile applies to CAT 2025 / XAT 2026 / GMAT. General merit list; profile-based shortlist also exists.",
+      "dataFile": "cat-cutoffs/welingkar-mumbai.json",
+      "sourceUrl": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm"
+    },
+    {
+      "slug": "ifmr-gsb-krea",
+      "name": "IFMR Graduate School of Business, Krea University",
+      "type": "non-IIM",
+      "program": "MBA 2027-29",
+      "batch": "2027-29",
+      "stage": "minimum_to_apply",
+      "generalOverall": 70,
+      "generalSectional": null,
+      "note": "Minimum competitive exam score in eligibility criteria; CAT 2025 or 2026 accepted. XAT 70 percentile, CMAT 90 percentile, NMAT 210, GMAT 525. University rank holders (Top 20) exempt.",
+      "dataFile": "cat-cutoffs/ifmr-gsb-krea.json",
+      "sourceUrl": "https://krea.edu.in/ifmr-gsb/admissions/mba/eligibility/"
+    },
+    {
+      "slug": "imt-nagpur",
+      "name": "Institute of Management Technology (IMT) Nagpur",
+      "type": "non-IIM",
+      "program": "PGDM 2027-29",
+      "batch": "2027-29",
+      "stage": "minimum_to_apply",
+      "generalOverall": 70,
+      "generalSectional": null,
+      "note": "Stated as 'Entrance Exam cutoff scores for batch 2027-29'. CMAT >=90 percentile; GMAT >=650 (10th ed)/605 (Focus). Older official FAQ PDF (2025-27 admissions) said 'NO pre-decided cut-off. However, last year we stopped at 75 percentiles for CAT/XAT'.",
+      "dataFile": "cat-cutoffs/imt-nagpur.json",
+      "sourceUrl": "https://www.imtnagpur.ac.in/admissions/"
+    },
+    {
+      "slug": "iim-shillong",
+      "name": "IIM Shillong",
+      "type": "IIM",
+      "program": "PGP",
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "generalOverall": null,
+      "generalSectional": {
+        "varc": 75,
+        "dilr": 75,
+        "qa": 75
+      },
+      "note": "Publishes sectional minimums only; no overall minimum",
+      "dataFile": "programs/iim-shillong.json",
+      "sourceUrl": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf"
+    },
+    {
+      "slug": "bimtech-greater-noida",
+      "name": "Birla Institute of Management Technology (BIMTECH)",
+      "type": "non-IIM",
+      "program": "PGDM",
+      "batch": null,
+      "stage": null,
+      "generalOverall": null,
+      "generalSectional": null,
+      "note": "Only official figure (72.5, final, batch 2021-23) is stale; current admissions page says the cut-off is not pre-defined; not indexed",
+      "dataFile": "cat-cutoffs/bimtech-greater-noida.json",
+      "sourceUrl": null
+    },
+    {
+      "slug": "jbims",
+      "name": "Jamnalal Bajaj Institute of Management Studies (JBIMS)",
+      "type": "non-IIM",
+      "program": "MMS",
+      "batch": null,
+      "stage": null,
+      "generalOverall": null,
+      "generalSectional": null,
+      "note": "Only official figure is the State CET Cell All-India CAP closing score, which mixes CAT/CMAT/MAH-CET and is not a CAT-specific percentile; not indexed",
+      "dataFile": "cat-cutoffs/jbims.json",
+      "sourceUrl": null
+    }
+  ],
+  "checkedNoOfficialCutoff": [
+    {
+      "slug": "dms-iit-delhi",
+      "name": "Department of Management Studies (DMS), IIT Delhi",
+      "note": "Official shortlisting criteria PDF https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf and page https://dms.iitd.ac.in/admission-mba/ could NOT be fetched (TLS certificate chain verification failure on dms.iitd.ac.in), so contents unverified. Search snippets of official pages mention only weightages/eligibility (60% marks), no percentile. Recorded null pending manual check."
+    },
+    {
+      "slug": "doms-iit-madras",
+      "name": "Department of Management Studies (DoMS), IIT Madras",
+      "note": "Checked official MBA Admission Report 2026-2028 https://doms.iitm.ac.in/wp-content/uploads/2026/09/DoMS_IITM_MBA_Admission_Report_2026-2028.pdf: shortlisting by Composite Score (CAT 2025 ~75% weight); publishes CS cut-offs (General 39.3456, GEN-EWS/OBC-NCL 31.4765, SC/ST 23.6074) and GMAT min 640 for NRI, but no CAT percentile cutoff. Also checked https://doms.iitm.ac.in/index.php/admissions/mba-admissions/."
+    },
+    {
+      "slug": "doms-iit-roorkee",
+      "name": "Department of Management Studies (DoMS), IIT Roorkee",
+      "note": "Checked official 2026-28 brochure https://ir.iitr.ac.in/pdf/MBA_IB_2026.pdf (eligibility 60% + CAT 2025 score; 95 seats; no percentile cutoff) and https://doms.iitr.ac.in/ links (Admissions 2025 page, notice board). No CAT percentile cutoff found."
+    },
+    {
+      "slug": "fms-delhi",
+      "name": "Faculty of Management Studies, University of Delhi",
+      "note": "Checked official MBA 2026-28 prospectus https://www.fms.edu/static/programmes/MBA_2026.pdf (shortlisting by weighted CAT 2025 score: VARC 40%, DILR 30%, QA 30%, +5 for women; no percentile cutoff stated), https://www.fms.edu/static/programmes/MBA_2027.pdf (no percentile cutoff), and https://www.fms.edu/admissions/results-and-notifications (no cutoff values visible). Aggregator claims of 99+/98 sectional are not on official pages."
+    },
+    {
+      "slug": "great-lakes-chennai-gurgaon",
+      "name": "Great Lakes Institute of Management (Chennai / Gurgaon)",
+      "note": "Official FAQs state no hard cut-offs. Chennai PGDM FAQ (greatlakes.edu.in/chennai/pgdm/faqs): 'CAT, XAT: 85-98 percentile' desired range and 'there are no hard cut-offs for entrance scores'; 'a 85+ percentile in XAT/CAT ... would be considered suitable'. Gurgaon PGDM FAQ (greatlakes.edu.in/gurgaon/pgdm/faq): desired range 'CAT, XAT: 80-96 percentile' for ~80-85% of admits, no sectional cut-offs. These are indicative ranges, not minimum cut-offs."
+    },
+    {
+      "slug": "iift",
+      "name": "Indian Institute of Foreign Trade (IIFT)",
+      "note": "IIFT now uses CAT (since 2026-28 batch: 'IIFT will use CAT 2025 Score for shortlisting / selecting the candidates for IIFT's MBA(IB) and MBA(BA) 2026-28 programmes' - prospectus https://www.iift.ac.in/uploads/manage-files/2025/11/brochure-mbaib_mbaba_2026.pdf). That prospectus states no percentile cutoff. Also checked https://www.iift.ac.in/admission-2027, https://www.iift.ac.in/admissions, https://www.iift.ac.in/programme/mba-international-business-fulltime, announcements archive: no cutoff. Aggregators claim sectional cutoffs (e.g. Gen 65/70) from IIFT's official application-portal PDF https://applyadmission.net/iift2026/ProgramDetailsIIFT2026.pdf, but that host failed TLS certificate verification and could not be fetched, so unverified -> recorded null."
+    },
+    {
+      "slug": "iit-ism-dhanbad",
+      "name": "IIT (ISM) Dhanbad - Dept. of Management Studies & Industrial Engineering",
+      "note": "Checked https://www.iitism.ac.in/selection-procedure-mba (2026-27: shortlisting 'by taking into consideration of CAT Percentile'; final: PI 40%, CAT percentile 35%, academics 10%, experience 10%, female 5%) and notice https://www.iitism.ac.in/storage/notice-documents/notice_693ba7eba297f1765517291.pdf. No percentile value published. admissions.iitism.ac.in failed TLS verification."
+    },
+    {
+      "slug": "iit-mandi",
+      "name": "School of Management, IIT Mandi",
+      "note": "Checked https://som.iitmandi.ac.in/admissions/mba (valid CAT 2025; shortlisting on CAT score, academics, work experience; CAT-exempt route for CFTI/NIRF top-100 grads) and 2026 brochure https://cloud.iitmandi.ac.in/f/0e83fbff90534d40ac0a/ (no percentile). No CAT percentile cutoff published."
+    },
+    {
+      "slug": "imi-new-delhi",
+      "name": "International Management Institute (IMI) New Delhi",
+      "note": "Official admissions page (admission.imi.edu/delhi/) states: 'There is no fixed cut-off.' Older AICTE mandatory disclosure PDFs (2019-20 era) mentioned 90 for PGDM but could not be fetched/verified (site now returns HTML) and are stale."
+    },
+    {
+      "slug": "imt-ghaziabad",
+      "name": "Institute of Management Technology (IMT) Ghaziabad",
+      "note": "Checked imt.edu/admissions/pgdm, imt.edu/pgdm-ft, and the official 'Instructions for Filling Online Application Form 2027' PDF (imt.edu/pdf/InstructionsforfillingOnlineApplication.pdf). No CAT percentile cut-off published; only a 98-percentile threshold for merit scholarship (not an admission cut-off)."
+    },
+    {
+      "slug": "imt-hyderabad",
+      "name": "Institute of Management Technology (IMT) Hyderabad",
+      "note": "Not recorded: the only on-domain mention (\"overall CAT/XAT cutoff is 90 percentile for General\", blog.imthyderabad.edu.in/best-b-schools-in-telangana/) is a marketing blog FAQ, not an admission policy or notice. Admissions page shows no cut-off."
+    },
+    {
+      "slug": "irma-anand",
+      "name": "Institute of Rural Management Anand (IRMA)",
+      "note": "Checked IRMA Application Guidebook 2025-27 (shortlist based on CAT/CMAT/XAT scores, no percentile), Mandatory Disclosure March 2024 ('Final admissions were offered to the candidates on category-wise merit rank'), admissions FAQ pages. No 2026-28/2027-29 cut-off published."
+    },
+    {
+      "slug": "jaipuria",
+      "name": "Jaipuria Institute of Management (Noida/Lucknow/Jaipur/Indore)",
+      "note": "Checked jaipuria.ac.in/admissions/, PGDM 2027-29 admissions announcement, Admission Policy 2025-27 PDF and Admission Policy PGDM 2024-26 PDF: only weightages (aptitude test 45%); no CAT percentile cut-off."
+    },
+    {
+      "slug": "kjsim-mumbai",
+      "name": "K J Somaiya Institute of Management (KJSIM)",
+      "note": "kjsim.somaiya.edu/en/admission/mba/ and /en/faqs/ say merit-based shortlisting uses 'cutoffs set by KJSIM' but no numeric value is published. Scholarship policy uses >=90 CAT percentile (scholarship, not admission)."
+    },
+    {
+      "slug": "lbsim-delhi",
+      "name": "Lal Bahadur Shastri Institute of Management (LBSIM)",
+      "note": "lbsim.ac.in/admissions/faqs: 'The cut-off varies every year' and 'LBSIM does not specify sectional cut-offs'. Admission Brochure 2027 PDFs (-1 and -3) and AICTE disclosure PDFs contain no percentile cut-off."
+    },
+    {
+      "slug": "mdi-gurgaon",
+      "name": "Management Development Institute (MDI) Gurgaon",
+      "note": "Checked official selection criteria PDFs: 2026-28 https://mdi.ac.in/resources/admin_uploads/announcement/1757419094Selection-Criteria-for-2-year-Full-Time-PGP-2026-28.pdf and 2025-27 https://mdi.ac.in/resources/admin_uploads/announcement/1727778965Selection--criteria-website.pdf. Both give only weightages (Stage I: CAT score 70%, etc.; Stage II: CAT 35%, PI 20%, ...); no CAT percentile cutoff or sectional cutoff published."
+    },
+    {
+      "slug": "sjmsom-iit-bombay",
+      "name": "Shailesh J. Mehta School of Management (SJMSOM), IIT Bombay",
+      "note": "Checked https://www.som.iitb.ac.in/mba-admission-criteria/ (2026-28; valid CAT score only), https://www.som.iitb.ac.in/pi-shortlisting-criteria/ (CAT 2025 overall scaled score 75%, academics 20%, work-ex 5%), https://www.som.iitb.ac.in/composite-score-cut-off/ (publishes Composite Score cut-offs for PI shortlisting: GN/EWS 42.28, OBC-NC 38.05, SC/ST/PWD 28.19; women GN/EWS 41.28 - not CAT percentiles), https://www.som.iitb.ac.in/admissions/MBA_Brochure_2026.pdf. No CAT percentile cutoff published."
+    },
+    {
+      "slug": "tapmi-manipal",
+      "name": "T A Pai Management Institute (TAPMI)",
+      "note": "Checked tapmi.edu.in/admissions/ (2027-29), programs/mba, faqs, mandatory-disclosure page, PGP Handbook 2026-28 PDF. No CAT percentile cut-off published; shortlisting based on best valid score plus profile. The '80+/85+ percentile' figure circulating on aggregator sites was not found on any official TAPMI page."
+    },
+    {
+      "slug": "ubs-chandigarh",
+      "name": "University Business School (UBS), Panjab University",
+      "note": "PU Handbook of Information 2026, Faculty of Business (admissions.puchd.ac.in/includes/documents/2026/hbi-2026-faculty-of-business.pdf): admission 'Based on CAT 2025' with CAT score 85% + GD + PI; candidates called for GD/PI 'on the basis of their score in the CAT and 10 times the total no. of seats ... in each category or total no. of eligible candidate whichever is lower'. No percentile cut-off published. UBS handbook PDF (ubsadmissions.puchd.ac.in/pdf/ubs-handbook2026.pdf) was unparseable."
+    },
+    {
+      "slug": "xim-bhubaneswar",
+      "name": "Xavier Institute of Management, XIM University (XIMB)",
+      "note": "CAT is accepted (xim.edu.in/admission/mba-bm/). PG FAQ (xim.edu.in/admission/pg-faq/) says 'Cut-offs marks for respective tests are announced in the first week of February on the website' and Odisha domicile may have separate cut-offs. The 2026-28 cut-off notice (Feb 6, 2026; aggregators cite CAT 93 non-domicile male) could not be located/fetched on an official page (ums.xim.edu.in shortlist portal failed TLS verification), so not recorded. Re-check after Feb 2027."
+    },
+    {
+      "slug": "xlri-jamshedpur",
+      "name": "XLRI - Xavier School of Management",
+      "note": "CAT NOT ACCEPTED. xlri.ac.in/academic-programmes/admission-procedure/overview/xat: 'All Indian candidates can appear for XAT 2027'; NRI/PIO/OCI/foreign via GMAT or XAT. Out of scope for CAT cut-offs."
+    }
+  ],
+  "noOverallThreshold": [
+    "iim-shillong",
+    "bimtech-greater-noida",
+    "jbims"
+  ]
+}

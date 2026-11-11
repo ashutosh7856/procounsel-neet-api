@@ -1,0 +1,63 @@
+{
+  "slug": "fms-delhi",
+  "name": "Faculty of Management Studies, University of Delhi",
+  "shortName": "FMS Delhi",
+  "city": "New Delhi",
+  "state": "Delhi",
+  "type": "university department",
+  "website": "https://www.fms.edu",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "MBA (Full-Time)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT"],
+      "specialisations": [],
+      "feeTotal": 260300,
+      "feeYear": "2027-29",
+      "feeNote": "Information Bulletin 2027-29 states the semester fee is 'currently approximately Rs. 65,075/- per semester'; total = 4 semesters x 65,075 (approximate, payable at the beginning of each academic year, revisable by University of Delhi). Hostel/other charges not included.",
+      "intake": 251,
+      "intakeNote": "Batch 2027-29 sanctioned seats per Information Bulletin (Gen 101, SC 37, ST 19, OBC 69, EWS 25), plus supernumerary seats: PwD 12, CW 12, Foreign Students 25, Ward Teaching 6, Ward Non-Teaching 6, Orphan Quota 2.",
+      "medianSalary": 2959000,
+      "averageSalary": 3227000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Official FMS Final Placement Report 2024-26: batch 307, 304 appeared, 287 placed, 3 placement holidays; 119 companies participated; average CTC 32.27 L, median CTC 29.59 L, top-100 average 45.19 L, highest CTC 1.1 Cr. Not stated as externally audited.",
+      "sources": {
+        "fee": "https://www.fms.edu/static/programmes/MBA_2027.pdf",
+        "intake": "https://www.fms.edu/static/programmes/MBA_2027.pdf",
+        "salary": "https://www.fms.edu/static/corporate-relations/placementReports/Final_Placement_Report_2024-2026.pdf",
+        "admission": "https://www.fms.edu/static/programmes/MBA_2027.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Shortlisting on weighted CAT 2026 score", "weightage": "VARC 40%, DILR 30%, QA 30%", "detail": "Weighted score computed from CAT 2026 sectional scores; +5 marks added for women candidates for shortlisting. Applicants without CAT 2026 not considered."},
+    {"stage": 2, "name": "Discussion on Statement of Purpose, Extempore and Personal Interview", "weightage": "SOP discussion 10%, Extempore 5%, PI 15%", "detail": "Conducted individually for all shortlisted candidates."},
+    {"stage": 3, "name": "Final selection on composite score", "weightage": "Weighted CAT 50%, Class X 10%, Class XII 10%, SOP 10%, Extempore 5%, PI 15%", "detail": "Class X/XII: 60% to <75% = 5 marks, 75%+ = 10 marks. +5 marks for women candidates who appear for the interview."}
+  ],
+  "selectionWeightage": {
+    "WeightedCAT": 50,
+    "ClassX": 10,
+    "ClassXII": 10,
+    "SOPDiscussion": 10,
+    "Extempore": 5,
+    "PI": 15,
+    "note": "Batch 2027-29; CAT weighted VARC 40/DILR 30/QA 30; +5 marks for women at shortlisting and final stage.",
+    "source": "https://www.fms.edu/static/programmes/MBA_2027.pdf"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-10-26",
+    "applicationDeadline": "2026-11-25",
+    "examDate": null,
+    "notes": "MBA Full-Time 2027-29 (CAT 2026 registration number required). Interviews: 2nd/3rd week of April 2027; result: 3rd/4th week of April 2027. Last date of admission / withdrawal: 31 Aug 2027 (bulletin). Application fee Rs 1000 (Rs 350 SC/ST/PwD).",
+    "source": "https://fmsadmissions.co.in/"
+  },
+  "nirf": {"year": 2025, "managementRank": null, "score": null, "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked"},
+  "sources": [
+    {"title": "FMS Information Bulletin MBA Full-Time (2027-2029) & Doctoral Programme", "url": "https://www.fms.edu/static/programmes/MBA_2027.pdf", "retrievedAt": "2026-11-11", "supports": "fee 2027-29; intake (sanctioned + supernumerary seats); eligibility; selection process and weights; application fee"},
+    {"title": "FMS Delhi Final Placement Report, Batch of 2024-2026", "url": "https://www.fms.edu/static/corporate-relations/placementReports/Final_Placement_Report_2024-2026.pdf", "retrievedAt": "2026-11-11", "supports": "median and average CTC 2024-26; placement statistics"},
+    {"title": "FMS / University of Delhi Online Admissions 2027 portal (linked from fms.edu)", "url": "https://fmsadmissions.co.in/", "retrievedAt": "2026-11-11", "supports": "key dates 2027-29 (application window, interview and result windows)"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "not ranked in top 100"}
+  ]
+}

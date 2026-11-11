@@ -1,0 +1,97 @@
+{
+  "slug": "welingkar-mumbai",
+  "name": "Welingkar Institute of Management (WeSchool)",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "program": "PGDM (Mumbai campus; also Bengaluru)",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 80,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Mumbai: PGDM, PGDM E-Business, PGDM Research & Business Analytics. Percentile applies to CAT 2025 / XAT 2026 / GMAT. General merit list; profile-based shortlist also exists.",
+      "source": {
+        "title": "WeSchool (Welingkar) Mumbai - PGDM programme page, 'Entrance Exam Test cut off for PGDM 2026-28 batch'",
+        "url": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Entrance Exam Test cut off for PGDM 2026-28 batch Shortlisting Criteria for Online Selection Process - General Merit List Mumbai Campus ... CAT 2025 / XAT 2026 / GMAT (2023 onwards) Percentile ... PGDM, PGDM E-Business, PGDM Research & Business Analytics 80"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 75,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Mumbai: PGDM Retail, PGDM Media and Entertainment, PGDM Business Design.",
+      "source": {
+        "title": "WeSchool (Welingkar) Mumbai - PGDM programme page, 'Entrance Exam Test cut off for PGDM 2026-28 batch'",
+        "url": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "PGDM Retail, PGDM Media and Entertainment and PGDM Business Design 75"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 70,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Mumbai: PGDM Healthcare Management and PGDM Rural Management (70%ile across entrance tests).",
+      "source": {
+        "title": "WeSchool (Welingkar) Mumbai - PGDM programme page, 'Entrance Exam Test cut off for PGDM 2026-28 batch'",
+        "url": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "PGDM – Healthcare Management 70%ile across above entrance tests, irrespective of any graduation degree background"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 75,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Bengaluru campus: PGDM, PGDM E-Business, PGDM Research & Business Analytics.",
+      "source": {
+        "title": "WeSchool (Welingkar) Mumbai - PGDM programme page, 'Entrance Exam Test cut off for PGDM 2026-28 batch'",
+        "url": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Bengaluru Campus ... PGDM, PGDM E-Business, PGDM Research & Business Analytics 75"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 70,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Bengaluru campus: PGDM Business Design & Innovation.",
+      "source": {
+        "title": "WeSchool (Welingkar) Mumbai - PGDM programme page, 'Entrance Exam Test cut off for PGDM 2026-28 batch'",
+        "url": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "PGDM - Business Design & Innovation 70%ile across above entrance tests"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "GMAT",
+    "ATMA",
+    "CMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Cut-off table for PGDM 2026-28 on official programme page. 2027-29 application site (pgdm2027-29.welingkar.org) did not show a cut-off yet. Page also says all GAPI invitees must meet entrance cutoff to be on merit list."
+}

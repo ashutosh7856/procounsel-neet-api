@@ -1,0 +1,67 @@
+{
+  "id": "mah-mba-cet",
+  "name": "MAH-MBA/MMS-CET",
+  "fullName": "Maharashtra Common Entrance Test for MBA/MMS (MAH-MBA/MMS-CET)",
+  "conductingBody": "State Common Entrance Test Cell, Maharashtra State, Mumbai (Competent Authority: Commissioner, State CET Cell)",
+  "officialUrl": "https://cetcell.mahacet.org/",
+  "cycle": "MAH-MBA/MMS-CET 2026 (for admissions in A.Y. 2026-27). The MAH-MBA/MMS-CET 2027 notification had not been published by 2026-11-11.",
+  "eligibility": "To appear: passed a minimum three-year Bachelor's Degree from a UGC/AIU-recognised university in any discipline with at least 50% marks in aggregate or equivalent (at least 45% for backward class categories, EWS and PwD candidates belonging to Maharashtra State only), OR appeared for the final-year examination of any such Bachelor's degree. For CAP admission, Maharashtra State candidates need a non-zero score in MAH-MBA/MMS-CET. All India candidates may use a non-zero positive score in CET, CAT, CMAT, XAT, ATMA, MAT or GMAT.",
+  "mode": "Online (computer-based); medium English",
+  "frequency": "Two attempts in the 2026 cycle (first attempt 06-08 Apr 2026, second attempt 09 May 2026). Candidates may take one or both; if both, the better of the two percentiles is used for admission.",
+  "pattern": {
+    "sections": [
+      { "name": "Logical Reasoning", "questions": 75, "minutes": null },
+      { "name": "Abstract Reasoning", "questions": 25, "minutes": null },
+      { "name": "Quantitative Aptitude", "questions": 50, "minutes": null },
+      { "name": "Verbal Ability / Reading Comprehension", "questions": 50, "minutes": null }
+    ],
+    "totalMinutes": 150,
+    "marking": "1 mark per question, 200 marks in total. There is no negative marking.",
+    "notes": "MCQs with five options. There are no sectional time limits: candidates may attempt any question at any point within the 150 minutes. Percentile scores are calculated from raw marks for each attempt, and the exam is held in multiple shifts."
+  },
+  "syllabusAreas": [
+    "Logical / Abstract Reasoning: how quickly and accurately you can think; questions on figures and diagrams and on verbal reasoning",
+    "Quantitative Aptitude: numerical calculations, arithmetic (ratio and proportion, percentage, etc.), quantitative reasoning, interpretation of tables, common graphs and charts",
+    "Verbal Ability and Reading Comprehension: passages, grammar, vocabulary, sentence completion, synonyms, antonyms, choice of appropriate words, phrases and expressions"
+  ],
+  "registrationFee": [
+    { "category": "Open category (Maharashtra State, Outside Maharashtra State, J&K Migrant), one attempt", "amount": 1500, "currency": "INR" },
+    { "category": "Backward class categories [SC, ST, VJ/DT-NT(A), NT(B), NT(C), NT(D), OBC, SBC, SEBC, EWS] and PwD of Maharashtra State only, and Orphan/Transgender candidates, one attempt", "amount": 1300, "currency": "INR" },
+    { "category": "Open/General category, both attempts", "amount": 3000, "currency": "INR" },
+    { "category": "Reserved category (Maharashtra State), both attempts", "amount": 2600, "currency": "INR" }
+  ],
+  "keyDates": [
+    { "event": "MAH-MBA/MMS-CET 2026 online registration (original window)", "dateText": "10 Jan 2026 to 12 Feb 2026", "tentative": false },
+    { "event": "Registration extension", "dateText": "13 Feb 2026 to 20 Feb 2026", "tentative": false },
+    { "event": "Edit facility for registered candidates", "dateText": "28 Feb 2026 to 02 Mar 2026", "tentative": false },
+    { "event": "Exam, first attempt", "dateText": "06 Apr 2026 to 08 Apr 2026", "tentative": false },
+    { "event": "Objection window, first attempt", "dateText": "02 May 2026 to 04 May 2026", "tentative": false },
+    { "event": "Exam, second attempt", "date": "2026-05-09", "tentative": false },
+    { "event": "Result declared, first attempt (score card in candidate login)", "date": "2026-05-30", "tentative": false },
+    { "event": "Result declared, second attempt", "date": "2026-06-12", "tentative": false },
+    { "event": "MBA/MMS CAP 2026-27 online registration for admission", "dateText": "02 Jul 2026 to 12 Jul 2026 (05:00 PM)", "tentative": false },
+    { "event": "Last date for all admissions in A.Y. 2026-27, CAP and institute level (revised per Supreme Court order and AICTE calendar)", "date": "2026-09-14", "tentative": false },
+    { "event": "MAH-MBA/MMS-CET 2027", "dateText": "Not yet notified as of 2026-11-11", "tentative": true }
+  ],
+  "scoreValidity": "Valid for admissions in the corresponding academic year only (MAH-MBA/MMS-CET 2026 for A.Y. 2026-27).",
+  "acceptingInstitutes": {
+    "officialListUrl": "https://mba2026.mahacet.org.in/mba_26/home",
+    "notable": [],
+    "note": "The brochure says CET scores are used by all Government of Maharashtra management education institutes, university departments of management education, university-managed management institutes, and all un-aided management education institutes covered by the Act. The CAP portal lists the participating institutes and choice codes. Institute-wise CAP Round I closing percentiles are in mah-mba-cap-cutoffs.json."
+  },
+  "resultAndCounselling": "Results are published as percentile scores, with the score card in the candidate login. Admission is through the State CET Cell's Centralized Admission Process (CAP) on the MBA/MMS CAP portal: online registration and document e-scrutiny or physical scrutiny, then provisional and final merit lists. Merit for first-year management is based on the percentile score in CET, CAT or CMAT. Next come option-form filling and computerised allotment in CAP Rounds I, II, III and IV, with seats split into Home University, Other Than Home University and State Level seats, plus minority seats. Candidates then self-confirm, pay the seat-acceptance fee and report to the institute. After that come ACAP and Institute Level admissions for vacant seats. CAP application fee: Rs 1500 for General / Rs 1300 for reserved candidates who did not register for MAH-MBA/MMS-CET 2026. CET registrants pay no extra fee.",
+  "sources": [
+    { "title": "Information Brochure MAH-MBA/MMS-CET 2026", "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MAH-MBA-MMS-CET-2026-Information-Brochure.pdf", "retrievedAt": "2026-11-11", "supports": "Eligibility to appear; fees (1500/1300 per attempt, 3000/2600 for both); pattern 75/25/50/50 questions, 1 mark each, 200 marks, 150 min, five options, no negative marking; online, English; percentile per attempt, best of two used; participating institute types" },
+    { "title": "CET Syllabus and its Marking Scheme 2026 (Technical Education), MAH-MBA/MMS CET 2026 page", "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Syllabus-Technical-2026.pdf", "retrievedAt": "2026-11-11", "supports": "Syllabus areas and marking scheme (scanned page 2)" },
+    { "title": "Registration Extension Notice MBA/MMS & MHT CET 2026 (11/02/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET-Registration-Extension-Notice-MBA-MHT-CET-CET-2026.pdf", "retrievedAt": "2026-11-11", "supports": "Registration 10/01/2026 to 12/02/2026, extended 13/02 to 20/02/2026; 1st attempt 06-08/04/2026, 2nd attempt 09/05/2026" },
+    { "title": "Edit Facility Notice MBA/MMS CET 2026 (27/02/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MBA-MMS-CET-2026-Edit-Facility-Notice-.pdf", "retrievedAt": "2026-11-11", "supports": "Edit window 28/02/2026 to 02/03/2026" },
+    { "title": "Public Notice: Technical Education Department CET 2026 final dates (16/03/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Technical-Education-CET-final-dates_2026.pdf", "retrievedAt": "2026-11-11", "supports": "MBA/MMS CET 2026: 06-08 Apr 2026 and 09 May 2026" },
+    { "title": "Public Notice: Second attempt exam date (26/04/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2026/04/PUBLIC-NOTICE-for-MBA_MHT_Second-Attmp.-Exam-Date-1.pdf", "retrievedAt": "2026-11-11", "supports": "Second attempt final exam date 09-05-2026" },
+    { "title": "Objection notice MAH-MBA/MMS CET 2026 First Attempt (30/04/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2026/04/OT-NOTICE-MBA_MMS-CET-2026.pdf", "retrievedAt": "2026-11-11", "supports": "Objection window 02-05-2026 to 04-05-2026, Rs 1000 per objection" },
+    { "title": "State CET Cell notices listing", "url": "https://cetcell.mahacet.org/cms-notices/", "retrievedAt": "2026-11-11", "supports": "Result declared for first attempt 30/05/2026 and second attempt 12/06/2026 (score card in candidate login)" },
+    { "title": "Admission Notice No. 1 for MBA/MMS A.Y. 2026-27 (02/07/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2026/07/MBA-MMS-CAP-AY-26-27-Schedule-Notice-No.1-Upto-Merit-List.pdf", "retrievedAt": "2026-11-11", "supports": "CAP eligibility by candidature type, including the accepted exams CET/CAT/CMAT/XAT/ATMA/MAT/GMAT; CAP application fee 1500/1300; CAP registration 02-07-2026 to 12-07-2026" },
+    { "title": "Information Brochure for Admission to UG and PG Technical Courses 2025-26 (CAP rules)", "url": "https://mba2025.mahacet.org.in/cetmba25/mba25/staticFiles/mba/Information_Brochure_UG&PG_2025_26.pdf", "retrievedAt": "2026-11-11", "supports": "Merit for first-year management on percentile score in CET, CAT or CMAT; computerised allotment in CAP Rounds I-IV; HU/OHU/State-level seat logic" },
+    { "title": "Circular on revised last date of admission A.Y. 2026-27 (07/09/2026)", "url": "https://cetcell.mahacet.org/wp-content/uploads/2026/09/Cut-off-circular.pdf", "retrievedAt": "2026-11-11", "supports": "Last date for all admissions 14 Sep 2026 (in Marathi)" },
+    { "title": "MBA/MMS CAP 2026-27 portal", "url": "https://mba2026.mahacet.org.in/mba_26/home", "retrievedAt": "2026-11-11", "supports": "Participating institutes, seat matrix, CAP cut-off PDFs" }
+  ]
+}

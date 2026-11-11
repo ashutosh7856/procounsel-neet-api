@@ -1,0 +1,58 @@
+{
+  "slug": "jbims-mumbai",
+  "name": "Jamnalal Bajaj Institute of Management Studies (JBIMS), University of Mumbai",
+  "shortName": "JBIMS",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "university department",
+  "website": "https://jbims.edu",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Management Studies (MMS) - Two Year Full-Time Degree Programme",
+      "durationYears": 2,
+      "examsAccepted": ["MAH-MBA/MMS CET"],
+      "specialisations": ["Finance", "Marketing", "Operations", "Human Resources", "Systems"],
+      "feeTotal": null,
+      "feeYear": "2026-28",
+      "feeNote": "Only the first-year fee is published: total fee for A.Y. 2026-27 (first year, 2026-28 batch) is INR 4,34,289 for Open / J&K Migrant category (ST/SC INR 10,000; OBC/EWS/SEBC female INR 2,63,664, male INR 3,48,977; VJ/DT-NT/SBC/Orphan INR 2,63,664; TFWS INR 2,68,914), plus eligibility-cum-enrolment fee of INR 0-3,000 depending on university of graduation. Second-year fee not published, so two-year total left null. Hostel not included.",
+      "intake": 190,
+      "intakeNote": "NIRF 2026 data submitted by JBIMS (hosted on jbims.edu): sanctioned intake 190 for all 2-year PG programmes combined (A.Y. 2024-25). The MMS course page states an MMS intake of 150-160 students; the 2024-26 MMS batch strength was 155.",
+      "medianSalary": 2615000,
+      "averageSalary": 2667000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "MMS only, from the Unified Final Placement Report 2024-26: batch strength 155; mean CTC INR 26.67 LPA, median INR 26.15 LPA, highest INR 80 LPA, top 10% avg INR 38.25 LPA, top 30% avg INR 33.37 LPA; 70+ recruiters, 93 PPOs/PPIs. No audit stated. (NIRF 2026 data: median INR 27 lakh for 219 placed graduates of 2024-25, all 2-yr PG programmes.)",
+      "sources": {
+        "fee": "https://jbims.edu/uploads/announcement/Reporting_Payment_Details_for_A_Y_2026-271.pdf",
+        "intake": "https://jbims.edu/uploads/notice/Jamnalal_Bajaj_Institute_of_Management_Studies20260402-.pdf",
+        "salary": "https://jbims.edu/uploads/placementreport/Final_Placement_Report_2024-265.pdf",
+        "admission": "https://jbims.edu/courses-details/master-of-management-studies/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Entrance examination", "weightage": null, "detail": "Applicants must qualify the MAH-MBA/MMS CET (State CET Cell, Maharashtra); All India seats are filled per State CET Cell / DTE rules."},
+    {"stage": 2, "name": "Centralised Admission Process (CAP) by DTE / State CET Cell, Maharashtra", "weightage": null, "detail": "Seats are allotted on merit through CAP rounds (four CAP rounds in 2026-27); no institute-level GD/PI. Any vacant seat after CAP is filled through an Institutional (Counselling) Round on inter-se merit."}
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [
+    {"exam": "MAH-MBA/MMS CET", "year": 2026, "batch": "2026-28", "category": "General (OPEN, State Level seats, GOPENS)", "overall": 99.9618138, "sectional": null, "stage": "final", "note": "Closing percentile, CAP Round I, Maharashtra State seats, A.Y. 2026-27 (closing state merit no. 41). Published by State CET Cell, Maharashtra (CAP authority), not by JBIMS.", "source": "https://mbaproject26api.4pindia.com/platform_api_26/common/getFile?filename=PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf&flag=11&round=cap1&course_name=mba"}
+  ],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "Admission is through MAH-MBA/MMS CET 2027 and Maharashtra CAP 2027-28; JBIMS has not published 2027 dates. For reference, 2026 CAP reporting at JBIMS ran 3 Aug (Round I) to 7 Sep 2026 (Round IV).",
+    "source": "https://jbims.edu/uploads/announcement/Reporting_Payment_Details_for_A_Y_2026-271.pdf"
+  },
+  "nirf": {"year": 2025, "managementRank": null, "score": null, "nirfInstituteId": "IR-M-I-1495", "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked. NIRF ID from JBIMS's NIRF 2026 data submission hosted on jbims.edu."},
+  "sources": [
+    {"title": "JBIMS MMS course page", "url": "https://jbims.edu/courses-details/master-of-management-studies/", "retrievedAt": "2026-11-11", "supports": "specialisations; MMS intake 150-160; MAH-MBA CET + CAP admission"},
+    {"title": "JBIMS Instructions for Admission - MMS A.Y. 2026-27 (fee and CAP reporting dates)", "url": "https://jbims.edu/uploads/announcement/Reporting_Payment_Details_for_A_Y_2026-271.pdf", "retrievedAt": "2026-11-11", "supports": "first-year fee A.Y. 2026-27 by category; CAP rounds I-IV 2026"},
+    {"title": "JBIMS Unified Final Placement Report, Batch 2024-2026", "url": "https://jbims.edu/uploads/placementreport/Final_Placement_Report_2024-265.pdf", "retrievedAt": "2026-11-11", "supports": "MMS median and mean CTC 2024-26; batch strength 155"},
+    {"title": "JBIMS NIRF 2026 submitted institute data (hosted on jbims.edu)", "url": "https://jbims.edu/uploads/notice/Jamnalal_Bajaj_Institute_of_Management_Studies20260402-.pdf", "retrievedAt": "2026-11-11", "supports": "sanctioned intake 190 (all 2-yr PG); NIRF ID; NIRF median salary 2024-25"},
+    {"title": "JBIMS MMS Institutional (Counselling) Round notice A.Y. 2026-27", "url": "https://jbims.edu/uploads/announcement/MMS_Institutional_(Counselling)_Round_for_Filling_Vacant_Seat_notice1.pdf", "retrievedAt": "2026-11-11", "supports": "selection process (institutional round after 4 CAP rounds)"},
+    {"title": "State CET Cell Maharashtra: Cut Off Merit for Maharashtra & Minority Seats, CAP Round-I, MBA/MMS A.Y. 2026-27", "url": "https://mbaproject26api.4pindia.com/platform_api_26/common/getFile?filename=PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf&flag=11&round=cap1&course_name=mba", "retrievedAt": "2026-11-11", "supports": "CAP Round I closing percentile (GOPENS)"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "not ranked in 1-100"}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "bimm-pune",
+  "name": "Balaji Institute of Modern Management, Sri Balaji University, Pune",
+  "shortName": "BIMM Pune",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "type": "private",
+  "website": "https://www.bimmpune.edu.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [],
+      "specialisations": [],
+      "feeTotal": null,
+      "feeYear": null,
+      "feeNote": "Official sites (bimmpune.edu.in, sbup.edu.in) were unreachable (DNS failure) on 2026-11-11; fee not verified.",
+      "intake": null,
+      "intakeNote": "Not verified (official site unreachable).",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": null,
+      "placementNote": "Not verified (official site unreachable).",
+      "sources": {
+        "fee": null,
+        "intake": null,
+        "salary": null,
+        "admission": null
+      }
+    }
+  ],
+  "selectionProcess": [],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "Not verified (official site unreachable on 2026-11-11).",
+    "source": null
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-11",
+      "supports": "not in NIRF 2025 Management top 100"
+    }
+  ]
+}

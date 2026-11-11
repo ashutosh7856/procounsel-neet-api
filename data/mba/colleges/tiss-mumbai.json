@@ -1,0 +1,142 @@
+{
+  "slug": "tiss-mumbai",
+  "name": "Tata Institute of Social Sciences, Mumbai",
+  "shortName": "TISS Mumbai",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "deemed",
+  "website": "https://tiss.ac.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Arts in Human Resources Management & Labour Relations (MA HRM&LR)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 203500,
+      "feeYear": "2026-28",
+      "feeNote": "Programme fee per TISS admissions page: Sem I Rs 78,650, Sem II Rs 41,250, Sem III Rs 53,900, Sem IV Rs 29,700 = Rs 2,03,500 (tuition, exam, field education, IT, library, students' competency fund; Sem I includes Rs 11,000 refundable caution deposit). Excludes hostel/dining and student-borne costs of practicum/study tours. Batch year not explicitly labelled on page.",
+      "intake": 60,
+      "intakeNote": "Programme intake per TISS CAT-PG Admission Brochure 2026-27 and admissions page.",
+      "medianSalary": 2800000,
+      "averageSalary": 2869000,
+      "salaryYear": "2024-26 batch final placements (Feb 2026)",
+      "placementNote": "Official HRM&LR Final Placement Report 2026: 65 students participated, 34 companies, 58 HR-domain offers; highest Rs 66 L, mean Rs 28.69 L, median Rs 28 L; 20 PPOs. Not stated as audited.",
+      "sources": {
+        "fee": "https://admissions.tiss.ac.in/view/10/admissions/ma-admissions/ma-in-human-resource-management-labour-relations/",
+        "intake": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf",
+        "salary": "https://tiss.ac.in/uploads/files/TISS_HRM__LR_Final_Placement_Report_2026.pdf",
+        "admission": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Shortlisting for Online Assessment on CAT",
+      "weightage": "CAT score 97% + 3% gender diversity (3 extra marks for female/transgender candidates)",
+      "detail": "Minimum CAT percentile cut-offs (overall and sectional) apply."
+    },
+    {
+      "stage": 2,
+      "name": "Online Interview",
+      "weightage": "30%",
+      "detail": "Final merit list: CAT score 70% + Online Interview 30%."
+    }
+  ],
+  "selectionWeightage": {
+    "CAT": 70,
+    "OnlineInterview": 30,
+    "source": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf",
+    "note": "Final merit weightage for MA HRM&LR, admissions 2026-27 (through CAT 2025). TISS reserves right to modify."
+  },
+  "officialCutoffs": [
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "General/KM/AF/EWS",
+      "overall": 70,
+      "sectional": {
+        "VARC": 60,
+        "DILR": 60,
+        "QA": 60
+      },
+      "stage": "shortlisting",
+      "source": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf",
+      "note": "Minimum CAT percentiles for Online Assessment shortlisting, MA HRM&LR / MA ODCL"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "OBC-NC",
+      "overall": 63,
+      "sectional": {
+        "VARC": 54,
+        "DILR": 54,
+        "QA": 54
+      },
+      "stage": "shortlisting",
+      "source": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf",
+      "note": "Minimum CAT percentiles for Online Assessment shortlisting, MA HRM&LR / MA ODCL"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "SC/ST",
+      "overall": 53,
+      "sectional": {
+        "VARC": 45,
+        "DILR": 45,
+        "QA": 45
+      },
+      "stage": "shortlisting",
+      "source": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf",
+      "note": "Minimum CAT percentiles for Online Assessment shortlisting, MA HRM&LR / MA ODCL"
+    }
+  ],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "TISS has announced that admission to MA HRM&LR for 2027-28 will be through CAT 2026 (CAT score used for shortlisting/selection); TISS application dates and detailed criteria for 2027-28 not yet published as of 2026-11-11.",
+    "source": "https://admissions.tiss.ac.in/view/5/admissions/ma-admissions/admissions-announcement-2027-28-selection-for-pg-p/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "TISS Admission Brochure for CAT-PG Programmes 2026-2027",
+      "url": "https://tiss.ac.in/uploads/files/CAT_PG_Admission_Brochure_2026-2027-Ver3.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "intake 60; selection process & weightage; CAT shortlisting cut-offs 2026-28"
+    },
+    {
+      "title": "TISS admissions - MA HRM&LR programme page",
+      "url": "https://admissions.tiss.ac.in/view/10/admissions/ma-admissions/ma-in-human-resource-management-labour-relations/",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee Rs 2,03,500; intake 60"
+    },
+    {
+      "title": "TISS HRM&LR Final Placement Report 2026 (batch 2024-26)",
+      "url": "https://tiss.ac.in/uploads/files/TISS_HRM__LR_Final_Placement_Report_2026.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "median, mean, highest CTC"
+    },
+    {
+      "title": "TISS Admissions Announcement 2027-28: selection through CAT 2026",
+      "url": "https://admissions.tiss.ac.in/view/5/admissions/ma-admissions/admissions-announcement-2027-28-selection-for-pg-p/",
+      "retrievedAt": "2026-11-11",
+      "supports": "exam for 2027-28 intake"
+    }
+  ]
+}

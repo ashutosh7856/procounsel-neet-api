@@ -1,0 +1,192 @@
+{
+  "id": "cmat",
+  "name": "CMAT",
+  "fullName": "Common Management Admission Test",
+  "conductingBody": "National Testing Agency (NTA), Ministry of Education, Government of India",
+  "officialUrl": "https://cmat.nta.nic.in/",
+  "cycle": "CMAT 2026 (latest completed cycle; exam held 25 Jan 2026, result 17 Feb 2026). As of 2026-11-11 the CMAT site's About page mentions CMAT-2027 for Academic Session 2027-28, but no CMAT 2027 information bulletin or public notice has been released; the Information Bulletin link still points to the CMAT 2026 bulletin.",
+  "eligibility": "The candidate must hold a Bachelor's Degree in any discipline. Candidates appearing for the final year of Bachelor's Degree, whose result will be declared before commencement of admission for academic year 2026-27, can also apply. The candidate must be a citizen of India. There is no age restriction.",
+  "mode": "Computer Based Test (CBT)",
+  "frequency": "Once a year (single exam date). CMAT 2026 was held on 25 January 2026 in a single shift (09:00 AM to 12:00 PM). The bulletin notes the exam may be held in multiple shifts depending on candidate numbers.",
+  "pattern": {
+    "sections": [
+      {
+        "name": "Quantitative Techniques and Data Interpretation",
+        "questions": 20,
+        "minutes": null
+      },
+      {
+        "name": "Logical Reasoning",
+        "questions": 20,
+        "minutes": null
+      },
+      {
+        "name": "Language Comprehension",
+        "questions": 20,
+        "minutes": null
+      },
+      {
+        "name": "General Awareness",
+        "questions": 20,
+        "minutes": null
+      },
+      {
+        "name": "Innovation & Entrepreneurship",
+        "questions": 20,
+        "minutes": null
+      }
+    ],
+    "totalMinutes": 180,
+    "marking": "Each question carries 4 marks (+4 for a correct response); 1 mark deducted for each incorrect response; no marks for unanswered questions. Each section has a maximum of 80 marks, 400 in total (100 questions).",
+    "notes": "Medium of question paper: English only. No section-wise time limits are stated in the bulletin (minutes: null). For multi-shift papers, raw marks are converted to NTA scores (normalization, Appendix VIII). Tie-break: same score ranked by date of birth (older first). Figures are from the CMAT 2026 information bulletin."
+  },
+  "syllabusAreas": [
+    "Quantitative Techniques and Data Interpretation",
+    "Logical Reasoning",
+    "Language Comprehension",
+    "General Awareness",
+    "Innovation & Entrepreneurship"
+  ],
+  "registrationFee": [
+    {
+      "category": "General (UR) - Male",
+      "amount": 2500,
+      "currency": "INR"
+    },
+    {
+      "category": "General (UR) - Female",
+      "amount": 1250,
+      "currency": "INR"
+    },
+    {
+      "category": "Gen-EWS / SC / ST / PwD/PwBD / OBC-(NCL) - Male",
+      "amount": 1250,
+      "currency": "INR"
+    },
+    {
+      "category": "Gen-EWS / SC / ST / PwD/PwBD / OBC-(NCL) - Female",
+      "amount": 1250,
+      "currency": "INR"
+    },
+    {
+      "category": "Third gender",
+      "amount": 1250,
+      "currency": "INR"
+    }
+  ],
+  "keyDates": [
+    {
+      "event": "CMAT 2026 online application opens",
+      "date": "2025-10-17",
+      "tentative": false
+    },
+    {
+      "event": "Last date for online application (extended from 17 Nov 2025)",
+      "date": "2025-11-24",
+      "tentative": false
+    },
+    {
+      "event": "Last date for successful fee transaction (extended from 18 Nov 2025)",
+      "date": "2025-11-25",
+      "tentative": false
+    },
+    {
+      "event": "Correction window in application particulars",
+      "dateText": "26-28 November 2025 (up to 11:50 PM)",
+      "tentative": false
+    },
+    {
+      "event": "Admit cards released",
+      "date": "2026-01-21",
+      "tentative": false
+    },
+    {
+      "event": "CMAT 2026 examination (single shift, 09:00 AM-12:00 PM, CBT)",
+      "date": "2026-01-25",
+      "tentative": false
+    },
+    {
+      "event": "Provisional answer key challenge window",
+      "dateText": "31 January 2026 to 2 February 2026 (up to 11:50 PM); fee Rs 200 per question challenged",
+      "tentative": false
+    },
+    {
+      "event": "Result / NTA scores declared",
+      "date": "2026-02-17",
+      "tentative": false
+    },
+    {
+      "event": "CMAT 2027 registration / exam dates",
+      "dateText": "Not yet announced by NTA as of 2026-11-11",
+      "tentative": true
+    }
+  ],
+  "scoreValidity": null,
+  "acceptingInstitutes": {
+    "officialListUrl": null,
+    "notable": []
+  },
+  "resultAndCounselling": "Result is declared on https://cmat.nta.nic.in only; candidates download score cards from the website (no dispatch, no re-evaluation). The CMAT score is accepted by all AICTE-Approved Institutions / University Departments / Constituent Colleges / Affiliated Colleges. NTA's role ends at declaring results, hosting score cards and providing result data to AICTE; NTA has no role in counselling. Candidates must apply separately to participating institutions, which release their own cut-off CMAT scores and may hold Group Discussion and Personal Interview for final selection. For institutes run/aided/recognized by State Governments, the respective state reservation policy applies. (State CAPs are not named in NTA documents.) CMAT 2026: 53,453 registered, 41,872 appeared (78.33%), 110 cities, 259 centres.",
+  "sources": [
+    {
+      "title": "CMAT 2026 Information Bulletin (NTA)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3a381c2c35c9157f6b67fd07d5a200ae1/uploads/2025/10/202510171049586023.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "eligibility, mode (CBT), duration 180 min, section pattern (5 x 20 questions, 80 marks each), marking (+4/-1), English medium, fees by category, original application dates, normalization, result/score card procedure, AICTE acceptance, NTA role and no counselling role, state reservation policy"
+    },
+    {
+      "title": "CMAT official website - About CMAT",
+      "url": "https://cmat.nta.nic.in/about-cmat/",
+      "retrievedAt": "2026-11-11",
+      "supports": "CMAT score accepted by all AICTE-approved institutions; CMAT-2027 mentioned for Academic Session 2027-28 with no dates/bulletin"
+    },
+    {
+      "title": "CMAT official website (home; no current public notices)",
+      "url": "https://cmat.nta.nic.in/",
+      "retrievedAt": "2026-11-11",
+      "supports": "No CMAT 2027 public notice or bulletin listed; Information Bulletin link is the CMAT 2026 bulletin"
+    },
+    {
+      "title": "NTA Public Notice 17 Nov 2025 - Extension of last date, CMAT-2026",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20251117222907.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "Revised last dates: application 24 Nov 2025, fee 25 Nov 2025"
+    },
+    {
+      "title": "NTA Public Notice 26 Nov 2025 - Correction in particulars, CMAT-2026",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20251126134118.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "Correction window 26-28 Nov 2025"
+    },
+    {
+      "title": "NTA Public Notice 04 Dec 2025 - Examination schedule CMAT-2026",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20251204175253.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "Exam date 25 Jan 2026, 180 minutes, English only, CBT"
+    },
+    {
+      "title": "NTA Public Notice 21 Jan 2026 - Release of admit cards CMAT 2026",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260121152505.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "Admit cards released 21 Jan 2026; single shift 09:00 AM-12:00 PM"
+    },
+    {
+      "title": "NTA Public Notice 31 Jan 2026 - Provisional answer key challenge CMAT-2026",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260131131250.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "Answer key challenge 31 Jan-2 Feb 2026, Rs 200 per question"
+    },
+    {
+      "title": "NTA Press Release 17 Feb 2026 - CMAT 2026 result",
+      "url": "https://nta.ac.in/Download/Notice/Notice_20260217210319.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "Result declared 17 Feb 2026; 53,453 registered, 41,872 appeared (78.33%), 110 cities, 259 centres, single shift"
+    },
+    {
+      "title": "NTA Notice Board Archive",
+      "url": "https://nta.ac.in/NoticeBoardArchive",
+      "retrievedAt": "2026-11-11",
+      "supports": "Index of CMAT 2026 notices; no CMAT 2027 notice as of retrieval"
+    }
+  ]
+}

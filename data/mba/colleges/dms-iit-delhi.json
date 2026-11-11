@@ -1,0 +1,175 @@
+{
+  "slug": "dms-iit-delhi",
+  "name": "Department of Management Studies, IIT Delhi",
+  "shortName": "DMS IIT Delhi",
+  "city": "New Delhi",
+  "state": "Delhi",
+  "type": "government",
+  "website": "https://dms.iitd.ac.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA, Full-Time)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 1200000,
+      "feeYear": "2027-29 (as stated on MBA Admission Process 2027 page)",
+      "feeNote": "Tuition only: INR 12.00 lakh for the entire programme, payable in 4 equal semester instalments; exact fee indicated in offer letter. 2025-27 batch per semester: tuition 3,00,000 + other charges 22,400 + institute residence fee 8,600 (SC/ST/PwD pay only other charges and residence fee). Hostel/mess not included.",
+      "intake": null,
+      "intakeNote": "Programme seat count not found on official DMS pages.",
+      "medianSalary": 2250782,
+      "averageSalary": 2252966,
+      "salaryYear": "2023-25 batch final placements",
+      "placementNote": "DMS IIT Delhi Final Placement Report 2023-2025 (MBA & MBA Telecom): 98% placement, median INR 22,50,782, average INR 22,52,966, female average 23,28,717, highest 43,55,300. 2024-26 final report not yet published. No audit mentioned. Figures read from PDF text where trailing digits were clipped; matched to full values.",
+      "sources": {
+        "fee": "https://dms.iitd.ac.in/admission-mba/",
+        "intake": null,
+        "salary": "https://dms.iitd.ac.in/wp-content/uploads/2026/03/DMS-IIT-Delhi-Final-Placement-Report-2023-2025.pdf",
+        "admission": "https://dms.iitd.ac.in/admission-mba/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "PI shortlisting on Shortlisting Index",
+      "weightage": "CAT 65, Bachelor's 5, 12th 5, 10th 5, work experience 7, gender diversity 8, graduate of MoE-funded technical institution/IoE/INI 5",
+      "detail": "CAT score = overall/maximum CAT score; minimum index cut-offs by category (2026-28)."
+    },
+    {
+      "stage": 2,
+      "name": "Personal Interview at IIT Delhi",
+      "weightage": null,
+      "detail": "Shortlisted CAT applicants interviewed at IIT Delhi."
+    },
+    {
+      "stage": 3,
+      "name": "Final Admission Index",
+      "weightage": "Interview & extra-curricular 40, CAT 40, Bachelor's 3, 12th 3, 10th 5, work experience 6, MoE/IoE/INI graduate 3",
+      "detail": "Academic/work-ex weights carried pro-rata from shortlisting index."
+    }
+  ],
+  "selectionWeightage": {
+    "InterviewAndExtraCurricular": 40,
+    "CAT": 40,
+    "Bachelors": 3,
+    "Class12": 3,
+    "Class10": 5,
+    "WorkExperience": 6,
+    "MoEInstituteGraduate": 3,
+    "note": "Admission Index for MBA (FT) 2026-28",
+    "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+  },
+  "officialCutoffs": [
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "GEN",
+      "overall": 45.0,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Shortlisting index (out of 100; CAT 65 + academics/work-ex/diversity), MBA (Full-Time)",
+      "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "EWS",
+      "overall": 36.0,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Shortlisting index (out of 100; CAT 65 + academics/work-ex/diversity), MBA (Full-Time)",
+      "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "OBC",
+      "overall": 35.5,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Shortlisting index (out of 100; CAT 65 + academics/work-ex/diversity), MBA (Full-Time)",
+      "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "SC",
+      "overall": 32.5,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Shortlisting index (out of 100; CAT 65 + academics/work-ex/diversity), MBA (Full-Time)",
+      "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "ST",
+      "overall": 22.5,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Shortlisting index (out of 100; CAT 65 + academics/work-ex/diversity), MBA (Full-Time)",
+      "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "PwD",
+      "overall": 20.0,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Shortlisting index (out of 100; CAT 65 + academics/work-ex/diversity), MBA (Full-Time)",
+      "source": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf"
+    }
+  ],
+  "keyDates": {
+    "applicationOpens": "2026-11-30",
+    "applicationDeadline": "2027-01-25",
+    "examDate": null,
+    "notes": "MBA Admission Process 2027 (tentative): online application starts 30 Nov 2026; last date 25 Jan 2027; PI dates TBA; results first week of May 2027.",
+    "source": "https://dms.iitd.ac.in/admission-mba/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 4,
+    "score": 78.94,
+    "nirfInstituteId": "IR-M-I-1074",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+    "note": "Ranked entity is IIT Delhi (management programme run by DMS)."
+  },
+  "sources": [
+    {
+      "title": "DMS IIT Delhi MBA Admission page (Admission Process 2027)",
+      "url": "https://dms.iitd.ac.in/admission-mba/",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee; eligibility; 2027 key dates"
+    },
+    {
+      "title": "DMS IIT Delhi Final Placement Report 2023-2025",
+      "url": "https://dms.iitd.ac.in/wp-content/uploads/2026/03/DMS-IIT-Delhi-Final-Placement-Report-2023-2025.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "median/average/highest CTC 2023-25"
+    },
+    {
+      "title": "DMS Shortlisting and Admission Criteria MBA & MBA (Telecom) 2026-2028",
+      "url": "https://dms.iitd.ac.in/wp-content/uploads/2017/08/Shortlisting-Criteria_2026_mba-Full-Time.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "shortlisting & admission index weights; category shortlisting cut-offs"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-11",
+      "supports": "NIRF rank/score"
+    }
+  ]
+}

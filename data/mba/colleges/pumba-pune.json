@@ -1,0 +1,250 @@
+{
+  "slug": "pumba-pune",
+  "name": "Department of Management Sciences (PUMBA), Savitribai Phule Pune University",
+  "shortName": "PUMBA",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "type": "university department",
+  "website": "https://www.pumba.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "MAH-MBA/MMS-CET",
+        "CAT",
+        "XAT",
+        "MAT",
+        "ATMA"
+      ],
+      "specialisations": [],
+      "feeTotal": null,
+      "feeYear": "2026-27",
+      "feeNote": "PUMBA admission instructions AY 2026-27 list fees (first-year admission, per category): OPEN Rs 1,63,983; OBC/EWS/SEBC Rs 88,358; SC/ST Rs 11,953; SBC/VJ-DT/NT-B/C/D Rs 12,733; OMS Rs 1,64,483; CIWGC/ICCR SAARC Rs 3,15,733; foreign national/PIO/OCI Rs 4,66,983. Full 2-year total not published, so feeTotal left null.",
+      "intake": null,
+      "intakeNote": "Seat count not found on an accessible official page (CAP seat matrix on the CET Cell portal not retrieved).",
+      "medianSalary": null,
+      "averageSalary": 940000,
+      "salaryYear": "2022-24 batch final placements",
+      "placementNote": "Latest official PUMBA placement report found (version dated 14 Oct 2024, batch 2022-24): 171 participants, 80.7% placed, 140+ companies; highest Rs 16.22 LPA, top-10% avg Rs 15.42 LPA, top-50% avg Rs 10.84 LPA, average Rs 9.40 LPA. An earlier 28 Sep 2024 version of the same report shows different figures (highest Rs 19 LPA). Median not published. No 2023-25 or 2024-26 report found.",
+      "sources": {
+        "fee": "https://www.pumba.in/pdf/Instructions%20for%20Candidate%20seeking%20admission%20to%20MBA%20A.Y.2026-27_31072026.pdf",
+        "intake": null,
+        "salary": "https://www.pumba.in/pdf/Placement%20Report%20(2022-24)_14102024.pdf",
+        "admission": "https://www.pumba.in/pdf/Instructions%20for%20Candidate%20seeking%20admission%20to%20MBA%20A.Y.2026-27_31072026.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Maharashtra State CAP (Centralised Admission Process)",
+      "weightage": null,
+      "detail": "Seats allotted by State CET Cell, Maharashtra on CAP merit (MAH-MBA/MMS-CET or other accepted national test scores) over CAP Rounds I-IV; candidates confirm admission at PUMBA with documents and fees."
+    },
+    {
+      "stage": 2,
+      "name": "Institute-level round (post-CAP vacancies)",
+      "weightage": null,
+      "detail": "Vacant seats after CAP filled through an institute-level round per CET Cell rules."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "OPEN (General) - Home University seats",
+      "overall": 99.1121718,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round I",
+      "stateMeritNo": 772,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "OPEN (General) - Other Than Home University seats",
+      "overall": 99.5417661,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round I",
+      "stateMeritNo": 440,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "EWS - State level",
+      "overall": 98.7143414,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round I",
+      "stateMeritNo": 1009,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "TFWS - State level",
+      "overall": 99.4199385,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round I",
+      "stateMeritNo": 535,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "OBC (General) - Home University seats",
+      "overall": 98.7064439,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round I",
+      "stateMeritNo": 1022,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "SC (General) - Home University seats",
+      "overall": 96.8743319,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round I",
+      "stateMeritNo": 2063,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "OPEN (General) - Home University seats",
+      "overall": 98.9783992,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round IV (last CAP round)",
+      "stateMeritNo": 863,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP4_Cutoff_All_Institutes_2025_26 (1).pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "OPEN (General) - Other Than Home University seats",
+      "overall": 99.4261844,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round IV (last CAP round)",
+      "stateMeritNo": 528,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP4_Cutoff_All_Institutes_2025_26 (1).pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "EWS - State level",
+      "overall": 98.2381715,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round IV (last CAP round)",
+      "stateMeritNo": 1291,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP4_Cutoff_All_Institutes_2025_26 (1).pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "OBC (General) - Home University seats",
+      "overall": 98.510887,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round IV (last CAP round)",
+      "stateMeritNo": 1136,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP4_Cutoff_All_Institutes_2025_26 (1).pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    },
+    {
+      "exam": "Maharashtra MBA/MMS CAP (merit score)",
+      "year": 2026,
+      "batch": "2026-28",
+      "category": "SC (General) - Home University seats",
+      "overall": 96.0997359,
+      "sectional": null,
+      "stage": "final",
+      "round": "CAP Round IV (last CAP round)",
+      "stateMeritNo": 2457,
+      "source": "https://mba2026.mahacet.org.in/mba_26/home",
+      "sourceFile": "PG_MBA_CAP4_Cutoff_All_Institutes_2025_26 (1).pdf",
+      "note": "Closing merit score (percentile-based CAP merit score) and State General Merit No. for Maharashtra-candidature seats, published by State CET Cell / DTE Maharashtra (state CAP authority), AY 2026-27. Choice code 0600110110."
+    }
+  ],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "Admission for 2027-29 will be via MAH-MBA/MMS-CET 2027 and Maharashtra CAP 2027; State CET Cell had not published 2027 dates as of 2026-11-11.",
+    "source": null
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "PUMBA - Instructions for candidates seeking admission to MBA AY 2026-27 (fees, documents, accepted score cards)",
+      "url": "https://www.pumba.in/pdf/Instructions%20for%20Candidate%20seeking%20admission%20to%20MBA%20A.Y.2026-27_31072026.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee 2026-27 by category; exams accepted; admission process"
+    },
+    {
+      "title": "PUMBA Placement Report for the Batch of 2022-24 (14 Oct 2024)",
+      "url": "https://www.pumba.in/pdf/Placement%20Report%20(2022-24)_14102024.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "average, highest, placement %"
+    },
+    {
+      "title": "Maharashtra State CET Cell MBA/MMS 2026 CAP portal - Cut Off Merit for Maharashtra & Minority Seats, CAP Rounds I and IV, AY 2026-27",
+      "url": "https://mba2026.mahacet.org.in/mba_26/home",
+      "retrievedAt": "2026-11-11",
+      "supports": "CAP 2026 closing merit scores (files PG_MBA_CAP1_Cutoff_All_Institutes_2025_26.pdf, PG_MBA_CAP4_Cutoff_All_Institutes_2025_26 (1).pdf)"
+    },
+    {
+      "title": "PUMBA - CAP round notice 2026",
+      "url": "https://www.pumba.in/pdf/CAPround%20notice_07_08_2026.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "CAP schedule 2026 (context)"
+    }
+  ]
+}

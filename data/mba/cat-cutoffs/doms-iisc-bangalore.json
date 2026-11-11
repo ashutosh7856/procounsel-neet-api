@@ -1,0 +1,128 @@
+{
+  "slug": "doms-iisc-bangalore",
+  "name": "Department of Management Studies, Indian Institute of Science (IISc)",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "program": "Master of Management (M.Mgt)",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 98.85,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "NC-OBC",
+      "overall": 95,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "SC",
+      "overall": 87,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "ST",
+      "overall": 50,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "EWS",
+      "overall": 95,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "PwD",
+      "overall": 90,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "Kashmiri Migrant",
+      "overall": 90,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Cut-off (CAT percentile) for interview & GD call, Master of Management programme, admissions 2026-27.",
+      "source": {
+        "title": "Admissions 2026-27: Cut Off Report for M.Mgt Programme, IISc (dated 03-04-2026)",
+        "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MMgt_cutoff_2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "DEPARTMENT OF MANAGEMENT STUDIES ... CAT - 98.85 95 87 50 95 90 90 (UR OBC SC ST EWS PH KM)"
+    }
+  ],
+  "otherExamsAccepted": [
+    "GATE",
+    "GMAT (10th Edition)",
+    "GMAT Focus Edition"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official IISc Academic Section cut-off report. Same report gives GATE (UR 604) and GMAT (UR 675) cutoffs. Earlier: https://www.iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-for-M.Mgt-Programme-2025.pdf"
+}

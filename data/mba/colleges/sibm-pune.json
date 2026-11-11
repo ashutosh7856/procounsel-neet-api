@@ -1,0 +1,127 @@
+{
+  "slug": "sibm-pune",
+  "name": "Symbiosis Institute of Business Management, Pune",
+  "shortName": "SIBM Pune",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "type": "deemed",
+  "website": "https://sibm.edu/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "SNAP"
+      ],
+      "specialisations": [
+        "Marketing",
+        "Human Resource Management",
+        "Finance",
+        "Operations and Supply Chain Management",
+        "Data Analytics"
+      ],
+      "feeTotal": 2620000,
+      "feeYear": "2026-28",
+      "feeNote": "Academic fees for Indian students: Rs 6,55,000 per instalment x 4 instalments (2 per year) = Rs 26,20,000. Excludes refundable institute deposit (Rs 20,000) and hostel deposit (Rs 20,000), hostel (three-sharing, Rs 1,57,300 in year 1) and mess (Rs 59,800 per instalment in year 1); hostel/mess may rise up to 15% a year; government taxes extra.",
+      "intake": null,
+      "intakeNote": "Official pages conflict: the SIBM mobile MBA page states intake '240 Students' while the desktop MBA page states '180 students' (both retrieved 2026-11-11). Reservations within intake: SC 15%, ST 7.5%, PwD 3%; international 15% and 2 Kashmiri-migrant seats above intake.",
+      "medianSalary": 2700000,
+      "averageSalary": 2818000,
+      "salaryYear": "2024-26 batch final placements (Campus Recruitment Programme 2025)",
+      "placementNote": "Official CRP 2025 report for the MBA batch of 2024-26: highest CTC Rs 74.84 LPA, average Rs 28.18 LPA, median Rs 27.00 LPA; 110+ recruiters; 132 PPOs. Not stated as audited.",
+      "sources": {
+        "fee": "https://sibm.edu/mobile/assets/mobile/pdf/mbafee2026-28.pdf",
+        "intake": null,
+        "salary": "https://sibm.edu/mobile/assets/pdf/CRPReport2025.pdf",
+        "admission": "https://sibm.edu/mba_importantdates"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "SNAP 2026 test",
+      "weightage": "50 marks (SNAP score out of 60 scaled to 50)",
+      "detail": "Shortlisting for GE-PI on SNAP score; SIBM shortlist declared 19 Jan 2027."
+    },
+    {
+      "stage": 2,
+      "name": "Group Exercise (GE)",
+      "weightage": "10 marks",
+      "detail": "Online GE-PI(-WAT) conducted by SIBM Pune, 3-7 and 10-14 Feb 2027; attendance at all components mandatory."
+    },
+    {
+      "stage": 3,
+      "name": "Personal Interaction (PI)",
+      "weightage": "40 marks",
+      "detail": "Final merit list (out of 100) published 26 Feb 2027."
+    }
+  ],
+  "selectionWeightage": {
+    "SNAP": 50,
+    "GroupExercise": 10,
+    "PersonalInteraction": 40,
+    "source": "https://www.snaptest.org/blogs/whats-next-after-clearing-snap-ge-pi-structure-and-timelines",
+    "note": "Common SNAP 2026 final-merit weightage as published on the official SNAP site; SIBM's own MBA page also mentions a Written Ability Test without weightage."
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-12-12",
+    "examDate": "2026-12-13",
+    "notes": "For MBA 2027-29: SNAP registration & payment closes 25 Nov 2026; SNAP CBT dates 13, 19 and 26 Dec 2026 (best of up to 3 attempts); SNAP result 12 Jan 2027; SIBM programme registration closes 12 Dec 2026; shortlist 19 Jan 2027; GE-PI slot booking 20-24 Jan 2027; GE-PI 3-7 & 10-14 Feb 2027 (online); first merit list 26 Feb 2027; fee deadline 13 Mar 2027; programme starts 2 Jun 2027.",
+    "source": "https://sibm.edu/mba_importantdates"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 11,
+    "score": 67.9,
+    "nirfInstituteId": "IR-M-C-19343",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "SIBM Pune - Fees Structure Batch 2026-2028 (MBA)",
+      "url": "https://sibm.edu/mobile/assets/mobile/pdf/mbafee2026-28.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee 2026-28"
+    },
+    {
+      "title": "SIBM Pune Placement Report - Campus Recruitment Programme 2025 (MBA batch 2024-26)",
+      "url": "https://sibm.edu/mobile/assets/pdf/CRPReport2025.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "median, average, highest CTC 2024-26"
+    },
+    {
+      "title": "SIBM Pune MBA important dates (SNAP 2026)",
+      "url": "https://sibm.edu/mba_importantdates",
+      "retrievedAt": "2026-11-11",
+      "supports": "key dates 2027-29 admission"
+    },
+    {
+      "title": "SIBM Pune MBA page (mobile) - intake 240",
+      "url": "https://sibm.edu/mobile/mba",
+      "retrievedAt": "2026-11-11",
+      "supports": "intake (conflicting value 240)"
+    },
+    {
+      "title": "SIBM Pune MBA programme overview (desktop) - intake 180, specialisations, selection steps",
+      "url": "https://www.sibm.edu/mba",
+      "retrievedAt": "2026-11-11",
+      "supports": "intake (conflicting value 180); specialisations; selection steps"
+    },
+    {
+      "title": "SNAP 2026 official site - GE-PI structure and final merit weightage",
+      "url": "https://www.snaptest.org/blogs/whats-next-after-clearing-snap-ge-pi-structure-and-timelines",
+      "retrievedAt": "2026-11-11",
+      "supports": "selection weightage SNAP 50 / GE 10 / PI 40"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-11",
+      "supports": "NIRF 2025 rank 11, score 67.90"
+    }
+  ]
+}

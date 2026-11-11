@@ -1,0 +1,60 @@
+{
+  "slug": "jbims",
+  "name": "Jamnalal Bajaj Institute of Management Studies (JBIMS)",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "program": "MMS",
+  "cutoffs": [
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "All India (AI)",
+      "overall": 99.9907197,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "CAP Round I closing, AI merit no. 25. CAUTION: exam-agnostic. CET Cell lists the All India Merit No. and the bracketed score of the last allotted AI candidate; the AI merit list merges CAT/CMAT/MAH-CET etc. and the document does not say which exam this score is from, so it is NOT a CAT-specific percentile. Seat type AI-AI, choice code 0300110210 (M.M.S.).",
+      "source": {
+        "title": "Cut Off Merit for All India Seats of CAP Round-I, MBA/MMS 2025-26 (State CET Cell, Maharashtra)",
+        "url": "https://mba2025.mahacet.org.in/cetmba25/mba25/downloaddoc.php?fname=UEdfTUJBX0N1dG9mZl9DQVAxX0FJXzIwMjVfMjYwODAxMjAyNTEzMDgzMy5wZGY%3D&flag=Tk9U",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "1 25 (99.9907197) 0300110210 Jamnalal Bajaj Institute of Management Studies, Mumbai M. M. S. AI-AI AI"
+    },
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "All India (AI)",
+      "overall": 99.99,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "CAP Round II closing, AI merit no. 32. CAUTION: exam-agnostic. CET Cell lists the All India Merit No. and the bracketed score of the last allotted AI candidate; the AI merit list merges CAT/CMAT/MAH-CET etc. and the document does not say which exam this score is from, so it is NOT a CAT-specific percentile. Seat type AI-AI, choice code 0300110210 (M.M.S.).",
+      "source": {
+        "title": "Cut Off List for All India Seats of CAP Round-II, MBA/MMS 2025-26 (State CET Cell; PDF header mislabelled 'Master of Computer Applications (MBA)')",
+        "url": "https://mba2025.mahacet.org.in/cetmba25/mba25/downloaddoc.php?fname=UEdfTUJBX0RpcGxvbWFfQ0FQMl9BSV9DdXRvZmZfQWxsX0luc3RpdHV0ZXNfMjAyNV8yNjA4MTIyMDI1MTY1OTA3LnBkZg==&flag=Tk9U",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "1 32 (99.99) 0300110210 Jamnalal Bajaj Institute of Management Studies, Mumbai M. M. S. AI-AI AI"
+    },
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "All India (AI)",
+      "overall": 99.98,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "CAP Round III closing, AI merit no. 55. CAUTION: exam-agnostic. CET Cell lists the All India Merit No. and the bracketed score of the last allotted AI candidate; the AI merit list merges CAT/CMAT/MAH-CET etc. and the document does not say which exam this score is from, so it is NOT a CAT-specific percentile. Seat type AI-AI, choice code 0300110210 (M.M.S.).",
+      "source": {
+        "title": "Cut Off List for All India Seats of CAP Round-III, MBA/MMS 2025-26 (State CET Cell; PDF header mislabelled 'Master of Computer Applications (MBA)')",
+        "url": "https://mba2025.mahacet.org.in/cetmba25/mba25/downloaddoc.php?fname=UEdfTUJBX0RpcGxvbWFfQ0FQM19BSV9DdXRvZmZfQWxsX0luc3RpdHV0ZXNfMjAyNV8yNjA4MjEyMDI1MjMwMzM1LnBkZg==&flag=Tk9U",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "1 55 (99.98) 0300110210 Jamnalal Bajaj Institute of Management Studies, Mumbai M. M. S. AI-AI AI"
+    }
+  ],
+  "otherExamsAccepted": [],
+  "status": "official_cutoff_found",
+  "statusNote": "Official CET Cell CAP 2025-26 All India cutoff lists (Rounds I-III) fetched from https://mba2025.mahacet.org.in/cetmba25/mba25/index.php?show=home. Values are AI-seat closing scores, not CAT-specific (see notes). CAP 2026-27 portal https://mba2026.mahacet.org.in/mba_26/home is a JS app whose documents could not be retrieved; so 2026-28 values not verified. No CAT-specific cutoff published by JBIMS itself."
+}

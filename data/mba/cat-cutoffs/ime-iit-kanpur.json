@@ -1,0 +1,110 @@
+{
+  "slug": "ime-iit-kanpur",
+  "name": "Department of Management Sciences (DoMS, formerly IME), IIT Kanpur",
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "program": "MBA",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "General",
+      "overall": 80,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff.",
+      "source": {
+        "title": "Information Brochure MBA 2026-27, DoMS IIT Kanpur",
+        "url": "https://iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For GN, EWS and OBC(NCL) applicants 1. Overall CAT-2025 score of 80 percentile and above."
+    },
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "EWS",
+      "overall": 80,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff.",
+      "source": {
+        "title": "Information Brochure MBA 2026-27, DoMS IIT Kanpur",
+        "url": "https://iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For GN, EWS and OBC(NCL) applicants 1. Overall CAT-2025 score of 80 percentile and above."
+    },
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "NC-OBC",
+      "overall": 80,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff.",
+      "source": {
+        "title": "Information Brochure MBA 2026-27, DoMS IIT Kanpur",
+        "url": "https://iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For GN, EWS and OBC(NCL) applicants 1. Overall CAT-2025 score of 80 percentile and above."
+    },
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "SC",
+      "overall": 55,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff.",
+      "source": {
+        "title": "Information Brochure MBA 2026-27, DoMS IIT Kanpur",
+        "url": "https://iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For SC and ST applicants 1. Overall, CAT-2025 score of 55 percentile and more."
+    },
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "ST",
+      "overall": 55,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff.",
+      "source": {
+        "title": "Information Brochure MBA 2026-27, DoMS IIT Kanpur",
+        "url": "https://iitk.ac.in/doms/data/docs/programs/mba/Information-Brochure-MBA-2026.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For SC and ST applicants 1. Overall, CAT-2025 score of 55 percentile and more."
+    },
+    {
+      "batch": "2026-28",
+      "stage": "minimum_to_apply",
+      "category": "PwD",
+      "overall": 55,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Eligibility minimum (overall CAT 2025 percentile) to apply; actual shortlisting cut-offs decided per category based on applications (not published). No sectional cutoff. PwD stated only on web page (which still references CAT-2024 in this line).",
+      "source": {
+        "title": "MBA Admission Process, DoMS IIT Kanpur",
+        "url": "https://iitk.ac.in/doms/mba-admission-process",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For SC/ST and PWD Overall score of 55 percentile or above in CAT-2024"
+    }
+  ],
+  "otherExamsAccepted": [
+    "CAT 2025"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Brochure explicitly for 2026-28 batch. Web page also requires 65% in Class X and XII for GEN/EWS/OBC."
+}

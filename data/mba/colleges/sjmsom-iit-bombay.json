@@ -1,0 +1,236 @@
+{
+  "slug": "sjmsom-iit-bombay",
+  "name": "Shailesh J. Mehta School of Management, IIT Bombay",
+  "shortName": "SJMSOM IIT Bombay",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "government",
+  "website": "https://www.som.iitb.ac.in/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 1555800,
+      "feeYear": "2026-28",
+      "feeNote": "Total programme fee for General/EWS/OBC-NCL (SC/ST/PwD: INR 7,55,800 - tuition waived). Tuition INR 2,00,000 per semester; per-semester total INR 3,82,450. Hostel/mess extra if availed (hostel INR 20,250 + mess advance INR 27,000 per semester); refundable deposits INR 10,000.",
+      "intake": null,
+      "intakeNote": "Seats for 2026-28 not found on official pages; graduating 2024-26 batch size was 126 (Final Placement Report).",
+      "medianSalary": 2600000,
+      "averageSalary": 2816000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Final Placement Report 2024-26: 100% placement, batch 126, median 26 LPA, average 28.16 LPA, highest 53.80 LPA, PPO rate 35.7%. No audit mentioned.",
+      "sources": {
+        "fee": "https://www.som.iitb.ac.in/tuition-and-fees/",
+        "intake": null,
+        "salary": "https://www.som.iitb.ac.in/wp-content/uploads/2016/07/Final-Placement-Report-2024-26.pdf",
+        "admission": "https://www.som.iitb.ac.in/mba-admission-criteria/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "PI shortlisting",
+      "weightage": "CAT 2025 overall scaled score 75%, academic profile 20%, work experience 5%",
+      "detail": "Composite-score shortlisting; women may be shortlisted for gender diversity without extra weightage. PIs held 5-8 March 2026 (2026-28 cycle)."
+    },
+    {
+      "stage": 2,
+      "name": "Final selection on composite score",
+      "weightage": "CAT 42.5%, PI 42.5%, UG 5%, work experience 5%, extra-curricular 3%, PG 2%",
+      "detail": "Composite of CAT score, academics, work experience and PI score."
+    }
+  ],
+  "selectionWeightage": {
+    "CAT": 42.5,
+    "PersonalInterview": 42.5,
+    "Undergraduate": 5,
+    "WorkExperience": 5,
+    "ExtraCurricular": 3,
+    "PG": 2,
+    "note": "Final composite for 2026 admission intake; PI shortlisting uses CAT 75 / academics 20 / work-ex 5",
+    "source": "https://www.som.iitb.ac.in/final-eval-criteria/"
+  },
+  "officialCutoffs": [
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "GN/EWS",
+      "overall": 42.28,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score (CAT 75% + academics 20% + work-ex 5%), not CAT percentile",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "GN/EWS (additional women category)",
+      "overall": 41.28,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score, additional women category list",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "OBC-NC",
+      "overall": 38.05,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score (CAT 75% + academics 20% + work-ex 5%), not CAT percentile",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "OBC-NC (additional women category)",
+      "overall": 37.15,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score, additional women category list",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "SC",
+      "overall": 28.19,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score (CAT 75% + academics 20% + work-ex 5%), not CAT percentile",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "SC (additional women category)",
+      "overall": 27.52,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score, additional women category list",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "ST",
+      "overall": 28.19,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score (CAT 75% + academics 20% + work-ex 5%), not CAT percentile",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "ST (additional women category)",
+      "overall": 27.52,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score, additional women category list",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "PWD",
+      "overall": 28.19,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score (CAT 75% + academics 20% + work-ex 5%), not CAT percentile",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    },
+    {
+      "exam": "CAT",
+      "year": 2025,
+      "batch": "2026-28",
+      "category": "PWD (additional women category)",
+      "overall": 27.52,
+      "sectional": null,
+      "stage": "shortlisting",
+      "metric": "Composite score, additional women category list",
+      "source": "https://www.som.iitb.ac.in/composite-score-cut-off/"
+    }
+  ],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "2027-29 dates not yet published (admissions page returns 403 to our tools). For 2026-28 the application window was 1-31 Jan 2026 (Brochure 2026) and PIs were 5-8 Mar 2026.",
+    "source": "https://www.som.iitb.ac.in/admissions/MBA_Brochure_2026.pdf"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 14,
+    "score": 65.82,
+    "nirfInstituteId": "IR-M-U-0306",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+    "note": "Ranked entity is IIT Bombay (management programme run by SJMSOM)."
+  },
+  "sources": [
+    {
+      "title": "SJMSOM Final Placement Report 2024-26",
+      "url": "https://www.som.iitb.ac.in/wp-content/uploads/2016/07/Final-Placement-Report-2024-26.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "median/average/highest CTC 2024-26; batch size"
+    },
+    {
+      "title": "SJMSOM MBA Tuition and Fees",
+      "url": "https://www.som.iitb.ac.in/tuition-and-fees/",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee 2026-28"
+    },
+    {
+      "title": "SJMSOM Admission Criteria 2026-28",
+      "url": "https://www.som.iitb.ac.in/mba-admission-criteria/",
+      "retrievedAt": "2026-11-11",
+      "supports": "eligibility; exams; selection process"
+    },
+    {
+      "title": "SJMSOM PI Shortlisting Criteria",
+      "url": "https://www.som.iitb.ac.in/pi-shortlisting-criteria/",
+      "retrievedAt": "2026-11-11",
+      "supports": "shortlisting weights"
+    },
+    {
+      "title": "SJMSOM Final Evaluation Criteria",
+      "url": "https://www.som.iitb.ac.in/final-eval-criteria/",
+      "retrievedAt": "2026-11-11",
+      "supports": "final composite weights"
+    },
+    {
+      "title": "SJMSOM Composite Score cut-off",
+      "url": "https://www.som.iitb.ac.in/composite-score-cut-off/",
+      "retrievedAt": "2026-11-11",
+      "supports": "category-wise composite score cut-offs"
+    },
+    {
+      "title": "SJMSOM MBA Brochure 2026",
+      "url": "https://www.som.iitb.ac.in/admissions/MBA_Brochure_2026.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "2026-28 application window"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-11",
+      "supports": "NIRF rank/score"
+    }
+  ]
+}

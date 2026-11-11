@@ -1,0 +1,72 @@
+{
+  "id": "xat",
+  "name": "XAT",
+  "fullName": "Xavier Aptitude Test",
+  "conductingBody": "XLRI - Xavier School of Management, Jamshedpur (on behalf of XAMI - Xavier Association of Management Institutes)",
+  "officialUrl": "https://xatonline.in/",
+  "cycle": "XAT 2027",
+  "eligibility": "A recognized Bachelor's degree of at least three years' duration or its equivalent in any discipline. Candidates appearing for their final exams by June 11, 2027 are also eligible to apply. All Indian candidates must appear for XAT 2027; NRI, Foreign, OCI and PIO candidates may apply (to XLRI) through GMAT.",
+  "mode": "Computer-based test (\"conducted online\" per XLRI Admission Prospectus 2027; exam in English, MCQs with five options as per XAT 2026 official instructions)",
+  "frequency": "Once per cycle: a single test date (Sunday, January 03, 2027, 2:00 PM to 5:00 PM) across 100+ test cities",
+  "pattern": {
+    "sections": [
+      { "name": "Part 1 - Verbal Ability and Logical Reasoning (VA & LR)", "questions": 26, "minutes": null },
+      { "name": "Part 1 - Decision Making (DM)", "questions": 21, "minutes": null },
+      { "name": "Part 1 - Quantitative Aptitude and Data Interpretation (QA & DI)", "questions": 28, "minutes": null },
+      { "name": "Part 2 - General Knowledge (GK)", "questions": 20, "minutes": 10 }
+    ],
+    "totalMinutes": 180,
+    "marking": "Part 1: +1 for each correct answer, -0.25 for each incorrect answer, and -0.10 for each un-attempted question after 12 un-attempted questions. Part 2 (GK): +1 for each correct answer, no negative marking for incorrect answers.",
+    "notes": "Question counts are given officially as 'About' 26/21/28/20 (XAT 2027 Quick Overview). Part 1 (three sections) shares 170 minutes with no sectional time limits; Part 2 (GK) has 10 minutes. GK scores are used exclusively by XLRI for its final selection process. PwD candidates get an additional 20 minutes for every hour. FAQ: candidates may begin with any section and switch between sections. The scrolling homepage notice showing 'January 5, 2027' is commented out in the page source and conflicts with the Bulletin/Prospectus/FAQ (January 03, 2027), so it is ignored."
+  },
+  "syllabusAreas": [
+    "Verbal Ability and Logical Reasoning: critical and analytical reasoning, reading comprehension (including poems, cartoons and passages), vocabulary, English grammar, para jumbles, cloze tests",
+    "Decision Making: scenarios from personal and professional lives requiring critical thinking, problem-solving and prioritization",
+    "Quantitative Aptitude: arithmetic, algebra, geometry, mensuration, modern maths",
+    "Data Interpretation: interpretation, summarization and analysis of data",
+    "General Knowledge: 8 questions on static GK and 12 on current affairs"
+  ],
+  "registrationFee": [
+    { "category": "XAT registration (Indian candidates)", "amount": 2300, "currency": "INR" },
+    { "category": "Additional fee per XLRI programme applied to (through XAT)", "amount": 200, "currency": "INR" },
+    { "category": "Indian candidates applying to XLRI PGDM (GM) through GMAT/GRE", "amount": 2600, "currency": "INR" },
+    { "category": "NRI/Foreign/PIO/OCI candidates applying to one or more XLRI programmes through GMAT", "amount": 5000, "currency": "INR" }
+  ],
+  "keyDates": [
+    { "event": "XAT & XLRI registration opens", "date": "2026-07-15", "tentative": false },
+    { "event": "XAT & XLRI registration closes (last date for online registration)", "date": "2026-12-06", "tentative": false },
+    { "event": "Admit card download from", "date": "2026-12-20", "tentative": true },
+    { "event": "XAT 2027 exam (2:00 PM to 5:00 PM)", "date": "2027-01-03", "tentative": false },
+    { "event": "XAT result", "dateText": "Last week of January 2027", "tentative": true },
+    { "event": "Score card download window opens", "date": "2027-01-31", "tentative": false },
+    { "event": "Score card download window closes", "date": "2027-06-30", "tentative": false }
+  ],
+  "scoreValidity": null,
+  "acceptingInstitutes": {
+    "officialListUrl": "https://xatonline.in/associate",
+    "notable": [
+      "XLRI Xavier School of Management, Jamshedpur",
+      "Xavier Institute of Management, XIM University, Bhubaneswar",
+      "Loyola Institute of Business Administration, Chennai",
+      "Xavier Institute of Management & Entrepreneurship, Bengaluru",
+      "Xavier Institute of Management & Research, Mumbai",
+      "Xavier Business School (XBS), St. Xavier's University, Kolkata",
+      "Xavier Institute of Social Service, Ranchi",
+      "St. Joseph's Institute of Management, Bengaluru",
+      "St. Francis Institute of Management and Research, Mumbai",
+      "Xavier Institute of Development Action and Sciences (XIDAS), Jabalpur",
+      "St. Aloysius Institute of Management and Information Technology, Mangalore",
+      "Xavier Institute of Management and Informatics, Jaipur",
+      "Quinlan School of Business, Loyola University Chicago"
+    ]
+  },
+  "resultAndCounselling": "Results are announced on xatonline.in about three weeks after the exam (last week of January 2027); the score card must be downloaded from xatonline.in between January 31 and June 30, 2027 (no hard copy is sent). There is no centralised counselling. For XLRI, candidates select programmes in the same XAT application; shortlisting for interviews in PGDM (BM) and PGDM (HRM) is based only on XAT scores, and final selection considers XAT performance (including GK), academic background, relevant work experience, personal interview and/or group discussion, extracurricular activities and other criteria. Other institutes using XAT scores run their own application and selection processes and decide their own weightages; XLRI has no role in them.",
+  "sources": [
+    { "title": "XAT 2027 Bulletin", "url": "https://xatonline.in/assets/pdf/xat-bulletin-2027.pdf", "retrievedAt": "2026-11-11", "supports": "Conducting body (XLRI on behalf of XAMI), exam date Jan 03 2027, 250+ accepting institutes, fees (2300, +200 per XLRI programme, 2600 GMAT/GRE PGDM(GM), 5000 NRI/foreign via GMAT), important dates (registration Jul 15-Dec 06 2026, admit card Dec 20 2026 tentative, result last week Jan 2027, score card Jan 31-Jun 30 2027), XAMI member list, other institutions' independent selection" },
+    { "title": "XAT 2027: A Quick Overview", "url": "https://xatonline.in/assets/pdf/xat-2027-overview.pdf", "retrievedAt": "2026-11-11", "supports": "Sections, approximate question counts, 170 + 10 minute timing, question types/syllabus areas, marking scheme incl. -0.10 after 12 un-attempted questions, GK used only by XLRI, PwD extra time (image-only PDF, read visually)" },
+    { "title": "XAT FAQs", "url": "https://xatonline.in/faq", "retrievedAt": "2026-11-11", "supports": "Eligibility wording (3-year bachelor's, final exams by June 11 2027, NRI/foreign via GMAT), exam time 2:00-5:00 PM, results ~3 weeks after exam, no sectional time limits, section order freedom" },
+    { "title": "XLRI Admission Prospectus 2027", "url": "https://xatonline.in/assets/pdf/xlri-admission-prospectus-2027.pdf", "retrievedAt": "2026-11-11", "supports": "XAT conducted online, last registration date Dec 06 2026, 100+ test cities, fees, scorecard online only, XLRI shortlisting on XAT scores and selection criteria" },
+    { "title": "Important Instructions XAT 2026 (previous cycle)", "url": "https://xatonline.in/assets/pdf/Important_Instructions_XAT_2026.pdf", "retrievedAt": "2026-11-11", "supports": "Computer-based mode in English, total 180 minutes, five-option MCQs (as per XAT 2026)" },
+    { "title": "XAT official website home page", "url": "https://xatonline.in/", "retrievedAt": "2026-11-11", "supports": "Official URL, '1 Entrance Test | 100+ Test Cities | 250+ B-Schools Accept XAT Score', links to Associate Institutions list" }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "xlri-jamshedpur",
+  "name": "XLRI - Xavier School of Management",
+  "shortName": "XLRI",
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "type": "private",
+  "website": "https://xlri.ac.in",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management - Business Management (PGDM-BM)",
+      "durationYears": 2,
+      "examsAccepted": ["XAT", "GMAT"],
+      "specialisations": ["Economics", "Environment, Society and Governance (ESG)", "Finance", "Information Systems", "Marketing", "Production, Operations & Decision Sciences", "Strategic Management"],
+      "feeTotal": 3060000,
+      "feeYear": "2027-29",
+      "feeNote": "Admission Prospectus 2027 states programme fees and other charges for the 2-year PGDM(BM)/PGDM(HRM) will be approximately Rs 15.3 lakh per annum (total shown = 2 x 15.3 lakh, approximate); subject to revision and communicated before admission.",
+      "intake": null,
+      "intakeNote": "Programme seats not stated in Admission Prospectus 2027; XLRI's own NIRF data/mandatory disclosure could not be retrieved.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Official prospectus confirms 145 recruiting organisations (25 first-time) in final placements for 2024-26 BM+HRM batch (Jamshedpur + Delhi-NCR) and 42.5% PPOs, but gives no salary figures. XLRI's placement-report page is rendered client-side and its figures could not be read from an official URL, so median/average left null.",
+      "sources": {
+        "fee": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565",
+        "intake": null,
+        "salary": null,
+        "admission": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565"
+      }
+    },
+    {
+      "name": "Post Graduate Diploma in Management - Human Resource Management (PGDM-HRM)",
+      "durationYears": 2,
+      "examsAccepted": ["XAT", "GMAT"],
+      "specialisations": ["Employee Well-Being and Effectiveness", "HR Strategy", "Sustainability and Future of Work", "Labor, Social Justice, and Law", "Organization Development", "Performance, Compensation & Rewards", "Staffing and Development"],
+      "feeTotal": 3060000,
+      "feeYear": "2027-29",
+      "feeNote": "Same as PGDM(BM): approximately Rs 15.3 lakh per annum per Admission Prospectus 2027; subject to revision.",
+      "intake": null,
+      "intakeNote": "Not stated in Admission Prospectus 2027.",
+      "medianSalary": null,
+      "averageSalary": null,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Combined BM+HRM final placement; no official salary figure readable (see PGDM-BM note).",
+      "sources": {
+        "fee": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565",
+        "intake": null,
+        "salary": null,
+        "admission": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Shortlisting for interview on XAT 2027 score", "weightage": null, "detail": "Shortlist for interview in BM & HRM programmes is based only on XAT scores. NRI/Foreign national/PIO/OCI candidates may apply through GMAT."},
+    {"stage": 2, "name": "Personal interview and/or group discussion; final selection", "weightage": null, "detail": "Final list considers XAT performance, academic background, relevant work experience, performance in personal interview and/or group discussion, extracurricular activities and other relevant criteria. Weights not published in prospectus."}
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-12-06",
+    "examDate": "2027-01-03",
+    "notes": "XAT 2027 online on 3 Jan 2027; last date for online registration of XAT-XLRI programmes 6 Dec 2026. XAT fee Rs 2,300 + Rs 200 per XLRI programme. Final exams must be completed by 11 June 2027; orientation June 2027.",
+    "source": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565"
+  },
+  "nirf": {"year": 2025, "managementRank": 10, "score": 70.63, "nirfInstituteId": "IR-M-S-132", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"},
+  "sources": [
+    {"title": "XLRI Admission Prospectus 2027 (linked as 'Admission Prospectus' from xlri.ac.in)", "url": "https://cloud-server.xlri.ac.in/file/6ae1febe65cd3e58180bb565", "retrievedAt": "2026-11-11", "supports": "fee (approx 15.3 lakh p.a.) 2027-29; exams; specialisations; selection process; XAT 2027 dates; 2024-26 recruiter count"},
+    {"title": "XLRI Placement Reports (BM & HRM) page", "url": "https://xlri.ac.in/corporate-relations-and-placement/placement-reports", "retrievedAt": "2026-11-11", "supports": "existence of 2024-26 final placement report (figures not readable; salary left null)"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF 2025 rank 10, score 70.63"}
+  ]
+}

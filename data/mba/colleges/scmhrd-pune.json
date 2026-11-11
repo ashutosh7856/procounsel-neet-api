@@ -1,0 +1,109 @@
+{
+  "slug": "scmhrd-pune",
+  "name": "Symbiosis Centre for Management and Human Resource Development",
+  "shortName": "SCMHRD",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "type": "deemed",
+  "website": "https://scmhrd.edu/",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "SNAP"
+      ],
+      "specialisations": [
+        "Marketing",
+        "Finance",
+        "Human Resource Management",
+        "Operations Management",
+        "Strategy, Innovation & Entrepreneurship"
+      ],
+      "feeTotal": 2582000,
+      "feeYear": "2026-28",
+      "feeNote": "Academic fees for Indian students: Rs 6,45,500 per instalment x 4 = Rs 25,82,000. Excludes refundable institute deposit (Rs 20,000) and hostel deposit (Rs 20,000), hostel (3-sharing, Rs 1,12,500 year 1) and mess (Rs 59,800 per instalment year 1); hostel/mess may rise up to 15% a year. Separate MBA (Business Analytics) and MBA (Infrastructure Development & Management) programmes have different fees.",
+      "intake": 180,
+      "intakeNote": "MBA (Marketing/Finance/HR/Operations) seats per SCMHRD MBA programme page (2026-28/2027-29); reservations SC 15%, ST 7.5%, PwD 3%. MBA-BA (90) and MBA-IDM (60) are separate programmes.",
+      "medianSalary": 2000000,
+      "averageSalary": 2190000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Official Final Placement Report batch 2024-26, flagship MBA (HR, Sales & Marketing, Finance) combined: highest Rs 38.00 L, median Rs 20.00 L, average Rs 21.90 L; 114+ recruiters; 50% of offers at Rs 20 L and above. Excludes MBA-BA and MBA-IDM. Not stated as audited.",
+      "sources": {
+        "fee": "https://scmhrd.edu/programmes/mba/?tab=fee_structure",
+        "intake": "https://scmhrd.edu/programmes/mba/",
+        "salary": "https://scmhrd.edu/wp-content/uploads/2026/08/final-placement-report-24-26.pdf",
+        "admission": "https://scmhrd.edu/programmes/mba/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "SNAP 2026 test",
+      "weightage": "50 marks (SNAP score out of 60 scaled to 50)",
+      "detail": "Shortlist declared 21 Jan 2027."
+    },
+    {
+      "stage": 2,
+      "name": "Group Exercise (GE)",
+      "weightage": "10 marks",
+      "detail": "GE-PI 30-31 Jan and 2-12 Feb 2027."
+    },
+    {
+      "stage": 3,
+      "name": "Personal Interaction (PI)",
+      "weightage": "40 marks",
+      "detail": "Final selection on cumulative performance in SNAP, GE and PI; first merit list 2 Mar 2027."
+    }
+  ],
+  "selectionWeightage": {
+    "SNAP": 50,
+    "GroupExercise": 10,
+    "PersonalInteraction": 40,
+    "source": "https://www.snaptest.org/blogs/whats-next-after-clearing-snap-ge-pi-structure-and-timelines",
+    "note": "Common SNAP 2026 final-merit weightage per official SNAP site; SCMHRD page states cumulative SNAP+GE+PI without numbers."
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-12-12",
+    "examDate": "2026-12-13",
+    "notes": "For MBA 2027-29: SNAP registration closes 25 Nov 2026; SNAP tests 13, 19, 26 Dec 2026; result 12 Jan 2027; SCMHRD registration closes 12 Dec 2026; shortlist 21 Jan 2027; GE-PI slot booking 21-24 Jan 2027; GE-PI 30-31 Jan & 2-12 Feb 2027; first merit list 2 Mar 2027; fee deadline 16 Mar 2027; programme starts 3 Jun 2027.",
+    "source": "https://scmhrd.edu/programmes/mba/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": null,
+    "score": null,
+    "note": "Not in NIRF 2025 Management ranks 1-100; 101-125 band not checked",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "SCMHRD MBA fee structure, batch 2026-28",
+      "url": "https://scmhrd.edu/programmes/mba/?tab=fee_structure",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee 2026-28"
+    },
+    {
+      "title": "SCMHRD Final Placement Report Batch 2024-26",
+      "url": "https://scmhrd.edu/wp-content/uploads/2026/08/final-placement-report-24-26.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "median, average, highest CTC 2024-26"
+    },
+    {
+      "title": "SCMHRD MBA programme page (intake, specialisations, important dates)",
+      "url": "https://scmhrd.edu/programmes/mba/",
+      "retrievedAt": "2026-11-11",
+      "supports": "intake 180; specialisations; key dates 2027-29; selection components"
+    },
+    {
+      "title": "SNAP 2026 official site - GE-PI structure and final merit weightage",
+      "url": "https://www.snaptest.org/blogs/whats-next-after-clearing-snap-ge-pi-structure-and-timelines",
+      "retrievedAt": "2026-11-11",
+      "supports": "selection weightage SNAP 50 / GE 10 / PI 40"
+    }
+  ]
+}

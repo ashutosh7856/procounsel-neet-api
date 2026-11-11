@@ -1,0 +1,82 @@
+{
+  "id": "nmat",
+  "name": "NMAT",
+  "fullName": "NMAT by GMAC",
+  "conductingBody": "Graduate Management Admission Council (GMAC), delivered by Graduate Management Global Connection (India) Private Limited (GMGC), a GMAC subsidiary",
+  "officialUrl": "https://www.mba.com/exams/nmat",
+  "cycle": "NMAT 2026",
+  "eligibility": "GMAC sets no separate eligibility criterion for the test. Official terms: \"It is the responsibility of the test taker to understand the eligibility requirements of all the universities and schools to which he/she is interested in applying before registering for the Test... test takers are advised to check the websites of each university and school where they plan to apply.\"",
+  "mode": "Computer-adaptive test. Candidates located in India may take only the Test Centre Exam; candidates outside India may take only the Online Proctored Exam at Home.",
+  "frequency": "Maximum of three attempts in a testing year (first attempt plus up to two retakes, No Shows included). A retake can be registered once the previous attempt's score has been received, for any date more than 15 days after the previous attempt. Each retake costs INR 3,000 (excluding taxes).",
+  "pattern": {
+    "sections": [
+      { "name": "Language Skills", "questions": 36, "minutes": 28 },
+      { "name": "Quantitative Skills", "questions": 36, "minutes": 52 },
+      { "name": "Logical Reasoning", "questions": 36, "minutes": 40 }
+    ],
+    "totalMinutes": 120,
+    "marking": "Each section is scored 12-120; the total is 36-360. The three sections are weighted equally. There is no negative marking: no marks are deducted for wrong or unanswered questions.",
+    "notes": "108 multiple-choice questions in total. Before the test, there is a 2-minute NDA, an 8-minute tutorial and 3 minutes to choose section order. The test taker picks the order of the sections. Each section has its own time limit: unused time does not carry over, and you cannot return to a section once you leave it. GMAC's syllabus article gives 38 minutes for Language Skills; this file uses the 28 minutes stated in the official Terms and Conditions, which matches the 120-minute total."
+  },
+  "syllabusAreas": [
+    "Quantitative Skills: Number properties (fractions and decimals, logarithms, factors and multiples incl. LCM/HCF, prime numbers)",
+    "Quantitative Skills: Arithmetic (percentages, simple and compound interest, profit and loss, ratio, proportion and averages, time and work)",
+    "Quantitative Skills: Algebra and probability (linear and quadratic equations, inequalities, sequences and series, permutations and combinations, probability)",
+    "Quantitative Skills: Data interpretation and data sufficiency (caselets, graphs and charts, tables)",
+    "Logical Reasoning: Verbal reasoning (critical reasoning - conclusions, inferences, assumptions, strong/weak arguments, verbal logic; deductions)",
+    "Logical Reasoning: Analytical reasoning (syllogisms, analytical puzzles, input-output, seating arrangements, decision-making, Venn diagrams)",
+    "Language Skills: Reading comprehension, para forming, error identification, prepositions, sentence completion, analogies"
+  ],
+  "registrationFee": [
+    { "category": "Registration - India (excluding taxes)", "amount": 3000, "currency": "INR" },
+    { "category": "Retake - India (excluding taxes)", "amount": 3000, "currency": "INR" },
+    { "category": "Rescheduling - India (excluding taxes)", "amount": 1200, "currency": "INR" },
+    { "category": "Score sending to each additional school beyond the 5 included - India (excluding taxes)", "amount": 400, "currency": "INR" },
+    { "category": "Registration - International (excluding taxes)", "amount": 65, "currency": "USD" },
+    { "category": "Retake - International (excluding taxes)", "amount": 65, "currency": "USD" }
+  ],
+  "keyDates": [
+    { "event": "Registration opens (India)", "date": "2026-08-20", "tentative": false },
+    { "event": "Registration closes (India)", "date": "2026-10-31", "tentative": false },
+    { "event": "Scheduling opens (India)", "date": "2026-08-20", "tentative": false },
+    { "event": "Scheduling closes (India)", "date": "2026-10-31", "tentative": false },
+    { "event": "Exam delivery window opens (India)", "date": "2026-11-02", "tentative": false },
+    { "event": "Exam delivery window closes (India)", "date": "2026-12-20", "tentative": false },
+    { "event": "Retake registration/scheduling window", "dateText": null, "tentative": true }
+  ],
+  "scoreValidity": "Valid for one application cycle only. GMAC: \"your NMAT Exam score only lasts for one application cycle. If you want to apply with the NMAT again another year, you have to sit the NMAT again.\"",
+  "acceptingInstitutes": {
+    "officialListUrl": "https://www.mba.com/exams/nmat/nmat-schools",
+    "notable": [
+      "NMIMS Mumbai - Two-Year MBA programs",
+      "SP Jain Institute of Management & Research (SPJIMR), Mumbai - Global Management Program (GMP)",
+      "Indian School of Business",
+      "K J Somaiya Institute of Management, Mumbai - MBA",
+      "T A Pai Management Institute (TAPMI), Manipal - MBA",
+      "SDA Bocconi Asia Center, Mumbai - International Master's in Business",
+      "Great Lakes Institute of Management (Gurgaon, Chennai) - PGPM",
+      "SOIL Institute of Management, Gurgaon - PGPM, PGDM",
+      "BML Munjal University, Gurgaon - MBA",
+      "Jindal Global Business School, Sonipat - MBA",
+      "Amity University, Noida - MBA",
+      "Chitkara Business School, Chandigarh - MBA",
+      "FLAME University, Pune - MBA",
+      "PDEU School of Management - MBA",
+      "Alliance University, Bangalore - MBA",
+      "SRM School of Management, Chennai - MBA",
+      "VIT Business School, Vellore - MBA",
+      "Krea University IFMR Graduate School of Business, Sri City - MBA",
+      "ICFAI Business School (IBS), Hyderabad - Two-year MBA",
+      "Woxsen School of Business, Hyderabad - MBA",
+      "XIM University (XIMB), Bhubaneswar - MBA programmes"
+    ]
+  },
+  "resultAndCounselling": "Unofficial scores appear on screen right after the test. The official score card, with scaled section and total scores, is ready within 48 hours; exams flagged for security review are audited, and those results come out within 10 working days. Registration covers score sending to up to 5 programmes/schools, and each additional school costs extra. There is no central counselling. Each school runs its own admission process and NMAT cutoff, and GMAC says cutoffs vary by college and year.",
+  "sources": [
+    { "title": "NMAT by GMAC Exam | mba.com (official NMAT home; nmat.org redirects here)", "url": "https://www.mba.com/exams/nmat", "retrievedAt": "2026-11-11", "supports": "2026 India key dates (registration and scheduling 20 Aug-31 Oct 2026, exam delivery 2 Nov-20 Dec 2026); no negative marking; equal section weighting; adaptive format; 3 attempts; scorecard within 48 hours" },
+    { "title": "NMAT by GMAC Exam - Terms and Conditions (India, Sri Lanka, Bhutan, Nepal, Bangladesh) PDF", "url": "https://www.mba.com/-/media/mbasite/nmat-modular/terms-condition-india-sri-lanka-bhutan-nepal-bangladesh.pdf", "retrievedAt": "2026-11-11", "supports": "Conducting body (GMGC, a GMAC subsidiary); India test-centre-only / international online-only; section questions, minutes and score ranges (36/28, 36/52, 36/40; 12-120 each; 36-360 total); pre-test timings; maximum 3 attempts per testing year; retake rule (after score received, more than 15 days after previous attempt); eligibility wording; 5 schools included in fee; official score card within 48 hours" },
+    { "title": "NMAT 2026-27: Key info, dates, fees, registration process (GMAC)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/nmat-exam", "retrievedAt": "2026-11-11", "supports": "Fees excluding taxes (INR 3,000 registration and retake, INR 1,200 rescheduling, INR 400 additional school; international USD 65/65/30/5); score range 36-360; no negative marking; 3 attempts per testing year with a 15-day gap; score valid for one application cycle; results audit within 10 working days; ISB and SPJIMR accept NMAT. This article (Aug 2026) gives earlier dates (registration closing 10 Oct, scheduling closing 22 Oct 2026); this file uses the later dates on mba.com" },
+    { "title": "What is on the NMAT syllabus? (GMAC)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/what-is-on-nmat-syllabus", "retrievedAt": "2026-11-11", "supports": "syllabusAreas topic lists; 108 questions; section score range 12-120" },
+    { "title": "NMAT-accepting MBA colleges in India with cutoff scores (GMAC)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/nmat-accepting-mba-colleges-india-cutoff-scores", "retrievedAt": "2026-11-11", "supports": "acceptingInstitutes.notable (schools and programmes named as NMAT-accepting); cutoffs vary by college and year" }
+  ]
+}

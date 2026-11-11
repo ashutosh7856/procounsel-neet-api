@@ -48,6 +48,10 @@ def _load_service_account() -> dict[str, Any]:
                 raw = file.read()
         except OSError as error:
             raise DatabaseConfigError(f"Cannot read FIREBASE_CREDENTIALS_PATH: {error}") from error
+    # Tolerate values pasted from a shell env file: surrounding whitespace and quotes.
+    raw = raw.strip()
+    if len(raw) >= 2 and raw[0] == raw[-1] and raw[0] in "'\"":
+        raw = raw[1:-1].strip()
     try:
         info = json.loads(raw)
     except json.JSONDecodeError as error:

@@ -1,0 +1,53 @@
+{
+  "id": "cat",
+  "name": "CAT",
+  "fullName": "Common Admission Test (CAT) 2026",
+  "conductingBody": "Indian Institutes of Management (CAT 2026 conducted by IIM Indore)",
+  "officialUrl": "https://iimcat.ac.in",
+  "cycle": "CAT 2026",
+  "eligibility": "A Bachelor's Degree with at least 50% marks or equivalent CGPA (45% for SC, ST and PwBD), from a university or institution incorporated by an Act of Parliament or State legislature, a deemed university, or an equivalent qualification recognised by the Ministry of Education. Final-year students and candidates awaiting results can also apply; if selected they join provisionally. CA/CS/ICWA (CMA)/FIAI with the required percentage are also eligible.",
+  "mode": "Computer-based test, in about 170 test cities",
+  "frequency": "Once a year, held on a single day in three sessions (29 Nov 2026). The registration fee is paid once whatever the number of IIM programmes applied to.",
+  "pattern": {
+    "sections": [
+      { "name": "Verbal Ability and Reading Comprehension (VARC)", "questions": null, "minutes": 40 },
+      { "name": "Data Interpretation and Logical Reasoning (DILR)", "questions": null, "minutes": 40 },
+      { "name": "Quantitative Ability (QA)", "questions": null, "minutes": 40 }
+    ],
+    "totalMinutes": 120,
+    "marking": "MCQ: +3 correct, -1 wrong, 0 unattempted. Non-MCQ (type-in, 'TITA'): +3 correct, 0 wrong (no negative marking). This scheme was stated explicitly in the official CAT 2023 result release and has not been restated in the CAT 2024-2026 documents retrieved, so it is carried forward.",
+    "notes": "Exactly 40 minutes per section; candidates cannot switch between sections. Question counts for CAT 2026 are null because the CAT Centre publishes them only after the exam. CAT 2025 and CAT 2024 had VARC 24, DILR 22, QA 22 (68 in total). PwD candidates get 160 minutes. See data/mba/cat_exam.json for year-wise versions."
+  },
+  "syllabusAreas": [
+    "Verbal Ability and Reading Comprehension",
+    "Data Interpretation and Logical Reasoning",
+    "Quantitative Ability"
+  ],
+  "registrationFee": [
+    { "category": "SC, ST and PwBD", "amount": 1350, "currency": "INR" },
+    { "category": "All other candidates", "amount": 2700, "currency": "INR" }
+  ],
+  "keyDates": [
+    { "event": "Registration opens (10:00 a.m.)", "date": "2026-08-03", "tentative": false },
+    { "event": "Registration closes (original date in bulletin)", "date": "2026-09-15", "tentative": false },
+    { "event": "Registration closes (extended, 5 PM)", "date": "2026-09-22", "tentative": false },
+    { "event": "Admit card download window", "dateText": "04 Nov 2026 to 29 Nov 2026", "tentative": false },
+    { "event": "CAT 2026 exam (three sessions)", "date": "2026-11-29", "tentative": false },
+    { "event": "Result", "dateText": "Likely by the first week of January 2027", "tentative": true }
+  ],
+  "scoreValidity": "The CAT 2026 score is valid only until 31 December 2027.",
+  "acceptingInstitutes": {
+    "officialListUrl": "https://iimcat.ac.in",
+    "notable": ["IIM Ahmedabad", "IIM Amritsar", "IIM Bangalore", "IIM Bodh Gaya", "IIM Calcutta", "IIM Guwahati", "IIM Indore", "IIM Jammu"],
+    "note": "The bulletin lists all IIMs and their programmes; only the first entries are reproduced here. Non-IIM member institutions may use CAT 2026 scores, and their list is on iimcat.ac.in (a JS site that was not readable). In Maharashtra, CAT percentile is one of the merit bases for MBA/MMS CAP (see mah-mba-cet.json)."
+  },
+  "resultAndCounselling": "Score cards are published on the CAT website, and candidates may also be told by SMS. There is no common counselling. Each IIM sets its own eligibility, academic cut-offs and weights and runs its own shortlisting (WAT/PI etc.), using CAT along with academics and work experience. See data/mba/programs for IIM-wise minimum thresholds. Some IIMs run a common admission process (CAP/JAP).",
+  "sources": [
+    { "title": "CAT 2026 Information Bulletin (26-07-26)", "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Information_Bulletin_26-07-26.pdf", "retrievedAt": "2026-11-11", "supports": "Computer-based test on 29 Nov 2026 in 3 sessions; fee Rs 2700 / Rs 1350 (SC/ST/PwBD); registration 3 Aug to 15 Sep 2026; admit cards 4-29 Nov 2026; ~170 test cities; result likely by first week of Jan 2027; score valid till 31 Dec 2027; IIM programme list; non-IIM institutions; admission process" },
+    { "title": "CAT 2026 Eligibility", "url": "https://iimcat.ac.in/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Eligibility_26-07-26.pdf", "retrievedAt": "2026-11-11", "supports": "Eligibility wording" },
+    { "title": "CAT 2026 Press Release, IIM Indore (26 Jul 2026)", "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf", "retrievedAt": "2026-11-11", "supports": "IIM Indore conducts CAT 2026; 120 min; VARC/DILR/QA 40 min each; no switching between sections" },
+    { "title": "CAT 2026 Media Release (22 Sep 2026)", "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Media_Release_22-09-2026.pdf", "retrievedAt": "2026-11-11", "supports": "Registration deadline extended to 22 Sep 2026, 5 PM" },
+    { "title": "CAT 2025 Media Release (01 Dec 2025)", "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2025/CAT_2025_Media_Release_01_Dec_2025.pdf", "retrievedAt": "2026-11-11", "supports": "CAT 2025 question counts 24/22/22; PwD 160 min" },
+    { "title": "CAT 2023 Result Media Release, IIM Lucknow (21 Dec 2023)", "url": "https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/12/PDF/Media_Release_CAT_2023_21st_Dec_2023.pdf", "retrievedAt": "2026-11-11", "supports": "Marking scheme MCQ +3/-1, non-MCQ +3/0" }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "mat",
+  "name": "MAT",
+  "fullName": "Management Aptitude Test",
+  "conductingBody": "All India Management Association (AIMA)",
+  "officialUrl": "https://mat.aima.in/",
+  "cycle": "MAT December 2026 (upcoming session: PBT 20 Dec 2026, CBT 27 Dec 2026)",
+  "eligibility": "Graduation in any discipline from any recognized University or equivalent recognized degree. A final year student in any undergraduate programme (B.A, B.Sc., B.Com., B.Tech., etc.) can also appear provisionally. No age bar; job experience not necessary. Minimum percentage requirements vary by institute.",
+  "mode": "Paper Based Test (PBT) and Computer Based Test (CBT); candidates may take one mode or both (PBT+CBT, best score used). Internet Based Test (IBT) is not listed among current official test modes (null).",
+  "frequency": "Four times a year: February, May, September and December (plus a PBT Special Drive held 6 Sep 2026). A candidate may opt for one or two test modes per session.",
+  "pattern": {
+    "sections": [
+      {
+        "name": "Language Comprehension",
+        "questions": 30,
+        "minutes": null
+      },
+      {
+        "name": "Intelligence & Critical Reasoning",
+        "questions": 30,
+        "minutes": null
+      },
+      {
+        "name": "Mathematical Skills",
+        "questions": 30,
+        "minutes": null
+      },
+      {
+        "name": "Data Analysis & Sufficiency",
+        "questions": 30,
+        "minutes": null
+      },
+      {
+        "name": "Economic & Business Environment",
+        "questions": 30,
+        "minutes": null
+      }
+    ],
+    "totalMinutes": 120,
+    "marking": "Objective multiple-choice; negative marking of -0.25 marks for every incorrect answer. Marks per correct answer are not stated officially (null).",
+    "notes": "150 questions in 120 minutes; no section-wise time limits stated. All five sections count toward the score. Score report: five sectional scores on a 0-100 scale and a Composite Score on a 200-800 scale (equal weight to all five sections), each with a percentile; raw scores normalized across sessions since Feb 2021."
+  },
+  "syllabusAreas": [
+    "Language Comprehension",
+    "Intelligence & Critical Reasoning",
+    "Mathematical Skills",
+    "Data Analysis & Sufficiency",
+    "Economic & Business Environment"
+  ],
+  "registrationFee": [
+    {
+      "category": "All candidates - PBT only",
+      "amount": 2300,
+      "currency": "INR"
+    },
+    {
+      "category": "All candidates - CBT only",
+      "amount": 2300,
+      "currency": "INR"
+    },
+    {
+      "category": "All candidates - PBT + CBT (both modes)",
+      "amount": 4000,
+      "currency": "INR"
+    },
+    {
+      "category": "Upgrade to an additional test mode (after registration)",
+      "amount": 1700,
+      "currency": "INR"
+    },
+    {
+      "category": "Each additional Management Institute score choice (incl. 18% GST)",
+      "amount": 118,
+      "currency": "INR"
+    }
+  ],
+  "keyDates": [
+    {
+      "event": "MAT December 2026 PBT - registration closes",
+      "date": "2026-12-14",
+      "tentative": false
+    },
+    {
+      "event": "MAT December 2026 PBT - admit card release",
+      "date": "2026-12-17",
+      "tentative": false
+    },
+    {
+      "event": "MAT December 2026 PBT - test date",
+      "date": "2026-12-20",
+      "tentative": false
+    },
+    {
+      "event": "MAT December 2026 CBT - registration closes",
+      "date": "2026-12-21",
+      "tentative": false
+    },
+    {
+      "event": "MAT December 2026 CBT - admit card release",
+      "date": "2026-12-24",
+      "tentative": false
+    },
+    {
+      "event": "MAT December 2026 CBT - test date",
+      "date": "2026-12-27",
+      "tentative": false
+    },
+    {
+      "event": "MAT December 2026 results",
+      "dateText": "By the first week of January 2027",
+      "tentative": true
+    },
+    {
+      "event": "MAT PBT Special Drive (past)",
+      "dateText": "Test 6 Sep 2026; registration ended 1 Sep 2026",
+      "tentative": false
+    }
+  ],
+  "scoreValidity": "One year",
+  "acceptingInstitutes": {
+    "officialListUrl": "https://aima.in/mat/participating-b-schools/",
+    "notable": [
+      "Vellore Institute of Technology (Vellore)",
+      "National Institute of Technology, Kurukshetra",
+      "National Institute of Technology, Dept. of Management Studies, Silchar",
+      "School of Management Studies (SMS), University of Hyderabad",
+      "Birla Institute of Management Technology (Greater Noida)",
+      "Amrita School of Business (Coimbatore)",
+      "FLAME University (Pune)",
+      "KIIT - School of Management (Bhubaneswar)",
+      "Xavier Institute of Management & Entrepreneurship (Bengaluru)",
+      "LM Thapar School of Management (Chandigarh)",
+      "Institute of Public Enterprise (Hyderabad)",
+      "Entrepreneurship Development Institute of India (Gandhinagar)"
+    ]
+  },
+  "resultAndCounselling": "Score cards are downloaded from the applicant dashboard on https://mat.aima.in/ (December 2026 results by the first week of January 2027). Scores are released to both candidates and the Management Institutes (MIs) chosen during registration (5 MIs; 7 if two test modes are taken; more at Rs 118 each). Candidates taking both PBT and CBT can use their best score. There is no central counselling: each participating institute (AICTE-approved, DEC-approved, university-affiliated colleges or university departments) applies its own admission criteria. AIMA states MAT scores are accepted by 600+ B-Schools.",
+  "sources": [
+    {
+      "title": "MAT official website (AIMA) - home",
+      "url": "https://mat.aima.in/",
+      "retrievedAt": "2026-11-11",
+      "supports": "December 2026 PBT/CBT dates (registration close, admit card, test), results by first week of Jan 2027, PBT Special Drive 6 Sep 2026, fees Rs 2300 PBT/CBT and Rs 4000 PBT+CBT, test structure (5 x 30 questions, 120 min), -0.25 negative marking, four sessions a year (Feb/May/Sep/Dec), one-year score validity, PBT and CBT modes, 600+ B-Schools"
+    },
+    {
+      "title": "MAT FAQ (AIMA)",
+      "url": "https://aima.in/mat/faq/",
+      "retrievedAt": "2026-11-11",
+      "supports": "eligibility, no age bar, four sessions a year, fees and Rs 1700 extra for additional mode, 5/7 MI choices, one-year validity, admit card 3 days before test, test structure, -0.25 negative marking, score card download, participating MIs' approval status"
+    },
+    {
+      "title": "MAT Registration Process (AIMA)",
+      "url": "https://aima.in/mat/mat-registration-process/",
+      "retrievedAt": "2026-11-11",
+      "supports": "fees Rs 2300/Rs 4000, upgrade Rs 1700, Rs 118 per extra MI choice"
+    },
+    {
+      "title": "MAT Score & Interpretation (AIMA)",
+      "url": "https://aima.in/mat/mat-score-interpretation/",
+      "retrievedAt": "2026-11-11",
+      "supports": "sectional 0-100 and composite 200-800 scales, percentiles, normalization since Feb 2021, scores released to MIs and candidates"
+    },
+    {
+      "title": "MAT Participating B-Schools (AIMA)",
+      "url": "https://aima.in/mat/participating-b-schools/",
+      "retrievedAt": "2026-11-11",
+      "supports": "official list of accepting institutes; notable names"
+    }
+  ]
+}

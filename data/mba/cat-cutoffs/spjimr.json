@@ -1,0 +1,31 @@
+{
+  "slug": "spjimr",
+  "name": "S.P. Jain Institute of Management and Research (SPJIMR)",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "program": "PGDM",
+  "cutoffs": [
+    {
+      "batch": "2027-29",
+      "stage": "minimum_to_apply",
+      "category": "All",
+      "overall": 85,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "note": "Qualifying score (cut-off) in CAT 2026; mandatory even for profile-based shortlist. No category-wise differentiation stated. Same 85 overall / 75 sectional applies to GMAT.",
+      "source": {
+        "title": "SPJIMR PGDM Batch 2027-29 eligibility (Domestic)",
+        "url": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Entrance score - Qualifying Score (Cut-offs) ... CAT Percentile 75 75 75 85"
+    }
+  ],
+  "otherExamsAccepted": [
+    "CAT 2026",
+    "GMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official eligibility PDF for PGDM 2027-29 lists sectional 75 (VARC, DILR, QA) and overall 85 CAT 2026 percentile. 2026-28 PDF also exists: https://www.spjimr.org/wp-content/uploads/2025/09/eligibility-domestic-pgdm-26-28.pdf"
+}
