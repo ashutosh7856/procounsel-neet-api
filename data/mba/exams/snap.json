@@ -1,0 +1,75 @@
+{
+  "id": "snap",
+  "name": "SNAP",
+  "fullName": "Symbiosis National Aptitude Test",
+  "conductingBody": "Symbiosis Test Secretariat, Symbiosis International (Deemed University), Pune",
+  "officialUrl": "https://www.snaptest.org/",
+  "cycle": "SNAP 2026",
+  "eligibility": "Graduate from any recognised University/ Institution of National Importance with a minimum of 50% marks or equivalent grade (45% marks or equivalent grade for Scheduled Castes/ Scheduled Tribes). Some programmes have additional programme-specific requirements (e.g. engineering degree, work experience, 65% for SSBF dual degrees).",
+  "mode": "Computer Based Test (CBT) at test centres",
+  "frequency": "Up to three tests per cycle (December 13, 19 and 26, 2026); if more than one is taken, the higher score is considered for the final percentile and there is no normalization",
+  "pattern": {
+    "sections": [
+      { "name": "General English", "questions": 10, "minutes": null },
+      { "name": "Analytical & Logical Reasoning", "questions": 20, "minutes": null },
+      { "name": "Quantitative, Data Interpretation & Data Sufficiency", "questions": 20, "minutes": null },
+      { "name": "Ethics, Morality and Values", "questions": 10, "minutes": null }
+    ],
+    "totalMinutes": 60,
+    "marking": "1 mark per correct answer (total 60 marks). Each wrong answer attracts 25% negative marks. No penalty for unattempted questions is stated officially.",
+    "notes": "Objective test, each question has four responses. No sectional time limits stated; the candidate may attempt any section in any order. PwD candidates get 20 minutes compensatory time per hour. SIU states schedules and the nature/structure of the test can change at its discretion. Test timings are communicated via admit cards."
+  },
+  "syllabusAreas": [
+    "General English",
+    "Analytical & Logical Reasoning",
+    "Quantitative, Data Interpretation & Data Sufficiency",
+    "Ethics, Morality and Values"
+  ],
+  "registrationFee": [
+    { "category": "SNAP registration fee (per test; government taxes additional as applicable)", "amount": 2550, "currency": "INR" },
+    { "category": "Programme registration fee (per programme; government taxes additional as applicable)", "amount": 1000, "currency": "INR" }
+  ],
+  "keyDates": [
+    { "event": "SNAP 2026 registration and payment closes", "date": "2026-11-25", "tentative": false },
+    { "event": "Admit card available - SNAP 01", "date": "2026-12-07", "tentative": false },
+    { "event": "Admit card available - SNAP 02", "date": "2026-12-11", "tentative": false },
+    { "event": "Admit card available - SNAP 03", "date": "2026-12-18", "tentative": false },
+    { "event": "SNAP 01 (CBT)", "date": "2026-12-13", "tentative": false },
+    { "event": "SNAP 02 (CBT)", "date": "2026-12-19", "tentative": false },
+    { "event": "SNAP 03 (CBT)", "date": "2026-12-26", "tentative": false },
+    { "event": "Announcement of result", "date": "2027-01-12", "tentative": false },
+    { "event": "Result available on snaptest.org until", "date": "2027-02-12", "tentative": false }
+  ],
+  "scoreValidity": "SNAP 2026 score is valid only for admission to selected programmes of Symbiosis International (Deemed University) for the academic year 2027-28.",
+  "acceptingInstitutes": {
+    "officialListUrl": "https://www.snaptest.org/entrance-exam-overview",
+    "notable": [
+      "Symbiosis Institute of Business Management (SIBM), Pune",
+      "Symbiosis Centre for Management and Human Resource Development (SCMHRD), Pune",
+      "Symbiosis Institute of International Business (SIIB), Pune",
+      "Symbiosis Institute of Computer Studies and Research (SICSR), Pune",
+      "Symbiosis Institute of Digital and Telecom Management (SIDTM), Pune",
+      "Symbiosis Institute of Management Studies (SIMS), Pune",
+      "Symbiosis Institute of Media and Communication (SIMC), Pune",
+      "Symbiosis Centre for Information Technology (SCIT), Pune",
+      "Symbiosis Institute of Health Sciences (SIHS), Pune",
+      "Symbiosis School of Banking and Finance (SSBF), Pune",
+      "Symbiosis School of Sports Sciences (SSSS), Pune",
+      "Symbiosis School of Culinary Arts and Nutritional Sciences (SSCANS), Pune",
+      "Symbiosis Institute of Operations Management (SIOM), Nashik",
+      "Symbiosis Institute of Business Management, Bengaluru",
+      "Symbiosis Institute of Business Management, Hyderabad",
+      "Symbiosis Institute of Business Management, Nagpur",
+      "Symbiosis Institute of Business Management, NOIDA"
+    ]
+  },
+  "resultAndCounselling": "Result is declared on snaptest.org on January 12, 2027 and available until February 12, 2027; the score card printout is the candidate's official result and scores are not subject to appeal or revaluation. Candidates must have registered and paid separately for each programme. Each institute shortlists for its Group Exercise and Personal Interaction (GE-PI) based on overall SNAP percentile, with separate cut-offs per programme; GE-PI dates are on institute websites and all components must be attended. Merit list out of 100: SNAP score scaled to 50, GE 10, PI 40. Category-wise merit/wait-list cut-offs are displayed on institute websites; wait-list movement depends on vacant seats; admission is provisional until fee payment.",
+  "sources": [
+    { "title": "SNAP 2026 Bulletin", "url": "https://www.snaptest.org/documents/SNAP-2026-Bulletin.pdf", "retrievedAt": "2026-11-11", "supports": "Conducting body, CBT mode, all key dates, up to three tests / higher score / no normalization, fees (INR 2550 per test, INR 1000 per programme), test structure and marking (25% negative), 60 minutes, PwD time, programme eligibility, score validity for 2027-28, GE-PI shortlisting, merit list weights 50/10/40, institutes and programmes" },
+    { "title": "SNAP Important Dates", "url": "https://www.snaptest.org/snap-important-dates", "retrievedAt": "2026-11-11", "supports": "Registration close Nov 25 2026, admit card dates, test dates, result Jan 12 2027, CBT 60 minutes" },
+    { "title": "SNAP Test Structure", "url": "https://www.snaptest.org/snap-exam-syllabus", "retrievedAt": "2026-11-11", "supports": "Sections, questions, marks, negative marking, duration, up to three attempts" },
+    { "title": "SNAP Programme Eligibility", "url": "https://www.snaptest.org/eligibility", "retrievedAt": "2026-11-11", "supports": "Eligibility wording (50% / 45% SC/ST) and programme-specific requirements" },
+    { "title": "SNAP Test Overview", "url": "https://www.snaptest.org/entrance-exam-overview", "retrievedAt": "2026-11-11", "supports": "List of institutes and M.B.A. programmes for which SNAP 2026 is mandatory; integrated registration process; GE-PI" },
+    { "title": "SNAP official website home page", "url": "https://www.snaptest.org/", "retrievedAt": "2026-11-11", "supports": "17 Symbiosis institutes, 32 M.B.A. programmes, best of 3 attempts, 79 test cities" }
+  ]
+}

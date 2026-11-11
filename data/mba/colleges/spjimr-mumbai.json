@@ -1,0 +1,59 @@
+{
+  "slug": "spjimr-mumbai",
+  "name": "Bharatiya Vidya Bhavan's S. P. Jain Institute of Management & Research (SPJIMR)",
+  "shortName": "SPJIMR",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "private",
+  "website": "https://www.spjimr.org",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT", "GMAT"],
+      "specialisations": ["Finance", "Information Management & Analytics", "Marketing", "Operations & Supply Chain"],
+      "feeTotal": 2486000,
+      "feeYear": "2027-29",
+      "feeNote": "Fee for Indian participants; includes tuition fee and basic hostel/accommodation. Indicative and subject to revision. Optional Global Fast Track and International Exchange components not included. International participants: INR 33.32 lakh.",
+      "intake": 240,
+      "intakeNote": "Batch 2027-29 PGDM seats for Indian applicants per official eligibility document; additional 36 supernumerary seats for OCI/PIO/children of Indian workers in Gulf/foreign nationals (max 276). Separate PGDM (BM) programme has 120 seats.",
+      "medianSalary": 3285000,
+      "averageSalary": 3375000,
+      "salaryYear": "2024-26 batch final placements (Class of 2026)",
+      "placementNote": "Combined PGDM + PGDM (BM) Class of 2026: 356 participants, 100% placed; highest CTC INR 75 LPA; 80 companies; 46% PPOs. Official press release dated 12 Dec 2025; no separate PGDM-only figure and no audit reference stated.",
+      "sources": {
+        "fee": "https://www.spjimr.org/course/post-graduate-diploma-in-management-pgdm/fees-scholarships/",
+        "intake": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf",
+        "salary": "https://www.spjimr.org/newsroom/press-release/spjimr-announces-100-final-placements-for-the-pgdm-and-pgdm-bm-class-of-2026/",
+        "admission": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Application and profile scoring", "weightage": null, "detail": "Applicants choose two specialisation preferences. Profiles scored on consistency of academic record (10th, 12th, every year of graduation), relevance of work experience to chosen specialisation, versatility and achievements."},
+    {"stage": 2, "name": "Shortlisting for interviews (two phases)", "weightage": null, "detail": "Phase 1: profile-based shortlist (must still meet minimum CAT/GMAT qualifying score). Phase 2: profile-cum-score shortlist after entrance test results."},
+    {"stage": 3, "name": "Two rounds of group interviews", "weightage": null, "detail": "Details shared with shortlisted applicants."},
+    {"stage": 4, "name": "Final selection on composite score", "weightage": null, "detail": "Composite of profile, academic record, entrance test score (CAT/GMAT), relevance of work experience (if any) and performance in the two interview rounds. Weights not published."}
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [
+    {"exam": "CAT", "year": 2026, "batch": "2027-29", "category": "General", "overall": 85, "sectional": {"VARC": 75, "DILR": 75, "QA": 75}, "stage": "shortlisting", "source": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf"},
+    {"exam": "GMAT", "year": 2026, "batch": "2027-29", "category": "General", "overall": 85, "sectional": {"Verbal": 75, "Quantitative": 75, "Data Insights": 75}, "stage": "shortlisting", "source": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf"}
+  ],
+  "keyDates": {
+    "applicationOpens": "2026-09-16",
+    "applicationDeadline": "2026-11-27",
+    "examDate": null,
+    "notes": "2027-29 batch; CAT 2026 or GMAT (taken 1 Jan 2024 - 10 Dec 2026, in-person only). Application fee INR 2,500 (INR 4,000 for PGDM + PGDM (BM) together). Programme starts June 2027. Cutoffs listed are minimum qualifying percentiles.",
+    "source": "https://www.spjimr.org/newsroom/press-release/spjimr-opens-applications-for-pgdm-and-pgdm-bm-programmes-for-2027-29/"
+  },
+  "nirf": {"year": 2025, "managementRank": 20, "score": 62.06, "nirfInstituteId": "IR-M-I-1044", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"},
+  "sources": [
+    {"title": "SPJIMR PGDM Batch 2027-29 eligibility (domestic)", "url": "https://www.spjimr.org/wp-content/uploads/2026/09/eligibility-domestic-pgdm-27-29.pdf", "retrievedAt": "2026-11-11", "supports": "intake; specialisations; exams; qualifying cutoffs; selection process; deadline"},
+    {"title": "SPJIMR PGDM fees & scholarships", "url": "https://www.spjimr.org/course/post-graduate-diploma-in-management-pgdm/fees-scholarships/", "retrievedAt": "2026-11-11", "supports": "fee 2027-29"},
+    {"title": "SPJIMR press release: 100% final placements, PGDM & PGDM (BM) Class of 2026", "url": "https://www.spjimr.org/newsroom/press-release/spjimr-announces-100-final-placements-for-the-pgdm-and-pgdm-bm-class-of-2026/", "retrievedAt": "2026-11-11", "supports": "median and average salary 2024-26"},
+    {"title": "SPJIMR press release: applications open for PGDM and PGDM (BM) 2027-29", "url": "https://www.spjimr.org/newsroom/press-release/spjimr-opens-applications-for-pgdm-and-pgdm-bm-programmes-for-2027-29/", "retrievedAt": "2026-11-11", "supports": "key dates; seats"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF rank/score"}
+  ]
+}

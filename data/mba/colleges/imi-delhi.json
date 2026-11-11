@@ -1,0 +1,107 @@
+{
+  "slug": "imi-delhi",
+  "name": "International Management Institute, New Delhi",
+  "shortName": "IMI New Delhi",
+  "city": "New Delhi",
+  "state": "Delhi",
+  "type": "private",
+  "website": "https://www.imi.edu/delhi/",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "GMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 2354000,
+      "feeYear": "2025-27",
+      "feeNote": "Self-sponsored fee for the 2025-27 batch per IMI Delhi Mandatory Disclosure (company-sponsored: INR 36,97,160; 2024-26 batch self-sponsored: INR 20,95,230). The 2027 admissions page FAQ also states the programme fee as INR 23.54 lakh. Inclusions (hostel etc.) not itemised in these sources.",
+      "intake": 300,
+      "intakeNote": "AICTE-approved batch strength for 2-year PGDM (includes the 18-month PGDM) per Mandatory Disclosure; admissions page FAQ also lists PGDM 300, PGDM (HRM) 60, PGDM (B&FS) 60. The 2024-26 graduating PGDM cohort was 283.",
+      "medianSalary": 1738000,
+      "averageSalary": 1865000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "IMI Delhi Final Placement Report 2024-26, PGDM programme figures (median 17.38 LPA, average 18.65 LPA, highest 68.66 LPA). Overall across PGDM/HRM/B&FS (414 students): median 17.20 LPA, average 18.08 LPA. Report does not mention an audit.",
+      "sources": {
+        "fee": "https://imiedu.s3.ap-south-1.amazonaws.com/uploads/1793358009954_file.pdf",
+        "intake": "https://imiedu.s3.ap-south-1.amazonaws.com/uploads/1793358009954_file.pdf",
+        "salary": "https://imiedu.s3.ap-south-1.amazonaws.com/uploads/1793604435602_file.pdf",
+        "admission": "https://admission.imi.edu/delhi/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Application with valid CAT/XAT/GMAT score",
+      "weightage": null,
+      "detail": "Applicants evaluated on CAT/XAT/GMAT scores, past academic performance and work experience; no fixed cut-off and no category reservation (per admissions FAQ)."
+    },
+    {
+      "stage": 2,
+      "name": "Video Assessment",
+      "weightage": null,
+      "detail": "Video assessment tests thought process and communication skills; shortlisted candidates move to PI."
+    },
+    {
+      "stage": 3,
+      "name": "Personal Interview",
+      "weightage": null,
+      "detail": "Assesses general and business awareness, clarity of goals, attitude, people skills, communication, extra-curricular/professional initiatives."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-09",
+    "applicationDeadline": "2026-12-19",
+    "examDate": null,
+    "notes": "2027 intake (Round 2 per admissions page): application opens Sept 2026; last date 19 Dec 2026; interviews Jan 2027; admission decision Feb 2027; programme begins Jul 2027. Exam date not set by IMI (CAT/XAT/GMAT).",
+    "source": "https://admission.imi.edu/delhi/"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 40,
+    "score": 56.59,
+    "nirfInstituteId": "IR-M-I-1064",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "IMI Delhi Final Placement Report 2024-26 (linked from imi.edu/delhi/placement-report)",
+      "url": "https://imiedu.s3.ap-south-1.amazonaws.com/uploads/1793604435602_file.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "median/average/highest CTC 2024-26; batch strength"
+    },
+    {
+      "title": "IMI Delhi Mandatory Disclosure",
+      "url": "https://imiedu.s3.ap-south-1.amazonaws.com/uploads/1793358009954_file.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee 2025-27 & 2024-26; approved intake; AICTE approval"
+    },
+    {
+      "title": "IMI Delhi PGDM Admissions page",
+      "url": "https://admission.imi.edu/delhi/",
+      "retrievedAt": "2026-11-11",
+      "supports": "exams accepted; selection process; 2027 key dates; intake FAQ; fee FAQ"
+    },
+    {
+      "title": "IMI Delhi Placement Report page",
+      "url": "https://www.imi.edu/delhi/placement-report",
+      "retrievedAt": "2026-11-11",
+      "supports": "index linking official placement report PDFs"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-11",
+      "supports": "NIRF rank/score"
+    }
+  ]
+}

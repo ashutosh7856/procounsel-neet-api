@@ -1,0 +1,88 @@
+{
+  "slug": "mdi-gurgaon",
+  "name": "Management Development Institute Gurgaon",
+  "shortName": "MDI Gurgaon",
+  "city": "Gurugram",
+  "state": "Haryana",
+  "type": "private",
+  "website": "https://mdi.ac.in",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT"],
+      "specialisations": [],
+      "feeTotal": 2655310,
+      "feeYear": "2027-29",
+      "feeNote": "Total for two years (subject to revision): tuition 19,23,010 + boarding 2,08,400 + lodging 2,19,500 + learning material 1,24,000 + student activities 62,500 + library 75,400 + alumni 15,000 + refundable security deposit 27,500. Same fee for PGDM, PGDM-HRM and PGDM-Business Analytics. Paid in 3 instalments (6,00,000 at admission; 7,48,905 in Oct 2027; 13,06,405 in May 2028). NRI fee USD 38,668.",
+      "intake": 570,
+      "intakeNote": "NIRF 2026 data submitted by MDI (hosted on mdi.ac.in): sanctioned intake 570 for all 2-year PG programmes combined (2024-25). Graduating 2024-26 PGDM batch had 313 students (placement report).",
+      "medianSalary": 2900000,
+      "averageSalary": 2950000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Official MDI Final Placement Report 2024-26 (PGDM, 313 students): entire batch average 29.5 L, median 29.0 L; top-10 percentile average 45.7 L. Institute-wide: 157 recruiters, 189 PPOs, highest CTC 97.50 L (BFSI). Audit not stated.",
+      "sources": {
+        "fee": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm",
+        "intake": "https://mdi.ac.in/resources/admin_uploads/about/nirf-2026.pdf",
+        "salary": "https://mdi.ac.in/resources/admin_uploads/announcement/17810688232026-Placement_compressed.pdf",
+        "admission": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm"
+      }
+    },
+    {
+      "name": "Post Graduate Diploma in Management - Human Resource Management (PGDM-HRM)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT"],
+      "specialisations": [],
+      "feeTotal": 2655310,
+      "feeYear": "2027-29",
+      "feeNote": "Same fee schedule as PGDM (subject to revision), incl. boarding, lodging and refundable security deposit 27,500.",
+      "intake": null,
+      "intakeNote": "Programme-specific seats not published; graduating 2024-26 PGDM-HRM batch had 124 students.",
+      "medianSalary": 2300000,
+      "averageSalary": 2480000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "Official MDI Final Placement Report 2024-26, PGDM-HRM (124 students): batch average 24.8 L (up from 24.14 L), median 23.0 L.",
+      "sources": {
+        "fee": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm",
+        "intake": null,
+        "salary": "https://mdi.ac.in/resources/admin_uploads/announcement/17810688232026-Placement_compressed.pdf",
+        "admission": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Shortlisting for WAT-GD-PI", "weightage": "CAT 65%, Class X 5%, Class XII 5%, Graduation 5%, Academic diversity 5%, Gender diversity 5%, Work experience 10%", "detail": "Proposed weightage for PGP 2027-29 (PGDM/PGDM-HRM/PGDM-IB/PGDM-BA), on the basis of application details and CAT 2026 score (GMAT only for PGDM-IB)."},
+    {"stage": 2, "name": "WAT, GD, Behavioural Assessment Test and Personal Interview; final MDI ranking", "weightage": "CAT 35%, GD 10%, WAT 5%, BAT 5%, PI 20%, Graduation 5%, Academic diversity 2.5%, Gender diversity 2.5%, Regional diversity 2.5%, Sports 2.5%, Work experience 10%", "detail": "WAT-GD-PI between February and April 2027 at Gurugram/Bengaluru/Kolkata/Hyderabad/Ahmedabad/Mumbai (non-Gurugram centres tentative). Final selection intimated April 2027."}
+  ],
+  "selectionWeightage": {
+    "CAT": 35,
+    "GD": 10,
+    "WAT": 5,
+    "BehaviouralAssessmentTest": 5,
+    "PI": 20,
+    "Graduation": 5,
+    "AcademicDiversity": 2.5,
+    "GenderDiversity": 2.5,
+    "RegionalDiversity": 2.5,
+    "Sports": 2.5,
+    "WorkExperience": 10,
+    "note": "Stage-II final selection weights, proposed for PGP 2027-29.",
+    "source": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-09-24",
+    "applicationDeadline": "2026-11-28",
+    "examDate": "2026-11-29",
+    "notes": "MDI online application closes 28 Nov 2026, 5:00 PM IST; CAT 2026 on 29 Nov 2026. WAT-GD-PI Feb-Apr 2027; final selection April 2027. Application fee Rs 3,000 incl. GST (Rs 3,590 for MDI-G + MDI-M).",
+    "source": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm"
+  },
+  "nirf": {"year": 2025, "managementRank": 9, "score": 71.96, "nirfInstituteId": "IR-M-I-1170", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "note": "MDI's own NIRF 2026 data submission shows ID IR-M-S-113."},
+  "sources": [
+    {"title": "MDI Gurgaon PGDM admissions page (PGP 2027-29)", "url": "https://mdi.ac.in/admissions/post-graduate-diploma-in-management-pgdm", "retrievedAt": "2026-11-11", "supports": "fee 2027-29; exams accepted; selection weights Stage I/II; key dates 2027-29"},
+    {"title": "MDI Gurgaon Final Placement Report, Batch of 2024-26", "url": "https://mdi.ac.in/resources/admin_uploads/announcement/17810688232026-Placement_compressed.pdf", "retrievedAt": "2026-11-11", "supports": "PGDM and PGDM-HRM median/average CTC 2024-26; batch sizes"},
+    {"title": "MDI Gurgaon NIRF 2026 submitted data (hosted on mdi.ac.in)", "url": "https://mdi.ac.in/resources/admin_uploads/about/nirf-2026.pdf", "retrievedAt": "2026-11-11", "supports": "sanctioned intake 570 (all 2-yr PG programmes)"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF 2025 rank 9, score 71.96"}
+  ]
+}

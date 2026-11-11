@@ -1,0 +1,55 @@
+{
+  "slug": "nmims-mumbai",
+  "name": "SVKM's NMIMS School of Business Management (SBM), Mumbai",
+  "shortName": "NMIMS SBM Mumbai",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "deemed",
+  "website": "https://sbm.nmims.edu",
+  "approvals": ["SVKM's NMIMS is Deemed to be a University (as per UGC norms)"],
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA), Mumbai",
+      "durationYears": 2,
+      "examsAccepted": ["NMAT"],
+      "specialisations": [],
+      "feeTotal": 2700000,
+      "feeYear": "2026-28",
+      "feeNote": "Official handout (NMAT 2026, admission batch 2027) lists the MBA Mumbai fee as INR 13,50,000 per annum for academic year 2026-28 'for information only'; total shown is 2 x per-annum figure. Fee for the 2027 intake (A.Y. 2027-28) will be intimated in the offer letter. Hostel not included. (MBA HR Mumbai: INR 12,75,000 per annum.)",
+      "intake": 600,
+      "intakeNote": "MBA Mumbai seats for the 2025-2026 batch per NMIMS NMAT 2025 admission handout (subject to statutory approvals); 30% of seats offered to female candidates. Not restated in the NMAT 2026 handout.",
+      "medianSalary": null,
+      "averageSalary": 2460000,
+      "salaryYear": "2024-26 batch final placements (MBA Core)",
+      "placementNote": "Final Placement Report 2025-26, MBA Core 2024-26: average CTC INR 24.6 lakh; highest INR 41.28 lakh; 190 recruiters; 28% of batch placed through PPOs. Median not published. MBA HR 2024-26 average INR 19.08 lakh. No audit stated.",
+      "sources": {
+        "fee": "https://nmat.nmims.edu/docs/Handout-Admission-NMAT-2026-Final.pdf",
+        "intake": "https://nmat.nmims.edu/docs/NMAT-New-Handout-2025.pdf",
+        "salary": "https://sbm.nmims.edu/docs/2026/Finals-SBM-NMIMS-Mumbai-2025-26.pdf",
+        "admission": "https://nmat.nmims.edu/docs/Handout-Admission-NMAT-2026-Final.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "NMAT by GMAC test + NMIMS registration", "weightage": null, "detail": "NMAT by GMAC mandatory; candidate must also register on the NMIMS portal before the NMAT test date and give at least five programme preferences. Only the first NMAT attempt is considered."},
+    {"stage": 2, "name": "Shortlisting on NMAT sectional and total scores", "weightage": null, "detail": "Shortlisted candidates called for an in-person second stage."},
+    {"stage": 3, "name": "Competency Test and/or Personal Interview", "weightage": null, "detail": "In-person; details announced to shortlisted candidates."},
+    {"stage": 4, "name": "Final merit list", "weightage": null, "detail": "Based on NMAT score, PI, Competency Test, work experience (more than one year gets weightage) and past academic performance; allotment by merit, preferences and seat availability. Weights not published; cut-offs at NMIMS's discretion."}
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": "2026-08-20",
+    "applicationDeadline": "2026-10-31",
+    "examDate": null,
+    "notes": "NMIMS application window for the 2027 batch (NMAT 2026) per admission handout; NMIMS registration must be completed before the candidate's NMAT test date. Application fee INR 3,000. Second-stage, merit-list and fee-payment dates to be declared later.",
+    "source": "https://nmat.nmims.edu/docs/Handout-Admission-NMAT-2026-Final.pdf"
+  },
+  "nirf": {"year": 2025, "managementRank": 24, "score": 60.99, "nirfInstituteId": "IR-M-N-10", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "note": "Ranked entity is SVKM's Narsee Monjee Institute of Management Studies (the university), not SBM Mumbai alone."},
+  "sources": [
+    {"title": "NMIMS Admission Handout for Management Programs (NMAT 2026), batch 2027", "url": "https://nmat.nmims.edu/docs/Handout-Admission-NMAT-2026-Final.pdf", "retrievedAt": "2026-11-11", "supports": "fee per annum 2026-28; exams; selection process; key dates"},
+    {"title": "NMIMS Admission Handout for Management Programs (NMAT MBA 2025)", "url": "https://nmat.nmims.edu/docs/NMAT-New-Handout-2025.pdf", "retrievedAt": "2026-11-11", "supports": "intake 600 (2025-26 batch)"},
+    {"title": "SBM NMIMS Mumbai Final Placement Report 2025-26 (MBA Core & MBA HR)", "url": "https://sbm.nmims.edu/docs/2026/Finals-SBM-NMIMS-Mumbai-2025-26.pdf", "retrievedAt": "2026-11-11", "supports": "average CTC 2024-26"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF rank/score"}
+  ]
+}

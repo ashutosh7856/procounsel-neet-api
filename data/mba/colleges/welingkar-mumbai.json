@@ -1,0 +1,57 @@
+{
+  "slug": "welingkar-mumbai",
+  "name": "Prin. L. N. Welingkar Institute of Management Development & Research (WeSchool), Mumbai",
+  "shortName": "WeSchool",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "private",
+  "website": "https://www.welingkar.org",
+  "approvals": ["AICTE-approved PGDM"],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT", "XAT", "GMAT", "ATMA", "CMAT"],
+      "specialisations": ["Marketing", "Finance", "Human Resources", "Operations"],
+      "feeTotal": 1400000,
+      "feeYear": "2026-28",
+      "feeNote": "PGDM 2026-28 brochure: tuition fee INR 7,00,000 per annum (subject to change); total shown is 2 x per-annum tuition. Excludes library deposit INR 4,000 (refundable) and hostel. The current PGDM web page (batch not stated, likely 2027-29) shows tuition fees & other INR 7,50,000 p.a.*, hostel INR 1,60,000-2,20,000 p.a. + INR 10,000 refundable deposit (Mumbai hostel subject to availability).",
+      "intake": 180,
+      "intakeNote": "PGDM 2026-28 brochure: '2 year full-time AICTE-approved Program (180 seats)'. Up to 5% of sanctioned intake under TFW scheme. Separate Mumbai PGDM programmes (E-Business, Research & Business Analytics, Retail, Media & Entertainment, Healthcare, Rural) have their own seats.",
+      "medianSalary": 1178000,
+      "averageSalary": 1170000,
+      "salaryYear": "2023-25 batch final placements",
+      "placementNote": "Placement Facts (2023-2025) in the PGDM 2026-28 brochure: median INR 11.78 LPA, average INR 11.70 LPA, maximum INR 40 LPA. (2022-24: median 11.48, average 12.26, max 22 LPA.) No 2024-26 PGDM final report found on the official site; no audit stated.",
+      "sources": {
+        "fee": "https://www.welingkar.org/downloads/PGDM_Brochure_Final_2026_2028_Dec_2025.pdf",
+        "intake": "https://www.welingkar.org/downloads/PGDM_Brochure_Final_2026_2028_Dec_2025.pdf",
+        "salary": "https://www.welingkar.org/downloads/PGDM_Brochure_Final_2026_2028_Dec_2025.pdf",
+        "admission": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Application and shortlisting", "weightage": null, "detail": "Shortlist for the online selection process on entrance-exam cut-off percentile (CAT/XAT/GMAT/ATMA/CMAT), plus profile-based shortlist for candidates awaiting CMAT results (who must later meet the cut-off). Minimum 50% in graduation."},
+    {"stage": 2, "name": "Pre-Interview Questionnaire and Personal Interview", "weightage": "45%", "detail": "Profile-based process that also values academics, work experience and group activity."},
+    {"stage": 3, "name": "Composite merit list", "weightage": null, "detail": "Entrance 35%, academics (10th, 12th, graduation) 15%, PIQ + interview 45%, extracurriculars 5%."}
+  ],
+  "selectionWeightage": {"Qualifying entrance (CAT/XAT/ATMA/CMAT/GMAT)": 35, "Academics (10th, 12th, graduation)": 15, "Interview (PIQ + PI)": 45, "Extracurricular activities": 5, "source": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm", "note": "Listed as 'Weightage of parameters for final selection' on the current PGDM page; the page does not state the batch year."},
+  "officialCutoffs": [
+    {"exam": "CAT", "year": 2025, "batch": "2026-28", "category": "General", "overall": 80, "sectional": null, "stage": "shortlisting", "note": "Mumbai PGDM (also PGDM E-Business, PGDM RBA): 80 percentile in CAT 2025 / XAT 2026 / GMAT (2023 onwards).", "source": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm"},
+    {"exam": "XAT", "year": 2026, "batch": "2026-28", "category": "General", "overall": 80, "sectional": null, "stage": "shortlisting", "source": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm"},
+    {"exam": "CMAT", "year": 2026, "batch": "2026-28", "category": "General", "overall": 85, "sectional": null, "stage": "shortlisting", "note": "Listed under 'ATMA Feb 2026 / CMAT 2026' column; page header says 'Score' but value appears to be a percentile.", "source": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm"}
+  ],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "PGDM 2027-29 application portal is live (pgdm2027-29.welingkar.org) but the site does not publish 2027-29 dates.",
+    "source": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm"
+  },
+  "nirf": {"year": 2025, "managementRank": 75, "score": 49.08, "nirfInstituteId": "IR-M-S-19472", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"},
+  "sources": [
+    {"title": "WeSchool PGDM 2026-2028 brochure (Dec 2025)", "url": "https://www.welingkar.org/downloads/PGDM_Brochure_Final_2026_2028_Dec_2025.pdf", "retrievedAt": "2026-11-11", "supports": "fee 2026-28; intake 180; AICTE approval; median & average salary 2023-25; exams"},
+    {"title": "WeSchool PGDM Mumbai programme page", "url": "https://www.welingkar.org/programmes/full-time-programme-in-mumbai/pgdm", "retrievedAt": "2026-11-11", "supports": "current fee 7.5 L p.a.; hostel; specialisations; selection weightage; 2026-28 entrance cut-offs; 2027-29 application link"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF rank/score"}
+  ]
+}

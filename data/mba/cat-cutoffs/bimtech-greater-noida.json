@@ -1,0 +1,33 @@
+{
+  "slug": "bimtech-greater-noida",
+  "name": "Birla Institute of Management Technology (BIMTECH)",
+  "city": "Greater Noida",
+  "state": "Uttar Pradesh",
+  "program": "PGDM",
+  "cutoffs": [
+    {
+      "batch": "2021-23",
+      "stage": "final",
+      "category": "General",
+      "overall": 72.5,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "STALE: from the only mandatory disclosure currently linked on the official site (AY 2021-22). 'Minimum level of acceptance' also stated as CAT/XAT/GMAT 72.5%ile. 2020-22: 72.5; 2019-21: 70. Current admissions page (2027-29) says cut-off is not pre-defined.",
+      "source": {
+        "title": "BIMTECH Mandatory Disclosure (linked from bimtech.ac.in/mandatory-disclosure)",
+        "url": "https://www.bimtech.ac.in/public/uploads/page_section_attributes/wifRSwELH50oIyz4YEsFgZiejABOXZMEkuqcYXzC.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "(Academic year 2021 -22)Batch - 2021-23 – CAT/ XAT/GMAT -72.5%ile"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "GMAT",
+    "CMAT",
+    "MAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "bimtech.ac.in/admissions (2027-29) gives no admission cut-off (only 85 percentile for scholarship). Official mandatory disclosure gives 72.5 percentile for PGDM batch 2021-23 (outdated)."
+}

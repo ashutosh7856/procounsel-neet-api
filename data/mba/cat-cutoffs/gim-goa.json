@@ -1,0 +1,31 @@
+{
+  "slug": "gim-goa",
+  "name": "Goa Institute of Management (GIM)",
+  "city": "Sanquelim",
+  "state": "Goa",
+  "program": "PGDM",
+  "cutoffs": [
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "General",
+      "overall": 90,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM (core). 'Cut-off Levels of percentage and percentile score of the candidates in the admission test'. XAT 87. HCM/BDA/BIFS: profile-based shortlisting (no cutoff). 2024-26: CAT 90; 2023-25: CAT 87. Goan domicile may get up to 15 points lower cut-off for interview.",
+      "source": {
+        "title": "Goa Institute of Management - Mandatory Disclosure 2025-26 (updated 15 Aug 2026)",
+        "url": "https://gim.ac.in/sites/default/files/inline-files/Mandatory%20Disclosure-2025-26.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "For 2025-27 batch Programme CAT Cutoff XAT Cutoff GMAT score PGDM 90 87"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "GMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "gim.ac.in admission pages publish weightages only; cut-off from official AICTE mandatory disclosure."
+}

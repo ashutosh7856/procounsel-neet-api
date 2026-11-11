@@ -1,0 +1,52 @@
+{
+  "slug": "iift-delhi",
+  "name": "Indian Institute of Foreign Trade, New Delhi",
+  "shortName": "IIFT Delhi",
+  "city": "New Delhi",
+  "state": "Delhi",
+  "type": "deemed",
+  "website": "https://www.iift.ac.in",
+  "approvals": ["Deemed to be University (since 2002)", "AACSB accredited", "NAAC A+"],
+  "programs": [
+    {
+      "name": "MBA (International Business)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT"],
+      "specialisations": [],
+      "feeTotal": 1973000,
+      "feeYear": "2026-28",
+      "feeNote": "MBA 2027 brochure: total fee for MBA (IB) 2026-28 batch at all campuses is Rs 19.73 lakh (tuition, library, computer & internet, medical insurance, alumni & student body). Hostel & mess extra: Delhi Rs 1.35 lakh p.a. (double) / Rs 1.08 lakh p.a. (triple); refundable security Rs 10,000. Exact 2027-29 fee to be communicated with offer letters. SC/ST/PwD: 50% tuition concession.",
+      "intake": 240,
+      "intakeNote": "Batch 2027-29 seats at Delhi campus per MBA 2027 brochure (also 240 Kolkata, 120 Kakinada, 120 GIFT City = 720 MBA(IB) seats in total); reserved per GoI norms.",
+      "medianSalary": null,
+      "averageSalary": 3130000,
+      "salaryYear": "2023-25 batch final placements",
+      "placementNote": "Official IIFT Final Placement Highlights 2025, MBA(IB) batch 2023-25: average CTC 31.30 L (27.30 L in 2022-24), highest 1.23 Cr, top-25% CTC 49.60 L, 135 corporate associations. Median not published; campus coverage not stated. 2024-26 final report not yet posted on iift.ac.in.",
+      "sources": {
+        "fee": "https://www.iift.ac.in/uploads/manage-files/2026/10/brochure-mba-2027.pdf",
+        "intake": "https://www.iift.ac.in/uploads/manage-files/2026/10/brochure-mba-2027.pdf",
+        "salary": "https://www.iift.ac.in/uploads/manage-files/2025/12/finalplacementhighlight2025.pdf",
+        "admission": "https://www.iift.ac.in/uploads/manage-files/2026/10/brochure-mba-2027.pdf"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Shortlisting on CAT 2026 score and other defined parameters", "weightage": null, "detail": "IIFT uses CAT 2026 score for shortlisting/selection for MBA(IB) and MBA(BA) 2027-29; weights of other parameters not published in brochure."},
+    {"stage": 2, "name": "Group Discussion and Personal Interview", "weightage": null, "detail": "Physical mode at Delhi, Kolkata, Kakinada, GIFT City, Bangalore, Chennai, Hyderabad, Indore, Lucknow and Mumbai (subject to change)."}
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-11-25",
+    "examDate": "2026-11-29",
+    "notes": "Last date for online application and fee: 25 Nov 2026; CAT 2026 on 29 Nov 2026. Applications via applyadmission.net/iift2027 (linked from iift.ac.in).",
+    "source": "https://www.iift.ac.in/uploads/manage-files/2026/10/brochure-mba-2027.pdf"
+  },
+  "nirf": {"year": 2025, "managementRank": 17, "score": 62.93, "nirfInstituteId": "IR-M-U-0102", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"},
+  "sources": [
+    {"title": "IIFT MBA (IB) & MBA (BA) 2027-29 brochure", "url": "https://www.iift.ac.in/uploads/manage-files/2026/10/brochure-mba-2027.pdf", "retrievedAt": "2026-11-11", "supports": "fee (2026-28 batch figure); seats 2027-29; selection process; key dates; approvals"},
+    {"title": "IIFT Final Placement Highlights 2025 (MBA(IB) batch 2023-25)", "url": "https://www.iift.ac.in/uploads/manage-files/2025/12/finalplacementhighlight2025.pdf", "retrievedAt": "2026-11-11", "supports": "average CTC 2023-25"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF 2025 rank 17, score 62.93"}
+  ]
+}

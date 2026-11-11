@@ -1,0 +1,119 @@
+{
+  "slug": "great-lakes-chennai",
+  "name": "Great Lakes Institute of Management, Chennai",
+  "shortName": "Great Lakes Chennai",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "type": "private",
+  "website": "https://www.greatlakes.edu.in/chennai/",
+  "approvals": [
+    "AICTE-approved PGDM"
+  ],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM) - 2 year",
+      "durationYears": 2,
+      "examsAccepted": [
+        "CAT",
+        "XAT",
+        "GMAT"
+      ],
+      "specialisations": [],
+      "feeTotal": 2250000,
+      "feeYear": "2026-28",
+      "feeNote": "Total INR 22,50,000 = tuition 10,25,000 + programme fee 5,78,000 (academic 16,03,000) + twin-sharing AC accommodation 6,32,000 + refundable caution deposit 10,000 + alumni subscription 5,000. Hostel mandatory; food extra.",
+      "intake": 360,
+      "intakeNote": "Year-wise sanctioned intake for the 2-year PGDM (2026-28) per Mandatory Disclosure 2026; actual admissions 2026-28: 354. AICTE EOA 2026-27 lists PGDM 240 + PGDM 120 (not mapped to programme names).",
+      "medianSalary": null,
+      "averageSalary": 1500000,
+      "salaryYear": "2024-26 batch (Class of 2026) final placements",
+      "placementNote": "Official PGDM Placement Report 2026: average CTC 15 LPA, highest 40 LPA (BFSI); median not published. Mandatory Disclosure 2026 lists 313 students placed for 2024-26. Class of 2025: average 15 LPA, highest 39.3 LPA. No audit mentioned.",
+      "sources": {
+        "fee": "https://www.greatlakes.edu.in/chennai/pgdm/fees",
+        "intake": "https://www.greatlakes.edu.in/chennai/nba/Mandatory_Disclosure_2026.pdf",
+        "salary": "https://www.greatlakes.edu.in/chennai/pgdm/placement-report",
+        "admission": "https://www.greatlakes.edu.in/chennai/pgdm/admissions"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {
+      "stage": 1,
+      "name": "Online application with GMAT/CAT/XAT score",
+      "weightage": null,
+      "detail": "Application screening on academics, entrance score and overall profile. For 2027 intake: GMAT on/after 1 Jan 2024, CAT 2025/2026, XAT 2026/2027. Min 50% across 10th, 12th & UG; <36 months work-ex as on 30 May 2027. Profile-based early interviews also possible before scores."
+    },
+    {
+      "stage": 2,
+      "name": "AI-proctored interview",
+      "weightage": null,
+      "detail": "Candidates who clear the AI interview are invited to the personal interview."
+    },
+    {
+      "stage": 3,
+      "name": "Personal Interview (online)",
+      "weightage": null,
+      "detail": "Assesses general and business awareness, clarity of goals, attitude, people skills etc.; college/university rank holders get extra weightage."
+    },
+    {
+      "stage": 4,
+      "name": "Final selection by Admissions Committee",
+      "weightage": null,
+      "detail": "Holistic evaluation; offers released to selected candidates."
+    }
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-11-26",
+    "examDate": null,
+    "notes": "PGDM 2027-29: Cycle 1 application deadline 26 Nov 2026; Cycles 2-4 deadlines TBD; PIs online.",
+    "source": "https://www.greatlakes.edu.in/chennai/pgdm/admissions"
+  },
+  "nirf": {
+    "year": 2025,
+    "managementRank": 37,
+    "score": 58.05,
+    "nirfInstituteId": "IR-M-N-16",
+    "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+  },
+  "sources": [
+    {
+      "title": "Great Lakes Chennai PGDM Fee Structure 2026-28",
+      "url": "https://www.greatlakes.edu.in/chennai/pgdm/fees",
+      "retrievedAt": "2026-11-11",
+      "supports": "fee 2026-28; AICTE approval"
+    },
+    {
+      "title": "Great Lakes Chennai PGDM 2027-29 Admissions Process",
+      "url": "https://www.greatlakes.edu.in/chennai/pgdm/admissions",
+      "retrievedAt": "2026-11-11",
+      "supports": "exams accepted; eligibility; selection process; 2027 key dates"
+    },
+    {
+      "title": "Great Lakes Chennai PGDM Placement Report 2026",
+      "url": "https://www.greatlakes.edu.in/chennai/pgdm/placement-report",
+      "retrievedAt": "2026-11-11",
+      "supports": "average/highest CTC class of 2026"
+    },
+    {
+      "title": "Great Lakes Chennai Mandatory Disclosure 2026",
+      "url": "https://www.greatlakes.edu.in/chennai/nba/Mandatory_Disclosure_2026.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "sanctioned intake & actual admissions; students placed 2024-26"
+    },
+    {
+      "title": "AICTE EOA Report 2026-27 (hosted by Great Lakes)",
+      "url": "https://www.greatlakes.edu.in/chennai/assets/greatlakes/pdf/EOA_Report_2026-2027.pdf",
+      "retrievedAt": "2026-11-11",
+      "supports": "AICTE approved intake (context)"
+    },
+    {
+      "title": "NIRF India Rankings 2025 - Management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+      "retrievedAt": "2026-11-11",
+      "supports": "NIRF rank/score"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "fore-delhi",
+  "name": "FORE School of Management",
+  "city": "New Delhi",
+  "state": "Delhi",
+  "program": "PGDM",
+  "cutoffs": [
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "General",
+      "overall": 80,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM; 'Cut-Off Marks/rank of admission during the last year (AY 2025-26)'. Same 80 for 2023, 2024, 2025. XAT 80, GMAT 600.",
+      "source": {
+        "title": "FORE School of Management Mandatory Disclosure (updated December 04, 2025)",
+        "url": "https://www.fsm.ac.in/pdf/mandatory.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "PGDM 80.00 80.00 600"
+    },
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "General",
+      "overall": 70,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM(IB) and PGDM(FM).",
+      "source": {
+        "title": "FORE School of Management Mandatory Disclosure (updated December 04, 2025)",
+        "url": "https://www.fsm.ac.in/pdf/mandatory.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "PGDM(IB) 70.00 70.00 580"
+    },
+    {
+      "batch": "2025-27",
+      "stage": "final",
+      "category": "General",
+      "overall": 60,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "PGDM(BDA).",
+      "source": {
+        "title": "FORE School of Management Mandatory Disclosure (updated December 04, 2025)",
+        "url": "https://www.fsm.ac.in/pdf/mandatory.pdf",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "PGDM(BDA) 60.00 60.00 550"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "GMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Admissions FAQ and admissions.fsm.ac.in (2027-29) give no numeric cut-off; AICTE mandatory disclosure (Dec 2025) gives AY 2025-26 CAT cut-offs."
+}

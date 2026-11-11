@@ -1,0 +1,56 @@
+{
+  "slug": "imt-ghaziabad",
+  "name": "Institute of Management Technology, Ghaziabad",
+  "shortName": "IMT Ghaziabad",
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "type": "private",
+  "website": "https://www.imt.edu",
+  "approvals": ["AACSB accredited", "NBA accredited", "SAQS accredited", "AIU equivalence"],
+  "programs": [
+    {
+      "name": "Post Graduate Diploma in Management (PGDM) - Full Time",
+      "durationYears": 2,
+      "examsAccepted": ["CAT", "XAT", "GMAT"],
+      "specialisations": ["Marketing", "Finance", "Operations and Supply Chain", "Human Resource Management", "Business Analytics", "Information Technology Management", "Strategy, Innovation and Entrepreneurship", "Economics and Sustainability"],
+      "feeTotal": 2300000,
+      "feeYear": "2027-29",
+      "feeNote": "Provisional fee for PGDM / PGDM-FM / PGDM-Marketing / PGDM-BFS 2027-29: admission 50,000 + tuition 22,27,000 + lifetime alumni 8,000 + refundable caution deposit 15,000 = 23,00,000 (Year 1 13,00,000; Year 2 10,00,000). IMT states the programme fee covers tuition, boarding, lodging and academic materials.",
+      "intake": 510,
+      "intakeNote": "IMT Ghaziabad's NIRF 2026 data submission (hosted on web.imt.edu): sanctioned intake 510 for all 2-year PG programmes combined in 2024-25 (660 in 2023-24).",
+      "medianSalary": 1650000,
+      "averageSalary": 1764000,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "IMT Ghaziabad official placements page, final placement 2024-26: average CTC 17.64 LPA, median 16.50 LPA, highest domestic 35.00 LPA, highest international 46.17 LPA; 195 recruiters (86 new). Figures appear to cover all IMT Ghaziabad 2-year PGDM programmes combined; audit not stated.",
+      "sources": {
+        "fee": "https://web.imt.edu/downloadfiles/admissions/2026/fees/fees-pgdm-imtg.pdf",
+        "intake": "http://web.imt.edu/DownloadFiles/NIRF2026.pdf",
+        "salary": "https://www.imt.edu/placements/",
+        "admission": "https://www.imt.edu/admissions/pgdm/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Shortlisting on CAT 2026 / XAT 2027 / GMAT and profile", "weightage": null, "detail": "IMT considers academic performance, competitive exam scores, work experience (if any), professional qualifications and overall profile. No special weightage for category. GMAT scores must reach IMT by 15 Jan 2027."},
+    {"stage": 2, "name": "Critical Thinking Test and Personal Interview (CTPI)", "weightage": null, "detail": "Offline CTPI from 8 January 2027 across 22 cities; slot booking first week of January 2027. Weights not published."},
+    {"stage": 3, "name": "Final results", "weightage": null, "detail": "Admission offers announced after completion of evaluation."}
+  ],
+  "selectionWeightage": null,
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": "2026-11-27",
+    "examDate": null,
+    "notes": "IMT Common Admissions 2027: Profile Detail Form opens end of October 2026; application deadline 27 Nov 2026; CTPI slot booking first week of Jan 2027; CTPI from 8 Jan 2027. Application fee Rs 3,500 + charges. Accepts CAT 2026, XAT 2027, GMAT (from 1 Jul 2022).",
+    "source": "https://www.imt.edu/admissions/pgdm/"
+  },
+  "nirf": {"year": 2025, "managementRank": 30, "score": 59.85, "nirfInstituteId": "IR-M-S-394", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"},
+  "sources": [
+    {"title": "IMT Ghaziabad PGDM fee structure 2027-29", "url": "https://web.imt.edu/downloadfiles/admissions/2026/fees/fees-pgdm-imtg.pdf", "retrievedAt": "2026-11-11", "supports": "fee 2027-29"},
+    {"title": "IMT Common Admissions 2027 - PGDM admissions page", "url": "https://www.imt.edu/admissions/pgdm/", "retrievedAt": "2026-11-11", "supports": "exams accepted; selection process; key dates; application fee; accreditations"},
+    {"title": "IMT Ghaziabad placements page (Final Placement 2024-26)", "url": "https://www.imt.edu/placements/", "retrievedAt": "2026-11-11", "supports": "median and average CTC 2024-26"},
+    {"title": "IMT Ghaziabad PGDM Full Time programme page", "url": "https://www.imt.edu/pgdm/pgdm-ft/", "retrievedAt": "2026-11-11", "supports": "specialisation areas; fee inclusions"},
+    {"title": "IMT Ghaziabad NIRF 2026 submitted data (hosted on web.imt.edu)", "url": "http://web.imt.edu/DownloadFiles/NIRF2026.pdf", "retrievedAt": "2026-11-11", "supports": "sanctioned intake 510 (2024-25)"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF 2025 rank 30, score 59.85"}
+  ]
+}

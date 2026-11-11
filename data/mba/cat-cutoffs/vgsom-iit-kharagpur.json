@@ -1,0 +1,110 @@
+{
+  "slug": "vgsom-iit-kharagpur",
+  "name": "Vinod Gupta School of Management (VGSoM), IIT Kharagpur",
+  "city": "Kharagpur",
+  "state": "West Bengal",
+  "program": "MBA",
+  "cutoffs": [
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "General",
+      "overall": 90,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "source": {
+        "title": "Selection Process - MBA, VGSoM IIT Kharagpur",
+        "url": "https://som.iitkgp.ac.in/MBA/selectionprocess.php",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Table 1: Minimum CAT-2025 Percentile for shortlisting Category Minimum Overall Percentile for Eligibility General/EWS 90 OBC 81 SC 60 ST 60 PwD 60"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "EWS",
+      "overall": 90,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "source": {
+        "title": "Selection Process - MBA, VGSoM IIT Kharagpur",
+        "url": "https://som.iitkgp.ac.in/MBA/selectionprocess.php",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Table 1: Minimum CAT-2025 Percentile for shortlisting Category Minimum Overall Percentile for Eligibility General/EWS 90 OBC 81 SC 60 ST 60 PwD 60"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "NC-OBC",
+      "overall": 81,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "source": {
+        "title": "Selection Process - MBA, VGSoM IIT Kharagpur",
+        "url": "https://som.iitkgp.ac.in/MBA/selectionprocess.php",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Table 1: Minimum CAT-2025 Percentile for shortlisting Category Minimum Overall Percentile for Eligibility General/EWS 90 OBC 81 SC 60 ST 60 PwD 60"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "SC",
+      "overall": 60,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "source": {
+        "title": "Selection Process - MBA, VGSoM IIT Kharagpur",
+        "url": "https://som.iitkgp.ac.in/MBA/selectionprocess.php",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Table 1: Minimum CAT-2025 Percentile for shortlisting Category Minimum Overall Percentile for Eligibility General/EWS 90 OBC 81 SC 60 ST 60 PwD 60"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "ST",
+      "overall": 60,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "source": {
+        "title": "Selection Process - MBA, VGSoM IIT Kharagpur",
+        "url": "https://som.iitkgp.ac.in/MBA/selectionprocess.php",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Table 1: Minimum CAT-2025 Percentile for shortlisting Category Minimum Overall Percentile for Eligibility General/EWS 90 OBC 81 SC 60 ST 60 PwD 60"
+    },
+    {
+      "batch": "2026-28",
+      "stage": "shortlisting",
+      "category": "PwD",
+      "overall": 60,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum overall CAT 2025 percentile to be eligible for consideration for WAT-PI shortlisting; candidates above it are then ranked on scaled CAT score + Application Rating.",
+      "source": {
+        "title": "Selection Process - MBA, VGSoM IIT Kharagpur",
+        "url": "https://som.iitkgp.ac.in/MBA/selectionprocess.php",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "Table 1: Minimum CAT-2025 Percentile for shortlisting Category Minimum Overall Percentile for Eligibility General/EWS 90 OBC 81 SC 60 ST 60 PwD 60"
+    }
+  ],
+  "otherExamsAccepted": [
+    "CAT 2025"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official selection process page (references CAT 2025, i.e. 2026-28 batch); no 2027-29/CAT 2026 version found yet."
+}

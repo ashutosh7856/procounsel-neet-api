@@ -1,0 +1,54 @@
+{
+  "id": "gmat",
+  "name": "GMAT",
+  "fullName": "Graduate Management Admission Test - GMAT Exam (Focus Edition; GMAC now also calls the current version the 11th Edition)",
+  "conductingBody": "Graduate Management Admission Council (GMAC)",
+  "officialUrl": "https://www.mba.com/exams/gmat-exam",
+  "cycle": "GMAT Focus Edition (2026)",
+  "eligibility": "You must be at least eighteen (18) years old to schedule and take the GMAT exam. Test takers aged thirteen (13) to seventeen (17) may take the exam at a test center if they give written proof of a parent's or guardian's consent before scheduling. GMAC sets no academic eligibility requirement.",
+  "mode": "Computer-adaptive. Taken at a test center or online with a human proctor; both versions have the same structure, number of questions, timing, scoring algorithm and score scale.",
+  "frequency": "Up to 5 attempts (test center and online combined) in a rolling 12-month period, with at least 16 days between attempts. GMAC has removed the earlier 8-attempt lifetime limit, so there is now no lifetime limit. Anyone who has scored a perfect 805 must wait 5 years before testing again.",
+  "pattern": {
+    "sections": [
+      { "name": "Quantitative Reasoning", "questions": 21, "minutes": 45 },
+      { "name": "Verbal Reasoning", "questions": 23, "minutes": 45 },
+      { "name": "Data Insights", "questions": 20, "minutes": 45 }
+    ],
+    "totalMinutes": 135,
+    "marking": "Total score 205-805, and every total ends in 5. Each section is scored 60-90, and the three sections count equally toward the total. Each section score depends on the number of questions answered, whether the answers are correct, and the difficulty and other parameters of those questions. In Data Insights, every part of a multi-part question must be correct to earn credit. No negative marking per question is stated.",
+    "notes": "The exam lasts 2 hours 15 minutes and includes an optional 10-minute break after the first or second section. Test takers pick the section order. A calculator is available only in Data Insights. Totals cannot be compared directly with 10th Edition scores (200-800); compare using percentiles instead."
+  },
+  "syllabusAreas": [
+    "Quantitative Reasoning: Problem Solving questions on algebraic and arithmetic foundational knowledge and how it is applied to solve problems (no calculator)",
+    "Verbal Reasoning: Reading Comprehension and Critical Reasoning - reading and comprehending written material and reasoning about and evaluating arguments",
+    "Data Insights: Data Sufficiency, Multi-Source Reasoning, Table Analysis, Graphics Interpretation and Two-Part Analysis - analyzing and interpreting data and applying it to real-world business scenarios (on-screen calculator available)"
+  ],
+  "registrationFee": [
+    { "category": "Test center - India", "amount": 275, "currency": "USD" },
+    { "category": "Online exam (general price; GMAC says the exact cost varies slightly by location, and no India-specific online figure was retrievable)", "amount": 300, "currency": "USD" },
+    { "category": "INR equivalent", "amount": null, "currency": "INR" }
+  ],
+  "keyDates": [
+    { "event": "Test dates", "dateText": "Year-round, on-demand (test center and online appointments)", "tentative": false },
+    { "event": "Score reporting", "dateText": "Unofficial scores on screen right after the exam; Official Score Report about 3-5 days later (online exam, per GMAC)", "tentative": false }
+  ],
+  "scoreValidity": "5 years. Candidates can send scores to programmes for up to five years after the exam, and Official Score Reports show every exam taken in the past 5 years.",
+  "acceptingInstitutes": {
+    "officialListUrl": "https://www.mba.com/how-to-apply/scholarships-and-financing/top-20-gmat-accepting-business-schools-mba",
+    "notable": [
+      "Indian School of Business (ISB) - PGP"
+    ]
+  },
+  "resultAndCounselling": "Unofficial section and total scores appear right after the exam, and the Official Score Report follows, which the candidate sends to programmes. Schools that get scores electronically see them within about three weeks of the exam. Score reports list every exam from the past 5 years. Scores cancelled by GMAC carry notations (T, P or S) on the report. Across multiple attempts, GMAC's Superscore combines the best section scores into one score. There is no central counselling: each programme uses GMAT scores in its own admissions process, together with essays, academic history and interviews. For example, ISB requires a GMAT or GRE score but sets no minimum or cutoff.",
+  "sources": [
+    { "title": "GMAT Exam Scores (GMAC)", "url": "https://www.gmac.com/gmat-other-assessments/about-the-gmat-focus-edition/exam-scores", "retrievedAt": "2026-11-11", "supports": "Total 205-805; section 60-90, equally weighted; sections: Quant 21 questions/45 min, Verbal 23/45, Data Insights 20/45; scoring factors; Data Insights multi-part credit rule and calculator; section content descriptions; no direct comparison with 10th Edition" },
+    { "title": "GMAT Exam Policies and Procedures (test center and online), Oct 2024 PDF", "url": "https://www.mba.com/-/media/files/mba2/the-gmat-exam/files/register/gmat-policies-and-procedures-test-center-and-online_final-22oct24.pdf", "retrievedAt": "2026-11-11", "supports": "Age eligibility (18+, or 13-17 with consent at a test center); 5 attempts per rolling 12 months, combined; 16-day wait; 5-year wait after an 805; score cancellation notations T/P/S" },
+    { "title": "The GMAT Offers Unlimited Potential - Literally (GMAC)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/gmat-offers-unlimited-potential", "retrievedAt": "2026-11-11", "supports": "8-attempt lifetime limit removed; 5 attempts in a rolling 12-month period still applies" },
+    { "title": "Everything you need to know about the online GMAT exam (GMAC, Nov 2026)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/gmat-exam-online", "retrievedAt": "2026-11-11", "supports": "Online and test center versions are identical in structure and scoring; online costs generally $300 (varies by location); unofficial scores immediately, Official Score Report in 3-5 days; no lifetime limit; Superscore" },
+    { "title": "GMAT vs GRE: Which should you choose? (GMAC, Apr 2026)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/gmat-vs-gre", "retrievedAt": "2026-11-11", "supports": "Fee: India $275 (test center); Online $300" },
+    { "title": "What is the GMAT exam, and how to get started? (GMAC)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/what-is-gmat-exam-how-get-started", "retrievedAt": "2026-11-11", "supports": "2h15m duration with optional 10-minute break; section order choice; question counts; 11th Edition (previously called Focus Edition) naming; 205-805 scale; schools weigh the whole application" },
+    { "title": "GMAT Exam FAQs (GMAC, for schools)", "url": "https://www.gmac.com/frequently-asked-questions/gmat-exam", "retrievedAt": "2026-11-11", "supports": "Score validity: scores can be sent up to five years after the exam; reports show all exams from the past 5 years; schools receive scores within three weeks" },
+    { "title": "GMAT Score For ISB (GMAC)", "url": "https://www.gmac.com/resources/learners/how-to-apply/exams-preparation/gmat-score-for-isb", "retrievedAt": "2026-11-11", "supports": "ISB accepts GMAT (or GRE); no ISB GMAT cutoff" },
+    { "title": "Top 20 GMAT Accepting Indian Business Schools for MBA (mba.com)", "url": "https://www.mba.com/how-to-apply/scholarships-and-financing/top-20-gmat-accepting-business-schools-mba", "retrievedAt": "2026-11-11", "supports": "officialListUrl only. This page sits behind a bot-protection wall and its content could not be retrieved, so no names from it are listed" }
+  ]
+}

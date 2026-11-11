@@ -1,0 +1,60 @@
+{
+  "slug": "kjsim-mumbai",
+  "name": "K J Somaiya Institute of Management (KJSIM)",
+  "shortName": "KJSIM",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "type": "private",
+  "website": "https://kjsim.somaiya.edu",
+  "approvals": null,
+  "programs": [
+    {
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "examsAccepted": ["CAT", "XAT", "GMAT", "NMAT", "CMAT"],
+      "specialisations": [],
+      "feeTotal": 2387500,
+      "feeYear": "2026-28",
+      "feeNote": "Batch 2026-28 fee: Year 1 (2026-27) INR 11,52,000 + Year 2 (2027-28) INR 12,35,500; includes tuition, development, examination, convocation and alumni association fees. Hostel charged separately. 2027-29 batch fee not yet shown on the admission page.",
+      "intake": 600,
+      "intakeNote": "MBA intake 600 seats + supernumerary seats per the MBA admission page (2027-29 cycle). Separate programmes: MBA-HCM 30, MBA-SM 30, MBA-MC 30.",
+      "medianSalary": 1200000,
+      "averageSalary": null,
+      "salaryYear": "2024-26 batch final placements",
+      "placementNote": "MBA 2024-26 per KJSIM placement highlights page: median CTC INR 12 LPA, highest INR 29.30 LPA, 210 recruiters. Placement brochure 2026-27 gives top 10% avg 19.88 LPA, top 20% 17.85 LPA, top 30% 16.86 LPA and says the audited report is awaited. Overall average not clearly stated for this batch, so left null. Earlier batches audited by CRISIL.",
+      "sources": {
+        "fee": "https://kjsim.somaiya.edu/en/admission/mba/",
+        "intake": "https://kjsim.somaiya.edu/en/admission/mba/",
+        "salary": "https://kjsim.somaiya.edu/en/current-placement-highlights/",
+        "admission": "https://kjsim.somaiya.edu/en/admission/mba/"
+      }
+    }
+  ],
+  "selectionProcess": [
+    {"stage": 1, "name": "Entrance exam", "weightage": null, "detail": "CAT 2026, XAT 2027, GMAT (taken 1 Jan 2024 - 20 Jan 2027), NMAT (best of two attempts) or CMAT 2027. Minimum 50% aggregate in a 3-year bachelor's degree."},
+    {"stage": 2, "name": "Shortlisting (merit-based or profile-based)", "weightage": null, "detail": "Profile-based track requires 12-42 months of work experience."},
+    {"stage": 3, "name": "Written Ability Test (WAT)", "weightage": "10%", "detail": null},
+    {"stage": 4, "name": "Problem Situation Analysis (PSA) and Personal Interview (PI)", "weightage": "PSA 10%; PI 30% (merit-based) / 40% (profile-based)", "detail": null},
+    {"stage": 5, "name": "Merit list and online seat allotment", "weightage": null, "detail": "Composite of entrance score, academics, work experience, PSA, WAT, PI."}
+  ],
+  "selectionWeightage": {
+    "meritBased": {"Entrance score": 25, "Past academics": 15, "Work experience": 10, "PSA": 10, "WAT": 10, "PI": 30},
+    "profileBased": {"Entrance score": 15, "Past academics": 15, "Work experience": 10, "PSA": 10, "WAT": 10, "PI": 40},
+    "source": "https://kjsim.somaiya.edu/en/admission/mba/"
+  },
+  "officialCutoffs": [],
+  "keyDates": {
+    "applicationOpens": null,
+    "applicationDeadline": null,
+    "examDate": null,
+    "notes": "2027-29 admissions open; early-bird scholarship deadline 7 Dec 2026 (11:59 PM). Shortlisting/WAT/PSA-PI dates for 2027-29 not yet published (page still lists the 2026 cycle: WAT 16-18 Feb 2026, PSA-PI 20 Feb - 8 Mar 2026).",
+    "source": "https://kjsim.somaiya.edu/en/admission/mba/"
+  },
+  "nirf": {"year": 2025, "managementRank": 65, "score": 51.28, "nirfInstituteId": "IR-M-S-220", "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"},
+  "sources": [
+    {"title": "KJSIM MBA Admission 2027-29 page", "url": "https://kjsim.somaiya.edu/en/admission/mba/", "retrievedAt": "2026-11-11", "supports": "fee 2026-28; intake 600; exams; selection process and weightage; early-bird deadline"},
+    {"title": "KJSIM Current Placement Highlights", "url": "https://kjsim.somaiya.edu/en/current-placement-highlights/", "retrievedAt": "2026-11-11", "supports": "median CTC 2024-26; highest; recruiters"},
+    {"title": "KJSIM Placement Brochure 2026-27", "url": "https://kjsim-files.somaiya.edu/Placements/2026/KJSIM_Placement_Brochure_2026-27.pdf", "retrievedAt": "2026-11-11", "supports": "2024-26 top-percentile averages; audit awaited"},
+    {"title": "NIRF India Rankings 2025: Management", "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html", "retrievedAt": "2026-11-11", "supports": "NIRF rank/score"}
+  ]
+}

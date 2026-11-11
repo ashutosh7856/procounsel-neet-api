@@ -1,0 +1,33 @@
+{
+  "slug": "ifmr-gsb-krea",
+  "name": "IFMR Graduate School of Business, Krea University",
+  "city": "Sri City",
+  "state": "Andhra Pradesh",
+  "program": "MBA 2027-29",
+  "cutoffs": [
+    {
+      "batch": "2027-29",
+      "stage": "minimum_to_apply",
+      "category": "General",
+      "overall": 70,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Minimum competitive exam score in eligibility criteria; CAT 2025 or 2026 accepted. XAT 70 percentile, CMAT 90 percentile, NMAT 210, GMAT 525. University rank holders (Top 20) exempt.",
+      "source": {
+        "title": "Krea University IFMR GSB - MBA Admissions Eligibility",
+        "url": "https://krea.edu.in/ifmr-gsb/admissions/mba/eligibility/",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "CAT: 2025 & 2026 | 70 Percentile"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "CMAT",
+    "NMAT",
+    "GMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official eligibility page."
+}

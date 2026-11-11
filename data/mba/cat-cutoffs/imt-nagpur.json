@@ -1,0 +1,32 @@
+{
+  "slug": "imt-nagpur",
+  "name": "Institute of Management Technology (IMT) Nagpur",
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "program": "PGDM 2027-29",
+  "cutoffs": [
+    {
+      "batch": "2027-29",
+      "stage": "minimum_to_apply",
+      "category": "General",
+      "overall": 70,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "note": "Stated as 'Entrance Exam cutoff scores for batch 2027-29'. CMAT >=90 percentile; GMAT >=650 (10th ed)/605 (Focus). Older official FAQ PDF (2025-27 admissions) said 'NO pre-decided cut-off. However, last year we stopped at 75 percentiles for CAT/XAT'.",
+      "source": {
+        "title": "IMT Nagpur - Admissions 2027 (FAQ: selection criteria)",
+        "url": "https://www.imtnagpur.ac.in/admissions/",
+        "retrievedAt": "2026-11-11"
+      },
+      "quote": "IMT Nagpur Entrance Exam cutoff scores for batch 2027-29: CAT/XAT: >= 70 percentile or above"
+    }
+  ],
+  "otherExamsAccepted": [
+    "XAT",
+    "CMAT",
+    "GMAT"
+  ],
+  "status": "official_cutoff_found",
+  "statusNote": "Official admissions page FAQ. Stage interpreted as minimum entrance cut-off for consideration."
+}
