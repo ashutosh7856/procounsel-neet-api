@@ -1,0 +1,259 @@
+{
+  "slug": "iim-amritsar",
+  "name": "Indian Institute of Management Amritsar",
+  "shortName": "IIM Amritsar",
+  "city": "Amritsar",
+  "state": "Punjab",
+  "website": "https://iimamritsar.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "feeTotal": 1950000,
+      "feeNote": "975000 + 975000 = 1950000; covers Tuition, Academic Support, Hostel, Student Activities & Health. Excludes refundable Caution Deposit (50000) and Mess Deposit (75000/yr). Total Payment amount incl. deposits = 1100000 + 1050000 = 2150000.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Amritsar - Notional Fees Structure for MBA Batch 2026-28 (dated 10 April 2026)",
+        "url": "https://iimamritsar.ac.in/img/Fee-Structure-MBA-2026-28.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "[Transcribed from image-only PDF; pypdf extracted no text] Notional Fees Structure for MBA Batch 2026-28 (Academic Year 2026-27 & 2027-28) ... Total Program fee amount | 975000 (AY 2026-27 First year fee) | 975000 (AY 2027-28 Second year fee)"
+      },
+      "intake": 302,
+      "intakeNote": "NIRF sanctioned intake for ALL 2-year PG programmes combined (MBA, MBA-BA, MBA-HR), AY 2024-25; flagship-MBA-only intake not officially stated.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "IIM Amritsar - Submitted Institute Data for NIRF'2026' (hosted on iimamritsar.ac.in/quick-links/nirf)",
+        "url": "https://iimamritsar.ac.in/img/IIM-Amritsar20260216.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake Academic Year 2024-25 2023-24 ... PG [2 Year Program(s)] 302 320"
+      },
+      "medianSalary": 1229000,
+      "medianSalaryYear": 2025,
+      "salaryNote": "NIRF 2026 median salary of placed graduates (graduating AY 2024-25), all 2-year PG programmes combined. The 2026 final placement page (iimamritsar.ac.in/placements/final-placement) gives only top-50/top-50% medians (e.g. 'average CTC for the top 50% of the batch was INR 16.30 LPA, with a median of INR 15.25 LPA'), not an overall batch median.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Amritsar - Submitted Institute Data for NIRF'2026' (hosted on iimamritsar.ac.in/quick-links/nirf)",
+        "url": "https://iimamritsar.ac.in/img/IIM-Amritsar20260216.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "2023-24 320 320 2024-25 318 310 1229000(Twelve Lakh Twenty Nine Thousand )"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 90,
+      "varc": 80,
+      "dilr": 75,
+      "qa": 80,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | General | 80 | 75 | 80 | 90"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 90,
+      "varc": 77,
+      "dilr": 75,
+      "qa": 80,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | EWS | 80 | 75 | 77 | 90"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 80,
+      "varc": 65,
+      "dilr": 60,
+      "qa": 65,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Non Creamy Other Backward Classes (NC-OBC) | 65 | 60 | 65 | 80"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 55,
+      "varc": 52,
+      "dilr": 50,
+      "qa": 55,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Scheduled Castes (SC) | 55 | 50 | 52 | 55"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 40,
+      "varc": 37,
+      "dilr": 35,
+      "qa": 40,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Scheduled Tribes (ST) | 40 | 35 | 37 | 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 37,
+      "dilr": 35,
+      "qa": 40,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated). PwD row is published as a single category-agnostic row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Persons with Disabilities (PwD) | 40 | 35 | 37 | 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 37,
+      "dilr": 35,
+      "qa": 40,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated). PwD row is published as a single category-agnostic row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Persons with Disabilities (PwD) | 40 | 35 | 37 | 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 37,
+      "dilr": 35,
+      "qa": 40,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated). PwD row is published as a single category-agnostic row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Persons with Disabilities (PwD) | 40 | 35 | 37 | 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 37,
+      "dilr": 35,
+      "qa": 40,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated). PwD row is published as a single category-agnostic row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Persons with Disabilities (PwD) | 40 | 35 | 37 | 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 37,
+      "dilr": 35,
+      "qa": 40,
+      "notes": "Stage 1 first shortlist for PI (CAT 2025). Table column order is QA, DILR, VARC, Overall. Candidates must also have a positive (>0) raw score in all CAT sections. Non-CAT: graduation % per CAT 2025 eligibility; Class X/XII and graduation are scoring parameters (no separate minimum stated). PwD row is published as a single category-agnostic row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Amritsar - Admission Process for IIM Amritsar MBA Batch of 2026 (version dated 14-October-2025)",
+        "url": "https://iimamritsar.ac.in/academics/mba/admission",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum Eligibility requirements for the MBA batch of 2026-2028 | Category | Quantitative Aptitude (Percentile) | Data Interpretation & Logical Reasoning (Percentile) | Verbal & Reading Comprehension (Percentile) | Total (Overall Percentile) | Persons with Disabilities (PwD) | 40 | 35 | 37 | 40"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

@@ -1,0 +1,679 @@
+{
+  "slug": "iim-jammu",
+  "name": "Indian Institute of Management Jammu",
+  "shortName": "IIM Jammu",
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "website": "https://www.iimj.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA)",
+      "durationYears": 2,
+      "feeTotal": 2280756,
+      "feeNote": "Includes tuition and other academic/non-academic expenses (hostel, health insurance etc.); excludes refundable caution deposit Rs 50000 and mess bills (actuals).",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA (2026-2028) Fee Structure",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/fee-structure-and-financing.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "MBA (2026-2028) Fee Structure ... Total fee | 3,79,126 | 3,79,126 | 3,79,126 | 11,37,378 | ... Total fee | 3,85,126 | 3,79,126 | 3,79,126 | 11,43,378 | Total Fees for the Program | 22,80,756"
+      },
+      "intake": 300,
+      "intakeNote": "Approximate ('likely to be around 300'). NIRF 2026 sanctioned intake for all 2-yr PG programmes AY 2024-25 = 282.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "This document summarizes the approach of IIM Jammu to prepare the admission list for its MBA Batch 2026-28. The batch size is likely to be around 300."
+      },
+      "medianSalary": 1580000,
+      "medianSalaryYear": 2025,
+      "salaryNote": "NIRF 2026 data submitted by IIM Jammu: median for graduates of academic year 2024-25 (all 2-year PG programmes). The MBA 2024-26 placement report linked from iimj.ac.in (hosted on Google Drive) states a median CTC of INR 15.00 LPA.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Jammu - NIRF 2026 Final Submitted Data",
+        "url": "https://www.iimj.ac.in/sites/default/files/2025-02/NIRF%202026_Final%20Submitted%20Data.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "2023-24 255 255 2024-25 255 255 1580000(Fifteen Lakh Eighty Thousand)"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 91,
+      "varc": 72,
+      "dilr": 72,
+      "qa": 72,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | General | Male | 72 | 72 | 72 | 91"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 89,
+      "varc": 71,
+      "dilr": 71,
+      "qa": 71,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | General | ... | Female | 71 | 71 | 71 | 89 | Transgender | 71 | 71 | 71 | 89"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": "Transgender",
+      "overall": 89,
+      "varc": 71,
+      "dilr": 71,
+      "qa": 71,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | General | ... | Female | 71 | 71 | 71 | 89 | Transgender | 71 | 71 | 71 | 89"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 74,
+      "varc": 48,
+      "dilr": 48,
+      "qa": 48,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | EWS | Male | 48 | 48 | 48 | 74"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 72,
+      "varc": 47,
+      "dilr": 47,
+      "qa": 47,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | EWS | ... | Female | 47 | 47 | 47 | 72 | Transgender | 47 | 47 | 47 | 72"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": "Transgender",
+      "overall": 72,
+      "varc": 47,
+      "dilr": 47,
+      "qa": 47,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | EWS | ... | Female | 47 | 47 | 47 | 72 | Transgender | 47 | 47 | 47 | 72"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 74,
+      "varc": 48,
+      "dilr": 48,
+      "qa": 48,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | NC-OBC | Male | 48 | 48 | 48 | 74"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 72,
+      "varc": 47,
+      "dilr": 47,
+      "qa": 47,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | NC-OBC | ... | Female | 47 | 47 | 47 | 72 | Transgender | 47 | 47 | 47 | 72"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": "Transgender",
+      "overall": 72,
+      "varc": 47,
+      "dilr": 47,
+      "qa": 47,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | NC-OBC | ... | Female | 47 | 47 | 47 | 72 | Transgender | 47 | 47 | 47 | 72"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 54,
+      "varc": 42,
+      "dilr": 42,
+      "qa": 42,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | SC | Male | 42 | 42 | 42 | 54"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 52,
+      "varc": 41,
+      "dilr": 41,
+      "qa": 41,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | SC | ... | Female | 41 | 41 | 41 | 52 | Transgender | 41 | 41 | 41 | 52"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": "Transgender",
+      "overall": 52,
+      "varc": 41,
+      "dilr": 41,
+      "qa": 41,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | SC | ... | Female | 41 | 41 | 41 | 52 | Transgender | 41 | 41 | 41 | 52"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": "Male",
+      "overall": 32,
+      "varc": 24,
+      "dilr": 24,
+      "qa": 29,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | ST | Male | 24 | 24 | 29 | 32"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": "Female",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | ST | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": "Transgender",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | ST | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 32,
+      "varc": 24,
+      "dilr": 24,
+      "qa": 29,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | Male | 24 | 24 | 29 | 32"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 32,
+      "varc": 24,
+      "dilr": 24,
+      "qa": 29,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | Male | 24 | 24 | 29 | 32"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 32,
+      "varc": 24,
+      "dilr": 24,
+      "qa": 29,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | Male | 24 | 24 | 29 | 32"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 32,
+      "varc": 24,
+      "dilr": 24,
+      "qa": 29,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | Male | 24 | 24 | 29 | 32"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": "Male",
+      "overall": 32,
+      "varc": 24,
+      "dilr": 24,
+      "qa": 29,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Male row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | Male | 24 | 24 | 29 | 32"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": "Transgender",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": "Transgender",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": "Transgender",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": "Transgender",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": "Female",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": "Transgender",
+      "overall": 30,
+      "varc": 23,
+      "dilr": 23,
+      "qa": 28,
+      "notes": "CAP 2026 PI shortlisting cut-offs for CAT 2025 (IIM Jammu MBA 2026-28). Policy: '*The cut-off can be higher/lower than the tabulated numbers after the declaration of CAT 2025 result.' Transgender rows equal Female rows. (A female 85/75 note exists only inside an HTML comment on the page - not in force, ignored.) Female/Transgender row. PwD row published as single row; recorded under General with pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Jammu - MBA Admission Policy, MBA Batch 2026-28",
+        "url": "https://www.iimj.ac.in/programs/post-graduate-program-pgp/admission-policy.php",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Category | Gender | Verbal Ability & Reading Comprehension Percentile | Data Interpretation & Logical Reasoning Percentile | Quantitative Ability Percentile | Overall Percentile | PwD | ... | Female | 23 | 23 | 28 | 30 | Transgender | 23 | 23 | 28 | 30"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

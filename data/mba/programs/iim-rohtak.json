@@ -1,0 +1,259 @@
+{
+  "slug": "iim-rohtak",
+  "name": "Indian Institute of Management Rohtak",
+  "shortName": "IIM Rohtak",
+  "city": "Rohtak",
+  "state": "Haryana",
+  "website": "https://www.iimrohtak.ac.in",
+  "programs": [
+    {
+      "code": "PGP",
+      "name": "Post Graduate Programme in Management (PGP) - Master of Business Administration",
+      "durationYears": 2,
+      "feeTotal": 1790000,
+      "feeNote": "PGP 2026-28: INR 8,95,000 per year x 2 (stated year totals); mess (INR 48,000/year) and other charges extra.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Rohtak - PGP 17th Batch (2026-2028) Fee Structure",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/programme-fee/17670761259967.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "PGP 17th Batch (2026-2028) Fee Structure ... Total Charges 355000 270000 270000 895000 355000 270000 270000 895000 ... Other Fee*: In addition to the above, the mess fee will be Rs. 48000/- per year. [feeTotal = 895000 (PGP I) + 895000 (PGP II), computed; excludes mess, placement facility Rs 40,000, development charge Rs 10,000/yr, alumni Rs 6,500, caution Rs 10,000]"
+      },
+      "intake": 264,
+      "intakeNote": "Total seats for PGP Batch 17 (2026-28).",
+      "intakeSource": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "The total number of seats for the PGP Batch 17 (Session 2026-28) will be 264."
+      },
+      "medianSalary": 1800000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Median CTC, final placement report 2024-26.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Rohtak - Final Placement Report 2024-26",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/placement/Final%20Placement%20Report%202024-26.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "The highest CTC of this year reached INR 37.10 LPA, while the average and median CTCs stood at INR 20.03 LPA and INR 18 LPA, respectively (PDF text is letter-spaced; de-spaced here)"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 97,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 93,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 83,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 60,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 50,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 87,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. DAP-General row. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 83,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. DAP-EWS row. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 73,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. DAP-NC-OBC row. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 50,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. DAP-SC row. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": null,
+      "dilr": null,
+      "qa": null,
+      "notes": "Stage: registration/PI-eligibility. DAP-ST row. Minimum aggregate CAT 2025 percentile for registration (Stage I); policy note: 'Meeting minimum eligibility criteria does not ensure that the candidate is shortlisted for the Personal Interview (PI) Process.' No sectional minimums stated. Non-CAT: the prospectus does not state Class X/XII/graduation minimums (CAT's own bachelor's-degree eligibility applies).",
+      "source": {
+        "kind": "official",
+        "title": "IIM Rohtak - Master of Business Administration, Post Graduate Programme in Management (PGP) Prospectus 2026-28 (PGP-17), incl. Admission Process for PGP Batch 17",
+        "url": "https://www.iimrohtak.ac.in/panel/assets/images/prospectus/17038426332257.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table-1: Minimum eligibility criteria based on CAT Score-2025 / CATEGORY CAT PERCENTILE / General 97 / EWS 93 / NC-OBC 83 / SC 60 / ST 50 / DAP-General 87 / DAP-EWS 83 / DAP-NC-OBC 73 / DAP-SC 50 / DAP-ST 40"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

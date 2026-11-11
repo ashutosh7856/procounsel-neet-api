@@ -1,0 +1,238 @@
+{
+  "slug": "iim-shillong",
+  "name": "Indian Institute of Management Shillong",
+  "shortName": "IIM Shillong",
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "website": "https://www.iimshillong.ac.in",
+  "programs": [
+    {
+      "code": "PGP",
+      "name": "Post Graduate Program (PGP) - two-year full-time MBA",
+      "durationYears": 2,
+      "feeTotal": null,
+      "feeNote": "No 2026-28 fee published. The official finances page lists only the PGP 2024-26 term-wise payments (summing to INR 26,18,000 including caution deposit and mess advances), so no programme fee is recorded.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP Finances (Financial aid and fees)",
+        "url": "https://www.iimshillong.ac.in/finances/",
+        "year": 2024,
+        "retrievedAt": "2026-11-11",
+        "quote": "PGP 2024-2026 Fee and Expenses Details: Acceptance Fee + caution deposit + advance for mess charges 90,000; Term 1 fees + advance for mess charges 3,63,000; Term 2 ... Term 6 fees + advance for mess charges 4,33,000 (each). [feeTotal 26,18,000 = 90,000 + 3,63,000 + 5 x 4,33,000, computed by summing; it is for the 2024-26 batch (latest published on the official site) and INCLUDES caution deposit and mess advances]"
+      },
+      "intake": 382,
+      "intakeNote": "NIRF sanctioned intake for all 2-year PG programmes of the institute combined (not only this programme).",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by Indian Institute of Management Shillong [IR-M-S-8937]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8937.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake / Academic Year 2023-24 2022-23 ... / PG [2 Year Program(s)] 382 281"
+      },
+      "medianSalary": 2600000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Median CTC, placement completion report for the PGP 2024-26 batch.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Shillong - Placement Completion Report, PGP 2024-26 Batch",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/05/IIM-Shillong-Placement-Report-2024-26-Batch.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "The batch recorded an impressive highest CTC of INR 71.50 LPA, with an average CTC of INR 27.03 LPA and median CTC of INR 26.00 LPA"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": null,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Policy category is 'OTHERS (OT)'. Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": null,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": null,
+      "varc": 60,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": null,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": null,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Policy has a single 'DA (D)' (Differently Abled) row, applied here to DA candidates of every category. Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": null,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Policy has a single 'DA (D)' (Differently Abled) row, applied here to DA candidates of every category. Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": null,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Policy has a single 'DA (D)' (Differently Abled) row, applied here to DA candidates of every category. Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": null,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Policy has a single 'DA (D)' (Differently Abled) row, applied here to DA candidates of every category. Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": null,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Policy has a single 'DA (D)' (Differently Abled) row, applied here to DA candidates of every category. Sectional minimums only; the policy states no minimum overall CAT percentile (shortlisting is then by Composite Score = 65% overall CAT percentile + 35% NARS, by academic discipline/category/gender). Non-CAT: Class X/XII/graduation % feed the application rating score, not a hard cutoff in this document.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Shillong - PGP (2026-28) Admissions Process",
+        "url": "https://www.iimshillong.ac.in/wp-content/uploads/2026/01/PGP-2026-28-Admission-Process.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: Minimum percentile requirements for shortlisting in various categories ... DA (D) 50 50 50 / ST (T) 50 50 50 / SC (C) 60 60 60 / EWS (E) 75 75 75 / OTHERS (OT) 75 75 75 [columns: CAT 2025 Percentile (VARC), (DILR), (QA)]"
+      }
+    }
+  ],
+  "cutoffNotes": "IIM Shillong's 2026-28 policy sets sectional minimums only (no overall minimum) and has no NC-OBC row."
+}

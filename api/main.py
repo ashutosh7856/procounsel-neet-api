@@ -8,12 +8,16 @@ from typing import Any, Literal
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import RedirectResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 from fastapi.routing import APIRoute
 from pydantic import BaseModel, Field
 
 from .mht_cet import get_predictor as get_mht_cet_predictor
+from .auth.routes import router as auth_router
+from .db import DatabaseConfigError
+from .db.routes import router as db_router
 from .mht_cet import router as mht_cet_router
+from .mba import router as mba_router
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -73,11 +77,19 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_credentials=False,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
 app.include_router(mht_cet_router)
+app.include_router(db_router)
+app.include_router(auth_router)
+app.include_router(mba_router)
+
+
+@app.exception_handler(DatabaseConfigError)
+def database_config_error(_request: Any, error: DatabaseConfigError) -> JSONResponse:
+    return JSONResponse(status_code=503, content={"detail": str(error)})
 
 
 @app.get("/")

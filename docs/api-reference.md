@@ -352,3 +352,26 @@ Returns whether the college matched and a verdict such as `High chance`, `Good c
 ## Important Data Warning
 
 The API uses imported reference data from `data/reference/*.json`. College names, cutoffs, fee tracks, source notes, and benefits must be verified with MCC, state counselling authorities, official fee orders, and college notices before final choice filling.
+
+## MBA (CAT prep)
+
+Base path `/api/v1/mba`. The full contract (request/response schemas, errors) is
+[`docs/mba-api.md`](mba-api.md); content import is in [`docs/mba-content-format.md`](mba-content-format.md).
+
+- Public: `GET /exams`, `GET /exams/{examId}`, `GET /papers?examId=cat`, `GET /programs?state=&q=`,
+  `GET /programs/{slug}`, `POST /eligibility` (Phase D: official minimum CAT thresholds, not closing cut-offs)
+- Student (`Authorization: Bearer <jwtToken>`, role `mbaStudent`): `GET|PUT /me/profile`,
+  `GET /me/dashboard`, `GET /questions`, `POST /practice/answers`, `PUT|DELETE /me/bookmarks/{questionId}`,
+  `GET /me/mistakes`, `PATCH /me/mistakes/{questionId}`, `GET /daily`, `GET /tests`, `POST /attempts`,
+  `GET /attempts/{id}`, `PATCH /attempts/{id}/responses`, `POST /attempts/{id}/sections/{sectionId}/submit`,
+  `POST /attempts/{id}/submit`, `GET /attempts/{id}/result`, `GET /me/attempts`, `POST /ai/hint`,
+  `GET /me/shortlist`, `GET|PUT|DELETE /me/shortlist/{slug}`
+- Admin content review (`Authorization: Bearer <jwtToken>` from the Admin panel's
+  `/api/auth/adminSignin`; caller must be in `admins` with a role in `MBA_CONTENT_ADMIN_ROLES`):
+  `GET /admin/papers`, `GET /admin/papers/{paperId}/questions`, `PATCH /admin/questions/{id}`,
+  `PATCH /admin/sets/{id}`, `POST /admin/questions/{id}/review`, `POST /admin/papers/{paperId}/publish`,
+  `POST /admin/papers/{paperId}/unpublish`
+
+Environment: `OPENAI_API_KEY` (AI tutor; 503 without it), `OPENAI_MODEL` (default `gpt-4o-mini`),
+`MBA_AI_DAILY_LIMIT` (default 30), `MBA_BANK_TTL_SECONDS` (content cache, default 300),
+`MBA_CONTENT_ADMIN_ROLES` (admin roles allowed to review content, default `superAdmin,COURSE`; `*` = any admin).

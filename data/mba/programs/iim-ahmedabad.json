@@ -1,0 +1,259 @@
+{
+  "slug": "iim-ahmedabad",
+  "name": "Indian Institute of Management Ahmedabad",
+  "shortName": "IIM Ahmedabad",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "website": "https://www.iima.ac.in",
+  "programs": [
+    {
+      "code": "MBA-PGP",
+      "name": "Two-Year Post Graduate Programme in Management (MBA-PGP)",
+      "durationYears": 2,
+      "feeTotal": 2750000,
+      "feeNote": "Programme fee stated for the PGP 2025-27 batch (inclusive of tuition fee INR 20,10,000); excludes boarding, laptop, travel and personal expenses. IIMA says the fee for future batches will be announced later.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIMA Admission Policy (Domestic) - MBA/PGP admissions page (fee statement for PGP 2025-27 batch; text as captured by Internet Archive on 2026-07-16 at http://web.archive.org/web/20260716134732/https://www.iima.ac.in/academics/mba/admissions/indians)",
+        "url": "https://www.iima.ac.in/academics/mba/admissions/indians",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "The programme fee is INR 27,50,000/- for the PGP 2025-27 Batch (inclusive of tuition fees of INR 20,10,000/-). The programme fee does not cover personal expenses on boarding, laptop computer, travel, clothes, stationery, laundry, etc. ... The programme fee for future batches will be announced later."
+      },
+      "intake": 455,
+      "intakeNote": "NIRF 2025 sanctioned intake (academic year 2023-24) for all 2-year PG programmes of the institute combined, not only this programme.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by institution (Indian Institute of Management Ahmedabad) [IR-M-S-8890]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8890.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake ... Academic Year 2023-24 2022-23 ... PG [2 Year Program(s)] 455 444"
+      },
+      "medianSalary": 3700000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Median 'Maximum Earning Potential' for the MBA-PGP Class of 2026 (392 students), from the IPRS-audited final placement report.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIMA MBA Placement Report - Finals 2026 (IPRS audited by B2K Analytics)",
+        "url": "https://www01.iima.ac.in/iprs/gallery/2026/PGP_Audit_Report_Finals_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "5.4 Combined Salary Statistics in INR ... Maximum Earning Potential | 12,00,000 | 2,31,03,000 | 37,97,495 | 37,00,000 | 392 (Min | Max | Mean | Median | Data)"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "overall": 95,
+      "varc": 85,
+      "dilr": 85,
+      "qa": 85,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "overall": 95,
+      "varc": 85,
+      "dilr": 85,
+      "qa": 85,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "overall": 90,
+      "varc": 80,
+      "dilr": 80,
+      "qa": 80,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "overall": 85,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "overall": 75,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "overall": 85,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "overall": 85,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "overall": 80,
+      "varc": 70,
+      "dilr": 70,
+      "qa": 70,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "overall": 75,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "overall": 65,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "Sectional minimum applies to each of VARC, DILR and QA. IIMA applies these cut-offs after computing a normalized composite score (CAT total percentile 65%, application rating 35%); bachelor's degree with at least 50% (45% for SC/ST/PwD) required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Ahmedabad — Admission Policy for PGP 2027-29 Batch (Domestic), Table 4: Minimum Cut-offs of CAT-2026 Percentile",
+        "url": "https://www.iima.ac.in/sites/default/files/2026-09/AdmissionProcedure_PGP_1109_2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "General, EWS 95 85 85 75 / NC-OBC 90 80 80 70 / SC 85 75 75 65 / ST 75 65 65 55 (columns: Non-PwD overall, Non-PwD sectionwise, PwD overall, PwD sectionwise)"
+      },
+      "gender": null
+    }
+  ],
+  "cutoffNotes": null
+}

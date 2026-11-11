@@ -1,0 +1,259 @@
+{
+  "slug": "iim-calcutta",
+  "name": "Indian Institute of Management Calcutta",
+  "shortName": "IIM Calcutta",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "website": "https://www.iimcal.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA) Programme (two-year, formerly PGP)",
+      "durationYears": 2,
+      "feeTotal": 2700000,
+      "feeNote": "Fee for the 2024-26 batch, plus INR 20,000 caution deposit. No newer official fee document was found.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Calcutta - MBA Programme Fee Structure (61st Batch, 2024-2026), Domestic Candidates",
+        "url": "https://www.iimcal.ac.in/sites/default/files/2024-09/Fee-Structure-for-the-Batch-2024-2026.pdf",
+        "year": 2024,
+        "retrievedAt": "2026-11-11",
+        "quote": "In addition to the total fees of INR27,00,000/- (INR Twenty Seven Lakh only) for two years, a student will have to pay a caution deposit of INR20,000/- (INR Twenty Thousand only) at the time of registration."
+      },
+      "intake": 545,
+      "intakeNote": "NIRF 2025 sanctioned intake (academic year 2023-24) for all 2-year PG programmes of the institute combined, not only this programme.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by institution (Indian Institute of Management Calcutta) [IR-M-S-8972]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8972.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake ... Academic Year 2023-24 2022-23 ... PG [2 Year Program(s)] 545 540"
+      },
+      "medianSalary": 3500000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "61st batch (Class of 2026), 458 students.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Calcutta Placement Report 2026 - MBA 61st Batch (2024-2026)",
+        "url": "https://www.iimcal.ac.in/sites/default/files/2026-08/f-61.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Placement Statistics: Average Salary ₹ 36.00 L; Median Salary ₹ 35.00 L; Highest Domestic CTC ₹ 1.45 Cr (61st batch, 458 students, 542 offers)"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "overall": 85,
+      "varc": 80,
+      "dilr": 80,
+      "qa": 75,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "overall": 75,
+      "varc": 70,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "overall": 75,
+      "varc": 70,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "overall": 70,
+      "varc": 65,
+      "dilr": 60,
+      "qa": 60,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "overall": 65,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2027-29",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "IIMC: 'the actual section-wise and overall percentile cut-offs may be much higher than the above-mentioned minimum percentiles'. Non-negative raw scores in all CAT 2026 sections are also required.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Calcutta — Admission Policy for the MBA Programme (Batch 2027-29), Table 1: Minimum requirements of CAT percentiles for Stage I",
+        "url": "https://www.iimcal.ac.in/programs/pgp/admission/admission-policy/admission-procedure-for-domestic-candidates",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "OPEN ≥80 ≥80 ≥75 ≥85 / EWS ≥70 ≥65 ≥65 ≥75 / NC-OBC ≥70 ≥65 ≥65 ≥75 / SC ≥65 ≥60 ≥60 ≥70 / ST ≥55 ≥55 ≥55 ≥65 / PwD ≥45 ≥45 ≥45 ≥55 (VARC, DILR, QA, Overall)"
+      },
+      "gender": null
+    }
+  ],
+  "cutoffNotes": null
+}

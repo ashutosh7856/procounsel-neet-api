@@ -1,0 +1,1619 @@
+{
+  "year": 2025,
+  "edition": "India Rankings 2025: Management",
+  "releasedOn": "2025-09-04",
+  "source": {
+    "title": "India Rankings 2025: Management (NIRF, Ministry of Education)",
+    "url": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html",
+    "retrievedAt": "2026-11-11"
+  },
+  "releaseSource": {
+    "title": "PIB: Shri Dharmendra Pradhan releases India Rankings 2025 (04 Sep 2025)",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2163711",
+    "retrievedAt": "2026-11-11"
+  },
+  "note": "Latest available official NIRF Management ranking as of 2026-11-11. https://www.nirfindia.org/Rankings/2026/ManagementRanking.html returned HTTP 404 on 2026-11-11 (India Rankings 2026 not yet published). Ranks 1-100 with scores; NIRF also publishes a 101-125 rank band without individual ranks (not included). Ties share a rank (e.g. two institutes at 46 and at 57). Score and parameter scores (TLR, RPC, GO, OI, PERCEPTION) are out of 100. Names, cities and states exactly as printed by NIRF. dataSubmittedPdf is the institute's NIRF 2025 data-submission PDF linked from the ranking page.",
+  "count": 100,
+  "rankings": [
+    {
+      "rank": 1,
+      "nirfInstituteId": "IR-M-S-8890",
+      "name": "Indian Institute of Management Ahmedabad",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "score": 83.29,
+      "parameters": {
+        "TLR": 91.84,
+        "RPC": 64.92,
+        "GO": 98.72,
+        "OI": 72.01,
+        "PERCEPTION": 93.26
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8890.pdf"
+    },
+    {
+      "rank": 2,
+      "nirfInstituteId": "IR-M-S-8903",
+      "name": "Indian Institute of Management Bangalore",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "score": 81.56,
+      "parameters": {
+        "TLR": 89.16,
+        "RPC": 59.04,
+        "GO": 98.86,
+        "OI": 73.27,
+        "PERCEPTION": 100.0
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8903.pdf"
+    },
+    {
+      "rank": 3,
+      "nirfInstituteId": "IR-M-S-8909",
+      "name": "Indian Institute of Management Kozhikode",
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "score": 79.85,
+      "parameters": {
+        "TLR": 87.75,
+        "RPC": 64.14,
+        "GO": 95.35,
+        "OI": 77.8,
+        "PERCEPTION": 74.26
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8909.pdf"
+    },
+    {
+      "rank": 4,
+      "nirfInstituteId": "IR-M-I-1074",
+      "name": "Indian Institute of Technology Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 78.94,
+      "parameters": {
+        "TLR": 74.02,
+        "RPC": 87.5,
+        "GO": 83.3,
+        "OI": 75.59,
+        "PERCEPTION": 62.59
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1074.pdf"
+    },
+    {
+      "rank": 5,
+      "nirfInstituteId": "IR-M-S-8959",
+      "name": "Indian Institute of Management Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "score": 77.97,
+      "parameters": {
+        "TLR": 86.37,
+        "RPC": 59.8,
+        "GO": 96.96,
+        "OI": 71.82,
+        "PERCEPTION": 75.51
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8959.pdf"
+    },
+    {
+      "rank": 6,
+      "nirfInstituteId": "IR-M-S-8931",
+      "name": "Indian Institute of Management, Mumbai",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "score": 77.58,
+      "parameters": {
+        "TLR": 85.2,
+        "RPC": 60.18,
+        "GO": 99.84,
+        "OI": 78.0,
+        "PERCEPTION": 62.03
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8931.pdf"
+    },
+    {
+      "rank": 7,
+      "nirfInstituteId": "IR-M-S-8972",
+      "name": "Indian Institute of Management Calcutta",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "score": 77.34,
+      "parameters": {
+        "TLR": 85.28,
+        "RPC": 54.52,
+        "GO": 98.87,
+        "OI": 71.15,
+        "PERCEPTION": 85.23
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8972.pdf"
+    },
+    {
+      "rank": 8,
+      "nirfInstituteId": "IR-M-S-8918",
+      "name": "Indian Institute of Management Indore",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "score": 75.68,
+      "parameters": {
+        "TLR": 86.11,
+        "RPC": 59.69,
+        "GO": 94.28,
+        "OI": 76.25,
+        "PERCEPTION": 54.5
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8918.pdf"
+    },
+    {
+      "rank": 9,
+      "nirfInstituteId": "IR-M-I-1170",
+      "name": "Management Development Institute",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "score": 71.96,
+      "parameters": {
+        "TLR": 78.96,
+        "RPC": 66.07,
+        "GO": 94.96,
+        "OI": 70.58,
+        "PERCEPTION": 24.01
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1170.pdf"
+    },
+    {
+      "rank": 10,
+      "nirfInstituteId": "IR-M-S-132",
+      "name": "XLRI - Xavier School of Management",
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "score": 70.63,
+      "parameters": {
+        "TLR": 84.92,
+        "RPC": 50.83,
+        "GO": 94.94,
+        "OI": 62.63,
+        "PERCEPTION": 46.48
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-132.pdf"
+    },
+    {
+      "rank": 11,
+      "nirfInstituteId": "IR-M-C-19343",
+      "name": "Symbiosis Institute of Business Management",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "score": 67.9,
+      "parameters": {
+        "TLR": 78.53,
+        "RPC": 51.67,
+        "GO": 94.56,
+        "OI": 61.93,
+        "PERCEPTION": 37.36
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-C-19343.pdf"
+    },
+    {
+      "rank": 12,
+      "nirfInstituteId": "IR-M-U-0573",
+      "name": "Indian Institute of Technology Kharagpur",
+      "city": "Kharagpur",
+      "state": "West Bengal",
+      "score": 66.97,
+      "parameters": {
+        "TLR": 57.87,
+        "RPC": 78.53,
+        "GO": 83.82,
+        "OI": 59.4,
+        "PERCEPTION": 33.51
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0573.pdf"
+    },
+    {
+      "rank": 13,
+      "nirfInstituteId": "IR-M-U-0456",
+      "name": "Indian Institute of Technology Madras",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 66.5,
+      "parameters": {
+        "TLR": 78.97,
+        "RPC": 52.5,
+        "GO": 76.52,
+        "OI": 65.48,
+        "PERCEPTION": 52.14
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0456.pdf"
+    },
+    {
+      "rank": 14,
+      "nirfInstituteId": "IR-M-U-0306",
+      "name": "Indian Institute of Technology Bombay",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "score": 65.82,
+      "parameters": {
+        "TLR": 74.05,
+        "RPC": 64.99,
+        "GO": 77.01,
+        "OI": 52.36,
+        "PERCEPTION": 34.62
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0306.pdf"
+    },
+    {
+      "rank": 15,
+      "nirfInstituteId": "IR-M-S-8868",
+      "name": "Indian Institute of Management Raipur",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "score": 65.03,
+      "parameters": {
+        "TLR": 79.81,
+        "RPC": 44.83,
+        "GO": 89.5,
+        "OI": 80.73,
+        "PERCEPTION": 16.66
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8868.pdf"
+    },
+    {
+      "rank": 16,
+      "nirfInstituteId": "IR-M-S-8948",
+      "name": "Indian Institute of Management Tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "score": 64.95,
+      "parameters": {
+        "TLR": 78.93,
+        "RPC": 35.02,
+        "GO": 87.9,
+        "OI": 75.08,
+        "PERCEPTION": 56.74
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8948.pdf"
+    },
+    {
+      "rank": 17,
+      "nirfInstituteId": "IR-M-U-0102",
+      "name": "Indian Institute of Foreign Trade",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 62.93,
+      "parameters": {
+        "TLR": 82.24,
+        "RPC": 32.57,
+        "GO": 87.51,
+        "OI": 67.2,
+        "PERCEPTION": 42.71
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0102.pdf"
+    },
+    {
+      "rank": 18,
+      "nirfInstituteId": "IR-M-S-8904",
+      "name": "Indian Institute of Management Ranchi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "score": 62.77,
+      "parameters": {
+        "TLR": 70.63,
+        "RPC": 45.06,
+        "GO": 89.86,
+        "OI": 71.61,
+        "PERCEPTION": 29.28
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8904.pdf"
+    },
+    {
+      "rank": 19,
+      "nirfInstituteId": "IR-M-S-8895",
+      "name": "Indian Institute of Management Rohtak",
+      "city": "Rohtak",
+      "state": "Haryana",
+      "score": 62.6,
+      "parameters": {
+        "TLR": 71.95,
+        "RPC": 42.51,
+        "GO": 88.06,
+        "OI": 75.75,
+        "PERCEPTION": 30.74
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8895.pdf"
+    },
+    {
+      "rank": 20,
+      "nirfInstituteId": "IR-M-I-1044",
+      "name": "S. P. Jain Institute of Management and Research",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "score": 62.06,
+      "parameters": {
+        "TLR": 79.62,
+        "RPC": 32.08,
+        "GO": 98.83,
+        "OI": 67.61,
+        "PERCEPTION": 20.19
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1044.pdf"
+    },
+    {
+      "rank": 21,
+      "nirfInstituteId": "IR-M-S-8942",
+      "name": "Indian Institute of Management Udaipur",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "score": 61.79,
+      "parameters": {
+        "TLR": 81.09,
+        "RPC": 34.13,
+        "GO": 88.51,
+        "OI": 73.18,
+        "PERCEPTION": 22.0
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8942.pdf"
+    },
+    {
+      "rank": 22,
+      "nirfInstituteId": "IR-M-U-0560",
+      "name": "Indian Institute of Technology Roorkee",
+      "city": "Roorkee",
+      "state": "Uttarakhand",
+      "score": 61.77,
+      "parameters": {
+        "TLR": 68.65,
+        "RPC": 54.58,
+        "GO": 81.04,
+        "OI": 62.99,
+        "PERCEPTION": 22.87
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0560.pdf"
+    },
+    {
+      "rank": 23,
+      "nirfInstituteId": "IR-M-S-8967",
+      "name": "Indian Institute of Management Kashipur",
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "score": 61.74,
+      "parameters": {
+        "TLR": 72.62,
+        "RPC": 40.68,
+        "GO": 87.55,
+        "OI": 75.86,
+        "PERCEPTION": 26.46
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8967.pdf"
+    },
+    {
+      "rank": 24,
+      "nirfInstituteId": "IR-M-N-10",
+      "name": "SVKM`s Narsee Monjee Institute of Management Studies",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "score": 60.99,
+      "parameters": {
+        "TLR": 78.15,
+        "RPC": 30.84,
+        "GO": 93.03,
+        "OI": 77.2,
+        "PERCEPTION": 19.57
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-N-10.pdf"
+    },
+    {
+      "rank": 25,
+      "nirfInstituteId": "IR-M-S-15962",
+      "name": "Indian Institute of Management",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "score": 60.88,
+      "parameters": {
+        "TLR": 73.59,
+        "RPC": 34.91,
+        "GO": 87.03,
+        "OI": 74.65,
+        "PERCEPTION": 34.62
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-15962.pdf"
+    },
+    {
+      "rank": 26,
+      "nirfInstituteId": "IR-M-U-0436",
+      "name": "Amrita Vishwa Vidyapeetham",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": 60.25,
+      "parameters": {
+        "TLR": 69.6,
+        "RPC": 47.42,
+        "GO": 76.14,
+        "OI": 72.36,
+        "PERCEPTION": 26.73
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0436.pdf"
+    },
+    {
+      "rank": 27,
+      "nirfInstituteId": "IR-M-I-1075",
+      "name": "Indian Institute of Technology Kanpur",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "score": 60.15,
+      "parameters": {
+        "TLR": 68.99,
+        "RPC": 53.84,
+        "GO": 71.66,
+        "OI": 60.72,
+        "PERCEPTION": 29.03
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1075.pdf"
+    },
+    {
+      "rank": 28,
+      "nirfInstituteId": "IR-M-U-0108",
+      "name": "Jamia Millia Islamia",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 60.06,
+      "parameters": {
+        "TLR": 64.78,
+        "RPC": 46.32,
+        "GO": 83.84,
+        "OI": 86.07,
+        "PERCEPTION": 13.53
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0108.pdf"
+    },
+    {
+      "rank": 29,
+      "nirfInstituteId": "IR-M-U-1007",
+      "name": "Indian Institute of Management Visakhapatnam",
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "score": 59.95,
+      "parameters": {
+        "TLR": 80.56,
+        "RPC": 24.46,
+        "GO": 85.37,
+        "OI": 74.48,
+        "PERCEPTION": 39.15
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-1007.pdf"
+    },
+    {
+      "rank": 30,
+      "nirfInstituteId": "IR-M-S-394",
+      "name": "Institute of Management Technology",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "score": 59.85,
+      "parameters": {
+        "TLR": 76.75,
+        "RPC": 39.52,
+        "GO": 85.31,
+        "OI": 67.3,
+        "PERCEPTION": 11.69
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-394.pdf"
+    },
+    {
+      "rank": 31,
+      "nirfInstituteId": "IR-M-U-1006",
+      "name": "Indian Institute of Management Bodh Gaya",
+      "city": "Gaya",
+      "state": "Bihar",
+      "score": 59.65,
+      "parameters": {
+        "TLR": 81.53,
+        "RPC": 28.45,
+        "GO": 86.09,
+        "OI": 72.36,
+        "PERCEPTION": 22.0
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-1006.pdf"
+    },
+    {
+      "rank": 32,
+      "nirfInstituteId": "IR-M-U-0747",
+      "name": "Chandigarh University",
+      "city": "Mohali",
+      "state": "Punjab",
+      "score": 59.4,
+      "parameters": {
+        "TLR": 73.83,
+        "RPC": 44.02,
+        "GO": 74.27,
+        "OI": 78.1,
+        "PERCEPTION": 13.89
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0747.pdf"
+    },
+    {
+      "rank": 33,
+      "nirfInstituteId": "IR-M-S-14875",
+      "name": "MICA",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "score": 59.22,
+      "parameters": {
+        "TLR": 73.21,
+        "RPC": 43.32,
+        "GO": 84.2,
+        "OI": 70.37,
+        "PERCEPTION": 3.82
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-14875.pdf"
+    },
+    {
+      "rank": 34,
+      "nirfInstituteId": "IR-M-S-6",
+      "name": "Indian Institute of Management Sambalpur",
+      "city": "Sambalpur",
+      "state": "Odisha",
+      "score": 58.59,
+      "parameters": {
+        "TLR": 80.96,
+        "RPC": 20.77,
+        "GO": 84.61,
+        "OI": 80.34,
+        "PERCEPTION": 31.21
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-6.pdf"
+    },
+    {
+      "rank": 35,
+      "nirfInstituteId": "IR-M-U-1004",
+      "name": "Indian Institute of Management Jammu (IIMJ)",
+      "city": "Jammu",
+      "state": "Jammu and Kashmir",
+      "score": 58.5,
+      "parameters": {
+        "TLR": 76.92,
+        "RPC": 22.51,
+        "GO": 87.67,
+        "OI": 78.29,
+        "PERCEPTION": 33.06
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-1004.pdf"
+    },
+    {
+      "rank": 36,
+      "nirfInstituteId": "IR-M-U-0564",
+      "name": "UPES",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "score": 58.33,
+      "parameters": {
+        "TLR": 77.65,
+        "RPC": 40.28,
+        "GO": 70.56,
+        "OI": 65.89,
+        "PERCEPTION": 22.58
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0564.pdf"
+    },
+    {
+      "rank": 37,
+      "nirfInstituteId": "IR-M-N-16",
+      "name": "Great Lakes Institute of Management",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 58.05,
+      "parameters": {
+        "TLR": 80.97,
+        "RPC": 32.86,
+        "GO": 73.9,
+        "OI": 70.72,
+        "PERCEPTION": 20.5
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-N-16.pdf"
+    },
+    {
+      "rank": 38,
+      "nirfInstituteId": "IR-M-S-8937",
+      "name": "Indian Institute of Management Shillong",
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "score": 57.7,
+      "parameters": {
+        "TLR": 69.08,
+        "RPC": 28.99,
+        "GO": 95.96,
+        "OI": 61.49,
+        "PERCEPTION": 29.28
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8937.pdf"
+    },
+    {
+      "rank": 39,
+      "nirfInstituteId": "IR-M-S-156",
+      "name": "T. A. Pai Management Institute Manipal",
+      "city": "Manipal",
+      "state": "Karnataka",
+      "score": 57.13,
+      "parameters": {
+        "TLR": 74.18,
+        "RPC": 33.4,
+        "GO": 81.68,
+        "OI": 72.43,
+        "PERCEPTION": 12.8
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-156.pdf"
+    },
+    {
+      "rank": 40,
+      "nirfInstituteId": "IR-M-I-1064",
+      "name": "IMI Delhi",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 56.59,
+      "parameters": {
+        "TLR": 74.2,
+        "RPC": 28.58,
+        "GO": 87.24,
+        "OI": 74.58,
+        "PERCEPTION": 8.55
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1064.pdf"
+    },
+    {
+      "rank": 41,
+      "nirfInstituteId": "IR-M-S-3283",
+      "name": "Jaipuria Institute of Management",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "score": 56.46,
+      "parameters": {
+        "TLR": 72.11,
+        "RPC": 37.27,
+        "GO": 76.71,
+        "OI": 69.63,
+        "PERCEPTION": 13.53
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-3283.pdf"
+    },
+    {
+      "rank": 42,
+      "nirfInstituteId": "IR-M-I-1408",
+      "name": "IMI Kolkata",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "score": 55.42,
+      "parameters": {
+        "TLR": 71.46,
+        "RPC": 32.92,
+        "GO": 81.76,
+        "OI": 72.31,
+        "PERCEPTION": 5.16
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1408.pdf"
+    },
+    {
+      "rank": 43,
+      "nirfInstituteId": "IR-M-S-87",
+      "name": "Goa Institute of Management",
+      "city": "Sanquelim",
+      "state": "Goa",
+      "score": 55.27,
+      "parameters": {
+        "TLR": 76.24,
+        "RPC": 24.67,
+        "GO": 83.63,
+        "OI": 68.8,
+        "PERCEPTION": 13.89
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-87.pdf"
+    },
+    {
+      "rank": 44,
+      "nirfInstituteId": "IR-M-U-0379",
+      "name": "Lovely Professional University",
+      "city": "Phagwara",
+      "state": "Punjab",
+      "score": 55.0,
+      "parameters": {
+        "TLR": 74.77,
+        "RPC": 41.41,
+        "GO": 53.33,
+        "OI": 73.42,
+        "PERCEPTION": 21.4
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0379.pdf"
+    },
+    {
+      "rank": 45,
+      "nirfInstituteId": "IR-M-U-0715",
+      "name": "XIM University",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "score": 54.73,
+      "parameters": {
+        "TLR": 73.42,
+        "RPC": 23.33,
+        "GO": 91.18,
+        "OI": 60.69,
+        "PERCEPTION": 13.89
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0715.pdf"
+    },
+    {
+      "rank": 46,
+      "nirfInstituteId": "IR-M-U-0012",
+      "name": "ICFAI Foundation for Higher Education, Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "score": 54.4,
+      "parameters": {
+        "TLR": 76.97,
+        "RPC": 27.7,
+        "GO": 70.65,
+        "OI": 76.61,
+        "PERCEPTION": 12.06
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0012.pdf"
+    },
+    {
+      "rank": 46,
+      "nirfInstituteId": "IR-M-I-1480",
+      "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+      "city": "Patiala",
+      "state": "Punjab",
+      "score": 54.4,
+      "parameters": {
+        "TLR": 67.95,
+        "RPC": 40.64,
+        "GO": 69.78,
+        "OI": 70.62,
+        "PERCEPTION": 8.14
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1480.pdf"
+    },
+    {
+      "rank": 48,
+      "nirfInstituteId": "IR-M-U-0205",
+      "name": "Indian Institute of Technology (Indian School of Mines)",
+      "city": "Dhanbad",
+      "state": "Jharkhand",
+      "score": 54.34,
+      "parameters": {
+        "TLR": 68.75,
+        "RPC": 41.49,
+        "GO": 66.07,
+        "OI": 63.18,
+        "PERCEPTION": 17.32
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0205.pdf"
+    },
+    {
+      "rank": 49,
+      "nirfInstituteId": "IR-M-U-0497",
+      "name": "Amity University",
+      "city": "Gautam Budh Nagar",
+      "state": "Uttar Pradesh",
+      "score": 54.15,
+      "parameters": {
+        "TLR": 65.29,
+        "RPC": 56.8,
+        "GO": 52.14,
+        "OI": 60.4,
+        "PERCEPTION": 10.54
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0497.pdf"
+    },
+    {
+      "rank": 50,
+      "nirfInstituteId": "IR-M-S-17295",
+      "name": "Great Lakes Institute of Management",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "score": 54.08,
+      "parameters": {
+        "TLR": 75.96,
+        "RPC": 26.23,
+        "GO": 75.29,
+        "OI": 79.77,
+        "PERCEPTION": 3.82
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-17295.pdf"
+    },
+    {
+      "rank": 51,
+      "nirfInstituteId": "IR-M-S-15911",
+      "name": "Indian Institute of Management Sirmaur",
+      "city": "Sirmaur",
+      "state": "Himachal Pradesh",
+      "score": 54.03,
+      "parameters": {
+        "TLR": 74.08,
+        "RPC": 20.25,
+        "GO": 83.86,
+        "OI": 73.72,
+        "PERCEPTION": 15.98
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-15911.pdf"
+    },
+    {
+      "rank": 52,
+      "nirfInstituteId": "IR-M-U-0555",
+      "name": "Graphic Era University",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "score": 53.98,
+      "parameters": {
+        "TLR": 71.79,
+        "RPC": 39.38,
+        "GO": 54.69,
+        "OI": 68.35,
+        "PERCEPTION": 28.53
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0555.pdf"
+    },
+    {
+      "rank": 53,
+      "nirfInstituteId": "IR-M-U-0146",
+      "name": "Nirma University",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "score": 53.48,
+      "parameters": {
+        "TLR": 74.34,
+        "RPC": 25.86,
+        "GO": 79.76,
+        "OI": 65.71,
+        "PERCEPTION": 8.95
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0146.pdf"
+    },
+    {
+      "rank": 54,
+      "nirfInstituteId": "IR-M-S-92",
+      "name": "Institute of Rural Management Anand",
+      "city": "Anand",
+      "state": "Gujarat",
+      "score": 53.34,
+      "parameters": {
+        "TLR": 67.82,
+        "RPC": 23.8,
+        "GO": 88.49,
+        "OI": 69.83,
+        "PERCEPTION": 11.69
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-92.pdf"
+    },
+    {
+      "rank": 55,
+      "nirfInstituteId": "IR-M-S-331",
+      "name": "Loyola Institute of Business Administration",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 53.12,
+      "parameters": {
+        "TLR": 74.53,
+        "RPC": 19.26,
+        "GO": 77.18,
+        "OI": 72.0,
+        "PERCEPTION": 23.45
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-331.pdf"
+    },
+    {
+      "rank": 56,
+      "nirfInstituteId": "IR-M-U-0473",
+      "name": "S.R.M. Institute of Science and Technology",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 52.74,
+      "parameters": {
+        "TLR": 72.25,
+        "RPC": 33.01,
+        "GO": 74.93,
+        "OI": 53.29,
+        "PERCEPTION": 8.55
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0473.pdf"
+    },
+    {
+      "rank": 57,
+      "nirfInstituteId": "IR-M-U-0217",
+      "name": "Christ University",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "score": 52.47,
+      "parameters": {
+        "TLR": 65.03,
+        "RPC": 31.63,
+        "GO": 64.73,
+        "OI": 71.71,
+        "PERCEPTION": 33.51
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0217.pdf"
+    },
+    {
+      "rank": 57,
+      "nirfInstituteId": "IR-M-U-0467",
+      "name": "National Institute of Technology Tiruchirappalli",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "score": 52.47,
+      "parameters": {
+        "TLR": 54.36,
+        "RPC": 45.99,
+        "GO": 71.61,
+        "OI": 60.5,
+        "PERCEPTION": 19.88
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0467.pdf"
+    },
+    {
+      "rank": 59,
+      "nirfInstituteId": "IR-M-I-1066",
+      "name": "Fore School of Management",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 52.23,
+      "parameters": {
+        "TLR": 69.46,
+        "RPC": 25.9,
+        "GO": 82.22,
+        "OI": 62.38,
+        "PERCEPTION": 9.36
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1066.pdf"
+    },
+    {
+      "rank": 60,
+      "nirfInstituteId": "IR-M-U-0500",
+      "name": "Banaras Hindu University",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "score": 52.14,
+      "parameters": {
+        "TLR": 61.26,
+        "RPC": 29.94,
+        "GO": 84.26,
+        "OI": 54.15,
+        "PERCEPTION": 25.12
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0500.pdf"
+    },
+    {
+      "rank": 61,
+      "nirfInstituteId": "IR-M-S-354",
+      "name": "Birla Institute of Management Technology",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "score": 52.09,
+      "parameters": {
+        "TLR": 70.85,
+        "RPC": 24.23,
+        "GO": 79.83,
+        "OI": 68.21,
+        "PERCEPTION": 7.73
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-354.pdf"
+    },
+    {
+      "rank": 62,
+      "nirfInstituteId": "IR-M-U-0410",
+      "name": "Malaviya National Institute of Technology",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "score": 52.07,
+      "parameters": {
+        "TLR": 48.71,
+        "RPC": 60.97,
+        "GO": 60.08,
+        "OI": 68.1,
+        "PERCEPTION": 3.36
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0410.pdf"
+    },
+    {
+      "rank": 63,
+      "nirfInstituteId": "IR-M-I-1441",
+      "name": "Saveetha Institute of Medical and Technical Sciences",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 52.01,
+      "parameters": {
+        "TLR": 68.15,
+        "RPC": 47.17,
+        "GO": 46.92,
+        "OI": 79.81,
+        "PERCEPTION": 0.5
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1441.pdf"
+    },
+    {
+      "rank": 64,
+      "nirfInstituteId": "IR-M-S-16881",
+      "name": "Indian Institute of Management, Amritsar",
+      "city": "Amritsar",
+      "state": "Punjab",
+      "score": 51.7,
+      "parameters": {
+        "TLR": 63.89,
+        "RPC": 18.35,
+        "GO": 87.93,
+        "OI": 70.3,
+        "PERCEPTION": 24.01
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-16881.pdf"
+    },
+    {
+      "rank": 65,
+      "nirfInstituteId": "IR-M-S-220",
+      "name": "K.J.Somaiya Institute of Management",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "score": 51.28,
+      "parameters": {
+        "TLR": 70.66,
+        "RPC": 20.15,
+        "GO": 82.92,
+        "OI": 66.85,
+        "PERCEPTION": 7.73
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-220.pdf"
+    },
+    {
+      "rank": 66,
+      "nirfInstituteId": "IR-M-U-0363",
+      "name": "Siksha `O` Anusandhan",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "score": 50.88,
+      "parameters": {
+        "TLR": 74.52,
+        "RPC": 17.19,
+        "GO": 72.08,
+        "OI": 75.5,
+        "PERCEPTION": 13.89
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0363.pdf"
+    },
+    {
+      "rank": 67,
+      "nirfInstituteId": "IR-M-S-419",
+      "name": "Jaipuria Institute of Management, Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "score": 50.86,
+      "parameters": {
+        "TLR": 74.08,
+        "RPC": 20.81,
+        "GO": 73.04,
+        "OI": 63.96,
+        "PERCEPTION": 13.89
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-419.pdf"
+    },
+    {
+      "rank": 68,
+      "nirfInstituteId": "IR-M-U-0356",
+      "name": "Kalinga Institute of Industrial Technology",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "score": 50.68,
+      "parameters": {
+        "TLR": 75.29,
+        "RPC": 25.85,
+        "GO": 59.51,
+        "OI": 77.76,
+        "PERCEPTION": 6.47
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0356.pdf"
+    },
+    {
+      "rank": 69,
+      "nirfInstituteId": "IR-M-U-0496",
+      "name": "Aligarh Muslim University",
+      "city": "Aligarh",
+      "state": "Uttar Pradesh",
+      "score": 49.95,
+      "parameters": {
+        "TLR": 58.17,
+        "RPC": 40.27,
+        "GO": 67.4,
+        "OI": 56.98,
+        "PERCEPTION": 12.43
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0496.pdf"
+    },
+    {
+      "rank": 70,
+      "nirfInstituteId": "IR-M-U-0020",
+      "name": "Koneru Lakshmaiah Education Foundation University (K L College of Engineering)",
+      "city": "Vaddeswaram",
+      "state": "Andhra Pradesh",
+      "score": 49.89,
+      "parameters": {
+        "TLR": 72.12,
+        "RPC": 27.64,
+        "GO": 62.71,
+        "OI": 71.37,
+        "PERCEPTION": 2.9
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0020.pdf"
+    },
+    {
+      "rank": 71,
+      "nirfInstituteId": "IR-M-U-0213",
+      "name": "Alliance University",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "score": 49.85,
+      "parameters": {
+        "TLR": 76.74,
+        "RPC": 15.57,
+        "GO": 68.95,
+        "OI": 77.22,
+        "PERCEPTION": 6.47
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0213.pdf"
+    },
+    {
+      "rank": 72,
+      "nirfInstituteId": "IR-M-I-1132",
+      "name": "Institute of Management Technology",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "score": 49.38,
+      "parameters": {
+        "TLR": 68.84,
+        "RPC": 18.57,
+        "GO": 75.47,
+        "OI": 72.99,
+        "PERCEPTION": 7.73
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1132.pdf"
+    },
+    {
+      "rank": 73,
+      "nirfInstituteId": "IR-M-U-0223",
+      "name": "Jain university,Bangalore",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "score": 49.28,
+      "parameters": {
+        "TLR": 73.04,
+        "RPC": 19.48,
+        "GO": 70.83,
+        "OI": 68.9,
+        "PERCEPTION": 4.72
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0223.pdf"
+    },
+    {
+      "rank": 74,
+      "nirfInstituteId": "IR-M-S-309",
+      "name": "Jaipuria Institute of Management",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "score": 49.26,
+      "parameters": {
+        "TLR": 72.26,
+        "RPC": 18.34,
+        "GO": 75.37,
+        "OI": 59.61,
+        "PERCEPTION": 10.54
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-309.pdf"
+    },
+    {
+      "rank": 75,
+      "nirfInstituteId": "IR-M-S-19472",
+      "name": "Prin. L.N. Welingkar Institute of Management Development and Research (PGDM)",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "score": 49.08,
+      "parameters": {
+        "TLR": 69.26,
+        "RPC": 13.79,
+        "GO": 81.75,
+        "OI": 62.06,
+        "PERCEPTION": 15.98
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-19472.pdf"
+    },
+    {
+      "rank": 76,
+      "nirfInstituteId": "IR-M-U-0099",
+      "name": "Guru Gobind Singh Indraprastha University",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 48.88,
+      "parameters": {
+        "TLR": 55.13,
+        "RPC": 34.57,
+        "GO": 75.85,
+        "OI": 53.78,
+        "PERCEPTION": 14.25
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0099.pdf"
+    },
+    {
+      "rank": 77,
+      "nirfInstituteId": "IR-M-U-0735",
+      "name": "BML Munjal University",
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "score": 48.41,
+      "parameters": {
+        "TLR": 73.28,
+        "RPC": 14.66,
+        "GO": 71.6,
+        "OI": 75.6,
+        "PERCEPTION": 1.47
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0735.pdf"
+    },
+    {
+      "rank": 78,
+      "nirfInstituteId": "IR-M-U-0373",
+      "name": "Chitkara University",
+      "city": "Rajpura",
+      "state": "Punjab",
+      "score": 48.3,
+      "parameters": {
+        "TLR": 51.9,
+        "RPC": 42.15,
+        "GO": 61.98,
+        "OI": 72.5,
+        "PERCEPTION": 4.27
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0373.pdf"
+    },
+    {
+      "rank": 79,
+      "nirfInstituteId": "IR-M-U-0498",
+      "name": "Babasheb Bhimrao Ambedkar University",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "score": 48.13,
+      "parameters": {
+        "TLR": 63.2,
+        "RPC": 12.2,
+        "GO": 83.62,
+        "OI": 84.47,
+        "PERCEPTION": 3.36
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0498.pdf"
+    },
+    {
+      "rank": 80,
+      "nirfInstituteId": "IR-M-C-36557",
+      "name": "Thiagarajar School of Management",
+      "city": "Madurai",
+      "state": "Tamil Nadu",
+      "score": 48.05,
+      "parameters": {
+        "TLR": 68.05,
+        "RPC": 23.73,
+        "GO": 69.55,
+        "OI": 48.69,
+        "PERCEPTION": 17.32
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-C-36557.pdf"
+    },
+    {
+      "rank": 81,
+      "nirfInstituteId": "IR-M-U-0749",
+      "name": "Manipal University Jaipur",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "score": 47.56,
+      "parameters": {
+        "TLR": 67.29,
+        "RPC": 26.92,
+        "GO": 57.59,
+        "OI": 72.99,
+        "PERCEPTION": 4.72
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0749.pdf"
+    },
+    {
+      "rank": 82,
+      "nirfInstituteId": "IR-M-U-0253",
+      "name": "Cochin University of Science and Technology",
+      "city": "Cochin",
+      "state": "Kerala",
+      "score": 47.47,
+      "parameters": {
+        "TLR": 72.07,
+        "RPC": 18.16,
+        "GO": 66.95,
+        "OI": 60.29,
+        "PERCEPTION": 9.75
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0253.pdf"
+    },
+    {
+      "rank": 83,
+      "nirfInstituteId": "IR-M-U-0739",
+      "name": "Madan Mohan Malaviya University of Technology",
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "score": 47.46,
+      "parameters": {
+        "TLR": 65.11,
+        "RPC": 11.01,
+        "GO": 84.72,
+        "OI": 72.17,
+        "PERCEPTION": 4.72
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0739.pdf"
+    },
+    {
+      "rank": 84,
+      "nirfInstituteId": "IR-M-C-37013",
+      "name": "PSG College of Technology",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "score": 47.38,
+      "parameters": {
+        "TLR": 63.44,
+        "RPC": 9.11,
+        "GO": 77.61,
+        "OI": 58.35,
+        "PERCEPTION": 42.71
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-C-37013.pdf"
+    },
+    {
+      "rank": 85,
+      "nirfInstituteId": "IR-M-U-0263",
+      "name": "National Institute of Technology Calicut",
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "score": 47.3,
+      "parameters": {
+        "TLR": 70.21,
+        "RPC": 19.56,
+        "GO": 67.37,
+        "OI": 54.44,
+        "PERCEPTION": 14.6
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0263.pdf"
+    },
+    {
+      "rank": 86,
+      "nirfInstituteId": "IR-M-S-78",
+      "name": "New Delhi Institute of Management",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 47.25,
+      "parameters": {
+        "TLR": 70.68,
+        "RPC": 3.12,
+        "GO": 79.83,
+        "OI": 75.23,
+        "PERCEPTION": 16.32
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-78.pdf"
+    },
+    {
+      "rank": 87,
+      "nirfInstituteId": "IR-M-U-0107",
+      "name": "Jamia Hamdard",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "score": 47.1,
+      "parameters": {
+        "TLR": 65.14,
+        "RPC": 17.72,
+        "GO": 71.82,
+        "OI": 73.62,
+        "PERCEPTION": 5.16
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0107.pdf"
+    },
+    {
+      "rank": 88,
+      "nirfInstituteId": "IR-M-U-0439",
+      "name": "Anna University",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "score": 46.92,
+      "parameters": {
+        "TLR": 56.88,
+        "RPC": 30.57,
+        "GO": 59.66,
+        "OI": 47.88,
+        "PERCEPTION": 39.73
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0439.pdf"
+    },
+    {
+      "rank": 89,
+      "nirfInstituteId": "IR-M-U-0147",
+      "name": "Pandit Deendayal Energy University",
+      "city": "Gandhinagar",
+      "state": "Gujarat",
+      "score": 46.81,
+      "parameters": {
+        "TLR": 63.29,
+        "RPC": 29.39,
+        "GO": 70.0,
+        "OI": 46.19,
+        "PERCEPTION": 3.82
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0147.pdf"
+    },
+    {
+      "rank": 90,
+      "nirfInstituteId": "IR-M-C-32855",
+      "name": "Jagan Institute of Management Studies",
+      "city": "Delhi",
+      "state": "Delhi",
+      "score": 46.63,
+      "parameters": {
+        "TLR": 67.78,
+        "RPC": 8.79,
+        "GO": 77.03,
+        "OI": 74.81,
+        "PERCEPTION": 7.73
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-C-32855.pdf"
+    },
+    {
+      "rank": 91,
+      "nirfInstituteId": "IR-M-S-164",
+      "name": "Rajagiri Business School",
+      "city": "Cochin",
+      "state": "Kerala",
+      "score": 46.62,
+      "parameters": {
+        "TLR": 70.58,
+        "RPC": 19.26,
+        "GO": 65.52,
+        "OI": 56.22,
+        "PERCEPTION": 9.36
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-164.pdf"
+    },
+    {
+      "rank": 92,
+      "nirfInstituteId": "IR-M-U-0078",
+      "name": "Panjab University",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "score": 46.31,
+      "parameters": {
+        "TLR": 53.2,
+        "RPC": 28.24,
+        "GO": 69.57,
+        "OI": 64.82,
+        "PERCEPTION": 14.95
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0078.pdf"
+    },
+    {
+      "rank": 93,
+      "nirfInstituteId": "IR-M-U-0267",
+      "name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management",
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "score": 46.3,
+      "parameters": {
+        "TLR": 65.61,
+        "RPC": 21.71,
+        "GO": 66.89,
+        "OI": 55.61,
+        "PERCEPTION": 11.69
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0267.pdf"
+    },
+    {
+      "rank": 94,
+      "nirfInstituteId": "IR-M-I-1124",
+      "name": "IMI Bhubaneswar",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "score": 46.24,
+      "parameters": {
+        "TLR": 61.41,
+        "RPC": 16.14,
+        "GO": 81.22,
+        "OI": 64.49,
+        "PERCEPTION": 2.9
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1124.pdf"
+    },
+    {
+      "rank": 95,
+      "nirfInstituteId": "IR-M-S-14553",
+      "name": "National Institute of Agricultural Extension Management",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "score": 45.48,
+      "parameters": {
+        "TLR": 72.82,
+        "RPC": 7.23,
+        "GO": 67.62,
+        "OI": 76.59,
+        "PERCEPTION": 2.9
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-14553.pdf"
+    },
+    {
+      "rank": 96,
+      "nirfInstituteId": "IR-M-N-4",
+      "name": "Bharathidasan Institute of Management",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "score": 45.36,
+      "parameters": {
+        "TLR": 68.04,
+        "RPC": 1.06,
+        "GO": 81.45,
+        "OI": 49.94,
+        "PERCEPTION": 33.51
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-N-4.pdf"
+    },
+    {
+      "rank": 97,
+      "nirfInstituteId": "IR-M-U-0202",
+      "name": "Birla Institute of Technology",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "score": 45.25,
+      "parameters": {
+        "TLR": 62.24,
+        "RPC": 22.0,
+        "GO": 64.81,
+        "OI": 57.78,
+        "PERCEPTION": 12.43
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0202.pdf"
+    },
+    {
+      "rank": 98,
+      "nirfInstituteId": "IR-M-U-0395",
+      "name": "Indian Institute of Technology Jodhpur",
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "score": 45.02,
+      "parameters": {
+        "TLR": 54.97,
+        "RPC": 17.44,
+        "GO": 79.18,
+        "OI": 70.75,
+        "PERCEPTION": 3.82
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0395.pdf"
+    },
+    {
+      "rank": 99,
+      "nirfInstituteId": "IR-M-I-1048",
+      "name": "Institute of Management Technology, Nagpur",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "score": 44.93,
+      "parameters": {
+        "TLR": 70.93,
+        "RPC": 10.27,
+        "GO": 65.37,
+        "OI": 73.99,
+        "PERCEPTION": 0.99
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-I-1048.pdf"
+    },
+    {
+      "rank": 100,
+      "nirfInstituteId": "IR-M-U-0524",
+      "name": "University of Lucknow",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "score": 44.53,
+      "parameters": {
+        "TLR": 65.07,
+        "RPC": 6.34,
+        "GO": 77.93,
+        "OI": 72.3,
+        "PERCEPTION": 2.9
+      },
+      "dataSubmittedPdf": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-U-0524.pdf"
+    }
+  ]
+}

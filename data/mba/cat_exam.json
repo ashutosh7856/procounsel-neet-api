@@ -1,0 +1,146 @@
+{
+  "id": "cat",
+  "name": "Common Admission Test (CAT)",
+  "conductingBody": "Indian Institutes of Management (CAT 2026 conducted by IIM Indore; CAT 2025 by IIM Kozhikode; CAT 2024 by IIM Calcutta)",
+  "officialUrl": "https://iimcat.ac.in",
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "VARC",
+          "name": "Verbal Ability and Reading Comprehension",
+          "questionCount": null,
+          "durationMinutes": 40
+        },
+        {
+          "id": "DILR",
+          "name": "Data Interpretation and Logical Reasoning",
+          "questionCount": null,
+          "durationMinutes": 40
+        },
+        {
+          "id": "QA",
+          "name": "Quantitative Ability",
+          "questionCount": null,
+          "durationMinutes": 40
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 3,
+          "incorrect": -1,
+          "unanswered": 0
+        },
+        {
+          "type": "TITA",
+          "correct": 3,
+          "incorrect": 0,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 120,
+      "sectionOrderLocked": true,
+      "source": {
+        "kind": "official",
+        "title": "PRESS RELEASE for Common Admission Test 2026 (CAT 2026), IIM Indore, 26 July 2026",
+        "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2026/CAT_2026_Press_Release_26-07-2026.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "year": 2025,
+      "sections": [
+        {
+          "id": "VARC",
+          "name": "Verbal Ability and Reading Comprehension",
+          "questionCount": 24,
+          "durationMinutes": 40
+        },
+        {
+          "id": "DILR",
+          "name": "Data Interpretation and Logical Reasoning",
+          "questionCount": 22,
+          "durationMinutes": 40
+        },
+        {
+          "id": "QA",
+          "name": "Quantitative Ability",
+          "questionCount": 22,
+          "durationMinutes": 40
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 3,
+          "incorrect": -1,
+          "unanswered": 0
+        },
+        {
+          "type": "TITA",
+          "correct": 3,
+          "incorrect": 0,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 120,
+      "sectionOrderLocked": true,
+      "source": {
+        "kind": "official",
+        "title": "Media Release for Common Admission Test 2025 (CAT 2025), dated 01.12.2025",
+        "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/image/CAT2025/CAT_2025_Media_Release_01_Dec_2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "year": 2024,
+      "sections": [
+        {
+          "id": "VARC",
+          "name": "Verbal Ability and Reading Comprehension",
+          "questionCount": 24,
+          "durationMinutes": 40
+        },
+        {
+          "id": "DILR",
+          "name": "Data Interpretation and Logical Reasoning",
+          "questionCount": 22,
+          "durationMinutes": 40
+        },
+        {
+          "id": "QA",
+          "name": "Quantitative Ability",
+          "questionCount": 22,
+          "durationMinutes": 40
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 3,
+          "incorrect": -1,
+          "unanswered": 0
+        },
+        {
+          "type": "TITA",
+          "correct": 3,
+          "incorrect": 0,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 120,
+      "sectionOrderLocked": true,
+      "source": {
+        "kind": "official",
+        "title": "Media Release for Common Admission Test 2024 (CAT 2024), dated 25.11.2024",
+        "url": "https://cdn.digialm.com/per/g06/pub/32842/EForms/CAT24/CAT_2024_Media_Release_25_Nov_2024.pdf",
+        "year": 2024,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

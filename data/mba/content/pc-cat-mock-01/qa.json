@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The number of registered users of a fitness app grew by 20% in the first year, fell by 10% in the second year and grew by 25% in the third year. What is the overall percentage change in the number of users over the three years?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "32% increase"
+        },
+        {
+          "id": "B",
+          "textHtml": "35% increase"
+        },
+        {
+          "id": "C",
+          "textHtml": "37.5% increase"
+        },
+        {
+          "id": "D",
+          "textHtml": "30% increase"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the initial number of users be 100.</p><p><strong>Step 2:</strong> After year 1: 100 × 1.20 = 120. After year 2: 120 × 0.90 = 108. After year 3: 108 × 1.25 = 135.</p><p><strong>Step 3:</strong> Overall change = 135 − 100 = 35, i.e. a <strong>35% increase</strong>.</p><p><strong>Quick method:</strong> Multiply the factors: 1.2 × 0.9 × 1.25 = 1.08 × 1.25 = 1.35, so the change is +35%.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit and Loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>A grocer uses a faulty weighing scale that shows 1 kg when only 900 g is actually placed on it. He marks his goods 25% above the cost price and then allows a discount of 12% on the marked price. What is his actual profit percentage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20%"
+        },
+        {
+          "id": "B",
+          "textHtml": "21%"
+        },
+        {
+          "id": "C",
+          "textHtml": "22 2/9%"
+        },
+        {
+          "id": "D",
+          "textHtml": "23 1/3%"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the cost price of 1 kg be ₹100. Marked price of 1 kg = ₹125.</p><p><strong>Step 2:</strong> Selling price after a 12% discount = 125 × 0.88 = ₹110. The customer pays ₹110 for what is claimed to be 1 kg.</p><p><strong>Step 3:</strong> The customer actually receives only 900 g, which costs the grocer 0.9 × 100 = ₹90.</p><p><strong>Step 4:</strong> Profit % = (110 − 90)/90 × 100 = 20/90 × 100 = 22 2/9%.</p><p><strong>Quick method:</strong> Overall factor = (1.25 × 0.88) ÷ 0.9 = 1.1 ÷ 0.9 = 11/9, so profit = 2/9 = 22 2/9%.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Simple and Compound Interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>On a certain sum of money lent for 2 years at 8% per annum, the compound interest (compounded annually) exceeds the simple interest by ₹160. What is the sum (in ₹)?</p>",
+      "answer": "25000",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the principal be P. SI for 2 years = P × 0.16.</p><p><strong>Step 2:</strong> CI for 2 years = P[(1.08)<sup>2</sup> − 1] = P × 0.1664.</p><p><strong>Step 3:</strong> CI − SI = P × 0.0064 = 160, so P = 160 ÷ 0.0064 = <strong>25000</strong>.</p><p><strong>Quick method:</strong> For 2 years, CI − SI = P(r/100)<sup>2</sup> = P × 0.0064. Hence P = 160/0.0064 = 25000.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures and Alligations",
+      "difficulty": "medium",
+      "stemHtml": "<p>A container holds 80 litres of pure milk. 16 litres are drawn out and replaced with water. This operation (draw 16 litres of the mixture, replace with 16 litres of water) is carried out three times in all. What is the final ratio of milk to water in the container?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "64 : 61"
+        },
+        {
+          "id": "B",
+          "textHtml": "61 : 64"
+        },
+        {
+          "id": "C",
+          "textHtml": "16 : 9"
+        },
+        {
+          "id": "D",
+          "textHtml": "8 : 7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Each operation keeps (80 − 16)/80 = 4/5 of the milk present.</p><p><strong>Step 2:</strong> Milk after three operations = 80 × (4/5)<sup>3</sup> = 80 × 64/125 = 40.96 litres.</p><p><strong>Step 3:</strong> The volume stays 80 litres, so water = 80 − 40.96 = 39.04 litres.</p><p><strong>Step 4:</strong> Milk : Water = 40.96 : 39.04 = 4096 : 3904 = <strong>64 : 61</strong> (dividing by 64).</p><p><strong>Quick method:</strong> The milk fraction is (4/5)<sup>3</sup> = 64/125, so water is 61/125. Ratio = 64 : 61.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two trains of lengths 180 m and 220 m run on parallel tracks. When they move in opposite directions, they cross each other completely in 10 seconds. When they move in the same direction, the faster train crosses the slower one completely in 50 seconds. What is the speed of the faster train?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "72 km/h"
+        },
+        {
+          "id": "B",
+          "textHtml": "57.6 km/h"
+        },
+        {
+          "id": "C",
+          "textHtml": "90 km/h"
+        },
+        {
+          "id": "D",
+          "textHtml": "86.4 km/h"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Distance to be covered in each case = sum of the lengths = 180 + 220 = 400 m.</p><p><strong>Step 2:</strong> Opposite directions: relative speed = sum of speeds = 400/10 = 40 m/s.</p><p><strong>Step 3:</strong> Same direction: relative speed = difference of speeds = 400/50 = 8 m/s.</p><p><strong>Step 4:</strong> Faster speed = (40 + 8)/2 = 24 m/s = 24 × 18/5 = <strong>86.4 km/h</strong>.</p><p>(57.6 km/h, i.e. 16 m/s, is the speed of the slower train.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time and Work",
+      "difficulty": "hard",
+      "stemHtml": "<p>A and B together can complete a piece of work in 12 days, B and C together in 15 days, and C and A together in 20 days. All three start working together. After 4 days A leaves, and after another 2 days B also leaves. C finishes the remaining work alone. In how many days, counted from the start, is the work completed?</p>",
+      "answer": "34",
+      "solutionHtml": "<p><strong>Step 1:</strong> Take total work = 60 units (LCM of 12, 15, 20). Then A + B = 5, B + C = 4, C + A = 3 units/day.</p><p><strong>Step 2:</strong> Adding: 2(A + B + C) = 12, so A + B + C = 6 units/day. Hence A = 6 − 4 = 2, B = 6 − 3 = 3, C = 6 − 5 = 1 unit/day.</p><p><strong>Step 3:</strong> First 4 days (all three): 4 × 6 = 24 units.</p><p><strong>Step 4:</strong> Next 2 days (B and C): 2 × 4 = 8 units. Work done so far = 32 units; remaining = 28 units.</p><p><strong>Step 5:</strong> C alone needs 28 ÷ 1 = 28 days.</p><p><strong>Step 6:</strong> Total time = 4 + 2 + 28 = <strong>34 days</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The average of 11 numbers is 36. The average of the first 6 of these numbers is 32 and the average of the last 6 is 41. What is the 6th number?</p>",
+      "answer": "42",
+      "solutionHtml": "<p><strong>Step 1:</strong> Sum of all 11 numbers = 11 × 36 = 396.</p><p><strong>Step 2:</strong> Sum of the first 6 = 6 × 32 = 192; sum of the last 6 = 6 × 41 = 246.</p><p><strong>Step 3:</strong> The 6th number is counted in both groups, so 192 + 246 = 396 + (6th number).</p><p><strong>Step 4:</strong> 6th number = 438 − 396 = <strong>42</strong>.</p><p><strong>Quick method (deviations from 36):</strong> First 6 give 6 × (−4) = −24, last 6 give 6 × (+5) = +30. All 11 together give 0, so the 6th number's deviation = −24 + 30 − 0 = +6, i.e. 36 + 6 = 42.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance (Circular Tracks)",
+      "difficulty": "hard",
+      "stemHtml": "<p>Asha and Bina start running at the same time from the same point on a circular track of length 600 m, each at a constant speed. If they run in opposite directions, they meet for the first time after 40 seconds. If they run in the same direction, Asha (the faster) overtakes Bina for the first time after 200 seconds. Suppose they run in opposite directions. At how many distinct points on the track do they meet, and after how many seconds do they first meet again at the starting point?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3 points; 200 seconds"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 points; 200 seconds"
+        },
+        {
+          "id": "C",
+          "textHtml": "5 points; 400 seconds"
+        },
+        {
+          "id": "D",
+          "textHtml": "3 points; 600 seconds"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Opposite directions: a + b = 600/40 = 15 m/s. Same direction: a − b = 600/200 = 3 m/s. So a = 9 m/s and b = 6 m/s.</p><p><strong>Step 2 (distinct meeting points):</strong> The ratio of speeds is a : b = 9 : 6 = 3 : 2 (in lowest terms). When two runners move in opposite directions, the number of distinct meeting points = 3 + 2 = <strong>5</strong>.</p><p>Check: they meet every 40 s. In 40 s Asha covers 360 m, so successive meetings occur at 360, 720 ≡ 120, 480, 840 ≡ 240, 600 ≡ 0 m from the start, i.e. 5 distinct points, and the 5th meeting (at 200 s) is at the start.</p><p><strong>Step 3 (first meeting at the start):</strong> Lap times are 600/9 = 200/3 s and 600/6 = 100 s. LCM(200/3, 100) = LCM(200, 100)/HCF(3, 1) = 200 s.</p><p>Answer: <strong>5 points; 200 seconds</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic Equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>The roots of the equation x<sup>2</sup> − 11x + k = 0 are real and differ by 3. What is the value of k?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "24"
+        },
+        {
+          "id": "B",
+          "textHtml": "30"
+        },
+        {
+          "id": "C",
+          "textHtml": "28"
+        },
+        {
+          "id": "D",
+          "textHtml": "22"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the roots be α and β. Then α + β = 11 and α − β = 3.</p><p><strong>Step 2:</strong> Solving, α = 7 and β = 4.</p><p><strong>Step 3:</strong> k = αβ = 7 × 4 = <strong>28</strong>.</p><p><strong>Quick method:</strong> (α − β)<sup>2</sup> = (α + β)<sup>2</sup> − 4αβ gives 9 = 121 − 4k, so k = 112/4 = 28.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Inequalities and Modulus",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many integer values of x satisfy |x − 3| + |x + 4| ≤ 15?</p>",
+      "answer": "16",
+      "solutionHtml": "<p><strong>Step 1:</strong> The critical points are x = −4 and x = 3.</p><p><strong>Step 2 (−4 ≤ x ≤ 3):</strong> |x − 3| + |x + 4| = (3 − x) + (x + 4) = 7 ≤ 15. All integers −4 to 3 work.</p><p><strong>Step 3 (x &gt; 3):</strong> (x − 3) + (x + 4) = 2x + 1 ≤ 15, so x ≤ 7.</p><p><strong>Step 4 (x &lt; −4):</strong> (3 − x) − (x + 4) = −2x − 1 ≤ 15, so x ≥ −8.</p><p><strong>Step 5:</strong> The solution is −8 ≤ x ≤ 7, which contains 7 − (−8) + 1 = <strong>16</strong> integers.</p><p><strong>Quick method:</strong> |x − 3| + |x + 4| is the sum of the distances from x to 3 and to −4. The two points are 7 apart, leaving 15 − 7 = 8, i.e. 4 more on each side. So x runs from −4 − 4 = −8 to 3 + 4 = 7.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "medium",
+      "stemHtml": "<p>A function f, defined for all real numbers, satisfies f(x) + 3f(1 − x) = 2x + 1 for every real x. What is the value of f(3)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2"
+        },
+        {
+          "id": "B",
+          "textHtml": "−2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "−3/2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Put x = 3: f(3) + 3f(−2) = 7. ... (i)</p><p><strong>Step 2:</strong> Put x = −2 (so that 1 − x = 3): f(−2) + 3f(3) = −3. ... (ii)</p><p><strong>Step 3:</strong> From (i), f(3) = 7 − 3f(−2). Substituting in (ii): f(−2) + 21 − 9f(−2) = −3, so −8f(−2) = −24 and f(−2) = 3.</p><p><strong>Step 4:</strong> f(3) = 7 − 9 = <strong>−2</strong>.</p><p><strong>Alternative:</strong> Replacing x by 1 − x gives f(1 − x) + 3f(x) = 3 − 2x. Eliminating f(1 − x) gives 8f(x) = 3(3 − 2x) − (2x + 1) = 8 − 8x, so f(x) = 1 − x and f(3) = −2. Check: (1 − x) + 3x = 2x + 1 ✓.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the sum of all real values of x that satisfy log<sub>3</sub>x + log<sub>3</sub>(x − 4) = 1 + log<sub>3</sub>(x − 2)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1 (domain):</strong> We need x &gt; 0, x − 4 &gt; 0 and x − 2 &gt; 0, i.e. x &gt; 4.</p><p><strong>Step 2:</strong> Combine the logarithms: log<sub>3</sub>[x(x − 4)] = log<sub>3</sub>[3(x − 2)], so x(x − 4) = 3(x − 2).</p><p><strong>Step 3:</strong> x<sup>2</sup> − 4x = 3x − 6, so x<sup>2</sup> − 7x + 6 = 0, i.e. (x − 1)(x − 6) = 0.</p><p><strong>Step 4:</strong> x = 1 is rejected because it does not satisfy x &gt; 4 (log<sub>3</sub>(−3) is undefined). Only x = 6 is valid. Check: log<sub>3</sub>6 + log<sub>3</sub>2 = log<sub>3</sub>12 and 1 + log<sub>3</sub>4 = log<sub>3</sub>12 ✓.</p><p><strong>Step 5:</strong> Sum of valid solutions = <strong>6</strong>. (7 is the trap answer from adding both roots of the quadratic.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "hard",
+      "stemHtml": "<p>In an arithmetic progression with a non-zero common difference, the 3rd, 7th and 16th terms (in that order) are three consecutive terms of a geometric progression. If the sum of the first 20 terms of the arithmetic progression is 1070, what is its 30th term?</p>",
+      "answer": "151",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the first term be a and the common difference d (d ≠ 0). The terms are a + 2d, a + 6d and a + 15d.</p><p><strong>Step 2:</strong> GP condition: (a + 6d)<sup>2</sup> = (a + 2d)(a + 15d), so a<sup>2</sup> + 12ad + 36d<sup>2</sup> = a<sup>2</sup> + 17ad + 30d<sup>2</sup>, giving 6d<sup>2</sup> = 5ad. Since d ≠ 0, a = 6d/5.</p><p><strong>Step 3:</strong> S<sub>20</sub> = 10(2a + 19d) = 10(12d/5 + 19d) = 10 × 107d/5 = 214d = 1070, so d = 5 and a = 6.</p><p><strong>Step 4:</strong> 30th term = a + 29d = 6 + 145 = <strong>151</strong>.</p><p>Check: the 3rd, 7th and 16th terms are 16, 36 and 81, a GP with ratio 9/4 ✓.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>A right-angled triangle has legs of length 15 cm and 36 cm. What is the sum of the radius of its incircle and the radius of its circumcircle (in cm)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "25.5"
+        },
+        {
+          "id": "B",
+          "textHtml": "24"
+        },
+        {
+          "id": "C",
+          "textHtml": "27"
+        },
+        {
+          "id": "D",
+          "textHtml": "22.5"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Hypotenuse = √(15<sup>2</sup> + 36<sup>2</sup>) = √(225 + 1296) = √1521 = 39 cm.</p><p><strong>Step 2:</strong> In a right triangle the circumradius is half the hypotenuse: R = 39/2 = 19.5 cm.</p><p><strong>Step 3:</strong> In a right triangle the inradius is r = (sum of legs − hypotenuse)/2 = (15 + 36 − 39)/2 = 6 cm. (Check: r = Area/s = 270/45 = 6.)</p><p><strong>Step 4:</strong> r + R = 6 + 19.5 = <strong>25.5 cm</strong>.</p><p><strong>Shortcut:</strong> For a right triangle, r + R = (sum of the legs)/2 = 51/2 = 25.5.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two parallel chords of a circle have lengths 16 cm and 12 cm and lie on opposite sides of the centre. The distance between the chords is 14 cm. What is the radius of the circle?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9 cm"
+        },
+        {
+          "id": "B",
+          "textHtml": "11 cm"
+        },
+        {
+          "id": "C",
+          "textHtml": "10 cm"
+        },
+        {
+          "id": "D",
+          "textHtml": "12 cm"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the radius be r. The perpendicular from the centre bisects each chord, so the distances of the chords from the centre are √(r<sup>2</sup> − 64) and √(r<sup>2</sup> − 36).</p><p><strong>Step 2:</strong> Since the chords lie on opposite sides of the centre: √(r<sup>2</sup> − 64) + √(r<sup>2</sup> − 36) = 14.</p><p><strong>Step 3:</strong> Let p = √(r<sup>2</sup> − 64) and q = √(r<sup>2</sup> − 36). Then q<sup>2</sup> − p<sup>2</sup> = 28 and q + p = 14, so q − p = 2. Hence q = 8 and p = 6.</p><p><strong>Step 4:</strong> r<sup>2</sup> = 36 + 64 = 100, so r = <strong>10 cm</strong>.</p><p><strong>Quick check by options:</strong> r = 10 gives distances 6 and 8, which add to 14 ✓.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Mensuration (Cylinder)",
+      "difficulty": "medium",
+      "stemHtml": "<p>A rectangular sheet of paper measuring 44 cm × 18 cm is rolled along its length (so that the 44 cm side forms the circular edge) to make an open hollow cylinder of height 18 cm. What is the volume of the cylinder in cm<sup>3</sup>? (Take π = 22/7.)</p>",
+      "answer": "2772",
+      "solutionHtml": "<p><strong>Step 1:</strong> The 44 cm side becomes the circumference: 2πr = 44, so r = 44 × 7/(2 × 22) = 7 cm.</p><p><strong>Step 2:</strong> The height is the other side, h = 18 cm.</p><p><strong>Step 3:</strong> Volume = πr<sup>2</sup>h = (22/7) × 49 × 18 = 22 × 7 × 18 = <strong>2772 cm<sup>3</sup></strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate Geometry",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many points (x, y) with both x and y integers satisfy both |x| + |y − 2| ≤ 4 and y ≥ 0?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "41"
+        },
+        {
+          "id": "B",
+          "textHtml": "33"
+        },
+        {
+          "id": "C",
+          "textHtml": "39"
+        },
+        {
+          "id": "D",
+          "textHtml": "37"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> |x| + |y − 2| ≤ 4 is a square (rhombus) centred at (0, 2) with vertices (±4, 2), (0, 6) and (0, −2).</p><p><strong>Step 2:</strong> For a fixed integer y, the condition is |x| ≤ 4 − |y − 2|, which gives 2(4 − |y − 2|) + 1 integer values of x.</p><p><strong>Step 3:</strong> With y ≥ 0, y ranges over 0 to 6:</p><ul><li>y = 0: |x| ≤ 2, 5 points</li><li>y = 1: |x| ≤ 3, 7 points</li><li>y = 2: |x| ≤ 4, 9 points</li><li>y = 3: 7 points; y = 4: 5 points; y = 5: 3 points; y = 6: 1 point</li></ul><p><strong>Step 4:</strong> Total = 5 + 7 + 9 + 7 + 5 + 3 + 1 = <strong>37</strong>.</p><p><strong>Quick method:</strong> The full rhombus |x| + |y'| ≤ n contains 2n<sup>2</sup> + 2n + 1 = 41 lattice points for n = 4. Removing the rows y = −1 (3 points) and y = −2 (1 point) leaves 41 − 4 = 37.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Remainders",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the remainder when 7<sup>103</sup> is divided by 25?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18"
+        },
+        {
+          "id": "B",
+          "textHtml": "24"
+        },
+        {
+          "id": "C",
+          "textHtml": "1"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> 7<sup>2</sup> = 49 ≡ −1 (mod 25).</p><p><strong>Step 2:</strong> So 7<sup>4</sup> ≡ (−1)<sup>2</sup> = 1 (mod 25), i.e. powers of 7 repeat with cycle 4 modulo 25.</p><p><strong>Step 3:</strong> 103 = 4 × 25 + 3, so 7<sup>103</sup> ≡ 7<sup>3</sup> (mod 25).</p><p><strong>Step 4:</strong> 7<sup>3</sup> = 343 = 13 × 25 + 18, so the remainder is <strong>18</strong>.</p><p><strong>Alternative:</strong> 7<sup>103</sup> = (7<sup>2</sup>)<sup>51</sup> × 7 ≡ (−1)<sup>51</sup> × 7 = −7 ≡ 18 (mod 25).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Factors",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many positive divisors of 1800 are perfect squares?</p>",
+      "answer": "8",
+      "solutionHtml": "<p><strong>Step 1:</strong> Prime factorisation: 1800 = 2<sup>3</sup> × 3<sup>2</sup> × 5<sup>2</sup>.</p><p><strong>Step 2:</strong> A divisor 2<sup>a</sup> × 3<sup>b</sup> × 5<sup>c</sup> is a perfect square only when a, b and c are all even.</p><p><strong>Step 3:</strong> a ∈ {0, 2} (2 choices), b ∈ {0, 2} (2 choices), c ∈ {0, 2} (2 choices).</p><p><strong>Step 4:</strong> Number of square divisors = 2 × 2 × 2 = <strong>8</strong> (namely 1, 4, 9, 25, 36, 100, 225, 900).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Factorials and Highest Power",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the largest integer n such that 72<sup>n</sup> divides 60! ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18"
+        },
+        {
+          "id": "B",
+          "textHtml": "14"
+        },
+        {
+          "id": "C",
+          "textHtml": "28"
+        },
+        {
+          "id": "D",
+          "textHtml": "13"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> 72 = 2<sup>3</sup> × 3<sup>2</sup>.</p><p><strong>Step 2 (power of 2 in 60!):</strong> ⌊60/2⌋ + ⌊60/4⌋ + ⌊60/8⌋ + ⌊60/16⌋ + ⌊60/32⌋ = 30 + 15 + 7 + 3 + 1 = 56. Number of 2<sup>3</sup> blocks = ⌊56/3⌋ = 18.</p><p><strong>Step 3 (power of 3 in 60!):</strong> ⌊60/3⌋ + ⌊60/9⌋ + ⌊60/27⌋ = 20 + 6 + 2 = 28. Number of 3<sup>2</sup> blocks = ⌊28/2⌋ = 14.</p><p><strong>Step 4:</strong> n = min(18, 14) = <strong>14</strong>.</p><p>Trap: 18 comes from checking only the factor 2<sup>3</sup>, and 28 from forgetting that 72 needs 3<sup>2</sup>, not just 3.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Permutations and Combinations",
+      "difficulty": "medium",
+      "stemHtml": "<p>A committee of 5 is to be selected from 6 men and 5 women. The committee must contain at least 2 women. Also, a particular man M and a particular woman W refuse to serve together. In how many ways can the committee be formed?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "381"
+        },
+        {
+          "id": "B",
+          "textHtml": "74"
+        },
+        {
+          "id": "C",
+          "textHtml": "311"
+        },
+        {
+          "id": "D",
+          "textHtml": "307"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1 (at least 2 women, no other restriction):</strong></p><ul><li>2W + 3M: C(5,2) × C(6,3) = 10 × 20 = 200</li><li>3W + 2M: C(5,3) × C(6,2) = 10 × 15 = 150</li><li>4W + 1M: C(5,4) × C(6,1) = 5 × 6 = 30</li><li>5W: C(5,5) = 1</li></ul><p>Total = 381.</p><p><strong>Step 2 (committees with both M and W, at least 2 women):</strong> With M and W already in, choose 3 more from the remaining 5 men and 4 women, with at least 1 more woman: C(9,3) − C(5,3) = 84 − 10 = 74.</p><p><strong>Step 3:</strong> Valid committees = 381 − 74 = <strong>307</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Probability",
+      "difficulty": "medium",
+      "stemHtml": "<p>Three fair six-sided dice are thrown together. What is the probability that the sum of the numbers shown is exactly 10? (Give your answer as a decimal.)</p>",
+      "answer": "0.125",
+      "solutionHtml": "<p><strong>Step 1:</strong> Total outcomes = 6<sup>3</sup> = 216.</p><p><strong>Step 2:</strong> Count solutions of a + b + c = 10 with 1 ≤ a, b, c ≤ 6. Put a' = a − 1 etc.: a' + b' + c' = 7 with 0 ≤ a', b', c' ≤ 5.</p><p><strong>Step 3:</strong> Without the upper bound: C(9,2) = 36. Subtract cases where some variable ≥ 6: if a' ≥ 6, then a'' + b' + c' = 1, giving C(3,2) = 3 solutions. This happens for each of the 3 variables (two variables cannot both be ≥ 6), so we subtract 9. Favourable outcomes = 36 − 9 = 27.</p><p><strong>Step 4:</strong> Probability = 27/216 = 1/8 = <strong>0.125</strong>.</p><p><strong>Listing check:</strong> unordered triples summing to 10 are (1,3,6), (1,4,5), (2,2,6), (2,3,5), (2,4,4), (3,3,4), which give 6 + 6 + 3 + 6 + 3 + 3 = 27 ordered outcomes.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

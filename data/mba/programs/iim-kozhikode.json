@@ -1,0 +1,259 @@
+{
+  "slug": "iim-kozhikode",
+  "name": "Indian Institute of Management Kozhikode",
+  "shortName": "IIM Kozhikode",
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "website": "https://iimk.ac.in",
+  "programs": [
+    {
+      "code": "PGP",
+      "name": "Post Graduate Programme in Management - PGP (MBA)",
+      "durationYears": 2,
+      "feeTotal": 2350000,
+      "feeNote": "Batch 2026-28 (INR 11,75,000 per year); same for PGP, PGP-Finance and PGP-LSM. Caution deposit, welfare fund and mess deposit extra.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Kozhikode - Fee Structure (PGP, PGP-Finance and PGP-LSM), Batch 2026-28",
+        "url": "https://www.iimk.ac.in/uploads/programsmenu/PGP%20Fee%20Structure%202026-28_20260507095700.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "FEE STRUCTURE (PGP, PGP-Finance and PGP-LSM) ... Total: First Year (2026-2027) ₹11,75,000; Second Year (2027-28) ₹11,75,000 [Tuition 7,00,000 per year; includes Admission, IT/Infrastructure, Library, Hostel, Books & Study Material, Student Activities, etc.]. In addition to the above, an amount of ₹25,000/- towards the Caution Deposit ... and ₹2,000/- towards the Students' Welfare Fund ... ₹40,000/- shall be payable towards mess and students' activities deposit"
+      },
+      "intake": 591,
+      "intakeNote": "NIRF 2025 sanctioned intake (academic year 2023-24) for all 2-year PG programmes of the institute combined, not only this programme.",
+      "intakeSource": {
+        "kind": "official",
+        "title": "NIRF India Rankings 2025 - Data submitted by institution (Indian Institute of Management Kozhikode) [IR-M-S-8909]",
+        "url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Management/IR-M-S-8909.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Sanctioned (Approved) Intake ... Academic Year 2023-24 2022-23 ... PG [2 Year Program(s)] 591 562"
+      },
+      "medianSalary": 2750000,
+      "medianSalaryYear": 2025,
+      "salaryNote": "Class of 2025 (latest final placement report on iimk.ac.in); PGP, PGP-Finance and PGP-LSM combined.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Kozhikode Final Placements Report 2025 (29th batch PGP, 6th batches PGP-Finance and PGP-LSM)",
+        "url": "https://iimk.ac.in/uploads/userfiles/Final-Placements-Report-2025.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "FINAL PLACEMENTS 2025 | STATISTICS ... MEAN CTC 28.18 LPA ... MEDIAN CTC 27.50 LPA"
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "overall": 85,
+      "varc": 75,
+      "dilr": 75,
+      "qa": 75,
+      "notes": "Also requires Class X and XII at least 60% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "overall": 75,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Also requires Class X and XII at least 60% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "overall": 75,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Also requires Class X and XII at least 60% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "overall": 65,
+      "varc": 55,
+      "dilr": 55,
+      "qa": 55,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "overall": 55,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Also requires Class X and XII at least 55% and graduation at least 60% (CA/CMA/CS 50%), and a positive scaled score in every CAT section. From the 2026-28 policy (CAT 2025); the 2027-29 policy was not found on iimk.ac.in on 2026-11-11.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Kozhikode — PGP Admissions Policy and Procedure for 2026-2028 Batch, Table 1: Minimum Eligibility Criteria",
+        "url": "https://iimk.ac.in/uploads/programsmenu/PGP%20Admissions%20Policy%2026-28_20251209102809.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "GEN 85 75 60 60 / OBC-NCL/EWS 75 65 60 60 / SC 65 55 55 55 / ST/PwD 55 45 55 55 (CAT Score Percentile, Sectional Percentile, SSC/X %, HSC/XII %)"
+      },
+      "gender": null
+    }
+  ],
+  "cutoffNotes": null
+}

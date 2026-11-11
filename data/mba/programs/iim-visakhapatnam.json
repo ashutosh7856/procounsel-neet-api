@@ -1,0 +1,252 @@
+{
+  "slug": "iim-visakhapatnam",
+  "name": "Indian Institute of Management Visakhapatnam",
+  "shortName": "IIM Visakhapatnam",
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "website": "https://www.iimv.ac.in",
+  "programs": [
+    {
+      "code": "PGP",
+      "name": "Post Graduate Program in Management (PGP) - MBA",
+      "durationYears": 2,
+      "feeTotal": 2358590,
+      "feeNote": "2 x the official year total of INR 11,79,295 for PGP 2026-28; excludes the INR 40,000 refundable caution deposit and mess advances.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam PGP Program Fee - Fee Structure for PGP 2026-28 Batch",
+        "url": "https://www.iimv.ac.in/programs/pgp/pgp-prgm-fee",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Fee Structure for PGP 2026-28 Batch ... Grand Total (in Rs.) 11,79,295 11,79,295 [1st Year, 2nd Year]. feeTotal = 2 x 11,79,295 (computed sum of the two official year totals); excludes 'one-time refundable caution deposit of Rs 40,000/-' and per-term Rs 25,000 advance for mess etc."
+      },
+      "intake": null,
+      "intakeNote": null,
+      "intakeSource": null,
+      "medianSalary": 1400000,
+      "medianSalaryYear": 2026,
+      "salaryNote": "Median CTC for the 2024-26 batch (stats as on 31 July 2026); the report opens only as page images, figure read from the page.",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam Final Placement Report PGP 2024-26 (listed on Placement Reports page; image-based viewer)",
+        "url": "https://www.iimv.ac.in/placement/placement-reports",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "'...the overall average CTC stood at ₹15 LPA and the median CTC was ₹14 LPA' ... 'The Placement Stats were updated as on July 31, 2026' (transcribed from page-image of the report; viewer is a tokenised image stream, no text layer). NIRF 2025 cross-check (IR-M-U-1007): 1550000 for graduates of 2023-24."
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 82,
+      "varc": 70,
+      "dilr": 70,
+      "qa": 70,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 72,
+      "varc": 63,
+      "dilr": 63,
+      "qa": 63,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 72,
+      "varc": 63,
+      "dilr": 63,
+      "qa": 63,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 50,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 40,
+      "varc": 30,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (Phase-1 first shortlist). CAT 2025. '*These cut-offs are not for admission offers, but only for Phase 1 shortlist.' Positive raw score in all sections required. Academic eligibility: 'bachelor's degree in any discipline with a minimum of 50% marks ... SC, ST, and PwD categories ... 45%'. PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "IIM Visakhapatnam - Admission Process for PGP Batch 2026-28",
+        "url": "https://www.iimv.ac.in/programs/pgp/admissions/pgp-adms-adm-prcs-crtra",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "Table 1: First Shortlist -for the PGP batch of 2026-28 based on CAT 2025 — Minimum Percentile Requirements for the first shortlist (CAT – 2025) * — Category | Sec 1 (VARC) | Sec 2 (DILR) | Sec 3 (QA) | Overall: General 70 70 70 82; EWS 63 63 63 72; NC-OBC 63 63 63 72; SC 40 40 40 50; ST 30 30 30 40; PwD 30 30 30 40"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}

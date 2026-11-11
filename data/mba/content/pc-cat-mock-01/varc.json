@@ -1,0 +1,814 @@
+{
+  "sets": [
+    {
+      "key": "VARC-P1",
+      "kind": "passage",
+      "title": "The politics of maintenance",
+      "contentHtml": "<p>Ask a city council to fund a new bridge and you will find a ribbon, a plaque and a photograph waiting at the end of the process. Ask the same council to fund the repainting of an existing bridge's steelwork and you will find nothing waiting at the end except the absence of a disaster that no one will ever know was averted. This asymmetry, more than any shortage of engineering knowledge, explains why so much public infrastructure decays ahead of schedule.</p><p>Economists sometimes describe the problem as one of discounting: the benefits of maintenance are spread far into the future, while its costs fall in the present budget cycle. The discounting account, though accurate as far as it goes, misses something. A private firm also faces the arithmetic of discounting, yet well-run firms routinely spend on maintenance, because they own the asset and will bear its decline on their own balance sheet. The trouble in the public sector is not that the future is discounted but that it is discounted by people who will not be present to collect it. A transport minister who defers resurfacing hands the eventual bill to a successor, and the voters who enjoy a lower tax this year are not reliably the same voters who will sit in traffic when the road fails.</p><p>Accounting conventions compound the difficulty. Many public budgets record a new asset as investment, a word with a reassuring ring, while recording upkeep as current expenditure, the very category that austerity programmes are designed to cut. A government can therefore appear prudent by building more and maintaining less, even though the combination produces a stock of assets whose true value is shrinking. Some jurisdictions have tried to correct this by publishing the depreciation of public assets alongside the deficit, so that a road allowed to crumble shows up as a loss rather than as a saving. The reform is sound in principle, but it relies on estimates of condition that are costly to produce and easy to contest, and a figure that can be argued away rarely changes behaviour.</p><p>It would be wrong, however, to conclude that the bias toward novelty is simply irrational. New construction often does create capacity that did not exist before, and a society that only ever maintained what it had inherited would freeze its geography at whatever moment it began. The difficulty is one of proportion rather than principle. When the backlog of deferred repairs grows faster than the stock of new assets, each new project quietly adds to a liability that has not been priced. The sensible response is not to stop building but to attach to every new asset, at the moment of its approval, a funded plan for its upkeep, and so to treat the ribbon-cutting as the beginning of an obligation rather than the end of a task.</p>"
+    },
+    {
+      "key": "VARC-P2",
+      "kind": "passage",
+      "title": "Why promises bind",
+      "contentHtml": "<p>A promise is a curious thing to have invented. By uttering a few words, I create an obligation that did not exist a moment before, and I create it not by discovering some fact about the world but by deciding to bind myself. Philosophers have long been uneasy about this power. If I can make an obligation simply by willing it, why can I not unmake it in the same way, by simply willing to be released?</p><p>The most familiar answer appeals to expectations. When I promise to help you move house on Saturday, you plan around my help: you decline other offers, perhaps you book a van for a time that suits me. To break the promise would be to harm you through the very reliance I invited. On this view the wrong of promise-breaking is a species of the wrong of causing harm, and the promise itself is merely the means by which the harm becomes possible.</p><p>The expectation view captures something real, but it struggles with a simple case. Suppose I promise a dying friend that I will visit his grave every year, and suppose no one else knows of the promise. No one relies on it; no one's plans would be upset by my failure; there is no one left to be disappointed. Yet many people feel that I would still have done something wrong by quietly abandoning it. If they are right, the obligation cannot rest entirely on the expectations of others, since in this case there are none.</p><p>A rival tradition locates the binding force in the practice of promising itself. Promising, on this account, is like a game whose rules make certain moves available: just as one cannot checkmate without the rules of chess, one cannot bind oneself without a shared convention that treats certain words as binding. To make a promise and then break it is to take the benefit of the convention while declining its burden, a kind of free-riding. This view handles the graveside case better, since the convention is violated whether or not anyone is watching. But it purchases that explanation at a price. If the obligation is only as strong as the convention, then a person raised outside it, or a society that let it lapse, would have no reason to keep its word, and that conclusion strikes most of us as wrong.</p><p>Perhaps the lesson is that neither account is complete because promising does two things at once. It is a transfer of authority: when I promise, I give you a say over a part of my future conduct that was previously mine alone. Reliance usually follows from that transfer, which is why the expectation view so often looks correct; and conventions make the transfer intelligible, which is why the practice view seems indispensable. But the obligation lies in the transfer itself. Whether this account can fully handle promises made to the dead is a harder question, but it at least explains why release must come from the promisee rather than the promiser. I cannot simply will myself free, because the authority I would need to release myself is no longer wholly mine to exercise.</p>"
+    },
+    {
+      "key": "VARC-P3",
+      "kind": "passage",
+      "title": "The personal equation",
+      "contentHtml": "<p>In 1796 the Astronomer Royal at Greenwich, Nevil Maskelyne, dismissed his assistant, David Kinnebrook, for a fault that would today hardly be considered a fault at all. Kinnebrook's task was to record the moment at which a star crossed a fine wire in the eyepiece of a telescope, using a method that required him to listen to the beats of a clock while watching the star and to estimate, to a tenth of a second, where the star had been at each beat. Over a few months his times drifted until they lagged behind Maskelyne's own by close to eight-tenths of a second. Maskelyne concluded that his assistant had slipped into careless habits and let him go.</p><p>For about two decades the episode remained a footnote. Then the German astronomer Friedrich Bessel, reading of it, wondered whether Kinnebrook had been careless at all. Bessel compared his own transit times with those of other experienced observers and found that they, too, differed, not randomly but consistently, each observer running ahead of or behind the others by a characteristic amount. The differences were not mistakes in the ordinary sense; they were stable features of the observers themselves, as individual as handwriting. Astronomers came to call such an offset the \"personal equation\", and they began to measure it so that it could be subtracted from the record.</p><p>The shift in attitude is easy to underestimate. Under the older view, an observation was either right or wrong, and a disagreement between two observers meant that one of them had erred. Under the newer view, every observation was a joint product of the instrument, the sky and the person at the eyepiece, and the person was an instrument whose characteristics could be calibrated like any other. Error ceased to be a moral failing to be punished and became a quantity to be estimated. Maskelyne had treated the discrepancy as evidence about Kinnebrook's diligence; Bessel treated it as evidence about the nature of perception.</p><p>The consequences reached beyond astronomy. If trained observers could not agree on the timing of a simple event, then the act of perceiving took time, and that time varied from person to person in ways that could be measured. Some of the earliest experiments in what would become experimental psychology were attempts to measure such reaction times, and historians of psychology have often pointed to the astronomers' problem as one of the field's starting points. The astronomers themselves, meanwhile, sought to take the observer out of the measurement altogether. Over the following century the eye-and-ear method gave way to electrical recording devices and eventually to photography, which captured a star's passage without requiring anyone to judge the instant at which it occurred.</p><p>There is an irony here worth dwelling on. The recognition that observers were fallible in systematic ways did not lead astronomers to trust observation less; it led them to trust it more, because an error that is known can be corrected, while an error that is denied simply contaminates the result. Maskelyne, by treating any departure from his own times as a lapse on his assistant's part, believed he was protecting the authority of observation, and in doing so weakened it. Bessel, by admitting that no observer was neutral, made the combined record more reliable than any single observer could be.</p>"
+    },
+    {
+      "key": "VARC-P4",
+      "kind": "passage",
+      "title": "Restore to what?",
+      "contentHtml": "<p>Every ecological restoration project must, sooner or later, answer a question that sounds technical but is really philosophical: restore to what? A wetland drained for farmland a century ago can be reflooded, but the wetland that returns will not be the one that was lost. Species that once lived there may be locally extinct; the climate is different; the surrounding landscape, which once fed the wetland with water and seeds, has been paved or ploughed. Choosing a target means choosing a moment in the past and declaring it the standard against which the present will be judged.</p><p>The most common choice is a \"pre-disturbance\" baseline: the state of an ecosystem before some identifiable human intervention. The appeal is obvious. It gives restoration a clear goal and a defensible principle: undo the damage we did. But the choice of the disturbance is rarely as innocent as it appears. In many regions, the landscapes that early naturalists described as pristine had already been shaped for millennia by human burning, hunting and cultivation. To restore to the moment before industrial agriculture is often to restore to a landscape that earlier peoples had managed, while quietly treating their influence as though it were part of nature and ours as though it were not.</p><p>A further difficulty is that baselines drift within individual lifetimes. A fisherman who began work in a given decade tends to treat the abundance he first encountered as normal, and to measure later decline against it; his son, starting a generation later, takes the already depleted stock as his own normal. Each generation's sense of loss is real, but each is calibrated to a starting point that was itself already diminished, so the cumulative decline across generations goes largely unperceived.</p><p>Faced with these problems, some ecologists have proposed abandoning historical baselines in favour of functional ones. On this view the aim of restoration is not to recreate a particular past but to rebuild the capacities that make an ecosystem resilient, such as its ability to hold water, cycle nutrients and support a diversity of species, even if the species that achieve this are not the ones that lived there before. The approach has the merit of looking forward, and it acknowledges that in a changing climate the past may simply not be recoverable. Its critics worry that, cut loose from history, \"function\" becomes an infinitely elastic word, able to justify almost any arrangement of plants and animals that a developer or agency finds convenient.</p><p>Neither camp, I think, has quite the right picture. History is indispensable to restoration not because it supplies a target to be copied but because it supplies evidence of what a place has been capable of: a record of possibilities that a purely functional design would never think to consider. A baseline is best understood not as a destination but as a reference point, something to steer by rather than something to arrive at.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "VARC-01",
+      "section": "VARC",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following best describes the primary concern of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "To argue that governments should halt new infrastructure projects until existing maintenance backlogs have been cleared."
+        },
+        {
+          "id": "B",
+          "textHtml": "To explain why public infrastructure tends to be under-maintained and to propose a remedy that does not require giving up new construction."
+        },
+        {
+          "id": "C",
+          "textHtml": "To show that the economic theory of discounting fully explains why public assets are neglected."
+        },
+        {
+          "id": "D",
+          "textHtml": "To compare the engineering standards applied to public and private infrastructure."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraphs 1–3 explain why public infrastructure is under-maintained (invisibility of averted failures, costs shifted to successors, accounting conventions), and paragraph 4 proposes attaching a funded upkeep plan to every new asset while explicitly rejecting the idea of halting construction.</p><p><strong>A</strong> fails: the final paragraph says 'The sensible response is not to stop building'.</p><p><strong>C</strong> fails: the author says the discounting account 'misses something', so it does not fully account for the neglect.</p><p><strong>D</strong> fails: the author denies that the problem is one of engineering knowledge and never compares engineering standards.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-02",
+      "section": "VARC",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Specific Detail",
+      "difficulty": "medium",
+      "stemHtml": "<p>According to the passage, why do well-run private firms maintain their assets more reliably than public authorities do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Private firms do not discount the future benefits of maintenance."
+        },
+        {
+          "id": "B",
+          "textHtml": "Private firms record maintenance spending as investment rather than as current expenditure."
+        },
+        {
+          "id": "C",
+          "textHtml": "Those who decide on maintenance in a private firm will themselves bear the cost of the asset's decline, whereas public decision-makers can pass that cost to their successors."
+        },
+        {
+          "id": "D",
+          "textHtml": "Private firms employ engineers with greater expertise in maintenance."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Paragraph 2: firms maintain assets 'because they own the asset and will bear its decline on their own balance sheet', whereas in the public sector the future is 'discounted by people who will not be present to collect it' — a minister hands the bill to a successor.</p><p><strong>A</strong> fails: the passage says a private firm 'also faces the arithmetic of discounting'.</p><p><strong>B</strong> fails: the passage says nothing about private firms' accounting treatment of upkeep; the investment/current-expenditure distinction is described only for public budgets.</p><p><strong>D</strong> fails: paragraph 1 explicitly says the problem is not a shortage of engineering knowledge, and no comparison of expertise is made.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-03",
+      "section": "VARC",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "All EXCEPT",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author would agree with each of the following statements EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Classifying upkeep as current expenditure can make neglect of assets look like prudence."
+        },
+        {
+          "id": "B",
+          "textHtml": "Publishing the depreciation of public assets is a sound idea whose effect is limited because the underlying estimates can be disputed."
+        },
+        {
+          "id": "C",
+          "textHtml": "A society that never built anything new would be unable to change its infrastructure from what it had inherited."
+        },
+        {
+          "id": "D",
+          "textHtml": "The preference for new construction over maintenance is fundamentally irrational and ought to be eliminated."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is the exception. Paragraph 4 opens: 'It would be wrong, however, to conclude that the bias toward novelty is simply irrational', and says the difficulty is 'one of proportion rather than principle'. The author therefore would not call the preference fundamentally irrational or want it eliminated.</p><p><strong>A</strong> is supported by paragraph 3: a government 'can therefore appear prudent by building more and maintaining less'.</p><p><strong>B</strong> is supported by paragraph 3: the reform is 'sound in principle' but relies on estimates 'easy to contest', and 'a figure that can be argued away rarely changes behaviour'.</p><p><strong>C</strong> is supported by paragraph 4: a society that only maintained its inheritance 'would freeze its geography'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-04",
+      "section": "VARC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Strengthen / Weaken",
+      "difficulty": "hard",
+      "stemHtml": "<p>The author argues that the public sector neglects maintenance more than well-run private firms do mainly because public decision-makers can pass the costs of neglect to others. Which of the following, if true, would most seriously weaken this argument?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "In jurisdictions where infrastructure officials serve fixed twenty-year terms and are personally evaluated on the condition of their assets, maintenance backlogs are just as large as elsewhere."
+        },
+        {
+          "id": "B",
+          "textHtml": "Privately owned toll roads, whose owners collect revenue from them for decades, are generally in better repair than comparable public roads."
+        },
+        {
+          "id": "C",
+          "textHtml": "Governments that began publishing the depreciation of public assets saw little change in their maintenance spending."
+        },
+        {
+          "id": "D",
+          "textHtml": "Local newspapers report on the opening of new infrastructure far more often than on routine repairs."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The author's mechanism is that public officials neglect upkeep because they 'will not be present to collect' the future benefit and can hand the bill to a successor. If officials who <em>will</em> be present for decades and who are personally judged on asset condition still accumulate equally large backlogs, the proposed cause is absent but the effect persists, which undercuts the explanation.</p><p><strong>B</strong> fails: long-term private owners maintaining better is exactly what the author's account predicts, so it strengthens rather than weakens.</p><p><strong>C</strong> fails: the author already says depreciation reporting 'rarely changes behaviour' because the figures can be contested; this is consistent with the passage and does not touch the succession argument.</p><p><strong>D</strong> fails: greater coverage of ribbon-cuttings than of repairs supports the visibility asymmetry described in paragraph 1; it does not weaken anything.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-05",
+      "section": "VARC",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Function of Example",
+      "difficulty": "medium",
+      "stemHtml": "<p>The example of the promise to visit a friend's grave is used primarily to:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "show that promises made to the dead are not genuinely binding."
+        },
+        {
+          "id": "B",
+          "textHtml": "challenge the view that the wrong of breaking a promise consists entirely in harm to those who rely on it."
+        },
+        {
+          "id": "C",
+          "textHtml": "demonstrate that the practice view of promising is superior to every alternative account."
+        },
+        {
+          "id": "D",
+          "textHtml": "argue that promises made privately are more binding than promises made in public."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 3 introduces the case because the expectation view 'struggles' with it, concluding that 'the obligation cannot rest entirely on the expectations of others, since in this case there are none'. The example's job is to challenge the view that promise-breaking is wrong only because it harms those who rely on it.</p><p><strong>A</strong> fails: the example relies on the intuition that breaking the promise <em>would</em> be wrong; it does not argue that such promises are not binding.</p><p><strong>C</strong> fails: the author never claims the practice view is superior to every alternative; the example is introduced before the practice view, and the practice view is then itself criticised and superseded in the final paragraph.</p><p><strong>D</strong> fails: no comparison between private and public promises is made; the case being secret is only what removes all expectations.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-06",
+      "section": "VARC",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Specific Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, which of the following is a difficulty faced by the view that the binding force of a promise lies in the practice of promising?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It implies that a person raised outside the convention would have no reason to keep his or her word."
+        },
+        {
+          "id": "B",
+          "textHtml": "It cannot explain why breaking a promise is wrong when nobody else knows about it."
+        },
+        {
+          "id": "C",
+          "textHtml": "It reduces the wrong of promise-breaking to a kind of harm caused to others."
+        },
+        {
+          "id": "D",
+          "textHtml": "It cannot explain how uttering certain words is able to create an obligation at all."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Paragraph 4: 'If the obligation is only as strong as the convention, then a person raised outside it, or a society that let it lapse, would have no reason to keep its word, and that conclusion strikes most of us as wrong.'</p><p><strong>B</strong> fails: the passage says the practice view 'handles the graveside case better, since the convention is violated whether or not anyone is watching' — so this is a strength, not a difficulty.</p><p><strong>C</strong> fails: treating promise-breaking as a species of causing harm is the expectation view described in paragraph 2.</p><p><strong>D</strong> fails: the practice view does explain how promises can be made — through a convention that treats certain words as binding, like the rules of chess.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-07",
+      "section": "VARC",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's Approach / Tone",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best describes the author's approach in the final paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The author dismisses both earlier accounts as wholly mistaken and replaces them with an unrelated theory."
+        },
+        {
+          "id": "B",
+          "textHtml": "The author endorses the expectation view, with minor modifications to accommodate the graveside case."
+        },
+        {
+          "id": "C",
+          "textHtml": "The author proposes an account that explains why each earlier view seems plausible while locating the obligation elsewhere, and admits a case it may not fully resolve."
+        },
+        {
+          "id": "D",
+          "textHtml": "The author concludes that the question of why promises bind cannot be answered."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The author says 'neither account is complete', explains why reliance makes the expectation view 'look correct' and why conventions make the practice view 'seem indispensable', locates the obligation in 'the transfer itself', and concedes that promises to the dead remain 'a harder question'. That is a tentative synthesis with an acknowledged limit.</p><p><strong>A</strong> fails: the author does not reject the earlier accounts as wholly mistaken; each is credited with capturing something real, and the new account explicitly builds on both.</p><p><strong>B</strong> fails: the obligation is located in the transfer of authority, not in expectations; the expectation view is not endorsed.</p><p><strong>D</strong> fails: the author does offer an answer (the transfer of authority) and only flags one hard case; there is no concession that the question is unanswerable.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-08",
+      "section": "VARC",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>On the account the author offers in the final paragraph, which of the following must be true of a person who has made a promise?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "He may release himself from the promise if his circumstances change substantially."
+        },
+        {
+          "id": "B",
+          "textHtml": "He is bound only for as long as the promisee continues to rely on the promise."
+        },
+        {
+          "id": "C",
+          "textHtml": "He is released from the promise if the social convention of promising lapses."
+        },
+        {
+          "id": "D",
+          "textHtml": "He cannot release himself from the promise; release has to come from the person to whom it was made."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The author states that the transfer-of-authority account 'explains why release must come from the promisee rather than the promiser', because 'the authority I would need to release myself is no longer wholly mine to exercise'.</p><p><strong>A</strong> fails: the author explicitly denies that one can 'simply will myself free'; no exception for changed circumstances is offered.</p><p><strong>B</strong> fails: on this account reliance 'usually follows' the transfer, but the obligation 'lies in the transfer itself', not in continuing reliance.</p><p><strong>C</strong> fails: making the obligation depend on the survival of the convention is the practice view, whose implication the author calls wrong; on the author's account conventions only make the transfer 'intelligible'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-09",
+      "section": "VARC",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>The primary purpose of the passage is to:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "trace how a disagreement over timing helped change the understanding of observational error, with consequences extending beyond astronomy."
+        },
+        {
+          "id": "B",
+          "textHtml": "criticise the personal character of an eighteenth-century Astronomer Royal."
+        },
+        {
+          "id": "C",
+          "textHtml": "argue that photography made human observers unnecessary in astronomy."
+        },
+        {
+          "id": "D",
+          "textHtml": "show that Kinnebrook was a more skilful observer than Maskelyne."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The passage moves from the Kinnebrook dismissal to Bessel's discovery of the personal equation, describes the change in how error was understood (paragraph 3), traces consequences for psychology and for recording technology (paragraph 4), and reflects on the irony (paragraph 5).</p><p><strong>B</strong> fails: the passage criticises Maskelyne's interpretation of the discrepancy, not his personal character, and this is not its main purpose.</p><p><strong>C</strong> fails: the move to photography is one detail in paragraph 4, not the passage's thesis.</p><p><strong>D</strong> fails: the passage never says Kinnebrook was the more accurate observer; Bessel's finding was that observers differ systematically, not that one is right.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-10",
+      "section": "VARC",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Specific Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, what did Bessel find when he compared the transit times of experienced observers?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Their times differed randomly, so the differences could not be corrected."
+        },
+        {
+          "id": "B",
+          "textHtml": "Their times differed because of defects in the telescopes they used."
+        },
+        {
+          "id": "C",
+          "textHtml": "Their times differed consistently, by an amount characteristic of each observer, which allowed the differences to be measured and corrected."
+        },
+        {
+          "id": "D",
+          "textHtml": "Inexperienced observers differed from one another more than experienced ones did."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Paragraph 2: observers differed 'not randomly but consistently, each observer running ahead of or behind the others by a characteristic amount', and astronomers 'began to measure it so that it could be subtracted from the record'.</p><p><strong>A</strong> fails: the passage explicitly says the differences were not random, and they were corrected.</p><p><strong>B</strong> fails: the differences were 'stable features of the observers themselves', not defects of the telescopes.</p><p><strong>D</strong> fails: Bessel compared experienced observers only; no comparison with inexperienced observers is mentioned.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-11",
+      "section": "VARC",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "All EXCEPT",
+      "difficulty": "medium",
+      "stemHtml": "<p>Each of the following is stated or clearly implied in the passage EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The method Kinnebrook used required the observer to combine what he heard with what he saw."
+        },
+        {
+          "id": "B",
+          "textHtml": "Under the older view, a disagreement between two observers implied that at least one of them had made an error."
+        },
+        {
+          "id": "C",
+          "textHtml": "Photography allowed a star's transit to be recorded without anyone judging the instant at which it occurred."
+        },
+        {
+          "id": "D",
+          "textHtml": "Bessel's comparisons established that Maskelyne's timings had been more accurate than Kinnebrook's."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is the exception. The passage never says Bessel judged Maskelyne's times more accurate; on the contrary, Bessel 'wondered whether Kinnebrook had been careless at all' and treated the discrepancy as a feature of perception rather than as one observer's error.</p><p><strong>A</strong> is stated in paragraph 1: the observer had to 'listen to the beats of a clock while watching the star'.</p><p><strong>B</strong> is stated in paragraph 3: 'a disagreement between two observers meant that one of them had erred'.</p><p><strong>C</strong> is stated in paragraph 4: photography 'captured a star's passage without requiring anyone to judge the instant at which it occurred'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-12",
+      "section": "VARC",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best captures the 'irony' described in the final paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Kinnebrook, though dismissed, went on to become more celebrated than Maskelyne."
+        },
+        {
+          "id": "B",
+          "textHtml": "Admitting that observers err in systematic ways made observational records more trustworthy, whereas insisting on the observer's reliability undermined it."
+        },
+        {
+          "id": "C",
+          "textHtml": "Astronomy, the most precise of sciences, gave rise to psychology, the least precise."
+        },
+        {
+          "id": "D",
+          "textHtml": "Bessel, who defended human observers, was the person who replaced them with machines."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The final paragraph says recognising systematic fallibility 'did not lead astronomers to trust observation less; it led them to trust it more', and that Maskelyne, trying to protect observation's authority, 'weakened it'.</p><p><strong>A</strong> fails: the passage says nothing about Kinnebrook's later career.</p><p><strong>C</strong> fails: the passage mentions psychology's debt to the problem but never ranks the sciences by precision, and this is not the irony identified.</p><p><strong>D</strong> fails: the passage attributes the move toward machines to 'the astronomers themselves' generally, not to Bessel, and never calls Bessel a champion of human observers against machines.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-13",
+      "section": "VARC",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's View",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best expresses the author's own view of historical baselines in ecological restoration?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "They should be abandoned in favour of targets defined by ecological function."
+        },
+        {
+          "id": "B",
+          "textHtml": "They should be adopted as precise targets that restoration projects must reproduce."
+        },
+        {
+          "id": "C",
+          "textHtml": "They are valuable as evidence of what a place has been capable of, rather than as exact targets to be recreated."
+        },
+        {
+          "id": "D",
+          "textHtml": "They are reliable only if they describe a state that predates all human influence."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The final paragraph: history 'supplies evidence of what a place has been capable of', and a baseline is 'a reference point, something to steer by rather than something to arrive at' — not 'a target to be copied'.</p><p><strong>A</strong> fails: this is the functional camp's proposal, and the author says 'Neither camp ... has quite the right picture', insisting that history is 'indispensable'.</p><p><strong>B</strong> fails: the author treats baselines as reference points, not destinations, and does not ask for them to be reproduced exactly.</p><p><strong>D</strong> fails: the passage notes that many supposedly pristine landscapes were already shaped by people; the author never demands a baseline free of all human influence.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-14",
+      "section": "VARC",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>The author's remark that pre-disturbance restoration treats earlier peoples' influence 'as though it were part of nature and ours as though it were not' suggests that such baselines:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "rest on an unstated judgement about which human influences count as disturbances."
+        },
+        {
+          "id": "B",
+          "textHtml": "are most accurate in regions with long histories of human land management."
+        },
+        {
+          "id": "C",
+          "textHtml": "ought to be set at the earliest moment for which written records exist."
+        },
+        {
+          "id": "D",
+          "textHtml": "fail to take account of the effects of a changing climate."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The paragraph says 'the choice of the disturbance is rarely as innocent as it appears': by picking industrial agriculture as the disturbance, one implicitly classifies older human burning, hunting and cultivation as 'nature'. That is an unacknowledged judgement about which human influences count.</p><p><strong>B</strong> fails: the passage does not say such baselines are more accurate where human management was long-standing; its point is that they mislabel that management as nature.</p><p><strong>C</strong> fails: the author does not recommend choosing the earliest recorded moment; pushing the date back would not by itself remove the problem the remark identifies.</p><p><strong>D</strong> fails: climate change is mentioned elsewhere (paragraphs 1 and 4), but the quoted remark concerns how human influences are classified, not climate.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-15",
+      "section": "VARC",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Function of Example",
+      "difficulty": "easy",
+      "stemHtml": "<p>The example of the fisherman and his son is used to illustrate that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "younger generations care less about ecological loss than older ones."
+        },
+        {
+          "id": "B",
+          "textHtml": "each generation's perception of decline understates the total decline that has occurred over time."
+        },
+        {
+          "id": "C",
+          "textHtml": "fish stocks tend to recover between one generation and the next."
+        },
+        {
+          "id": "D",
+          "textHtml": "personal experience is a more reliable guide to ecological change than historical records."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 3: each generation measures decline from a starting point 'that was itself already diminished, so the cumulative decline across generations goes largely unperceived'.</p><p><strong>A</strong> fails: the passage says 'Each generation's sense of loss is real'; it does not say the young care less.</p><p><strong>C</strong> fails: the son inherits an 'already depleted stock'; there is no recovery.</p><p><strong>D</strong> fails: the example shows that personal experience is a misleading guide to long-run change, the opposite of this option.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-16",
+      "section": "VARC",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Strengthen / Weaken",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following, if true, would most strengthen the concern of the critics of functional baselines described in the fourth paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Historical records for many drained wetlands are too incomplete to reconstruct their former species composition."
+        },
+        {
+          "id": "B",
+          "textHtml": "Long-term studies find that functionally restored sites often support greater species diversity than sites restored to historical baselines."
+        },
+        {
+          "id": "C",
+          "textHtml": "Climate change has made several historical species assemblages impossible to re-establish in their former ranges."
+        },
+        {
+          "id": "D",
+          "textHtml": "A developer won approval for a 'functionally restored' site planted with a single fast-growing grass, on the grounds that it controlled erosion and stored carbon."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The critics worry that 'function' becomes 'an infinitely elastic word, able to justify almost any arrangement ... that a developer or agency finds convenient'. A developer gaining approval for a single-species planting by invoking two convenient functions is a direct instance of that worry.</p><p><strong>A</strong> fails: incomplete historical records weaken the case for historical baselines; they do nothing to support the critics of functional ones.</p><p><strong>B</strong> fails: if functional restorations support greater diversity, the functional approach looks better, which weakens the critics.</p><p><strong>C</strong> fails: the impossibility of re-establishing historical assemblages is part of the rationale for the functional approach ('the past may simply not be recoverable'), so it supports the proponents, not the critics.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-17",
+      "section": "VARC",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>When a city introduces a congestion charge, traffic usually falls sharply in the first months and then creeps partly back. Critics read the rebound as proof that the policy has failed; supporters dismiss it as noise. Both miss what the rebound actually shows. The drivers who return are, by and large, those for whom the journey is worth the price, such as tradespeople carrying tools or carers on tight schedules, while those who vanish were making trips they valued at less than the charge. A charge that left traffic unchanged would have achieved nothing, and one that eliminated it would have been set too high; a partial rebound is the signature of a price doing what prices are meant to do, which is to sort uses by their value.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Congestion charges should be raised until the post-introduction rebound in traffic disappears."
+        },
+        {
+          "id": "B",
+          "textHtml": "Congestion charges ultimately fail because traffic returns to its earlier levels."
+        },
+        {
+          "id": "C",
+          "textHtml": "A partial return of traffic after a congestion charge shows the charge filtering journeys by their value to drivers, not that the policy has failed."
+        },
+        {
+          "id": "D",
+          "textHtml": "Essential users such as tradespeople and carers should be exempted from congestion charges."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct: it captures both the claim (the partial rebound is not failure) and the reason (the charge sorts journeys by their value to drivers).</p><p><strong>A</strong> fails: the passage says only a charge that eliminated traffic 'would have been set too high'; it does not recommend raising the charge.</p><p><strong>B</strong> fails: it adopts the critics' reading that the author rejects, and the rebound is only partial ('creeps partly back').</p><p><strong>D</strong> fails: tradespeople and carers are examples of drivers who choose to pay; exemptions are never proposed.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-18",
+      "section": "VARC",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>We tend to praise translators most when we cannot see them: a good translation, the cliché runs, reads as if it had been written in the reader's own language. Yet this ideal of invisibility carries a hidden cost. A text smoothed into perfect familiarity loses precisely the things that made it foreign: its unusual images, its different rhythms of argument, its assumptions that the new reader does not share. The reader who meets no resistance learns nothing about the distance the text has travelled. Some friction on the page is not a failure of the translator's craft but a faithful record of the fact that two languages, and two ways of seeing, have met.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The ideal of an invisible translation can erase the foreignness that is part of a text's value, so some strangeness in a translation may be a sign of fidelity rather than of poor craft."
+        },
+        {
+          "id": "B",
+          "textHtml": "A translator's chief duty is to make the text read as though it were originally written in the reader's language."
+        },
+        {
+          "id": "C",
+          "textHtml": "Translations are always inferior to originals because they cannot reproduce the source language's rhythms."
+        },
+        {
+          "id": "D",
+          "textHtml": "Most readers prefer translations that preserve the unfamiliar images and rhythms of the original."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct: it states the cost of the invisibility ideal (erasing foreignness) and the conclusion that some friction can be a mark of fidelity.</p><p><strong>B</strong> fails: this is the conventional ideal the author questions, not the author's view.</p><p><strong>C</strong> fails: 'always inferior' overreaches; the passage does not compare translations with originals in general.</p><p><strong>D</strong> fails: the passage makes a claim about what translation should preserve, not about what readers actually prefer — indeed it implies readers praise smooth translations.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-19",
+      "section": "VARC",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumble",
+      "difficulty": "medium",
+      "stemHtml": "<p>The five sentences (labelled 1, 2, 3, 4, 5) given below, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of five numbers as your answer.</p><p>1. Only when railways began to bind distant towns into a single timetable did the minute acquire real social importance.</p><p>2. The earliest public clocks did not have minute hands at all.</p><p>3. And once it had, local time itself became an obstacle, since each town's noon fell at a slightly different moment from its neighbours'.</p><p>4. Their purpose was not to divide the day finely but to announce its major divisions, such as the hours of prayer or the opening of markets, to a town that could hear a bell more easily than it could read a dial.</p><p>5. For centuries afterwards, this coarse sense of time was perfectly adequate, because few activities required people in different places to coordinate within minutes.</p>",
+      "answer": "24513",
+      "solutionHtml": "<p>Answer: <strong>24513</strong>.</p><p>Sentence 2 introduces the topic (early clocks without minute hands) and needs no antecedent. Sentence 4's 'Their purpose' refers back to the clocks in 2, and describes hour-level timekeeping. Sentence 5's 'this coarse sense of time' refers to the hour-level announcement described in 4 and sets up a long period of adequacy ('For centuries afterwards'). Sentence 1's 'Only when railways ...' marks the end of that period. Sentence 3's 'once it had' completes 1 ('once it had acquired real social importance') and so must follow it directly.</p><p>Alternatives fail: 4 cannot open (its 'Their' has no referent); 5 cannot precede 4 because 'this coarse sense of time' needs the description in 4; 3 is unintelligible anywhere except immediately after 1.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-20",
+      "section": "VARC",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumble",
+      "difficulty": "easy",
+      "stemHtml": "<p>The four sentences (labelled 1, 2, 3, 4) given below, when properly sequenced, form a coherent paragraph. Decide on the proper order and key in the sequence of four numbers as your answer.</p><p>1. What the referee can actually assess, then, is narrower: whether the story the authors tell about their data is plausible.</p><p>2. Plausibility, however, is exactly the quality that a skilful but mistaken paper is most likely to possess.</p><p>3. A referee who receives a manuscript is asked, in effect, to judge whether its conclusions follow from its evidence.</p><p>4. But that is rarely possible, because the raw data and code behind the results are usually not supplied.</p>",
+      "answer": "3412",
+      "solutionHtml": "<p>Answer: <strong>3412</strong>.</p><p>Sentence 3 sets out what the referee is asked to do and is the only sentence without a back-reference. Sentence 4's 'that' refers to judging whether conclusions follow from evidence, and 'But ... rarely possible' qualifies it. Sentence 1's 'then' draws the consequence of 4 (the referee can assess only something narrower, namely plausibility). Sentence 2 picks up 'plausible' with 'Plausibility, however' and delivers the closing twist.</p><p>No other order works: 1 needs a preceding reason for 'then'; 2 needs 'plausible' to have been introduced; 4's 'that' needs 3.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-21",
+      "section": "VARC",
+      "number": 21,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd Sentence Out",
+      "difficulty": "easy",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><p>1. Street trees cool cities not only by casting shade but by releasing water vapour through their leaves, a process that draws heat from the surrounding air.</p><p>2. The effect is strongest on still, dry afternoons, precisely when urban heat is most dangerous to the elderly and the ill.</p><p>3. A tree planted today, however, will not provide much of this benefit for perhaps two decades, which is why felling mature trees for road widening is so costly.</p><p>4. Many city residents also value trees for their beauty and for the birdsong they bring to otherwise noisy streets.</p><p>5. Replacing a mature tree with several saplings may look generous on a planning document, but in cooling terms it is a loss that will take a generation to recover.</p>",
+      "answer": "4",
+      "solutionHtml": "<p>Answer: <strong>4</strong>.</p><p>Sentences 1, 2, 3 and 5 form a single argument about the <em>cooling</em> value of trees: the mechanism (1), when it matters most (2, 'The effect'), the long lag before a new tree delivers it (3, 'this benefit'), and the consequent cost of swapping mature trees for saplings 'in cooling terms' (5). Order: 1-2-3-5.</p><p>Sentence 4 shifts to aesthetic and acoustic value (beauty, birdsong), which none of the other sentences develop, and inserting it anywhere breaks the cooling argument.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-22",
+      "section": "VARC",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd Sentence Out",
+      "difficulty": "medium",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><p>1. When chess engines first surpassed the strongest human players, many feared that the game would lose its interest for humans.</p><p>2. The first program to defeat a reigning world champion in a match relied heavily on specialised hardware built to evaluate millions of positions per second.</p><p>3. Instead, top players began studying engine analysis and adopting ideas, such as early pawn advances on the flank or sacrificing material for long-term pressure, that earlier generations had dismissed as unsound.</p><p>4. Even the openings played at the highest level have changed, with variations once considered refuted returning as respectable weapons.</p><p>5. The engines, in other words, did not end human chess so much as widen the range of moves that humans were prepared to take seriously.</p>",
+      "answer": "2",
+      "solutionHtml": "<p>Answer: <strong>2</strong>.</p><p>Sentences 1, 3, 4 and 5 form a paragraph about how engines changed <em>human</em> play: a feared outcome (1), 'Instead' what actually happened (3), a further example (4, 'Even the openings'), and the summarising conclusion (5, 'in other words'). Order: 1-3-4-5.</p><p>Sentence 2 concerns the technical design of an early engine (its hardware), which has no bearing on the paragraph's claim about human players, and placing it between 1 and 3 would break the 'feared ... Instead' contrast.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-23",
+      "section": "VARC",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Placement",
+      "difficulty": "medium",
+      "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3 or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> Only one of these errors, however, is easy to see.</p><p><strong>Paragraph:</strong> ___(1)___ Regulators deciding whether to approve a new drug can err in two ways: they may approve a drug that later proves harmful, or they may reject or delay one that would have saved lives. ___(2)___ The first error produces identifiable victims, news reports and official inquiries; the second produces only patients who quietly did not receive a treatment that might have helped them, and who rarely know what they missed. ___(3)___ It is unsurprising, then, that regulatory systems tend to guard far more vigilantly against the first error than against the second. ___(4)___</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Option 2</strong> is correct. 'These errors' needs the two errors to have been named, which happens in the first sentence; 'however' contrasts the even-handed listing of two errors with the claim that only one is visible; and the next sentence then explains that claim (identifiable victims versus patients who 'rarely know what they missed').</p><p>Option 1 fails: at the start, 'these errors' has no antecedent.</p><p>Option 3 fails: the visibility contrast has already been fully spelled out, so the sentence would be redundant and its 'however' would contrast with nothing.</p><p>Option 4 fails: after the concluding 'It is unsurprising, then' sentence, it would reopen a point already drawn to its conclusion.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    },
+    {
+      "key": "VARC-24",
+      "section": "VARC",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence Completion",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the sentence that most appropriately completes the paragraph.</p><p>For most of history, a map was valued for what it included: the more coastlines, rivers and towns it recorded, the better it was thought to be. Modern cartographers are more likely to judge a map by what it leaves out. A subway diagram that showed every curve of the track and every street above it would be accurate and useless; its power comes from discarding nearly everything except the order of stations and the points where lines meet. ______</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "This is why older maps, with their crowded detail, remain more accurate than modern ones."
+        },
+        {
+          "id": "B",
+          "textHtml": "Subway diagrams are therefore the most important invention in the history of cartography."
+        },
+        {
+          "id": "C",
+          "textHtml": "Cartographers should therefore return to recording as many features as possible."
+        },
+        {
+          "id": "D",
+          "textHtml": "A good map, in this sense, is less a copy of the territory than an argument about which of its features matter."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct: it generalises from the subway example to the paragraph's point that a map's value lies in its selection of what matters.</p><p><strong>A</strong> fails: the paragraph never ranks older maps as more accurate, and its point is about usefulness through omission, not accuracy.</p><p><strong>B</strong> fails: the subway diagram is an illustration; calling it the most important invention in cartography is an unsupported overreach.</p><p><strong>C</strong> fails: it contradicts the paragraph, which praises omission over exhaustive inclusion.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

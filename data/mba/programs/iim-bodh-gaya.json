@@ -1,0 +1,259 @@
+{
+  "slug": "iim-bodh-gaya",
+  "name": "Indian Institute of Management Bodh Gaya",
+  "shortName": "IIM Bodh Gaya",
+  "city": "Bodh Gaya",
+  "state": "Bihar",
+  "website": "https://iimbg.ac.in",
+  "programs": [
+    {
+      "code": "MBA",
+      "name": "Master of Business Administration (MBA) - Post Graduate Program in Management",
+      "durationYears": 2,
+      "feeTotal": 1796000,
+      "feeNote": "Course total for 2026-28; excludes caution deposit (INR 25,000) and mess/laundry deposit.",
+      "feeSource": {
+        "kind": "official",
+        "title": "IIM Bodh Gaya Fee for the MBA 2026-28 (12th Batch), dated 08 May 2026",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/05/Fee_MBA.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Year-wise Total 8,98,000 8,98,000 Course Total 17,96,000 (excludes Caution Deposit 25000 and Mess and Laundry Deposit)"
+      },
+      "intake": 300,
+      "intakeNote": "Seats for MBA 2026-28 (reservation per GoI rules; 70% gender-neutral plus supernumerary girls provision).",
+      "intakeSource": {
+        "kind": "official",
+        "title": "IIM Bodh Gaya MBA Admission Policy 2026-28 Batch",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/IIMBG_MBA_Admission-Policy_2026-28.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Seats: 3001, 2 [i.e. 300 with footnotes 1 and 2: reservation per GoI rules; 70% gender-neutral + supernumerary girls provision]"
+      },
+      "medianSalary": 1212000,
+      "medianSalaryYear": 2025,
+      "salaryNote": "Median Maximum Earning Potential, MBA 2023-25 (graduating 2025), audited final report (scanned; figure read from the page image).",
+      "salarySource": {
+        "kind": "official",
+        "title": "IIM Bodh Gaya Final Placement Report MBA/MBA-DBM/MBA-HHM 2023-25 (Audited by B2K Analytics, Nov 20, 2025)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/Finals_Audited-Report-PGP-2023-25.pdf",
+        "year": 2025,
+        "retrievedAt": "2026-11-11",
+        "quote": "MEDIAN AND AVERAGE MEP (IN LAKHS) - PLACED BY INSTITUTE: MBA'09 Overall Median 12.12, Average 13.10; Highest MEP INR 22.00 LPA (transcribed from scanned page 5; PDF has no text layer). NIRF 2025 cross-check (IR-M-U-1006): 1300001 for graduates of 2023-24."
+      }
+    }
+  ],
+  "cutoffs": [
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": false,
+      "gender": null,
+      "overall": 90,
+      "varc": 65,
+      "dilr": 65,
+      "qa": 65,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.'",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": false,
+      "gender": null,
+      "overall": 75,
+      "varc": 50,
+      "dilr": 50,
+      "qa": 50,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.'",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": false,
+      "gender": null,
+      "overall": 75,
+      "varc": 45,
+      "dilr": 45,
+      "qa": 45,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.'",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": false,
+      "gender": null,
+      "overall": 60,
+      "varc": 40,
+      "dilr": 40,
+      "qa": 40,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.'",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": false,
+      "gender": null,
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.'",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "General",
+      "pwd": true,
+      "gender": null,
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.' PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "EWS",
+      "pwd": true,
+      "gender": null,
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.' PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "NC-OBC",
+      "pwd": true,
+      "gender": null,
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.' PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "SC",
+      "pwd": true,
+      "gender": null,
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.' PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    },
+    {
+      "policyBatch": "2026-28",
+      "stage": "shortlisting",
+      "programCode": null,
+      "category": "ST",
+      "pwd": true,
+      "gender": null,
+      "overall": 38,
+      "varc": 25,
+      "dilr": 30,
+      "qa": 30,
+      "notes": "Stage: shortlisting (CAP 2026 invitation to submit EOI / PI, Gender-Neutral seats). CAT 2025, CAP 2026 (IIM Bodh Gaya, IIM Jammu, IIM Sirmaur; CAP portal cap2026.iimj.ac.in). Supernumerary Girls (SNG) cut-offs are lower: General 65/65/65, 85; EWS 50/50/50, 70; NC-OBC 45/45/45, 70; SC 40/40/40, 55; ST 25/30/30, 35; PwD 25/30/30, 35. The MBA Admission Policy 2026-28 PDF listed an earlier 'for reference only' table (GEN 75/75/75, 95; EWS 55/55/55, 81; NC-OBC 52/52/52, 81; SC 45/45/45, 66; ST/PwD 25/25/30, 42) to be 'finalized after the CAT 2025 result'; the EOI document is the finalized one. Academic eligibility: 'UG with 50% marks (45% for SC/ST/PwD), Indian Citizens.' PwD/DAP row: the document gives a single PwD row (not split by social category); recorded here with category 'General', pwd=true.",
+      "source": {
+        "kind": "official",
+        "title": "EOI Percentile Cut-offs for CAP 2026 - IIM Bodh Gaya MBA, MBA (DBM), MBA (HHM) 2026-28 (dated 21/01/2026)",
+        "url": "https://iimbg.ac.in/wp-content/uploads/2026/04/EOI-Percentile-Cut-offs-for-CAP-2026_IIM-Bodh-Gaya.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11",
+        "quote": "Cut-off for MBA-Gender-Neutral and MBA-SNG 2026-28 — CAP-MBA-GN-Cutoff (VARC) (DILR) (QA) %tile: General 65 65 65 90; EWS 50 50 50 75; NC-OBC 45 45 45 75; SC 40 40 40 60; ST 25 30 30 38; PwD 25 30 30 38"
+      }
+    }
+  ],
+  "cutoffNotes": null
+}
