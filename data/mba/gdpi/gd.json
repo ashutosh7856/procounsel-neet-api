@@ -1,0 +1,1184 @@
+{
+ "items": [
+  {
+   "id": "gd-business-four-day-work-week",
+   "group": "business",
+   "prompt": "A four-day work week will make Indian companies more productive, not less.",
+   "framing": "Clarify the model first: is it the same pay for fewer hours, or the same hours compressed into four days? Separate knowledge work from shift-based and customer-facing work. A strong opening defines productivity as output per hour rather than hours logged, then asks which sectors can realistically adopt it.",
+   "angles": [
+    {
+     "angle": "Productivity and focus",
+     "for": "Fewer days force teams to cut low-value meetings and busywork. Rested employees make fewer errors, and output per hour often rises when time is scarce.",
+     "against": "Compressing work into four days can mean longer, more tiring days. Fatigue late in a ten-hour shift can wipe out the gains, especially in detail-heavy roles."
+    },
+    {
+     "angle": "Talent and retention",
+     "for": "An extra day off is a powerful non-cash benefit. It helps attract skilled people, lowers attrition and reduces burnout-related leave.",
+     "against": "Once competitors copy it, the edge disappears while the cost stays. Ambitious employees may simply use the free day for side jobs."
+    },
+    {
+     "angle": "Sector fit",
+     "for": "Knowledge and creative work is measured by outcomes, so it can adapt; staggered rosters can keep services running all week.",
+     "against": "Manufacturing, retail, healthcare and small businesses need continuous presence. For them, fewer days means hiring more staff or losing customers."
+    },
+    {
+     "angle": "Wider economy",
+     "for": "A longer weekend can boost leisure, travel and local spending, and reduce commuting load on cities.",
+     "against": "In a developing economy with many informal workers, the benefit would reach mostly a privileged formal segment and could widen inequality at work."
+    }
+   ],
+   "lookFor": [
+    "Defining productivity clearly before arguing",
+    "Distinguishing sectors instead of a blanket view",
+    "Practical pilots or middle paths",
+    "Listening and building on others' points"
+   ]
+  },
+  {
+   "id": "gd-business-mergers-vs-organic-growth",
+   "group": "business",
+   "prompt": "Growth through mergers and acquisitions creates less lasting value than organic growth.",
+   "framing": "Define organic growth (expanding through own products, customers and capabilities) and inorganic growth (buying or combining with other firms). The real question is which route builds durable advantage. Open by noting that both have succeeded and failed, then propose criteria such as speed, risk, culture and capability.",
+   "angles": [
+    {
+     "angle": "Speed and market access",
+     "for": "Organic growth may be slow, but it builds capabilities the firm truly owns and understands.",
+     "against": "Acquisitions buy time: instant access to customers, technology, licences or geographies that could take a decade to build alone."
+    },
+    {
+     "angle": "Culture and integration",
+     "for": "Many deals stumble on clashing cultures, departing talent and messy integration, destroying the value they promised.",
+     "against": "Disciplined acquirers with a clear integration playbook can absorb firms smoothly and refresh their own culture in the process."
+    },
+    {
+     "angle": "Cost and risk",
+     "for": "Overpaying is common because of competitive bidding and optimistic synergy estimates; debt taken for deals can weaken the buyer.",
+     "against": "Organic bets carry their own risks: new products can fail, and building from scratch may cost more than buying a proven business."
+    },
+    {
+     "angle": "Competition and the wider market",
+     "for": "Organic growth increases competition and innovation in the market.",
+     "against": "Consolidation can rescue weak firms, create scale to compete globally and avoid wasteful duplication."
+    }
+   ],
+   "lookFor": [
+    "Balanced use of both routes",
+    "Awareness of integration and culture issues",
+    "Clear evaluation criteria",
+    "Concise summarising"
+   ]
+  },
+  {
+   "id": "gd-business-influencer-marketing-ethics",
+   "group": "business",
+   "prompt": "Influencer marketing does more harm than good to consumers.",
+   "framing": "Define influencer marketing as brands paying or rewarding individuals with online followings to promote products. Key issues are disclosure, authenticity, and vulnerable audiences. Open by separating the tool itself from how it is used, and steer toward what responsible practice would look like.",
+   "angles": [
+    {
+     "angle": "Transparency",
+     "for": "Paid promotion often looks like personal opinion. Without clear disclosure, consumers cannot judge the bias behind a recommendation.",
+     "against": "Clear disclosure norms and labels can fix this; the problem is enforcement, not the format itself."
+    },
+    {
+     "angle": "Consumer welfare",
+     "for": "Influencers have promoted risky financial products, unproven health claims and unrealistic lifestyles, especially to young audiences.",
+     "against": "Genuine creators give detailed reviews, demonstrations and comparisons that help consumers decide better than glossy ads."
+    },
+    {
+     "angle": "Small businesses",
+     "for": "It can create hype cycles where quality matters less than the size of the marketing budget.",
+     "against": "It lets small brands and local sellers reach niche audiences cheaply, levelling the field against big advertisers."
+    }
+   ],
+   "lookFor": [
+    "Distinguishing the tool from misuse",
+    "Concrete safeguards like disclosure and accountability",
+    "Sensitivity to young or vulnerable audiences",
+    "Structured, balanced contribution"
+   ]
+  },
+  {
+   "id": "gd-business-work-from-office-mandates",
+   "group": "business",
+   "prompt": "Companies are right to mandate a return to working from the office.",
+   "framing": "This is distinct from asking whether remote work is good; it asks whether employers should compel attendance. Define mandate (fixed days or full-time presence). A good entry frames the trade-off between collaboration and culture on one side and autonomy and trust on the other, and explores hybrid arrangements.",
+   "angles": [
+    {
+     "angle": "Collaboration and learning",
+     "for": "Juniors learn by watching and asking colleagues; spontaneous conversations spark ideas that scheduled calls miss.",
+     "against": "Many tasks need deep focus, which open offices disrupt. Collaboration can be planned around specific in-person days instead of daily mandates."
+    },
+    {
+     "angle": "Trust and culture",
+     "for": "Shared space builds belonging, loyalty and a common identity that is hard to create through screens.",
+     "against": "Mandates without a clear reason signal distrust and can push out high performers who value flexibility."
+    },
+    {
+     "angle": "Inclusion",
+     "for": "The office creates visibility for everyone equally, avoiding a gap between those seen by bosses and those working remotely.",
+     "against": "Flexibility helps caregivers, people with disabilities and those from smaller towns; rigid mandates may shrink the talent pool."
+    }
+   ],
+   "lookFor": [
+    "Moving beyond binary positions",
+    "Considering different roles and career stages",
+    "Evidence-based reasoning rather than anecdotes",
+    "Respectful handling of disagreement"
+   ]
+  },
+  {
+   "id": "gd-business-quarterly-results-short-termism",
+   "group": "business",
+   "prompt": "The pressure of quarterly results is making companies short-sighted.",
+   "framing": "Define short-termism: choices that boost near-term numbers at the cost of long-term value, such as cutting research, training or maintenance. Discuss whether the reporting frequency itself is the cause or whether incentives and investor behaviour matter more. Open with this distinction.",
+   "angles": [
+    {
+     "angle": "Investment decisions",
+     "for": "Managers may delay research, brand building or capacity expansion to avoid missing a quarter's expectations.",
+     "against": "Good managers communicate long-term plans clearly; investors reward credible strategies even when quarterly profits dip."
+    },
+    {
+     "angle": "Transparency and governance",
+     "for": "Frequent reporting produces noise and encourages managing numbers rather than the business.",
+     "against": "Regular disclosure protects minority shareholders, deters fraud and keeps management accountable."
+    },
+    {
+     "angle": "Incentive design",
+     "for": "Executive pay linked to short-term share prices amplifies the pressure created by quarterly reports.",
+     "against": "The fix lies in long-term incentives and patient ownership, not in reducing information available to investors."
+    }
+   ],
+   "lookFor": [
+    "Separating cause from symptom",
+    "Understanding of governance and investor roles",
+    "Practical alternatives",
+    "Clear logical flow"
+   ]
+  },
+  {
+   "id": "gd-business-loyalty-programmes",
+   "group": "business",
+   "prompt": "Loyalty programmes build habits, not genuine customer loyalty.",
+   "framing": "Distinguish behavioural loyalty (repeat purchase) from attitudinal loyalty (emotional preference and advocacy). Loyalty programmes include points, memberships, cashback and tiers. A useful opening asks: would customers stay if the rewards disappeared tomorrow?",
+   "angles": [
+    {
+     "angle": "Nature of loyalty",
+     "for": "Customers chasing points are loyal to rewards; when a rival offers more, they switch without hesitation.",
+     "against": "Habit is the foundation of loyalty. Repeated good experiences, triggered by rewards, can turn into real preference."
+    },
+    {
+     "angle": "Data and personalisation",
+     "for": "Programmes are often a data-collection tool more than a relationship builder, and customers increasingly see through this.",
+     "against": "The data lets firms personalise offers and service, which genuinely improves the customer experience."
+    },
+    {
+     "angle": "Economics",
+     "for": "Rewards become an expected discount, eroding margins without differentiating the brand.",
+     "against": "Retaining a customer is usually cheaper than acquiring a new one, so well-designed programmes pay for themselves."
+    }
+   ],
+   "lookFor": [
+    "Clear distinction between habit and loyalty",
+    "Customer-centric thinking",
+    "Business viability considerations",
+    "Use of relatable everyday examples"
+   ]
+  },
+  {
+   "id": "gd-business-forced-ranking-appraisals",
+   "group": "business",
+   "prompt": "Forced-ranking performance appraisals do more harm than good.",
+   "framing": "Forced ranking (bell-curve appraisal) requires managers to place fixed proportions of employees in top, middle and bottom categories. Discuss fairness, motivation, teamwork and differentiation. Open by explaining the system briefly and the problem it was meant to solve: grade inflation.",
+   "angles": [
+    {
+     "angle": "Fairness",
+     "for": "In a strong team, someone must still be rated low, which feels arbitrary and unjust.",
+     "against": "Without forced distribution, managers rate everyone highly, making appraisals meaningless and rewarding mediocrity."
+    },
+    {
+     "angle": "Teamwork",
+     "for": "When colleagues compete for limited top ratings, they hoard information and avoid helping each other.",
+     "against": "Healthy competition pushes people to stretch, and team goals can be added to balance individual ranking."
+    },
+    {
+     "angle": "Talent decisions",
+     "for": "Continuous feedback and goal-based reviews give richer, fairer insight than a single annual label.",
+     "against": "Clear differentiation helps identify top performers for growth and address persistent underperformance honestly."
+    }
+   ],
+   "lookFor": [
+    "Understanding of HR concepts",
+    "Empathy combined with business logic",
+    "Suggesting alternatives",
+    "Inclusive participation"
+   ]
+  },
+  {
+   "id": "gd-business-below-cost-pricing",
+   "group": "business",
+   "prompt": "Selling below cost to capture market share should be treated as unfair competition.",
+   "framing": "Distinguish legitimate introductory discounts from predatory pricing, where a deep-pocketed firm sells below cost to drive rivals out and later raise prices. Discuss consumer benefit, small traders and competition law. Open by defining the line between aggressive and predatory.",
+   "angles": [
+    {
+     "angle": "Consumer interest",
+     "for": "Low prices are temporary; once competition is eliminated, consumers face higher prices and fewer choices.",
+     "against": "Consumers clearly benefit from lower prices today, and new entrants can always challenge a firm that later overcharges."
+    },
+    {
+     "angle": "Small businesses",
+     "for": "Small retailers and traders cannot match prices funded by large capital reserves, so they close regardless of efficiency.",
+     "against": "Protecting inefficient players hurts consumers; small businesses can compete on service, proximity and trust."
+    },
+    {
+     "angle": "Regulation",
+     "for": "Competition authorities need clear rules to stop capital, rather than efficiency, from deciding market winners.",
+     "against": "Proving intent and true cost is very hard; heavy regulation risks punishing genuine innovation and efficiency."
+    }
+   ],
+   "lookFor": [
+    "Precise definitions",
+    "Balancing consumers and producers",
+    "Awareness of regulatory difficulty",
+    "Structured summary"
+   ]
+  },
+  {
+   "id": "gd-economy-msp-legal-guarantee",
+   "group": "economy",
+   "prompt": "Minimum support price should be made a legal guarantee for farmers.",
+   "framing": "Explain minimum support price: a price at which the government offers to procure certain crops to protect farmers from price crashes. A legal guarantee would make purchase at or above this price mandatory. Open by stating the goal (farmer income security) and then test the proposal for fiscal cost, market effects and crop choices.",
+   "angles": [
+    {
+     "angle": "Farmer security",
+     "for": "A legal floor protects farmers from distress sales and price volatility, giving them confidence to invest.",
+     "against": "Better storage, market access and insurance can stabilise incomes without fixing prices by law."
+    },
+    {
+     "angle": "Fiscal and market impact",
+     "for": "Public spending on farm stability is an investment in rural demand and food security.",
+     "against": "Guaranteed purchase could impose a heavy burden on public finances and make private traders reluctant to buy if market prices fall below the floor."
+    },
+    {
+     "angle": "Crop diversity and environment",
+     "for": "Extending support to pulses, millets and oilseeds could encourage diversification away from water-intensive crops.",
+     "against": "Price guarantees on a few crops can lock farmers into them, deepening water stress and soil depletion."
+    }
+   ],
+   "lookFor": [
+    "Explaining the concept accurately",
+    "Empathy for farmers combined with economic reasoning",
+    "Exploring complementary reforms",
+    "Neutral, non-political tone"
+   ]
+  },
+  {
+   "id": "gd-economy-privatise-public-banks",
+   "group": "economy",
+   "prompt": "Public sector banks should be privatised.",
+   "framing": "Define public sector banks as banks majority-owned by the government. Privatisation could mean full sale or reducing government stake below majority. Frame the debate around efficiency, financial inclusion, stability and the role of the state in credit. Open by asking what objectives banks are meant to serve.",
+   "angles": [
+    {
+     "angle": "Efficiency and governance",
+     "for": "Private ownership brings commercial discipline, faster decisions and freedom from political pressure in lending.",
+     "against": "Governance reforms, professional boards and autonomy can improve state banks without selling them."
+    },
+    {
+     "angle": "Financial inclusion",
+     "for": "Private banks can be required through regulation to serve priority sectors and rural areas.",
+     "against": "Public banks have historically carried the burden of rural branches, small loans and government schemes that private lenders may avoid."
+    },
+    {
+     "angle": "Stability and trust",
+     "for": "Taxpayers would no longer bear repeated recapitalisation costs for poorly managed loans.",
+     "against": "Depositors often trust state ownership as a safety net, and public banks can act counter-cyclically during crises."
+    }
+   ],
+   "lookFor": [
+    "Understanding of banking basics",
+    "Balanced view of state and market roles",
+    "Suggesting phased or partial options",
+    "Avoiding political bias"
+   ]
+  },
+  {
+   "id": "gd-economy-universal-basic-income",
+   "group": "economy",
+   "prompt": "India should introduce a universal basic income.",
+   "framing": "Universal basic income is an unconditional, regular cash payment to every individual regardless of income or employment. Variants include quasi-universal or targeted basic income. Open by defining it, then evaluate affordability, effect on work, and whether it should replace or add to existing welfare schemes.",
+   "angles": [
+    {
+     "angle": "Poverty and dignity",
+     "for": "Direct cash respects people's ability to choose and reaches those excluded by complex scheme eligibility.",
+     "against": "A small universal amount may be too thin to lift anyone out of poverty, while a meaningful amount may be unaffordable."
+    },
+    {
+     "angle": "Fiscal feasibility",
+     "for": "Consolidating overlapping subsidies and schemes into one transfer can reduce leakage and administrative cost.",
+     "against": "Removing existing schemes is politically hard, so basic income might be added on top, straining public finances."
+    },
+    {
+     "angle": "Work incentives",
+     "for": "Security lets people take risks: retrain, start enterprises, or search for better jobs rather than accept exploitative work.",
+     "against": "Critics fear reduced motivation to work in some segments and inflation in local markets if supply does not keep pace."
+    }
+   ],
+   "lookFor": [
+    "Clear definition of the concept",
+    "Considering design variants",
+    "Fiscal awareness",
+    "Respectful view of beneficiaries"
+   ]
+  },
+  {
+   "id": "gd-economy-crypto-regulation",
+   "group": "economy",
+   "prompt": "Cryptocurrencies should be regulated, not banned.",
+   "framing": "Distinguish cryptocurrencies (private digital tokens) from blockchain technology and from central bank digital currencies. The choice is between prohibition, strict regulation, and light-touch oversight. Open by laying out the risks (volatility, fraud, illicit use) and the opportunities (innovation, investment, technology talent).",
+   "angles": [
+    {
+     "angle": "Investor protection",
+     "for": "Regulation with licensing, disclosure and taxation protects investors better than a ban that pushes activity underground.",
+     "against": "Retail investors may treat a regulated market as endorsed, increasing exposure to highly speculative assets."
+    },
+    {
+     "angle": "Monetary sovereignty",
+     "for": "Clear rules can treat crypto as an asset class without letting it function as currency.",
+     "against": "Widespread private digital money could weaken the central bank's control over money supply and capital flows."
+    },
+    {
+     "angle": "Innovation",
+     "for": "A clear framework keeps blockchain talent and businesses in the country instead of driving them abroad.",
+     "against": "Useful blockchain innovation does not require speculative tokens; it can grow without legitimising them."
+    },
+    {
+     "angle": "Enforcement",
+     "for": "Bans are hard to enforce on borderless, decentralised networks; regulation is more practical.",
+     "against": "Regulating anonymous, cross-border transactions is also difficult and resource-intensive."
+    }
+   ],
+   "lookFor": [
+    "Distinguishing crypto, blockchain and digital currency",
+    "Weighing risks against innovation",
+    "Practical regulatory ideas",
+    "Clarity of expression"
+   ]
+  },
+  {
+   "id": "gd-economy-manufacturing-vs-services",
+   "group": "economy",
+   "prompt": "India must prioritise manufacturing over services to create jobs.",
+   "framing": "Frame the question around the development path: many economies moved workers from farms to factories before services. Discuss job creation for less-skilled workers, exports, productivity, and whether the two sectors are really in competition. Open by asking what kind of jobs a large young workforce needs.",
+   "angles": [
+    {
+     "angle": "Employment for semi-skilled workers",
+     "for": "Factories can absorb large numbers of workers moving out of agriculture without needing advanced education.",
+     "against": "Modern manufacturing is increasingly automated, so it may not create jobs on the scale it once did."
+    },
+    {
+     "angle": "Comparative advantage",
+     "for": "Strong manufacturing reduces import dependence and builds resilience in supply chains.",
+     "against": "Services such as IT, design, finance and tourism are areas of proven strength and often earn more per worker."
+    },
+    {
+     "angle": "Complementarity",
+     "for": "Manufacturing creates demand for services like logistics, finance and maintenance, multiplying jobs.",
+     "against": "Services can be the growth engine too; setting priorities may waste resources on sectors that lack competitive edge."
+    }
+   ],
+   "lookFor": [
+    "Development economics awareness",
+    "Recognising interdependence",
+    "Focus on skills and infrastructure",
+    "Data-free but logical reasoning"
+   ]
+  },
+  {
+   "id": "gd-economy-strong-currency",
+   "group": "economy",
+   "prompt": "A strong rupee is a sign of a strong economy.",
+   "framing": "Define currency strength as the exchange rate relative to other currencies. A strong currency makes imports cheaper and exports costlier. Open by separating national pride from economic effect, and discuss who wins and who loses from currency movements.",
+   "angles": [
+    {
+     "angle": "Trade",
+     "for": "A strong currency lowers the cost of imported fuel, machinery and inputs, helping control inflation.",
+     "against": "It makes exports less competitive, hurting manufacturers and workers in export-oriented sectors."
+    },
+    {
+     "angle": "Confidence and investment",
+     "for": "A stable, strong currency signals sound fundamentals and attracts long-term foreign investment.",
+     "against": "Stability matters more than strength; an artificially strong currency can attract speculative flows that later reverse sharply."
+    },
+    {
+     "angle": "Households",
+     "for": "Overseas education, travel and imported goods become cheaper for consumers.",
+     "against": "Families relying on remittances from abroad receive less in local currency when it strengthens."
+    }
+   ],
+   "lookFor": [
+    "Understanding of exchange rate basics",
+    "Identifying winners and losers",
+    "Avoiding emotional nationalism",
+    "Logical structure"
+   ]
+  },
+  {
+   "id": "gd-economy-hosting-global-sporting-events",
+   "group": "economy",
+   "prompt": "India should bid to host more global sporting events.",
+   "framing": "Consider mega events such as multi-sport games and world championships. Assess economic returns, infrastructure legacy, soft power, and opportunity cost. A good opening asks whether the benefit comes from the event itself or from what it leaves behind.",
+   "angles": [
+    {
+     "angle": "Economic impact",
+     "for": "Events bring tourism, jobs, and faster infrastructure such as transport and stadiums.",
+     "against": "Costs often exceed estimates, and many venues become underused after the event, burdening public budgets."
+    },
+    {
+     "angle": "Soft power and image",
+     "for": "Hosting showcases the nation's capability and culture to a global audience and builds diplomatic goodwill.",
+     "against": "Poor organisation or controversy can damage reputation more than the event helps it."
+    },
+    {
+     "angle": "Sporting culture",
+     "for": "Home events inspire young people, raise participation and push investment into training facilities.",
+     "against": "Grassroots sport needs steady funding for coaches and local grounds, which a one-time event does not guarantee."
+    },
+    {
+     "angle": "Opportunity cost",
+     "for": "Events create deadlines that cut through bureaucratic delays on long-pending projects.",
+     "against": "The same money could fund schools, healthcare or community sports facilities with longer-lasting benefit."
+    }
+   ],
+   "lookFor": [
+    "Cost-benefit thinking",
+    "Focus on legacy planning",
+    "Balanced patriotism and pragmatism",
+    "Constructive suggestions"
+   ]
+  },
+  {
+   "id": "gd-economy-wealth-tax",
+   "group": "economy",
+   "prompt": "A tax on the very wealthy is the fairest way to reduce inequality.",
+   "framing": "Distinguish taxes on income from taxes on accumulated wealth (assets, property, inheritance). Frame the debate around fairness, revenue, capital flight and administration. Open by asking whether inequality is best addressed through taxing the top or through raising incomes at the bottom.",
+   "angles": [
+    {
+     "angle": "Fairness",
+     "for": "Wealth often grows faster than wages; taxing large fortunes asks those who gained most to contribute more.",
+     "against": "Wealth is often built from income already taxed; taxing it again can be seen as penalising savings and success."
+    },
+    {
+     "angle": "Practicality",
+     "for": "With better digital records and asset registries, valuation and collection are more feasible than before.",
+     "against": "Valuing private businesses, land and art is hard; such taxes have often raised little and cost much to administer."
+    },
+    {
+     "angle": "Capital and investment",
+     "for": "Revenue can fund education and health, which expand opportunity more than concentrated wealth does.",
+     "against": "The wealthy may move capital or residency abroad, reducing investment and entrepreneurship at home."
+    }
+   ],
+   "lookFor": [
+    "Clarity on types of taxes",
+    "Balancing equity and efficiency",
+    "Alternative tools to reduce inequality",
+    "Calm handling of a value-laden issue"
+   ]
+  },
+  {
+   "id": "gd-technology-social-media-age-limits",
+   "group": "technology",
+   "prompt": "Children below a certain age should be barred from social media.",
+   "framing": "Discuss a legal minimum age for opening social media accounts, enforced through verification. Consider child well-being, privacy, parental roles and enforceability. Open by acknowledging both the risks to young users and the benefits of connection and learning.",
+   "angles": [
+    {
+     "angle": "Mental health and safety",
+     "for": "Young users are vulnerable to cyberbullying, comparison, addictive design and contact with strangers.",
+     "against": "Not all use is harmful; online communities can support isolated or marginalised young people."
+    },
+    {
+     "angle": "Enforcement and privacy",
+     "for": "Age verification technology is improving, and platforms can be held accountable for compliance.",
+     "against": "Strict verification may require collecting identity data from everyone, creating new privacy risks, and children may lie or use others' accounts."
+    },
+    {
+     "angle": "Role of parents and education",
+     "for": "A legal limit supports parents who struggle to resist peer pressure on their children.",
+     "against": "Digital literacy and parental guidance prepare children better than a ban that ends abruptly at a certain age."
+    }
+   ],
+   "lookFor": [
+    "Child-centric reasoning",
+    "Awareness of privacy trade-offs",
+    "Practical enforcement ideas",
+    "Respectful, balanced tone"
+   ]
+  },
+  {
+   "id": "gd-technology-deepfakes-regulation",
+   "group": "technology",
+   "prompt": "Deepfakes should be strictly regulated, even at the cost of creative freedom.",
+   "framing": "Deepfakes are synthetic audio, images or video generated by AI to realistically imitate real people. Uses range from satire and film effects to fraud, harassment and misinformation. Open by separating harmful uses from creative ones, and ask whether rules should target the technology or the misuse.",
+   "angles": [
+    {
+     "angle": "Harm prevention",
+     "for": "Deepfakes enable fraud, impersonation, non-consensual content and election misinformation that spread faster than corrections.",
+     "against": "Existing laws on fraud, defamation and harassment already cover many harms; better enforcement may suffice."
+    },
+    {
+     "angle": "Creative and commercial use",
+     "for": "Mandatory labelling and consent requirements can protect people without banning creative use.",
+     "against": "Broad rules may chill satire, art, education and legitimate film and accessibility applications."
+    },
+    {
+     "angle": "Technical feasibility",
+     "for": "Watermarking and provenance standards can make synthetic content traceable at scale.",
+     "against": "Open-source tools and bad actors will ignore rules; detection often lags behind generation."
+    }
+   ],
+   "lookFor": [
+    "Clear definition of the technology",
+    "Distinguishing use from tool",
+    "Balanced view of free expression",
+    "Solution orientation"
+   ]
+  },
+  {
+   "id": "gd-technology-space-programmes-worth-cost",
+   "group": "technology",
+   "prompt": "Space programmes are worth their cost for a developing country.",
+   "framing": "Frame around opportunity cost: should a nation with pressing needs in health, education and poverty invest in space? Consider practical applications (satellites for weather, communication, mapping), scientific prestige and industry. Open by distinguishing applied space technology from exploratory missions.",
+   "angles": [
+    {
+     "angle": "Practical benefits",
+     "for": "Satellites support weather forecasting, disaster warning, navigation, farming advice and remote education.",
+     "against": "Applied satellites are valuable, but deep-space exploration offers fewer immediate benefits to citizens."
+    },
+    {
+     "angle": "Opportunity cost",
+     "for": "Space budgets are a small share of public spending and often deliver high returns through spin-off technologies.",
+     "against": "Every rupee has alternatives; basic needs should arguably come first in public priorities."
+    },
+    {
+     "angle": "Inspiration and industry",
+     "for": "Space missions inspire students toward science and build a high-tech private industry and skilled jobs.",
+     "against": "Inspiration alone does not justify spending unless it is matched by investment in schools and research institutions."
+    }
+   ],
+   "lookFor": [
+    "Clarity on applications versus exploration",
+    "Opportunity-cost reasoning",
+    "Avoiding pure emotion or pride",
+    "Linking to national development"
+   ]
+  },
+  {
+   "id": "gd-technology-coding-compulsory-schools",
+   "group": "technology",
+   "prompt": "Coding should be a compulsory subject in schools.",
+   "framing": "Distinguish coding (writing programs) from computational thinking (breaking down problems logically) and digital literacy. Consider teacher availability, infrastructure and curriculum load. Open by asking what skills students will need regardless of their future careers.",
+   "angles": [
+    {
+     "angle": "Future readiness",
+     "for": "Logical, structured problem-solving is useful in every field, and coding teaches it in a hands-on way.",
+     "against": "Tools change quickly; foundational maths, language and reasoning may matter more than any specific programming skill."
+    },
+    {
+     "angle": "Equity",
+     "for": "Making it compulsory ensures students in all schools, not just elite ones, get exposure to technology.",
+     "against": "Without computers, electricity and trained teachers, a compulsory subject may become rote learning and widen gaps."
+    },
+    {
+     "angle": "Curriculum burden",
+     "for": "Coding can be integrated with maths and science rather than added as a separate load.",
+     "against": "Students already face heavy syllabi; adding another compulsory subject may increase stress without real learning."
+    }
+   ],
+   "lookFor": [
+    "Distinguishing coding from thinking skills",
+    "Attention to implementation",
+    "Equity awareness",
+    "Constructive suggestions"
+   ]
+  },
+  {
+   "id": "gd-technology-right-to-repair",
+   "group": "technology",
+   "prompt": "Consumers should have a legal right to repair the products they own.",
+   "framing": "Right to repair means manufacturers must make spare parts, manuals and diagnostic tools available to owners and independent repairers. It covers phones, appliances, vehicles and farm machinery. Open by linking the topic to ownership, consumer cost and electronic waste.",
+   "angles": [
+    {
+     "angle": "Consumer rights and cost",
+     "for": "Owners should be able to fix what they buy without being forced to use expensive authorised service or replace the product.",
+     "against": "Manufacturers argue that controlled repair ensures quality and safety, protecting their brand and the user."
+    },
+    {
+     "angle": "Environment",
+     "for": "Repairable products last longer and reduce electronic waste and resource extraction.",
+     "against": "Design for repairability may make products bulkier or less durable in other ways, such as water resistance."
+    },
+    {
+     "angle": "Local economy and security",
+     "for": "Independent repair shops create local jobs and skills, especially in smaller towns.",
+     "against": "Opening diagnostic tools and software can expose devices to security risks and intellectual property theft."
+    }
+   ],
+   "lookFor": [
+    "Understanding of ownership concepts",
+    "Environmental awareness",
+    "Balancing business and consumer interests",
+    "Concrete examples from daily life"
+   ]
+  },
+  {
+   "id": "gd-technology-explainable-algorithms",
+   "group": "technology",
+   "prompt": "Algorithms that make decisions about people must be able to explain themselves.",
+   "framing": "Automated systems decide on loans, job shortlists, insurance premiums and content visibility. Explainability means a person can understand why a decision was made. Open by distinguishing high-stakes decisions from low-stakes recommendations and ask who is accountable when an algorithm errs.",
+   "angles": [
+    {
+     "angle": "Fairness and accountability",
+     "for": "People denied a loan or job deserve to know why, so they can correct errors or challenge bias.",
+     "against": "Human decision makers also cannot fully explain their judgments; demanding more from machines may be an unfair standard."
+    },
+    {
+     "angle": "Accuracy",
+     "for": "Explainable systems are easier to audit and improve, catching hidden biases in data.",
+     "against": "The most accurate models are often complex; forcing simplicity may reduce performance and help fewer people."
+    },
+    {
+     "angle": "Business and trade secrets",
+     "for": "Explanations can be given at the level of key factors without revealing the full model.",
+     "against": "Detailed explanations may expose proprietary methods or let people game the system."
+    }
+   ],
+   "lookFor": [
+    "Grasp of AI decision-making basics",
+    "Ethical reasoning",
+    "Proportionate regulation ideas",
+    "Clarity on complex ideas"
+   ]
+  },
+  {
+   "id": "gd-technology-data-new-oil",
+   "group": "technology",
+   "prompt": "Data is the new oil.",
+   "framing": "Interpret the metaphor: oil was the raw material that powered the industrial economy; data powers the digital economy. Test where the analogy holds and where it breaks: data is not used up, can be copied, and is often about people. Open by asking who owns the data and who profits from refining it.",
+   "angles": [
+    {
+     "angle": "Economic value",
+     "for": "Like crude oil, raw data has little value until refined through analysis; those who refine it gain enormous economic power.",
+     "against": "Unlike oil, data is not scarce or consumed; its value depends on context and quickly becomes outdated."
+    },
+    {
+     "angle": "Ownership and rights",
+     "for": "The comparison highlights the need for rules on who extracts and controls a valuable resource.",
+     "against": "Data is about people and their lives; treating it as a commodity ignores privacy and dignity."
+    },
+    {
+     "angle": "Risks",
+     "for": "Like oil, data concentration creates powerful monopolies and geopolitical competition.",
+     "against": "Data leaks and misuse cause harm differently from oil spills; the metaphor may oversimplify the risks."
+    }
+   ],
+   "lookFor": [
+    "Interpreting the metaphor critically",
+    "Linking to privacy and competition",
+    "Original examples",
+    "Clear conclusion"
+   ]
+  },
+  {
+   "id": "gd-technology-open-source-vs-proprietary",
+   "group": "technology",
+   "prompt": "Governments should prefer open-source software over proprietary software.",
+   "framing": "Open-source software has publicly available code that anyone can inspect, modify and share; proprietary software is owned and licensed by a vendor. Evaluate cost, security, vendor lock-in, support and local capability. Open by framing it as a question about public money and public control.",
+   "angles": [
+    {
+     "angle": "Cost and lock-in",
+     "for": "Open-source avoids recurring licence fees and dependence on a single vendor for upgrades and pricing.",
+     "against": "Total cost includes customisation, training and maintenance, which can exceed licence savings."
+    },
+    {
+     "angle": "Security and transparency",
+     "for": "Open code can be audited by anyone, increasing trust in systems that handle citizen data.",
+     "against": "Openness also lets attackers study the code; security depends on active maintenance, not openness alone."
+    },
+    {
+     "angle": "Local capability",
+     "for": "It builds domestic developer communities and skills instead of exporting money for licences.",
+     "against": "Government departments may lack in-house expertise, making vendor-supported proprietary products more reliable."
+    }
+   ],
+   "lookFor": [
+    "Understanding of software models",
+    "Total-cost-of-ownership thinking",
+    "Public interest perspective",
+    "Balanced conclusion"
+   ]
+  },
+  {
+   "id": "gd-society-coaching-culture",
+   "group": "society",
+   "prompt": "The coaching culture is doing more harm than good to Indian students.",
+   "framing": "Coaching culture refers to the widespread reliance on private tuition and entrance-exam coaching, often alongside or instead of school. Consider learning quality, student well-being, cost to families and what the demand says about schools and exams. Open by asking whether coaching is the cause or a symptom.",
+   "angles": [
+    {
+     "angle": "Learning outcomes",
+     "for": "Coaching trains students to crack patterns rather than understand concepts, narrowing curiosity.",
+     "against": "Good coaching provides structured practice, discipline and expert teaching that many schools fail to offer."
+    },
+    {
+     "angle": "Student well-being",
+     "for": "Long hours, constant ranking and isolation from family put intense pressure on young people.",
+     "against": "Pressure comes mainly from high-stakes exams and social expectations; coaching only responds to them."
+    },
+    {
+     "angle": "Equity and cost",
+     "for": "Expensive coaching gives an advantage to families who can pay, deepening inequality of opportunity.",
+     "against": "Affordable and online coaching options have widened access for students from smaller towns."
+    }
+   ],
+   "lookFor": [
+    "Seeing coaching as symptom and cause",
+    "Empathy for students",
+    "Systemic solutions",
+    "Sensitive handling of well-being issues"
+   ]
+  },
+  {
+   "id": "gd-society-reservation-private-sector",
+   "group": "society",
+   "prompt": "Should reservation be extended to private sector jobs?",
+   "framing": "This is a sensitive policy question; approach it neutrally. Reservation is an affirmative-action policy reserving a share of opportunities for historically disadvantaged groups, currently applied mainly in public education and employment. Frame around social justice, merit, business autonomy and alternative tools. Open by stating the objective both sides share: fair and equal opportunity.",
+   "angles": [
+    {
+     "angle": "Social justice",
+     "for": "As public sector jobs form a smaller share of employment, extending affirmative action keeps opportunity open for disadvantaged groups.",
+     "against": "Some argue that access to quality education, skills and networks earlier in life would address disadvantage more effectively."
+    },
+    {
+     "angle": "Business autonomy and competitiveness",
+     "for": "Diverse workforces can improve decision-making and better reflect customers; many firms already pursue diversity voluntarily.",
+     "against": "Mandates may raise compliance costs and limit firms' freedom to hire, which some fear could affect competitiveness."
+    },
+    {
+     "angle": "Implementation",
+     "for": "Incentives, phased targets or disclosure requirements could achieve inclusion without rigid quotas.",
+     "against": "Monitoring compliance across many private firms, including small ones, would be complex for regulators."
+    }
+   ],
+   "lookFor": [
+    "Neutral, respectful tone",
+    "Acknowledging shared goals",
+    "Considering alternatives and middle paths",
+    "Avoiding stereotypes and generalisations"
+   ]
+  },
+  {
+   "id": "gd-society-one-nation-one-exam",
+   "group": "society",
+   "prompt": "One nation, one exam: a single national entrance test is fairer than many separate exams.",
+   "framing": "Discuss replacing multiple state, university or institution-level entrance exams with one national test for a field. Consider fairness, student burden, regional diversity in syllabi and languages, and the risk of a single point of failure. Open by defining fairness: equal standards or equal access?",
+   "angles": [
+    {
+     "angle": "Student burden",
+     "for": "One exam saves students from preparing for and paying for many tests with different patterns and dates.",
+     "against": "A single attempt raises the stakes; a bad day can decide a student's future, while multiple exams offer more chances."
+    },
+    {
+     "angle": "Fairness and diversity",
+     "for": "A common standard allows merit comparison across regions and reduces arbitrary differences in admission.",
+     "against": "Students from different state boards, languages and rural backgrounds may be disadvantaged by a uniform syllabus and format."
+    },
+    {
+     "angle": "Administration and integrity",
+     "for": "Centralised exams can invest more in security, technology and consistent evaluation.",
+     "against": "A single failure, such as a paper leak or technical glitch, affects the entire country at once."
+    }
+   ],
+   "lookFor": [
+    "Defining fairness clearly",
+    "Sensitivity to regional and linguistic diversity",
+    "Practical safeguards",
+    "Balanced federal perspective"
+   ]
+  },
+  {
+   "id": "gd-society-tourism-vs-ecology",
+   "group": "society",
+   "prompt": "Tourism in ecologically fragile regions should be strictly limited.",
+   "framing": "Fragile regions include mountains, forests, coasts and islands where ecosystems are sensitive to crowds and construction. Tourism supports local livelihoods but can strain water, waste systems and wildlife. Open by placing local communities at the centre of the debate.",
+   "angles": [
+    {
+     "angle": "Environment",
+     "for": "Unchecked tourism leads to deforestation, waste, water scarcity and landslide risks from construction.",
+     "against": "Well-managed eco-tourism funds conservation and gives communities an economic reason to protect nature."
+    },
+    {
+     "angle": "Local livelihoods",
+     "for": "Limits protect the long-term resource on which local livelihoods depend; destroyed ecosystems bring no tourists.",
+     "against": "Strict caps can devastate homestays, guides and small businesses with few other income options."
+    },
+    {
+     "angle": "Governance tools",
+     "for": "Permits, carrying-capacity limits and entry fees can manage numbers fairly.",
+     "against": "Caps may make travel a privilege for the wealthy; better infrastructure and waste management may be preferable to limits."
+    }
+   ],
+   "lookFor": [
+    "Sustainability thinking",
+    "Centring local communities",
+    "Practical regulatory tools",
+    "Balanced conclusion"
+   ]
+  },
+  {
+   "id": "gd-society-english-necessity",
+   "group": "society",
+   "prompt": "Proficiency in English is essential for success in India.",
+   "framing": "Clarify what 'success' means: career, income, social mobility or self-expression. Consider English as a link language for global business and higher education, alongside the value of mother tongues and regional languages. Open by framing it as a question about opportunity rather than identity.",
+   "angles": [
+    {
+     "angle": "Economic opportunity",
+     "for": "English opens doors to higher education, corporate jobs, global markets and much of the world's knowledge.",
+     "against": "Many successful entrepreneurs, artists and public figures thrive in regional languages; translation tools are also lowering the barrier."
+    },
+    {
+     "angle": "Learning and cognition",
+     "for": "Early English exposure helps students access textbooks, research and online resources.",
+     "against": "Children often learn concepts best in their mother tongue; forcing English early can hurt understanding."
+    },
+    {
+     "angle": "Social equity",
+     "for": "Teaching English widely can break a barrier that has long separated privileged and less privileged groups.",
+     "against": "Treating English as essential can devalue regional languages and make non-English speakers feel inferior."
+    }
+   ],
+   "lookFor": [
+    "Defining success",
+    "Respect for linguistic diversity",
+    "Evidence-based reasoning",
+    "Inclusive tone"
+   ]
+  },
+  {
+   "id": "gd-society-government-job-aspiration",
+   "group": "society",
+   "prompt": "The preference for government jobs is holding back India's youth.",
+   "framing": "Many young people spend years preparing for competitive exams for government posts. Discuss reasons (security, status, benefits), costs (lost years, limited openings) and alternatives (entrepreneurship, private careers). Open by respecting the rational reasons behind the preference before questioning it.",
+   "angles": [
+    {
+     "angle": "Security versus risk",
+     "for": "Years spent on repeated attempts for limited posts delay careers and skill-building for many candidates.",
+     "against": "Given private-sector uncertainty, the preference for job security, pensions and social respect is rational."
+    },
+    {
+     "angle": "Economic dynamism",
+     "for": "Talent locked in exam preparation could fuel startups, innovation and productivity elsewhere.",
+     "against": "Public service needs capable people; strong competition for these posts improves governance quality."
+    },
+    {
+     "angle": "Solutions",
+     "for": "Better career guidance and age or attempt limits could help aspirants plan alternatives early.",
+     "against": "The real fix is making private jobs more secure and dignified, not discouraging public-service ambitions."
+    }
+   ],
+   "lookFor": [
+    "Empathy with aspirants",
+    "Systemic view of the job market",
+    "Balanced recommendations",
+    "Clear articulation"
+   ]
+  },
+  {
+   "id": "gd-society-elderly-care-responsibility",
+   "group": "society",
+   "prompt": "Care of the elderly should be the responsibility of the state, not just the family.",
+   "framing": "Discuss who should care for older citizens as life expectancy rises and families become smaller and more mobile. Consider pensions, healthcare, assisted living and caregiver support. Open by noting that this need not be either-or; the question is how responsibility should be shared.",
+   "angles": [
+    {
+     "angle": "Changing family structures",
+     "for": "Children often live in other cities or countries; relying only on family leaves many elders isolated.",
+     "against": "Family care offers emotional bonds and dignity that institutions cannot fully replace."
+    },
+    {
+     "angle": "Fairness and capacity",
+     "for": "Elders have contributed to society throughout their lives; a social safety net recognises that.",
+     "against": "Public resources are limited; extensive state care for a growing elderly population may be fiscally hard to sustain."
+    },
+    {
+     "angle": "Burden on caregivers",
+     "for": "State support relieves caregivers, often women, who sacrifice careers to look after ageing parents.",
+     "against": "Community and family-based models, supported by state services, may be more culturally suited than institutional care."
+    }
+   ],
+   "lookFor": [
+    "Shared-responsibility framing",
+    "Sensitivity to cultural values",
+    "Attention to caregiver burden",
+    "Practical policy ideas"
+   ]
+  },
+  {
+   "id": "gd-society-lavish-weddings",
+   "group": "society",
+   "prompt": "Lavish weddings are a social burden rather than a celebration.",
+   "framing": "Discuss the social pressure to spend heavily on weddings, including debt, dowry-related expectations and status competition, against cultural value and the livelihoods of the wedding industry. Open by distinguishing personal choice from social compulsion.",
+   "angles": [
+    {
+     "angle": "Financial pressure",
+     "for": "Families, especially less affluent ones, often borrow or sell assets to meet social expectations.",
+     "against": "For those who can afford it, celebrating generously is a personal choice and a cultural expression."
+    },
+    {
+     "angle": "Economy",
+     "for": "Money spent on display could be saved, invested or used for education and health.",
+     "against": "Weddings support caterers, artisans, decorators, tailors and many small businesses."
+    },
+    {
+     "angle": "Social values",
+     "for": "Extravagance reinforces status competition and can be linked to harmful practices like dowry demands.",
+     "against": "Rituals and gatherings strengthen family ties and preserve traditions; simplicity cannot be imposed."
+    }
+   ],
+   "lookFor": [
+    "Separating choice from compulsion",
+    "Sensitivity to culture",
+    "Awareness of economic linkages",
+    "Respectful disagreement"
+   ]
+  },
+  {
+   "id": "gd-abstract-black-and-white",
+   "group": "abstract",
+   "prompt": "Black and white",
+   "framing": "An abstract topic: interpret it in more than one way. It can mean clarity versus nuance (seeing issues as black and white), old photographs and nostalgia, contracts written in black and white, or chess and opposing forces. Open with an interpretation, connect it to business or society, and invite other readings.",
+   "angles": [
+    {
+     "angle": "Clarity versus nuance",
+     "for": "Clear rules and black-and-white principles make decisions consistent and ethics easier to uphold.",
+     "against": "Most real problems sit in shades of grey; rigid thinking ignores context and leads to poor judgment."
+    },
+    {
+     "angle": "Written commitments",
+     "for": "Putting agreements in black and white builds trust, accountability and clarity between parties.",
+     "against": "Excessive reliance on written contracts can replace relationships and good faith with legalism."
+    },
+    {
+     "angle": "Simplicity of the past",
+     "for": "Old black-and-white images remind us that substance matters more than decoration.",
+     "against": "Nostalgia can romanticise a past that was not simpler, only less visible in its complexity."
+    }
+   ],
+   "lookFor": [
+    "Multiple interpretations",
+    "Linking abstract ideas to real contexts",
+    "Originality",
+    "Coherent flow from idea to example"
+   ]
+  },
+  {
+   "id": "gd-abstract-glass-half-full",
+   "group": "abstract",
+   "prompt": "The glass is half full",
+   "framing": "Classic optimism-versus-pessimism metaphor. Extend it: the glass is both half full and half empty; an engineer might say the glass is too big. Apply it to leadership, careers, economies or crises. Open by offering a fresh reading rather than only stating optimism is good.",
+   "angles": [
+    {
+     "angle": "Optimism and leadership",
+     "for": "Leaders who see possibilities motivate teams and find opportunities in setbacks.",
+     "against": "Blind optimism ignores risks; good leaders also see what is missing."
+    },
+    {
+     "angle": "Perspective and resources",
+     "for": "Focusing on what one has encourages gratitude and resourcefulness.",
+     "against": "Recognising what is lacking drives improvement, innovation and demands for change."
+    },
+    {
+     "angle": "Reframing the problem",
+     "for": "Sometimes the right answer is to question the glass itself, such as redesigning the system rather than judging the level.",
+     "against": "Endless reframing can become a way to avoid acknowledging real shortfalls."
+    }
+   ],
+   "lookFor": [
+    "Going beyond the cliche",
+    "Balanced optimism and realism",
+    "Real-world applications",
+    "Creative thinking"
+   ]
+  },
+  {
+   "id": "gd-abstract-two-sides-of-a-coin",
+   "group": "abstract",
+   "prompt": "Two sides of a coin",
+   "framing": "Interpret as duality: every situation has two linked aspects, such as risk and reward, rights and duties, or technology's benefits and harms. Also note that a coin has an edge, the middle ground. Open with a business example, then broaden to society.",
+   "angles": [
+    {
+     "angle": "Risk and reward",
+     "for": "Every opportunity carries a matching risk; recognising both leads to better decisions.",
+     "against": "Not all choices are balanced; some carry far more downside than upside, and the metaphor can hide that."
+    },
+    {
+     "angle": "Rights and responsibilities",
+     "for": "Freedom and accountability are inseparable; demanding one without the other weakens society.",
+     "against": "Responsibilities can be used as an excuse to restrict rights unfairly."
+    },
+    {
+     "angle": "The edge of the coin",
+     "for": "Thinking in pairs helps structure analysis and debate.",
+     "against": "Binary framing ignores the third option, the edge, where compromise and creative solutions often lie."
+    }
+   ],
+   "lookFor": [
+    "Seeing duality and beyond",
+    "Relevant examples",
+    "Structured thinking",
+    "Building on others' interpretations"
+   ]
+  },
+  {
+   "id": "gd-abstract-roots-and-wings",
+   "group": "abstract",
+   "prompt": "Roots and wings",
+   "framing": "Roots suggest grounding: values, culture, family, origins. Wings suggest freedom, ambition and exploration. Discuss whether they conflict or complement each other in individuals, organisations and nations. Open with how parents, institutions or companies try to give both.",
+   "angles": [
+    {
+     "angle": "Individuals",
+     "for": "Strong values give people stability to take bold risks without losing themselves.",
+     "against": "Roots can also hold people back through expectations, tradition and fear of leaving the familiar."
+    },
+    {
+     "angle": "Organisations",
+     "for": "Firms with a clear core purpose can innovate boldly because their identity is secure.",
+     "against": "Too much attachment to legacy and heritage can stop companies from adapting."
+    },
+    {
+     "angle": "Nations and cultures",
+     "for": "Countries that stay connected to their culture while engaging globally gain confidence and soft power.",
+     "against": "An excessive focus on heritage can turn into insularity; openness sometimes requires letting go."
+    }
+   ],
+   "lookFor": [
+    "Balance between tradition and progress",
+    "Multi-level application",
+    "Personal yet relevant examples",
+    "Mature articulation"
+   ]
+  },
+  {
+   "id": "gd-abstract-numbers-dont-lie",
+   "group": "abstract",
+   "prompt": "Numbers don't lie",
+   "framing": "Examine the claim that data is objective. Numbers may not lie, but the people selecting, measuring and presenting them can mislead. Discuss data-driven decisions, metrics in business and governance, and what numbers fail to capture. Open by distinguishing data from interpretation.",
+   "angles": [
+    {
+     "angle": "Objectivity",
+     "for": "Data reduces bias and opinion in decisions, letting evidence settle debates.",
+     "against": "What is measured, and how, involves choices that can embed bias before analysis begins."
+    },
+    {
+     "angle": "Metrics in management",
+     "for": "Clear metrics create accountability and let organisations track progress honestly.",
+     "against": "When a measure becomes a target, people game it; numbers can drive the wrong behaviour."
+    },
+    {
+     "angle": "What numbers miss",
+     "for": "Quantifying outcomes helps compare options and allocate resources fairly.",
+     "against": "Trust, morale, dignity and happiness are hard to count, yet often matter most."
+    }
+   ],
+   "lookFor": [
+    "Critical thinking about data",
+    "Examples of misleading metrics",
+    "Balanced respect for evidence",
+    "Clear argument structure"
+   ]
+  },
+  {
+   "id": "gd-abstract-walls",
+   "group": "abstract",
+   "prompt": "Walls",
+   "framing": "Walls protect and divide. Interpret literally (borders, homes, fortresses) and metaphorically (mental barriers, organisational silos, social divisions, firewalls). Open by noting the dual nature: a wall keeps something in and something out.",
+   "angles": [
+    {
+     "angle": "Protection",
+     "for": "Walls provide security, privacy and boundaries, whether in homes, data systems or personal life.",
+     "against": "Over-protection breeds isolation; walls can trap those inside as much as they keep others out."
+    },
+    {
+     "angle": "Organisations",
+     "for": "Some separation, like independent audit or regulation, protects integrity and focus.",
+     "against": "Departmental silos block collaboration, slow decisions and hide problems."
+    },
+    {
+     "angle": "Society and the mind",
+     "for": "Healthy boundaries help individuals and communities preserve identity.",
+     "against": "Social and mental walls such as prejudice and fear prevent understanding and growth; progress often means breaking them."
+    }
+   ],
+   "lookFor": [
+    "Literal and metaphorical readings",
+    "Business relevance",
+    "Nuanced view of boundaries",
+    "Engaging opening"
+   ]
+  },
+  {
+   "id": "gd-abstract-footprints",
+   "group": "abstract",
+   "prompt": "Footprints",
+   "framing": "Footprints can mean a trail for others to follow, the impact we leave (carbon or digital footprints), or legacy. Open by choosing one interpretation and linking it to others, such as leadership legacy versus environmental impact.",
+   "angles": [
+    {
+     "angle": "Following a path",
+     "for": "Footprints of pioneers guide others and reduce the cost of learning.",
+     "against": "Following others' footprints can discourage original paths; innovation often means walking where no one has."
+    },
+    {
+     "angle": "Impact and responsibility",
+     "for": "Awareness of carbon and digital footprints encourages responsible consumption and online behaviour.",
+     "against": "Footprint thinking can burden individuals while systemic actors cause most of the impact."
+    },
+    {
+     "angle": "Legacy",
+     "for": "Leaders who think about lasting footprints make decisions with the long term in mind.",
+     "against": "Obsession with legacy can lead to vanity projects rather than useful work."
+    }
+   ],
+   "lookFor": [
+    "Creative interpretations",
+    "Linking environment, technology and leadership",
+    "Clear examples",
+    "Smooth transitions"
+   ]
+  },
+  {
+   "id": "gd-abstract-less-is-more",
+   "group": "abstract",
+   "prompt": "Less is more",
+   "framing": "A principle of simplicity: fewer features, words or possessions can create more value. Apply it to product design, communication, management, consumption and lifestyle. Open by asking when less is more, and when less is simply less.",
+   "angles": [
+    {
+     "angle": "Design and products",
+     "for": "Simple products are easier to use, cheaper to make and often more loved by customers.",
+     "against": "Some users need advanced features; oversimplification can exclude them."
+    },
+    {
+     "angle": "Communication and management",
+     "for": "Concise messages, fewer priorities and lean processes increase focus and execution.",
+     "against": "Excessive cutting can remove essential detail, resources or safety margins."
+    },
+    {
+     "angle": "Lifestyle and consumption",
+     "for": "Consuming less reduces waste and can increase well-being by reducing clutter and debt.",
+     "against": "For people lacking basic goods, 'less is more' is not a meaningful choice; minimalism can be a privilege."
+    }
+   ],
+   "lookFor": [
+    "Contextual application",
+    "Recognising limits of the idea",
+    "Relatable examples",
+    "Concise expression"
+   ]
+  }
+ ]
+}

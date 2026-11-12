@@ -1,11 +1,16 @@
 """Student shortlist of institutes: ``mbaShortlists/{userId}`` (one document per student).
 
-Document: ``{ userId, items: { <slug>: { status, deadline, notes, createdAt, updatedAt } }, updatedAt }``.
+Document: ``{ userId, items: { <slug>: { status, deadline, notes, createdAt, updatedAt, checklist? } }, updatedAt }``
+(``checklist`` is owned by api/mba/applications.py and preserved by PUT).
 Writes use optimistic concurrency (``occ_update``).
 """
 
 from __future__ import annotations
 
+import json
+from functools import lru_cache
+from pathlib import Path
+from types import SimpleNamespace
 from typing import Any
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -55,6 +60,29 @@ def _sort_key(item: dict[str, Any]) -> tuple[Any, ...]:
     return (item["deadline"] is None, item["deadline"] or "", "".join(chr(0x10FFFF - ord(c)) for c in item["updatedAt"]))
 
 
+COLLEGES_DIR = Path(__file__).resolve().parents[2] / "data" / "mba" / "colleges"
+
+
+@lru_cache(maxsize=1)
+def _bundled_colleges() -> dict[str, Any]:
+    """Non-IIM institutes from the bundled official data files (IIMs live in mbaPrograms)."""
+    found: dict[str, Any] = {}
+    for path in sorted(COLLEGES_DIR.glob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        slug, name = data.get("slug"), data.get("name")
+        if isinstance(slug, str) and SLUG_RE.match(slug) and isinstance(name, str) and name.strip():
+            found[slug] = SimpleNamespace(name=name, shortName=data.get("shortName") or name)
+    return found
+
+
+def known_institutes(db: SafeFirestore) -> dict[str, Any]:
+    """Every institute a student can shortlist: IIMs (Firestore) plus the bundled colleges."""
+    return {**_bundled_colleges(), **load_institutes(db)}
+
+
 def _check_slug(slug: str) -> None:
     if not SLUG_RE.match(slug):
         raise HTTPException(404, "Institute not found.")
@@ -62,7 +90,7 @@ def _check_slug(slug: str) -> None:
 
 @router.get("/me/shortlist", response_model=ShortlistResponse)
 def list_shortlist(user: CurrentUser = Depends(student), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
-    institutes = load_institutes(db)
+    institutes = known_institutes(db)
     items = [_item(slug, raw, institutes) for slug, raw in _items(get_doc(db, SHORTLISTS, user.user_id)).items()]
     items.sort(key=_sort_key)
     return {"items": items}
@@ -74,14 +102,14 @@ def get_shortlist_item(slug: str, user: CurrentUser = Depends(student), db: Safe
     raw = _items(get_doc(db, SHORTLISTS, user.user_id)).get(slug)
     if raw is None:
         raise HTTPException(404, "Not in your shortlist.")
-    return _item(slug, raw, load_institutes(db))
+    return _item(slug, raw, known_institutes(db))
 
 
 @router.put("/me/shortlist/{slug}", response_model=ShortlistItem)
 def put_shortlist_item(slug: str, body: ShortlistInput, user: CurrentUser = Depends(student),
                        db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
     _check_slug(slug)
-    institutes = load_institutes(db)
+    institutes = known_institutes(db)
     if slug not in institutes:
         raise HTTPException(404, "Institute not found.")
     now = iso(utcnow())
@@ -98,6 +126,9 @@ def put_shortlist_item(slug: str, body: ShortlistInput, user: CurrentUser = Depe
             "createdAt": _str((previous or {}).get("createdAt")) or now,
             "updatedAt": now,
         }
+        # The document checklist (api/mba/applications.py) lives on the same entry; a PUT keeps it.
+        if previous is not None and isinstance(previous.get("checklist"), dict):
+            entry["checklist"] = previous["checklist"]
         items[slug] = entry
         return {"userId": user.user_id, "items": items, "updatedAt": now}, entry
 

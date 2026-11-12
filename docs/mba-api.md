@@ -32,11 +32,19 @@ file first, then the code. Base path: `/api/v1/mba`. JSON, camelCase.
 | `mbaAttempts` | auto | One attempt of a test by a student (state, responses, result) |
 | `mbaProfiles` | userId | Onboarding + goals |
 | `mbaQuestionStats` | `{userId}_{questionId}` | Per-student practice history (attempts, correct, bookmarked, mistake info) |
-| `mbaStudyTasks` | auto | Study-plan tasks |
+| `mbaStudyTasks` | `{userId}_{weekStart}_{date}-{type}[-{section}]` (generated), `{userId}_c_{hex}` (custom) | Study-plan tasks, one doc per task (see "Study planner") |
+| `mbaNotificationState` | userId | In-app notification read state: `lastSeenAt`, `dismissed` ids (see "Notifications") |
 | `mbaPrograms` | institute slug (`iim-ahmedabad`) | Institute + programmes + embedded official minimum CAT thresholds (Phase D) |
 | `mbaCutoffs` | — | Not used: cutoff records are embedded in the `mbaPrograms` doc (tens per institute, always read together) |
 | `mbaShortlists` | userId | A student's saved institutes, `items` map keyed by slug (Phase D) |
 | `mbaAiUsage` | `{userId}_{yyyy-mm-dd}` | AI tutor quota counters |
+| `mbaAttemptAnalyses` | attemptId | Cached AI mock-analyst explanation (generated once per submitted attempt) |
+| `mbaQuestionReports` | sha256(userId, questionId) | Student issue reports on questions (one per student per question, editable) |
+| `mbaLeaderboardPrefs` | userId | Daily-leaderboard opt-in + display name |
+| `mbaDailyResults` | `{yyyy-mm-dd}_{userId}` | Opted-in students' daily-challenge results (first answer per question) |
+| `mbaGdpiItems` | item id (`pi-personal-why-mba`) | GDPI guidance: WAT topics, GD topics, PI questions (see "GDPI") |
+| `mbaGdpiSessions` | auto | AI mock PI / timed WAT sessions with answers and feedback |
+| `mbaCounsellorRequests` | auto (uuid hex) | "Talk to my counsellor" requests (see "Application tracker & counsellor requests") |
 
 ## Shared types
 ```ts
@@ -284,3 +292,249 @@ by the paper's `examVersionYear` (snapshotted into the attempt when it starts). 
   Priority hrefs: `/mba/mocks/attempts/{id}`, `/mba/mocks`, `/mba/mistakes?due=true`,
   `/mba/practice?section=QA`, `/mba/daily`.
 - Content is cached in-process for `MBA_BANK_TTL_SECONDS` (default 300).
+
+## Application tracker & counsellor requests
+
+### Document checklist 🔒 (`mbaStudent`)
+Built on the shortlist: an application = a shortlist entry + a per-institute document checklist. The checklist is
+stored on the entry (`mbaShortlists/{userId}.items.<slug>.checklist`, map `itemId → { done, notApplicable, doneAt,
+updatedAt, custom?, label?, createdAt? }`); `PUT /me/shortlist/{slug}` keeps it, `DELETE` removes it with the entry.
+Default items (ids fixed; `optional` ones may be marked not applicable): `cat-scorecard`, `graduation`, `class-10-12`,
+`id-proof`, `category-certificate`*, `work-experience`*, `sop-essays`*, `fee-receipt` (* optional). Students may add up
+to 20 custom items (id `c-` + 8 hex). Official dates come from the bundled data files
+(`data/mba/{programs,colleges}/<slug>.json` → `keyDates`), never from the student.
+```ts
+interface ChecklistItem { id: string; label: string; hint: string | null; custom: boolean; optional: boolean /* may be N/A */;
+  done: boolean; notApplicable: boolean; doneAt: string | null }
+interface OfficialDates { applicationOpens: string | null /* YYYY-MM-DD or YYYY-MM */; applicationDeadline: string | null;
+  examDate: string | null; notes: string | null; sourceUrl: string | null }
+interface Application extends ShortlistItem {
+  officialDates: OfficialDates | null;
+  effectiveDeadline: string | null;          // student's deadline, else the official YYYY-MM-DD application deadline
+  deadlineSource: "student" | "official" | null;
+  checklist: ChecklistItem[];                 // defaults in fixed order, then custom items oldest first
+  progress: { done: number; total: number } } // not-applicable items excluded from both
+```
+- `GET /me/applications` → `{ items: Application[] }` (sorted like the shortlist, by `effectiveDeadline`)
+- `GET /me/applications/{slug}` → `Application` | 404 (not in shortlist)
+- `PATCH /me/applications/{slug}/checklist/{itemId}` body `{ done?: boolean; notApplicable?: boolean }` (at least one)
+  → `Application`. `notApplicable: true` also clears `done`. 404 not shortlisted / unknown item; 422 empty body,
+  unknown field, or `notApplicable` on a required or custom item.
+- `POST /me/applications/{slug}/checklist` body `{ label: string /*1-120, whitespace collapsed*/ }` → 201 `Application`.
+  409 duplicate label (case-insensitive) or 20 custom items already; 404 not shortlisted.
+- `DELETE /me/applications/{slug}/checklist/{itemId}` → `Application` (custom items only; 422 for a default item, 404 unknown).
+Every checklist write bumps the entry's `updatedAt` (optimistic concurrency, like the shortlist).
+
+### Counsellor requests
+```ts
+type CounsellorTopic = "shortlisting" | "applications" | "wat-pi" | "other";
+type CounsellorRequestStatus = "open" | "assigned" | "done";
+interface CounsellorRequest { id: string; topic: CounsellorTopic; preferredTime: string | null; note: string | null;
+  slug: string | null /* institute it is about */; status: CounsellorRequestStatus; assignedTo: string | null /* counsellor name/email, free text */;
+  createdAt: string; updatedAt: string; assignedAt: string | null; doneAt: string | null }
+interface AdminCounsellorRequest extends CounsellorRequest { userId: string; studentName: string | null; phoneNumber: string | null;
+  email: string | null; adminNote: string | null; updatedBy: string | null /* admin email */;
+  history: { at: string; by: string /* "student" or admin email */; summary: string }[] /* last 30 */ }
+```
+Student 🔒:
+- `POST /me/counsellor-requests` body `{ topic: CounsellorTopic; preferredTime?: string|null /*≤120*/; note?: string|null /*≤1000*/; slug?: string|null }`
+  → 201 `CounsellorRequest` (`status "open"`). 422 bad topic/slug/length or unknown field; 409 when the student already
+  has 3 open/assigned requests. Name, phone and email are copied from the student's account.
+- `GET /me/counsellor-requests` → `{ requests: CounsellorRequest[] }` newest first.
+
+Admin 🛡 (same auth and roles as "Admin content review": `MBA_CONTENT_ADMIN_ROLES`, default `superAdmin,COURSE`):
+- `GET /admin/counsellor-requests?status=&topic=&q=` → `{ requests: AdminCounsellorRequest[]; counts: { open; assigned; done } }`
+  newest first; `counts` ignore the filters; `q` = substring of name / phone / email / assignee / note / slug. 422 bad filter.
+- `PATCH /admin/counsellor-requests/{id}` body `{ status?: CounsellorRequestStatus; assignedTo?: string|null /*≤200*/; adminNote?: string|null /*≤2000*/ }`
+  → `AdminCounsellorRequest`. Without `status`, setting `assignedTo` on an open request makes it `assigned` and clearing it
+  re-opens an assigned one. `assigned` without an assignee → 422. `done` sets `doneAt` (cleared on re-open). Empty body 422,
+  unknown id 404. A patch that changes nothing writes nothing. Each change appends a `history` entry.
+
+## GDPI — WAT / GD / PI preparation 🔒 (`mbaStudent`)
+
+**Content.** ProCounsel-original guidance (no copied coaching material, no dated news or statistics) in
+`data/mba/gdpi/{wat,gd,pi}.json` → `scripts/mba/import_gdpi.py` → `mbaGdpiItems/{id}` (`status: "published"` by
+default; idempotent `set`; items dropped from the files are archived, never deleted). Students only see `published`
+items. Sessions live in `mbaGdpiSessions/{auto id}` = `{ userId, kind, status, title, focus, background,
+durationMinutes, startedAt, endsAt, completedAt, questions: GdpiItem-snapshot[], answers: { [questionId]: {
+answerText, wordCount, overtime, feedback, answeredAt } }, updatedAt }`.
+
+```ts
+type GdpiKind = "wat" | "gd" | "pi";
+type TopicGroup = "business" | "economy" | "technology" | "society" | "abstract";            // WAT + GD
+type PiGroup = "personal" | "academics" | "work" | "current_affairs" | "hobbies" | "situational" | "stress";
+type Background = "engineering" | "commerce" | "arts" | "science";                          // PI academics only
+interface GdpiItem { id: string; kind: GdpiKind; group: TopicGroup | PiGroup; prompt: string /* topic or question */;
+  framing: string /* WAT/GD: framing note; PI: what the panel is assessing */;
+  lookFor: string[] /* WAT/GD: what evaluators look for */; angles: { angle: string; forView: string; againstView: string }[] /* GD: 3-4 */;
+  structure: string[] /* strong answer / essay structure */; avoid: string[] /* pitfalls */; background: Background | null;
+  source: { kind: "original"; title: string } }
+interface FeedbackScores { structure: number; clarity: number; relevance: number; completeness: number }   // integers 1-5
+interface Feedback { scores: FeedbackScores | null /* null only when fallback */; strengths: string[]; improvements: string[];
+  betterOutline: string[]; fallback: boolean /* AI reply unusable: outline = the question's guidance; not counted against quota; may resubmit */ }
+interface SessionAnswer { questionId: string; answerText: string; wordCount: number; overtime: boolean /* WAT: > endsAt + 60 s */; feedback: Feedback; answeredAt: string }
+interface GdpiSession { id: string; kind: "pi" | "wat"; status: "in_progress" | "completed"; title: string; focus: string | null;
+  background: Background | null; durationMinutes: 15 | 20 | null /* WAT */; startedAt: string; endsAt: string | null /* WAT */; serverNow: string;
+  completedAt: string | null; questions: GdpiItem[] /* PI: 5, WAT: 1 */; answers: SessionAnswer[] /* in question order */;
+  summary: { answered: number; total: number; averageScores: FeedbackScores | null; overall: number | null /* mean, 1 dp */ } }
+interface GdpiSessionSummary { id; kind; status; title; focus: string | null; answered: number; total: number; overall: number | null; startedAt: string; completedAt: string | null }
+```
+
+- `GET /gdpi/items?kind=wat|gd|pi&group=&background=` → `{ items: GdpiItem[] }` (all filters optional; sorted kind,
+  group, background, id; 422 for an unknown kind / group / background). Cached in-process for `MBA_BANK_TTL_SECONDS`.
+- `POST /me/gdpi/sessions` body `{ kind: "pi" | "wat"; focus?: string; background?: Background /*PI*/; itemId?: string /*WAT topic*/;
+  durationMinutes?: 15 | 20 /*WAT, default 15*/ }` → `GdpiSession`.
+  PI picks 5 distinct questions from the bank: no focus → personal, personal, academics (of `background`; any background
+  when omitted — the profile has no background field, so the client sends it), situational, one of work / hobbies /
+  current affairs / stress. `focus` (a `PiGroup`) → personal, 3 × focus, situational (academics when focus is situational;
+  focus personal → 3 personal + academics + situational). WAT uses `itemId` (404 if not a published WAT topic) or a random
+  topic of `focus` (a `TopicGroup`) and sets `endsAt = startedAt + durationMinutes`. 422 for a bad focus or a field of the
+  other kind; 409 when the bank is not imported; **503 when `OPENAI_API_KEY` is not set**.
+- `GET /me/gdpi/sessions` → `{ sessions: GdpiSessionSummary[] }` (newest first, max 50).
+- `GET /me/gdpi/sessions/{id}` → `GdpiSession` (404 if not the caller's).
+- `POST /me/gdpi/sessions/{id}/answers` body `{ questionId: string; answerText: string }` → `{ answer: SessionAnswer; session: GdpiSession; remainingToday: number }`.
+  `answerText` is trimmed; 20 – 2,000 characters for PI, 20 – 3,000 for a WAT essay (422). 404 unknown session / question,
+  409 when the question already has (non-fallback) feedback. AI feedback (OpenAI JSON mode, validated; scores clamped to
+  1–5; outcome claims filtered) is grounded only in the student's text and the question's guidance — it must not invent
+  facts about the student, add statistics/news or predict admission outcomes. Each successful feedback counts once against
+  the **shared** AI quota (`mbaAiUsage`, same counter and `MBA_AI_DAILY_LIMIT` as `/ai/hint`) → **429** when exhausted
+  (checked before the model call). 503 when not configured or the model call fails. The session becomes `completed`
+  when every question has an answer. A WAT essay submitted after `endsAt` (+60 s grace) is accepted with `overtime: true`.
+
+## Study planner 🔒 (`mbaStudent`)
+Deterministic, rule-based weekly plan (`planner-v1`, no AI); the rules applied are returned in `basis.rules`.
+Weeks run Monday–Sunday (India time); `week` is any date in the week (default: this week).
+Rules: weekly hours split evenly over `studyDays` (others = rest days); nothing on/after the exam date, light
+revision only the day before; mocks/week by weeks left: > 8 → 1, 5–8 → 2, final 4 → 3 (1 with no date), never on
+back-to-back days, ≤ 60% of the week's time (full → sectional, then dropped); first mock is a full diagnostic if
+none submitted; beginners > 8 weeks out get sectionals of their weakest section; practice blocks weighted per
+section `1 + 2·max(0, 0.75 − accuracy)` (≥ 5 answered, else 1) and name the weakest topic (≥ 3 answered, < 60%);
+due mistakes → revision every third study day; daily challenge (10 min) on study days with ≥ 30 min; learn sessions
+(30 min) beginner 2 / intermediate 1 / advanced 0 a week, none in the final 4 weeks. Exam date = profile `examDate`,
+else the official CAT date from `data/mba/exams/cat.json`.
+```ts
+type PlanTaskType = "practice" | "sectional_mock" | "full_mock" | "revise_mistakes" | "daily_challenge" | "learn" | "custom";
+interface PlanTask { id: string; date: string /*YYYY-MM-DD*/; type: PlanTaskType; title: string; detail: string | null;
+  section: SectionId | null; topic: string | null; questionCount: number | null; minutes: number;
+  href: string | null /* /mba/practice?section=QA, /mba/mocks, /mba/mistakes?due=true, /mba/daily, /mba/learn */;
+  status: "pending" | "done" | "skipped"; source: "generated" | "custom"; generatedBy: string | null /* "planner-v1" */;
+  edited: boolean; autoCompleted: boolean; completedAt: string | null; createdAt: string; updatedAt: string }
+interface WeekPlan { weekStart: string; weekEnd: string; today: string; generated: boolean; canGenerate: boolean;
+  days: { date: string; weekday: number /*0=Sun*/; rest: boolean; examDay: boolean; plannedMinutes: number; tasks: PlanTask[] }[]; // 7, Mon..Sun
+  summary: { planned: number; done: number; skipped: number; pending: number; plannedMinutes: number; doneMinutes: number }; // minutes exclude skipped
+  basis: { ruleVersion: string; examDate: string | null; examDateSource: "profile" | "official" | null; weeksToExam: number | null;
+    weeklyStudyHours: number; studyDays: number[]; minutesPerStudyDay: number; level: string; mocksThisWeek: number; mistakesDue: number;
+    sections: { id: SectionId; attempted: number; accuracy: number | null; weight: number }[]; rules: string[] } }
+```
+- `GET /me/plan?week=YYYY-MM-DD` → `WeekPlan`. Does not generate. Auto-completes pending tasks from real activity:
+  a mock submitted that week completes one planned mock of the same kind (full/sectional); a practice task is done
+  once that many distinct questions of its section were answered that day; the daily challenge once all of that
+  day's questions are answered; a revision task once that many earlier mistakes were retried that day.
+- `POST /me/plan/generate?week=` → `WeekPlan`. Idempotent. Creates/replaces only pending, unedited, generated tasks
+  dated today or later; removes such tasks the new plan no longer has. Done, skipped, edited (moved/renamed) and custom
+  tasks are never changed and count against their day's time and the week's mocks. 409: week already over, or no profile.
+- `PATCH /me/plan/tasks/{id}` body `{ status?: "pending"|"done"|"skipped"; date?: YYYY-MM-DD /*reschedule, ±1 year*/; title?: string(1-120); minutes?: 5-600 }`
+  → `PlanTask` (moving/renaming sets `edited`). 404 not found / not yours, 422 empty or invalid body.
+- `POST /me/plan/tasks` body `{ date; title; minutes; type?: PlanTaskType /*default custom*/; section?; href?: "/mba/..."; detail?: string(≤500) }`
+  → 201 `PlanTask` (`source: "custom"`). 409 over 50 custom tasks in that week; 422 invalid (e.g. external href).
+- `DELETE /me/plan/tasks/{id}` → `{ deleted: true }` — custom tasks only (409 for planned tasks: skip them instead).
+
+## Notifications 🔒 (`mbaStudent`)
+Computed on each request from real state (no cron): `resume_mock` (in-progress attempt), `plan_today` (pending tasks
+today), `plan_overdue` (pending tasks from earlier this week), `mistakes_due`, `cat_countdown` (30/14/7/1 day
+milestones and exam day; profile date, else official), `shortlist_deadline` (shortlist deadline within 7 days, not
+declined/offer), `new_mock` (paper `publishedAt` within 14 days and not attempted).
+```ts
+interface MbaNotification { id: string /* stable while the condition lasts; day-scoped ones change daily */;
+  kind: "plan_today" | "plan_overdue" | "mistakes_due" | "resume_mock" | "cat_countdown" | "shortlist_deadline" | "new_mock";
+  title: string; detail: string; href: string /* in-app path */; at: string /* ISO */; unread: boolean }
+```
+- `GET /me/notifications` → `{ items: MbaNotification[] /* unread first, newest first */; unreadCount: number; lastSeenAt: string | null }`
+  `unread` = `at` after `lastSeenAt`. Dismissed ids are left out.
+- `PATCH /me/notifications/seen` body (optional) `{ dismissIds?: string[] /*≤50*/ }` → `{ lastSeenAt: string; dismissed: number }`
+  Sets `lastSeenAt` = now and hides the given ids (last 200 kept). Storage: `mbaNotificationState/{userId}`.
+
+## Mock analyst, insights, question reports, daily leaderboard 🔒 (`mbaStudent`; admin parts 🛡)
+
+### Mock analyst
+The analysis is **deterministic** (computed from recorded data only); the AI is an optional explanation
+layer on top of it. Neither ever includes answer keys or solutions, and both are 404 until the attempt is submitted
+(also 404 for another student's attempt).
+```ts
+type Outcome = "correct" | "incorrect" | "skipped";
+interface QuestionRef { questionId: string; section: SectionId; number: number /* 1-based within the section, as on the result page */;
+  topic: string | null; difficulty: "easy" | "medium" | "hard" | null; outcome: Outcome; timeSpentMs: number }
+interface Bucket { total: number; attempted: number; correct: number; incorrect: number; skipped: number; accuracy: number | null /* 0-1 */ }
+interface PracticeLink { id: string /* "section:QA" | "topic:QA:Algebra" | "mistakes" */; label: string; href: string /* in-app */ }
+interface DeterministicAnalysis { attemptId; title; submittedAt; score; maxScore; questionCount: number; attempted: number;
+  lowEvidence: boolean /* attempted < 10 */; evidenceNote: string | null;
+  sections: { id: SectionId; questionCount; score; maxScore; attempted; correct; incorrect; unanswered; accuracy: number | null;
+    timeSpentMs; medianTimeMs: number | null /* null with < 3 timed questions */ }[];
+  byDifficulty: (Bucket & { difficulty: "easy" | "medium" | "hard" | "unrated" })[];
+  byTopic: (Bucket & { section: SectionId; topic: string; timeSpentMs: number })[];
+  missedEasy: QuestionRef[];                 // easy questions skipped or wrong (max 8)
+  timeSinks: (QuestionRef & { sectionMedianMs: number; ratio: number })[];  // wrong/skipped, time > 2× section median (max 8, longest first)
+  selection: { easySkipped; easyIncorrect; hardAttempted; hardCorrect; timeOnIncorrectMs; timeOnHardIncorrectMs; timeSinkCount };
+  links: PracticeLink[] }                    // the only destinations the AI may point to
+interface AiAnalysis { summary: string /* ≤120 words */; strengths: string[] /* ≤3; fewer when the facts don't support 3 */;
+  priorities: { title: string; detail: string; nextSteps: string[] /* ≤3 */; link: PracticeLink }[] /* 1-3 */;
+  selectionAdvice: string; generatedAt: string; model: string }
+interface AttemptAnalysisResponse { attemptId: string; analysis: DeterministicAnalysis; ai: AiAnalysis | null; remainingToday: number | null }
+```
+- `GET /me/attempts/{id}/analysis` → `AttemptAnalysisResponse` (`ai` = the cached explanation or `null`; never calls the model).
+- `POST /me/attempts/{id}/analysis` → `AttemptAnalysisResponse`. Generates the explanation once and caches it in
+  `mbaAttemptAnalyses/{attemptId}`; later calls return the cache (no quota). The model sees only the deterministic facts
+  (no ids, answers or solutions); its link choices are mapped onto `links` (unknown → "mistakes"); HTML is stripped.
+  **503** not configured / model failed / unreadable output, **429** daily AI quota (shared with the tutor, `mbaAiUsage`).
+  On 503/429 the client keeps showing the `GET` analysis.
+
+### Insights (weakness detector)
+- `GET /me/insights` →
+```ts
+{ topics: { section: SectionId; topic: string; questions: number /* distinct answered */; attempts: number /* all answers, practice+daily+mocks */;
+    correct: number; accuracy: number | null; avgTimeMs: number | null /* from submitted mocks only */; timedAnswers: number;
+    confidence: "sufficient" | "low" /* attempts ≥ 8 */; status: "weak" | "ok" | "strong" | "low_evidence"; href: string }[];  // sorted section, topic
+  weakTopics: Topic[] /* status "weak" (≥ 8 attempts and accuracy < 0.6), worst first, max 5 */; lowEvidenceCount: number;
+  trend: { attemptId; title; kind: "full_mock" | "sectional" | string; submittedAt; score; maxScore;
+    sections: { id: SectionId; score; maxScore; accuracy: number | null }[] }[] /* last 5 submitted attempts, oldest first */;
+  rules: { minAttempts: 8; weakBelow: 0.6; strongFrom: 0.8 } }
+```
+  Topics with < 8 answers are never flagged weak (`low_evidence`). `href` = `/mba/practice?section=QA&topic=…`
+  (the practice page reads `section` and `topic`).
+
+### Question reports
+```ts
+type ReportCategory = "wrong_answer" | "unclear" | "typo" | "solution_error" | "other";
+type ReportStatus = "open" | "resolved" | "rejected";
+interface MyReport { questionId; category: ReportCategory; note: string | null; status: ReportStatus; createdAt; updatedAt }
+```
+- `GET /questions/{id}/reports` → `{ report: MyReport | null }` (the caller's own report).
+- `POST /questions/{id}/reports` body `{ category: ReportCategory; note?: string /*≤1000*/ }` → `MyReport`. Creates or edits the
+  caller's single report for that question. Only after the answer was revealed to the student (answered in practice/daily,
+  or the question was in one of their submitted attempts) → **403** otherwise, and 403 while the question is in their running mock.
+  404 unknown/unpublished question, 422 bad body (unknown fields rejected). An unchanged save is a no-op. Editing a
+  resolved/rejected report reopens it. **429**: > 20 distinct reports created/edited per IST day, or > 5 saves of one report per day.
+- 🛡 `GET /admin/reports?status=&paperId=&questionId=` → `{ reports: AdminReport[]; counts: { open; resolved; rejected } }`
+  (`counts` ignore the `status` filter; sorted open → resolved → rejected, newest first). No reporter identity is returned.
+```ts
+interface AdminReport { id: string /* opaque */; questionId; paperId: string | null; section: SectionId | null; number: number | null;
+  stemPreview: string /* ≤160 chars plain text */; category: ReportCategory; note: string | null; status: ReportStatus;
+  adminNote: string | null; resolvedBy: string | null /* admin id */; resolvedAt: string | null; createdAt; updatedAt }
+```
+- 🛡 `PATCH /admin/reports/{id}` body `{ status: ReportStatus; note?: string | null /*≤2000*/ }` → `AdminReport` (404 unknown).
+  Same auth as the other admin endpoints (`MBA_CONTENT_ADMIN_ROLES`).
+
+### Daily challenge leaderboard (opt-in)
+- `GET /me/leaderboard` → `{ optedIn: boolean; displayName: string; suggestedName: string }` (suggestion = first name + last initial).
+- `PUT /me/leaderboard` body `{ optedIn: boolean; displayName?: string /*≤60 in, stored ≤24*/ }` → same. The name keeps letters,
+  digits, spaces and `.'-`; a short list of abusive words is dropped; 422 if fewer than 2 characters remain.
+- `GET /leaderboard/daily?date=YYYY-MM-DD` (default today IST, within the last 30 days, else 422) →
+  `{ date; questionCount; participants; optedIn: boolean /* the caller */; entries: DailyEntry[] /* top 20 */; you: DailyEntry | null; rule: string }`
+  with `DailyEntry = { rank; displayName; answered; correct; accuracy /*0-1*/; isYou }`. Ranked by accuracy, then by how many
+  of the day's questions were answered (ties share a rank). Only the **first** result per question per day counts.
+- `GET /leaderboard/weekly?date=` (week = 7 days ending `date`) → `{ weekStart; weekEnd; participants; optedIn; entries: WeeklyEntry[]; you; rule }`,
+  `WeeklyEntry = { rank; displayName; daysActive; answered; accuracy; previousAccuracy: number | null; improvement: number | null /* accuracy − previous week's */; isYou }`.
+  Ranked by days active, then improvement, then accuracy.
+- Never ranks by volume or study hours; never returns userIds or phone numbers; only opted-in students appear (non-opted
+  callers still see the board and `optedIn: false`). Results are recorded into `mbaDailyResults` from `mbaQuestionStats` for the
+  current day when a board is read (boards cached ~60 s per instance); past days use only what was recorded on the day.

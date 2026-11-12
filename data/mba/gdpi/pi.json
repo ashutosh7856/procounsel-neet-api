@@ -1,0 +1,2550 @@
+{
+  "items": [
+    {
+      "id": "pi-personal-tell-me-about-yourself",
+      "group": "personal",
+      "prompt": "Tell me about yourself.",
+      "framing": "The opener tests whether you can present a coherent, self-aware story in about two minutes. The panel uses it to pick threads for follow-up, so whatever you mention becomes the agenda for the next twenty minutes.",
+      "structure": [
+        "Open with one line on who you are today (education or role), not your birth date or full family tree",
+        "Walk through two or three defining choices - academics, work or activities - and what each taught you",
+        "Pick one concrete achievement or episode with a specific detail that makes you memorable",
+        "Close by linking where you are now to why an MBA is the logical next step, in one sentence"
+      ],
+      "avoid": [
+        "Reciting your CV line by line - the panel already has it",
+        "Dropping topics you cannot defend under follow-up questions",
+        "Running past two to three minutes"
+      ]
+    },
+    {
+      "id": "pi-personal-introduce-beyond-cv",
+      "group": "personal",
+      "prompt": "Introduce yourself, but tell us something that is not on your CV.",
+      "framing": "The panel wants the person behind the paperwork: values, curiosity and how you spend your time when no one is grading you. It also checks whether you can think on your feet when the rehearsed script is ruled out.",
+      "structure": [
+        "Acknowledge the ask briefly and skip the résumé summary entirely",
+        "Share one or two genuine traits, habits or experiences - a responsibility at home, a long-running interest, a turning point",
+        "Back each with a short, specific example rather than an adjective",
+        "Tie it lightly to how it shapes the way you work or learn"
+      ],
+      "avoid": [
+        "Repeating CV facts in different words",
+        "Inventing an exotic hobby you cannot discuss in depth"
+      ]
+    },
+    {
+      "id": "pi-personal-describe-in-three-words",
+      "group": "personal",
+      "prompt": "Describe yourself in three words.",
+      "framing": "A compression test: can you choose precise words and prove them? The panel checks self-awareness and whether others would agree with your self-image.",
+      "structure": [
+        "Choose three distinct qualities that do not overlap (for example one about work style, one about people, one about mindset)",
+        "Give a one-line proof for each from your own life",
+        "Optionally mention how a friend or manager would describe you, if it matches"
+      ],
+      "avoid": [
+        "Generic words like hardworking, honest, dedicated with no evidence",
+        "Picking words that contradict your CV or the way you are answering"
+      ]
+    },
+    {
+      "id": "pi-personal-why-mba",
+      "group": "personal",
+      "prompt": "Why do you want to do an MBA?",
+      "framing": "The core motivation question. The panel looks for a reason rooted in your experience, a clear gap the MBA fills, and evidence that you have thought beyond salary and brand.",
+      "structure": [
+        "Start from a concrete moment in your academics or work where you saw the limits of your current skills",
+        "Name the specific capabilities you want - for example financial judgement, people management, strategy - and why they matter for your goal",
+        "Explain why a structured MBA, rather than learning on the job, is the efficient way to build them",
+        "Connect to your short-term goal so the answer feels like a plan, not a wish"
+      ],
+      "avoid": [
+        "Leading with salary, placements or peer pressure",
+        "Vague lines like 'to get holistic development' or 'managerial exposure'",
+        "A reason that applies equally to every candidate in the room"
+      ]
+    },
+    {
+      "id": "pi-personal-why-mba-now",
+      "group": "personal",
+      "prompt": "Why an MBA now? Why not after a few more years?",
+      "framing": "Timing questions test whether you have a reason for this moment - readiness, a career inflection point, or learning saturation - and whether you have weighed the trade-off of waiting.",
+      "structure": [
+        "State what has changed recently that makes now the right time (role ceiling, clarity of goal, a skill gap you keep hitting)",
+        "Show what you have already gained from your current stage and what more years would add only marginally",
+        "Acknowledge the merit of waiting, then explain why it does not outweigh starting now for your goal",
+        "Keep the tone confident, not defensive"
+      ],
+      "avoid": [
+        "Saying 'the earlier the better' with no personal reasoning",
+        "Criticising people who do an MBA later"
+      ]
+    },
+    {
+      "id": "pi-personal-why-our-institute",
+      "group": "personal",
+      "prompt": "Why our institute? What do you know about us?",
+      "framing": "The panel checks whether you researched the institute or are simply applying everywhere. Specific, accurate, personally relevant reasons signal genuine fit; generic praise signals the opposite.",
+      "structure": [
+        "Before the interview, read the institute's own website: curriculum structure, electives, pedagogy, clubs, centres, location and recent student initiatives",
+        "Pick two or three features that connect directly to your goals or background and name them precisely",
+        "Explain how you would use each one - a course, a club you would join, an industry cluster near the campus",
+        "Close with what you would add to the community, so fit runs both ways"
+      ],
+      "avoid": [
+        "Quoting rankings or placement figures as your main reason",
+        "Stating facts you are not sure of - an error here hurts more than saying less",
+        "Praise that could be pasted for any college"
+      ]
+    },
+    {
+      "id": "pi-personal-other-calls",
+      "group": "personal",
+      "prompt": "Which other institutes have you applied to or received calls from?",
+      "framing": "An honesty and consistency check. The panel wants a truthful answer and to see that your choices follow a logic, not desperation.",
+      "structure": [
+        "Answer truthfully and briefly; there is nothing wrong with having other calls",
+        "Mention the common thread in your choices (programme type, specialisation strength, location) if there is one",
+        "Reaffirm why this institute fits you, without sounding as if you are bargaining"
+      ],
+      "avoid": [
+        "Lying or hiding calls",
+        "Belittling other institutes",
+        "Saying you would join anywhere that admits you"
+      ]
+    },
+    {
+      "id": "pi-personal-short-term-goal",
+      "group": "personal",
+      "prompt": "What is your short-term goal after the MBA?",
+      "framing": "The panel checks clarity and realism: a specific role, function and type of organisation that a fresh MBA with your background can credibly reach.",
+      "structure": [
+        "Name a role and function (for example product management, corporate finance, sales leadership) and the kind of organisation",
+        "Explain why your background plus the MBA makes you a credible candidate for it",
+        "Mention one or two skills you will deliberately build during the programme to get there",
+        "Keep a plausible alternative in mind in case the panel probes"
+      ],
+      "avoid": [
+        "Saying 'I am open to anything' or 'I will decide after the first year'",
+        "Aiming at a role that is unrealistic straight out of an MBA, such as CEO"
+      ]
+    },
+    {
+      "id": "pi-personal-long-term-goal",
+      "group": "personal",
+      "prompt": "Where do you see yourself in ten years?",
+      "framing": "Long-term goals test direction and values more than precise titles. The panel wants a sensible arc from your short-term goal and some sense of the impact you want to have.",
+      "structure": [
+        "Describe the kind of responsibility or impact you want, not just a designation",
+        "Show the logical path from your short-term goal to this destination",
+        "Mention a value or motivation behind it - building something, leading teams, solving a problem you care about",
+        "Stay flexible: acknowledge that the route may change while the direction holds"
+      ],
+      "avoid": [
+        "Grandiose claims you cannot connect to anything you have done",
+        "Goals that contradict your short-term plan"
+      ]
+    },
+    {
+      "id": "pi-personal-strengths",
+      "group": "personal",
+      "prompt": "What are your key strengths?",
+      "framing": "Self-awareness backed by evidence. The panel will often test the claimed strength later in the interview, so it must be real and relevant to management.",
+      "structure": [
+        "Pick two strengths that are relevant to a manager's job",
+        "Prove each with a specific situation, what you did and the result",
+        "Show how each strength will help you in the MBA or your target role"
+      ],
+      "avoid": [
+        "Listing many adjectives with no examples",
+        "Claiming a strength your answers in the room contradict, such as communication while rambling"
+      ]
+    },
+    {
+      "id": "pi-personal-weakness",
+      "group": "personal",
+      "prompt": "What is your biggest weakness?",
+      "framing": "A test of honesty and growth. The panel wants a real weakness, evidence that you understand its impact, and concrete steps you are taking about it.",
+      "structure": [
+        "Name a genuine, work-relevant weakness that is not a core requirement of your target role",
+        "Give a brief example of when it affected you or a team",
+        "Describe the specific actions you are taking and any progress so far",
+        "Keep it matter-of-fact - neither dramatic nor dismissive"
+      ],
+      "avoid": [
+        "Disguised strengths like 'I am a perfectionist' or 'I work too hard'",
+        "A weakness that disqualifies you for your stated goal",
+        "Having no improvement plan"
+      ]
+    },
+    {
+      "id": "pi-personal-hometown",
+      "group": "personal",
+      "prompt": "Tell us about your hometown.",
+      "framing": "Checks your awareness of your surroundings: economy, culture, challenges and opportunities. Interviewers often follow up with what you would do to develop it, so think like a manager, not a tourist guide.",
+      "structure": [
+        "Give a quick picture: where it is, what it is known for and what drives its economy",
+        "Mention one or two challenges it faces and why they persist",
+        "Suggest one realistic opportunity or idea a business or administrator could pursue there",
+        "Be ready for questions on local industries, history or notable places"
+      ],
+      "avoid": [
+        "Only listing monuments and food",
+        "Quoting numbers you are not sure of",
+        "Having no view on its problems or potential"
+      ]
+    },
+    {
+      "id": "pi-personal-family-background",
+      "group": "personal",
+      "prompt": "Tell us about your family. How have they influenced you?",
+      "framing": "The panel is not judging your family; it is looking for values, influences and how your upbringing shaped your choices.",
+      "structure": [
+        "Briefly describe your family and what they do, without excessive detail",
+        "Pick one or two values or habits you absorbed and give an example of each",
+        "Link those values to how you work, study or make decisions today"
+      ],
+      "avoid": [
+        "A long list of relatives' designations",
+        "Using family status to impress",
+        "Oversharing private matters you are uncomfortable discussing"
+      ]
+    },
+    {
+      "id": "pi-personal-gap-year",
+      "group": "personal",
+      "prompt": "There is a gap in your education or career. What did you do during that time?",
+      "framing": "Gaps are not disqualifying; unexplained or poorly used ones raise doubts. The panel wants honesty, ownership and evidence of productive use of time.",
+      "structure": [
+        "State the reason plainly and honestly - exam preparation, health, family responsibility, a venture, or a career rethink",
+        "Describe what you did during the period: learning, projects, responsibilities, part-time work",
+        "Share what you learned about yourself and how it informs your decision now",
+        "Show that the gap is behind you and you are ready for an intense programme"
+      ],
+      "avoid": [
+        "Being defensive or apologetic",
+        "Inventing activities you cannot discuss in detail",
+        "Blaming circumstances without any ownership"
+      ]
+    },
+    {
+      "id": "pi-personal-multiple-cat-attempts",
+      "group": "personal",
+      "prompt": "This is not your first attempt at CAT. Why should we read that positively?",
+      "framing": "The panel checks persistence, reflection and whether you improved meaningfully between attempts rather than simply repeating.",
+      "structure": [
+        "Acknowledge the earlier attempt(s) without excuses",
+        "Explain what you diagnosed as the gap and what you changed in your approach",
+        "Mention what else you did in the meantime - work, learning, responsibilities",
+        "Frame it as evidence of commitment to a clear goal"
+      ],
+      "avoid": [
+        "Blaming the exam, luck or difficulty level",
+        "Sounding as if the MBA is an obsession with no fallback thinking"
+      ]
+    },
+    {
+      "id": "pi-personal-contribute-to-batch",
+      "group": "personal",
+      "prompt": "What will you contribute to your batch and the institute?",
+      "framing": "MBA learning is heavily peer-driven. The panel wants to know what specific experience, skill or energy you bring to classrooms, clubs and group work.",
+      "structure": [
+        "Identify one or two things that are genuinely distinctive about you - domain knowledge, a skill, a perspective, an activity",
+        "Give a concrete example of how you have contributed this in a past group",
+        "Translate it into a specific contribution: a club, a peer-learning effort, case discussions, events"
+      ],
+      "avoid": [
+        "Generic promises like 'I will be a good team player'",
+        "Claiming you will start many clubs without evidence of past initiative"
+      ]
+    },
+    {
+      "id": "pi-personal-plan-b",
+      "group": "personal",
+      "prompt": "What will you do if you do not get admitted this year?",
+      "framing": "Tests maturity and resilience. The panel wants a calm, realistic plan that shows you are committed to your goal but not paralysed by one outcome.",
+      "structure": [
+        "Say calmly that you would reflect on feedback and strengthen your profile",
+        "Describe concrete steps: continue or deepen your work, build a specific skill, reattempt with a better strategy",
+        "Reaffirm that your long-term goal remains, regardless of the timeline"
+      ],
+      "avoid": [
+        "Saying you have not thought about it",
+        "Sounding desperate or pleading",
+        "A plan B that contradicts your stated reasons for an MBA"
+      ]
+    },
+    {
+      "id": "pi-personal-specialisation-choice",
+      "group": "personal",
+      "prompt": "Which specialisation do you plan to take and why?",
+      "framing": "Checks whether your stated goals and your understanding of the curriculum line up, and whether you know what the specialisation actually involves.",
+      "structure": [
+        "Name the specialisation, or the two you are weighing, honestly",
+        "Connect it to your background and short-term goal",
+        "Show you understand what the work involves day to day, not just the label",
+        "If undecided, say how you will use the first year to decide"
+      ],
+      "avoid": [
+        "Picking a specialisation because it pays well, with no other reason",
+        "Being unable to describe a single subject or role within it"
+      ]
+    },
+    {
+      "id": "pi-personal-role-model",
+      "group": "personal",
+      "prompt": "Who is your role model and why?",
+      "framing": "The panel learns about your values through whom you admire. It is less about the person and more about the qualities you want to emulate and how you act on them.",
+      "structure": [
+        "Choose someone you genuinely know about - it can be a public figure or someone in your own life",
+        "Name the specific qualities you admire, with an incident or decision that shows them",
+        "Explain how you try to apply those qualities in your own life"
+      ],
+      "avoid": [
+        "Choosing a famous name you cannot discuss in depth",
+        "Listing achievements without saying what you learned"
+      ]
+    },
+    {
+      "id": "pi-personal-proudest-moment",
+      "group": "personal",
+      "prompt": "What has been your proudest achievement so far?",
+      "framing": "Reveals what you value and how you define success. The panel looks at the scale of the challenge, your specific role and what it says about you.",
+      "structure": [
+        "Pick an achievement where your own contribution was decisive",
+        "Set the context and the difficulty briefly",
+        "Explain what you did and the result, using specifics rather than superlatives",
+        "Share why it matters to you personally"
+      ],
+      "avoid": [
+        "Choosing something where your role was minor",
+        "Picking a very old school-level achievement when recent ones exist"
+      ]
+    },
+    {
+      "id": "pi-personal-why-should-we-select-you",
+      "group": "personal",
+      "prompt": "Why should we select you over the other candidates?",
+      "framing": "A pitch question. The panel wants a confident, evidence-based summary of your fit, without arrogance or putting others down.",
+      "structure": [
+        "Summarise two or three qualities or experiences that make you a strong fit for the programme",
+        "Back each with a quick proof point the panel has already heard or can verify",
+        "Connect them to what you will do with the MBA and add to the class",
+        "End with a short, sincere statement of commitment"
+      ],
+      "avoid": [
+        "Comparing yourself to or criticising other candidates",
+        "Saying 'I deserve it' without evidence"
+      ]
+    },
+    {
+      "id": "pi-personal-failure-personal",
+      "group": "personal",
+      "prompt": "Tell us about a time you failed and what you learned.",
+      "framing": "Tests ownership, reflection and resilience. The panel cares far more about what you did next than about the failure itself.",
+      "structure": [
+        "Choose a real failure with genuine stakes, not a trivial one",
+        "Describe the situation and your role honestly, owning your part",
+        "Explain what you learned and what you changed",
+        "Give evidence that the change worked in a later situation"
+      ],
+      "avoid": [
+        "Choosing a fake failure that is really a success",
+        "Blaming others or circumstances",
+        "Stopping at the failure with no learning"
+      ]
+    },
+    {
+      "id": "pi-personal-values-decision",
+      "group": "personal",
+      "prompt": "Tell us about a difficult decision you made and how you made it.",
+      "framing": "Assesses judgement and values: how you weigh options, handle uncertainty and live with trade-offs.",
+      "structure": [
+        "Set up the decision and why it was genuinely hard - competing goals, people or values",
+        "Explain the options you considered and the criteria you used",
+        "State what you chose and what you gave up",
+        "Reflect on the outcome and whether you would decide the same way again"
+      ],
+      "avoid": [
+        "Picking a decision with an obvious right answer",
+        "Claiming you had no doubts at all"
+      ]
+    },
+    {
+      "id": "pi-personal-feedback-received",
+      "group": "personal",
+      "prompt": "What is the most useful feedback you have received?",
+      "framing": "Checks coachability. The panel wants to see that you can hear criticism, accept it and change.",
+      "structure": [
+        "Describe the feedback and who gave it, briefly",
+        "Be honest about your initial reaction",
+        "Explain what you changed as a result and the effect it had"
+      ],
+      "avoid": [
+        "Choosing praise disguised as feedback",
+        "Sounding as if the feedback was unfair"
+      ]
+    },
+    {
+      "id": "pi-personal-question-for-panel",
+      "group": "personal",
+      "prompt": "Do you have any questions for us?",
+      "framing": "The closing question still counts. A thoughtful question shows genuine interest and research; a weak one, or a question about placements alone, can undo good work.",
+      "structure": [
+        "Prepare one or two questions that cannot be answered from the institute's website",
+        "Ask about something tied to your goals - how students typically use a particular aspect of the programme, or advice for someone with your background",
+        "Listen to the answer and thank the panel briefly"
+      ],
+      "avoid": [
+        "Asking about salaries or placements first",
+        "Asking something easily found online",
+        "Asking about your result or how you did"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-project-to-layperson",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Explain your final-year project as if I am not an engineer.",
+      "framing": "Tests whether you understand your own work deeply enough to simplify it, and whether you can communicate with non-technical stakeholders - a core managerial skill.",
+      "structure": [
+        "Start with the problem the project solves and who would care, in everyday language",
+        "Use one analogy to explain how your solution works",
+        "Describe your personal role and one hard decision or obstacle",
+        "End with the result, its limitations and a possible real-world use"
+      ],
+      "avoid": [
+        "Diving into jargon and equations",
+        "Overstating the project's impact or novelty",
+        "Being unable to explain the parts your teammates did"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-why-engineering-then-mba",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Why did you choose engineering, and why move to management now?",
+      "framing": "The panel wants a coherent narrative rather than an admission that both choices were defaults. Moving on is fine if you can show what engineering gave you and what it cannot.",
+      "structure": [
+        "Be honest about why you chose engineering, even if it was partly a default",
+        "Name what engineering gave you - analytical thinking, structured problem-solving, comfort with data",
+        "Explain the point where you became interested in the business side of technical work",
+        "Show how the MBA builds on, rather than discards, your engineering background"
+      ],
+      "avoid": [
+        "Saying you never liked engineering, which raises doubts about your commitment to an MBA too",
+        "'Everyone in my batch is doing it'"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-core-concept",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Explain one fundamental concept from your branch that you consider important.",
+      "framing": "A depth check. The panel wants to see that you retained the fundamentals of four years of study and can explain them clearly and accurately.",
+      "structure": [
+        "Pick a concept you understand thoroughly rather than an impressive one you only recall partially",
+        "Define it simply, then explain why it matters with a practical example",
+        "Connect it to a product, system or industry where it is used",
+        "Be ready for one or two levels of follow-up questions"
+      ],
+      "avoid": [
+        "Choosing a topic you studied only for an exam and have forgotten",
+        "Mixing up definitions under pressure - say what you are unsure of"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-tech-impact-business",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "How is technology from your field changing the way businesses operate?",
+      "framing": "Assesses your ability to connect technical knowledge with business outcomes - cost, speed, quality, new business models and risks.",
+      "structure": [
+        "Pick one or two technologies relevant to your branch",
+        "Explain plainly what they do differently from older approaches",
+        "Describe the business effect: costs, customer experience, new products, or changes to jobs and skills",
+        "Mention a risk or limitation for balance"
+      ],
+      "avoid": [
+        "Listing buzzwords with no explanation",
+        "Quoting statistics or company claims you cannot verify"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-favourite-subject",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Which was your favourite subject in engineering, and which did you find hardest?",
+      "framing": "The panel will probe whichever subject you name, so it checks honesty and depth. How you dealt with the hard subject reveals your learning approach.",
+      "structure": [
+        "Name a favourite subject you can genuinely discuss in some depth and say why it interested you",
+        "Name a difficult subject honestly",
+        "Explain how you approached the difficulty and what you learned about learning"
+      ],
+      "avoid": [
+        "Naming a favourite subject you cannot answer basic questions on",
+        "Saying nothing was difficult"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-low-grades",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Your academic scores are average. What happened?",
+      "framing": "Tests ownership and maturity. The panel wants an honest explanation without excuses and evidence that you can perform when it matters.",
+      "structure": [
+        "Acknowledge the scores directly without becoming defensive",
+        "Give an honest reason in one or two sentences - where your energy went or what you misjudged",
+        "Point to evidence of capability elsewhere: projects, work, test scores, activities",
+        "State what you have changed in how you learn"
+      ],
+      "avoid": [
+        "Blaming professors, the university or the system",
+        "Over-explaining for minutes"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-engineer-as-manager",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "What can an engineer bring to management that others cannot?",
+      "framing": "Checks how you see your own background as an asset, and whether you can do so without dismissing other backgrounds.",
+      "structure": [
+        "Name two or three transferable strengths such as structured problem-solving, quantitative comfort, process thinking",
+        "Give a short example of each from your experience",
+        "Acknowledge what engineers often need to learn, such as people skills or market perspective",
+        "Say how a diverse class helps you learn exactly that"
+      ],
+      "avoid": [
+        "Claiming engineers are better managers",
+        "Ignoring your own blind spots"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-design-tradeoff",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Give an example of a trade-off that engineers routinely make, and relate it to a business decision.",
+      "framing": "Tests applied thinking: engineering is about constraints and trade-offs, and so is management. The panel wants you to draw the parallel clearly.",
+      "structure": [
+        "Describe a common trade-off in your field, such as cost versus durability, speed versus accuracy, or performance versus power",
+        "Explain how engineers decide - requirements, constraints, testing",
+        "Map it to an equivalent business decision such as price versus volume or speed to market versus quality",
+        "Draw out the shared principle"
+      ],
+      "avoid": [
+        "Getting the technical trade-off wrong",
+        "A forced analogy that does not hold"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-teamwork-project",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Tell us about working in a team on an engineering project. What was your role?",
+      "framing": "The panel probes your real contribution and how you handled the usual problems of group work - uneven effort, disagreement, deadlines.",
+      "structure": [
+        "Briefly describe the project, team size and objective",
+        "State your specific responsibilities clearly",
+        "Describe one team problem and how you helped resolve it",
+        "Mention the outcome and what you would do differently"
+      ],
+      "avoid": [
+        "Saying 'we' throughout so your role is invisible",
+        "Criticising teammates"
+      ]
+    },
+    {
+      "id": "pi-academics-engineering-industry-application",
+      "group": "academics",
+      "background": "engineering",
+      "prompt": "Name an industry that relies heavily on your branch of engineering and describe one challenge it faces.",
+      "framing": "Checks industry awareness and whether you think beyond the textbook about how your discipline creates value.",
+      "structure": [
+        "Pick an industry where your branch is clearly central",
+        "Explain how your discipline is used in its products or operations",
+        "Describe one lasting challenge - cost pressure, safety, sustainability, skills, supply chains",
+        "Suggest how better management or technology could help address it"
+      ],
+      "avoid": [
+        "Citing specific figures or company facts you are unsure of",
+        "Describing the industry only at a superficial level"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-why-mba-after-bcom",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "Why an MBA after your commerce degree? Isn't it repetition?",
+      "framing": "Tests whether you understand how an MBA differs from a commerce degree - application, decision-making, leadership and integration across functions - and whether you have a real reason.",
+      "structure": [
+        "Acknowledge the overlap honestly - some concepts will be familiar",
+        "Explain the difference: a commerce degree builds concepts, an MBA applies them to decisions through cases, projects and peer learning",
+        "Name the specific gaps you want to fill, such as strategy, analytics, leadership or a specialisation",
+        "Show how your commerce foundation lets you go deeper faster"
+      ],
+      "avoid": [
+        "Saying the MBA is the natural next step with no reason",
+        "Dismissing your commerce degree as useless"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-depreciation-intuition",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "What is depreciation, and why do businesses charge it?",
+      "framing": "A fundamentals check. The panel wants conceptual clarity - matching the cost of an asset to the periods it helps earn revenue - not memorised formulas.",
+      "structure": [
+        "Define it simply: spreading the cost of a long-lived asset over its useful life",
+        "Explain the reason: matching expense with the revenue the asset helps generate, so profits are not distorted",
+        "Note that it is a non-cash expense and mention common methods (such as straight-line and written-down value) at a high level",
+        "Mention its effect on reported profit and on tax, and be ready for an example"
+      ],
+      "avoid": [
+        "Calling depreciation a cash outflow",
+        "Reciting formulas without the intuition"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-working-capital",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "Explain working capital and why a profitable company can still run out of cash.",
+      "framing": "Tests understanding of the difference between profit and cash, which is central to finance and management.",
+      "structure": [
+        "Define working capital simply as current assets minus current liabilities - the funds tied up in day-to-day operations",
+        "Explain the cycle: buying inventory, selling on credit, waiting to collect, paying suppliers",
+        "Show how a profitable firm can still face a cash crunch if collections are slow or inventory piles up",
+        "Mention levers to manage it: collection, inventory and supplier terms"
+      ],
+      "avoid": [
+        "Equating profit with cash",
+        "Giving only a formula with no explanation"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-accounting-principle",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "Explain an accounting principle you consider fundamental and why it matters.",
+      "framing": "Checks conceptual depth and whether you can connect rules to their purpose - reliable, comparable financial information.",
+      "structure": [
+        "Pick a principle you know well, such as accrual, matching, consistency, prudence or going concern",
+        "Define it in plain language",
+        "Give a simple example of how it changes what appears in the accounts",
+        "Explain what would go wrong for users of financial statements without it"
+      ],
+      "avoid": [
+        "Confusing principles with each other",
+        "Using jargon you cannot explain"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-financial-statements",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "How would you judge a company's health from its financial statements?",
+      "framing": "Tests whether you can read the three statements together and think like an analyst rather than a bookkeeper.",
+      "structure": [
+        "Explain what each statement shows: performance (profit and loss), position (balance sheet), cash movement (cash flow)",
+        "Mention the dimensions you would check: profitability, liquidity, leverage and efficiency, with an example ratio for each",
+        "Stress comparing over time and against peers rather than reading a single number",
+        "Note that the notes and qualitative factors also matter"
+      ],
+      "avoid": [
+        "Relying on a single ratio",
+        "Mixing up which statement shows what"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-ca-attempts",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "You attempted CA (or another professional course). Why did you move away from it?",
+      "framing": "The panel checks whether the switch is a considered choice or an escape, and what you carried forward from that preparation.",
+      "structure": [
+        "Explain honestly where you reached and what led you to rethink",
+        "Show what that preparation gave you - technical depth, discipline, exam resilience",
+        "Explain why management fits your goals better than continuing",
+        "Keep it forward-looking, without disparaging the course"
+      ],
+      "avoid": [
+        "Sounding as if you are running from failure",
+        "Blaming the difficulty of the exams"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-gst-tax-concept",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "Explain the difference between direct and indirect taxes, with an example of each.",
+      "framing": "A basic economic literacy check. The panel looks for clear concepts and an awareness of how taxes affect consumers and businesses.",
+      "structure": [
+        "Define direct taxes as levied on income or wealth and paid by the person taxed",
+        "Define indirect taxes as levied on goods and services and ultimately borne by the consumer",
+        "Give a common example of each",
+        "Mention one business implication, such as pricing or compliance"
+      ],
+      "avoid": [
+        "Quoting specific tax rates that may be out of date",
+        "Mixing up who bears the tax"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-cost-concepts",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "What is the difference between fixed and variable costs, and why does it matter for a business?",
+      "framing": "Tests understanding of cost behaviour, which drives pricing, break-even and scaling decisions.",
+      "structure": [
+        "Define each simply with an everyday business example",
+        "Explain contribution: price minus variable cost per unit, which covers fixed costs",
+        "Link to break-even and to why high fixed-cost businesses push for volume",
+        "Mention that some costs are semi-variable and the classification depends on time frame"
+      ],
+      "avoid": [
+        "Treating all costs as fixed in the short run",
+        "Giving a definition with no application"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-commerce-to-business",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "How has your commerce education helped you understand the businesses around you?",
+      "framing": "Checks whether you can apply classroom learning to the real world - a local shop, a family business or an employer.",
+      "structure": [
+        "Pick a business you know well",
+        "Describe how concepts such as margins, working capital, credit or pricing show up in its operations",
+        "Share an insight or improvement you noticed using those concepts"
+      ],
+      "avoid": [
+        "Staying purely theoretical",
+        "Choosing a large company you know only from headlines"
+      ]
+    },
+    {
+      "id": "pi-academics-commerce-banking-basics",
+      "group": "academics",
+      "background": "commerce",
+      "prompt": "What role do banks play in an economy?",
+      "framing": "A broad fundamentals question to test conceptual clarity on intermediation, credit and money - topics commerce graduates are expected to handle.",
+      "structure": [
+        "Explain intermediation: pooling savings and lending to borrowers",
+        "Mention credit creation, payments and risk management",
+        "Note the role of the central bank in regulating and supporting the system, in general terms",
+        "Give one example of how bank health affects businesses"
+      ],
+      "avoid": [
+        "Quoting specific policy rates or recent figures",
+        "Confusing commercial banks with the central bank"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-major-relevance",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "How is your arts or humanities major relevant to management?",
+      "framing": "The panel tests whether you see your background as an asset. Management is about people, societies, communication and judgement, and the humanities train exactly these.",
+      "structure": [
+        "Name your major and its core concerns in one line",
+        "Identify two or three transferable skills - understanding people, critical reading, writing, argument, cultural awareness",
+        "Give an example of how one of these applies to a business situation",
+        "Acknowledge the quantitative skills you are building and how"
+      ],
+      "avoid": [
+        "Being apologetic about your background",
+        "Ignoring the quantitative demands of an MBA"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-thinker-idea",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "Tell us about a thinker or an idea from your field that has influenced you.",
+      "framing": "Checks intellectual engagement and depth. The panel will likely probe, so pick an idea you truly understand and can relate to the real world.",
+      "structure": [
+        "Choose an idea or thinker you have actually studied and can discuss",
+        "Explain the core idea in simple terms",
+        "Say why it influenced you, with an example",
+        "Relate it to organisations, leadership or society today"
+      ],
+      "avoid": [
+        "Name-dropping a famous thinker you only know superficially",
+        "Misrepresenting the idea"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-research-methods",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "What research methods did you learn in your course, and how might they be useful in business?",
+      "framing": "Tests whether you understand evidence - how to ask questions, gather data and judge conclusions - and can connect that to decisions in business.",
+      "structure": [
+        "Name the methods you used, such as surveys, interviews, archival work, fieldwork or textual analysis",
+        "Explain the strengths and limitations of one method you used",
+        "Connect it to a business use such as customer research, policy analysis or market understanding",
+        "Mention an example from your own coursework if possible"
+      ],
+      "avoid": [
+        "Claiming methods you did not use",
+        "Treating qualitative evidence as weaker by default, or vice versa"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-why-arts-then-mba",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "Why did you choose arts, and why management now?",
+      "framing": "The panel wants a coherent story connecting your interests to your new direction, not an apology for your earlier choice.",
+      "structure": [
+        "Explain what drew you to your subject",
+        "Describe what made you interested in how organisations work - an internship, a project, a responsibility",
+        "Show how the MBA builds on your perspective rather than replacing it",
+        "Connect to a specific goal"
+      ],
+      "avoid": [
+        "Saying arts was a fallback with no further reflection",
+        "Abandoning your subject's value entirely"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-quant-readiness",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "An MBA is quantitative. How will you cope coming from an arts background?",
+      "framing": "A readiness check. The panel wants honesty and evidence that you can handle quantitative coursework.",
+      "structure": [
+        "Acknowledge the gap honestly",
+        "Point to evidence: your aptitude test performance, any statistics or economics courses, self-learning",
+        "Describe a concrete preparation plan before and during the programme",
+        "Mention how you would use peers and resources"
+      ],
+      "avoid": [
+        "Claiming there is no gap",
+        "Saying you will avoid quantitative electives"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-society-business",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "How does understanding society or culture help a business succeed?",
+      "framing": "Tests your ability to link humanities insight to markets - consumer behaviour, communication, ethics and diverse workforces.",
+      "structure": [
+        "Explain that customers and employees are shaped by culture, language and social context",
+        "Give an example of how that understanding shapes a product, message or workplace",
+        "Mention a risk of ignoring it, such as a misjudged campaign or a poor policy",
+        "Tie it back to your own studies"
+      ],
+      "avoid": [
+        "Citing specific corporate controversies you are unsure of",
+        "Staying abstract with no example"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-writing-communication",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "How have writing and argument skills from your degree helped you?",
+      "framing": "Communication is central to management. The panel checks whether you can show these skills rather than simply claim them.",
+      "structure": [
+        "Give an example of writing or argument you did - a dissertation, debate, publication or presentation",
+        "Explain how you structure an argument: claim, evidence, counter-view, conclusion",
+        "Connect it to managerial tasks such as reports, persuasion and negotiation"
+      ],
+      "avoid": [
+        "Rambling while claiming strong communication",
+        "Generic claims with no example"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-subject-current-relevance",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "How is your subject relevant to the world today?",
+      "framing": "Checks whether you see your discipline as alive and applied. The panel wants a thoughtful link to contemporary questions without depending on specific news.",
+      "structure": [
+        "Pick a lasting question your subject helps understand - identity, governance, inequality, media, behaviour",
+        "Explain how your discipline approaches it",
+        "Connect it to organisations or policy",
+        "Offer your own view"
+      ],
+      "avoid": [
+        "Relying on a single news item you cannot discuss in depth",
+        "Treating your subject as purely historical"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-dissertation",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "Tell us about a significant paper or dissertation you wrote.",
+      "framing": "Tests depth, independent thinking and your ability to explain your own research.",
+      "structure": [
+        "State the question you investigated and why it interested you",
+        "Explain your approach and sources",
+        "Summarise your main finding and its limitations",
+        "Say what the experience taught you about inquiry"
+      ],
+      "avoid": [
+        "Being unable to explain your own conclusions",
+        "Overclaiming originality"
+      ]
+    },
+    {
+      "id": "pi-academics-arts-economics-psychology-link",
+      "group": "academics",
+      "background": "arts",
+      "prompt": "Pick a concept from your major and explain how a manager could use it.",
+      "framing": "Tests applied thinking: can you translate an idea from your discipline into a practical managerial tool?",
+      "structure": [
+        "Choose a concept you know well, for example from psychology, economics, sociology or literature",
+        "Define it simply",
+        "Show how a manager could apply it - motivating a team, designing an incentive, understanding customers",
+        "Mention a limitation"
+      ],
+      "avoid": [
+        "Choosing a concept you cannot explain accurately",
+        "Forcing an application that does not hold"
+      ]
+    },
+    {
+      "id": "pi-academics-science-scientific-method-decisions",
+      "group": "academics",
+      "background": "science",
+      "prompt": "How can the scientific method help in business decision-making?",
+      "framing": "Tests whether you can transfer a disciplined way of thinking - hypotheses, testing, evidence - to managerial problems.",
+      "structure": [
+        "Outline the method briefly: observe, hypothesise, test, analyse, revise",
+        "Map it to a business example such as testing a new price, a product feature or a process change",
+        "Discuss the role of controls, sample size and bias in avoiding wrong conclusions",
+        "Note where business differs - time pressure, incomplete data, human factors"
+      ],
+      "avoid": [
+        "Getting basic steps of the method wrong",
+        "Implying every business decision can be run as a controlled experiment"
+      ]
+    },
+    {
+      "id": "pi-academics-science-specialisation-applications",
+      "group": "academics",
+      "background": "science",
+      "prompt": "How is your specialisation applied in industry?",
+      "framing": "Checks whether you know where your subject creates value and can connect science to business.",
+      "structure": [
+        "Name your specialisation and its core focus",
+        "Describe two or three industries or products that depend on it",
+        "Explain the business challenge in one of them - cost, regulation, scale-up, research timelines",
+        "Show where management skills matter in that chain"
+      ],
+      "avoid": [
+        "Citing specific company facts or figures you are unsure of",
+        "Listing industries without explaining the link"
+      ]
+    },
+    {
+      "id": "pi-academics-science-lab-teamwork",
+      "group": "academics",
+      "background": "science",
+      "prompt": "Tell us about your lab work. What did it teach you about working in a team?",
+      "framing": "Tests teamwork, rigour and patience. Lab work involves shared equipment, protocols, failed experiments and careful documentation.",
+      "structure": [
+        "Describe a lab project or practical briefly and your role in it",
+        "Share a team challenge - coordination, a failed experiment, a disagreement over method",
+        "Explain how you handled it",
+        "Connect the habits you built (documentation, precision, patience) to management"
+      ],
+      "avoid": [
+        "Describing only technical steps with no reflection",
+        "Taking credit for others' work"
+      ]
+    },
+    {
+      "id": "pi-academics-science-why-science-then-mba",
+      "group": "academics",
+      "background": "science",
+      "prompt": "Why move from science to management?",
+      "framing": "The panel looks for a coherent motive and checks you are not abandoning science without reflection.",
+      "structure": [
+        "Explain what drew you to science and what you valued in it",
+        "Describe the moment you became interested in how science reaches people - commercialisation, policy, operations",
+        "Show how an MBA helps you work at that intersection",
+        "Connect to a specific goal"
+      ],
+      "avoid": [
+        "Saying you could not find a job in science",
+        "Dismissing your degree"
+      ]
+    },
+    {
+      "id": "pi-academics-science-core-concept",
+      "group": "academics",
+      "background": "science",
+      "prompt": "Explain a core concept from your subject in simple terms.",
+      "framing": "A depth and communication check. The panel wants accuracy plus clarity for a non-specialist audience.",
+      "structure": [
+        "Pick a concept you know thoroughly",
+        "Explain it with an everyday analogy",
+        "Mention an application in daily life or industry",
+        "Be ready for follow-up and admit honestly where your knowledge ends"
+      ],
+      "avoid": [
+        "Choosing something you cannot explain accurately",
+        "Using heavy jargon"
+      ]
+    },
+    {
+      "id": "pi-academics-science-data-interpretation",
+      "group": "academics",
+      "background": "science",
+      "prompt": "How do you know when data supports a conclusion and when it does not?",
+      "framing": "Tests statistical thinking that science students should have and managers need: correlation versus causation, sample size, bias and uncertainty.",
+      "structure": [
+        "Mention checks: sample size and representativeness, controls, measurement quality",
+        "Explain correlation versus causation with a simple example",
+        "Discuss uncertainty and the value of replication",
+        "Relate to a business setting such as interpreting a survey or a sales trend"
+      ],
+      "avoid": [
+        "Confusing correlation with causation in your own example",
+        "Being overconfident about any single result"
+      ]
+    },
+    {
+      "id": "pi-academics-science-research-to-market",
+      "group": "academics",
+      "background": "science",
+      "prompt": "Why do many scientific discoveries take a long time to reach the market?",
+      "framing": "Tests understanding of the journey from lab to product - development, testing, regulation, manufacturing and business viability.",
+      "structure": [
+        "Describe the stages broadly: research, development, testing, approval where required, scale-up, launch",
+        "Explain the challenges at each - cost, safety, reproducibility, manufacturing at scale",
+        "Mention the business side: funding, market fit, pricing",
+        "Suggest where better management can shorten the journey"
+      ],
+      "avoid": [
+        "Claiming specific timelines or figures as fact",
+        "Ignoring the role of safety and regulation"
+      ]
+    },
+    {
+      "id": "pi-academics-science-ethics-science",
+      "group": "academics",
+      "background": "science",
+      "prompt": "What ethical issues do you see in your field of science?",
+      "framing": "Assesses awareness of responsibility and ability to reason about trade-offs - relevant to future managers in regulated or sensitive industries.",
+      "structure": [
+        "Name one or two genuine ethical concerns in your field, such as data, safety, environment or consent",
+        "Explain the competing interests involved",
+        "Offer a balanced view on how to handle them",
+        "Link to how organisations should govern such issues"
+      ],
+      "avoid": [
+        "Taking an extreme position without considering the other side",
+        "Inventing specific incidents"
+      ]
+    },
+    {
+      "id": "pi-academics-science-failed-experiment",
+      "group": "academics",
+      "background": "science",
+      "prompt": "Describe an experiment or project that did not work. What did you do?",
+      "framing": "Tests resilience and problem-solving. Science involves frequent failure; the panel wants your debugging process and attitude.",
+      "structure": [
+        "Describe the experiment and the expected result",
+        "Explain what went wrong and how you diagnosed it",
+        "Describe the changes you made and the result",
+        "Draw a lesson that applies beyond the lab"
+      ],
+      "avoid": [
+        "Blaming equipment or teammates",
+        "Having no systematic diagnosis"
+      ]
+    },
+    {
+      "id": "pi-academics-science-science-analytical-edge",
+      "group": "academics",
+      "background": "science",
+      "prompt": "What advantage does a science background give you in an MBA?",
+      "framing": "Checks self-awareness about transferable strengths, and humility about gaps.",
+      "structure": [
+        "Name two strengths such as quantitative comfort, rigour, hypothesis-driven thinking",
+        "Give an example of each",
+        "Acknowledge a gap, such as business vocabulary or commercial exposure, and how you are closing it"
+      ],
+      "avoid": [
+        "Claiming superiority over other backgrounds",
+        "Listing strengths without evidence"
+      ]
+    },
+    {
+      "id": "pi-work-describe-role",
+      "group": "work",
+      "prompt": "Describe your current role and a typical day at work.",
+      "framing": "The panel checks whether you understand your role in the context of the organisation and can describe it clearly to outsiders.",
+      "structure": [
+        "Start with the organisation and your team's purpose in one line",
+        "Describe your key responsibilities and who you work with",
+        "Walk through a typical day or week briefly",
+        "Mention how your output is measured and how it affects the business"
+      ],
+      "avoid": [
+        "Heavy internal jargon or acronyms",
+        "Overstating your seniority or scope"
+      ]
+    },
+    {
+      "id": "pi-work-biggest-achievement",
+      "group": "work",
+      "prompt": "What is your biggest achievement at work?",
+      "framing": "Looks for impact and ownership. The panel wants your specific contribution, the challenge involved and a measurable or observable result.",
+      "structure": [
+        "Set the context and the problem briefly",
+        "Explain what you specifically did, including any initiative beyond your role",
+        "Describe the outcome in concrete terms - time saved, quality improved, customers helped - without inventing numbers",
+        "Mention what you learned"
+      ],
+      "avoid": [
+        "Taking credit for team results without clarifying your role",
+        "Claiming exaggerated figures"
+      ]
+    },
+    {
+      "id": "pi-work-failure-at-work",
+      "group": "work",
+      "prompt": "Tell us about a mistake you made at work.",
+      "framing": "Tests ownership and maturity. The panel wants to see that you can admit errors, fix them and prevent them in future.",
+      "structure": [
+        "Describe the mistake honestly and its impact",
+        "Explain how you took responsibility and handled the immediate situation",
+        "Describe what you changed to prevent a repeat",
+        "Keep the tone reflective, not defensive"
+      ],
+      "avoid": [
+        "Picking a trivial or fake mistake",
+        "Blaming others"
+      ]
+    },
+    {
+      "id": "pi-work-conflict-manager",
+      "group": "work",
+      "prompt": "Tell us about a disagreement with your manager. How did you handle it?",
+      "framing": "Tests professionalism, communication and judgement - can you disagree respectfully and still deliver?",
+      "structure": [
+        "Describe the disagreement and why it mattered",
+        "Explain how you raised your view - with data, privately, respectfully",
+        "Describe the outcome, including if you were overruled",
+        "Reflect on what you learned about working with authority"
+      ],
+      "avoid": [
+        "Portraying your manager as incompetent",
+        "A story where you simply gave in with no reasoning"
+      ]
+    },
+    {
+      "id": "pi-work-conflict-colleague",
+      "group": "work",
+      "prompt": "Describe a conflict with a colleague and how it was resolved.",
+      "framing": "Assesses interpersonal skills and emotional maturity, which matter in group-heavy MBA programmes and in management.",
+      "structure": [
+        "Set the context and the source of conflict",
+        "Explain how you tried to understand the other person's view",
+        "Describe the steps you took to resolve it",
+        "Mention the result and the relationship afterwards"
+      ],
+      "avoid": [
+        "Making yourself the hero and the colleague the villain",
+        "Saying you have never had a conflict"
+      ]
+    },
+    {
+      "id": "pi-work-why-leave-job",
+      "group": "work",
+      "prompt": "Why do you want to leave your job?",
+      "framing": "The panel checks whether you are moving towards something or simply escaping. A forward-looking, respectful answer works best.",
+      "structure": [
+        "Acknowledge what you have gained from your job",
+        "Explain the limit you have reached in learning or scope",
+        "Connect the move to your goals and the MBA",
+        "Stay positive about your employer"
+      ],
+      "avoid": [
+        "Complaining about pay, your boss or the company",
+        "Sounding as if you have not given the job a fair chance"
+      ]
+    },
+    {
+      "id": "pi-work-value-to-company",
+      "group": "work",
+      "prompt": "How does your work add value to your company?",
+      "framing": "Tests business understanding: can you trace your daily output to revenue, cost, quality, risk or customers?",
+      "structure": [
+        "Describe your main output",
+        "Trace how it affects the business - customers served, costs reduced, risks managed, revenue enabled",
+        "Give one concrete example",
+        "Suggest one way your role could add more value"
+      ],
+      "avoid": [
+        "Describing tasks without impact",
+        "Claiming responsibility for company-level results"
+      ]
+    },
+    {
+      "id": "pi-work-fresher-why-not-wait",
+      "group": "work",
+      "prompt": "You have no work experience. Why should we not wait for you to gain some?",
+      "framing": "The panel wants to know whether you have the clarity and maturity to benefit from an MBA without work experience, and what you have done instead.",
+      "structure": [
+        "Acknowledge the value of work experience honestly",
+        "Show the clarity you already have about your goals and why the MBA fits now",
+        "Point to substitutes: internships, projects, leadership roles, responsibilities",
+        "Explain how you will make up for it - learning from experienced peers, live projects, summer internship"
+      ],
+      "avoid": [
+        "Claiming work experience does not matter",
+        "Having no examples of real-world exposure"
+      ]
+    },
+    {
+      "id": "pi-work-internship",
+      "group": "work",
+      "prompt": "Tell us about your internship. What did you learn?",
+      "framing": "For freshers this replaces the work discussion. The panel probes your actual contribution and what you learned about organisations.",
+      "structure": [
+        "Describe the organisation, your team and your project",
+        "Explain your specific contribution and the outcome",
+        "Share one insight about how the business works",
+        "Mention how it shaped your goals"
+      ],
+      "avoid": [
+        "Describing only what the company does",
+        "Overstating your role in the project"
+      ]
+    },
+    {
+      "id": "pi-work-lead-without-authority",
+      "group": "work",
+      "prompt": "Tell us about a time you led without formal authority.",
+      "framing": "Leadership through influence is central to management. The panel looks for initiative, persuasion and results.",
+      "structure": [
+        "Describe the situation and why leadership was needed",
+        "Explain how you influenced others - building credibility, finding common goals, taking the first step",
+        "Describe the outcome",
+        "Reflect on what you learned about influence"
+      ],
+      "avoid": [
+        "Describing a situation where you had a title",
+        "Implying you forced others to comply"
+      ]
+    },
+    {
+      "id": "pi-work-manager-feedback",
+      "group": "work",
+      "prompt": "What would your manager say are your strengths and areas of improvement?",
+      "framing": "Tests self-awareness and consistency with what you have said elsewhere. Answers often match reference views or appraisals.",
+      "structure": [
+        "State one or two strengths your manager would cite, with an example",
+        "State one area of improvement honestly",
+        "Mention what you are doing about it"
+      ],
+      "avoid": [
+        "Only listing strengths",
+        "Contradicting what you said in other answers"
+      ]
+    },
+    {
+      "id": "pi-work-industry-challenges",
+      "group": "work",
+      "prompt": "What are the major challenges facing your industry?",
+      "framing": "Checks whether you see beyond your desk to the competitive and economic forces shaping your sector.",
+      "structure": [
+        "Name two or three lasting challenges - competition, technology, regulation, talent, costs",
+        "Explain how each affects companies like yours",
+        "Describe how your organisation or industry is responding in general terms",
+        "Give your own view"
+      ],
+      "avoid": [
+        "Quoting news or figures you cannot back up",
+        "Being unaware of anything outside your role"
+      ]
+    },
+    {
+      "id": "pi-work-work-to-mba",
+      "group": "work",
+      "prompt": "How will your work experience help you in the MBA classroom?",
+      "framing": "The panel wants to know what you bring to case discussions and group work.",
+      "structure": [
+        "Identify the functional and industry knowledge you have",
+        "Give an example of a situation you could bring into discussions",
+        "Mention skills such as deadlines, client handling or teamwork",
+        "Say what you hope to learn from peers with other experience"
+      ],
+      "avoid": [
+        "Sounding as if you already know everything",
+        "Generic claims"
+      ]
+    },
+    {
+      "id": "pi-work-career-switch",
+      "group": "work",
+      "prompt": "Your goal is in a different function from your current work. Is that not a waste of your experience?",
+      "framing": "Tests whether your career switch is thought through and whether you see the transferable value in your experience.",
+      "structure": [
+        "Acknowledge the switch directly",
+        "Show which skills and insights from your work transfer to the new function",
+        "Explain why the new function suits you better, with evidence",
+        "Describe how the MBA bridges the gap"
+      ],
+      "avoid": [
+        "Calling your experience irrelevant",
+        "A switch with no reason other than pay"
+      ]
+    },
+    {
+      "id": "pi-work-pressure-deadline",
+      "group": "work",
+      "prompt": "Tell us about a time you worked under severe deadline pressure.",
+      "framing": "Checks prioritisation, composure and execution, all of which matter in an intense MBA.",
+      "structure": [
+        "Describe the situation and stakes",
+        "Explain how you prioritised and organised the work",
+        "Mention how you communicated with stakeholders",
+        "Describe the result and what you would do differently"
+      ],
+      "avoid": [
+        "Glorifying overwork without any learning",
+        "A vague story without specifics"
+      ]
+    },
+    {
+      "id": "pi-work-process-improvement",
+      "group": "work",
+      "prompt": "Have you improved any process at work? Walk us through it.",
+      "framing": "Looks for initiative and problem-solving. The panel likes candidates who spot inefficiency and fix it.",
+      "structure": [
+        "Describe the process and the problem",
+        "Explain how you diagnosed it",
+        "Describe the change you proposed and how you got buy-in",
+        "State the effect and how you measured it"
+      ],
+      "avoid": [
+        "Inventing numbers",
+        "Taking sole credit for a team effort"
+      ]
+    },
+    {
+      "id": "pi-work-client-handling",
+      "group": "work",
+      "prompt": "Tell us about a difficult client or stakeholder you dealt with.",
+      "framing": "Assesses empathy, communication and problem-solving with external parties.",
+      "structure": [
+        "Set the context and what made the stakeholder difficult",
+        "Explain how you understood their real concern",
+        "Describe what you did to resolve the situation",
+        "Mention the outcome and the relationship afterwards"
+      ],
+      "avoid": [
+        "Mocking the client",
+        "A story without resolution"
+      ]
+    },
+    {
+      "id": "pi-work-ethical-dilemma-work",
+      "group": "work",
+      "prompt": "Have you faced an ethical dilemma at work? What did you do?",
+      "framing": "Tests integrity and judgement. The panel wants to see how you reason through pressure.",
+      "structure": [
+        "Describe the dilemma without naming people or confidential details",
+        "Explain the competing pressures",
+        "Describe what you did and why",
+        "Reflect on the consequences"
+      ],
+      "avoid": [
+        "Sharing confidential information",
+        "A story where you took no action"
+      ]
+    },
+    {
+      "id": "pi-work-learned-from-job",
+      "group": "work",
+      "prompt": "What is the most important thing your job has taught you?",
+      "framing": "The panel looks for reflection - lessons about people, organisations and yourself.",
+      "structure": [
+        "Name one lesson clearly",
+        "Illustrate it with a specific situation",
+        "Explain how it has changed your behaviour"
+      ],
+      "avoid": [
+        "Generic lessons like 'hard work pays off'",
+        "Listing many lessons superficially"
+      ]
+    },
+    {
+      "id": "pi-work-team-management",
+      "group": "work",
+      "prompt": "Have you managed or mentored anyone? How did you go about it?",
+      "framing": "Tests early people-management experience, even if informal.",
+      "structure": [
+        "Describe the situation - an intern, a junior, a new joiner",
+        "Explain your approach: setting expectations, support, feedback",
+        "Describe the outcome for them and the team",
+        "Mention what you would do differently"
+      ],
+      "avoid": [
+        "Claiming large management responsibility you did not have",
+        "Describing only tasks you delegated"
+      ]
+    },
+    {
+      "id": "pi-current-affairs-industry-development",
+      "group": "current_affairs",
+      "prompt": "What is a recent development in your industry that excites you, and why?",
+      "framing": "The panel wants to see whether you look beyond your daily tasks at the forces shaping your field, and whether you can connect a trend to business consequences. Genuine curiosity and the ability to explain impact matter more than picking a glamorous topic.",
+      "structure": [
+        "Pick one development you have followed closely enough to explain in plain language - ideally one that touched your own work or team.",
+        "Describe what changed in two or three sentences, using only facts you have checked from reliable sources yourself.",
+        "Explain why it matters: who gains, who loses, and what it does to costs, customers or competition in your industry.",
+        "Give your own view on where it could go next and one risk or open question you are still unsure about.",
+        "Close by linking it to what you want to learn in an MBA or the role you are aiming for."
+      ],
+      "avoid": [
+        "Choosing a buzzword topic you cannot explain beyond the headline.",
+        "Quoting figures you are not sure of - one wrong number invites a cross-examination.",
+        "Sounding excited without saying what the development actually changes."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-policy-both-sides",
+      "group": "current_affairs",
+      "prompt": "Pick an economic policy debate and argue both sides for me.",
+      "framing": "This tests balance, structured thinking and intellectual honesty. The panel checks whether you understand trade-offs rather than slogans, and whether you can hold a position after weighing the other side fairly.",
+      "structure": [
+        "Name the debate and state the core trade-off in one line, for example growth versus fiscal discipline or consumer prices versus producer incomes.",
+        "Make the strongest case for the policy, with the mechanism by which it is supposed to work and who benefits.",
+        "Make the strongest case against it with equal seriousness - unintended effects, costs, implementation gaps.",
+        "State where you land and the condition under which you would change your mind.",
+        "Acknowledge any part of the evidence you have not studied deeply instead of improvising."
+      ],
+      "avoid": [
+        "Arguing one side with conviction and treating the other side as a strawman.",
+        "Picking a debate you only know from social media headlines.",
+        "Refusing to take any position when asked for your own view."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-staying-updated",
+      "group": "current_affairs",
+      "prompt": "How do you keep yourself updated on what is happening in the world?",
+      "framing": "The panel is checking the quality of your information diet and whether your answer is real. They will often follow up with 'So what did you read this morning?', so the habit you describe must be one you actually practise.",
+      "structure": [
+        "Describe your actual routine honestly - what you read or listen to, how often, and when in your day.",
+        "Show variety: a general news source, something specific to your field, and one source that gives a different perspective.",
+        "Explain how you verify things - cross-checking claims, preferring primary documents, being careful with forwarded messages.",
+        "Mention one thing you learnt recently through this habit and be ready to discuss it.",
+        "If your habit has gaps, say how you are improving it rather than overstating it."
+      ],
+      "avoid": [
+        "Listing many sources you clearly do not follow.",
+        "Saying 'social media' as the main source without any filter for reliability.",
+        "Being unable to name a single item you read in the last few days."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-home-state-startups",
+      "group": "current_affairs",
+      "prompt": "What do you think of the state of startups in your home state?",
+      "framing": "The panel wants to see whether you observe your surroundings with a business lens. They assess whether you can reason about ecosystems - talent, capital, infrastructure, policy, culture - using what you have seen first-hand, without inventing data.",
+      "structure": [
+        "Start with what you have personally observed: types of ventures you know of, people around you starting businesses, sectors that seem active.",
+        "Organise your view using a simple frame such as talent, funding, market access, infrastructure and mindset.",
+        "Point out one strength and one bottleneck, with a concrete example from your own experience where possible.",
+        "Suggest one realistic improvement and who would need to act on it.",
+        "Be clear about the limits of your knowledge - say what you would want to verify before making a firm claim."
+      ],
+      "avoid": [
+        "Throwing out numbers or rankings you cannot back up.",
+        "Speaking only about big-city ecosystems when asked about your home state.",
+        "Being dismissive or purely negative without suggesting any way forward."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-unclear-topic",
+      "group": "current_affairs",
+      "prompt": "I am going to ask you about a topic you may not know well. What do you do when you do not know the answer?",
+      "framing": "Interviewers deliberately probe the edge of your knowledge. They are assessing honesty, composure and how you reason from first principles - not whether you know everything.",
+      "structure": [
+        "Admit clearly and calmly what you do not know - one sentence is enough.",
+        "Share what you do know that is related, and reason aloud from basic principles about how the issue probably works.",
+        "Label your reasoning as an inference, not a fact.",
+        "Offer to read up on it and, if relevant, ask the panel a thoughtful question about it."
+      ],
+      "avoid": [
+        "Bluffing - panels usually know the topic better and will push until the bluff collapses.",
+        "Freezing or apologising repeatedly instead of moving forward.",
+        "Saying 'I don't know' and stopping without any attempt to think aloud."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-technology-impact",
+      "group": "current_affairs",
+      "prompt": "Which technology trend do you think will most change the way businesses work over the next decade?",
+      "framing": "This tests whether you can think about technology in terms of business models, jobs and customers rather than hype. The panel values reasoning and nuance over predictions stated with false certainty.",
+      "structure": [
+        "Choose a trend you understand at a working level, ideally one you have used or seen used.",
+        "Explain the mechanism - what task becomes cheaper, faster or possible that was not before.",
+        "Describe the business impact on one or two specific functions or industries.",
+        "Discuss the downsides and constraints: cost, skills, regulation, trust, or job displacement.",
+        "End with how you personally plan to build skills around it."
+      ],
+      "avoid": [
+        "Using jargon without being able to explain it simply.",
+        "Making sweeping claims like 'it will replace all jobs' without reasoning.",
+        "Ignoring the risks and ethical questions entirely."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-issue-you-care-about",
+      "group": "current_affairs",
+      "prompt": "Tell me about a social or economic issue you care about deeply.",
+      "framing": "The panel is looking for conviction backed by understanding, and for signs of empathy and maturity. They want to know if your concern goes beyond opinion into some understanding of causes and possible solutions.",
+      "structure": [
+        "Name the issue and briefly explain why it matters to you - a personal connection makes it credible.",
+        "Describe the root causes as you understand them, separating what you have verified from what you believe.",
+        "Discuss one or two approaches to address it and the trade-offs each involves.",
+        "Mention anything you have done about it, however small, or what you would like to do.",
+        "Stay open to counter-arguments if the panel pushes back."
+      ],
+      "avoid": [
+        "Choosing a topic only because it sounds impressive.",
+        "Delivering a rehearsed speech that cannot survive one follow-up question.",
+        "Taking an extreme or polarising stance and becoming defensive."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-budget-question",
+      "group": "current_affairs",
+      "prompt": "If you were asked about the most recent national budget, what would you focus on?",
+      "framing": "Budget questions test whether you follow economic policy and can analyse priorities rather than recite announcements. The panel checks how you structure fiscal information and relate it to sectors or your own field.",
+      "structure": [
+        "Before the interview, read the main themes from an official or reliable summary yourself, and note only points you are sure of.",
+        "In the answer, structure around a few lenses: spending priorities, revenue measures, and the fiscal position.",
+        "Pick one or two measures relevant to your background or target sector and explain their likely effect.",
+        "Give a balanced view - what you think works and what concerns you.",
+        "If you have not studied a part of it, say so and stick to what you know."
+      ],
+      "avoid": [
+        "Reciting a list of announcements without any analysis.",
+        "Misquoting figures - if unsure, describe the direction rather than the number.",
+        "Discussing it purely in political terms instead of economic ones."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-global-event-india",
+      "group": "current_affairs",
+      "prompt": "How does a major global development affect India? Pick one and explain.",
+      "framing": "The panel checks whether you can connect global events to domestic consequences through clear economic links - trade, prices, capital flows, supply chains, geopolitics - and whether you reason carefully rather than repeat headlines.",
+      "structure": [
+        "Choose a type of development you have followed and verified, for example a shift in trade policy, energy prices or supply chains.",
+        "Trace the transmission channels step by step: how does it reach Indian consumers, firms or the government?",
+        "Distinguish short-term effects from longer-term ones.",
+        "Identify which sectors or groups might gain and which might be hurt.",
+        "Offer a view on how India could respond, while noting what remains uncertain."
+      ],
+      "avoid": [
+        "Picking a topic you only know at a headline level.",
+        "Describing the event at length without ever reaching its effect on India.",
+        "Claiming certainty about outcomes that even experts debate."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-regulation-view",
+      "group": "current_affairs",
+      "prompt": "Should the government regulate more or less in a sector you know well?",
+      "framing": "This assesses your understanding of the balance between market freedom and public interest. The panel wants nuance, an awareness of stakeholders, and grounding in your own sector experience.",
+      "structure": [
+        "Pick a sector you have worked in or studied closely.",
+        "Explain what regulation is trying to achieve there - safety, fairness, competition, consumer protection.",
+        "Describe where it helps and where it may create friction, using examples from your experience.",
+        "Propose a balanced view, for example clearer rules with lighter compliance, and justify it.",
+        "Acknowledge what you would need to know more about before being definitive."
+      ],
+      "avoid": [
+        "A simple 'less regulation is always better' or the opposite.",
+        "Criticising specific officials or institutions instead of discussing design.",
+        "Speaking about a sector you have no exposure to when a familiar one was available."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-newspaper-today",
+      "group": "current_affairs",
+      "prompt": "What was the most interesting thing you read in the news this week?",
+      "framing": "The panel is checking whether you actually engage with news and can explain why something matters. Your choice also reveals your interests, so pick something you can discuss in depth.",
+      "structure": [
+        "Pick an item you read fully and understood, preferably related to business, economy or your field.",
+        "Summarise it in a few sentences, sticking to facts you are confident about.",
+        "Explain why it caught your interest and what its implications could be.",
+        "Offer your own take and invite discussion by noting an open question."
+      ],
+      "avoid": [
+        "Naming something you only saw as a headline.",
+        "Choosing a celebrity or entertainment story with no larger angle.",
+        "Adding details from memory that you are not sure are accurate."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-inflation-explain",
+      "group": "current_affairs",
+      "prompt": "Explain a basic economic concept like inflation or interest rates in a way your family would understand.",
+      "framing": "This tests conceptual clarity and communication. Managers must explain complex ideas simply. The panel also checks whether you can connect concepts to everyday life without errors.",
+      "structure": [
+        "Give a simple definition in one line using everyday language.",
+        "Use a relatable example from household life, such as grocery bills or a loan EMI.",
+        "Explain the cause-and-effect chain in two or three steps.",
+        "Mention why it matters to a business or the economy as a whole.",
+        "Check that your example is accurate - accuracy is better than cleverness."
+      ],
+      "avoid": [
+        "Using textbook jargon that the 'family' would not understand.",
+        "Getting the direction of a relationship wrong, for example how rates affect borrowing.",
+        "Over-elaborating until the core idea is lost."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-sector-you-will-join",
+      "group": "current_affairs",
+      "prompt": "What are the biggest challenges facing the sector you want to work in after your MBA?",
+      "framing": "The panel tests whether your career goal is researched and realistic. Knowing a sector's challenges shows that you have thought beyond its attractive surface.",
+      "structure": [
+        "Name the sector and the role you are aiming for.",
+        "Lay out two or three challenges grouped logically, for example demand, cost, talent or regulation.",
+        "For each, explain briefly why it is a challenge and who it affects most.",
+        "Share how firms are trying to respond in general terms, and what you think could work.",
+        "Connect one challenge to a skill you hope to build during the MBA."
+      ],
+      "avoid": [
+        "Only talking about the positives of the sector.",
+        "Naming challenges you cannot explain when asked 'why?'.",
+        "Using specific numbers or company claims you cannot verify."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-misinformation",
+      "group": "current_affairs",
+      "prompt": "How do you decide whether a piece of news is true?",
+      "framing": "In an age of information overload, the panel wants to see critical thinking and source discipline - qualities essential for business decision-making.",
+      "structure": [
+        "Describe your checks: who is the source, is there a primary document, do several independent outlets agree?",
+        "Mention how you treat forwarded messages, screenshots and anonymous claims.",
+        "Give an example of a time you avoided sharing or believing something that turned out to be wrong.",
+        "Connect this habit to decision-making in a workplace - verifying data before acting on it."
+      ],
+      "avoid": [
+        "Claiming you never get misled - nobody is immune.",
+        "Naming a source as 'always reliable' without any reasoning.",
+        "Turning the answer into a political argument."
+      ]
+    },
+    {
+      "id": "pi-current-affairs-india-strength-weakness",
+      "group": "current_affairs",
+      "prompt": "What do you see as one strength and one weakness of the Indian economy today?",
+      "framing": "The panel checks for a balanced, informed perspective and the ability to structure big-picture thinking. Precision with claims and humility about complex issues both count.",
+      "structure": [
+        "Pick one strength you can explain through a clear mechanism, for example a young workforce or a large domestic market.",
+        "Pick one weakness or challenge and explain why it constrains growth or wellbeing.",
+        "Avoid exact figures unless you have verified them; describe direction and scale qualitatively instead.",
+        "Suggest how the weakness could be addressed and who would need to act.",
+        "Acknowledge that reasonable people disagree on priorities."
+      ],
+      "avoid": [
+        "Being purely celebratory or purely pessimistic.",
+        "Stringing together many points without explaining any of them.",
+        "Quoting statistics you are not certain of."
+      ]
+    },
+    {
+      "id": "pi-hobbies-last-book-disagree",
+      "group": "hobbies",
+      "prompt": "You mention reading as a hobby. What was the last book you read, and what did you disagree with in it?",
+      "framing": "This checks whether the hobby is real and whether you read critically. The panel wants evidence of independent thought - engaging with an author's argument, not just summarising.",
+      "structure": [
+        "Name the book and give a short, accurate summary of its main idea.",
+        "Say what you found valuable or convincing.",
+        "Identify one specific point you disagreed with or found weak, and explain why using reasoning or your own experience.",
+        "Mention how the book changed or confirmed your thinking in some way."
+      ],
+      "avoid": [
+        "Naming a book you have not actually finished or cannot discuss in detail.",
+        "Saying you agreed with everything - it suggests passive reading.",
+        "Listing a popular self-help title without any reflection."
+      ]
+    },
+    {
+      "id": "pi-hobbies-sport-lessons",
+      "group": "hobbies",
+      "prompt": "You play a team sport. What has it taught you that is useful for management?",
+      "framing": "The panel wants concrete transferable lessons, not cliches. They look for specific moments that shaped how you handle teamwork, pressure, losing and leadership.",
+      "structure": [
+        "Name the sport and your level or role honestly.",
+        "Describe one specific episode - a match, a losing streak, a team conflict - and what you did.",
+        "Draw out one or two lessons, for example playing to team strengths or recovering from setbacks.",
+        "Connect each lesson to a workplace or team situation you have faced or expect to face."
+      ],
+      "avoid": [
+        "Generic lines like 'it taught me teamwork' with no story.",
+        "Exaggerating your level of play - follow-up questions will expose it.",
+        "Listing many lessons without depth on any."
+      ]
+    },
+    {
+      "id": "pi-hobbies-music-practice",
+      "group": "hobbies",
+      "prompt": "You have listed music as a hobby. Tell me about how you practise and what keeps you going.",
+      "framing": "This checks authenticity, discipline and self-motivation. Long-term hobbies reveal how you build skill over time without external pressure.",
+      "structure": [
+        "Describe what you play, sing or listen to, and how long you have been at it.",
+        "Explain your practice routine honestly - frequency, how you learn, how you measure progress.",
+        "Share a challenge you faced, such as a plateau or performance nerves, and how you worked through it.",
+        "Reflect on what this discipline says about how you approach learning in general."
+      ],
+      "avoid": [
+        "Claiming a level of expertise you cannot demonstrate if asked.",
+        "Being unable to answer basic questions about your own hobby.",
+        "Describing music only as relaxation when the panel asks about effort."
+      ]
+    },
+    {
+      "id": "pi-hobbies-volunteering",
+      "group": "hobbies",
+      "prompt": "Tell me about your volunteering experience. What impact did you actually make?",
+      "framing": "The panel probes whether the volunteering was meaningful or token. They value honest reflection about impact, what you learnt from the people you served, and whether you stayed committed.",
+      "structure": [
+        "Describe the organisation or cause and your specific role.",
+        "Explain what you did concretely and for how long.",
+        "Be honest about impact - describe outcomes you saw without inflating them.",
+        "Share what you learnt about people, constraints or yourself.",
+        "Mention whether you are still involved, or why not."
+      ],
+      "avoid": [
+        "Presenting a one-day event as a long commitment.",
+        "Talking about the beneficiaries in a patronising way.",
+        "Claiming large impact you cannot describe concretely."
+      ]
+    },
+    {
+      "id": "pi-hobbies-position-of-responsibility",
+      "group": "hobbies",
+      "prompt": "You held a position of responsibility in college. What did you change that would not have happened without you?",
+      "framing": "This tests real leadership versus titles. The panel wants a specific initiative, your role in driving it, how you handled people, and the result.",
+      "structure": [
+        "Name the role and its scope briefly.",
+        "Describe the problem or opportunity you saw.",
+        "Explain the actions you personally took, including persuading others or handling resistance.",
+        "State the outcome honestly and what you would do differently.",
+        "Give credit to the team where due while making your contribution clear."
+      ],
+      "avoid": [
+        "Listing duties of the post instead of a specific contribution.",
+        "Taking credit for everything the team did.",
+        "Choosing an example with no measurable or observable outcome."
+      ]
+    },
+    {
+      "id": "pi-hobbies-hobby-not-practised",
+      "group": "hobbies",
+      "prompt": "You have listed a hobby here, but it seems you have not practised it lately. Is it really your hobby?",
+      "framing": "The panel tests honesty and self-awareness. Many candidates list hobbies they have drifted away from; the panel respects candour and is wary of defensiveness.",
+      "structure": [
+        "Acknowledge honestly if you have not practised it recently.",
+        "Explain briefly why - work, exams, relocation - without making excuses.",
+        "Show the hobby still matters: what you did in the past and what you still do in small ways.",
+        "Share a realistic plan to get back to it, or say what has replaced it."
+      ],
+      "avoid": [
+        "Insisting you practise it regularly when you do not.",
+        "Getting defensive or blaming circumstances at length.",
+        "Being unable to discuss even basics of the hobby."
+      ]
+    },
+    {
+      "id": "pi-hobbies-hobby-management-lesson",
+      "group": "hobbies",
+      "prompt": "What has your hobby taught you about management?",
+      "framing": "The panel wants to see reflective thinking - can you extract principles from everyday activities? Specific, honest links score higher than forced analogies.",
+      "structure": [
+        "Pick one hobby and one clear lesson rather than many.",
+        "Tell a short story from the hobby that illustrates the lesson.",
+        "Translate it into a management principle, such as planning under uncertainty or managing resources.",
+        "Give an example of where you applied it outside the hobby."
+      ],
+      "avoid": [
+        "Forcing an analogy that does not hold up.",
+        "Cliches without a real example.",
+        "Talking for too long about the hobby and too little about the lesson."
+      ]
+    },
+    {
+      "id": "pi-hobbies-travel",
+      "group": "hobbies",
+      "prompt": "You enjoy travelling. What did a trip teach you about people or business?",
+      "framing": "Travel is a common hobby; the panel looks for observation and curiosity beyond sightseeing. They want to see whether you notice how places, people and economies work.",
+      "structure": [
+        "Describe one trip briefly and something specific you observed - a local business, a cultural practice, a problem.",
+        "Explain what that observation made you think about.",
+        "Connect it to a broader insight about customers, markets or people.",
+        "Show how it has shaped your outlook or decisions."
+      ],
+      "avoid": [
+        "Listing destinations like a travel log.",
+        "Making sweeping generalisations about a community or region.",
+        "Having no real reflection beyond 'it was beautiful'."
+      ]
+    },
+    {
+      "id": "pi-hobbies-fitness-routine",
+      "group": "hobbies",
+      "prompt": "You list fitness and running. How do you stay consistent, and what happens when you miss your goals?",
+      "framing": "This tests discipline, goal-setting and how you handle setbacks - traits that predict how you will handle a demanding MBA.",
+      "structure": [
+        "Describe your routine and the goals you set.",
+        "Explain the systems that keep you consistent, such as tracking, a partner or fixed timings.",
+        "Share an honest instance where you fell short and how you responded.",
+        "Link the habit to how you manage other commitments."
+      ],
+      "avoid": [
+        "Claiming you never miss a day.",
+        "Focusing only on achievements without the process.",
+        "Exaggerating distances or results you cannot back up."
+      ]
+    },
+    {
+      "id": "pi-hobbies-cooking",
+      "group": "hobbies",
+      "prompt": "Cooking is an unusual hobby to list. What does it say about you?",
+      "framing": "Unusual hobbies invite curiosity; the panel tests whether you can explain your interest with depth and connect it to traits like experimentation, planning or patience.",
+      "structure": [
+        "Explain how you got into it and what you enjoy cooking.",
+        "Share a specific experiment or failure and what you learnt.",
+        "Draw out a trait it shows, such as planning, improvising with constraints or feeding a group on a budget.",
+        "Be ready for a quick practical question about something you cook."
+      ],
+      "avoid": [
+        "Being apologetic about the hobby.",
+        "Overreaching with grand management analogies.",
+        "Being unable to answer simple questions about your own dishes."
+      ]
+    },
+    {
+      "id": "pi-hobbies-quizzing-debating",
+      "group": "hobbies",
+      "prompt": "You were active in quizzing or debating. Debate me now: argue the side you personally disagree with.",
+      "framing": "The panel tests whether the skill is real, and also your flexibility of thought and composure. Arguing against your own view shows intellectual maturity.",
+      "structure": [
+        "Accept the challenge calmly and briefly state your actual position first.",
+        "Make the opposing case with two or three genuine, well-reasoned points.",
+        "Present them fairly and persuasively without mocking them.",
+        "Conclude by noting what the exercise taught you or where the opposing side has a fair point."
+      ],
+      "avoid": [
+        "Refusing or arguing weakly to signal your real view.",
+        "Making it personal or emotional.",
+        "Rambling without structure despite claiming debating skills."
+      ]
+    },
+    {
+      "id": "pi-hobbies-art-creative",
+      "group": "hobbies",
+      "prompt": "You paint or write creatively. How does creativity fit into a business career?",
+      "framing": "The panel wants to see whether you value creativity beyond the hobby itself, and whether you can relate it to problem-solving, communication or design thinking.",
+      "structure": [
+        "Describe your creative practice briefly and honestly.",
+        "Explain what the creative process involves for you - ideation, iteration, feedback.",
+        "Connect that process to business tasks such as product design, marketing or solving open-ended problems.",
+        "Give an example from work or college where creative thinking helped."
+      ],
+      "avoid": [
+        "Treating creativity and business as completely opposed.",
+        "Overclaiming the commercial value of your hobby.",
+        "Being vague about what you actually create."
+      ]
+    },
+    {
+      "id": "pi-hobbies-event-organised",
+      "group": "hobbies",
+      "prompt": "Tell me about an event you organised. What went wrong, and how did you handle it?",
+      "framing": "Event organising reveals planning, coordination and crisis management. The panel is more interested in how you handled the problem than in the event's scale.",
+      "structure": [
+        "Describe the event and your role in a sentence or two.",
+        "Explain what went wrong and why.",
+        "Describe the immediate action you took and how you coordinated others.",
+        "Share the outcome and what process you changed afterwards."
+      ],
+      "avoid": [
+        "Claiming nothing went wrong.",
+        "Blaming others for the problem.",
+        "Spending most of the time describing the event instead of the problem."
+      ]
+    },
+    {
+      "id": "pi-hobbies-gaming",
+      "group": "hobbies",
+      "prompt": "You list gaming as a hobby. Isn't that a waste of time?",
+      "framing": "A mild stress angle on a hobby that panels sometimes view sceptically. They test whether you can defend your choices maturely, with balance and self-awareness.",
+      "structure": [
+        "Stay calm and acknowledge the concern is reasonable when gaming is excessive.",
+        "Explain how you game and how much - with moderation that is honest.",
+        "Draw out genuine skills or interests it builds, such as strategy, team coordination or interest in game design.",
+        "Show you balance it with other commitments."
+      ],
+      "avoid": [
+        "Getting defensive or dismissive of the question.",
+        "Overstating its benefits.",
+        "Admitting it takes up excessive time without any reflection."
+      ]
+    },
+    {
+      "id": "pi-hobbies-no-hobbies",
+      "group": "hobbies",
+      "prompt": "You do not seem to have strong hobbies. What do you do outside work or studies?",
+      "framing": "The panel wants to know you as a person and to see whether you have interests that recharge you. Honesty and genuine curiosity count more than impressive activities.",
+      "structure": [
+        "Answer honestly about how you spend free time, even if it is simple.",
+        "Pick one activity and describe why you enjoy it and what you get from it.",
+        "Show curiosity - something you are exploring or learning on your own.",
+        "If you want to build a new interest, say what and why, without overselling it."
+      ],
+      "avoid": [
+        "Inventing a hobby on the spot.",
+        "Saying you have no time for anything outside work.",
+        "Giving a long list with no depth."
+      ]
+    },
+    {
+      "id": "pi-hobbies-teach-hobby",
+      "group": "hobbies",
+      "prompt": "Teach me something about your hobby in one minute.",
+      "framing": "This tests communication, structure and genuine depth in the hobby. Explaining simply under time pressure is a core managerial skill.",
+      "structure": [
+        "Choose one small, specific concept rather than the whole hobby.",
+        "Start with why it matters, then explain it in two or three simple steps.",
+        "Use an analogy or quick example the panel can relate to.",
+        "Close by checking understanding or offering a one-line summary."
+      ],
+      "avoid": [
+        "Trying to cover too much in one minute.",
+        "Using jargon from the hobby without explaining it.",
+        "Running well over time."
+      ]
+    },
+    {
+      "id": "pi-situational-teammate-takes-credit",
+      "group": "situational",
+      "prompt": "A teammate presents your work as their own in a meeting with senior management. What do you do?",
+      "framing": "The panel assesses emotional control, assertiveness and professional maturity. They want to see you protect your contribution without damaging the team or creating a public scene.",
+      "structure": [
+        "Stay composed in the meeting; if natural, add to the discussion in a way that shows your understanding of the work.",
+        "Speak to the teammate privately afterwards - assume it may be a misunderstanding and state the facts calmly.",
+        "Agree how credit will be shared going forward, and keep records of your contributions.",
+        "If it repeats, raise it with your manager factually, focusing on the work rather than the person.",
+        "Reflect on whether your own communication about your work could be more visible."
+      ],
+      "avoid": [
+        "Confronting the teammate in front of senior management.",
+        "Doing nothing and quietly resenting it.",
+        "Running to the manager before speaking to the person."
+      ]
+    },
+    {
+      "id": "pi-situational-friend-cheats-exam",
+      "group": "situational",
+      "prompt": "You see your close friend cheating in an important exam. What do you do?",
+      "framing": "This tests integrity when loyalty pulls the other way. The panel looks for a clear ethical stance balanced with empathy and sensible action.",
+      "structure": [
+        "Acknowledge the conflict between friendship and fairness openly.",
+        "State clearly that cheating is unfair to other students and that you would not cover for it.",
+        "Speak to your friend directly and promptly, urging them to come clean, and understand what pressure led to it.",
+        "If the situation is serious or continues, inform the appropriate authority, following the institution's process.",
+        "Explain how you would try to support your friend through the consequences."
+      ],
+      "avoid": [
+        "Saying you would ignore it because they are your friend.",
+        "Publicly shaming them.",
+        "Giving a vague answer that never takes a position."
+      ]
+    },
+    {
+      "id": "pi-situational-manager-fudge-numbers",
+      "group": "situational",
+      "prompt": "Your manager asks you to adjust some numbers in a report so the quarter looks better. How do you respond?",
+      "framing": "A core ethics question. The panel wants a firm refusal to misrepresent data, combined with professional tact and knowledge of proper escalation routes.",
+      "structure": [
+        "Clarify first - ask exactly what is being requested, in case it is a legitimate reclassification you misunderstood.",
+        "If it is misrepresentation, decline politely but clearly, explaining the risks to the company and to both of you.",
+        "Offer a constructive alternative: present accurate numbers with context, explanations and a recovery plan.",
+        "If pressure continues, escalate through proper channels such as a senior leader, compliance or the ethics function.",
+        "Keep written records of the request and your response."
+      ],
+      "avoid": [
+        "Agreeing because 'everyone does it' or to protect your job.",
+        "Leaking the matter outside the company before using internal channels.",
+        "Refusing rudely without offering any alternative."
+      ]
+    },
+    {
+      "id": "pi-situational-client-gift",
+      "group": "situational",
+      "prompt": "A client offers you an expensive gift after you closed a deal with them. What do you do?",
+      "framing": "The panel checks your understanding of conflicts of interest and company policy, and whether you can handle the moment without offending the client.",
+      "structure": [
+        "Thank the client warmly for the gesture.",
+        "Check and follow your organisation's gifts policy; when in doubt, consult your manager or compliance.",
+        "If it exceeds the policy, decline politely, explaining it is a company rule, or declare and hand it over as required.",
+        "Keep the relationship strong through professional means and good service."
+      ],
+      "avoid": [
+        "Accepting quietly because the deal is already closed.",
+        "Declining in a way that embarrasses the client.",
+        "Assuming no policy applies without checking."
+      ]
+    },
+    {
+      "id": "pi-situational-two-deserving-people",
+      "group": "situational",
+      "prompt": "You have one promotion slot and two equally deserving team members. How do you decide?",
+      "framing": "The panel tests fairness, decision-making under ambiguity and people management. They want an objective process and care for the person who does not get it.",
+      "structure": [
+        "Define the criteria clearly and in advance - performance, readiness for the next role, team needs.",
+        "Gather evidence: past reviews, peer feedback, and the specific demands of the new role.",
+        "Decide on merit and document the reasoning; consult a senior or HR to check for bias.",
+        "Communicate the decision honestly to both, giving the other person specific feedback and a development path.",
+        "Follow through on that development plan."
+      ],
+      "avoid": [
+        "Deciding on personal liking or seniority alone.",
+        "Avoiding the decision or splitting it in a way that helps no one.",
+        "Neglecting the person who was not chosen."
+      ]
+    },
+    {
+      "id": "pi-situational-whistleblowing",
+      "group": "situational",
+      "prompt": "You discover your company is quietly violating a safety regulation. Your seniors tell you to ignore it. What would you do?",
+      "framing": "This tests moral courage, judgement and knowledge of responsible escalation. The panel wants to see that you prioritise people's safety while acting through proper, factual channels.",
+      "structure": [
+        "Verify the facts carefully - make sure you understand the regulation and the evidence.",
+        "Raise it formally and in writing with your manager, explaining the risk.",
+        "If ignored, escalate to higher leadership, compliance, or the internal ethics or whistleblower channel.",
+        "If internal routes fail and the risk to people is serious, consider reporting to the relevant regulator, using legal protections available.",
+        "Accept that this may have personal costs, and explain why safety still comes first."
+      ],
+      "avoid": [
+        "Ignoring it to protect your career.",
+        "Going straight to social media or the press without verifying or using internal channels.",
+        "Acting on rumours rather than facts."
+      ]
+    },
+    {
+      "id": "pi-situational-crisis-limited-resources",
+      "group": "situational",
+      "prompt": "A flood has hit the region where your company has a plant. You have limited resources. What do you prioritise?",
+      "framing": "This tests prioritisation, calm in crisis and values. The panel wants people's safety first, followed by structured, practical decision-making.",
+      "structure": [
+        "Put human safety first - employees, their families and nearby communities.",
+        "Assess quickly: what is known, what resources exist, and what is most urgent.",
+        "Set clear priorities and assign owners, communicating frequently with staff and authorities.",
+        "Protect critical assets and plan restoration once people are safe.",
+        "Review afterwards to strengthen preparedness."
+      ],
+      "avoid": [
+        "Prioritising production or assets over people.",
+        "Trying to do everything at once without priorities.",
+        "Ignoring coordination with local authorities."
+      ]
+    },
+    {
+      "id": "pi-situational-underperforming-friend",
+      "group": "situational",
+      "prompt": "You become the team lead and one of your close friends in the team is underperforming. What do you do?",
+      "framing": "This tests your ability to separate personal relationships from professional responsibilities, and to give difficult feedback with empathy.",
+      "structure": [
+        "Have a private, honest conversation with clear examples of the gap.",
+        "Understand the causes - workload, skills, personal issues.",
+        "Agree on a concrete improvement plan with support and timelines.",
+        "Hold them to the same standards as everyone else, and document as you would for anyone.",
+        "Keep the friendship separate, and be transparent with your own manager if needed."
+      ],
+      "avoid": [
+        "Covering for the friend.",
+        "Being harsher than usual to prove you are not biased.",
+        "Avoiding the conversation."
+      ]
+    },
+    {
+      "id": "pi-situational-deadline-vs-quality",
+      "group": "situational",
+      "prompt": "Your client wants delivery tomorrow, but your team says the quality will suffer. What do you do?",
+      "framing": "The panel tests how you balance customer commitments, quality and team welfare, and whether you communicate honestly with clients.",
+      "structure": [
+        "Understand the client's real need - is the whole deliverable needed tomorrow, or only part of it?",
+        "Assess with the team what can be delivered well by the deadline.",
+        "Propose options to the client transparently: a phased delivery, a reduced scope, or a short extension.",
+        "Do not hide known quality issues; agree the plan and keep the team's workload reasonable."
+      ],
+      "avoid": [
+        "Promising everything and delivering poor work.",
+        "Overriding the team without understanding their concerns.",
+        "Not communicating with the client until the deadline passes."
+      ]
+    },
+    {
+      "id": "pi-situational-colleague-harassment",
+      "group": "situational",
+      "prompt": "A junior colleague tells you in confidence that a senior is behaving inappropriately with them. What do you do?",
+      "framing": "A sensitive question testing empathy, responsibility and knowledge of formal processes. The panel wants support for the affected person and use of proper channels.",
+      "structure": [
+        "Listen carefully, believe them, and assure them they did the right thing by speaking up.",
+        "Explain the formal channels such as the internal complaints committee or HR, and offer to support them through the process.",
+        "Respect their wishes on confidentiality as far as possible, but be honest that some situations must be reported under company policy.",
+        "Take care that they are not retaliated against, and follow up."
+      ],
+      "avoid": [
+        "Dismissing it or advising them to ignore it.",
+        "Confronting the senior yourself without involving the proper process.",
+        "Spreading the information informally."
+      ]
+    },
+    {
+      "id": "pi-situational-mistake-noticed-late",
+      "group": "situational",
+      "prompt": "You realise you made an error in a report already sent to the client. No one else has noticed. What do you do?",
+      "framing": "This tests integrity and accountability. The panel wants ownership, speed and a fix, not concealment.",
+      "structure": [
+        "Inform your manager promptly and explain the error and its impact.",
+        "Prepare the corrected version and a short explanation.",
+        "Communicate the correction to the client transparently, as agreed with your manager.",
+        "Identify why it happened and put a check in place to prevent repeats."
+      ],
+      "avoid": [
+        "Hoping no one will notice.",
+        "Blaming someone else or the tools.",
+        "Correcting it silently without telling anyone."
+      ]
+    },
+    {
+      "id": "pi-situational-budget-cut-layoff",
+      "group": "situational",
+      "prompt": "You must cut your team's budget significantly. Would you lay people off or find other ways?",
+      "framing": "The panel tests business judgement, empathy and creativity. They want you to explore options before layoffs and to treat people fairly if difficult decisions are needed.",
+      "structure": [
+        "Understand the size and timeline of the required cut.",
+        "Explore alternatives first: non-essential spending, vendor costs, hiring freezes, redeployment.",
+        "If reductions are unavoidable, use fair and transparent criteria with HR involvement.",
+        "Communicate honestly and respectfully, and support affected people with notice, help and dignity.",
+        "Keep the remaining team informed and engaged."
+      ],
+      "avoid": [
+        "Jumping straight to layoffs.",
+        "Refusing to consider any difficult decision.",
+        "Handling it secretly and causing rumours."
+      ]
+    },
+    {
+      "id": "pi-situational-boss-wrong-decision",
+      "group": "situational",
+      "prompt": "Your boss makes a decision you strongly believe is wrong. What do you do?",
+      "framing": "This tests your ability to disagree constructively and respect hierarchy without being a yes-man. The panel wants evidence-based dissent and then commitment.",
+      "structure": [
+        "Make sure you understand the reasoning behind the decision.",
+        "Raise your concern privately with data and a proposed alternative.",
+        "Listen to the response; they may have information you do not.",
+        "If the decision stands and is not unethical, commit to executing it well.",
+        "If it is unethical or unsafe, escalate through proper channels."
+      ],
+      "avoid": [
+        "Complaining to colleagues instead of the boss.",
+        "Silently complying with something you believe is harmful.",
+        "Undermining the decision during execution."
+      ]
+    },
+    {
+      "id": "pi-situational-group-project-freerider",
+      "group": "situational",
+      "prompt": "In a group project, one member does no work but will get the same grade. What do you do?",
+      "framing": "The panel tests how you handle free-riding - a common team problem. They want fair confrontation, problem-solving and escalation only when needed.",
+      "structure": [
+        "Talk to the member early and privately to understand why.",
+        "Assign clear, specific tasks with deadlines so accountability is visible.",
+        "If they still do not contribute, discuss with the team and then inform the faculty factually.",
+        "Make sure the project itself is not compromised."
+      ],
+      "avoid": [
+        "Silently doing their work.",
+        "Excluding them without any conversation.",
+        "Complaining to faculty at the first sign of trouble."
+      ]
+    },
+    {
+      "id": "pi-situational-confidential-information",
+      "group": "situational",
+      "prompt": "You accidentally receive a competitor's confidential pricing document by email. What do you do?",
+      "framing": "The panel tests ethics around information and competition. They want you to avoid using information obtained improperly and follow legal guidance.",
+      "structure": [
+        "Do not read further, use or forward the document.",
+        "Inform your manager and the legal or compliance team immediately.",
+        "Follow their guidance on deleting it and notifying the sender.",
+        "Make clear you would compete on legitimate information only."
+      ],
+      "avoid": [
+        "Using it 'since it came to you anyway'.",
+        "Sharing it with colleagues.",
+        "Ignoring it without telling anyone."
+      ]
+    },
+    {
+      "id": "pi-situational-customer-complaint-viral",
+      "group": "situational",
+      "prompt": "A customer's complaint about your product is spreading widely online. You are in charge. What do you do?",
+      "framing": "This tests crisis communication, customer focus and speed. The panel wants accountability, fact-finding and transparent action.",
+      "structure": [
+        "Acknowledge the complaint publicly and quickly, showing you are looking into it.",
+        "Investigate the facts internally and reach out to the customer directly.",
+        "If the company is at fault, apologise, fix the issue and explain the fix.",
+        "Look for a systemic cause and fix it, then communicate the change.",
+        "Monitor and learn for the future."
+      ],
+      "avoid": [
+        "Deleting or ignoring the complaint.",
+        "Responding defensively before knowing the facts.",
+        "Making promises that cannot be kept."
+      ]
+    },
+    {
+      "id": "pi-situational-loyalty-vs-better-offer",
+      "group": "situational",
+      "prompt": "Your company invested in your training, and now a competitor offers you a much better role. What do you do?",
+      "framing": "The panel tests your understanding of loyalty, ethics and career decisions. They want honesty and professionalism, not guilt or opportunism.",
+      "structure": [
+        "Evaluate the offer on growth and fit, not money alone.",
+        "Check any contractual obligations, such as a service bond, and honour them.",
+        "If inclined to move, speak openly with your manager - they may offer something or support you.",
+        "If you leave, do so professionally: proper notice, full handover and no confidential information taken."
+      ],
+      "avoid": [
+        "Leaving abruptly without handover.",
+        "Using the offer only to bargain dishonestly.",
+        "Ignoring contractual obligations."
+      ]
+    },
+    {
+      "id": "pi-situational-bribe-for-approval",
+      "group": "situational",
+      "prompt": "A government official hints that a small payment will speed up an approval your project urgently needs. What do you do?",
+      "framing": "A classic integrity test. The panel expects a clear refusal and practical, legal ways to move the work forward.",
+      "structure": [
+        "Politely decline and do not imply any willingness to pay.",
+        "Inform your manager and the compliance team.",
+        "Pursue legitimate routes: complete the documentation, follow up formally, use official escalation mechanisms.",
+        "Accept a delay if necessary, and plan the project around it."
+      ],
+      "avoid": [
+        "Justifying a 'small' payment as the norm.",
+        "Asking an agent to pay on your behalf.",
+        "Refusing rudely and creating a confrontation."
+      ]
+    },
+    {
+      "id": "pi-situational-team-conflict",
+      "group": "situational",
+      "prompt": "Two of your team members are in constant conflict, and it is hurting the team. How do you handle it?",
+      "framing": "The panel assesses conflict resolution, empathy and leadership. They want you to understand both sides and move the team to shared goals.",
+      "structure": [
+        "Speak to each person separately to understand their perspective.",
+        "Identify the root cause - work allocation, style differences or a misunderstanding.",
+        "Bring them together for a facilitated conversation focused on shared goals and clear roles.",
+        "Agree on working norms and follow up regularly.",
+        "Escalate or restructure only if the conflict persists."
+      ],
+      "avoid": [
+        "Taking sides early.",
+        "Ignoring it, hoping it will fade.",
+        "Making it public in front of the team."
+      ]
+    },
+    {
+      "id": "pi-situational-data-privacy",
+      "group": "situational",
+      "prompt": "Your marketing team wants to use customer data in a way customers did not agree to. It could boost sales a lot. What would you say?",
+      "framing": "This tests understanding of privacy, customer trust and long-term thinking. The panel wants you to protect consent and find legitimate alternatives.",
+      "structure": [
+        "Point out that using data beyond consent risks customer trust and may break the law.",
+        "Bring in the legal or privacy team to clarify what is allowed.",
+        "Propose alternatives: ask customers for consent, use anonymised or aggregate data, or improve the offering.",
+        "Frame trust as a long-term business asset."
+      ],
+      "avoid": [
+        "Approving it because competitors might do it.",
+        "Rejecting it without offering an alternative.",
+        "Assuming legality without checking."
+      ]
+    },
+    {
+      "id": "pi-stress-ordinary-profile",
+      "group": "stress",
+      "prompt": "Your profile is quite ordinary. Convince me otherwise.",
+      "framing": "The panel tests composure and self-belief under provocation. They want to see you stay calm and make your case with substance, not arrogance or panic.",
+      "structure": [
+        "Stay calm, and do not argue with the premise emotionally - accept that on paper many profiles look similar.",
+        "Pick two or three specific things that set you apart: an experience, a decision, a result or a perspective.",
+        "Back each with a brief concrete example.",
+        "Link them to what you would bring to the class.",
+        "Close confidently without overselling."
+      ],
+      "avoid": [
+        "Getting defensive or visibly hurt.",
+        "Agreeing that you are ordinary and giving up.",
+        "Listing achievements without stories or relevance."
+      ]
+    },
+    {
+      "id": "pi-stress-why-not-reject",
+      "group": "stress",
+      "prompt": "Give me one reason why we should not reject you.",
+      "framing": "A blunt prompt to see whether you can make a crisp case under pressure. The panel wants clarity, specificity and composure.",
+      "structure": [
+        "Pause briefly, then lead with your single strongest reason.",
+        "Support it with a concrete example from your experience.",
+        "Explain how that quality helps the class or the programme.",
+        "Keep it short and confident."
+      ],
+      "avoid": [
+        "Pleading or sounding desperate.",
+        "Giving several weak reasons instead of one strong one.",
+        "Criticising other candidates."
+      ]
+    },
+    {
+      "id": "pi-stress-third-year-dip",
+      "group": "stress",
+      "prompt": "Your academic scores dropped in your third year. Explain.",
+      "framing": "The panel tests honesty, accountability and what you learnt. They want an explanation, not an excuse, and evidence of recovery.",
+      "structure": [
+        "State the reason honestly and briefly - whether it was a personal issue, a wrong priority or difficulty with subjects.",
+        "Take responsibility for your part without dramatic self-criticism.",
+        "Describe what you changed and evidence that you recovered or learnt from it.",
+        "Connect it to how you now manage workload and priorities."
+      ],
+      "avoid": [
+        "Blaming teachers, the system or others.",
+        "Inventing a reason that does not hold up.",
+        "Dwelling on it for too long."
+      ]
+    },
+    {
+      "id": "pi-stress-interruptions",
+      "group": "stress",
+      "prompt": "The interviewer keeps interrupting you mid-sentence. How should you handle this in the interview?",
+      "framing": "Interruptions test your patience, composure and ability to adapt. The panel watches whether you listen, adjust and still make your point.",
+      "structure": [
+        "Stop and listen fully when interrupted - do not talk over the panel.",
+        "Respond directly to the new point or question raised.",
+        "If your earlier point was important, return to it briefly and politely at the right moment.",
+        "Keep your answers more concise to adapt to the pace."
+      ],
+      "avoid": [
+        "Showing irritation or saying 'please let me finish' sharply.",
+        "Losing your train of thought entirely.",
+        "Ignoring the interruption and continuing your script."
+      ]
+    },
+    {
+      "id": "pi-stress-answer-is-wrong",
+      "group": "stress",
+      "prompt": "That answer is completely wrong.",
+      "framing": "The panel may test whether you can hold a well-reasoned position or accept a genuine error gracefully. They want calm reflection, not stubbornness or caving.",
+      "structure": [
+        "Stay calm and ask what part they think is wrong, or think through your reasoning again.",
+        "If you see a mistake, acknowledge it clearly and correct it.",
+        "If you still think you are right, explain your reasoning politely and stay open to their view.",
+        "Show that you are interested in getting it right, not winning."
+      ],
+      "avoid": [
+        "Instantly changing your answer without thinking.",
+        "Arguing aggressively.",
+        "Becoming visibly rattled for the rest of the interview."
+      ]
+    },
+    {
+      "id": "pi-stress-rapid-fire-puzzle",
+      "group": "stress",
+      "prompt": "Quick: how many cups of tea are sold in your city in a day? You have one minute.",
+      "framing": "Guesstimates test structured thinking under time pressure. The panel cares about the logic, assumptions and calmness - not the final number.",
+      "structure": [
+        "Clarify the scope quickly - which city, what counts as a cup sold.",
+        "Choose an approach, for example estimate population, the share who drink tea outside, and cups per person.",
+        "State each assumption out loud and round numbers for easy maths.",
+        "Calculate step by step and give a final estimate with a sanity check.",
+        "Mention one assumption you would refine with more time."
+      ],
+      "avoid": [
+        "Guessing a number without structure.",
+        "Getting stuck on exact data you do not have.",
+        "Panicking about precision instead of explaining logic."
+      ]
+    },
+    {
+      "id": "pi-stress-panel-silence",
+      "group": "stress",
+      "prompt": "After your answer, the panel stays silent and just looks at you. What do you do?",
+      "framing": "Silence is used to see whether you get uncomfortable and start rambling or change your answer. Composure and confidence in a complete answer are what they want.",
+      "structure": [
+        "Stay calm and maintain a relaxed posture and eye contact.",
+        "If your answer was complete, wait a few seconds comfortably.",
+        "If the silence continues, ask politely whether they would like you to elaborate on any part.",
+        "Do not change a well-reasoned answer just because of silence."
+      ],
+      "avoid": [
+        "Rambling to fill the silence.",
+        "Retracting your answer.",
+        "Looking anxious or apologetic."
+      ]
+    },
+    {
+      "id": "pi-stress-not-on-form",
+      "group": "stress",
+      "prompt": "Tell me something about yourself that is not on your form.",
+      "framing": "The panel wants a glimpse of the real person and tests how well you know yourself. A thoughtful, authentic answer stands out more than an impressive one.",
+      "structure": [
+        "Pick something genuine that reveals a value, interest or experience - a habit, an influence, a small achievement.",
+        "Tell it as a short story with a specific detail.",
+        "Explain what it says about you.",
+        "Keep it professional and relevant enough to be discussed further."
+      ],
+      "avoid": [
+        "Repeating something already on the form.",
+        "Saying something too personal or controversial.",
+        "Choosing something you cannot discuss further."
+      ]
+    },
+    {
+      "id": "pi-stress-why-mba-not-needed",
+      "group": "stress",
+      "prompt": "Honestly, you do not need an MBA for your goals. Why waste two years?",
+      "framing": "This tests the clarity and conviction behind your MBA decision. The panel wants specific gaps the MBA fills, not general reasons.",
+      "structure": [
+        "Acknowledge that some people reach similar roles without an MBA.",
+        "Explain the specific skills, exposure or network you lack now and how the programme builds them.",
+        "Connect it to your career goal with a realistic timeline.",
+        "Show you have thought about the opportunity cost and still choose this deliberately."
+      ],
+      "avoid": [
+        "Giving generic reasons like 'for a better salary'.",
+        "Getting defensive.",
+        "Not having any clear goal."
+      ]
+    },
+    {
+      "id": "pi-stress-low-work-experience",
+      "group": "stress",
+      "prompt": "You have very little work experience. What can you possibly contribute to class discussions?",
+      "framing": "The panel tests self-awareness and how you value your own perspective. They want honest confidence, not defensiveness.",
+      "structure": [
+        "Acknowledge that your work experience is limited.",
+        "Highlight what you do bring: a fresh perspective, academic depth, projects, internships or leadership experiences.",
+        "Give a specific example of an insight or contribution you have made in a group.",
+        "Show you are eager to learn from experienced peers and contribute in return."
+      ],
+      "avoid": [
+        "Pretending your experience is more than it is.",
+        "Being apologetic or defensive.",
+        "Dismissing the value of work experience."
+      ]
+    },
+    {
+      "id": "pi-stress-change-goals-again",
+      "group": "stress",
+      "prompt": "You have changed your mind several times. Why should we believe your current goal?",
+      "framing": "The panel probes consistency and maturity. They want to see that changes were reasoned learning, not drift, and that the current goal is well grounded.",
+      "structure": [
+        "Acknowledge the changes openly.",
+        "Explain the logic behind each shift - what you learnt that led to it.",
+        "Show the research and experience behind your current goal.",
+        "Say how the MBA fits it, while showing reasonable flexibility."
+      ],
+      "avoid": [
+        "Hiding or denying the changes.",
+        "Claiming absolute certainty.",
+        "Having no evidence for the current goal."
+      ]
+    },
+    {
+      "id": "pi-stress-weakness-pressure",
+      "group": "stress",
+      "prompt": "That weakness you mentioned sounds like a strength in disguise. Give me a real one.",
+      "framing": "The panel pushes past rehearsed answers to test honesty and self-awareness. They want a genuine weakness and real work on it.",
+      "structure": [
+        "Accept the challenge without defensiveness.",
+        "Name a genuine weakness that is relevant but not disqualifying.",
+        "Give an example where it affected your work.",
+        "Describe what you are doing about it and the progress so far."
+      ],
+      "avoid": [
+        "Giving another disguised strength.",
+        "Naming a weakness that is critical for the role without any mitigation.",
+        "Getting flustered."
+      ]
+    },
+    {
+      "id": "pi-stress-same-answer-everyone",
+      "group": "stress",
+      "prompt": "Every candidate tells us the same thing. Why is your answer any different?",
+      "framing": "The panel tests whether you can move from a generic answer to a personal, specific one under pressure.",
+      "structure": [
+        "Acknowledge that the theme may be common.",
+        "Add a specific personal example or detail that only you could give.",
+        "Explain the particular way that experience shapes your view.",
+        "Keep it concise and grounded."
+      ],
+      "avoid": [
+        "Repeating the same generic answer louder.",
+        "Taking it personally.",
+        "Exaggerating to seem unique."
+      ]
+    },
+    {
+      "id": "pi-stress-hostile-tone",
+      "group": "stress",
+      "prompt": "The interviewer seems hostile and dismissive throughout. How do you keep your composure?",
+      "framing": "Some interviews are deliberately tough. The panel tests emotional resilience - whether you remain respectful and keep performing.",
+      "structure": [
+        "Remind yourself that the tone is often a test, not a judgement.",
+        "Keep your tone polite and steady; answer each question on its merit.",
+        "Breathe and slow down slightly rather than rushing.",
+        "Do not let one tough moment affect the rest of the interview."
+      ],
+      "avoid": [
+        "Matching hostility with hostility.",
+        "Becoming visibly nervous or giving up.",
+        "Assuming the interview is lost and disengaging."
+      ]
+    },
+    {
+      "id": "pi-stress-why-this-college-not-other",
+      "group": "stress",
+      "prompt": "If you got admits from a higher-ranked school, you would leave us, wouldn't you?",
+      "framing": "The panel tests honesty and how clearly you understand what this programme offers you. They respect candid, reasoned answers over flattery.",
+      "structure": [
+        "Be honest that you will weigh your options carefully if you have them.",
+        "Explain what specifically attracts you to this programme, based on your own research and its fit with your goals.",
+        "Show that your decision will be based on fit, not only rank.",
+        "Avoid promises you cannot keep."
+      ],
+      "avoid": [
+        "Flattering the school without specifics.",
+        "Promising to join no matter what.",
+        "Dismissing other schools."
+      ]
+    }
+  ]
+}

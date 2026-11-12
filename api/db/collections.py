@@ -18,6 +18,11 @@ WRITABLE_COLLECTIONS: frozenset[str] = frozenset({
     "mbaProfiles", "mbaQuestionStats", "mbaStudyTasks", "mbaAiUsage",
     # MBA Phase D: programmes (cutoffs embedded) and student shortlists
     "mbaPrograms", "mbaShortlists",
+    "mbaCounsellorRequests",  # MBA "talk to my counsellor" requests
+    "mbaNotificationState",  # MBA in-app notification read state (userId -> lastSeenAt, dismissed)
+    "mbaGdpiItems", "mbaGdpiSessions",  # MBA GDPI (WAT/GD/PI) content + mock sessions
+    "mbaAttemptAnalyses", "mbaQuestionReports",  # MBA mock analyst cache + question issue reports
+    "mbaLeaderboardPrefs", "mbaDailyResults",  # MBA opt-in daily leaderboard
 })
 
 # Top-level collections used by the Java backend (snapshot taken 2026-11-11 from
