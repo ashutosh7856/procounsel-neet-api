@@ -1,0 +1,832 @@
+{
+ "sets": [
+  {
+   "key": "VARC-P1",
+   "kind": "passage",
+   "title": "Chicago School and social disorganization",
+   "contentHtml": "<p>Sociologists working in the Chicago School tradition have focused on how rapid or dramatic social change causes increases in crime. Just as Durkheim, Marx, Toennies, and other European sociologists thought that the rapid changes produced by industrialization and urbanization produced crime and disorder, so too did the Chicago School theorists. The location of the University of Chicago provided an excellent opportunity for Park, Burgess, and McKenzie to study the social ecology of the city. Shaw and McKay found . . . that areas of the city characterized by high levels of social disorganization had higher rates of crime and delinquency.</p><p>In the 1920s and 1930s Chicago, like many American cities, experienced considerable immigration. Rapid population growth is a disorganizing influence, but growth resulting from in-migration of very different people is particularly disruptive. Chicago’s in-migrants were both native-born whites and blacks from rural areas and small towns, and foreign immigrants. The heavy industry of cities like Chicago, Detroit, and Pittsburgh drew those seeking opportunities and new lives. Farmers and villagers from America’s hinterland, like their European cousins of whom Durkheim wrote, moved in large numbers into cities. At the start of the twentieth century, Americans were predominately a rural population, but by the century’s mid-point most lived in urban areas. The social lives of these migrants, as well as those already living in the cities they moved to, were disrupted by the differences between urban and rural life.</p><p>According to social disorganization theory, until the social ecology of the “new place” can adapt, this rapid change is a criminogenic influence. But most rural migrants, and even many of the foreign immigrants to the city, looked like and eventually spoke the same language as the natives of the cities into which they moved. These similarities allowed for more rapid social integration for these migrants than was the case for African Americans and most foreign immigrants.</p><p>In these same decades America experienced what has been called “the great migration”: the massive movement of African Americans out of the rural South and into northern (and some southern) cities. The scale of this migration is one of the most dramatic in human history.</p><p>These migrants, unlike their white counterparts, were not integrated into the cities they now called home. In fact, most American cities at the end of the twentieth century were characterized by high levels of racial residential segregation... Failure to integrate these migrants, coupled with other forces of social disorganization such as crowding, poverty, and illness, caused crime rates to climb in the cities, particularly in the segregated wards and neighborhoods where the migrants were forced to live.</p><p>Foreign immigrants during this period did not look as dramatically different from the rest of the population as blacks did, but the migrants from eastern and southern Europe who came to American cities did not speak English, and were frequently Catholic, while the native born were mostly Protestant. The combination of rapid population growth with the diversity of those moving into the cities created what the Chicago School sociologists called social disorganization.</p>"
+  },
+  {
+   "key": "VARC-P2",
+   "kind": "passage",
+   "title": "Automation and the erosion of skill",
+   "contentHtml": "<p>As software improves, the people using it become less likely to sharpen their own know-how. Applications that offer lots of prompts and tips are often to blame; simpler, less solicitous programs push people harder to think, act and learn.</p><p>Ten years ago, information scientists at Utrecht University in the Netherlands had a group of people carry out complicated analytical and planning tasks using either rudimentary software that provided no assistance or sophisticated software that offered a great deal of aid. The researchers found that the people using the simple software developed better strategies, made fewer mistakes and developed a deeper aptitude for the work. The people using the more advanced software, meanwhile, would often “aimlessly click around” when confronted with a tricky problem. The supposedly helpful software actually short-circuited their thinking and learning.</p><p>[According to] philosopher Hubert Dreyfus… our skills get sharper only through practice, when we use them regularly to overcome different sorts of difficult challenges. The goal of modern software, by contrast, is to ease our way through such challenges. Arduous, painstaking work is exactly what programmers are most eager to automate—after all, that is where the immediate efficiency gains tend to lie. In other words, a fundamental tension ripples between the interests of the people doing the automation and the interests of the people doing the work.</p><p>Nevertheless, automation’s scope continues to widen. With the rise of electronic health records, physicians increasingly rely on software templates to guide them through patient exams. The programs incorporate valuable checklists and alerts, but they also make medicine more routinized and formulaic—and distance doctors from their patients… Harvard Medical School professor Beth Lown, in a 2012 journal article…warned that when doctors become “screen-driven,” following a computer’s prompts rather than “the patient’s narrative thread,” their thinking can become constricted. In the worst cases, they may miss important diagnostic signals. . . .</p><p>In a recent paper published in the journal Diagnosis, three medical researchers examined the misdiagnosis of Thomas Eric Duncan, the first person to die of Ebola in the U.S., at Texas Health Presbyterian Hospital Dallas. They argue that the digital templates used by the hospital’s clinicians to record patient information probably helped to induce a kind of tunnel vision. “These highly constrained tools,” the researchers write, “are optimized for data capture but at the expense of sacrificing their utility for appropriate triage and diagnosis, leading users to miss the forest for the trees.” Medical software, they write, is no “replacement for basic history-taking, examination skills, and critical thinking.” . . .</p><p>There is an alternative. In “human-centered automation,” the talents of people take precedence… In this model, software plays an essential but secondary role. It takes over routine functions that a human operator has already mastered, issues alerts when unexpected situations arise, provides fresh information that expands the operator’s perspective and counters the biases that often distort human thinking. The technology becomes the expert’s partner, not the expert’s replacement.</p>"
+  },
+  {
+   "key": "VARC-P3",
+   "kind": "passage",
+   "title": "Bios and Technos",
+   "contentHtml": "<p>Nature has all along yielded her flesh to humans. First, we took nature’s materials as food, fibers, and shelter. Then we learned to extract raw materials from her biosphere to create our own new synthetic materials. Now Bios is yielding us her mind—we are taking her logic.</p><p>Clockwork logic—the logic of the machines—will only build simple contraptions. Truly complex systems such as a cell, a meadow, an economy, or a brain (natural or artificial) require a rigorous nontechnological logic. We now see that no logic except bio-logic can assemble a thinking device, or even a workable system of any magnitude.</p><p>It is an astounding discovery that one can extract the logic of Bios out of biology and have something useful. Although many philosophers in the past have suspected one could abstract the laws of life and apply them elsewhere, it wasn’t until the complexity of computers and human-made systems became as complicated as living things, that it was possible to prove this. It’s eerie how much of life can be transferred. So far, some of the traits of the living that have successfully been transported to mechanical systems are: self-replication, self-governance, limited self-repair, mild evolution, and partial learning.</p><p>We have reason to believe yet more can be synthesized and made into something new. Yet at the same time that the logic of Bios is being imported into machines, the logic of Technos is being imported into life. The root of bioengineering is the desire to control the organic long enough to improve it. Domesticated plants and animals are examples of technos-logic applied to life. The wild aromatic root of the Queen Anne’s lace weed has been fine-tuned over generations by selective herb gatherers until it has evolved into a sweet carrot of the garden; the udders of wild bovines have been selectively enlarged in a “unnatural” way to satisfy humans rather than calves. Milk cows and carrots, therefore, are human inventions as much as steam engines and gunpowder are. But milk cows and carrots are more indicative of the kind of inventions humans will make in the future: products that are grown rather than manufactured.</p><p>Genetic engineering is precisely what cattle breeders do when they select better strains of Holsteins, only bioengineers employ more precise and powerful control. While carrot and milk cow breeders had to rely on diffuse organic evolution, modern genetic engineers can use directed artificial evolution—purposeful design—which greatly accelerates improvements.</p><p>The overlap of the mechanical and the lifelike increases year by year. Part of this bionic convergence is a matter of words. The meanings of “mechanical” and “life” are both stretching until all complicated things can be perceived as machines, and all self-sustaining machines can be perceived as alive. Yet beyond semantics, two concrete trends are happening: (1) Human-made things are behaving more lifelike, and (2) Life is becoming more engineered. The apparent veil between the organic and the manufactured has crumpled to reveal that the two really are, and have always been, of one being.</p>"
+  },
+  {
+   "key": "VARC-P4",
+   "kind": "passage",
+   "title": "Orientalism and the Indian past",
+   "contentHtml": "<p>Interpretations of the Indian past . . . were inevitably influenced by colonial concerns and interests, and also by prevalent European ideas about history, civilization and the Orient. Orientalist scholars studied the languages and the texts with selected Indian scholars, but made little attempt to understand the world-view of those who were teaching them. The readings therefore are something of a disjuncture from the traditional ways of looking at the Indian past. . . .</p><p>Orientalism [which we can understand broadly as Western perceptions of the Orient] fuelled the fantasy and the freedom sought by European Romanticism, particularly in its opposition to the more disciplined Neo-Classicism. The cultures of Asia were seen as bringing a new Romantic paradigm. Another Renaissance was anticipated through an acquaintance with the Orient, and this, it was thought, would be different from the earlier Greek Renaissance. It was believed that this Oriental Renaissance would liberate European thought and literature from the increasing focus on discipline and rationality that had followed from the earlier Enlightenment… [The Romantic English poets, Wordsworth and Coleridge,] were apprehensive of the changes introduced by industrialization and turned to nature and to fantasies of the Orient.</p><p>However, this enthusiasm gradually changed, to conform with the emphasis later in the nineteenth century on the innate superiority of European civilization. Oriental civilizations were now seen as having once been great but currently in decline. The various phases of Orientalism tended to mould European understanding of the Indian past into a particular pattern… There was an attempt to formulate Indian culture as uniform, such formulations being derived from texts that were given priority. The so-called ‘discovery’ of India was largely through selected literature in Sanskrit. This interpretation tended to emphasize non-historical aspects of Indian culture, for example the idea of an unchanging continuity of society and religion over 3,000 years; and it was believed that the Indian pattern of life was so concerned with metaphysics and the subtleties of religious belief that little attention was given to the more tangible aspects.</p><p>German Romanticism endorsed this image of India, and it became the mystic land for many Europeans, where even the most ordinary actions were imbued with a complex symbolism. This was the genesis of the idea of the spiritual east, and also, incidentally, the refuge of European intellectuals seeking to distance themselves from the changing patterns of their own societies. A dichotomy in values was maintained, Indian values being described as ‘spiritual’ and European values as ‘materialistic’, with little attempt to juxtapose these values with the reality of Indian society. This theme has been even more firmly endorsed by a section of Indian opinion during the last hundred years.</p><p>It was a consolation to the Indian intelligentsia for its perceived inability to counter the technical superiority of the west, a superiority viewed as having enabled Europe to colonize Asia and other parts of the world. At the height of anti-colonial nationalism it acted as a salve for having been made a colony of Britain.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "VARC-01",
+   "section": "VARC",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference (NOT)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which one of the following is not a valid inference from the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The differences between urban and rural lifestyles were crucial factors in the disruption experienced by migrants to American cities."
+    },
+    {
+     "id": "B",
+     "textHtml": "The failure to integrate in-migrants, along with social problems like poverty, was a significant reason for the rise in crime in American cities."
+    },
+    {
+     "id": "C",
+     "textHtml": "According to social disorganisation theory, fast-paced social change provides fertile ground for the rapid growth of crime."
+    },
+    {
+     "id": "D",
+     "textHtml": "According to social disorganisation theory, the social integration of African American migrants into Chicago was slower because they were less organised."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>We need the one statement the passage does <em>not</em> support.</p><p><strong>D is invalid.</strong> The passage explains the slower integration of African American migrants by their visible difference from the city natives and by segregation (they were \"forced to live\" in segregated wards). It never says they were \"less organised\"; social disorganization in the theory is a property of the neighbourhood's social ecology, not of a migrant group.</p><p>A is stated: migrants' lives \"were disrupted by the differences between urban and rural life\". B is stated almost word for word (failure to integrate + crowding, poverty, illness caused crime to climb). C restates the theory: rapid change is \"a criminogenic influence\".</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-02",
+   "section": "VARC",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Main idea / keywords",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which one of the following sets of words/phrases best encapsulates the issues discussed in the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Chicago School; Native-born Whites; European immigrants; Poverty"
+    },
+    {
+     "id": "B",
+     "textHtml": "Durkheim; Marx; Toennies; Shaw"
+    },
+    {
+     "id": "C",
+     "textHtml": "Rapid population growth; Heavy industry; Segregation; Crime"
+    },
+    {
+     "id": "D",
+     "textHtml": "Chicago School; Social organisation; Migration; Crime"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The passage presents the <strong>Chicago School</strong>'s theory of social (dis)organisation, applies it to <strong>migration</strong> into American cities, and links it to <strong>crime</strong>. Option D covers the theory, its key concept, the context and the outcome.</p><p>A leaves out the theory's central idea and crime. B is just a list of names mentioned in passing. C picks details (heavy industry) and misses the theoretical frame (the Chicago School and social disorganisation), which is the core of the passage.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-03",
+   "section": "VARC",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Strengthen / contradict",
+   "difficulty": "medium",
+   "stemHtml": "<p>The author notes that, “At the start of the twentieth century, Americans were predominately a rural population, but by the century’s mid-point most lived in urban areas.” Which one of the following statements, if true, does not contradict this statement?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Demographic transition in America in the twentieth century is strongly marked by an out-migration from rural areas."
+    },
+    {
+     "id": "B",
+     "textHtml": "Economists have found that throughout the twentieth century, the size of the labour force in America has always been largest in rural areas."
+    },
+    {
+     "id": "C",
+     "textHtml": "A population census conducted in 1952 showed that more Americans lived in rural areas than in urban ones."
+    },
+    {
+     "id": "D",
+     "textHtml": "The estimation of per capita income in America in the mid-twentieth century primarily required data from rural areas."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The statement describes a shift from a rural majority to an urban majority by mid-century.</p><p><strong>A</strong> (a strong out-migration from rural areas) is exactly what such a shift requires, so it is consistent with, not contradictory to, the statement.</p><p>B says the labour force was always largest in rural areas, even at mid-century, which clashes with most people living in cities. C directly says rural residents still outnumbered urban ones in 1952. D implies the rural population still dominated at mid-century, since income estimates mainly needed rural data. All three cut against the statement.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-04",
+   "section": "VARC",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Main conclusion",
+   "difficulty": "easy",
+   "stemHtml": "<p>A fundamental conclusion by the author is that:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "the best circumstances for crime to flourish are when there are severe racial disparities."
+    },
+    {
+     "id": "B",
+     "textHtml": "to prevent crime, it is important to maintain social order through maintaining social segregation."
+    },
+    {
+     "id": "C",
+     "textHtml": "according to European sociologists, crime in America is mainly in Chicago."
+    },
+    {
+     "id": "D",
+     "textHtml": "rapid population growth and demographic diversity give rise to social disorganisation that can feed the growth of crime"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The last paragraph sums up the argument: \"The combination of rapid population growth with the diversity of those moving into the cities created ... social disorganization\", and the passage opens by tying social disorganization to higher crime. That is <strong>D</strong>.</p><p>A overstates: racial difference is one factor, and the passage never ranks it as \"the best circumstances\". B is the opposite of the passage, which treats segregation as a cause of crime. C misreads the passage: European sociologists wrote about Europe, and Chicago is only the place the Chicago School studied.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-05",
+   "section": "VARC",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference",
+   "difficulty": "medium",
+   "stemHtml": "<p>In the Ebola misdiagnosis case, we can infer that doctors probably missed the forest for the trees because:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "they were led by the data processed by digital templates."
+    },
+    {
+     "id": "B",
+     "textHtml": "the digital templates forced them to acquire tunnel vision."
+    },
+    {
+     "id": "C",
+     "textHtml": "the data collected were not sufficient for appropriate triage."
+    },
+    {
+     "id": "D",
+     "textHtml": "they used the wrong type of digital templates for the case."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The researchers say the templates are \"optimized for data capture\" and that this led users \"to miss the forest for the trees\". The clinicians were following the template's data fields instead of thinking through the case. So they were <strong>led by the data processed by the templates</strong>: A.</p><p>B is too strong: the templates \"probably helped to induce\" tunnel vision; they did not <em>force</em> it. C blames the quantity of data, but the problem was the tool's design, not too little data. D is unsupported: no \"wrong type\" of template is mentioned; the criticism is of such templates in general.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-06",
+   "section": "VARC",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference",
+   "difficulty": "medium",
+   "stemHtml": "<p>It can be inferred that in the Utrecht University experiment, one group of people was “aimlessly clicking around” because:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "they wanted to avoid making mistakes."
+    },
+    {
+     "id": "B",
+     "textHtml": "they did not have the skill-set to address complicated tasks."
+    },
+    {
+     "id": "C",
+     "textHtml": "they were hoping that the software would help carry out the tasks."
+    },
+    {
+     "id": "D",
+     "textHtml": "the other group was carrying out the tasks more efficiently."
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>The clickers were the users of the sophisticated software that \"offered a great deal of aid\". Faced with a tricky problem, they clicked around instead of thinking, which means they were <strong>looking to the software to do the work for them</strong>: C. The passage adds that the helpful software \"short-circuited their thinking\".</p><p>A: nothing suggests fear of mistakes; in fact this group made more mistakes. B: both groups started with the same tasks; the point is that this group failed to <em>develop</em> skill, not that they lacked it at the start. D: the groups' behaviour was not a response to each other.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-07",
+   "section": "VARC",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Author's view (EXCEPT)",
+   "difficulty": "medium",
+   "stemHtml": "<p>From the passage, we can infer that the author is apprehensive about the use of sophisticated automation for all of the following reasons EXCEPT that:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "it could mislead people."
+    },
+    {
+     "id": "B",
+     "textHtml": "it stunts the development of its users."
+    },
+    {
+     "id": "C",
+     "textHtml": "it stops users from exercising their minds."
+    },
+    {
+     "id": "D",
+     "textHtml": "computers could replace humans."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The author's worries are all about what automation does to the <em>people using it</em>: it misleads them (the Ebola misdiagnosis, missing diagnostic signals) - A; it keeps them from developing skill (the Utrecht users developed less aptitude) - B; it short-circuits thinking (\"less likely to sharpen their own know-how\") - C.</p><p><strong>D</strong> is not among the author's concerns. The passage never warns that computers will take over human jobs; it argues that software should be the expert's partner, and its complaint is about de-skilling, not replacement.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-08",
+   "section": "VARC",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Application (EXCEPT)",
+   "difficulty": "hard",
+   "stemHtml": "<p>In the context of the passage, all of the following can be considered examples of human-centered automation EXCEPT:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "a smart-home system that changes the temperature as instructed by the resident."
+    },
+    {
+     "id": "B",
+     "textHtml": "software that auto-completes text when the user writes an email."
+    },
+    {
+     "id": "C",
+     "textHtml": "medical software that provides optional feedback on the doctor’s analysis of the medical situation."
+    },
+    {
+     "id": "D",
+     "textHtml": "software that offers interpretations when requested by the human operator."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>In human-centered automation \"the talents of people take precedence\" and software plays a secondary, supporting role: it follows the operator, alerts, or offers information that widens the operator's view.</p><p>A (acts only on the resident's instruction), C (optional feedback on the doctor's own analysis) and D (interpretations only when asked) all leave the human in charge.</p><p><strong>B</strong> is different: auto-complete steps in on its own and does the user's composing for them. It is the kind of solicitous \"prompts and tips\" software the passage says weakens the user's own skill, so it is not human-centered.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-09",
+   "section": "VARC",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Meaning of a statement",
+   "difficulty": "medium",
+   "stemHtml": "<p>The author claims that, “The apparent veil between the organic and the manufactured has crumpled to reveal that the two really are, and have always been, of one being.” Which one of the following statements best expresses the point being made by the author here?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Scientific advances are making it increasingly difficult to distinguish between organic reality and manufactured reality."
+    },
+    {
+     "id": "B",
+     "textHtml": "The crumpling of the organic veil between apparent and manufactured reality reveals them to have the same being."
+    },
+    {
+     "id": "C",
+     "textHtml": "Organic reality has crumpled under the veil of manufacturing, rendering the apparent and the real as the same being."
+    },
+    {
+     "id": "D",
+     "textHtml": "Apparent reality and organic reality are distinguished by the fact that the former is manufactured."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The sentence closes a paragraph about two trends: made things behaving more lifelike and life becoming more engineered. The \"veil\" (the seeming boundary) between the organic and the manufactured is disappearing, so the two can hardly be told apart. <strong>A</strong> says this.</p><p>B and C jumble the sentence's words: B invents an \"organic veil\" lying between \"apparent and manufactured reality\", and C has organic reality \"crumpling\" under manufacturing. Neither keeps the original's meaning. D sets up a distinction, the opposite of the author's point that the two are one.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-10",
+   "section": "VARC",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference",
+   "difficulty": "hard",
+   "stemHtml": "<p>None of the following statements is implied by the arguments of the passage, EXCEPT:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "purposeful design represents the pinnacle of scientific expertise in the service of human betterment and civilisational progress."
+    },
+    {
+     "id": "B",
+     "textHtml": "genetic engineers and bioengineers are the same insofar as they both seek to force evolution in an artificial way."
+    },
+    {
+     "id": "C",
+     "textHtml": "the biological realm is as complex as the mechanical one; which is why the logic of Bios is being imported into machines."
+    },
+    {
+     "id": "D",
+     "textHtml": "historically, philosophers have known that the laws of life can be abstracted and applied elsewhere."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>We need the one statement that <em>is</em> implied.</p><p><strong>B:</strong> the passage uses \"bioengineers\" and \"modern genetic engineers\" for the same work: both use \"directed artificial evolution - purposeful design\". So treating them as alike in forcing evolution artificially fits the passage.</p><p>A: the passage says purposeful design speeds up improvement, but nothing calls it the \"pinnacle\" of science or ties it to civilisational progress. C reverses the logic: it was human-made systems becoming as complicated as living things that let Bios's logic be transferred, and the passage does not say the two realms are equally complex. D: philosophers only \"suspected\" this; proof came only recently, so they did not \"know\" it.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-11",
+   "section": "VARC",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Keywords",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which one of the following sets of words/phrases best serves as keywords to the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Nature; Computers; Carrots; Milk cows; Genetic engineering"
+    },
+    {
+     "id": "B",
+     "textHtml": "Complex systems; Carrots; Milk cows; Convergence; Technos-logic"
+    },
+    {
+     "id": "C",
+     "textHtml": "Complex systems; Bio-logic; Bioengineering; Technos-logic; Convergence"
+    },
+    {
+     "id": "D",
+     "textHtml": "Nature; Bios; Technos; Self-repair; Holsteins"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>The argument runs: complex systems need <strong>bio-logic</strong>; Bios's logic is moving into machines while <strong>technos-logic</strong> moves into life through <strong>bioengineering</strong>; the result is a <strong>convergence</strong> of the made and the born. Option C names every step.</p><p>A, B and D mix in examples (carrots, milk cows, Holsteins, self-repair) that only illustrate the argument. A and D also leave out the convergence, which is the passage's conclusion.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-12",
+   "section": "VARC",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Meaning of a statement",
+   "difficulty": "easy",
+   "stemHtml": "<p>The author claims that, “Part of this bionic convergence is a matter of words”. Which one of the following statements best expresses the point being made by the author?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "“Mechanical” and “life” were earlier seen as opposite in meaning, but the difference between the two is increasingly blurred."
+    },
+    {
+     "id": "B",
+     "textHtml": "“Mechanical” and “life” are words from different logical systems and are, therefore, fundamentally incompatible in meaning."
+    },
+    {
+     "id": "C",
+     "textHtml": "“Bios” and “Technos” are both convergent forms of logic, but they generate meanings about the world that are mutually exclusive."
+    },
+    {
+     "id": "D",
+     "textHtml": "A bionic convergence indicates the meeting ground of genetic engineering and artificial intelligence."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The next sentence explains the claim: the meanings of \"mechanical\" and \"life\" \"are both stretching\" until complicated things count as machines and self-sustaining machines count as alive. Words that were once opposites now overlap: <strong>A</strong>.</p><p>B says the words are incompatible, the opposite of the point. C calls the meanings \"mutually exclusive\", which contradicts convergence. D brings in genetic engineering and AI, which have nothing to do with the point about words.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-13",
+   "section": "VARC",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Factual (EXCEPT)",
+   "difficulty": "easy",
+   "stemHtml": "<p>In the context of the passage, all of the following statements are true EXCEPT:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "India’s spiritualism served as a salve for European colonisers."
+    },
+    {
+     "id": "B",
+     "textHtml": "Orientalists’ understanding of Indian history was linked to colonial concerns."
+    },
+    {
+     "id": "C",
+     "textHtml": "Indian texts influenced Orientalist scholars."
+    },
+    {
+     "id": "D",
+     "textHtml": "Orientalist scholarship influenced Indians."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A is false.</strong> The \"spiritual India\" idea was a consolation to the <em>Indian intelligentsia</em>: \"a salve for having been made a colony of Britain\". It was a salve for the colonised, not the colonisers.</p><p>B: interpretations \"were inevitably influenced by colonial concerns\". C: Orientalists built their picture of India from selected (Sanskrit) texts. D: the spiritual-east theme was \"firmly endorsed by a section of Indian opinion\". All three are true.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-14",
+   "section": "VARC",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Author's view",
+   "difficulty": "medium",
+   "stemHtml": "<p>It can be inferred from the passage that the author is not likely to support the view that:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "India’s culture has evolved over the centuries."
+    },
+    {
+     "id": "B",
+     "textHtml": "the Orientalist view of Asia fired the imagination of some Western poets."
+    },
+    {
+     "id": "C",
+     "textHtml": "Indian culture acknowledges the material aspects of life."
+    },
+    {
+     "id": "D",
+     "textHtml": "India became a colony although it matched the technical knowledge of the West."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The author says Indians found consolation for their \"perceived inability to counter the technical superiority of the west\", a superiority that enabled Europe to colonise Asia. The author would therefore not claim that India matched the West technically: <strong>D</strong>.</p><p>The author criticises the Orientalist idea of an \"unchanging continuity\", so would support A. B is stated (Wordsworth and Coleridge turned to fantasies of the Orient). The author criticises the claim that Indians paid \"little attention ... to the more tangible aspects\" of life, so would support C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-15",
+   "section": "VARC",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Analogy / method",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which one of the following styles of research is most similar to the Orientalist scholars’ method of understanding Indian history and culture?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Reading 18th century accounts by travellers to India to see how they viewed Indian life and culture of the time."
+    },
+    {
+     "id": "B",
+     "textHtml": "Studying artefacts excavated at a palace to understand the lifestyle of those who lived there."
+    },
+    {
+     "id": "C",
+     "textHtml": "Reading about the life of early American settlers and later waves of migration to understand the evolution of American culture."
+    },
+    {
+     "id": "D",
+     "textHtml": "Analysing Hollywood action movies that depict violence and sex to understand contemporary America."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The Orientalists picked a <strong>narrow, unrepresentative set of texts</strong> (selected Sanskrit literature) and treated it as the whole of a uniform culture, without checking it against the society's actual life.</p><p><strong>D</strong> does the same thing: it judges a whole nation from one selective genre of its own cultural output.</p><p>A studies how <em>travellers</em> saw India, which is a study of outsiders' views, not a reading of a culture from its own selected texts. B uses material evidence for a specific, limited question. C follows change over time across several waves, which is the opposite of the Orientalists' \"unchanging continuity\".</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-16",
+   "section": "VARC",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference (EXCEPT)",
+   "difficulty": "medium",
+   "stemHtml": "<p>It can be inferred from the passage that to gain a more accurate view of a nation’s history and culture, scholars should do all of the following EXCEPT:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "examine the complex reality of that nation’s society."
+    },
+    {
+     "id": "B",
+     "textHtml": "develop an oppositional framework to grasp cultural differences."
+    },
+    {
+     "id": "C",
+     "textHtml": "read widely in the country’s literature."
+    },
+    {
+     "id": "D",
+     "textHtml": "examine their own beliefs and biases."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The passage criticises the Orientalists for a \"dichotomy in values\" (spiritual India versus materialistic Europe) set up \"with little attempt to juxtapose these values with the reality of Indian society\". An <strong>oppositional framework</strong> is the error itself, so B is not advice the passage supports.</p><p>A answers the failure to look at social reality. C answers their reliance on <em>selected</em> texts. D answers the way their readings were coloured by colonial concerns and European ideas. All three follow from the passage.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-17",
+   "section": "VARC",
+   "number": 17,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Para jumbles",
+   "difficulty": "medium",
+   "stemHtml": "<p>The four sentences (labelled 1, 2, 3 and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.</p><ol><li>If I wanted to sit indoors and read, or play Sonic the Hedgehog on a red-hot Sega Mega Drive, I would often be made to feel guilty about not going outside to “enjoy it while it lasts”.</li><li>My mum, quite reasonably, wanted me and my sister out of the house, in the sun.</li><li>Tales of my mum’s idyllic-sounding childhood in the Sussex countryside, where trees were climbed by 8 am and streams navigated by lunchtime, were passed down to us like folklore.</li><li>To an introverted kid, that felt like a threat – and the feeling has stayed with me.</li></ol>",
+   "answer": "3214",
+   "solutionHtml": "<p><strong>3</strong> sets the scene: the mother's outdoor childhood, retold to the children like folklore. <strong>2</strong> follows from it: she wanted her own children outside in the sun as well.</p><p><strong>1</strong> shows what that meant for the narrator: staying in to read or play brought guilt about not going out to \"enjoy it while it lasts\". <strong>4</strong> must come right after 1, because \"that\" in \"that felt like a threat\" refers to the line \"enjoy it while it lasts\". It also ends the paragraph on how the feeling stayed with the writer.</p><p>Order: <strong>3214</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-18",
+   "section": "VARC",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Summary",
+   "difficulty": "medium",
+   "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>To defend the sequence of alphabetisation may seem bizarre, so obvious is its application that it is hard to imagine a reference, catalogue or listing without it. But alphabetical order was not an immediate consequence of the alphabet itself. In the Middle Ages, deference for ecclesiastical tradition left scholars reluctant to categorise things according to the alphabet - to do so would be a rejection of the divine order. The rediscovery of the ancient Greek and Roman classics necessitated more efficient ways of ordering, searching and referencing texts. Government bureaucracy in the 16th and 17th centuries quickened the advance of alphabetical order, bringing with it pigeonholes, notebooks and card indexes.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The alphabetic order took several centuries to gain common currency because of religious beliefs and a lack of appreciation of its efficacy in the ordering of things."
+    },
+    {
+     "id": "B",
+     "textHtml": "Unlike the alphabet, once the efficacy of the alphabetic sequence became apparent to scholars and administrators, its use became widespread."
+    },
+    {
+     "id": "C",
+     "textHtml": "The ban on the use by scholars of any form of categorisation - but the divinely ordained one - delayed the adoption of the alphabetic sequence by several centuries."
+    },
+    {
+     "id": "D",
+     "textHtml": "While adoption of the written alphabet was easily accomplished, it took scholars several centuries to accept the alphabetic sequence as a useful tool in their work."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The passage says alphabetical order did not follow at once from the alphabet. Religious deference held it back in the Middle Ages, and it spread only when practical needs (the classics, bureaucracy) showed how useful it was. <strong>A</strong> covers both the delay and its causes.</p><p>B's \"Unlike the alphabet\" makes a comparison the passage does not make, and it leaves out why adoption was slow. C turns scholarly \"reluctance\" into a \"ban\", which is too strong. D claims the alphabet was \"easily accomplished\", which is not in the passage, and narrows the story to scholars, leaving out bureaucracy.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-19",
+   "section": "VARC",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Summary",
+   "difficulty": "easy",
+   "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>“It does seem to me that the job of comedy is to offend, or have the potential to offend, and it cannot be drained of that potential,” Rowan Atkinson said of cancel culture. “Every joke has a victim. That’s the definition of a joke. Someone or something or an idea is made to look ridiculous.” The Netflix star continued, “I think you’ve got to be very, very careful about saying what you’re allowed to make jokes about. You’ve always got to kick up? Really?” He added, “There are lots of extremely smug and self-satisfied people in what would be deemed lower down in society, who also deserve to be pulled up. In a proper free society, you should be allowed to make jokes about absolutely anything.”</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Victims of jokes must not only be politicians and royalty, but also arrogant people from lower classes should be mentioned by comedians."
+    },
+    {
+     "id": "B",
+     "textHtml": "Every joke needs a victim and one needs to include people from lower down the society and not just the upper class."
+    },
+    {
+     "id": "C",
+     "textHtml": "Cancel culture does not understand the role and duty of comedians, which is to deride and mock everyone."
+    },
+    {
+     "id": "D",
+     "textHtml": "All jokes target someone and one should be able to joke about anyone in the society, which is inconsistent with cancel culture."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Atkinson's argument: every joke has a victim; limiting who may be joked about (\"always kick up\") is wrong; in a free society you should be able to joke about anything. This is said in response to cancel culture. <strong>D</strong> captures all three parts.</p><p>A and B narrow the point to \"lower-class\" targets, which is only his example. B also turns \"may\" into \"needs to include\". C talks of a comedian's \"duty to mock everyone\", which overstates his claim that comedy has the <em>potential</em> to offend.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-20",
+   "section": "VARC",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Sentence placement",
+   "difficulty": "hard",
+   "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> When people socially learn from each other, they often learn without understanding why what they’re copying—the beliefs and behaviours and technologies and know-how—works.</p><p><strong>Paragraph:</strong> _____ (1) _____. The dual-inheritance theory …says… that inheritance is itself an evolutionary system. It has variation. What makes us a new kind of animal, and so different and successful as a species, is we rely heavily on social learning, to the point where socially acquired information is effectively a second line of inheritance, the first being our genes… _____ (2) _____. People tend to home in on who seems to be the smartest or most successful person around, as well as what everybody seems to be doing—the majority of people have something worth learning. _____ (3) _____. When you repeat this process over time, you can get, around the world, cultural packages— beliefs or behaviours or technology or other solutions—that are adapted to the local conditions. People have different psychologies, effectively. _____ (4) _____.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Option 1"
+    },
+    {
+     "id": "B",
+     "textHtml": "Option 2"
+    },
+    {
+     "id": "C",
+     "textHtml": "Option 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Option 4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The text before blank 2 introduces social learning as a \"second line of inheritance\". The missing sentence then describes <strong>how social learning works</strong>: people copy without knowing why the copied thing works. The next sentence continues that description by saying <em>whom</em> people copy (the successful, the majority). Then \"this process\", repeated over time, produces locally adapted cultural packages. So the sentence goes in <strong>blank 2</strong>.</p><p>Blank 1 comes before social learning has been mentioned, so \"When people socially learn ...\" would be out of place. Blank 3 would split \"whom people copy\" from \"repeat this process\", which belong together. Blank 4 follows the conclusion about different psychologies and would end the paragraph on a step that belongs earlier.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-21",
+   "section": "VARC",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Sentence placement",
+   "difficulty": "medium",
+   "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide in which blank (option 1, 2, 3, or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> This has meant a lot of uncertainty around what a wide-scale return to office might look like in practice.</p><p><strong>Paragraph:</strong> Bringing workers back to their desks has been a rocky road for employers and employees alike. The evolution of the pandemic has meant that best laid plans have often not materialised. _____ (1) _____. The flow of workers back into offices has been more of a trickle than a steady stream. _____ (2) _____. Yet while plenty of companies are still working through their new policies, some employees across the globe are now back at their desks, whether on a full-time or hybrid basis. _____ (3) _____. That means we’re beginning to get some clarity on what return-to-office means – what’s working, as well as what has yet to be settled. _____ (4) _____.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Option 1"
+    },
+    {
+     "id": "B",
+     "textHtml": "Option 2"
+    },
+    {
+     "id": "C",
+     "textHtml": "Option 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Option 4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>\"This\" in the sentence should point to the slow, uneven return, and the uncertainty it causes should then be contrasted by \"Yet ... some employees ... are now back\" and \"beginning to get some clarity\". Put after \"more of a trickle than a steady stream\", in <strong>blank 2</strong>, it does both.</p><p>Blank 1 would separate the two statements about plans failing and the trickle, which belong together. Blanks 3 and 4 come after the paragraph has turned towards clarity, so a sentence about uncertainty there would contradict the flow.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-22",
+   "section": "VARC",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Para jumbles",
+   "difficulty": "medium",
+   "stemHtml": "<p>The four sentences (labelled 1, 2, 3 and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.</p><ol><li>Various industrial sectors including retail, transit systems, enterprises, educational institutions, event organizing, finance, travel etc. have now started leveraging these beacons solutions to track and communicate with their customers.</li><li>A beacon fixed on to a shop wall enables the retailer to assess the proximity of the customer, and come up with a much targeted or personalized communication like offers, discounts and combos on products in each shelf.</li><li>Smart phones or other mobile devices can capture the beacon signals, and distance can be estimated by measuring received signal strength.</li><li>Beacons are tiny and inexpensive, micro-location-based technology devices that can send radio frequency signals and notify nearby Bluetooth devices of their presence and transmit information.</li></ol>",
+   "answer": "4321",
+   "solutionHtml": "<p><strong>4</strong> defines beacons, so it opens. <strong>3</strong> continues the technical description: phones pick up the signal, and distance is estimated from signal strength. <strong>2</strong> applies this distance estimate (\"assess the proximity of the customer\") in a shop. <strong>1</strong> widens out to the many sectors now using \"these beacons solutions\" and closes the paragraph.</p><p>Order: <strong>4321</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-23",
+   "section": "VARC",
+   "number": 23,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Para jumbles",
+   "difficulty": "medium",
+   "stemHtml": "<p>The four sentences (labelled 1, 2, 3 and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.</p><ol><li>The more we are able to accept that our achievements are largely out of our control, the easier it becomes to understand that our failures, and those of others, are too.</li><li>But the raft of recent books about the limits of merit is an important correction to the arrogance of contemporary entitlement and an opportunity to reassert the importance of luck, or grace, in our thinking.</li><li>Meritocracy as an organising principle is an inevitable function of a free society, as we are designed to see our achievements as worthy of reward.</li><li>And that in turn should increase our humility and the respect with which we treat our fellow citizens, helping ultimately to build a more compassionate society.</li></ol>",
+   "answer": "3214",
+   "solutionHtml": "<p><strong>3</strong> states the position (meritocracy is inevitable in a free society). <strong>2</strong> answers it with \"But\": recent books on the limits of merit bring back the role of luck. <strong>1</strong> develops the luck idea: if achievements are largely beyond our control, so are failures. <strong>4</strong> (\"And that in turn ...\") draws the conclusion of 1: more humility and a more compassionate society.</p><p>Order: <strong>3214</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-24",
+   "section": "VARC",
+   "number": 24,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Summary",
+   "difficulty": "medium",
+   "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>Tamsin Blanchard, curator of Fashion Open Studio, an initiative by a campaign group showcasing the work of ethical designers says, “We're all drawn to an exquisite piece of embroidery, a colourful textile or even a style of dressing that might have originated from another heritage. [But] this magpie mentality, where all of culture and history is up for grabs as 'inspiration', has accelerated since the proliferation of social media... Where once a fashion student might research the history and traditions of a particular item of clothing with care and respect, we now have a world where images are lifted from image libraries without a care for their cultural significance. It's easier than ever to steal a motif or a craft technique and transfer it on to a piece of clothing that is either mass produced or appears on a runway without credit or compensation to their original communities.”</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Taking fashion ideas from any cultural group without their consent is a form of appropriation without giving due credit, compensation, and respect."
+    },
+    {
+     "id": "B",
+     "textHtml": "Media has encouraged mass production; images are copied effortlessly without care or concern for the interests of ethnic communities."
+    },
+    {
+     "id": "C",
+     "textHtml": "Cultural collaboration is the need of the hour. Beautiful design ideas of indigenous people need to be showcased and shared worldwide."
+    },
+    {
+     "id": "D",
+     "textHtml": "Copying an embroidery design or pattern of textile from native communities who own them is tantamount to stealing and they need to be compensated."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Blanchard's complaint is that designs from other heritages are now taken freely, without the <strong>care and respect</strong> once shown for their history and <strong>without credit or compensation</strong> to the communities they come from. <strong>A</strong> captures all three: respect, credit and compensation.</p><p>B makes the media the cause of mass production, which the passage does not say, and leaves out credit and compensation. C argues for sharing designs widely, almost the opposite of her point. D is too narrow: it is limited to embroidery and textiles and to compensation, and leaves out respect and cultural significance.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

@@ -1,0 +1,591 @@
+{
+ "sets": [
+  {
+   "key": "DILR-S1",
+   "kind": "dilr_set",
+   "title": "AC dealers",
+   "contentHtml": "<p>An air conditioner (AC) company has four dealers — D1, D2, D3 and D4 in a city. It is evaluating sales performances of these dealers. The company sells two variants of ACs — Window and Split. Both these variants can be either Inverter type or Non-inverter type. It is known that of the total number of ACs sold in the city, 25% were of Window variant, while the rest were of Split variant. Among the Inverter ACs sold, 20% were of Window variant.</p><p>The following information is also known:</p><ol><li>Every dealer sold at least two window ACs.</li><li>D1 sold 13 inverter ACs, while D3 sold 5 Non-inverter ACs.</li><li>A total of six Window Non-inverter ACs and 36 Split Inverter ACs were sold in the city.</li><li>The number of Split ACs sold by D1 was twice the number of Window ACs sold by it.</li><li>D3 and D4 sold an equal number of Window ACs and this number was one-third of the number of similar ACs sold by D2.</li><li>D2 and D3 were the only ones who sold Window Non-inverter ACs. The number of these ACs sold by D2 was twice the number of these ACs sold by D3.</li><li>D3 and D4 sold an equal number of Split Inverter ACs. This number was half the number of similar ACs sold by D2.</li></ol>"
+  },
+  {
+   "key": "DILR-S2",
+   "kind": "dilr_set",
+   "title": "Project and test scores",
+   "contentHtml": "<p>There are only three female students — Amala, Koli and Rini — and only three male students — Biman, Mathew and Shyamal — in a course. The course has two evaluation components, a project and a test. The aggregate score in the course is a weighted average of the two components, with the weights being positive and adding to 1.</p><p>The projects are done in groups of two, with each group consisting of a female and a male student. Both the group members obtain the same score in the project.</p><p>The following additional facts are known about the scores in the project and the test.</p><ol><li>The minimum, maximum and the average of both project and test scores were identical — 40, 80 and 60, respectively.</li><li>The test scores of the students were all multiples of 10; four of them were distinct and the remaining two were equal to the average test scores.</li><li>Amala’s score in the project was double that of Koli in the same, but Koli scored 20 more than Amala in the test. Yet Amala had the highest aggregate score.</li><li>Shyamal scored the second highest in the test. He scored two more than Koli, but two less than Amala in the aggregate.</li><li>Biman scored the second lowest in the test and the lowest in the aggregate.</li><li>Mathew scored more than Rini in the project, but less than her in the test.</li></ol>"
+  },
+  {
+   "key": "DILR-S3",
+   "kind": "dilr_set",
+   "title": "Police patrol teams",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2023-slot3/police-stations.png"
+   ],
+   "contentHtml": "<p>A, B, C, D, E and F are the six police stations in an area, which are connected by streets as shown below. Four teams - Team 1, Team 2, Team 3 and Team 4 - patrol these streets continuously between 09:00 hrs and 12:00 hrs each day.</p><p>The teams need 30 minutes to cross a street connecting one police station to another. All four teams start from Station A at 09:00 hrs and must return to Station A by 12:00 hrs. They can also pass via Station A at any point on their journeys.</p><p>The following facts are known.</p><ol><li>None of the streets has more than one team traveling along it in any direction at any point in time.</li><li>Teams 2 and 3 are the only ones in stations E and D respectively at 10:00 hrs.</li><li>Teams 1 and 3 are the only ones in station E at 10:30 hrs.</li><li>Teams 1 and 4 are the only ones in stations B and E respectively at 11:30 hrs.</li><li>Team 1 and Team 4 are the only teams that patrol the street connecting stations A and E.</li><li>Team 4 never passes through Stations B, D or F.</li></ol>"
+  },
+  {
+   "key": "DILR-S4",
+   "kind": "dilr_set",
+   "title": "Online and offline registrations",
+   "contentHtml": "<p>In a coaching class, some students register online, and some others register offline. No student registers both online and offline; hence the total registration number is the sum of online and offline registrations. The following facts and table pertain to these registration numbers for the five months — January to May of 2023. The table shows the minimum, maximum, median registration numbers of these five months, separately for online, offline and total number of registrations. The following additional facts are known.</p><ol><li>In every month, both online and offline registration numbers were multiples of 10.</li><li>In January, the number of offline registrations was twice that of online registrations.</li><li>In April, the number of online registrations was twice that of offline registrations.</li><li>The number of online registrations in March was the same as the number of offline registrations in February.</li><li>The number of online registrations was the largest in May.</li></ol><table><thead><tr><th></th><th>Minimum</th><th>Maximum</th><th>Median</th></tr></thead><tbody><tr><td>Online</td><td>40</td><td>100</td><td>80</td></tr><tr><td>Offline</td><td>30</td><td>80</td><td>50</td></tr><tr><td>Total</td><td>110</td><td>130</td><td>120</td></tr></tbody></table>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables / sets",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many Split Inverter ACs did D2 sell?</p>",
+   "answer": "14",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Split Inverter = 36 = 80% of all Inverter ACs, so Inverter = 45 and Window Inverter = 9. Window = 6 + 9 = 15 = 25% of total, so <strong>total = 60</strong>, Split = 45, Split Non-inverter = 9.</p><p>Window ACs: D3 = D4 = w, D2 = 3w, D1 = 15 − 5w with every dealer ≥ 2, so w = 2: <strong>D1 5, D2 6, D3 2, D4 2</strong>. Window Non-inverter (only D2, D3, D2 = 2×D3, total 6): D2 4, D3 2. So D1’s 5 and D4’s 2 window ACs are Inverter, and D2 has 2 Window Inverter.</p><p>D1: Split = 10; Inverter 13 = 5 window + <strong>8 Split Inverter</strong>, so 2 Split Non-inverter. Remaining Split Inverter 36 − 8 = 28 = s + s + 2s, so s = 7: <strong>D2 14, D3 7, D4 7</strong>. D3 Non-inverter 5 = 2 window + 3 split. Split Non-inverter left for D2 + D4 = 9 − 2 − 3 = 4.</p><table><thead><tr><th>Dealer</th><th>W-Inv</th><th>W-Non</th><th>S-Inv</th><th>S-Non</th><th>Total</th></tr></thead><tbody><tr><td>D1</td><td>5</td><td>0</td><td>8</td><td>2</td><td>15</td></tr><tr><td>D2</td><td>2</td><td>4</td><td>14</td><td>a</td><td>20 + a</td></tr><tr><td>D3</td><td>0</td><td>2</td><td>7</td><td>3</td><td>12</td></tr><tr><td>D4</td><td>2</td><td>0</td><td>7</td><td>b</td><td>9 + b</td></tr></tbody></table><p>with a + b = 4.</p><p>D2 sold 2 × 7 = <strong>14</strong> Split Inverter ACs.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables / sets",
+   "difficulty": "easy",
+   "stemHtml": "<p>What percentage of ACs sold were of Non-Inverter type?</p>",
+   "answer": "25",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Split Inverter = 36 = 80% of all Inverter ACs, so Inverter = 45 and Window Inverter = 9. Window = 6 + 9 = 15 = 25% of total, so <strong>total = 60</strong>, Split = 45, Split Non-inverter = 9.</p><p>Window ACs: D3 = D4 = w, D2 = 3w, D1 = 15 − 5w with every dealer ≥ 2, so w = 2: <strong>D1 5, D2 6, D3 2, D4 2</strong>. Window Non-inverter (only D2, D3, D2 = 2×D3, total 6): D2 4, D3 2. So D1’s 5 and D4’s 2 window ACs are Inverter, and D2 has 2 Window Inverter.</p><p>D1: Split = 10; Inverter 13 = 5 window + <strong>8 Split Inverter</strong>, so 2 Split Non-inverter. Remaining Split Inverter 36 − 8 = 28 = s + s + 2s, so s = 7: <strong>D2 14, D3 7, D4 7</strong>. D3 Non-inverter 5 = 2 window + 3 split. Split Non-inverter left for D2 + D4 = 9 − 2 − 3 = 4.</p><table><thead><tr><th>Dealer</th><th>W-Inv</th><th>W-Non</th><th>S-Inv</th><th>S-Non</th><th>Total</th></tr></thead><tbody><tr><td>D1</td><td>5</td><td>0</td><td>8</td><td>2</td><td>15</td></tr><tr><td>D2</td><td>2</td><td>4</td><td>14</td><td>a</td><td>20 + a</td></tr><tr><td>D3</td><td>0</td><td>2</td><td>7</td><td>3</td><td>12</td></tr><tr><td>D4</td><td>2</td><td>0</td><td>7</td><td>b</td><td>9 + b</td></tr></tbody></table><p>with a + b = 4.</p><p>Non-inverter = Window 6 + Split 9 = 15 out of 60 = <strong>25%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables / sets",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the total number of ACs sold by D2 and D4?</p>",
+   "answer": "33",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Split Inverter = 36 = 80% of all Inverter ACs, so Inverter = 45 and Window Inverter = 9. Window = 6 + 9 = 15 = 25% of total, so <strong>total = 60</strong>, Split = 45, Split Non-inverter = 9.</p><p>Window ACs: D3 = D4 = w, D2 = 3w, D1 = 15 − 5w with every dealer ≥ 2, so w = 2: <strong>D1 5, D2 6, D3 2, D4 2</strong>. Window Non-inverter (only D2, D3, D2 = 2×D3, total 6): D2 4, D3 2. So D1’s 5 and D4’s 2 window ACs are Inverter, and D2 has 2 Window Inverter.</p><p>D1: Split = 10; Inverter 13 = 5 window + <strong>8 Split Inverter</strong>, so 2 Split Non-inverter. Remaining Split Inverter 36 − 8 = 28 = s + s + 2s, so s = 7: <strong>D2 14, D3 7, D4 7</strong>. D3 Non-inverter 5 = 2 window + 3 split. Split Non-inverter left for D2 + D4 = 9 − 2 − 3 = 4.</p><table><thead><tr><th>Dealer</th><th>W-Inv</th><th>W-Non</th><th>S-Inv</th><th>S-Non</th><th>Total</th></tr></thead><tbody><tr><td>D1</td><td>5</td><td>0</td><td>8</td><td>2</td><td>15</td></tr><tr><td>D2</td><td>2</td><td>4</td><td>14</td><td>a</td><td>20 + a</td></tr><tr><td>D3</td><td>0</td><td>2</td><td>7</td><td>3</td><td>12</td></tr><tr><td>D4</td><td>2</td><td>0</td><td>7</td><td>b</td><td>9 + b</td></tr></tbody></table><p>with a + b = 4.</p><p>D2 + D4 = (20 + a) + (9 + b) = 29 + 4 = <strong>33</strong>. (Check: 60 − D1 15 − D3 12 = 33.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables / sets",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following statements is necessarily false?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "D1 and D3 together sold more ACs as compared to D2 and D4 together."
+    },
+    {
+     "id": "B",
+     "textHtml": "D4 sold more Split ACs as compared to D3."
+    },
+    {
+     "id": "C",
+     "textHtml": "D2 sold the highest number of ACs."
+    },
+    {
+     "id": "D",
+     "textHtml": "D1 and D3 sold an equal number of Split ACs."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Split Inverter = 36 = 80% of all Inverter ACs, so Inverter = 45 and Window Inverter = 9. Window = 6 + 9 = 15 = 25% of total, so <strong>total = 60</strong>, Split = 45, Split Non-inverter = 9.</p><p>Window ACs: D3 = D4 = w, D2 = 3w, D1 = 15 − 5w with every dealer ≥ 2, so w = 2: <strong>D1 5, D2 6, D3 2, D4 2</strong>. Window Non-inverter (only D2, D3, D2 = 2×D3, total 6): D2 4, D3 2. So D1’s 5 and D4’s 2 window ACs are Inverter, and D2 has 2 Window Inverter.</p><p>D1: Split = 10; Inverter 13 = 5 window + <strong>8 Split Inverter</strong>, so 2 Split Non-inverter. Remaining Split Inverter 36 − 8 = 28 = s + s + 2s, so s = 7: <strong>D2 14, D3 7, D4 7</strong>. D3 Non-inverter 5 = 2 window + 3 split. Split Non-inverter left for D2 + D4 = 9 − 2 − 3 = 4.</p><table><thead><tr><th>Dealer</th><th>W-Inv</th><th>W-Non</th><th>S-Inv</th><th>S-Non</th><th>Total</th></tr></thead><tbody><tr><td>D1</td><td>5</td><td>0</td><td>8</td><td>2</td><td>15</td></tr><tr><td>D2</td><td>2</td><td>4</td><td>14</td><td>a</td><td>20 + a</td></tr><tr><td>D3</td><td>0</td><td>2</td><td>7</td><td>3</td><td>12</td></tr><tr><td>D4</td><td>2</td><td>0</td><td>7</td><td>b</td><td>9 + b</td></tr></tbody></table><p>with a + b = 4.</p><p>D1 + D3 = 15 + 12 = 27, while D2 + D4 = 33, so <strong>A is always false</strong>.</p><p>B: D4 split = 7 + b, D3 split = 10; true when b = 4. C: D2 has at least 20, the most — true. D: D1 and D3 both sold 10 Split ACs — true.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables / sets",
+   "difficulty": "easy",
+   "stemHtml": "<p>If D3 and D4 sold an equal number of ACs, then what was the number of Non-Inverter ACs sold by D2?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "7"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Split Inverter = 36 = 80% of all Inverter ACs, so Inverter = 45 and Window Inverter = 9. Window = 6 + 9 = 15 = 25% of total, so <strong>total = 60</strong>, Split = 45, Split Non-inverter = 9.</p><p>Window ACs: D3 = D4 = w, D2 = 3w, D1 = 15 − 5w with every dealer ≥ 2, so w = 2: <strong>D1 5, D2 6, D3 2, D4 2</strong>. Window Non-inverter (only D2, D3, D2 = 2×D3, total 6): D2 4, D3 2. So D1’s 5 and D4’s 2 window ACs are Inverter, and D2 has 2 Window Inverter.</p><p>D1: Split = 10; Inverter 13 = 5 window + <strong>8 Split Inverter</strong>, so 2 Split Non-inverter. Remaining Split Inverter 36 − 8 = 28 = s + s + 2s, so s = 7: <strong>D2 14, D3 7, D4 7</strong>. D3 Non-inverter 5 = 2 window + 3 split. Split Non-inverter left for D2 + D4 = 9 − 2 − 3 = 4.</p><table><thead><tr><th>Dealer</th><th>W-Inv</th><th>W-Non</th><th>S-Inv</th><th>S-Non</th><th>Total</th></tr></thead><tbody><tr><td>D1</td><td>5</td><td>0</td><td>8</td><td>2</td><td>15</td></tr><tr><td>D2</td><td>2</td><td>4</td><td>14</td><td>a</td><td>20 + a</td></tr><tr><td>D3</td><td>0</td><td>2</td><td>7</td><td>3</td><td>12</td></tr><tr><td>D4</td><td>2</td><td>0</td><td>7</td><td>b</td><td>9 + b</td></tr></tbody></table><p>with a + b = 4.</p><p>D3 = 12 = D4 = 9 + b → b = 3, so a = 1. D2’s Non-inverter = 4 window + 1 split = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores / weighted average",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was Rini’s score in the project?</p>",
+   "answer": "60",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Project scores come in three team values with min 40, max 80, average 60, so they are <strong>40, 60, 80</strong>. Amala = 2 × Koli gives Amala 80, Koli 40, Rini 60; Mathew beats Rini, so Mathew 80 (Amala’s partner).</p><p>Test scores: multiples of 10, min 40, max 80, total 360, four distinct plus two 60s → <strong>40, 50, 60, 60, 70, 80</strong>. Shyamal (2nd highest) = 70, Biman (2nd lowest) = 50.</p><p>Amala − Koli in aggregate = 4 (Shyamal is 2 above Koli and 2 below Amala). With test weight w: w(−20) + (1 − w)(40) = 4 → <strong>w = 0.6</strong>.</p><p>Koli = Amala + 20 in the test: either (40, 60) or (60, 80). Shyamal’s aggregate 0.6×70 + 0.4P = Amala − 2 works only with Amala test 60 (aggregate 68), giving Shyamal’s project 60. So Koli test 80, and Mathew &lt; Rini leaves Mathew 40, Rini 60. Teams: <strong>Amala–Mathew (80), Rini–Shyamal (60), Koli–Biman (40)</strong>.</p><table><thead><tr><th>Student</th><th>Project</th><th>Test</th><th>Aggregate</th></tr></thead><tbody><tr><td>Amala</td><td>80</td><td>60</td><td>68</td></tr><tr><td>Koli</td><td>40</td><td>80</td><td>64</td></tr><tr><td>Rini</td><td>60</td><td>60</td><td>60</td></tr><tr><td>Mathew</td><td>80</td><td>40</td><td>56</td></tr><tr><td>Shyamal</td><td>60</td><td>70</td><td>66</td></tr><tr><td>Biman</td><td>40</td><td>50</td><td>46</td></tr></tbody></table><p>Rini’s project score is <strong>60</strong>. It is fixed as soon as Amala = 80 and Koli = 40 are known.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores / weighted average",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was the weight of the test component?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "0.50"
+    },
+    {
+     "id": "B",
+     "textHtml": "0.60"
+    },
+    {
+     "id": "C",
+     "textHtml": "0.40"
+    },
+    {
+     "id": "D",
+     "textHtml": "0.75"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Project scores come in three team values with min 40, max 80, average 60, so they are <strong>40, 60, 80</strong>. Amala = 2 × Koli gives Amala 80, Koli 40, Rini 60; Mathew beats Rini, so Mathew 80 (Amala’s partner).</p><p>Test scores: multiples of 10, min 40, max 80, total 360, four distinct plus two 60s → <strong>40, 50, 60, 60, 70, 80</strong>. Shyamal (2nd highest) = 70, Biman (2nd lowest) = 50.</p><p>Amala − Koli in aggregate = 4 (Shyamal is 2 above Koli and 2 below Amala). With test weight w: w(−20) + (1 − w)(40) = 4 → <strong>w = 0.6</strong>.</p><p>Koli = Amala + 20 in the test: either (40, 60) or (60, 80). Shyamal’s aggregate 0.6×70 + 0.4P = Amala − 2 works only with Amala test 60 (aggregate 68), giving Shyamal’s project 60. So Koli test 80, and Mathew &lt; Rini leaves Mathew 40, Rini 60. Teams: <strong>Amala–Mathew (80), Rini–Shyamal (60), Koli–Biman (40)</strong>.</p><table><thead><tr><th>Student</th><th>Project</th><th>Test</th><th>Aggregate</th></tr></thead><tbody><tr><td>Amala</td><td>80</td><td>60</td><td>68</td></tr><tr><td>Koli</td><td>40</td><td>80</td><td>64</td></tr><tr><td>Rini</td><td>60</td><td>60</td><td>60</td></tr><tr><td>Mathew</td><td>80</td><td>40</td><td>56</td></tr><tr><td>Shyamal</td><td>60</td><td>70</td><td>66</td></tr><tr><td>Biman</td><td>40</td><td>50</td><td>46</td></tr></tbody></table><p>From Amala − Koli = 4: 40 − 60w = 4 → w = <strong>0.60</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores / weighted average",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was the maximum aggregate score obtained by the students?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "68"
+    },
+    {
+     "id": "B",
+     "textHtml": "80"
+    },
+    {
+     "id": "C",
+     "textHtml": "66"
+    },
+    {
+     "id": "D",
+     "textHtml": "62"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Project scores come in three team values with min 40, max 80, average 60, so they are <strong>40, 60, 80</strong>. Amala = 2 × Koli gives Amala 80, Koli 40, Rini 60; Mathew beats Rini, so Mathew 80 (Amala’s partner).</p><p>Test scores: multiples of 10, min 40, max 80, total 360, four distinct plus two 60s → <strong>40, 50, 60, 60, 70, 80</strong>. Shyamal (2nd highest) = 70, Biman (2nd lowest) = 50.</p><p>Amala − Koli in aggregate = 4 (Shyamal is 2 above Koli and 2 below Amala). With test weight w: w(−20) + (1 − w)(40) = 4 → <strong>w = 0.6</strong>.</p><p>Koli = Amala + 20 in the test: either (40, 60) or (60, 80). Shyamal’s aggregate 0.6×70 + 0.4P = Amala − 2 works only with Amala test 60 (aggregate 68), giving Shyamal’s project 60. So Koli test 80, and Mathew &lt; Rini leaves Mathew 40, Rini 60. Teams: <strong>Amala–Mathew (80), Rini–Shyamal (60), Koli–Biman (40)</strong>.</p><table><thead><tr><th>Student</th><th>Project</th><th>Test</th><th>Aggregate</th></tr></thead><tbody><tr><td>Amala</td><td>80</td><td>60</td><td>68</td></tr><tr><td>Koli</td><td>40</td><td>80</td><td>64</td></tr><tr><td>Rini</td><td>60</td><td>60</td><td>60</td></tr><tr><td>Mathew</td><td>80</td><td>40</td><td>56</td></tr><tr><td>Shyamal</td><td>60</td><td>70</td><td>66</td></tr><tr><td>Biman</td><td>40</td><td>50</td><td>46</td></tr></tbody></table><p>Amala has the highest aggregate: 0.6 × 60 + 0.4 × 80 = <strong>68</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores / weighted average",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was Mathew’s score in the test?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Project scores come in three team values with min 40, max 80, average 60, so they are <strong>40, 60, 80</strong>. Amala = 2 × Koli gives Amala 80, Koli 40, Rini 60; Mathew beats Rini, so Mathew 80 (Amala’s partner).</p><p>Test scores: multiples of 10, min 40, max 80, total 360, four distinct plus two 60s → <strong>40, 50, 60, 60, 70, 80</strong>. Shyamal (2nd highest) = 70, Biman (2nd lowest) = 50.</p><p>Amala − Koli in aggregate = 4 (Shyamal is 2 above Koli and 2 below Amala). With test weight w: w(−20) + (1 − w)(40) = 4 → <strong>w = 0.6</strong>.</p><p>Koli = Amala + 20 in the test: either (40, 60) or (60, 80). Shyamal’s aggregate 0.6×70 + 0.4P = Amala − 2 works only with Amala test 60 (aggregate 68), giving Shyamal’s project 60. So Koli test 80, and Mathew &lt; Rini leaves Mathew 40, Rini 60. Teams: <strong>Amala–Mathew (80), Rini–Shyamal (60), Koli–Biman (40)</strong>.</p><table><thead><tr><th>Student</th><th>Project</th><th>Test</th><th>Aggregate</th></tr></thead><tbody><tr><td>Amala</td><td>80</td><td>60</td><td>68</td></tr><tr><td>Koli</td><td>40</td><td>80</td><td>64</td></tr><tr><td>Rini</td><td>60</td><td>60</td><td>60</td></tr><tr><td>Mathew</td><td>80</td><td>40</td><td>56</td></tr><tr><td>Shyamal</td><td>60</td><td>70</td><td>66</td></tr><tr><td>Biman</td><td>40</td><td>50</td><td>46</td></tr></tbody></table><p>Mathew’s test score is <strong>40</strong>, lower than Rini’s 60 as required.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores / weighted average",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following pairs of students were part of the same project team?</p><p>i) Amala and Biman<br>ii) Koli and Mathew</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Both (i) and (ii)"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only (ii)"
+    },
+    {
+     "id": "C",
+     "textHtml": "Neither (i) nor (ii)"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only (i)"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Project scores come in three team values with min 40, max 80, average 60, so they are <strong>40, 60, 80</strong>. Amala = 2 × Koli gives Amala 80, Koli 40, Rini 60; Mathew beats Rini, so Mathew 80 (Amala’s partner).</p><p>Test scores: multiples of 10, min 40, max 80, total 360, four distinct plus two 60s → <strong>40, 50, 60, 60, 70, 80</strong>. Shyamal (2nd highest) = 70, Biman (2nd lowest) = 50.</p><p>Amala − Koli in aggregate = 4 (Shyamal is 2 above Koli and 2 below Amala). With test weight w: w(−20) + (1 − w)(40) = 4 → <strong>w = 0.6</strong>.</p><p>Koli = Amala + 20 in the test: either (40, 60) or (60, 80). Shyamal’s aggregate 0.6×70 + 0.4P = Amala − 2 works only with Amala test 60 (aggregate 68), giving Shyamal’s project 60. So Koli test 80, and Mathew &lt; Rini leaves Mathew 40, Rini 60. Teams: <strong>Amala–Mathew (80), Rini–Shyamal (60), Koli–Biman (40)</strong>.</p><table><thead><tr><th>Student</th><th>Project</th><th>Test</th><th>Aggregate</th></tr></thead><tbody><tr><td>Amala</td><td>80</td><td>60</td><td>68</td></tr><tr><td>Koli</td><td>40</td><td>80</td><td>64</td></tr><tr><td>Rini</td><td>60</td><td>60</td><td>60</td></tr><tr><td>Mathew</td><td>80</td><td>40</td><td>56</td></tr><tr><td>Shyamal</td><td>60</td><td>70</td><td>66</td></tr><tr><td>Biman</td><td>40</td><td>50</td><td>46</td></tr></tbody></table><p>Teams are Amala–Mathew, Koli–Biman, Rini–Shyamal. Neither pair is a team: <strong>neither (i) nor (ii)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes / scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which one among the following stations is visited the largest number of times?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Station F"
+    },
+    {
+     "id": "B",
+     "textHtml": "Station C"
+    },
+    {
+     "id": "C",
+     "textHtml": "Station D"
+    },
+    {
+     "id": "D",
+     "textHtml": "Station E"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Streets: A–B, A–C, A–E, A–F, F–E, C–D, D–E. Each team makes 6 moves (positions at 9:30, 10:00, …, 12:00) and ends at A.</p><p><strong>Team 4</strong> uses only A, C, E, so it is at A at 10:00 and 11:00 and must be at E at 11:30. <strong>Team 3</strong> is at D at 10:00, so A→C→D, then D→E (10:30). <strong>Team 2</strong> is at E at 10:00 without using A–E, so A→F→E; at 10:30 it must leave E, and not via A–E or D–E (Team 3 is on it), so E→F.</p><p><strong>Team 1</strong> is at E at 10:30 and B at 11:30, so it is at A at 11:00. At 10:00 it must be next to E but not at E or D (only Teams 2 and 3 are there), and not at F (F–E is taken by Team 2 from 10:00 to 10:30), so it is at A. In the first half hour A–C (Team 3) and A–F (Team 2) are taken, and Team 4 must take A–E, so Team 1 goes A→B. Team 4 then can’t use A–E at 10:00–10:30 (Team 1) and goes to C.</p><table><thead><tr><th>Team</th><th>9:30</th><th>10:00</th><th>10:30</th><th>11:00</th><th>11:30</th><th>12:00</th></tr></thead><tbody><tr><td>1</td><td>B</td><td>A</td><td>E</td><td>A</td><td>B</td><td>A</td></tr><tr><td>2</td><td>F</td><td>E</td><td>F</td><td>E or A</td><td>F</td><td>A</td></tr><tr><td>3</td><td>C</td><td>D</td><td>E</td><td>D</td><td>C</td><td>A</td></tr><tr><td>4</td><td>E</td><td>A</td><td>C</td><td>A</td><td>E</td><td>A</td></tr></tbody></table><p>(Team 3 at 11:00 can’t go to A or F, so it goes to D, then to C, because E at 11:30 has only Team 4. Team 2 at 11:00 is at E or A; either way it is at F at 11:30.)</p><p>Visits (9:30 to 11:30): E — Team 1 once, Team 2 once or twice, Team 3 once, Team 4 twice = 5 or 6. F = 3, C = 3, D = 2. <strong>Station E</strong> is visited most.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "TITA",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes / scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many times do the teams pass through Station B in a day?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Streets: A–B, A–C, A–E, A–F, F–E, C–D, D–E. Each team makes 6 moves (positions at 9:30, 10:00, …, 12:00) and ends at A.</p><p><strong>Team 4</strong> uses only A, C, E, so it is at A at 10:00 and 11:00 and must be at E at 11:30. <strong>Team 3</strong> is at D at 10:00, so A→C→D, then D→E (10:30). <strong>Team 2</strong> is at E at 10:00 without using A–E, so A→F→E; at 10:30 it must leave E, and not via A–E or D–E (Team 3 is on it), so E→F.</p><p><strong>Team 1</strong> is at E at 10:30 and B at 11:30, so it is at A at 11:00. At 10:00 it must be next to E but not at E or D (only Teams 2 and 3 are there), and not at F (F–E is taken by Team 2 from 10:00 to 10:30), so it is at A. In the first half hour A–C (Team 3) and A–F (Team 2) are taken, and Team 4 must take A–E, so Team 1 goes A→B. Team 4 then can’t use A–E at 10:00–10:30 (Team 1) and goes to C.</p><table><thead><tr><th>Team</th><th>9:30</th><th>10:00</th><th>10:30</th><th>11:00</th><th>11:30</th><th>12:00</th></tr></thead><tbody><tr><td>1</td><td>B</td><td>A</td><td>E</td><td>A</td><td>B</td><td>A</td></tr><tr><td>2</td><td>F</td><td>E</td><td>F</td><td>E or A</td><td>F</td><td>A</td></tr><tr><td>3</td><td>C</td><td>D</td><td>E</td><td>D</td><td>C</td><td>A</td></tr><tr><td>4</td><td>E</td><td>A</td><td>C</td><td>A</td><td>E</td><td>A</td></tr></tbody></table><p>(Team 3 at 11:00 can’t go to A or F, so it goes to D, then to C, because E at 11:30 has only Team 4. Team 2 at 11:00 is at E or A; either way it is at F at 11:30.)</p><p>Only Team 1 visits B, at 09:30 and 11:30: <strong>2</strong> times.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes / scheduling",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which team patrols the street connecting Stations D and E at 10:15 hrs?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Team 3"
+    },
+    {
+     "id": "B",
+     "textHtml": "Team 4"
+    },
+    {
+     "id": "C",
+     "textHtml": "Team 2"
+    },
+    {
+     "id": "D",
+     "textHtml": "Team 1"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Streets: A–B, A–C, A–E, A–F, F–E, C–D, D–E. Each team makes 6 moves (positions at 9:30, 10:00, …, 12:00) and ends at A.</p><p><strong>Team 4</strong> uses only A, C, E, so it is at A at 10:00 and 11:00 and must be at E at 11:30. <strong>Team 3</strong> is at D at 10:00, so A→C→D, then D→E (10:30). <strong>Team 2</strong> is at E at 10:00 without using A–E, so A→F→E; at 10:30 it must leave E, and not via A–E or D–E (Team 3 is on it), so E→F.</p><p><strong>Team 1</strong> is at E at 10:30 and B at 11:30, so it is at A at 11:00. At 10:00 it must be next to E but not at E or D (only Teams 2 and 3 are there), and not at F (F–E is taken by Team 2 from 10:00 to 10:30), so it is at A. In the first half hour A–C (Team 3) and A–F (Team 2) are taken, and Team 4 must take A–E, so Team 1 goes A→B. Team 4 then can’t use A–E at 10:00–10:30 (Team 1) and goes to C.</p><table><thead><tr><th>Team</th><th>9:30</th><th>10:00</th><th>10:30</th><th>11:00</th><th>11:30</th><th>12:00</th></tr></thead><tbody><tr><td>1</td><td>B</td><td>A</td><td>E</td><td>A</td><td>B</td><td>A</td></tr><tr><td>2</td><td>F</td><td>E</td><td>F</td><td>E or A</td><td>F</td><td>A</td></tr><tr><td>3</td><td>C</td><td>D</td><td>E</td><td>D</td><td>C</td><td>A</td></tr><tr><td>4</td><td>E</td><td>A</td><td>C</td><td>A</td><td>E</td><td>A</td></tr></tbody></table><p>(Team 3 at 11:00 can’t go to A or F, so it goes to D, then to C, because E at 11:30 has only Team 4. Team 2 at 11:00 is at E or A; either way it is at F at 11:30.)</p><p>Between 10:00 and 10:30 Team 3 moves from D to E, so <strong>Team 3</strong> is on the D–E street at 10:15.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "TITA",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes / scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many times does Team 4 pass through Station E in a day?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Streets: A–B, A–C, A–E, A–F, F–E, C–D, D–E. Each team makes 6 moves (positions at 9:30, 10:00, …, 12:00) and ends at A.</p><p><strong>Team 4</strong> uses only A, C, E, so it is at A at 10:00 and 11:00 and must be at E at 11:30. <strong>Team 3</strong> is at D at 10:00, so A→C→D, then D→E (10:30). <strong>Team 2</strong> is at E at 10:00 without using A–E, so A→F→E; at 10:30 it must leave E, and not via A–E or D–E (Team 3 is on it), so E→F.</p><p><strong>Team 1</strong> is at E at 10:30 and B at 11:30, so it is at A at 11:00. At 10:00 it must be next to E but not at E or D (only Teams 2 and 3 are there), and not at F (F–E is taken by Team 2 from 10:00 to 10:30), so it is at A. In the first half hour A–C (Team 3) and A–F (Team 2) are taken, and Team 4 must take A–E, so Team 1 goes A→B. Team 4 then can’t use A–E at 10:00–10:30 (Team 1) and goes to C.</p><table><thead><tr><th>Team</th><th>9:30</th><th>10:00</th><th>10:30</th><th>11:00</th><th>11:30</th><th>12:00</th></tr></thead><tbody><tr><td>1</td><td>B</td><td>A</td><td>E</td><td>A</td><td>B</td><td>A</td></tr><tr><td>2</td><td>F</td><td>E</td><td>F</td><td>E or A</td><td>F</td><td>A</td></tr><tr><td>3</td><td>C</td><td>D</td><td>E</td><td>D</td><td>C</td><td>A</td></tr><tr><td>4</td><td>E</td><td>A</td><td>C</td><td>A</td><td>E</td><td>A</td></tr></tbody></table><p>(Team 3 at 11:00 can’t go to A or F, so it goes to D, then to C, because E at 11:30 has only Team 4. Team 2 at 11:00 is at E or A; either way it is at F at 11:30.)</p><p>Team 4 is at E at 09:30 and 11:30: <strong>2</strong> times.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes / scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many teams pass through Station C in a day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "2"
+    },
+    {
+     "id": "D",
+     "textHtml": "3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Streets: A–B, A–C, A–E, A–F, F–E, C–D, D–E. Each team makes 6 moves (positions at 9:30, 10:00, …, 12:00) and ends at A.</p><p><strong>Team 4</strong> uses only A, C, E, so it is at A at 10:00 and 11:00 and must be at E at 11:30. <strong>Team 3</strong> is at D at 10:00, so A→C→D, then D→E (10:30). <strong>Team 2</strong> is at E at 10:00 without using A–E, so A→F→E; at 10:30 it must leave E, and not via A–E or D–E (Team 3 is on it), so E→F.</p><p><strong>Team 1</strong> is at E at 10:30 and B at 11:30, so it is at A at 11:00. At 10:00 it must be next to E but not at E or D (only Teams 2 and 3 are there), and not at F (F–E is taken by Team 2 from 10:00 to 10:30), so it is at A. In the first half hour A–C (Team 3) and A–F (Team 2) are taken, and Team 4 must take A–E, so Team 1 goes A→B. Team 4 then can’t use A–E at 10:00–10:30 (Team 1) and goes to C.</p><table><thead><tr><th>Team</th><th>9:30</th><th>10:00</th><th>10:30</th><th>11:00</th><th>11:30</th><th>12:00</th></tr></thead><tbody><tr><td>1</td><td>B</td><td>A</td><td>E</td><td>A</td><td>B</td><td>A</td></tr><tr><td>2</td><td>F</td><td>E</td><td>F</td><td>E or A</td><td>F</td><td>A</td></tr><tr><td>3</td><td>C</td><td>D</td><td>E</td><td>D</td><td>C</td><td>A</td></tr><tr><td>4</td><td>E</td><td>A</td><td>C</td><td>A</td><td>E</td><td>A</td></tr></tbody></table><p>(Team 3 at 11:00 can’t go to A or F, so it goes to D, then to C, because E at 11:30 has only Team 4. Team 2 at 11:00 is at E or A; either way it is at F at 11:30.)</p><p>C is visited by Team 3 (09:30, 11:30) and Team 4 (10:30) only — <strong>2</strong> teams.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Min / max / median",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the total number of registrations in April?</p>",
+   "answer": "120",
+   "solutionHtml": "<p><strong>Key deduction.</strong> All totals are multiples of 10 between 110 and 130. Jan: 3 × online ∈ {110, 120, 130} → 120, so <strong>Jan 40 + 80 = 120</strong>. Apr similarly <strong>80 + 40 = 120</strong>. May online is the maximum 100, so offline ≤ 30 → offline 30, <strong>May 100 + 30 = 130</strong>.</p><p>Offline values so far 80, 40, 30; median 50 needs one of Feb/Mar offline = 50. Feb and Mar must include a total of 110 (the minimum).</p><p>If Mar offline = 50 and Feb offline = z, then Mar online = z and Mar total z + 50 forces z ∈ {60, 70, 80}; in each case Feb online can’t satisfy both the online median 80 and a total ≤ 130 (or the minimum 110). So <strong>Feb offline = 50</strong>, Mar online = 50; Feb online ≥ 80 for the median, total ≤ 130 → Feb online 80, total 130; then Mar must give 110 → Mar offline 60.</p><table><thead><tr><th>Month</th><th>Online</th><th>Offline</th><th>Total</th></tr></thead><tbody><tr><td>Jan</td><td>40</td><td>80</td><td>120</td></tr><tr><td>Feb</td><td>80</td><td>50</td><td>130</td></tr><tr><td>Mar</td><td>50</td><td>60</td><td>110</td></tr><tr><td>Apr</td><td>80</td><td>40</td><td>120</td></tr><tr><td>May</td><td>100</td><td>30</td><td>130</td></tr></tbody></table><p>April: 80 online + 40 offline = <strong>120</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Min / max / median",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the number of online registrations in January?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Key deduction.</strong> All totals are multiples of 10 between 110 and 130. Jan: 3 × online ∈ {110, 120, 130} → 120, so <strong>Jan 40 + 80 = 120</strong>. Apr similarly <strong>80 + 40 = 120</strong>. May online is the maximum 100, so offline ≤ 30 → offline 30, <strong>May 100 + 30 = 130</strong>.</p><p>Offline values so far 80, 40, 30; median 50 needs one of Feb/Mar offline = 50. Feb and Mar must include a total of 110 (the minimum).</p><p>If Mar offline = 50 and Feb offline = z, then Mar online = z and Mar total z + 50 forces z ∈ {60, 70, 80}; in each case Feb online can’t satisfy both the online median 80 and a total ≤ 130 (or the minimum 110). So <strong>Feb offline = 50</strong>, Mar online = 50; Feb online ≥ 80 for the median, total ≤ 130 → Feb online 80, total 130; then Mar must give 110 → Mar offline 60.</p><table><thead><tr><th>Month</th><th>Online</th><th>Offline</th><th>Total</th></tr></thead><tbody><tr><td>Jan</td><td>40</td><td>80</td><td>120</td></tr><tr><td>Feb</td><td>80</td><td>50</td><td>130</td></tr><tr><td>Mar</td><td>50</td><td>60</td><td>110</td></tr><tr><td>Apr</td><td>80</td><td>40</td><td>120</td></tr><tr><td>May</td><td>100</td><td>30</td><td>130</td></tr></tbody></table><p>January online = <strong>40</strong> (offline 80, total 120).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Min / max / median",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following statements can be true?</p><p>I. The number of offline registrations was the smallest in May.<br>II. The total number of registrations was the smallest in February.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only I"
+    },
+    {
+     "id": "B",
+     "textHtml": "Neither I nor II"
+    },
+    {
+     "id": "C",
+     "textHtml": "Only II"
+    },
+    {
+     "id": "D",
+     "textHtml": "Both I and II"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> All totals are multiples of 10 between 110 and 130. Jan: 3 × online ∈ {110, 120, 130} → 120, so <strong>Jan 40 + 80 = 120</strong>. Apr similarly <strong>80 + 40 = 120</strong>. May online is the maximum 100, so offline ≤ 30 → offline 30, <strong>May 100 + 30 = 130</strong>.</p><p>Offline values so far 80, 40, 30; median 50 needs one of Feb/Mar offline = 50. Feb and Mar must include a total of 110 (the minimum).</p><p>If Mar offline = 50 and Feb offline = z, then Mar online = z and Mar total z + 50 forces z ∈ {60, 70, 80}; in each case Feb online can’t satisfy both the online median 80 and a total ≤ 130 (or the minimum 110). So <strong>Feb offline = 50</strong>, Mar online = 50; Feb online ≥ 80 for the median, total ≤ 130 → Feb online 80, total 130; then Mar must give 110 → Mar offline 60.</p><table><thead><tr><th>Month</th><th>Online</th><th>Offline</th><th>Total</th></tr></thead><tbody><tr><td>Jan</td><td>40</td><td>80</td><td>120</td></tr><tr><td>Feb</td><td>80</td><td>50</td><td>130</td></tr><tr><td>Mar</td><td>50</td><td>60</td><td>110</td></tr><tr><td>Apr</td><td>80</td><td>40</td><td>120</td></tr><tr><td>May</td><td>100</td><td>30</td><td>130</td></tr></tbody></table><p>I: May offline = 30, the smallest — true. II: the smallest total (110) is in March, not February — false. <strong>Only I</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Min / max / median",
+   "difficulty": "hard",
+   "stemHtml": "<p>What best can be concluded about the number of offline registrations in February?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "50 or 80"
+    },
+    {
+     "id": "B",
+     "textHtml": "30 or 50 or 80"
+    },
+    {
+     "id": "C",
+     "textHtml": "50"
+    },
+    {
+     "id": "D",
+     "textHtml": "80"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> All totals are multiples of 10 between 110 and 130. Jan: 3 × online ∈ {110, 120, 130} → 120, so <strong>Jan 40 + 80 = 120</strong>. Apr similarly <strong>80 + 40 = 120</strong>. May online is the maximum 100, so offline ≤ 30 → offline 30, <strong>May 100 + 30 = 130</strong>.</p><p>Offline values so far 80, 40, 30; median 50 needs one of Feb/Mar offline = 50. Feb and Mar must include a total of 110 (the minimum).</p><p>If Mar offline = 50 and Feb offline = z, then Mar online = z and Mar total z + 50 forces z ∈ {60, 70, 80}; in each case Feb online can’t satisfy both the online median 80 and a total ≤ 130 (or the minimum 110). So <strong>Feb offline = 50</strong>, Mar online = 50; Feb online ≥ 80 for the median, total ≤ 130 → Feb online 80, total 130; then Mar must give 110 → Mar offline 60.</p><table><thead><tr><th>Month</th><th>Online</th><th>Offline</th><th>Total</th></tr></thead><tbody><tr><td>Jan</td><td>40</td><td>80</td><td>120</td></tr><tr><td>Feb</td><td>80</td><td>50</td><td>130</td></tr><tr><td>Mar</td><td>50</td><td>60</td><td>110</td></tr><tr><td>Apr</td><td>80</td><td>40</td><td>120</td></tr><tr><td>May</td><td>100</td><td>30</td><td>130</td></tr></tbody></table><p>The case analysis leaves only one possibility: February offline = <strong>50</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Min / max / median",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which pair of months definitely had the same total number of registrations?</p><p>I. January and April<br>II. February and May</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Neither I nor II"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only II"
+    },
+    {
+     "id": "C",
+     "textHtml": "Both I and II"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only I"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> All totals are multiples of 10 between 110 and 130. Jan: 3 × online ∈ {110, 120, 130} → 120, so <strong>Jan 40 + 80 = 120</strong>. Apr similarly <strong>80 + 40 = 120</strong>. May online is the maximum 100, so offline ≤ 30 → offline 30, <strong>May 100 + 30 = 130</strong>.</p><p>Offline values so far 80, 40, 30; median 50 needs one of Feb/Mar offline = 50. Feb and Mar must include a total of 110 (the minimum).</p><p>If Mar offline = 50 and Feb offline = z, then Mar online = z and Mar total z + 50 forces z ∈ {60, 70, 80}; in each case Feb online can’t satisfy both the online median 80 and a total ≤ 130 (or the minimum 110). So <strong>Feb offline = 50</strong>, Mar online = 50; Feb online ≥ 80 for the median, total ≤ 130 → Feb online 80, total 130; then Mar must give 110 → Mar offline 60.</p><table><thead><tr><th>Month</th><th>Online</th><th>Offline</th><th>Total</th></tr></thead><tbody><tr><td>Jan</td><td>40</td><td>80</td><td>120</td></tr><tr><td>Feb</td><td>80</td><td>50</td><td>130</td></tr><tr><td>Mar</td><td>50</td><td>60</td><td>110</td></tr><tr><td>Apr</td><td>80</td><td>40</td><td>120</td></tr><tr><td>May</td><td>100</td><td>30</td><td>130</td></tr></tbody></table><p>Jan = Apr = 120 and Feb = May = 130, so <strong>both I and II</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

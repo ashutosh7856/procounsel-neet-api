@@ -1,0 +1,609 @@
+{
+ "sets": [
+  {
+   "key": "S1",
+   "kind": "dilr_set",
+   "title": "Dean election",
+   "contentHtml": "<p>Faculty members in a management school can belong to one of four departments – Finance and Accounting (F&amp;A), Marketing and Strategy (M&amp;S), Operations and Quants (O&amp;Q) and Behaviour and Human Resources (B&amp;H). The numbers of faculty members in F&amp;A, M&amp;S, O&amp;Q and B&amp;H departments are 9, 7, 5 and 3 respectively.</p><p>Prof. Pakrasi, Prof. Qureshi, Prof. Ramaswamy and Prof. Samuel are four members of the school's faculty who were candidates for the post of the Dean of the school. Only one of the candidates was from O&amp;Q.</p><p>Every faculty member, including the four candidates, voted for the post. In each department, all the faculty members who were not candidates voted for the same candidate. The rules for the election are listed below.</p><ol><li>There cannot be more than two candidates from a single department.</li><li>A candidate cannot vote for himself/herself.</li><li>Faculty members cannot vote for a candidate from their own department.</li></ol><p>After the election, it was observed that Prof. Pakrasi received 3 votes, Prof. Qureshi received 14 votes, Prof. Ramaswamy received 6 votes and Prof. Samuel received 1 vote. Prof. Pakrasi voted for Prof. Ramaswamy, Prof. Qureshi for Prof. Samuel, Prof. Ramaswamy for Prof. Qureshi and Prof. Samuel for Prof. Pakrasi.</p>"
+  },
+  {
+   "key": "S2",
+   "kind": "dilr_set",
+   "title": "Restaurant ratings of gig workers",
+   "contentHtml": "<p>Five restaurants, coded R1, R2, R3, R4 and R5 gave integer ratings to five gig workers – Ullas, Vasu, Waman, Xavier and Yusuf, on a scale of 1 to 5.</p><p>The means of the ratings given by R1, R2, R3, R4 and R5 were 3.4, 2.2, 3.8, 2.8 and 3.4 respectively.</p><p>The summary statistics of these ratings for the five workers is given below.</p><table><thead><tr><th></th><th>Ullas</th><th>Vasu</th><th>Waman</th><th>Xavier</th><th>Yusuf</th></tr></thead><tbody><tr><td>Mean rating</td><td>2.2</td><td>3.8</td><td>3.4</td><td>3.6</td><td>2.6</td></tr><tr><td>Median rating</td><td>2</td><td>4</td><td>4</td><td>4</td><td>3</td></tr><tr><td>Modal rating</td><td>2</td><td>4</td><td>5</td><td>5</td><td>1 and 4</td></tr><tr><td>Range of rating*</td><td>3</td><td>3</td><td>4</td><td>4</td><td>3</td></tr></tbody></table><p>*Range of ratings is defined as the difference between the maximum and minimum ratings awarded to a worker.</p><p>The following is partial information about ratings of 1 and 5 awarded by the restaurants to the workers.</p><p>(a) R1 awarded a rating of 5 to Waman, as did R2 to Xavier, R3 to Waman and Xavier, and R5 to Vasu.<br>(b) R1 awarded a rating of 1 to Ullas, as did R2 to Waman and Yusuf, and R3 to Yusuf.</p>"
+  },
+  {
+   "key": "S3",
+   "kind": "dilr_set",
+   "title": "Visa processing office",
+   "contentHtml": "<p>A visa processing office (VPO) accepts visa applications in four categories – US, UK, Schengen, and Others. The applications are scheduled for processing in twenty 15-minute slots starting at 9:00 am and ending at 2:00 pm. Ten applications are scheduled in each slot.</p><p>There are ten counters in the office, four dedicated to US applications, and two each for UK applications, Schengen applications and Others applications. Applicants are called in for processing sequentially on a first-come-first-served basis whenever a counter gets freed for their category. The processing time for an application is the same within each category. But it may vary across the categories. Each US and UK application requires 10 minutes of processing time. Depending on the number of applications in a category and time required to process an application for that category, it is possible that an applicant for a slot may be processed later.</p><p>On a particular day, Ira, Vijay and Nandini were scheduled for Schengen visa processing in that order. They had a 9:15 am slot but entered the VPO at 9:20 am. When they entered the office, exactly six out of the ten counters were either processing applications, or had finished processing one and ready to start processing the next.</p><p>Mahira and Osman were scheduled in the 9:30 am slot on that day for visa processing in the Others category.</p><p>The following additional information is known about that day.</p><ol><li>All slots were full.</li><li>The number of US applications was the same in all the slots. The same was true for the other three categories.</li><li>50% of the applications were US applications.</li><li>All applicants except Ira, Vijay and Nandini arrived on time.</li><li>Vijay was called to a counter at 9:25 am.</li></ol>"
+  },
+  {
+   "key": "S4",
+   "kind": "dilr_set",
+   "title": "Housing complex",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2023-slot1/housing-layout.png"
+   ],
+   "contentHtml": "<p>The schematic diagram below shows 12 rectangular houses in a housing complex. House numbers are mentioned in the rectangles representing the houses. The houses are located in six columns – Column-A through Column-F, and two rows – Row-1 and Row-2. The houses are divided into two blocks - Block XX and Block YY. The diagram also shows two roads, one passing in front of the houses in Row-2 and another between the two blocks.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2023-slot1/housing-layout.png\" alt=\"Layout: Block XX has columns A, B, C and Block YY has columns D, E, F; Row-1 (A1 to F1) is above Row-2 (A2 to F2). A vertical road runs between column C and column D, and a horizontal road runs along the bottom in front of Row-2.\"></p><p>Some of the houses are occupied. The remaining ones are vacant and are the only ones available for sale.</p><p>The road adjacency value of a house is the number of its sides adjacent to a road. For example, the road adjacency values of C2, F2, and B1 are 2, 1, and 0, respectively. The neighbour count of a house is the number of sides of that house adjacent to occupied houses in the same block. For example, E1 and C1 can have the maximum possible neighbour counts of 3 and 2, respectively.</p><p>The base price of a vacant house is Rs. 10 lakhs if the house does not have a parking space, and Rs. 12 lakhs if it does. The quoted price (in lakhs of Rs.) of a vacant house is calculated as (base price) + 5 × (road adjacency value) + 3 × (neighbour count).</p><p>The following information is also known.</p><ol><li>The maximum quoted price of a house in Block XX is Rs. 24 lakhs. The minimum quoted price of a house in block YY is Rs. 15 lakhs, and one such house is in Column-E.</li><li>Row-1 has two occupied houses, one in each block.</li><li>Both houses in Column-E are vacant. Each of Column-D and Column-F has at least one occupied house.</li><li>There is only one house with parking space in Block YY.</li></ol>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Elections & voting",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which two candidates can belong to the same department?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Prof. Pakrasi and Prof. Samuel"
+    },
+    {
+     "id": "B",
+     "textHtml": "Prof. Qureshi and Prof. Ramaswamy"
+    },
+    {
+     "id": "C",
+     "textHtml": "Prof. Pakrasi and Prof. Qureshi"
+    },
+    {
+     "id": "D",
+     "textHtml": "Prof. Ramaswamy and Prof. Samuel"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Candidates' votes: S→P, R→Q, P→R, Q→S. So the non-candidate blocs give P 2 votes, Q 13, R 5 and S 0.</p><p>Bloc sizes are 9 − a, 7 − b, 4 (O&amp;Q has exactly one candidate) and 3 − d, where a, b, d are the candidates in F&amp;A, M&amp;S, B&amp;H (a + b + d = 3). A bloc of exactly 2 can only be B&amp;H with d = 1, so <strong>B&amp;H's 2 non-candidates voted P</strong>. Then 5 must be M&amp;S with b = 2, leaving a = 0 and 9 + 4 = 13: <strong>F&amp;A (9) and O&amp;Q (4) voted Q</strong>, M&amp;S (5) voted R.</p><p>Departments: M&amp;S has two candidates, not R (M&amp;S voted R). It cannot be {P, S} (S voted P) or {Q, S} (Q voted S), so <strong>M&amp;S = {P, Q}</strong>, and R, S are one each in O&amp;Q and B&amp;H, either way round (both arrangements satisfy every rule).</p><p>Only Prof. Pakrasi and Prof. Qureshi share a department (M&amp;S).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Elections & voting",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following can be the number of votes that Prof. Qureshi received from a single department?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "7"
+    },
+    {
+     "id": "B",
+     "textHtml": "9"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "8"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Candidates' votes: S→P, R→Q, P→R, Q→S. So the non-candidate blocs give P 2 votes, Q 13, R 5 and S 0.</p><p>Bloc sizes are 9 − a, 7 − b, 4 (O&amp;Q has exactly one candidate) and 3 − d, where a, b, d are the candidates in F&amp;A, M&amp;S, B&amp;H (a + b + d = 3). A bloc of exactly 2 can only be B&amp;H with d = 1, so <strong>B&amp;H's 2 non-candidates voted P</strong>. Then 5 must be M&amp;S with b = 2, leaving a = 0 and 9 + 4 = 13: <strong>F&amp;A (9) and O&amp;Q (4) voted Q</strong>, M&amp;S (5) voted R.</p><p>Departments: M&amp;S has two candidates, not R (M&amp;S voted R). It cannot be {P, S} (S voted P) or {Q, S} (Q voted S), so <strong>M&amp;S = {P, Q}</strong>, and R, S are one each in O&amp;Q and B&amp;H, either way round (both arrangements satisfy every rule).</p><p>Qureshi's 14 votes: 9 from F&amp;A, 4 from O&amp;Q non-candidates, plus Ramaswamy's vote (from O&amp;Q or B&amp;H). So a single department can give him 9 (F&amp;A); the O&amp;Q total is 4 or 5. Of the options only <strong>9</strong> is possible.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Elections & voting",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Prof. Samuel belongs to B&amp;H, which of the following statements is/are true?</p><p>Statement A: Prof. Pakrasi belongs to M&amp;S.<br>Statement B: Prof. Ramaswamy belongs to O&amp;Q.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only statement A"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only statement B"
+    },
+    {
+     "id": "C",
+     "textHtml": "Neither statement A nor statement B"
+    },
+    {
+     "id": "D",
+     "textHtml": "Both statements A and B"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Candidates' votes: S→P, R→Q, P→R, Q→S. So the non-candidate blocs give P 2 votes, Q 13, R 5 and S 0.</p><p>Bloc sizes are 9 − a, 7 − b, 4 (O&amp;Q has exactly one candidate) and 3 − d, where a, b, d are the candidates in F&amp;A, M&amp;S, B&amp;H (a + b + d = 3). A bloc of exactly 2 can only be B&amp;H with d = 1, so <strong>B&amp;H's 2 non-candidates voted P</strong>. Then 5 must be M&amp;S with b = 2, leaving a = 0 and 9 + 4 = 13: <strong>F&amp;A (9) and O&amp;Q (4) voted Q</strong>, M&amp;S (5) voted R.</p><p>Departments: M&amp;S has two candidates, not R (M&amp;S voted R). It cannot be {P, S} (S voted P) or {Q, S} (Q voted S), so <strong>M&amp;S = {P, Q}</strong>, and R, S are one each in O&amp;Q and B&amp;H, either way round (both arrangements satisfy every rule).</p><p>Pakrasi is always in M&amp;S. If Samuel is in B&amp;H, Ramaswamy must be the O&amp;Q candidate. <strong>Both statements are true.</strong></p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Elections & voting",
+   "difficulty": "easy",
+   "stemHtml": "<p>What best can be concluded about the candidate from O&amp;Q?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "It was Prof. Ramaswamy."
+    },
+    {
+     "id": "B",
+     "textHtml": "It was Prof. Samuel."
+    },
+    {
+     "id": "C",
+     "textHtml": "It was either Prof. Pakrasi or Prof. Qureshi."
+    },
+    {
+     "id": "D",
+     "textHtml": "It was either Prof. Ramaswamy or Prof. Samuel."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Candidates' votes: S→P, R→Q, P→R, Q→S. So the non-candidate blocs give P 2 votes, Q 13, R 5 and S 0.</p><p>Bloc sizes are 9 − a, 7 − b, 4 (O&amp;Q has exactly one candidate) and 3 − d, where a, b, d are the candidates in F&amp;A, M&amp;S, B&amp;H (a + b + d = 3). A bloc of exactly 2 can only be B&amp;H with d = 1, so <strong>B&amp;H's 2 non-candidates voted P</strong>. Then 5 must be M&amp;S with b = 2, leaving a = 0 and 9 + 4 = 13: <strong>F&amp;A (9) and O&amp;Q (4) voted Q</strong>, M&amp;S (5) voted R.</p><p>Departments: M&amp;S has two candidates, not R (M&amp;S voted R). It cannot be {P, S} (S voted P) or {Q, S} (Q voted S), so <strong>M&amp;S = {P, Q}</strong>, and R, S are one each in O&amp;Q and B&amp;H, either way round (both arrangements satisfy every rule).</p><p>The O&amp;Q candidate is <strong>either Ramaswamy or Samuel</strong>; both cases work, so nothing more can be fixed.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Elections & voting",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which of the following statements is/are true?</p><p>Statement A: Non-candidates from M&amp;S voted for Prof. Qureshi.<br>Statement B: Non-candidates from F&amp;A voted for Prof. Qureshi.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Both statements A and B"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only statement B"
+    },
+    {
+     "id": "C",
+     "textHtml": "Neither statement A nor statement B"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only statement A"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Candidates' votes: S→P, R→Q, P→R, Q→S. So the non-candidate blocs give P 2 votes, Q 13, R 5 and S 0.</p><p>Bloc sizes are 9 − a, 7 − b, 4 (O&amp;Q has exactly one candidate) and 3 − d, where a, b, d are the candidates in F&amp;A, M&amp;S, B&amp;H (a + b + d = 3). A bloc of exactly 2 can only be B&amp;H with d = 1, so <strong>B&amp;H's 2 non-candidates voted P</strong>. Then 5 must be M&amp;S with b = 2, leaving a = 0 and 9 + 4 = 13: <strong>F&amp;A (9) and O&amp;Q (4) voted Q</strong>, M&amp;S (5) voted R.</p><p>Departments: M&amp;S has two candidates, not R (M&amp;S voted R). It cannot be {P, S} (S voted P) or {Q, S} (Q voted S), so <strong>M&amp;S = {P, Q}</strong>, and R, S are one each in O&amp;Q and B&amp;H, either way round (both arrangements satisfy every rule).</p><p>M&amp;S non-candidates voted for Ramaswamy (Qureshi is in M&amp;S himself), so A is false; F&amp;A voted for Qureshi, so B is true. <strong>Only statement B.</strong></p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grids & statistics",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many individual ratings cannot be determined from the above information?</p>",
+   "answer": "0",
+   "solutionHtml": "<p><strong>Building the grid.</strong> Worker totals: Ullas 11, Vasu 19, Waman 17, Xavier 18, Yusuf 13; restaurant totals: R1 17, R2 11, R3 19, R4 14, R5 17.</p><p>Waman (5, 1, 5, ?, ?; median 4, mode 5, range 4): only two 5s fit the sum and median, so the other two are 4 and 2 in some order. Xavier (?, 5, 5, ?, ?; sum 18, median 4, range 4): the rest sum to 8 with a 1 present (range 4) and median 4, so they are {1, 3, 4}. Yusuf (?, 1, 1, ?, ?; sum 13, modes 1 and 4): the rest are 4, 4, 3. Ullas (1, …; sum 11, median and mode 2, range 3): {1, 2, 2, 2, 4}. Vasu (…, 5 at R5; sum 19, median/mode 4, range 3): {2, 4, 4, 4, 5}.</p><p>Fitting restaurant totals (R2 = 11 forces Ullas 2, Vasu 2 at R2; R3 = 19 forces Ullas 4, Vasu 4; R4 = 14 then fixes the rest) gives a <strong>unique grid</strong>:</p><table><thead><tr><th></th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>R5</th></tr></thead><tbody><tr><td>Ullas</td><td>1</td><td>2</td><td>4</td><td>2</td><td>2</td></tr><tr><td>Vasu</td><td>4</td><td>2</td><td>4</td><td>4</td><td>5</td></tr><tr><td>Waman</td><td>5</td><td>1</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Xavier</td><td>3</td><td>5</td><td>5</td><td>1</td><td>4</td></tr><tr><td>Yusuf</td><td>4</td><td>1</td><td>1</td><td>3</td><td>4</td></tr></tbody></table><p>(Every row and column total checks; an exhaustive check of all rating combinations confirms there is no other grid.)</p><p>All 25 ratings are fixed, so the answer is <strong>0</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grids & statistics",
+   "difficulty": "hard",
+   "stemHtml": "<p>To how many workers did R2 give a rating of 4?</p>",
+   "answer": "0",
+   "solutionHtml": "<p><strong>Building the grid.</strong> Worker totals: Ullas 11, Vasu 19, Waman 17, Xavier 18, Yusuf 13; restaurant totals: R1 17, R2 11, R3 19, R4 14, R5 17.</p><p>Waman (5, 1, 5, ?, ?; median 4, mode 5, range 4): only two 5s fit the sum and median, so the other two are 4 and 2 in some order. Xavier (?, 5, 5, ?, ?; sum 18, median 4, range 4): the rest sum to 8 with a 1 present (range 4) and median 4, so they are {1, 3, 4}. Yusuf (?, 1, 1, ?, ?; sum 13, modes 1 and 4): the rest are 4, 4, 3. Ullas (1, …; sum 11, median and mode 2, range 3): {1, 2, 2, 2, 4}. Vasu (…, 5 at R5; sum 19, median/mode 4, range 3): {2, 4, 4, 4, 5}.</p><p>Fitting restaurant totals (R2 = 11 forces Ullas 2, Vasu 2 at R2; R3 = 19 forces Ullas 4, Vasu 4; R4 = 14 then fixes the rest) gives a <strong>unique grid</strong>:</p><table><thead><tr><th></th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>R5</th></tr></thead><tbody><tr><td>Ullas</td><td>1</td><td>2</td><td>4</td><td>2</td><td>2</td></tr><tr><td>Vasu</td><td>4</td><td>2</td><td>4</td><td>4</td><td>5</td></tr><tr><td>Waman</td><td>5</td><td>1</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Xavier</td><td>3</td><td>5</td><td>5</td><td>1</td><td>4</td></tr><tr><td>Yusuf</td><td>4</td><td>1</td><td>1</td><td>3</td><td>4</td></tr></tbody></table><p>(Every row and column total checks; an exhaustive check of all rating combinations confirms there is no other grid.)</p><p>R2 gave 2, 2, 1, 5, 1, so <strong>no</strong> worker got a 4 from R2. Answer: 0.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grids & statistics",
+   "difficulty": "hard",
+   "stemHtml": "<p>What rating did R1 give to Xavier?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Building the grid.</strong> Worker totals: Ullas 11, Vasu 19, Waman 17, Xavier 18, Yusuf 13; restaurant totals: R1 17, R2 11, R3 19, R4 14, R5 17.</p><p>Waman (5, 1, 5, ?, ?; median 4, mode 5, range 4): only two 5s fit the sum and median, so the other two are 4 and 2 in some order. Xavier (?, 5, 5, ?, ?; sum 18, median 4, range 4): the rest sum to 8 with a 1 present (range 4) and median 4, so they are {1, 3, 4}. Yusuf (?, 1, 1, ?, ?; sum 13, modes 1 and 4): the rest are 4, 4, 3. Ullas (1, …; sum 11, median and mode 2, range 3): {1, 2, 2, 2, 4}. Vasu (…, 5 at R5; sum 19, median/mode 4, range 3): {2, 4, 4, 4, 5}.</p><p>Fitting restaurant totals (R2 = 11 forces Ullas 2, Vasu 2 at R2; R3 = 19 forces Ullas 4, Vasu 4; R4 = 14 then fixes the rest) gives a <strong>unique grid</strong>:</p><table><thead><tr><th></th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>R5</th></tr></thead><tbody><tr><td>Ullas</td><td>1</td><td>2</td><td>4</td><td>2</td><td>2</td></tr><tr><td>Vasu</td><td>4</td><td>2</td><td>4</td><td>4</td><td>5</td></tr><tr><td>Waman</td><td>5</td><td>1</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Xavier</td><td>3</td><td>5</td><td>5</td><td>1</td><td>4</td></tr><tr><td>Yusuf</td><td>4</td><td>1</td><td>1</td><td>3</td><td>4</td></tr></tbody></table><p>(Every row and column total checks; an exhaustive check of all rating combinations confirms there is no other grid.)</p><p>R1 gave Xavier <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grids & statistics",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the median of the ratings given by R3 to the five workers?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Building the grid.</strong> Worker totals: Ullas 11, Vasu 19, Waman 17, Xavier 18, Yusuf 13; restaurant totals: R1 17, R2 11, R3 19, R4 14, R5 17.</p><p>Waman (5, 1, 5, ?, ?; median 4, mode 5, range 4): only two 5s fit the sum and median, so the other two are 4 and 2 in some order. Xavier (?, 5, 5, ?, ?; sum 18, median 4, range 4): the rest sum to 8 with a 1 present (range 4) and median 4, so they are {1, 3, 4}. Yusuf (?, 1, 1, ?, ?; sum 13, modes 1 and 4): the rest are 4, 4, 3. Ullas (1, …; sum 11, median and mode 2, range 3): {1, 2, 2, 2, 4}. Vasu (…, 5 at R5; sum 19, median/mode 4, range 3): {2, 4, 4, 4, 5}.</p><p>Fitting restaurant totals (R2 = 11 forces Ullas 2, Vasu 2 at R2; R3 = 19 forces Ullas 4, Vasu 4; R4 = 14 then fixes the rest) gives a <strong>unique grid</strong>:</p><table><thead><tr><th></th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>R5</th></tr></thead><tbody><tr><td>Ullas</td><td>1</td><td>2</td><td>4</td><td>2</td><td>2</td></tr><tr><td>Vasu</td><td>4</td><td>2</td><td>4</td><td>4</td><td>5</td></tr><tr><td>Waman</td><td>5</td><td>1</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Xavier</td><td>3</td><td>5</td><td>5</td><td>1</td><td>4</td></tr><tr><td>Yusuf</td><td>4</td><td>1</td><td>1</td><td>3</td><td>4</td></tr></tbody></table><p>(Every row and column total checks; an exhaustive check of all rating combinations confirms there is no other grid.)</p><p>R3's ratings: 4, 4, 5, 5, 1 → sorted 1, 4, 4, 5, 5; median <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grids & statistics",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which among the following restaurants gave its median rating to exactly one of the workers?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "R2"
+    },
+    {
+     "id": "B",
+     "textHtml": "R5"
+    },
+    {
+     "id": "C",
+     "textHtml": "R3"
+    },
+    {
+     "id": "D",
+     "textHtml": "R4"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Building the grid.</strong> Worker totals: Ullas 11, Vasu 19, Waman 17, Xavier 18, Yusuf 13; restaurant totals: R1 17, R2 11, R3 19, R4 14, R5 17.</p><p>Waman (5, 1, 5, ?, ?; median 4, mode 5, range 4): only two 5s fit the sum and median, so the other two are 4 and 2 in some order. Xavier (?, 5, 5, ?, ?; sum 18, median 4, range 4): the rest sum to 8 with a 1 present (range 4) and median 4, so they are {1, 3, 4}. Yusuf (?, 1, 1, ?, ?; sum 13, modes 1 and 4): the rest are 4, 4, 3. Ullas (1, …; sum 11, median and mode 2, range 3): {1, 2, 2, 2, 4}. Vasu (…, 5 at R5; sum 19, median/mode 4, range 3): {2, 4, 4, 4, 5}.</p><p>Fitting restaurant totals (R2 = 11 forces Ullas 2, Vasu 2 at R2; R3 = 19 forces Ullas 4, Vasu 4; R4 = 14 then fixes the rest) gives a <strong>unique grid</strong>:</p><table><thead><tr><th></th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>R5</th></tr></thead><tbody><tr><td>Ullas</td><td>1</td><td>2</td><td>4</td><td>2</td><td>2</td></tr><tr><td>Vasu</td><td>4</td><td>2</td><td>4</td><td>4</td><td>5</td></tr><tr><td>Waman</td><td>5</td><td>1</td><td>5</td><td>4</td><td>2</td></tr><tr><td>Xavier</td><td>3</td><td>5</td><td>5</td><td>1</td><td>4</td></tr><tr><td>Yusuf</td><td>4</td><td>1</td><td>1</td><td>3</td><td>4</td></tr></tbody></table><p>(Every row and column total checks; an exhaustive check of all rating combinations confirms there is no other grid.)</p><p>R2: 1, 1, 2, 2, 5 – median 2 given twice. R5: 2, 2, 4, 4, 5 – median 4 twice. R3: median 4 twice. <strong>R4: 1, 2, 3, 4, 4 – median 3 given only to Yusuf.</strong></p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling & queues",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many UK applications were scheduled on that day?</p>",
+   "answer": "0",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Each slot has 10 applications: 5 US, and 5 shared by UK, Schengen and Others. Ira, Vijay, Nandini give at least 3 Schengen per slot and Mahira, Osman at least 2 Others, so <strong>Schengen = 3, Others = 2, UK = 0 per slot</strong>.</p><p>Schengen (time s each, 2 counters): the 9:00 slot's first two start at 9:00, the third at 9:00 + s on counter 1. If s ≤ 10 both counters would be free at 9:20 and Ira and Vijay would both be called at 9:20. So 10 &lt; s and counter 2 is free when Ira arrives: <strong>Ira starts 9:20</strong>; Vijay gets counter 1 when it frees at 9:00 + 2s = 9:25, so <strong>s = 12.5 min</strong>. Ira ends 9:32.5, Vijay 9:37.5, Nandini runs 9:32.5–9:45.</p><p>At 9:20 the 4 US counters and both Schengen counters are active – exactly six – so both Others counters are idle and the UK counters unused. The 9:15 Others pair started at 9:15 and had already finished before 9:20, so <strong>Others time o &lt; 5 min</strong>; Mahira and Osman run 9:30 to 9:30 + o (before 9:35).</p><p>UK applications per slot = 5 − 3 − 2 = 0, so <strong>0</strong> for the day.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling & queues",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the maximum possible value of the total time (in minutes, nearest to its integer value) required to process all applications in the Others category on that day?</p>",
+   "answer": "200",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Each slot has 10 applications: 5 US, and 5 shared by UK, Schengen and Others. Ira, Vijay, Nandini give at least 3 Schengen per slot and Mahira, Osman at least 2 Others, so <strong>Schengen = 3, Others = 2, UK = 0 per slot</strong>.</p><p>Schengen (time s each, 2 counters): the 9:00 slot's first two start at 9:00, the third at 9:00 + s on counter 1. If s ≤ 10 both counters would be free at 9:20 and Ira and Vijay would both be called at 9:20. So 10 &lt; s and counter 2 is free when Ira arrives: <strong>Ira starts 9:20</strong>; Vijay gets counter 1 when it frees at 9:00 + 2s = 9:25, so <strong>s = 12.5 min</strong>. Ira ends 9:32.5, Vijay 9:37.5, Nandini runs 9:32.5–9:45.</p><p>At 9:20 the 4 US counters and both Schengen counters are active – exactly six – so both Others counters are idle and the UK counters unused. The 9:15 Others pair started at 9:15 and had already finished before 9:20, so <strong>Others time o &lt; 5 min</strong>; Mahira and Osman run 9:30 to 9:30 + o (before 9:35).</p><p>There are 2 × 20 = 40 Others applications, each taking o &lt; 5 minutes, so the total processing time is 40o, which can be as close to 200 as we like (e.g. o = 4.99 gives 199.6). Nearest integer: <strong>200</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling & queues",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following is the closest to the time when Nandini’s application process got over?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "9:45 am"
+    },
+    {
+     "id": "B",
+     "textHtml": "9:37 am"
+    },
+    {
+     "id": "C",
+     "textHtml": "9:50 am"
+    },
+    {
+     "id": "D",
+     "textHtml": "9:35 am"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Each slot has 10 applications: 5 US, and 5 shared by UK, Schengen and Others. Ira, Vijay, Nandini give at least 3 Schengen per slot and Mahira, Osman at least 2 Others, so <strong>Schengen = 3, Others = 2, UK = 0 per slot</strong>.</p><p>Schengen (time s each, 2 counters): the 9:00 slot's first two start at 9:00, the third at 9:00 + s on counter 1. If s ≤ 10 both counters would be free at 9:20 and Ira and Vijay would both be called at 9:20. So 10 &lt; s and counter 2 is free when Ira arrives: <strong>Ira starts 9:20</strong>; Vijay gets counter 1 when it frees at 9:00 + 2s = 9:25, so <strong>s = 12.5 min</strong>. Ira ends 9:32.5, Vijay 9:37.5, Nandini runs 9:32.5–9:45.</p><p>At 9:20 the 4 US counters and both Schengen counters are active – exactly six – so both Others counters are idle and the UK counters unused. The 9:15 Others pair started at 9:15 and had already finished before 9:20, so <strong>Others time o &lt; 5 min</strong>; Mahira and Osman run 9:30 to 9:30 + o (before 9:35).</p><p>Nandini starts when Ira's counter frees at 9:32.5 and finishes 12.5 minutes later at <strong>9:45 am</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling & queues",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following statements is false?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The application process of Mahira was completed before Nandini’s."
+    },
+    {
+     "id": "B",
+     "textHtml": "The application process of Mahira started after Nandini’s."
+    },
+    {
+     "id": "C",
+     "textHtml": "The application process of Osman was completed before 9:45 am."
+    },
+    {
+     "id": "D",
+     "textHtml": "The application process of Osman was completed before Vijay’s."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Each slot has 10 applications: 5 US, and 5 shared by UK, Schengen and Others. Ira, Vijay, Nandini give at least 3 Schengen per slot and Mahira, Osman at least 2 Others, so <strong>Schengen = 3, Others = 2, UK = 0 per slot</strong>.</p><p>Schengen (time s each, 2 counters): the 9:00 slot's first two start at 9:00, the third at 9:00 + s on counter 1. If s ≤ 10 both counters would be free at 9:20 and Ira and Vijay would both be called at 9:20. So 10 &lt; s and counter 2 is free when Ira arrives: <strong>Ira starts 9:20</strong>; Vijay gets counter 1 when it frees at 9:00 + 2s = 9:25, so <strong>s = 12.5 min</strong>. Ira ends 9:32.5, Vijay 9:37.5, Nandini runs 9:32.5–9:45.</p><p>At 9:20 the 4 US counters and both Schengen counters are active – exactly six – so both Others counters are idle and the UK counters unused. The 9:15 Others pair started at 9:15 and had already finished before 9:20, so <strong>Others time o &lt; 5 min</strong>; Mahira and Osman run 9:30 to 9:30 + o (before 9:35).</p><p>Mahira and Osman start at 9:30 and finish before 9:35. Nandini starts at 9:32.5 and ends 9:45; Vijay ends 9:37.5.</p><p>A (Mahira done before Nandini) – true. C (Osman done before 9:45) – true. D (Osman done before Vijay) – true. <strong>B is false</strong>: Mahira started at 9:30, before Nandini's 9:32.5 start.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling & queues",
+   "difficulty": "medium",
+   "stemHtml": "<p>When did the application processing for all US applicants get over on that day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3:40 pm"
+    },
+    {
+     "id": "B",
+     "textHtml": "2:05 pm"
+    },
+    {
+     "id": "C",
+     "textHtml": "2:00 pm"
+    },
+    {
+     "id": "D",
+     "textHtml": "2:25 pm"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Each slot has 10 applications: 5 US, and 5 shared by UK, Schengen and Others. Ira, Vijay, Nandini give at least 3 Schengen per slot and Mahira, Osman at least 2 Others, so <strong>Schengen = 3, Others = 2, UK = 0 per slot</strong>.</p><p>Schengen (time s each, 2 counters): the 9:00 slot's first two start at 9:00, the third at 9:00 + s on counter 1. If s ≤ 10 both counters would be free at 9:20 and Ira and Vijay would both be called at 9:20. So 10 &lt; s and counter 2 is free when Ira arrives: <strong>Ira starts 9:20</strong>; Vijay gets counter 1 when it frees at 9:00 + 2s = 9:25, so <strong>s = 12.5 min</strong>. Ira ends 9:32.5, Vijay 9:37.5, Nandini runs 9:32.5–9:45.</p><p>At 9:20 the 4 US counters and both Schengen counters are active – exactly six – so both Others counters are idle and the UK counters unused. The 9:15 Others pair started at 9:15 and had already finished before 9:20, so <strong>Others time o &lt; 5 min</strong>; Mahira and Osman run 9:30 to 9:30 + o (before 9:35).</p><p>US: 5 applications per slot, 4 counters, 10 minutes each (60 counter-minutes available per slot, 50 needed). Simulate first-come-first-served:</p><ul><li>9:00 slot: four start 9:00, the fifth 9:10 (ends 9:20).</li><li>9:15 slot: three start 9:15, one 9:20, one 9:25 (ends 9:35).</li><li>9:30 slot: three start 9:30, one 9:35, one 9:40 (ends 9:50).</li></ul><p><strong>From the 9:30 slot on the pattern repeats</strong>: in every slot starting at T, three start at T, one at T + 5 and one at T + 10, so the slot's last application ends at T + 20.</p><p>The last slot starts at 1:45 pm, so the final US application ends at <strong>2:05 pm</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "TITA",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many houses are vacant in Block XX?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Road values: C1, D1 = 1; C2, D2 = 2; A2, B2, E2, F2 = 1; A1, B1, E1, F1 = 0.</p><p><strong>Block XX.</strong> 24 = base + 5r + 3n. r = 2 gives 3n = 2 or 4 (impossible); r = 0 needs n ≥ 4 (impossible); r = 1 works only with base 10 and n = 3. The only r = 1 house that can have 3 neighbours is B2, so <strong>B2 is vacant (no parking) with A2, C2, B1 occupied</strong>. Row-1 has one occupied house per block, so A1 and C1 are vacant (their prices, at most 18 and 23, stay below 24).</p><p><strong>Block YY.</strong> E1, E2 vacant; exactly one of D1, F1 occupied, so E1 has neighbour count 1 and price base + 3. For E1 to be at least 15 it must have the <strong>only parking space (E1 = 15)</strong>. If F1 were the vacant one, its price would be 10 + 3 × (F2 occupied) ≤ 13 &lt; 15, so <strong>F1 is occupied and D1 vacant</strong>; then Column-D needs <strong>D2 occupied</strong>. D1 = 10 + 5 + 3 = 18. F2 may be occupied or vacant (if vacant, 10 + 5 + 3 = 18). E2 = 15 + 3 × (number of D2, F2 occupied) = 18 or 21.</p><p>Block XX vacant houses: A1, C1, B2 – <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following houses is definitely occupied?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "B1"
+    },
+    {
+     "id": "B",
+     "textHtml": "D2"
+    },
+    {
+     "id": "C",
+     "textHtml": "F2"
+    },
+    {
+     "id": "D",
+     "textHtml": "A1"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Road values: C1, D1 = 1; C2, D2 = 2; A2, B2, E2, F2 = 1; A1, B1, E1, F1 = 0.</p><p><strong>Block XX.</strong> 24 = base + 5r + 3n. r = 2 gives 3n = 2 or 4 (impossible); r = 0 needs n ≥ 4 (impossible); r = 1 works only with base 10 and n = 3. The only r = 1 house that can have 3 neighbours is B2, so <strong>B2 is vacant (no parking) with A2, C2, B1 occupied</strong>. Row-1 has one occupied house per block, so A1 and C1 are vacant (their prices, at most 18 and 23, stay below 24).</p><p><strong>Block YY.</strong> E1, E2 vacant; exactly one of D1, F1 occupied, so E1 has neighbour count 1 and price base + 3. For E1 to be at least 15 it must have the <strong>only parking space (E1 = 15)</strong>. If F1 were the vacant one, its price would be 10 + 3 × (F2 occupied) ≤ 13 &lt; 15, so <strong>F1 is occupied and D1 vacant</strong>; then Column-D needs <strong>D2 occupied</strong>. D1 = 10 + 5 + 3 = 18. F2 may be occupied or vacant (if vacant, 10 + 5 + 3 = 18). E2 = 15 + 3 × (number of D2, F2 occupied) = 18 or 21.</p><p>B1 must be occupied, because B2 – the Rs. 24 lakh house – needs all three of its neighbours (A2, C2, B1) occupied. <strong>B1</strong> is the answer.</p><p>(Note: with the conditions as stated, D2 also comes out occupied, since D1 has to be vacant and Column-D needs an occupied house. F2 can be either; A1 is vacant.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following options best describes the number of vacant houses in Row-2?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Either 3 or 4"
+    },
+    {
+     "id": "B",
+     "textHtml": "Either 2 or 3"
+    },
+    {
+     "id": "C",
+     "textHtml": "Exactly 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Exactly 2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Road values: C1, D1 = 1; C2, D2 = 2; A2, B2, E2, F2 = 1; A1, B1, E1, F1 = 0.</p><p><strong>Block XX.</strong> 24 = base + 5r + 3n. r = 2 gives 3n = 2 or 4 (impossible); r = 0 needs n ≥ 4 (impossible); r = 1 works only with base 10 and n = 3. The only r = 1 house that can have 3 neighbours is B2, so <strong>B2 is vacant (no parking) with A2, C2, B1 occupied</strong>. Row-1 has one occupied house per block, so A1 and C1 are vacant (their prices, at most 18 and 23, stay below 24).</p><p><strong>Block YY.</strong> E1, E2 vacant; exactly one of D1, F1 occupied, so E1 has neighbour count 1 and price base + 3. For E1 to be at least 15 it must have the <strong>only parking space (E1 = 15)</strong>. If F1 were the vacant one, its price would be 10 + 3 × (F2 occupied) ≤ 13 &lt; 15, so <strong>F1 is occupied and D1 vacant</strong>; then Column-D needs <strong>D2 occupied</strong>. D1 = 10 + 5 + 3 = 18. F2 may be occupied or vacant (if vacant, 10 + 5 + 3 = 18). E2 = 15 + 3 × (number of D2, F2 occupied) = 18 or 21.</p><p>Row-2: A2, C2, D2 occupied; B2, E2 vacant; F2 undetermined. Vacant count = <strong>2 or 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "TITA",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the maximum possible quoted price (in lakhs of Rs.) for a vacant house in Column-E?</p>",
+   "answer": "21",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Road values: C1, D1 = 1; C2, D2 = 2; A2, B2, E2, F2 = 1; A1, B1, E1, F1 = 0.</p><p><strong>Block XX.</strong> 24 = base + 5r + 3n. r = 2 gives 3n = 2 or 4 (impossible); r = 0 needs n ≥ 4 (impossible); r = 1 works only with base 10 and n = 3. The only r = 1 house that can have 3 neighbours is B2, so <strong>B2 is vacant (no parking) with A2, C2, B1 occupied</strong>. Row-1 has one occupied house per block, so A1 and C1 are vacant (their prices, at most 18 and 23, stay below 24).</p><p><strong>Block YY.</strong> E1, E2 vacant; exactly one of D1, F1 occupied, so E1 has neighbour count 1 and price base + 3. For E1 to be at least 15 it must have the <strong>only parking space (E1 = 15)</strong>. If F1 were the vacant one, its price would be 10 + 3 × (F2 occupied) ≤ 13 &lt; 15, so <strong>F1 is occupied and D1 vacant</strong>; then Column-D needs <strong>D2 occupied</strong>. D1 = 10 + 5 + 3 = 18. F2 may be occupied or vacant (if vacant, 10 + 5 + 3 = 18). E2 = 15 + 3 × (number of D2, F2 occupied) = 18 or 21.</p><p>E1 = 15. E2 = 10 + 5 × 1 + 3 × n, where n counts occupied D2 and F2. D2 is occupied; if F2 is also occupied, n = 2 and E2 = <strong>21</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial arrangement",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which house in Block YY has parking space?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "F1"
+    },
+    {
+     "id": "B",
+     "textHtml": "E2"
+    },
+    {
+     "id": "C",
+     "textHtml": "E1"
+    },
+    {
+     "id": "D",
+     "textHtml": "F2"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Road values: C1, D1 = 1; C2, D2 = 2; A2, B2, E2, F2 = 1; A1, B1, E1, F1 = 0.</p><p><strong>Block XX.</strong> 24 = base + 5r + 3n. r = 2 gives 3n = 2 or 4 (impossible); r = 0 needs n ≥ 4 (impossible); r = 1 works only with base 10 and n = 3. The only r = 1 house that can have 3 neighbours is B2, so <strong>B2 is vacant (no parking) with A2, C2, B1 occupied</strong>. Row-1 has one occupied house per block, so A1 and C1 are vacant (their prices, at most 18 and 23, stay below 24).</p><p><strong>Block YY.</strong> E1, E2 vacant; exactly one of D1, F1 occupied, so E1 has neighbour count 1 and price base + 3. For E1 to be at least 15 it must have the <strong>only parking space (E1 = 15)</strong>. If F1 were the vacant one, its price would be 10 + 3 × (F2 occupied) ≤ 13 &lt; 15, so <strong>F1 is occupied and D1 vacant</strong>; then Column-D needs <strong>D2 occupied</strong>. D1 = 10 + 5 + 3 = 18. F2 may be occupied or vacant (if vacant, 10 + 5 + 3 = 18). E2 = 15 + 3 × (number of D2, F2 occupied) = 18 or 21.</p><p>Only a parking space lifts E1 (road 0, one neighbour) from 13 to 15, so <strong>E1</strong> has the parking space.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

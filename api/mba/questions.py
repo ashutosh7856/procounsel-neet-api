@@ -12,16 +12,17 @@ from api.auth import CurrentUser
 from api.db import SafeFirestore, get_db
 
 from .deps import student
+from .exams import is_pyq
 from .models import (
     SECTION_IDS,
     BookmarkResponse,
     DailyResponse,
+    ExamSectionId,
     MistakeCategory,
     MistakeItem,
     MistakePatch,
     MistakesResponse,
     QuestionsResponse,
-    SectionId,
 )
 from .public import public_question
 from .stats import has_answered, is_due, new_stat
@@ -48,13 +49,19 @@ def get_question_or_404(bank: Bank, question_id: str) -> dict[str, Any]:
     return question
 
 
+def exam_of(question: dict[str, Any]) -> str:
+    return question.get("examId") or "cat"
+
+
 @router.get("/questions", response_model=QuestionsResponse)
 def list_questions(
-    section: SectionId | None = None,
+    section: ExamSectionId | None = None,
+    examId: str = Query(default="cat", max_length=50),  # noqa: N803 - practice is per exam; CAT by default
     topic: str | None = Query(default=None, max_length=200),
     year: int | None = None,
     slot: int | None = None,
     paperId: str | None = Query(default=None, max_length=200),  # noqa: N803
+    source: Literal["all", "pyq", "original"] = "all",
     filter: Literal["all", "unsolved", "incorrect", "bookmarked"] = "all",  # noqa: A002
     limit: int = Query(default=20, ge=1, le=50),
     cursor: str | None = Query(default=None, max_length=200),
@@ -66,6 +73,8 @@ def list_questions(
     topic_key = topic.strip().lower() if topic else None
 
     def keep(q: dict[str, Any]) -> bool:
+        if exam_of(q) != examId:
+            return False
         if section and q.get("section") != section:
             return False
         if topic_key and str(q.get("topic") or "").strip().lower() != topic_key:
@@ -75,6 +84,8 @@ def list_questions(
         if slot is not None and q.get("slot") != slot:
             return False
         if paperId and q.get("paperId") != paperId:
+            return False
+        if source != "all" and is_pyq(q) != (source == "pyq"):
             return False
         stat = stats.get(q["id"])
         if filter == "unsolved":
@@ -147,7 +158,8 @@ def mistake_item(stat: dict[str, Any], bank: Bank) -> dict[str, Any] | None:
 
 @router.get("/me/mistakes", response_model=MistakesResponse)
 def list_mistakes(
-    section: SectionId | None = None,
+    section: ExamSectionId | None = None,
+    examId: str | None = Query(default=None, max_length=50),  # noqa: N803 - null = every exam
     due: bool = False,
     user: CurrentUser = Depends(student),
     db: SafeFirestore = Depends(get_db),
@@ -157,6 +169,8 @@ def list_mistakes(
     stats = [s for s in user_stats(db, user.user_id).values() if s.get("isMistake")]
     if section:
         stats = [s for s in stats if s.get("section") == section]
+    if examId:
+        stats = [s for s in stats if exam_of(bank.questions.get(str(s.get("questionId"))) or {}) == examId]
     if due:
         stats = [s for s in stats if is_due(s, now)]
     stats.sort(key=lambda s: parse_iso(s.get("nextReviewAt")) or now)
@@ -196,7 +210,7 @@ def daily_question_ids(bank: Bank, day: str) -> list[str]:
 
     Prefers standalone questions (no shared passage/set) when there are enough.
     """
-    published = list(bank.questions.values())
+    published = [q for q in bank.questions.values() if exam_of(q) == "cat"]  # the daily challenge is CAT
     standalone = [q for q in published if not q.get("setId")]
     pool = sorted(q["id"] for q in (standalone if len(standalone) >= DAILY_MIN else published))
     if not pool:

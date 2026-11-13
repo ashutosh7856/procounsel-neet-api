@@ -1,0 +1,645 @@
+{
+ "sets": [
+  {
+   "key": "DILR-S1",
+   "kind": "dilr_set",
+   "title": "Javelin throw event",
+   "contentHtml": "<p>10 players – P1, P2, … , P10 – competed in an international javelin throw event. The number (after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1, 2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid’ one. For an invalid throw, the distance is taken as zero. A player’s score at the end of a round is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.</p><p>In each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.</p><p>All the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.</p><p><strong>Distances covered by all the valid throws in the first round</strong></p><table><thead><tr><th>Player</th><th>Distance (in m)</th></tr></thead><tbody><tr><td>P1</td><td>82.9</td></tr><tr><td>P3</td><td>81.5</td></tr><tr><td>P5</td><td>86.4</td></tr><tr><td>P6</td><td>82.5</td></tr><tr><td>P7</td><td>87.2</td></tr><tr><td>P9</td><td>84.1</td></tr></tbody></table><p><strong>Distances covered by all the valid throws in the third round</strong></p><table><thead><tr><th>Player</th><th>Distance (in m)</th></tr></thead><tbody><tr><td>P1</td><td>88.6</td></tr><tr><td>P3</td><td>79.0</td></tr><tr><td>P9</td><td>81.4</td></tr></tbody></table><p>The following facts are also known.</p><ol type=\"i\"><li>Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.</li><li>If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.</li><li>In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.</li><li>The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.</li><li>The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was 1.0 m.</li></ol>"
+  },
+  {
+   "key": "DILR-S2",
+   "kind": "dilr_set",
+   "title": "Question review process",
+   "contentHtml": "<p>Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external “subject matter experts” (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.</p><p>If a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.</p><p>A question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then it is accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.</p><p>The following facts are known about the review process after its completion.</p><ol><li>Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.</li><li>Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.</li><li>Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.</li><li>Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.</li></ol>"
+  },
+  {
+   "key": "DILR-S3",
+   "kind": "dilr_set",
+   "title": "Project schedule of four employees",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2021-slot3/dilr-project-schedule.png"
+   ],
+   "contentHtml": "<p>The figure shows the schedule of four employees – Abani, Bahni, Danni and Tinni – whom Dhoni supervised in 2020. Altogether there were five projects which started and concluded in 2020 in which they were involved. For each of these projects and for each employee, the starting day was at the beginning of a month and the concluding day was the end of a month, and these are indicated by the left and right end points of the corresponding horizontal bars. The number within each bar indicates the percentage of assigned work completed by the employee for that project, as assessed by Dhoni.</p><p>For each employee, his/her total project-month (in 2020) is the sum of the number of months (s)he worked across the five projects, while his/her annual completion index is the weighted average of the completion percentage assigned from the different projects, with the weights being the corresponding number of months (s)he worked in these projects. For each project, the total employee-month is the sum of the number of months four employees worked in this project, while its completion index is the weighted average of the completion percentage assigned for the employees who worked in this project, with the weights being the corresponding number of months they worked in this project.</p>"
+  },
+  {
+   "key": "DILR-S4",
+   "kind": "dilr_set",
+   "title": "Testing bottles for impurity",
+   "contentHtml": "<p>Each of the bottles mentioned in this question contains 50 ml of liquid. The liquid in any bottle can be 100% pure content (P) or can have certain amount of impurity (I). Visually it is not possible to distinguish between P and I. There is a testing device which detects impurity, as long as the percentage of impurity in the content tested is 10% or more.</p><p>For example, suppose bottle 1 contains only P, and bottle 2 contains 80% P and 20% I. If content from bottle 1 is tested, it will be found out that it contains only P. If content of bottle 2 is tested, the test will reveal that it contains some amount of I. If 10 ml of content from bottle 1 is mixed with 20 ml content from bottle 2, the test will show that the mixture has impurity, and hence we can conclude that at least one of the two bottles has I. However, if 10 ml of content from bottle 1 is mixed with 5 ml of content from bottle 2, the test will not detect any impurity in the resultant mixture.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Rankings / sequencing",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which two players got the double?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "P1, P10"
+    },
+    {
+     "id": "B",
+     "textHtml": "P2, P4"
+    },
+    {
+     "id": "C",
+     "textHtml": "P8, P10"
+    },
+    {
+     "id": "D",
+     "textHtml": "P1, P8"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> After round 1 the order is P7 (87.2), P5 (86.4), P9 (84.1), P1 (82.9), P6 (82.5), P3 (81.5), then the zero-scorers P2, P4, P8, P10. So the last two throwers of round 2 are <strong>P8 and P10</strong>; both throw validly and qualify. After round 3, the six qualifiers must be P1 (88.6), P7, P5, P9 and P8, P10, one of P8/P10 being 6th (between 82.5 and 84.1).</p><p><strong>Doubles.</strong> Round 3: first thrower = rank 1 after round 2; last in round 2 = P10, so P10 gets a double only if it led after round 2 (score above 87.2). Round 4: first thrower = 6th qualifier, a double only if he threw last among the six in round 3 (score below P1’s 82.9). Rounds 5 and 6: the first thrower would have to be the previous leader, impossible. Two doubles ⇒ <strong>P10 (round 3, score above 87.2) and P8 (round 4, score between 82.5 and 82.9)</strong>.</p><p><strong>Medals.</strong> Medalists come from P1, P7, P5, P9, and only medalists improve in rounds 4–6, each by the same d. Silver must not improve (if silver improved in round 4, gold − silver and silver − bronze would equal differences of starting scores, and none of 88.6, 87.2, 86.4, 84.1 differ by 1.0). An unimproved silver must beat P10 (above 87.2), so <strong>silver = P1 at 88.6</strong>; gold = 89.6, bronze = 87.6. If gold improves twice (rounds 4, 5): a + 2d = 89.6, c + d = 87.6 → a = 87.2, d = 1.2, c = 86.4 works. The other case (bronze twice) has no solution. So <strong>gold P7: 87.2 → 88.4 → 89.6</strong>, <strong>bronze P5: 86.4 → 87.6</strong>, and P10’s score lies between 87.2 and 87.6.</p><p>Answer: <strong>P8 and P10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Rankings / sequencing",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who won the silver medal?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "P9"
+    },
+    {
+     "id": "B",
+     "textHtml": "P5"
+    },
+    {
+     "id": "C",
+     "textHtml": "P7"
+    },
+    {
+     "id": "D",
+     "textHtml": "P1"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> After round 1 the order is P7 (87.2), P5 (86.4), P9 (84.1), P1 (82.9), P6 (82.5), P3 (81.5), then the zero-scorers P2, P4, P8, P10. So the last two throwers of round 2 are <strong>P8 and P10</strong>; both throw validly and qualify. After round 3, the six qualifiers must be P1 (88.6), P7, P5, P9 and P8, P10, one of P8/P10 being 6th (between 82.5 and 84.1).</p><p><strong>Doubles.</strong> Round 3: first thrower = rank 1 after round 2; last in round 2 = P10, so P10 gets a double only if it led after round 2 (score above 87.2). Round 4: first thrower = 6th qualifier, a double only if he threw last among the six in round 3 (score below P1’s 82.9). Rounds 5 and 6: the first thrower would have to be the previous leader, impossible. Two doubles ⇒ <strong>P10 (round 3, score above 87.2) and P8 (round 4, score between 82.5 and 82.9)</strong>.</p><p><strong>Medals.</strong> Medalists come from P1, P7, P5, P9, and only medalists improve in rounds 4–6, each by the same d. Silver must not improve (if silver improved in round 4, gold − silver and silver − bronze would equal differences of starting scores, and none of 88.6, 87.2, 86.4, 84.1 differ by 1.0). An unimproved silver must beat P10 (above 87.2), so <strong>silver = P1 at 88.6</strong>; gold = 89.6, bronze = 87.6. If gold improves twice (rounds 4, 5): a + 2d = 89.6, c + d = 87.6 → a = 87.2, d = 1.2, c = 86.4 works. The other case (bronze twice) has no solution. So <strong>gold P7: 87.2 → 88.4 → 89.6</strong>, <strong>bronze P5: 86.4 → 87.6</strong>, and P10’s score lies between 87.2 and 87.6.</p><p>Answer: <strong>P1</strong> won silver with 88.6 m.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Rankings / sequencing",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who threw the last javelin in the event?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "P7"
+    },
+    {
+     "id": "B",
+     "textHtml": "P1"
+    },
+    {
+     "id": "C",
+     "textHtml": "P10"
+    },
+    {
+     "id": "D",
+     "textHtml": "P9"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> After round 1 the order is P7 (87.2), P5 (86.4), P9 (84.1), P1 (82.9), P6 (82.5), P3 (81.5), then the zero-scorers P2, P4, P8, P10. So the last two throwers of round 2 are <strong>P8 and P10</strong>; both throw validly and qualify. After round 3, the six qualifiers must be P1 (88.6), P7, P5, P9 and P8, P10, one of P8/P10 being 6th (between 82.5 and 84.1).</p><p><strong>Doubles.</strong> Round 3: first thrower = rank 1 after round 2; last in round 2 = P10, so P10 gets a double only if it led after round 2 (score above 87.2). Round 4: first thrower = 6th qualifier, a double only if he threw last among the six in round 3 (score below P1’s 82.9). Rounds 5 and 6: the first thrower would have to be the previous leader, impossible. Two doubles ⇒ <strong>P10 (round 3, score above 87.2) and P8 (round 4, score between 82.5 and 82.9)</strong>.</p><p><strong>Medals.</strong> Medalists come from P1, P7, P5, P9, and only medalists improve in rounds 4–6, each by the same d. Silver must not improve (if silver improved in round 4, gold − silver and silver − bronze would equal differences of starting scores, and none of 88.6, 87.2, 86.4, 84.1 differ by 1.0). An unimproved silver must beat P10 (above 87.2), so <strong>silver = P1 at 88.6</strong>; gold = 89.6, bronze = 87.6. If gold improves twice (rounds 4, 5): a + 2d = 89.6, c + d = 87.6 → a = 87.2, d = 1.2, c = 86.4 works. The other case (bronze twice) has no solution. So <strong>gold P7: 87.2 → 88.4 → 89.6</strong>, <strong>bronze P5: 86.4 → 87.6</strong>, and P10’s score lies between 87.2 and 87.6.</p><p>In round 6 (second phase) players throw in decreasing order of rank, so the player ranked 1 after round 5 throws last. After round 5, P7 leads with 89.6, so <strong>P7</strong> threw the last javelin.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Rankings / sequencing",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was the final score (in m) of the silver-medalist?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "87.2"
+    },
+    {
+     "id": "B",
+     "textHtml": "89.6"
+    },
+    {
+     "id": "C",
+     "textHtml": "88.6"
+    },
+    {
+     "id": "D",
+     "textHtml": "88.4"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> After round 1 the order is P7 (87.2), P5 (86.4), P9 (84.1), P1 (82.9), P6 (82.5), P3 (81.5), then the zero-scorers P2, P4, P8, P10. So the last two throwers of round 2 are <strong>P8 and P10</strong>; both throw validly and qualify. After round 3, the six qualifiers must be P1 (88.6), P7, P5, P9 and P8, P10, one of P8/P10 being 6th (between 82.5 and 84.1).</p><p><strong>Doubles.</strong> Round 3: first thrower = rank 1 after round 2; last in round 2 = P10, so P10 gets a double only if it led after round 2 (score above 87.2). Round 4: first thrower = 6th qualifier, a double only if he threw last among the six in round 3 (score below P1’s 82.9). Rounds 5 and 6: the first thrower would have to be the previous leader, impossible. Two doubles ⇒ <strong>P10 (round 3, score above 87.2) and P8 (round 4, score between 82.5 and 82.9)</strong>.</p><p><strong>Medals.</strong> Medalists come from P1, P7, P5, P9, and only medalists improve in rounds 4–6, each by the same d. Silver must not improve (if silver improved in round 4, gold − silver and silver − bronze would equal differences of starting scores, and none of 88.6, 87.2, 86.4, 84.1 differ by 1.0). An unimproved silver must beat P10 (above 87.2), so <strong>silver = P1 at 88.6</strong>; gold = 89.6, bronze = 87.6. If gold improves twice (rounds 4, 5): a + 2d = 89.6, c + d = 87.6 → a = 87.2, d = 1.2, c = 86.4 works. The other case (bronze twice) has no solution. So <strong>gold P7: 87.2 → 88.4 → 89.6</strong>, <strong>bronze P5: 86.4 → 87.6</strong>, and P10’s score lies between 87.2 and 87.6.</p><p>Silver is P1, who did not improve in phase 2: final score <strong>88.6 m</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Rankings / sequencing",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following can be the final score (in m) of P8?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "85.1"
+    },
+    {
+     "id": "B",
+     "textHtml": "0"
+    },
+    {
+     "id": "C",
+     "textHtml": "81.9"
+    },
+    {
+     "id": "D",
+     "textHtml": "82.7"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> After round 1 the order is P7 (87.2), P5 (86.4), P9 (84.1), P1 (82.9), P6 (82.5), P3 (81.5), then the zero-scorers P2, P4, P8, P10. So the last two throwers of round 2 are <strong>P8 and P10</strong>; both throw validly and qualify. After round 3, the six qualifiers must be P1 (88.6), P7, P5, P9 and P8, P10, one of P8/P10 being 6th (between 82.5 and 84.1).</p><p><strong>Doubles.</strong> Round 3: first thrower = rank 1 after round 2; last in round 2 = P10, so P10 gets a double only if it led after round 2 (score above 87.2). Round 4: first thrower = 6th qualifier, a double only if he threw last among the six in round 3 (score below P1’s 82.9). Rounds 5 and 6: the first thrower would have to be the previous leader, impossible. Two doubles ⇒ <strong>P10 (round 3, score above 87.2) and P8 (round 4, score between 82.5 and 82.9)</strong>.</p><p><strong>Medals.</strong> Medalists come from P1, P7, P5, P9, and only medalists improve in rounds 4–6, each by the same d. Silver must not improve (if silver improved in round 4, gold − silver and silver − bronze would equal differences of starting scores, and none of 88.6, 87.2, 86.4, 84.1 differ by 1.0). An unimproved silver must beat P10 (above 87.2), so <strong>silver = P1 at 88.6</strong>; gold = 89.6, bronze = 87.6. If gold improves twice (rounds 4, 5): a + 2d = 89.6, c + d = 87.6 → a = 87.2, d = 1.2, c = 86.4 works. The other case (bronze twice) has no solution. So <strong>gold P7: 87.2 → 88.4 → 89.6</strong>, <strong>bronze P5: 86.4 → 87.6</strong>, and P10’s score lies between 87.2 and 87.6.</p><p>P8 never improves in phase 2 (only medalists do), and his round-2 throw must lie strictly between 82.5 (P6, so that P8 qualifies) and 82.9 (P1, so that P8 threw last among the six in round 3 and got the double). Only <strong>82.7</strong> fits.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Rankings / sequencing",
+   "difficulty": "hard",
+   "stemHtml": "<p>By how much did the gold medalist improve his score (in m) in the second phase?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2.0"
+    },
+    {
+     "id": "B",
+     "textHtml": "1.2"
+    },
+    {
+     "id": "C",
+     "textHtml": "1.0"
+    },
+    {
+     "id": "D",
+     "textHtml": "2.4"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> After round 1 the order is P7 (87.2), P5 (86.4), P9 (84.1), P1 (82.9), P6 (82.5), P3 (81.5), then the zero-scorers P2, P4, P8, P10. So the last two throwers of round 2 are <strong>P8 and P10</strong>; both throw validly and qualify. After round 3, the six qualifiers must be P1 (88.6), P7, P5, P9 and P8, P10, one of P8/P10 being 6th (between 82.5 and 84.1).</p><p><strong>Doubles.</strong> Round 3: first thrower = rank 1 after round 2; last in round 2 = P10, so P10 gets a double only if it led after round 2 (score above 87.2). Round 4: first thrower = 6th qualifier, a double only if he threw last among the six in round 3 (score below P1’s 82.9). Rounds 5 and 6: the first thrower would have to be the previous leader, impossible. Two doubles ⇒ <strong>P10 (round 3, score above 87.2) and P8 (round 4, score between 82.5 and 82.9)</strong>.</p><p><strong>Medals.</strong> Medalists come from P1, P7, P5, P9, and only medalists improve in rounds 4–6, each by the same d. Silver must not improve (if silver improved in round 4, gold − silver and silver − bronze would equal differences of starting scores, and none of 88.6, 87.2, 86.4, 84.1 differ by 1.0). An unimproved silver must beat P10 (above 87.2), so <strong>silver = P1 at 88.6</strong>; gold = 89.6, bronze = 87.6. If gold improves twice (rounds 4, 5): a + 2d = 89.6, c + d = 87.6 → a = 87.2, d = 1.2, c = 86.4 works. The other case (bronze twice) has no solution. So <strong>gold P7: 87.2 → 88.4 → 89.6</strong>, <strong>bronze P5: 86.4 → 87.6</strong>, and P10’s score lies between 87.2 and 87.6.</p><p>Gold medalist P7 went from 87.2 to 89.6, an improvement of <strong>2.4 m</strong> (1.2 m in each of rounds 4 and 5).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Process / flow",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many questions were DEFINITELY created by Amal?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Who reviews what.</strong> SME question: Amal, Bimal (+ Komal if they split). Amal’s question: Bimal (+ Komal if Bimal disapproves). Bimal’s: Komal (+ Amal if Komal disapproves). Komal’s: Amal (+ Bimal if Amal disapproves). So the set of reviewers tells us the creator:</p><ul><li>Komal only → Bimal’s, Komal approved: <strong>Q01, Q05</strong> (both accepted).</li><li>Amal only → Komal’s, Amal approved: <strong>Q10</strong>.</li><li>Amal + Komal → Bimal’s, Komal disapproved, Amal decided: <strong>Q03</strong> (Amal approved), <strong>Q11</strong> (Amal disapproved).</li><li>Bimal + Komal → Amal’s, Bimal disapproved, Komal decided: <strong>Q07</strong> (Komal approved), <strong>Q09, Q12</strong> (Komal disapproved).</li><li>All three → SME with a split, Komal decided: <strong>Q02</strong> (rejected), <strong>Q04, Q08</strong> (accepted). Which of Amal/Bimal approved is unknown.</li><li>Amal + Bimal → either SME (both agreed) or Komal’s (Amal disapproved, Bimal decided): <strong>Q06</strong> (rejected: both disapproved either way), <strong>Q13</strong> (accepted: SME with both approving, or Komal’s with Amal disapproving and Bimal approving).</li></ul><p>Only questions reviewed by exactly Bimal and Komal can be Amal’s: Q07, Q09, Q12. Answer: <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Process / flow",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many questions were DEFINITELY created by Komal?</p>",
+   "answer": "1",
+   "solutionHtml": "<p><strong>Who reviews what.</strong> SME question: Amal, Bimal (+ Komal if they split). Amal’s question: Bimal (+ Komal if Bimal disapproves). Bimal’s: Komal (+ Amal if Komal disapproves). Komal’s: Amal (+ Bimal if Amal disapproves). So the set of reviewers tells us the creator:</p><ul><li>Komal only → Bimal’s, Komal approved: <strong>Q01, Q05</strong> (both accepted).</li><li>Amal only → Komal’s, Amal approved: <strong>Q10</strong>.</li><li>Amal + Komal → Bimal’s, Komal disapproved, Amal decided: <strong>Q03</strong> (Amal approved), <strong>Q11</strong> (Amal disapproved).</li><li>Bimal + Komal → Amal’s, Bimal disapproved, Komal decided: <strong>Q07</strong> (Komal approved), <strong>Q09, Q12</strong> (Komal disapproved).</li><li>All three → SME with a split, Komal decided: <strong>Q02</strong> (rejected), <strong>Q04, Q08</strong> (accepted). Which of Amal/Bimal approved is unknown.</li><li>Amal + Bimal → either SME (both agreed) or Komal’s (Amal disapproved, Bimal decided): <strong>Q06</strong> (rejected: both disapproved either way), <strong>Q13</strong> (accepted: SME with both approving, or Komal’s with Amal disapproving and Bimal approving).</li></ul><p>Definitely Komal’s: only Q10 (reviewed by Amal alone). Q06 and Q13 could be Komal’s or an SME’s. Answer: <strong>1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Process / flow",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many questions were DEFINITELY created by the SMEs?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Who reviews what.</strong> SME question: Amal, Bimal (+ Komal if they split). Amal’s question: Bimal (+ Komal if Bimal disapproves). Bimal’s: Komal (+ Amal if Komal disapproves). Komal’s: Amal (+ Bimal if Amal disapproves). So the set of reviewers tells us the creator:</p><ul><li>Komal only → Bimal’s, Komal approved: <strong>Q01, Q05</strong> (both accepted).</li><li>Amal only → Komal’s, Amal approved: <strong>Q10</strong>.</li><li>Amal + Komal → Bimal’s, Komal disapproved, Amal decided: <strong>Q03</strong> (Amal approved), <strong>Q11</strong> (Amal disapproved).</li><li>Bimal + Komal → Amal’s, Bimal disapproved, Komal decided: <strong>Q07</strong> (Komal approved), <strong>Q09, Q12</strong> (Komal disapproved).</li><li>All three → SME with a split, Komal decided: <strong>Q02</strong> (rejected), <strong>Q04, Q08</strong> (accepted). Which of Amal/Bimal approved is unknown.</li><li>Amal + Bimal → either SME (both agreed) or Komal’s (Amal disapproved, Bimal decided): <strong>Q06</strong> (rejected: both disapproved either way), <strong>Q13</strong> (accepted: SME with both approving, or Komal’s with Amal disapproving and Bimal approving).</li></ul><p>Only questions reviewed by all three must be SME questions: Q02, Q04, Q08. Q06 and Q13 are uncertain. Answer: <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Process / flow",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many questions were DEFINITELY disapproved by Bimal?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Who reviews what.</strong> SME question: Amal, Bimal (+ Komal if they split). Amal’s question: Bimal (+ Komal if Bimal disapproves). Bimal’s: Komal (+ Amal if Komal disapproves). Komal’s: Amal (+ Bimal if Amal disapproves). So the set of reviewers tells us the creator:</p><ul><li>Komal only → Bimal’s, Komal approved: <strong>Q01, Q05</strong> (both accepted).</li><li>Amal only → Komal’s, Amal approved: <strong>Q10</strong>.</li><li>Amal + Komal → Bimal’s, Komal disapproved, Amal decided: <strong>Q03</strong> (Amal approved), <strong>Q11</strong> (Amal disapproved).</li><li>Bimal + Komal → Amal’s, Bimal disapproved, Komal decided: <strong>Q07</strong> (Komal approved), <strong>Q09, Q12</strong> (Komal disapproved).</li><li>All three → SME with a split, Komal decided: <strong>Q02</strong> (rejected), <strong>Q04, Q08</strong> (accepted). Which of Amal/Bimal approved is unknown.</li><li>Amal + Bimal → either SME (both agreed) or Komal’s (Amal disapproved, Bimal decided): <strong>Q06</strong> (rejected: both disapproved either way), <strong>Q13</strong> (accepted: SME with both approving, or Komal’s with Amal disapproving and Bimal approving).</li></ul><p>Bimal reviewed Q02, Q04, Q06, Q07, Q08, Q09, Q12, Q13.</p><ul><li>Q07, Q09, Q12 (Amal’s): Bimal disapproved, since Komal had to review them.</li><li>Q06: rejected after only Amal and Bimal, so Bimal disapproved in both possible cases.</li><li>Q02, Q04, Q08: split decisions, but we can’t tell whether Bimal was the one who disapproved.</li><li>Q13: Bimal approved in both cases.</li></ul><p>Definitely disapproved: Q06, Q07, Q09, Q12 = <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Process / flow",
+   "difficulty": "hard",
+   "stemHtml": "<p>The approval ratio of a reviewer is the ratio of the number of questions (s)he approved to the number of questions (s)he reviewed. Which option best describes Amal’s approval ratio?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "lies between 0.25 and 0.75"
+    },
+    {
+     "id": "B",
+     "textHtml": "0.25"
+    },
+    {
+     "id": "C",
+     "textHtml": "either 0.25 or 0.75"
+    },
+    {
+     "id": "D",
+     "textHtml": "lies between 0.25 and 0.50"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Who reviews what.</strong> SME question: Amal, Bimal (+ Komal if they split). Amal’s question: Bimal (+ Komal if Bimal disapproves). Bimal’s: Komal (+ Amal if Komal disapproves). Komal’s: Amal (+ Bimal if Amal disapproves). So the set of reviewers tells us the creator:</p><ul><li>Komal only → Bimal’s, Komal approved: <strong>Q01, Q05</strong> (both accepted).</li><li>Amal only → Komal’s, Amal approved: <strong>Q10</strong>.</li><li>Amal + Komal → Bimal’s, Komal disapproved, Amal decided: <strong>Q03</strong> (Amal approved), <strong>Q11</strong> (Amal disapproved).</li><li>Bimal + Komal → Amal’s, Bimal disapproved, Komal decided: <strong>Q07</strong> (Komal approved), <strong>Q09, Q12</strong> (Komal disapproved).</li><li>All three → SME with a split, Komal decided: <strong>Q02</strong> (rejected), <strong>Q04, Q08</strong> (accepted). Which of Amal/Bimal approved is unknown.</li><li>Amal + Bimal → either SME (both agreed) or Komal’s (Amal disapproved, Bimal decided): <strong>Q06</strong> (rejected: both disapproved either way), <strong>Q13</strong> (accepted: SME with both approving, or Komal’s with Amal disapproving and Bimal approving).</li></ul><p>Amal reviewed 8 questions: Q02, Q03, Q04, Q06, Q08, Q10, Q11, Q13.</p><ul><li>Definitely approved: Q03, Q10 (2).</li><li>Definitely disapproved: Q06, Q11.</li><li>Unknown: Q02, Q04, Q08 (split with Bimal, either could have approved) and Q13 (approved if SME, disapproved if Komal’s).</li></ul><p>Approvals can be anything from 2 to 6, so the ratio ranges from 2/8 = 0.25 to 6/8 = 0.75. Best description: <strong>lies between 0.25 and 0.75</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Process / flow",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many questions created by Amal or Bimal were disapproved by at least one of the other reviewers?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "7"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Who reviews what.</strong> SME question: Amal, Bimal (+ Komal if they split). Amal’s question: Bimal (+ Komal if Bimal disapproves). Bimal’s: Komal (+ Amal if Komal disapproves). Komal’s: Amal (+ Bimal if Amal disapproves). So the set of reviewers tells us the creator:</p><ul><li>Komal only → Bimal’s, Komal approved: <strong>Q01, Q05</strong> (both accepted).</li><li>Amal only → Komal’s, Amal approved: <strong>Q10</strong>.</li><li>Amal + Komal → Bimal’s, Komal disapproved, Amal decided: <strong>Q03</strong> (Amal approved), <strong>Q11</strong> (Amal disapproved).</li><li>Bimal + Komal → Amal’s, Bimal disapproved, Komal decided: <strong>Q07</strong> (Komal approved), <strong>Q09, Q12</strong> (Komal disapproved).</li><li>All three → SME with a split, Komal decided: <strong>Q02</strong> (rejected), <strong>Q04, Q08</strong> (accepted). Which of Amal/Bimal approved is unknown.</li><li>Amal + Bimal → either SME (both agreed) or Komal’s (Amal disapproved, Bimal decided): <strong>Q06</strong> (rejected: both disapproved either way), <strong>Q13</strong> (accepted: SME with both approving, or Komal’s with Amal disapproving and Bimal approving).</li></ul><p>Amal’s questions Q07, Q09, Q12 were all disapproved by Bimal (3). Bimal’s questions: Q01, Q05 were approved by Komal straight away; Q03 and Q11 were disapproved by Komal (2). Total = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Gantt chart",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which of the following statements is/are true?</p><p>I: The total project-month was the same for the four employees.<br>II: The total employee-month was the same for the five projects.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only II"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only I"
+    },
+    {
+     "id": "C",
+     "textHtml": "Neither I nor II"
+    },
+    {
+     "id": "D",
+     "textHtml": "Both I and II"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Reading the chart (months worked, completion %).</strong></p><ul><li>Project 1: Abani Feb–Mar (2, 100), Bahni Feb–Mar (2, 100), Tinni Jan–Feb (2, 80).</li><li>Project 2: Danni Feb–Apr (3, 90), Tinni Mar–Apr (2, 100).</li><li>Project 3: Abani May–Jun (2, 100), Bahni Apr–Jul (4, 75), Danni Jun–Aug (3, 100).</li><li>Project 4: Abani Jul–Nov (5, 80), Danni Sep–Oct (2, 100), Tinni Jul–Sep (3, 100).</li><li>Project 5: Bahni Oct–Dec (3, 90), Danni Dec (1, 100), Tinni Sep–Oct (2, 100).</li></ul><p><strong>I:</strong> Abani 2+2+5 = 9, Bahni 2+4+3 = 9, Danni 3+3+2+1 = 9, Tinni 2+2+3+2 = 9. True.</p><p><strong>II:</strong> Projects: 6, 5, 9, 10, 6. Not equal, false.</p><p>Answer: <strong>Only I</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Gantt chart",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which employees did not work in multiple projects for any of the months in 2020?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only Abani and Bahni"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only Tinni"
+    },
+    {
+     "id": "C",
+     "textHtml": "All four of them"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only Abani, Bahni and Danni"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Reading the chart (months worked, completion %).</strong></p><ul><li>Project 1: Abani Feb–Mar (2, 100), Bahni Feb–Mar (2, 100), Tinni Jan–Feb (2, 80).</li><li>Project 2: Danni Feb–Apr (3, 90), Tinni Mar–Apr (2, 100).</li><li>Project 3: Abani May–Jun (2, 100), Bahni Apr–Jul (4, 75), Danni Jun–Aug (3, 100).</li><li>Project 4: Abani Jul–Nov (5, 80), Danni Sep–Oct (2, 100), Tinni Jul–Sep (3, 100).</li><li>Project 5: Bahni Oct–Dec (3, 90), Danni Dec (1, 100), Tinni Sep–Oct (2, 100).</li></ul><p>Check each person’s bars for overlap:</p><ul><li>Abani: Feb–Mar, May–Jun, Jul–Nov: no overlap.</li><li>Bahni: Feb–Mar, Apr–Jul, Oct–Dec: no overlap.</li><li>Danni: Feb–Apr, Jun–Aug, Sep–Oct, Dec: no overlap.</li><li>Tinni: Project 4 (Jul–Sep) and Project 5 (Sep–Oct) both include <strong>September</strong>: overlap.</li></ul><p>Answer: <strong>Only Abani, Bahni and Danni</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Gantt chart",
+   "difficulty": "easy",
+   "stemHtml": "<p>The project duration, measured in terms of the number of months, is the time during which at least one employee worked in the project. Which of the following pairs of the projects had the same duration?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Project 4, Project 5"
+    },
+    {
+     "id": "B",
+     "textHtml": "Project 3, Project 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "Project 3, Project 4"
+    },
+    {
+     "id": "D",
+     "textHtml": "Project 1, Project 5"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Reading the chart (months worked, completion %).</strong></p><ul><li>Project 1: Abani Feb–Mar (2, 100), Bahni Feb–Mar (2, 100), Tinni Jan–Feb (2, 80).</li><li>Project 2: Danni Feb–Apr (3, 90), Tinni Mar–Apr (2, 100).</li><li>Project 3: Abani May–Jun (2, 100), Bahni Apr–Jul (4, 75), Danni Jun–Aug (3, 100).</li><li>Project 4: Abani Jul–Nov (5, 80), Danni Sep–Oct (2, 100), Tinni Jul–Sep (3, 100).</li><li>Project 5: Bahni Oct–Dec (3, 90), Danni Dec (1, 100), Tinni Sep–Oct (2, 100).</li></ul><p>Durations: Project 1 Jan–Mar = 3; Project 2 Feb–Apr = 3; Project 3 Apr–Aug = 5; Project 4 Jul–Nov = 5; Project 5 Sep–Dec = 4.</p><p>Among the options, only <strong>Project 3 and Project 4</strong> (5 months each) match.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Gantt chart",
+   "difficulty": "medium",
+   "stemHtml": "<p>The list of employees in decreasing order of annual completion index is:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Danni, Tinni, Bahni, Abani"
+    },
+    {
+     "id": "B",
+     "textHtml": "Danni, Tinni, Abani, Bahni"
+    },
+    {
+     "id": "C",
+     "textHtml": "Tinni, Danni, Abani, Bahni"
+    },
+    {
+     "id": "D",
+     "textHtml": "Bahni, Abani, Tinni, Danni"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Reading the chart (months worked, completion %).</strong></p><ul><li>Project 1: Abani Feb–Mar (2, 100), Bahni Feb–Mar (2, 100), Tinni Jan–Feb (2, 80).</li><li>Project 2: Danni Feb–Apr (3, 90), Tinni Mar–Apr (2, 100).</li><li>Project 3: Abani May–Jun (2, 100), Bahni Apr–Jul (4, 75), Danni Jun–Aug (3, 100).</li><li>Project 4: Abani Jul–Nov (5, 80), Danni Sep–Oct (2, 100), Tinni Jul–Sep (3, 100).</li><li>Project 5: Bahni Oct–Dec (3, 90), Danni Dec (1, 100), Tinni Sep–Oct (2, 100).</li></ul><p>Each person worked 9 months in total, so compare the weighted sums (months × %):</p><ul><li>Abani: 200 + 200 + 400 = 800</li><li>Bahni: 200 + 300 + 270 = 770</li><li>Danni: 270 + 300 + 200 + 100 = 870</li><li>Tinni: 160 + 200 + 300 + 200 = 860</li></ul><p>Order: <strong>Danni (96.7), Tinni (95.6), Abani (88.9), Bahni (85.6)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Testing / weighing puzzles",
+   "difficulty": "easy",
+   "stemHtml": "<p>5 ml of content from bottle A is mixed with 5 ml of content from bottle B. The resultant mixture, when tested, detects the presence of I. If it is known that bottle A contains only P, what BEST can be concluded about the volume of I in bottle B?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10 ml or more"
+    },
+    {
+     "id": "B",
+     "textHtml": "Less than 1 ml"
+    },
+    {
+     "id": "C",
+     "textHtml": "1 ml"
+    },
+    {
+     "id": "D",
+     "textHtml": "10 ml"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key rule:</strong> a test shows impurity exactly when impurity is at least 10% of the volume tested.</p><p>The 10 ml mixture showed impurity, so it held at least 1 ml of I, all from B’s 5 ml. So B is at least 1/5 = 20% impurity, i.e., at least 20% of 50 ml = <strong>10 ml or more</strong> of I.</p><p>“1 ml” is the impurity in the 5 ml sample, not in the bottle; “exactly 10 ml” is too precise, since any higher amount also fits.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Testing / weighing puzzles",
+   "difficulty": "easy",
+   "stemHtml": "<p>There are four bottles. Each bottle is known to contain only P or only I. They will be considered to be “collectively ready for despatch” if all of them contain only P. In minimum how many tests, is it possible to ascertain whether these four bottles are “collectively ready for despatch”?</p>",
+   "answer": "1",
+   "solutionHtml": "<p><strong>Key rule:</strong> a test shows impurity exactly when impurity is at least 10% of the volume tested.</p><p>Mix equal amounts from all four bottles and test once. If even one bottle is pure I, the mixture is at least 25% I and the test detects it; if none is, the mixture is pure. So <strong>1</strong> test settles it.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Testing / weighing puzzles",
+   "difficulty": "medium",
+   "stemHtml": "<p>There are four bottles. It is known that three of these bottles contain only P, while the remaining one contains 80% P and 20% I. What is the minimum number of tests required to definitely identify the bottle containing some amount of I?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>Key rule:</strong> a test shows impurity exactly when impurity is at least 10% of the volume tested.</p><p>One test has only two outcomes but there are four possible bottles, so at least 2 tests are needed.</p><p>Two are enough: Test 1 = equal parts of bottles 1 and 2; Test 2 = equal parts of bottles 1 and 3. A 1:1 mix with the impure bottle is 10% I, which is detected.</p><ul><li>Both positive → bottle 1</li><li>Only test 1 positive → bottle 2</li><li>Only test 2 positive → bottle 3</li><li>Both negative → bottle 4</li></ul><p>Answer: <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Testing / weighing puzzles",
+   "difficulty": "medium",
+   "stemHtml": "<p>There are four bottles. It is known that either one or two of these bottles contain(s) only P, while the remaining ones contain 85% P and 15% I. What is the minimum number of tests required to ascertain the exact number of bottles containing only P?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key rule:</strong> a test shows impurity exactly when impurity is at least 10% of the volume tested.</p><p>Mix equal amounts from all four bottles and test once.</p><ul><li>One pure bottle (three impure): impurity = 3 × 15% / 4 = 11.25% ≥ 10% → detected.</li><li>Two pure bottles (two impure): impurity = 2 × 15% / 4 = 7.5% &lt; 10% → not detected.</li></ul><p>The single result tells the two cases apart, so the minimum is <strong>1</strong> test.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

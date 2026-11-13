@@ -1,0 +1,997 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Ages / percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>Arun's present age in years is 40% of Barun's. In another few years, Arun's age will be half of Barun's. By what percentage will Barun's age increase during this period?</p>",
+      "answer": "20",
+      "solutionHtml": "<p>Let Barun be 10x now, so Arun is 4x. After t years: 4x + t = (10x + t)/2 → 8x + 2t = 10x + t → <strong>t = 2x</strong>.</p><p>Barun goes from 10x to 12x: an increase of 2x/10x = <strong>20%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "easy",
+      "stemHtml": "<p>A person can complete a job in 120 days. He works alone on Day 1. On Day 2, he is joined by another person who also can complete the job in exactly 120 days. On Day 3, they are joined by another person of equal efficiency. Like this, everyday a new person with the same efficiency joins the work. How many days are required to complete the job?</p>",
+      "answer": "15",
+      "solutionHtml": "<p>Take the job as 120 units; each person does 1 unit a day. On day k, k people work, so after n days the work done is 1 + 2 + … + n = n(n + 1)/2.</p><p>n(n + 1)/2 = 120 → n(n + 1) = 240 = 15 × 16 → <strong>n = 15</strong> days (exactly).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Maxima",
+      "difficulty": "easy",
+      "stemHtml": "<p>An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest weighs 53 kg. What is the maximum possible number of people in the group?</p>",
+      "answer": "11",
+      "solutionHtml": "<p>To fit the most people, make everyone other than the heaviest as light as possible, i.e. 53 kg.</p><p>With n people: 57 + 53(n − 1) ≤ 630 → 53(n − 1) ≤ 573 → n − 1 ≤ 10.8 → n − 1 = 10.</p><p>Check: 57 + 10 × 53 = 587 ≤ 630, while 12 people would need at least 57 + 11 × 53 = 640 > 630. Maximum = <strong>11</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>A man leaves his home and walks at a speed of 12 km per hour, reaching the railway station 10 minutes after the train had departed. If instead he had walked at a speed of 15 km per hour, he would have reached the station 10 minutes before the train's departure. The distance (in km) from his home to the railway station is</p>",
+      "answer": "20",
+      "solutionHtml": "<p>The two walking times differ by 10 + 10 = 20 minutes = 1/3 hour.</p><p>d/12 − d/15 = d/60 = 1/3 → <strong>d = 20 km</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>Ravi invests 50% of his monthly savings in fixed deposits. Thirty percent of the rest of his savings is invested in stocks and the rest goes into Ravi's savings bank account. If the total amount deposited by him in the bank (for savings account and fixed deposits) is Rs 59500, then Ravi's total monthly savings (in Rs) is</p>",
+      "answer": "70000",
+      "solutionHtml": "<p>Let savings = S. FD = 0.5S; stocks = 0.3 × 0.5S = 0.15S; savings account = 0.35S.</p><p>Bank total = 0.5S + 0.35S = 0.85S = 59500 → S = <strong>70000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>If a seller gives a discount of 15% on retail price, she still makes a profit of 2%. Which of the following ensures that she makes a profit of 20%?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Give a discount of 5% on retail price"
+        },
+        {
+          "id": "B",
+          "textHtml": "Give a discount of 2% on retail price"
+        },
+        {
+          "id": "C",
+          "textHtml": "Increase the retail price by 2%"
+        },
+        {
+          "id": "D",
+          "textHtml": "Sell at retail price"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let cost = 100. Then 0.85 × R = 102 → R = 120.</p><p>A 20% profit means selling at 120 = the retail price itself, so she should <strong>sell at retail price</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Boats & streams",
+      "difficulty": "medium",
+      "stemHtml": "<p>A man travels by a motor boat down a river to his office and back. With the speed of the river unchanged, if he doubles the speed of his motor boat, then his total travel time gets reduced by 75%. The ratio of the original speed of the motor boat to the speed of the river is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "√6 : √2"
+        },
+        {
+          "id": "B",
+          "textHtml": "√7 : 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "2√5 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "3 : 2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Boat speed b, river r, one-way distance d. Round trip time = d/(b + r) + d/(b − r) = 2bd/(b<sup>2</sup> − r<sup>2</sup>).</p><p>Doubled speed: 4bd/(4b<sup>2</sup> − r<sup>2</sup>), which must be one quarter of the original:</p><p>4bd/(4b<sup>2</sup> − r<sup>2</sup>) = (1/4) × 2bd/(b<sup>2</sup> − r<sup>2</sup>) → 8(b<sup>2</sup> − r<sup>2</sup>) = 4b<sup>2</sup> − r<sup>2</sup> → <strong>4b<sup>2</sup> = 7r<sup>2</sup></strong>.</p><p>b : r = √7 : 2.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>Suppose, C1, C2, C3, C4, and C5 are five companies. The profits made by C1, C2, and C3 are in the ratio 9 : 10 : 8 while the profits made by C2, C4, and C5 are in the ratio 18 : 19 : 20. If C5 has made a profit of Rs 19 crore more than C1, then the total profit (in Rs) made by all five companies is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "438 crore"
+        },
+        {
+          "id": "B",
+          "textHtml": "435 crore"
+        },
+        {
+          "id": "C",
+          "textHtml": "348 crore"
+        },
+        {
+          "id": "D",
+          "textHtml": "345 crore"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Make C2 common: 9 : 10 : 8 = 81 : 90 : 72 and 18 : 19 : 20 = 90 : 95 : 100.</p><p>So C1 : C2 : C3 : C4 : C5 = 81 : 90 : 72 : 95 : 100. C5 − C1 = 19 parts = 19 crore → 1 part = 1 crore.</p><p>Total = 81 + 90 + 72 + 95 + 100 = <strong>438 crore</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The number of girls appearing for an admission test is twice the number of boys. If 30% of the girls and 45% of the boys get admission, the percentage of candidates who do not get admission is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "35"
+        },
+        {
+          "id": "B",
+          "textHtml": "50"
+        },
+        {
+          "id": "C",
+          "textHtml": "60"
+        },
+        {
+          "id": "D",
+          "textHtml": "65"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Take 100 boys and 200 girls. Admitted: 60 + 45 = 105 of 300 = 35%.</p><p>Not admitted = 100 − 35 = <strong>65%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1 : 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "8 : 7"
+        },
+        {
+          "id": "C",
+          "textHtml": "4 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "6 : 5"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Popcorn total = 40 parts, of which jumbo is 16/40 = 2/5. Chips total = 35 parts, jumbo 14/35 = 2/5.</p><p>Equal totals and the same jumbo fraction → jumbo counts equal: <strong>1 : 1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a market, the price of medium quality mangoes is half that of good mangoes. A shopkeeper buys 80 kg good mangoes and 40 kg medium quality mangoes from the market and then sells all these at a common price which is 10% less than the price at which he bought the good ones. His overall profit is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6%"
+        },
+        {
+          "id": "B",
+          "textHtml": "8%"
+        },
+        {
+          "id": "C",
+          "textHtml": "10%"
+        },
+        {
+          "id": "D",
+          "textHtml": "12%"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Good = Rs 2/kg, medium = Rs 1/kg. Cost = 160 + 40 = 200.</p><p>Sells 120 kg at 1.8 = 216. Profit = 16/200 = <strong>8%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>If Fatima sells 60 identical toys at a 40% discount on the printed price, then she makes 20% profit. Ten of these toys are destroyed in fire. While selling the rest, how much discount should be given on the printed price so that she can make the same amount of profit?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30%"
+        },
+        {
+          "id": "B",
+          "textHtml": "25%"
+        },
+        {
+          "id": "C",
+          "textHtml": "24%"
+        },
+        {
+          "id": "D",
+          "textHtml": "28%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Printed price 100 per toy. Selling price 60 = 1.2 × cost → cost = 50 per toy.</p><p>Original profit = 60 × (60 − 50) = 600; total cost = 60 × 50 = 3000.</p><p>Now 50 toys must bring 3000 + 600 = 3600, i.e. 72 each → discount = <strong>28%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>If a and b are integers of opposite signs such that (a + 3)<sup>2</sup> : b<sup>2</sup> = 9 : 1 and (a − 1)<sup>2</sup> : (b − 1)<sup>2</sup> = 4 : 1, then the ratio a<sup>2</sup> : b<sup>2</sup> is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9 : 4"
+        },
+        {
+          "id": "B",
+          "textHtml": "81 : 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "1 : 4"
+        },
+        {
+          "id": "D",
+          "textHtml": "25 : 4"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>So a + 3 = ±3b and a − 1 = ±2(b − 1). Try the four sign combinations:</p><p>+, +: a = 3b − 3 and a = 2b − 1 → b = 2, a = 3 (same sign — reject).<br>+, −: 3b − 3 = 3 − 2b → b = 6/5 (not an integer).<br>−, +: −3b − 3 = 2b − 1 → b = −2/5 (no).<br>−, −: −3b − 3 = 3 − 2b → <strong>b = −6, a = 15</strong> (opposite signs ✓).</p><p>a<sup>2</sup> : b<sup>2</sup> = 225 : 36 = <strong>25 : 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>A class consists of 20 boys and 30 girls. In the mid-semester examination, the average score of the girls was 5 higher than that of the boys. In the final exam, however, the average score of the girls dropped by 3 while the average score of the entire class increased by 2. The increase in the average score of the boys is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9.5"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "4.5"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Use weights: boys are 2/5 of the class, girls 3/5. Change in class average = (2/5)(change for boys) + (3/5)(change for girls).</p><p>2 = (2/5)x + (3/5)(−3) → 2 = 0.4x − 1.8 → <strong>x = 9.5</strong>.</p><p>(The 5-mark gap in the mid-semester is not needed.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate geometry",
+      "difficulty": "easy",
+      "stemHtml": "<p>The area of the closed region bounded by the equation |x| + |y| = 2 in the two-dimensional plane is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4π"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "2π"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>|x| + |y| = 2 is a square (rhombus) with vertices (±2, 0), (0, ±2); both diagonals are 4.</p><p>Area = (1/2) × 4 × 4 = <strong>8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "medium",
+      "stemHtml": "<p>From a triangle ABC with sides of lengths 40 ft, 25 ft and 35 ft, a triangular portion GBC is cut off where G is the centroid of ABC. The area, in sq ft, of the remaining portion of triangle ABC is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "225√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "500/√3"
+        },
+        {
+          "id": "C",
+          "textHtml": "275/√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "250/√3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Heron: s = 50, area = √(50 × 10 × 25 × 15) = √187500 = 250√3.</p><p>The centroid splits the triangle into three equal parts, so GBC is 1/3 of the area and the rest is 2/3: (2/3) × 250√3 = 500√3/3 = <strong>500/√3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has length 6 cm then the area, in sq cm, of the region enclosed by BPC and BQC is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9π − 18"
+        },
+        {
+          "id": "B",
+          "textHtml": "18"
+        },
+        {
+          "id": "C",
+          "textHtml": "9π"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>BC = 6√2, so the semicircle has radius 3√2 and area (1/2)π(18) = 9π.</p><p>Arc BPC belongs to the circle centred at A with radius 6; angle BAC = 90°, so the segment between chord BC and arc BPC = quarter circle − triangle = 9π − 18.</p><p>Required region = semicircle − segment = 9π − (9π − 18) = <strong>18</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration",
+      "difficulty": "medium",
+      "stemHtml": "<p>A solid metallic cube is melted to form five solid cubes whose volumes are in the ratio 1 : 1 : 8 : 27 : 27. The percentage by which the sum of the surface areas of these five cubes exceeds the surface area of the original cube is nearest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "50"
+        },
+        {
+          "id": "C",
+          "textHtml": "60"
+        },
+        {
+          "id": "D",
+          "textHtml": "20"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Volumes 1, 1, 8, 27, 27 sum to 64, so the original side is 4 and the small sides are 1, 1, 2, 3, 3.</p><p>Surface areas: original 6 × 16 = 96; new 6 × (1 + 1 + 4 + 9 + 9) = 144.</p><p>Excess = 48/96 = <strong>50%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Mensuration",
+      "difficulty": "medium",
+      "stemHtml": "<p>A ball of diameter 4 cm is kept on top of a hollow cylinder standing vertically. The height of the cylinder is 3 cm, while its volume is 9π cm<sup>3</sup>. Then the vertical distance, in cm, of the topmost point of the ball from the base of the cylinder is</p>",
+      "answer": "6",
+      "solutionHtml": "<p>πr<sup>2</sup> × 3 = 9π → r = √3: the open top is a circle of radius √3, smaller than the ball's radius 2, so the ball rests in the rim.</p><p>The ball's centre is above the rim plane by √(2<sup>2</sup> − (√3)<sup>2</sup>) = 1 cm.</p><p>Topmost point = 3 (cylinder) + 1 + 2 (radius) = <strong>6 cm</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let ABC be a right-angled triangle with BC as the hypotenuse. Lengths of AB and AC are 15 km and 20 km, respectively. The minimum possible time, in minutes, required to reach the hypotenuse from A at a speed of 30 km per hour is</p>",
+      "answer": "24",
+      "solutionHtml": "<p>The shortest path is the perpendicular from A to BC. BC = 25, so the altitude = (15 × 20)/25 = 12 km.</p><p>Time = 12/30 h = <strong>24 minutes</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>Suppose, log<sub>3</sub> x = log<sub>12</sub> y = a, where x, y are positive numbers. If G is the geometric mean of x and y, and log<sub>6</sub> G is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "√a"
+        },
+        {
+          "id": "B",
+          "textHtml": "2a"
+        },
+        {
+          "id": "C",
+          "textHtml": "a/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "a"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>x = 3<sup>a</sup>, y = 12<sup>a</sup>, so xy = 36<sup>a</sup> and G = √(xy) = 6<sup>a</sup>.</p><p>log<sub>6</sub> G = <strong>a</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratics",
+      "difficulty": "easy",
+      "stemHtml": "<p>If x + 1 = x<sup>2</sup> and x &gt; 0, then 2x<sup>4</sup> is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6 + 4√5"
+        },
+        {
+          "id": "B",
+          "textHtml": "3 + 5√5"
+        },
+        {
+          "id": "C",
+          "textHtml": "5 + 3√5"
+        },
+        {
+          "id": "D",
+          "textHtml": "7 + 3√5"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>x<sup>2</sup> = x + 1 → x<sup>4</sup> = (x + 1)<sup>2</sup> = x<sup>2</sup> + 2x + 1 = 3x + 2.</p><p>x > 0 gives x = (1 + √5)/2, so 2x<sup>4</sup> = 6x + 4 = 3 + 3√5 + 4 = <strong>7 + 3√5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-23",
+      "section": "QA",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>The value of log<sub>0.008</sub> √5 + log<sub>√3</sub> 81 − 7 is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1/3"
+        },
+        {
+          "id": "B",
+          "textHtml": "2/3"
+        },
+        {
+          "id": "C",
+          "textHtml": "5/6"
+        },
+        {
+          "id": "D",
+          "textHtml": "7/6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>0.008 = 8/1000 = 1/125 = 5<sup>−3</sup> and √5 = 5<sup>1/2</sup>, so log<sub>0.008</sub> √5 = (1/2)/(−3) = −1/6.</p><p>81 = 3<sup>4</sup> = (√3)<sup>8</sup>, so log<sub>√3</sub> 81 = 8.</p><p>Total = −1/6 + 8 − 7 = <strong>5/6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-24",
+      "section": "QA",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Indices",
+      "difficulty": "easy",
+      "stemHtml": "<p>If 9<sup>2x − 1</sup> − 81<sup>x − 1</sup> = 1944, then x is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3"
+        },
+        {
+          "id": "B",
+          "textHtml": "9/4"
+        },
+        {
+          "id": "C",
+          "textHtml": "4/9"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Write both in powers of 3: 3<sup>4x − 2</sup> − 3<sup>4x − 4</sup> = 3<sup>4x − 4</sup>(9 − 1) = 8 × 3<sup>4x − 4</sup>.</p><p>8 × 3<sup>4x − 4</sup> = 1944 → 3<sup>4x − 4</sup> = 243 = 3<sup>5</sup> → 4x = 9 → <strong>x = 9/4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-25",
+      "section": "QA",
+      "number": 25,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Counting solutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of solutions (x, y, z) to the equation x − y − z = 25, where x, y, and z are positive integers such that x ≤ 40, y ≤ 12, and z ≤ 12 is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "101"
+        },
+        {
+          "id": "B",
+          "textHtml": "99"
+        },
+        {
+          "id": "C",
+          "textHtml": "87"
+        },
+        {
+          "id": "D",
+          "textHtml": "105"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>x = 25 + y + z ≤ 40 → y + z ≤ 15, with 1 ≤ y, z ≤ 12. Each valid (y, z) fixes x.</p><p>Count by s = y + z: for s = 2 … 13 there are s − 1 pairs (1 + 2 + … + 12 = 78); s = 14 gives 11 pairs (y = 2…12); s = 15 gives 10 pairs (y = 3…12).</p><p>Total = 78 + 11 + 10 = <strong>99</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-26",
+      "section": "QA",
+      "number": 26,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "easy",
+      "stemHtml": "<p>For how many integers n, will the inequality (n − 5)(n − 10) − 3(n − 2) ≤ 0 be satisfied?</p>",
+      "answer": "11",
+      "solutionHtml": "<p>Expand: n<sup>2</sup> − 15n + 50 − 3n + 6 = n<sup>2</sup> − 18n + 56 = (n − 4)(n − 14) ≤ 0.</p><p>So 4 ≤ n ≤ 14: <strong>11</strong> integers.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-27",
+      "section": "QA",
+      "number": 27,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Quadratics",
+      "difficulty": "easy",
+      "stemHtml": "<p>If f<sub>1</sub>(x) = x<sup>2</sup> + 11x + n and f<sub>2</sub>(x) = x, then the largest positive integer n for which the equation f<sub>1</sub>(x) = f<sub>2</sub>(x) has two distinct real roots, is</p>",
+      "answer": "24",
+      "solutionHtml": "<p>x<sup>2</sup> + 11x + n = x → x<sup>2</sup> + 10x + n = 0. Distinct real roots need 100 − 4n > 0 → n < 25.</p><p>Largest integer n = <strong>24</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-28",
+      "section": "QA",
+      "number": 28,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Maxima & minima",
+      "difficulty": "medium",
+      "stemHtml": "<p>If a, b, c, and d are integers such that a + b + c + d = 30, then the minimum possible value of (a − b)<sup>2</sup> + (a − c)<sup>2</sup> + (a − d)<sup>2</sup> is</p>",
+      "answer": "2",
+      "solutionHtml": "<p>The value is 0 only if a = b = c = d (sum 4a = 30 — impossible). It is 1 only if two of b, c, d equal a and the third differs by 1: sum 4a ± 1 = 30 — impossible (odd).</p><p>Value 2: two of b, c, d differ from a by 1 and one equals a, e.g. a = 8, b = 7, c = 7, d = 8 (sum 30): 1 + 1 + 0 = 2.</p><p>Minimum = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-29",
+      "section": "QA",
+      "number": 29,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Combinations",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let AB, CD, EF, GH, and JK be five diameters of a circle with center at O. In how many ways can three points be chosen out of A, B, C, D, E, F, G, H, J, K, and O so as to form a triangle?</p>",
+      "answer": "160",
+      "solutionHtml": "<p>There are 11 points: C(11, 3) = 165 triples.</p><p>Collinear triples: each diameter with the centre (e.g. A, O, B) — 5 of them. No other three points are collinear.</p><p>Triangles = 165 − 5 = <strong>160</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-30",
+      "section": "QA",
+      "number": 30,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate geometry",
+      "difficulty": "medium",
+      "stemHtml": "<p>The shortest distance of the point (1/2, 1) from the curve y = |x − 1| + |x + 1| is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "0"
+        },
+        {
+          "id": "C",
+          "textHtml": "√2"
+        },
+        {
+          "id": "D",
+          "textHtml": "√(3/2)"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The curve is y = 2 for −1 ≤ x ≤ 1, y = 2x for x ≥ 1 and y = −2x for x ≤ −1.</p><p>The point (1/2, 1) lies below the flat part; the foot of the perpendicular (1/2, 2) is on the curve, at distance 1.</p><p>The slanted parts are farther: the nearest point of y = 2x (x ≥ 1) is the corner (1, 2), at distance √(1/4 + 1) > 1. Shortest distance = <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-31",
+      "section": "QA",
+      "number": 31,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "easy",
+      "stemHtml": "<p>If the square of the 7th term of an arithmetic progression with positive common difference equals the product of the 3rd and 17th terms, then the ratio of the first term to the common difference is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2 : 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "3 : 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3 : 4"
+        },
+        {
+          "id": "D",
+          "textHtml": "4 : 3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>(a + 6d)<sup>2</sup> = (a + 2d)(a + 16d) → a<sup>2</sup> + 12ad + 36d<sup>2</sup> = a<sup>2</sup> + 18ad + 32d<sup>2</sup> → 4d<sup>2</sup> = 6ad.</p><p>d > 0 → a/d = 4/6 = <strong>2 : 3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-32",
+      "section": "QA",
+      "number": 32,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Distributions",
+      "difficulty": "medium",
+      "stemHtml": "<p>In how many ways can 7 identical erasers be distributed among 4 kids in such a way that each kid gets at least one eraser but nobody gets more than 3 erasers?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "16"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "14"
+        },
+        {
+          "id": "D",
+          "textHtml": "15"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Give each kid 1 first; distribute the remaining 3 with each kid getting at most 2 extra.</p><p>Without the cap: C(3 + 3, 3) = 20. Remove the cases where one kid gets all 3 extra: 4.</p><p>Ways = 20 − 4 = <strong>16</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-33",
+      "section": "QA",
+      "number": 33,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "easy",
+      "stemHtml": "<p>If f(x) = (5x + 2)/(3x − 5) and g(x) = x<sup>2</sup> − 2x − 1, then the value of g(f(f(3))) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2"
+        },
+        {
+          "id": "B",
+          "textHtml": "1/3"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "2/3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>f(3) = 17/4. f(17/4) = (85/4 + 2)/(51/4 − 5) = (93/4)/(31/4) = 3. (In fact f(f(x)) = x for this f.)</p><p>g(3) = 9 − 6 − 1 = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-34",
+      "section": "QA",
+      "number": 34,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let a<sub>1</sub>, a<sub>2</sub>, …, a<sub>3n</sub> be an arithmetic progression with a<sub>1</sub> = 3 and a<sub>2</sub> = 7. If a<sub>1</sub> + a<sub>2</sub> + … + a<sub>3n</sub> = 1830, then what is the smallest positive integer m such that m (a<sub>1</sub> + a<sub>2</sub> + … + a<sub>n</sub>) &gt; 1830?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "9"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "11"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>d = 4. Sum of 3n terms = (3n/2)(6 + 4(3n − 1)) = 3n(6n + 1) = 1830 → n(6n + 1) = 610 = 10 × 61 → n = 10.</p><p>Sum of the first 10 terms = 5(6 + 36) = 210. m × 210 > 1830 → m > 8.7 → <strong>m = 9</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>For a real number x, if 1/2, (log<sub>3</sub>(2<sup>x</sup> − 9))/(log<sub>3</sub>4), and (log<sub>5</sub>(2<sup>x</sup> + 17/2))/(log<sub>5</sub>4) are in an arithmetic progression, then the common difference is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "log<sub>4</sub>(7/2)"
+    },
+    {
+     "id": "B",
+     "textHtml": "log<sub>4</sub>(3/2)"
+    },
+    {
+     "id": "C",
+     "textHtml": "log<sub>4</sub>(23/2)"
+    },
+    {
+     "id": "D",
+     "textHtml": "log<sub>4</sub>7"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Change of base:</strong> the terms are 1/2, log<sub>4</sub>(2<sup>x</sup> − 9), log<sub>4</sub>(2<sup>x</sup> + 17/2). Let t = 2<sup>x</sup> (t &gt; 9).</p><p>AP: 2 log<sub>4</sub>(t − 9) = 1/2 + log<sub>4</sub>(t + 17/2) = log<sub>4</sub>(2(t + 17/2)) → (t − 9)<sup>2</sup> = 2t + 17 → t<sup>2</sup> − 20t + 64 = 0 → t = 16 or 4. Since t &gt; 9, t = 16.</p><p>Terms: 1/2, log<sub>4</sub>7, log<sub>4</sub>(49/2). Common difference = log<sub>4</sub>7 − log<sub>4</sub>2 = <strong>log<sub>4</sub>(7/2)</strong>. Check: log<sub>4</sub>(49/2) − log<sub>4</sub>7 = log<sub>4</sub>(7/2). ✓</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Algebraic identities",
+   "difficulty": "medium",
+   "stemHtml": "<p>If x is a positive real number such that x<sup>8</sup> + (1/x)<sup>8</sup> = 47, then the value of x<sup>9</sup> + (1/x)<sup>9</sup> is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "30√5"
+    },
+    {
+     "id": "B",
+     "textHtml": "34√5"
+    },
+    {
+     "id": "C",
+     "textHtml": "40√5"
+    },
+    {
+     "id": "D",
+     "textHtml": "36√5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step down by squares:</strong> x<sup>4</sup> + 1/x<sup>4</sup> = √(47 + 2) = 7; x<sup>2</sup> + 1/x<sup>2</sup> = √(7 + 2) = 3; x + 1/x = √(3 + 2) = √5 (x &gt; 0).</p><p>Let a = x<sup>3</sup> + 1/x<sup>3</sup> = (√5)<sup>3</sup> − 3√5 = 5√5 − 3√5 = 2√5.</p><p>x<sup>9</sup> + 1/x<sup>9</sup> = a<sup>3</sup> − 3a = 40√5 − 6√5 = <strong>34√5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Linear equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>For some real numbers a and b, the system of equations x + y = 4 and (a + 5)x + (b<sup>2</sup> − 15)y = 8b has infinitely many solutions for x and y. Then, the maximum possible value of ab is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "25"
+    },
+    {
+     "id": "B",
+     "textHtml": "33"
+    },
+    {
+     "id": "C",
+     "textHtml": "55"
+    },
+    {
+     "id": "D",
+     "textHtml": "15"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Infinitely many solutions → the second equation is a multiple of the first: (a + 5)/1 = (b<sup>2</sup> − 15)/1 = 8b/4 = 2b.</p><p>b<sup>2</sup> − 2b − 15 = 0 → b = 5 or b = −3. Then a = 2b − 5: (a, b) = (5, 5) gives ab = 25; (−11, −3) gives ab = 33.</p><p>Maximum ab = <strong>33</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Exponents",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let n and m be two positive integers such that there are exactly 41 integers greater than 8<sup>m</sup> and less than 8<sup>n</sup>, which can be expressed as powers of 2. Then, the smallest possible value of n + m is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "16"
+    },
+    {
+     "id": "B",
+     "textHtml": "44"
+    },
+    {
+     "id": "C",
+     "textHtml": "14"
+    },
+    {
+     "id": "D",
+     "textHtml": "42"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>8<sup>m</sup> = 2<sup>3m</sup>, 8<sup>n</sup> = 2<sup>3n</sup>. Powers of 2 strictly between them: 2<sup>k</sup> with 3m &lt; k &lt; 3n, i.e. 3n − 3m − 1 of them.</p><p>3(n − m) − 1 = 41 → n − m = 14. Smallest with m ≥ 1: m = 1, n = 15, so n + m = <strong>16</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Inequalities",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let n be any natural number such that 5<sup>n−1</sup> &lt; 3<sup>n+1</sup>. Then, the least integer value of m that satisfies 3<sup>n+1</sup> &lt; 2<sup>n+m</sup> for each such n, is</p>",
+   "answer": "5",
+   "solutionHtml": "<p><strong>Find the allowed n:</strong> n = 1: 1 &lt; 9; n = 2: 5 &lt; 27; n = 3: 25 &lt; 81; n = 4: 125 &lt; 243; n = 5: 625 &lt; 729; n = 6: 3125 &gt; 2187. Since 5<sup>n−1</sup> grows faster, n ∈ {1, 2, 3, 4, 5}.</p><p>The tightest case is n = 5: 3<sup>6</sup> = 729 &lt; 2<sup>5+m</sup> needs 2<sup>5+m</sup> ≥ 1024, so m ≥ 5 (m = 4 gives 512 &lt; 729).</p><p>Check m = 5 for the others: n = 4: 243 &lt; 512; n = 3: 81 &lt; 256; n = 2: 27 &lt; 128; n = 1: 9 &lt; 64. ✓ Least m = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>A quadratic equation x<sup>2</sup> + bx + c = 0 has two real roots. If the difference between the reciprocals of the roots is 1/3 and the sum of the reciprocals of the squares of the roots is 5/9, then the largest possible value of (b + c) is</p>",
+   "answer": "9",
+   "solutionHtml": "<p>Let the roots be p, q; u = 1/p, v = 1/q. Given (u − v)<sup>2</sup> = 1/9 and u<sup>2</sup> + v<sup>2</sup> = 5/9.</p><p>2uv = 5/9 − 1/9 = 4/9 → uv = 2/9 → pq = <strong>c = 9/2</strong>. (u + v)<sup>2</sup> = 5/9 + 4/9 = 1 → u + v = ±1.</p><p>u + v = (p + q)/pq → p + q = ±9/2 → b = −(p + q) = ∓9/2. Largest b + c = 9/2 + 9/2 = <strong>9</strong>.</p><p>Check real roots: (p + q)<sup>2</sup> − 4pq = 81/4 − 18 = 9/4 &gt; 0 ✓.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Factors",
+   "difficulty": "easy",
+   "stemHtml": "<p>The sum of the first two natural numbers, each having 15 factors (including 1 and the number itself), is</p>",
+   "answer": "468",
+   "solutionHtml": "<p>15 = 15 × 1 = 5 × 3, so the number is p<sup>14</sup> or p<sup>4</sup>q<sup>2</sup>.</p><p>Smallest candidates: 2<sup>4</sup>·3<sup>2</sup> = 144, 3<sup>4</sup>·2<sup>2</sup> = 324, 2<sup>4</sup>·5<sup>2</sup> = 400, …, 2<sup>14</sup> = 16384.</p><p>First two: 144 and 324. Sum = <strong>468</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures",
+   "difficulty": "easy",
+   "stemHtml": "<p>Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2 : 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "17"
+    },
+    {
+     "id": "B",
+     "textHtml": "24"
+    },
+    {
+     "id": "C",
+     "textHtml": "16"
+    },
+    {
+     "id": "D",
+     "textHtml": "21"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Sugar fraction: A = 2/5 = 40%, B = 3/10 = 30%.</p><p>C = 2 parts A + 3 parts B: sugar = (2 × 40 + 3 × 30)/5 = 170/5 = 34%.</p><p>Adding an equal amount of milk halves it: <strong>17%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "medium",
+   "stemHtml": "<p>Rahul, Rakshita and Gurmeet, working together, would have taken more than 7 days to finish a job. On the other hand, Rahul and Gurmeet, working together would have taken less than 15 days to finish the job. However, they all worked together for 6 days, followed by Rakshita, who worked alone for 3 more days to finish the job. If Rakshita had worked alone on the job then the number of days she would have taken to finish the job, cannot be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "17"
+    },
+    {
+     "id": "B",
+     "textHtml": "16"
+    },
+    {
+     "id": "C",
+     "textHtml": "21"
+    },
+    {
+     "id": "D",
+     "textHtml": "20"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let daily rates be r (Rahul + Gurmeet combined) and k (Rakshita); job = 1.</p><p>6(r + k) + 3k = 1 → r = (1 − 9k)/6.</p><p>Rahul + Gurmeet faster than 15 days: r &gt; 1/15 → 1 − 9k &gt; 2/5 → k &lt; 1/15 → Rakshita needs <strong>more than 15 days</strong>.</p><p>All three slower than 7 days: r + k &lt; 1/7 → (1 − 3k)/6 &lt; 1/7 → k &gt; 1/21 → Rakshita needs <strong>fewer than 21 days</strong>.</p><p>So her time lies strictly between 15 and 21 days; it cannot be <strong>21</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "medium",
+   "stemHtml": "<p>The population of a town in 2020 was 100000. The population decreased by y% from the year 2020 to 2021, and increased by x% from the year 2021 to 2022, where x and y are two natural numbers. If population in 2022 was greater than the population in 2020 and the difference between x and y is 10, then the lowest possible population of the town in 2021 was</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "72000"
+    },
+    {
+     "id": "B",
+     "textHtml": "75000"
+    },
+    {
+     "id": "C",
+     "textHtml": "74000"
+    },
+    {
+     "id": "D",
+     "textHtml": "73000"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>For a net increase we need x &gt; y, so x = y + 10.</p><p>(1 − y/100)(1 + (y + 10)/100) &gt; 1 → (100 − y)(110 + y) &gt; 10000 → y<sup>2</sup> + 10y − 1000 &lt; 0.</p><p>y = 27: 729 + 270 = 999 &lt; 1000 ✓; y = 28: 784 + 280 = 1064 ✗. So the largest decrease is 27%.</p><p>Lowest 2021 population = 100000 × 0.73 = <strong>73000</strong>. (Check: 73000 × 1.37 = 100010 &gt; 100000.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "medium",
+   "stemHtml": "<p>A merchant purchases a cloth at a rate of Rs.100 per meter and receives 5 cm length of cloth free for every 100 cm length of cloth purchased by him. He sells the same cloth at a rate of Rs.110 per meter but cheats his customers by giving 95 cm length of cloth for every 100 cm length of cloth purchased by the customers. If the merchant provides a 5% discount, the resulting profit earned by him is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "15.5%"
+    },
+    {
+     "id": "B",
+     "textHtml": "4.2%"
+    },
+    {
+     "id": "C",
+     "textHtml": "9.7%"
+    },
+    {
+     "id": "D",
+     "textHtml": "16%"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Cost: Rs 100 buys 105 cm → cost per cm = 100/105.</p><p>Selling: the customer pays 110 × 0.95 = Rs 104.5 for 95 cm → price per cm = 104.5/95 = 1.1.</p><p>Profit factor = 1.1 ÷ (100/105) = 1.1 × 1.05 = 1.155 → <strong>15.5%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "easy",
+   "stemHtml": "<p>There are three persons A, B and C in a room. If a person D joins the room, the average weight of the persons in the room reduces by x kg. Instead of D, if person E joins the room, the average weight of the persons in the room increases by 2x kg. If the weight of E is 12 kg more than that of D, then the value of x is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "0.5"
+    },
+    {
+     "id": "D",
+     "textHtml": "1.5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let the total weight of A, B, C be S. (S + D)/4 = S/3 − x and (S + E)/4 = S/3 + 2x.</p><p>Subtract: (E − D)/4 = 3x → 12/4 = 3x → x = <strong>1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Boats & streams",
+   "difficulty": "hard",
+   "stemHtml": "<p>A boat takes 2 hours to travel downstream a river from port A to port B, and 3 hours to return to port A. Another boat takes a total of 6 hours to travel from port B to port A and return to port B. If the speeds of the boats and the river are constant, then the time, in hours, taken by the slower boat to travel from port A to port B is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3(√5 − 1)"
+    },
+    {
+     "id": "B",
+     "textHtml": "12(√5 − 2)"
+    },
+    {
+     "id": "C",
+     "textHtml": "3(3 + √5)"
+    },
+    {
+     "id": "D",
+     "textHtml": "3(3 − √5)"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Take AB = 12 units. Boat 1: downstream 12/2 = 6, upstream 12/3 = 4 → boat speed 5, river 1.</p><p>Boat 2 (speed v): 12/(v − 1) + 12/(v + 1) = 6 → 24v = 6(v<sup>2</sup> − 1) → v<sup>2</sup> − 4v − 1 = 0 → v = 2 + √5 ≈ 4.24 &lt; 5, so boat 2 is slower.</p><p>A to B is downstream: time = 12/(v + 1) = 12/(3 + √5) = 12(3 − √5)/4 = <strong>3(3 − √5)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>Gautam and Suhani, working together, can finish a job in 20 days. If Gautam does only 60% of his usual work on a day, Suhani must do 150% of her usual work on that day to exactly make up for it. Then, the number of days required by the faster worker to complete the job working alone is</p>",
+   "answer": "36",
+   "solutionHtml": "<p>Gautam’s shortfall 0.4g equals Suhani’s extra 0.5s → s = 0.8g, so Gautam is faster.</p><p>g + s = 1.8g = 1/20 → g = 1/36. Gautam alone takes <strong>36</strong> days. (Suhani: 45 days; 1/36 + 1/45 = 1/20 ✓.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Divisibility",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of coins collected per week by two coin-collectors A and B are in the ratio 3 : 4. If the total number of coins collected by A in 5 weeks is a multiple of 7, and the total number of coins collected by B in 3 weeks is a multiple of 24, then the minimum possible number of coins collected by A in one week is</p>",
+   "answer": "42",
+   "solutionHtml": "<p>Weekly: A = 3k, B = 4k.</p><p>15k is a multiple of 7 → k is a multiple of 7. 12k is a multiple of 24 → k is even. Smallest k = 14.</p><p>A per week = 3 × 14 = <strong>42</strong>. (Check: 5 × 42 = 210 = 7 × 30; 3 × 56 = 168 = 24 × 7.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "hard",
+   "stemHtml": "<p>A fruit seller has a stock of mangoes, bananas and apples with at least one fruit of each type. At the beginning of a day, the number of mangoes make up 40% of his stock. That day, he sells half of the mangoes, 96 bananas and 40% of the apples. At the end of the day, he ends up selling 50% of the fruits. The smallest possible total number of fruits in the stock at the beginning of the day is</p>",
+   "answer": "340",
+   "solutionHtml": "<p>Total T: mangoes 0.4T, apples a, bananas b = 0.6T − a.</p><p>Sold: 0.2T + 96 + 0.4a = 0.5T → a = 0.75T − 240, so b = 240 − 0.15T.</p><p><strong>Integrality:</strong> b = 240 − 3T/20 needs T to be a multiple of 20; then a = 15(T/20) − 240 is a multiple of 5, so 0.4a is a whole number, and 0.2T (mangoes sold) is too.</p><p>a ≥ 1 → 0.75T &gt; 240 → T &gt; 320 → smallest multiple of 20 is <strong>T = 340</strong>: mangoes 136, apples 15, bananas 189 (≥ 96 ✓). Sold 68 + 96 + 6 = 170 = 50% ✓.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Triangles",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let ∆ABC be an isosceles triangle such that AB and AC are of equal length. AD is the altitude from A on BC and BE is the altitude from B on AC. If AD and BE intersect at O such that ∠AOB = 105°, then AD/BE equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "cos 15°"
+    },
+    {
+     "id": "B",
+     "textHtml": "2 sin 15°"
+    },
+    {
+     "id": "C",
+     "textHtml": "2 cos 15°"
+    },
+    {
+     "id": "D",
+     "textHtml": "sin 15°"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let ∠A = 2α. AD bisects ∠A, so ∠OAB = α. In right triangle ABE, ∠ABE = 90° − 2α.</p><p>In triangle AOB: ∠AOB = 180° − α − (90° − 2α) = 90° + α = 105° → α = 15°, so ∠A = 30°, ∠B = ∠C = 75°.</p><p>AD = AB cos 15° and BE = AB sin 30° = AB/2. So AD/BE = <strong>2 cos 15°</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration",
+   "difficulty": "easy",
+   "stemHtml": "<p>A rectangle with the largest possible area is drawn inside a semicircle of radius 2 cm. Then, the ratio of the lengths of the largest to the smallest side of this rectangle is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "√5 : 1"
+    },
+    {
+     "id": "B",
+     "textHtml": "2 : 1"
+    },
+    {
+     "id": "C",
+     "textHtml": "√2 : 1"
+    },
+    {
+     "id": "D",
+     "textHtml": "1 : 1"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Place the rectangle with its base on the diameter: base 2x, height y, with x<sup>2</sup> + y<sup>2</sup> = 4.</p><p>Area = 2xy is largest when x = y (since 2xy ≤ x<sup>2</sup> + y<sup>2</sup>), so x = y = √2.</p><p>Sides: 2√2 and √2 → ratio <strong>2 : 1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Polygons",
+   "difficulty": "easy",
+   "stemHtml": "<p>In a regular polygon, any interior angle exceeds the exterior angle by 120 degrees. Then, the number of diagonals of this polygon is</p>",
+   "answer": "54",
+   "solutionHtml": "<p>Interior + exterior = 180° and interior − exterior = 120° → exterior = 30° → n = 360/30 = 12.</p><p>Diagonals = n(n − 3)/2 = 12 × 9/2 = <strong>54</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Series",
+   "difficulty": "medium",
+   "stemHtml": "<p>The value of 1 + (1 + 1/3)(1/4) + (1 + 1/3 + 1/9)(1/16) + (1 + 1/3 + 1/9 + 1/27)(1/64) + ……, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "27/12"
+    },
+    {
+     "id": "B",
+     "textHtml": "15/8"
+    },
+    {
+     "id": "C",
+     "textHtml": "16/11"
+    },
+    {
+     "id": "D",
+     "textHtml": "15/13"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>The k-th term (k = 0, 1, 2, …) is (1 + 1/3 + … + 1/3<sup>k</sup>)·(1/4)<sup>k</sup> = (3/2)(1 − 1/3<sup>k+1</sup>)(1/4)<sup>k</sup>.</p><p>Sum = (3/2)[Σ(1/4)<sup>k</sup> − (1/3)Σ(1/12)<sup>k</sup>] = (3/2)[4/3 − (1/3)(12/11)] = (3/2)(4/3 − 4/11) = (3/2)(32/33) = <strong>16/11</strong>.</p><p>Sanity check: the first four terms already give 1 + 0.333 + 0.090 + 0.023 ≈ 1.447; 16/11 ≈ 1.4545.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Progressions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let a<sub>n</sub> = 46 + 8n and b<sub>n</sub> = 98 + 4n be two sequences for natural numbers n ≤ 100. Then, the sum of all terms common to both the sequences is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "15000"
+    },
+    {
+     "id": "B",
+     "textHtml": "14900"
+    },
+    {
+     "id": "C",
+     "textHtml": "14602"
+    },
+    {
+     "id": "D",
+     "textHtml": "14798"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>a<sub>n</sub>: 54, 62, …, 846 (all ≡ 6 mod 8). b<sub>n</sub>: 102, 106, …, 498 (all ≡ 2 mod 4).</p><p>Every number ≡ 6 (mod 8) is ≡ 2 (mod 4), so the common terms are the numbers ≡ 6 (mod 8) in [102, 498]: 102, 110, …, 494.</p><p>Count = (494 − 102)/8 + 1 = 50. Sum = 50 × (102 + 494)/2 = <strong>14900</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Functions",
+   "difficulty": "easy",
+   "stemHtml": "<p>Suppose f(x, y) is a real valued function such that f(3x + 2y, 2x − 5y) = 19x, for all real numbers x and y. The value of x for which f(x, 2x) = 27, is</p>",
+   "answer": "3",
+   "solutionHtml": "<p>Let u = 3x + 2y, v = 2x − 5y. Then 5u + 2v = 15x + 10y + 4x − 10y = 19x.</p><p>So f(u, v) = 5u + 2v. Then f(x, 2x) = 5x + 4x = 9x = 27 → x = <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1071 @@
+{
+ "sets": [
+  {
+   "key": "S1",
+   "kind": "dilr_set",
+   "title": "Coded addition",
+   "contentHtml": "<p>The following table represents addition of two six-digit numbers given in the first and the second rows, while the sum is given in the third row. In the representation, each of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 has been coded with one letter among A, B, C, D, E, F, G, H, J, K, with distinct letters representing distinct digits.</p><table><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>B</td><td>H</td><td>A</td><td>A</td><td>G</td><td>F</td></tr><tr><td>+</td><td>A</td><td>H</td><td>J</td><td>F</td><td>K</td><td>F</td></tr><tr><td>A</td><td>A</td><td>F</td><td>G</td><td>C</td><td>A</td><td>F</td></tr></tbody></table>"
+  },
+  {
+   "key": "S2",
+   "kind": "dilr_set",
+   "title": "Dance finalists and composers",
+   "contentHtml": "<p>Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different music composers. No dancer performed her second item before the performance of the first item by any other dancers. The dancers performed their second items in the same sequence of their performance of their first items.</p><p>The following additional facts are known.</p><ol type=\"i\"><li>No composer who assigned item to Princess, assigned any item to Queen.</li><li>No composer who assigned item to Rani, assigned any item to Samragni.</li><li>The first performance was by Princess; this item was assigned by Badal.</li><li>The last performance was by Rani; this item was assigned by Gagan.</li><li>The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.</li></ol>"
+  },
+  {
+   "key": "S3",
+   "kind": "dilr_set",
+   "title": "Game show prize boxes",
+   "contentHtml": "<p>A new game show on TV has 100 boxes numbered 1, 2, . . . , 100 in a row, each containing a mystery prize. The prizes are items of different types, a, b, c, . . . , in decreasing order of value. The most expensive item is of type a, a diamond ring, and there is exactly one of these. You are told that the number of items at least doubles as you move to the next type. For example, there would be at least twice as many items of type b as of type a, at least twice as many items of type c as of type b and so on. There is no particular order in which the prizes are placed in the boxes.</p>"
+  },
+  {
+   "key": "S4",
+   "kind": "dilr_set",
+   "title": "Supermarket shelves",
+   "contentHtml": "<p>A supermarket has to place 12 items (coded A to L) in shelves numbered 1 to 16. Five of these items are types of biscuits, three are types of candies and the rest are types of savouries. Only one item can be kept in a shelf. Items are to be placed such that all items of same type are clustered together with no empty shelf between items of the same type and at least one empty shelf between two different types of items. At most two empty shelves can have consecutive numbers.</p><p>The following additional facts are known.</p><ol><li>A and B are to be placed in consecutively numbered shelves in increasing order.</li><li>I and J are to be placed in consecutively numbered shelves both higher numbered than the shelves in which A and B are kept.</li><li>D, E and F are savouries and are to be placed in consecutively numbered shelves in increasing order after all the biscuits and candies.</li><li>K is to be placed in shelf number 16.</li><li>L and J are items of the same type, while H is an item of a different type.</li><li>C is a candy and is to be placed in a shelf preceded by two empty shelves.</li><li>L is to be placed in a shelf preceded by exactly one empty shelf.</li></ol>"
+  },
+  {
+   "key": "S5",
+   "kind": "dilr_set",
+   "title": "Street map lines of sight",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2019-slot1/street-map.png"
+   ],
+   "contentHtml": "<p>The figure below shows the street map for a certain region with the street intersections marked from a through l. A person standing at an intersection can see along straight lines to other intersections that are in her line of sight and all other people standing at these intersections. For example, a person standing at intersection g can see all people standing at intersections b, c, e, f, h, and k. In particular, the person standing at intersection g can see the person standing at intersection e irrespective of whether there is a person standing at intersection f.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2019-slot1/street-map.png\" alt=\"Street map: three vertical streets with intersections a, b, c, d (left), e, f, g, h (middle) and i, j, k, l (right); four horizontal streets a-e-i, b-f-j, c-g-k, d-h-l; and one diagonal street joining b to g.\"></p><p>Six people U, V, W, X, Y, and Z, are standing at different intersections. No two people are standing at the same intersection.</p><p>The following additional facts are known.</p><ol><li>X, U, and Z are standing at the three corners of a triangle formed by three street segments.</li><li>X can see only U and Z.</li><li>Y can see only U and W.</li><li>U sees V standing in the next intersection behind Z.</li><li>W cannot see V or Z.</li><li>No one among the six is standing at intersection d.</li></ol>"
+  },
+  {
+   "key": "S6",
+   "kind": "dilr_set",
+   "title": "Archery tournament",
+   "contentHtml": "<p>Six players – Tanzi, Umeza, Wangdu, Xyla, Yonita and Zeneca competed in an archery tournament. The tournament had three compulsory rounds, Rounds 1 to 3. In each round every player shot an arrow at a target. Hitting the centre of the target (called bull’s eye) fetched the highest score of 5. The only other possible scores that a player could achieve were 4, 3, 2 and 1. Every bull’s eye score in the first three rounds gave a player one additional chance to shoot in the bonus rounds, Rounds 4 to 6. The possible scores in Rounds 4 to 6 were identical to the first three.</p><p>A player’s total score in the tournament was the sum of his/her scores in all rounds played by him/her. The table below presents partial information on points scored by the players after completion of the tournament. In the table, NP means that the player did not participate in that round, while a hyphen means that the player participated in that round and the score information is missing.</p><table><thead><tr><th></th><th>Round-1</th><th>Round-2</th><th>Round-3</th><th>Round-4</th><th>Round-5</th><th>Round-6</th></tr></thead><tbody><tr><td>Tanzi</td><td>-</td><td>4</td><td>-</td><td>5</td><td>NP</td><td>NP</td></tr><tr><td>Umeza</td><td>-</td><td>-</td><td>-</td><td>1</td><td>2</td><td>NP</td></tr><tr><td>Wangdu</td><td>-</td><td>4</td><td>-</td><td>NP</td><td>NP</td><td>NP</td></tr><tr><td>Xyla</td><td>-</td><td>-</td><td>-</td><td>1</td><td>5</td><td>-</td></tr><tr><td>Yonita</td><td>-</td><td>-</td><td>3</td><td>5</td><td>NP</td><td>NP</td></tr><tr><td>Zeneca</td><td>-</td><td>-</td><td>-</td><td>5</td><td>5</td><td>NP</td></tr></tbody></table><p>The following facts are also known.</p><ol><li>Tanzi, Umeza and Yonita had the same total score.</li><li>Total scores for all players, except one, were in multiples of three.</li><li>The highest total score was one more than double of the lowest total score.</li><li>The number of players hitting bull’s eye in Round 2 was double of that in Round 3.</li><li>Tanzi and Zeneca had the same score in Round 1 but different scores in Round 3.</li></ol>"
+  },
+  {
+   "key": "S7",
+   "kind": "dilr_set",
+   "title": "Crimes registered against foreigners",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2019-slot1/crimes-bar-chart.png"
+   ],
+   "contentHtml": "<p>The Ministry of Home Affairs is analysing crimes committed by foreigners in different states and union territories (UT) of India. All cases refer to the ones registered against foreigners in 2016.</p><p>The number of cases – classified into three categories: IPC crimes, SLL crimes and other crimes – for nine states/UTs are shown in the figure below. These nine belong to the top ten states/UTs in terms of the total number of cases registered. The remaining state (among top ten) is West Bengal, where all the 520 cases registered were SLL crimes.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2019-slot1/crimes-bar-chart.png\" alt=\"Stacked horizontal bar chart of IPC, SLL and other crimes (scale 0 to 150) for Telangana, Puducherry, Kerala, Haryana, Maharashtra, Tamil Nadu, Goa, Karnataka and Delhi\"></p><p>The table below shows the ranks of the ten states/UTs mentioned above among ALL states/UTs of India in terms of the number of cases registered in each of the three category of crimes. A state/UT is given rank r for a category of crimes if there are (r-1) states/UTs having a larger number of cases registered in that category of crimes. For example, if two states have the same number of cases in a category, and exactly three other states/UTs have larger numbers of cases registered in the same category, then both the states are given rank 4 in that category. Missing ranks in the table are denoted by *.</p><table><thead><tr><th></th><th>IPC Crimes</th><th>SLL Crimes</th><th>Other Crimes</th></tr></thead><tbody><tr><td>Delhi</td><td>*</td><td>*</td><td>*</td></tr><tr><td>Goa</td><td>*</td><td>4</td><td>*</td></tr><tr><td>Haryana</td><td>8</td><td>6</td><td>*</td></tr><tr><td>Karnataka</td><td>3</td><td>2</td><td>*</td></tr><tr><td>Kerala</td><td>*</td><td>9</td><td>*</td></tr><tr><td>Maharashtra</td><td>3</td><td>4</td><td>8</td></tr><tr><td>Puducherry</td><td>13</td><td>29</td><td>*</td></tr><tr><td>Tamil Nadu</td><td>11</td><td>7</td><td>*</td></tr><tr><td>Telangana</td><td>6</td><td>9</td><td>8</td></tr><tr><td>West Bengal</td><td>17</td><td>*</td><td>16</td></tr></tbody></table>"
+  },
+  {
+   "key": "S8",
+   "kind": "dilr_set",
+   "title": "Vendor evaluation radar chart",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2019-slot1/vendor-radar-chart.png"
+   ],
+   "contentHtml": "<p>Five vendors are being considered for a service. The evaluation committee evaluated each vendor on six aspects – Cost, Customer Service, Features, Quality, Reach, and Reliability. Each of these evaluations are on a scale of 0 (worst) to 100 (perfect). The evaluation scores on these aspects are shown in the radar chart. For example, Vendor 1 obtains a score of 52 on Reliability, Vendor 2 obtains a score of 45 on Features and Vendor 3 obtains a score of 90 on Cost.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2019-slot1/vendor-radar-chart.png\" alt=\"Radar chart with six axes (Reliability, Reach, Quality, Features, Customer Service, Cost) scaled 0 to 90, showing the scores of Vendors 1 to 5\"></p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Cryptarithm",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which digit does the letter A represent?</p>",
+   "answer": "1",
+   "solutionHtml": "<p><strong>Decoding the sum</strong> (columns from the right):</p><ul><li>Units: F + F ends in F, so <strong>F = 0</strong> with no carry.</li><li>Hundred-thousands: H + H + carry ends in F = 0. H ≠ 0, so 2H + carry = 10, giving <strong>H = 5</strong>, with no carry into that column and a carry of 1 out of it.</li><li>The sum has 7 digits, so its leading A is the final carry: <strong>A = 1</strong>. Then B + A + 1 = 1 + 10 gives <strong>B = 9</strong>.</li><li>Hundreds: A + F + c = C, i.e. 1 + c = C with C ≠ 1, so the tens column carries 1 and <strong>C = 2</strong>.</li><li>Tens: G + K = 1 + 10 = 11. Thousands: A + J = G with no carry, so G = J + 1.</li></ul><p>The remaining digits 3, 4, 6, 7, 8 go to D, E, G, J, K. G = J + 1 and G + K = 11 allow (G, J, K) = (4, 3, 7), (7, 6, 4) or (8, 7, 3). D and E take the two leftover digits: {6, 8}, {3, 8} or {4, 6}.</p><p>So A = <strong>1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Cryptarithm",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which digit does the letter B represent?</p>",
+   "answer": "9",
+   "solutionHtml": "<p><strong>Decoding the sum</strong> (columns from the right):</p><ul><li>Units: F + F ends in F, so <strong>F = 0</strong> with no carry.</li><li>Hundred-thousands: H + H + carry ends in F = 0. H ≠ 0, so 2H + carry = 10, giving <strong>H = 5</strong>, with no carry into that column and a carry of 1 out of it.</li><li>The sum has 7 digits, so its leading A is the final carry: <strong>A = 1</strong>. Then B + A + 1 = 1 + 10 gives <strong>B = 9</strong>.</li><li>Hundreds: A + F + c = C, i.e. 1 + c = C with C ≠ 1, so the tens column carries 1 and <strong>C = 2</strong>.</li><li>Tens: G + K = 1 + 10 = 11. Thousands: A + J = G with no carry, so G = J + 1.</li></ul><p>The remaining digits 3, 4, 6, 7, 8 go to D, E, G, J, K. G = J + 1 and G + K = 11 allow (G, J, K) = (4, 3, 7), (7, 6, 4) or (8, 7, 3). D and E take the two leftover digits: {6, 8}, {3, 8} or {4, 6}.</p><p>So B = <strong>9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Cryptarithm",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which among the digits 3, 4, 6 and 7 cannot be represented by the letter D?</p>",
+   "answer": "7",
+   "solutionHtml": "<p><strong>Decoding the sum</strong> (columns from the right):</p><ul><li>Units: F + F ends in F, so <strong>F = 0</strong> with no carry.</li><li>Hundred-thousands: H + H + carry ends in F = 0. H ≠ 0, so 2H + carry = 10, giving <strong>H = 5</strong>, with no carry into that column and a carry of 1 out of it.</li><li>The sum has 7 digits, so its leading A is the final carry: <strong>A = 1</strong>. Then B + A + 1 = 1 + 10 gives <strong>B = 9</strong>.</li><li>Hundreds: A + F + c = C, i.e. 1 + c = C with C ≠ 1, so the tens column carries 1 and <strong>C = 2</strong>.</li><li>Tens: G + K = 1 + 10 = 11. Thousands: A + J = G with no carry, so G = J + 1.</li></ul><p>The remaining digits 3, 4, 6, 7, 8 go to D, E, G, J, K. G = J + 1 and G + K = 11 allow (G, J, K) = (4, 3, 7), (7, 6, 4) or (8, 7, 3). D and E take the two leftover digits: {6, 8}, {3, 8} or {4, 6}.</p><p>D can be 6 or 8 (first case), 3 or 8 (second) or 4 or 6 (third). 7 is always used by K, G or J, so D can never be <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Cryptarithm",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which among the digits 4, 6, 7 and 8 cannot be represented by the letter G?</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Decoding the sum</strong> (columns from the right):</p><ul><li>Units: F + F ends in F, so <strong>F = 0</strong> with no carry.</li><li>Hundred-thousands: H + H + carry ends in F = 0. H ≠ 0, so 2H + carry = 10, giving <strong>H = 5</strong>, with no carry into that column and a carry of 1 out of it.</li><li>The sum has 7 digits, so its leading A is the final carry: <strong>A = 1</strong>. Then B + A + 1 = 1 + 10 gives <strong>B = 9</strong>.</li><li>Hundreds: A + F + c = C, i.e. 1 + c = C with C ≠ 1, so the tens column carries 1 and <strong>C = 2</strong>.</li><li>Tens: G + K = 1 + 10 = 11. Thousands: A + J = G with no carry, so G = J + 1.</li></ul><p>The remaining digits 3, 4, 6, 7, 8 go to D, E, G, J, K. G = J + 1 and G + K = 11 allow (G, J, K) = (4, 3, 7), (7, 6, 4) or (8, 7, 3). D and E take the two leftover digits: {6, 8}, {3, 8} or {4, 6}.</p><p>G can be 4, 7 or 8. G = 6 would need J = 5, which is H's digit, so G cannot be <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following is true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The third performance was composed by Ashman"
+    },
+    {
+     "id": "B",
+     "textHtml": "The second performance was composed by Dyu."
+    },
+    {
+     "id": "C",
+     "textHtml": "The second performance was composed by Gagan"
+    },
+    {
+     "id": "D",
+     "textHtml": "The third performance was composed by Dyu"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deductions.</strong> All first items come before any second item, so performances 1–4 are first items and 5–8 are second items in the same dancer order. Princess is 1st and Rani's last item is 8th, so Rani is 4th: the order is P, ?, ?, R, P, ?, ?, R.</p><p>Performances 1–4 use four different composers, and Princess and Queen share none (likewise Rani and Samragni), so <strong>each composer has exactly two items</strong>, one among 1–4 and one among 5–8. Ashman's items are consecutive, so they must be <strong>4 and 5</strong>: Rani (first) and Princess (second). Hence Princess = Badal, Ashman; Queen = Gagan, Dyu; Rani = Ashman, Gagan; Samragni = Badal, Dyu.</p><p>Trying the orders P-Q-S-R and P-S-Q-R, only <strong>P-S-Q-R</strong> gives Badal, Gagan and Dyu the same gap (4):</p><table><thead><tr><th>Performance</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Dancer</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td></tr><tr><td>Composer</td><td>Badal</td><td>Dyu</td><td>Gagan</td><td>Ashman</td><td>Ashman</td><td>Badal</td><td>Dyu</td><td>Gagan</td></tr></tbody></table><p>The 2nd performance (Samragni) was composed by <strong>Dyu</strong>: B.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following is FALSE?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Queen did not perform in any item composed by Gagan"
+    },
+    {
+     "id": "B",
+     "textHtml": "Samragni did not perform in any item composed by Ashman"
+    },
+    {
+     "id": "C",
+     "textHtml": "Rani did not perform in any item composed by Badal"
+    },
+    {
+     "id": "D",
+     "textHtml": "Princess did not perform in any item composed by Dyu"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> All first items come before any second item, so performances 1–4 are first items and 5–8 are second items in the same dancer order. Princess is 1st and Rani's last item is 8th, so Rani is 4th: the order is P, ?, ?, R, P, ?, ?, R.</p><p>Performances 1–4 use four different composers, and Princess and Queen share none (likewise Rani and Samragni), so <strong>each composer has exactly two items</strong>, one among 1–4 and one among 5–8. Ashman's items are consecutive, so they must be <strong>4 and 5</strong>: Rani (first) and Princess (second). Hence Princess = Badal, Ashman; Queen = Gagan, Dyu; Rani = Ashman, Gagan; Samragni = Badal, Dyu.</p><p>Trying the orders P-Q-S-R and P-S-Q-R, only <strong>P-S-Q-R</strong> gives Badal, Gagan and Dyu the same gap (4):</p><table><thead><tr><th>Performance</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Dancer</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td></tr><tr><td>Composer</td><td>Badal</td><td>Dyu</td><td>Gagan</td><td>Ashman</td><td>Ashman</td><td>Badal</td><td>Dyu</td><td>Gagan</td></tr></tbody></table><p>Queen's items were by Gagan and Dyu, so \"Queen did not perform any item by Gagan\" is <strong>false</strong>: A. The other three statements are true.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>The sixth performance was composed by:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Gagan"
+    },
+    {
+     "id": "B",
+     "textHtml": "Badal"
+    },
+    {
+     "id": "C",
+     "textHtml": "Ashman"
+    },
+    {
+     "id": "D",
+     "textHtml": "Dyu"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deductions.</strong> All first items come before any second item, so performances 1–4 are first items and 5–8 are second items in the same dancer order. Princess is 1st and Rani's last item is 8th, so Rani is 4th: the order is P, ?, ?, R, P, ?, ?, R.</p><p>Performances 1–4 use four different composers, and Princess and Queen share none (likewise Rani and Samragni), so <strong>each composer has exactly two items</strong>, one among 1–4 and one among 5–8. Ashman's items are consecutive, so they must be <strong>4 and 5</strong>: Rani (first) and Princess (second). Hence Princess = Badal, Ashman; Queen = Gagan, Dyu; Rani = Ashman, Gagan; Samragni = Badal, Dyu.</p><p>Trying the orders P-Q-S-R and P-S-Q-R, only <strong>P-S-Q-R</strong> gives Badal, Gagan and Dyu the same gap (4):</p><table><thead><tr><th>Performance</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Dancer</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td></tr><tr><td>Composer</td><td>Badal</td><td>Dyu</td><td>Gagan</td><td>Ashman</td><td>Ashman</td><td>Badal</td><td>Dyu</td><td>Gagan</td></tr></tbody></table><p>The 6th performance is Samragni's second item, by <strong>Badal</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which pair of performances were composed by the same composer?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The third and the seventh"
+    },
+    {
+     "id": "B",
+     "textHtml": "The first and the seventh"
+    },
+    {
+     "id": "C",
+     "textHtml": "The first and the sixth"
+    },
+    {
+     "id": "D",
+     "textHtml": "The second and the sixth"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> All first items come before any second item, so performances 1–4 are first items and 5–8 are second items in the same dancer order. Princess is 1st and Rani's last item is 8th, so Rani is 4th: the order is P, ?, ?, R, P, ?, ?, R.</p><p>Performances 1–4 use four different composers, and Princess and Queen share none (likewise Rani and Samragni), so <strong>each composer has exactly two items</strong>, one among 1–4 and one among 5–8. Ashman's items are consecutive, so they must be <strong>4 and 5</strong>: Rani (first) and Princess (second). Hence Princess = Badal, Ashman; Queen = Gagan, Dyu; Rani = Ashman, Gagan; Samragni = Badal, Dyu.</p><p>Trying the orders P-Q-S-R and P-S-Q-R, only <strong>P-S-Q-R</strong> gives Badal, Gagan and Dyu the same gap (4):</p><table><thead><tr><th>Performance</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Dancer</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td><td>Princess</td><td>Samragni</td><td>Queen</td><td>Rani</td></tr><tr><td>Composer</td><td>Badal</td><td>Dyu</td><td>Gagan</td><td>Ashman</td><td>Ashman</td><td>Badal</td><td>Dyu</td><td>Gagan</td></tr></tbody></table><p>Badal composed the <strong>1st and 6th</strong>: C. (3rd and 7th are Gagan and Dyu; 1st and 7th are Badal and Dyu; 2nd and 6th are Dyu and Badal.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution puzzle",
+   "difficulty": "easy",
+   "stemHtml": "<p>What is the minimum possible number of different types of prizes?</p>",
+   "answer": "2",
+   "solutionHtml": "<p>Set-up: there is exactly 1 item of type a, each later type has at least double the previous count, and all 100 boxes are filled, so the counts add up to 100.</p><p>One type cannot fill 100 boxes because type a has only 1 item. Two types work: <strong>1 + 99</strong> (99 ≥ 2). Minimum = <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution puzzle",
+   "difficulty": "easy",
+   "stemHtml": "<p>What is the maximum possible number of different types of prizes?</p>",
+   "answer": "6",
+   "solutionHtml": "<p>Set-up: there is exactly 1 item of type a, each later type has at least double the previous count, and all 100 boxes are filled, so the counts add up to 100.</p><p>The smallest totals for k types are 1, 1+2, …, 1+2+4+8+16+32 = 63 for 6 types, and 127 for 7 types, which is more than 100. Six types work: 1, 2, 4, 8, 16, 69. Maximum = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution puzzle",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following is not possible?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "There are exactly 60 items of type d."
+    },
+    {
+     "id": "B",
+     "textHtml": "There are exactly 30 items of type b"
+    },
+    {
+     "id": "C",
+     "textHtml": "There are exactly 45 items of type c"
+    },
+    {
+     "id": "D",
+     "textHtml": "There are exactly 75 items of type e"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Set-up: there is exactly 1 item of type a, each later type has at least double the previous count, and all 100 boxes are filled, so the counts add up to 100.</p><p>Test each option:</p><ul><li>d = 60: 1 + 9 + 30 + 60 = 100 works (9 ≥ 2, 30 ≥ 18, 60 ≥ 60).</li><li>b = 30: 1 + 30 + 69 = 100 works.</li><li><strong>c = 45</strong>: a type after c would need at least 90 items, too many, so c is the last type and b = 100 − 1 − 45 = 54. But c ≥ 2b would need b ≤ 22. Not possible.</li><li>e = 75: 1 + 2 + 4 + 18 + 75 = 100 works.</li></ul><p>Answer: C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution puzzle",
+   "difficulty": "medium",
+   "stemHtml": "<p>You ask for the type of item in box 45. Instead of being given a direct answer, you are told that there are 31 items of the same type as box 45 in boxes 1 to 44 and 43 items of the same type as box 45 in boxes 46 to 100. What is the maximum possible number of different types of items?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "6"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "5"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Set-up: there is exactly 1 item of type a, each later type has at least double the previous count, and all 100 boxes are filled, so the counts add up to 100.</p><p>Box 45's type has 31 + 1 + 43 = <strong>75 items</strong>. A later type would need at least 150 items, so this is the last type, and the other types share 100 − 75 = 25 items.</p><p>Four earlier types need at least 1 + 2 + 4 + 8 = 15 ≤ 25, for example 1, 2, 4, 18, then 75 (75 ≥ 36). Five earlier types need at least 31 &gt; 25. So the maximum is 4 + 1 = <strong>5</strong>: D.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many different ways can the items be arranged on the shelves?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "2"
+    },
+    {
+     "id": "D",
+     "textHtml": "8"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> There are 12 items and 4 empty shelves. Savouries come after biscuits and candies, and K is on shelf 16, so K is a savoury and the savoury block is <strong>D13, E14, F15, K16</strong>. Shelf 12 must be empty. Shelves 1–11 hold 5 biscuits, 3 candies and 3 empty shelves, with at most 2 consecutive empties, so at most 1 empty sits just before shelf 12.</p><p>C (a candy) starts its block after two empty shelves, and L starts the other block after exactly one empty shelf. Two layouts are possible:</p><ul><li><strong>Case 1:</strong> empty 1, 2; candies 3–5 with C at 3; empty 6; biscuits 7–11 with L at 7; empty 12. H must differ in type from L, so H is a candy. A, B, I, J are biscuits: L7, A8, B9, I/J at 10–11. G and H take 4–5.</li><li><strong>Case 2:</strong> empty 1; biscuits 2–6 with L at 2; empty 7, 8; candies 9–11 with C at 9; empty 12. J is a biscuit, and I, adjacent to J, is too. A and B lie below I and J, so L2, A3, B4, I/J at 5–6. Candies are C9 plus G and H at 10–11.</li></ul><p>In each case I/J can swap and G/H can swap, giving 4 arrangements per case.</p><p>Total = 4 + 4 = <strong>8</strong>: D.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following items is not a type of biscuit?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "B"
+    },
+    {
+     "id": "B",
+     "textHtml": "A"
+    },
+    {
+     "id": "C",
+     "textHtml": "L"
+    },
+    {
+     "id": "D",
+     "textHtml": "G"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> There are 12 items and 4 empty shelves. Savouries come after biscuits and candies, and K is on shelf 16, so K is a savoury and the savoury block is <strong>D13, E14, F15, K16</strong>. Shelf 12 must be empty. Shelves 1–11 hold 5 biscuits, 3 candies and 3 empty shelves, with at most 2 consecutive empties, so at most 1 empty sits just before shelf 12.</p><p>C (a candy) starts its block after two empty shelves, and L starts the other block after exactly one empty shelf. Two layouts are possible:</p><ul><li><strong>Case 1:</strong> empty 1, 2; candies 3–5 with C at 3; empty 6; biscuits 7–11 with L at 7; empty 12. H must differ in type from L, so H is a candy. A, B, I, J are biscuits: L7, A8, B9, I/J at 10–11. G and H take 4–5.</li><li><strong>Case 2:</strong> empty 1; biscuits 2–6 with L at 2; empty 7, 8; candies 9–11 with C at 9; empty 12. J is a biscuit, and I, adjacent to J, is too. A and B lie below I and J, so L2, A3, B4, I/J at 5–6. Candies are C9 plus G and H at 10–11.</li></ul><p>In each case I/J can swap and G/H can swap, giving 4 arrangements per case.</p><p>G is a candy in both cases: D.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following can represent the numbers of the empty shelves in a possible arrangement?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1,7,11,12"
+    },
+    {
+     "id": "B",
+     "textHtml": "1,2,8,12"
+    },
+    {
+     "id": "C",
+     "textHtml": "1,2,6,12"
+    },
+    {
+     "id": "D",
+     "textHtml": "1,5,6,12"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> There are 12 items and 4 empty shelves. Savouries come after biscuits and candies, and K is on shelf 16, so K is a savoury and the savoury block is <strong>D13, E14, F15, K16</strong>. Shelf 12 must be empty. Shelves 1–11 hold 5 biscuits, 3 candies and 3 empty shelves, with at most 2 consecutive empties, so at most 1 empty sits just before shelf 12.</p><p>C (a candy) starts its block after two empty shelves, and L starts the other block after exactly one empty shelf. Two layouts are possible:</p><ul><li><strong>Case 1:</strong> empty 1, 2; candies 3–5 with C at 3; empty 6; biscuits 7–11 with L at 7; empty 12. H must differ in type from L, so H is a candy. A, B, I, J are biscuits: L7, A8, B9, I/J at 10–11. G and H take 4–5.</li><li><strong>Case 2:</strong> empty 1; biscuits 2–6 with L at 2; empty 7, 8; candies 9–11 with C at 9; empty 12. J is a biscuit, and I, adjacent to J, is too. A and B lie below I and J, so L2, A3, B4, I/J at 5–6. Candies are C9 plus G and H at 10–11.</li></ul><p>In each case I/J can swap and G/H can swap, giving 4 arrangements per case.</p><p>The empty shelves are {1, 2, 6, 12} in Case 1 and {1, 7, 8, 12} in Case 2. Only <strong>1, 2, 6, 12</strong> appears: C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following statements is necessarily true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "There are at least four shelves between items B and C."
+    },
+    {
+     "id": "B",
+     "textHtml": "There are two empty shelves between the biscuits and the candies"
+    },
+    {
+     "id": "C",
+     "textHtml": "All candies are kept before biscuits."
+    },
+    {
+     "id": "D",
+     "textHtml": "All biscuits are kept before candies."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> There are 12 items and 4 empty shelves. Savouries come after biscuits and candies, and K is on shelf 16, so K is a savoury and the savoury block is <strong>D13, E14, F15, K16</strong>. Shelf 12 must be empty. Shelves 1–11 hold 5 biscuits, 3 candies and 3 empty shelves, with at most 2 consecutive empties, so at most 1 empty sits just before shelf 12.</p><p>C (a candy) starts its block after two empty shelves, and L starts the other block after exactly one empty shelf. Two layouts are possible:</p><ul><li><strong>Case 1:</strong> empty 1, 2; candies 3–5 with C at 3; empty 6; biscuits 7–11 with L at 7; empty 12. H must differ in type from L, so H is a candy. A, B, I, J are biscuits: L7, A8, B9, I/J at 10–11. G and H take 4–5.</li><li><strong>Case 2:</strong> empty 1; biscuits 2–6 with L at 2; empty 7, 8; candies 9–11 with C at 9; empty 12. J is a biscuit, and I, adjacent to J, is too. A and B lie below I and J, so L2, A3, B4, I/J at 5–6. Candies are C9 plus G and H at 10–11.</li></ul><p>In each case I/J can swap and G/H can swap, giving 4 arrangements per case.</p><p>Case 1: B is on 9 and C on 3, with 5 shelves between them. Case 2: B is on 4 and C on 9, with 4 shelves between them. So A always holds. B, C and D each hold in only one case.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial reasoning",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who is standing at intersection a?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "No one"
+    },
+    {
+     "id": "B",
+     "textHtml": "Y"
+    },
+    {
+     "id": "C",
+     "textHtml": "V"
+    },
+    {
+     "id": "D",
+     "textHtml": "W"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The only triangles made of three street segments are b-c-g and b-f-g, both using the diagonal b-g. U, Z, V lie on one line with V at the next intersection beyond Z. Testing every placement of U and Z on these triangles:</p><ul><li>Lines through d, or lines that end at g or b, leave no place for V. Placements with X at g leave Y with no spot that sees only U and W.</li><li>The only placement that works is <strong>X = b, U = g, Z = f, V = e</strong> (g → f → e). X at b sees a, c, d, f, g, j, so a, c, d and j are empty.</li><li>Y must see U (g) but not X, V or Z, so <strong>Y = k</strong>. W is then on k's column, at i or l. i sees e (V), so <strong>W = l</strong>.</li></ul><p>Final: X b, Z f, U g, V e, Y k, W l. Intersections a, c, d, h, i, j are empty.</p><p>Nobody is at a: A.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial reasoning",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who can V see?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "U, W and Z only"
+    },
+    {
+     "id": "B",
+     "textHtml": "Z only"
+    },
+    {
+     "id": "C",
+     "textHtml": "U and Z only"
+    },
+    {
+     "id": "D",
+     "textHtml": "U only"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The only triangles made of three street segments are b-c-g and b-f-g, both using the diagonal b-g. U, Z, V lie on one line with V at the next intersection beyond Z. Testing every placement of U and Z on these triangles:</p><ul><li>Lines through d, or lines that end at g or b, leave no place for V. Placements with X at g leave Y with no spot that sees only U and W.</li><li>The only placement that works is <strong>X = b, U = g, Z = f, V = e</strong> (g → f → e). X at b sees a, c, d, f, g, j, so a, c, d and j are empty.</li><li>Y must see U (g) but not X, V or Z, so <strong>Y = k</strong>. W is then on k's column, at i or l. i sees e (V), so <strong>W = l</strong>.</li></ul><p>Final: X b, Z f, U g, V e, Y k, W l. Intersections a, c, d, h, i, j are empty.</p><p>V at e sees along column e-f-g-h (Z, U) and row a-e-i (both empty). V sees <strong>U and Z only</strong>: C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial reasoning",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the minimum number of street segments that X must cross to reach Y?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "2"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The only triangles made of three street segments are b-c-g and b-f-g, both using the diagonal b-g. U, Z, V lie on one line with V at the next intersection beyond Z. Testing every placement of U and Z on these triangles:</p><ul><li>Lines through d, or lines that end at g or b, leave no place for V. Placements with X at g leave Y with no spot that sees only U and W.</li><li>The only placement that works is <strong>X = b, U = g, Z = f, V = e</strong> (g → f → e). X at b sees a, c, d, f, g, j, so a, c, d and j are empty.</li><li>Y must see U (g) but not X, V or Z, so <strong>Y = k</strong>. W is then on k's column, at i or l. i sees e (V), so <strong>W = l</strong>.</li></ul><p>Final: X b, Z f, U g, V e, Y k, W l. Intersections a, c, d, h, i, j are empty.</p><p>X at b reaches Y at k by b → g (the diagonal) → k: <strong>2</strong> segments. No single segment joins b to k. Answer: D.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Spatial reasoning",
+   "difficulty": "hard",
+   "stemHtml": "<p>Should a new person stand at intersection d, who among the six would she see?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "U and Z only"
+    },
+    {
+     "id": "B",
+     "textHtml": "V and X only"
+    },
+    {
+     "id": "C",
+     "textHtml": "W and X only"
+    },
+    {
+     "id": "D",
+     "textHtml": "U and W only"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The only triangles made of three street segments are b-c-g and b-f-g, both using the diagonal b-g. U, Z, V lie on one line with V at the next intersection beyond Z. Testing every placement of U and Z on these triangles:</p><ul><li>Lines through d, or lines that end at g or b, leave no place for V. Placements with X at g leave Y with no spot that sees only U and W.</li><li>The only placement that works is <strong>X = b, U = g, Z = f, V = e</strong> (g → f → e). X at b sees a, c, d, f, g, j, so a, c, d and j are empty.</li><li>Y must see U (g) but not X, V or Z, so <strong>Y = k</strong>. W is then on k's column, at i or l. i sees e (V), so <strong>W = l</strong>.</li></ul><p>Final: X b, Z f, U g, V e, Y k, W l. Intersections a, c, d, h, i, j are empty.</p><p>From d she sees column a-b-c (X at b) and row h-l (W at l): <strong>W and X only</strong>, C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-21",
+   "section": "DILR",
+   "number": 21,
+   "type": "MCQ",
+   "setKey": "S6",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores puzzle",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was the highest total score?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "25"
+    },
+    {
+     "id": "B",
+     "textHtml": "21"
+    },
+    {
+     "id": "C",
+     "textHtml": "24"
+    },
+    {
+     "id": "D",
+     "textHtml": "23"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The number of bonus rounds a player shot equals their bull's eyes in Rounds 1–3. Tanzi has 1, Umeza 2, Wangdu 0, Xyla 3 (5, 5, 5), Yonita 1 and Zeneca 2.</p><ul><li>Possible totals: Tanzi 14 + t (15–18), Umeza 13 + u (14–17), Yonita 13 + y (14–17). These three are equal. If their common total were not a multiple of 3, three players would break fact 2, so the total is <strong>15</strong>: Tanzi's non-bull score is 1, Umeza's is 2 and Yonita's is 2.</li><li>Fact 5: if Tanzi's R1 were 1, Zeneca's R1 would be 1 too, putting Zeneca's 5s in R2 and R3, the same R3 as Tanzi. So <strong>Tanzi = 5, 4, 1</strong> and Zeneca's R1 = 5, with R3 ≠ 1.</li><li>Fact 4: Xyla always hits in R2 and R3. If only Xyla hit in R3, Umeza and Zeneca would both hit in R1 and R2, making R2's count at least 3, not 2. So R3 has 2 hits and R2 has 4 (Xyla, Umeza, Yonita, Zeneca). Umeza = 2, 5, 5. Zeneca = 5, 5, z with z ≠ 5 and z ≠ 1. Yonita = 2, 5, 3.</li><li>Totals: Zeneca = 20 + z (22–24), Xyla = 21 + R6 (22–26), Wangdu = 4 + R1 + R3 (6–12, the lowest). Fact 3 makes the highest score 2W + 1. If W were a multiple of 3, the highest would be 13, 19 or 25, so 25 with W = 12. If W were not, only W = 7 or 10 keep the counts in fact 2 consistent, giving a highest of 15 or 21, below Zeneca's minimum of 22. So <strong>W = 12, highest = 25 = Xyla</strong> (the one non-multiple of 3), and Zeneca's total is a multiple of 3, i.e. <strong>24</strong>.</li></ul><p>Totals: Tanzi 15, Umeza 15, Yonita 15, Wangdu 12, Zeneca 24, Xyla 25.</p><p>Highest = <strong>25</strong> (Xyla): A.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-22",
+   "section": "DILR",
+   "number": 22,
+   "type": "MCQ",
+   "setKey": "S6",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores puzzle",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was Zeneca's total score?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "21"
+    },
+    {
+     "id": "B",
+     "textHtml": "22"
+    },
+    {
+     "id": "C",
+     "textHtml": "23"
+    },
+    {
+     "id": "D",
+     "textHtml": "24"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The number of bonus rounds a player shot equals their bull's eyes in Rounds 1–3. Tanzi has 1, Umeza 2, Wangdu 0, Xyla 3 (5, 5, 5), Yonita 1 and Zeneca 2.</p><ul><li>Possible totals: Tanzi 14 + t (15–18), Umeza 13 + u (14–17), Yonita 13 + y (14–17). These three are equal. If their common total were not a multiple of 3, three players would break fact 2, so the total is <strong>15</strong>: Tanzi's non-bull score is 1, Umeza's is 2 and Yonita's is 2.</li><li>Fact 5: if Tanzi's R1 were 1, Zeneca's R1 would be 1 too, putting Zeneca's 5s in R2 and R3, the same R3 as Tanzi. So <strong>Tanzi = 5, 4, 1</strong> and Zeneca's R1 = 5, with R3 ≠ 1.</li><li>Fact 4: Xyla always hits in R2 and R3. If only Xyla hit in R3, Umeza and Zeneca would both hit in R1 and R2, making R2's count at least 3, not 2. So R3 has 2 hits and R2 has 4 (Xyla, Umeza, Yonita, Zeneca). Umeza = 2, 5, 5. Zeneca = 5, 5, z with z ≠ 5 and z ≠ 1. Yonita = 2, 5, 3.</li><li>Totals: Zeneca = 20 + z (22–24), Xyla = 21 + R6 (22–26), Wangdu = 4 + R1 + R3 (6–12, the lowest). Fact 3 makes the highest score 2W + 1. If W were a multiple of 3, the highest would be 13, 19 or 25, so 25 with W = 12. If W were not, only W = 7 or 10 keep the counts in fact 2 consistent, giving a highest of 15 or 21, below Zeneca's minimum of 22. So <strong>W = 12, highest = 25 = Xyla</strong> (the one non-multiple of 3), and Zeneca's total is a multiple of 3, i.e. <strong>24</strong>.</li></ul><p>Totals: Tanzi 15, Umeza 15, Yonita 15, Wangdu 12, Zeneca 24, Xyla 25.</p><p>Zeneca = <strong>24</strong>: D.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-23",
+   "section": "DILR",
+   "number": 23,
+   "type": "MCQ",
+   "setKey": "S6",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores puzzle",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following statements is true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Xyla’s score was 23"
+    },
+    {
+     "id": "B",
+     "textHtml": "Xyla was the highest scorer"
+    },
+    {
+     "id": "C",
+     "textHtml": "Zeneca was the highest scorer"
+    },
+    {
+     "id": "D",
+     "textHtml": "Zeneca’s score was 23"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The number of bonus rounds a player shot equals their bull's eyes in Rounds 1–3. Tanzi has 1, Umeza 2, Wangdu 0, Xyla 3 (5, 5, 5), Yonita 1 and Zeneca 2.</p><ul><li>Possible totals: Tanzi 14 + t (15–18), Umeza 13 + u (14–17), Yonita 13 + y (14–17). These three are equal. If their common total were not a multiple of 3, three players would break fact 2, so the total is <strong>15</strong>: Tanzi's non-bull score is 1, Umeza's is 2 and Yonita's is 2.</li><li>Fact 5: if Tanzi's R1 were 1, Zeneca's R1 would be 1 too, putting Zeneca's 5s in R2 and R3, the same R3 as Tanzi. So <strong>Tanzi = 5, 4, 1</strong> and Zeneca's R1 = 5, with R3 ≠ 1.</li><li>Fact 4: Xyla always hits in R2 and R3. If only Xyla hit in R3, Umeza and Zeneca would both hit in R1 and R2, making R2's count at least 3, not 2. So R3 has 2 hits and R2 has 4 (Xyla, Umeza, Yonita, Zeneca). Umeza = 2, 5, 5. Zeneca = 5, 5, z with z ≠ 5 and z ≠ 1. Yonita = 2, 5, 3.</li><li>Totals: Zeneca = 20 + z (22–24), Xyla = 21 + R6 (22–26), Wangdu = 4 + R1 + R3 (6–12, the lowest). Fact 3 makes the highest score 2W + 1. If W were a multiple of 3, the highest would be 13, 19 or 25, so 25 with W = 12. If W were not, only W = 7 or 10 keep the counts in fact 2 consistent, giving a highest of 15 or 21, below Zeneca's minimum of 22. So <strong>W = 12, highest = 25 = Xyla</strong> (the one non-multiple of 3), and Zeneca's total is a multiple of 3, i.e. <strong>24</strong>.</li></ul><p>Totals: Tanzi 15, Umeza 15, Yonita 15, Wangdu 12, Zeneca 24, Xyla 25.</p><p>Xyla, with 25, is the highest scorer: B.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-24",
+   "section": "DILR",
+   "number": 24,
+   "type": "MCQ",
+   "setKey": "S6",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores puzzle",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was Tanzi's score in Round 3?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> The number of bonus rounds a player shot equals their bull's eyes in Rounds 1–3. Tanzi has 1, Umeza 2, Wangdu 0, Xyla 3 (5, 5, 5), Yonita 1 and Zeneca 2.</p><ul><li>Possible totals: Tanzi 14 + t (15–18), Umeza 13 + u (14–17), Yonita 13 + y (14–17). These three are equal. If their common total were not a multiple of 3, three players would break fact 2, so the total is <strong>15</strong>: Tanzi's non-bull score is 1, Umeza's is 2 and Yonita's is 2.</li><li>Fact 5: if Tanzi's R1 were 1, Zeneca's R1 would be 1 too, putting Zeneca's 5s in R2 and R3, the same R3 as Tanzi. So <strong>Tanzi = 5, 4, 1</strong> and Zeneca's R1 = 5, with R3 ≠ 1.</li><li>Fact 4: Xyla always hits in R2 and R3. If only Xyla hit in R3, Umeza and Zeneca would both hit in R1 and R2, making R2's count at least 3, not 2. So R3 has 2 hits and R2 has 4 (Xyla, Umeza, Yonita, Zeneca). Umeza = 2, 5, 5. Zeneca = 5, 5, z with z ≠ 5 and z ≠ 1. Yonita = 2, 5, 3.</li><li>Totals: Zeneca = 20 + z (22–24), Xyla = 21 + R6 (22–26), Wangdu = 4 + R1 + R3 (6–12, the lowest). Fact 3 makes the highest score 2W + 1. If W were a multiple of 3, the highest would be 13, 19 or 25, so 25 with W = 12. If W were not, only W = 7 or 10 keep the counts in fact 2 consistent, giving a highest of 15 or 21, below Zeneca's minimum of 22. So <strong>W = 12, highest = 25 = Xyla</strong> (the one non-multiple of 3), and Zeneca's total is a multiple of 3, i.e. <strong>24</strong>.</li></ul><p>Totals: Tanzi 15, Umeza 15, Yonita 15, Wangdu 12, Zeneca 24, Xyla 25.</p><p>Tanzi scored 5, 4, <strong>1</strong> in Rounds 1–3: C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-25",
+   "section": "DILR",
+   "number": 25,
+   "type": "TITA",
+   "setKey": "S7",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart & ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the rank of Kerala in the ‘IPC crimes’ category?</p>",
+   "answer": "5",
+   "solutionHtml": "<p><strong>Readings from the chart</strong> (IPC / SLL / Other): Delhi 64/35/44, Karnataka 16/49/26, Goa 27/34/19, Tamil Nadu 2/25/36, Maharashtra 16/34/6, Haryana 3/28/7, Kerala 8/15/11, Puducherry ≈1/0/31, Telangana 4/15/6. West Bengal is 0/520/0.</p><p>Use the given ranks as anchors. A rank r means exactly r − 1 states/UTs nationwide have more cases.</p><p>Telangana's IPC rank is 6, so exactly 5 states have more than its 4 IPC cases. Delhi (64), Goa (27), Karnataka (16), Maharashtra (16) and Kerala (8) are already five, so they are the only ones. Exactly 4 are above Kerala, so its rank is <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-26",
+   "section": "DILR",
+   "number": 26,
+   "type": "MCQ",
+   "setKey": "S7",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart & ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>In the two states where the highest total number of cases are registered, the ratio of the total number of cases in IPC crimes to the total number in SLL crimes is closest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "11:10"
+    },
+    {
+     "id": "B",
+     "textHtml": "19:20"
+    },
+    {
+     "id": "C",
+     "textHtml": "1:9"
+    },
+    {
+     "id": "D",
+     "textHtml": "3:2"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Readings from the chart</strong> (IPC / SLL / Other): Delhi 64/35/44, Karnataka 16/49/26, Goa 27/34/19, Tamil Nadu 2/25/36, Maharashtra 16/34/6, Haryana 3/28/7, Kerala 8/15/11, Puducherry ≈1/0/31, Telangana 4/15/6. West Bengal is 0/520/0.</p><p>Use the given ranks as anchors. A rank r means exactly r − 1 states/UTs nationwide have more cases.</p><p>The two largest totals are <strong>West Bengal (520)</strong> and <strong>Delhi (≈143)</strong>.</p><p>IPC: 0 + 64 = 64. SLL: 520 + 35 = 555. 64 : 555 ≈ 1 : 8.7, closest to <strong>1 : 9</strong>, C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-27",
+   "section": "DILR",
+   "number": 27,
+   "type": "MCQ",
+   "setKey": "S7",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart & ranks",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following is DEFINITELY true about the ranks of states/UT in the ‘other crimes’ category?<br>i) Tamil Nadu: 2&nbsp;&nbsp;&nbsp;ii) Puducherry: 3</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "both i) and ii)"
+    },
+    {
+     "id": "B",
+     "textHtml": "only i)"
+    },
+    {
+     "id": "C",
+     "textHtml": "only ii)"
+    },
+    {
+     "id": "D",
+     "textHtml": "neither i) , nor ii)"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Readings from the chart</strong> (IPC / SLL / Other): Delhi 64/35/44, Karnataka 16/49/26, Goa 27/34/19, Tamil Nadu 2/25/36, Maharashtra 16/34/6, Haryana 3/28/7, Kerala 8/15/11, Puducherry ≈1/0/31, Telangana 4/15/6. West Bengal is 0/520/0.</p><p>Use the given ranks as anchors. A rank r means exactly r − 1 states/UTs nationwide have more cases.</p><p>Maharashtra and Telangana (6 other crimes each) have rank 8, so exactly 7 states/UTs have more than 6. Delhi (44), Tamil Nadu (36), Puducherry (31), Karnataka (26), Goa (19), Kerala (11) and Haryana (7) are exactly seven, so no state outside the table is above them.</p><p>Order: Delhi 1, <strong>Tamil Nadu 2, Puducherry 3</strong>. Both statements hold: A.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-28",
+   "section": "DILR",
+   "number": 28,
+   "type": "TITA",
+   "setKey": "S7",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart & ranks",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the sum of the ranks of Delhi in the three categories of crimes?</p>",
+   "answer": "5",
+   "solutionHtml": "<p><strong>Readings from the chart</strong> (IPC / SLL / Other): Delhi 64/35/44, Karnataka 16/49/26, Goa 27/34/19, Tamil Nadu 2/25/36, Maharashtra 16/34/6, Haryana 3/28/7, Kerala 8/15/11, Puducherry ≈1/0/31, Telangana 4/15/6. West Bengal is 0/520/0.</p><p>Use the given ranks as anchors. A rank r means exactly r − 1 states/UTs nationwide have more cases.</p><p><strong>IPC:</strong> Karnataka's rank 3 means only two states beat 16. Delhi (64) is the largest, rank 1.</p><p><strong>SLL:</strong> West Bengal (520) is 1st and Karnataka (49) 2nd. Goa and Maharashtra (34) share rank 4, so exactly one state lies between Karnataka and them: Delhi (35), rank 3.</p><p><strong>Other:</strong> Delhi (44) is the highest among the 7 states above 6 (see the rank-8 anchor), rank 1.</p><p>Sum = 1 + 3 + 1 = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-29",
+   "section": "DILR",
+   "number": 29,
+   "type": "MCQ",
+   "setKey": "S8",
+   "topic": "Data Interpretation",
+   "subtopic": "Radar chart",
+   "difficulty": "medium",
+   "stemHtml": "<p>On which aspect is the median score of the five vendors the least?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Quality"
+    },
+    {
+     "id": "B",
+     "textHtml": "Cost"
+    },
+    {
+     "id": "C",
+     "textHtml": "Customer Service"
+    },
+    {
+     "id": "D",
+     "textHtml": "Reliability"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Scores read from the radar chart</strong> (calibrated with the given 52, 45 and 90):</p><table><thead><tr><th>Aspect</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>V5</th></tr></thead><tbody><tr><td>Cost</td><td>77</td><td>81</td><td>90</td><td>70</td><td>60</td></tr><tr><td>Customer Service</td><td>55</td><td>42</td><td>50</td><td>70</td><td>28</td></tr><tr><td>Features</td><td>40</td><td>45</td><td>55</td><td>90</td><td>73</td></tr><tr><td>Quality</td><td>71</td><td>68</td><td>62</td><td>40</td><td>48</td></tr><tr><td>Reach</td><td>77</td><td>55</td><td>63</td><td>44</td><td>69</td></tr><tr><td>Reliability</td><td>52</td><td>40</td><td>75</td><td>25</td><td>60</td></tr></tbody></table><p>(Readings may be off by a point or two, but none of the answers depends on such small margins.)</p><p>Medians: Cost 77, Customer Service <strong>50</strong> (V3), Features 55, Quality 62, Reach 63, Reliability 52 (V1, given exactly). Customer Service is lowest: C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-30",
+   "section": "DILR",
+   "number": 30,
+   "type": "MCQ",
+   "setKey": "S8",
+   "topic": "Data Interpretation",
+   "subtopic": "Radar chart",
+   "difficulty": "medium",
+   "stemHtml": "<p>A vendor's final score is the average of their scores on all six aspects. Which vendor has the highest final score?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Vendor 1"
+    },
+    {
+     "id": "B",
+     "textHtml": "Vendor 2"
+    },
+    {
+     "id": "C",
+     "textHtml": "Vendor 4"
+    },
+    {
+     "id": "D",
+     "textHtml": "Vendor 3"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Scores read from the radar chart</strong> (calibrated with the given 52, 45 and 90):</p><table><thead><tr><th>Aspect</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>V5</th></tr></thead><tbody><tr><td>Cost</td><td>77</td><td>81</td><td>90</td><td>70</td><td>60</td></tr><tr><td>Customer Service</td><td>55</td><td>42</td><td>50</td><td>70</td><td>28</td></tr><tr><td>Features</td><td>40</td><td>45</td><td>55</td><td>90</td><td>73</td></tr><tr><td>Quality</td><td>71</td><td>68</td><td>62</td><td>40</td><td>48</td></tr><tr><td>Reach</td><td>77</td><td>55</td><td>63</td><td>44</td><td>69</td></tr><tr><td>Reliability</td><td>52</td><td>40</td><td>75</td><td>25</td><td>60</td></tr></tbody></table><p>(Readings may be off by a point or two, but none of the answers depends on such small margins.)</p><p>Totals: V1 ≈ 372, V2 ≈ 331, <strong>V3 ≈ 395</strong>, V4 ≈ 339, V5 ≈ 338. Vendor 3 leads clearly: D.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-31",
+   "section": "DILR",
+   "number": 31,
+   "type": "MCQ",
+   "setKey": "S8",
+   "topic": "Data Interpretation",
+   "subtopic": "Radar chart",
+   "difficulty": "medium",
+   "stemHtml": "<p>List of all the vendors who are among the top two scorers on the maximum number of aspects is:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Vendor 2 and Vendor 5"
+    },
+    {
+     "id": "B",
+     "textHtml": "Vendor 1 and Vendor 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "Vendor 1 and Vendor 2"
+    },
+    {
+     "id": "D",
+     "textHtml": "Vendor 2, Vendor 3 and Vendor 4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Scores read from the radar chart</strong> (calibrated with the given 52, 45 and 90):</p><table><thead><tr><th>Aspect</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>V5</th></tr></thead><tbody><tr><td>Cost</td><td>77</td><td>81</td><td>90</td><td>70</td><td>60</td></tr><tr><td>Customer Service</td><td>55</td><td>42</td><td>50</td><td>70</td><td>28</td></tr><tr><td>Features</td><td>40</td><td>45</td><td>55</td><td>90</td><td>73</td></tr><tr><td>Quality</td><td>71</td><td>68</td><td>62</td><td>40</td><td>48</td></tr><tr><td>Reach</td><td>77</td><td>55</td><td>63</td><td>44</td><td>69</td></tr><tr><td>Reliability</td><td>52</td><td>40</td><td>75</td><td>25</td><td>60</td></tr></tbody></table><p>(Readings may be off by a point or two, but none of the answers depends on such small margins.)</p><p>Top two per aspect: Cost V3, V2. Customer Service V4, V1. Features V4, V5. Quality V1, V2. Reach V1, V5. Reliability V3, V5.</p><p>Counts: V1 = 3, V2 = 2, V3 = 2, V4 = 2, V5 = 3. Maximum: <strong>Vendor 1 and Vendor 5</strong>, B.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-32",
+   "section": "DILR",
+   "number": 32,
+   "type": "MCQ",
+   "setKey": "S8",
+   "topic": "Data Interpretation",
+   "subtopic": "Radar chart",
+   "difficulty": "medium",
+   "stemHtml": "<p>List of all the vendors who are among the top three vendors on all six aspects is:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Vendor 1"
+    },
+    {
+     "id": "B",
+     "textHtml": "None of the Vendors"
+    },
+    {
+     "id": "C",
+     "textHtml": "Vendor 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Vendor 1 and Vendor 3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Scores read from the radar chart</strong> (calibrated with the given 52, 45 and 90):</p><table><thead><tr><th>Aspect</th><th>V1</th><th>V2</th><th>V3</th><th>V4</th><th>V5</th></tr></thead><tbody><tr><td>Cost</td><td>77</td><td>81</td><td>90</td><td>70</td><td>60</td></tr><tr><td>Customer Service</td><td>55</td><td>42</td><td>50</td><td>70</td><td>28</td></tr><tr><td>Features</td><td>40</td><td>45</td><td>55</td><td>90</td><td>73</td></tr><tr><td>Quality</td><td>71</td><td>68</td><td>62</td><td>40</td><td>48</td></tr><tr><td>Reach</td><td>77</td><td>55</td><td>63</td><td>44</td><td>69</td></tr><tr><td>Reliability</td><td>52</td><td>40</td><td>75</td><td>25</td><td>60</td></tr></tbody></table><p>(Readings may be off by a point or two, but none of the answers depends on such small margins.)</p><p>Vendor 3 ranks 1st on Cost and Reliability and 3rd on Customer Service (50 vs 42), Features (55 vs 45), Quality (62 vs 48) and Reach (63 vs 55). It is in the top three everywhere.</p><p>Vendor 1 is only 4th on Features (40). No other vendor qualifies. Answer: <strong>Vendor 3</strong>, C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

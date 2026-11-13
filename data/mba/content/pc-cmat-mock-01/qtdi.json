@@ -1,0 +1,706 @@
+{
+  "sets": [
+    {
+      "key": "QTDI-S1",
+      "kind": "data",
+      "section": "QTDI",
+      "title": "Annual sales of five companies",
+      "contentHtml": "<p>The table below gives the annual sales (in ₹ crore) of five companies for the years 2022, 2023 and 2024. Study it and answer the questions that follow.</p><table><thead><tr><th>Company</th><th>2022</th><th>2023</th><th>2024</th></tr></thead><tbody><tr><td>Aster</td><td>240</td><td>270</td><td>324</td></tr><tr><td>Birch</td><td>180</td><td>225</td><td>216</td></tr><tr><td>Cedar</td><td>300</td><td>285</td><td>336</td></tr><tr><td>Delta</td><td>150</td><td>180</td><td>207</td></tr><tr><td>Elm</td><td>210</td><td>252</td><td>252</td></tr></tbody></table>"
+    },
+    {
+      "key": "QTDI-S2",
+      "kind": "data",
+      "section": "QTDI",
+      "title": "Employees of a firm by department",
+      "contentHtml": "<p>The table below gives, for each of the four departments of a firm, the number of employees, the percentage of those employees who are women, and the average monthly salary of the department's employees (in ₹ thousand). Every employee belongs to exactly one department.</p><table><thead><tr><th>Department</th><th>Number of employees</th><th>Women (% of department)</th><th>Average monthly salary (₹ thousand)</th></tr></thead><tbody><tr><td>HR</td><td>80</td><td>45%</td><td>52</td></tr><tr><td>Finance</td><td>120</td><td>35%</td><td>68</td></tr><tr><td>Marketing</td><td>150</td><td>40%</td><td>60</td></tr><tr><td>Operations</td><td>250</td><td>20%</td><td>48</td></tr></tbody></table>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "QTDI-01",
+      "section": "QTDI",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The price of cooking oil rises by 25%. By what percentage must a family reduce its consumption of cooking oil so that its expenditure on cooking oil stays the same?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "25%"
+        },
+        {
+          "id": "B",
+          "textHtml": "20%"
+        },
+        {
+          "id": "C",
+          "textHtml": "22.5%"
+        },
+        {
+          "id": "D",
+          "textHtml": "18%"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Expenditure = price × consumption. If the price becomes 5/4 of the original, consumption must become 4/5 of the original to keep expenditure unchanged.</p><p><strong>Step 2:</strong> Reduction = 1 − 4/5 = 1/5 = <strong>20%</strong>.</p><p><strong>Shortcut:</strong> reduction % = r/(100 + r) × 100 = 25/125 × 100 = 20%. The trap answer 25% ignores that the cut is measured on the old (smaller) base.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-02",
+      "section": "QTDI",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit and Loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>A shopkeeper sells two mobile phones for ₹1,200 each. On one he gains 20% and on the other he loses 20%. What is his overall result on the two sales?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "No profit, no loss"
+        },
+        {
+          "id": "B",
+          "textHtml": "2% loss"
+        },
+        {
+          "id": "C",
+          "textHtml": "4% gain"
+        },
+        {
+          "id": "D",
+          "textHtml": "4% loss"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Phone sold at a 20% gain: cost price = 1200 ÷ 1.2 = ₹1,000.</p><p><strong>Step 2:</strong> Phone sold at a 20% loss: cost price = 1200 ÷ 0.8 = ₹1,500.</p><p><strong>Step 3:</strong> Total cost = ₹2,500; total selling price = ₹2,400. Loss = ₹100.</p><p><strong>Step 4:</strong> Loss % = 100/2500 × 100 = <strong>4% loss</strong>.</p><p><strong>Shortcut:</strong> When two equal selling prices carry a gain and a loss of the same x%, there is always a loss of x²/100 % = 400/100 = 4%.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-03",
+      "section": "QTDI",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Simple and Compound Interest",
+      "difficulty": "medium",
+      "stemHtml": "<p>The difference between the compound interest (compounded annually) and the simple interest on a certain sum for 2 years at 12% per annum is ₹72. What is the sum?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹4,000"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹4,500"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹5,000"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹6,000"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> For 2 years, CI − SI = P × (r/100)², because the only extra in CI is the interest earned in year 2 on year 1's interest.</p><p><strong>Step 2:</strong> 72 = P × (0.12)² = 0.0144P.</p><p><strong>Step 3:</strong> P = 72 ÷ 0.0144 = <strong>₹5,000</strong>.</p><p><strong>Check:</strong> SI = 5000 × 0.24 = 1200; CI = 5000 × (1.12² − 1) = 5000 × 0.2544 = 1272; difference = 72. ✓</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-04",
+      "section": "QTDI",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time and Work",
+      "difficulty": "medium",
+      "stemHtml": "<p>Asha can finish a piece of work in 12 days and Bhanu can finish it in 18 days. They work together for 4 days, after which Asha leaves and Bhanu completes the rest alone. In how many days in all is the work completed?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12"
+        },
+        {
+          "id": "B",
+          "textHtml": "11"
+        },
+        {
+          "id": "C",
+          "textHtml": "13"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Take the total work as LCM(12, 18) = 36 units. Asha does 3 units/day, Bhanu 2 units/day.</p><p><strong>Step 2:</strong> In 4 days together they do 4 × 5 = 20 units. Remaining work = 16 units.</p><p><strong>Step 3:</strong> Bhanu alone needs 16 ÷ 2 = 8 days.</p><p><strong>Step 4:</strong> Total time = 4 + 8 = <strong>12 days</strong>. (Choosing 8 forgets the first 4 days.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-05",
+      "section": "QTDI",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>A train 240 m long crosses a platform 360 m long in 30 seconds. How long will it take to pass a man who is walking at 18 km/h along the track in the same direction as the train?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12 seconds"
+        },
+        {
+          "id": "B",
+          "textHtml": "16 seconds"
+        },
+        {
+          "id": "C",
+          "textHtml": "18 seconds"
+        },
+        {
+          "id": "D",
+          "textHtml": "20 seconds"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> To cross the platform the train covers 240 + 360 = 600 m in 30 s, so its speed = 20 m/s = 72 km/h.</p><p><strong>Step 2:</strong> Same direction, so relative speed = 72 − 18 = 54 km/h = 54 × 5/18 = 15 m/s.</p><p><strong>Step 3:</strong> To pass the man the train covers only its own length: time = 240 ÷ 15 = <strong>16 seconds</strong>.</p><p>(12 s would come from ignoring the man's speed; adding the speeds would be wrong because they move in the same direction.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-06",
+      "section": "QTDI",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio and Mixtures",
+      "difficulty": "easy",
+      "stemHtml": "<p>A 60-litre mixture contains milk and water in the ratio 7 : 3. How many litres of water must be added to make the ratio of milk to water 3 : 2?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "12"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "14"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Milk = 7/10 × 60 = 42 L; water = 18 L.</p><p><strong>Step 2:</strong> Milk is unchanged, so we need 42/(18 + x) = 3/2, i.e. 18 + x = 28.</p><p><strong>Step 3:</strong> x = <strong>10 litres</strong>.</p><p><strong>Check:</strong> 42 : 28 = 3 : 2. ✓</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-07",
+      "section": "QTDI",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>The roots of the equation x² − 7x + k = 0 are real and differ by 3. What is the value of k?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "8"
+        },
+        {
+          "id": "C",
+          "textHtml": "12"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the roots be α and β. Sum α + β = 7 and difference α − β = 3.</p><p><strong>Step 2:</strong> Solving, α = 5 and β = 2.</p><p><strong>Step 3:</strong> k = product of roots = 5 × 2 = <strong>10</strong>.</p><p><strong>Alternative:</strong> (α − β)² = (α + β)² − 4αβ ⇒ 9 = 49 − 4k ⇒ k = 10.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-08",
+      "section": "QTDI",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities and Modulus",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many integers x satisfy the inequality |2x − 5| &lt; 9?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "9"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> |2x − 5| &lt; 9 means −9 &lt; 2x − 5 &lt; 9.</p><p><strong>Step 2:</strong> Adding 5: −4 &lt; 2x &lt; 14, so −2 &lt; x &lt; 7.</p><p><strong>Step 3:</strong> The integers strictly between −2 and 7 are −1, 0, 1, 2, 3, 4, 5, 6, i.e. <strong>8 integers</strong>.</p><p>(9 is the count if the strict inequality is wrongly treated as ≤ at one end; note x = −2 gives |−9| = 9, which is not less than 9.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-09",
+      "section": "QTDI",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a right-angled triangle the two sides containing the right angle are 9 cm and 12 cm. What is the length of the perpendicular drawn from the right-angle vertex to the hypotenuse?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6.8 cm"
+        },
+        {
+          "id": "B",
+          "textHtml": "7.2 cm"
+        },
+        {
+          "id": "C",
+          "textHtml": "7.5 cm"
+        },
+        {
+          "id": "D",
+          "textHtml": "8 cm"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Hypotenuse = √(9² + 12²) = √225 = 15 cm.</p><p><strong>Step 2:</strong> Area = ½ × 9 × 12 = 54 cm². The same area = ½ × 15 × h.</p><p><strong>Step 3:</strong> h = 108 ÷ 15 = <strong>7.2 cm</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-10",
+      "section": "QTDI",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Mensuration",
+      "subtopic": "Volume of Solids",
+      "difficulty": "medium",
+      "stemHtml": "<p>A solid metal cylinder of radius 6 cm and height 10 cm is melted and recast into solid cones, each of radius 3 cm and height 4 cm. Assuming no metal is lost, how many cones are obtained?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "24"
+        },
+        {
+          "id": "B",
+          "textHtml": "27"
+        },
+        {
+          "id": "C",
+          "textHtml": "30"
+        },
+        {
+          "id": "D",
+          "textHtml": "36"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Volume of cylinder = π × 6² × 10 = 360π cm³.</p><p><strong>Step 2:</strong> Volume of one cone = ⅓ × π × 3² × 4 = 12π cm³.</p><p><strong>Step 3:</strong> Number of cones = 360π ÷ 12π = <strong>30</strong>.</p><p>(Forgetting the ⅓ in the cone formula gives 10; the other options come from arithmetic slips with the radii.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-11",
+      "section": "QTDI",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Remainders and Cyclicity",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the remainder when 7<sup>45</sup> is divided by 5?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "2"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> The remainder on division by 5 depends only on the units digit. Units digits of powers of 7 repeat in the cycle 7, 9, 3, 1 (length 4).</p><p><strong>Step 2:</strong> 45 = 4 × 11 + 1, so 7<sup>45</sup> has the same units digit as 7<sup>1</sup>, i.e. 7.</p><p><strong>Step 3:</strong> A number ending in 7 leaves remainder <strong>2</strong> when divided by 5.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-12",
+      "section": "QTDI",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Factors",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many positive divisors (factors) does 720 have?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30"
+        },
+        {
+          "id": "B",
+          "textHtml": "24"
+        },
+        {
+          "id": "C",
+          "textHtml": "28"
+        },
+        {
+          "id": "D",
+          "textHtml": "36"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Prime factorise: 720 = 2<sup>4</sup> × 3<sup>2</sup> × 5<sup>1</sup>.</p><p><strong>Step 2:</strong> Number of divisors = (4 + 1)(2 + 1)(1 + 1) = 5 × 3 × 2 = <strong>30</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-13",
+      "section": "QTDI",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Arrangements with Repetition",
+      "difficulty": "hard",
+      "stemHtml": "<p>In how many distinct ways can the letters of the word MANAGER be arranged so that all the vowels always come together?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "720"
+        },
+        {
+          "id": "B",
+          "textHtml": "360"
+        },
+        {
+          "id": "C",
+          "textHtml": "240"
+        },
+        {
+          "id": "D",
+          "textHtml": "180"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> MANAGER has 7 letters: consonants M, N, G, R and vowels A, A, E.</p><p><strong>Step 2:</strong> Tie the three vowels into one block. Units to arrange: M, N, G, R and [block] = 5 distinct units ⇒ 5! = 120 ways.</p><p><strong>Step 3:</strong> Inside the block, A, A, E can be arranged in 3!/2! = 3 ways (the two A's are identical).</p><p><strong>Step 4:</strong> Total = 120 × 3 = <strong>360</strong>.</p><p>(720 forgets that the two A's are identical; 240 counts only 2 internal orders of the block instead of 3.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-14",
+      "section": "QTDI",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Probability",
+      "subtopic": "Dice",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two fair six-sided dice are thrown together. What is the probability that the sum of the numbers shown is a prime number?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7/18"
+        },
+        {
+          "id": "B",
+          "textHtml": "1/3"
+        },
+        {
+          "id": "C",
+          "textHtml": "5/12"
+        },
+        {
+          "id": "D",
+          "textHtml": "4/9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Possible prime sums: 2, 3, 5, 7, 11.</p><p><strong>Step 2:</strong> Number of outcomes: sum 2 → 1, sum 3 → 2, sum 5 → 4, sum 7 → 6, sum 11 → 2. Total = 15.</p><p><strong>Step 3:</strong> Probability = 15/36 = <strong>5/12</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-15",
+      "section": "QTDI",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "QTDI-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Growth Rates",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which company recorded the highest percentage growth in sales from 2022 to 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Aster"
+        },
+        {
+          "id": "B",
+          "textHtml": "Cedar"
+        },
+        {
+          "id": "C",
+          "textHtml": "Elm"
+        },
+        {
+          "id": "D",
+          "textHtml": "Delta"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Growth from 2022 to 2024:</p><ul><li>Aster: 324/240 = 1.35 ⇒ 35%</li><li>Birch: 216/180 = 1.20 ⇒ 20%</li><li>Cedar: 336/300 = 1.12 ⇒ 12%</li><li>Delta: 207/150 = 1.38 ⇒ 38%</li><li>Elm: 252/210 = 1.20 ⇒ 20%</li></ul><p>Highest: <strong>Delta</strong> (38%). Aster has the largest absolute increase (₹84 crore) but a smaller percentage increase.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-16",
+      "section": "QTDI",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "QTDI-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Percentage Change",
+      "difficulty": "medium",
+      "stemHtml": "<p>By approximately what percentage did the combined sales of all five companies in 2023 exceed their combined sales in 2022?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12.2%"
+        },
+        {
+          "id": "B",
+          "textHtml": "10.8%"
+        },
+        {
+          "id": "C",
+          "textHtml": "13.5%"
+        },
+        {
+          "id": "D",
+          "textHtml": "11.4%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Total 2022 = 240 + 180 + 300 + 150 + 210 = ₹1,080 crore.</p><p><strong>Step 2:</strong> Total 2023 = 270 + 225 + 285 + 180 + 252 = ₹1,212 crore.</p><p><strong>Step 3:</strong> Increase = 132; percentage = 132/1080 × 100 ≈ <strong>12.2%</strong>.</p><p>(10.8% is 132/1212, i.e. the change measured on the wrong base.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-17",
+      "section": "QTDI",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "QTDI-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>By how much (in ₹ crore) does the average annual sales of Cedar over the three years exceed the average annual sales of Birch over the same three years?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "96"
+        },
+        {
+          "id": "B",
+          "textHtml": "100"
+        },
+        {
+          "id": "C",
+          "textHtml": "104"
+        },
+        {
+          "id": "D",
+          "textHtml": "90"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Cedar total = 300 + 285 + 336 = 921 ⇒ average = 307.</p><p><strong>Step 2:</strong> Birch total = 180 + 225 + 216 = 621 ⇒ average = 207.</p><p><strong>Step 3:</strong> Difference = 307 − 207 = <strong>₹100 crore</strong>. (Equivalently, (921 − 621)/3 = 300/3 = 100.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-18",
+      "section": "QTDI",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "QTDI-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Percentages",
+      "difficulty": "medium",
+      "stemHtml": "<p>Women make up approximately what percentage of the firm's total workforce?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "28.5%"
+        },
+        {
+          "id": "B",
+          "textHtml": "30.0%"
+        },
+        {
+          "id": "C",
+          "textHtml": "33.6%"
+        },
+        {
+          "id": "D",
+          "textHtml": "31.3%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Women in each department: HR 45% of 80 = 36; Finance 35% of 120 = 42; Marketing 40% of 150 = 60; Operations 20% of 250 = 50.</p><p><strong>Step 2:</strong> Total women = 188; total employees = 80 + 120 + 150 + 250 = 600.</p><p><strong>Step 3:</strong> 188/600 × 100 ≈ <strong>31.3%</strong>.</p><p>(Simply averaging the four percentages gives 35%, which ignores that departments differ in size.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-19",
+      "section": "QTDI",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "QTDI-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Weighted Average",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the average monthly salary of all the employees of the firm taken together (to the nearest rupee)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹54,200"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹57,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹55,533"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹56,750"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Salary bill (₹ thousand): HR 80 × 52 = 4,160; Finance 120 × 68 = 8,160; Marketing 150 × 60 = 9,000; Operations 250 × 48 = 12,000.</p><p><strong>Step 2:</strong> Total = 33,320 thousand for 600 employees.</p><p><strong>Step 3:</strong> Average = 33,320/600 ≈ 55.533 thousand = <strong>₹55,533</strong>.</p><p>(₹57,000 is the simple average of the four department averages, which wrongly gives the small HR department the same weight as Operations.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QTDI-20",
+      "section": "QTDI",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "QTDI-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Percentages",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose 20% of the men in Operations are transferred to Marketing and nothing else changes. What percentage of Marketing's employees will then be women (approximately)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "31.6%"
+        },
+        {
+          "id": "B",
+          "textHtml": "28.4%"
+        },
+        {
+          "id": "C",
+          "textHtml": "33.3%"
+        },
+        {
+          "id": "D",
+          "textHtml": "35.0%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Men in Operations = 80% of 250 = 200. 20% of them = 40 men move to Marketing.</p><p><strong>Step 2:</strong> Marketing now has 150 + 40 = 190 employees, of whom women are still 40% of 150 = 60.</p><p><strong>Step 3:</strong> 60/190 × 100 ≈ <strong>31.6%</strong>.</p><p>(Taking 20% of all 250 Operations employees, i.e. 50 people, would give 60/200 = 30%, not listed; 33.3% comes from using 180 as the new size.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 """Faculty/admin content review: ``/api/v1/mba/admin`` (contract: docs/mba-api.md).
 
 Callers are Admin-panel users (``require_admin``: the Java admin login JWT whose
-subject is an ``admins`` doc id) whose role is allowed by ``MBA_CONTENT_ADMIN_ROLES``.
+subject is an ``admins`` doc id) whose role has the needed capability (admin_roles.py:
+content = questions/sets, tests = papers/publish; both may read).
 Unlike the student endpoints this reads the database directly (all statuses), not
 the published-only content bank, and invalidates the bank after every write.
 Writes go only to ``mbaQuestions``, ``mbaQuestionSets`` and ``mbaPapers``.
@@ -9,14 +10,26 @@ Writes go only to ``mbaQuestions``, ``mbaQuestionSets`` and ``mbaPapers``.
 
 from __future__ import annotations
 
-import os
 from typing import Any
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 
-from api.auth import CurrentAdmin, require_admin_roles
+from api.auth import CurrentAdmin
 from api.db import SafeFirestore, get_db
-from scripts.mba.paper_format import DIFFICULTIES, OPTION_ID_RE, SET_KINDS
+from scripts.mba.paper_format import (
+    DIFFICULTIES,
+    SET_KINDS,
+    PaperFormatError,
+    build_paper_docs,
+    check_question,
+    check_set,
+    content_from_docs,
+    exam_versions,
+    question_input,
+    set_input,
+)
+
+from .admin_roles import content_editor, content_reader, test_manager
 
 from .exams import _paper_label, _paper_sort
 from .models import (
@@ -30,26 +43,19 @@ from .models import (
     ReviewInput,
     SetEdit,
 )
-from .public import public_source
+from .public import approaches, public_source
+from .schedule import schedule_state
 from .store import PAPERS, QUESTIONS, SETS, get_doc, invalidate_bank, iso, occ_update, query_eq, stream_all, utcnow
 
 router = APIRouter(prefix="/admin")
 
-DEFAULT_ROLES = "superAdmin,COURSE"
 HISTORY_LIMIT = 50
 STATUSES = ("draft", "published", "archived")
 SHORT_FIELDS = ("correctAnswer", "difficulty", "topic", "subtopic")  # shown as old -> new in history
 
 
-def content_admin_roles() -> frozenset[str] | None:
-    """Admin roles allowed to review MBA content (``*`` = every admin)."""
-    raw = os.getenv("MBA_CONTENT_ADMIN_ROLES", DEFAULT_ROLES).strip()
-    if raw == "*":
-        return None
-    return frozenset(role.strip() for role in raw.split(",") if role.strip())
-
-
-content_admin = require_admin_roles(content_admin_roles)
+# Kept for modules that imported it: any admin who may read MBA content (content or tests capability).
+content_admin = content_reader
 
 
 # ---------------------------------------------------------------- reading helpers
@@ -88,10 +94,17 @@ def _counts(docs: list[dict[str, Any] | None]) -> dict[str, int]:
     return counts
 
 
+def _section_ok(doc: dict[str, Any], section: Any) -> bool:
+    """CAT: VARC/DILR/QA; other exams: their own ids (checked against the exam config on import)."""
+    if (doc.get("examId") or "cat") == "cat":
+        return section in SECTION_IDS
+    return isinstance(section, str) and bool(section)
+
+
 def _paper_sections(paper: dict[str, Any]) -> list[tuple[str, list[str]]]:
     out = []
     for section in paper.get("sections") or []:
-        if isinstance(section, dict) and section.get("id") in SECTION_IDS:
+        if isinstance(section, dict) and _section_ok(paper, section.get("id")):
             out.append((section["id"], [qid for qid in section.get("questionIds") or [] if isinstance(qid, str)]))
     return out
 
@@ -104,6 +117,7 @@ def _paper_payload(paper_id: str, paper: dict[str, Any], questions: dict[str, di
         "id": paper_id,
         "title": _paper_label(paper),
         "status": _status(paper),
+        "examId": _str(paper.get("examId")) or "cat",
         "examVersionYear": _int(paper.get("examVersionYear")),
         "year": _int(paper.get("year")),
         "slot": _int(paper.get("slot")),
@@ -118,6 +132,11 @@ def _paper_payload(paper_id: str, paper: dict[str, Any], questions: dict[str, di
         "updatedAt": _str(paper.get("updatedAt")),
         "publishedAt": _str(paper.get("publishedAt")),
         "publishedBy": _str(paper.get("publishedBy")),
+        "version": _version(paper),
+        "history": _history(paper),
+        "availableFrom": _str(paper.get("availableFrom")),
+        "availableUntil": _str(paper.get("availableUntil")),
+        "schedule": schedule_state(paper, utcnow()),
     }
 
 
@@ -147,6 +166,9 @@ def _admin_set(set_id: str, raw: dict[str, Any] | None) -> dict[str, Any] | None
         "images": [img for img in images if isinstance(img, str)] if isinstance(images, list) else None,
         "version": _version(raw),
         "updatedAt": _str(raw.get("updatedAt")),
+        "key": _str(raw.get("key")),
+        "section": raw.get("section") if _section_ok(raw, raw.get("section")) else None,
+        "status": _status(raw),
     }
 
 
@@ -166,7 +188,7 @@ def _admin_question(question_id: str, raw: dict[str, Any], sets: dict[str, dict[
         "id": question_id,
         "key": _str(raw.get("key")),
         "paperId": _str(raw.get("paperId")),
-        "section": raw.get("section") if raw.get("section") in SECTION_IDS else "VARC",
+        "section": raw.get("section") if _section_ok(raw, raw.get("section")) else "VARC",
         "number": _int(raw.get("number")),
         "type": qtype,
         "stemHtml": raw.get("stemHtml") if isinstance(raw.get("stemHtml"), str) else "",
@@ -178,6 +200,8 @@ def _admin_question(question_id: str, raw: dict[str, Any], sets: dict[str, dict[
         "difficulty": raw.get("difficulty") if raw.get("difficulty") in DIFFICULTIES else None,
         "correctAnswer": str(raw.get("correctAnswer") or ""),
         "solutionHtml": raw.get("solutionHtml") if isinstance(raw.get("solutionHtml"), str) else None,
+        "alternativeApproaches": approaches(raw),
+        "videoUrl": _str(raw.get("videoUrl")),
         "source": public_source(raw.get("source")),
         "status": _status(raw),
         "flagged": _state(raw) == "flagged",
@@ -212,40 +236,70 @@ def _paper_questions(db: SafeFirestore, paper_id: str) -> dict[str, dict[str, An
     return dict(query_eq(db, QUESTIONS, "paperId", paper_id))
 
 
-# ---------------------------------------------------------------- validation (same rules as scripts/mba/paper_format.py)
-def _validate_question(q: dict[str, Any]) -> list[str]:
+# ---------------------------------------------------------------- validation (scripts/mba/paper_format.py, not duplicated)
+def _paper_context(paper_id: str | None, paper: dict[str, Any] | None) -> dict[str, Any]:
+    """The ``check_paper`` context ``check_question`` needs, from a stored paper."""
+    paper = paper or {}
+    exam_id = paper.get("examId") or "cat"
+    version_year = _int(paper.get("examVersionYear")) or _int(paper.get("year"))
+    return {
+        "id": paper_id or "", "examId": exam_id, "title": paper.get("title"),
+        "year": _int(paper.get("year")), "slot": _int(paper.get("slot")),
+        "examVersionYear": version_year,
+        "source": paper.get("source") if isinstance(paper.get("source"), dict) else {},
+        # The pattern version, so check_question also checks the marking rules (e.g. no TITA in XAT).
+        "version": (exam_versions(exam_id) or {}).get(version_year) if version_year is not None else None,
+    }
+
+
+def _validate_question(db: SafeFirestore, q: dict[str, Any]) -> list[str]:
+    """Problems with a stored (or about-to-be-stored) question, using the importer's own rules."""
     errors: list[str] = []
-    if not _str(q.get("stemHtml")):
-        errors.append("stemHtml is required")
-    answer = q.get("correctAnswer")
-    if q.get("type") == "TITA":
-        if q.get("options"):
-            errors.append("TITA questions must not have options")
-        if not _str(answer):
-            errors.append("TITA answer is required")
-        elif len(answer.strip()) > 50:
-            errors.append("TITA answer is too long (max 50 characters)")
-    else:
-        options = q.get("options")
-        if not isinstance(options, list) or len(options) < 2:
-            errors.append("MCQ needs at least 2 options")
-            options = []
-        ids = []
-        for j, opt in enumerate(options):
-            opt_id = opt.get("id") if isinstance(opt, dict) else None
-            if not isinstance(opt_id, str) or not OPTION_ID_RE.match(opt_id):
-                errors.append(f"options[{j}].id must be a short alphanumeric id like 'A'")
-                continue
-            if not _str(opt.get("textHtml")):
-                errors.append(f"options[{j}].textHtml is required")
-            ids.append(opt_id)
-        if len(ids) != len(set(ids)):
-            errors.append("option ids must be unique")
-        if not isinstance(answer, str) or answer.strip() not in ids:
-            errors.append(f"answer must be one of the option ids {ids}")
-    if q.get("difficulty") is not None and q.get("difficulty") not in DIFFICULTIES:
-        errors.append(f"difficulty must be one of {sorted(DIFFICULTIES)}")
+    set_docs: dict[str, dict[str, Any]] = {}
+    set_keys: dict[str, str] = {}
+    set_id = _str(q.get("setId"))
+    if set_id:
+        set_doc = get_doc(db, SETS, set_id)
+        if set_doc is None or _status(set_doc) == "archived":
+            errors.append(f"set {set_id} does not exist (or was deleted)")
+        elif set_doc.get("paperId") != q.get("paperId"):
+            errors.append("the set belongs to another paper")
+        else:
+            key = _str(set_doc.get("key")) or set_id
+            set_keys[set_id] = key
+            set_docs[key] = {"id": set_id, "section": set_doc.get("section")}
+    paper_id = _str(q.get("paperId"))
+    paper = get_doc(db, PAPERS, paper_id) if paper_id else None
+    check_question(question_input(q, set_keys), "question", errors, [], _paper_context(paper_id, paper), set_docs)
     return errors
+
+
+def _validate_set(s: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+    check_set(set_input(s), "set", errors, _str(s.get("paperId")) or "", _str(s.get("examId")) or "cat")
+    return errors
+
+
+def paper_content(db: SafeFirestore, paper_id: str, paper: dict[str, Any]) -> dict[str, Any]:
+    """The paper as importable content JSON (scripts/mba/paper_format.py): its sections' questions in order."""
+    questions = _paper_questions(db, paper_id)
+    ordered = [questions[qid] for _, ids in _paper_sections(paper) for qid in ids if qid in questions]
+    used = {q.get("setId") for q in ordered}
+    sets = [
+        {**doc, "id": sid}
+        for sid, doc in query_eq(db, SETS, "paperId", paper_id)
+        if _status(doc) != "archived" or sid in used
+    ]
+    return content_from_docs({**paper, "id": paper_id}, sets, ordered)
+
+
+def validate_paper(db: SafeFirestore, paper_id: str, paper: dict[str, Any]) -> tuple[list[str], list[str]]:
+    """(errors, warnings) of the whole paper, exactly as the importer would report them."""
+    try:
+        _, _, _, warnings = build_paper_docs(paper_content(db, paper_id, paper))
+    except PaperFormatError as error:
+        return error.errors, []
+    return [], warnings
 
 
 def _describe(field: str, old: Any, new: Any) -> str:
@@ -258,8 +312,12 @@ def _describe(field: str, old: Any, new: Any) -> str:
     return f"{field} edited"
 
 
-def _edit(current: dict[str, Any], changes: dict[str, Any], admin: CurrentAdmin, expected: int | None) -> dict[str, Any] | None:
-    """Fields to write for an edit (version + history), or None when nothing changed."""
+def _edit(
+    current: dict[str, Any], changes: dict[str, Any], admin: CurrentAdmin, expected: int | None, summary: str | None = None
+) -> dict[str, Any] | None:
+    """Fields to write for an edit (version + history), or None when nothing changed.
+
+    ``summary`` replaces the generated per-field summary (e.g. "added VARC-05")."""
     version = _version(current)
     if expected is not None and expected != version:
         raise HTTPException(409, f"This item was changed by someone else (now version {version}). Reload and try again.")
@@ -272,7 +330,7 @@ def _edit(current: dict[str, Any], changes: dict[str, Any], admin: CurrentAdmin,
         "editedBy": admin.admin_id,
         "editedAt": now,
         "changes": changed,
-        "summary": "; ".join(_describe(field, current.get(field), changes[field]) for field in changed),
+        "summary": summary or "; ".join(_describe(field, current.get(field), changes[field]) for field in changed),
     }
     history = [h for h in current.get("history") or [] if isinstance(h, dict)]
     return {
@@ -290,15 +348,19 @@ def _clean_text(value: Any) -> str | None:
 
 # ---------------------------------------------------------------- endpoints
 @router.get("/papers", response_model=AdminPapersResponse)
-def admin_list_papers(_admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+def admin_list_papers(
+    examId: str | None = Query(default=None, max_length=50),  # noqa: N803 - None = every exam
+    _admin: CurrentAdmin = Depends(content_reader),
+    db: SafeFirestore = Depends(get_db),
+) -> dict[str, Any]:
     questions = dict(stream_all(db, QUESTIONS))
-    papers = dict(stream_all(db, PAPERS))
+    papers = {pid: doc for pid, doc in stream_all(db, PAPERS) if examId is None or (doc.get("examId") or "cat") == examId}
     ordered = sorted(papers, key=lambda pid: _paper_sort({**papers[pid], "id": pid}))
     return {"papers": [_paper_payload(pid, papers[pid], questions) for pid in ordered]}
 
 
 @router.get("/papers/{paper_id}/questions", response_model=AdminPaperQuestionsResponse)
-def admin_paper_questions(paper_id: str, _admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+def admin_paper_questions(paper_id: str, _admin: CurrentAdmin = Depends(content_reader), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
     paper = _paper_or_404(db, paper_id)
     questions = _paper_questions(db, paper_id)
     sets = dict(query_eq(db, SETS, "paperId", paper_id))
@@ -306,12 +368,13 @@ def admin_paper_questions(paper_id: str, _admin: CurrentAdmin = Depends(content_
     return {
         "paper": _paper_payload(paper_id, paper, questions),
         "questions": [_admin_question(qid, questions[qid], sets) for qid in ordered],
+        "sets": [_admin_set(sid, sets[sid]) for sid in sorted(sets) if _status(sets[sid]) != "archived"],
     }
 
 
 @router.patch("/questions/{question_id}", response_model=AdminQuestion)
 def admin_edit_question(
-    question_id: str, body: QuestionEdit, admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)
+    question_id: str, body: QuestionEdit, admin: CurrentAdmin = Depends(content_editor), db: SafeFirestore = Depends(get_db)
 ) -> dict[str, Any]:
     sent = body.model_fields_set - {"expectedVersion"}
     if not sent:
@@ -328,17 +391,33 @@ def admin_edit_question(
         changes["correctAnswer"] = str(answer).strip() if answer is not None else None
     if "solutionHtml" in sent:
         changes["solutionHtml"] = body.solutionHtml if _str(body.solutionHtml) else None
+    if "alternativeApproaches" in sent:
+        changes["alternativeApproaches"] = [a for a in body.alternativeApproaches or [] if _str(a)] or None
+    if "videoUrl" in sent:
+        changes["videoUrl"] = _clean_text(body.videoUrl)
     for field in ("topic", "subtopic"):
         if field in sent:
             changes[field] = _clean_text(getattr(body, field))
     if "difficulty" in sent:
         changes["difficulty"] = body.difficulty
+    if "type" in sent:
+        if body.type is None:
+            raise HTTPException(422, "type cannot be null")
+        changes["type"] = body.type
+    if "setId" in sent:
+        changes["setId"] = _clean_text(body.setId)
+    if "source" in sent:
+        if body.source is None:
+            raise HTTPException(422, "source cannot be null")
+        changes["source"] = body.source.model_dump(exclude_none=True)
 
     def mutate(current: dict[str, Any] | None) -> tuple[dict[str, Any] | None, dict[str, Any]]:
         if current is None:
             raise HTTPException(404, "Question not found.")
         merged = {**current, **changes}
-        errors = _validate_question(merged)
+        if merged.get("type") == "TITA" and "options" not in sent:
+            merged["options"] = changes["options"] = None  # switching to TITA drops the options
+        errors = _validate_question(db, merged)
         if errors:
             raise HTTPException(422, "; ".join(errors))
         fields = _edit(current, changes, admin, body.expectedVersion)
@@ -350,7 +429,7 @@ def admin_edit_question(
 
 
 @router.patch("/sets/{set_id}", response_model=AdminSet)
-def admin_edit_set(set_id: str, body: SetEdit, admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+def admin_edit_set(set_id: str, body: SetEdit, admin: CurrentAdmin = Depends(content_editor), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
     sent = body.model_fields_set - {"expectedVersion"}
     if not sent:
         raise HTTPException(422, "Nothing to change.")
@@ -361,10 +440,19 @@ def admin_edit_set(set_id: str, body: SetEdit, admin: CurrentAdmin = Depends(con
         changes["contentHtml"] = body.contentHtml
     if "title" in sent:
         changes["title"] = _clean_text(body.title)
+    if "kind" in sent:
+        if body.kind is None:
+            raise HTTPException(422, "kind cannot be null")
+        changes["kind"] = body.kind
+    if "images" in sent:
+        changes["images"] = [img.strip() for img in body.images or [] if img.strip()]
 
     def mutate(current: dict[str, Any] | None) -> tuple[dict[str, Any] | None, dict[str, Any]]:
         if current is None:
             raise HTTPException(404, "Question set not found.")
+        errors = _validate_set({**current, **changes})
+        if errors:
+            raise HTTPException(422, "; ".join(errors))
         fields = _edit(current, changes, admin, body.expectedVersion)
         return fields, {**current, **(fields or {})}
 
@@ -375,7 +463,7 @@ def admin_edit_set(set_id: str, body: SetEdit, admin: CurrentAdmin = Depends(con
 
 @router.post("/questions/{question_id}/review", response_model=AdminQuestion)
 def admin_review_question(
-    question_id: str, body: ReviewInput, admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)
+    question_id: str, body: ReviewInput, admin: CurrentAdmin = Depends(content_editor), db: SafeFirestore = Depends(get_db)
 ) -> dict[str, Any]:
     note = _clean_text(body.note)
     if body.action == "flag" and not note:
@@ -390,7 +478,7 @@ def admin_review_question(
         if current is None:
             raise HTTPException(404, "Question not found.")
         if body.action == "approve":
-            errors = _validate_question(current)
+            errors = _validate_question(db, current)
             if errors:
                 raise HTTPException(422, "Fix the question before approving: " + "; ".join(errors))
         now = iso(utcnow())
@@ -424,7 +512,7 @@ def _set_paper_status(db: SafeFirestore, paper_id: str, admin: CurrentAdmin, pub
 
 
 @router.post("/papers/{paper_id}/publish", response_model=AdminPaper)
-def admin_publish_paper(paper_id: str, admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+def admin_publish_paper(paper_id: str, admin: CurrentAdmin = Depends(test_manager), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
     paper = _paper_or_404(db, paper_id)
     questions = _paper_questions(db, paper_id)
     payload = _paper_payload(paper_id, paper, questions)
@@ -434,11 +522,14 @@ def admin_publish_paper(paper_id: str, admin: CurrentAdmin = Depends(content_adm
             f"{pending} of {payload['questionCount']} questions are not published yet."
         )
         raise HTTPException(409, detail)
+    errors, _warnings = validate_paper(db, paper_id, paper)
+    if errors:
+        raise HTTPException(422, "Fix the paper before publishing: " + "; ".join(errors[:20]))
     paper = _set_paper_status(db, paper_id, admin, publish=True)
     return _paper_payload(paper_id, paper, questions)
 
 
 @router.post("/papers/{paper_id}/unpublish", response_model=AdminPaper)
-def admin_unpublish_paper(paper_id: str, admin: CurrentAdmin = Depends(content_admin), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+def admin_unpublish_paper(paper_id: str, admin: CurrentAdmin = Depends(test_manager), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
     paper = _set_paper_status(db, paper_id, admin, publish=False)
     return _paper_payload(paper_id, paper, _paper_questions(db, paper_id))

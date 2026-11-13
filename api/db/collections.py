@@ -18,6 +18,18 @@ WRITABLE_COLLECTIONS: frozenset[str] = frozenset({
     "mbaProfiles", "mbaQuestionStats", "mbaStudyTasks", "mbaAiUsage",
     # MBA Phase D: programmes (cutoffs embedded) and student shortlists
     "mbaPrograms", "mbaShortlists",
+    "mbaCounsellorRequests",  # MBA "talk to my counsellor" requests
+    "mbaNotificationState",  # MBA in-app notification read state (userId -> lastSeenAt, dismissed)
+    "mbaGdpiItems", "mbaGdpiSessions",  # MBA GDPI (WAT/GD/PI) content + mock sessions
+    "mbaAttemptAnalyses", "mbaQuestionReports",  # MBA mock analyst cache + question issue reports
+    "mbaLeaderboardPrefs", "mbaDailyResults",  # MBA opt-in daily leaderboard
+    "mbaTestScoreStats",  # MBA per-test score histogram of first attempts (ProCounsel percentile)
+    "mbaApplicationDocs",  # MBA application document metadata (files in Storage under mba/applications/)
+    "mbaExamUpdates",  # MBA admin-posted exam updates (admit card, answer key, results...) with official source URL
+    "mbaDoubts", "mbaGroupMembers", "mbaCommunityUsage",  # MBA doubt threads (+ group posts), study-group membership, post limits
+    "mbaSupportTickets", "mbaEvents",  # MBA help-centre tickets + admin-managed doubt hours / webinars
+    "mbaCoachChats",  # MBA AI section coaches: last turns per student per coach (+ cached plan explanation)
+    "mbaSyllabusProgress",  # MBA syllabus: per student per subtopic completed mark, bookmark, private note
 })
 
 # Top-level collections used by the Java backend (snapshot taken 2026-11-11 from

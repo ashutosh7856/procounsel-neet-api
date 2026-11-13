@@ -1,0 +1,796 @@
+{
+ "sets": [
+  {
+   "key": "VARC-P1",
+   "kind": "passage",
+   "title": "Soft robots and Nano-Sentinels",
+   "contentHtml": "<p>Back in the early 2000s, an awesome thing happened in the New X-Men comics. Our mutant heroes had been battling giant robots called Sentinels for years, but suddenly these mechanical overlords spawned a new threat: Nano-Sentinels! Not content to rule Earth with their metal fists, these tiny robots invaded our bodies at the microscopic level. Infected humans were slowly converted into machines, cell by cell.</p><p>Now, a new wave of extremely odd robots is making at least part of the Nano-Sentinels story come true. Using exotic fabrication materials like squishy hydrogels and elastic polymers, researchers are making autonomous devices that are often tiny and that could turn out to be more powerful than an army of Terminators. Some are 1-centimetre blobs that can skate over water. Others are flat sheets that can roll themselves into tubes, or matchstick-sized plastic coils that act as powerful muscles. No, they won’t be invading our bodies and turning us into Sentinels – which I personally find a little disappointing – but some of them could one day swim through our bloodstream to heal us. They could also clean up pollutants in water or fold themselves into different kinds of vehicles for us to drive. . . .</p><p>Unlike a traditional robot, which is made of mechanical parts, these new kinds of robots are made from molecular parts. The principle is the same: both are devices that can move around and do things independently. But a robot made from smart materials might be nothing more than a pink drop of hydrogel. Instead of gears and wires, it’s assembled from two kinds of molecules – some that love water and some that avoid it – which interact to allow the bot to skate on top of a pond.</p><p>Sometimes these materials are used to enhance more conventional robots. One team of researchers, for example, has developed a different kind of hydrogel that becomes sticky when exposed to a low-voltage zap of electricity and then stops being sticky when the electricity is switched off. This putty-like gel can be pasted right onto the feet or wheels of a robot. When the robot wants to climb a sheer wall or scoot across the ceiling, it can activate its sticky feet with a few volts. Once it is back on a flat surface again, the robot turns off the adhesive like a light switch.</p><p>Robots that are wholly or partly made of gloop aren’t the future that I was promised in science fiction. But it’s definitely the future I want. I’m especially keen on the nanometer-scale “soft robots” that could one day swim through our bodies. Metin Sitti, a director at the Max Planck Institute for Intelligent Systems in Germany, worked with colleagues to prototype these tiny, synthetic beasts using various stretchy materials, such as simple rubber, and seeding them with magnetic microparticles. They are assembled into a finished shape by applying magnetic fields. The results look like flowers or geometric shapes made from Tinkertoy ball and stick modelling kits. They’re guided through tubes of fluid using magnets, and can even stop and cling to the sides of a tube.</p>"
+  },
+  {
+   "key": "VARC-P2",
+   "kind": "passage",
+   "title": "The price of accurate timekeeping",
+   "contentHtml": "<p>Keeping time accurately comes with a price. The maximum accuracy of a clock is directly related to how much disorder, or entropy, it creates every time it ticks. Natalia Ares at the University of Oxford and her colleagues made this discovery using a tiny clock with an accuracy that can be controlled. The clock consists of a 50-nanometre-thick membrane of silicon nitride, vibrated by an electric current. Each time the membrane moved up and down once and then returned to its original position, the researchers counted a tick, and the regularity of the spacing between the ticks represented the accuracy of the clock. The researchers found that as they increased the clock’s accuracy, the heat produced in the system grew, increasing the entropy of its surroundings by jostling nearby particles . . . “If a clock is more accurate, you are paying for it somehow,” says Ares. In this case, you pay for it by pouring more ordered energy into the clock, which is then converted into entropy. “By measuring time, we are increasing the entropy of the universe,” says Ares. The more entropy there is in the universe, the closer it may be to its eventual demise. “Maybe we should stop measuring time,” says Ares. The scale of the additional entropy is so small, though, that there is no need to worry about its effects, she says.</p><p>The increase in entropy in timekeeping may be related to the “arrow of time”, says Marcus Huber at the Austrian Academy of Sciences in Vienna, who was part of the research team. It has been suggested that the reason that time only flows forward, not in reverse, is that the total amount of entropy in the universe is constantly increasing, creating disorder that cannot be put in order again.</p><p>The relationship that the researchers found is a limit on the accuracy of a clock, so it doesn’t mean that a clock that creates the most possible entropy would be maximally accurate – hence a large, inefficient grandfather clock isn’t more precise than an atomic clock. “It’s a bit like fuel use in a car. Just because I’m using more fuel doesn’t mean that I’m going faster or further,” says Huber.</p><p>When the researchers compared their results with theoretical models developed for clocks that rely on quantum effects, they were surprised to find that the relationship between accuracy and entropy seemed to be the same for both. . . . We can’t be sure yet that these results are actually universal, though, because there are many types of clocks for which the relationship between accuracy and entropy haven’t been tested. “It’s still unclear how this principle plays out in real devices such as atomic clocks, which push the ultimate quantum limits of accuracy,” says Mark Mitchison at Trinity College Dublin in Ireland. Understanding this relationship could be helpful for designing clocks in the future, particularly those used in quantum computers and other devices where both accuracy and temperature are crucial, says Ares. This finding could also help us understand more generally how the quantum world and the classical world are similar and different in terms of thermodynamics and the passage of time.</p>"
+  },
+  {
+   "key": "VARC-P3",
+   "kind": "passage",
+   "title": "The idea of the unconscious",
+   "contentHtml": "<p>Today we can hardly conceive of ourselves without an unconscious. Yet between 1700 and 1900, this notion developed as a genuinely original thought. The “unconscious” burst the shell of conventional language, coined as it had been to embody the fleeting ideas and the shifting conceptions of several generations until, finally, it became fixed and defined in specialized terms within the realm of medical psychology and Freudian psychoanalysis.</p><p>The vocabulary concerning the soul and the mind increased enormously in the course of the nineteenth century. The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords. At the same time, once coined, powerful new ideas attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences, creating a peculiar network of preoccupations that as a group had not existed before. The drawn-out attempt to approach and define the unconscious brought together the spiritualist and the psychical researcher of borderline phenomena (such as apparitions, spectral illusions, haunted houses, mediums, trance, automatic writing); the psychiatrist or alienist probing the nature of mental disease, of abnormal ideation, hallucination, delirium, melancholia, mania; the surgeon performing operations with the aid of hypnotism; the magnetizer claiming to correct the disequilibrium in the universal flow of magnetic fluids but who soon came to be regarded as a clever manipulator of the imagination; the physiologist and the physician who puzzled over sleep, dreams, sleepwalking, anesthesia, the influence of the mind on the body in health and disease; the neurologist concerned with the functions of the brain and the physiological basis of mental life; the philosopher interested in the will, the emotions, consciousness, knowledge, imagination and the creative genius; and, last but not least, the psychologist.</p><p>Significantly, most if not all of these practices (for example, hypnotism in surgery or psychological magnetism) originated in the waning years of the eighteenth century and during the early decades of the nineteenth century, as did some of the disciplines (such as psychology and psychical research). The majority of topics too were either new or assumed hitherto unknown colors. Thus, before 1790, few if any spoke, in medical terms, of the affinity between creative genius and the hallucinations of the insane . . .</p><p>Striving vaguely and independently to give expression to a latent conception, various lines of thought can be brought together by some novel term. The new concept then serves as a kind of resting place or stocktaking in the development of ideas, giving satisfaction and a stimulus for further discussion or speculation. Thus, the massive introduction of the term unconscious by Hartmann in 1869 appeared to focalize many stray thoughts, affording a temporary feeling that a crucial step had been taken forward, a comprehensive knowledge gained, a knowledge that required only further elaboration, explication, and unfolding in order to bring in a bounty of higher understanding. Ultimately, Hartmann’s attempt at defining the unconscious proved fruitless because he extended its reach into every realm of organic and inorganic, spiritual, intellectual, and instinctive existence, severely diluting the precision and compromising the impact of the concept.</p>"
+  },
+  {
+   "key": "VARC-P4",
+   "kind": "passage",
+   "title": "The Language Instinct",
+   "contentHtml": "<p>Starting in 1957, [Noam Chomsky] proclaimed a new doctrine: Language, that most human of all attributes, was innate. The grammatical faculty was built into the infant brain, and your average 3-year-old was not a mere apprentice in the great enterprise of absorbing English from his or her parents, but a “linguistic genius.” Since this message was couched in terms of Chomskyan theoretical linguistics, in discourse so opaque that it was nearly incomprehensible even to some scholars, many people did not hear it. Now, in a brilliant, witty and altogether satisfying book, Mr. Chomsky's colleague Steven Pinker . . . has brought Mr. Chomsky’s findings to everyman. In “The Language Instinct” he has gathered persuasive data from such diverse fields as cognitive neuroscience, developmental psychology and speech therapy to make his points, and when he disagrees with Mr. Chomsky he tells you so. . . .</p><p>For Mr. Chomsky and Mr. Pinker, somewhere in the human brain there is a complex set of neural circuits that have been programmed with “super-rules” (making up what Mr. Chomsky calls “universal grammar”), and that these rules are unconscious and instinctive. A half-century ago, this would have been pooh-poohed as a “black box” theory, since one could not actually pinpoint this grammatical faculty in a specific part of the brain, or describe its functioning. But now things are different. Neurosurgeons [have now found that this] “black box” is situated in and around Broca’s area, on the left side of the forebrain. . . .</p><p>Unlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution. He effectively disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language. It is not that chimps lack the vocal apparatus to speak; it is just that their brains are unable to produce or use grammar. On the other hand, the “language instinct,” when it first appeared among our most distant hominid ancestors, must have given them a selective reproductive advantage over their competitors (including the ancestral chimps). . . .</p><p>So according to Mr. Pinker, the roots of language must be in the genes, but there cannot be a “grammar gene” any more than there can be a gene for the heart or any other complex body structure. This proposition will undoubtedly raise the hackles of some behavioral psychologists and anthropologists, for it apparently contradicts the liberal idea that human behavior may be changed for the better by improvements in culture and environment, and it might seem to invite the twin bugaboos of biological determinism and racism. Yet Mr. Pinker stresses one point that should allay such fears. Even though there are 4,000 to 6,000 languages today, they are all sufficiently alike to be considered one language by an extraterrestrial observer. In other words, most of the diversity of the world’s cultures, so beloved to anthropologists, is superficial and minor compared to the similarities. Racial differences are literally only “skin deep.” The fundamental unity of humanity is the theme of Mr. Chomsky's universal grammar, and of this exciting book.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "VARC-01",
+   "section": "VARC",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference (negation)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which one of the following scenarios, if false, could be seen as supporting the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "There are two kinds of molecules used to make some nano-robots: one that reacts positively to water and the other negatively."
+    },
+    {
+     "id": "B",
+     "textHtml": "Nano-Sentinel-like robots are likely to be used to inject people to convert them into robots, cell by cell."
+    },
+    {
+     "id": "C",
+     "textHtml": "Some hydrogels turn sticky when an electric current is passed through them; this potentially has very useful applications."
+    },
+    {
+     "id": "D",
+     "textHtml": "Robots made from smart materials are likely to become part of our everyday lives in the future"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. We need a statement that the passage contradicts, so that its being false agrees with the passage. The author says plainly that the new robots “won’t be invading our bodies and turning us into Sentinels”. So the claim that Nano-Sentinel-like robots will convert people into robots cell by cell is something the passage rejects; if it is false, the passage is supported.</p><p><strong>A</strong> fails: the passage says a hydrogel bot is built from two kinds of molecules, some that love water and some that avoid it. A is something the passage asserts, so its being false would undercut the passage.</p><p><strong>C</strong> fails: the electrically switchable sticky hydrogel is described approvingly in paragraph 4; denying it contradicts the passage.</p><p><strong>D</strong> fails: the author expects smart-material robots to heal us, clean water and become vehicles. Denying that they will be part of everyday life goes against the passage.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-02",
+   "section": "VARC",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Main idea",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which one of the following statements best summarises the central point of the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "There are two kinds of molecules used to make some nano-robots: one that reacts positively to water and the other negatively."
+    },
+    {
+     "id": "B",
+     "textHtml": "Nano-robots made from molecules that react to water have become increasingly useful"
+    },
+    {
+     "id": "C",
+     "textHtml": "The field of robotics is likely to be feature more and more in comics like the New X-Men."
+    },
+    {
+     "id": "D",
+     "textHtml": "Once the stuff of science fiction, nano-robots now feature in cutting-edge scientific research"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. The passage opens with a comic-book fantasy (Nano-Sentinels) and then shows that real researchers are now building tiny robots from hydrogels, polymers and magnetic particles. “Once science fiction, now cutting-edge research” captures that arc.</p><p><strong>A</strong> fails: the two kinds of molecules are one example of how one bot works, not the central point.</p><p><strong>B</strong> fails: water-reactive molecules describe only one of several robots, and the passage does not claim such robots “have become increasingly useful”; most uses are in the future (“could one day”).</p><p><strong>C</strong> fails: the comics are only the hook; the passage is not about robotics appearing in comics.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-03",
+   "section": "VARC",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Extension of argument",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which one of the following statements, if true, would be the most direct extension of the arguments in the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "X-Men may be created by injecting people with mutant nano-gels that will respond to the brain’s magnetic field."
+    },
+    {
+     "id": "B",
+     "textHtml": "In the future, robots will be used to search and destroy diseases even in the deepest recesses of the human body."
+    },
+    {
+     "id": "C",
+     "textHtml": "Sentinel robots will be used in warfare to cause large-scale destructive mutations amongst civilians"
+    },
+    {
+     "id": "D",
+     "textHtml": "1-centimetre blobs of gel that have nano-robots in them will be used to send messages."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. The author says some soft robots “could one day swim through our bloodstream to heal us” and describes magnetically guided micro-robots travelling through fluid-filled tubes. Robots that seek out disease deep inside the body is the natural next step of that argument.</p><p><strong>A</strong> fails: X-Men are fictional mutants; nothing in the passage links nano-gels to creating mutants or to the brain’s magnetic field.</p><p><strong>C</strong> fails: Sentinels belong to the comic, and the author explicitly says the real robots will not turn us into anything; warfare and mutations are not discussed.</p><p><strong>D</strong> fails: the 1-centimetre blobs skate on water; using them to send messages has no basis in the passage.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-04",
+   "section": "VARC",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "VARC-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Paragraph meaning",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which one of the following statements best captures the sense of the first paragraph?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "People who were infected by Nano-Sentinel robots became mutants who were called X-Men."
+    },
+    {
+     "id": "B",
+     "textHtml": "Tiny sentinels called X-Men infected people, turning them into mutant robot overlords."
+    },
+    {
+     "id": "C",
+     "textHtml": "None of the options listed here"
+    },
+    {
+     "id": "D",
+     "textHtml": "The X-Men were mutant heroes who now had to battle tiny robots called Nano-Sentinels."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 1: the mutant heroes (the X-Men) had long fought giant Sentinels, and the Sentinels then produced a new, tiny threat, the Nano-Sentinels, which the heroes now had to face.</p><p><strong>A</strong> fails: humans infected by Nano-Sentinels became machines, not X-Men.</p><p><strong>B</strong> fails: the X-Men are the heroes, not the tiny sentinels; it reverses the roles.</p><p><strong>C</strong> fails: since D captures the paragraph, “none of the options” is wrong.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-05",
+   "section": "VARC",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Purpose of example",
+   "difficulty": "easy",
+   "stemHtml": "<p>“It’s a bit like fuel use in a car. Just because I’m using more fuel doesn’t mean that I’m going faster or further . . .” What is the purpose of this example?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "If you go faster in a car, you will tend to consume more fuel, but the converse is not necessarily true. In the same way, increased entropy does not necessarily mean greater accuracy of a clock."
+    },
+    {
+     "id": "B",
+     "textHtml": "The further you go in a car, the more fuel you use. In the same way, the faster you go in a car, the less time you use."
+    },
+    {
+     "id": "C",
+     "textHtml": "If you measure the speed of a car with a grandfather clock, the result will be different than if you measured it with an atomic clock."
+    },
+    {
+     "id": "D",
+     "textHtml": "The further and faster you go in a car, the greater the amount of fuel you will use, the greater the amount of heat produced and, hence, the greater the entropy."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct. The analogy follows the point that the accuracy–entropy relation is only a <em>limit</em>: more accuracy costs more entropy, but more entropy does not guarantee more accuracy (a grandfather clock is not more precise than an atomic clock). Likewise, going faster costs more fuel, but burning more fuel does not mean you go faster. A states exactly this one-way relationship.</p><p><strong>B</strong> fails: it talks about saving time by speed, which has nothing to do with the entropy point.</p><p><strong>C</strong> fails: no one measures a car’s speed with clocks in the passage.</p><p><strong>D</strong> fails: it turns the example into a direct ‘more fuel → more entropy’ chain and misses the key idea that the converse does not hold.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-06",
+   "section": "VARC",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Except question",
+   "difficulty": "medium",
+   "stemHtml": "<p>The author makes all of the following arguments in the passage, EXCEPT that:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The relationship between accuracy and entropy may not apply to all clocks."
+    },
+    {
+     "id": "B",
+     "textHtml": "Researchers found that the heat produced in a system is the price paid for increased accuracy of measurement."
+    },
+    {
+     "id": "C",
+     "textHtml": "There is no difference in accuracy between an inefficient grandfather clock and an atomic clock."
+    },
+    {
+     "id": "D",
+     "textHtml": "In designing clocks for quantum computers, both precision and heat have to be taken into account."
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>C</strong> is correct (it is NOT argued). The passage only says a large, inefficient grandfather clock “isn’t more precise than” an atomic clock, i.e., extra entropy does not buy extra accuracy. It never says the two clocks are equally accurate.</p><p><strong>A</strong> is argued: “We can’t be sure yet that these results are actually universal”.</p><p><strong>B</strong> is argued: as accuracy rose, heat grew; “If a clock is more accurate, you are paying for it somehow”.</p><p><strong>D</strong> is argued: Ares says the finding helps design clocks for quantum computers “where both accuracy and temperature are crucial”.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-07",
+   "section": "VARC",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Keywords",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which one of the following sets of words and phrases serves best as keywords of the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Electric current; Heat; Quantum effects"
+    },
+    {
+     "id": "B",
+     "textHtml": "Silicon Nitride; Energy; Grandfather Clocks"
+    },
+    {
+     "id": "C",
+     "textHtml": "Measuring Time; Accuracy; Entropy"
+    },
+    {
+     "id": "D",
+     "textHtml": "Membrane; Arrow of time; Entropy"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>C</strong> is correct. The whole passage is about the cost of keeping time: measuring time more accurately produces more entropy. Measuring time, accuracy and entropy are the three ideas every paragraph returns to.</p><p><strong>A</strong> fails: electric current is a detail of the experimental set-up, and quantum effects come up only in the last paragraph; accuracy, the core idea, is missing.</p><p><strong>B</strong> fails: silicon nitride and grandfather clocks are passing details.</p><p><strong>D</strong> fails: the membrane is an experimental detail and the arrow of time is a side remark; accuracy is missing.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-08",
+   "section": "VARC",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "VARC-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference",
+   "difficulty": "hard",
+   "stemHtml": "<p>None of the following statements can be inferred from the passage EXCEPT that:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "the arrow of time has not yet been tested for atomic clocks."
+    },
+    {
+     "id": "B",
+     "textHtml": "quantum computers are likely to produce more heat and, hence, more entropy, because of the emphasis on their clocks' accuracy"
+    },
+    {
+     "id": "C",
+     "textHtml": "grandfather clocks are likely to produce less heat and, hence, less entropy, because they are not as accurate."
+    },
+    {
+     "id": "D",
+     "textHtml": "a clock with a 50-nanometre-thick membrane of silicon nitride has been made to vibrate, producing electric currents."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct (it can be inferred). The passage says a more accurate clock produces more heat and hence more entropy, and that quantum computers are devices “where both accuracy and temperature are crucial”. So devices that demand highly accurate clocks, such as quantum computers, are likely to generate more heat and entropy on that account.</p><p><strong>A</strong> fails: what has not been tested in atomic clocks is the accuracy–entropy relationship, not the “arrow of time”.</p><p><strong>C</strong> fails: the passage calls the grandfather clock “large, inefficient”, which suggests it creates a lot of entropy, not less; the point is that its entropy does not translate into accuracy.</p><p><strong>D</strong> fails: the membrane is vibrated <em>by</em> an electric current; it does not produce currents.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-09",
+   "section": "VARC",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Except question (inference)",
+   "difficulty": "hard",
+   "stemHtml": "<p>All of the following statements may be considered valid inferences from the passage, EXCEPT:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Unrelated practices began to be treated as related to each other, as knowledge of the mind grew in the nineteenth century."
+    },
+    {
+     "id": "B",
+     "textHtml": "Without the linguistic developments of the nineteenth century, the growth of understanding of the soul and the mind may not have happened."
+    },
+    {
+     "id": "C",
+     "textHtml": "Eighteenth century thinkers were the first to perceive a connection between creative genius and insanity."
+    },
+    {
+     "id": "D",
+     "textHtml": "New conceptions in the nineteenth century could provide new knowledge because of the establishment of fields such as anesthesiology"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct (it is NOT a valid inference). The passage never mentions a field called anesthesiology; anesthesia appears only as one of the topics physiologists and physicians puzzled over. Nor does it say new conceptions produced new knowledge because new fields were established; in fact Hartmann’s concept gave only a “temporary feeling” of knowledge and ultimately “proved fruitless”.</p><p><strong>A</strong> is valid: powerful new ideas “attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences”.</p><p><strong>B</strong> is valid: the passage ties the growth of the vocabulary of the soul and mind, and the enrichment of literary and intellectual language, to a changed understanding; the unconscious ‘burst the shell of conventional language’.</p><p><strong>C</strong> is supportable: before 1790 “few if any” spoke medically of the affinity between creative genius and the hallucinations of the insane, and these topics originated in the waning years of the eighteenth century, so the link first appears around the close of that century.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-10",
+   "section": "VARC",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Main idea",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which one of the following statements best describes what the passage is about?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The discovery of the unconscious as a part of the human mind"
+    },
+    {
+     "id": "B",
+     "textHtml": "The collating of diverse ideas under the single term: unconscious"
+    },
+    {
+     "id": "C",
+     "textHtml": "The growing vocabulary of the soul and the mind, as diverse processes"
+    },
+    {
+     "id": "D",
+     "textHtml": "The identification of the unconscious as an object of psychical research"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. The passage traces how many scattered lines of thought (spiritualism, psychiatry, hypnotism, magnetism, physiology, philosophy, psychology) were drawn together under one new term, “the unconscious”, culminating in Hartmann’s 1869 attempt to focalize them.</p><p><strong>A</strong> fails: the passage is about the development of a notion and a term, not the discovery of a part of the mind.</p><p><strong>C</strong> fails: the growing vocabulary is the backdrop, not the subject; and it is not described as “diverse processes”.</p><p><strong>D</strong> fails: psychical research is only one of the many fields that converged on the idea.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-11",
+   "section": "VARC",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Paraphrase",
+   "difficulty": "easy",
+   "stemHtml": "<p>“The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords.” Which one of the following interpretations of this sentence would be closest in meaning to the original?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The meanings of time-honored expressions were changed by innovations in literary and intellectual language."
+    },
+    {
+     "id": "B",
+     "textHtml": "Literary and intellectual language was altered by time-honored expressions and traditional catchwords."
+    },
+    {
+     "id": "C",
+     "textHtml": "All of the options listed here."
+    },
+    {
+     "id": "D",
+     "textHtml": "Time-honored expressions and traditional catchwords were enriched by literary and intellectual language."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct. Cause: richer literary and intellectual language. Effect: the meanings behind old expressions and catchwords came to be understood differently. A keeps that direction of cause and effect.</p><p><strong>B</strong> fails: it reverses the cause and effect (old expressions altering the language).</p><p><strong>D</strong> fails: the sentence says the <em>understanding of the meanings</em> changed, not that the old expressions themselves were enriched.</p><p><strong>C</strong> fails because B and D are wrong.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-12",
+   "section": "VARC",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "VARC-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Keywords",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which one of the following sets of words is closest to mapping the main arguments of the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Language; Unconscious; Psychoanalysis"
+    },
+    {
+     "id": "B",
+     "textHtml": "Literary language; Unconscious; Insanity"
+    },
+    {
+     "id": "C",
+     "textHtml": "Unconscious; Latent conception; Dreams"
+    },
+    {
+     "id": "D",
+     "textHtml": "Imagination; Magnetism; Psychiatry"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct. The passage argues that the idea of the unconscious grew out of new <em>language</em> (it “burst the shell of conventional language”, and the vocabulary of the mind expanded), that many strands converged on the term <em>unconscious</em>, and that the term finally became fixed within medical psychology and Freudian <em>psychoanalysis</em>. These three words map the arc from start to end.</p><p><strong>B</strong> fails: insanity is just one example among many topics.</p><p><strong>C</strong> fails: “latent conception” and dreams are passing details.</p><p><strong>D</strong> fails: imagination, magnetism and psychiatry are individual items from the long list of converging fields; the central term, unconscious, is missing.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-13",
+   "section": "VARC",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Detail",
+   "difficulty": "easy",
+   "stemHtml": "<p>On the basis of the information in the passage, Pinker and Chomsky may disagree with each other on which one of the following points?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The possibility of a universal grammar."
+    },
+    {
+     "id": "B",
+     "textHtml": "The language instinct"
+    },
+    {
+     "id": "C",
+     "textHtml": "The inborn language acquisition skills of humans"
+    },
+    {
+     "id": "D",
+     "textHtml": "The Darwinian explanatory paradigm for language"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. “Unlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution.” That is the one stated point of difference.</p><p><strong>A</strong>, <strong>B</strong> and <strong>C</strong> fail: both men hold that there is a universal grammar, that language is an instinct, and that humans are born with the capacity for it (“For Mr. Chomsky and Mr. Pinker…”).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-14",
+   "section": "VARC",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Except question",
+   "difficulty": "easy",
+   "stemHtml": "<p>According to the passage, all of the following are true about the language instinct EXCEPT that:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "all intelligent primates are gifted with it."
+    },
+    {
+     "id": "B",
+     "textHtml": "not all intelligent primates are gifted with it"
+    },
+    {
+     "id": "C",
+     "textHtml": "developments in neuroscience have increased its acceptance"
+    },
+    {
+     "id": "D",
+     "textHtml": "it confers an evolutionary reproductive advantage"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct (it is NOT true). Pinker “disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language”, so not all intelligent primates have it.</p><p><strong>B</strong> is true for the same reason: chimps lack it.</p><p><strong>C</strong> is true: the once-dismissed “black box” has now been located around Broca’s area, so things are “different” now.</p><p><strong>D</strong> is true: the instinct “must have given them a selective reproductive advantage”.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-15",
+   "section": "VARC",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Except question",
+   "difficulty": "medium",
+   "stemHtml": "<p>From the passage, it can be inferred that all of the following are true about Pinker’s book, “The Language Instinct”, EXCEPT that Pinker:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "writes in a different style from Chomsky"
+    },
+    {
+     "id": "B",
+     "textHtml": "draws from behavioural psychology theories"
+    },
+    {
+     "id": "C",
+     "textHtml": "disagrees with Chomsky on certain grounds"
+    },
+    {
+     "id": "D",
+     "textHtml": "draws extensively from Chomsky’s propositions"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct (it cannot be inferred). Pinker draws on cognitive neuroscience, developmental psychology and speech therapy. Behavioural psychologists appear only as people whose hackles his proposition will raise, not as a source he draws from.</p><p><strong>A</strong> can be inferred: Chomsky wrote in discourse “so opaque” it was nearly incomprehensible, while Pinker’s book is “brilliant, witty” and brings the ideas to everyman.</p><p><strong>C</strong> can be inferred: “when he disagrees with Mr. Chomsky he tells you so”, and he differs on Darwinian evolution.</p><p><strong>D</strong> can be inferred: the book brings “Mr. Chomsky’s findings to everyman” and builds on universal grammar.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-16",
+   "section": "VARC",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "VARC-P4",
+   "topic": "Reading Comprehension",
+   "subtopic": "Author's position",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which one of the following statements best summarises the author’s position about Pinker’s book?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The evolutionary and deterministic framework of Pinker’s book makes it racist."
+    },
+    {
+     "id": "B",
+     "textHtml": "The universality of the “language instinct” counters claims that Pinker’s book is racist."
+    },
+    {
+     "id": "C",
+     "textHtml": "Culture and environment play a key role in shaping our acquisition of language"
+    },
+    {
+     "id": "D",
+     "textHtml": "Anatomical developments like the voice box play a key role in determining language acquisition skills."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. The author grants that the genetic view might seem to invite “biological determinism and racism”, but says Pinker’s point that all languages are fundamentally alike “should allay such fears”: human differences are “only skin deep”. The universality of the instinct is what answers the racism charge.</p><p><strong>A</strong> fails: it is the opposite of the author’s view; the author defends the book.</p><p><strong>C</strong> fails: this is the liberal view that Pinker’s thesis appears to contradict, not the author’s position on the book.</p><p><strong>D</strong> fails: the passage says chimps’ problem is not the vocal apparatus but the brain’s inability to use grammar.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-17",
+   "section": "VARC",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Summary",
+   "difficulty": "medium",
+   "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>Brazil’s growth rate has been low, yet most Brazilians say their financial situation has improved, and they expect it to get even better. This is because most incomes are rising fast, with higher minimum wages and very low unemployment. The result is falling inequality and a growing middle class — the result of economic stabilization, improved social security and universal primary education. But despite recent improvements the Brazilian economy is still painfully unequal, with poor Brazilians paying the biggest share of their income in taxes and getting the least back in government services.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Economic reforms have benefitted many Brazilians, but they are unaware of the impending problems from rising inequalities in their society."
+    },
+    {
+     "id": "B",
+     "textHtml": "With rising incomes and falling unemployment, most Brazilians are being misled into thinking that their economy is doing well."
+    },
+    {
+     "id": "C",
+     "textHtml": "Good economic indicators have masked the unfair taxation of the poor that is likely to destabilise the Brazilian economy in the next few years."
+    },
+    {
+     "id": "D",
+     "textHtml": "Most Brazilians feel they have benefitted from recent economic events, but the poor continue to be dealt unfairly by the state."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. It keeps both halves: most Brazilians feel better off (rising incomes, low unemployment), yet the poor still pay the most tax and get the least back from the state.</p><p><strong>A</strong> fails: the passage says inequality is falling, not rising, and does not say Brazilians are unaware of problems.</p><p><strong>B</strong> fails: Brazilians are not “misled”; their incomes really are rising.</p><p><strong>C</strong> fails: the passage predicts no destabilisation “in the next few years”, and good indicators do not “mask” anything.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-18",
+   "section": "VARC",
+   "number": 18,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Para jumbles",
+   "difficulty": "easy",
+   "stemHtml": "<p>The four sentences (labelled 1, 2, 3 and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.</p><ol><li>Businesses find automation, such as robotic employees, a big asset in terms of productivity and efficiency.</li><li>But in recent years, robotics has had increasing impacts on unemployment, not just of manual labour, as computers are rapidly handling some white-collar and service-sector work.</li><li>For years politicians have promised workers that they would bring back their jobs by clamping down on trade, offshoring and immigration.</li><li>Economists, based on their research, say that the bigger threat to jobs now is not globalisation but automation.</li></ol>",
+   "answer": "3412",
+   "solutionHtml": "<p><strong>Answer: 3412.</strong></p><p><strong>3</strong> opens: politicians have long blamed trade, offshoring and immigration for lost jobs. <strong>4</strong> counters with the economists’ view that the bigger threat is automation, not globalisation. <strong>1</strong> explains why automation spreads (businesses value its productivity), and <strong>2</strong> follows with “But”, its rising impact on jobs, now even white-collar work.</p><p>The pair 3-4 (globalisation vs automation) and the pair 1-2 (asset … But unemployment) lock the order.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-19",
+   "section": "VARC",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Odd sentence out",
+   "difficulty": "medium",
+   "stemHtml": "<p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer.</p><ol><li>A typical example is Wikipedia, where the overwhelming majority of contributors are male and so the available content is skewed to reflect their interests.</li><li>Without diversity of thought and representation, society is left with a distorted picture of future options, which are likely to result in augmenting existing inequalities.</li><li>Gross gender inequality in the technology sector is problematic, not only for the industry-wide marginalization of women, but because technology designs embody the values of their makers.</li><li>While redressing unequal representation in the workplace is a step in the right direction, broader social change is needed to address the structural inequalities embedded within the current organization of work and employment.</li><li>If technology merely reflects the perspectives of the male stereotype, then new technologies are unlikely to accommodate the diverse social contexts within which they operate.</li></ol>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Answer: 4.</strong></p><p>The paragraph is about technology reflecting the values of its (mostly male) makers: <strong>3</strong> states the problem, <strong>5</strong> draws out the consequence for new technologies, <strong>1</strong> gives Wikipedia as a typical example, and <strong>2</strong> concludes that without diversity society gets a distorted picture.</p><p>Sentence <strong>4</strong> shifts to fixing workplace representation and broader structural change in employment; it says nothing about technology design embodying values, so it is the odd one out.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-20",
+   "section": "VARC",
+   "number": 20,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Para jumbles",
+   "difficulty": "medium",
+   "stemHtml": "<p>The four sentences (labelled 1, 2, 3 and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.</p><ol><li>Restitution of artefacts to original cultures could face legal obstacles, as many Western museums are legally prohibited from disposing off their collections.</li><li>This is in response to countries like Nigeria, which are pressurising European museums to return their precious artefacts looted by colonisers in the past.</li><li>Museums in Europe today are struggling to come to terms with their colonial legacy, some taking steps to return artefacts but not wanting to lose their prized collections.</li><li>Legal hurdles notwithstanding, politicians and institutions in France and Germany would now like to defuse the colonial time bombs, and are now backing the return of part of their holdings.</li></ol>",
+   "answer": "3214",
+   "solutionHtml": "<p><strong>Answer: 3214.</strong></p><p><strong>3</strong> introduces the topic: European museums wrestling with their colonial legacy and taking steps to return artefacts. <strong>2</strong> (“This is in response to…”) explains that step: pressure from countries like Nigeria. <strong>1</strong> raises the obstacle, legal bans on disposing of collections, and <strong>4</strong> (“Legal hurdles notwithstanding”) must come right after it, closing with France and Germany backing returns.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-21",
+   "section": "VARC",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Summary",
+   "difficulty": "medium",
+   "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>People view idleness as a sin and industriousness as a virtue, and in the process have developed an unsatisfactory relationship with their jobs. Work has become a way for them to keep busy, even though many find their work meaningless. In their need for activity people undertake what was once considered work (fishing, gardening) as hobbies. The opposing view is that hard work has made us prosperous and improved our levels of health and education. It has also brought innovation and labour and time-saving devices, which have lessened life’s drudgery.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Despite some detractors, hard work is essential in today’s world to enable economic progress, for education and health and to propel innovations that make life easier."
+    },
+    {
+     "id": "B",
+     "textHtml": "Some believe that hard work has been glorified to the extent that it has become meaningless, and led to greater idleness, but it has also had enormous positive impacts on everyday life."
+    },
+    {
+     "id": "C",
+     "textHtml": "Hard work has overtaken all aspects of our lives and has enabled economic prosperity, but it is important that people reserve their leisure time for some idleness."
+    },
+    {
+     "id": "D",
+     "textHtml": "While the idealisation of hard work has propelled people into meaningless jobs and endless activity, it has also led to tremendous social benefits from prosperity and innovation."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. It captures both views: glorifying hard work has pushed people into meaningless work and constant activity, yet hard work has also brought prosperity, better health and education, and innovation.</p><p><strong>A</strong> fails: it takes only the second view and ignores the critique.</p><p><strong>B</strong> fails: the passage never says hard work led to greater idleness; people avoid idleness.</p><p><strong>C</strong> fails: the passage does not advise people to keep leisure time for idleness.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-22",
+   "section": "VARC",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Odd sentence out",
+   "difficulty": "medium",
+   "stemHtml": "<p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer.</p><ol><li>They often include a foundation course on navigating capitalism with Chinese characteristics and have replaced typical cases from US corporates with a focus on how Western theories apply to China’s buzzing local firms.</li><li>The best Chinese business schools look like their Western rivals but are now growing distinct in terms of what they teach and the career boost they offer.</li><li>Western schools have enhanced their offerings with double degrees, popular with domestic and overseas students alike— and boosted the prestige of their Chinese partners.</li><li>For students, a big draw is the chance to rub shoulders with captains of China’s private sector.</li><li>Their business courses now largely cater to the growing demand from China Inc which has become more global, richer and ready to recruit from this sinocentric student body.</li></ol>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Answer: 3.</strong></p><p>The paragraph is about how top Chinese business schools are becoming distinct: <strong>2</strong> sets this up (different in what they teach and in career boost), <strong>1</strong> covers what they teach (China-focused courses and cases), <strong>5</strong> links the courses to China Inc’s demand and recruitment, and <strong>4</strong> adds the career draw for students.</p><p>Sentence <strong>3</strong> is about Western schools adding double degrees with Chinese partners, which runs against the paragraph’s focus on Chinese schools growing distinct; it is the odd one out.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-23",
+   "section": "VARC",
+   "number": 23,
+   "type": "MCQ",
+   "topic": "Verbal Ability",
+   "subtopic": "Summary",
+   "difficulty": "medium",
+   "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>The human mind is wired to see patterns. Not only does the brain process information as it comes in, it also stores insights from all our past experiences. Every interaction, happy or sad, is catalogued in our memory. Intuition draws from that deep memory well to inform our decisions going forward. In other words, intuitive decisions are based on data, and not contrary to data as many would like to assume. When we subconsciously spot patterns, the body starts firing neurochemicals in both the brain and gut. These “somatic markers” are what give us that instant sense that something is right … or that it’s off. Not only are these automatic processes faster than rational thought, but our intuition draws from decades of diverse qualitative experience (sights, sounds, interactions, etc.) – a wholly human feature that big data alone could never accomplish.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Intuition draws from deep memory, and may not be related to data, but to decades of diverse qualitative experience."
+    },
+    {
+     "id": "B",
+     "textHtml": "Intuition is infinitely richer than big data which is based on rational thought and accomplishes more than what big data can."
+    },
+    {
+     "id": "C",
+     "textHtml": "Intuitions are neuro-chemical firings based on pattern recognition and draw upon a rich and vast database of experiences."
+    },
+    {
+     "id": "D",
+     "textHtml": "Intuitions are automatic processes and are therefore faster than rational thought, and so decisions based on them are better."
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>C</strong> is correct. It covers the mechanism (neurochemical firing when patterns are spotted) and the source (a vast store of past experience), which is the essence of the passage.</p><p><strong>A</strong> fails: the passage stresses that intuitive decisions <em>are</em> based on data; “may not be related to data” contradicts it.</p><p><strong>B</strong> fails: “infinitely richer” overstates, and the passage does not say big data is based on rational thought.</p><p><strong>D</strong> fails: the passage says intuition is faster, not that intuitive decisions are better.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "VARC-24",
+   "section": "VARC",
+   "number": 24,
+   "type": "TITA",
+   "topic": "Verbal Ability",
+   "subtopic": "Para jumbles",
+   "difficulty": "hard",
+   "stemHtml": "<p>The four sentences (labelled 1, 2, 3 and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.</p><ol><li>It is regimes of truth that make certain relationships speakable – relationships, like subjectivities, are constituted through discursive formations, which sustain regimes of truth.</li><li>Relationships are nothing without the communication that brings them into being; interpersonal communication is connected to knowledge shared by interlocutors, and scholars should attend to relational histories in their analyses.</li><li>A Foucauldian approach to relationships goes beyond these conceptions of discourse and history to macro level regimes of truth as constituting relationships.</li><li>Reconsidering micro practices within relationships that are constituted within and simultaneously contributors to regimes of truth acknowledges the central position of power/knowledge in the constitution of what has come to be considered true and real.</li></ol>",
+   "answer": "2314",
+   "solutionHtml": "<p><strong>Answer: 2314.</strong></p><p><strong>2</strong> sets out the existing view: relationships rest on communication (discourse) and relational histories. <strong>3</strong> says a Foucauldian approach goes beyond “these conceptions of discourse and history”, so it must follow 2. <strong>1</strong> develops the new idea of regimes of truth that 3 introduces, and <strong>4</strong> concludes by bringing the analysis back to micro practices and power/knowledge.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

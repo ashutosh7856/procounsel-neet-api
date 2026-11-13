@@ -28,6 +28,26 @@ Notes on `cat_exam.json`:
 - **`sectionOrderLocked: true`.** Official wording (S1, S5, S7): 40 minutes per section and "not allowed to switch from one section to another". The sections are numbered Section I VARC, II DILR, III QA. The mock disclaimer (S11) says the mock's section sequence is indicative only.
 - **PwD timing.** PwD candidates get 160 min in total and 53 min 20 s per section (S6, S8). This is not represented in the JSON schema.
 
+### 1.1 Past-year versions 2017–2023 (added for importing past papers)
+
+Retrieved **2026-11-13**. All from the CAT portal (portal ID 756) on cdn.digialm.com / iimcat.ac.in. Two files (S16, S22) are no longer served at their official URL (HTTP 404 on 2026-11-13); they were read from the Internet Archive's capture of that exact official URL, which is given alongside. `source.url` in the JSON is the official URL.
+
+| # | Source | URL | Supports |
+|---|---|---|---|
+| S15 | CAT 2023 Media Release, IIM Lucknow, 27 Nov 2023 | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/12/PDF/CAT_2023_Media_Release_27th_Nov_2023.pdf | Held 26 Nov 2023. 120 min (160 PwD), 40 min per section. **VARC 24, DILR 20, QA 22.** Pre-exam release (https://cdn.digialm.com/per/g01/pub/756/EForms/CAT23/CAT_2023_Media_Release.pdf): exactly 40 min per section, no switching. Marking: S10. |
+| S16 | CAT 2022 Result Media Release, IIM Bangalore, 21 Dec 2022 | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/19/PDF/Media_Release_CAT_2022_21st_Dec_2022_v1.pdf (now 404; archived: http://web.archive.org/web/20221221122942/https://cdn.digialm.com//per/g01/pub/756/ASM/WebPortal/19/PDF/Media_Release_CAT_2022_21st_Dec_2022_v1.pdf) | Held 27 Nov 2022. 120 min (160 PwD), 40 min per section. **VARC 24, DILR 20, QA 22, total 66.** Same table in the 01 Dec 2022 release (archived: http://web.archive.org/web/20221202091935/https://cdn.digialm.com//per/g01/pub/756/ASM/WebPortal/19/PDF/CAT_2022_Media_Release_01_Dec_2022.pdf). Quotes two SA (type-in) questions as "Correct Marks : 3 Wrong Marks : 0". |
+| S17 | CAT 2021 Media Release, IIM Ahmedabad, 02 Dec 2021 | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/17/PDF/CAT_2021_Media_Release_02_dec_2021.pdf | Held 28 Nov 2021. 120 min (160 PwD), 40 min per section. **VARC 24, DILR 20, QA 22.** Same table in the result release of 03 Jan 2022 (https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/17/PDF/Media_Release_CAT_2021_3_Jan_2022.pdf), which calls a type-in QA question "of a non-negative marking type". Aug 2021 release (https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/17/PDF/MediaRelease_CAT2021.pdf): exactly 40 min per section, no switching. |
+| S18 | CAT 2020 Media Release, IIM Indore, Sep 2020 | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/17/PDF/CAT_2020_Media_Release.pdf | "The revised duration of the test will be 120 minutes", Sections I VARC, II DILR, III QA, exactly 40 min each, no switching. **No question counts.** |
+| S19 | CAT 2020 Test Day Guide | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/17/PDF/CAT_2020_Test_Day_Guide.pdf | "For all MCQ type, a wrong answer would result in -1 Mark. There would be NO Negative Mark for a non-MCQ type question." "No mark will be awarded for questions which are not attempted." Does not state the +3 for a correct answer. |
+| S20 | CAT 2019 Media Release, IIM Kozhikode, 27 Jul 2019 | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/12/PDF/CAT_2019_Media_Release.pdf | 180 min, Sections I VARC, II DILR, III QA, exactly 60 min each, no switching; some non-MCQ (typed) questions. **No question counts.** |
+| S21 | CAT 2018 Media Release, IIM Calcutta, 28 Jul 2018 | https://cdn.digialm.com/per/g01/pub/756/ASM/WebPortal/13/PDF/CAT_2018_Media_Release.pdf | 180 min, Sections I VARC, II DILR, III QA, exactly 60 min each, no switching; some non-MCQ questions. **No question counts.** |
+| S22 | CAT 2017 Media Release, IIM Lucknow, 29 Jul 2017 | https://iimcat.ac.in/per/g01/pub/756/ASM/WebPortal/1/PDF/CAT-2017_MediaRelease.pdf (now 404; archived: http://web.archive.org/web/20211204130344/http://iimcat.ac.in/per/g01/pub/756/ASM/WebPortal/1/PDF/CAT-2017_MediaRelease.pdf) | 180 min, Sections I VARC, II DILR, III QA, exactly 60 min each, no switching; "Some questions in each section may not be of multiple choice type. Instead, direct answers will have to be typed". **No question counts.** |
+
+Notes on 2017–2023:
+- **Question counts.** Officially verified for **2021, 2022, 2023** (S17, S16, S15: 24/20/22). For **2017–2020 I found no official document with section counts**: the pre-exam releases and bulletins are silent, and no post-exam release for those years was found on the portal or in the Internet Archive. The 2017–2019 counts (VARC 34, DILR 32, QA 34) and 2020 counts (VARC 26, DILR 24, QA 26) are taken from the actual papers being imported (every slot of each year agrees: 2017–2019 slots 1–2, 2020 slots 1–3), **not from an official IIM statement**. The 2021–2023 papers (all 3 slots) also give 24/20/22, matching the official figures.
+- **Duration and section lock.** Verified officially for every year (S15–S22): 180 min / 60 min per section for 2017–2019, 120 min / 40 min per section for 2020–2023, no switching between sections.
+- **Marking.** 2023: fully verified (S10). 2022: +3/0 for type-in verified (S16); MCQ -1 not restated. 2021: type-in non-negative verified (S17); the rest not restated. 2020: MCQ -1, type-in no negative, unattempted 0 verified (S19); the +3 is not restated. **2017–2019: no official marking statement retrieved**; the media releases only confirm that typed (non-MCQ) questions exist. The +3/-1/0 (MCQ) and +3/0/0 (TITA) values for those years and the unstated parts above are carried from the 2023 statement and the standard scheme, **not separately verified**.
+
 ## 2. Official CAT past papers
 
 **Finding: NO.** Neither the IIMs nor iimcat.ac.in publish previous-year CAT question papers with answer keys as public downloads.
@@ -259,6 +279,23 @@ Each file lists its full sources in `sources[]`. The main official URLs and the 
   - https://aima.in/mat/faq/
   - https://aima.in/mat/participating-b-schools/
 - **Null:** IBT mode (not currently listed), marks per correct answer, and per-section minutes.
+
+### 6.5 Test-engine configs for the other exams (`exams-config/*.json`)
+Added **2026-11-13**. These files hold the same official facts as `exams/*.json` (§6.4, retrieved 2026-11-11) in the
+shape the mock engine needs (`docs/mba-content-format.md`). Nothing new was researched except the SNAP check below.
+Each version's `source` names the main official document; the full source list is in the matching `exams/<id>.json`.
+
+| File | Official source used for the pattern | Notes |
+|---|---|---|
+| `xat.json` (2027) | XAT 2027 Quick Overview, https://xatonline.in/assets/pdf/xat-2027-overview.pdf; XAT FAQs https://xatonline.in/faq | Counts are officially "about" 26/21/28/20. Part 1 shares 170 min (FAQ: any section, switch freely); GK 10 min. Part 1 +1/−0.25 and −0.10 per unanswered after 12; GK +1, no negative, used only by XLRI (`countsInTotal: false`). |
+| `snap.json` (2026) | SNAP Test Structure, https://www.snaptest.org/snap-exam-syllabus (re-checked 2026-11-13: 10/20/20/10, 1 mark each, 25% negative, 60 min, four options, "attempt any section in any order") | One 60-min block. |
+| `nmat.json` (2026) | NMAT Terms and Conditions (India) PDF on mba.com | 36 questions per section; 28/52/40 min; test taker picks the order; no negative marking. NMAT is adaptive and scaled (12–120), so the engine shows a **practice** raw score (+1 per correct), flagged `scoring: "practice"`. |
+| `cmat.json` (2026) | CMAT 2026 Information Bulletin (NTA) | 5 × 20 questions, 180 min, +4/−1/0. No sectional time limits stated, so one 180-min block. |
+| `mat.json` (2026) | https://mat.aima.in/ and https://aima.in/mat/faq/ | 5 × 30 questions, 120 min, −0.25 per wrong. **Marks per correct answer are not stated officially**; the engine uses +1 as a practice convention, flagged `scoring: "practice"`. No MAT content exists, so no MAT test is offered. |
+| `gmat.json` (2026) | GMAT Exam Scores (GMAC) | 21/23/20 questions, 45 min each, order chosen by the test taker. Adaptive, 60–90 per section, so a **practice** raw score (+1 per correct). |
+| `mah-mba-cet.json` (2026) | MAH-MBA/MMS-CET 2026 Information Brochure | 75/25/50/50, 1 mark each, no negative, 150 min with no sectional limits. |
+
+Section ids (`VALR`, `GE`, `LS`, `QTDI`, …) are ProCounsel's own labels, not official codes.
 
 ## 6. Non-IIM CAT percentile cutoffs (`cat-cutoffs/*.json`, `cat-cutoffs/index.json`)
 

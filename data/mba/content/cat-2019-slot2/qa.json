@@ -1,0 +1,997 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures",
+      "difficulty": "easy",
+      "stemHtml": "<p>The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. Each of three vessels A, B, C contains 500 ml of salt solution of strengths 10%, 22%, and 32%, respectively. Now, 100 ml of the solution in vessel A is transferred to vessel B. Then, 100 ml of the solution in vessel B is transferred to vessel C. Finally, 100 ml of the solution in vessel C is transferred to vessel A. The strength, in percentage, of the resulting solution in vessel A is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "15"
+        },
+        {
+          "id": "B",
+          "textHtml": "13"
+        },
+        {
+          "id": "C",
+          "textHtml": "14"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Track the salt.</strong> A: 50 g, B: 110 g, C: 160 g (500 ml each).</p><p>A → B: 100 ml of A carries 10 g. A: 400 ml, 40 g. B: 600 ml, 120 g (20%).</p><p>B → C: 100 ml of B carries 20 g. C: 600 ml, 180 g (30%).</p><p>C → A: 100 ml of C carries 30 g. A: 500 ml, 70 g ⇒ strength = 70/500 = <strong>14%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>The quadratic equation x<sup>2</sup> + bx + c = 0 has two roots 4a and 3a, where a is an integer. Which of the following is a possible value of b<sup>2</sup> + c?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3721"
+        },
+        {
+          "id": "B",
+          "textHtml": "549"
+        },
+        {
+          "id": "C",
+          "textHtml": "361"
+        },
+        {
+          "id": "D",
+          "textHtml": "427"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Sum of roots = 7a = −b, product = 12a<sup>2</sup> = c.</p><p>b<sup>2</sup> + c = 49a<sup>2</sup> + 12a<sup>2</sup> = <strong>61a<sup>2</sup></strong>, so the value must be 61 × a perfect square.</p><p>3721 = 61 × 61 (61 not a square), 549 = 61 × 9 = 61 × 3<sup>2</sup> ✓, 361 is not a multiple of 61, 427 = 61 × 7 (not a square). Answer: <strong>549</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Circular motion",
+      "difficulty": "easy",
+      "stemHtml": "<p>Two ants A and B start from a point P on a circle at the same time, with A moving clock-wise and B moving anti-clockwise. They meet for the first time at 10:00 am when A has covered 60% of the track. If A returns to P at 10:12 am, then B returns to P at</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10:25 am"
+        },
+        {
+          "id": "B",
+          "textHtml": "10:18 am"
+        },
+        {
+          "id": "C",
+          "textHtml": "10:27 am"
+        },
+        {
+          "id": "D",
+          "textHtml": "10:45 am"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>At the meeting point A has covered 60% and B 40% of the track in the same time, so speeds are in the ratio 3 : 2.</p><p>A covers its remaining 40% in 12 minutes ⇒ A takes 30 minutes per lap. B is 2/3 as fast ⇒ 45 minutes per lap.</p><p>B still has 60% to go: 0.6 × 45 = 27 minutes ⇒ B reaches P at <strong>10:27 am</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration (3D)",
+      "difficulty": "easy",
+      "stemHtml": "<p>The base of a regular pyramid is a square and each of the other four sides is an equilateral triangle, length of each side being 20 cm. The vertical height of the pyramid, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12"
+        },
+        {
+          "id": "B",
+          "textHtml": "10√2"
+        },
+        {
+          "id": "C",
+          "textHtml": "8√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "5√5"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>All edges are 20 cm. The apex lies above the centre of the square base; the distance from the centre to a corner is half the diagonal = 20√2/2 = 10√2.</p><p>A lateral edge (20) is the hypotenuse: h<sup>2</sup> = 20<sup>2</sup> − (10√2)<sup>2</sup> = 400 − 200 = 200 ⇒ h = <strong>10√2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Divisibility",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the largest positive integer n such that (n<sup>2</sup> + 7n + 12)/(n<sup>2</sup> − n − 12) is also a positive integer?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "16"
+        },
+        {
+          "id": "C",
+          "textHtml": "12"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Factor: (n + 3)(n + 4) / ((n − 4)(n + 3)) = (n + 4)/(n − 4) = 1 + 8/(n − 4).</p><p>For a positive integer we need (n − 4) to be a positive divisor of 8: n − 4 ∈ {1, 2, 4, 8}. The largest is n − 4 = 8 ⇒ n = <strong>12</strong> (value 2).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratics &amp; logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let A be a real number. Then the roots of the equation x<sup>2</sup> − 4x − log<sub>2</sub>A = 0 are real and distinct if and only if</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "A &lt; 1/16"
+        },
+        {
+          "id": "B",
+          "textHtml": "A &lt; 1/8"
+        },
+        {
+          "id": "C",
+          "textHtml": "A &gt; 1/16"
+        },
+        {
+          "id": "D",
+          "textHtml": "A &gt; 1/8"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Real and distinct roots need discriminant &gt; 0: 16 + 4 log<sub>2</sub>A &gt; 0 ⇒ log<sub>2</sub>A &gt; −4 ⇒ A &gt; 2<sup>−4</sup> = <strong>1/16</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit &amp; loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>Mukesh purchased 10 bicycles in 2017, all at the same price. He sold six of these at a profit of 25% and the remaining four at a loss of 25%. If he made a total profit of Rs. 2000, then his purchase price of a bicycle, in Rupees, was</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4000"
+        },
+        {
+          "id": "B",
+          "textHtml": "6000"
+        },
+        {
+          "id": "C",
+          "textHtml": "8000"
+        },
+        {
+          "id": "D",
+          "textHtml": "2000"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the price be P. Net profit = 6 × 0.25P − 4 × 0.25P = 0.5P = 2000 ⇒ P = <strong>4000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The average of 30 integers is 5. Among these 30 integers, there are exactly 20 which do not exceed 5. What is the highest possible value of the average of these 20 integers?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5"
+        },
+        {
+          "id": "B",
+          "textHtml": "3.5"
+        },
+        {
+          "id": "C",
+          "textHtml": "4.5"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Total = 150. The other 10 integers exceed 5, so each is at least 6 and together at least 60.</p><p>So the 20 integers sum to at most 150 − 60 = 90 (achievable, e.g. ten 5s and ten 4s) ⇒ highest average = 90/20 = <strong>4.5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let f be a function such that f(mn) = f(m) f(n) for every positive integers m and n. If f(1), f(2) and f(3) are positive integers, f(1) &lt; f(2), and f(24) = 54, then f(18) equals</p>",
+      "answer": "12",
+      "solutionHtml": "<p>f(1) = f(1)<sup>2</sup> ⇒ f(1) = 1, so f(2) &gt; 1.</p><p>f(24) = f(2)<sup>3</sup> f(3) = 54 = 27 × 2 ⇒ f(2) = 3, f(3) = 2 (f(2) = 1 is excluded).</p><p>f(18) = f(2) f(3)<sup>2</sup> = 3 × 4 = <strong>12</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Sequences",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let a<sub>1</sub>, a<sub>2</sub>, … be integers such that</p><p>a<sub>1</sub> − a<sub>2</sub> + a<sub>3</sub> − a<sub>4</sub> + … + (−1)<sup>n − 1</sup> a<sub>n</sub> = n, for all n ≥ 1.</p><p>Then a<sub>51</sub> + a<sub>52</sub> + … + a<sub>1023</sub> equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "-1"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "0"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Subtract the relation for n − 1 from that for n: (−1)<sup>n−1</sup> a<sub>n</sub> = 1 ⇒ a<sub>n</sub> = 1 for odd n and −1 for even n.</p><p>From a<sub>51</sub> to a<sub>1023</sub> there are 973 terms, starting and ending with +1. They pair off as (+1 − 1) leaving one extra +1 ⇒ sum = <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio",
+      "difficulty": "easy",
+      "stemHtml": "<p>In an examination, Rama's score was one-twelfth of the sum of the scores of Mohan and Anjali. After a review, the score of each of them increased by 6. The revised scores of Anjali, Mohan, and Rama were in the ratio 11:10:3. Then Anjali's score exceeded Rama's score by</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "32"
+        },
+        {
+          "id": "B",
+          "textHtml": "35"
+        },
+        {
+          "id": "C",
+          "textHtml": "24"
+        },
+        {
+          "id": "D",
+          "textHtml": "26"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Revised scores 11k, 10k, 3k ⇒ original A = 11k − 6, M = 10k − 6, R = 3k − 6.</p><p>12R = A + M ⇒ 36k − 72 = 21k − 12 ⇒ k = 4. A = 38, R = 6 ⇒ difference = <strong>32</strong> (the gap is unchanged by the review).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed &amp; distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>A cyclist leaves A at 10 am and reaches B at 11 am. Starting from 10:01 am, every minute a motor cycle leaves A and moves towards B. Forty-five such motor cycles reach B by 11 am. All motor cycles have the same speed. If the cyclist had doubled his speed, how many motor cycles would have reached B by the time the cyclist reached B?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20"
+        },
+        {
+          "id": "B",
+          "textHtml": "23"
+        },
+        {
+          "id": "C",
+          "textHtml": "15"
+        },
+        {
+          "id": "D",
+          "textHtml": "22"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let a motorcycle take t minutes for A to B. The k-th motorcycle leaves at 10:00 + k minutes and arrives at minute k + t.</p><p>Exactly 45 arrive by minute 60 ⇒ 45 + t ≤ 60 &lt; 46 + t ⇒ 14 &lt; t ≤ 15.</p><p>With double speed the cyclist arrives at minute 30. Motorcycles arriving by then: k ≤ 30 − t, where 15 ≤ 30 − t &lt; 16 ⇒ <strong>15</strong> motorcycles.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let ABC be a right-angled triangle with hypotenuse BC of length 20 cm. If AP is perpendicular on BC, then the maximum possible length of AP, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "6√2"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "8√2"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>A lies on the circle with diameter BC (radius 10). The height of A above BC is at most the radius, reached when A is at the top of the circle (isosceles right triangle).</p><p>Maximum AP = <strong>10</strong>.</p><p><strong>Check:</strong> AP = AB·AC/20 ≤ (AB<sup>2</sup> + AC<sup>2</sup>)/40 = 400/40 = 10.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles (medians)",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a triangle ABC, medians AD and BE are perpendicular to each other, and have lengths 12 cm and 9 cm, respectively. Then, the area of triangle ABC, in sq cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "80"
+        },
+        {
+          "id": "B",
+          "textHtml": "72"
+        },
+        {
+          "id": "C",
+          "textHtml": "78"
+        },
+        {
+          "id": "D",
+          "textHtml": "68"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let G be the centroid. AG = 2/3 × 12 = 8 and BG = 2/3 × 9 = 6, perpendicular ⇒ area of ABG = ½ × 8 × 6 = 24.</p><p>The three medians split the triangle into three equal-area triangles (ABG, BCG, CAG) ⇒ area of ABC = 3 × 24 = <strong>72</strong>.</p><p><strong>Formula:</strong> for perpendicular medians, area = (2/3) × m<sub>1</sub> × m<sub>2</sub> = (2/3) × 108 = 72.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Factors",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many pairs (m, n) of positive integers satisfy the equation m<sup>2</sup> + 105 = n<sup>2</sup>?</p>",
+      "answer": "4",
+      "solutionHtml": "<p>(n − m)(n + m) = 105. Both factors are odd (105 is odd) with n − m &lt; n + m.</p><p>Factor pairs: 1 × 105, 3 × 35, 5 × 21, 7 × 15 ⇒ (m, n) = (52, 53), (16, 19), (8, 13), (4, 11). All have m &gt; 0 ⇒ <strong>4</strong> pairs.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Exponents &amp; logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>The real root of the equation 2<sup>6x</sup> + 2<sup>3x+2</sup> − 21 = 0 is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(log<sub>2</sub>7)/3"
+        },
+        {
+          "id": "B",
+          "textHtml": "log<sub>2</sub>27"
+        },
+        {
+          "id": "C",
+          "textHtml": "(log<sub>2</sub>3)/3"
+        },
+        {
+          "id": "D",
+          "textHtml": "log<sub>2</sub>9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Put y = 2<sup>3x</sup> &gt; 0: y<sup>2</sup> + 4y − 21 = 0 ⇒ (y + 7)(y − 3) = 0 ⇒ y = 3.</p><p>2<sup>3x</sup> = 3 ⇒ 3x = log<sub>2</sub>3 ⇒ x = <strong>(log<sub>2</sub>3)/3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities &amp; logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>If x is a real number, then √(log<sub>e</sub>((4x − x<sup>2</sup>)/3)) is a real number if and only if</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−3 ≤ x ≤ 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "1 ≤ x ≤ 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "−1 ≤ x ≤ 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "1 ≤ x ≤ 3"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>We need log<sub>e</sub>((4x − x<sup>2</sup>)/3) ≥ 0 ⇒ (4x − x<sup>2</sup>)/3 ≥ 1 (this also makes the log's argument positive).</p><p>4x − x<sup>2</sup> ≥ 3 ⇒ x<sup>2</sup> − 4x + 3 ≤ 0 ⇒ (x − 1)(x − 3) ≤ 0 ⇒ <strong>1 ≤ x ≤ 3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Linear equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>John gets Rs 57 per hour of regular work and Rs 114 per hour of overtime work. He works altogether 172 hours and his income from overtime hours is 15% of his income from regular hours. Then, for how many hours did he work overtime?</p>",
+      "answer": "12",
+      "solutionHtml": "<p>Regular hours r, overtime hours h: 114h = 0.15 × 57r ⇒ 2h = 0.15r ⇒ r = 40h/3.</p><p>r + h = 172 ⇒ 43h/3 = 172 ⇒ h = <strong>12</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two circles, each of radius 4 cm, touch externally. Each of these two circles is touched externally by a third circle. If these three circles have a common tangent, then the radius of the third circle, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "π/3"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/√2"
+        },
+        {
+          "id": "D",
+          "textHtml": "√2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The small circle sits in the gap between the two big circles and the common tangent line. For two circles of radii R and r touching each other and a line, the distance between their touching points on the line is 2√(Rr).</p><p>The big circles' touching points are 2√(4·4) = 8 apart, and the small circle's point is in the middle: 2√(4r) = 4 ⇒ √r = 1 ⇒ r = <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Exponential equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>If 5<sup>x</sup> − 3<sup>y</sup> = 13438 and 5<sup>x−1</sup> + 3<sup>y+1</sup> = 9686, then x + y equals</p>",
+      "answer": "13",
+      "solutionHtml": "<p>Let a = 5<sup>x</sup>, b = 3<sup>y</sup>. Then a − b = 13438 and a/5 + 3b = 9686 ⇒ a + 15b = 48430.</p><p>Subtract: 16b = 34992 ⇒ b = 2187 = 3<sup>7</sup>; a = 15625 = 5<sup>6</sup>. So x + y = 6 + 7 = <strong>13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration (3D)",
+      "difficulty": "medium",
+      "stemHtml": "<p>A man makes complete use of 405 cc of iron, 783 cc of aluminium, and 351 cc of copper to make a number of solid right circular cylinders of each type of metal. These cylinders have the same volume and each of these has radius 3 cm. If the total number of cylinders is to be kept at a minimum, then the total surface area of all these cylinders, in sq cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1044(4 + π)"
+        },
+        {
+          "id": "B",
+          "textHtml": "1026(1 + π)"
+        },
+        {
+          "id": "C",
+          "textHtml": "8464π"
+        },
+        {
+          "id": "D",
+          "textHtml": "928π"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Fewest cylinders ⇒ each has volume HCF(405, 783, 351) = 27 cc. Count = 15 + 29 + 13 = 57.</p><p>π × 3<sup>2</sup> × h = 27 ⇒ h = 3/π. Surface area of one = 2πr<sup>2</sup> + 2πrh = 18π + 18.</p><p>Total = 57 × 18(π + 1) = <strong>1026(1 + π)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>In an examination, the score of A was 10% less than that of B, the score of B was 25% more than that of C, and the score of C was 20% less than that of D. If A scored 72, then the score of D was</p>",
+      "answer": "80",
+      "solutionHtml": "<p>A = 0.9B = 0.9 × 1.25C = 0.9 × 1.25 × 0.8D = 0.9D.</p><p>0.9D = 72 ⇒ D = <strong>80</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-23",
+      "section": "QA",
+      "number": 23,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Factors",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many factors of 2<sup>4</sup> × 3<sup>5</sup> × 10<sup>4</sup> are perfect squares which are greater than 1?</p>",
+      "answer": "44",
+      "solutionHtml": "<p>2<sup>4</sup> × 3<sup>5</sup> × 10<sup>4</sup> = 2<sup>8</sup> × 3<sup>5</sup> × 5<sup>4</sup>.</p><p>A square factor uses even exponents: 2 → {0,2,4,6,8} (5 choices), 3 → {0,2,4} (3), 5 → {0,2,4} (3). Total 45, minus the factor 1 ⇒ <strong>44</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-24",
+      "section": "QA",
+      "number": 24,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed &amp; distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>John jogs on track A at 6 kmph and Mary jogs on track B at 7.5 kmph. The total length of tracks A and B is 325 metres. While John makes 9 rounds of track A, Mary makes 5 rounds of track B. In how many seconds will Mary make one round of track A?</p>",
+      "answer": "48",
+      "solutionHtml": "<p>Same time: 9a/6 = 5b/7.5 ⇒ 1.5a = (2/3)b ⇒ b = 2.25a. Then a + 2.25a = 325 ⇒ a = 100 m.</p><p>Mary's speed = 7.5 × 5/18 = 25/12 m/s ⇒ time for 100 m = 100 × 12/25 = <strong>48</strong> seconds.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-25",
+      "section": "QA",
+      "number": 25,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Algebraic identities",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let a, b, x, y be real numbers such that a<sup>2</sup> + b<sup>2</sup> = 25, x<sup>2</sup> + y<sup>2</sup> = 169, and ax + by = 65. If k = ay − bx, then</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "k = 0"
+        },
+        {
+          "id": "B",
+          "textHtml": "k = 5/13"
+        },
+        {
+          "id": "C",
+          "textHtml": "0 &lt; k ≤ 5/13"
+        },
+        {
+          "id": "D",
+          "textHtml": "k &gt; 5/13"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Identity:</strong> (a<sup>2</sup> + b<sup>2</sup>)(x<sup>2</sup> + y<sup>2</sup>) = (ax + by)<sup>2</sup> + (ay − bx)<sup>2</sup>.</p><p>25 × 169 = 4225 = 65<sup>2</sup> + k<sup>2</sup> ⇒ k<sup>2</sup> = 0 ⇒ <strong>k = 0</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-26",
+      "section": "QA",
+      "number": 26,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "easy",
+      "stemHtml": "<p>The number of common terms in the two sequences: 15, 19, 23, 27, …, 415 and 14, 19, 24, 29, …, 464 is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "19"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "21"
+        },
+        {
+          "id": "D",
+          "textHtml": "18"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The first common term is 19; common terms then repeat every LCM(4, 5) = 20: 19, 39, 59, …</p><p>They must not exceed 415 (end of the first sequence): 19 + 20(k − 1) ≤ 415 ⇒ k ≤ 20.8 ⇒ <strong>20</strong> terms (last one 399).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-27",
+      "section": "QA",
+      "number": 27,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>In 2010, a library contained a total of 11500 books in two categories - fiction and non-fiction. In 2015, the library contained a total of 12760 books in these two categories. During this period, there was 10% increase in the fiction category while there was 12% increase in the non-fiction category. How many fiction books were in the library in 2015?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6600"
+        },
+        {
+          "id": "B",
+          "textHtml": "6160"
+        },
+        {
+          "id": "C",
+          "textHtml": "5500"
+        },
+        {
+          "id": "D",
+          "textHtml": "6000"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>If both grew 10%, the total would be 12650; the extra 110 comes from the additional 2% on non-fiction ⇒ non-fiction (2010) = 110/0.02 = 5500, fiction (2010) = 6000.</p><p>Fiction in 2015 = 6000 × 1.1 = <strong>6600</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-28",
+      "section": "QA",
+      "number": 28,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Digits",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a six-digit number, the sixth, that is, the rightmost, digit is the sum of the first three digits, the fifth digit is the sum of first two digits, the third digit is equal to the first digit, the second digit is twice the first digit and the fourth digit is the sum of fifth and sixth digits. Then, the largest possible value of the fourth digit is</p>",
+      "answer": "7",
+      "solutionHtml": "<p>Let the first digit be a. Then the digits are a, 2a, a, ?, 3a, 4a, and the fourth = 3a + 4a = 7a.</p><p>7a must be a single digit and a ≥ 1 (six-digit number) ⇒ a = 1 ⇒ the number is 121734 and the fourth digit is <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-29",
+      "section": "QA",
+      "number": 29,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio &amp; percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The salaries of Ramesh, Ganesh and Rajesh were in the ratio 6:5:7 in 2010, and in the ratio 3:4:3 in 2015. If Ramesh’s salary increased by 25% during 2010-2015, then the percentage increase in Rajesh’s salary during this period is closest to:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>2010: Ramesh 6k, Rajesh 7k. 2015: Ramesh = 7.5k, and Rajesh = Ramesh (ratio 3 : 3) = 7.5k.</p><p>Increase = 0.5k/7k = 7.14% ⇒ closest to <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-30",
+      "section": "QA",
+      "number": 30,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "easy",
+      "stemHtml": "<p>If (2n + 1) + (2n + 3) + (2n + 5) + … + (2n + 47) = 5280, then what is the value of 1 + 2 + 3 + … + n?</p>",
+      "answer": "4851",
+      "solutionHtml": "<p>There are 24 terms (odd numbers 1 to 47). Sum = 24 × 2n + (1 + 3 + … + 47) = 48n + 24<sup>2</sup> = 48n + 576.</p><p>48n = 4704 ⇒ n = 98. 1 + 2 + … + 98 = 98 × 99/2 = <strong>4851</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-31",
+      "section": "QA",
+      "number": 31,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Polygons",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let A and B be two regular polygons having a and b sides, respectively. If b = 2a and each interior angle of B is 3/2 times each interior angle of A, then each interior angle, in degrees, of a regular polygon with a + b sides is</p>",
+      "answer": "150",
+      "solutionHtml": "<p>Interior angle of an n-gon = 180 − 360/n. So 180 − 360/(2a) = 1.5(180 − 360/a) ⇒ 180 − 180/a = 270 − 540/a ⇒ 360/a = 90 ⇒ a = 4, b = 8.</p><p>a + b = 12: interior angle = 180 − 30 = <strong>150</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-32",
+      "section": "QA",
+      "number": 32,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time &amp; work",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anil alone can do a job in 20 days while Sunil alone can do it in 40 days. Anil starts the job, and after 3 days, Sunil joins him. Again, after a few more days, Bimal joins them and they together finish the job. If Bimal has done 10% of the job, then in how many days was the job done?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "15"
+        },
+        {
+          "id": "B",
+          "textHtml": "12"
+        },
+        {
+          "id": "C",
+          "textHtml": "13"
+        },
+        {
+          "id": "D",
+          "textHtml": "14"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Anil works all T days and Sunil works T − 3 days; together they do 90% of the job.</p><p>T/20 + (T − 3)/40 = 0.9 ⇒ 2T + T − 3 = 36 ⇒ T = <strong>13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-33",
+      "section": "QA",
+      "number": 33,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Simple &amp; compound interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>Amal invests Rs 12000 at 8% interest, compounded annually, and Rs 10000 at 6% interest, compounded semi-annually, both investments being for one year. Bimal invests his money at 7.5% simple interest for one year. If Amal and Bimal get the same amount of interest, then the amount, in Rupees, invested by Bimal is</p>",
+      "answer": "20920",
+      "solutionHtml": "<p>Amal: 12000 × 0.08 = 960, and 10000 × (1.03<sup>2</sup> − 1) = 10000 × 0.0609 = 609. Total interest = 1569.</p><p>Bimal: 0.075P = 1569 ⇒ P = <strong>20920</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-34",
+      "section": "QA",
+      "number": 34,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit &amp; loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>A shopkeeper sells two tables, each procured at cost price p, to Amal and Asim at a profit of 20% and at a loss of 20%, respectively. Amal sells his table to Bimal at a profit of 30%, while Asim sells his table to Barun at a loss of 30%. If the amounts paid by Bimal and Barun are x and y, respectively, then (x − y)/p equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0.7"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "0.50"
+        },
+        {
+          "id": "D",
+          "textHtml": "1.2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>x = 1.2 × 1.3p = 1.56p; y = 0.8 × 0.7p = 0.56p.</p><p>(x − y)/p = <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

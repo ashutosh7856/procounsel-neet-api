@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & alligation",
+      "difficulty": "easy",
+      "stemHtml": "<p>The strength of an indigo solution in percentage is equal to the amount of indigo in grams per 100 cc of water. Two 800 cc bottles are filled with indigo solutions of strengths 33% and 17%, respectively. A part of the solution from the first bottle is thrown away and replaced by an equal volume of the solution from the second bottle. If the strength of the indigo solution in the first bottle has now changed to 21% then the volume, in cc, of the solution left in the second bottle is</p>",
+      "answer": "200",
+      "solutionHtml": "<p>Let x cc be replaced. The first bottle then has (800 − x) cc at 33% and x cc at 17%, averaging 21%.</p><p><strong>Alligation:</strong> (800 − x) : x = (21 − 17) : (33 − 21) = 4 : 12 = 1 : 3, so x = 600 cc.</p><p>Check: (200 × 33 + 600 × 17)/800 = (6600 + 10200)/800 = 21%. ✓</p><p>The second bottle has 800 − 600 = <strong>200</strong> cc left.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Digits",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many three-digit numbers are greater than 100 and increase by 198 when the three digits are arranged in the reverse order?</p>",
+      "answer": "70",
+      "solutionHtml": "<p>Write the number as abc (a ≥ 1). Reversed minus original = (100c + 10b + a) − (100a + 10b + c) = 99(c − a).</p><p>99(c − a) = 198 gives <strong>c = a + 2</strong>. a can be 1 to 7 (c ≤ 9), so 7 choices, and b can be anything 0–9, so 10 choices.</p><p>Count = 7 × 10 = <strong>70</strong>. All of these exceed 100, since 100 itself has c = 0.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio",
+      "difficulty": "easy",
+      "stemHtml": "<p>The amount Neeta and Geeta together earn in a day equals what Sita alone earns in 6 days. The amount Sita and Neeta together earn in a day equals what Geeta alone earns in 2 days. The ratio of the daily earnings of the one who earns the most to that of the one who earns the least is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7 : 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "11 : 7"
+        },
+        {
+          "id": "C",
+          "textHtml": "11 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "3 : 2"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>N + G = 6S and S + N = 2G.</p><p>Subtract the second from the first: G − S = 6S − 2G, so 3G = 7S, giving G = 7S/3. Then N = 2G − S = 14S/3 − S = 11S/3.</p><p>S : G : N = 3 : 7 : 11. Check: N + G = 18 = 6 × 3 ✓, S + N = 14 = 2 × 7 ✓.</p><p>Most : least = <strong>11 : 3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anu, Vinu and Manu can complete a work alone in 15 days, 12 days and 20 days, respectively. Vinu works everyday. Anu works only on alternate days starting from the first day while Manu works only on alternate days starting from the second day. Then, the number of days needed to complete the work is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Take total work = LCM(15, 12, 20) = 60 units. Rates: Anu 4, Vinu 5, Manu 3 units/day.</p><p>Odd days (Vinu + Anu) = 9 units; even days (Vinu + Manu) = 8 units, so <strong>17 units every 2 days</strong>.</p><p>After 6 days: 51 units. Day 7 (odd) adds 9, giving exactly 60. Answer: <strong>7</strong> days.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Sequences (recurrence)",
+      "difficulty": "medium",
+      "stemHtml": "<p>If x<sub>0</sub> = 1, x<sub>1</sub> = 2, and x<sub>n+2</sub> = (1 + x<sub>n+1</sub>)/x<sub>n</sub>, n = 0, 1, 2, 3, ……, then x<sub>2021</sub> is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Compute terms: x<sub>2</sub> = (1 + 2)/1 = 3, x<sub>3</sub> = (1 + 3)/2 = 2, x<sub>4</sub> = (1 + 2)/3 = 1, x<sub>5</sub> = (1 + 1)/2 = 1, x<sub>6</sub> = (1 + 1)/1 = 2.</p><p>Since x<sub>5</sub>, x<sub>6</sub> = x<sub>0</sub>, x<sub>1</sub>, the sequence <strong>repeats with period 5</strong>: 1, 2, 3, 2, 1, …</p><p>2021 = 5 × 404 + 1, so x<sub>2021</sub> = x<sub>1</sub> = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>If 5 − log<sub>10</sub>√(1 + x) + 4 log<sub>10</sub>√(1 − x) = log<sub>10</sub>(1/√(1 − x<sup>2</sup>)), then 100x equals</p>",
+      "answer": "99",
+      "solutionHtml": "<p>Write L = log<sub>10</sub>. The left side is 5 − ½L(1 + x) + 2L(1 − x). The right side is −½L(1 − x) − ½L(1 + x).</p><p>The −½L(1 + x) terms cancel: 5 + 2L(1 − x) = −½L(1 − x), so <strong>L(1 − x) = −2</strong>.</p><p>1 − x = 10<sup>−2</sup> = 0.01, so x = 0.99 and 100x = <strong>99</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose hospital A admitted 21 less Covid infected patients than hospital B, and all eventually recovered. The sum of recovery days for patients in hospitals A and B were 200 and 152, respectively. If the average recovery days for patients admitted in hospital A was 3 more than the average in hospital B then the number admitted in hospital A was</p>",
+      "answer": "35",
+      "solutionHtml": "<p>Let A admit n patients, so B admits n + 21. Then 200/n − 152/(n + 21) = 3.</p><p>200(n + 21) − 152n = 3n(n + 21), so 48n + 4200 = 3n<sup>2</sup> + 63n, giving n<sup>2</sup> + 5n − 1400 = 0, i.e. (n + 40)(n − 35) = 0.</p><p>n = <strong>35</strong>. Check: 200/35 ≈ 5.71 and 152/56 ≈ 2.71; the difference is 3 ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratics & modulus",
+      "difficulty": "easy",
+      "stemHtml": "<p>If r is a constant such that |x<sup>2</sup> − 4x − 13| = r has exactly three distinct real roots, then the value of r is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "17"
+        },
+        {
+          "id": "B",
+          "textHtml": "18"
+        },
+        {
+          "id": "C",
+          "textHtml": "15"
+        },
+        {
+          "id": "D",
+          "textHtml": "21"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The graph of |x<sup>2</sup> − 4x − 13| is the parabola with its part below the x-axis reflected upward. The vertex value is (2)<sup>2</sup> − 8 − 13 = −17, so the reflected bump peaks at height 17 at x = 2.</p><p>A horizontal line y = r meets this graph in 3 points <strong>only when it touches the top of the bump</strong>: r = <strong>17</strong>. (Then x<sup>2</sup> − 4x − 13 = 17 gives 2 roots and = −17 gives the double root x = 2.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Compound interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anil invests some money at a fixed rate of interest, compounded annually. If the interests accrued during the second and third year are ₹ 806.25 and ₹ 866.72, respectively, the interest accrued, in INR, during the fourth year is nearest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "931.72"
+        },
+        {
+          "id": "B",
+          "textHtml": "926.84"
+        },
+        {
+          "id": "C",
+          "textHtml": "934.65"
+        },
+        {
+          "id": "D",
+          "textHtml": "929.48"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Under annual compounding, each year’s interest is (1 + r) times the previous year’s.</p><p>1 + r = 866.72/806.25 = 1.075 (since 806.25 × 1.075 = 866.72), so r = 7.5%.</p><p>Fourth-year interest = 866.72 × 1.075 = 866.72 + 65.004 ≈ <strong>931.72</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Triangles & incircle",
+      "difficulty": "medium",
+      "stemHtml": "<p>A circle of diameter 8 inches is inscribed in a triangle ABC where ∠ABC = 90°. If BC = 10 inches then the area of the triangle in square inches is</p>",
+      "answer": "120",
+      "solutionHtml": "<p>Inradius r = 4. In a right triangle, <strong>r = (sum of legs − hypotenuse)/2</strong>.</p><p>Let AB = a and AC = c: (a + 10 − c)/2 = 4, so c = a + 2. Pythagoras: (a + 2)<sup>2</sup> = a<sup>2</sup> + 100, so 4a + 4 = 100 and a = 24 (sides 10, 24, 26).</p><p>Check with area = r × s: s = (10 + 24 + 26)/2 = 30, and 4 × 30 = 120 ✓. Area = ½ × 24 × 10 = <strong>120</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Trains",
+      "difficulty": "easy",
+      "stemHtml": "<p>Two trains cross each other in 14 seconds when running in opposite directions along parallel tracks. The faster train is 160 m long and crosses a lamp post in 12 seconds. If the speed of the other train is 6 km/hr less than the faster one, its length, in m, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "190"
+        },
+        {
+          "id": "B",
+          "textHtml": "184"
+        },
+        {
+          "id": "C",
+          "textHtml": "192"
+        },
+        {
+          "id": "D",
+          "textHtml": "180"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Faster train speed = 160/12 = 40/3 m/s = 48 km/h. Other train = 42 km/h = 35/3 m/s.</p><p>Opposite directions: relative speed = 75/3 = 25 m/s. In 14 s they cover 350 m = sum of lengths.</p><p>Other train = 350 − 160 = <strong>190</strong> m.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Linear equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>A basket of 2 apples, 4 oranges and 6 mangoes costs the same as a basket of 1 apple, 4 oranges and 8 mangoes, or a basket of 8 oranges and 7 mangoes. Then the number of mangoes in a basket of mangoes that has the same cost as the other baskets is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12"
+        },
+        {
+          "id": "B",
+          "textHtml": "13"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "11"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>2a + 4o + 6m = a + 4o + 8m gives <strong>a = 2m</strong>.</p><p>Then the first basket = 4m + 4o + 6m = 4o + 10m, which must equal 8o + 7m, so 4o = 3m.</p><p>Basket cost = 4o + 10m = 3m + 10m = 13m, so <strong>13</strong> mangoes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>Amar, Akbar and Anthony are working on a project. Working together Amar and Akbar can complete the project in 1 year, Akbar and Anthony can complete in 16 months, Anthony and Amar can complete in 2 years. If the person who is neither the fastest nor the slowest works alone, the time in months he will take to complete the project is</p>",
+      "answer": "32",
+      "solutionHtml": "<p>Monthly rates: Amar + Akbar = 1/12, Akbar + Anthony = 1/16, Anthony + Amar = 1/24.</p><p>Adding: 2(sum) = 4/48 + 3/48 + 2/48 = 9/48, so all three together = 9/96 = 3/32.</p><p>Amar = 3/32 − 1/16 = <strong>1/32</strong>; Akbar = 9/96 − 4/96 = 5/96; Anthony = 9/96 − 8/96 = 1/96.</p><p>Order: Akbar (5/96) &gt; Amar (3/96) &gt; Anthony (1/96). The middle one, Amar, takes <strong>32</strong> months.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration (polygons)",
+      "difficulty": "easy",
+      "stemHtml": "<p>If the area of a regular hexagon is equal to the area of an equilateral triangle of side 12 cm, then the length, in cm, of each side of the hexagon is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6√6"
+        },
+        {
+          "id": "B",
+          "textHtml": "2√6"
+        },
+        {
+          "id": "C",
+          "textHtml": "√6"
+        },
+        {
+          "id": "D",
+          "textHtml": "4√6"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Triangle area = (√3/4) × 144 = 36√3. A regular hexagon of side s is 6 equilateral triangles: area = 6 × (√3/4)s<sup>2</sup>.</p><p>6 × (√3/4)s<sup>2</sup> = 36√3, so s<sup>2</sup> = 24 and s = <strong>2√6</strong>.</p><p>Quick check: the hexagon has the area of 6 small triangles and the big triangle has the area of 144/s<sup>2</sup> small triangles, so 144/s<sup>2</sup> = 6.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>Amal purchases some pens at ₹ 8 each. To sell these, he hires an employee at a fixed wage. He sells 100 of these pens at ₹ 12 each. If the remaining pens are sold at ₹ 11 each, then he makes a net profit of ₹ 300, while he makes a net loss of ₹ 300 if the remaining pens are sold at ₹ 9 each. The wage of the employee, in INR, is</p>",
+      "answer": "1000",
+      "solutionHtml": "<p>Let the remaining pens be R. The two scenarios differ only in the price of these R pens (₹2 each), and the outcome differs by ₹600, so <strong>R = 300</strong> and the total is 400 pens.</p><p>Profit case: revenue = 100 × 12 + 300 × 11 = 4500; cost of pens = 400 × 8 = 3200. 4500 − 3200 − W = 300, so W = <strong>1000</strong>.</p><p>Check with the loss case: 1200 + 2700 − 3200 − 1000 = −300 ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities & modulus",
+      "difficulty": "easy",
+      "stemHtml": "<p>The number of integers n that satisfy the inequalities |n − 60| &lt; |n − 100| &lt; |n − 20| is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "19"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "18"
+        },
+        {
+          "id": "D",
+          "textHtml": "21"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>|n − 60| &lt; |n − 100| means n is closer to 60 than to 100, so n &lt; 80.</p><p>|n − 100| &lt; |n − 20| means n is closer to 100 than to 20, so n &gt; 60.</p><p>So 60 &lt; n &lt; 80: n = 61, …, 79, giving <strong>19</strong> integers.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>Identical chocolate pieces are sold in boxes of two sizes, small and large. The large box is sold for twice the price of the small box. If the selling price per gram of chocolate in the large box is 12% less than that in the small box, then the percentage by which the weight of chocolate in the large box exceeds that in the small box is nearest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "127"
+        },
+        {
+          "id": "B",
+          "textHtml": "124"
+        },
+        {
+          "id": "C",
+          "textHtml": "144"
+        },
+        {
+          "id": "D",
+          "textHtml": "135"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the small box cost p and weigh w; the large box costs 2p and weighs W.</p><p>2p/W = 0.88 × p/w, so W/w = 2/0.88 = 2.2727…</p><p>The large box is heavier by about <strong>127%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Series",
+      "difficulty": "easy",
+      "stemHtml": "<p>The natural numbers are divided into groups as (1), (2, 3, 4), (5, 6, 7, 8, 9), ….. and so on. Then, the sum of the numbers in the 15th group is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6119"
+        },
+        {
+          "id": "B",
+          "textHtml": "6090"
+        },
+        {
+          "id": "C",
+          "textHtml": "7471"
+        },
+        {
+          "id": "D",
+          "textHtml": "4941"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Group k has 2k − 1 numbers and <strong>ends at k<sup>2</sup></strong> (1, 4, 9, …).</p><p>The 15th group runs from 14<sup>2</sup> + 1 = 197 to 15<sup>2</sup> = 225, which is 29 numbers.</p><p>Sum = 29 × (197 + 225)/2 = 29 × 211 = <strong>6119</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>Onion is sold for 5 consecutive months at the rate of Rs 10, 20, 25, 25, and 50 per kg, respectively. A family spends a fixed amount of money on onion for each of the first three months, and then spends half that amount on onion for each of the next two months. The average expense for onion, in rupees per kg, for the family over these 5 months is closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "26"
+        },
+        {
+          "id": "B",
+          "textHtml": "16"
+        },
+        {
+          "id": "C",
+          "textHtml": "18"
+        },
+        {
+          "id": "D",
+          "textHtml": "20"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Take the monthly spend as ₹100 for months 1–3 and ₹50 for months 4–5, a total of ₹400.</p><p>Onion bought: 100/10 + 100/20 + 100/25 + 50/25 + 50/50 = 10 + 5 + 4 + 2 + 1 = 22 kg.</p><p>Average cost = total money / total quantity = 400/22 ≈ 18.2, so the answer is <strong>18</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate geometry",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose the length of each side of a regular hexagon ABCDEF is 2 cm. If T is the mid point of CD, then the length of AT, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "√13"
+        },
+        {
+          "id": "B",
+          "textHtml": "√15"
+        },
+        {
+          "id": "C",
+          "textHtml": "√14"
+        },
+        {
+          "id": "D",
+          "textHtml": "√12"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Place the centre at the origin: A(2, 0), B(1, √3), C(−1, √3), D(−2, 0).</p><p>T = midpoint of CD = (−1.5, √3/2).</p><p>AT<sup>2</sup> = (3.5)<sup>2</sup> + (√3/2)<sup>2</sup> = 12.25 + 0.75 = 13, so AT = <strong>√13</strong>.</p><p>Alternative: AC = 2√3, CD = 2 and ∠ACD = 90°, so AT<sup>2</sup> = AC<sup>2</sup> + CT<sup>2</sup> = 12 + 1 = 13.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "easy",
+      "stemHtml": "<p>f(x) = (x<sup>2</sup> + 2x − 15)/(x<sup>2</sup> − 7x − 18) is negative if and only if</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "x &lt; −5 or 3 &lt; x &lt; 9"
+        },
+        {
+          "id": "B",
+          "textHtml": "−5 &lt; x &lt; −2 or 3 &lt; x &lt; 9"
+        },
+        {
+          "id": "C",
+          "textHtml": "x &lt; −5 or −2 &lt; x &lt; 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "−2 &lt; x &lt; 3 or x &gt; 9"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Factor: f(x) = (x + 5)(x − 3) / [(x − 9)(x + 2)]. The critical points are −5, −2, 3, 9.</p><p><strong>Sign chart</strong> (all factors are linear, so signs alternate): positive for x &gt; 9, negative on (3, 9), positive on (−2, 3), negative on (−5, −2), positive for x &lt; −5.</p><p>Spot check x = 0: (−15)/(−18) &gt; 0 ✓. f &lt; 0 exactly for −5 &lt; x &lt; −2 or 3 &lt; x &lt; 9, which is option <strong>B</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Combinations",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of groups of three or more distinct numbers that can be chosen from 1, 2, 3, 4, 5, 6, 7 and 8 so that the groups always include 3 and 5, while 7 and 8 are never included together is</p>",
+      "answer": "47",
+      "solutionHtml": "<p>3 and 5 are fixed. Choose any subset of the other six numbers {1, 2, 4, 6, 7, 8}; it must be non-empty so that the group has at least 3 numbers.</p><p>All subsets: 2<sup>6</sup> = 64. Subsets with both 7 and 8: 2<sup>4</sup> = 16. Allowed: 64 − 16 = 48.</p><p>Remove the empty subset: 48 − 1 = <strong>47</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

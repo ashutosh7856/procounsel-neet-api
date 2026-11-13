@@ -1,0 +1,70 @@
+{
+  "id": "snap",
+  "name": "Symbiosis National Aptitude Test (SNAP)",
+  "conductingBody": "Symbiosis Test Secretariat, Symbiosis International (Deemed University), Pune",
+  "officialUrl": "https://www.snaptest.org/",
+  "adaptive": false,
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "GE",
+          "name": "General English",
+          "questionCount": 10,
+          "durationMinutes": null
+        },
+        {
+          "id": "ALR",
+          "name": "Analytical & Logical Reasoning",
+          "questionCount": 20,
+          "durationMinutes": null
+        },
+        {
+          "id": "QDIDS",
+          "name": "Quantitative, Data Interpretation & Data Sufficiency",
+          "questionCount": 20,
+          "durationMinutes": null
+        },
+        {
+          "id": "EMV",
+          "name": "Ethics, Morality and Values",
+          "questionCount": 10,
+          "durationMinutes": null
+        }
+      ],
+      "timerBlocks": [
+        {
+          "id": "ALL",
+          "name": "SNAP",
+          "sectionIds": [
+            "GE",
+            "ALR",
+            "QDIDS",
+            "EMV"
+          ],
+          "durationMinutes": 60
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": -0.25,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 60,
+      "sectionOrderLocked": false,
+      "scoring": "official",
+      "scoringNote": "+1 for a correct answer; each wrong answer attracts 25% negative marks (-0.25). Unanswered questions score 0. One 60-minute timer; attempt sections in any order.",
+      "source": {
+        "kind": "official",
+        "title": "SNAP Test Structure (SNAP 2026)",
+        "url": "https://www.snaptest.org/snap-exam-syllabus",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

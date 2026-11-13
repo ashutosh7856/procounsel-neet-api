@@ -1,0 +1,979 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Relative speed",
+      "difficulty": "easy",
+      "stemHtml": "<p>Points A, P, Q and B lie on the same line such that P, Q and B are, respectively, 100 km, 200 km and 300 km away from A. Cars 1 and 2 leave A at the same time and move towards B. Simultaneously, car 3 leaves B and moves towards A. Car 3 meets car 1 at Q, and car 2 at P. If each car is moving in uniform speed then the ratio of the speed of car 2 to that of car 1 is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1:2"
+        },
+        {
+          "id": "B",
+          "textHtml": "2:9"
+        },
+        {
+          "id": "C",
+          "textHtml": "1:4"
+        },
+        {
+          "id": "D",
+          "textHtml": "2:7"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Car 3 covers BQ = 100 km to meet car 1 and BP = 200 km to meet car 2, so the second meeting happens at <strong>twice the time</strong> of the first: t and 2t.</p><p>Car 1 covers 200 km in t; car 2 covers 100 km in 2t. Speeds: v<sub>1</sub> = 200/t, v<sub>2</sub> = 50/t.</p><p>v<sub>2</sub> : v<sub>1</sub> = <strong>1 : 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Pipes & cisterns",
+      "difficulty": "medium",
+      "stemHtml": "<p>A water tank has inlets of two types A and B. All inlets of type A when open, bring in water at the same rate. All inlets of type B, when open, bring in water at the same rate. The empty tank is completely filled in 30 minutes if 10 inlets of type A and 45 inlets of type B are open, and in 1 hour if 8 inlets of type A and 18 inlets of type B are open. In how many minutes will the empty tank get completely filled if 7 inlets of type A and 27 inlets of type B are open?</p>",
+      "answer": "48",
+      "solutionHtml": "<p>Let one A inlet fill a fraction a of the tank per minute, one B inlet b.</p><p>10a + 45b = 1/30 and 8a + 18b = 1/60, i.e. 16a + 36b = 1/30. Equating: 10a + 45b = 16a + 36b, so <strong>6a = 9b, a = 1.5b</strong>.</p><p>Then 15b + 45b = 60b = 1/30, so b = 1/1800 and a = 1/1200.</p><p>7a + 27b = 7/1200 + 27/1800 = 21/3600 + 54/3600 = 75/3600 = 1/48. Time = <strong>48</strong> minutes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Digits",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many two-digit numbers, with a non-zero digit in the units place, are there which are more than thrice the number formed by interchanging the positions of its digits?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Number 10a + b with b ≥ 1: 10a + b &gt; 3(10b + a) gives <strong>7a &gt; 29b</strong>.</p><p>b = 1: a &gt; 4.14, so a = 5, 6, 7, 8, 9 (5 numbers). b = 2: a &gt; 8.29, so a = 9 (1 number). b ≥ 3 needs a &gt; 12, impossible.</p><p>Total = <strong>6</strong> (51, 61, 71, 81, 91, 92).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>A tank is emptied everyday at a fixed time point. Immediately thereafter, either pump A or pump B or both start working until the tank is full. On Monday, A alone completed filling the tank at 8 pm. On Tuesday, B alone completed filling the tank at 6 pm. On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank. At what time was the tank filled on Thursday if both pumps were used simultaneously all along?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4:36 pm"
+        },
+        {
+          "id": "B",
+          "textHtml": "4:24 pm"
+        },
+        {
+          "id": "C",
+          "textHtml": "4:12 pm"
+        },
+        {
+          "id": "D",
+          "textHtml": "4:48 pm"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let the tank be emptied at time T (in hours, 24-hour clock). A alone takes 20 − T hours, B alone 18 − T hours.</p><p>Wednesday: A works 17 − T hours, then B 2 hours: (17 − T)/(20 − T) + 2/(18 − T) = 1, so 2/(18 − T) = 3/(20 − T), giving 40 − 2T = 54 − 3T and <strong>T = 14</strong> (2 pm).</p><p>So A takes 6 h and B 4 h. Together: 1/(1/6 + 1/4) = 12/5 h = 2 h 24 min. Filled at <strong>4:24 pm</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration",
+      "difficulty": "easy",
+      "stemHtml": "<p>The area of a rectangle and the square of its perimeter are in the ratio 1 : 25. Then the lengths of the shorter and longer sides of the rectangle are in the ratio</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1:4"
+        },
+        {
+          "id": "B",
+          "textHtml": "3:8"
+        },
+        {
+          "id": "C",
+          "textHtml": "2:9"
+        },
+        {
+          "id": "D",
+          "textHtml": "1:3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Sides l and w: lw / [2(l + w)]<sup>2</sup> = 1/25, so 25lw = 4(l + w)<sup>2</sup>, i.e. 4l<sup>2</sup> − 17lw + 4w<sup>2</sup> = 0.</p><p>This factors as (4l − w)(l − 4w) = 0, so one side is 4 times the other: ratio <strong>1 : 4</strong>.</p><p>Quick check with options: sides 1 and 4 give area 4, perimeter 10, and 4 : 100 = 1 : 25.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "easy",
+      "stemHtml": "<p>If the sum of squares of two numbers is 97, then which one of the following cannot be their product?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "64"
+        },
+        {
+          "id": "B",
+          "textHtml": "48"
+        },
+        {
+          "id": "C",
+          "textHtml": "-32"
+        },
+        {
+          "id": "D",
+          "textHtml": "16"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Since (x − y)<sup>2</sup> ≥ 0 and (x + y)<sup>2</sup> ≥ 0, we get <strong>|2xy| ≤ x<sup>2</sup> + y<sup>2</sup> = 97</strong>, so −48.5 ≤ xy ≤ 48.5.</p><p>48, −32 and 16 lie in this range (real numbers can give any product in it). <strong>64</strong> does not, so it cannot be the product.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Quadratic inequalities",
+      "difficulty": "medium",
+      "stemHtml": "<p>If a and b are integers such that 2x<sup>2</sup> − ax + 2 &gt; 0 and x<sup>2</sup> − bx + 8 ≥ 0 for all real numbers x, then the largest possible value of 2a − 6b is</p>",
+      "answer": "36",
+      "solutionHtml": "<p>A quadratic with positive leading coefficient stays positive for all x when its discriminant is negative (≤ 0 allows touching zero).</p><p>2x<sup>2</sup> − ax + 2 &gt; 0: a<sup>2</sup> − 16 &lt; 0, so a ∈ {−3, …, 3}. x<sup>2</sup> − bx + 8 ≥ 0: b<sup>2</sup> ≤ 32, so b ∈ {−5, …, 5}.</p><p>Maximise 2a − 6b with a = 3 and b = −5: 6 + 30 = <strong>36</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Series",
+      "difficulty": "medium",
+      "stemHtml": "<p>The value of the sum 7 × 11 + 11 × 15 + 15 × 19 + ... + 95 × 99 is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "80730"
+        },
+        {
+          "id": "B",
+          "textHtml": "80751"
+        },
+        {
+          "id": "C",
+          "textHtml": "80707"
+        },
+        {
+          "id": "D",
+          "textHtml": "80773"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The k-th term is (4k + 3)(4k + 7) = 16k<sup>2</sup> + 40k + 21, for k = 1 to 23 (since 4 × 23 + 3 = 95).</p><p>Σk = 276, Σk<sup>2</sup> = 23 × 24 × 47 / 6 = 4324.</p><p>Sum = 16 × 4324 + 40 × 276 + 21 × 23 = 69184 + 11040 + 483 = <strong>80707</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Divisibility",
+      "difficulty": "medium",
+      "stemHtml": "<p>If A = {6<sup>2n</sup> − 35n − 1 : n = 1, 2, 3, ...} and B = {35(n − 1) : n = 1, 2, 3, ...} then which of the following is true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Every member of B is in A"
+        },
+        {
+          "id": "B",
+          "textHtml": "Every member of A is in B and at least one member of B is not in A"
+        },
+        {
+          "id": "C",
+          "textHtml": "Neither every member of A is in B nor every member of B is in A"
+        },
+        {
+          "id": "D",
+          "textHtml": "At least one member of A is not in B"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>6<sup>2n</sup> = 36<sup>n</sup> = (1 + 35)<sup>n</sup> = 1 + 35n + 35<sup>2</sup>(…), so <strong>36<sup>n</sup> − 35n − 1 is a non-negative multiple of 35<sup>2</sup></strong> (n = 1 gives 0, n = 2 gives 1225).</p><p>B = {0, 35, 70, 105, …} is every non-negative multiple of 35. So every member of A is in B, but 35 (in B) is not in A, since A's members are multiples of 1225.</p><p>Answer: <strong>every member of A is in B and at least one member of B is not in A</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Combinations",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a tournament, there are 43 junior level and 51 senior level participants. Each pair of juniors play one match. Each pair of seniors play one match. There is no junior versus senior match. The number of girl versus girl matches in junior level is 153, while the number of boy versus boy matches in senior level is 276. The number of matches a boy plays against a girl is</p>",
+      "answer": "1098",
+      "solutionHtml": "<p>Juniors: girls g with C(g, 2) = 153 gives g(g − 1) = 306, so <strong>g = 18</strong>; boys = 43 − 18 = 25. Boy-girl matches = 18 × 25 = 450.</p><p>Seniors: boys b with C(b, 2) = 276 gives b(b − 1) = 552, so <strong>b = 24</strong>; girls = 51 − 24 = 27. Boy-girl matches = 24 × 27 = 648.</p><p>Total boy-versus-girl matches = 450 + 648 = <strong>1098</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles – chords",
+      "difficulty": "easy",
+      "stemHtml": "<p>A chord of length 5 cm subtends an angle of 60° at the centre of a circle. The length, in cm, of a chord that subtends an angle of 120° at the centre of the same circle is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "8"
+        },
+        {
+          "id": "C",
+          "textHtml": "2π"
+        },
+        {
+          "id": "D",
+          "textHtml": "6√2"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>A 60° chord forms an equilateral triangle with the two radii, so <strong>r = 5</strong>.</p><p>A chord subtending 120° has length 2r sin 60° = 2 × 5 × (√3/2) = <strong>5√3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration",
+      "difficulty": "easy",
+      "stemHtml": "<p>From a rectangle ABCD of area 768 sq cm, a semicircular part with diameter AB and area 72π sq cm is removed. The perimeter of the leftover portion, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "86 + 8π"
+        },
+        {
+          "id": "B",
+          "textHtml": "88 + 12π"
+        },
+        {
+          "id": "C",
+          "textHtml": "80 + 16π"
+        },
+        {
+          "id": "D",
+          "textHtml": "82 + 24π"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Semicircle area πr<sup>2</sup>/2 = 72π gives r = 12, so AB = 24. Then BC = 768/24 = 32.</p><p>The leftover boundary is BC + CD + DA plus the semicircular arc instead of AB: 32 + 24 + 32 + π × 12 = <strong>88 + 12π</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Simple & compound interest",
+      "difficulty": "medium",
+      "stemHtml": "<p>Gopal borrows Rs. X from Ankit at 8% annual interest. He then adds Rs. Y of his own money and lends Rs. X+Y to Ishan at 10% annual interest. At the end of the year, after returning Ankit’s dues, the net interest retained by Gopal is the same as that accrued to Ankit. On the other hand, had Gopal lent Rs. X+2Y to Ishan at 10%, then the net interest retained by him would have increased by Rs. 150. If all interests are compounded annually, then find the value of X + Y.</p>",
+      "answer": "4000",
+      "solutionHtml": "<p>Everything runs for one year, so compound and simple interest are the same.</p><p>Gopal earns 0.1(X + Y) from Ishan and pays 0.08X to Ankit. Net retained = 0.08X: 0.1X + 0.1Y − 0.08X = 0.08X, so <strong>0.1Y = 0.06X</strong>.</p><p>Lending X + 2Y instead raises his earning by 0.1Y, so 0.1Y = 150 and Y = 1500. Then X = 2500.</p><p>X + Y = <strong>4000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>The smallest integer n for which 4<sup>n</sup> &gt; 17<sup>19</sup> holds, is closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "39"
+        },
+        {
+          "id": "B",
+          "textHtml": "35"
+        },
+        {
+          "id": "C",
+          "textHtml": "37"
+        },
+        {
+          "id": "D",
+          "textHtml": "33"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Take logs: n &gt; 19 × log 17 / log 4 = 19 × 1.2304 / 0.6021 ≈ 19 × 2.044 ≈ 38.8.</p><p>So the smallest integer n is <strong>39</strong>.</p><p>Quick check: 17 is a little more than 16 = 4<sup>2</sup>, so n is a little more than 38; 17/16 = 1.0625, and 1.0625<sup>19</sup> ≈ 3.2 &lt; 4, so one extra power of 4 is enough: n = 39.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate geometry",
+      "difficulty": "easy",
+      "stemHtml": "<p>A triangle ABC has area 32 sq units and its side BC, of length 8 units, lies on the line x = 4. Then the shortest possible distance between A and the point (0,0) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8 units"
+        },
+        {
+          "id": "B",
+          "textHtml": "2√2 units"
+        },
+        {
+          "id": "C",
+          "textHtml": "4 units"
+        },
+        {
+          "id": "D",
+          "textHtml": "4√2 units"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Area = ½ × BC × (distance of A from the line x = 4) = ½ × 8 × h = 32, so <strong>h = 8</strong>.</p><p>A lies on x = −4 or x = 12. Since B and C can be anywhere on x = 4, A can be any point on these lines. The closest point to the origin is (−4, 0), at distance <strong>4 units</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Set theory",
+      "difficulty": "easy",
+      "stemHtml": "<p>For two sets A and B, let AΔB denote the set of elements which belong to A or B but not both. If P = {1, 2, 3, 4}, Q = {2, 3, 5, 6}, R = {1, 3, 7, 8, 9}, S = {2, 4, 9, 10}, then the number of elements in (PΔQ)Δ(RΔS) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>PΔQ = {1, 4, 5, 6}. RΔS = {1, 2, 3, 4, 7, 8, 10} (9 is common, removed).</p><p>(PΔQ)Δ(RΔS): 1 and 4 are in both, so they drop out; the rest are {5, 6} ∪ {2, 3, 7, 8, 10}, giving <strong>7</strong> elements.</p><p>Shortcut: Δ is associative, so the result is the set of numbers appearing an odd number of times across P, Q, R, S: 2, 3, 5, 6, 7, 8, 10.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>If p<sup>3</sup> = q<sup>4</sup> = r<sup>5</sup> = s<sup>6</sup>, then the value of log<sub>s</sub>(pqr) is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "24/5"
+        },
+        {
+          "id": "C",
+          "textHtml": "16/5"
+        },
+        {
+          "id": "D",
+          "textHtml": "47/10"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let the common value be k. Then log k = 3 log p = 4 log q = 5 log r = 6 log s.</p><p>log<sub>s</sub>p = 6/3 = 2, log<sub>s</sub>q = 6/4 = 3/2, log<sub>s</sub>r = 6/5.</p><p>log<sub>s</sub>(pqr) = 2 + 3/2 + 6/5 = <strong>47/10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & alligation",
+      "difficulty": "medium",
+      "stemHtml": "<p>There are two drums, each containing a mixture of paints A and B. In drum 1, A and B are in the ratio 18 : 7. The mixtures from drums 1 and 2 are mixed in the ratio 3 : 4 and in this final mixture, A and B are in the ratio 13 : 7. In drum 2, then A and B were in the ratio</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "239 : 161"
+        },
+        {
+          "id": "B",
+          "textHtml": "229 : 141"
+        },
+        {
+          "id": "C",
+          "textHtml": "251 : 163"
+        },
+        {
+          "id": "D",
+          "textHtml": "220 : 149"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Fraction of A: drum 1 = 18/25, final = 13/20. Mixing 3 parts of drum 1 with 4 parts of drum 2 (x = fraction of A in drum 2):</p><p>3 × 18/25 + 4x = 7 × 13/20, so 4x = 91/20 − 54/25 = (455 − 216)/100 = 239/100 and x = 239/400.</p><p>In drum 2, A : B = 239 : (400 − 239) = <strong>239 : 161</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>The scores of Amal and Bimal in an examination are in the ratio 11 : 14. After an appeal, their scores increase by the same amount and their new scores are in the ratio 47 : 56. The ratio of Bimal’s new score to that of his original score is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5:4"
+        },
+        {
+          "id": "B",
+          "textHtml": "3:2"
+        },
+        {
+          "id": "C",
+          "textHtml": "8:5"
+        },
+        {
+          "id": "D",
+          "textHtml": "4:3"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Scores 11k and 14k, each raised by d: (11k + d)/(14k + d) = 47/56.</p><p>616k + 56d = 658k + 47d, so 9d = 42k and d = 14k/3.</p><p>Bimal: new/old = (14k + 14k/3)/(14k) = 4/3, i.e. <strong>4 : 3</strong>.</p><p>Quick check: the difference 3k stays the same; in 47 : 56 the difference is 9 parts, so 3k = 9 units and Bimal goes from 14k = 42 units to 56 units, i.e. 4 : 3.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The arithmetic mean of x, y and z is 80, and that of x, y, z, u and v is 75, where u = (x + y)/2 and v = (y + z)/2. If x ≥ z, then the minimum possible value of x is</p>",
+      "answer": "105",
+      "solutionHtml": "<p>x + y + z = 240 and x + y + z + u + v = 375, so u + v = 135.</p><p>u + v = (x + 2y + z)/2 = (240 + y)/2 = 135, so <strong>y = 30</strong> and x + z = 210.</p><p>With x ≥ z, the smallest x is when x = z = <strong>105</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & alligation",
+      "difficulty": "medium",
+      "stemHtml": "<p>The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. If three salt solutions A, B, C are mixed in the proportion 1 : 2 : 3, then the resulting solution has strength 20%. If instead the proportion is 3 : 2 : 1, then the resulting solution has strength 30%. A fourth solution, D, is produced by mixing B and C in the ratio 2 : 7. The ratio of the strength of D to that of A is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1:4"
+        },
+        {
+          "id": "B",
+          "textHtml": "3:10"
+        },
+        {
+          "id": "C",
+          "textHtml": "1:3"
+        },
+        {
+          "id": "D",
+          "textHtml": "2:5"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let the strengths be a, b, c (%). a + 2b + 3c = 6 × 20 = 120 and 3a + 2b + c = 6 × 30 = 180.</p><p>Subtracting: 2a − 2c = 60, so a = c + 30. Then 2b + 4c = 90, so 2b = 90 − 4c.</p><p>Strength of D = (2b + 7c)/9 = (90 − 4c + 7c)/9 = (90 + 3c)/9 = (30 + c)/3 = a/3.</p><p>D : A = <strong>1 : 3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>Points A and B are 150 km apart. Cars 1 and 2 travel from A to B, but car 2 starts from A when car 1 is already 20 km away from A. Each car travels at a speed of 100 kmph for the first 50 km, at 50 kmph for the next 50 km, and at 25 kmph for the last 50 km. The distance, in km, between car 2 and B when car 1 reaches B is</p>",
+      "answer": "5",
+      "solutionHtml": "<p>Each car's timetable: 0–50 km takes 0.5 h, 50–100 km takes 1 h, 100–150 km takes 2 h; total 3.5 h.</p><p>Car 1 is 20 km out after 0.2 h, so car 2 starts 0.2 h later. When car 1 finishes at 3.5 h, car 2 has run for 3.3 h: 1.5 h takes it to 100 km, and the remaining 1.8 h at 25 km/h adds 45 km, so it is at 145 km.</p><p>Distance from B = 150 − 145 = <strong>5</strong> km.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-23",
+      "section": "QA",
+      "number": 23,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Functions – max/min",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let f(x) = max{5x, 52 − 2x<sup>2</sup>}, where x is any positive real number. Then the minimum possible value of f(x) is</p>",
+      "answer": "20",
+      "solutionHtml": "<p>For x &gt; 0, 5x increases and 52 − 2x<sup>2</sup> decreases, so the maximum of the two is smallest <strong>where they are equal</strong>.</p><p>5x = 52 − 2x<sup>2</sup> gives 2x<sup>2</sup> + 5x − 52 = 0, i.e. (x − 4)(2x + 13) = 0, so x = 4.</p><p>Minimum value = 5 × 4 = <strong>20</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-24",
+      "section": "QA",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>1/(log<sub>2</sub>100) − 1/(log<sub>4</sub>100) + 1/(log<sub>5</sub>100) − 1/(log<sub>10</sub>100) + 1/(log<sub>20</sub>100) − 1/(log<sub>25</sub>100) + 1/(log<sub>50</sub>100) = ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "-4"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/2"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Use <strong>1/log<sub>a</sub>b = log<sub>b</sub>a</strong>. The expression becomes log<sub>100</sub>2 − log<sub>100</sub>4 + log<sub>100</sub>5 − log<sub>100</sub>10 + log<sub>100</sub>20 − log<sub>100</sub>25 + log<sub>100</sub>50.</p><p>= log<sub>100</sub>[(2 × 5 × 20 × 50)/(4 × 10 × 25)] = log<sub>100</sub>(10000/1000) = log<sub>100</sub>10 = <strong>1/2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-25",
+      "section": "QA",
+      "number": 25,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Sequences",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let t<sub>1</sub>, t<sub>2</sub>, … be real numbers such that t<sub>1</sub> + t<sub>2</sub> + … + t<sub>n</sub> = 2n<sup>2</sup> + 9n + 13, for every positive integer n ≥ 2. If t<sub>k</sub> = 103, then k equals</p>",
+      "answer": "24",
+      "solutionHtml": "<p>For k ≥ 3, t<sub>k</sub> = S<sub>k</sub> − S<sub>k−1</sub> = 2(2k − 1) + 9 = <strong>4k + 7</strong>.</p><p>4k + 7 = 103 gives <strong>k = 24</strong>. (t<sub>1</sub> and t<sub>2</sub> are not determined separately, but they cannot be at issue since 24 ≥ 3.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-26",
+      "section": "QA",
+      "number": 26,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & alligation",
+      "difficulty": "easy",
+      "stemHtml": "<p>A 20% ethanol solution is mixed with another ethanol solution, say, S of unknown concentration in the proportion 1:3 by volume. This mixture is then mixed with an equal volume of 20% ethanol solution. If the resultant mixture is a 31.25% ethanol solution, then the unknown concentration of S is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "48%"
+        },
+        {
+          "id": "B",
+          "textHtml": "55%"
+        },
+        {
+          "id": "C",
+          "textHtml": "52%"
+        },
+        {
+          "id": "D",
+          "textHtml": "50%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Take 1 part of 20% and 3 parts of S (4 parts), then add 4 more parts of 20%. The final 8 parts contain 5 parts at 20% and 3 parts at s%.</p><p>(5 × 20 + 3s)/8 = 31.25, so 100 + 3s = 250 and s = <strong>50%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-27",
+      "section": "QA",
+      "number": 27,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Triangles & circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>On a triangle ABC, a circle with diameter BC is drawn, intersecting AB and AC at points P and Q, respectively. If the lengths of AB, AC, and CP are 30 cm, 25 cm, and 20 cm respectively, then the length of BQ, in cm, is</p>",
+      "answer": "24",
+      "solutionHtml": "<p>BC is a diameter, so the angles at P and Q are right angles: <strong>CP ⊥ AB and BQ ⊥ AC</strong>. CP and BQ are altitudes of triangle ABC.</p><p>Area = ½ × AB × CP = ½ × 30 × 20 = 300 = ½ × AC × BQ = ½ × 25 × BQ.</p><p>BQ = 600/25 = <strong>24</strong> cm.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-28",
+      "section": "QA",
+      "number": 28,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Polynomial inequalities",
+      "difficulty": "easy",
+      "stemHtml": "<p>The smallest integer n such that n<sup>3</sup> − 11n<sup>2</sup> + 32n − 28 &gt; 0 is</p>",
+      "answer": "8",
+      "solutionHtml": "<p>n = 2 is a root (8 − 44 + 64 − 28 = 0). Dividing: n<sup>3</sup> − 11n<sup>2</sup> + 32n − 28 = (n − 2)(n<sup>2</sup> − 9n + 14) = <strong>(n − 2)<sup>2</sup>(n − 7)</strong>.</p><p>(n − 2)<sup>2</sup> ≥ 0, so the expression is positive exactly when n &gt; 7 (and n ≠ 2). Smallest integer: <strong>8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-29",
+      "section": "QA",
+      "number": 29,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Averages",
+      "difficulty": "hard",
+      "stemHtml": "<p>Let a<sub>1</sub>, a<sub>2</sub>, ... , a<sub>52</sub> be positive integers such that a<sub>1</sub> &lt; a<sub>2</sub> &lt; ... &lt; a<sub>52</sub>. Suppose, their arithmetic mean is one less than the arithmetic mean of a<sub>2</sub>, a<sub>3</sub>, ..., a<sub>52</sub>. If a<sub>52</sub> = 100, then the largest possible value of a<sub>1</sub> is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20"
+        },
+        {
+          "id": "B",
+          "textHtml": "23"
+        },
+        {
+          "id": "C",
+          "textHtml": "45"
+        },
+        {
+          "id": "D",
+          "textHtml": "48"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let S = a<sub>2</sub> + … + a<sub>52</sub> (51 numbers). (a<sub>1</sub> + S)/52 = S/51 − 1 gives 51a<sub>1</sub> + 51S = 52S − 2652, so <strong>S = 51a<sub>1</sub> + 2652</strong>.</p><p>S is largest when a<sub>2</sub>, …, a<sub>52</sub> are 50, 51, …, 100: S ≤ 51 × 75 = 3825.</p><p>51a<sub>1</sub> ≤ 3825 − 2652 = 1173, so a<sub>1</sub> ≤ <strong>23</strong>. a<sub>1</sub> = 23 with a<sub>2</sub>…a<sub>52</sub> = 50…100 works.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-30",
+      "section": "QA",
+      "number": 30,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Quadrilaterals",
+      "difficulty": "easy",
+      "stemHtml": "<p>A parallelogram ABCD has area 48 sqcm. If the length of CD is 8 cm and that of AD is s cm, then which one of the following is necessarily true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5 ≤ s ≤ 7"
+        },
+        {
+          "id": "B",
+          "textHtml": "s≠6"
+        },
+        {
+          "id": "C",
+          "textHtml": "s ≤ 6"
+        },
+        {
+          "id": "D",
+          "textHtml": "s ≥ 6"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Area = base × height: 8 × h = 48, so the distance between AB and CD is <strong>h = 6</strong>.</p><p>AD joins the two parallel sides, so it is at least as long as the perpendicular distance: <strong>s ≥ 6</strong> (equality for a rectangle). s can be any value from 6 upwards, so only D is necessarily true.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-31",
+      "section": "QA",
+      "number": 31,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Powers of 2",
+      "difficulty": "medium",
+      "stemHtml": "<p>If N and x are positive integers such that N<sup>N</sup> = 2<sup>160</sup> and N<sup>2</sup> + 2<sup>N</sup> is an integral multiple of 2<sup>x</sup>, then the largest possible x is</p>",
+      "answer": "10",
+      "solutionHtml": "<p>N must be a power of 2, N = 2<sup>m</sup>: N<sup>N</sup> = 2<sup>m · 2<sup>m</sup></sup>, so m · 2<sup>m</sup> = 160 = 5 × 32, giving m = 5 and <strong>N = 32</strong>.</p><p>N<sup>2</sup> + 2<sup>N</sup> = 2<sup>10</sup> + 2<sup>32</sup> = 2<sup>10</sup>(1 + 2<sup>22</sup>), and 1 + 2<sup>22</sup> is odd.</p><p>Largest x = <strong>10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-32",
+      "section": "QA",
+      "number": 32,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>Ramesh and Ganesh can together complete a work in 16 days. After seven days of working together, Ramesh got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Ganesh had worked alone after Ramesh got sick, in how many days would he have completed the remaining work?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "13.5"
+        },
+        {
+          "id": "B",
+          "textHtml": "14.5"
+        },
+        {
+          "id": "C",
+          "textHtml": "11"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let R and G be daily work (whole job = 1). R + G = 1/16. After 7 days, 9/16 remains, done in 10 days at the reduced rate 0.7R + G.</p><p>10(0.7R + G) = 9/16, i.e. 7R + 10G = 9/16. Also 7R + 7G = 7/16. Subtracting: 3G = 2/16, so <strong>G = 1/24</strong>.</p><p>Ganesh alone on the remaining 9/16: (9/16) × 24 = <strong>13.5</strong> days.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-33",
+      "section": "QA",
+      "number": 33,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Relative speed",
+      "difficulty": "easy",
+      "stemHtml": "<p>On a long stretch of east-west road, A and B are two points such that B is 350 km west of A. One car starts from A and another from B at the same time. If they move towards each other, then they meet after 1 hour. If they both move towards east, then they meet in 7 hrs. The difference between their speeds, in km per hour, is</p>",
+      "answer": "50",
+      "solutionHtml": "<p>Towards each other: sum of speeds × 1 = 350, so a + b = 350.</p><p>Both moving east: the car from B (west) chases the car from A and closes 350 km in 7 h, so the difference of speeds = 350/7 = <strong>50</strong> km/h.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-34",
+      "section": "QA",
+      "number": 34,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures – replacement",
+      "difficulty": "easy",
+      "stemHtml": "<p>A jar contains a mixture of 175 ml water and 700 ml alcohol. Gopal takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30.3"
+        },
+        {
+          "id": "B",
+          "textHtml": "20.2"
+        },
+        {
+          "id": "C",
+          "textHtml": "25.4"
+        },
+        {
+          "id": "D",
+          "textHtml": "35.2"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Alcohol is initially 700/875 = 80%. Each step removes 10% of the mixture and adds water, so the alcohol share is multiplied by 0.9.</p><p>After two steps: 80% × 0.9 × 0.9 = 64.8% alcohol, so water = <strong>35.2%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

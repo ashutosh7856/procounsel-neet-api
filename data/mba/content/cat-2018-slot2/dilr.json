@@ -1,0 +1,1065 @@
+{
+  "sets": [
+    {
+      "key": "di1",
+      "kind": "dilr_set",
+      "title": "Currency exchange outlet",
+      "contentHtml": "<p>The base exchange rate of a currency X with respect to a currency Y is the number of units of currency Y which is equivalent in value to one unit of currency X. Currency exchange outlets buy currency at buying exchange rates that are lower than base exchange rates, and sell currency at selling exchange rates that are higher than base exchange rates.</p><p>A currency exchange outlet uses the local currency L to buy and sell three international currencies A, B, and C, but does not exchange one international currency directly with another. The base exchange rates of A, B and C with respect to L are in the ratio 100:120:1. The buying exchange rates of each of A, B, and C with respect to L are 5% below the corresponding base exchange rates, and their selling exchange rates are 10% above their corresponding base exchange rates.</p><p>The following facts are known about the outlet on a particular day:</p><ol><li>The amount of L used by the outlet to buy C equals the amount of L it received by selling C.</li><li>The amounts of L used by the outlet to buy A and B are in the ratio 5:3.</li><li>The amounts of L the outlet received from the sales of A and B are in the ratio 5:9.</li><li>The outlet received 88000 units of L by selling A during the day.</li><li>The outlet started the day with some amount of L, 2500 units of A, 4800 units of B, and 48000 units of C.</li><li>The outlet ended the day with some amount of L, 3300 units of A, 4800 units of B, and 51000 units of C.</li></ol>"
+    },
+    {
+      "key": "lr1",
+      "kind": "dilr_set",
+      "title": "Sentence coding scheme",
+      "contentHtml": "<p>According to a coding scheme the sentence</p><p><strong>Peacock is designated as the national bird of India</strong></p><p>is coded as</p><p><strong>5688999 35 1135556678 56 458 13666689 1334 79 13366</strong></p><p>This coding scheme has the following rules:</p><ol><li>The scheme is case-insensitive (does not distinguish between upper case and lower case letters).</li><li>Each letter has a unique code which is a single digit from among 1, 2, 3, …, 9.</li><li>The digit 9 codes two letters, and every other digit codes three letters.</li><li>The code for a word is constructed by arranging the digits corresponding to its letters in a non-decreasing sequence.</li></ol>"
+    },
+    {
+      "key": "di2",
+      "kind": "dilr_set",
+      "title": "Entry-level smartphone brands",
+      "contentHtml": "<p>There are only four brands of entry level smartphones called Azra, Bysi, Cxqi, and Dipq in a country. Details about their market share, unit selling price, and profitability (defined as the profit as a percentage of the revenue) for the year 2016 are given in the table below:</p><table><thead><tr><th>Brand</th><th>Market Share (%)</th><th>Unit Selling Price (Rs.)</th><th>Profitability (%)</th></tr></thead><tbody><tr><td>Azra</td><td>40</td><td>15,000</td><td>10</td></tr><tr><td>Bysi</td><td>25</td><td>20,000</td><td>30</td></tr><tr><td>Cxqi</td><td>15</td><td>30,000</td><td>40</td></tr><tr><td>Dipq</td><td>20</td><td>25,000</td><td>30</td></tr></tbody></table><p>In 2017, sales volume of entry level smartphones grew by 40% as compared to that in 2016. Cxqi offered a 40% discount on its unit selling price in 2017, which resulted in a 15% increase in its market share. Each of the other three brands lost 5% market share. However, the profitability of Cxqi came down to half of its value in 2016. The unit selling prices of the other three brands and their profitability values remained the same in 2017 as they were in 2016.</p>"
+    },
+    {
+      "key": "lr2",
+      "kind": "dilr_set",
+      "title": "Interview venue log",
+      "contentHtml": "<p>Seven candidates, Akil, Balaram, Chitra, Divya, Erina, Fatima, and Ganeshan, were invited to interview for a position. Candidates were required to reach the venue before 8 am. Immediately upon arrival, they were sent to one of three interview rooms: 101, 102, and 103. The following venue log shows the arrival times for these candidates. Some of the names have not been recorded in the log and have been marked as ‘?’.</p><table><thead><tr><th>Time</th><th>7:10 am</th><th>7:15 am</th><th>7:25 am</th><th>7:30 am</th><th>7:40 am</th><th>7:45 am</th></tr></thead><tbody><tr><td>Person</td><td>Akil, ?</td><td>?</td><td>?</td><td>Chitra</td><td>Fatima</td><td>?</td></tr></tbody></table><p>Additionally here are some statements from the candidates:</p><ul><li>Balaram: I was the third person to enter Room 101.</li><li>Chitra: I was the last person to enter the room I was allotted to.</li><li>Erina: I was the only person in the room I was allotted to.</li><li>Fatima: Three people including Akil were already in the room that I was allotted to when I entered it.</li><li>Ganeshan: I was one among the two candidates allotted to Room 102.</li></ul>"
+    },
+    {
+      "key": "lr3",
+      "kind": "dilr_set",
+      "title": "College accreditation scores",
+      "contentHtml": "<p>An agency entrusted to accredit colleges looks at four parameters: faculty quality (F), reputation (R), placement quality (P), and infrastructure (I). The four parameters are used to arrive at an overall score, which the agency uses to give an accreditation to the colleges. In each parameter, there are five possible letter grades given, each carrying certain points: A (50 points), B (40 points), C (30 points), D (20 points), and F (0 points). The overall score for a college is the weighted sum of the points scored in the four parameters. The weights of the parameters are 0.1, 0.2, 0.3 and 0.4 in some order, but the order is not disclosed. Accreditation is awarded based on the following scheme:</p><table><thead><tr><th>Range</th><th>Accreditation</th></tr></thead><tbody><tr><td>Overall score ≥ 45</td><td>AAA</td></tr><tr><td>35 ≤ Overall score &lt; 45</td><td>BAA</td></tr><tr><td>25 ≤ Overall score &lt; 35</td><td>BBA</td></tr><tr><td>15 ≤ Overall score &lt; 25</td><td>BBB</td></tr><tr><td>Overall score &lt; 15</td><td>Junk</td></tr></tbody></table><p>Eight colleges apply for accreditation, and receive the following grades in the four parameters (F, R, P, and I):</p><table><thead><tr><th>College</th><th>F</th><th>R</th><th>P</th><th>I</th></tr></thead><tbody><tr><td>A-one</td><td>A</td><td>A</td><td>A</td><td>B</td></tr><tr><td>Best Ed</td><td>B</td><td>C</td><td>D</td><td>D</td></tr><tr><td>Cosmopolitan</td><td>B</td><td>D</td><td>D</td><td>C</td></tr><tr><td>Dominance</td><td>D</td><td>D</td><td>B</td><td>C</td></tr><tr><td>Education Aid</td><td>A</td><td>A</td><td>B</td><td>A</td></tr><tr><td>Fancy</td><td>A</td><td>A</td><td>B</td><td>B</td></tr><tr><td>Global</td><td>C</td><td>F</td><td>D</td><td>D</td></tr><tr><td>High Q</td><td>C</td><td>D</td><td>D</td><td>B</td></tr></tbody></table><p>It is further known that in terms of overall scores:</p><ol><li>High Q is better than Best Ed;</li><li>Best Ed is better than Cosmopolitan; and</li><li>Education Aid is better than A-one.</li></ol>"
+    },
+    {
+      "key": "di3",
+      "kind": "dilr_set",
+      "title": "Product revenue boxes",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2018-slot2/dilr-product-boxes.png"
+      ],
+      "contentHtml": "<p>Each of the 23 boxes in the picture below represents a product manufactured by one of the following three companies: Alfa, Bravo and Charlie. The area of a box is proportional to the revenue from the corresponding product, while its centre represents the Product popularity and Market potential scores of the product (out of 20). The shadings of some of the boxes have got erased.</p><p>(Picture: a 20 × 20 grid with Product popularity on the horizontal axis and Market potential on the vertical axis; Alfa boxes have diagonal hatching, Bravo boxes horizontal stripes, Charlie boxes vertical stripes, and erased boxes are blank.)</p><p>The companies classified their products into four categories based on a combination of scores (out of 20) on the two parameters – Product popularity and Market potential as given below:</p><table><thead><tr><th></th><th>Promising</th><th>Blockbuster</th><th>Doubtful</th><th>No-hope</th></tr></thead><tbody><tr><td>Product popularity score</td><td>&gt; 10</td><td>&gt; 10</td><td>≤ 10</td><td>≤ 10</td></tr><tr><td>Market potential score</td><td>&gt; 10</td><td>≤ 10</td><td>&gt; 10</td><td>≤ 10</td></tr></tbody></table><p>The following facts are known:</p><ol><li>Alfa and Bravo had the same number of products in the Blockbuster category.</li><li>Charlie had more products than Bravo but fewer products than Alfa in the No-hope category.</li><li>Each company had an equal number of products in the Promising category.</li><li>Charlie did not have any product in the Doubtful category, while Alfa had one product more than Bravo in this category.</li><li>Bravo had a higher revenue than Alfa from products in the Doubtful category.</li><li>Charlie had a higher revenue than Bravo from products in the Blockbuster category.</li><li>Bravo and Charlie had the same revenue from products in the No-hope category.</li><li>Alfa and Charlie had the same total revenue considering all products.</li></ol>"
+    },
+    {
+      "key": "lr4",
+      "kind": "dilr_set",
+      "title": "Amusement park tickets",
+      "contentHtml": "<p>Each visitor to an amusement park needs to buy a ticket. Tickets can be Platinum, Gold, or Economy. Visitors are classified as Old, Middle-aged, or Young. The following facts are known about visitors and ticket sales on a particular day:</p><ol><li>140 tickets were sold.</li><li>The number of Middle-aged visitors was twice the number of Old visitors, while the number of Young visitors was twice the number of Middle-aged visitors.</li><li>Young visitors bought 38 of the 55 Economy tickets that were sold, and they bought half the total number of Platinum tickets that were sold.</li><li>The number of Gold tickets bought by Old visitors was equal to the number of Economy tickets bought by Old visitors.</li></ol>"
+    },
+    {
+      "key": "lr5",
+      "kind": "dilr_set",
+      "title": "Fun Sports enrolment",
+      "contentHtml": "<p>Fun Sports (FS) provides training in three sports – Gilli-danda (G), Kho-Kho (K), and Ludo (L). Currently it has an enrollment of 39 students each of whom is enrolled in at least one of the three sports. The following details are known:</p><ol><li>The number of students enrolled only in L is double the number of students enrolled in all the three sports.</li><li>There are a total of 17 students enrolled in G.</li><li>The number of students enrolled only in G is one less than the number of students enrolled only in L.</li><li>The number of students enrolled only in K is equal to the number of students who are enrolled in both K and L.</li><li>The maximum student enrollment is in L.</li><li>Ten students enrolled in G are also enrolled in at least one more sport.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "TITA",
+      "setKey": "di1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Currency exchange",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many units of currency A did the outlet buy on that day?</p>",
+      "answer": "1200",
+      "solutionHtml": "<p><strong>Set-up:</strong> let the base rates be 100k, 120k and k units of L for A, B and C. Buying rates are 0.95 × base (95k, 114k, 0.95k) and selling rates 1.1 × base (110k, 132k, 1.1k).</p><p>Sales of A brought 88000 L, so sales of B brought 88000 × 9/5 = 158400 L. Units of B sold = 158400/132k = 1200/k. B's stock is unchanged (4800 → 4800), so the outlet also bought 1200/k units of B, spending 1200/k × 114k = 136800 L.</p><p>Spending on A : B = 5 : 3, so 228000 L was spent on A, i.e. 228000/95k = 2400/k units bought. Units of A sold = 88000/110k = 800/k. A's stock rose by 3300 − 2500 = 800, so 2400/k − 800/k = 800, giving <strong>k = 2</strong>.</p><p>So base rates are A = 200, B = 240, C = 2; A bought 1200, A sold 400; B bought = sold = 600.</p><p>Units of A bought = 2400/k = 2400/2 = <strong>1200</strong>. (Check: 1200 bought − 400 sold = 800 = 3300 − 2500.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "di1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Currency exchange",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many units of currency C did the outlet sell on that day?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "22000"
+        },
+        {
+          "id": "B",
+          "textHtml": "3000"
+        },
+        {
+          "id": "C",
+          "textHtml": "6000"
+        },
+        {
+          "id": "D",
+          "textHtml": "19000"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Set-up:</strong> let the base rates be 100k, 120k and k units of L for A, B and C. Buying rates are 0.95 × base (95k, 114k, 0.95k) and selling rates 1.1 × base (110k, 132k, 1.1k).</p><p>Sales of A brought 88000 L, so sales of B brought 88000 × 9/5 = 158400 L. Units of B sold = 158400/132k = 1200/k. B's stock is unchanged (4800 → 4800), so the outlet also bought 1200/k units of B, spending 1200/k × 114k = 136800 L.</p><p>Spending on A : B = 5 : 3, so 228000 L was spent on A, i.e. 228000/95k = 2400/k units bought. Units of A sold = 88000/110k = 800/k. A's stock rose by 3300 − 2500 = 800, so 2400/k − 800/k = 800, giving <strong>k = 2</strong>.</p><p>So base rates are A = 200, B = 240, C = 2; A bought 1200, A sold 400; B bought = sold = 600.</p><p>For C, with k = 2: buying rate 1.9, selling rate 2.2. Let b units be bought and s sold. Fact 1: 1.9b = 2.2s. Stock: b − s = 51000 − 48000 = 3000.</p><p>b = 22s/19, so 3s/19 = 3000 and <strong>s = 19000</strong> (b = 22000).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "TITA",
+      "setKey": "di1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Currency exchange",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the base exchange rate of currency B with respect to currency L on that day?</p>",
+      "answer": "240",
+      "solutionHtml": "<p><strong>Set-up:</strong> let the base rates be 100k, 120k and k units of L for A, B and C. Buying rates are 0.95 × base (95k, 114k, 0.95k) and selling rates 1.1 × base (110k, 132k, 1.1k).</p><p>Sales of A brought 88000 L, so sales of B brought 88000 × 9/5 = 158400 L. Units of B sold = 158400/132k = 1200/k. B's stock is unchanged (4800 → 4800), so the outlet also bought 1200/k units of B, spending 1200/k × 114k = 136800 L.</p><p>Spending on A : B = 5 : 3, so 228000 L was spent on A, i.e. 228000/95k = 2400/k units bought. Units of A sold = 88000/110k = 800/k. A's stock rose by 3300 − 2500 = 800, so 2400/k − 800/k = 800, giving <strong>k = 2</strong>.</p><p>So base rates are A = 200, B = 240, C = 2; A bought 1200, A sold 400; B bought = sold = 600.</p><p>Base rate of B = 120k = 120 × 2 = <strong>240</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "di1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Currency exchange",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the buying exchange rate of currency C with respect to currency L on that day?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1.90"
+        },
+        {
+          "id": "B",
+          "textHtml": "1.10"
+        },
+        {
+          "id": "C",
+          "textHtml": "2.20"
+        },
+        {
+          "id": "D",
+          "textHtml": "0.95"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Set-up:</strong> let the base rates be 100k, 120k and k units of L for A, B and C. Buying rates are 0.95 × base (95k, 114k, 0.95k) and selling rates 1.1 × base (110k, 132k, 1.1k).</p><p>Sales of A brought 88000 L, so sales of B brought 88000 × 9/5 = 158400 L. Units of B sold = 158400/132k = 1200/k. B's stock is unchanged (4800 → 4800), so the outlet also bought 1200/k units of B, spending 1200/k × 114k = 136800 L.</p><p>Spending on A : B = 5 : 3, so 228000 L was spent on A, i.e. 228000/95k = 2400/k units bought. Units of A sold = 88000/110k = 800/k. A's stock rose by 3300 − 2500 = 800, so 2400/k − 800/k = 800, giving <strong>k = 2</strong>.</p><p>So base rates are A = 200, B = 240, C = 2; A bought 1200, A sold 400; B bought = sold = 600.</p><p>Base rate of C = k = 2, so its buying rate = 0.95 × 2 = <strong>1.90</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-decoding",
+      "difficulty": "medium",
+      "stemHtml": "<p>What best can be concluded about the code for the letter L?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1 or 8"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Decoding:</strong> \"as\" = 56 and \"is\" = 35 share only s, so <strong>s = 5, a = 6, i = 3</strong>. \"india\" = 13366: i, i, a use 3, 3, 6, so n and d are 1 and 6.</p><p>\"national\" = 13666689 has two n's but only one 1, so <strong>n = 6, d = 1</strong>. Removing n, n, a, a, i leaves 1, 8, 9 for t, o, l.</p><p>\"designated\" = 1135556678: removing d, d, s, i, n, a (1, 1, 5, 3, 6, 6) leaves 5, 5, 7, 8 for e, e, g, t, so <strong>e = 5</strong> and {g, t} = {7, 8}. As t ∈ {1, 8, 9}, <strong>t = 8, g = 7</strong>. \"the\" = 458 gives <strong>h = 4</strong>. Now o and l are 1 and 9.</p><p>\"peacock\" = 5688999 has no 1, so <strong>o = 9, l = 1</strong>. Removing e, a, o leaves 8, 8, 9, 9 for p, c, c, k. If c = 8 then p = k = 9 and 9 would code o, p, k: three letters, not allowed. So <strong>c = 9, p = k = 8</strong>. \"of\" = 79 gives <strong>f = 7</strong>. \"bird\" = 1334: <strong>b and r are 3 and 4</strong> in some order.</p><p>Table: 1 → d, l (+1 unknown); 2 → none known; 3 → i (+ b or r); 4 → h (+ b or r); 5 → s, e; 6 → a, n; 7 → f, g; <strong>8 → t, p, k (complete); 9 → o, c (complete)</strong>.</p><p>L is fixed: \"peacock\" contains o but no digit 1, so o = 9 and l takes the other value from {1, 9}, i.e. <strong>L = 1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-decoding",
+      "difficulty": "medium",
+      "stemHtml": "<p>What best can be concluded about the code for the letter B?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1 or 3 or 4"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "3 or 4"
+        },
+        {
+          "id": "D",
+          "textHtml": "1"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Decoding:</strong> \"as\" = 56 and \"is\" = 35 share only s, so <strong>s = 5, a = 6, i = 3</strong>. \"india\" = 13366: i, i, a use 3, 3, 6, so n and d are 1 and 6.</p><p>\"national\" = 13666689 has two n's but only one 1, so <strong>n = 6, d = 1</strong>. Removing n, n, a, a, i leaves 1, 8, 9 for t, o, l.</p><p>\"designated\" = 1135556678: removing d, d, s, i, n, a (1, 1, 5, 3, 6, 6) leaves 5, 5, 7, 8 for e, e, g, t, so <strong>e = 5</strong> and {g, t} = {7, 8}. As t ∈ {1, 8, 9}, <strong>t = 8, g = 7</strong>. \"the\" = 458 gives <strong>h = 4</strong>. Now o and l are 1 and 9.</p><p>\"peacock\" = 5688999 has no 1, so <strong>o = 9, l = 1</strong>. Removing e, a, o leaves 8, 8, 9, 9 for p, c, c, k. If c = 8 then p = k = 9 and 9 would code o, p, k: three letters, not allowed. So <strong>c = 9, p = k = 8</strong>. \"of\" = 79 gives <strong>f = 7</strong>. \"bird\" = 1334: <strong>b and r are 3 and 4</strong> in some order.</p><p>Table: 1 → d, l (+1 unknown); 2 → none known; 3 → i (+ b or r); 4 → h (+ b or r); 5 → s, e; 6 → a, n; 7 → f, g; <strong>8 → t, p, k (complete); 9 → o, c (complete)</strong>.</p><p>\"bird\" = 1334 with i = 3 and d = 1 leaves 3 and 4 for b and r, and nothing else fixes which is which. So B is <strong>3 or 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-decoding",
+      "difficulty": "medium",
+      "stemHtml": "<p>For how many digits can the complete list of letters associated with that digit be identified?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "0"
+        },
+        {
+          "id": "D",
+          "textHtml": "1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Decoding:</strong> \"as\" = 56 and \"is\" = 35 share only s, so <strong>s = 5, a = 6, i = 3</strong>. \"india\" = 13366: i, i, a use 3, 3, 6, so n and d are 1 and 6.</p><p>\"national\" = 13666689 has two n's but only one 1, so <strong>n = 6, d = 1</strong>. Removing n, n, a, a, i leaves 1, 8, 9 for t, o, l.</p><p>\"designated\" = 1135556678: removing d, d, s, i, n, a (1, 1, 5, 3, 6, 6) leaves 5, 5, 7, 8 for e, e, g, t, so <strong>e = 5</strong> and {g, t} = {7, 8}. As t ∈ {1, 8, 9}, <strong>t = 8, g = 7</strong>. \"the\" = 458 gives <strong>h = 4</strong>. Now o and l are 1 and 9.</p><p>\"peacock\" = 5688999 has no 1, so <strong>o = 9, l = 1</strong>. Removing e, a, o leaves 8, 8, 9, 9 for p, c, c, k. If c = 8 then p = k = 9 and 9 would code o, p, k: three letters, not allowed. So <strong>c = 9, p = k = 8</strong>. \"of\" = 79 gives <strong>f = 7</strong>. \"bird\" = 1334: <strong>b and r are 3 and 4</strong> in some order.</p><p>Table: 1 → d, l (+1 unknown); 2 → none known; 3 → i (+ b or r); 4 → h (+ b or r); 5 → s, e; 6 → a, n; 7 → f, g; <strong>8 → t, p, k (complete); 9 → o, c (complete)</strong>.</p><p>Digit 8 has its full quota of three letters (t, p, k) and digit 9 its full quota of two (o, c). Every other digit still has at least one unknown letter (for example 5 has only s and e; 3 and 4 are not even settled between b and r). So the answer is <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-decoding",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which set of letters CANNOT be coded with the same digit?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "X, Y, Z"
+        },
+        {
+          "id": "B",
+          "textHtml": "S, U, V"
+        },
+        {
+          "id": "C",
+          "textHtml": "I, B, M"
+        },
+        {
+          "id": "D",
+          "textHtml": "S, E, Z"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Decoding:</strong> \"as\" = 56 and \"is\" = 35 share only s, so <strong>s = 5, a = 6, i = 3</strong>. \"india\" = 13366: i, i, a use 3, 3, 6, so n and d are 1 and 6.</p><p>\"national\" = 13666689 has two n's but only one 1, so <strong>n = 6, d = 1</strong>. Removing n, n, a, a, i leaves 1, 8, 9 for t, o, l.</p><p>\"designated\" = 1135556678: removing d, d, s, i, n, a (1, 1, 5, 3, 6, 6) leaves 5, 5, 7, 8 for e, e, g, t, so <strong>e = 5</strong> and {g, t} = {7, 8}. As t ∈ {1, 8, 9}, <strong>t = 8, g = 7</strong>. \"the\" = 458 gives <strong>h = 4</strong>. Now o and l are 1 and 9.</p><p>\"peacock\" = 5688999 has no 1, so <strong>o = 9, l = 1</strong>. Removing e, a, o leaves 8, 8, 9, 9 for p, c, c, k. If c = 8 then p = k = 9 and 9 would code o, p, k: three letters, not allowed. So <strong>c = 9, p = k = 8</strong>. \"of\" = 79 gives <strong>f = 7</strong>. \"bird\" = 1334: <strong>b and r are 3 and 4</strong> in some order.</p><p>Table: 1 → d, l (+1 unknown); 2 → none known; 3 → i (+ b or r); 4 → h (+ b or r); 5 → s, e; 6 → a, n; 7 → f, g; <strong>8 → t, p, k (complete); 9 → o, c (complete)</strong>.</p><p>S = 5, and 5 already codes s and e, leaving room for only one more letter. U and V cannot both be 5, so <strong>S, U, V</strong> cannot share a digit.</p><p>The others are possible: X, Y, Z could all be 2 (no letters yet); I, B, M could all be 3 if b = 3; S, E, Z could all be 5 with z as the third letter.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – revenue",
+      "difficulty": "easy",
+      "stemHtml": "<p>The brand that had the highest revenue in 2016 is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Azra"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bysi"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dipq"
+        },
+        {
+          "id": "D",
+          "textHtml": "Cxqi"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Take 100 units sold in 2016 (prices in Rs. thousand). Revenue = share × price: Azra 40 × 15 = 600, Bysi 25 × 20 = 500, Cxqi 15 × 30 = 450, Dipq 20 × 25 = 500.</p><p>Profit = revenue × profitability: Azra 60, Bysi 150, Cxqi 180, Dipq 150.</p><p>Highest 2016 revenue: <strong>Azra</strong> (600).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – profit",
+      "difficulty": "easy",
+      "stemHtml": "<p>The brand that had the highest profit in 2016 is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Bysi"
+        },
+        {
+          "id": "B",
+          "textHtml": "Azra"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dipq"
+        },
+        {
+          "id": "D",
+          "textHtml": "Cxqi"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Take 100 units sold in 2016 (prices in Rs. thousand). Revenue = share × price: Azra 40 × 15 = 600, Bysi 25 × 20 = 500, Cxqi 15 × 30 = 450, Dipq 20 × 25 = 500.</p><p>Profit = revenue × profitability: Azra 60, Bysi 150, Cxqi 180, Dipq 150.</p><p>Highest 2016 profit: <strong>Cxqi</strong> (180).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – profit",
+      "difficulty": "medium",
+      "stemHtml": "<p>The brand that had the highest profit in 2017 is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Cxqi"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bysi"
+        },
+        {
+          "id": "C",
+          "textHtml": "Azra"
+        },
+        {
+          "id": "D",
+          "textHtml": "Dipq"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>2017: 140 units in all. The shares change by percentage points (they must still add to 100): Cxqi 15 + 15 = 30%, Azra 35%, Bysi 20%, Dipq 15%. Units: Azra 49, Bysi 28, Cxqi 42, Dipq 21. Cxqi's price is 30 × 0.6 = 18 and its profitability 20%.</p><p>Revenue: Azra 49 × 15 = 735, Bysi 28 × 20 = 560, Cxqi 42 × 18 = 756, Dipq 21 × 25 = 525. Profit: Azra 73.5, Bysi 168, Cxqi 151.2, Dipq 157.5.</p><p>Highest 2017 profit: <strong>Bysi</strong> (168), ahead of Dipq (157.5) and Cxqi (151.2).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – profit change",
+      "difficulty": "medium",
+      "stemHtml": "<p>The complete list of brands whose profits went up in 2017 from 2016 is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Bysi, Cxqi, Dipq"
+        },
+        {
+          "id": "B",
+          "textHtml": "Azra, Bysi, Dipq"
+        },
+        {
+          "id": "C",
+          "textHtml": "Azra, Bysi, Cxqi"
+        },
+        {
+          "id": "D",
+          "textHtml": "Cxqi, Azra, Dipq"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Take 100 units sold in 2016 (prices in Rs. thousand). Revenue = share × price: Azra 40 × 15 = 600, Bysi 25 × 20 = 500, Cxqi 15 × 30 = 450, Dipq 20 × 25 = 500.</p><p>Profit = revenue × profitability: Azra 60, Bysi 150, Cxqi 180, Dipq 150.</p><p>2017: 140 units in all. The shares change by percentage points (they must still add to 100): Cxqi 15 + 15 = 30%, Azra 35%, Bysi 20%, Dipq 15%. Units: Azra 49, Bysi 28, Cxqi 42, Dipq 21. Cxqi's price is 30 × 0.6 = 18 and its profitability 20%.</p><p>Revenue: Azra 49 × 15 = 735, Bysi 28 × 20 = 560, Cxqi 42 × 18 = 756, Dipq 21 × 25 = 525. Profit: Azra 73.5, Bysi 168, Cxqi 151.2, Dipq 157.5.</p><p>Azra 60 → 73.5 (up), Bysi 150 → 168 (up), Cxqi 180 → 151.2 (down), Dipq 150 → 157.5 (up). So <strong>Azra, Bysi, Dipq</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "medium",
+      "stemHtml": "<p>What best can be said about the room to which Divya was allotted?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Definitely Room 101"
+        },
+        {
+          "id": "B",
+          "textHtml": "Either Room 101 or Room 102"
+        },
+        {
+          "id": "C",
+          "textHtml": "Definitely Room 103"
+        },
+        {
+          "id": "D",
+          "textHtml": "Definitely Room 102"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Room sizes:</strong> Fatima's room has at least 4 people (Akil, two others, Fatima), Erina's room has 1 and Room 102 has exactly 2. Since 4 + 1 + 2 = 7, Fatima's room has exactly 4.</p><p>Balaram is third in Room 101, so 101 has at least 3 people: it must be Fatima's room, i.e. 101 = Akil, ?, Balaram (3rd), Fatima (4th). Erina is alone in 103. Chitra (7:30) cannot be in 101, since Fatima enters 101 later at 7:40 and Chitra entered her room last. So <strong>102 = Ganeshan and Chitra</strong>, with Ganeshan before 7:30, and the fourth person in 101 is <strong>Divya</strong>.</p><p><strong>Timing:</strong> the unknown slots are 7:10 (with Akil), 7:15, 7:25 and 7:45. Divya and Balaram enter 101 before Fatima (7:40) and Ganeshan comes before Chitra (7:30), so these three take 7:10, 7:15 and 7:25, and <strong>Erina arrives at 7:45</strong>. In 101 the order is Akil, Divya, Balaram.</p><p>Divya is <strong>definitely in Room 101</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who else was in Room 102 when Ganeshan entered?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Divya"
+        },
+        {
+          "id": "B",
+          "textHtml": "No one"
+        },
+        {
+          "id": "C",
+          "textHtml": "Chitra"
+        },
+        {
+          "id": "D",
+          "textHtml": "Akil"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Room sizes:</strong> Fatima's room has at least 4 people (Akil, two others, Fatima), Erina's room has 1 and Room 102 has exactly 2. Since 4 + 1 + 2 = 7, Fatima's room has exactly 4.</p><p>Balaram is third in Room 101, so 101 has at least 3 people: it must be Fatima's room, i.e. 101 = Akil, ?, Balaram (3rd), Fatima (4th). Erina is alone in 103. Chitra (7:30) cannot be in 101, since Fatima enters 101 later at 7:40 and Chitra entered her room last. So <strong>102 = Ganeshan and Chitra</strong>, with Ganeshan before 7:30, and the fourth person in 101 is <strong>Divya</strong>.</p><p><strong>Timing:</strong> the unknown slots are 7:10 (with Akil), 7:15, 7:25 and 7:45. Divya and Balaram enter 101 before Fatima (7:40) and Ganeshan comes before Chitra (7:30), so these three take 7:10, 7:15 and 7:25, and <strong>Erina arrives at 7:45</strong>. In 101 the order is Akil, Divya, Balaram.</p><p>Room 102 holds only Ganeshan and Chitra, and Chitra entered last. So when Ganeshan entered, <strong>no one</strong> was there.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "medium",
+      "stemHtml": "<p>When did Erina reach the venue?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7:45 am"
+        },
+        {
+          "id": "B",
+          "textHtml": "7:15 am"
+        },
+        {
+          "id": "C",
+          "textHtml": "7:25 am"
+        },
+        {
+          "id": "D",
+          "textHtml": "7:10 am"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Room sizes:</strong> Fatima's room has at least 4 people (Akil, two others, Fatima), Erina's room has 1 and Room 102 has exactly 2. Since 4 + 1 + 2 = 7, Fatima's room has exactly 4.</p><p>Balaram is third in Room 101, so 101 has at least 3 people: it must be Fatima's room, i.e. 101 = Akil, ?, Balaram (3rd), Fatima (4th). Erina is alone in 103. Chitra (7:30) cannot be in 101, since Fatima enters 101 later at 7:40 and Chitra entered her room last. So <strong>102 = Ganeshan and Chitra</strong>, with Ganeshan before 7:30, and the fourth person in 101 is <strong>Divya</strong>.</p><p><strong>Timing:</strong> the unknown slots are 7:10 (with Akil), 7:15, 7:25 and 7:45. Divya and Balaram enter 101 before Fatima (7:40) and Ganeshan comes before Chitra (7:30), so these three take 7:10, 7:15 and 7:25, and <strong>Erina arrives at 7:45</strong>. In 101 the order is Akil, Divya, Balaram.</p><p>Erina reached at <strong>7:45 am</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "medium",
+      "stemHtml": "<p>If Ganeshan entered the venue before Divya, when did Balaram enter the venue?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7:45 am"
+        },
+        {
+          "id": "B",
+          "textHtml": "7:25 am"
+        },
+        {
+          "id": "C",
+          "textHtml": "7:10 am"
+        },
+        {
+          "id": "D",
+          "textHtml": "7:15 am"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Room sizes:</strong> Fatima's room has at least 4 people (Akil, two others, Fatima), Erina's room has 1 and Room 102 has exactly 2. Since 4 + 1 + 2 = 7, Fatima's room has exactly 4.</p><p>Balaram is third in Room 101, so 101 has at least 3 people: it must be Fatima's room, i.e. 101 = Akil, ?, Balaram (3rd), Fatima (4th). Erina is alone in 103. Chitra (7:30) cannot be in 101, since Fatima enters 101 later at 7:40 and Chitra entered her room last. So <strong>102 = Ganeshan and Chitra</strong>, with Ganeshan before 7:30, and the fourth person in 101 is <strong>Divya</strong>.</p><p><strong>Timing:</strong> the unknown slots are 7:10 (with Akil), 7:15, 7:25 and 7:45. Divya and Balaram enter 101 before Fatima (7:40) and Ganeshan comes before Chitra (7:30), so these three take 7:10, 7:15 and 7:25, and <strong>Erina arrives at 7:45</strong>. In 101 the order is Akil, Divya, Balaram.</p><p>Ganeshan, Divya and Balaram fill 7:10, 7:15 and 7:25, with Divya before Balaram (Divya is second in 101 and Balaram third). If Ganeshan also comes before Divya, the order is Ganeshan 7:10, Divya 7:15, <strong>Balaram 7:25 am</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Weighted scores",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the weight of the faculty quality parameter?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0.3"
+        },
+        {
+          "id": "B",
+          "textHtml": "0.1"
+        },
+        {
+          "id": "C",
+          "textHtml": "0.2"
+        },
+        {
+          "id": "D",
+          "textHtml": "0.4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Finding the weights</strong> (w<sub>F</sub>, w<sub>R</sub>, w<sub>P</sub>, w<sub>I</sub>):</p><p>Best Ed (40, 30, 20, 20) &gt; Cosmopolitan (40, 20, 20, 30) gives 10w<sub>R</sub> &gt; 10w<sub>I</sub>, so w<sub>R</sub> &gt; w<sub>I</sub>. Education Aid (50, 50, 40, 50) &gt; A-one (50, 50, 50, 40) gives w<sub>I</sub> &gt; w<sub>P</sub>. High Q (30, 20, 20, 40) &gt; Best Ed (40, 30, 20, 20) gives 20w<sub>I</sub> &gt; 10w<sub>F</sub> + 10w<sub>R</sub>, i.e. 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub>.</p><p>With w<sub>R</sub> &gt; w<sub>I</sub> &gt; w<sub>P</sub>, try each value of w<sub>F</sub>: only <strong>w<sub>F</sub> = 0.1, w<sub>R</sub> = 0.4, w<sub>I</sub> = 0.3, w<sub>P</sub> = 0.2</strong> satisfies 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub> (0.6 &gt; 0.5). For example w<sub>F</sub> = 0.2 forces R, I, P = 0.4, 0.3, 0.1 and 0.6 &gt; 0.6 fails.</p><p><strong>Scores:</strong> A-one 47, Best Ed 26, Cosmopolitan 25, Dominance 27, Education Aid 48, Fancy 45, Global 13, High Q 27.</p><p>Faculty weight = <strong>0.1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "TITA",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Weighted scores",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many colleges receive the accreditation of AAA?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Finding the weights</strong> (w<sub>F</sub>, w<sub>R</sub>, w<sub>P</sub>, w<sub>I</sub>):</p><p>Best Ed (40, 30, 20, 20) &gt; Cosmopolitan (40, 20, 20, 30) gives 10w<sub>R</sub> &gt; 10w<sub>I</sub>, so w<sub>R</sub> &gt; w<sub>I</sub>. Education Aid (50, 50, 40, 50) &gt; A-one (50, 50, 50, 40) gives w<sub>I</sub> &gt; w<sub>P</sub>. High Q (30, 20, 20, 40) &gt; Best Ed (40, 30, 20, 20) gives 20w<sub>I</sub> &gt; 10w<sub>F</sub> + 10w<sub>R</sub>, i.e. 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub>.</p><p>With w<sub>R</sub> &gt; w<sub>I</sub> &gt; w<sub>P</sub>, try each value of w<sub>F</sub>: only <strong>w<sub>F</sub> = 0.1, w<sub>R</sub> = 0.4, w<sub>I</sub> = 0.3, w<sub>P</sub> = 0.2</strong> satisfies 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub> (0.6 &gt; 0.5). For example w<sub>F</sub> = 0.2 forces R, I, P = 0.4, 0.3, 0.1 and 0.6 &gt; 0.6 fails.</p><p><strong>Scores:</strong> A-one 47, Best Ed 26, Cosmopolitan 25, Dominance 27, Education Aid 48, Fancy 45, Global 13, High Q 27.</p><p>Scores of 45 or more: A-one (47), Education Aid (48), Fancy (45), so <strong>3</strong> colleges.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Weighted scores",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the highest overall score among the eight colleges?</p>",
+      "answer": "48",
+      "solutionHtml": "<p><strong>Finding the weights</strong> (w<sub>F</sub>, w<sub>R</sub>, w<sub>P</sub>, w<sub>I</sub>):</p><p>Best Ed (40, 30, 20, 20) &gt; Cosmopolitan (40, 20, 20, 30) gives 10w<sub>R</sub> &gt; 10w<sub>I</sub>, so w<sub>R</sub> &gt; w<sub>I</sub>. Education Aid (50, 50, 40, 50) &gt; A-one (50, 50, 50, 40) gives w<sub>I</sub> &gt; w<sub>P</sub>. High Q (30, 20, 20, 40) &gt; Best Ed (40, 30, 20, 20) gives 20w<sub>I</sub> &gt; 10w<sub>F</sub> + 10w<sub>R</sub>, i.e. 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub>.</p><p>With w<sub>R</sub> &gt; w<sub>I</sub> &gt; w<sub>P</sub>, try each value of w<sub>F</sub>: only <strong>w<sub>F</sub> = 0.1, w<sub>R</sub> = 0.4, w<sub>I</sub> = 0.3, w<sub>P</sub> = 0.2</strong> satisfies 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub> (0.6 &gt; 0.5). For example w<sub>F</sub> = 0.2 forces R, I, P = 0.4, 0.3, 0.1 and 0.6 &gt; 0.6 fails.</p><p><strong>Scores:</strong> A-one 47, Best Ed 26, Cosmopolitan 25, Dominance 27, Education Aid 48, Fancy 45, Global 13, High Q 27.</p><p>Education Aid: 0.1 × 50 + 0.4 × 50 + 0.2 × 40 + 0.3 × 50 = 5 + 20 + 8 + 15 = <strong>48</strong>, the highest.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Weighted scores",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many colleges have overall scores between 31 and 40, both inclusive?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "0"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Finding the weights</strong> (w<sub>F</sub>, w<sub>R</sub>, w<sub>P</sub>, w<sub>I</sub>):</p><p>Best Ed (40, 30, 20, 20) &gt; Cosmopolitan (40, 20, 20, 30) gives 10w<sub>R</sub> &gt; 10w<sub>I</sub>, so w<sub>R</sub> &gt; w<sub>I</sub>. Education Aid (50, 50, 40, 50) &gt; A-one (50, 50, 50, 40) gives w<sub>I</sub> &gt; w<sub>P</sub>. High Q (30, 20, 20, 40) &gt; Best Ed (40, 30, 20, 20) gives 20w<sub>I</sub> &gt; 10w<sub>F</sub> + 10w<sub>R</sub>, i.e. 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub>.</p><p>With w<sub>R</sub> &gt; w<sub>I</sub> &gt; w<sub>P</sub>, try each value of w<sub>F</sub>: only <strong>w<sub>F</sub> = 0.1, w<sub>R</sub> = 0.4, w<sub>I</sub> = 0.3, w<sub>P</sub> = 0.2</strong> satisfies 2w<sub>I</sub> &gt; w<sub>F</sub> + w<sub>R</sub> (0.6 &gt; 0.5). For example w<sub>F</sub> = 0.2 forces R, I, P = 0.4, 0.3, 0.1 and 0.6 &gt; 0.6 fails.</p><p><strong>Scores:</strong> A-one 47, Best Ed 26, Cosmopolitan 25, Dominance 27, Education Aid 48, Fancy 45, Global 13, High Q 27.</p><p>The scores jump from 27 (Dominance, High Q) straight to 45 (Fancy), so <strong>0</strong> colleges lie between 31 and 40.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "di3",
+      "topic": "Data Interpretation",
+      "subtopic": "Graph – area",
+      "difficulty": "hard",
+      "stemHtml": "<p>Considering all companies' products, which product category had the highest revenue?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Blockbuster"
+        },
+        {
+          "id": "B",
+          "textHtml": "Doubtful"
+        },
+        {
+          "id": "C",
+          "textHtml": "No-hope"
+        },
+        {
+          "id": "D",
+          "textHtml": "Promising"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Reading the grid</strong> (areas in grid squares; \"?\" = erased):</p><p>Promising (top right): ? 2, ? 9, ? 3. Blockbuster (bottom right): Alfa 3, 6; Charlie 6, 2; Bravo 6; ? 4, ? 9. Doubtful (top left): Alfa 4, 1; Bravo 6, 2; ? 9, ? 6, ? 1. No-hope (bottom left): Alfa 2, 4; Bravo 4; ? 3, ? 1, ? 1.</p><p><strong>Doubtful:</strong> Charlie has none, Alfa = Bravo + 1 and there are 7 boxes, so Alfa 4 and Bravo 3: Bravo gets one blank, Alfa two. Bravo's revenue must exceed Alfa's: 8 + x &gt; 5 + (16 − x) needs x &gt; 6.5, so <strong>Bravo takes the 9</strong>. Bravo 17, Alfa 4 + 1 + 6 + 1 = 12.</p><p><strong>Blockbuster:</strong> Alfa already has 2 products, so Bravo needs exactly one blank and Charlie the other. Charlie's revenue must exceed Bravo's, so <strong>Bravo takes the 4</strong> (10) and Charlie the 9 (17). Alfa 9.</p><p><strong>No-hope:</strong> Bravo &lt; Charlie &lt; Alfa in count with only 6 boxes, so Bravo stays at 1 (revenue 4). Charlie must match 4 with at least 2 boxes, so <strong>Charlie gets 3 + 1</strong>, and Alfa takes the last 1 (3 products, revenue 7).</p><p><strong>Promising:</strong> one box each. Alfa total = 12 + 9 + 7 + x = 28 + x; Charlie = 17 + 4 + y = 21 + y. Equal totals give y − x = 7, so <strong>Charlie 9, Alfa 2, Bravo 3</strong>.</p><p>Category totals: Promising 14, Blockbuster 36, Doubtful 29, No-hope 15. Bravo total = 17 + 10 + 4 + 3 = 34.</p><p>Highest: <strong>Blockbuster</strong> (36). This needs only the box areas per quadrant, not the company assignment.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "di3",
+      "topic": "Data Interpretation",
+      "subtopic": "Graph – area",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following is the correct sequence of numbers of products Bravo had in No-hope, Doubtful, Promising and Blockbuster categories respectively?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1,3,1,3"
+        },
+        {
+          "id": "B",
+          "textHtml": "3,3,1,2"
+        },
+        {
+          "id": "C",
+          "textHtml": "2,3,1,2"
+        },
+        {
+          "id": "D",
+          "textHtml": "1,3,1,2"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Reading the grid</strong> (areas in grid squares; \"?\" = erased):</p><p>Promising (top right): ? 2, ? 9, ? 3. Blockbuster (bottom right): Alfa 3, 6; Charlie 6, 2; Bravo 6; ? 4, ? 9. Doubtful (top left): Alfa 4, 1; Bravo 6, 2; ? 9, ? 6, ? 1. No-hope (bottom left): Alfa 2, 4; Bravo 4; ? 3, ? 1, ? 1.</p><p><strong>Doubtful:</strong> Charlie has none, Alfa = Bravo + 1 and there are 7 boxes, so Alfa 4 and Bravo 3: Bravo gets one blank, Alfa two. Bravo's revenue must exceed Alfa's: 8 + x &gt; 5 + (16 − x) needs x &gt; 6.5, so <strong>Bravo takes the 9</strong>. Bravo 17, Alfa 4 + 1 + 6 + 1 = 12.</p><p><strong>Blockbuster:</strong> Alfa already has 2 products, so Bravo needs exactly one blank and Charlie the other. Charlie's revenue must exceed Bravo's, so <strong>Bravo takes the 4</strong> (10) and Charlie the 9 (17). Alfa 9.</p><p><strong>No-hope:</strong> Bravo &lt; Charlie &lt; Alfa in count with only 6 boxes, so Bravo stays at 1 (revenue 4). Charlie must match 4 with at least 2 boxes, so <strong>Charlie gets 3 + 1</strong>, and Alfa takes the last 1 (3 products, revenue 7).</p><p><strong>Promising:</strong> one box each. Alfa total = 12 + 9 + 7 + x = 28 + x; Charlie = 17 + 4 + y = 21 + y. Equal totals give y − x = 7, so <strong>Charlie 9, Alfa 2, Bravo 3</strong>.</p><p>Category totals: Promising 14, Blockbuster 36, Doubtful 29, No-hope 15. Bravo total = 17 + 10 + 4 + 3 = 34.</p><p>Bravo: No-hope 1, Doubtful 3, Promising 1, Blockbuster 2, i.e. <strong>1, 3, 1, 2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-23",
+      "section": "DILR",
+      "number": 23,
+      "type": "MCQ",
+      "setKey": "di3",
+      "topic": "Data Interpretation",
+      "subtopic": "Graph – area",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements is NOT correct?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Alfa's revenue from Blockbuster products was the same as Charlie's revenue from Promising products"
+        },
+        {
+          "id": "B",
+          "textHtml": "The total revenue from No-hope products was less than the total revenue from Doubtful products"
+        },
+        {
+          "id": "C",
+          "textHtml": "Bravo's revenue from Blockbuster products was greater than Alfa's revenue from Doubtful products"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bravo and Charlie had the same revenues from No-hope products"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Reading the grid</strong> (areas in grid squares; \"?\" = erased):</p><p>Promising (top right): ? 2, ? 9, ? 3. Blockbuster (bottom right): Alfa 3, 6; Charlie 6, 2; Bravo 6; ? 4, ? 9. Doubtful (top left): Alfa 4, 1; Bravo 6, 2; ? 9, ? 6, ? 1. No-hope (bottom left): Alfa 2, 4; Bravo 4; ? 3, ? 1, ? 1.</p><p><strong>Doubtful:</strong> Charlie has none, Alfa = Bravo + 1 and there are 7 boxes, so Alfa 4 and Bravo 3: Bravo gets one blank, Alfa two. Bravo's revenue must exceed Alfa's: 8 + x &gt; 5 + (16 − x) needs x &gt; 6.5, so <strong>Bravo takes the 9</strong>. Bravo 17, Alfa 4 + 1 + 6 + 1 = 12.</p><p><strong>Blockbuster:</strong> Alfa already has 2 products, so Bravo needs exactly one blank and Charlie the other. Charlie's revenue must exceed Bravo's, so <strong>Bravo takes the 4</strong> (10) and Charlie the 9 (17). Alfa 9.</p><p><strong>No-hope:</strong> Bravo &lt; Charlie &lt; Alfa in count with only 6 boxes, so Bravo stays at 1 (revenue 4). Charlie must match 4 with at least 2 boxes, so <strong>Charlie gets 3 + 1</strong>, and Alfa takes the last 1 (3 products, revenue 7).</p><p><strong>Promising:</strong> one box each. Alfa total = 12 + 9 + 7 + x = 28 + x; Charlie = 17 + 4 + y = 21 + y. Equal totals give y − x = 7, so <strong>Charlie 9, Alfa 2, Bravo 3</strong>.</p><p>Category totals: Promising 14, Blockbuster 36, Doubtful 29, No-hope 15. Bravo total = 17 + 10 + 4 + 3 = 34.</p><p>A: Alfa Blockbuster 9 = Charlie Promising 9 (true). B: 15 &lt; 29 (true). C: Bravo Blockbuster 10 vs Alfa Doubtful 12, so 10 is not greater: <strong>C is not correct</strong>. D: 4 = 4 (true).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-24",
+      "section": "DILR",
+      "number": 24,
+      "type": "MCQ",
+      "setKey": "di3",
+      "topic": "Data Interpretation",
+      "subtopic": "Graph – area",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the smallest box on the grid is equivalent to revenue of Rs.1 crore, then what approximately was the total revenue of Bravo in Rs. crore?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30"
+        },
+        {
+          "id": "B",
+          "textHtml": "24"
+        },
+        {
+          "id": "C",
+          "textHtml": "40"
+        },
+        {
+          "id": "D",
+          "textHtml": "34"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Reading the grid</strong> (areas in grid squares; \"?\" = erased):</p><p>Promising (top right): ? 2, ? 9, ? 3. Blockbuster (bottom right): Alfa 3, 6; Charlie 6, 2; Bravo 6; ? 4, ? 9. Doubtful (top left): Alfa 4, 1; Bravo 6, 2; ? 9, ? 6, ? 1. No-hope (bottom left): Alfa 2, 4; Bravo 4; ? 3, ? 1, ? 1.</p><p><strong>Doubtful:</strong> Charlie has none, Alfa = Bravo + 1 and there are 7 boxes, so Alfa 4 and Bravo 3: Bravo gets one blank, Alfa two. Bravo's revenue must exceed Alfa's: 8 + x &gt; 5 + (16 − x) needs x &gt; 6.5, so <strong>Bravo takes the 9</strong>. Bravo 17, Alfa 4 + 1 + 6 + 1 = 12.</p><p><strong>Blockbuster:</strong> Alfa already has 2 products, so Bravo needs exactly one blank and Charlie the other. Charlie's revenue must exceed Bravo's, so <strong>Bravo takes the 4</strong> (10) and Charlie the 9 (17). Alfa 9.</p><p><strong>No-hope:</strong> Bravo &lt; Charlie &lt; Alfa in count with only 6 boxes, so Bravo stays at 1 (revenue 4). Charlie must match 4 with at least 2 boxes, so <strong>Charlie gets 3 + 1</strong>, and Alfa takes the last 1 (3 products, revenue 7).</p><p><strong>Promising:</strong> one box each. Alfa total = 12 + 9 + 7 + x = 28 + x; Charlie = 17 + 4 + y = 21 + y. Equal totals give y − x = 7, so <strong>Charlie 9, Alfa 2, Bravo 3</strong>.</p><p>Category totals: Promising 14, Blockbuster 36, Doubtful 29, No-hope 15. Bravo total = 17 + 10 + 4 + 3 = 34.</p><p>The smallest box is 1 grid square = Rs. 1 crore. Bravo = 17 + 10 + 4 + 3 = <strong>34</strong> crore.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-25",
+      "section": "DILR",
+      "number": 25,
+      "type": "MCQ",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the number of Old visitors buying Platinum tickets was equal to the number of Middle-aged visitors buying Platinum tickets, then which among the following could be the total number of Platinum tickets sold?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "34"
+        },
+        {
+          "id": "B",
+          "textHtml": "38"
+        },
+        {
+          "id": "C",
+          "textHtml": "36"
+        },
+        {
+          "id": "D",
+          "textHtml": "32"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Base grid:</strong> Old : Middle : Young = 1 : 2 : 4 with 140 in all, so Old 20, Middle 40, Young 80. Let Old buy x Gold and x Economy, so Old Platinum = 20 − 2x. Economy: Middle buy 55 − 38 − x = 17 − x. Let total Platinum = 2p; Young buy p Platinum, so Young Gold = 80 − 38 − p = 42 − p, and Old + Middle Platinum = p.</p><p>Old Platinum = Middle Platinum = p/2, so total Platinum 2p is a multiple of 4: 32 or 36. Old: p/2 + 2x = 20.</p><p>Total 36: Old Platinum 9, 2x = 11, not an integer. Total 32: Old Platinum 8, x = 6. Then Middle: Platinum 8, Economy 11, Gold 21; Young: Platinum 16, Economy 38, Gold 26. Everything is consistent, so <strong>32</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-26",
+      "section": "DILR",
+      "number": 26,
+      "type": "TITA",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the number of Old visitors buying Platinum tickets was equal to the number of Middle-aged visitors buying Economy tickets, then the number of Old visitors buying Gold tickets was</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Base grid:</strong> Old : Middle : Young = 1 : 2 : 4 with 140 in all, so Old 20, Middle 40, Young 80. Let Old buy x Gold and x Economy, so Old Platinum = 20 − 2x. Economy: Middle buy 55 − 38 − x = 17 − x. Let total Platinum = 2p; Young buy p Platinum, so Young Gold = 80 − 38 − p = 42 − p, and Old + Middle Platinum = p.</p><p>Old Platinum = Middle Economy: 20 − 2x = 17 − x, so <strong>x = 3</strong>. Old visitors bought 3 Gold tickets.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-27",
+      "section": "DILR",
+      "number": 27,
+      "type": "TITA",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the number of Old visitors buying Gold tickets was strictly greater than the number of Young visitors buying Gold tickets, then the number of Middle-aged visitors buying Gold tickets was</p>",
+      "answer": "0",
+      "solutionHtml": "<p><strong>Base grid:</strong> Old : Middle : Young = 1 : 2 : 4 with 140 in all, so Old 20, Middle 40, Young 80. Let Old buy x Gold and x Economy, so Old Platinum = 20 − 2x. Economy: Middle buy 55 − 38 − x = 17 − x. Let total Platinum = 2p; Young buy p Platinum, so Young Gold = 80 − 38 − p = 42 − p, and Old + Middle Platinum = p.</p><p>Middle Platinum = p − (20 − 2x) and Middle Economy = 17 − x, so Middle Gold = 40 − (p − 20 + 2x) − (17 − x) = 43 − p − x.</p><p>Condition: Old Gold &gt; Young Gold, i.e. x &gt; 42 − p, so p + x ≥ 43. But Middle Gold = 43 − (p + x) cannot be negative, so p + x = 43 and Middle Gold = <strong>0</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-28",
+      "section": "DILR",
+      "number": 28,
+      "type": "MCQ",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements MUST be FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The numbers of Gold and Platinum tickets bought by Young visitors were equal"
+        },
+        {
+          "id": "B",
+          "textHtml": "The numbers of Old and Middle-aged visitors buying Platinum tickets were equal"
+        },
+        {
+          "id": "C",
+          "textHtml": "The numbers of Old and Middle-aged visitors buying Economy tickets were equal"
+        },
+        {
+          "id": "D",
+          "textHtml": "The numbers of Middle-aged and Young visitors buying Gold tickets were equal"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Base grid:</strong> Old : Middle : Young = 1 : 2 : 4 with 140 in all, so Old 20, Middle 40, Young 80. Let Old buy x Gold and x Economy, so Old Platinum = 20 − 2x. Economy: Middle buy 55 − 38 − x = 17 − x. Let total Platinum = 2p; Young buy p Platinum, so Young Gold = 80 − 38 − p = 42 − p, and Old + Middle Platinum = p.</p><p>Also Middle Gold = 40 − (p − 20 + 2x) − (17 − x) = 43 − p − x.</p><p>C: Old Economy = Middle Economy means x = 17 − x, so x = 8.5, which is impossible. <strong>C must be false.</strong></p><p>The others can all happen. A: Young Gold = Young Platinum needs p = 21; x = 5 works (Old 10/5/5; Middle Platinum 11, Economy 12, Gold 17). B: the case of the first question (total Platinum 32). D: Middle Gold = Young Gold means 43 − p − x = 42 − p, i.e. x = 1; p = 30 works (Middle 12/12/16, Young 30/12/38).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-29",
+      "section": "DILR",
+      "number": 29,
+      "type": "TITA",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the minimum number of students enrolled in both G and L but not in K?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Venn set-up:</strong> only G = g, only K = k, only L = l, G&amp;K only = a, G&amp;L only = b, K&amp;L only = c, all three = t.</p><p>Fact 6: a + b + t = 10, so g = 17 − 10 = 7. Fact 3: l = 8. Fact 1: <strong>t = 4</strong>. Total 39: 7 + 8 + 10 + k + c = 39, so k + c = 14. Fact 4 (K and L includes the all-three group): k = c + 4, so <strong>c = 5, k = 9</strong>, and a + b = 6.</p><p>Totals: G = 17, K = 9 + a + 5 + 4 = 18 + a, L = 8 + b + 5 + 4 = 17 + b = 23 − a. Fact 5 (L is the largest): 23 − a &gt; 18 + a gives a ≤ 2, so (a, b) = (0, 6), (1, 5) or (2, 4).</p><p>b = 6 − a with a ≤ 2, so the minimum is <strong>b = 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-30",
+      "section": "DILR",
+      "number": 30,
+      "type": "MCQ",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the numbers of students enrolled in K and L are in the ratio 19:22, then what is the number of students enrolled in L?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18"
+        },
+        {
+          "id": "B",
+          "textHtml": "19"
+        },
+        {
+          "id": "C",
+          "textHtml": "17"
+        },
+        {
+          "id": "D",
+          "textHtml": "22"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Venn set-up:</strong> only G = g, only K = k, only L = l, G&amp;K only = a, G&amp;L only = b, K&amp;L only = c, all three = t.</p><p>Fact 6: a + b + t = 10, so g = 17 − 10 = 7. Fact 3: l = 8. Fact 1: <strong>t = 4</strong>. Total 39: 7 + 8 + 10 + k + c = 39, so k + c = 14. Fact 4 (K and L includes the all-three group): k = c + 4, so <strong>c = 5, k = 9</strong>, and a + b = 6.</p><p>Totals: G = 17, K = 9 + a + 5 + 4 = 18 + a, L = 8 + b + 5 + 4 = 17 + b = 23 − a. Fact 5 (L is the largest): 23 − a &gt; 18 + a gives a ≤ 2, so (a, b) = (0, 6), (1, 5) or (2, 4).</p><p>(18 + a)/(23 − a) = 19/22 gives 396 + 22a = 437 − 19a, so a = 1. L = 23 − 1 = <strong>22</strong> (K = 19).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-31",
+      "section": "DILR",
+      "number": 31,
+      "type": "TITA",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>Due to academic pressure, students who were enrolled in all three sports were asked to withdraw from one of the three sports. After the withdrawal, the number of students enrolled in G was six less than the number of students enrolled in L, while the number of students enrolled in K went down by one. After the withdrawal, how many students were enrolled in both G and K?</p>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Venn set-up:</strong> only G = g, only K = k, only L = l, G&amp;K only = a, G&amp;L only = b, K&amp;L only = c, all three = t.</p><p>Fact 6: a + b + t = 10, so g = 17 − 10 = 7. Fact 3: l = 8. Fact 1: <strong>t = 4</strong>. Total 39: 7 + 8 + 10 + k + c = 39, so k + c = 14. Fact 4 (K and L includes the all-three group): k = c + 4, so <strong>c = 5, k = 9</strong>, and a + b = 6.</p><p>Totals: G = 17, K = 9 + a + 5 + 4 = 18 + a, L = 8 + b + 5 + 4 = 17 + b = 23 − a. Fact 5 (L is the largest): 23 − a &gt; 18 + a gives a ≤ 2, so (a, b) = (0, 6), (1, 5) or (2, 4).</p><p><strong>After withdrawal:</strong> each of the 4 all-three students drops one sport. K falls by 1, so exactly 1 drops K (moves to G&amp;L); the other 3 drop G (p of them) or L (q of them), p + q = 3.</p><p>New G = 17 − p and new L = 23 − a − q. G = L − 6 gives 17 − p = 17 − a − q, so p − q = a. With p + q = 3 and a ≤ 2, p − q must be odd, so a = 1, p = 2, q = 1.</p><p>G and K after withdrawal = a + (those who dropped L) = 1 + 1 = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-32",
+      "section": "DILR",
+      "number": 32,
+      "type": "MCQ",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>Due to academic pressure, students who were enrolled in all three sports were asked to withdraw from one of the three sports. After the withdrawal, the number of students enrolled in G was six less than the number of students enrolled in L, while the number of students enrolled in K went down by one. After the withdrawal, how many students were enrolled in both G and L?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Venn set-up:</strong> only G = g, only K = k, only L = l, G&amp;K only = a, G&amp;L only = b, K&amp;L only = c, all three = t.</p><p>Fact 6: a + b + t = 10, so g = 17 − 10 = 7. Fact 3: l = 8. Fact 1: <strong>t = 4</strong>. Total 39: 7 + 8 + 10 + k + c = 39, so k + c = 14. Fact 4 (K and L includes the all-three group): k = c + 4, so <strong>c = 5, k = 9</strong>, and a + b = 6.</p><p>Totals: G = 17, K = 9 + a + 5 + 4 = 18 + a, L = 8 + b + 5 + 4 = 17 + b = 23 − a. Fact 5 (L is the largest): 23 − a &gt; 18 + a gives a ≤ 2, so (a, b) = (0, 6), (1, 5) or (2, 4).</p><p><strong>After withdrawal:</strong> each of the 4 all-three students drops one sport. K falls by 1, so exactly 1 drops K (moves to G&amp;L); the other 3 drop G (p of them) or L (q of them), p + q = 3.</p><p>New G = 17 − p and new L = 23 − a − q. G = L − 6 gives 17 − p = 17 − a − q, so p − q = a. With p + q = 3 and a ≤ 2, p − q must be odd, so a = 1, p = 2, q = 1.</p><p>With a = 1, b = 5. G and L after withdrawal = b + (the one who dropped K) = 5 + 1 = <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

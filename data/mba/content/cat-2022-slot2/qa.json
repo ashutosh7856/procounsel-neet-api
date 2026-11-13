@@ -1,0 +1,631 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Quadratic functions",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let f(x) be a quadratic polynomial in x such that f(x) ≥ 0 for all real numbers x. If f(2) = 0 and f(4) = 6, then f(−2) is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "12"
+    },
+    {
+     "id": "B",
+     "textHtml": "36"
+    },
+    {
+     "id": "C",
+     "textHtml": "24"
+    },
+    {
+     "id": "D",
+     "textHtml": "6"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key move:</strong> a quadratic that is never negative and vanishes at x = 2 must touch the x-axis there, so 2 is a double root: f(x) = k(x − 2)<sup>2</sup>.</p><p>f(4) = 4k = 6 ⇒ k = 3/2.</p><p>f(−2) = (3/2)(−4)<sup>2</sup> = (3/2) × 16 = <strong>24</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Exponential equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of integer solutions of the equation (x<sup>2</sup> − 10)<sup>(x<sup>2</sup> − 3x − 10)</sup> = 1 is</p>",
+   "answer": "4",
+   "solutionHtml": "<p>a<sup>b</sup> = 1 for integers in three ways: b = 0 (a ≠ 0), a = 1, or a = −1 with b even.</p><p><strong>Exponent 0:</strong> x<sup>2</sup> − 3x − 10 = (x − 5)(x + 2) = 0 ⇒ x = 5 or −2; bases 15 and −6 are non-zero. ✓ (2 solutions)</p><p><strong>Base 1:</strong> x<sup>2</sup> = 11 — no integer.</p><p><strong>Base −1:</strong> x<sup>2</sup> = 9 ⇒ x = ±3. Exponents: x = 3 gives 9 − 9 − 10 = −10 (even) ✓; x = −3 gives 9 + 9 − 10 = 8 (even) ✓.</p><p>Total: <strong>4</strong> integer solutions.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "easy",
+   "stemHtml": "<p>Manu earns Rs. 4000 per month and wants to save an average of Rs. 550 per month in a year. In the first nine months, his monthly expense was Rs. 3500, and he foresees that, tenth month onward, his monthly expense will increase to Rs. 3700. In order to meet his yearly savings target, his monthly earnings, in rupees, from the tenth month onward should be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4350"
+    },
+    {
+     "id": "B",
+     "textHtml": "4200"
+    },
+    {
+     "id": "C",
+     "textHtml": "4300"
+    },
+    {
+     "id": "D",
+     "textHtml": "4400"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Yearly target = 12 × 550 = 6600.</p><p>Saved in 9 months = 9 × (4000 − 3500) = 4500, so the last 3 months must save 2100, i.e. 700 a month.</p><p>Required earnings = 3700 + 700 = <strong>Rs. 4400</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "medium",
+   "stemHtml": "<p>Working alone, the times taken by Anu, Tanu and Manu to complete any job are in the ratio 5 : 8 : 10. They accept a job which they can finish in 4 days if they all work together for 8 hours per day. However, Anu and Tanu work together for the first 6 days, working 6 hours 40 minutes per day. Then, the number of hours that Manu will take to complete the remaining job working alone is</p>",
+   "answer": "6",
+   "solutionHtml": "<p>Times 5 : 8 : 10 ⇒ efficiencies 1/5 : 1/8 : 1/10 = <strong>8 : 5 : 4</strong> units per hour.</p><p>Together 17 units/hour × 32 hours = 544 units of work.</p><p>Anu + Tanu: 13 units/hour × 6 days × (20/3) hours = 13 × 40 = 520 units.</p><p>Left: 24 units; Manu does 4 units/hour ⇒ <strong>6 hours</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "hard",
+   "stemHtml": "<p>Five students, including Amit, appear for an examination in which possible marks are integers between 0 and 50, both inclusive. The average marks for all the students is 38 and exactly three students got more than 32. If no two students got the same marks and Amit got the least marks among the five students, then the difference between the highest and lowest possible marks of Amit is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "21"
+    },
+    {
+     "id": "B",
+     "textHtml": "20"
+    },
+    {
+     "id": "C",
+     "textHtml": "24"
+    },
+    {
+     "id": "D",
+     "textHtml": "22"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Total = 5 × 38 = 190. Three distinct scores in 33–50 and two distinct scores ≤ 32: Amit = a &lt; b ≤ 32.</p><p><strong>Highest a:</strong> a + b ≤ 31 + 32 = 63, so take a = 31, b = 32; the top three then total 127 (e.g. 41, 42, 44), which is possible. Max a = 31.</p><p><strong>Lowest a:</strong> the top three total at most 50 + 49 + 48 = 147, so a + b ≥ 43; with b ≤ 32, a ≥ 11 (a = 11, b = 32 works). Min a = 11.</p><p>Difference = 31 − 11 = <strong>20</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Linear equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>In an examination, there were 75 questions. 3 marks were awarded for each correct answer, 1 mark was deducted for each wrong answer and 1 mark was awarded for each unattempted question. Rayan scored a total of 97 marks in the examination. If the number of unattempted questions was higher than the number of attempted questions, then the maximum number of correct answers that Rayan could have given in the examination is</p>",
+   "answer": "24",
+   "solutionHtml": "<p>Let c correct, w wrong, u unattempted: c + w + u = 75 and 3c − w + u = 97.</p><p>Subtract: 2c − 2w = 22 ⇒ <strong>c = w + 11</strong>. Attempted = c + w = 2w + 11.</p><p>u &gt; attempted ⇒ attempted ≤ 37 (since 75 is odd) ⇒ 2w + 11 ≤ 37 ⇒ w ≤ 13.</p><p>Max c = 13 + 11 = <strong>24</strong> (check: 24 correct, 13 wrong, 38 unattempted: 72 − 13 + 38 = 97).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Polygons",
+   "difficulty": "easy",
+   "stemHtml": "<p>Regular polygons A and B have number of sides in the ratio 1 : 2 and interior angles in the ratio 3 : 4. Then the number of sides of B equals</p>",
+   "answer": "10",
+   "solutionHtml": "<p>Let A have n sides, B 2n. Interior angles: 180 − 360/n and 180 − 180/n.</p><p>4(180 − 360/n) = 3(180 − 180/n) ⇒ 720 − 1440/n = 540 − 540/n ⇒ 180 = 900/n ⇒ n = 5.</p><p>B has <strong>10</strong> sides (check: 108° : 144° = 3 : 4).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & alligation",
+   "difficulty": "medium",
+   "stemHtml": "<p>There are two containers of the same volume, first container half-filled with sugar syrup and the second container half-filled with milk. Half the content of the first container is transferred to the second container, and then the half of this mixture is transferred back to the first container. Next, half the content of the first container is transferred back to the second container. Then the ratio of sugar syrup and milk in the second container is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "6 : 5"
+    },
+    {
+     "id": "B",
+     "textHtml": "5 : 4"
+    },
+    {
+     "id": "C",
+     "textHtml": "5 : 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "4 : 5"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Start: first = 1 unit syrup, second = 1 unit milk.</p><p>1) Half of first to second: first 0.5 S; second 0.5 S + 1 M.</p><p>2) Half of second back: 0.25 S + 0.5 M moves. First: 0.75 S + 0.5 M; second: 0.25 S + 0.5 M.</p><p>3) Half of first to second: 0.375 S + 0.25 M moves. Second: 0.625 S + 0.75 M.</p><p>Ratio = 0.625 : 0.75 = <strong>5 : 6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Speed, time & distance",
+   "difficulty": "easy",
+   "stemHtml": "<p>Two ships meet mid-ocean, and then, one ship goes south and the other ship goes west, both travelling at constant speeds. Two hours later, they are 60 km apart. If the speed of one of the ships is 6 km per hour more than the other one, then the speed, in km per hour, of the slower ship is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "24"
+    },
+    {
+     "id": "B",
+     "textHtml": "18"
+    },
+    {
+     "id": "C",
+     "textHtml": "12"
+    },
+    {
+     "id": "D",
+     "textHtml": "20"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The paths are perpendicular, so in 2 hours: (2v)<sup>2</sup> + (2(v + 6))<sup>2</sup> = 60<sup>2</sup> ⇒ v<sup>2</sup> + (v + 6)<sup>2</sup> = 900.</p><p><strong>Quick check:</strong> 18 and 24 with 30 form a 3-4-5 triple (18<sup>2</sup> + 24<sup>2</sup> = 900). So v = <strong>18 km/h</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Triangles",
+   "difficulty": "medium",
+   "stemHtml": "<p>The length of each side of an equilateral triangle ABC is 3 cm. Let D be a point on BC such that the area of triangle ADC is half the area of triangle ABD. Then the length of AD, in cm, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "√7"
+    },
+    {
+     "id": "B",
+     "textHtml": "√5"
+    },
+    {
+     "id": "C",
+     "textHtml": "√8"
+    },
+    {
+     "id": "D",
+     "textHtml": "√6"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Triangles ADC and ABD have the same height from A, so DC : BD = 1 : 2 ⇒ BD = 2, DC = 1.</p><p>Cosine rule in ABD (∠B = 60°): AD<sup>2</sup> = 3<sup>2</sup> + 2<sup>2</sup> − 2·3·2·cos 60° = 9 + 4 − 6 = 7.</p><p>AD = <strong>√7</strong> cm.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Permutations",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of integers greater than 2000 that can be formed with the digits 0, 1, 2, 3, 4, 5, using each digit at most once, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1200"
+    },
+    {
+     "id": "B",
+     "textHtml": "1420"
+    },
+    {
+     "id": "C",
+     "textHtml": "1440"
+    },
+    {
+     "id": "D",
+     "textHtml": "1480"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>4-digit:</strong> first digit 2, 3, 4 or 5 (all such numbers exceed 2000, the smallest being 2013): 4 × 5 × 4 × 3 = 240.</p><p><strong>5-digit:</strong> first digit non-zero: 5 × 5 × 4 × 3 × 2 = 600.</p><p><strong>6-digit:</strong> 5 × 5! = 600.</p><p>Total = 240 + 600 + 600 = <strong>1440</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Polynomials",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let r and c be real numbers. If r and −r are roots of 5x<sup>3</sup> + cx<sup>2</sup> − 10x + 9 = 0, then c equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "−9/2"
+    },
+    {
+     "id": "C",
+     "textHtml": "9/2"
+    },
+    {
+     "id": "D",
+     "textHtml": "−4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let the roots be r, −r, s.</p><p>Sum of products in pairs: −r<sup>2</sup> + rs − rs = −r<sup>2</sup> = −10/5 ⇒ r<sup>2</sup> = 2.</p><p>Product: −r<sup>2</sup>s = −9/5 ⇒ s = 9/10.</p><p>Sum: r − r + s = −c/5 ⇒ c = −5s = <strong>−9/2</strong>. (Check: 5(x<sup>2</sup> − 2)(x − 9/10) = 5x<sup>3</sup> − 4.5x<sup>2</sup> − 10x + 9.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Sequences & series",
+   "difficulty": "medium",
+   "stemHtml": "<p>On day one, there are 100 particles in a laboratory experiment. On day n, where n ≥ 2, one out of every n particles produces another particle. If the total number of particles in the laboratory experiment increases to 1000 on day m, then m equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "19"
+    },
+    {
+     "id": "B",
+     "textHtml": "16"
+    },
+    {
+     "id": "C",
+     "textHtml": "17"
+    },
+    {
+     "id": "D",
+     "textHtml": "18"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>On day n the count is multiplied by (1 + 1/n) = (n + 1)/n.</p><p>Day m: 100 × (3/2)(4/3)…((m + 1)/m) = 100 × (m + 1)/2 — the product telescopes.</p><p>100(m + 1)/2 = 1000 ⇒ m + 1 = 20 ⇒ m = <strong>19</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>In an election, there were four candidates and 80% of the registered voters casted their votes. One of the candidates received 30% of the casted votes while the other three candidates received the remaining casted votes in the proportion 1 : 2 : 3. If the winner of the election received 2512 votes more than the candidate with the second highest votes, then the number of registered voters was</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "40192"
+    },
+    {
+     "id": "B",
+     "textHtml": "62800"
+    },
+    {
+     "id": "C",
+     "textHtml": "50240"
+    },
+    {
+     "id": "D",
+     "textHtml": "60288"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The other 70% splits 1 : 2 : 3 into 70/6 %, 70/3 % and <strong>35%</strong>. Winner 35%, runner-up 30%.</p><p>5% of votes cast = 2512 ⇒ votes cast = 50240.</p><p>Registered voters = 50240 / 0.8 = <strong>62800</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Trigonometry in triangles",
+   "difficulty": "medium",
+   "stemHtml": "<p>In triangle ABC, altitudes AD and BE are drawn to the corresponding bases. If ∠BAC = 45° and ∠ABC = θ, then AD/BE equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "√2 cos θ"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "(sin θ + cos θ)/√2"
+    },
+    {
+     "id": "D",
+     "textHtml": "√2 sin θ"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>In right triangle ABD (right angle at D), AD = AB sin θ.</p><p>In right triangle ABE (right angle at E), BE = AB sin 45° = AB/√2.</p><p>AD/BE = sin θ ÷ (1/√2) = <strong>√2 sin θ</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>Mr. Pinto invests one-fifth of his capital at 6%, one-third at 10% and the remaining at 1%, each rate being simple interest per annum. Then, the minimum number of years required for the cumulative interest income from these investments to equal or exceed his initial capital is</p>",
+   "answer": "20",
+   "solutionHtml": "<p>The remaining fraction is 1 − 1/5 − 1/3 = 7/15.</p><p>Blended rate = (1/5)(6) + (1/3)(10) + (7/15)(1) = 18/15 + 50/15 + 7/15 = 75/15 = <strong>5%</strong> per year.</p><p>Interest equals the capital when 5% × t = 100% ⇒ t = <strong>20</strong> years.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Factorials",
+   "difficulty": "easy",
+   "stemHtml": "<p>For some natural number n, assume that (15,000)! is divisible by (n!)!. The largest possible value of n is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "7"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>a! divides b! exactly when a ≤ b. So we need n! ≤ 15000.</p><p>7! = 5040 ≤ 15000 but 8! = 40320 &gt; 15000. Largest n = <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Averages & inequalities",
+   "difficulty": "hard",
+   "stemHtml": "<p>The average of a non-decreasing sequence of N numbers a<sub>1</sub>, a<sub>2</sub>, …, a<sub>N</sub> is 300. If a<sub>1</sub> is replaced by 6a<sub>1</sub>, the new average becomes 400. Then, the number of possible values of a<sub>1</sub> is</p>",
+   "answer": "14",
+   "solutionHtml": "<p>The sum rises by 5a<sub>1</sub> = 100N ⇒ <strong>a<sub>1</sub> = 20N</strong>.</p><p>a<sub>1</sub> is the smallest term, so it cannot exceed the average: 20N ≤ 300 ⇒ N ≤ 15.</p><p>N = 1 fails (then a<sub>1</sub> = 300 ≠ 20). For 2 ≤ N ≤ 15 it works: e.g. a<sub>1</sub> = 20N and the other N − 1 terms all equal to (300N − 20N)/(N − 1) ≥ 20N.</p><p>So N = 2, …, 15 gives <strong>14</strong> values of a<sub>1</sub> (40, 60, …, 300).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Progressions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Consider the arithmetic progression 3, 7, 11, … and let A<sub>n</sub> denote the sum of the first n terms of this progression. Then the value of (1/25) Σ<sub>n=1</sub><sup>25</sup> A<sub>n</sub> is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "415"
+    },
+    {
+     "id": "B",
+     "textHtml": "442"
+    },
+    {
+     "id": "C",
+     "textHtml": "455"
+    },
+    {
+     "id": "D",
+     "textHtml": "404"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>A<sub>n</sub> = (n/2)[6 + 4(n − 1)] = 2n<sup>2</sup> + n.</p><p>Σ A<sub>n</sub> (n = 1 to 25) = 2 × (25 · 26 · 51)/6 + (25 · 26)/2 = 2 × 5525 + 325 = 11375.</p><p>Divide by 25: <strong>455</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Functions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Suppose for all integers x, there are two functions f and g such that f(x) + f(x − 1) − 1 = 0 and g(x) = x<sup>2</sup>. If f(x<sup>2</sup> − x) = 5, then the value of the sum f(g(5)) + g(f(5)) is</p>",
+   "answer": "12",
+   "solutionHtml": "<p>f(x) + f(x − 1) = 1, so f alternates between two values: f(k) = 5 for every k of one parity and 1 − 5 = −4 for the other.</p><p>x<sup>2</sup> − x = x(x − 1) is always <strong>even</strong>, so f(even) = 5 and f(odd) = −4.</p><p>f(g(5)) = f(25) = −4; g(f(5)) = g(−4) = 16. Sum = <strong>12</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Logarithms & inequalities",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of distinct integer values of n satisfying (4 − log<sub>2</sub> n)/(3 − log<sub>4</sub> n) &lt; 0 is</p>",
+   "answer": "47",
+   "solutionHtml": "<p>Let t = log<sub>2</sub> n, so log<sub>4</sub> n = t/2. The expression is (4 − t)/(3 − t/2) = 2(4 − t)/(6 − t).</p><p>This is negative when t lies strictly between 4 and 6 ⇒ 16 &lt; n &lt; 64.</p><p>Integers 17 to 63: <strong>47</strong> values.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Maxima & minima",
+   "difficulty": "easy",
+   "stemHtml": "<p>If a and b are non-negative real numbers such that a + 2b = 6, then the average of the maximum and minimum possible values of (a + b) is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3"
+    },
+    {
+     "id": "B",
+     "textHtml": "4.5"
+    },
+    {
+     "id": "C",
+     "textHtml": "3.5"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>a + b = 6 − b, with 0 ≤ b ≤ 3 (since a = 6 − 2b ≥ 0).</p><p>Max 6 (b = 0), min 3 (b = 3). Average = <strong>4.5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

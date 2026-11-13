@@ -1,0 +1,13 @@
+{
+  "id": "cat-2019-slot1",
+  "title": "CAT 2019 Slot 1 (actual paper)",
+  "examVersionYear": 2019,
+  "year": 2019,
+  "slot": 1,
+  "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1 question paper (conducted by the IIMs)",
+    "url": "https://iimcat.ac.in",
+    "retrievedAt": "2026-11-13"
+  }
+}

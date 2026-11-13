@@ -1,0 +1,1443 @@
+{
+ "sets": [
+  {
+   "key": "LS-P1",
+   "kind": "passage",
+   "section": "LS",
+   "title": "Trees as infrastructure",
+   "contentHtml": "<p>City budgets usually file street trees under parks or beautification, alongside flower beds and fountains. The classification matters, because amenities are the first items to be cut when revenues fall. Yet a mature tree performs functions that, if they were supplied by machines, would be counted as infrastructure without hesitation. Its canopy shades pavements and walls, lowering surface temperatures on a summer afternoon by margins that residents can feel; its roots and leaf litter slow the rush of stormwater into drains; its leaves trap a share of the fine dust thrown up by traffic.</p><p>Advocates have responded by putting a price on these services, calculating how much a city would have to spend on air-conditioning, drainage pipes and filtration to replace them. The exercise is useful, but it carries a hidden risk. Once a tree is valued for what it saves, it becomes vulnerable to any cheaper means of achieving the same saving. If a reflective coating cools a roof more cheaply than the old tree beside it, the ledger counsels felling the tree. Valuation brings trees into the budget conversation, but only on terms that make them substitutable.</p><p>There is also a problem of timing that valuation tends to hide. A sapling delivers almost none of the benefits attributed to the mature tree; most of the shade and water retention arrive only after two or three decades of growth, and only if the tree survives the drought, vandalism and careless trenching that kill a large share of young urban plantings. Planting drives that announce a headline number of saplings therefore promise far more than they can deliver within any politician's term, and the follow-up watering and protection that would make the promise good are rarely funded.</p><p>None of this is an argument against counting. It is an argument for counting the right thing. A city that measured its canopy — the area actually shaded by living crowns — rather than the number of trees planted would find that its most valuable assets are the old trees it already has, and that protecting them from road-widening and building works yields more benefit per rupee than any planting campaign. Infrastructure, after all, is defined not by its novelty but by the fact that a city cannot function well without it, and the case for trees is strongest when it is made on those grounds.</p>"
+  },
+  {
+   "key": "LS-P2",
+   "kind": "passage",
+   "section": "LS",
+   "title": "The ethics of forgetting",
+   "contentHtml": "<p>For most of human history, forgetting was the default and remembering was the effort. Records had to be copied by hand, stored, and protected from fire and damp; whatever was not deliberately preserved simply faded. Digital storage has reversed this default. It is now cheaper to keep everything than to decide what to discard, and so a careless remark, an old photograph or a youthful mistake can remain retrievable decades after the person concerned has changed.</p><p>Some welcome the reversal as a gain for accountability. Public figures can no longer quietly rewrite their past positions, and institutions find it harder to bury inconvenient documents. These are real benefits, and anyone who argues for a 'right to be forgotten' must reckon with them. But accountability arguments tend to assume that the person being held to account is powerful, while most of what is permanently stored concerns people who are not. A shopkeeper whose minor dispute with a customer was once reported in a local paper gains nothing resembling public power by remaining searchable forever; he simply carries the episode with him wherever he goes.</p><p>The deeper issue concerns what forgetting used to do for us. Social forgetting allowed people to be judged by who they had become rather than by a complete archive of who they had been. It did not erase the past so much as weight it, letting recent conduct count for more than distant conduct. A permanent, searchable record flattens that weighting: a post written fifteen years ago appears in the results beside one written last week, stripped of the context that once signalled its age.</p><p>The remedy, then, may lie less in deletion than in restoring proportion. Search tools could rank older material lower unless it concerns a person's public role; records about private individuals could carry an expiry date after which they are retrievable only by those with a specific, legitimate reason. Such measures would satisfy neither those who want the past wiped clean nor those who want everything permanently visible. That they disappoint both camps is not obviously a defect; it may simply reflect that the question was never one of all or nothing.</p>"
+  },
+  {
+   "key": "LS-P3",
+   "kind": "passage",
+   "section": "LS",
+   "title": "Why rivals look alike",
+   "contentHtml": "<p>Walk through the offices of competing firms in almost any industry and you will notice how much they resemble one another: similar job titles, similar planning cycles, similar slogans about customers and innovation. Textbook competition would predict the opposite. If firms win by being different, they ought to diverge, each searching for a position that others have not occupied. Why, then, does convergence seem to be the rule?</p><p>One explanation is uncertainty. When managers cannot tell which practices actually produce results — and in most organisations the link between a practice and profit is buried under dozens of other influences — copying a visibly successful rival is a reasonable shortcut. It saves the cost of experimenting and, just as important, it protects the manager who chooses it. An executive who adopts the industry's standard approach and fails can point out that everyone did the same; one who fails with an unconventional approach has no such defence.</p><p>A second explanation lies outside the firm. Lenders, regulators, investors and recruits all evaluate organisations, and they find it easier to evaluate those that look familiar. A start-up that presents its accounts in the expected format, appoints the expected officers and describes itself in the expected vocabulary is easier to trust, even if none of these features affects what it actually does. A hospital that adopts the accreditation standards of better-known peers, or a young university that copies the committee structure of older institutions, follows the same logic. Conformity thus purchases legitimacy, and legitimacy brings capital and talent.</p><p>Neither explanation implies that imitation is foolish. Under genuine uncertainty, copying a working practice may be the most rational choice available. The danger lies in what is copied. Firms tend to imitate what is easy to observe — an organisation chart, a branding style, a published policy — rather than the unwritten routines and accumulated judgement that may actually explain a rival's success. The result can be an industry full of firms that share the visible form of the leader while lacking its substance, and that are, for that very reason, alike in their weaknesses as well as in their appearance.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "LS-01",
+   "section": "LS",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "LS-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Main Idea",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following best captures the central argument of the passage?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Cities should stop funding tree-planting drives and spend the money on reflective roof coatings, which cool buildings more cheaply."
+    },
+    {
+     "id": "B",
+     "textHtml": "Street trees should be treated as infrastructure, but pricing them only by what they save and counting saplings planted can mislead; measuring and protecting existing canopy is a sounder basis."
+    },
+    {
+     "id": "C",
+     "textHtml": "Putting a monetary value on the services of trees is the only way to protect them from budget cuts."
+    },
+    {
+     "id": "D",
+     "textHtml": "Most young urban trees die before maturity, so urban greening is largely a waste of public money."
+    },
+    {
+     "id": "E",
+     "textHtml": "Street trees are best understood as amenities, like fountains and flower beds, and should be funded accordingly."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 1 argues that trees do infrastructure work; paragraphs 2–3 warn about two pitfalls (valuation by savings makes trees substitutable; sapling counts hide the long delay before benefits); paragraph 4 recommends measuring canopy and protecting old trees.</p><p><strong>A</strong> fails: the coating is a hypothetical used to show a risk of valuation, not a recommendation. <strong>C</strong> fails: the author calls valuation 'useful' but explicitly warns of its 'hidden risk', so it is not 'the only way'. <strong>D</strong> overstates paragraph 3, which criticises poorly followed-up planting drives, not urban greening as such. <strong>E</strong> is the very classification the author criticises in paragraph 1.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-02",
+   "section": "LS",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "LS-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Detail",
+   "difficulty": "easy",
+   "stemHtml": "<p>According to the passage, why does the author see a 'hidden risk' in valuing trees by the services they provide?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Such valuations usually overstate the benefits of trees and are therefore not believed by budget officials."
+    },
+    {
+     "id": "B",
+     "textHtml": "Valuations are too expensive to carry out for every tree in a city."
+    },
+    {
+     "id": "C",
+     "textHtml": "Valuation ignores the aesthetic appeal of trees, which is their main benefit."
+    },
+    {
+     "id": "D",
+     "textHtml": "Valuation encourages cities to plant more saplings than they can water."
+    },
+    {
+     "id": "E",
+     "textHtml": "If a tree is valued only for the costs it saves, any cheaper way of achieving the same saving can justify removing it."
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p><strong>E</strong> is correct. Paragraph 2: 'Once a tree is valued for what it saves, it becomes vulnerable to any cheaper means of achieving the same saving' — the reflective-coating example illustrates this.</p><p><strong>A</strong> and <strong>B</strong> are never mentioned (credibility and cost of valuation are not discussed). <strong>C</strong> is not the author's point; the passage stresses functional, not aesthetic, value. <strong>D</strong> links valuation to planting drives, but paragraph 3 attributes the sapling problem to timing and funding, not to valuation encouraging over-planting.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-03",
+   "section": "LS",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "LS-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Application",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following municipal policies would the author be most likely to support?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Announcing a target of one lakh new saplings to be planted in a single monsoon season."
+    },
+    {
+     "id": "B",
+     "textHtml": "Reclassifying street trees under the beautification budget so that they are cared for by the parks department."
+    },
+    {
+     "id": "C",
+     "textHtml": "Replacing old trees along arterial roads with younger, faster-growing ones during road-widening."
+    },
+    {
+     "id": "D",
+     "textHtml": "Tracking the city's shaded canopy area each year and requiring that road and building works be redesigned to spare mature trees."
+    },
+    {
+     "id": "E",
+     "textHtml": "Commissioning a study that prices each tree's services so that low-value trees can be removed first."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 4 recommends measuring canopy (area shaded by living crowns) instead of counting plantings, and protecting old trees 'from road-widening and building works'.</p><p><strong>A</strong> is the headline-sapling approach criticised in paragraph 3. <strong>B</strong> keeps trees in the amenity category the author objects to. <strong>C</strong> sacrifices mature trees, the 'most valuable assets'. <strong>E</strong> is exactly the substitutability risk of pure valuation described in paragraph 2.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-04",
+   "section": "LS",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "LS-P1",
+   "topic": "Reading Comprehension",
+   "subtopic": "Weaken",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following, if true, would most seriously weaken the author's criticism of planting drives in the third paragraph?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Many cities already publish figures for the number of trees planted each year."
+    },
+    {
+     "id": "B",
+     "textHtml": "Newly developed urban tree varieties deliver most of a mature tree's shade and drainage benefits within four years and survive city conditions at very high rates even without follow-up care."
+    },
+    {
+     "id": "C",
+     "textHtml": "Reflective roof coatings lose much of their cooling effect after a few years of weathering."
+    },
+    {
+     "id": "D",
+     "textHtml": "Old trees occasionally fall during storms and damage property."
+    },
+    {
+     "id": "E",
+     "textHtml": "Residents generally say they prefer tree-lined streets to bare ones."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. The criticism rests on two premises: benefits arrive only after 'two or three decades', and many saplings die without protection and watering. If new varieties deliver most benefits within four years (inside a political term) and survive without follow-up care, both premises collapse.</p><p><strong>A</strong> is irrelevant to whether drives deliver what they promise. <strong>C</strong> bears on paragraph 2's substitution example, not on planting drives. <strong>D</strong> is a minor cost of old trees but does not touch the timing argument. <strong>E</strong> supports trees generally and says nothing about how fast saplings deliver benefits.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-05",
+   "section": "LS",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "LS-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Detail",
+   "difficulty": "easy",
+   "stemHtml": "<p>According to the passage, forgetting was the default before the digital age because</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "people in earlier times placed little value on historical records."
+    },
+    {
+     "id": "B",
+     "textHtml": "laws required most documents to be destroyed after a fixed period."
+    },
+    {
+     "id": "C",
+     "textHtml": "only public figures were considered worth recording."
+    },
+    {
+     "id": "D",
+     "textHtml": "preserving records demanded deliberate effort and protection against physical damage."
+    },
+    {
+     "id": "E",
+     "textHtml": "search tools ranked older material lower than recent material."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 1: records 'had to be copied by hand, stored, and protected from fire and damp; whatever was not deliberately preserved simply faded.'</p><p><strong>A</strong>, <strong>B</strong> and <strong>C</strong> are not stated anywhere. <strong>E</strong> is the author's proposed future remedy (paragraph 4), not a description of the past.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-06",
+   "section": "LS",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "LS-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Function",
+   "difficulty": "medium",
+   "stemHtml": "<p>The example of the shopkeeper in the second paragraph is used mainly to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "show that local newspapers often report trivial disputes."
+    },
+    {
+     "id": "B",
+     "textHtml": "suggest that the accountability argument for permanent records applies poorly to private individuals, who make up most of those recorded."
+    },
+    {
+     "id": "C",
+     "textHtml": "prove that the right to be forgotten should apply to everyone without exception."
+    },
+    {
+     "id": "D",
+     "textHtml": "illustrate how public figures rewrite their past positions."
+    },
+    {
+     "id": "E",
+     "textHtml": "argue that customers should not be allowed to complain publicly about businesses."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>B</strong> is correct. The example follows the claim that accountability arguments 'assume that the person being held to account is powerful, while most of what is permanently stored concerns people who are not'. The shopkeeper is such a non-powerful person who gains no accountability benefit — he just 'carries the episode with him'.</p><p><strong>A</strong> and <strong>E</strong> miss the point; the dispute's reporting is incidental. <strong>C</strong> overreaches: the author rejects all-or-nothing solutions in paragraph 4. <strong>D</strong> describes the opposite group (public figures) from the one the example concerns.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-07",
+   "section": "LS",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "LS-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Author's Attitude",
+   "difficulty": "medium",
+   "stemHtml": "<p>The author's attitude towards the idea of a 'right to be forgotten' is best described as</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "outright rejection, because accountability always outweighs privacy."
+    },
+    {
+     "id": "B",
+     "textHtml": "unqualified enthusiasm for deleting all old personal records."
+    },
+    {
+     "id": "C",
+     "textHtml": "indifference, since the author thinks the problem will solve itself."
+    },
+    {
+     "id": "D",
+     "textHtml": "hostility towards search companies that store personal data."
+    },
+    {
+     "id": "E",
+     "textHtml": "qualified sympathy: the author acknowledges the accountability benefits of permanent records but favours measures that restore proportion rather than wholesale deletion."
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p><strong>E</strong> is correct. The author grants that accountability benefits 'are real' and must be reckoned with, yet argues that permanent records harm private individuals and flatten the weighting of past and present; the proposed remedy is 'less in deletion than in restoring proportion'.</p><p><strong>A</strong> contradicts the author's concern for private individuals. <strong>B</strong> contradicts 'less in deletion' and the rejection of 'wiped clean'. <strong>C</strong>: the author proposes active measures. <strong>D</strong>: no hostility to companies is expressed; the author even suggests changes search tools could make.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-08",
+   "section": "LS",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "LS-P2",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference / Meaning in Context",
+   "difficulty": "hard",
+   "stemHtml": "<p>What does the author most likely mean by saying that social forgetting 'did not erase the past so much as weight it'?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Forgetting reduced the influence of older conduct relative to recent conduct in how a person was judged, without making the past disappear entirely."
+    },
+    {
+     "id": "B",
+     "textHtml": "Forgetting made the past feel heavier and more burdensome to those who remembered it."
+    },
+    {
+     "id": "C",
+     "textHtml": "Forgetting removed all traces of a person's earlier mistakes from society's memory."
+    },
+    {
+     "id": "D",
+     "textHtml": "Forgetting gave more importance to distant events than to recent ones."
+    },
+    {
+     "id": "E",
+     "textHtml": "Forgetting allowed people to choose which parts of their past would be remembered."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct. The next clause explains the phrase: forgetting let 'recent conduct count for more than distant conduct'. 'Weight' is used in the sense of assigning relative importance, and 'did not erase' means the past was still there.</p><p><strong>B</strong> misreads 'weight' as 'burden'. <strong>C</strong> contradicts 'did not erase'. <strong>D</strong> reverses the direction of the weighting. <strong>E</strong> introduces individual choice, which the passage does not mention; social forgetting was a general process, not a selection made by the person.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-09",
+   "section": "LS",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "LS-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Main Idea",
+   "difficulty": "easy",
+   "stemHtml": "<p>The passage is primarily concerned with</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "arguing that firms should never imitate their competitors."
+    },
+    {
+     "id": "B",
+     "textHtml": "describing how start-ups raise capital from lenders and investors."
+    },
+    {
+     "id": "C",
+     "textHtml": "explaining why competing firms tend to resemble one another and identifying a risk that this creates."
+    },
+    {
+     "id": "D",
+     "textHtml": "proving that textbook theories of competition are entirely wrong."
+    },
+    {
+     "id": "E",
+     "textHtml": "comparing the management styles of large firms and start-ups."
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>C</strong> is correct. Paragraph 1 poses the puzzle of convergence; paragraphs 2–3 give two explanations (uncertainty, external legitimacy); paragraph 4 identifies the danger of copying visible form rather than substance.</p><p><strong>A</strong> contradicts 'Neither explanation implies that imitation is foolish'. <strong>B</strong> is only an illustration within paragraph 3. <strong>D</strong> overstates; the author notes a tension with textbook predictions but does not claim the theory is entirely wrong. <strong>E</strong> is not discussed.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-10",
+   "section": "LS",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "LS-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Detail",
+   "difficulty": "medium",
+   "stemHtml": "<p>According to the passage, adopting the industry's standard approach benefits an individual manager chiefly because it</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "guarantees higher profits than an unconventional approach."
+    },
+    {
+     "id": "B",
+     "textHtml": "is always cheaper to implement than any alternative."
+    },
+    {
+     "id": "C",
+     "textHtml": "attracts recruits who prefer familiar job titles."
+    },
+    {
+     "id": "D",
+     "textHtml": "provides the manager with a defence if the outcome turns out badly."
+    },
+    {
+     "id": "E",
+     "textHtml": "makes the link between practices and profit easy to see."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 2: copying 'protects the manager who chooses it' — one who fails with the standard approach 'can point out that everyone did the same'.</p><p><strong>A</strong>: no guarantee of higher profits is claimed. <strong>B</strong>: the passage says copying saves experimentation costs, not that it is 'always cheaper' than any alternative, and this is a benefit to the firm, not specifically to the manager's position. <strong>C</strong> belongs to paragraph 3's argument about the firm's external audiences. <strong>E</strong> contradicts the passage, which says the link is 'buried under dozens of other influences'.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-11",
+   "section": "LS",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "LS-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following can be inferred about 'legitimacy' as discussed in the third paragraph?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "It can be gained through features that have no effect on what a firm actually does."
+    },
+    {
+     "id": "B",
+     "textHtml": "It depends mainly on a firm's actual financial performance."
+    },
+    {
+     "id": "C",
+     "textHtml": "It is valued by regulators but ignored by investors."
+    },
+    {
+     "id": "D",
+     "textHtml": "It can be obtained only by firms that innovate."
+    },
+    {
+     "id": "E",
+     "textHtml": "It reduces a firm's need for capital and talent."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct. The start-up gains trust through the expected format, officers and vocabulary 'even if none of these features affects what it actually does', and 'conformity thus purchases legitimacy'.</p><p><strong>B</strong> contradicts this — legitimacy here rests on appearances. <strong>C</strong>: investors are listed among the evaluators. <strong>D</strong> reverses the point: legitimacy comes from conformity, not innovation. <strong>E</strong> reverses the causal link: 'legitimacy brings capital and talent'.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-12",
+   "section": "LS",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "LS-P3",
+   "topic": "Reading Comprehension",
+   "subtopic": "Inference",
+   "difficulty": "hard",
+   "stemHtml": "<p>The final sentence of the passage most strongly suggests which of the following?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Imitating firms will eventually overtake the industry leader."
+    },
+    {
+     "id": "B",
+     "textHtml": "The industry leader's success depends mainly on its organisation chart and branding."
+    },
+    {
+     "id": "C",
+     "textHtml": "Firms that copy only visible features are likely to perform better than the leader under uncertainty."
+    },
+    {
+     "id": "D",
+     "textHtml": "Regulators should forbid firms from copying one another's published policies."
+    },
+    {
+     "id": "E",
+     "textHtml": "A disruption that exposes a weakness in the industry's common visible model is likely to hurt many imitating firms at once."
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p><strong>E</strong> is correct. The sentence says imitators are 'alike in their weaknesses as well as in their appearance' — a shared vulnerability implies that a shock exploiting it would affect many of them together.</p><p><strong>A</strong> and <strong>C</strong> are unsupported; imitators are said to lack the leader's 'substance'. <strong>B</strong> contradicts the passage, which suggests the leader's success may come from 'unwritten routines and accumulated judgement', not visible features. <strong>D</strong> is a policy prescription the author never makes; imitation is called potentially rational.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-13",
+   "section": "LS",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Vocabulary",
+   "subtopic": "Synonyms",
+   "difficulty": "easy",
+   "stemHtml": "<p>Choose the word most nearly SIMILAR in meaning to <strong>EPHEMERAL</strong>.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Transient"
+    },
+    {
+     "id": "B",
+     "textHtml": "Durable"
+    },
+    {
+     "id": "C",
+     "textHtml": "Ethereal"
+    },
+    {
+     "id": "D",
+     "textHtml": "Ambiguous"
+    },
+    {
+     "id": "E",
+     "textHtml": "Superficial"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Ephemeral</strong> means lasting for a very short time; <strong>transient</strong> (passing quickly) is the closest synonym.</p><p><em>Durable</em> is its antonym. <em>Ethereal</em> (delicate, heavenly) merely sounds similar. <em>Ambiguous</em> means open to more than one interpretation. <em>Superficial</em> means shallow, which concerns depth, not duration.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-14",
+   "section": "LS",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Vocabulary",
+   "subtopic": "Antonyms",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the word most nearly OPPOSITE in meaning to <strong>LACONIC</strong>.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Terse"
+    },
+    {
+     "id": "B",
+     "textHtml": "Lethargic"
+    },
+    {
+     "id": "C",
+     "textHtml": "Verbose"
+    },
+    {
+     "id": "D",
+     "textHtml": "Candid"
+    },
+    {
+     "id": "E",
+     "textHtml": "Sullen"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Laconic</strong> means using very few words. Its opposite is <strong>verbose</strong> (using more words than needed).</p><p><em>Terse</em> is a synonym. <em>Lethargic</em> (sluggish) is a sound-alike trap from the 'la-' beginning. <em>Candid</em> (frank) and <em>sullen</em> (gloomily silent) do not oppose brevity; sullen, if anything, leans towards few words.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-15",
+   "section": "LS",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Vocabulary",
+   "subtopic": "Analogies",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the pair that best expresses a relationship similar to that in the given pair.</p><p><strong>CARTOGRAPHER : MAP</strong></p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Sculptor : Chisel"
+    },
+    {
+     "id": "B",
+     "textHtml": "Pilot : Aircraft"
+    },
+    {
+     "id": "C",
+     "textHtml": "Lexicographer : Dictionary"
+    },
+    {
+     "id": "D",
+     "textHtml": "Editor : Author"
+    },
+    {
+     "id": "E",
+     "textHtml": "Botanist : Garden"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>A <strong>cartographer</strong> is a professional who compiles and produces <strong>maps</strong>. Likewise, a <strong>lexicographer</strong> compiles and produces <strong>dictionaries</strong> (worker : the work product).</p><p>A sculptor uses a chisel (worker : tool). A pilot operates an aircraft (operator : machine). An editor works with an author (person : person). A botanist studies plants and does not produce a garden as the defining output.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-16",
+   "section": "LS",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Vocabulary",
+   "subtopic": "Analogies",
+   "difficulty": "hard",
+   "stemHtml": "<p>Choose the pair that best expresses a relationship similar to that in the given pair.</p><p><strong>PARSIMONIOUS : SPEND</strong></p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Generous : Give"
+    },
+    {
+     "id": "B",
+     "textHtml": "Garrulous : Talk"
+    },
+    {
+     "id": "C",
+     "textHtml": "Diligent : Work"
+    },
+    {
+     "id": "D",
+     "textHtml": "Timid : Fear"
+    },
+    {
+     "id": "E",
+     "textHtml": "Taciturn : Speak"
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p>A <strong>parsimonious</strong> person is extremely unwilling to <strong>spend</strong>. Similarly, a <strong>taciturn</strong> person is unwilling to <strong>speak</strong> (person characterised by reluctance to do the action).</p><p><em>Generous : Give</em>, <em>Garrulous : Talk</em> and <em>Diligent : Work</em> show the reverse relationship — a person inclined to do the action. <em>Timid : Fear</em> pairs a trait with a feeling the person experiences, not an action they avoid.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-17",
+   "section": "LS",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Vocabulary",
+   "subtopic": "Word Usage",
+   "difficulty": "medium",
+   "stemHtml": "<p>In which of the following sentences is the word <strong>discrete</strong> used correctly?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Please be discrete about the merger until it is officially announced."
+    },
+    {
+     "id": "B",
+     "textHtml": "The survey sorted the responses into five discrete categories."
+    },
+    {
+     "id": "C",
+     "textHtml": "She made a discrete exit while the speeches were still going on."
+    },
+    {
+     "id": "D",
+     "textHtml": "His discrete manner reassured clients who valued confidentiality."
+    },
+    {
+     "id": "E",
+     "textHtml": "The assistant passed on the message in a discrete whisper."
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Discrete</strong> means separate and distinct. Only <strong>B</strong> uses it in that sense — five separate categories.</p><p><strong>A</strong>, <strong>C</strong>, <strong>D</strong> and <strong>E</strong> all need <em>discreet</em> (careful, unobtrusive, tactful), a different word that is pronounced the same way.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-18",
+   "section": "LS",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Vocabulary",
+   "subtopic": "Contextual Meaning",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the word closest in meaning to the word in bold as used in the sentence.</p><p>The new billing software <strong>obviates</strong> the need for manual data entry.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Highlights"
+    },
+    {
+     "id": "B",
+     "textHtml": "Reduces"
+    },
+    {
+     "id": "C",
+     "textHtml": "Eliminates"
+    },
+    {
+     "id": "D",
+     "textHtml": "Postpones"
+    },
+    {
+     "id": "E",
+     "textHtml": "Complicates"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>To <strong>obviate</strong> a need is to remove it or make it unnecessary, so <strong>eliminates</strong> is correct.</p><p><em>Reduces</em> is the main trap: it suggests the need is smaller, whereas obviate means it no longer exists. <em>Highlights</em>, <em>postpones</em> and <em>complicates</em> do not match the meaning at all.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-19",
+   "section": "LS",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Grammar",
+   "subtopic": "Error Identification",
+   "difficulty": "easy",
+   "stemHtml": "<p>The sentence below has been divided into parts labelled (A) to (D). Identify the part that contains a grammatical error. If there is no error, choose (E).</p><p>(A) Neither the manager nor his assistants / (B) was informed about / (C) the change in schedule / (D) until the morning of the meeting.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(A)"
+    },
+    {
+     "id": "B",
+     "textHtml": "(B)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(C)"
+    },
+    {
+     "id": "D",
+     "textHtml": "(D)"
+    },
+    {
+     "id": "E",
+     "textHtml": "No error"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>With <em>neither … nor</em>, the verb agrees with the nearer subject. The nearer subject is <em>assistants</em> (plural), so part (B) should read <strong>were informed about</strong>.</p><p>Parts (A), (C) and (D) are correct as written; '(E) No error' fails because the verb disagrees with its subject.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-20",
+   "section": "LS",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Grammar",
+   "subtopic": "Error Identification",
+   "difficulty": "medium",
+   "stemHtml": "<p>The sentence below has been divided into parts labelled (A) to (D). Identify the part that contains a grammatical error. If there is no error, choose (E).</p><p>(A) The committee has submitted / (B) its report, which / (C) recommend a phased rollout / (D) of the new policy.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(A)"
+    },
+    {
+     "id": "B",
+     "textHtml": "(B)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(C)"
+    },
+    {
+     "id": "D",
+     "textHtml": "(D)"
+    },
+    {
+     "id": "E",
+     "textHtml": "No error"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>The relative pronoun <em>which</em> refers to <em>report</em> (singular), so its verb must be singular: <strong>recommends</strong>. The error is in part (C).</p><p>(A) is correct — <em>committee</em> acting as a single body takes <em>has</em>, consistent with the singular <em>its</em> in (B). (D) is correct. Hence there is an error, so (E) fails.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-21",
+   "section": "LS",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Grammar",
+   "subtopic": "Error Identification",
+   "difficulty": "hard",
+   "stemHtml": "<p>The sentence below has been divided into parts labelled (A) to (D). Identify the part that contains a grammatical error. If there is no error, choose (E).</p><p>(A) Having finished the inspection, / (B) the report was sent / (C) to the head office / (D) by the engineer the same evening.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(A)"
+    },
+    {
+     "id": "B",
+     "textHtml": "(B)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(C)"
+    },
+    {
+     "id": "D",
+     "textHtml": "(D)"
+    },
+    {
+     "id": "E",
+     "textHtml": "No error"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The opening participle phrase <em>Having finished the inspection</em> must modify the subject of the main clause. As written, that subject is <em>the report</em> — implying the report finished the inspection (a dangling modifier). The error lies in part (B); it should read, e.g., <strong>the engineer sent the report</strong> to the head office the same evening.</p><p>(A) is a perfectly formed participle phrase; the problem is not in it but in the subject that follows. (C) and (D) are grammatical. Students often pick (D) because the engineer appears there, but (D) is only a consequence of the passive subject chosen in (B).</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-22",
+   "section": "LS",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Grammar",
+   "subtopic": "Sentence Correction",
+   "difficulty": "easy",
+   "stemHtml": "<p>Choose the option that correctly replaces the part of the sentence in bold.</p><p><strong>If I would have known</strong> about the delay, I would have taken an earlier train.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "If I would have known"
+    },
+    {
+     "id": "B",
+     "textHtml": "If I knew"
+    },
+    {
+     "id": "C",
+     "textHtml": "Had I have known"
+    },
+    {
+     "id": "D",
+     "textHtml": "If I had known"
+    },
+    {
+     "id": "E",
+     "textHtml": "If I would know"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>This is a third conditional (an unreal past situation). The <em>if</em>-clause takes the past perfect: <strong>If I had known</strong>, … I would have taken.</p><p><em>Would have</em> is not used in the <em>if</em>-clause (A, E). <em>If I knew</em> (B) is the second conditional and clashes with <em>would have taken</em>. <em>Had I have known</em> (C) mixes the correct inversion <em>Had I known</em> with an extra <em>have</em>.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-23",
+   "section": "LS",
+   "number": 23,
+   "type": "MCQ",
+   "topic": "Grammar",
+   "subtopic": "Prepositions",
+   "difficulty": "easy",
+   "stemHtml": "<p>Choose the correct preposition to fill in the blank.</p><p>The analyst was accused ______ leaking confidential data to a competitor.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "for"
+    },
+    {
+     "id": "B",
+     "textHtml": "with"
+    },
+    {
+     "id": "C",
+     "textHtml": "about"
+    },
+    {
+     "id": "D",
+     "textHtml": "on"
+    },
+    {
+     "id": "E",
+     "textHtml": "of"
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p>The verb <em>accuse</em> takes the preposition <strong>of</strong>: one is accused <em>of</em> doing something.</p><p><em>Accused for</em> is a common error (possibly by analogy with <em>blamed for</em>); <em>with</em> belongs with <em>charged</em> (charged with); <em>about</em> and <em>on</em> are not used with accuse.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-24",
+   "section": "LS",
+   "number": 24,
+   "type": "MCQ",
+   "topic": "Grammar",
+   "subtopic": "Sentence Correction",
+   "difficulty": "hard",
+   "stemHtml": "<p>Choose the grammatically correct sentence.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Each of the candidates who have applied for the post is required to submit his or her documents by Friday."
+    },
+    {
+     "id": "B",
+     "textHtml": "Each of the candidates who has applied for the post are required to submit their documents by Friday."
+    },
+    {
+     "id": "C",
+     "textHtml": "Each of the candidates who have applied for the post are required to submit their documents by Friday."
+    },
+    {
+     "id": "D",
+     "textHtml": "Each of the candidates, who has applied for the post, is required to submit their documents by Friday."
+    },
+    {
+     "id": "E",
+     "textHtml": "Each of the candidate who have applied for the post is required to submit documents by Friday."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>A</strong> is correct. The relative clause <em>who have applied</em> describes <em>candidates</em> (plural), so it takes <em>have</em>; the main subject <em>Each</em> is singular, so the main verb is <em>is</em>; <em>his or her</em> agrees with <em>Each</em>.</p><p><strong>B</strong> and <strong>C</strong> use <em>are</em> with the singular subject <em>Each</em>. <strong>D</strong> wrongly sets off the restrictive clause with commas and makes it refer to <em>Each</em> ('who has'), which changes the meaning to 'each candidate, all of whom applied'. <strong>E</strong> needs the plural <em>candidates</em> after <em>Each of the</em>.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-25",
+   "section": "LS",
+   "number": 25,
+   "type": "MCQ",
+   "topic": "Para Jumbles",
+   "subtopic": "Sentence Ordering",
+   "difficulty": "easy",
+   "stemHtml": "<p>The following sentences, when properly sequenced, form a coherent paragraph. Choose the most logical order.</p><p>P. Within a few years, the same device had shrunk enough to fit in a pocket.</p><p>Q. The first electronic calculators were bulky desktop machines that needed mains power.</p><p>R. Today, a basic calculator is so cheap that it is often given away free with stationery.</p><p>S. As their prices fell along with their size, they moved out of offices and into schools and homes.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "PQSR"
+    },
+    {
+     "id": "B",
+     "textHtml": "QSPR"
+    },
+    {
+     "id": "C",
+     "textHtml": "QPRS"
+    },
+    {
+     "id": "D",
+     "textHtml": "QPSR"
+    },
+    {
+     "id": "E",
+     "textHtml": "SQPR"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Q</strong> introduces the topic (the first calculators). <strong>P</strong> follows with 'the same device' shrinking. <strong>S</strong> builds on the shrinking ('along with their size') to describe falling prices and spread. <strong>R</strong> concludes with 'Today'. Order: <strong>QPSR</strong>.</p><p>QSPR puts falling size in S before P describes the shrinking; QPRS jumps to 'Today' before the intermediate spread into schools; PQSR and SQPR begin with sentences that depend on earlier context ('the same device', 'their prices').</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-26",
+   "section": "LS",
+   "number": 26,
+   "type": "MCQ",
+   "topic": "Para Jumbles",
+   "subtopic": "Sentence Ordering",
+   "difficulty": "medium",
+   "stemHtml": "<p>The following sentences, when properly sequenced, form a coherent paragraph. Choose the most logical order.</p><p>P. Crop insurance was designed to break this cycle by spreading the risk of a bad season across many farmers.</p><p>Q. For a farmer who depends on rain, a single failed monsoon can wipe out a year's income.</p><p>R. To survive until the next harvest, such a farmer often borrows at high interest, and the debt outlasts the drought.</p><p>S. Its success, however, depends on claims being settled quickly, before the farmer is forced back to the moneylender.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "QRPS"
+    },
+    {
+     "id": "B",
+     "textHtml": "QPRS"
+    },
+    {
+     "id": "C",
+     "textHtml": "RQPS"
+    },
+    {
+     "id": "D",
+     "textHtml": "QRSP"
+    },
+    {
+     "id": "E",
+     "textHtml": "PQRS"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Q</strong> sets up the problem. <strong>R</strong> refers to 'such a farmer' and describes the borrowing–debt cycle. <strong>P</strong> refers to 'this cycle' and introduces crop insurance. <strong>S</strong> uses 'Its' (crop insurance) and 'back to the moneylender', echoing R. Order: <strong>QRPS</strong>.</p><p>QPRS places 'this cycle' before any cycle has been described. QRSP puts 'Its success' before crop insurance is mentioned. RQPS and PQRS open with sentences that depend on prior reference ('such a farmer', 'this cycle').</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-27",
+   "section": "LS",
+   "number": 27,
+   "type": "MCQ",
+   "topic": "Para Jumbles",
+   "subtopic": "Sentence Ordering",
+   "difficulty": "medium",
+   "stemHtml": "<p>The following sentences, when properly sequenced, form a coherent paragraph. Choose the most logical order.</p><p>P. Public libraries were long defined by the books on their shelves.</p><p>Q. With so much reading now done on screens, many predicted that they would empty out.</p><p>R. These branches host job-search workshops, homework clubs and language classes alongside their collections.</p><p>S. Yet the busiest branches today are often those that have reinvented themselves as community spaces.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "PRQS"
+    },
+    {
+     "id": "B",
+     "textHtml": "PSQR"
+    },
+    {
+     "id": "C",
+     "textHtml": "PQSR"
+    },
+    {
+     "id": "D",
+     "textHtml": "QPSR"
+    },
+    {
+     "id": "E",
+     "textHtml": "PQRS"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>P</strong> introduces libraries. <strong>Q</strong> gives the prediction ('they' = libraries) that they would empty. <strong>S</strong> contrasts with 'Yet' — the busiest branches are community spaces. <strong>R</strong> ('These branches host …') elaborates on what those reinvented branches do. Order: <strong>PQSR</strong>.</p><p>PQRS puts the examples of community activities before the idea of reinvention they illustrate, and leaves 'Yet' without a direct contrast. PRQS and PSQR break the prediction–contrast link between Q and S. QPSR opens with 'they', which has no antecedent.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-28",
+   "section": "LS",
+   "number": 28,
+   "type": "MCQ",
+   "topic": "Para Jumbles",
+   "subtopic": "Sentence Ordering",
+   "difficulty": "hard",
+   "stemHtml": "<p>The first sentence (1) of a paragraph is given. Arrange P, Q, R and S to complete the paragraph logically.</p><p>1. Most people assume that a good decision is simply one that leads to a good outcome.</p><p>P. A poker player who bets everything on a weak hand and wins has not played well; he has merely been lucky.</p><p>Q. This view, however, confuses the quality of a choice with the luck that follows it.</p><p>R. Judging decisions by their results alone therefore both rewards luck and punishes prudence.</p><p>S. Conversely, a sound decision can end badly when chance turns against it.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "QSPR"
+    },
+    {
+     "id": "B",
+     "textHtml": "QPRS"
+    },
+    {
+     "id": "C",
+     "textHtml": "PQSR"
+    },
+    {
+     "id": "D",
+     "textHtml": "SPQR"
+    },
+    {
+     "id": "E",
+     "textHtml": "QPSR"
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p><strong>Q</strong> ('This view') responds to sentence 1. <strong>P</strong> gives the example of a bad choice that turned out well. <strong>S</strong> ('Conversely') gives the opposite case. <strong>R</strong> ('therefore') concludes, and its two halves — 'rewards luck' and 'punishes prudence' — need both P and S before it. Order: <strong>QPSR</strong>.</p><p>QPRS places R before S, but R's 'punishes prudence' depends on S. QSPR places 'Conversely' before the case it is the converse of. PQSR separates 'This view' from sentence 1, which it refers to. SPQR starts with 'Conversely', which needs a prior contrast.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-29",
+   "section": "LS",
+   "number": 29,
+   "type": "MCQ",
+   "topic": "Fill in the Blanks",
+   "subtopic": "Double Blank",
+   "difficulty": "easy",
+   "stemHtml": "<p>Choose the pair of words that best completes the sentence.</p><p>Despite the team's ______ efforts, the project was ______ by a lack of funding.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "half-hearted, aided"
+    },
+    {
+     "id": "B",
+     "textHtml": "tireless, accelerated"
+    },
+    {
+     "id": "C",
+     "textHtml": "relentless, funded"
+    },
+    {
+     "id": "D",
+     "textHtml": "strenuous, hampered"
+    },
+    {
+     "id": "E",
+     "textHtml": "feeble, derailed"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><em>Despite</em> signals a contrast between hard work and a bad result. <strong>strenuous … hampered</strong> fits: great effort, yet held back by lack of funding.</p><p><em>half-hearted … aided</em> and <em>feeble … derailed</em> give weak efforts, which removes the contrast that <em>despite</em> requires (and 'aided by a lack of funding' is illogical). <em>tireless … accelerated</em> and <em>relentless … funded</em> make the second half positive, again destroying the contrast; 'funded by a lack of funding' is also self-contradictory.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-30",
+   "section": "LS",
+   "number": 30,
+   "type": "MCQ",
+   "topic": "Fill in the Blanks",
+   "subtopic": "Double Blank",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the pair of words that best completes the sentence.</p><p>The scientist was known for her ______; she would never announce a result until it had been ______ by independent experiments.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "caution, replicated"
+    },
+    {
+     "id": "B",
+     "textHtml": "audacity, refuted"
+    },
+    {
+     "id": "C",
+     "textHtml": "impatience, verified"
+    },
+    {
+     "id": "D",
+     "textHtml": "rigour, contradicted"
+    },
+    {
+     "id": "E",
+     "textHtml": "candour, publicised"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The second clause describes refusing to announce results until they are independently reproduced — this illustrates <strong>caution</strong>, and the result must be <strong>replicated</strong>.</p><p><em>audacity</em> and <em>impatience</em> contradict the behaviour described. <em>rigour</em> fits the first blank, but waiting until a result is <em>contradicted</em> makes no sense. <em>candour</em> (frankness) does not match the semicolon's explanation, and <em>publicised</em> by experiments is illogical.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-31",
+   "section": "LS",
+   "number": 31,
+   "type": "MCQ",
+   "topic": "Fill in the Blanks",
+   "subtopic": "Single Blank",
+   "difficulty": "easy",
+   "stemHtml": "<p>Choose the word that best completes the sentence.</p><p>His explanation was so ______ that even the experts struggled to follow it.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "lucid"
+    },
+    {
+     "id": "B",
+     "textHtml": "concise"
+    },
+    {
+     "id": "C",
+     "textHtml": "cogent"
+    },
+    {
+     "id": "D",
+     "textHtml": "plausible"
+    },
+    {
+     "id": "E",
+     "textHtml": "convoluted"
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p>'so … that even the experts struggled to follow it' calls for a word meaning complicated and hard to follow: <strong>convoluted</strong>.</p><p><em>lucid</em> (clear), <em>concise</em> (brief) and <em>cogent</em> (clear and convincing) would make the explanation easier to follow. <em>plausible</em> (believable) is unrelated to how hard it is to follow.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-32",
+   "section": "LS",
+   "number": 32,
+   "type": "MCQ",
+   "topic": "Fill in the Blanks",
+   "subtopic": "Double Blank",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the pair of words that best completes the sentence.</p><p>Far from being ______, the reforms were the product of years of careful ______.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "hasty, negligence"
+    },
+    {
+     "id": "B",
+     "textHtml": "considered, planning"
+    },
+    {
+     "id": "C",
+     "textHtml": "impulsive, deliberation"
+    },
+    {
+     "id": "D",
+     "textHtml": "radical, opposition"
+    },
+    {
+     "id": "E",
+     "textHtml": "popular, consultation"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><em>Far from being X</em> sets up X as the opposite of what follows. 'Years of careful ______' points to <em>deliberation</em>; its opposite is <em>impulsive</em>. So <strong>impulsive … deliberation</strong>.</p><p><em>hasty</em> fits the first blank but 'careful negligence' is self-contradictory. <em>considered … planning</em> gives no contrast (considered reforms <em>are</em> carefully planned). <em>radical … opposition</em> and <em>popular … consultation</em> do not create the needed opposition between the two halves.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-33",
+   "section": "LS",
+   "number": 33,
+   "type": "MCQ",
+   "topic": "Idioms and Usage",
+   "subtopic": "Idioms",
+   "difficulty": "easy",
+   "stemHtml": "<p>Choose the option that best explains the meaning of the idiom in bold.</p><p>After months of losses, the owners decided to <strong>bite the bullet</strong> and close two branches.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "To face an unpleasant but necessary decision with resolve"
+    },
+    {
+     "id": "B",
+     "textHtml": "To react angrily to bad news"
+    },
+    {
+     "id": "C",
+     "textHtml": "To take a reckless gamble"
+    },
+    {
+     "id": "D",
+     "textHtml": "To delay a decision for as long as possible"
+    },
+    {
+     "id": "E",
+     "textHtml": "To blame others for one's mistakes"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Bite the bullet</strong> means to make yourself do something difficult or unpleasant that cannot be avoided — here, closing branches after losses.</p><p>The idiom has nothing to do with anger (B), recklessness (C) or blame (E), and it means the opposite of delaying (D).</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-34",
+   "section": "LS",
+   "number": 34,
+   "type": "MCQ",
+   "topic": "Idioms and Usage",
+   "subtopic": "Idioms",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the option that best explains the meaning of the idiom in bold.</p><p>The board rejected the expansion plan, calling its revenue targets <strong>pie in the sky</strong>.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Easily achievable"
+    },
+    {
+     "id": "B",
+     "textHtml": "Carefully calculated"
+    },
+    {
+     "id": "C",
+     "textHtml": "Kept secret from shareholders"
+    },
+    {
+     "id": "D",
+     "textHtml": "Attractive but unlikely ever to be realised"
+    },
+    {
+     "id": "E",
+     "textHtml": "Divided unfairly among departments"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Pie in the sky</strong> describes a hope or promise that is pleasant to imagine but very unlikely to come true — which is why the board rejected the plan.</p><p><em>Easily achievable</em> and <em>carefully calculated</em> are the opposite sense and would not lead to rejection. <em>Kept secret</em> and <em>divided unfairly</em> misread the 'pie' image literally.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-35",
+   "section": "LS",
+   "number": 35,
+   "type": "MCQ",
+   "topic": "Idioms and Usage",
+   "subtopic": "Cloze / Usage",
+   "difficulty": "medium",
+   "stemHtml": "<p>Choose the word that best fits the blank in the passage.</p><p>Good negotiators rarely open with their final offer. Instead, they leave themselves room to ______, so that each concession they make appears to be a gesture of goodwill rather than a retreat.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "retreat"
+    },
+    {
+     "id": "B",
+     "textHtml": "manoeuvre"
+    },
+    {
+     "id": "C",
+     "textHtml": "capitulate"
+    },
+    {
+     "id": "D",
+     "textHtml": "gloat"
+    },
+    {
+     "id": "E",
+     "textHtml": "deliberate"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Negotiators keep 'room' between their opening and final offers so they can make adjustments; the word that fits is <strong>manoeuvre</strong> (move skilfully to gain advantage).</p><p><em>retreat</em> and <em>capitulate</em> (surrender) clash with the sentence's point that concessions should not look like a retreat. <em>gloat</em> is unrelated. <em>deliberate</em> (think carefully) does not need 'room' in an offer and does not explain the concessions.</p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  },
+  {
+   "key": "LS-36",
+   "section": "LS",
+   "number": 36,
+   "type": "MCQ",
+   "topic": "Idioms and Usage",
+   "subtopic": "Correct Usage",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following sentences is grammatically correct?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "The manager insisted on that every report be checked twice."
+    },
+    {
+     "id": "B",
+     "textHtml": "Scarcely had the meeting begun than the power failed."
+    },
+    {
+     "id": "C",
+     "textHtml": "No sooner the meeting had begun than the power failed."
+    },
+    {
+     "id": "D",
+     "textHtml": "The meeting had hardly begun than the power failed."
+    },
+    {
+     "id": "E",
+     "textHtml": "Hardly had the meeting begun when the power failed."
+    }
+   ],
+   "answer": "E",
+   "solutionHtml": "<p><strong>E</strong> is correct: <em>hardly</em> (like <em>scarcely</em>) pairs with <strong>when</strong>, and when it opens the sentence the auxiliary is inverted — <em>Hardly had the meeting begun when …</em></p><p><strong>A</strong>: <em>insist</em> takes a <em>that</em>-clause directly ('insisted that'); <em>insist on</em> takes a noun or gerund. <strong>B</strong> and <strong>D</strong>: <em>scarcely/hardly</em> go with <em>when</em>, not <em>than</em> (<em>than</em> belongs with <em>no sooner</em>). <strong>C</strong>: an opening <em>No sooner</em> requires inversion — <em>No sooner had the meeting begun than …</em></p>",
+   "source": {
+    "kind": "original",
+    "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review",
+    "retrievedAt": "2026-11-13"
+   }
+  }
+ ]
+}

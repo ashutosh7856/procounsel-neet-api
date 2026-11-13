@@ -1,0 +1,708 @@
+{
+  "sets": [
+    {
+      "key": "LC-S1",
+      "kind": "passage",
+      "title": "The memory of organisations",
+      "contentHtml": "<p>Organisations like to speak of their memory as though it were a vault: a place where lessons, once deposited, wait safely until someone needs them. The image is flattering and almost entirely wrong. What a firm 'remembers' lives mostly in the habits of particular people, in the unwritten reasons behind a procedure, and in stories told over lunch. When those people leave, the procedure survives but its reasons do not, and a rule that once had a purpose becomes a ritual that newcomers obey without understanding.</p><p>The usual remedy is documentation. Write everything down, the argument goes, and nothing will be lost. Yet anyone who has inherited a shared drive full of reports knows that a written record is not the same as a usable one. Documents capture what was decided far more reliably than why it was decided, and they say almost nothing about the options that were rejected. A successor reading the file sees a conclusion stripped of the doubts that produced it, and is therefore poorly placed to judge whether those doubts still apply.</p><p>There is a further difficulty that enthusiasts for documentation seldom admit. An organisation that remembers everything with equal weight effectively remembers nothing, because the important lessons are buried under the trivial ones. Healthy memory, in individuals and institutions alike, depends on forgetting. A mind that could not discard the details of every ordinary afternoon would struggle to recall the afternoon that mattered. In the same way, a company that never retires an old rule ends up with a thicket of procedures that slow every decision while protecting against risks that disappeared years ago.</p><p>None of this means records are worthless. It means that the work of remembering is an active one. The firms that learn best from their past tend to do three things. They record reasons alongside decisions, so that a later reader can test whether the original logic still holds. They periodically review their rules and ask, of each one, what would go wrong if it were abolished; a rule that no one can defend is a candidate for removal. And they keep people who carry institutional knowledge in conversation with those who will replace them, recognising that some understanding passes more easily through apprenticeship than through paperwork.</p><p>Seen this way, organisational memory is less like a vault than like a garden. It has to be planted deliberately, pruned regularly and handed on to someone who knows what the plants are for. Left alone, it does not stay as it was; it either withers or grows wild.</p>",
+      "section": "LC"
+    },
+    {
+      "key": "LC-S2",
+      "kind": "passage",
+      "title": "Designing for the average",
+      "contentHtml": "<p>Designers love averages. An average customer is easy to imagine, easy to survey and easy to build for. The trouble is that the average customer rarely exists. A product shaped to the mean of a population may fit no individual in it particularly well, because people who are typical on one dimension are frequently atypical on another. A shopper of average height may have unusually small hands; a reader of average speed may have unusually poor eyesight. Add enough dimensions together and the number of people who are average on all of them shrinks towards zero.</p><p>This observation has practical consequences. A kitchen counter set at the average comfortable height forces the tall to stoop and the short to stretch. A banking app that assumes average digital confidence bewilders some users and bores others. In each case the designer has not served the majority; the designer has served a statistical fiction and asked real people to adapt to it.</p><p>The obvious alternative is customisation, and in some fields it works well. Adjustable chairs, resizable text and configurable dashboards let users bend a product towards themselves. But customisation carries costs that its champions tend to understate. Every option is a decision the user must make, and many users would rather not make it. Settings menus grow long, defaults go unchanged, and the flexibility that was meant to include everyone ends up benefiting mainly the confident minority who explore it.</p><p>A more promising approach starts from the edges rather than the centre. Designers who study users at the extremes—the person with arthritis who struggles with a stiff lid, the elderly customer unfamiliar with touchscreens—often find solutions that improve the experience for everyone. A jar that opens easily for weak hands opens easily for strong ones too. A form written plainly enough for a hesitant reader is quicker for a fluent one. The edges, in other words, reveal friction that the average user also feels but has learned to tolerate.</p><p>This is not an argument for abandoning data. It is an argument about which data to look at. Averages describe a population; they do not describe the people in it. A designer who wants to serve people must eventually stop asking what the typical user needs and start asking where real users get stuck.</p>",
+      "section": "LC"
+    }
+  ],
+  "questions": [
+    {
+      "key": "LC-01",
+      "section": "LC",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "LC-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best expresses the central idea of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Organisations should replace written documentation with oral storytelling, since stories preserve reasons better than reports."
+        },
+        {
+          "id": "B",
+          "textHtml": "Organisational memory is not a passive store but must be actively maintained, which includes recording reasons and deliberately discarding outdated rules."
+        },
+        {
+          "id": "C",
+          "textHtml": "Most organisational rules are useless rituals and should be abolished as soon as the people who created them leave."
+        },
+        {
+          "id": "D",
+          "textHtml": "Firms forget important lessons mainly because they do not produce enough documentation."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The passage rejects the 'vault' image, argues that documents alone are insufficient and that healthy memory 'depends on forgetting', and concludes that remembering is 'an active one' — like a garden that must be planted, pruned and handed on.</p><p><strong>A</strong> fails: the author says 'None of this means records are worthless' and recommends recording reasons alongside decisions, not replacing documents.</p><p><strong>C</strong> is too extreme: only rules that 'no one can defend' are candidates for removal.</p><p><strong>D</strong> contradicts the passage, which says the problem is not quantity — remembering everything with equal weight is itself a failure.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-02",
+      "section": "LC",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "LC-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, what is the chief shortcoming of written records as a means of preserving organisational memory?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "They are usually lost when employees leave the organisation."
+        },
+        {
+          "id": "B",
+          "textHtml": "They are too short to describe complex decisions in full."
+        },
+        {
+          "id": "C",
+          "textHtml": "They are rarely read by anyone other than the people who wrote them."
+        },
+        {
+          "id": "D",
+          "textHtml": "They tend to record what was decided but not why, nor which alternatives were rejected."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Paragraph 2 states: 'Documents capture what was decided far more reliably than why it was decided, and they say almost nothing about the options that were rejected.'</p><p><strong>A</strong> fails: it is the unwritten reasons that are lost when people leave; the documents and procedures survive. <strong>B</strong> and <strong>C</strong> are never claimed — the author even mentions 'a shared drive full of reports', which suggests volume, not brevity.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-03",
+      "section": "LC",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "LC-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Function of a Detail",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author mentions 'a mind that could not discard the details of every ordinary afternoon' primarily in order to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "illustrate, by analogy with individual memory, that selective forgetting helps an organisation recall what matters."
+        },
+        {
+          "id": "B",
+          "textHtml": "show that human memory is less reliable than written organisational records."
+        },
+        {
+          "id": "C",
+          "textHtml": "argue that employees should be trained to remember more of their daily work."
+        },
+        {
+          "id": "D",
+          "textHtml": "suggest that most of what happens inside an organisation is trivial and should not be recorded."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The sentence follows the claim that 'Healthy memory, in individuals and institutions alike, depends on forgetting', and the next sentence begins 'In the same way, a company…'. It is an analogy from individual memory to organisational memory.</p><p><strong>B</strong> fails: the author is not comparing reliability of minds and records. <strong>C</strong> reverses the point — the example praises forgetting. <strong>D</strong> overstates: the author does not say most events should go unrecorded, only that everything should not carry equal weight.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-04",
+      "section": "LC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "LC-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Application",
+      "difficulty": "hard",
+      "stemHtml": "<p>A company still requires three senior signatures on every purchase above a small amount, a rule introduced long ago. No current employee knows why it was introduced. Which course of action is most consistent with the author's recommendations?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Keep the rule unchanged, since a rule that has survived for many years must still serve some purpose."
+        },
+        {
+          "id": "B",
+          "textHtml": "Abolish the rule immediately, since any rule whose origin is unknown is merely a ritual."
+        },
+        {
+          "id": "C",
+          "textHtml": "Ask what would go wrong if the rule were abolished; if no one can defend it, treat it as a candidate for removal, and record the reasoning behind whatever is decided."
+        },
+        {
+          "id": "D",
+          "textHtml": "Commission a detailed history of the rule and file it on the shared drive so that future employees understand it."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. It applies two of the three practices in paragraph 4: reviewing rules by asking 'what would go wrong if it were abolished' (an indefensible rule 'is a candidate for removal') and recording reasons alongside decisions.</p><p><strong>A</strong> fails: the author warns about rules that protect 'against risks that disappeared years ago'. <strong>B</strong> skips the test the author proposes; an unknown origin alone does not mean the rule is indefensible, and the author speaks of a 'candidate for removal', not automatic abolition. <strong>D</strong> relies only on documentation, which paragraph 2 says is insufficient on its own and does not address whether the rule should remain.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-05",
+      "section": "LC",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "LC-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following best summarises the author's argument?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Designing for an average user often serves no real person well; studying users at the extremes tends to produce designs that work better for everyone."
+        },
+        {
+          "id": "B",
+          "textHtml": "Products should be fully customisable so that every user can adapt them to individual needs."
+        },
+        {
+          "id": "C",
+          "textHtml": "Designers should stop collecting data about users and rely on intuition instead."
+        },
+        {
+          "id": "D",
+          "textHtml": "Products should be designed primarily for elderly and disabled users, even if this makes them worse for others."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The passage criticises designing for the average (paragraphs 1–2), finds customisation limited (paragraph 3), and recommends starting 'from the edges rather than the centre' because such solutions 'improve the experience for everyone' (paragraph 4).</p><p><strong>B</strong> fails: customisation is said to carry understated costs. <strong>C</strong> contradicts 'This is not an argument for abandoning data.' <strong>D</strong> misreads the claim — edge-focused design is valued because it helps everyone, not at others' expense.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-06",
+      "section": "LC",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "LC-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Tone / Attitude",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author's attitude towards customisation as a design strategy can best be described as</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "wholehearted endorsement."
+        },
+        {
+          "id": "B",
+          "textHtml": "outright rejection."
+        },
+        {
+          "id": "C",
+          "textHtml": "qualified scepticism."
+        },
+        {
+          "id": "D",
+          "textHtml": "indifference."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The author grants that customisation 'in some fields … works well' but argues that it 'carries costs that its champions tend to understate' and mainly benefits 'the confident minority'. That is scepticism with a concession — qualified scepticism.</p><p><strong>A</strong> ignores the stated costs. <strong>B</strong> ignores the concession that it works well in some fields. <strong>D</strong> fails because the author devotes a whole paragraph to evaluating it.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-07",
+      "section": "LC",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "LC-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Vocabulary in Context",
+      "difficulty": "medium",
+      "stemHtml": "<p>In the passage, the phrase 'a statistical fiction' refers to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "data that designers have deliberately falsified."
+        },
+        {
+          "id": "B",
+          "textHtml": "an 'average user' who matches no actual individual in the population."
+        },
+        {
+          "id": "C",
+          "textHtml": "the minority of confident users who explore settings menus."
+        },
+        {
+          "id": "D",
+          "textHtml": "a survey whose sample was too small to be reliable."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 1 argues that 'the average customer rarely exists' and that hardly anyone is average on all dimensions; paragraph 2 then says the designer 'has served a statistical fiction', i.e. that non-existent average person.</p><p><strong>A</strong> fails: no falsification is suggested — 'fiction' means imaginary, not fraudulent. <strong>C</strong> refers to paragraph 3, a different point. <strong>D</strong> is never mentioned.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-08",
+      "section": "LC",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "LC-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Strengthen / Weaken",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following, if true, would most seriously weaken the author's case for designing 'from the edges'?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Many users never change the default settings of the software they use."
+        },
+        {
+          "id": "B",
+          "textHtml": "Average body measurements differ from one country to another."
+        },
+        {
+          "id": "C",
+          "textHtml": "Some designers find it difficult to recruit elderly users for product testing."
+        },
+        {
+          "id": "D",
+          "textHtml": "Studies repeatedly find that features designed for users with severe difficulties make products slower and more cumbersome for typical users."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The author's case rests on the claim that edge-focused solutions 'improve the experience for everyone'. Evidence that they consistently make products worse for typical users attacks that premise directly.</p><p><strong>A</strong> actually supports the author's criticism of customisation. <strong>B</strong> reinforces the weakness of averages. <strong>C</strong> concerns a practical difficulty in research, not whether edge-focused designs work.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-09",
+      "section": "LC",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Synonym in Context",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the word closest in meaning to the word in bold as used in the sentence.</p><p>The spokesperson's reply was so <strong>laconic</strong> that reporters left with almost nothing to write about.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "verbose"
+        },
+        {
+          "id": "B",
+          "textHtml": "evasive"
+        },
+        {
+          "id": "C",
+          "textHtml": "terse"
+        },
+        {
+          "id": "D",
+          "textHtml": "eloquent"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. <em>Laconic</em> means using very few words; <em>terse</em> means brief and to the point. The context ('almost nothing to write about') confirms brevity.</p><p><strong>A</strong> (verbose) is the opposite. <strong>B</strong> (evasive) means avoiding the question — a reply can be long yet evasive, so it is not the meaning of the word. <strong>D</strong> (eloquent) means fluent and persuasive, unrelated to length.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-10",
+      "section": "LC",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Antonym in Context",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the word most nearly OPPOSITE in meaning to the word in bold.</p><p>The popularity that a single viral video brings is usually <strong>ephemeral</strong>.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "enduring"
+        },
+        {
+          "id": "B",
+          "textHtml": "fleeting"
+        },
+        {
+          "id": "C",
+          "textHtml": "transient"
+        },
+        {
+          "id": "D",
+          "textHtml": "momentary"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. <em>Ephemeral</em> means lasting a very short time; its opposite is <em>enduring</em> (lasting a long time).</p><p><strong>B</strong>, <strong>C</strong> and <strong>D</strong> (fleeting, transient, momentary) are all synonyms of ephemeral, not antonyms.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-11",
+      "section": "LC",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Word Meaning in Context",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the option that best gives the meaning of the word in bold as used in the sentence.</p><p>The new drainage channels were built to <strong>mitigate</strong> the damage caused by seasonal flooding.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "predict accurately"
+        },
+        {
+          "id": "B",
+          "textHtml": "eliminate completely"
+        },
+        {
+          "id": "C",
+          "textHtml": "draw attention to"
+        },
+        {
+          "id": "D",
+          "textHtml": "make less severe"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. To <em>mitigate</em> is to make something less severe or serious.</p><p><strong>B</strong> is the tempting distractor: mitigation reduces harm but does not imply removing it entirely. <strong>A</strong> and <strong>C</strong> have no connection with the word's meaning.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-12",
+      "section": "LC",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Grammar",
+      "subtopic": "Error Spotting",
+      "difficulty": "medium",
+      "stemHtml": "<p>Identify the part of the sentence that contains an error. If there is no error, choose D.</p><p>(A) Neither the manager nor his assistants / (B) was aware of / (C) the change in the schedule.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Neither the manager nor his assistants"
+        },
+        {
+          "id": "B",
+          "textHtml": "was aware of"
+        },
+        {
+          "id": "C",
+          "textHtml": "the change in the schedule"
+        },
+        {
+          "id": "D",
+          "textHtml": "No error"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. With <em>neither … nor</em>, the verb agrees with the subject nearer to it. The nearer subject is the plural 'his assistants', so the verb must be plural: 'Neither the manager nor his assistants <strong>were</strong> aware of the change in the schedule.'</p><p>Part A is correctly formed, and part C has no error, so D (No error) is also wrong.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-13",
+      "section": "LC",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Grammar",
+      "subtopic": "Error Spotting",
+      "difficulty": "medium",
+      "stemHtml": "<p>Identify the part of the sentence that contains an error. If there is no error, choose D.</p><p>(A) Although she is senior than / (B) most of her colleagues, / (C) she rarely insists on formality.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Although she is senior than"
+        },
+        {
+          "id": "B",
+          "textHtml": "most of her colleagues,"
+        },
+        {
+          "id": "C",
+          "textHtml": "she rarely insists on formality."
+        },
+        {
+          "id": "D",
+          "textHtml": "No error"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Adjectives of Latin origin such as <em>senior, junior, superior, inferior, prior</em> are followed by <em>to</em>, not <em>than</em>: 'Although she is senior <strong>to</strong> most of her colleagues…'.</p><p>Parts B and C are grammatical ('insists on' is the correct preposition), so D is wrong.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-14",
+      "section": "LC",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Grammar",
+      "subtopic": "Sentence Correction",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the grammatically correct sentence.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Hardly had the train left the station than the alarm sounded."
+        },
+        {
+          "id": "B",
+          "textHtml": "Hardly the train had left the station when the alarm sounded."
+        },
+        {
+          "id": "C",
+          "textHtml": "Hardly had the train left the station, then the alarm sounded."
+        },
+        {
+          "id": "D",
+          "textHtml": "Hardly had the train left the station when the alarm sounded."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. <em>Hardly</em> (like <em>scarcely</em>) pairs with <em>when</em>, and when it opens a sentence the subject and auxiliary are inverted: 'Hardly <em>had the train</em> left … <em>when</em> …'.</p><p><strong>A</strong> uses <em>than</em>, which pairs with <em>no sooner</em>, not <em>hardly</em>. <strong>B</strong> lacks the required inversion. <strong>C</strong> uses <em>then</em>, which is not the correct correlative.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-15",
+      "section": "LC",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Grammar",
+      "subtopic": "Sentence Improvement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the option that best replaces the underlined part. If no improvement is needed, choose D.</p><p><em>If I would have known</em> about the delay, I would have taken a later flight.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "If I would know"
+        },
+        {
+          "id": "B",
+          "textHtml": "If I knew"
+        },
+        {
+          "id": "C",
+          "textHtml": "If I had known"
+        },
+        {
+          "id": "D",
+          "textHtml": "No improvement"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. This is a third conditional (an unreal situation in the past). Its structure is <em>If + past perfect, would have + past participle</em>: 'If I <strong>had known</strong> about the delay, I would have taken a later flight.' <em>Would</em> is not used in the if-clause.</p><p><strong>A</strong> keeps the incorrect <em>would</em>. <strong>B</strong> is a second-conditional form, which refers to the present, so it does not match 'would have taken'. <strong>D</strong> is wrong because the original is ungrammatical.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-16",
+      "section": "LC",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para Jumbles",
+      "difficulty": "medium",
+      "stemHtml": "<p>Arrange the following sentences in the most logical order.</p><p>P. The difference arises because, in the second case, interest is earned on interest already received.<br>Q. Two savers deposit the same sum at the same rate of interest for the same period.<br>R. One withdraws the interest every year, while the other leaves it in the account.<br>S. At the end of the period, the second saver has noticeably more money than the first.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "QSRP"
+        },
+        {
+          "id": "B",
+          "textHtml": "QRSP"
+        },
+        {
+          "id": "C",
+          "textHtml": "RQSP"
+        },
+        {
+          "id": "D",
+          "textHtml": "QRPS"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B (QRSP)</strong> is correct. Q introduces the two savers; R states how they differ in behaviour; S gives the outcome; P explains 'the difference' that S has just described.</p><p><strong>A</strong> gives the outcome (S) before we learn how the savers behave (R). <strong>C</strong> begins with 'One…', which needs Q to introduce the savers first. <strong>D</strong> places P ('The difference arises…') before the difference in outcome (S) has been stated.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-17",
+      "section": "LC",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Idioms and Phrases",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the option that best expresses the meaning of the idiom in bold.</p><p>Knowing that the cost cuts would be unpopular, the board decided to <strong>bite the bullet</strong> and announce them.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "to postpone an unpleasant decision"
+        },
+        {
+          "id": "B",
+          "textHtml": "to speak angrily to someone"
+        },
+        {
+          "id": "C",
+          "textHtml": "to make a hasty and careless choice"
+        },
+        {
+          "id": "D",
+          "textHtml": "to face an unpleasant but necessary situation with courage"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. To <em>bite the bullet</em> is to accept or do something difficult or unpleasant that cannot be avoided. The board goes ahead with an unpopular announcement.</p><p><strong>A</strong> is the opposite — the board acts rather than delays. <strong>B</strong> and <strong>C</strong> are not meanings of the idiom, and nothing in the sentence suggests anger or carelessness.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-18",
+      "section": "LC",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Idioms and Phrases",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the option that best expresses the meaning of the idiom in bold.</p><p>After a long legal dispute, the two companies finally agreed to <strong>bury the hatchet</strong>.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "to end a quarrel and make peace"
+        },
+        {
+          "id": "B",
+          "textHtml": "to hide evidence from the court"
+        },
+        {
+          "id": "C",
+          "textHtml": "to merge into a single company"
+        },
+        {
+          "id": "D",
+          "textHtml": "to file a fresh lawsuit"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. To <em>bury the hatchet</em> means to stop quarrelling and become friendly again — fitting the end of a long dispute.</p><p><strong>B</strong> reads the idiom literally. <strong>C</strong> may follow a reconciliation but is not what the idiom means. <strong>D</strong> is the opposite of ending a dispute.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-19",
+      "section": "LC",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Fill in the Blanks",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the word that best fills the blank.</p><p>The evidence against the accused was so ______ that the jury reached its verdict within an hour.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "tenuous"
+        },
+        {
+          "id": "B",
+          "textHtml": "ambiguous"
+        },
+        {
+          "id": "C",
+          "textHtml": "conclusive"
+        },
+        {
+          "id": "D",
+          "textHtml": "scanty"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. A quick verdict follows from evidence that settles the question — <em>conclusive</em> evidence.</p><p><strong>A</strong> (tenuous = weak), <strong>B</strong> (ambiguous = open to more than one reading) and <strong>D</strong> (scanty = insufficient) would all make a quick verdict less likely, which clashes with 'so … that the jury reached its verdict within an hour'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LC-20",
+      "section": "LC",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Fill in the Blanks",
+      "difficulty": "hard",
+      "stemHtml": "<p>Choose the pair of words that best fills the blanks.</p><p>Although the start-up's early growth was ______, its founders remained ______, warning employees that the market could turn quickly.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "sluggish … complacent"
+        },
+        {
+          "id": "B",
+          "textHtml": "spectacular … cautious"
+        },
+        {
+          "id": "C",
+          "textHtml": "modest … euphoric"
+        },
+        {
+          "id": "D",
+          "textHtml": "impressive … reckless"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. <em>Although</em> signals a contrast between the growth and the founders' attitude, and 'warning employees that the market could turn' shows the attitude was careful. Spectacular growth contrasted with caution fits both clues.</p><p><strong>A</strong>: complacent founders would not issue warnings. <strong>C</strong>: euphoric founders would not warn either, and modest growth followed by euphoria is not the contrast <em>although</em> needs here. <strong>D</strong>: 'reckless' contradicts the warning.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

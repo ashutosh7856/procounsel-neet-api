@@ -10,6 +10,7 @@ from api.auth import CurrentUser
 from api.db import SafeFirestore, get_db
 
 from .attempts import live_question_ids
+from .confidence import apply_confidence
 from .deps import student
 from .models import PracticeAnswerInput, PracticeAnswerResponse
 from .public import reveal
@@ -39,7 +40,7 @@ def answer_practice(body: PracticeAnswerInput, user: CurrentUser = Depends(stude
     now = utcnow()
 
     def mutate(current: dict[str, Any] | None) -> tuple[dict[str, Any], dict[str, Any]]:
-        doc = apply_answer(current, user.user_id, question, answer, correct, now, "practice")
+        doc = apply_confidence(apply_answer(current, user.user_id, question, answer, correct, now, "practice"), body.confidence, correct)
         return doc, doc
 
     stat = occ_update(db, STATS, stat_id(user.user_id, body.questionId), mutate)

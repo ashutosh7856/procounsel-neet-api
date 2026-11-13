@@ -1,0 +1,51 @@
+{
+  "id": "gmat",
+  "name": "GMAT Exam (Focus Edition)",
+  "conductingBody": "Graduate Management Admission Council (GMAC)",
+  "officialUrl": "https://www.mba.com/exams/gmat-exam",
+  "adaptive": true,
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "QR",
+          "name": "Quantitative Reasoning",
+          "questionCount": 21,
+          "durationMinutes": 45
+        },
+        {
+          "id": "VR",
+          "name": "Verbal Reasoning",
+          "questionCount": 23,
+          "durationMinutes": 45
+        },
+        {
+          "id": "DI",
+          "name": "Data Insights",
+          "questionCount": 20,
+          "durationMinutes": 45
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": 0,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 135,
+      "sectionOrderLocked": false,
+      "scoring": "practice",
+      "scoringNote": "The real GMAT is computer-adaptive: each section is scored 60-90 and the total 205-805 from the questions answered and their difficulty. This practice test is not adaptive and shows a raw score of 1 per correct answer; it does not predict a GMAT score. You choose the section order.",
+      "source": {
+        "kind": "official",
+        "title": "GMAT Exam Scores (GMAC)",
+        "url": "https://www.gmac.com/gmat-other-assessments/about-the-gmat-focus-edition/exam-scores",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

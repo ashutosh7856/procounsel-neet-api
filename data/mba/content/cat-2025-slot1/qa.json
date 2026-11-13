@@ -1,0 +1,631 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Ratio & proportion",
+   "difficulty": "easy",
+   "stemHtml": "<p>The ratio of the number of students in the morning shift and afternoon shift of a school was 13 : 9. After 21 students moved from the morning shift to the afternoon shift, this ratio became 19 : 14. Next, some new students joined the morning and afternoon shifts in the ratio 3 : 8 and then the ratio of the number of students in the morning shift and the afternoon shift became 5 : 4. The number of new students who joined is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "110"
+    },
+    {
+     "id": "B",
+     "textHtml": "121"
+    },
+    {
+     "id": "C",
+     "textHtml": "88"
+    },
+    {
+     "id": "D",
+     "textHtml": "99"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Step 1:</strong> Let the shifts be 13k and 9k. After the move: (13k − 21)/(9k + 21) = 19/14, so 182k − 294 = 171k + 399, giving 11k = 693 and <strong>k = 63</strong>.</p><p><strong>Step 2:</strong> The shifts are now 819 − 21 = 798 and 567 + 21 = 588.</p><p><strong>Step 3:</strong> New students 3t and 8t: (798 + 3t)/(588 + 8t) = 5/4, so 3192 + 12t = 2940 + 40t, giving t = 9.</p><p>New students = 11t = <strong>99</strong>. Check: 825 : 660 = 5 : 4.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of distinct integers <em>n</em> for which log<sub>(1/4)</sub>(<em>n</em><sup>2</sup> − 7<em>n</em> + 11) &gt; 0, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "0"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "Infinite"
+    },
+    {
+     "id": "D",
+     "textHtml": "2"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key move:</strong> with base 1/4 (less than 1), log &gt; 0 means the argument lies strictly between 0 and 1.</p><p>Need n<sup>2</sup> − 7n + 11 &lt; 1, i.e. n<sup>2</sup> − 7n + 10 &lt; 0, i.e. (n − 2)(n − 5) &lt; 0, so 2 &lt; n &lt; 5: n = 3 or 4.</p><p>Need also n<sup>2</sup> − 7n + 11 &gt; 0. For n = 3: 9 − 21 + 11 = −1. For n = 4: 16 − 28 + 11 = −1. Both fail.</p><p>So there are <strong>0</strong> such integers.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a circle with center C and radius 6√2 cm, PQ and SR are two parallel chords separated by one of the diameters. If ∠PQC = 45°, and the ratio of the perpendicular distance of PQ and SR from C is 3:2, then the area, in sq. cm, of the quadrilateral PQRS is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "20(3 + √14)"
+    },
+    {
+     "id": "B",
+     "textHtml": "4(3 + √14)"
+    },
+    {
+     "id": "C",
+     "textHtml": "4(3√2 + √7)"
+    },
+    {
+     "id": "D",
+     "textHtml": "20(3√2 + √7)"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Step 1:</strong> CP = CQ, so ∠CPQ = ∠PQC = 45° and ∠PCQ = 90°. Then PQ = 6√2 × √2 = <strong>12</strong> and the distance of PQ from C = 12/2 = <strong>6</strong>.</p><p><strong>Step 2:</strong> By the ratio 3 : 2, SR is at distance 4 from C. Half of SR = √(72 − 16) = √56 = 2√14, so SR = 4√14.</p><p><strong>Step 3:</strong> The chords lie on opposite sides of the centre, so the distance between them is 6 + 4 = 10. PQRS is a trapezium:</p><p>Area = ½ × (12 + 4√14) × 10 = 60 + 20√14 = <strong>20(3 + √14)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & alligations",
+   "difficulty": "easy",
+   "stemHtml": "<p>A container holds 200 litres of a solution of acid and water, having 30% acid by volume. Atul replaces 20% of this solution with water, then replaces 10% of the resulting solution with acid, and finally replaces 15% of the solution thus obtained, with water. The percentage of acid by volume in the final solution obtained after these three replacements, is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "27"
+    },
+    {
+     "id": "B",
+     "textHtml": "25"
+    },
+    {
+     "id": "C",
+     "textHtml": "29"
+    },
+    {
+     "id": "D",
+     "textHtml": "23"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Acid at the start = 60 L (volume stays 200 L throughout).</p><p>Replace 20% with water: 60 × 0.8 = 48 L.</p><p>Replace 10% with acid: 48 × 0.9 + 20 = 63.2 L.</p><p>Replace 15% with water: 63.2 × 0.85 = 53.72 L.</p><p>Percentage = 53.72/200 = 26.86% ≈ <strong>27</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>Shruti travels a distance of 224 km in four parts for a total travel time of 3 hours. Her speeds in these four parts follow an arithmetic progression, and the corresponding time taken to cover these four parts follow another arithmetic progression. If she travels at a speed of 960 meters per minute for 30 minutes to cover the first part, then the distance, in meters, she travels in the fourth part is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "76800"
+    },
+    {
+     "id": "B",
+     "textHtml": "112000"
+    },
+    {
+     "id": "C",
+     "textHtml": "86400"
+    },
+    {
+     "id": "D",
+     "textHtml": "96000"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Times:</strong> 30, 30 + d, 30 + 2d, 30 + 3d sum to 180 min, so 120 + 6d = 180 and d = 10: times are 30, 40, 50, 60 min.</p><p><strong>Speeds</strong> (m/min): 960, 960 + e, 960 + 2e, 960 + 3e.</p><p>Distance = 960 × 180 + e(40 + 2 × 50 + 3 × 60) = 172800 + 320e = 224000, so <strong>e = 160</strong>.</p><p>Fourth part = (960 + 480) × 60 = 1440 × 60 = <strong>86400 m</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Inequalities",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of distinct pairs of integers (x, y) satisfying the inequalities x &gt; y ≥ 3 and x + y &lt; 14 is</p>",
+   "answer": "16",
+   "solutionHtml": "<p>Since x + y &lt; 14 with integers, x ≤ 13 − y, and x ≥ y + 1.</p><p>y = 3: x = 4 to 10 → 7 pairs. y = 4: x = 5 to 9 → 5. y = 5: x = 6 to 8 → 3. y = 6: x = 7 → 1. For y = 7, y + 1 = 8 is greater than 13 − 7 = 6, so there are none.</p><p>Total = 7 + 5 + 3 + 1 = <strong>16</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Greatest integer function",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let 3 ≤ x ≤ 6 and [x<sup>2</sup>] = [x]<sup>2</sup>, where [x] is the greatest integer not exceeding x. If set S represents all feasible values of x, then a possible subset of S is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(4, √18) ∪ [5, √27) ∪ {6}"
+    },
+    {
+     "id": "B",
+     "textHtml": "(3, √10) ∪ [4, √17) ∪ {6}"
+    },
+    {
+     "id": "C",
+     "textHtml": "(3, √10) ∪ [5, √26) ∪ {6}"
+    },
+    {
+     "id": "D",
+     "textHtml": "[3, √10] ∪ [5, √26]"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key move:</strong> if [x] = n, we need n<sup>2</sup> ≤ x<sup>2</sup> &lt; n<sup>2</sup> + 1, i.e. n ≤ x &lt; √(n<sup>2</sup> + 1).</p><p>n = 3: [3, √10). n = 4: [4, √17). n = 5: [5, √26). n = 6: only x = 6.</p><p>So S = [3, √10) ∪ [4, √17) ∪ [5, √26) ∪ {6}.</p><p>Option 3, (3, √10) ∪ [5, √26) ∪ {6}, lies entirely inside S. <strong>Answer: option 3.</strong></p><p>Option 1 fails: √18 &gt; √17 and √27 &gt; √26 (e.g. x = 4.2 gives [x<sup>2</sup>] = 17 ≠ 16). Option 4 fails: it contains x = √10, where [x<sup>2</sup>] = 10 ≠ 9.</p><p>Note: option 2 as printed in this paper, (3, √10) ∪ [4, √17) ∪ {6}, is also inside S. Other versions of this paper print it with closed brackets, [3, √10] ∪ [4, √17] ∪ {6}, which contains √10 and is not a subset, so option 3 is the intended answer.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest & returns",
+   "difficulty": "easy",
+   "stemHtml": "<p>Kamala divided her investment of Rs 100000 between stocks, bonds, and gold. Her investment in bonds was 25% of her investment in gold. With annual returns of 10%, 6%, 8% on stocks, bonds, and gold, respectively, she gained a total amount of Rs 8200 in one year. The amount, in rupees, that she gained from the bonds, was</p>",
+   "answer": "900",
+   "solutionHtml": "<p>Let gold = G, so bonds = 0.25G and stocks = 100000 − 1.25G.</p><p>Return: 0.10(100000 − 1.25G) + 0.06(0.25G) + 0.08G = 10000 − 0.125G + 0.015G + 0.08G = 10000 − 0.03G = 8200.</p><p>So G = 60000, bonds = 15000, and the gain from bonds = 6% of 15000 = <strong>900</strong>.</p><p>Check: 2500 (stocks) + 900 + 4800 = 8200.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Simple & compound interest",
+   "difficulty": "medium",
+   "stemHtml": "<p>At a certain simple rate of interest, a given sum amounts to Rs.13920 in 3 years, and to Rs 18960 in 6 years and 6 months. If the same given sum had been invested for 2 years at the same rate as before but with interest compounded every 6 months, then the total interest earned, in rupees, would have been nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3221"
+    },
+    {
+     "id": "B",
+     "textHtml": "3180"
+    },
+    {
+     "id": "C",
+     "textHtml": "3150"
+    },
+    {
+     "id": "D",
+     "textHtml": "3096"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Step 1:</strong> Interest for 3.5 years = 18960 − 13920 = 5040, so 1440 per year.</p><p><strong>Step 2:</strong> Principal = 13920 − 3 × 1440 = 9600. Rate = 1440/9600 = 15% p.a.</p><p><strong>Step 3:</strong> Half-yearly compounding: 7.5% per period, 4 periods. 1.075<sup>2</sup> = 1.155625, and 1.155625<sup>2</sup> ≈ 1.335469.</p><p>Interest = 9600 × 0.335469 ≈ 3220.5 ≈ <strong>3221</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Permutations & combinations",
+   "difficulty": "easy",
+   "stemHtml": "<p>A cafeteria offers 5 types of sandwiches. Moreover, for each type of sandwich, a customer can choose one of 4 breads and opt for either small or large sized sandwich. Optionally, the customer may also add up to 2 out of 6 available sauces. The number of different ways in which an order can be placed for a sandwich, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "840"
+    },
+    {
+     "id": "B",
+     "textHtml": "800"
+    },
+    {
+     "id": "C",
+     "textHtml": "880"
+    },
+    {
+     "id": "D",
+     "textHtml": "600"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Sandwich × bread × size = 5 × 4 × 2 = 40.</p><p>Sauces (up to 2 of 6): none, one or two = 1 + 6 + <sup>6</sup>C<sub>2</sub> = 1 + 6 + 15 = 22.</p><p>Total = 40 × 22 = <strong>880</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "hard",
+   "stemHtml": "<p>Arun, Varun and Tarun, if working alone, can complete a task in 24, 21, and 15 days, respectively. They charge Rs 2160, Rs 2400, and Rs 2160 per day, respectively, even if they are employed for a partial day. On any given day, any of the workers may or may not be employed to work. If the task needs to be completed in 10 days or less, then the minimum possible amount, in rupees, required to be paid for the entire task is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "47040"
+    },
+    {
+     "id": "B",
+     "textHtml": "38880"
+    },
+    {
+     "id": "C",
+     "textHtml": "34400"
+    },
+    {
+     "id": "D",
+     "textHtml": "38400"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Step 1:</strong> Take the work as 840 units (LCM of 24, 21, 15). Per day: Arun 35, Varun 40, Tarun 56.</p><p><strong>Step 2:</strong> Cost per unit: Arun 2160/35 ≈ 61.7, Varun 2400/40 = 60, Tarun 2160/56 ≈ 38.6. <strong>Tarun is cheapest</strong>, so use him for all 10 days: 560 units for 21600.</p><p><strong>Step 3:</strong> 280 units remain. Varun does them in exactly 7 full days for 16800 (Arun would need 8 days, 17280; mixes such as 4 days each cost more).</p><p>Minimum = 21600 + 16800 = <strong>38400</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of non-negative integer values of <em>k</em> for which the quadratic equation x<sup>2</sup> – 5x + <em>k</em> = 0 has only integer roots, is</p>",
+   "answer": "3",
+   "solutionHtml": "<p>If the roots are integers r and s, then r + s = 5 and rs = k ≥ 0, so both roots are non-negative.</p><p>Pairs: (0, 5), (1, 4), (2, 3), giving k = 0, 4, 6.</p><p>Number of values = <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "easy",
+   "stemHtml": "<p>The (x, y) coordinates of vertices P, Q and R of a parallelogram PQRS are (-3, -2), (1, -5) and (9, 1), respectively. If the diagonal SQ intersects the x-axis at (a, 0), then the value of a is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10/3"
+    },
+    {
+     "id": "B",
+     "textHtml": "29/9"
+    },
+    {
+     "id": "C",
+     "textHtml": "13/4"
+    },
+    {
+     "id": "D",
+     "textHtml": "27/7"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key move:</strong> diagonals bisect each other, so S = P + R − Q = (−3 + 9 − 1, −2 + 1 + 5) = (5, 4).</p><p>Line SQ through (1, −5) and (5, 4) has slope 9/4. Setting y = 0: x = 1 + 5 × (4/9) = 29/9.</p><p>a = <strong>29/9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Digits & factors",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a 3-digit number N, the digits are non-zero and distinct such that none of the digits is a perfect square, and only one of the digits is a prime number. Then, the number of factors of the minimum possible value of N is</p>",
+   "answer": "6",
+   "solutionHtml": "<p>Non-zero digits that are not perfect squares: 2, 3, 5, 6, 7, 8. Among them the primes are 2, 3, 5, 7 and the non-primes only 6, 8.</p><p>Exactly one prime means the digits are {6, 8, p}. The smallest such number uses p = 2 in the hundreds place: N = 268.</p><p>268 = 2<sup>2</sup> × 67, so the number of factors = 3 × 2 = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Linear equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>Stocks A, B and C are priced at rupees 120, 90 and 150 per share, respectively. A trader holds a portfolio consisting of 10 shares of stock A, and 20 shares of stocks B and C put together. If the total value of her portfolio is rupees 3300, then the number of shares of stock B that she holds, is</p>",
+   "answer": "15",
+   "solutionHtml": "<p>Value of A = 10 × 120 = 1200, so B and C together are worth 2100.</p><p>With b shares of B: 90b + 150(20 − b) = 2100, so 3000 − 60b = 2100 and b = <strong>15</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Linear equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>If a – 6b + 6c = 4 and 6a + 3b – 3c = 50, where a, b and c are real numbers, the value of 2a + 3b – 3c is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "18"
+    },
+    {
+     "id": "B",
+     "textHtml": "15"
+    },
+    {
+     "id": "C",
+     "textHtml": "20"
+    },
+    {
+     "id": "D",
+     "textHtml": "14"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key move:</strong> b and c appear only as b − c. Let t = b − c.</p><p>a − 6t = 4 and 6a + 3t = 50. Substituting a = 4 + 6t: 24 + 39t = 50, so t = 2/3 and a = 8.</p><p>2a + 3t = 16 + 2 = <strong>18</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Quadratic functions",
+   "difficulty": "medium",
+   "stemHtml": "<p>A value of c for which the minimum value of f(x) = x<sup>2</sup> – 4cx + 8c is greater than the maximum value of g(x) = − x<sup>2</sup> + 3cx – 2c, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "– 2"
+    },
+    {
+     "id": "B",
+     "textHtml": "−1/2"
+    },
+    {
+     "id": "C",
+     "textHtml": "2"
+    },
+    {
+     "id": "D",
+     "textHtml": "1/2"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>f(x) = (x − 2c)<sup>2</sup> − 4c<sup>2</sup> + 8c, so min f = 8c − 4c<sup>2</sup>.</p><p>g(x) = −(x − 3c/2)<sup>2</sup> + 9c<sup>2</sup>/4 − 2c, so max g = 9c<sup>2</sup>/4 − 2c.</p><p>Need 8c − 4c<sup>2</sup> &gt; 9c<sup>2</sup>/4 − 2c, i.e. 10c &gt; 25c<sup>2</sup>/4, i.e. c(25c − 40) &lt; 0, so <strong>0 &lt; c &lt; 1.6</strong>.</p><p>Among the options only <strong>1/2</strong> lies in this range.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a class, there were more than 10 boys and a certain number of girls. After 40% of the girls and 60% of the boys left the class, the remaining number of girls was 8 more than the remaining number of boys. Then, the minimum possible number of students initially in the class was</p>",
+   "answer": "55",
+   "solutionHtml": "<p>Let b boys and g girls. Then 0.6g − 0.4b = 8, i.e. 3g = 40 + 2b. Both b and g must be multiples of 5 (so that 40% and 60% of each are whole numbers).</p><p>Try b &gt; 10: b = 15 gives 3g = 70 (not an integer). b = 20 gives 3g = 80 (no). b = 25 gives g = 30.</p><p>Minimum total = 25 + 30 = <strong>55</strong>. Check: 18 girls − 10 boys = 8.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Progressions",
+   "difficulty": "easy",
+   "stemHtml": "<p>In the set of consecutive odd numbers {1, 3, 5, ….., 57}, there is a number k such that the sum of all the elements less than k is equal to the sum of all the elements greater than k. Then, k equals.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "43"
+    },
+    {
+     "id": "B",
+     "textHtml": "37"
+    },
+    {
+     "id": "C",
+     "textHtml": "39"
+    },
+    {
+     "id": "D",
+     "textHtml": "41"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key fact:</strong> the sum of the first m odd numbers is m<sup>2</sup>. The set has 29 terms, with total 29<sup>2</sup> = 841.</p><p>If k is the m-th odd number, the sum below k is (m − 1)<sup>2</sup> and the sum above is 841 − m<sup>2</sup>.</p><p>(m − 1)<sup>2</sup> = 841 − m<sup>2</sup> gives m<sup>2</sup> − m − 420 = 0, so m = 21 and k = 2 × 21 − 1 = <strong>41</strong>.</p><p>Check: 20<sup>2</sup> = 400 and 841 − 441 = 400.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Profit, loss & discount",
+   "difficulty": "easy",
+   "stemHtml": "<p>A shopkeeper offers a discount of 22% on the marked price of each chair, and gives 13 chairs to a customer for the discounted price of 12 chairs to earn a profit of 26% on the transaction. If the cost price of each chair is Rs 100, then the marked price, in rupees, of each chair is</p>",
+   "answer": "175",
+   "solutionHtml": "<p>Cost of 13 chairs = 1300. Required revenue = 1.26 × 1300 = 1638.</p><p>Revenue = 12 × 0.78M = 9.36M, so M = 1638/9.36 = <strong>175</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Quadrilaterals",
+   "difficulty": "easy",
+   "stemHtml": "<p>If the length of a side of a rhombus is 36 cm and the area of the rhombus is 396 sq. cm, then the absolute value of the difference between the lengths, in cm, of the diagonals of the rhombus is</p>",
+   "answer": "60",
+   "solutionHtml": "<p>Diagonals d<sub>1</sub>, d<sub>2</sub>: d<sub>1</sub>d<sub>2</sub>/2 = 396, so d<sub>1</sub>d<sub>2</sub> = 792. The half-diagonals are perpendicular, so d<sub>1</sub><sup>2</sup> + d<sub>2</sub><sup>2</sup> = 4 × 36<sup>2</sup> = 5184.</p><p>(d<sub>1</sub> − d<sub>2</sub>)<sup>2</sup> = 5184 − 2 × 792 = 3600, so |d<sub>1</sub> − d<sub>2</sub>| = <strong>60</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Exponents & series",
+   "difficulty": "medium",
+   "stemHtml": "<p>For any natural number k, let a<sub>k</sub> = 3<sup>k</sup>. The smallest natural number m for which {(a<sub>1</sub>)<sup>1</sup> × (a<sub>2</sub>)<sup>2</sup> × …. × (a<sub>20</sub>)<sup>20</sup>} &lt; {a<sub>21</sub> × a<sub>22</sub> × ….. × a<sub>(20 + m)</sub>}, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "57"
+    },
+    {
+     "id": "B",
+     "textHtml": "56"
+    },
+    {
+     "id": "C",
+     "textHtml": "59"
+    },
+    {
+     "id": "D",
+     "textHtml": "58"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>LHS = 3 raised to (1<sup>2</sup> + 2<sup>2</sup> + … + 20<sup>2</sup>) = 3<sup>2870</sup> (since 20 × 21 × 41/6 = 2870).</p><p>RHS = 3 raised to (21 + 22 + … + (20 + m)) = 3 raised to [(20 + m)(21 + m)/2 − 210].</p><p>Need (20 + m)(21 + m)/2 − 210 &gt; 2870, i.e. (20 + m)(21 + m) &gt; 6160.</p><p>m = 57: 77 × 78 = 6006 (too small). m = 58: 78 × 79 = 6162 &gt; 6160. Smallest m = <strong>58</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

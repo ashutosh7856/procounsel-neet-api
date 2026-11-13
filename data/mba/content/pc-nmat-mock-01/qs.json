@@ -1,0 +1,1395 @@
+{
+  "sets": [
+    {
+      "key": "QS-S1",
+      "kind": "data",
+      "section": "QS",
+      "title": "Revenue and expenses of five companies",
+      "contentHtml": "<p>The table below shows the revenue of five companies in 2023 and 2024, and their total expenses in 2024 (all figures in ₹ crore). Profit = Revenue − Expenses.</p><table><thead><tr><th>Company</th><th>Revenue 2023</th><th>Revenue 2024</th><th>Expenses 2024</th></tr></thead><tbody><tr><td>P</td><td>240</td><td>300</td><td>255</td></tr><tr><td>Q</td><td>180</td><td>207</td><td>189</td></tr><tr><td>R</td><td>320</td><td>352</td><td>280</td></tr><tr><td>S</td><td>150</td><td>195</td><td>171</td></tr><tr><td>T</td><td>200</td><td>230</td><td>218</td></tr></tbody></table>"
+    },
+    {
+      "key": "QS-S2",
+      "kind": "data",
+      "section": "QS",
+      "title": "Enrolment by programme and gender",
+      "contentHtml": "<p>The table below shows the number of students enrolled in the four undergraduate programmes of a college, by gender.</p><table><thead><tr><th>Programme</th><th>Male</th><th>Female</th></tr></thead><tbody><tr><td>BBA</td><td>240</td><td>160</td></tr><tr><td>BCom</td><td>300</td><td>300</td></tr><tr><td>BSc</td><td>180</td><td>220</td></tr><tr><td>BA</td><td>120</td><td>280</td></tr></tbody></table>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "QS-01",
+      "section": "QS",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Number Properties",
+      "subtopic": "Fractions and Decimals",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following is the largest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5/7"
+        },
+        {
+          "id": "B",
+          "textHtml": "7/10"
+        },
+        {
+          "id": "C",
+          "textHtml": "12/17"
+        },
+        {
+          "id": "D",
+          "textHtml": "17/24"
+        },
+        {
+          "id": "E",
+          "textHtml": "0.71"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Convert each to a decimal: 5/7 ≈ 0.7143, 7/10 = 0.7, 12/17 ≈ 0.7059, 17/24 ≈ 0.7083 and 0.71.</p><p>The largest is <strong>5/7</strong> (≈ 0.7143), just ahead of 0.71.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-02",
+      "section": "QS",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Number Properties",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>If log<sub>2</sub> x + log<sub>4</sub> x + log<sub>16</sub> x = 7, what is the value of x?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "16"
+        },
+        {
+          "id": "D",
+          "textHtml": "32"
+        },
+        {
+          "id": "E",
+          "textHtml": "64"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Write every term with base 2: log<sub>4</sub> x = (log<sub>2</sub> x)/2 and log<sub>16</sub> x = (log<sub>2</sub> x)/4.</p><p>So log<sub>2</sub> x × (1 + 1/2 + 1/4) = 7, i.e. (7/4) log<sub>2</sub> x = 7, giving log<sub>2</sub> x = 4.</p><p>Hence x = 2<sup>4</sup> = <strong>16</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-03",
+      "section": "QS",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Number Properties",
+      "subtopic": "Factors",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many factors of 2160 are perfect squares (count 1 as a perfect square)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "8"
+        },
+        {
+          "id": "C",
+          "textHtml": "9"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        },
+        {
+          "id": "E",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>2160 = 2<sup>4</sup> × 3<sup>3</sup> × 5.</p><p>A square factor needs an even power of every prime: power of 2 ∈ {0, 2, 4} (3 choices), power of 3 ∈ {0, 2} (2 choices), power of 5 ∈ {0} (1 choice).</p><p>Number of square factors = 3 × 2 × 1 = <strong>6</strong> (namely 1, 4, 9, 16, 36, 144).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-04",
+      "section": "QS",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Number Properties",
+      "subtopic": "HCF and LCM",
+      "difficulty": "easy",
+      "stemHtml": "<p>The HCF of two numbers is 12 and their LCM is 504. If one of the numbers is 72, what is the other number?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "96"
+        },
+        {
+          "id": "B",
+          "textHtml": "84"
+        },
+        {
+          "id": "C",
+          "textHtml": "108"
+        },
+        {
+          "id": "D",
+          "textHtml": "60"
+        },
+        {
+          "id": "E",
+          "textHtml": "42"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>For two numbers, product = HCF × LCM.</p><p>Other number = (12 × 504) ÷ 72 = 6048 ÷ 72 = <strong>84</strong>.</p><p>Check: 72 = 12 × 6 and 84 = 12 × 7 with 6 and 7 co-prime, so HCF = 12 and LCM = 12 × 6 × 7 = 504.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-05",
+      "section": "QS",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Number Properties",
+      "subtopic": "Prime Numbers",
+      "difficulty": "medium",
+      "stemHtml": "<p>For how many prime numbers p with 50 &lt; p &lt; 100 is p + 2 also a prime number?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "2"
+        },
+        {
+          "id": "E",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Primes between 50 and 100: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.</p><p>Add 2 to each: 55, 61, 63, 69, 73, 75, 81, 85, 91, 99. Only 61 (from 59) and 73 (from 71) are prime; 91 = 7 × 13 is not.</p><p>So there are <strong>2</strong> such primes (59 and 71).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-06",
+      "section": "QS",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Number Properties",
+      "subtopic": "Remainders",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the remainder when 7<sup>85</sup> is divided by 13?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "11"
+        },
+        {
+          "id": "E",
+          "textHtml": "7"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Since 13 is prime and does not divide 7, Fermat's little theorem gives 7<sup>12</sup> ≡ 1 (mod 13).</p><p>85 = 12 × 7 + 1, so 7<sup>85</sup> = (7<sup>12</sup>)<sup>7</sup> × 7 ≡ 1 × 7 = <strong>7</strong> (mod 13).</p><p>Alternative: 7<sup>2</sup> = 49 ≡ 10, 7<sup>3</sup> ≡ 70 ≡ 5, 7<sup>6</sup> ≡ 25 ≡ 12 ≡ −1, so 7<sup>12</sup> ≡ 1 and the same result follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-07",
+      "section": "QS",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anil's monthly salary is 25% more than Bharat's. By what percentage is Bharat's salary less than Anil's?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20%"
+        },
+        {
+          "id": "B",
+          "textHtml": "25%"
+        },
+        {
+          "id": "C",
+          "textHtml": "22.5%"
+        },
+        {
+          "id": "D",
+          "textHtml": "18%"
+        },
+        {
+          "id": "E",
+          "textHtml": "15%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let Bharat's salary be 100, so Anil's is 125.</p><p>Bharat's salary is less by 25 on a base of 125: 25/125 × 100 = <strong>20%</strong>.</p><p>The trap is 25% — the base changes from Bharat's salary to Anil's.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-08",
+      "section": "QS",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Simple and Compound Interest",
+      "difficulty": "medium",
+      "stemHtml": "<p>The difference between the compound interest (compounded annually) and the simple interest on a certain sum for 2 years at 8% per annum is ₹96. What is the sum?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹12,000"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹18,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹15,000"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹16,000"
+        },
+        {
+          "id": "E",
+          "textHtml": "₹14,400"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>For 2 years, CI − SI = P × (r/100)<sup>2</sup>.</p><p>96 = P × (0.08)<sup>2</sup> = 0.0064 P, so P = 96 ÷ 0.0064 = <strong>₹15,000</strong>.</p><p>Check: SI = 2 × 1200 = 2400; CI = 15000 × (1.08<sup>2</sup> − 1) = 15000 × 0.1664 = 2496; difference 96.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-09",
+      "section": "QS",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit and Loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>A trader sells two mobile phones for ₹1,980 each. On one he gains 10% and on the other he loses 10%. What is his overall result on the two sales?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "No profit, no loss"
+        },
+        {
+          "id": "B",
+          "textHtml": "Loss of ₹40"
+        },
+        {
+          "id": "C",
+          "textHtml": "Gain of ₹40"
+        },
+        {
+          "id": "D",
+          "textHtml": "Loss of ₹20"
+        },
+        {
+          "id": "E",
+          "textHtml": "Loss of ₹198"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Cost of the first phone = 1980 ÷ 1.1 = ₹1,800. Cost of the second = 1980 ÷ 0.9 = ₹2,200.</p><p>Total cost = ₹4,000; total selling price = ₹3,960.</p><p>Overall result: a <strong>loss of ₹40</strong> (1% of cost). Equal gain and loss percentages on equal selling prices always produce a net loss.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-10",
+      "section": "QS",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio and Proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>₹7,000 is divided among A, B and C such that A : B = 2 : 3 and B : C = 4 : 5. What is C's share?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹2,400"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹2,800"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹3,250"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹2,600"
+        },
+        {
+          "id": "E",
+          "textHtml": "₹3,000"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Make B common: A : B = 8 : 12 and B : C = 12 : 15, so A : B : C = 8 : 12 : 15 (total 35 parts).</p><p>C's share = 15/35 × 7000 = <strong>₹3,000</strong>. (A gets ₹1,600 and B gets ₹2,400.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-11",
+      "section": "QS",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The average of 11 results is 50. The average of the first six results is 49 and the average of the last six results is 52. What is the sixth result?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "50"
+        },
+        {
+          "id": "B",
+          "textHtml": "54"
+        },
+        {
+          "id": "C",
+          "textHtml": "58"
+        },
+        {
+          "id": "D",
+          "textHtml": "56"
+        },
+        {
+          "id": "E",
+          "textHtml": "52"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The sixth result is counted in both groups of six.</p><p>Sum of first six + sum of last six = 6 × 49 + 6 × 52 = 294 + 312 = 606.</p><p>Sum of all 11 = 550. Sixth result = 606 − 550 = <strong>56</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-12",
+      "section": "QS",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time and Work",
+      "difficulty": "medium",
+      "stemHtml": "<p>A can finish a job in 12 days and B can finish it in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        },
+        {
+          "id": "E",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Together they do 1/12 + 1/18 = 5/36 of the job per day. In 4 days: 20/36 = 5/9.</p><p>Remaining work = 4/9. B alone needs (4/9) × 18 = <strong>8 days</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-13",
+      "section": "QS",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Pipes and Cisterns",
+      "difficulty": "hard",
+      "stemHtml": "<p>Pipe A can fill an empty tank in 20 minutes and pipe B in 30 minutes; pipe C can empty the full tank in 15 minutes. A and B are opened together on the empty tank, and C is opened 6 minutes later. How many minutes after A and B were opened will the tank be full?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30"
+        },
+        {
+          "id": "B",
+          "textHtml": "42"
+        },
+        {
+          "id": "C",
+          "textHtml": "36"
+        },
+        {
+          "id": "D",
+          "textHtml": "40"
+        },
+        {
+          "id": "E",
+          "textHtml": "33"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>A + B fill 1/20 + 1/30 = 1/12 per minute, so in 6 minutes they fill 6/12 = 1/2.</p><p>With all three open the net rate is 1/20 + 1/30 − 1/15 = (3 + 2 − 4)/60 = 1/60 per minute.</p><p>The remaining 1/2 takes (1/2) ÷ (1/60) = 30 minutes. Total = 6 + 30 = <strong>36 minutes</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-14",
+      "section": "QS",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>A cyclist covers a route in three equal parts at speeds of 30 km/h, 40 km/h and 60 km/h respectively. What is her average speed for the whole route?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "43.3 km/h"
+        },
+        {
+          "id": "B",
+          "textHtml": "40 km/h"
+        },
+        {
+          "id": "C",
+          "textHtml": "42 km/h"
+        },
+        {
+          "id": "D",
+          "textHtml": "45 km/h"
+        },
+        {
+          "id": "E",
+          "textHtml": "38 km/h"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let each part be 120 km (the LCM of 30, 40 and 60). Times: 120/30 = 4 h, 120/40 = 3 h, 120/60 = 2 h.</p><p>Average speed = total distance ÷ total time = 360 ÷ 9 = <strong>40 km/h</strong>.</p><p>The simple average of the speeds (43.3 km/h) is wrong because more time is spent at the slower speed.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-15",
+      "section": "QS",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, Speed and Distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>Two trains of lengths 150 m and 210 m run on parallel tracks in the same direction at 54 km/h and 90 km/h. How long does the faster train take to completely pass the slower one?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9 seconds"
+        },
+        {
+          "id": "B",
+          "textHtml": "24 seconds"
+        },
+        {
+          "id": "C",
+          "textHtml": "30 seconds"
+        },
+        {
+          "id": "D",
+          "textHtml": "40 seconds"
+        },
+        {
+          "id": "E",
+          "textHtml": "36 seconds"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Speeds: 54 km/h = 15 m/s and 90 km/h = 25 m/s. In the same direction the relative speed is 10 m/s.</p><p>Distance to cover = sum of lengths = 360 m. Time = 360 ÷ 10 = <strong>36 seconds</strong>.</p><p>9 seconds would be the answer for trains moving in opposite directions (relative speed 40 m/s).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-16",
+      "section": "QS",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures and Alligation",
+      "difficulty": "hard",
+      "stemHtml": "<p>Alloy X contains copper and zinc in the ratio 2 : 3 and alloy Y contains them in the ratio 5 : 3 (by weight). In what ratio by weight should X and Y be melted together to get an alloy with copper and zinc in equal amounts?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4 : 5"
+        },
+        {
+          "id": "B",
+          "textHtml": "3 : 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "1 : 1"
+        },
+        {
+          "id": "D",
+          "textHtml": "5 : 4"
+        },
+        {
+          "id": "E",
+          "textHtml": "5 : 3"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Copper fraction: X = 2/5 = 0.4, Y = 5/8 = 0.625, required = 1/2 = 0.5.</p><p>By alligation, X : Y = (0.625 − 0.5) : (0.5 − 0.4) = 0.125 : 0.1 = <strong>5 : 4</strong>.</p><p>Check: 5 kg of X has 2 kg copper and 4 kg of Y has 2.5 kg copper; 4.5 kg copper in 9 kg = one half.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-17",
+      "section": "QS",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Linear Equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>3 pens and 2 notebooks cost ₹110, while 2 pens and 3 notebooks cost ₹115. What is the cost of one pen and one notebook together?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹45"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹40"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹50"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹55"
+        },
+        {
+          "id": "E",
+          "textHtml": "₹47"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Add the two equations: 5 pens + 5 notebooks = ₹225.</p><p>So 1 pen + 1 notebook = <strong>₹45</strong>. (Individually, a pen costs ₹20 and a notebook ₹25.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-18",
+      "section": "QS",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>The roots of the equation x<sup>2</sup> − 7x + k = 0 differ by 3. What is the value of k?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        },
+        {
+          "id": "E",
+          "textHtml": "14"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Sum of roots = 7 and difference = 3, so the roots are 5 and 2.</p><p>k = product of roots = <strong>10</strong>.</p><p>Check with (difference)<sup>2</sup> = (sum)<sup>2</sup> − 4 × product: 9 = 49 − 4k gives k = 10.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-19",
+      "section": "QS",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities and Modulus",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many integers x satisfy |2x − 5| &lt; 9?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        },
+        {
+          "id": "E",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>|2x − 5| &lt; 9 means −9 &lt; 2x − 5 &lt; 9, i.e. −4 &lt; 2x &lt; 14, i.e. −2 &lt; x &lt; 7.</p><p>Integers: −1, 0, 1, 2, 3, 4, 5, 6 — a total of <strong>8</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-20",
+      "section": "QS",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Arithmetic Progressions",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the sum of all three-digit numbers that are divisible by 7?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "70,343"
+        },
+        {
+          "id": "B",
+          "textHtml": "70,336"
+        },
+        {
+          "id": "C",
+          "textHtml": "69,342"
+        },
+        {
+          "id": "D",
+          "textHtml": "71,435"
+        },
+        {
+          "id": "E",
+          "textHtml": "70,226"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The smallest such number is 105 and the largest is 994. Number of terms = (994 − 105)/7 + 1 = 128.</p><p>Sum = 128 × (105 + 994)/2 = 64 × 1099 = <strong>70,336</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-21",
+      "section": "QS",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Geometry and Mensuration",
+      "subtopic": "Triangles",
+      "difficulty": "medium",
+      "stemHtml": "<p>In triangle ABC, AB = AC and ∠BAC = 40°. The bisector of ∠ABC meets AC at D. What is the measure of ∠BDC?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "70°"
+        },
+        {
+          "id": "B",
+          "textHtml": "80°"
+        },
+        {
+          "id": "C",
+          "textHtml": "105°"
+        },
+        {
+          "id": "D",
+          "textHtml": "75°"
+        },
+        {
+          "id": "E",
+          "textHtml": "65°"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Since AB = AC, ∠ABC = ∠ACB = (180° − 40°)/2 = 70°. So ∠ABD = 35°.</p><p>∠BDC is the exterior angle of triangle ABD at D, so ∠BDC = ∠BAD + ∠ABD = 40° + 35° = <strong>75°</strong>.</p><p>Check in triangle BDC: 35° + 70° + 75° = 180°.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-22",
+      "section": "QS",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Geometry and Mensuration",
+      "subtopic": "Circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a circle, a chord of length 24 cm is at a distance of 5 cm from the centre. What is the length of a chord of the same circle that is at a distance of 12 cm from the centre?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10 cm"
+        },
+        {
+          "id": "B",
+          "textHtml": "12 cm"
+        },
+        {
+          "id": "C",
+          "textHtml": "8 cm"
+        },
+        {
+          "id": "D",
+          "textHtml": "5 cm"
+        },
+        {
+          "id": "E",
+          "textHtml": "13 cm"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The perpendicular from the centre bisects a chord. Radius<sup>2</sup> = 12<sup>2</sup> + 5<sup>2</sup> = 169, so r = 13 cm.</p><p>For the second chord, half-length = √(13<sup>2</sup> − 12<sup>2</sup>) = √25 = 5 cm, so the chord is <strong>10 cm</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-23",
+      "section": "QS",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Geometry and Mensuration",
+      "subtopic": "Volume and Surface Area",
+      "difficulty": "medium",
+      "stemHtml": "<p>A solid metal cylinder of radius 6 cm and height 8 cm is melted and recast into solid spheres of radius 2 cm each. How many spheres are obtained (assume no wastage)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "24"
+        },
+        {
+          "id": "B",
+          "textHtml": "36"
+        },
+        {
+          "id": "C",
+          "textHtml": "18"
+        },
+        {
+          "id": "D",
+          "textHtml": "30"
+        },
+        {
+          "id": "E",
+          "textHtml": "27"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Volume of cylinder = π × 6<sup>2</sup> × 8 = 288π cm<sup>3</sup>.</p><p>Volume of one sphere = (4/3)π × 2<sup>3</sup> = 32π/3 cm<sup>3</sup>.</p><p>Number of spheres = 288π ÷ (32π/3) = 864/32 = <strong>27</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-24",
+      "section": "QS",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Geometry and Mensuration",
+      "subtopic": "Coordinate Geometry",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the area of the triangle whose vertices are (1, 2), (5, 2) and (3, 8)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "24 sq. units"
+        },
+        {
+          "id": "B",
+          "textHtml": "16 sq. units"
+        },
+        {
+          "id": "C",
+          "textHtml": "12 sq. units"
+        },
+        {
+          "id": "D",
+          "textHtml": "10 sq. units"
+        },
+        {
+          "id": "E",
+          "textHtml": "18 sq. units"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The points (1, 2) and (5, 2) lie on the line y = 2, so the base is 4 units.</p><p>The height is the vertical distance from (3, 8) to y = 2, which is 6 units.</p><p>Area = ½ × 4 × 6 = <strong>12 sq. units</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-25",
+      "section": "QS",
+      "number": 25,
+      "type": "MCQ",
+      "topic": "Permutation, Combination and Probability",
+      "subtopic": "Arrangements",
+      "difficulty": "medium",
+      "stemHtml": "<p>In how many ways can the letters of the word BALLOON be arranged so that the two L's are always together?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "720"
+        },
+        {
+          "id": "B",
+          "textHtml": "360"
+        },
+        {
+          "id": "C",
+          "textHtml": "180"
+        },
+        {
+          "id": "D",
+          "textHtml": "1260"
+        },
+        {
+          "id": "E",
+          "textHtml": "240"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Treat LL as a single block. Then we arrange 6 units: B, A, (LL), O, O, N, in which O repeats twice.</p><p>Number of arrangements = 6!/2! = 720/2 = <strong>360</strong>.</p><p>1260 is the count with no restriction (7!/(2! × 2!)).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-26",
+      "section": "QS",
+      "number": 26,
+      "type": "MCQ",
+      "topic": "Permutation, Combination and Probability",
+      "subtopic": "Probability",
+      "difficulty": "hard",
+      "stemHtml": "<p>A bag contains 5 red, 4 blue and 3 green balls. Three balls are drawn at random without replacement. What is the probability that the three balls are of three different colours?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1/4"
+        },
+        {
+          "id": "B",
+          "textHtml": "5/22"
+        },
+        {
+          "id": "C",
+          "textHtml": "6/55"
+        },
+        {
+          "id": "D",
+          "textHtml": "3/11"
+        },
+        {
+          "id": "E",
+          "textHtml": "2/11"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Total ways to choose 3 balls from 12 = C(12, 3) = 220.</p><p>Favourable ways = one of each colour = 5 × 4 × 3 = 60.</p><p>Probability = 60/220 = <strong>3/11</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-27",
+      "section": "QS",
+      "number": 27,
+      "type": "MCQ",
+      "setKey": "QS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which company recorded the highest percentage growth in revenue from 2023 to 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P"
+        },
+        {
+          "id": "B",
+          "textHtml": "Q"
+        },
+        {
+          "id": "C",
+          "textHtml": "R"
+        },
+        {
+          "id": "D",
+          "textHtml": "S"
+        },
+        {
+          "id": "E",
+          "textHtml": "T"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Growth: P = 60/240 = 25%; Q = 27/180 = 15%; R = 32/320 = 10%; S = 45/150 = 30%; T = 30/200 = 15%.</p><p>The highest is <strong>S</strong> at 30%. Note that P has the largest absolute increase (₹60 crore) but not the largest percentage increase.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-28",
+      "section": "QS",
+      "number": 28,
+      "type": "MCQ",
+      "setKey": "QS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which company had the highest profit as a percentage of its revenue in 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P"
+        },
+        {
+          "id": "B",
+          "textHtml": "Q"
+        },
+        {
+          "id": "C",
+          "textHtml": "R"
+        },
+        {
+          "id": "D",
+          "textHtml": "S"
+        },
+        {
+          "id": "E",
+          "textHtml": "T"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>2024 profit and margin: P = 45 (15.0%); Q = 18 (8.7%); R = 72 (20.5%); S = 24 (12.3%); T = 12 (5.2%).</p><p>The highest margin is <strong>R</strong> at about 20.5%.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-29",
+      "section": "QS",
+      "number": 29,
+      "type": "MCQ",
+      "setKey": "QS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "easy",
+      "stemHtml": "<p>What was the total profit of the five companies taken together in 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹171 crore"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹165 crore"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹181 crore"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹159 crore"
+        },
+        {
+          "id": "E",
+          "textHtml": "₹176 crore"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Profits in 2024: P 300 − 255 = 45; Q 207 − 189 = 18; R 352 − 280 = 72; S 195 − 171 = 24; T 230 − 218 = 12.</p><p>Total = 45 + 18 + 72 + 24 + 12 = <strong>₹171 crore</strong>. (Check: total revenue 1284 − total expenses 1113 = 171.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-30",
+      "section": "QS",
+      "number": 30,
+      "type": "MCQ",
+      "setKey": "QS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "hard",
+      "stemHtml": "<p>By approximately what percentage did the combined revenue of the five companies increase from 2023 to 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "15.1%"
+        },
+        {
+          "id": "B",
+          "textHtml": "19.4%"
+        },
+        {
+          "id": "C",
+          "textHtml": "16.5%"
+        },
+        {
+          "id": "D",
+          "textHtml": "21.2%"
+        },
+        {
+          "id": "E",
+          "textHtml": "17.8%"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Combined revenue 2023 = 240 + 180 + 320 + 150 + 200 = 1090. Combined revenue 2024 = 300 + 207 + 352 + 195 + 230 = 1284.</p><p>Increase = 194, so growth = 194/1090 × 100 ≈ <strong>17.8%</strong>.</p><p>Averaging the five individual growth rates (19%) is wrong because the companies have different sizes.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-31",
+      "section": "QS",
+      "number": 31,
+      "type": "MCQ",
+      "setKey": "QS-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "easy",
+      "stemHtml": "<p>What percentage of all the female students in the college are enrolled in BCom?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "29.2%"
+        },
+        {
+          "id": "B",
+          "textHtml": "31.25%"
+        },
+        {
+          "id": "C",
+          "textHtml": "33.3%"
+        },
+        {
+          "id": "D",
+          "textHtml": "50%"
+        },
+        {
+          "id": "E",
+          "textHtml": "35.5%"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Total female students = 160 + 300 + 220 + 280 = 960.</p><p>Share in BCom = 300/960 × 100 = <strong>31.25%</strong>. (50% is the share of females within BCom, a different ratio.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-32",
+      "section": "QS",
+      "number": 32,
+      "type": "MCQ",
+      "setKey": "QS-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the ratio of male students to female students in BBA and BSc taken together?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "21 : 19"
+        },
+        {
+          "id": "B",
+          "textHtml": "19 : 21"
+        },
+        {
+          "id": "C",
+          "textHtml": "6 : 5"
+        },
+        {
+          "id": "D",
+          "textHtml": "3 : 2"
+        },
+        {
+          "id": "E",
+          "textHtml": "9 : 11"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Males = 240 + 180 = 420; females = 160 + 220 = 380.</p><p>Ratio = 420 : 380 = <strong>21 : 19</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-33",
+      "section": "QS",
+      "number": 33,
+      "type": "MCQ",
+      "setKey": "QS-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "hard",
+      "stemHtml": "<p>Next year, BBA enrolment rises by 25% with the same male-to-female ratio as now, while enrolment in the other programmes is unchanged. Approximately what percentage of the college's students will then be female?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "53.3%"
+        },
+        {
+          "id": "B",
+          "textHtml": "51.4%"
+        },
+        {
+          "id": "C",
+          "textHtml": "50.0%"
+        },
+        {
+          "id": "D",
+          "textHtml": "52.6%"
+        },
+        {
+          "id": "E",
+          "textHtml": "54.2%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>BBA now has 400 students in the ratio 3 : 2. After a 25% rise it has 500: 300 male and 200 female.</p><p>Males = 300 + 300 + 180 + 120 = 900; females = 200 + 300 + 220 + 280 = 1000; total = 1900.</p><p>Female share = 1000/1900 × 100 ≈ <strong>52.6%</strong> (it is 53.3% now, 960 of 1800).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-34",
+      "section": "QS",
+      "number": 34,
+      "type": "MCQ",
+      "topic": "Data Sufficiency",
+      "subtopic": "Number Properties",
+      "difficulty": "medium",
+      "stemHtml": "<p><em>Directions: The question below is followed by two statements, I and II. Decide whether the data in the statements are sufficient to answer the question, and choose:</em></p><p>A — if statement I alone is sufficient, but statement II alone is not sufficient;</p><p>B — if statement II alone is sufficient, but statement I alone is not sufficient;</p><p>C — if both statements together are sufficient, but neither statement alone is sufficient;</p><p>D — if each statement alone is sufficient;</p><p>E — if statements I and II together are still not sufficient.</p><p><strong>Question:</strong> Is the positive integer n divisible by 6?</p><p>I. n is divisible by 3.</p><p>II. n<sup>2</sup> is divisible by 4.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Statement I alone is sufficient, but statement II alone is not sufficient"
+        },
+        {
+          "id": "B",
+          "textHtml": "Statement II alone is sufficient, but statement I alone is not sufficient"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both statements together are sufficient, but neither statement alone is sufficient"
+        },
+        {
+          "id": "D",
+          "textHtml": "Each statement alone is sufficient"
+        },
+        {
+          "id": "E",
+          "textHtml": "Statements I and II together are not sufficient"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>I alone:</strong> n = 3 (no) or n = 6 (yes) — not sufficient.</p><p><strong>II alone:</strong> n<sup>2</sup> divisible by 4 means n is even; n = 2 (no) or n = 6 (yes) — not sufficient.</p><p><strong>Together:</strong> n is divisible by both 2 and 3, hence by 6 — a definite yes. Answer <strong>C</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-35",
+      "section": "QS",
+      "number": 35,
+      "type": "MCQ",
+      "topic": "Data Sufficiency",
+      "subtopic": "Profit and Loss",
+      "difficulty": "easy",
+      "stemHtml": "<p><em>Directions: The question below is followed by two statements, I and II. Decide whether the data in the statements are sufficient to answer the question, and choose:</em></p><p>A — if statement I alone is sufficient, but statement II alone is not sufficient;</p><p>B — if statement II alone is sufficient, but statement I alone is not sufficient;</p><p>C — if both statements together are sufficient, but neither statement alone is sufficient;</p><p>D — if each statement alone is sufficient;</p><p>E — if statements I and II together are still not sufficient.</p><p><strong>Question:</strong> What is the profit percentage a shopkeeper makes on selling a particular article?</p><p>I. The article is sold for ₹840.</p><p>II. The selling price of the article is 120% of its cost price.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Statement I alone is sufficient, but statement II alone is not sufficient"
+        },
+        {
+          "id": "B",
+          "textHtml": "Statement II alone is sufficient, but statement I alone is not sufficient"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both statements together are sufficient, but neither statement alone is sufficient"
+        },
+        {
+          "id": "D",
+          "textHtml": "Each statement alone is sufficient"
+        },
+        {
+          "id": "E",
+          "textHtml": "Statements I and II together are not sufficient"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>I alone:</strong> the selling price without the cost price gives no percentage — not sufficient.</p><p><strong>II alone:</strong> SP = 1.2 × CP, so the profit is 20% — sufficient.</p><p>Hence <strong>B</strong>. (Using both would give CP = ₹700, but statement II already answers the question.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QS-36",
+      "section": "QS",
+      "number": 36,
+      "type": "MCQ",
+      "topic": "Data Sufficiency",
+      "subtopic": "Averages",
+      "difficulty": "hard",
+      "stemHtml": "<p><em>Directions: The question below is followed by two statements, I and II. Decide whether the data in the statements are sufficient to answer the question, and choose:</em></p><p>A — if statement I alone is sufficient, but statement II alone is not sufficient;</p><p>B — if statement II alone is sufficient, but statement I alone is not sufficient;</p><p>C — if both statements together are sufficient, but neither statement alone is sufficient;</p><p>D — if each statement alone is sufficient;</p><p>E — if statements I and II together are still not sufficient.</p><p><strong>Question:</strong> What is the average of five consecutive integers?</p><p>I. The smallest of the five integers is 12.</p><p>II. The sum of the smallest and the largest of the five integers is 28.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Statement I alone is sufficient, but statement II alone is not sufficient"
+        },
+        {
+          "id": "B",
+          "textHtml": "Statement II alone is sufficient, but statement I alone is not sufficient"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both statements together are sufficient, but neither statement alone is sufficient"
+        },
+        {
+          "id": "D",
+          "textHtml": "Each statement alone is sufficient"
+        },
+        {
+          "id": "E",
+          "textHtml": "Statements I and II together are not sufficient"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>For consecutive integers the average equals the middle term, which is also the average of the smallest and largest terms.</p><p><strong>I alone:</strong> the integers are 12, 13, 14, 15, 16, so the average is 14 — sufficient.</p><p><strong>II alone:</strong> with the smallest a and largest a + 4, 2a + 4 = 28 gives a = 12, average 14 — sufficient.</p><p>Each statement alone is sufficient: <strong>D</strong>. Many test-takers wrongly pick A, missing that II also fixes the average.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1065 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Healthy Bites",
+      "contentHtml": "<p>Healthy Bites is a fast food joint serving three items: burgers, fries and ice cream. It has two employees Anish and Bani who prepare the items ordered by the clients. Preparation time is 10 minutes for a burger and 2 minutes for an order of ice cream. An employee can prepare only one of these items at a time. The fries are prepared in an automatic fryer which can prepare up to 3 portions of fries at a time, and takes 5 minutes irrespective of the number of portions. The fryer does not need an employee to constantly attend to it, and we can ignore the time taken by an employee to start and stop the fryer; thus, an employee can be engaged in preparing other items while the frying is on. However fries cannot be prepared in anticipation of future orders.</p><p>Healthy Bites wishes to serve the orders as early as possible. The individual items in any order are served as and when ready; however, the order is considered to be completely served only when all the items of that order are served.</p><p>The table below gives the orders of three clients and the times at which they placed their orders:</p><table><thead><tr><th>Client No.</th><th>Time</th><th>Order</th></tr></thead><tbody><tr><td>1</td><td>10:00</td><td>1 burger, 3 portions of fries, 1 order of ice cream</td></tr><tr><td>2</td><td>10:05</td><td>2 portions of fries, 1 order of ice cream</td></tr><tr><td>3</td><td>10:07</td><td>1 burger, 1 portion of fries</td></tr></tbody></table>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Schooling of rural kids",
+      "contentHtml": "<p>A study to look at the early learning of rural kids was carried out in a number of villages spanning three states, chosen from the North East (NE), the West (W) and the South (S). 50 four-year old kids each were sampled from each of the 150 villages from NE, 250 villages from W and 200 villages from S. It was found that of the 30000 surveyed kids 55% studied in primary schools run by government (G), 37% in private schools (P) while the remaining 8% did not go to school (O).</p><p>The kids surveyed were further divided into two groups based on whether their mothers dropped out of school before completing primary education or not. The table below gives the number of kids in different types of schools for mothers who dropped out of school before completing primary education:</p><table><thead><tr><th></th><th>G</th><th>P</th><th>O</th><th>Total</th></tr></thead><tbody><tr><td>NE</td><td>4200</td><td>500</td><td>300</td><td>5000</td></tr><tr><td>W</td><td>4200</td><td>1900</td><td>1200</td><td>7300</td></tr><tr><td>S</td><td>5100</td><td>300</td><td>300</td><td>5700</td></tr><tr><td>Total</td><td>13500</td><td>2700</td><td>1800</td><td>18000</td></tr></tbody></table><p>It is also known that:</p><ol><li>In S, 60% of the surveyed kids were in G. Moreover, in S, all surveyed kids whose mothers had completed primary education were in school.</li><li>In NE, among the O kids, 50% had mothers who had dropped out before completing primary education.</li><li>The number of kids in G in NE was the same as the number of kids in G in W.</li></ol>"
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "AIE and BIE selection",
+      "contentHtml": "<p>Applicants for the doctoral programmes of Ambi Institute of Engineering (AIE) and Bambi Institute of Engineering (BIE) have to appear for a Common Entrance Test (CET). The test has three sections: Physics (P), Chemistry (C), and Maths (M). Among those appearing for CET, those at or above the 80th percentile in at least two sections, and at or above the 90th percentile overall, are selected for Advanced Entrance Test (AET) conducted by AIE. AET is used by AIE for final selection.</p><p>For the 200 candidates who are at or above the 90th percentile overall based on CET, the following are known about their performance in CET:</p><ol><li>No one is below the 80th percentile in all 3 sections.</li><li>150 are at or above the 80th percentile in exactly two sections.</li><li>The number of candidates at or above the 80th percentile only in P is the same as the number of candidates at or above the 80th percentile only in C. The same is the number of candidates at or above the 80th percentile only in M.</li><li>Number of candidates below 80th percentile in P: Number of candidates below 80th percentile in C: Number of candidates below 80th percentile in M = 4:2:1.</li></ol><p>BIE uses a different process for selection. If any candidate is appearing in the AET by AIE, BIE considers their AET score for final selection provided the candidate is at or above the 80th percentile in P. Any other candidate at or above the 80th percentile in P in CET, but who is not eligible for the AET, is required to appear in a separate test to be conducted by BIE for being considered for final selection. Altogether, there are 400 candidates this year who are at or above the 80th percentile in P.</p>"
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Simple Happiness Index",
+      "contentHtml": "<p>Simple Happiness index (SHI) of a country is computed on the basis of three parameters: social support (S), freedom to life choices (F) and corruption perception (C). Each of these three parameters is measured on a scale of 0 to 8 (integers only). A country is then categorized based on the total score obtained by summing the scores of all the three parameters, as shown in the following table:</p><table><thead><tr><th>Total Score</th><th>0-4</th><th>5-8</th><th>9-13</th><th>14-19</th><th>20-24</th></tr></thead><tbody><tr><td>Category</td><td>Very Unhappy</td><td>Unhappy</td><td>Neutral</td><td>Happy</td><td>Very Happy</td></tr></tbody></table><p>Following diagram depicts the frequency distribution of the scores in S, F and C of 10 countries - Amda, Benga, Calla, Delma, Eppa, Varsa, Wanna, Xanda, Yanga and Zooma:</p><p><em>(Chart below: number of countries with each score, 1 to 7, in S, F and C.)</em></p><p>Further, the following are known:</p><ol><li>Amda and Calla jointly have the lowest total score, 7, with identical scores in all the three parameters.</li><li>Zooma has a total score of 17.</li><li>All the 3 countries, which are categorised as happy, have the highest score in exactly one parameter.</li></ol>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2017-slot1/shi-score-distribution.png"
+      ]
+    },
+    {
+      "key": "DILR-S5",
+      "kind": "dilr_set",
+      "title": "Project teams and credit points",
+      "contentHtml": "<p>There are 21 employees working in a division, out of whom 10 are special-skilled employees (SE) and the remaining are regular-skilled employees (RE). During the next five months, the division has to complete five projects every month. Out of the 25 projects, 5 projects are \"challenging\", while the remaining ones are \"standard\". Each of the challenging projects has to be completed in different months. Every month, five teams - T1, T2, T3, T4 and T5, work on one project each. T1, T2, T3, T4 and T5 are allotted the challenging project in the first, second, third, fourth and fifth month, respectively. The team assigned the challenging project has one more employee than the rest.</p><p>In the first month, T1 has one more SE than T2, T2 has one more SE than T3, T3 has one more SE than T4, and T4 has one more SE than T5. Between two successive months, the composition of the teams changes as follows:</p><p>a. The team allotted the challenging project, gets two SE from the team which was allotted the challenging project in the previous month. In exchange, one RE is shifted from the former team to the latter team.</p><p>b. After the above exchange, if T1 has any SE and T5 has any RE, then one SE is shifted from T1 to T5, and one RE is shifted from T5 to T1. Also, if T2 has any SE and T4 has any RE, then one SE is shifted from T2 to T4, and one RE is shifted from T4 to T2.</p><p>Each standard project has a total of 100 credit points, while each challenging project has 200 credit points. The credit points are equally shared between the employees included in that team.</p>"
+    },
+    {
+      "key": "DILR-S6",
+      "kind": "dilr_set",
+      "title": "Platforms of different heights",
+      "contentHtml": "<p>In a square layout of size 5m × 5m, 25 equal sized square platforms of different heights are built. The heights (in metres) of individual platforms are as shown below:</p><table><tbody><tr><td>6</td><td>1</td><td>2</td><td>4</td><td>3</td></tr><tr><td>9</td><td>5</td><td>3</td><td>2</td><td>8</td></tr><tr><td>7</td><td>8</td><td>4</td><td>6</td><td>5</td></tr><tr><td>3</td><td>9</td><td>5</td><td>1</td><td>2</td></tr><tr><td>1</td><td>7</td><td>6</td><td>3</td><td>9</td></tr></tbody></table><p>Individuals (all of same height) are seated on these platforms. We say an individual A can reach an individual B if all the three following conditions are met:</p><p>(i) A and B are in the same row or column<br>(ii) A is at a lower height than B<br>(iii) If there is/are any individual(s) between A and B, such individual(s) must be at a height lower than that of A.</p><p>Thus in the table given above, consider the individual seated at height 8 on 3rd row and 2nd column. He can be reached by four individuals. He can be reached by the individual on his left at height 7, by the two individuals on his right at heights of 4 and 6 and by the individual above at height 5.</p><p>Rows in the layout are numbered from top to bottom and columns are numbered from left to right.</p>"
+    },
+    {
+      "key": "DILR-S7",
+      "kind": "dilr_set",
+      "title": "Airline network",
+      "contentHtml": "<p>A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule.</p><p>The underlying principle that they are working on is the following:</p><p>Any person staying in any of these 10 cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.</p>"
+    },
+    {
+      "key": "DILR-S8",
+      "kind": "dilr_set",
+      "title": "Akala to Bakala",
+      "contentHtml": "<p>Four cars need to travel from Akala (A) to Bakala (B). Two routes are available, one via Mamur (M) and the other via Nanur (N). The roads from A to M, and from N to B, are both short and narrow. In each case, one car takes 6 minutes to cover the distance, and each additional car increases the travel time per car by 3 minutes because of congestion. (For example, if only two cars drive from A to M, each car takes 9 minutes.) On the road from A to N, one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute. On the road from M to B, one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minute.</p><p>The police department orders each car to take a particular route in such a manner that it is not possible for any car to reduce its travel time by not following the order, while the other cars are following the order.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "easy",
+      "stemHtml": "<p>Assume that only one client's order can be processed at any given point of time. So, Anish or Bani cannot start preparing a new order while a previous order is being prepared.</p><p>At what time is the order placed by Client 1 completely served?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10:17"
+        },
+        {
+          "id": "B",
+          "textHtml": "10:10"
+        },
+        {
+          "id": "C",
+          "textHtml": "10:15"
+        },
+        {
+          "id": "D",
+          "textHtml": "10:20"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>One order at a time.</strong> Client 1 (10:00): one employee makes the burger 10:00–10:10, the other the ice cream 10:00–10:02, fryer 10:00–10:05 → done <strong>10:10</strong>.</p><p>Client 2 (arrived 10:05) must wait till 10:10: fries 10:10–10:15, ice cream 10:10–10:12 → done 10:15.</p><p>Client 3 (arrived 10:07) starts at 10:15: burger 10:15–10:25, fries 10:15–10:20 → done <strong>10:25</strong>.</p><p>Client 1's order is limited by the 10-minute burger, so it is fully served at <strong>10:10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "easy",
+      "stemHtml": "<p>Assume that only one client's order can be processed at any given point of time. So, Anish or Bani cannot start preparing a new order while a previous order is being prepared.</p><p>At what time is the order placed by Client 3 completely served?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10:35"
+        },
+        {
+          "id": "B",
+          "textHtml": "10:22"
+        },
+        {
+          "id": "C",
+          "textHtml": "10:25"
+        },
+        {
+          "id": "D",
+          "textHtml": "10:17"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>One order at a time.</strong> Client 1 (10:00): one employee makes the burger 10:00–10:10, the other the ice cream 10:00–10:02, fryer 10:00–10:05 → done <strong>10:10</strong>.</p><p>Client 2 (arrived 10:05) must wait till 10:10: fries 10:10–10:15, ice cream 10:10–10:12 → done 10:15.</p><p>Client 3 (arrived 10:07) starts at 10:15: burger 10:15–10:25, fries 10:15–10:20 → done <strong>10:25</strong>.</p><p>Client 3 cannot start before Client 2 finishes at 10:15, and its burger takes 10 minutes: <strong>10:25</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose the employees are allowed to process multiple orders at a time, but the preference would be to finish orders of clients who placed their orders earlier.</p><p>At what time is the order placed by Client 2 completely served?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10:10"
+        },
+        {
+          "id": "B",
+          "textHtml": "10:12"
+        },
+        {
+          "id": "C",
+          "textHtml": "10:15"
+        },
+        {
+          "id": "D",
+          "textHtml": "10:17"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Parallel processing.</strong> Client 1: Anish burger 10:00–10:10, Bani ice cream 10:00–10:02, fryer 10:00–10:05.</p><p>Client 2 at 10:05: Bani (free since 10:02) makes the ice cream 10:05–10:07; the fryer is free at 10:05, so fries 10:05–10:10 → Client 2 done at 10:10.</p><p>Client 3 at 10:07: Bani is free at 10:07 (Anish only at 10:10), so Bani makes the burger 10:07–10:17; the fryer is busy till 10:10, so fries 10:10–10:15 → done 10:17.</p><p>Client 2's fries finish at 10:10 and its ice cream at 10:07, so it is served at <strong>10:10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose the employees are allowed to process multiple orders at a time, but the preference would be to finish orders of clients who placed their orders earlier.</p><p>Also assume that the fourth client came in only at 10:35. Between 10:00 and 10:30, for how many minutes is exactly one of the employees idle?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "15"
+        },
+        {
+          "id": "D",
+          "textHtml": "23"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Parallel processing.</strong> Client 1: Anish burger 10:00–10:10, Bani ice cream 10:00–10:02, fryer 10:00–10:05.</p><p>Client 2 at 10:05: Bani (free since 10:02) makes the ice cream 10:05–10:07; the fryer is free at 10:05, so fries 10:05–10:10 → Client 2 done at 10:10.</p><p>Client 3 at 10:07: Bani is free at 10:07 (Anish only at 10:10), so Bani makes the burger 10:07–10:17; the fryer is busy till 10:10, so fries 10:10–10:15 → done 10:17.</p><p>Busy periods: Anish 10:00–10:10; Bani 10:00–10:02, 10:05–10:07 and 10:07–10:17.</p><p>Exactly one idle: 10:02–10:05 (Bani idle, Anish busy) = 3 min, and 10:10–10:17 (Anish idle, Bani busy) = 7 min. After 10:17 both are idle.</p><p>Total = 3 + 7 = <strong>10 minutes</strong>. (If Anish made Client 3's burger instead, he could start only at 10:10 — later — so the schedule above is the one that serves orders earliest.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>What percentage of kids from S were studying in P?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "37%"
+        },
+        {
+          "id": "B",
+          "textHtml": "6%"
+        },
+        {
+          "id": "C",
+          "textHtml": "79%"
+        },
+        {
+          "id": "D",
+          "textHtml": "56%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Full table.</strong> Kids: NE 150 × 50 = 7500, W 12500, S 10000; overall G 16500, P 11100, O 2400.</p><p>S: G = 60% of 10000 = 6000. Mothers who completed primary: 10000 − 5700 = 4300, none in O, so S has O = 300 and P = 10000 − 6000 − 300 = 3700.</p><p>NE: O = 300/0.5 = 600. G(NE) = G(W) = (16500 − 6000)/2 = 5250, so P(NE) = 7500 − 5250 − 600 = 1650.</p><p>W: O = 2400 − 600 − 300 = 1500, P = 12500 − 5250 − 1500 = 5750 (check: 1650 + 5750 + 3700 = 11100).</p><p>P in S = 3700 out of 10000 = <strong>37%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>Among the kids in W whose mothers had completed primary education, how many were not in school?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "300"
+        },
+        {
+          "id": "B",
+          "textHtml": "1200"
+        },
+        {
+          "id": "C",
+          "textHtml": "1050"
+        },
+        {
+          "id": "D",
+          "textHtml": "1500"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Full table.</strong> Kids: NE 150 × 50 = 7500, W 12500, S 10000; overall G 16500, P 11100, O 2400.</p><p>S: G = 60% of 10000 = 6000. Mothers who completed primary: 10000 − 5700 = 4300, none in O, so S has O = 300 and P = 10000 − 6000 − 300 = 3700.</p><p>NE: O = 300/0.5 = 600. G(NE) = G(W) = (16500 − 6000)/2 = 5250, so P(NE) = 7500 − 5250 − 600 = 1650.</p><p>W: O = 2400 − 600 − 300 = 1500, P = 12500 − 5250 − 1500 = 5750 (check: 1650 + 5750 + 3700 = 11100).</p><p>O in W = 1500, of which 1200 had mothers who dropped out. So 1500 − 1200 = <strong>300</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a follow up survey of the same kids two years later, it was found that all the kids were now in school. Of the kids who were not in school earlier, in one region, 25% were in G now, whereas the rest were enrolled in P; in the second region, all such kids were in G now; while in the third region, 50% of such kids had now joined G while the rest had joined P. As a result, in all three regions put together, 50% of the kids who were earlier out of school had joined G. It was also seen that no surveyed kid had changed schools.</p><p>What number of the surveyed kids now were in G in W?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6000"
+        },
+        {
+          "id": "B",
+          "textHtml": "5250"
+        },
+        {
+          "id": "C",
+          "textHtml": "6750"
+        },
+        {
+          "id": "D",
+          "textHtml": "6300"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Full table.</strong> Kids: NE 150 × 50 = 7500, W 12500, S 10000; overall G 16500, P 11100, O 2400.</p><p>S: G = 60% of 10000 = 6000. Mothers who completed primary: 10000 − 5700 = 4300, none in O, so S has O = 300 and P = 10000 − 6000 − 300 = 3700.</p><p>NE: O = 300/0.5 = 600. G(NE) = G(W) = (16500 − 6000)/2 = 5250, so P(NE) = 7500 − 5250 − 600 = 1650.</p><p>W: O = 2400 − 600 − 300 = 1500, P = 12500 − 5250 − 1500 = 5750 (check: 1650 + 5750 + 3700 = 11100).</p><p><strong>Follow-up.</strong> Out-of-school kids: NE 600, W 1500, S 300; 50% of 2400 = 1200 joined G.</p><p>Try the assignments of 25%/100%/50%: W 50%, NE 25%, S 100% gives 750 + 150 + 300 = <strong>1200</strong>. The other five assignments give 1125, 975, 1800, 1875 and 1425, so this is the only one.</p><p>G in W now = 5250 + 50% of 1500 = 5250 + 750 = <strong>6000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a follow up survey of the same kids two years later, it was found that all the kids were now in school. Of the kids who were not in school earlier, in one region, 25% were in G now, whereas the rest were enrolled in P; in the second region, all such kids were in G now; while in the third region, 50% of such kids had now joined G while the rest had joined P. As a result, in all three regions put together, 50% of the kids who were earlier out of school had joined G. It was also seen that no surveyed kid had changed schools.</p><p>What percentage of the surveyed kids in S, whose mothers had dropped out before completing primary education, were in G now?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "94.7%"
+        },
+        {
+          "id": "B",
+          "textHtml": "89.5%"
+        },
+        {
+          "id": "C",
+          "textHtml": "93.4%"
+        },
+        {
+          "id": "D",
+          "textHtml": "Cannot be determined from the given information"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Full table.</strong> Kids: NE 150 × 50 = 7500, W 12500, S 10000; overall G 16500, P 11100, O 2400.</p><p>S: G = 60% of 10000 = 6000. Mothers who completed primary: 10000 − 5700 = 4300, none in O, so S has O = 300 and P = 10000 − 6000 − 300 = 3700.</p><p>NE: O = 300/0.5 = 600. G(NE) = G(W) = (16500 − 6000)/2 = 5250, so P(NE) = 7500 − 5250 − 600 = 1650.</p><p>W: O = 2400 − 600 − 300 = 1500, P = 12500 − 5250 − 1500 = 5750 (check: 1650 + 5750 + 3700 = 11100).</p><p><strong>Follow-up.</strong> Out-of-school kids: NE 600, W 1500, S 300; 50% of 2400 = 1200 joined G.</p><p>Try the assignments of 25%/100%/50%: W 50%, NE 25%, S 100% gives 750 + 150 + 300 = <strong>1200</strong>. The other five assignments give 1125, 975, 1800, 1875 and 1425, so this is the only one.</p><p>In S all out-of-school kids joined G. Among the 5700 kids of dropout mothers: 5100 already in G + 300 from O = 5400.</p><p>5400/5700 = <strong>94.7%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>What best can be concluded about the number of candidates sitting for the separate test for BIE who were at or above the 90th percentile overall in CET?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3 or 10"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "7 or 10"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Set-up (the 200 candidates ≥ 90th overall).</strong> Let a = number strong (≥ 80th) in only P = only C = only M, t = strong in all three, and PC, PM, CM = strong in exactly that pair (PC + PM + CM = 150). Then 3a + 150 + t = 200, so 3a + t = 50.</p><p>Below 80th in P = 2a + CM, in C = 2a + PM, in M = 2a + PC, in ratio 4k : 2k : k. Adding: 6a + 150 = 7k, so 6a + 150 must be a multiple of 7 → a ≡ 3 (mod 7). With a ≤ 16: <strong>a = 3 or 10</strong>.</p><p>a = 3: k = 24 → PC = 18, PM = 42, CM = 90, t = 41.<br>a = 10: k = 30 → PC = 10, PM = 40, CM = 100, t = 20.</p><p>Shortlisted for AET = those strong in ≥ 2 sections = 150 + t.</p><p>Among the 200, those strong in P but not AET-eligible are exactly the 'only P' candidates, a. So the number is <strong>3 or 10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the number of candidates who are at or above the 90th percentile overall and also at or above the 80th percentile in all three sections in CET is actually a multiple of 5, what is the number of candidates who are at or above the 90th percentile overall and at or above the 80th percentile in both P and M in CET?</p>",
+      "answer": "60",
+      "solutionHtml": "<p><strong>Set-up (the 200 candidates ≥ 90th overall).</strong> Let a = number strong (≥ 80th) in only P = only C = only M, t = strong in all three, and PC, PM, CM = strong in exactly that pair (PC + PM + CM = 150). Then 3a + 150 + t = 200, so 3a + t = 50.</p><p>Below 80th in P = 2a + CM, in C = 2a + PM, in M = 2a + PC, in ratio 4k : 2k : k. Adding: 6a + 150 = 7k, so 6a + 150 must be a multiple of 7 → a ≡ 3 (mod 7). With a ≤ 16: <strong>a = 3 or 10</strong>.</p><p>a = 3: k = 24 → PC = 18, PM = 42, CM = 90, t = 41.<br>a = 10: k = 30 → PC = 10, PM = 40, CM = 100, t = 20.</p><p>Shortlisted for AET = those strong in ≥ 2 sections = 150 + t.</p><p>t = 41 or 20; a multiple of 5 means t = 20, a = 10, PM (exactly) = 40.</p><p>Strong in both P and M = PM + t = 40 + 20 = <strong>60</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the number of candidates who are at or above the 90th percentile overall and also at or above the 80th percentile in all three sections in CET is actually a multiple of 5, then how many candidates were shortlisted for the AET for AIE?</p>",
+      "answer": "170",
+      "solutionHtml": "<p><strong>Set-up (the 200 candidates ≥ 90th overall).</strong> Let a = number strong (≥ 80th) in only P = only C = only M, t = strong in all three, and PC, PM, CM = strong in exactly that pair (PC + PM + CM = 150). Then 3a + 150 + t = 200, so 3a + t = 50.</p><p>Below 80th in P = 2a + CM, in C = 2a + PM, in M = 2a + PC, in ratio 4k : 2k : k. Adding: 6a + 150 = 7k, so 6a + 150 must be a multiple of 7 → a ≡ 3 (mod 7). With a ≤ 16: <strong>a = 3 or 10</strong>.</p><p>a = 3: k = 24 → PC = 18, PM = 42, CM = 90, t = 41.<br>a = 10: k = 30 → PC = 10, PM = 40, CM = 100, t = 20.</p><p>Shortlisted for AET = those strong in ≥ 2 sections = 150 + t.</p><p>t multiple of 5 → t = 20. Shortlisted = 150 + 20 = <strong>170</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the number of candidates who are at or above the 90th percentile overall and also are at or above the 80th percentile in P in CET, is more than 100, how many candidates had to sit for the separate test for BIE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "299"
+        },
+        {
+          "id": "B",
+          "textHtml": "310"
+        },
+        {
+          "id": "C",
+          "textHtml": "321"
+        },
+        {
+          "id": "D",
+          "textHtml": "330"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Set-up (the 200 candidates ≥ 90th overall).</strong> Let a = number strong (≥ 80th) in only P = only C = only M, t = strong in all three, and PC, PM, CM = strong in exactly that pair (PC + PM + CM = 150). Then 3a + 150 + t = 200, so 3a + t = 50.</p><p>Below 80th in P = 2a + CM, in C = 2a + PM, in M = 2a + PC, in ratio 4k : 2k : k. Adding: 6a + 150 = 7k, so 6a + 150 must be a multiple of 7 → a ≡ 3 (mod 7). With a ≤ 16: <strong>a = 3 or 10</strong>.</p><p>a = 3: k = 24 → PC = 18, PM = 42, CM = 90, t = 41.<br>a = 10: k = 30 → PC = 10, PM = 40, CM = 100, t = 20.</p><p>Shortlisted for AET = those strong in ≥ 2 sections = 150 + t.</p><p>Strong in P among the 200 = a + PC + PM + t: for a = 3 it is 3 + 18 + 42 + 41 = 104; for a = 10 it is 10 + 10 + 40 + 20 = 80. More than 100 → a = 3.</p><p>Of the 400 candidates strong in P, those taking the AET are PC + PM + t = 18 + 42 + 41 = 101. Everyone else strong in P (including all those below the 90th overall) takes BIE's separate test: 400 − 101 = <strong>299</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Charts and deductions",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is Amda's score in F?</p>",
+      "answer": "1",
+      "solutionHtml": "<p><strong>Read the chart.</strong> S: 3 (×3), 4 (×3), 5 (×2), 6, 7. F: 1 (×2), 2, 3 (×2), 4, 5 (×3), 7. C: 1, 2 (×3), 3 (×4), 4, 6. Column sums: S 44, F 36, C 29, total 109.</p><p><strong>Happy countries.</strong> The highest scores are S = 7, F = 7 and C = 6, each held by exactly one country. Each of the 3 happy countries holds exactly one of these, so the three happy countries are precisely the S-7, F-7 and C-6 holders, and the other seven countries are not happy (total 13 or less).</p><p><strong>Amda/Calla.</strong> Two identical triples summing to 7 need values occurring at least twice in each parameter. S ≥ 3, so (S, F, C) = (3, 1, 3) or (4, 1, 2) — F = 1 either way.</p><p>Both choices are consistent with the rest of the data (the remaining countries can all be given totals between 8 and 13), but in both Amda's F score is <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Charts and deductions",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is Zooma's score in S?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Read the chart.</strong> S: 3 (×3), 4 (×3), 5 (×2), 6, 7. F: 1 (×2), 2, 3 (×2), 4, 5 (×3), 7. C: 1, 2 (×3), 3 (×4), 4, 6. Column sums: S 44, F 36, C 29, total 109.</p><p><strong>Happy countries.</strong> The highest scores are S = 7, F = 7 and C = 6, each held by exactly one country. Each of the 3 happy countries holds exactly one of these, so the three happy countries are precisely the S-7, F-7 and C-6 holders, and the other seven countries are not happy (total 13 or less).</p><p><strong>Zooma (17).</strong> 17 is happy, so Zooma holds one top score. The S-7 country can reach at most 7 + 5 + 4 = 16, so Zooma is either (6, 7, 4) [top in F] or (6, 5, 6) [top in C] — S = 6 in both.</p><p>So Zooma's S score is <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Charts and deductions",
+      "difficulty": "hard",
+      "stemHtml": "<p>Benga and Delma, two countries categorized as happy, are tied with the same total score. What is the maximum score they can have?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "14"
+        },
+        {
+          "id": "B",
+          "textHtml": "15"
+        },
+        {
+          "id": "C",
+          "textHtml": "16"
+        },
+        {
+          "id": "D",
+          "textHtml": "17"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Read the chart.</strong> S: 3 (×3), 4 (×3), 5 (×2), 6, 7. F: 1 (×2), 2, 3 (×2), 4, 5 (×3), 7. C: 1, 2 (×3), 3 (×4), 4, 6. Column sums: S 44, F 36, C 29, total 109.</p><p><strong>Happy countries.</strong> The highest scores are S = 7, F = 7 and C = 6, each held by exactly one country. Each of the 3 happy countries holds exactly one of these, so the three happy countries are precisely the S-7, F-7 and C-6 holders, and the other seven countries are not happy (total 13 or less).</p><p><strong>Zooma (17).</strong> 17 is happy, so Zooma holds one top score. The S-7 country can reach at most 7 + 5 + 4 = 16, so Zooma is either (6, 7, 4) [top in F] or (6, 5, 6) [top in C] — S = 6 in both.</p><p>Benga and Delma are the other two happy countries.</p><p>If Zooma = (6, 7, 4): the S-7 country is at most 7 + 5 + 3 = 15 (the C-4 is gone), so the tie is at most 15.</p><p>If Zooma = (6, 5, 6): the S-7 and F-7 countries can reach at most 7 + 5 + 4 = 16 each, but there is only one C = 4, so both cannot be 16. Both can be 15: (7, 5, 3) and (5, 7, 3).</p><p>A full fit exists, e.g. Amda/Calla (3, 1, 3), remaining countries (5, 2, 1), (3, 5, 2), (4, 3, 2), (4, 3, 2), (4, 4, 4) with totals 8–12. Maximum tie = <strong>15</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Charts and deductions",
+      "difficulty": "hard",
+      "stemHtml": "<p>If Benga scores 16 and Delma scores 15, then what is the maximum number of countries with a score of 13?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "2"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Read the chart.</strong> S: 3 (×3), 4 (×3), 5 (×2), 6, 7. F: 1 (×2), 2, 3 (×2), 4, 5 (×3), 7. C: 1, 2 (×3), 3 (×4), 4, 6. Column sums: S 44, F 36, C 29, total 109.</p><p><strong>Happy countries.</strong> The highest scores are S = 7, F = 7 and C = 6, each held by exactly one country. Each of the 3 happy countries holds exactly one of these, so the three happy countries are precisely the S-7, F-7 and C-6 holders, and the other seven countries are not happy (total 13 or less).</p><p>Happy totals 17 + 16 + 15 = 48, Amda + Calla = 14, so the other five countries total 109 − 48 − 14 = 47, each at least 8 (they are above Amda/Calla's 7).</p><p>Two 13s would leave 47 − 26 = 21 for three countries, but they need at least 24. Three 13s are even worse. So at most one 13 (then 34 for four countries, ≥ 32 needed — fine).</p><p>It works: Zooma (6, 7, 4), Benga (5, 5, 6), Delma (7, 5, 3), Amda/Calla (3, 1, 3), and the rest (5, 5, 3) = 13, (4, 3, 1), (4, 2, 2), (3, 4, 2), (4, 3, 2). Maximum = <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process simulation",
+      "difficulty": "hard",
+      "stemHtml": "<p>The number of times in which the composition of team T2 and the number of times in which composition of team T4 remained unchanged in two successive months are:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(2, 1)"
+        },
+        {
+          "id": "B",
+          "textHtml": "(1, 0)"
+        },
+        {
+          "id": "C",
+          "textHtml": "(0, 0)"
+        },
+        {
+          "id": "D",
+          "textHtml": "(1, 1)"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Team sizes:</strong> 5 + 4 + 4 + 4 + 4 = 21, so every employee works every month. Month 1 SE: x+4, x+3, x+2, x+1, x with total 10 → x = 0.</p><table><thead><tr><th>Month</th><th>T1 (SE, RE)</th><th>T2</th><th>T3</th><th>T4</th><th>T5</th></tr></thead><tbody><tr><td>1</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td><td>1, 3</td><td>0, 4</td></tr><tr><td>2</td><td>1, 3</td><td>4, 1*</td><td>2, 2</td><td>2, 2</td><td>1, 3</td></tr><tr><td>3</td><td>0, 4</td><td>1, 3</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td></tr><tr><td>4</td><td>0, 4</td><td>1, 3</td><td>2, 2</td><td>5, 0*</td><td>2, 2</td></tr><tr><td>5</td><td>0, 4</td><td>0, 4</td><td>2, 2</td><td>4, 0</td><td>4, 1*</td></tr></tbody></table><p>(* = challenging team.) E.g. month 1→2: T2 takes 2 SE from T1 and gives 1 RE → T1 (2, 2), T2 (5, 0); then rule b: T1→T5 one SE, T5→T1 one RE; T2→T4 one SE, T4→T2 one RE. From month 3 on T1 has no SE, and in month 4 T4 has no RE, so those swaps stop.</p><p>Each month a standard-team member gets 100/4 = 25 points and a challenging-team member 200/5 = 40 points.</p><p>T2: (3,1) → (4,1) → (1,3) → (1,3) → (0,4): unchanged once (month 3 → 4; T2 is untouched by either rule then).</p><p>T4: (1,3) → (2,2) → (3,1) → (5,0) → (4,0): never unchanged. Answer <strong>(1, 0)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process simulation",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of SE in T1 and T5 for the projects in the third month are, respectively:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(0, 2)"
+        },
+        {
+          "id": "B",
+          "textHtml": "(0, 3)"
+        },
+        {
+          "id": "C",
+          "textHtml": "(1, 2)"
+        },
+        {
+          "id": "D",
+          "textHtml": "(1, 3)"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Team sizes:</strong> 5 + 4 + 4 + 4 + 4 = 21, so every employee works every month. Month 1 SE: x+4, x+3, x+2, x+1, x with total 10 → x = 0.</p><table><thead><tr><th>Month</th><th>T1 (SE, RE)</th><th>T2</th><th>T3</th><th>T4</th><th>T5</th></tr></thead><tbody><tr><td>1</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td><td>1, 3</td><td>0, 4</td></tr><tr><td>2</td><td>1, 3</td><td>4, 1*</td><td>2, 2</td><td>2, 2</td><td>1, 3</td></tr><tr><td>3</td><td>0, 4</td><td>1, 3</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td></tr><tr><td>4</td><td>0, 4</td><td>1, 3</td><td>2, 2</td><td>5, 0*</td><td>2, 2</td></tr><tr><td>5</td><td>0, 4</td><td>0, 4</td><td>2, 2</td><td>4, 0</td><td>4, 1*</td></tr></tbody></table><p>(* = challenging team.) E.g. month 1→2: T2 takes 2 SE from T1 and gives 1 RE → T1 (2, 2), T2 (5, 0); then rule b: T1→T5 one SE, T5→T1 one RE; T2→T4 one SE, T4→T2 one RE. From month 3 on T1 has no SE, and in month 4 T4 has no RE, so those swaps stop.</p><p>Each month a standard-team member gets 100/4 = 25 points and a challenging-team member 200/5 = 40 points.</p><p>Month 3: T1 has 0 SE and T5 has 2 SE → <strong>(0, 2)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process simulation",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following CANNOT be the total credit points earned by any employee from the projects?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "140"
+        },
+        {
+          "id": "B",
+          "textHtml": "150"
+        },
+        {
+          "id": "C",
+          "textHtml": "170"
+        },
+        {
+          "id": "D",
+          "textHtml": "200"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Team sizes:</strong> 5 + 4 + 4 + 4 + 4 = 21, so every employee works every month. Month 1 SE: x+4, x+3, x+2, x+1, x with total 10 → x = 0.</p><table><thead><tr><th>Month</th><th>T1 (SE, RE)</th><th>T2</th><th>T3</th><th>T4</th><th>T5</th></tr></thead><tbody><tr><td>1</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td><td>1, 3</td><td>0, 4</td></tr><tr><td>2</td><td>1, 3</td><td>4, 1*</td><td>2, 2</td><td>2, 2</td><td>1, 3</td></tr><tr><td>3</td><td>0, 4</td><td>1, 3</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td></tr><tr><td>4</td><td>0, 4</td><td>1, 3</td><td>2, 2</td><td>5, 0*</td><td>2, 2</td></tr><tr><td>5</td><td>0, 4</td><td>0, 4</td><td>2, 2</td><td>4, 0</td><td>4, 1*</td></tr></tbody></table><p>(* = challenging team.) E.g. month 1→2: T2 takes 2 SE from T1 and gives 1 RE → T1 (2, 2), T2 (5, 0); then rule b: T1→T5 one SE, T5→T1 one RE; T2→T4 one SE, T4→T2 one RE. From month 3 on T1 has no SE, and in month 4 T4 has no RE, so those swaps stop.</p><p>Each month a standard-team member gets 100/4 = 25 points and a challenging-team member 200/5 = 40 points.</p><p>An employee in a challenging team k times (and a standard team 5 − k times) earns 40k + 25(5 − k) = 125 + 15k: 125, 140, 155, 170, 185 or 200.</p><p><strong>150</strong> is not of this form, so it cannot occur.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process simulation",
+      "difficulty": "hard",
+      "stemHtml": "<p>One of the employees named Aneek scored 185 points. Which of the following CANNOT be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Aneek worked only in teams T1, T2, T3, and T4"
+        },
+        {
+          "id": "B",
+          "textHtml": "Aneek worked only in teams T1, T2, T4, and T5"
+        },
+        {
+          "id": "C",
+          "textHtml": "Aneek worked only in teams T2, T3, T4, and T5"
+        },
+        {
+          "id": "D",
+          "textHtml": "Aneek worked only in teams T1, T3, T4, and T5"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Team sizes:</strong> 5 + 4 + 4 + 4 + 4 = 21, so every employee works every month. Month 1 SE: x+4, x+3, x+2, x+1, x with total 10 → x = 0.</p><table><thead><tr><th>Month</th><th>T1 (SE, RE)</th><th>T2</th><th>T3</th><th>T4</th><th>T5</th></tr></thead><tbody><tr><td>1</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td><td>1, 3</td><td>0, 4</td></tr><tr><td>2</td><td>1, 3</td><td>4, 1*</td><td>2, 2</td><td>2, 2</td><td>1, 3</td></tr><tr><td>3</td><td>0, 4</td><td>1, 3</td><td>4, 1*</td><td>3, 1</td><td>2, 2</td></tr><tr><td>4</td><td>0, 4</td><td>1, 3</td><td>2, 2</td><td>5, 0*</td><td>2, 2</td></tr><tr><td>5</td><td>0, 4</td><td>0, 4</td><td>2, 2</td><td>4, 0</td><td>4, 1*</td></tr></tbody></table><p>(* = challenging team.) E.g. month 1→2: T2 takes 2 SE from T1 and gives 1 RE → T1 (2, 2), T2 (5, 0); then rule b: T1→T5 one SE, T5→T1 one RE; T2→T4 one SE, T4→T2 one RE. From month 3 on T1 has no SE, and in month 4 T4 has no RE, so those swaps stop.</p><p>Each month a standard-team member gets 100/4 = 25 points and a challenging-team member 200/5 = 40 points.</p><p>185 = 125 + 15 × 4: Aneek was in the challenging team in exactly 4 of the 5 months.</p><p>D needs him in T1 (month 1), a standard team in month 2, then T3 in month 3. But T3's month-3 members are its month-2 members plus 2 SE from T2. In the 1→2 change T3 is not touched at all, so nobody moves from T1 into T3. To reach T3 in month 3 he would have to be in T2 in month 2 — but then he would have been in T2 too. So D is impossible.</p><p>The others work: A — an SE passed T1→T2→T3→T4, staying in T4 for month 5. B — SE T1→T2, then rule b moves him T2→T4 (month 3), T4 challenging in month 4, then T4→T5. C — an original T2 SE stays in T2, then passes T2→T3→T4→T5. Answer: <strong>D</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "DILR-S6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grids",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many individuals in this layout can be reached by just one individual?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key move:</strong> for each person, look outward in each of the four directions. Walking away from B, a person A counts if A is lower than B and taller than everyone passed so far — i.e. count the 'new maxima' that stay below B's height.</p><p>Number of people who can reach each position (same layout):</p><table><tbody><tr><td>3</td><td>0</td><td>1</td><td>3</td><td>0</td></tr><tr><td>4</td><td>2</td><td>2</td><td>0</td><td>5</td></tr><tr><td>1</td><td>4</td><td>1</td><td>6</td><td>1</td></tr><tr><td>1</td><td>4</td><td>3</td><td>0</td><td>1</td></tr><tr><td>0</td><td>2</td><td>2</td><td>1</td><td>6</td></tr></tbody></table><p>Example: row 3, column 4 (height 6): left — 4 counts (8 and 7 beyond it are blocked); right — 5 counts; up — 2 and 4 count; down — 1 and 3 count. Total 6.</p><p>Cells with count 1: (1,3), (3,1), (3,3), (3,5), (4,1), (4,5), (5,4) → <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "DILR-S6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grids",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following is true for any individual at a platform of height 1 m in this layout?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "They can be reached by all the individuals in their own row and column"
+        },
+        {
+          "id": "B",
+          "textHtml": "They can be reached by at least 4 individuals"
+        },
+        {
+          "id": "C",
+          "textHtml": "They can be reached by at least one individual"
+        },
+        {
+          "id": "D",
+          "textHtml": "They cannot be reached by anyone"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key move:</strong> for each person, look outward in each of the four directions. Walking away from B, a person A counts if A is lower than B and taller than everyone passed so far — i.e. count the 'new maxima' that stay below B's height.</p><p>Number of people who can reach each position (same layout):</p><table><tbody><tr><td>3</td><td>0</td><td>1</td><td>3</td><td>0</td></tr><tr><td>4</td><td>2</td><td>2</td><td>0</td><td>5</td></tr><tr><td>1</td><td>4</td><td>1</td><td>6</td><td>1</td></tr><tr><td>1</td><td>4</td><td>3</td><td>0</td><td>1</td></tr><tr><td>0</td><td>2</td><td>2</td><td>1</td><td>6</td></tr></tbody></table><p>Example: row 3, column 4 (height 6): left — 4 counts (8 and 7 beyond it are blocked); right — 5 counts; up — 2 and 4 count; down — 1 and 3 count. Total 6.</p><p>1 m is the lowest height in the layout, so nobody is lower than them — condition (ii) fails for everyone. They <strong>cannot be reached by anyone</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-23",
+      "section": "DILR",
+      "number": 23,
+      "type": "MCQ",
+      "setKey": "DILR-S6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grids",
+      "difficulty": "medium",
+      "stemHtml": "<p>We can find two individuals who cannot be reached by anyone in</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the last row"
+        },
+        {
+          "id": "B",
+          "textHtml": "the fourth row"
+        },
+        {
+          "id": "C",
+          "textHtml": "the fourth column"
+        },
+        {
+          "id": "D",
+          "textHtml": "the middle column"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key move:</strong> for each person, look outward in each of the four directions. Walking away from B, a person A counts if A is lower than B and taller than everyone passed so far — i.e. count the 'new maxima' that stay below B's height.</p><p>Number of people who can reach each position (same layout):</p><table><tbody><tr><td>3</td><td>0</td><td>1</td><td>3</td><td>0</td></tr><tr><td>4</td><td>2</td><td>2</td><td>0</td><td>5</td></tr><tr><td>1</td><td>4</td><td>1</td><td>6</td><td>1</td></tr><tr><td>1</td><td>4</td><td>3</td><td>0</td><td>1</td></tr><tr><td>0</td><td>2</td><td>2</td><td>1</td><td>6</td></tr></tbody></table><p>Example: row 3, column 4 (height 6): left — 4 counts (8 and 7 beyond it are blocked); right — 5 counts; up — 2 and 4 count; down — 1 and 3 count. Total 6.</p><p>Zeros: row 1 has two (heights 1 and 3), row 2 has one, row 4 one, row 5 one. Among the options: last row — one zero; fourth row — one zero; middle column — none; <strong>fourth column</strong> — two zeros (height 2 in row 2 and height 1 in row 4).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-24",
+      "section": "DILR",
+      "number": 24,
+      "type": "MCQ",
+      "setKey": "DILR-S6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grids",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements is true about this layout?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Each row has an individual who can be reached by 5 or more individuals"
+        },
+        {
+          "id": "B",
+          "textHtml": "Each row has an individual who cannot be reached by anyone"
+        },
+        {
+          "id": "C",
+          "textHtml": "Each row has at least two individuals who can be reached by an equal number of individuals"
+        },
+        {
+          "id": "D",
+          "textHtml": "All individuals at the height of 9 m can be reached by at least 5 individuals"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key move:</strong> for each person, look outward in each of the four directions. Walking away from B, a person A counts if A is lower than B and taller than everyone passed so far — i.e. count the 'new maxima' that stay below B's height.</p><p>Number of people who can reach each position (same layout):</p><table><tbody><tr><td>3</td><td>0</td><td>1</td><td>3</td><td>0</td></tr><tr><td>4</td><td>2</td><td>2</td><td>0</td><td>5</td></tr><tr><td>1</td><td>4</td><td>1</td><td>6</td><td>1</td></tr><tr><td>1</td><td>4</td><td>3</td><td>0</td><td>1</td></tr><tr><td>0</td><td>2</td><td>2</td><td>1</td><td>6</td></tr></tbody></table><p>Example: row 3, column 4 (height 6): left — 4 counts (8 and 7 beyond it are blocked); right — 5 counts; up — 2 and 4 count; down — 1 and 3 count. Total 6.</p><p>A fails for row 1 (max 3). B fails for row 3 (no zero). D fails: the 9s in column 1 and in row 4 are reached by only 4 people each.</p><p>C: row 1 has 3, 3 (and 0, 0); row 2 has 2, 2; row 3 has 1, 1, 1; row 4 has 1, 1; row 5 has 2, 2 → <strong>true</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-25",
+      "section": "DILR",
+      "number": 25,
+      "type": "MCQ",
+      "setKey": "DILR-S7",
+      "topic": "Logical Reasoning",
+      "subtopic": "Networks",
+      "difficulty": "easy",
+      "stemHtml": "<p>If the underlying principle is to be satisfied in such a way that the journey between any two cities can be performed using only direct (non-stop) flights, then the minimum number of direct flights to be scheduled is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "45"
+        },
+        {
+          "id": "B",
+          "textHtml": "90"
+        },
+        {
+          "id": "C",
+          "textHtml": "180"
+        },
+        {
+          "id": "D",
+          "textHtml": "135"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key move:</strong> for a route between X and Y, a resident of X needs X→Y in the morning and Y→X in the evening, and a resident of Y needs Y→X in the morning and X→Y in the evening. So <strong>every connected pair needs 4 direct flights</strong>.</p><p>Every one of the C(10, 2) = 45 pairs must be connected directly: 45 × 4 = <strong>180</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-26",
+      "section": "DILR",
+      "number": 26,
+      "type": "MCQ",
+      "setKey": "DILR-S7",
+      "topic": "Logical Reasoning",
+      "subtopic": "Networks",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose three of the ten cities are to be developed as hubs. A hub is a city which is connected with every other city by direct flights each way, both in the morning as well as in the evening. The only direct flights which will be scheduled are originating and/or terminating in one of the hubs. Then the minimum number of direct flights that need to be scheduled so that the underlying principle of the airline to serve all the ten cities is met without visiting more than one hub during one trip is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "54"
+        },
+        {
+          "id": "B",
+          "textHtml": "120"
+        },
+        {
+          "id": "C",
+          "textHtml": "96"
+        },
+        {
+          "id": "D",
+          "textHtml": "60"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key move:</strong> for a route between X and Y, a resident of X needs X→Y in the morning and Y→X in the evening, and a resident of Y needs Y→X in the morning and X→Y in the evening. So <strong>every connected pair needs 4 direct flights</strong>.</p><p>By definition each hub is linked to all 9 other cities with 4 flights per pair.</p><p>Hub–hub pairs: 3 × 4 = 12. Hub–non-hub pairs: 3 × 7 × 4 = 84. Total 96.</p><p>Two non-hub cities connect through any one hub (morning X→H→Y, evening Y→H→X) with these same flights, so nothing more is needed: <strong>96</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-27",
+      "section": "DILR",
+      "number": 27,
+      "type": "TITA",
+      "setKey": "DILR-S7",
+      "topic": "Logical Reasoning",
+      "subtopic": "Networks",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose the 10 cities are divided into 4 distinct groups G1, G2, G3, G4 having 3, 3, 2 and 2 cities respectively and that G1 consists of cities named A, B and C. Further, suppose that direct flights are allowed only between two cities satisfying one of the following:</p><ol><li>Both cities are in G1</li><li>Between A and any city in G2</li><li>Between B and any city in G3</li><li>Between C and any city in G4</li></ol><p>Then the minimum number of direct flights that satisfies the underlying principle of the airline is:</p>",
+      "answer": "40",
+      "solutionHtml": "<p><strong>Key move:</strong> for a route between X and Y, a resident of X needs X→Y in the morning and Y→X in the evening, and a resident of Y needs Y→X in the morning and X→Y in the evening. So <strong>every connected pair needs 4 direct flights</strong>.</p><p>Every allowed connection is needed: each G2 city links only to A, each G3 city only to B, each G4 city only to C, and A, B, C are joined to each other so that cities in different groups can reach one another.</p><p>Connections: A–B, B–C, C–A (3) + A–G2 (3) + B–G3 (2) + C–G4 (2) = 10, each with 4 flights → <strong>40</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-28",
+      "section": "DILR",
+      "number": 28,
+      "type": "TITA",
+      "setKey": "DILR-S7",
+      "topic": "Logical Reasoning",
+      "subtopic": "Networks",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose the 10 cities are divided into 4 distinct groups G1, G2, G3, G4 having 3, 3, 2 and 2 cities respectively and that G1 consists of cities named A, B and C. Further, suppose that direct flights are allowed only between two cities satisfying one of the following:</p><ol><li>Both cities are in G1</li><li>Between A and any city in G2</li><li>Between B and any city in G3</li><li>Between C and any city in G4</li></ol><p>However, due to operational difficulties at A, it was later decided that the only flights that would operate at A would be those to and from B. Cities in G2 would have to be assigned to G3 or to G4.</p><p>What would be the maximum reduction in the number of direct flights as compared to the situation before the operational difficulties arose?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key move:</strong> for a route between X and Y, a resident of X needs X→Y in the morning and Y→X in the evening, and a resident of Y needs Y→X in the morning and X→Y in the evening. So <strong>every connected pair needs 4 direct flights</strong>.</p><p>Before: 10 connections × 4 = 40 flights.</p><p>After: A connects only to B, so A–C goes. Connections: A–B, B–C, and each of the 7 cities of G2, G3, G4 has one link (to B if in G3, to C if in G4) → 9 connections × 4 = 36, whichever way the G2 cities are reassigned.</p><p>Reduction = 40 − 36 = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-29",
+      "section": "DILR",
+      "number": 29,
+      "type": "TITA",
+      "setKey": "DILR-S8",
+      "topic": "Logical Reasoning",
+      "subtopic": "Equilibrium / games",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many cars would be asked to take the route A-N-B, that is Akala-Nanur-Bakala route, by the police department?</p>",
+      "answer": "2",
+      "solutionHtml": "<p>With n cars on a road: A–M and N–B take 3n + 3, A–N takes 19 + n, M–B takes 19.1 + 0.9n.</p><p>m cars on A-M-B: 22.1 + 3.9m. k cars on A-N-B: 22 + 4k, with m + k = 4.</p><p>m = k = 2: A-M-B 29.9, A-N-B 30. A switch makes the mover's route 3 cars: A-M-B 33.8 or A-N-B 34 — worse, so <strong>2–2 is stable</strong>. (3–1 or 1–3 is not: a car on the 3-car route saves time by switching.)</p><p>So the police send <strong>2</strong> cars by A-N-B.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-30",
+      "section": "DILR",
+      "number": 30,
+      "type": "MCQ",
+      "setKey": "DILR-S8",
+      "topic": "Logical Reasoning",
+      "subtopic": "Equilibrium / games",
+      "difficulty": "medium",
+      "stemHtml": "<p>If all the cars follow the police order, what is the difference in travel time (in minutes) between a car which takes the route A-N-B and a car that takes the route A-M-B?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "0.1"
+        },
+        {
+          "id": "C",
+          "textHtml": "0.2"
+        },
+        {
+          "id": "D",
+          "textHtml": "0.9"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>With n cars on a road: A–M and N–B take 3n + 3, A–N takes 19 + n, M–B takes 19.1 + 0.9n.</p><p>m cars on A-M-B: 22.1 + 3.9m. k cars on A-N-B: 22 + 4k, with m + k = 4.</p><p>m = k = 2: A-M-B 29.9, A-N-B 30. A switch makes the mover's route 3 cars: A-M-B 33.8 or A-N-B 34 — worse, so <strong>2–2 is stable</strong>. (3–1 or 1–3 is not: a car on the 3-car route saves time by switching.)</p><p>30 − 29.9 = <strong>0.1</strong> minute.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-31",
+      "section": "DILR",
+      "number": 31,
+      "type": "TITA",
+      "setKey": "DILR-S8",
+      "topic": "Logical Reasoning",
+      "subtopic": "Equilibrium / games",
+      "difficulty": "hard",
+      "stemHtml": "<p>A new one-way road is built from M to N. Each car now has three possible routes to travel from A to B: A-M-B, A-N-B and A-M-N-B. On the road from M to N, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Assume that any car taking the A-M-N-B route travels the A-M portion at the same time as other cars taking the A-M-B route, and the N-B portion at the same time as other cars taking the A-N-B route.</p><p>How many cars would the police department order to take the A-M-N-B route so that it is not possible for any car to reduce its travel time by not following the order while the other cars follow the order? (Assume that the police department would never order all the cars to take the same route.)</p>",
+      "answer": "2",
+      "solutionHtml": "<p>Let x, y, z cars take A-M-B, A-N-B, A-M-N-B. A–M carries x + z, N–B carries y + z, M–N carries z (time 6 + z).</p><p>Check the split x = 1, y = 1, z = 2: A–M and N–B carry 3 cars (12 min each), M–B 20, A–N 20, M–N 8. A-M-B = 12 + 20 = 32, A-N-B = 20 + 12 = 32, A-M-N-B = 12 + 8 + 12 = 32.</p><p>Any single switch makes the switcher's time 32.9 to 36 — worse — so this is stable. Checking every other split (not all on one route), each has some car that can gain by switching (e.g. 2-2-0 now fails: an A-M-B car moving to A-M-N-B takes 9 + 7 + 12 = 28 < 29.9). So the only stable order is <strong>1, 1, 2</strong>.</p><p>Cars on A-M-N-B: <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-32",
+      "section": "DILR",
+      "number": 32,
+      "type": "MCQ",
+      "setKey": "DILR-S8",
+      "topic": "Logical Reasoning",
+      "subtopic": "Equilibrium / games",
+      "difficulty": "hard",
+      "stemHtml": "<p>A new one-way road is built from M to N. Each car now has three possible routes to travel from A to B: A-M-B, A-N-B and A-M-N-B. On the road from M to N, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Assume that any car taking the A-M-N-B route travels the A-M portion at the same time as other cars taking the A-M-B route, and the N-B portion at the same time as other cars taking the A-N-B route.</p><p>If all the cars follow the police order, what is the minimum travel time (in minutes) from A to B? (Assume that the police department would never order all the cars to take the same route.)</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "26"
+        },
+        {
+          "id": "B",
+          "textHtml": "32"
+        },
+        {
+          "id": "C",
+          "textHtml": "29.9"
+        },
+        {
+          "id": "D",
+          "textHtml": "30"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let x, y, z cars take A-M-B, A-N-B, A-M-N-B. A–M carries x + z, N–B carries y + z, M–N carries z (time 6 + z).</p><p>Check the split x = 1, y = 1, z = 2: A–M and N–B carry 3 cars (12 min each), M–B 20, A–N 20, M–N 8. A-M-B = 12 + 20 = 32, A-N-B = 20 + 12 = 32, A-M-N-B = 12 + 8 + 12 = 32.</p><p>Any single switch makes the switcher's time 32.9 to 36 — worse — so this is stable. Checking every other split (not all on one route), each has some car that can gain by switching (e.g. 2-2-0 now fails: an A-M-B car moving to A-M-N-B takes 9 + 7 + 12 = 28 < 29.9). So the only stable order is <strong>1, 1, 2</strong>.</p><p>Under the only stable order every car takes 32 minutes, so the minimum travel time is <strong>32</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2017 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

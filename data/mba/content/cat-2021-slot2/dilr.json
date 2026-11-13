@@ -1,0 +1,663 @@
+{
+  "sets": [
+    {
+      "key": "di1",
+      "kind": "dilr_set",
+      "title": "Order booking and dispatch chart",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2021-slot2/dilr-orders-chart.png"
+      ],
+      "contentHtml": "<p>The different bars in the diagram above provide information about different orders in various categories (Art, Binders, ….) that were booked in the first two weeks of September of a store for one client. The colour and pattern of a bar denotes the ship mode (First Class / Second Class / Standard Class). The left end point of a bar indicates the booking day of the order, while the right end point indicates the dispatch day of the order. The difference between the dispatch day and the booking day (measured in terms of the number of days) is called the processing time of the order. For the same category, an order is considered for booking only after the previous order of the same category is dispatched. No two consecutive orders of the same category had identical ship mode during this period.</p><p>For example, there were only two orders in the furnishing category during this period. The first one was shipped in the Second Class. It was booked on Sep 1 and dispatched on Sep 5. The second order was shipped in the Standard class. It was booked on Sep 5 (although the order might have been placed before that) and dispatched on Sep 12. So the processing times were 4 and 7 days respectively for these orders.</p>"
+    },
+    {
+      "key": "lr1",
+      "kind": "dilr_set",
+      "title": "Chango championship",
+      "contentHtml": "<p>The game of Chango is a game where two people play against each other; one of them wins and the other loses, i.e., there are no drawn Chango games. 12 players participated in a Chango championship. They were divided into four groups: Group A consisted of Aruna, Azul, and Arif; Group B consisted of Brinda, Brij, and Biju; Group C consisted of Chitra, Chetan, and Chhavi; and Group D consisted of Dipen, Donna, and Deb.</p><p>Players within each group had a distinct rank going into the championship. The players have NOT been listed necessarily according to their ranks. In the group stage of the game, the second and third ranked players play against each other, and the winner of that game plays against the first ranked player of the group. The winner of this second game is considered as the winner of the group and enters a semi-final.</p><p>The winners from Groups A and B play against each other in one semi-final, while the winners from Groups C and D play against each other in the other semi-final. The winners of the two semi-finals play against each other in the final to decide the winner of the championship.</p><p>It is known that:</p><ol><li>Chitra did not win the championship.</li><li>Aruna did not play against Arif. Brij did not play against Brinda.</li><li>Aruna, Biju, Chitra, and Dipen played three games each, Azul and Chetan played two games each, and the remaining players played one game each.</li></ol>"
+    },
+    {
+      "key": "lr2",
+      "kind": "dilr_set",
+      "title": "Ravi's delivery ratings",
+      "contentHtml": "<p>Ravi works in an online food-delivery company. After each delivery, customers rate Ravi on each of four parameters – Behaviour, Packaging, Hygiene, and Timeliness, on a scale from 1 to 9. If the total of the four rating points is 25 or more, then Ravi gets a bonus of Rs. 20 for that delivery. Additionally, a customer may or may not give Ravi a tip. If the customer gives a tip, it is either Rs. 30 or Rs. 50.</p><p>One day, Ravi made four deliveries - one to each of Atal, Bihari, Chirag and Deepak, and received a total of Rs. 120 in bonus and tips. He did not get both a bonus and a tip from the same customer.</p><p>The following additional facts are also known.</p><ol><li>In Timeliness, Ravi received a total of 21 points, and three of the customers gave him the same rating points in this parameter. Atal gave higher rating points than Bihari and Chirag in this parameter.</li><li>Ravi received distinct rating points in Packaging from the four customers adding up to 29 points. Similarly, Ravi received distinct rating points in Hygiene from the four customers adding up to 26 points.</li><li>Chirag gave the same rating points for Packaging and Hygiene.</li><li>Among the four customers, Bihari gave the highest rating points in Packaging, and Chirag gave the highest rating points in Hygiene.</li><li>Everyone rated Ravi between 5 and 7 in Behaviour. Unique maximum and minimum ratings in this parameter were given by Atal and Deepak respectively.</li><li>If the customers are ranked based on ratings given by them in individual parameters, then Atal’s rank based on Packaging is the same as that based on Hygiene. This is also true for Deepak.</li></ol>"
+    },
+    {
+      "key": "lr3",
+      "kind": "dilr_set",
+      "title": "Envy-free bundles",
+      "contentHtml": "<p>Ten objects o1, o2, …, o10 were distributed among Amar, Barat, Charles, Disha, and Elise. Each item went to exactly one person. Each person got exactly two of the items, and this pair of objects is called her/his bundle.</p><p>The following table shows how each person values each object.</p><table><thead><tr><th></th><th>o1</th><th>o2</th><th>o3</th><th>o4</th><th>o5</th><th>o6</th><th>o7</th><th>o8</th><th>o9</th><th>o10</th></tr></thead><tbody><tr><td>Amar</td><td>4</td><td>9</td><td>9</td><td>3</td><td>7</td><td>3</td><td>8</td><td>7</td><td>9</td><td>5</td></tr><tr><td>Barat</td><td>5</td><td>9</td><td>7</td><td>5</td><td>5</td><td>3</td><td>6</td><td>8</td><td>10</td><td>8</td></tr><tr><td>Charles</td><td>8</td><td>8</td><td>8</td><td>3</td><td>6</td><td>4</td><td>5</td><td>8</td><td>9</td><td>6</td></tr><tr><td>Disha</td><td>8</td><td>8</td><td>8</td><td>5</td><td>5</td><td>3</td><td>6</td><td>4</td><td>9</td><td>8</td></tr><tr><td>Elise</td><td>6</td><td>8</td><td>9</td><td>5</td><td>6</td><td>5</td><td>6</td><td>3</td><td>7</td><td>10</td></tr></tbody></table><p>The value of any bundle by a person is the sum of that person’s values of the objects in that bundle. A person X envies another person Y if X values Y’s bundle more than X’s own bundle.</p><p>For example, hypothetically suppose Amar’s bundle consists of o1 and o2, and Barat’s bundle consists of o3 and o4. Then Amar values his own bundle at 4 + 9 = 13 and Barat’s bundle at 9 + 3 = 12. Hence Amar does not envy Barat. On the other hand, Barat values his own bundle at 7 + 5 = 12 and Amar’s bundle at 5 + 9 = 14. Hence Barat envies Amar.</p><p>The following facts are known about the actual distribution of the objects among the five people.</p><ol><li>If someone’s value for an object is 10, then she/he received that object.</li><li>Objects o1, o2, and o3 were given to three different people.</li><li>Objects o1 and o8 were given to different people.</li><li>Three people value their own bundles at 16. No one values her/his own bundle at a number higher than 16.</li><li>Disha values her own bundle at an odd number. All others value their own bundles at an even number.</li><li>Some people who value their own bundles less than 16 envy some other people who value their own bundle at 16. No one else envies others.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "TITA",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Gantt chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many days between Sep 1 and Sep 14 (both inclusive) had no booking from this client considering all the above categories?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (booking → dispatch, processing time in brackets):</p><table><thead><tr><th>Category</th><th>Orders</th><th>Times</th></tr></thead><tbody><tr><td>Art</td><td>Std 1→3, 2nd 3→4, 1st 4→6, 2nd 6→13, Std 13→21</td><td>2, 1, 2, 7, 8</td></tr><tr><td>Binders</td><td>Std 1→2, 2nd 2→4, 1st 4→5, 2nd 5→16</td><td>1, 2, 1, 11</td></tr><tr><td>Paper</td><td>2nd 2→4, 1st 4→7, 2nd 7→12</td><td>2, 3, 5</td></tr><tr><td>Phones</td><td>Std 2→4, 1st 4→5, Std 5→17</td><td>2, 1, 12</td></tr><tr><td>Appliances</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Bookcases</td><td>2nd 3→4, 1st 4→6, 2nd 6→7</td><td>1, 2, 1</td></tr><tr><td>Fasteners</td><td>Std 2→4, 2nd 4→6, Std 6→8</td><td>2, 2, 2</td></tr><tr><td>Furnishings</td><td>2nd 1→5, Std 5→12</td><td>4, 7</td></tr><tr><td>Labels</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Tables</td><td>Std 2→4, 2nd 4→10</td><td>2, 6</td></tr><tr><td>Chairs</td><td>Std 2→3, 2nd 3→9</td><td>1, 6</td></tr><tr><td>Accessories</td><td>Std 1→19</td><td>18</td></tr><tr><td>Envelopes</td><td>Std 3→7</td><td>4</td></tr><tr><td>Storage</td><td>2nd 2→7, Std 7→22</td><td>5, 15</td></tr></tbody></table><p>A booking is the left end of a bar. Bookings occur on Sep 1, 2, 3, 4, 5, 6, 7 and then only on Sep 13 (Art's last order). Nothing is booked on Sep 8, 9, 10, 11, 12 or 14.</p><p>Days without a booking: <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "TITA",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Gantt chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>What was the average processing time of all orders in the categories which had only one type of ship mode?</p>",
+      "answer": "11",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (booking → dispatch, processing time in brackets):</p><table><thead><tr><th>Category</th><th>Orders</th><th>Times</th></tr></thead><tbody><tr><td>Art</td><td>Std 1→3, 2nd 3→4, 1st 4→6, 2nd 6→13, Std 13→21</td><td>2, 1, 2, 7, 8</td></tr><tr><td>Binders</td><td>Std 1→2, 2nd 2→4, 1st 4→5, 2nd 5→16</td><td>1, 2, 1, 11</td></tr><tr><td>Paper</td><td>2nd 2→4, 1st 4→7, 2nd 7→12</td><td>2, 3, 5</td></tr><tr><td>Phones</td><td>Std 2→4, 1st 4→5, Std 5→17</td><td>2, 1, 12</td></tr><tr><td>Appliances</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Bookcases</td><td>2nd 3→4, 1st 4→6, 2nd 6→7</td><td>1, 2, 1</td></tr><tr><td>Fasteners</td><td>Std 2→4, 2nd 4→6, Std 6→8</td><td>2, 2, 2</td></tr><tr><td>Furnishings</td><td>2nd 1→5, Std 5→12</td><td>4, 7</td></tr><tr><td>Labels</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Tables</td><td>Std 2→4, 2nd 4→10</td><td>2, 6</td></tr><tr><td>Chairs</td><td>Std 2→3, 2nd 3→9</td><td>1, 6</td></tr><tr><td>Accessories</td><td>Std 1→19</td><td>18</td></tr><tr><td>Envelopes</td><td>Std 3→7</td><td>4</td></tr><tr><td>Storage</td><td>2nd 2→7, Std 7→22</td><td>5, 15</td></tr></tbody></table><p>Only <strong>Accessories</strong> (one Standard order, 18 days) and <strong>Envelopes</strong> (one Standard order, 4 days) use a single ship mode. Every other category has at least two orders, and consecutive orders always differ in mode.</p><p>Average = (18 + 4)/2 = <strong>11</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Gantt chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>The sequence of categories -- Art, Binders, Paper and Phones -- in decreasing order of average processing time of their orders in this period is:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Paper, Binders, Art, Phones"
+        },
+        {
+          "id": "B",
+          "textHtml": "Phones, Art, Binders, Paper"
+        },
+        {
+          "id": "C",
+          "textHtml": "Art, Binders, Paper, Phones"
+        },
+        {
+          "id": "D",
+          "textHtml": "Phones, Binders, Art, Paper"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (booking → dispatch, processing time in brackets):</p><table><thead><tr><th>Category</th><th>Orders</th><th>Times</th></tr></thead><tbody><tr><td>Art</td><td>Std 1→3, 2nd 3→4, 1st 4→6, 2nd 6→13, Std 13→21</td><td>2, 1, 2, 7, 8</td></tr><tr><td>Binders</td><td>Std 1→2, 2nd 2→4, 1st 4→5, 2nd 5→16</td><td>1, 2, 1, 11</td></tr><tr><td>Paper</td><td>2nd 2→4, 1st 4→7, 2nd 7→12</td><td>2, 3, 5</td></tr><tr><td>Phones</td><td>Std 2→4, 1st 4→5, Std 5→17</td><td>2, 1, 12</td></tr><tr><td>Appliances</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Bookcases</td><td>2nd 3→4, 1st 4→6, 2nd 6→7</td><td>1, 2, 1</td></tr><tr><td>Fasteners</td><td>Std 2→4, 2nd 4→6, Std 6→8</td><td>2, 2, 2</td></tr><tr><td>Furnishings</td><td>2nd 1→5, Std 5→12</td><td>4, 7</td></tr><tr><td>Labels</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Tables</td><td>Std 2→4, 2nd 4→10</td><td>2, 6</td></tr><tr><td>Chairs</td><td>Std 2→3, 2nd 3→9</td><td>1, 6</td></tr><tr><td>Accessories</td><td>Std 1→19</td><td>18</td></tr><tr><td>Envelopes</td><td>Std 3→7</td><td>4</td></tr><tr><td>Storage</td><td>2nd 2→7, Std 7→22</td><td>5, 15</td></tr></tbody></table><p>Averages: Phones (2+1+12)/3 = 5; Art (2+1+2+7+8)/5 = 4; Binders (1+2+1+11)/4 = 3.75; Paper (2+3+5)/3 ≈ 3.33.</p><p>Decreasing: <strong>Phones, Art, Binders, Paper</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Gantt chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>Approximately what percentage of orders had a processing time of one day during the period Sep 1 to Sep 22 (both dates inclusive)?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "16%"
+        },
+        {
+          "id": "B",
+          "textHtml": "22%"
+        },
+        {
+          "id": "C",
+          "textHtml": "20%"
+        },
+        {
+          "id": "D",
+          "textHtml": "25%"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (booking → dispatch, processing time in brackets):</p><table><thead><tr><th>Category</th><th>Orders</th><th>Times</th></tr></thead><tbody><tr><td>Art</td><td>Std 1→3, 2nd 3→4, 1st 4→6, 2nd 6→13, Std 13→21</td><td>2, 1, 2, 7, 8</td></tr><tr><td>Binders</td><td>Std 1→2, 2nd 2→4, 1st 4→5, 2nd 5→16</td><td>1, 2, 1, 11</td></tr><tr><td>Paper</td><td>2nd 2→4, 1st 4→7, 2nd 7→12</td><td>2, 3, 5</td></tr><tr><td>Phones</td><td>Std 2→4, 1st 4→5, Std 5→17</td><td>2, 1, 12</td></tr><tr><td>Appliances</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Bookcases</td><td>2nd 3→4, 1st 4→6, 2nd 6→7</td><td>1, 2, 1</td></tr><tr><td>Fasteners</td><td>Std 2→4, 2nd 4→6, Std 6→8</td><td>2, 2, 2</td></tr><tr><td>Furnishings</td><td>2nd 1→5, Std 5→12</td><td>4, 7</td></tr><tr><td>Labels</td><td>2nd 2→4, Std 4→12</td><td>2, 8</td></tr><tr><td>Tables</td><td>Std 2→4, 2nd 4→10</td><td>2, 6</td></tr><tr><td>Chairs</td><td>Std 2→3, 2nd 3→9</td><td>1, 6</td></tr><tr><td>Accessories</td><td>Std 1→19</td><td>18</td></tr><tr><td>Envelopes</td><td>Std 3→7</td><td>4</td></tr><tr><td>Storage</td><td>2nd 2→7, Std 7→22</td><td>5, 15</td></tr></tbody></table><p><strong>Total orders</strong> = 5 + 4 + 3 + 3 + 2 + 3 + 3 + 2 + 2 + 2 + 2 + 1 + 1 + 2 = 35.</p><p><strong>One-day orders:</strong> Art (Sep 3→4), Binders (Sep 1→2 and 4→5), Phones (Sep 4→5), Bookcases (Sep 3→4 and 6→7), Chairs (Sep 2→3) = 7.</p><p>7/35 = <strong>20%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who among the following was DEFINITELY NOT ranked first in his/her group?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Brij"
+        },
+        {
+          "id": "B",
+          "textHtml": "Aruna"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dipen"
+        },
+        {
+          "id": "D",
+          "textHtml": "Chitra"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> In a group, the rank-1 player plays one group game. The 2–3 game loser plays one game, and its winner plays two. The group winner adds a semi-final, and a semi-final winner adds the final.</p><ul><li><strong>Group A:</strong> Aruna (3 games) never met Arif. If Aruna were ranked 2 or 3, her first game would be against Azul, and winning it would bring a game against Arif, which never happened. So <strong>Aruna is rank 1</strong>: Azul beats Arif, Aruna beats Azul (Azul ends with 2 games), and Aruna's 3 games mean she wins the semi-final and plays the final.</li><li><strong>Group B:</strong> Brij and Brinda (1 game each) did not meet, so neither of them is in the 2–3 game with the other. Biju plays and beats both, and his third game is the semi-final, which he loses to Aruna. Rank 1 is Brij or Brinda.</li><li><strong>Group D:</strong> Donna and Deb play once each, so the same pattern holds: Dipen (rank 2 or 3) beats both and loses the semi-final.</li><li><strong>Group C:</strong> the Group C winner beats Dipen and reaches the final. Chetan (2 games) cannot be that winner (rank 1 gives 3 games, rank 2/3 gives 4). Chitra wins the group with exactly 3 games only as <strong>rank 1</strong>: Chetan beats Chhavi, Chitra beats Chetan, beats Dipen, and plays the final.</li><li><strong>Final:</strong> Aruna vs Chitra. Chitra did not win, so <strong>Aruna is champion</strong>.</li></ul><p>Aruna and Chitra are rank 1, and Brij may be rank 1. Dipen played Donna and Deb in turn, so he was ranked 2 or 3. Answer: <strong>Dipen</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following pairs must have played against each other in the championship?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Donna, Chetan"
+        },
+        {
+          "id": "B",
+          "textHtml": "Azul, Biju"
+        },
+        {
+          "id": "C",
+          "textHtml": "Deb, Donna"
+        },
+        {
+          "id": "D",
+          "textHtml": "Chitra, Dipen"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong> In a group, the rank-1 player plays one group game. The 2–3 game loser plays one game, and its winner plays two. The group winner adds a semi-final, and a semi-final winner adds the final.</p><ul><li><strong>Group A:</strong> Aruna (3 games) never met Arif. If Aruna were ranked 2 or 3, her first game would be against Azul, and winning it would bring a game against Arif, which never happened. So <strong>Aruna is rank 1</strong>: Azul beats Arif, Aruna beats Azul (Azul ends with 2 games), and Aruna's 3 games mean she wins the semi-final and plays the final.</li><li><strong>Group B:</strong> Brij and Brinda (1 game each) did not meet, so neither of them is in the 2–3 game with the other. Biju plays and beats both, and his third game is the semi-final, which he loses to Aruna. Rank 1 is Brij or Brinda.</li><li><strong>Group D:</strong> Donna and Deb play once each, so the same pattern holds: Dipen (rank 2 or 3) beats both and loses the semi-final.</li><li><strong>Group C:</strong> the Group C winner beats Dipen and reaches the final. Chetan (2 games) cannot be that winner (rank 1 gives 3 games, rank 2/3 gives 4). Chitra wins the group with exactly 3 games only as <strong>rank 1</strong>: Chetan beats Chhavi, Chitra beats Chetan, beats Dipen, and plays the final.</li><li><strong>Final:</strong> Aruna vs Chitra. Chitra did not win, so <strong>Aruna is champion</strong>.</li></ul><p>Chitra and Dipen met in the second semi-final. Donna and Chetan are in different groups and neither reached a semi-final. Azul did not reach the semi-final. Deb and Donna each played only Dipen. Answer: <strong>Chitra, Dipen</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who won the championship?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Brij"
+        },
+        {
+          "id": "B",
+          "textHtml": "Cannot be determined"
+        },
+        {
+          "id": "C",
+          "textHtml": "Aruna"
+        },
+        {
+          "id": "D",
+          "textHtml": "Chitra"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> In a group, the rank-1 player plays one group game. The 2–3 game loser plays one game, and its winner plays two. The group winner adds a semi-final, and a semi-final winner adds the final.</p><ul><li><strong>Group A:</strong> Aruna (3 games) never met Arif. If Aruna were ranked 2 or 3, her first game would be against Azul, and winning it would bring a game against Arif, which never happened. So <strong>Aruna is rank 1</strong>: Azul beats Arif, Aruna beats Azul (Azul ends with 2 games), and Aruna's 3 games mean she wins the semi-final and plays the final.</li><li><strong>Group B:</strong> Brij and Brinda (1 game each) did not meet, so neither of them is in the 2–3 game with the other. Biju plays and beats both, and his third game is the semi-final, which he loses to Aruna. Rank 1 is Brij or Brinda.</li><li><strong>Group D:</strong> Donna and Deb play once each, so the same pattern holds: Dipen (rank 2 or 3) beats both and loses the semi-final.</li><li><strong>Group C:</strong> the Group C winner beats Dipen and reaches the final. Chetan (2 games) cannot be that winner (rank 1 gives 3 games, rank 2/3 gives 4). Chitra wins the group with exactly 3 games only as <strong>rank 1</strong>: Chetan beats Chhavi, Chitra beats Chetan, beats Dipen, and plays the final.</li><li><strong>Final:</strong> Aruna vs Chitra. Chitra did not win, so <strong>Aruna is champion</strong>.</li></ul><p>The final was Aruna vs Chitra and Chitra did not win, so <strong>Aruna</strong> won.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who among the following did NOT play against Chitra in the championship?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Biju"
+        },
+        {
+          "id": "B",
+          "textHtml": "Aruna"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dipen"
+        },
+        {
+          "id": "D",
+          "textHtml": "Chetan"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> In a group, the rank-1 player plays one group game. The 2–3 game loser plays one game, and its winner plays two. The group winner adds a semi-final, and a semi-final winner adds the final.</p><ul><li><strong>Group A:</strong> Aruna (3 games) never met Arif. If Aruna were ranked 2 or 3, her first game would be against Azul, and winning it would bring a game against Arif, which never happened. So <strong>Aruna is rank 1</strong>: Azul beats Arif, Aruna beats Azul (Azul ends with 2 games), and Aruna's 3 games mean she wins the semi-final and plays the final.</li><li><strong>Group B:</strong> Brij and Brinda (1 game each) did not meet, so neither of them is in the 2–3 game with the other. Biju plays and beats both, and his third game is the semi-final, which he loses to Aruna. Rank 1 is Brij or Brinda.</li><li><strong>Group D:</strong> Donna and Deb play once each, so the same pattern holds: Dipen (rank 2 or 3) beats both and loses the semi-final.</li><li><strong>Group C:</strong> the Group C winner beats Dipen and reaches the final. Chetan (2 games) cannot be that winner (rank 1 gives 3 games, rank 2/3 gives 4). Chitra wins the group with exactly 3 games only as <strong>rank 1</strong>: Chetan beats Chhavi, Chitra beats Chetan, beats Dipen, and plays the final.</li><li><strong>Final:</strong> Aruna vs Chitra. Chitra did not win, so <strong>Aruna is champion</strong>.</li></ul><p>Chitra played Chetan (group), Dipen (semi-final) and Aruna (final). Biju played Brij, Brinda and Aruna, never Chitra. Answer: <strong>Biju</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "TITA",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ratings & scores",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the minimum rating that Ravi received from any customer in any parameter?</p>",
+      "answer": "5",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li><strong>Behaviour:</strong> ratings lie between 5 and 7, with a unique maximum for Atal and a unique minimum for Deepak, so A = 7, D = 5 and B = C = 6.</li><li><strong>Timeliness:</strong> three customers gave the same rating. Atal is above Bihari and Chirag, so Atal must be the odd one out and B = C = D = t, A = u &gt; t, with 3t + u = 21. So (t, u) = (4, 9) or (5, 6).</li><li><strong>Packaging:</strong> four distinct ratings from 1–9 summing to 29 must be {9, 8, 7, 5}. Bihari is highest: B = 9.</li><li><strong>Hygiene:</strong> Chirag is highest and gives the same rating as in Packaging, so it is 8 or less. Distinct ratings summing to 26 with maximum 8 force {8, 7, 6, 5}, and Chirag = 8 in both. Chirag is 2nd in Packaging. Atal and Deepak hold the same ranks in both parameters, so they share ranks 3 and 4, and Bihari takes rank 2 in Hygiene: B = 7.</li><li>Either (i) A: P 7, H 6 and D: P 5, H 5, or (ii) A: P 5, H 5 and D: P 7, H 6.</li><li><strong>Money:</strong> Bihari and Chirag total 22 + t ≥ 26, so both earn a bonus. If Atal also earned one, Rs. 60 would remain for one tip (only 30 or 50), which is impossible. Atal's total is 20 + u in (i) and 17 + u in (ii), which stays below 25 only for t = 5, u = 6 with case (ii). Then bonuses are Rs. 40 and Atal and Deepak give tips adding to Rs. 80, i.e. Rs. 30 and Rs. 50 in some order.</li></ul><table><thead><tr><th></th><th>Behaviour</th><th>Packaging</th><th>Hygiene</th><th>Timeliness</th><th>Total</th></tr></thead><tbody><tr><td>Atal</td><td>7</td><td>5</td><td>5</td><td>6</td><td>23</td></tr><tr><td>Bihari</td><td>6</td><td>9</td><td>7</td><td>5</td><td>27</td></tr><tr><td>Chirag</td><td>6</td><td>8</td><td>8</td><td>5</td><td>27</td></tr><tr><td>Deepak</td><td>5</td><td>7</td><td>6</td><td>5</td><td>23</td></tr></tbody></table><p>The smallest entry in the table is <strong>5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ratings & scores",
+      "difficulty": "hard",
+      "stemHtml": "<p>The COMPLETE list of customers who gave the maximum total rating points to Ravi is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Atal and Bihari"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bihari"
+        },
+        {
+          "id": "C",
+          "textHtml": "Atal"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bihari and Chirag"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li><strong>Behaviour:</strong> ratings lie between 5 and 7, with a unique maximum for Atal and a unique minimum for Deepak, so A = 7, D = 5 and B = C = 6.</li><li><strong>Timeliness:</strong> three customers gave the same rating. Atal is above Bihari and Chirag, so Atal must be the odd one out and B = C = D = t, A = u &gt; t, with 3t + u = 21. So (t, u) = (4, 9) or (5, 6).</li><li><strong>Packaging:</strong> four distinct ratings from 1–9 summing to 29 must be {9, 8, 7, 5}. Bihari is highest: B = 9.</li><li><strong>Hygiene:</strong> Chirag is highest and gives the same rating as in Packaging, so it is 8 or less. Distinct ratings summing to 26 with maximum 8 force {8, 7, 6, 5}, and Chirag = 8 in both. Chirag is 2nd in Packaging. Atal and Deepak hold the same ranks in both parameters, so they share ranks 3 and 4, and Bihari takes rank 2 in Hygiene: B = 7.</li><li>Either (i) A: P 7, H 6 and D: P 5, H 5, or (ii) A: P 5, H 5 and D: P 7, H 6.</li><li><strong>Money:</strong> Bihari and Chirag total 22 + t ≥ 26, so both earn a bonus. If Atal also earned one, Rs. 60 would remain for one tip (only 30 or 50), which is impossible. Atal's total is 20 + u in (i) and 17 + u in (ii), which stays below 25 only for t = 5, u = 6 with case (ii). Then bonuses are Rs. 40 and Atal and Deepak give tips adding to Rs. 80, i.e. Rs. 30 and Rs. 50 in some order.</li></ul><table><thead><tr><th></th><th>Behaviour</th><th>Packaging</th><th>Hygiene</th><th>Timeliness</th><th>Total</th></tr></thead><tbody><tr><td>Atal</td><td>7</td><td>5</td><td>5</td><td>6</td><td>23</td></tr><tr><td>Bihari</td><td>6</td><td>9</td><td>7</td><td>5</td><td>27</td></tr><tr><td>Chirag</td><td>6</td><td>8</td><td>8</td><td>5</td><td>27</td></tr><tr><td>Deepak</td><td>5</td><td>7</td><td>6</td><td>5</td><td>23</td></tr></tbody></table><p>Bihari and Chirag both total 27, which is the maximum. Answer: <strong>Bihari and Chirag</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "TITA",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ratings & scores",
+      "difficulty": "hard",
+      "stemHtml": "<p>What rating did Atal give on Timeliness?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li><strong>Behaviour:</strong> ratings lie between 5 and 7, with a unique maximum for Atal and a unique minimum for Deepak, so A = 7, D = 5 and B = C = 6.</li><li><strong>Timeliness:</strong> three customers gave the same rating. Atal is above Bihari and Chirag, so Atal must be the odd one out and B = C = D = t, A = u &gt; t, with 3t + u = 21. So (t, u) = (4, 9) or (5, 6).</li><li><strong>Packaging:</strong> four distinct ratings from 1–9 summing to 29 must be {9, 8, 7, 5}. Bihari is highest: B = 9.</li><li><strong>Hygiene:</strong> Chirag is highest and gives the same rating as in Packaging, so it is 8 or less. Distinct ratings summing to 26 with maximum 8 force {8, 7, 6, 5}, and Chirag = 8 in both. Chirag is 2nd in Packaging. Atal and Deepak hold the same ranks in both parameters, so they share ranks 3 and 4, and Bihari takes rank 2 in Hygiene: B = 7.</li><li>Either (i) A: P 7, H 6 and D: P 5, H 5, or (ii) A: P 5, H 5 and D: P 7, H 6.</li><li><strong>Money:</strong> Bihari and Chirag total 22 + t ≥ 26, so both earn a bonus. If Atal also earned one, Rs. 60 would remain for one tip (only 30 or 50), which is impossible. Atal's total is 20 + u in (i) and 17 + u in (ii), which stays below 25 only for t = 5, u = 6 with case (ii). Then bonuses are Rs. 40 and Atal and Deepak give tips adding to Rs. 80, i.e. Rs. 30 and Rs. 50 in some order.</li></ul><table><thead><tr><th></th><th>Behaviour</th><th>Packaging</th><th>Hygiene</th><th>Timeliness</th><th>Total</th></tr></thead><tbody><tr><td>Atal</td><td>7</td><td>5</td><td>5</td><td>6</td><td>23</td></tr><tr><td>Bihari</td><td>6</td><td>9</td><td>7</td><td>5</td><td>27</td></tr><tr><td>Chirag</td><td>6</td><td>8</td><td>8</td><td>5</td><td>27</td></tr><tr><td>Deepak</td><td>5</td><td>7</td><td>6</td><td>5</td><td>23</td></tr></tbody></table><p>Only t = 5, u = 6 fits the Rs. 120 total, so Atal gave <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ratings & scores",
+      "difficulty": "hard",
+      "stemHtml": "<p>What BEST can be concluded about the tip amount given by Deepak?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Either Rs. 0 or Rs. 30 or Rs. 50"
+        },
+        {
+          "id": "B",
+          "textHtml": "Rs. 50"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either Rs. 30 or Rs. 50"
+        },
+        {
+          "id": "D",
+          "textHtml": "Rs. 30"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li><strong>Behaviour:</strong> ratings lie between 5 and 7, with a unique maximum for Atal and a unique minimum for Deepak, so A = 7, D = 5 and B = C = 6.</li><li><strong>Timeliness:</strong> three customers gave the same rating. Atal is above Bihari and Chirag, so Atal must be the odd one out and B = C = D = t, A = u &gt; t, with 3t + u = 21. So (t, u) = (4, 9) or (5, 6).</li><li><strong>Packaging:</strong> four distinct ratings from 1–9 summing to 29 must be {9, 8, 7, 5}. Bihari is highest: B = 9.</li><li><strong>Hygiene:</strong> Chirag is highest and gives the same rating as in Packaging, so it is 8 or less. Distinct ratings summing to 26 with maximum 8 force {8, 7, 6, 5}, and Chirag = 8 in both. Chirag is 2nd in Packaging. Atal and Deepak hold the same ranks in both parameters, so they share ranks 3 and 4, and Bihari takes rank 2 in Hygiene: B = 7.</li><li>Either (i) A: P 7, H 6 and D: P 5, H 5, or (ii) A: P 5, H 5 and D: P 7, H 6.</li><li><strong>Money:</strong> Bihari and Chirag total 22 + t ≥ 26, so both earn a bonus. If Atal also earned one, Rs. 60 would remain for one tip (only 30 or 50), which is impossible. Atal's total is 20 + u in (i) and 17 + u in (ii), which stays below 25 only for t = 5, u = 6 with case (ii). Then bonuses are Rs. 40 and Atal and Deepak give tips adding to Rs. 80, i.e. Rs. 30 and Rs. 50 in some order.</li></ul><table><thead><tr><th></th><th>Behaviour</th><th>Packaging</th><th>Hygiene</th><th>Timeliness</th><th>Total</th></tr></thead><tbody><tr><td>Atal</td><td>7</td><td>5</td><td>5</td><td>6</td><td>23</td></tr><tr><td>Bihari</td><td>6</td><td>9</td><td>7</td><td>5</td><td>27</td></tr><tr><td>Chirag</td><td>6</td><td>8</td><td>8</td><td>5</td><td>27</td></tr><tr><td>Deepak</td><td>5</td><td>7</td><td>6</td><td>5</td><td>23</td></tr></tbody></table><p>Atal and Deepak earn no bonus, and their tips must add up to 120 − 40 = 80, so one gave Rs. 30 and the other Rs. 50. Deepak gave <strong>either Rs. 30 or Rs. 50</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ratings & scores",
+      "difficulty": "hard",
+      "stemHtml": "<p>In which parameter did Atal give the maximum rating points to Ravi?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Hygiene"
+        },
+        {
+          "id": "B",
+          "textHtml": "Packaging"
+        },
+        {
+          "id": "C",
+          "textHtml": "Timeliness"
+        },
+        {
+          "id": "D",
+          "textHtml": "Behaviour"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li><strong>Behaviour:</strong> ratings lie between 5 and 7, with a unique maximum for Atal and a unique minimum for Deepak, so A = 7, D = 5 and B = C = 6.</li><li><strong>Timeliness:</strong> three customers gave the same rating. Atal is above Bihari and Chirag, so Atal must be the odd one out and B = C = D = t, A = u &gt; t, with 3t + u = 21. So (t, u) = (4, 9) or (5, 6).</li><li><strong>Packaging:</strong> four distinct ratings from 1–9 summing to 29 must be {9, 8, 7, 5}. Bihari is highest: B = 9.</li><li><strong>Hygiene:</strong> Chirag is highest and gives the same rating as in Packaging, so it is 8 or less. Distinct ratings summing to 26 with maximum 8 force {8, 7, 6, 5}, and Chirag = 8 in both. Chirag is 2nd in Packaging. Atal and Deepak hold the same ranks in both parameters, so they share ranks 3 and 4, and Bihari takes rank 2 in Hygiene: B = 7.</li><li>Either (i) A: P 7, H 6 and D: P 5, H 5, or (ii) A: P 5, H 5 and D: P 7, H 6.</li><li><strong>Money:</strong> Bihari and Chirag total 22 + t ≥ 26, so both earn a bonus. If Atal also earned one, Rs. 60 would remain for one tip (only 30 or 50), which is impossible. Atal's total is 20 + u in (i) and 17 + u in (ii), which stays below 25 only for t = 5, u = 6 with case (ii). Then bonuses are Rs. 40 and Atal and Deepak give tips adding to Rs. 80, i.e. Rs. 30 and Rs. 50 in some order.</li></ul><table><thead><tr><th></th><th>Behaviour</th><th>Packaging</th><th>Hygiene</th><th>Timeliness</th><th>Total</th></tr></thead><tbody><tr><td>Atal</td><td>7</td><td>5</td><td>5</td><td>6</td><td>23</td></tr><tr><td>Bihari</td><td>6</td><td>9</td><td>7</td><td>5</td><td>27</td></tr><tr><td>Chirag</td><td>6</td><td>8</td><td>8</td><td>5</td><td>27</td></tr><tr><td>Deepak</td><td>5</td><td>7</td><td>6</td><td>5</td><td>23</td></tr></tbody></table><p>Atal: Behaviour 7, Packaging 5, Hygiene 5, Timeliness 6. Maximum is in <strong>Behaviour</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ratings & scores",
+      "difficulty": "hard",
+      "stemHtml": "<p>What rating did Deepak give on Packaging?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li><strong>Behaviour:</strong> ratings lie between 5 and 7, with a unique maximum for Atal and a unique minimum for Deepak, so A = 7, D = 5 and B = C = 6.</li><li><strong>Timeliness:</strong> three customers gave the same rating. Atal is above Bihari and Chirag, so Atal must be the odd one out and B = C = D = t, A = u &gt; t, with 3t + u = 21. So (t, u) = (4, 9) or (5, 6).</li><li><strong>Packaging:</strong> four distinct ratings from 1–9 summing to 29 must be {9, 8, 7, 5}. Bihari is highest: B = 9.</li><li><strong>Hygiene:</strong> Chirag is highest and gives the same rating as in Packaging, so it is 8 or less. Distinct ratings summing to 26 with maximum 8 force {8, 7, 6, 5}, and Chirag = 8 in both. Chirag is 2nd in Packaging. Atal and Deepak hold the same ranks in both parameters, so they share ranks 3 and 4, and Bihari takes rank 2 in Hygiene: B = 7.</li><li>Either (i) A: P 7, H 6 and D: P 5, H 5, or (ii) A: P 5, H 5 and D: P 7, H 6.</li><li><strong>Money:</strong> Bihari and Chirag total 22 + t ≥ 26, so both earn a bonus. If Atal also earned one, Rs. 60 would remain for one tip (only 30 or 50), which is impossible. Atal's total is 20 + u in (i) and 17 + u in (ii), which stays below 25 only for t = 5, u = 6 with case (ii). Then bonuses are Rs. 40 and Atal and Deepak give tips adding to Rs. 80, i.e. Rs. 30 and Rs. 50 in some order.</li></ul><table><thead><tr><th></th><th>Behaviour</th><th>Packaging</th><th>Hygiene</th><th>Timeliness</th><th>Total</th></tr></thead><tbody><tr><td>Atal</td><td>7</td><td>5</td><td>5</td><td>6</td><td>23</td></tr><tr><td>Bihari</td><td>6</td><td>9</td><td>7</td><td>5</td><td>27</td></tr><tr><td>Chirag</td><td>6</td><td>8</td><td>8</td><td>5</td><td>27</td></tr><tr><td>Deepak</td><td>5</td><td>7</td><td>6</td><td>5</td><td>23</td></tr></tbody></table><p>Case (ii) holds, so Deepak gave <strong>7</strong> in Packaging.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "hard",
+      "stemHtml": "<p>What BEST can be said about object o8?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "o8 was given to Amar, Charles, or Disha"
+        },
+        {
+          "id": "B",
+          "textHtml": "o8 was given to Charles"
+        },
+        {
+          "id": "C",
+          "textHtml": "o8 was given to Disha"
+        },
+        {
+          "id": "D",
+          "textHtml": "o8 was given to Charles or Disha"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li>By fact 1, Barat gets o9 and Elise gets o10.</li><li><strong>Barat</strong>: 10 + x must be even and at most 16, so x is worth 6 or less and even to him. Only o7 (6) works, giving <strong>{o9, o7} = 16</strong>.</li><li><strong>Elise</strong>: 10 + y must be even and at most 16. Only o1 (6) or o5 (6) works, so Elise has <strong>{o10, o1 or o5} = 16</strong>.</li><li>Amar values Barat's bundle at 8 + 9 = 17 &gt; 16, so Amar is below 16 and envies Barat. Disha is odd. So the third 16 is <strong>Charles</strong>. His only 16s are two of his 8-valued objects {o1, o2, o3, o8}. o1, o2, o3 go to different people and o1 is not with o8, so Charles = <strong>{o8, o2 or o3}</strong>.</li><li>If Elise had o1, Amar and Disha would share the other of o2/o3 (call it X), o4, o5 and o6. Disha needs an odd total, so she must hold X. Amar's own bundle is then at most 10, but he values Disha's bundle at 9 + 3 = 12 or more. He would envy Disha, who is not at 16, which is not allowed. So <strong>Elise = {o10, o5}</strong>.</li><li>Amar and Disha share o1, X, o4 and o6, one each of {o1, X}. If Amar took o1, he would value his bundle at 7 and Disha's at 9 + 3 = 12, envying a non-16 person. So Amar has X and <strong>Disha has o1</strong>. If Disha had o6 (8 + 3 = 11), she would value Amar's X + o4 at 8 + 5 = 13 and envy Amar. So <strong>Disha = {o1, o4} = 13</strong> and <strong>Amar = {X, o6} = 12</strong>.</li><li>If Charles had o2, Barat would value {o2, o8} at 9 + 8 = 17 &gt; 16 and envy Charles. So <strong>Charles = {o3, o8}</strong> and <strong>Amar = {o2, o6}</strong>.</li></ul><p>Final: Amar {o2, o6} = 12, Barat {o7, o9} = 16, Charles {o3, o8} = 16, Disha {o1, o4} = 13, Elise {o5, o10} = 16. Envy: Amar envies Barat (17) and Charles (7 + 9 = 16), and Disha envies Barat (6 + 9 = 15). Nobody else envies anyone.</p><p>o8 went to <strong>Charles</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "hard",
+      "stemHtml": "<p>Who among the following envies someone else?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Barat"
+        },
+        {
+          "id": "B",
+          "textHtml": "Elise"
+        },
+        {
+          "id": "C",
+          "textHtml": "Charles"
+        },
+        {
+          "id": "D",
+          "textHtml": "Amar"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li>By fact 1, Barat gets o9 and Elise gets o10.</li><li><strong>Barat</strong>: 10 + x must be even and at most 16, so x is worth 6 or less and even to him. Only o7 (6) works, giving <strong>{o9, o7} = 16</strong>.</li><li><strong>Elise</strong>: 10 + y must be even and at most 16. Only o1 (6) or o5 (6) works, so Elise has <strong>{o10, o1 or o5} = 16</strong>.</li><li>Amar values Barat's bundle at 8 + 9 = 17 &gt; 16, so Amar is below 16 and envies Barat. Disha is odd. So the third 16 is <strong>Charles</strong>. His only 16s are two of his 8-valued objects {o1, o2, o3, o8}. o1, o2, o3 go to different people and o1 is not with o8, so Charles = <strong>{o8, o2 or o3}</strong>.</li><li>If Elise had o1, Amar and Disha would share the other of o2/o3 (call it X), o4, o5 and o6. Disha needs an odd total, so she must hold X. Amar's own bundle is then at most 10, but he values Disha's bundle at 9 + 3 = 12 or more. He would envy Disha, who is not at 16, which is not allowed. So <strong>Elise = {o10, o5}</strong>.</li><li>Amar and Disha share o1, X, o4 and o6, one each of {o1, X}. If Amar took o1, he would value his bundle at 7 and Disha's at 9 + 3 = 12, envying a non-16 person. So Amar has X and <strong>Disha has o1</strong>. If Disha had o6 (8 + 3 = 11), she would value Amar's X + o4 at 8 + 5 = 13 and envy Amar. So <strong>Disha = {o1, o4} = 13</strong> and <strong>Amar = {X, o6} = 12</strong>.</li><li>If Charles had o2, Barat would value {o2, o8} at 9 + 8 = 17 &gt; 16 and envy Charles. So <strong>Charles = {o3, o8}</strong> and <strong>Amar = {o2, o6}</strong>.</li></ul><p>Final: Amar {o2, o6} = 12, Barat {o7, o9} = 16, Charles {o3, o8} = 16, Disha {o1, o4} = 13, Elise {o5, o10} = 16. Envy: Amar envies Barat (17) and Charles (7 + 9 = 16), and Disha envies Barat (6 + 9 = 15). Nobody else envies anyone.</p><p>Barat, Elise and Charles are at 16 and envy no one. <strong>Amar</strong> (12) envies Barat and Charles.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "TITA",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is Amar’s value for his own bundle?</p>",
+      "answer": "12",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li>By fact 1, Barat gets o9 and Elise gets o10.</li><li><strong>Barat</strong>: 10 + x must be even and at most 16, so x is worth 6 or less and even to him. Only o7 (6) works, giving <strong>{o9, o7} = 16</strong>.</li><li><strong>Elise</strong>: 10 + y must be even and at most 16. Only o1 (6) or o5 (6) works, so Elise has <strong>{o10, o1 or o5} = 16</strong>.</li><li>Amar values Barat's bundle at 8 + 9 = 17 &gt; 16, so Amar is below 16 and envies Barat. Disha is odd. So the third 16 is <strong>Charles</strong>. His only 16s are two of his 8-valued objects {o1, o2, o3, o8}. o1, o2, o3 go to different people and o1 is not with o8, so Charles = <strong>{o8, o2 or o3}</strong>.</li><li>If Elise had o1, Amar and Disha would share the other of o2/o3 (call it X), o4, o5 and o6. Disha needs an odd total, so she must hold X. Amar's own bundle is then at most 10, but he values Disha's bundle at 9 + 3 = 12 or more. He would envy Disha, who is not at 16, which is not allowed. So <strong>Elise = {o10, o5}</strong>.</li><li>Amar and Disha share o1, X, o4 and o6, one each of {o1, X}. If Amar took o1, he would value his bundle at 7 and Disha's at 9 + 3 = 12, envying a non-16 person. So Amar has X and <strong>Disha has o1</strong>. If Disha had o6 (8 + 3 = 11), she would value Amar's X + o4 at 8 + 5 = 13 and envy Amar. So <strong>Disha = {o1, o4} = 13</strong> and <strong>Amar = {X, o6} = 12</strong>.</li><li>If Charles had o2, Barat would value {o2, o8} at 9 + 8 = 17 &gt; 16 and envy Charles. So <strong>Charles = {o3, o8}</strong> and <strong>Amar = {o2, o6}</strong>.</li></ul><p>Final: Amar {o2, o6} = 12, Barat {o7, o9} = 16, Charles {o3, o8} = 16, Disha {o1, o4} = 13, Elise {o5, o10} = 16. Envy: Amar envies Barat (17) and Charles (7 + 9 = 16), and Disha envies Barat (6 + 9 = 15). Nobody else envies anyone.</p><p>Amar holds {o2, o6}: 9 + 3 = <strong>12</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "hard",
+      "stemHtml": "<p>Object o4 was given to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Elise"
+        },
+        {
+          "id": "B",
+          "textHtml": "Charles"
+        },
+        {
+          "id": "C",
+          "textHtml": "Barat"
+        },
+        {
+          "id": "D",
+          "textHtml": "Disha"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li>By fact 1, Barat gets o9 and Elise gets o10.</li><li><strong>Barat</strong>: 10 + x must be even and at most 16, so x is worth 6 or less and even to him. Only o7 (6) works, giving <strong>{o9, o7} = 16</strong>.</li><li><strong>Elise</strong>: 10 + y must be even and at most 16. Only o1 (6) or o5 (6) works, so Elise has <strong>{o10, o1 or o5} = 16</strong>.</li><li>Amar values Barat's bundle at 8 + 9 = 17 &gt; 16, so Amar is below 16 and envies Barat. Disha is odd. So the third 16 is <strong>Charles</strong>. His only 16s are two of his 8-valued objects {o1, o2, o3, o8}. o1, o2, o3 go to different people and o1 is not with o8, so Charles = <strong>{o8, o2 or o3}</strong>.</li><li>If Elise had o1, Amar and Disha would share the other of o2/o3 (call it X), o4, o5 and o6. Disha needs an odd total, so she must hold X. Amar's own bundle is then at most 10, but he values Disha's bundle at 9 + 3 = 12 or more. He would envy Disha, who is not at 16, which is not allowed. So <strong>Elise = {o10, o5}</strong>.</li><li>Amar and Disha share o1, X, o4 and o6, one each of {o1, X}. If Amar took o1, he would value his bundle at 7 and Disha's at 9 + 3 = 12, envying a non-16 person. So Amar has X and <strong>Disha has o1</strong>. If Disha had o6 (8 + 3 = 11), she would value Amar's X + o4 at 8 + 5 = 13 and envy Amar. So <strong>Disha = {o1, o4} = 13</strong> and <strong>Amar = {X, o6} = 12</strong>.</li><li>If Charles had o2, Barat would value {o2, o8} at 9 + 8 = 17 &gt; 16 and envy Charles. So <strong>Charles = {o3, o8}</strong> and <strong>Amar = {o2, o6}</strong>.</li></ul><p>Final: Amar {o2, o6} = 12, Barat {o7, o9} = 16, Charles {o3, o8} = 16, Disha {o1, o4} = 13, Elise {o5, o10} = 16. Envy: Amar envies Barat (17) and Charles (7 + 9 = 16), and Disha envies Barat (6 + 9 = 15). Nobody else envies anyone.</p><p>o4 is in Disha's bundle {o1, o4}. Answer: <strong>Disha</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "hard",
+      "stemHtml": "<p>Object o5 was given to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Disha"
+        },
+        {
+          "id": "B",
+          "textHtml": "Elise"
+        },
+        {
+          "id": "C",
+          "textHtml": "Charles"
+        },
+        {
+          "id": "D",
+          "textHtml": "Amar"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li>By fact 1, Barat gets o9 and Elise gets o10.</li><li><strong>Barat</strong>: 10 + x must be even and at most 16, so x is worth 6 or less and even to him. Only o7 (6) works, giving <strong>{o9, o7} = 16</strong>.</li><li><strong>Elise</strong>: 10 + y must be even and at most 16. Only o1 (6) or o5 (6) works, so Elise has <strong>{o10, o1 or o5} = 16</strong>.</li><li>Amar values Barat's bundle at 8 + 9 = 17 &gt; 16, so Amar is below 16 and envies Barat. Disha is odd. So the third 16 is <strong>Charles</strong>. His only 16s are two of his 8-valued objects {o1, o2, o3, o8}. o1, o2, o3 go to different people and o1 is not with o8, so Charles = <strong>{o8, o2 or o3}</strong>.</li><li>If Elise had o1, Amar and Disha would share the other of o2/o3 (call it X), o4, o5 and o6. Disha needs an odd total, so she must hold X. Amar's own bundle is then at most 10, but he values Disha's bundle at 9 + 3 = 12 or more. He would envy Disha, who is not at 16, which is not allowed. So <strong>Elise = {o10, o5}</strong>.</li><li>Amar and Disha share o1, X, o4 and o6, one each of {o1, X}. If Amar took o1, he would value his bundle at 7 and Disha's at 9 + 3 = 12, envying a non-16 person. So Amar has X and <strong>Disha has o1</strong>. If Disha had o6 (8 + 3 = 11), she would value Amar's X + o4 at 8 + 5 = 13 and envy Amar. So <strong>Disha = {o1, o4} = 13</strong> and <strong>Amar = {X, o6} = 12</strong>.</li><li>If Charles had o2, Barat would value {o2, o8} at 9 + 8 = 17 &gt; 16 and envy Charles. So <strong>Charles = {o3, o8}</strong> and <strong>Amar = {o2, o6}</strong>.</li></ul><p>Final: Amar {o2, o6} = 12, Barat {o7, o9} = 16, Charles {o3, o8} = 16, Disha {o1, o4} = 13, Elise {o5, o10} = 16. Envy: Amar envies Barat (17) and Charles (7 + 9 = 16), and Disha envies Barat (6 + 9 = 15). Nobody else envies anyone.</p><p>Elise's bundle is {o5, o10}. Answer: <strong>Elise</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "hard",
+      "stemHtml": "<p>What BEST can be said about the distribution of object o1?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "o1 was given to Charles"
+        },
+        {
+          "id": "B",
+          "textHtml": "o1 was given to Charles or Disha"
+        },
+        {
+          "id": "C",
+          "textHtml": "o1 was given to Disha"
+        },
+        {
+          "id": "D",
+          "textHtml": "o1 was given to Charles, Disha, or Elise"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong></p><ul><li>By fact 1, Barat gets o9 and Elise gets o10.</li><li><strong>Barat</strong>: 10 + x must be even and at most 16, so x is worth 6 or less and even to him. Only o7 (6) works, giving <strong>{o9, o7} = 16</strong>.</li><li><strong>Elise</strong>: 10 + y must be even and at most 16. Only o1 (6) or o5 (6) works, so Elise has <strong>{o10, o1 or o5} = 16</strong>.</li><li>Amar values Barat's bundle at 8 + 9 = 17 &gt; 16, so Amar is below 16 and envies Barat. Disha is odd. So the third 16 is <strong>Charles</strong>. His only 16s are two of his 8-valued objects {o1, o2, o3, o8}. o1, o2, o3 go to different people and o1 is not with o8, so Charles = <strong>{o8, o2 or o3}</strong>.</li><li>If Elise had o1, Amar and Disha would share the other of o2/o3 (call it X), o4, o5 and o6. Disha needs an odd total, so she must hold X. Amar's own bundle is then at most 10, but he values Disha's bundle at 9 + 3 = 12 or more. He would envy Disha, who is not at 16, which is not allowed. So <strong>Elise = {o10, o5}</strong>.</li><li>Amar and Disha share o1, X, o4 and o6, one each of {o1, X}. If Amar took o1, he would value his bundle at 7 and Disha's at 9 + 3 = 12, envying a non-16 person. So Amar has X and <strong>Disha has o1</strong>. If Disha had o6 (8 + 3 = 11), she would value Amar's X + o4 at 8 + 5 = 13 and envy Amar. So <strong>Disha = {o1, o4} = 13</strong> and <strong>Amar = {X, o6} = 12</strong>.</li><li>If Charles had o2, Barat would value {o2, o8} at 9 + 8 = 17 &gt; 16 and envy Charles. So <strong>Charles = {o3, o8}</strong> and <strong>Amar = {o2, o6}</strong>.</li></ul><p>Final: Amar {o2, o6} = 12, Barat {o7, o9} = 16, Charles {o3, o8} = 16, Disha {o1, o4} = 13, Elise {o5, o10} = 16. Envy: Amar envies Barat (17) and Charles (7 + 9 = 16), and Disha envies Barat (6 + 9 = 15). Nobody else envies anyone.</p><p>The distribution is unique and o1 went to <strong>Disha</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

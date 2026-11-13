@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Algebraic identities",
+      "difficulty": "medium",
+      "stemHtml": "<p>If (x<sup>2</sup> + 1/x<sup>2</sup>) = 25 and x &gt; 0, then the value of (x<sup>7</sup> + 1/x<sup>7</sup>) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "44850√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "44853√3"
+        },
+        {
+          "id": "C",
+          "textHtml": "44859√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "44856√3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> (x + 1/x)<sup>2</sup> = 25 + 2 = 27, so x + 1/x = 3√3 (x &gt; 0).</p><p><strong>Step 2:</strong> x<sup>3</sup> + 1/x<sup>3</sup> = (3√3)<sup>3</sup> − 3(3√3) = 81√3 − 9√3 = 72√3.</p><p><strong>Step 3:</strong> x<sup>4</sup> + 1/x<sup>4</sup> = 25<sup>2</sup> − 2 = 623.</p><p><strong>Step 4:</strong> <strong>x<sup>7</sup> + 1/x<sup>7</sup> = (x<sup>3</sup> + 1/x<sup>3</sup>)(x<sup>4</sup> + 1/x<sup>4</sup>) − (x + 1/x)</strong> = 72√3 × 623 − 3√3 = 44856√3 − 3√3 = <strong>44853√3</strong>.</p><p><strong>Check:</strong> with a<sub>n</sub> = x<sup>n</sup> + 1/x<sup>n</sup>, a<sub>n+1</sub> = 3√3·a<sub>n</sub> − a<sub>n−1</sub> gives 3√3, 25, 72√3, 623, 1797√3, 15550, 44853√3.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions – range",
+      "difficulty": "hard",
+      "stemHtml": "<p>For real values of x, the range of the function f(x) = (2x − 3)/(2x<sup>2</sup> + 4x − 6) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(−∞, 1/8] ∪ [1, ∞)"
+        },
+        {
+          "id": "B",
+          "textHtml": "(−∞, 1/4] ∪ [1, ∞)"
+        },
+        {
+          "id": "C",
+          "textHtml": "(−∞, 1/4] ∪ [1/2, ∞)"
+        },
+        {
+          "id": "D",
+          "textHtml": "(−∞, 1/8] ∪ [1/2, ∞)"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Put y = f(x): y(2x<sup>2</sup> + 4x − 6) = 2x − 3 → 2y·x<sup>2</sup> + (4y − 2)x + (3 − 6y) = 0.</p><p><strong>Step 2:</strong> For real x (y ≠ 0), the discriminant must be ≥ 0: (4y − 2)<sup>2</sup> − 8y(3 − 6y) ≥ 0 → 64y<sup>2</sup> − 40y + 4 ≥ 0 → <strong>(8y − 1)(2y − 1) ≥ 0</strong>.</p><p><strong>Step 3:</strong> So y ≤ 1/8 or y ≥ 1/2. y = 0 is reached at x = 3/2. The end values are reached: y = 1/8 at x = 3 and y = 1/2 at x = 0, and the excluded points x = 1, −3 are never needed.</p><p>Range = <strong>(−∞, 1/8] ∪ [1/2, ∞)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Digits",
+      "difficulty": "easy",
+      "stemHtml": "<p>For a 4-digit number (greater than 1000), sum of the digits in the thousands, hundreds, and tens places is 15. Sum of the digits in the hundreds, tens, and units places is 16. Also, the digit in the tens place is 6 more than the digit in the units place. The difference between the largest and smallest possible value of the number is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "811"
+        },
+        {
+          "id": "B",
+          "textHtml": "4078"
+        },
+        {
+          "id": "C",
+          "textHtml": "735"
+        },
+        {
+          "id": "D",
+          "textHtml": "3289"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the number be abcd. a + b + c = 15 and b + c + d = 16 → <strong>d = a + 1</strong>. Also c = d + 6, so d ≤ 3; and a ≥ 1 means d ≥ 2.</p><p>d = 2: a = 1, c = 8, b = 15 − 1 − 8 = 6 → 1682.</p><p>d = 3: a = 2, c = 9, b = 15 − 2 − 9 = 4 → 2493.</p><p>Difference = 2493 − 1682 = <strong>811</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>Teams A, B, and C consist of five, eight, and ten members, respectively, such that every member within a team is equally productive. Working separately, teams A, B, and C can complete a certain job in 40 hours, 50 hours, and 4 hours, respectively. Two members from team A, three members from team B, and one member from team C together start the job, and the member from team C leaves after 23 hours. The number of additional member(s) from team B, that would be required to replace the member from team C, to finish the job in the next one hour, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "1"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Per-member rates</strong> (job per hour): A: 1/(5 × 40) = 1/200 = 2/400; B: 1/(8 × 50) = 1/400; C: 1/(10 × 4) = 1/40 = 10/400.</p><p>Starting group: 2(2/400) + 3(1/400) + 10/400 = 17/400 per hour. In 23 hours: 391/400 done, 9/400 left.</p><p>Without the C member the group does 7/400 per hour, so 2/400 more is needed in the last hour → <strong>2</strong> more B members (1/400 each).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The average salary of 5 managers and 25 engineers in a company is 60000 rupees. If each of the managers received 20% salary increase while the salary of the engineers remained unchanged, the average salary of all 30 employees would have increased by 5%. The average salary, in rupees, of the engineers is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "50000"
+        },
+        {
+          "id": "B",
+          "textHtml": "45000"
+        },
+        {
+          "id": "C",
+          "textHtml": "40000"
+        },
+        {
+          "id": "D",
+          "textHtml": "54000"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Total salary = 30 × 60000 = 18,00,000. A 5% rise in the total = 90,000.</p><p>This rise comes only from the managers’ 20% increase, so the managers’ total = 90,000/0.2 = 4,50,000.</p><p>Engineers’ total = 18,00,000 − 4,50,000 = 13,50,000; average = 13,50,000/25 = <strong>54000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>The monthly sales of a product from January to April were 120, 135, 150 and 165 units, respectively. The cost price of the product was Rs. 240 per unit, and a fixed marked price was used for the product in all the four months. Discounts of 20%, 10% and 5% were given on the marked price per unit in January, February and March, respectively, while no discounts were given in April. If the total profit from January to April was Rs. 138825, then the marked price per unit, in rupees, was</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "525"
+        },
+        {
+          "id": "B",
+          "textHtml": "515"
+        },
+        {
+          "id": "C",
+          "textHtml": "520"
+        },
+        {
+          "id": "D",
+          "textHtml": "510"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the marked price be M. Revenue = M(120 × 0.8 + 135 × 0.9 + 150 × 0.95 + 165) = M(96 + 121.5 + 142.5 + 165) = <strong>525M</strong>.</p><p>Cost = 240 × (120 + 135 + 150 + 165) = 240 × 570 = 136800.</p><p>525M = 136800 + 138825 = 275625 → M = <strong>525</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Set theory",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a class of 150 students, 75 students chose physics, 111 students chose mathematics and 40 students chose chemistry. All students chose at least one of the three subjects and at least one student chose all three subjects. The number of students who chose both physics and chemistry is equal to the number of students who chose both chemistry and mathematics, and this is half the number of students who chose both physics and mathematics. The maximum possible number of students who chose physics but not mathematics, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "35"
+        },
+        {
+          "id": "B",
+          "textHtml": "30"
+        },
+        {
+          "id": "C",
+          "textHtml": "40"
+        },
+        {
+          "id": "D",
+          "textHtml": "55"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let |P∩C| = |C∩M| = k, |P∩M| = 2k (each including the t students who chose all three).</p><p>Inclusion–exclusion: 150 = 75 + 111 + 40 − 4k + t → <strong>4k − t = 76</strong>.</p><p>Physics but not maths = 75 − 2k, so we want the smallest k. t = 4k − 76 ≥ 1 → k ≥ 19.25 → k = 20, t = 4.</p><p>Check every region is non-negative: P∩M only 36, P∩C only 16, C∩M only 16, all three 4, P only 19, M only 55, C only 4 → total 150 ✓.</p><p>Maximum = 75 − 40 = <strong>35</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>If f(x) = (x<sup>2</sup> + 3x)(x<sup>2</sup> + 3x + 2), then the sum of all real roots of the equation √(f(x) + 1) = 9701, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "-3"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "-6"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let u = x<sup>2</sup> + 3x. Then <strong>f(x) + 1 = u(u + 2) + 1 = (u + 1)<sup>2</sup></strong>, so √(f(x) + 1) = |u + 1| = 9701.</p><p>u + 1 = 9701 → x<sup>2</sup> + 3x − 9700 = 0: discriminant positive, two real roots with sum −3.</p><p>u + 1 = −9701 → x<sup>2</sup> + 3x + 9702 = 0: discriminant 9 − 4 × 9702 &lt; 0, no real roots.</p><p>Sum of real roots = <strong>−3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>Rahul starts on his journey at 5 pm at a constant speed so that he reaches his destination at 11 pm the same day. However, on his way, he stops for 20 minutes, and after that, increases his speed by 3 km per hour to reach on time. If he had stopped for 10 minutes more, he would have had to increase his speed by 5 km per hour to reach on time. His initial speed, in km per hour, was</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "18"
+        },
+        {
+          "id": "D",
+          "textHtml": "15"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let the initial speed be v and the distance left after the stop be d. The stop time must be recovered on this remaining stretch.</p><p>20-min stop: d/v − d/(v + 3) = 1/3 → 3d/(v(v + 3)) = 1/3 → <strong>d = v(v + 3)/9</strong>.</p><p>30-min stop: d/v − d/(v + 5) = 1/2 → 5d/(v(v + 5)) = 1/2 → <strong>d = v(v + 5)/10</strong>.</p><p>Equate: 10(v + 3) = 9(v + 5) → v = <strong>15</strong> km/h (and d = 30 km). Check: 30/15 − 30/18 = 2 − 5/3 = 1/3 h ✓; 30/15 − 30/20 = 1/2 h ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>Ankita walks from A to C through B, and runs back through the same route at a speed that is 40% more than her walking speed. She takes exactly 3 hours 30 minutes to walk from B to C as well as to run from B to A. The total time, in minutes, she would take to walk from A to B and run from B to C, is</p>",
+      "answer": "444",
+      "solutionHtml": "<p>Let walking speed = w, running speed = 1.4w. Time is inversely proportional to speed over a fixed distance.</p><p>Running B→A takes 210 min, so walking A→B takes 210 × 1.4 = <strong>294 min</strong>.</p><p>Walking B→C takes 210 min, so running B→C takes 210/1.4 = <strong>150 min</strong>.</p><p>Total = 294 + 150 = <strong>444</strong> minutes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Digits",
+      "difficulty": "easy",
+      "stemHtml": "<p>The sum of all the digits of the number (10<sup>50</sup> + 10<sup>25</sup> − 123), is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "324"
+        },
+        {
+          "id": "B",
+          "textHtml": "255"
+        },
+        {
+          "id": "C",
+          "textHtml": "212"
+        },
+        {
+          "id": "D",
+          "textHtml": "221"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>10<sup>25</sup> − 123 = 999…9877 (a 25-digit number: twenty-two 9s followed by 877).</p><p>Adding 10<sup>50</sup> just puts a 1 in front without any carry.</p><p>Digit sum = 1 + 22 × 9 + 8 + 7 + 7 = 1 + 198 + 22 = <strong>221</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>A triangle ABC is formed with AB = AC = 50 cm and BC = 80 cm. Then, the sum of the lengths, in cm, of all three altitudes of the triangle ABC is</p>",
+      "answer": "126",
+      "solutionHtml": "<p>The altitude from A bisects BC: √(50<sup>2</sup> − 40<sup>2</sup>) = 30 cm. Area = ½ × 80 × 30 = 1200 cm<sup>2</sup>.</p><p>Altitudes to AB and AC: 2 × 1200/50 = 48 cm each.</p><p>Sum = 30 + 48 + 48 = <strong>126</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & alligation",
+      "difficulty": "medium",
+      "stemHtml": "<p>Vessels A and B contain 60 litres of alcohol and 60 litres of water, respectively. A certain volume is taken out from A and poured into B. After stirring, the same volume is taken out from B and poured into A. If the resultant ratio of alcohol and water in A is 15 : 4, then the volume, in litres, initially taken out from A is</p>",
+      "answer": "16",
+      "solutionHtml": "<p>Let x litres be transferred. B then has x alcohol and 60 water (total 60 + x).</p><p>Taking x litres back brings water 60x/(60 + x) into A. A ends with 60 litres in all, so alcohol in A = 60 − 60x/(60 + x) = 3600/(60 + x).</p><p><strong>Alcohol : water = 3600 : 60x = 60 : x</strong> = 15 : 4 → x = <strong>16</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "easy",
+      "stemHtml": "<p>In an arithmetic progression, if the sum of fourth, seventh and tenth terms is 99, and the sum of the first fourteen terms is 497, then the sum of first five terms is</p>",
+      "answer": "65",
+      "solutionHtml": "<p>a<sub>4</sub> + a<sub>7</sub> + a<sub>10</sub> = 3a<sub>7</sub> = 99 → a<sub>7</sub> = 33.</p><p>S<sub>14</sub> = 7(a<sub>7</sub> + a<sub>8</sub>) = 497 → a<sub>7</sub> + a<sub>8</sub> = 71 → a<sub>8</sub> = 38, so d = 5 and a<sub>1</sub> = 33 − 6 × 5 = 3.</p><p>S<sub>5</sub> = 5/2 × (2 × 3 + 4 × 5) = 5/2 × 26 = <strong>65</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "hard",
+      "stemHtml": "<p>Let p, q and r be three natural numbers such that their sum is 900, and r is a perfect square whose value lies between 150 and 500. If p is not less than 0.3q and not more than 0.7q, then the sum of the maximum and minimum possible values of p is</p>",
+      "answer": "397",
+      "solutionHtml": "<p>Let s = p + q = 900 − r. r ∈ {169, 196, …, 484}, so s ranges from 416 to 731.</p><p><strong>Max p:</strong> p ≤ 0.7(s − p) → p ≤ 7s/17. Largest s = 731 = 17 × 43 → p ≤ 301. p = 301, q = 430, r = 169 works (301 = 0.7 × 430).</p><p><strong>Min p:</strong> p ≥ 0.3(s − p) → p ≥ 3s/13. Smallest s = 416 = 13 × 32 → p ≥ 96. p = 96, q = 320, r = 484 works (96 = 0.3 × 320).</p><p>Sum = 301 + 96 = <strong>397</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>The ratio of the number of coins in boxes A and B was 17:7. After 108 coins were shifted from box A to box B, this ratio became 37:20. The number of coins that needs to be shifted further from A to B, to make this ratio 1:1, is</p>",
+      "answer": "272",
+      "solutionHtml": "<p>Total coins stay the same: 24 parts before = 57 parts after. Let the total be T. A’s share falls from 17T/24 to 37T/57, a drop of 108.</p><p>17/24 − 37/57 = (17 × 19 − 37 × 8)/456 = 27/456 = 9/152, so T = 108 × 152/9 = 1824.</p><p>Now A = 37/57 × 1824 = 1184 and B = 640. For 1:1 each needs 912, so shift 1184 − 912 = <strong>272</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Pipes & cisterns",
+      "difficulty": "easy",
+      "stemHtml": "<p>The rate of water flow through three pipes A, B and C are in the ratio 4 : 9 : 36. An empty tank can be filled up completely by pipe A in 15 hours. If all the three pipes are used simultaneously to fill up this empty tank, the time, in minutes, required to fill up the entire tank completely is nearest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "71"
+        },
+        {
+          "id": "B",
+          "textHtml": "78"
+        },
+        {
+          "id": "C",
+          "textHtml": "73"
+        },
+        {
+          "id": "D",
+          "textHtml": "76"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Combined rate = (4 + 9 + 36)/4 = 49/4 times A’s rate.</p><p>Time = 15 × 4/49 h = 60/49 h = 3600/49 min ≈ 73.47 min, nearest to <strong>73</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles & quadrilaterals",
+      "difficulty": "medium",
+      "stemHtml": "<p>ABCD is a trapezium in which AB is parallel to DC, AD is perpendicular to AB, and AB = 3DC. If a circle inscribed in the trapezium touching all the sides has a radius of 3 cm, then the area, in sq. cm, of the trapezium is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "54"
+        },
+        {
+          "id": "C",
+          "textHtml": "48"
+        },
+        {
+          "id": "D",
+          "textHtml": "36√2"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The circle touches both parallel sides, so the height AD = 2r = 6.</p><p>Let DC = a, AB = 3a. <strong>Tangential quadrilateral:</strong> AB + DC = AD + BC → BC = 4a − 6.</p><p>BC is the slant side: BC<sup>2</sup> = 6<sup>2</sup> + (3a − a)<sup>2</sup> → (4a − 6)<sup>2</sup> = 36 + 4a<sup>2</sup> → 12a<sup>2</sup> = 48a → a = 4.</p><p>AB = 12, DC = 4; area = ½ × (12 + 4) × 6 = <strong>48</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Similar triangles",
+      "difficulty": "medium",
+      "stemHtml": "<p>In ∆ABC, AB = AC = 12 cm and D is a point on side BC such that AD = 8 cm. If AD is extended to a point E such that ∠ACB = ∠AEB, then the length, in cm, of AE is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "16"
+        },
+        {
+          "id": "B",
+          "textHtml": "18"
+        },
+        {
+          "id": "C",
+          "textHtml": "20"
+        },
+        {
+          "id": "D",
+          "textHtml": "14"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Since AB = AC, ∠ABC = ∠ACB = ∠AEB.</p><p>Triangles ABD and AEB share ∠BAD and have ∠ABD = ∠AEB, so they are <strong>similar</strong>: AB/AE = AD/AB.</p><p>AE = AB<sup>2</sup>/AD = 144/8 = <strong>18</strong>.</p><p><strong>Check:</strong> E lies on the circumcircle (it subtends the same angle as C on AB), so AD × DE = BD × DC = AB<sup>2</sup> − AD<sup>2</sup> = 80, giving DE = 10 and AE = 18.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Indices",
+      "difficulty": "medium",
+      "stemHtml": "<p>If 12<sup>12x</sup> × 4<sup>24x + 12</sup> × 5<sup>2y</sup> = 8<sup>4z</sup> × 20<sup>12x</sup> × 243<sup>3x − 6</sup>, where x, y and z are natural numbers, then x + y + z equals</p>",
+      "answer": "112",
+      "solutionHtml": "<p>Write everything in primes. LHS = 2<sup>24x</sup>3<sup>12x</sup> × 2<sup>48x + 24</sup> × 5<sup>2y</sup> = 2<sup>72x + 24</sup> · 3<sup>12x</sup> · 5<sup>2y</sup>.</p><p>RHS = 2<sup>12z</sup> × 2<sup>24x</sup>5<sup>12x</sup> × 3<sup>15x − 30</sup> = 2<sup>12z + 24x</sup> · 3<sup>15x − 30</sup> · 5<sup>12x</sup>.</p><p>Powers of 3: 12x = 15x − 30 → x = 10. Powers of 5: 2y = 120 → y = 60. Powers of 2: 744 = 12z + 240 → z = 42.</p><p>x + y + z = 10 + 60 + 42 = <strong>112</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Linear equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a school with 1500 students, each student chooses any one of the streams out of science, arts, and commerce, by paying a fee of Rs 1100, Rs 1000, and Rs 800, respectively. The total fee paid by all the students is Rs 15,50,000. If the number of science students is not more than the number of arts students, then the maximum possible number of science students in the school is</p>",
+      "answer": "700",
+      "solutionHtml": "<p>s + a + c = 1500 and 11s + 10a + 8c = 15500 (in hundreds of rupees).</p><p>Subtract 8 × the first: <strong>3s + 2a = 3500</strong>.</p><p>s ≤ a means 3s + 2s ≤ 3500 → s ≤ 700. s = 700 gives a = 700, c = 100, all valid.</p><p>Maximum number of science students = <strong>700</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>The sum of all possible real values of x for which log<sub>x−3</sub>(x<sup>2</sup> − 9) = log<sub>x−3</sub>(x + 1) + 2, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "-3"
+        },
+        {
+          "id": "B",
+          "textHtml": "√33"
+        },
+        {
+          "id": "C",
+          "textHtml": "(3 + √33)/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Valid base: x − 3 &gt; 0 and x − 3 ≠ 1, i.e. x &gt; 3, x ≠ 4.</p><p>The equation becomes x<sup>2</sup> − 9 = (x + 1)(x − 3)<sup>2</sup>. Divide by x − 3 (non-zero): x + 3 = (x + 1)(x − 3) = x<sup>2</sup> − 2x − 3 → x<sup>2</sup> − 3x − 6 = 0.</p><p>x = (3 ± √33)/2. Only (3 + √33)/2 ≈ 4.37 satisfies x &gt; 3 (and it is not 4); the other root is negative.</p><p>Sum of possible values = <strong>(3 + √33)/2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

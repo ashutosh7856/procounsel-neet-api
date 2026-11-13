@@ -7,11 +7,14 @@ answers (after the student answered) and by submitted attempt results.
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 from .models import SECTION_IDS
 
-SECRET_FIELDS = frozenset({"correctAnswer", "solutionHtml"})
+_SECTION_RE = re.compile(r"^[A-Z][A-Z0-9]{0,11}$")  # models.ExamSectionId
+
+SECRET_FIELDS = frozenset({"correctAnswer", "solutionHtml", "alternativeApproaches", "videoUrl"})
 
 _SOURCE_KINDS = {"official", "licensed", "faculty", "original"}
 _SET_KINDS = {"passage", "dilr_set", "data"}
@@ -59,6 +62,14 @@ def public_set(raw: dict[str, Any] | None) -> dict[str, Any] | None:
     }
 
 
+def _section(data: dict[str, Any]) -> str:
+    """CAT questions keep the old VARC fallback; other exams' section ids pass through (validated on import)."""
+    section = data.get("section")
+    if (data.get("examId") or "cat") == "cat":
+        return section if section in SECTION_IDS else "VARC"
+    return section if isinstance(section, str) and _SECTION_RE.match(section) else "GEN"
+
+
 def public_question(raw: dict[str, Any], sets: dict[str, dict[str, Any]] | None = None) -> dict[str, Any]:
     """Whitelisted, answer-free view of a stored question (QuestionPublic)."""
     data = {key: value for key, value in raw.items() if key not in SECRET_FIELDS}
@@ -71,11 +82,13 @@ def public_question(raw: dict[str, Any], sets: dict[str, dict[str, Any]] | None 
             if isinstance(opt, dict) and opt.get("id") is not None
         ]
     set_id = _str(data.get("setId"))
+    source = public_source(data.get("source"))
+    year, slot = _int(data.get("year")), _int(data.get("slot"))
     return {
         "id": str(data.get("id")),
-        "examId": "cat",
+        "examId": _str(data.get("examId")) or "cat",
         "paperId": _str(data.get("paperId")),
-        "section": data.get("section") if data.get("section") in SECTION_IDS else "VARC",
+        "section": _section(data),
         "topic": _str(data.get("topic")),
         "subtopic": _str(data.get("subtopic")),
         "type": qtype,
@@ -84,10 +97,25 @@ def public_question(raw: dict[str, Any], sets: dict[str, dict[str, Any]] | None 
         "setId": set_id,
         "set": public_set((sets or {}).get(set_id)) if set_id else None,
         "difficulty": data.get("difficulty") if data.get("difficulty") in _DIFFICULTIES else None,
-        "year": _int(data.get("year")),
-        "slot": _int(data.get("slot")),
-        "source": public_source(data.get("source")),
+        "year": year,
+        "slot": slot,
+        "source": source,
+        # Same rule as exams.is_pyq: a question of an actual past CAT paper.
+        "isPyq": source["kind"] == "official" and year is not None and slot is not None,
     }
+
+
+def approaches(raw: dict[str, Any]) -> list[str] | None:
+    """Alternative solution approaches (HTML strings), or None."""
+    value = raw.get("alternativeApproaches")
+    items = [a for a in value if _str(a)] if isinstance(value, list) else []
+    return items or None
+
+
+def video_url(raw: dict[str, Any]) -> str | None:
+    """The video solution link — only ever an https URL (validated on import/edit; re-checked here)."""
+    value = _str(raw.get("videoUrl"))
+    return value.strip() if value and value.strip().startswith("https://") else None
 
 
 def reveal(raw: dict[str, Any], is_correct: bool | None) -> dict[str, Any]:
@@ -95,5 +123,7 @@ def reveal(raw: dict[str, Any], is_correct: bool | None) -> dict[str, Any]:
     return {
         "correctAnswer": str(raw.get("correctAnswer") or ""),
         "solutionHtml": raw.get("solutionHtml") if isinstance(raw.get("solutionHtml"), str) else None,
+        "alternativeApproaches": approaches(raw),
+        "videoUrl": video_url(raw),
         "isCorrect": is_correct,
     }

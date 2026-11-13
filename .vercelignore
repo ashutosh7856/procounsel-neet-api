@@ -1,2 +1,10 @@
-# Not needed at runtime (seeded into Firestore by scripts/mba); keeps the serverless bundle small.
-data/mba/
+# Import-only data (already seeded into Firestore by scripts/mba) — kept out of the
+# serverless bundle. Do NOT exclude data/mba/programs, data/mba/colleges or
+# data/mba/exams/*.json: api/mba/applications.py and api/mba/planner.py read them at runtime.
+data/mba/content/
+data/mba/gdpi/
+data/mba/cat-cutoffs/
+data/mba/exams/mah-mba-cap-cutoffs.json
+data/mba/SOURCES.md
+data/mba/nirf-management.json
+data/mba/specialisations.json

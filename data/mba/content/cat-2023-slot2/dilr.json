@@ -1,0 +1,606 @@
+{
+ "sets": [
+  {
+   "key": "DI1",
+   "kind": "dilr_set",
+   "title": "Fund-raising by five firms",
+   "contentHtml": "<p>Odsville has five firms – Alfloo, Bzygoo, Czechy, Drjbna and Elavalaki. Each of these firms was founded in some year and also closed down a few years later.</p><p>Each firm raised Rs. 1 crore in its first and last year of existence. The amount each firm raised every year increased until it reached a maximum, and then decreased until the firm closed down. No firm raised the same amount of money in two consecutive years. Each annual increase and decrease was either by Rs. 1 crore or by Rs. 2 crores.</p><p>The table below provides partial information about the five firms.</p><table><thead><tr><th>Firm</th><th>First year of existence</th><th>Last year of existence</th><th>Total amount raised (Rs. Crores)</th></tr></thead><tbody><tr><td>Alfloo</td><td>2009</td><td>2016</td><td>21</td></tr><tr><td>Bzygoo</td><td>2012</td><td>2015</td><td></td></tr><tr><td>Czechy</td><td>2013</td><td></td><td>9</td></tr><tr><td>Drjbna</td><td>2011</td><td>2015</td><td>10</td></tr><tr><td>Elavalaki</td><td>2010</td><td></td><td>13</td></tr></tbody></table>"
+  },
+  {
+   "key": "DI2",
+   "kind": "dilr_set",
+   "title": "Random draw competition",
+   "contentHtml": "<p>Three participants – Akhil, Bimal and Chatur participate in a random draw competition for five days. Every day, each participant randomly picks up a ball numbered between 1 and 9. The number on the ball determines his score on that day. The total score of a participant is the sum of his scores attained in the five days. The total score of a day is the sum of participants’ scores on that day. The 2-day average on a day, except on Day 1, is the average of the total scores of that day and of the previous day. For example, if the total scores of Day 1 and Day 2 are 25 and 20, then the 2-day average on Day 2 is calculated as 22.5. Table 1 gives the 2-day averages for Days 2 through 5.</p><p><strong>Table 1: 2-day averages for Days 2 through 5</strong></p><table><thead><tr><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>15</td><td>15.5</td><td>16</td><td>17</td></tr></tbody></table><p>Participants are ranked each day, with the person having the maximum score being awarded the minimum rank (1) on that day. If there is a tie, all participants with the tied score are awarded the best available rank. For example, if on a day Akhil, Bimal, and Chatur score 8, 7 and 7 respectively, then their ranks will be 1, 2 and 2 respectively on that day. These ranks are given in Table 2.</p><p><strong>Table 2: Ranks of participants on each day</strong></p><table><thead><tr><th></th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>Akhil</td><td>1</td><td>2</td><td>2</td><td>3</td><td>3</td></tr><tr><td>Bimal</td><td>2</td><td>3</td><td>2</td><td>1</td><td>1</td></tr><tr><td>Chatur</td><td>3</td><td>1</td><td>1</td><td>2</td><td>2</td></tr></tbody></table><p>The following information is also known.</p><ol><li>Chatur always scores in multiples of 3. His score on Day 2 is the unique highest score in the competition. His minimum score is observed only on Day 1, and it matches Akhil’s score on Day 4.</li><li>The total score on Day 3 is the same as the total score on Day 4.</li><li>Bimal’s scores are the same on Day 1 and Day 3.</li></ol>"
+  },
+  {
+   "key": "DI3",
+   "kind": "dilr_set",
+   "title": "Coins in a 3×3 array of boxes",
+   "contentHtml": "<p>There are nine boxes arranged in a 3×3 array as shown in Tables 1 and 2. Each box contains three sacks. Each sack has a certain number of coins, between 1 and 9, both inclusive.</p><p>The average number of coins per sack in the boxes are all distinct integers. The total number of coins in each row is the same. The total number of coins in each column is also the same.</p><p><strong>Table 1</strong></p><table><thead><tr><th></th><th>1st column</th><th>2nd column</th><th>3rd column</th></tr></thead><tbody><tr><td>1st row</td><td></td><td>9</td><td>6</td></tr><tr><td>2nd row</td><td>2</td><td></td><td></td></tr><tr><td>3rd row</td><td>8</td><td></td><td></td></tr></tbody></table><p><strong>Table 2</strong></p><table><thead><tr><th></th><th>1st column</th><th>2nd column</th><th>3rd column</th></tr></thead><tbody><tr><td>1st row</td><td>1**</td><td>2*</td><td>2*</td></tr><tr><td>2nd row</td><td>1**</td><td>0*</td><td>3*</td></tr><tr><td>3rd row</td><td>3*</td><td>2**</td><td>0**</td></tr></tbody></table><p>Table 1 gives information regarding the median of the numbers of coins in the three sacks in a box for some of the boxes. In Table 2 each box has a number which represents the number of sacks in that box having more than 5 coins. That number is followed by a * if the sacks in that box satisfy exactly one among the following three conditions, and it is followed by ** if two or more of these conditions are satisfied.</p><ol type=\"i\"><li>The minimum among the numbers of coins in the three sacks in the box is 1.</li><li>The median of the numbers of coins in the three sacks is 1.</li><li>The maximum among the numbers of coins in the three sacks in the box is 9.</li></ol>"
+  },
+  {
+   "key": "DI4",
+   "kind": "dilr_set",
+   "title": "Entertainment park rides",
+   "contentHtml": "<p>Anjali, Bipasha, and Chitra visited an entertainment park that has four rides. Each ride lasts one hour and can accommodate one visitor at one point. All rides begin at 9 am and must be completed by 5 pm except for Ride-3, for which the last ride has to be completed by 1 pm.</p><p>Ride gates open every 30 minutes, e.g. 10 am, 10:30 am, and so on. Whenever a ride gate opens, and there is no visitor inside, the first visitor waiting in the queue buys the ticket just before taking the ride. The ticket prices are Rs. 20, Rs. 50, Rs. 30 and Rs. 40 for Rides 1 to 4, respectively. Each of the three visitors took at least one ride and did not necessarily take all rides. None of them took the same ride more than once. The movement time from one ride to another is negligible, and a visitor leaves the ride immediately after the completion of the ride. No one takes a break inside the park unless mentioned explicitly.</p><p>The following information is also known.</p><ol><li>Chitra never waited in the queue and completed her visit by 11 am after spending Rs. 50 to pay for the ticket(s).</li><li>Anjali took Ride-1 at 11 am after waiting for 30 mins for Chitra to complete it. It was the only ride where Anjali waited.</li><li>Bipasha began her first of three rides at 11:30 am. All three visitors incurred the same amount of ticket expense by 12:15 pm.</li><li>The last ride taken by Anjali and Bipasha was the same, where Bipasha waited 30 mins for Anjali to complete her ride. Before standing in the queue for that ride, Bipasha took a 1-hour coffee break after completing her previous ride.</li></ol>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "DI1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sequences",
+   "difficulty": "medium",
+   "stemHtml": "<p>For which firm(s) can the amounts raised by them be concluded with certainty in each year?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only Drjbna"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only Czechy"
+    },
+    {
+     "id": "C",
+     "textHtml": "Only Czechy and Drjbna"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only Bzygoo and Czechy and Drjbna"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Every sequence starts and ends at 1, rises then falls, and moves by 1 or 2 each year with no repeats.</p><ul><li><strong>Drjbna</strong> (2011–15, total 10): 1, a, b, c, 1 with a + b + c = 8 and a, c ∈ {2, 3}. Only <strong>1, 2, 4, 2, 1</strong> works (unique).</li><li><strong>Czechy</strong> (from 2013, total 9): a 4-year sequence totals 7 and 6+ years total at least 13, so it is 5 years: <strong>1, 2, 3, 2, 1</strong> (2013–17, unique).</li><li><strong>Bzygoo</strong> (2012–15): 1, 2, 3, 1 or 1, 3, 2, 1 (total 7).</li><li><strong>Elavalaki</strong> (from 2010, total 13): E1 = 1, 3, 5, 3, 1 (2010–14); E2 = 1, 2, 3, 4, 2, 1 or E3 = 1, 2, 4, 3, 2, 1 (2010–15).</li><li><strong>Alfloo</strong> (2009–16, 8 years, total 21): the peak must be at least 5; peak 6 already gives a total of 23. With peak 5 the only totals of 21 are A1 = 1, 2, 3, 4, 5, 3, 2, 1 and A2 = 1, 2, 3, 5, 4, 3, 2, 1.</li></ul><p>Only Czechy (1, 2, 3, 2, 1) and Drjbna (1, 2, 4, 2, 1) have a single possible sequence; Bzygoo, Elavalaki and Alfloo each have two or more. Answer: <strong>Only Czechy and Drjbna</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "DI1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sequences",
+   "difficulty": "medium",
+   "stemHtml": "<p>What best can be concluded about the total amount of money raised in 2015?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "It is either Rs. 8 crores or Rs. 9 crores."
+    },
+    {
+     "id": "B",
+     "textHtml": "It is exactly Rs. 8 crores."
+    },
+    {
+     "id": "C",
+     "textHtml": "It is either Rs. 7 crores or Rs. 8 crores or Rs. 9 crores."
+    },
+    {
+     "id": "D",
+     "textHtml": "It is either Rs. 7 crores or Rs. 8 crores."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Every sequence starts and ends at 1, rises then falls, and moves by 1 or 2 each year with no repeats.</p><ul><li><strong>Drjbna</strong> (2011–15, total 10): 1, a, b, c, 1 with a + b + c = 8 and a, c ∈ {2, 3}. Only <strong>1, 2, 4, 2, 1</strong> works (unique).</li><li><strong>Czechy</strong> (from 2013, total 9): a 4-year sequence totals 7 and 6+ years total at least 13, so it is 5 years: <strong>1, 2, 3, 2, 1</strong> (2013–17, unique).</li><li><strong>Bzygoo</strong> (2012–15): 1, 2, 3, 1 or 1, 3, 2, 1 (total 7).</li><li><strong>Elavalaki</strong> (from 2010, total 13): E1 = 1, 3, 5, 3, 1 (2010–14); E2 = 1, 2, 3, 4, 2, 1 or E3 = 1, 2, 4, 3, 2, 1 (2010–15).</li><li><strong>Alfloo</strong> (2009–16, 8 years, total 21): the peak must be at least 5; peak 6 already gives a total of 23. With peak 5 the only totals of 21 are A1 = 1, 2, 3, 4, 5, 3, 2, 1 and A2 = 1, 2, 3, 5, 4, 3, 2, 1.</li></ul><p><strong>2015:</strong> Alfloo 2 (both A1 and A2), Bzygoo 1, Czechy 3, Drjbna 1, Elavalaki 0 (E1, already closed) or 1 (E2/E3).</p><p>Total = 2 + 1 + 3 + 1 + (0 or 1) = <strong>7 or 8</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "TITA",
+   "setKey": "DI1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sequences",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the largest possible total amount of money (in Rs. crores) that could have been raised in 2013? (type in numerical)</p>",
+   "answer": "17",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Every sequence starts and ends at 1, rises then falls, and moves by 1 or 2 each year with no repeats.</p><ul><li><strong>Drjbna</strong> (2011–15, total 10): 1, a, b, c, 1 with a + b + c = 8 and a, c ∈ {2, 3}. Only <strong>1, 2, 4, 2, 1</strong> works (unique).</li><li><strong>Czechy</strong> (from 2013, total 9): a 4-year sequence totals 7 and 6+ years total at least 13, so it is 5 years: <strong>1, 2, 3, 2, 1</strong> (2013–17, unique).</li><li><strong>Bzygoo</strong> (2012–15): 1, 2, 3, 1 or 1, 3, 2, 1 (total 7).</li><li><strong>Elavalaki</strong> (from 2010, total 13): E1 = 1, 3, 5, 3, 1 (2010–14); E2 = 1, 2, 3, 4, 2, 1 or E3 = 1, 2, 4, 3, 2, 1 (2010–15).</li><li><strong>Alfloo</strong> (2009–16, 8 years, total 21): the peak must be at least 5; peak 6 already gives a total of 23. With peak 5 the only totals of 21 are A1 = 1, 2, 3, 4, 5, 3, 2, 1 and A2 = 1, 2, 3, 5, 4, 3, 2, 1.</li></ul><p><strong>2013 maxima:</strong> Alfloo 5 (A1), Bzygoo 3 (1, 3, 2, 1), Czechy 1, Drjbna 4, Elavalaki 4 (E2: 1, 2, 3, 4, …).</p><p>Largest total = 5 + 3 + 1 + 4 + 4 = <strong>17</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "DI1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sequences",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Elavalaki raised Rs. 3 crores in 2013, then what is the smallest possible total amount of money (in Rs. crores) that could have been raised by all the companies in 2012?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "11"
+    },
+    {
+     "id": "B",
+     "textHtml": "9"
+    },
+    {
+     "id": "C",
+     "textHtml": "12"
+    },
+    {
+     "id": "D",
+     "textHtml": "10"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Every sequence starts and ends at 1, rises then falls, and moves by 1 or 2 each year with no repeats.</p><ul><li><strong>Drjbna</strong> (2011–15, total 10): 1, a, b, c, 1 with a + b + c = 8 and a, c ∈ {2, 3}. Only <strong>1, 2, 4, 2, 1</strong> works (unique).</li><li><strong>Czechy</strong> (from 2013, total 9): a 4-year sequence totals 7 and 6+ years total at least 13, so it is 5 years: <strong>1, 2, 3, 2, 1</strong> (2013–17, unique).</li><li><strong>Bzygoo</strong> (2012–15): 1, 2, 3, 1 or 1, 3, 2, 1 (total 7).</li><li><strong>Elavalaki</strong> (from 2010, total 13): E1 = 1, 3, 5, 3, 1 (2010–14); E2 = 1, 2, 3, 4, 2, 1 or E3 = 1, 2, 4, 3, 2, 1 (2010–15).</li><li><strong>Alfloo</strong> (2009–16, 8 years, total 21): the peak must be at least 5; peak 6 already gives a total of 23. With peak 5 the only totals of 21 are A1 = 1, 2, 3, 4, 5, 3, 2, 1 and A2 = 1, 2, 3, 5, 4, 3, 2, 1.</li></ul><p>Elavalaki = 3 in 2013 means E1 (2012 value 5) or E3 (2012 value 4). Take the smaller: 4.</p><p><strong>2012:</strong> Alfloo 4 (A1) or 5 (A2), minimum 4; Bzygoo 1 (first year); Czechy not yet founded, 0; Drjbna 2; Elavalaki 4.</p><p>Minimum = 4 + 1 + 0 + 2 + 4 = <strong>11</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "DI1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sequences",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the total amount of money raised in 2014 is Rs. 12 crores, then which of the following is not possible?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Alfloo raised the same amount of money as Bzygoo in 2014."
+    },
+    {
+     "id": "B",
+     "textHtml": "Bzygoo raised more money than Elavalaki in 2014."
+    },
+    {
+     "id": "C",
+     "textHtml": "Alfloo raised the same amount of money as Drjbna in 2013."
+    },
+    {
+     "id": "D",
+     "textHtml": "Bzygoo raised the same amount of money as Elavalaki in 2013."
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deductions.</strong> Every sequence starts and ends at 1, rises then falls, and moves by 1 or 2 each year with no repeats.</p><ul><li><strong>Drjbna</strong> (2011–15, total 10): 1, a, b, c, 1 with a + b + c = 8 and a, c ∈ {2, 3}. Only <strong>1, 2, 4, 2, 1</strong> works (unique).</li><li><strong>Czechy</strong> (from 2013, total 9): a 4-year sequence totals 7 and 6+ years total at least 13, so it is 5 years: <strong>1, 2, 3, 2, 1</strong> (2013–17, unique).</li><li><strong>Bzygoo</strong> (2012–15): 1, 2, 3, 1 or 1, 3, 2, 1 (total 7).</li><li><strong>Elavalaki</strong> (from 2010, total 13): E1 = 1, 3, 5, 3, 1 (2010–14); E2 = 1, 2, 3, 4, 2, 1 or E3 = 1, 2, 4, 3, 2, 1 (2010–15).</li><li><strong>Alfloo</strong> (2009–16, 8 years, total 21): the peak must be at least 5; peak 6 already gives a total of 23. With peak 5 the only totals of 21 are A1 = 1, 2, 3, 4, 5, 3, 2, 1 and A2 = 1, 2, 3, 5, 4, 3, 2, 1.</li></ul><p><strong>2014:</strong> Alfloo 3 (both options), Czechy 2, Drjbna 2, Bzygoo 3 or 2, Elavalaki 1 (E1) or 2 (E2/E3). Total = 7 + Bzygoo + Elavalaki = 12, so Bzygoo + Elavalaki = 5, giving Bzygoo = 3 and Elavalaki = 2.</p><p>So Bzygoo is 1, 2, 3, 1 (2013 value 2) and Elavalaki is E2 or E3 (2013 value 4 or 3).</p><ul><li>A: Alfloo 3 = Bzygoo 3 in 2014, possible.</li><li>B: Bzygoo 3 &gt; Elavalaki 2, possible.</li><li>C: Drjbna 2013 = 4 and Alfloo A2 has 4 in 2013, possible.</li><li>D: Bzygoo 2013 = 2 but Elavalaki 2013 is 4 or 3, so <strong>not possible</strong>.</li></ul>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "DI2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores and ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is Akhil's score on Day 1?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "7"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "8"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Day totals.</strong> From the 2-day averages, T1 + T2 = 30, T2 + T3 = 31, T3 + T4 = 32, T4 + T5 = 34. With T3 = T4 we get T3 = T4 = 16, so T2 = 15, T1 = 15, T5 = 18.</p><p><strong>Chatur.</strong> His scores are 3, 6 or 9. Day 2 is the unique highest score of the competition, so Day 2 = 9 and nobody else ever scores 9. His minimum occurs only on Day 1; if it were 6, every other day would have to be 9, which is not allowed. So Chatur = <strong>3, 9, 6, 6, 6</strong>, and Akhil's Day 4 score = 3.</p><ul><li>Day 3 (16): Chatur 6 is rank 1; Akhil and Bimal tie at rank 2, so each scores 5.</li><li>Day 1 (15): Bimal = his Day 3 score = 5, so Akhil = 15 − 3 − 5 = 7 (ranks 1, 2, 3 ✓).</li><li>Day 4 (16): Akhil 3, Chatur 6, so Bimal 7 (rank 1 ✓).</li><li>Day 2 (15): Akhil + Bimal = 6 with Akhil &gt; Bimal: (5, 1) or (4, 2).</li><li>Day 5 (18): Akhil + Bimal = 12 with Bimal &gt; 6 &gt; Akhil and Bimal ≤ 8: (A, B) = (4, 8) or (5, 7).</li></ul><p>Totals: Akhil = 15 + a<sub>2</sub> + a<sub>5</sub> (23 to 25), Bimal = 17 + b<sub>2</sub> + b<sub>5</sub> (25 to 27), Chatur = 30.</p><p>Akhil's Day 1 score = 15 − 3 (Chatur) − 5 (Bimal) = <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "DI2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores and ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>Who attains the maximum total score?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Akhil"
+    },
+    {
+     "id": "B",
+     "textHtml": "Cannot be determined"
+    },
+    {
+     "id": "C",
+     "textHtml": "Bimal"
+    },
+    {
+     "id": "D",
+     "textHtml": "Chatur"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Day totals.</strong> From the 2-day averages, T1 + T2 = 30, T2 + T3 = 31, T3 + T4 = 32, T4 + T5 = 34. With T3 = T4 we get T3 = T4 = 16, so T2 = 15, T1 = 15, T5 = 18.</p><p><strong>Chatur.</strong> His scores are 3, 6 or 9. Day 2 is the unique highest score of the competition, so Day 2 = 9 and nobody else ever scores 9. His minimum occurs only on Day 1; if it were 6, every other day would have to be 9, which is not allowed. So Chatur = <strong>3, 9, 6, 6, 6</strong>, and Akhil's Day 4 score = 3.</p><ul><li>Day 3 (16): Chatur 6 is rank 1; Akhil and Bimal tie at rank 2, so each scores 5.</li><li>Day 1 (15): Bimal = his Day 3 score = 5, so Akhil = 15 − 3 − 5 = 7 (ranks 1, 2, 3 ✓).</li><li>Day 4 (16): Akhil 3, Chatur 6, so Bimal 7 (rank 1 ✓).</li><li>Day 2 (15): Akhil + Bimal = 6 with Akhil &gt; Bimal: (5, 1) or (4, 2).</li><li>Day 5 (18): Akhil + Bimal = 12 with Bimal &gt; 6 &gt; Akhil and Bimal ≤ 8: (A, B) = (4, 8) or (5, 7).</li></ul><p>Totals: Akhil = 15 + a<sub>2</sub> + a<sub>5</sub> (23 to 25), Bimal = 17 + b<sub>2</sub> + b<sub>5</sub> (25 to 27), Chatur = 30.</p><p>Chatur = 3 + 9 + 6 + 6 + 6 = 30, while Akhil is at most 25 and Bimal at most 27. <strong>Chatur</strong> has the maximum.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "DI2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores and ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the minimum possible total score of Bimal? (type in numerical)</p>",
+   "answer": "25",
+   "solutionHtml": "<p><strong>Day totals.</strong> From the 2-day averages, T1 + T2 = 30, T2 + T3 = 31, T3 + T4 = 32, T4 + T5 = 34. With T3 = T4 we get T3 = T4 = 16, so T2 = 15, T1 = 15, T5 = 18.</p><p><strong>Chatur.</strong> His scores are 3, 6 or 9. Day 2 is the unique highest score of the competition, so Day 2 = 9 and nobody else ever scores 9. His minimum occurs only on Day 1; if it were 6, every other day would have to be 9, which is not allowed. So Chatur = <strong>3, 9, 6, 6, 6</strong>, and Akhil's Day 4 score = 3.</p><ul><li>Day 3 (16): Chatur 6 is rank 1; Akhil and Bimal tie at rank 2, so each scores 5.</li><li>Day 1 (15): Bimal = his Day 3 score = 5, so Akhil = 15 − 3 − 5 = 7 (ranks 1, 2, 3 ✓).</li><li>Day 4 (16): Akhil 3, Chatur 6, so Bimal 7 (rank 1 ✓).</li><li>Day 2 (15): Akhil + Bimal = 6 with Akhil &gt; Bimal: (5, 1) or (4, 2).</li><li>Day 5 (18): Akhil + Bimal = 12 with Bimal &gt; 6 &gt; Akhil and Bimal ≤ 8: (A, B) = (4, 8) or (5, 7).</li></ul><p>Totals: Akhil = 15 + a<sub>2</sub> + a<sub>5</sub> (23 to 25), Bimal = 17 + b<sub>2</sub> + b<sub>5</sub> (25 to 27), Chatur = 30.</p><p>Bimal = 5 + b<sub>2</sub> + 5 + 7 + b<sub>5</sub> with b<sub>2</sub> ∈ {1, 2} and b<sub>5</sub> ∈ {7, 8}. Minimum = 5 + 1 + 5 + 7 + 7 = <strong>25</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "DI2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores and ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the total score of Bimal is a multiple of 3, what is the score of Akhil on Day 2?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "Cannot be determined"
+    },
+    {
+     "id": "D",
+     "textHtml": "6"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Day totals.</strong> From the 2-day averages, T1 + T2 = 30, T2 + T3 = 31, T3 + T4 = 32, T4 + T5 = 34. With T3 = T4 we get T3 = T4 = 16, so T2 = 15, T1 = 15, T5 = 18.</p><p><strong>Chatur.</strong> His scores are 3, 6 or 9. Day 2 is the unique highest score of the competition, so Day 2 = 9 and nobody else ever scores 9. His minimum occurs only on Day 1; if it were 6, every other day would have to be 9, which is not allowed. So Chatur = <strong>3, 9, 6, 6, 6</strong>, and Akhil's Day 4 score = 3.</p><ul><li>Day 3 (16): Chatur 6 is rank 1; Akhil and Bimal tie at rank 2, so each scores 5.</li><li>Day 1 (15): Bimal = his Day 3 score = 5, so Akhil = 15 − 3 − 5 = 7 (ranks 1, 2, 3 ✓).</li><li>Day 4 (16): Akhil 3, Chatur 6, so Bimal 7 (rank 1 ✓).</li><li>Day 2 (15): Akhil + Bimal = 6 with Akhil &gt; Bimal: (5, 1) or (4, 2).</li><li>Day 5 (18): Akhil + Bimal = 12 with Bimal &gt; 6 &gt; Akhil and Bimal ≤ 8: (A, B) = (4, 8) or (5, 7).</li></ul><p>Totals: Akhil = 15 + a<sub>2</sub> + a<sub>5</sub> (23 to 25), Bimal = 17 + b<sub>2</sub> + b<sub>5</sub> (25 to 27), Chatur = 30.</p><p>Bimal's total ∈ {25, 26, 27}; the only multiple of 3 is 27, which needs b<sub>2</sub> = 2 and b<sub>5</sub> = 8. With Bimal 2 on Day 2, Akhil = 6 − 2 = <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "TITA",
+   "setKey": "DI2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scores and ranks",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Akhil attains a total score of 24, then what is the total score of Bimal? (type in numerical)</p>",
+   "answer": "26",
+   "solutionHtml": "<p><strong>Day totals.</strong> From the 2-day averages, T1 + T2 = 30, T2 + T3 = 31, T3 + T4 = 32, T4 + T5 = 34. With T3 = T4 we get T3 = T4 = 16, so T2 = 15, T1 = 15, T5 = 18.</p><p><strong>Chatur.</strong> His scores are 3, 6 or 9. Day 2 is the unique highest score of the competition, so Day 2 = 9 and nobody else ever scores 9. His minimum occurs only on Day 1; if it were 6, every other day would have to be 9, which is not allowed. So Chatur = <strong>3, 9, 6, 6, 6</strong>, and Akhil's Day 4 score = 3.</p><ul><li>Day 3 (16): Chatur 6 is rank 1; Akhil and Bimal tie at rank 2, so each scores 5.</li><li>Day 1 (15): Bimal = his Day 3 score = 5, so Akhil = 15 − 3 − 5 = 7 (ranks 1, 2, 3 ✓).</li><li>Day 4 (16): Akhil 3, Chatur 6, so Bimal 7 (rank 1 ✓).</li><li>Day 2 (15): Akhil + Bimal = 6 with Akhil &gt; Bimal: (5, 1) or (4, 2).</li><li>Day 5 (18): Akhil + Bimal = 12 with Bimal &gt; 6 &gt; Akhil and Bimal ≤ 8: (A, B) = (4, 8) or (5, 7).</li></ul><p>Totals: Akhil = 15 + a<sub>2</sub> + a<sub>5</sub> (23 to 25), Bimal = 17 + b<sub>2</sub> + b<sub>5</sub> (25 to 27), Chatur = 30.</p><p>Akhil = 15 + a<sub>2</sub> + a<sub>5</sub> = 24, so a<sub>2</sub> + a<sub>5</sub> = 9: either (5, 4) or (4, 5).</p><ul><li>(5, 4): Bimal Day 2 = 1, Day 5 = 8 → 5 + 1 + 5 + 7 + 8 = 26.</li><li>(4, 5): Bimal Day 2 = 2, Day 5 = 7 → 5 + 2 + 5 + 7 + 7 = 26.</li></ul><p>Either way Bimal = <strong>26</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "DI3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid puzzles",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the total number of coins in all the boxes in the 3rd row?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "15"
+    },
+    {
+     "id": "B",
+     "textHtml": "45"
+    },
+    {
+     "id": "C",
+     "textHtml": "36"
+    },
+    {
+     "id": "D",
+     "textHtml": "30"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Averages.</strong> Nine distinct integer averages between 1 and 9 must be exactly 1–9, so the grand total is 3 × 45 = 135 and each row and each column holds 45 coins, i.e. the averages in every row and column add up to 15.</p><ul><li>Average 1 means (1, 1, 1): 0 sacks above 5 with conditions i and ii, so it is marked 0**. That is only R3C3.</li><li>R1C2 (median 9, 2*): (x, 9, 9) with x ≤ 5 and x ≠ 1 (only one condition); the sum must be divisible by 3, so x = 3: <strong>(3, 9, 9)</strong>, average 7.</li><li>R3C1 (median 8, 3*): all sacks above 5 and the only condition possible is max = 9: (a, 8, 9) with 3 | a + 17, so a = 7: <strong>(7, 8, 9)</strong>, average 8.</li><li>Average 9 = (9, 9, 9) is marked 3*, so it is R2C3.</li></ul><p>Using row and column sums of 15, the averages are:</p><table><thead><tr><th></th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>3</td><td>7</td><td>5</td></tr><tr><td>R2</td><td>4</td><td>2</td><td>9</td></tr><tr><td>R3</td><td>8</td><td>6</td><td>1</td></tr></tbody></table><p><strong>Sacks:</strong> R1C1 (sum 9, 1**): (1, 1, 7). R1C3 (median 6, sum 15, 2*): (1, 6, 8). R2C1 (median 2, sum 12, 1**): (1, 2, 9). R2C2 (sum 6, 0*): (1, 2, 3). R3C2 (sum 18, 2**): needs min 1 and max 9, so (1, 8, 9). The rest: R1C2 (3, 9, 9), R2C3 (9, 9, 9), R3C1 (7, 8, 9), R3C3 (1, 1, 1).</p><p>Every row holds 135 ÷ 3 = 45 coins (row 3: 24 + 18 + 3 = <strong>45</strong>).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "DI3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid puzzles",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many boxes have at least one sack containing 9 coins?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3"
+    },
+    {
+     "id": "B",
+     "textHtml": "8"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "5"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Averages.</strong> Nine distinct integer averages between 1 and 9 must be exactly 1–9, so the grand total is 3 × 45 = 135 and each row and each column holds 45 coins, i.e. the averages in every row and column add up to 15.</p><ul><li>Average 1 means (1, 1, 1): 0 sacks above 5 with conditions i and ii, so it is marked 0**. That is only R3C3.</li><li>R1C2 (median 9, 2*): (x, 9, 9) with x ≤ 5 and x ≠ 1 (only one condition); the sum must be divisible by 3, so x = 3: <strong>(3, 9, 9)</strong>, average 7.</li><li>R3C1 (median 8, 3*): all sacks above 5 and the only condition possible is max = 9: (a, 8, 9) with 3 | a + 17, so a = 7: <strong>(7, 8, 9)</strong>, average 8.</li><li>Average 9 = (9, 9, 9) is marked 3*, so it is R2C3.</li></ul><p>Using row and column sums of 15, the averages are:</p><table><thead><tr><th></th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>3</td><td>7</td><td>5</td></tr><tr><td>R2</td><td>4</td><td>2</td><td>9</td></tr><tr><td>R3</td><td>8</td><td>6</td><td>1</td></tr></tbody></table><p><strong>Sacks:</strong> R1C1 (sum 9, 1**): (1, 1, 7). R1C3 (median 6, sum 15, 2*): (1, 6, 8). R2C1 (median 2, sum 12, 1**): (1, 2, 9). R2C2 (sum 6, 0*): (1, 2, 3). R3C2 (sum 18, 2**): needs min 1 and max 9, so (1, 8, 9). The rest: R1C2 (3, 9, 9), R2C3 (9, 9, 9), R3C1 (7, 8, 9), R3C3 (1, 1, 1).</p><p>Boxes with a 9: R1C2 (3, 9, 9), R2C1 (1, 2, 9), R2C3 (9, 9, 9), R3C1 (7, 8, 9), R3C2 (1, 8, 9), so <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "TITA",
+   "setKey": "DI3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid puzzles",
+   "difficulty": "hard",
+   "stemHtml": "<p>For how many boxes are the average and median of the numbers of coins contained in the three sacks in that box the same? (type in numerical)</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Averages.</strong> Nine distinct integer averages between 1 and 9 must be exactly 1–9, so the grand total is 3 × 45 = 135 and each row and each column holds 45 coins, i.e. the averages in every row and column add up to 15.</p><ul><li>Average 1 means (1, 1, 1): 0 sacks above 5 with conditions i and ii, so it is marked 0**. That is only R3C3.</li><li>R1C2 (median 9, 2*): (x, 9, 9) with x ≤ 5 and x ≠ 1 (only one condition); the sum must be divisible by 3, so x = 3: <strong>(3, 9, 9)</strong>, average 7.</li><li>R3C1 (median 8, 3*): all sacks above 5 and the only condition possible is max = 9: (a, 8, 9) with 3 | a + 17, so a = 7: <strong>(7, 8, 9)</strong>, average 8.</li><li>Average 9 = (9, 9, 9) is marked 3*, so it is R2C3.</li></ul><p>Using row and column sums of 15, the averages are:</p><table><thead><tr><th></th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>3</td><td>7</td><td>5</td></tr><tr><td>R2</td><td>4</td><td>2</td><td>9</td></tr><tr><td>R3</td><td>8</td><td>6</td><td>1</td></tr></tbody></table><p><strong>Sacks:</strong> R1C1 (sum 9, 1**): (1, 1, 7). R1C3 (median 6, sum 15, 2*): (1, 6, 8). R2C1 (median 2, sum 12, 1**): (1, 2, 9). R2C2 (sum 6, 0*): (1, 2, 3). R3C2 (sum 18, 2**): needs min 1 and max 9, so (1, 8, 9). The rest: R1C2 (3, 9, 9), R2C3 (9, 9, 9), R3C1 (7, 8, 9), R3C3 (1, 1, 1).</p><p>Average = median for R2C2 (1, 2, 3), R2C3 (9, 9, 9), R3C1 (7, 8, 9) and R3C3 (1, 1, 1). In the others (1, 1, 7), (3, 9, 9), (1, 6, 8), (1, 2, 9), (1, 8, 9) they differ. Answer: <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "TITA",
+   "setKey": "DI3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid puzzles",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many sacks have exactly one coin? (type in numerical)</p>",
+   "answer": "9",
+   "solutionHtml": "<p><strong>Averages.</strong> Nine distinct integer averages between 1 and 9 must be exactly 1–9, so the grand total is 3 × 45 = 135 and each row and each column holds 45 coins, i.e. the averages in every row and column add up to 15.</p><ul><li>Average 1 means (1, 1, 1): 0 sacks above 5 with conditions i and ii, so it is marked 0**. That is only R3C3.</li><li>R1C2 (median 9, 2*): (x, 9, 9) with x ≤ 5 and x ≠ 1 (only one condition); the sum must be divisible by 3, so x = 3: <strong>(3, 9, 9)</strong>, average 7.</li><li>R3C1 (median 8, 3*): all sacks above 5 and the only condition possible is max = 9: (a, 8, 9) with 3 | a + 17, so a = 7: <strong>(7, 8, 9)</strong>, average 8.</li><li>Average 9 = (9, 9, 9) is marked 3*, so it is R2C3.</li></ul><p>Using row and column sums of 15, the averages are:</p><table><thead><tr><th></th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>3</td><td>7</td><td>5</td></tr><tr><td>R2</td><td>4</td><td>2</td><td>9</td></tr><tr><td>R3</td><td>8</td><td>6</td><td>1</td></tr></tbody></table><p><strong>Sacks:</strong> R1C1 (sum 9, 1**): (1, 1, 7). R1C3 (median 6, sum 15, 2*): (1, 6, 8). R2C1 (median 2, sum 12, 1**): (1, 2, 9). R2C2 (sum 6, 0*): (1, 2, 3). R3C2 (sum 18, 2**): needs min 1 and max 9, so (1, 8, 9). The rest: R1C2 (3, 9, 9), R2C3 (9, 9, 9), R3C1 (7, 8, 9), R3C3 (1, 1, 1).</p><p>Sacks with 1 coin: R1C1 two, R1C3 one, R2C1 one, R2C2 one, R3C2 one, R3C3 three. Total = <strong>9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "TITA",
+   "setKey": "DI3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid puzzles",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many boxes do all three sacks contain different numbers of coins? (type in numerical)</p>",
+   "answer": "5",
+   "solutionHtml": "<p><strong>Averages.</strong> Nine distinct integer averages between 1 and 9 must be exactly 1–9, so the grand total is 3 × 45 = 135 and each row and each column holds 45 coins, i.e. the averages in every row and column add up to 15.</p><ul><li>Average 1 means (1, 1, 1): 0 sacks above 5 with conditions i and ii, so it is marked 0**. That is only R3C3.</li><li>R1C2 (median 9, 2*): (x, 9, 9) with x ≤ 5 and x ≠ 1 (only one condition); the sum must be divisible by 3, so x = 3: <strong>(3, 9, 9)</strong>, average 7.</li><li>R3C1 (median 8, 3*): all sacks above 5 and the only condition possible is max = 9: (a, 8, 9) with 3 | a + 17, so a = 7: <strong>(7, 8, 9)</strong>, average 8.</li><li>Average 9 = (9, 9, 9) is marked 3*, so it is R2C3.</li></ul><p>Using row and column sums of 15, the averages are:</p><table><thead><tr><th></th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>3</td><td>7</td><td>5</td></tr><tr><td>R2</td><td>4</td><td>2</td><td>9</td></tr><tr><td>R3</td><td>8</td><td>6</td><td>1</td></tr></tbody></table><p><strong>Sacks:</strong> R1C1 (sum 9, 1**): (1, 1, 7). R1C3 (median 6, sum 15, 2*): (1, 6, 8). R2C1 (median 2, sum 12, 1**): (1, 2, 9). R2C2 (sum 6, 0*): (1, 2, 3). R3C2 (sum 18, 2**): needs min 1 and max 9, so (1, 8, 9). The rest: R1C2 (3, 9, 9), R2C3 (9, 9, 9), R3C1 (7, 8, 9), R3C3 (1, 1, 1).</p><p>All different: (1, 6, 8), (1, 2, 9), (1, 2, 3), (7, 8, 9), (1, 8, 9), which is <strong>5</strong> boxes. (1, 1, 7), (3, 9, 9), (9, 9, 9) and (1, 1, 1) each have a repeat.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "DI4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was the total amount spent on tickets (in Rs.) by Bipasha?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "100"
+    },
+    {
+     "id": "B",
+     "textHtml": "120"
+    },
+    {
+     "id": "C",
+     "textHtml": "110"
+    },
+    {
+     "id": "D",
+     "textHtml": "90"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Chitra:</strong> Anjali waits for Chitra on Ride-1, so Chitra rides Ride-1 from 10 to 11. Her Rs. 50 = 20 + 30, so she also took Ride-3, at 9–10 (no waiting, done by 11).</p><p><strong>By 12:15:</strong> Bipasha's first ride starts at 11:30, so she has bought only one ticket, and it must be Rs. 50 (Ride-2, 11:30–12:30). Anjali has Ride-1 (Rs. 20, 11–12) and, with no break, her next ride starts at 12:00; she needs Rs. 30 more, so it is <strong>Ride-3, 12–1</strong> (it ends by 1 pm as required). She took nothing before 10:30, since that would push her above Rs. 50.</p><p><strong>Afternoon:</strong> Bipasha's second ride starts at 12:30 and ends at 1:30, followed by a coffee break until 2:30. She then waits 30 min and rides 3–4, so Anjali was on that ride 2–3. Their common last ride cannot be Ride-2 (Bipasha has done it), Ride-1 or Ride-3 (Anjali has done them), so it is <strong>Ride-4</strong>. Anjali, with no break, rides 1–2 on her remaining ride, <strong>Ride-2</strong>. Bipasha's 12:30 ride is <strong>Ride-1</strong> (Ride-3 would end after 1 pm, and Ride-4 is her last).</p><table><thead><tr><th>Visitor</th><th>Rides (time)</th><th>Spent (Rs.)</th></tr></thead><tbody><tr><td>Chitra</td><td>R3 9–10, R1 10–11</td><td>50</td></tr><tr><td>Anjali</td><td>R1 11–12, R3 12–1, R2 1–2, R4 2–3</td><td>140</td></tr><tr><td>Bipasha</td><td>R2 11:30–12:30, R1 12:30–1:30, R4 3–4</td><td>110</td></tr></tbody></table><p>Bipasha: Ride-2 + Ride-1 + Ride-4 = 50 + 20 + 40 = <strong>110</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "DI4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which were all the rides that Anjali completed by 2:00 pm?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Ride-1 and Ride-4"
+    },
+    {
+     "id": "B",
+     "textHtml": "Ride-1, Ride-2, and Ride-4"
+    },
+    {
+     "id": "C",
+     "textHtml": "Ride-1, Ride-2, and Ride-3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Ride-1 and Ride-3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Chitra:</strong> Anjali waits for Chitra on Ride-1, so Chitra rides Ride-1 from 10 to 11. Her Rs. 50 = 20 + 30, so she also took Ride-3, at 9–10 (no waiting, done by 11).</p><p><strong>By 12:15:</strong> Bipasha's first ride starts at 11:30, so she has bought only one ticket, and it must be Rs. 50 (Ride-2, 11:30–12:30). Anjali has Ride-1 (Rs. 20, 11–12) and, with no break, her next ride starts at 12:00; she needs Rs. 30 more, so it is <strong>Ride-3, 12–1</strong> (it ends by 1 pm as required). She took nothing before 10:30, since that would push her above Rs. 50.</p><p><strong>Afternoon:</strong> Bipasha's second ride starts at 12:30 and ends at 1:30, followed by a coffee break until 2:30. She then waits 30 min and rides 3–4, so Anjali was on that ride 2–3. Their common last ride cannot be Ride-2 (Bipasha has done it), Ride-1 or Ride-3 (Anjali has done them), so it is <strong>Ride-4</strong>. Anjali, with no break, rides 1–2 on her remaining ride, <strong>Ride-2</strong>. Bipasha's 12:30 ride is <strong>Ride-1</strong> (Ride-3 would end after 1 pm, and Ride-4 is her last).</p><table><thead><tr><th>Visitor</th><th>Rides (time)</th><th>Spent (Rs.)</th></tr></thead><tbody><tr><td>Chitra</td><td>R3 9–10, R1 10–11</td><td>50</td></tr><tr><td>Anjali</td><td>R1 11–12, R3 12–1, R2 1–2, R4 2–3</td><td>140</td></tr><tr><td>Bipasha</td><td>R2 11:30–12:30, R1 12:30–1:30, R4 3–4</td><td>110</td></tr></tbody></table><p>By 2:00 pm Anjali has finished Ride-1 (12), Ride-3 (1) and Ride-2 (2). Answer: <strong>Ride-1, Ride-2 and Ride-3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "DI4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which ride was taken by all three visitors?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Ride-4"
+    },
+    {
+     "id": "B",
+     "textHtml": "Ride-2"
+    },
+    {
+     "id": "C",
+     "textHtml": "Ride-3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Ride-1"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Chitra:</strong> Anjali waits for Chitra on Ride-1, so Chitra rides Ride-1 from 10 to 11. Her Rs. 50 = 20 + 30, so she also took Ride-3, at 9–10 (no waiting, done by 11).</p><p><strong>By 12:15:</strong> Bipasha's first ride starts at 11:30, so she has bought only one ticket, and it must be Rs. 50 (Ride-2, 11:30–12:30). Anjali has Ride-1 (Rs. 20, 11–12) and, with no break, her next ride starts at 12:00; she needs Rs. 30 more, so it is <strong>Ride-3, 12–1</strong> (it ends by 1 pm as required). She took nothing before 10:30, since that would push her above Rs. 50.</p><p><strong>Afternoon:</strong> Bipasha's second ride starts at 12:30 and ends at 1:30, followed by a coffee break until 2:30. She then waits 30 min and rides 3–4, so Anjali was on that ride 2–3. Their common last ride cannot be Ride-2 (Bipasha has done it), Ride-1 or Ride-3 (Anjali has done them), so it is <strong>Ride-4</strong>. Anjali, with no break, rides 1–2 on her remaining ride, <strong>Ride-2</strong>. Bipasha's 12:30 ride is <strong>Ride-1</strong> (Ride-3 would end after 1 pm, and Ride-4 is her last).</p><table><thead><tr><th>Visitor</th><th>Rides (time)</th><th>Spent (Rs.)</th></tr></thead><tbody><tr><td>Chitra</td><td>R3 9–10, R1 10–11</td><td>50</td></tr><tr><td>Anjali</td><td>R1 11–12, R3 12–1, R2 1–2, R4 2–3</td><td>140</td></tr><tr><td>Bipasha</td><td>R2 11:30–12:30, R1 12:30–1:30, R4 3–4</td><td>110</td></tr></tbody></table><p>Chitra took only Rides 1 and 3; Bipasha took 2, 1 and 4. The only common ride is <strong>Ride-1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "TITA",
+   "setKey": "DI4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many rides did Anjali and Chitra take in total? (type in numerical)</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Chitra:</strong> Anjali waits for Chitra on Ride-1, so Chitra rides Ride-1 from 10 to 11. Her Rs. 50 = 20 + 30, so she also took Ride-3, at 9–10 (no waiting, done by 11).</p><p><strong>By 12:15:</strong> Bipasha's first ride starts at 11:30, so she has bought only one ticket, and it must be Rs. 50 (Ride-2, 11:30–12:30). Anjali has Ride-1 (Rs. 20, 11–12) and, with no break, her next ride starts at 12:00; she needs Rs. 30 more, so it is <strong>Ride-3, 12–1</strong> (it ends by 1 pm as required). She took nothing before 10:30, since that would push her above Rs. 50.</p><p><strong>Afternoon:</strong> Bipasha's second ride starts at 12:30 and ends at 1:30, followed by a coffee break until 2:30. She then waits 30 min and rides 3–4, so Anjali was on that ride 2–3. Their common last ride cannot be Ride-2 (Bipasha has done it), Ride-1 or Ride-3 (Anjali has done them), so it is <strong>Ride-4</strong>. Anjali, with no break, rides 1–2 on her remaining ride, <strong>Ride-2</strong>. Bipasha's 12:30 ride is <strong>Ride-1</strong> (Ride-3 would end after 1 pm, and Ride-4 is her last).</p><table><thead><tr><th>Visitor</th><th>Rides (time)</th><th>Spent (Rs.)</th></tr></thead><tbody><tr><td>Chitra</td><td>R3 9–10, R1 10–11</td><td>50</td></tr><tr><td>Anjali</td><td>R1 11–12, R3 12–1, R2 1–2, R4 2–3</td><td>140</td></tr><tr><td>Bipasha</td><td>R2 11:30–12:30, R1 12:30–1:30, R4 3–4</td><td>110</td></tr></tbody></table><p>Anjali 4 + Chitra 2 = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "TITA",
+   "setKey": "DI4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was the total amount spent on tickets (in Rs.) by Anjali? (type in numerical)</p>",
+   "answer": "140",
+   "solutionHtml": "<p><strong>Chitra:</strong> Anjali waits for Chitra on Ride-1, so Chitra rides Ride-1 from 10 to 11. Her Rs. 50 = 20 + 30, so she also took Ride-3, at 9–10 (no waiting, done by 11).</p><p><strong>By 12:15:</strong> Bipasha's first ride starts at 11:30, so she has bought only one ticket, and it must be Rs. 50 (Ride-2, 11:30–12:30). Anjali has Ride-1 (Rs. 20, 11–12) and, with no break, her next ride starts at 12:00; she needs Rs. 30 more, so it is <strong>Ride-3, 12–1</strong> (it ends by 1 pm as required). She took nothing before 10:30, since that would push her above Rs. 50.</p><p><strong>Afternoon:</strong> Bipasha's second ride starts at 12:30 and ends at 1:30, followed by a coffee break until 2:30. She then waits 30 min and rides 3–4, so Anjali was on that ride 2–3. Their common last ride cannot be Ride-2 (Bipasha has done it), Ride-1 or Ride-3 (Anjali has done them), so it is <strong>Ride-4</strong>. Anjali, with no break, rides 1–2 on her remaining ride, <strong>Ride-2</strong>. Bipasha's 12:30 ride is <strong>Ride-1</strong> (Ride-3 would end after 1 pm, and Ride-4 is her last).</p><table><thead><tr><th>Visitor</th><th>Rides (time)</th><th>Spent (Rs.)</th></tr></thead><tbody><tr><td>Chitra</td><td>R3 9–10, R1 10–11</td><td>50</td></tr><tr><td>Anjali</td><td>R1 11–12, R3 12–1, R2 1–2, R4 2–3</td><td>140</td></tr><tr><td>Bipasha</td><td>R2 11:30–12:30, R1 12:30–1:30, R4 3–4</td><td>110</td></tr></tbody></table><p>Anjali: 20 + 30 + 50 + 40 = <strong>140</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

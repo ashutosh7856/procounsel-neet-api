@@ -1,0 +1,631 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "easy",
+   "stemHtml": "<p>If x and y are positive real numbers such that log<sub>x</sub>(x<sup>2</sup> + 12) = 4 and 3 log<sub>y</sub>x = 1, then x + y equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "11"
+    },
+    {
+     "id": "B",
+     "textHtml": "20"
+    },
+    {
+     "id": "C",
+     "textHtml": "68"
+    },
+    {
+     "id": "D",
+     "textHtml": "10"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>log<sub>x</sub>(x<sup>2</sup> + 12) = 4 means x<sup>4</sup> = x<sup>2</sup> + 12, i.e. (x<sup>2</sup> − 4)(x<sup>2</sup> + 3) = 0, so <strong>x<sup>2</sup> = 4, x = 2</strong> (x &gt; 0).</p><p>3 log<sub>y</sub>x = 1 gives log<sub>y</sub>x = 1/3, so x = y<sup>1/3</sup>, i.e. <strong>y = x<sup>3</sup> = 8</strong>.</p><p>x + y = 2 + 8 = <strong>10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Factors & powers",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let n be the least positive integer such that 168 is a factor of 1134<sup>n</sup>. If m is the least positive integer such that 1134<sup>n</sup> is a factor of 168<sup>m</sup>, then m + n equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "9"
+    },
+    {
+     "id": "B",
+     "textHtml": "24"
+    },
+    {
+     "id": "C",
+     "textHtml": "15"
+    },
+    {
+     "id": "D",
+     "textHtml": "12"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Factorise: 168 = 2<sup>3</sup> × 3 × 7 and 1134 = 2 × 3<sup>4</sup> × 7.</p><p>For 168 | 1134<sup>n</sup> we need 2<sup>n</sup> to contain 2<sup>3</sup>, so <strong>n = 3</strong>. Then 1134<sup>3</sup> = 2<sup>3</sup> × 3<sup>12</sup> × 7<sup>3</sup>.</p><p>168<sup>m</sup> = 2<sup>3m</sup> × 3<sup>m</sup> × 7<sup>m</sup>; the power of 3 forces m ≥ 12, so <strong>m = 12</strong>.</p><p>m + n = <strong>15</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>If x and y are real numbers such that x<sup>2</sup> + (x − 2y − 1)<sup>2</sup> = −4y(x + y), then the value x − 2y is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "0"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "−1"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Move everything to one side: x<sup>2</sup> + 4xy + 4y<sup>2</sup> + (x − 2y − 1)<sup>2</sup> = 0, i.e. <strong>(x + 2y)<sup>2</sup> + (x − 2y − 1)<sup>2</sup> = 0</strong>.</p><p>A sum of two real squares is 0 only when both are 0, so x − 2y − 1 = 0, giving <strong>x − 2y = 1</strong> (with x = 1/2, y = −1/4).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Surds",
+   "difficulty": "medium",
+   "stemHtml": "<p>If √(5x + 9) + √(5x − 9) = 3(2 + √2), then √(10x + 9) is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3√31"
+    },
+    {
+     "id": "B",
+     "textHtml": "3√7"
+    },
+    {
+     "id": "C",
+     "textHtml": "2√7"
+    },
+    {
+     "id": "D",
+     "textHtml": "4√5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let a = √(5x + 9) and b = √(5x − 9). Then <strong>a<sup>2</sup> − b<sup>2</sup> = 18</strong> and a + b = 3(2 + √2).</p><p>So a − b = 18 / (3(2 + √2)) = 6/(2 + √2) = 6(2 − √2)/2 = 3(2 − √2).</p><p>Adding: 2a = 3(2 + √2) + 3(2 − √2) = 12, so a = 6 and 5x + 9 = 36, x = 27/5.</p><p>√(10x + 9) = √(54 + 9) = √63 = <strong>3√7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Modulus equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of integer solutions of equation 2|x| (x<sup>2</sup> + 1) = 5x<sup>2</sup> is</p>",
+   "answer": "3",
+   "solutionHtml": "<p>x = 0 clearly works.</p><p>For x ≠ 0 write x<sup>2</sup> = |x|<sup>2</sup> and divide by |x|: 2(|x|<sup>2</sup> + 1) = 5|x|, i.e. 2t<sup>2</sup> − 5t + 2 = 0 with t = |x|. So <strong>t = 2 or t = 1/2</strong>.</p><p>Integer solutions: x = 0, 2, −2 (x = ±1/2 are not integers). Answer: <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let α and β be the two distinct roots of the equation 2x<sup>2</sup> − 6x + k = 0, such that (α + β) and αβ are the distinct roots of the equation x<sup>2</sup> + px + p = 0. Then, the value of 8(k − p) is</p>",
+   "answer": "6",
+   "solutionHtml": "<p>From the first equation: α + β = 3, αβ = k/2.</p><p>These are the roots of x<sup>2</sup> + px + p = 0, so their sum is −p and product is p: <strong>3 + k/2 = −p</strong> and <strong>3k/2 = p</strong>.</p><p>Then 3 + k/2 = −3k/2 ⇒ 2k = −3 ⇒ k = −3/2, and p = −9/4.</p><p>Check: 2x<sup>2</sup> − 6x − 3/2 has discriminant 36 + 12 &gt; 0 (distinct roots), and 3 ≠ −3/4.</p><p>8(k − p) = 8(−3/2 + 9/4) = 8 × 3/4 = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Polynomials",
+   "difficulty": "medium",
+   "stemHtml": "<p>The equation x<sup>3</sup> + (2r + 1)x<sup>2</sup> + (4r − 1)x + 2 = 0 has −2 as one of the roots. If the other two roots are real, then the minimum possible non-negative integer value of r is</p>",
+   "answer": "2",
+   "solutionHtml": "<p>Divide by (x + 2): x<sup>3</sup> + (2r + 1)x<sup>2</sup> + (4r − 1)x + 2 = <strong>(x + 2)(x<sup>2</sup> + (2r − 1)x + 1)</strong> (expand to check: the x<sup>2</sup> coefficient is 2r + 1 and the x coefficient is 4r − 1).</p><p>The quadratic has real roots when (2r − 1)<sup>2</sup> ≥ 4, i.e. |2r − 1| ≥ 2, so r ≥ 3/2 or r ≤ −1/2.</p><p>r = 0 and r = 1 fail; the least non-negative integer is <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Clocks",
+   "difficulty": "medium",
+   "stemHtml": "<p>The minor angle between the hours hand and minutes hand of a clock was observed at 8:48 am. The minimum duration, in minutes, after 8.48 am when this angle increases by 50% is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "24/11"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "36/11"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>At 8:48 the minute hand is at 48 × 6 = 288° and the hour hand at 8 × 30 + 48 × 0.5 = 264°. Angle = <strong>24°</strong>, minute hand ahead.</p><p>We need 24 × 1.5 = 36°. The minute hand gains 5.5° per minute, so the angle grows to 36° after (36 − 24)/5.5 = 12/5.5 = <strong>24/11 minutes</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & alligation",
+   "difficulty": "easy",
+   "stemHtml": "<p>A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa in the mixture Q is 16 : 9, then the ratio of cocoa in mixture P to that in mixture Q is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5 : 9"
+    },
+    {
+     "id": "B",
+     "textHtml": "4 : 9"
+    },
+    {
+     "id": "C",
+     "textHtml": "1 : 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "1 : 2"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Let the fraction replaced each time be f. Coffee left after two replacements = (1 − f)<sup>2</sup> = 16/25, so <strong>1 − f = 4/5</strong>.</p><p>In P, cocoa = 1/5 of the jar = 5/25; in Q, cocoa = 9/25.</p><p>Ratio = 5 : 9.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "hard",
+   "stemHtml": "<p>In an examination, the average marks of 4 girls and 6 boys is 24. Each of the girls has the same marks while each of the boys has the same marks. If the marks of any girl is at most double the marks of any boy, but not less than the marks of any boy, then the number of possible distinct integer values of the total marks of 2 girls and 6 boys is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "19"
+    },
+    {
+     "id": "B",
+     "textHtml": "21"
+    },
+    {
+     "id": "C",
+     "textHtml": "22"
+    },
+    {
+     "id": "D",
+     "textHtml": "20"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let each girl score g and each boy b. Then 4g + 6b = 240, so <strong>g = 60 − 1.5b</strong>, with b ≤ g ≤ 2b.</p><p>g ≥ b ⇒ 60 ≥ 2.5b ⇒ b ≤ 24. g ≤ 2b ⇒ 60 ≤ 3.5b ⇒ b ≥ 120/7 ≈ 17.14.</p><p>Required total = 2g + 6b = 120 − 3b + 6b = <strong>120 + 3b</strong>, which ranges continuously over [120 + 360/7, 192] ≈ [171.4, 192].</p><p>Integer values: 172, 173, …, 192, i.e. <strong>21</strong> values (marks themselves need not be integers).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Palindromes",
+   "difficulty": "easy",
+   "stemHtml": "<p>Brishti went on an 8-hour trip in a car. Before the trip, the car had travelled a total of x km till then, where x is a whole number and is palindromic, i.e., x remains unchanged when its digits are reversed. At the end of the trip, the car had traveled a total of 26862 km till then, this number again being palindromic. If Brishti never drove at more than 110 km/hr, then the greatest possible average speed at which she drove during the trip, in km/hr, was</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "80"
+    },
+    {
+     "id": "B",
+     "textHtml": "90"
+    },
+    {
+     "id": "C",
+     "textHtml": "110"
+    },
+    {
+     "id": "D",
+     "textHtml": "100"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Maximum distance in 8 hours = 8 × 110 = 880 km, so x ≥ 26862 − 880 = 25982.</p><p>Palindromes just below 26862: 26762, 26662, …, 26062, then 25952. <strong>The smallest allowed one is 26062</strong> (25952 is too far).</p><p>Distance = 26862 − 26062 = 800 km, average speed = 800/8 = <strong>100 km/hr</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "easy",
+   "stemHtml": "<p>Gita sells two objects A and B at the same price such that she makes a profit of 20% on object A and a loss of 10% on object B. If she increases the selling price such that objects A and B are still sold at an equal price and a profit of 10% is made on object B, then the profit made on object A will be nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "42%"
+    },
+    {
+     "id": "B",
+     "textHtml": "49%"
+    },
+    {
+     "id": "C",
+     "textHtml": "47%"
+    },
+    {
+     "id": "D",
+     "textHtml": "45%"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let the common selling price be 36. Cost of A = 36/1.2 = 30, cost of B = 36/0.9 = 40.</p><p>New price = 1.1 × 40 = 44 for both.</p><p>Profit on A = (44 − 30)/30 = 14/30 ≈ <strong>46.7% ≈ 47%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>The salaries of three friends Sita, Gita and Mita are initially in the ratio 5 : 6 : 7, respectively. In the first year, they get salary hikes of 20%, 25% and 20%, respectively. In the second year, Sita and Mita get salary hikes of 40% and 25%, respectively, and the salary of Gita becomes equal to the mean salary of the three friends. The salary hike of Gita in the second year is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "26%"
+    },
+    {
+     "id": "B",
+     "textHtml": "25%"
+    },
+    {
+     "id": "C",
+     "textHtml": "28%"
+    },
+    {
+     "id": "D",
+     "textHtml": "30%"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Take salaries 5, 6, 7. After year 1: Sita 6, Gita 7.5, Mita 8.4.</p><p>After year 2: Sita 8.4, Mita 10.5, Gita = G with G = (8.4 + 10.5 + G)/3 ⇒ 2G = 18.9 ⇒ <strong>G = 9.45</strong>.</p><p>Hike = 9.45/7.5 − 1 = 0.26 = <strong>26%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "easy",
+   "stemHtml": "<p>Arvind travels from town A to town B, and Surbhi from town B to town A, both starting at the same time along the same route. After meeting each other, Arvind takes 6 hours to reach town B while Surbhi takes 24 hours to reach town A. If Arvind travelled at a speed of 54 km/h, then the distance, in km, between town A and town B is</p>",
+   "answer": "972",
+   "solutionHtml": "<p><strong>Key fact:</strong> if after meeting the two take t<sub>1</sub> and t<sub>2</sub> hours, speed ratio = √(t<sub>2</sub>/t<sub>1</sub>). Here v<sub>A</sub>/v<sub>S</sub> = √(24/6) = 2, so Surbhi's speed = 27 km/h.</p><p>After the meeting Arvind covers 54 × 6 = 324 km; Surbhi covered this same stretch before the meeting, taking 324/27 = 12 hours. So they met after 12 hours.</p><p>Distance = 54 × (12 + 6) = <strong>972 km</strong>. (Check: Surbhi 27 × 36 = 972.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Compound interest",
+   "difficulty": "medium",
+   "stemHtml": "<p>Anil invests Rs. 22000 for 6 years in a certain scheme with 4% interest per annum, compounded half-yearly. Sunil invests in the same scheme for 5 years, and then reinvests the entire amount received at the end of 5 years for one year at 10% simple interest. If the amounts received by both at the end of 6 years are same, then the initial investment made by Sunil, in rupees, is</p>",
+   "answer": "20808",
+   "solutionHtml": "<p>Half-yearly rate = 2%. Anil gets 22000 × 1.02<sup>12</sup>. Sunil gets P × 1.02<sup>10</sup> × 1.10.</p><p>Equating: P = 22000 × 1.02<sup>2</sup> / 1.1 = <strong>20000 × 1.0404 = 20808</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "medium",
+   "stemHtml": "<p>The amount of job that Amal, Sunil and Kamal can individually do in a day, are in harmonic progression. Kamal takes twice as much time as Amal to do the same amount of job. If Amal and Sunil work for 4 days and 9 days, respectively, Kamal needs to work for 16 days to finish the remaining job. Then the number of days Sunil will take to finish the job working alone, is</p>",
+   "answer": "27",
+   "solutionHtml": "<p>Daily work rates in HP means <strong>the times taken are in AP</strong>. Let Amal take T days; Kamal takes 2T, so Sunil takes (T + 2T)/2 = 1.5T.</p><p>Work done: 4/T + 9/(1.5T) + 16/(2T) = 4/T + 6/T + 8/T = 18/T = 1 ⇒ T = 18.</p><p>Sunil alone: 1.5 × 18 = <strong>27 days</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles & cyclic quadrilaterals",
+   "difficulty": "medium",
+   "stemHtml": "<p>A quadrilateral ABCD is inscribed in a circle such that AB : CD = 2 : 1 and BC : AD = 5 : 4. If AC and BD intersect at the point E, then AE : CE equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5 : 8"
+    },
+    {
+     "id": "B",
+     "textHtml": "8 : 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "1 : 2"
+    },
+    {
+     "id": "D",
+     "textHtml": "2 : 1"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>In a cyclic quadrilateral the diagonals create two pairs of similar triangles.</p><p>△AEB ∼ △DEC (angles on the same arcs): BE/CE = AB/DC = 2, so BE = 2CE.</p><p>△AED ∼ △BEC: AE/BE = AD/BC = 4/5, so AE = (4/5) × 2CE = (8/5)CE.</p><p>AE : CE = <strong>8 : 5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let C be the circle x<sup>2</sup> + y<sup>2</sup> + 4x − 6y − 3 = 0 and L be the locus of the point of intersection of a pair of tangents to C with the angle between the two tangents equal to 60°. Then, the point at which L touches the line x = 6 is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(6, 8)"
+    },
+    {
+     "id": "B",
+     "textHtml": "(6, 4)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(6, 6)"
+    },
+    {
+     "id": "D",
+     "textHtml": "(6, 3)"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>C has centre (−2, 3) and radius √(4 + 9 + 3) = 4.</p><p>If the tangents from P meet at 60°, the line from P to the centre bisects that angle, so sin 30° = r/OP ⇒ <strong>OP = 8</strong>. L is the circle with centre (−2, 3) and radius 8.</p><p>The vertical line x = 6 is at distance 8 from the centre, so it touches L at the point level with the centre: <strong>(6, 3)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Triangles",
+   "difficulty": "easy",
+   "stemHtml": "<p>In a right-angled triangle ΔABC, the altitude AB is 5 cm, and the base BC is 12 cm. P and Q are two points on BC such that the areas of ΔABP, ΔABQ and ΔABC are in arithmetic progression. If the area of ΔABC is 1.5 times the area of ΔABP, the length of PQ, in cm, is</p>",
+   "answer": "2",
+   "solutionHtml": "<p>All three triangles have height AB = 5 from the base line BC, so their areas are proportional to BP, BQ and BC.</p><p>Area ABC = 30, so area ABP = 20 ⇒ BP = 8.</p><p>AP condition: area ABQ = (20 + 30)/2 = 25 ⇒ BQ = 10.</p><p>PQ = 10 − 8 = <strong>2 cm</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Progressions",
+   "difficulty": "medium",
+   "stemHtml": "<p>For some positive and distinct real numbers x, y and z, if 1/(√y + √z) is the arithmetic mean of 1/(√x + √z) and 1/(√x + √y), then the relationship which will always hold true, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "y, x and z are in arithmetic progression"
+    },
+    {
+     "id": "B",
+     "textHtml": "x, y and z are in arithmetic progression"
+    },
+    {
+     "id": "C",
+     "textHtml": "√x, √z and √y are in arithmetic progression"
+    },
+    {
+     "id": "D",
+     "textHtml": "√x, √y and √z are in arithmetic progression"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Write a = √x, b = √y, c = √z. Given 2/(b + c) = 1/(a + c) + 1/(a + b).</p><p><strong>Subtract in pairs:</strong> 1/(b + c) − 1/(a + c) = 1/(a + b) − 1/(b + c) ⇒ (a − b)/((b + c)(a + c)) = (c − a)/((a + b)(b + c)).</p><p>Cancel (b + c): (a − b)(a + b) = (c − a)(c + a) ⇒ a<sup>2</sup> − b<sup>2</sup> = c<sup>2</sup> − a<sup>2</sup> ⇒ <strong>2x = y + z</strong>.</p><p>So y, x and z are in arithmetic progression.</p><p>Check: y = 1, x = 4, z = 7 gives 1/(1 + √7) ≈ 0.2743 and the mean of 1/(2 + √7) ≈ 0.2153 and 1/3 is 0.2743.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Permutations & combinations",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of all natural numbers up to 1000 with non-repeating digits is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "738"
+    },
+    {
+     "id": "B",
+     "textHtml": "648"
+    },
+    {
+     "id": "C",
+     "textHtml": "504"
+    },
+    {
+     "id": "D",
+     "textHtml": "585"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>1-digit: 9. 2-digit: 9 × 9 = 81. 3-digit: 9 × 9 × 8 = 648. 1000 repeats its zeros.</p><p>Total = 9 + 81 + 648 = <strong>738</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Sequences & recurrences",
+   "difficulty": "easy",
+   "stemHtml": "<p>A lab experiment measures the number of organisms at 8 am every day. Starting with 2 organisms on the first day, the number of organisms on any day is equal to 3 more than twice the number on the previous day. If the number of organisms on nth day exceeds one million, then the lowest possible value of n is</p>",
+   "answer": "19",
+   "solutionHtml": "<p>a<sub>n</sub> = 2a<sub>n−1</sub> + 3. <strong>Add 3:</strong> a<sub>n</sub> + 3 = 2(a<sub>n−1</sub> + 3), so a<sub>n</sub> + 3 = 5 × 2<sup>n−1</sup> (since a<sub>1</sub> + 3 = 5).</p><p>We need 5 × 2<sup>n−1</sup> − 3 &gt; 10<sup>6</sup> ⇒ 2<sup>n−1</sup> &gt; 200000.6.</p><p>2<sup>17</sup> = 131072 is too small, 2<sup>18</sup> = 262144 works, so n − 1 = 18, <strong>n = 19</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

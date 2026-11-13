@@ -1,0 +1,792 @@
+{
+  "sets": [
+    {
+      "key": "S1",
+      "kind": "dilr_set",
+      "title": "Coloured beads in a 5 × 5 grid",
+      "contentHtml": "<p>Twenty five coloured beads are to be arranged in a grid comprising of five rows and five columns. Each cell in the grid must contain exactly one bead. Each bead is coloured either Red, Blue or Green.</p><p>While arranging the beads along any of the five rows or along any of the five columns, the rules given below are to be followed:</p><ol><li>Two adjacent beads along the same row or column are always of different colours.</li><li>There is at least one Green bead between any two Blue beads along the same row or column.</li><li>There is at least one Blue and at least one Green bead between any two Red beads along the same row or column.</li></ol><p>Every unique, complete arrangement of twenty five beads is called a configuration.</p>"
+    },
+    {
+      "key": "S2",
+      "kind": "dilr_set",
+      "title": "Doctoral seminars",
+      "contentHtml": "<p>The Humanities department of a college is planning to organize eight seminars, one for each of the eight doctoral students - A, B, C, D, E, F, G and H. Four of them are from Economics, three from Sociology and one from Anthropology department. Each student is guided by one among P, Q, R, S and T. Two students are guided by each of P, R and T, while one student is guided by each of Q and S. Each student is guided by a guide belonging to their department.</p><p>Each seminar is to be scheduled in one of four consecutive 30-minute slots starting at 9:00 am, 9:30 am, 10:00 am and 10:30 am on the same day. More than one seminar can be scheduled in a slot, provided the guide is free. Only three rooms are available and hence at the most three seminars can be scheduled in a slot. Students who are guided by the same guide must be scheduled in consecutive slots.</p><p>The following additional facts are also known.</p><ol><li>Seminars by students from Economics are scheduled in each of the four slots.</li><li>A’s is the only seminar that is scheduled at 10:00 am. A is guided by R.</li><li>F is an Anthropology student whose seminar is scheduled at 10:30 am.</li><li>The seminar of a Sociology student is scheduled at 9:00 am.</li><li>B and G are both Sociology students, whose seminars are scheduled in the same slot. The seminar of an Economics student, who is guided by T, is also scheduled in the same slot.</li><li>P, who is guiding both B and C, has students scheduled in the first two slots.</li><li>A and G are scheduled in two consecutive slots.</li></ol>"
+    },
+    {
+      "key": "S3",
+      "kind": "dilr_set",
+      "title": "Election and security deposits",
+      "contentHtml": "<p>In an election several candidates contested for a constituency. In any constituency, the winning candidate was the one who polled the highest number of votes, the first runner up was the one who polled the second highest number of votes, the second runner up was the one who polled the third highest number of votes, and so on. There were no ties (in terms of number of votes polled by the candidates) in any of the constituencies in this election.</p><p>In an electoral system, a security deposit is the sum of money that a candidate is required to pay to the election commission before he or she is permitted to contest. Only the defeated candidates (i.e., one who is not the winning candidate) who fail to secure more than one sixth of the valid votes polled in the constituency, lose their security deposits.</p><p>The following table provides some incomplete information about votes polled in four constituencies: A, B, C and D, in this election.</p><table><thead><tr><th></th><th colspan=\"4\">Constituency</th></tr><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody><tr><td>No. of candidates contesting</td><td>10</td><td>12</td><td>5</td><td>8</td></tr><tr><td>Total No. of valid votes polled</td><td>5,00,000</td><td>3,25,000</td><td>6,00,030</td><td></td></tr><tr><td>No. of votes polled by the winning candidate</td><td>2,75,000</td><td>48,750</td><td></td><td></td></tr><tr><td>No. of votes polled by the first runner up</td><td>95,000</td><td></td><td></td><td>37,500</td></tr><tr><td>No. of votes polled by the second runner up</td><td></td><td></td><td></td><td>30,000</td></tr><tr><td>% of valid votes polled by the third runner up</td><td></td><td></td><td></td><td>10%</td></tr></tbody></table><p>The following additional facts are known:</p><ol><li>The first runner up polled 10,000 more votes than the second runner up in constituency A.</li><li>None of the candidates who contested in constituency C lost their security deposit. The difference in votes polled by any pair of candidates in this constituency was at least 10,000.</li><li>The winning candidate in constituency D polled 5% of valid votes more than that of the first runner up. All the candidates who lost their security deposits while contesting for this constituency, put together, polled 35% of the valid votes.</li></ol>"
+    },
+    {
+      "key": "S4",
+      "kind": "dilr_set",
+      "title": "Departmental store sales",
+      "contentHtml": "<p>A chain of departmental stores has outlets in Delhi, Mumbai, Bengaluru and Kolkata. The sales are categorized by its three departments – ‘Apparel’, ‘Electronics’, and ‘Home Decor’. An Accountant has been asked to prepare a summary of the 2018 and 2019 sales amounts for an internal report. He has collated partial information and prepared the following table.</p><p><strong>Sales Amounts (Crore Rupees)</strong></p><table><thead><tr><th></th><th colspan=\"2\">Delhi</th><th colspan=\"2\">Mumbai</th><th colspan=\"2\">Bengaluru</th><th colspan=\"2\">Kolkata</th></tr><tr><th></th><th>2018</th><th>2019</th><th>2018</th><th>2019</th><th>2018</th><th>2019</th><th>2018</th><th>2019</th></tr></thead><tbody><tr><td>Apparels</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>54</td></tr><tr><td>Electronics</td><td>78</td><td>98</td><td>82</td><td>102</td><td>90</td><td>70</td><td>80</td><td>100</td></tr><tr><td>Home Decor</td><td>-</td><td>100</td><td>-</td><td>72</td><td>-</td><td>80</td><td>-</td><td>54</td></tr></tbody></table><p>The following additional information is known.</p><ol><li>The sales amounts in the Apparel departments were the same for Delhi and Kolkata in 2018.</li><li>The sales amounts in the Apparel departments were the same for Mumbai and Bengaluru in 2018. This sales amount matched the sales amount in the Apparel department for Delhi in 2019.</li><li>The sales amounts in the Home Decor departments were the same for Mumbai and Kolkata in 2018.</li><li>The sum of the sales amounts of four Electronics departments increased by the same amount as the sum of the sales amounts of four Apparel departments from 2018 to 2019.</li><li>The total sales amounts of the four Home Decor departments increased by Rs 70 Crores from 2018 to 2019.</li><li>The sales amounts in the Home Decor departments of Delhi and Bengaluru each increased by Rs 20 Crores from 2018 to 2019.</li><li>The sales amounts in the Apparel departments of Delhi and Bengaluru each increased by the same amount in 2019 from 2018. The sales amounts in the Apparel departments of Mumbai and Kolkata also each increased by the same amount in 2019 from 2018.</li><li>The sales amounts in the Apparel departments of Delhi, Kolkata and Bengaluru in 2019 followed an Arithmetic Progression.</li></ol>"
+    },
+    {
+      "key": "S5",
+      "kind": "dilr_set",
+      "title": "Basement parking slots",
+      "contentHtml": "<p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an SUV requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.</p><p>For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number 1, the second a number 2, and so on. This numbering does not indicate whether a car is a compact or an SUV. The configuration of a parking lot is a sequence of the car numbers in each slot. Each single vacant slot is represented by letter V.</p><p>For instance, suppose cars numbered 1 through 5 arrive and park, where cars 1, 3 and 5 are compact cars and 2 and 4 are SUVs. At this point, the parking lot would be described by the sequence 1, 2, 3, 4, 5. If cars 2 and 5 now vacate their slots, the parking lot would now be described as 1, V, V, 3, 4. If a compact car (numbered 6) arrives subsequently followed by an SUV (numbered 7), the parking lot would be described by the sequence 1, 6, V, 3, 4, 7.</p><p>Answer the following questions INDEPENDENTLY of each other.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "TITA",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>The total number of possible configurations using beads of only two colors is:</p>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Red cannot be one of the two colours.</strong> With only two colours, rule 1 forces each line to alternate, e.g. X Y X Y X, so some colour appears twice in a line with only the other colour between. If Red is used, two Reds or two of the other colour end up separated only by Red/one colour — Red–Blue–Red or Red–Green–Red breaks rule 3, and Blue–Red–Blue breaks rule 2.</p><p>With Blue and Green the grid must be a checkerboard; two Blues always have a Green between them and Greens have no restriction, so it works.</p><p>A checkerboard is fixed once the top-left colour is chosen (Blue or Green), so there are <strong>2</strong> configurations.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "TITA",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the maximum possible number of Red beads that can appear in any configuration?</p>",
+      "answer": "9",
+      "solutionHtml": "<p><strong>Key facts about one line (row or column) of 5:</strong> two Reds need a Blue and a Green between them, so Reds in a line must be at least 3 places apart — at most 2 Reds per line, only at positions {1,4}, {1,5} or {2,5}. A line with no Blue would alternate Red/Green and put two Reds with only a Green between them, so <strong>every line has at least one Blue</strong>.</p><p>None of the two-Red patterns uses position 3, so a row with a Red in column 3 has only that one Red, and likewise for columns and row 3. If the centre cell is Red, row 3 and column 3 each hold just 1 Red, giving at most 2 × 4 + 1 = 9. If the centre is not Red, counting rows and columns this way gives at most 8. So <strong>9</strong> is the ceiling, and it is reachable:</p><table><tbody><tr><td>Red</td><td>Green</td><td>Blue</td><td>Red</td><td>Green</td></tr><tr><td>Green</td><td>Red</td><td>Green</td><td>Blue</td><td>Red</td></tr><tr><td>Blue</td><td>Green</td><td>Red</td><td>Green</td><td>Blue</td></tr><tr><td>Red</td><td>Blue</td><td>Green</td><td>Red</td><td>Green</td></tr><tr><td>Green</td><td>Red</td><td>Blue</td><td>Green</td><td>Red</td></tr></tbody></table><p>Every row and column here obeys all three rules and there are 9 Reds.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "TITA",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the minimum number of Blue beads in any configuration?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Key facts about one line (row or column) of 5:</strong> two Reds need a Blue and a Green between them, so Reds in a line must be at least 3 places apart — at most 2 Reds per line, only at positions {1,4}, {1,5} or {2,5}. A line with no Blue would alternate Red/Green and put two Reds with only a Green between them, so <strong>every line has at least one Blue</strong>.</p><p>So there are at least 5 Blues (one per row). Can a line have exactly one Blue? Each side of it then alternates Red/Green and can hold at most one Red, so each side has length ≤ 3 (RGR is illegal, GRG is fine). The single Blue must then be in position 2, 3 or 4 — never at an end.</p><p>With exactly 5 Blues, every row and every column would have exactly one Blue, so column 1 would need a Blue — but that Blue would be at the end of its row. Contradiction, so at least <strong>6</strong> Blues are needed. The grid below has exactly 6 Blues:</p><table><tbody><tr><td>Red</td><td>Green</td><td>Blue</td><td>Red</td><td>Green</td></tr><tr><td>Green</td><td>Red</td><td>Green</td><td>Blue</td><td>Red</td></tr><tr><td>Blue</td><td>Green</td><td>Red</td><td>Green</td><td>Blue</td></tr><tr><td>Red</td><td>Blue</td><td>Green</td><td>Red</td><td>Green</td></tr><tr><td>Green</td><td>Red</td><td>Blue</td><td>Green</td><td>Red</td></tr></tbody></table><p>Answer: <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "TITA",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>Two Red beads have been placed in ‘second row, third column’ and ‘third row, second column’. How many more Red beads can be placed so as to maximise the number of Red beads used in the configuration?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Key facts about one line (row or column) of 5:</strong> two Reds need a Blue and a Green between them, so Reds in a line must be at least 3 places apart — at most 2 Reds per line, only at positions {1,4}, {1,5} or {2,5}. A line with no Blue would alternate Red/Green and put two Reds with only a Green between them, so <strong>every line has at least one Blue</strong>.</p><p>The overall maximum of 9 Reds needs a Red at the centre (row 3, column 3), with row 3 and column 3 holding one Red each. Here the centre is adjacent to the Red at (2,3), so it cannot be Red; without a Red centre the row/column counting caps the total at 8.</p><p>8 is achievable with the given Reds:</p><table><tbody><tr><td>Red</td><td>Green</td><td>Blue</td><td>Red</td><td>Green</td></tr><tr><td>Green</td><td>Blue</td><td>Red</td><td>Green</td><td>Blue</td></tr><tr><td>Blue</td><td>Red</td><td>Green</td><td>Blue</td><td>Red</td></tr><tr><td>Red</td><td>Green</td><td>Blue</td><td>Red</td><td>Green</td></tr><tr><td>Green</td><td>Blue</td><td>Red</td><td>Green</td><td>Blue</td></tr></tbody></table><p>Reds: (1,1), (1,4), (2,3), (3,2), (3,5), (4,1), (4,4), (5,3) — 8 in all, all rules hold. So <strong>8 − 2 = 6</strong> more Reds can be placed.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which one of the following statements is true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Three seminars are scheduled in the first slot."
+        },
+        {
+          "id": "B",
+          "textHtml": "Two seminars are scheduled in the first slot."
+        },
+        {
+          "id": "C",
+          "textHtml": "Only one seminar is scheduled in the second slot."
+        },
+        {
+          "id": "D",
+          "textHtml": "Three seminars are scheduled in the last slot."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Grid:</strong> P guides B (Sociology), so P, B, C are Sociology; G is the third Sociology student. F (Anthropology) and G each have a one-student guide, Q or S. R and T guide the four Economics students A, D, E, H. A (R) is alone at 10:00. G must be next to A and in B’s slot, while P’s students are in slots 1–2, so B, G are at 9:30 and C at 9:00. T has an Economics student at 9:30 and the other at 9:00 (10:00 is A only). Slot 4 needs an Economics student, so R’s second student is at 10:30.</p><table><thead><tr><th>Slot</th><th>Seminars</th></tr></thead><tbody><tr><td>9:00</td><td>C (P), one of D/E/H (T)</td></tr><tr><td>9:30</td><td>B (P), G (Q or S), one of D/E/H (T)</td></tr><tr><td>10:00</td><td>A (R)</td></tr><tr><td>10:30</td><td>F (S or Q), one of D/E/H (R)</td></tr></tbody></table><p>Slot counts are 2, 3, 1, 2. So <strong>two seminars are in the first slot</strong> (C and a T student) — B. A, C and D contradict the counts.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who all are NOT guiding any Economics students?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P, Q and S"
+        },
+        {
+          "id": "B",
+          "textHtml": "P, R and S"
+        },
+        {
+          "id": "C",
+          "textHtml": "Q, R and S"
+        },
+        {
+          "id": "D",
+          "textHtml": "P, Q and R"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Grid:</strong> P guides B (Sociology), so P, B, C are Sociology; G is the third Sociology student. F (Anthropology) and G each have a one-student guide, Q or S. R and T guide the four Economics students A, D, E, H. A (R) is alone at 10:00. G must be next to A and in B’s slot, while P’s students are in slots 1–2, so B, G are at 9:30 and C at 9:00. T has an Economics student at 9:30 and the other at 9:00 (10:00 is A only). Slot 4 needs an Economics student, so R’s second student is at 10:30.</p><table><thead><tr><th>Slot</th><th>Seminars</th></tr></thead><tbody><tr><td>9:00</td><td>C (P), one of D/E/H (T)</td></tr><tr><td>9:30</td><td>B (P), G (Q or S), one of D/E/H (T)</td></tr><tr><td>10:00</td><td>A (R)</td></tr><tr><td>10:30</td><td>F (S or Q), one of D/E/H (R)</td></tr></tbody></table><p>The four Economics students (A, D, E, H) are shared by R and T. P guides Sociology students and Q, S guide G and F. So <strong>P, Q and S</strong> guide no Economics student — A.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements is necessarily true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "B is scheduled in the first slot."
+        },
+        {
+          "id": "B",
+          "textHtml": "H is an Economics student."
+        },
+        {
+          "id": "C",
+          "textHtml": "Q is guiding G"
+        },
+        {
+          "id": "D",
+          "textHtml": "S is guiding F."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Grid:</strong> P guides B (Sociology), so P, B, C are Sociology; G is the third Sociology student. F (Anthropology) and G each have a one-student guide, Q or S. R and T guide the four Economics students A, D, E, H. A (R) is alone at 10:00. G must be next to A and in B’s slot, while P’s students are in slots 1–2, so B, G are at 9:30 and C at 9:00. T has an Economics student at 9:30 and the other at 9:00 (10:00 is A only). Slot 4 needs an Economics student, so R’s second student is at 10:30.</p><table><thead><tr><th>Slot</th><th>Seminars</th></tr></thead><tbody><tr><td>9:00</td><td>C (P), one of D/E/H (T)</td></tr><tr><td>9:30</td><td>B (P), G (Q or S), one of D/E/H (T)</td></tr><tr><td>10:00</td><td>A (R)</td></tr><tr><td>10:30</td><td>F (S or Q), one of D/E/H (R)</td></tr></tbody></table><p>Sociology is B, C, G and Anthropology is F, so the Economics students are A, D, E, H — <strong>H is Economics</strong> (B). A is false (B is at 9:30). C and D are only possible: Q and S could guide G and F either way.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>If D is scheduled in a slot later than Q's, then which of the following two statement(s) is (are) true?</p><p>(i) E and H are guided by T.<br>(ii) G is guided by Q.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only (i)"
+        },
+        {
+          "id": "B",
+          "textHtml": "Both (i) and (ii)"
+        },
+        {
+          "id": "C",
+          "textHtml": "Only (ii)"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither (i) nor (ii)"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Grid:</strong> P guides B (Sociology), so P, B, C are Sociology; G is the third Sociology student. F (Anthropology) and G each have a one-student guide, Q or S. R and T guide the four Economics students A, D, E, H. A (R) is alone at 10:00. G must be next to A and in B’s slot, while P’s students are in slots 1–2, so B, G are at 9:30 and C at 9:00. T has an Economics student at 9:30 and the other at 9:00 (10:00 is A only). Slot 4 needs an Economics student, so R’s second student is at 10:30.</p><table><thead><tr><th>Slot</th><th>Seminars</th></tr></thead><tbody><tr><td>9:00</td><td>C (P), one of D/E/H (T)</td></tr><tr><td>9:30</td><td>B (P), G (Q or S), one of D/E/H (T)</td></tr><tr><td>10:00</td><td>A (R)</td></tr><tr><td>10:30</td><td>F (S or Q), one of D/E/H (R)</td></tr></tbody></table><p>Q’s student is G (9:30) or F (10:30). D cannot be later than 10:30, so Q guides G at 9:30 — (ii) true. D is then later than 9:30, which for an Economics student means R’s 10:30 slot; so E and H are T’s two students — (i) true. <strong>Both</strong> — B.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>If E and Q are both scheduled in the same slot, then which of the following statements BEST describes the relationship between D, H, and T?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "At least one of D and H is guided by T."
+        },
+        {
+          "id": "B",
+          "textHtml": "Neither D nor H is guided by T."
+        },
+        {
+          "id": "C",
+          "textHtml": "Both D and H are guided by T."
+        },
+        {
+          "id": "D",
+          "textHtml": "Exactly one of D and H is guided by T."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Grid:</strong> P guides B (Sociology), so P, B, C are Sociology; G is the third Sociology student. F (Anthropology) and G each have a one-student guide, Q or S. R and T guide the four Economics students A, D, E, H. A (R) is alone at 10:00. G must be next to A and in B’s slot, while P’s students are in slots 1–2, so B, G are at 9:30 and C at 9:00. T has an Economics student at 9:30 and the other at 9:00 (10:00 is A only). Slot 4 needs an Economics student, so R’s second student is at 10:30.</p><table><thead><tr><th>Slot</th><th>Seminars</th></tr></thead><tbody><tr><td>9:00</td><td>C (P), one of D/E/H (T)</td></tr><tr><td>9:30</td><td>B (P), G (Q or S), one of D/E/H (T)</td></tr><tr><td>10:00</td><td>A (R)</td></tr><tr><td>10:30</td><td>F (S or Q), one of D/E/H (R)</td></tr></tbody></table><p>Case 1: Q guides G at 9:30, so E is T’s 9:30 student; T’s other student is D or H — exactly one of them with T. Case 2: Q guides F at 10:30, so E is R’s 10:30 student and D, H are both with T.</p><p>Across both cases, the only safe statement is that <strong>at least one</strong> of D and H is guided by T — A.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>If D is scheduled in the slot immediately before Q’s, then which of the following is NOT necessarily true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "D is guided by T."
+        },
+        {
+          "id": "B",
+          "textHtml": "G is guided by Q."
+        },
+        {
+          "id": "C",
+          "textHtml": "F is guided by S."
+        },
+        {
+          "id": "D",
+          "textHtml": "E is guided by R."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Grid:</strong> P guides B (Sociology), so P, B, C are Sociology; G is the third Sociology student. F (Anthropology) and G each have a one-student guide, Q or S. R and T guide the four Economics students A, D, E, H. A (R) is alone at 10:00. G must be next to A and in B’s slot, while P’s students are in slots 1–2, so B, G are at 9:30 and C at 9:00. T has an Economics student at 9:30 and the other at 9:00 (10:00 is A only). Slot 4 needs an Economics student, so R’s second student is at 10:30.</p><table><thead><tr><th>Slot</th><th>Seminars</th></tr></thead><tbody><tr><td>9:00</td><td>C (P), one of D/E/H (T)</td></tr><tr><td>9:30</td><td>B (P), G (Q or S), one of D/E/H (T)</td></tr><tr><td>10:00</td><td>A (R)</td></tr><tr><td>10:30</td><td>F (S or Q), one of D/E/H (R)</td></tr></tbody></table><p>Q is at 9:30 (with G) or 10:30 (with F). D cannot be at 10:00 (A only), so Q is at 9:30 guiding G and D is at 9:00 — T’s student. Then S guides F. A, B, C are forced.</p><p>E and H fill T’s 9:30 place and R’s 10:30 place in either order, so <strong>E guided by R is not necessary</strong> — D.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "TITA",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & reasoning",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the percentage of votes polled in total by all the candidates who lost their security deposits while contesting for constituency A?</p>",
+      "answer": "9",
+      "solutionHtml": "<p><strong>Deductions:</strong> A: second runner up = 85,000, so the other 7 polled 5,00,000 − 4,55,000 = 45,000 (all below 1/6 = 83,333). B: the winner has only 48,750 &lt; 1/6 of 3,25,000 = 54,167, so all 11 losers lost deposits (3,25,000 − 48,750 = 2,76,250 votes). C: every loser has ≥ 1,00,006 and they differ by ≥ 10,000, so losers ≥ 1,00,006, 1,10,006, 1,20,006, 1,30,006 and the winner ≥ 1,40,006; these add up to exactly 6,00,030, so all are fixed and the winner has 1,40,006. D: with total V, winner = 37,500 + 0.05V; deposit-losers hold 35%, so winner + first + second runner up = 65% of V, giving 0.6V = 1,05,000, V = 1,75,000 (second runner up 30,000 &gt; 29,167 keeps the deposit, consistent).</p><p>In A, first runner up 95,000, so second runner up 85,000 &gt; 83,333 (keeps deposit). The remaining 7 candidates polled 5,00,000 − (2,75,000 + 95,000 + 85,000) = 45,000; each is below 85,000 and hence below 1/6, so all lose deposits.</p><p>45,000 / 5,00,000 = <strong>9%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "TITA",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & reasoning",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many candidates who contested in constituency B lost their security deposit?</p>",
+      "answer": "11",
+      "solutionHtml": "<p><strong>Deductions:</strong> A: second runner up = 85,000, so the other 7 polled 5,00,000 − 4,55,000 = 45,000 (all below 1/6 = 83,333). B: the winner has only 48,750 &lt; 1/6 of 3,25,000 = 54,167, so all 11 losers lost deposits (3,25,000 − 48,750 = 2,76,250 votes). C: every loser has ≥ 1,00,006 and they differ by ≥ 10,000, so losers ≥ 1,00,006, 1,10,006, 1,20,006, 1,30,006 and the winner ≥ 1,40,006; these add up to exactly 6,00,030, so all are fixed and the winner has 1,40,006. D: with total V, winner = 37,500 + 0.05V; deposit-losers hold 35%, so winner + first + second runner up = 65% of V, giving 0.6V = 1,05,000, V = 1,75,000 (second runner up 30,000 &gt; 29,167 keeps the deposit, consistent).</p><p>In B, one-sixth of 3,25,000 is 54,166.67. Even the winner got only 48,750, so every defeated candidate polled less than that threshold. All <strong>11</strong> defeated candidates lost their deposits.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & reasoning",
+      "difficulty": "hard",
+      "stemHtml": "<p>What BEST can be concluded about the number of votes polled by the winning candidate in constituency C?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "less than 2,00,010"
+        },
+        {
+          "id": "B",
+          "textHtml": "1,40,010"
+        },
+        {
+          "id": "C",
+          "textHtml": "between 1,40,005 and 1,40,010"
+        },
+        {
+          "id": "D",
+          "textHtml": "1,40,006"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Deductions:</strong> A: second runner up = 85,000, so the other 7 polled 5,00,000 − 4,55,000 = 45,000 (all below 1/6 = 83,333). B: the winner has only 48,750 &lt; 1/6 of 3,25,000 = 54,167, so all 11 losers lost deposits (3,25,000 − 48,750 = 2,76,250 votes). C: every loser has ≥ 1,00,006 and they differ by ≥ 10,000, so losers ≥ 1,00,006, 1,10,006, 1,20,006, 1,30,006 and the winner ≥ 1,40,006; these add up to exactly 6,00,030, so all are fixed and the winner has 1,40,006. D: with total V, winner = 37,500 + 0.05V; deposit-losers hold 35%, so winner + first + second runner up = 65% of V, giving 0.6V = 1,05,000, V = 1,75,000 (second runner up 30,000 &gt; 29,167 keeps the deposit, consistent).</p><p>Each loser must have more than 6,00,030/6 = 1,00,005, i.e. at least 1,00,006. With gaps of at least 10,000, the four losers have at least 1,00,006 + 1,10,006 + 1,20,006 + 1,30,006 = 4,60,024 and the winner at least 1,40,006.</p><p>The minimum total is 6,00,030, which is the actual total, so every value sits at its minimum. The winner polled exactly <strong>1,40,006</strong> — D.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & reasoning",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the number of valid votes polled in constituency D?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1,75,000"
+        },
+        {
+          "id": "B",
+          "textHtml": "1,50,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "62,500"
+        },
+        {
+          "id": "D",
+          "textHtml": "1,25,000"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Deductions:</strong> A: second runner up = 85,000, so the other 7 polled 5,00,000 − 4,55,000 = 45,000 (all below 1/6 = 83,333). B: the winner has only 48,750 &lt; 1/6 of 3,25,000 = 54,167, so all 11 losers lost deposits (3,25,000 − 48,750 = 2,76,250 votes). C: every loser has ≥ 1,00,006 and they differ by ≥ 10,000, so losers ≥ 1,00,006, 1,10,006, 1,20,006, 1,30,006 and the winner ≥ 1,40,006; these add up to exactly 6,00,030, so all are fixed and the winner has 1,40,006. D: with total V, winner = 37,500 + 0.05V; deposit-losers hold 35%, so winner + first + second runner up = 65% of V, giving 0.6V = 1,05,000, V = 1,75,000 (second runner up 30,000 &gt; 29,167 keeps the deposit, consistent).</p><p>Let total = V. Winner = 37,500 + 0.05V. If the second runner up keeps the deposit, winner + 37,500 + 30,000 = 0.65V → 1,05,000 = 0.6V → V = 1,75,000; check: 30,000 &gt; 1,75,000/6 ≈ 29,167 ✓.</p><p>If instead the second runner up lost too, winner + 37,500 = 0.65V gives V = 1,25,000, but then 30,000 &gt; 20,833 means he kept it — contradiction. So V = <strong>1,75,000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & reasoning",
+      "difficulty": "hard",
+      "stemHtml": "<p>The winning margin of a constituency is defined as the difference of votes polled by the winner and that of the first runner up. Which of the following CANNOT be the list of constituencies, in increasing order of winning margin?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "B, C, D, A"
+        },
+        {
+          "id": "B",
+          "textHtml": "D, B, C, A"
+        },
+        {
+          "id": "C",
+          "textHtml": "B, D, C, A"
+        },
+        {
+          "id": "D",
+          "textHtml": "D, C, B, A"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Deductions:</strong> A: second runner up = 85,000, so the other 7 polled 5,00,000 − 4,55,000 = 45,000 (all below 1/6 = 83,333). B: the winner has only 48,750 &lt; 1/6 of 3,25,000 = 54,167, so all 11 losers lost deposits (3,25,000 − 48,750 = 2,76,250 votes). C: every loser has ≥ 1,00,006 and they differ by ≥ 10,000, so losers ≥ 1,00,006, 1,10,006, 1,20,006, 1,30,006 and the winner ≥ 1,40,006; these add up to exactly 6,00,030, so all are fixed and the winner has 1,40,006. D: with total V, winner = 37,500 + 0.05V; deposit-losers hold 35%, so winner + first + second runner up = 65% of V, giving 0.6V = 1,05,000, V = 1,75,000 (second runner up 30,000 &gt; 29,167 keeps the deposit, consistent).</p><p>Margins: A = 2,75,000 − 95,000 = 1,80,000. C = 1,40,006 − 1,30,006 = 10,000. D = 5% of 1,75,000 = 8,750. B is not fixed: the 11 losers share 2,76,250 votes, so the first runner up has at least about 25,114 and B’s margin lies anywhere between a few votes and about 23,600.</p><p>So D &lt; C always, while B can fall anywhere below A. Option A puts C before D, which is impossible — <strong>A</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & reasoning",
+      "difficulty": "medium",
+      "stemHtml": "<p>For all the four constituencies taken together, what was the approximate number of votes polled by all the candidates who lost their security deposit expressed as a percentage of the total valid votes from these four constituencies?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "23.91%"
+        },
+        {
+          "id": "B",
+          "textHtml": "23.54%"
+        },
+        {
+          "id": "C",
+          "textHtml": "32.00%"
+        },
+        {
+          "id": "D",
+          "textHtml": "38.25%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Deductions:</strong> A: second runner up = 85,000, so the other 7 polled 5,00,000 − 4,55,000 = 45,000 (all below 1/6 = 83,333). B: the winner has only 48,750 &lt; 1/6 of 3,25,000 = 54,167, so all 11 losers lost deposits (3,25,000 − 48,750 = 2,76,250 votes). C: every loser has ≥ 1,00,006 and they differ by ≥ 10,000, so losers ≥ 1,00,006, 1,10,006, 1,20,006, 1,30,006 and the winner ≥ 1,40,006; these add up to exactly 6,00,030, so all are fixed and the winner has 1,40,006. D: with total V, winner = 37,500 + 0.05V; deposit-losers hold 35%, so winner + first + second runner up = 65% of V, giving 0.6V = 1,05,000, V = 1,75,000 (second runner up 30,000 &gt; 29,167 keeps the deposit, consistent).</p><p>Deposit-losers’ votes: A 45,000; B 2,76,250; C 0; D 35% of 1,75,000 = 61,250. Total = 3,82,500.</p><p>All valid votes = 5,00,000 + 3,25,000 + 6,00,030 + 1,75,000 = 16,00,030. 3,82,500 / 16,00,030 ≈ <strong>23.91%</strong> — A.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>In Home Decor departments of which cities were the sales amounts the highest in 2018 and 2019, respectively?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Mumbai and Mumbai"
+        },
+        {
+          "id": "B",
+          "textHtml": "Delhi and Delhi"
+        },
+        {
+          "id": "C",
+          "textHtml": "Bengaluru and Delhi"
+        },
+        {
+          "id": "D",
+          "textHtml": "Mumbai and Delhi"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the table:</strong> Electronics rose from 330 to 370 (+40), so Apparel rose by 40 in total. Home Decor 2019 total = 306, so 2018 total = 236; Delhi 80, Bengaluru 60, so Mumbai = Kolkata = 48. Apparel: let Delhi = Kolkata = a and Mumbai = Bengaluru = b in 2018; Delhi and Bengaluru rise by x, Mumbai and Kolkata by y, with b = a + x, a + y = 54 and 2x + 2y = 40. The AP b, 54, b + x gives 2b + x = 108. Solving: x = 8, y = 12, a = 42, b = 50.</p><table><thead><tr><th>Apparel</th><th>Delhi</th><th>Mumbai</th><th>Bengaluru</th><th>Kolkata</th></tr></thead><tbody><tr><td>2018</td><td>42</td><td>50</td><td>50</td><td>42</td></tr><tr><td>2019</td><td>50</td><td>62</td><td>58</td><td>54</td></tr></tbody></table><p>Home Decor 2018: Delhi 80, Mumbai 48, Bengaluru 60, Kolkata 48 — highest Delhi. 2019 (given): Delhi 100 is highest. <strong>Delhi and Delhi</strong> — B.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the increase in sales amount, in Crore Rupees, in the Apparel department of Mumbai from 2018 to 2019?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Solving the table:</strong> Electronics rose from 330 to 370 (+40), so Apparel rose by 40 in total. Home Decor 2019 total = 306, so 2018 total = 236; Delhi 80, Bengaluru 60, so Mumbai = Kolkata = 48. Apparel: let Delhi = Kolkata = a and Mumbai = Bengaluru = b in 2018; Delhi and Bengaluru rise by x, Mumbai and Kolkata by y, with b = a + x, a + y = 54 and 2x + 2y = 40. The AP b, 54, b + x gives 2b + x = 108. Solving: x = 8, y = 12, a = 42, b = 50.</p><table><thead><tr><th>Apparel</th><th>Delhi</th><th>Mumbai</th><th>Bengaluru</th><th>Kolkata</th></tr></thead><tbody><tr><td>2018</td><td>42</td><td>50</td><td>50</td><td>42</td></tr><tr><td>2019</td><td>50</td><td>62</td><td>58</td><td>54</td></tr></tbody></table><p>Mumbai Apparel went from 50 to 62, an increase of y = <strong>12</strong> — D.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>Among all the 12 departments (i.e., the 3 departments in each of the 4 cities), what was the maximum percentage increase in sales amount from 2018 to 2019?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "75"
+        },
+        {
+          "id": "B",
+          "textHtml": "50"
+        },
+        {
+          "id": "C",
+          "textHtml": "28"
+        },
+        {
+          "id": "D",
+          "textHtml": "25"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the table:</strong> Electronics rose from 330 to 370 (+40), so Apparel rose by 40 in total. Home Decor 2019 total = 306, so 2018 total = 236; Delhi 80, Bengaluru 60, so Mumbai = Kolkata = 48. Apparel: let Delhi = Kolkata = a and Mumbai = Bengaluru = b in 2018; Delhi and Bengaluru rise by x, Mumbai and Kolkata by y, with b = a + x, a + y = 54 and 2x + 2y = 40. The AP b, 54, b + x gives 2b + x = 108. Solving: x = 8, y = 12, a = 42, b = 50.</p><table><thead><tr><th>Apparel</th><th>Delhi</th><th>Mumbai</th><th>Bengaluru</th><th>Kolkata</th></tr></thead><tbody><tr><td>2018</td><td>42</td><td>50</td><td>50</td><td>42</td></tr><tr><td>2019</td><td>50</td><td>62</td><td>58</td><td>54</td></tr></tbody></table><p>Largest jumps: Mumbai Home Decor 48 → 72 = <strong>50%</strong>; next are Bengaluru Home Decor 60 → 80 (33%) and Kolkata Apparel 42 → 54 (28.6%). Electronics rises are at most about 25.6%. Answer B.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables & equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the total sales amount, in Crore Rupees, in 2019 for the chain of departmental stores?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "600"
+        },
+        {
+          "id": "B",
+          "textHtml": "150"
+        },
+        {
+          "id": "C",
+          "textHtml": "750"
+        },
+        {
+          "id": "D",
+          "textHtml": "900"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Solving the table:</strong> Electronics rose from 330 to 370 (+40), so Apparel rose by 40 in total. Home Decor 2019 total = 306, so 2018 total = 236; Delhi 80, Bengaluru 60, so Mumbai = Kolkata = 48. Apparel: let Delhi = Kolkata = a and Mumbai = Bengaluru = b in 2018; Delhi and Bengaluru rise by x, Mumbai and Kolkata by y, with b = a + x, a + y = 54 and 2x + 2y = 40. The AP b, 54, b + x gives 2b + x = 108. Solving: x = 8, y = 12, a = 42, b = 50.</p><table><thead><tr><th>Apparel</th><th>Delhi</th><th>Mumbai</th><th>Bengaluru</th><th>Kolkata</th></tr></thead><tbody><tr><td>2018</td><td>42</td><td>50</td><td>50</td><td>42</td></tr><tr><td>2019</td><td>50</td><td>62</td><td>58</td><td>54</td></tr></tbody></table><p>2019: Apparel 50 + 62 + 58 + 54 = 224; Electronics 98 + 102 + 70 + 100 = 370; Home Decor 100 + 72 + 80 + 54 = 306. Total = <strong>900</strong> — D.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process / sequencing",
+      "difficulty": "medium",
+      "stemHtml": "<p>Initially cars numbered 1, 2, 3, and 4 arrive among which 1 and 4 are SUVs while 2 and 3 are compact cars. Car 1 then leaves, followed by the arrivals of car 5 (a compact car) and car 6 (an SUV). Car 4 then leaves. Then car 7 (an SUV) and car 8 (a compact car) arrive. At this moment, which among the following numbered car is parked next to car 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Rule to use:</strong> every arriving car takes the first gap from the start of the row that is big enough for it (1 slot for a compact, 2 adjacent slots for an SUV).</p><p>Slots: [1 1][2][3][4 4]. Car 1 leaves → [V V][2][3][4 4]. Car 5 (compact) takes slot 1 → 5, V, 2, 3, 4. Car 6 (SUV) cannot fit the single gap, so goes to the end → 5, V, 2, 3, 4, 6.</p><p>Car 4 leaves → 5, V, 2, 3, V, V, 6. Car 7 (SUV) takes the first two-slot gap, right after 3 → 5, V, 2, 3, 7, 6. Car 8 (compact) takes slot 2 → 5, 8, 2, 3, 7, 6.</p><p>Car 3’s neighbours are 2 and <strong>7</strong> — C.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process / sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose eight cars have arrived, of which two have left. Also suppose that car 4 is a compact and car 7 is an SUV. Which of the following is a POSSIBLE current configuration of the parking lot?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8, 2, 3, V, 5, 6, 7"
+        },
+        {
+          "id": "B",
+          "textHtml": "8, 2, 3, V, 6, 5, 7"
+        },
+        {
+          "id": "C",
+          "textHtml": "V, 2, 3, 7, 5, 6, 8"
+        },
+        {
+          "id": "D",
+          "textHtml": "8, 2, 3, V, 5, 7, 6"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Rule to use:</strong> every arriving car takes the first gap from the start of the row that is big enough for it (1 slot for a compact, 2 adjacent slots for an SUV).</p><p>In every option cars 1 and 4 are the ones that have left; car 4 (compact) sat right after 3, so its departure leaves one V there.</p><p><strong>A works:</strong> 1 leaves, 8 takes its front space; later 4 leaves, leaving the single V. Cars 5, 6, 7 parked in arrival order.</p><p>B: 6 would have to park ahead of 5, which needs a space before 5 freed before 6 arrived — the only one is 4’s single slot, which cannot hold both the V and car 6. C: SUV 7 sits in 4’s old place, but a compact leaves only one slot. D: car 7 arrived after car 6 yet sits ahead of it, so a car between 5 and 6 must have left first — but the only cars that left are 1 and 4, both in front of 5.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-23",
+      "section": "DILR",
+      "number": 23,
+      "type": "MCQ",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process / sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose the sequence at some point of time is 4, 5, 6, V, 3. Which of the following is NOT necessarily true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Car 3 is an SUV"
+        },
+        {
+          "id": "B",
+          "textHtml": "Car 5 is a compact"
+        },
+        {
+          "id": "C",
+          "textHtml": "Car 4 is a compact"
+        },
+        {
+          "id": "D",
+          "textHtml": "Car 1 is an SUV"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Rule to use:</strong> every arriving car takes the first gap from the start of the row that is big enough for it (1 slot for a compact, 2 adjacent slots for an SUV).</p><p>Car 3 arrived after 1 and 2, which sat in front of it; they have left, and 4, 5, 6 plus one V fill exactly their old space. So size(4) + size(5) + size(6) + 1 = size(1) + size(2) ≤ 4.</p><p>Each car takes at least 1 slot, so both sides equal 4: cars 4, 5, 6 are compacts and cars 1 and 2 are SUVs. Nothing fixes car 3’s size, so <strong>“Car 3 is an SUV” is not necessarily true</strong> — A.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-24",
+      "section": "DILR",
+      "number": 24,
+      "type": "MCQ",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process / sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose that car 4 is not the first car to leave and that the sequence at a time between the arrival of the car 7 and car 8 is V, 7, 3, 6, 5. Then which of the following statements MUST be false?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Car 4 is an SUV"
+        },
+        {
+          "id": "B",
+          "textHtml": "Car 2 is a compact"
+        },
+        {
+          "id": "C",
+          "textHtml": "Car 6 is a compact"
+        },
+        {
+          "id": "D",
+          "textHtml": "Car 7 is a compact"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Rule to use:</strong> every arriving car takes the first gap from the start of the row that is big enough for it (1 slot for a compact, 2 adjacent slots for an SUV).</p><p>Cars 1, 2 and 4 have left. Car 6 parked ahead of car 5, so it took the space car 4 vacated (4 sat after 3, before 5); with no V between 6 and 5, cars 4 and 6 are the same size.</p><p>Car 4 was not the first to leave, so car 1 or 2 left earlier, opening a gap at the front before car 6 arrived. Car 6 skipped that gap, so the gap was a single slot and <strong>car 6 is an SUV</strong> (hence car 4 is an SUV too).</p><p>So “Car 6 is a compact” must be false — C. (Car 7 can be either size depending on whether cars 1 and 2 were compact/compact or compact/SUV, and car 2 can be a compact.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

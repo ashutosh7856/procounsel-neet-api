@@ -1,0 +1,658 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Numbers in a staircase grid",
+      "contentHtml": "<p>The numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 are placed in ten slots of the following grid based on the conditions below.</p><table><thead><tr><th></th><th>Column 1</th><th>Column 2</th><th>Column 3</th><th>Column 4</th></tr></thead><tbody><tr><th>Row 1</th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>Row 2</th><td>—</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>Row 3</th><td>—</td><td>—</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><th>Row 4</th><td>—</td><td>—</td><td>—</td><td>&nbsp;</td></tr></tbody></table><p>(— marks a position that is not a slot: Row 1 has slots in Columns 1–4, Row 2 in Columns 2–4, Row 3 in Columns 3–4 and Row 4 only in Column 4.)</p><ol><li>Numbers in any row appear in an increasing order from left to right.</li><li>Numbers in any column appear in a decreasing order from top to bottom.</li><li>1 is placed either in the same row or in the same column as 10.</li><li>Neither 2 nor 3 is placed in the same row or in the same column as 10.</li><li>Neither 7 nor 8 is placed in the same row or in the same column as 9.</li><li>4 and 6 are placed in the same row.</li></ol>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Walkways around three lakes",
+      "contentHtml": "<p><img src=\"https://procounsel.co.in/mba/pyq/cat-2024-slot2/walkways.png\" alt=\"Schematic of walkways: outer rectangle with corners A (top-left), D (top-right), M (bottom-right), P (bottom-left). Top edge points A, B, C, D; bottom edge P, O, N, M; left edge A, H, I, P; right edge D, E, L, M. Horizontal walkway H-G-F-E and horizontal walkway I-J-K-L. Vertical walkways B-G, G-J, J-O, C-F, F-K, K-N. Diagonal walkways I-G and O-K. Shaded lakes: rectangle C-D-E-F, rectangle G-F-K-J, rectangle K-L-M-N.\"></p><p>The above is a schematic diagram of walkways (indicated by all the straight lines) and lakes (3 of them, each in the shape of rectangles — shaded in the diagram) of a gated area.</p><p>Different points on the walkway are indicated by letters (A through P) with distances being OP = 150 m, ON = MN = 300 m, ML = 400 m, EL = 200 m, DE = 400 m.</p><p>The following additional information about the facilities in the area is known.</p><ol><li>The only entry/exit point is at C.</li><li>There are many residences within the gated area; all of them are located on the path AH and ML with four of them being at A, H, M, and L.</li><li>The post office is located at P and the bank is located at B.</li></ol>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot2/walkways.png"
+      ]
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "Product ratings over three days",
+      "contentHtml": "<p>An online e-commerce firm receives daily integer product ratings from 1 through 5 given by buyers. The daily average is the average of the ratings given on that day. The cumulative average is the average of all ratings given on or before that day.</p><p>The rating system began on Day 1, and the cumulative averages were 3 and 3.1 at the end of Day 1 and Day 2, respectively. The distribution of ratings on Day 2 is given in the figure below.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2024-slot2/day2-ratings.png\" alt=\"Horizontal bar chart, Distribution of Ratings on Day 2: rating 1 – 5 buyers, rating 2 – 10 buyers, rating 3 – 5 buyers, rating 4 – 20 buyers, rating 5 – 10 buyers.\"></p><p>The following information is known about ratings on Day 3.</p><ol><li>100 buyers gave product ratings on Day 3.</li><li>The modes of the product ratings were 4 and 5.</li><li>The numbers of buyers giving each product rating are non-zero multiples of 10.</li><li>The same number of buyers gave product ratings of 1 and 2, and that number is half the number of buyers who gave a rating of 3.</li></ol>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot2/day2-ratings.png"
+      ]
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Six firms: PAT, employees and R&amp;D",
+      "contentHtml": "<p>The two plots below give the following information about six firms A, B, C, D, E, and F for 2019 and 2023.</p><p>PAT: The firm's profits after taxes in Rs. crores,<br>ES: The firm's employee strength, that is the number of employees in the firm, and<br>PRD: The percentage of the firm’s PAT that they spend on Research and Development (R&amp;D).</p><p>In the plots, the horizontal and vertical coordinates of point representing each firm gives their ES and PAT values respectively. The PRD values of each firm are proportional to the areas around the points representing each firm. The areas are comparable between the two plots, i.e., equal areas in the two plots represent the same PRD values for the two years.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2024-slot2/firms-2019.png\" alt=\"2019 bubble plot of PAT (vertical, 2200 to 4400) against ES (horizontal, 500 to 1500): D at (600, 3900) with the smallest circle; A at (800, 3000) and F at (800, 2500) with medium circles; C at (600, 2400) and B at (1000, 2800) with larger circles; E at (1200, 2400) with the largest circle.\"></p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2024-slot2/firms-2023.png\" alt=\"2023 bubble plot of PAT against ES: B at (1000, 3800) and E at (1400, 3500) with larger circles; A at (1300, 3900), F at (1000, 3200), C at (800, 3000) and D at (800, 2400) with medium circles.\"></p>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot2/firms-2019.png",
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot2/firms-2023.png"
+      ]
+    },
+    {
+      "key": "DILR-S5",
+      "kind": "dilr_set",
+      "title": "Gymnastics coaches and ratings",
+      "contentHtml": "<p>Eight gymnastics players numbered 1 through 8 underwent a training camp where they were coached by three coaches - Xena, Yuki, and Zara. Each coach trained at least two players.</p><p>Yuki trained only even numbered players, while Zara trained only odd numbered players.</p><p>After the camp, the coaches evaluated the players and gave integer ratings to the respective players trained by them on a scale of 1 to 7, with 1 being the lowest rating and 7 the highest.</p><p>The following additional information is known.</p><ol><li>Xena trained more players than Yuki.</li><li>Player-1 and Player-4 were trained by the same coach, while the coaches who trained Player-2, Player-3 and Player-5 were all different.</li><li>Player-5 and Player-7 were trained by the same coach and got the same rating. All other players got a unique rating.</li><li>The average of the ratings of all the players was 4.</li><li>Player-2 got the highest rating.</li><li>The average of the ratings of the players trained by Yuki was twice that of the players trained by Xena and two more than that of the players trained by Zara.</li><li>Player-4's rating was double of Player-8's and less than Player-5's.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the row number which has the least sum of numbers placed in that row?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Write RrCc for the slot in Row r, Column c. A number is smaller than everything to its right and larger than everything below it.</p><p>• 10 must sit where nothing is to its right or above it: only <strong>R1C4</strong>.<br>• 1 must sit where nothing is to its left or below it: R1C1, R2C2, R3C3 or R4C4. By condition 3 it is in Row 1 or Column 4, so 1 is at R1C1 or R4C4.<br>• 2 and 3 avoid Row 1 and Column 4 (condition 4), so they lie in R2C2, R2C3, R3C3. R2C3 is larger than both R2C2 and R3C3, so <strong>2 and 3 occupy R2C2 and R3C3</strong> (order unknown).<br>• 9 has only 10 above or to its right, so 9 is at R1C3 or R2C4.</p><p><strong>Cases.</strong> If 9 is at R2C4, then 7 and 8 must go to Row 1, leaving 4 and 6 in rows that have only one free slot – they cannot share a row. If 1 is at R1C1 with 9 at R1C3, 7 and 8 fill two Column-4 slots, and again 4 and 6 cannot share a row. The only consistent case: <strong>1 at R4C4, 9 at R1C3</strong>; 7 and 8 avoid Row 1 and Column 3, so R2C4 = 8, R3C4 = 7; 4 and 6 must share Row 1, so R1C1 = 4, R1C2 = 6, and R2C3 = 5.</p><p><strong>Final grid:</strong> Row 1: 4, 6, 9, 10 · Row 2: (2/3), 5, 8 · Row 3: (3/2), 7 · Row 4: 1.</p><p>Row sums: Row 1 = 29, Row 2 = 15 or 16, Row 3 = 9 or 10, Row 4 = 1. The least is <strong>Row 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements MUST be true?</p><p>I. 10 is placed in a slot in Row 1.<br>II. 1 is placed in a slot in Row 4.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only II"
+        },
+        {
+          "id": "B",
+          "textHtml": "Both I and II"
+        },
+        {
+          "id": "C",
+          "textHtml": "Only I"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither I nor II"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Write RrCc for the slot in Row r, Column c. A number is smaller than everything to its right and larger than everything below it.</p><p>• 10 must sit where nothing is to its right or above it: only <strong>R1C4</strong>.<br>• 1 must sit where nothing is to its left or below it: R1C1, R2C2, R3C3 or R4C4. By condition 3 it is in Row 1 or Column 4, so 1 is at R1C1 or R4C4.<br>• 2 and 3 avoid Row 1 and Column 4 (condition 4), so they lie in R2C2, R2C3, R3C3. R2C3 is larger than both R2C2 and R3C3, so <strong>2 and 3 occupy R2C2 and R3C3</strong> (order unknown).<br>• 9 has only 10 above or to its right, so 9 is at R1C3 or R2C4.</p><p><strong>Cases.</strong> If 9 is at R2C4, then 7 and 8 must go to Row 1, leaving 4 and 6 in rows that have only one free slot – they cannot share a row. If 1 is at R1C1 with 9 at R1C3, 7 and 8 fill two Column-4 slots, and again 4 and 6 cannot share a row. The only consistent case: <strong>1 at R4C4, 9 at R1C3</strong>; 7 and 8 avoid Row 1 and Column 3, so R2C4 = 8, R3C4 = 7; 4 and 6 must share Row 1, so R1C1 = 4, R1C2 = 6, and R2C3 = 5.</p><p><strong>Final grid:</strong> Row 1: 4, 6, 9, 10 · Row 2: (2/3), 5, 8 · Row 3: (3/2), 7 · Row 4: 1.</p><p>10 is at R1C4 (Row 1) and 1 is at R4C4 (Row 4). Both statements are true: <strong>Both I and II</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements MUST be true?</p><p>I. 2 is placed in a slot in Column 2.<br>II. 3 is placed in a slot in Column 3.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Neither I nor II"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only I"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both I and II"
+        },
+        {
+          "id": "D",
+          "textHtml": "Only II"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Write RrCc for the slot in Row r, Column c. A number is smaller than everything to its right and larger than everything below it.</p><p>• 10 must sit where nothing is to its right or above it: only <strong>R1C4</strong>.<br>• 1 must sit where nothing is to its left or below it: R1C1, R2C2, R3C3 or R4C4. By condition 3 it is in Row 1 or Column 4, so 1 is at R1C1 or R4C4.<br>• 2 and 3 avoid Row 1 and Column 4 (condition 4), so they lie in R2C2, R2C3, R3C3. R2C3 is larger than both R2C2 and R3C3, so <strong>2 and 3 occupy R2C2 and R3C3</strong> (order unknown).<br>• 9 has only 10 above or to its right, so 9 is at R1C3 or R2C4.</p><p><strong>Cases.</strong> If 9 is at R2C4, then 7 and 8 must go to Row 1, leaving 4 and 6 in rows that have only one free slot – they cannot share a row. If 1 is at R1C1 with 9 at R1C3, 7 and 8 fill two Column-4 slots, and again 4 and 6 cannot share a row. The only consistent case: <strong>1 at R4C4, 9 at R1C3</strong>; 7 and 8 avoid Row 1 and Column 3, so R2C4 = 8, R3C4 = 7; 4 and 6 must share Row 1, so R1C1 = 4, R1C2 = 6, and R2C3 = 5.</p><p><strong>Final grid:</strong> Row 1: 4, 6, 9, 10 · Row 2: (2/3), 5, 8 · Row 3: (3/2), 7 · Row 4: 1.</p><p>2 and 3 occupy R2C2 and R3C3 in either order; both orders satisfy every condition. So neither “2 is in Column 2” nor “3 is in Column 3” must be true: <strong>Neither I nor II</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>For how many slots in the grid, placement of numbers CANNOT be determined with certainty?</p>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Write RrCc for the slot in Row r, Column c. A number is smaller than everything to its right and larger than everything below it.</p><p>• 10 must sit where nothing is to its right or above it: only <strong>R1C4</strong>.<br>• 1 must sit where nothing is to its left or below it: R1C1, R2C2, R3C3 or R4C4. By condition 3 it is in Row 1 or Column 4, so 1 is at R1C1 or R4C4.<br>• 2 and 3 avoid Row 1 and Column 4 (condition 4), so they lie in R2C2, R2C3, R3C3. R2C3 is larger than both R2C2 and R3C3, so <strong>2 and 3 occupy R2C2 and R3C3</strong> (order unknown).<br>• 9 has only 10 above or to its right, so 9 is at R1C3 or R2C4.</p><p><strong>Cases.</strong> If 9 is at R2C4, then 7 and 8 must go to Row 1, leaving 4 and 6 in rows that have only one free slot – they cannot share a row. If 1 is at R1C1 with 9 at R1C3, 7 and 8 fill two Column-4 slots, and again 4 and 6 cannot share a row. The only consistent case: <strong>1 at R4C4, 9 at R1C3</strong>; 7 and 8 avoid Row 1 and Column 3, so R2C4 = 8, R3C4 = 7; 4 and 6 must share Row 1, so R1C1 = 4, R1C2 = 6, and R2C3 = 5.</p><p><strong>Final grid:</strong> Row 1: 4, 6, 9, 10 · Row 2: (2/3), 5, 8 · Row 3: (3/2), 7 · Row 4: 1.</p><p>Only R2C2 and R3C3 (holding 2 and 3 in either order) are undetermined: <strong>2</strong> slots.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the sum of the numbers placed in Column 4?</p>",
+      "answer": "26",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Write RrCc for the slot in Row r, Column c. A number is smaller than everything to its right and larger than everything below it.</p><p>• 10 must sit where nothing is to its right or above it: only <strong>R1C4</strong>.<br>• 1 must sit where nothing is to its left or below it: R1C1, R2C2, R3C3 or R4C4. By condition 3 it is in Row 1 or Column 4, so 1 is at R1C1 or R4C4.<br>• 2 and 3 avoid Row 1 and Column 4 (condition 4), so they lie in R2C2, R2C3, R3C3. R2C3 is larger than both R2C2 and R3C3, so <strong>2 and 3 occupy R2C2 and R3C3</strong> (order unknown).<br>• 9 has only 10 above or to its right, so 9 is at R1C3 or R2C4.</p><p><strong>Cases.</strong> If 9 is at R2C4, then 7 and 8 must go to Row 1, leaving 4 and 6 in rows that have only one free slot – they cannot share a row. If 1 is at R1C1 with 9 at R1C3, 7 and 8 fill two Column-4 slots, and again 4 and 6 cannot share a row. The only consistent case: <strong>1 at R4C4, 9 at R1C3</strong>; 7 and 8 avoid Row 1 and Column 3, so R2C4 = 8, R3C4 = 7; 4 and 6 must share Row 1, so R1C1 = 4, R1C2 = 6, and R2C3 = 5.</p><p><strong>Final grid:</strong> Row 1: 4, 6, 9, 10 · Row 2: (2/3), 5, 8 · Row 3: (3/2), 7 · Row 4: 1.</p><p>Column 4 holds 10, 8, 7, 1: sum = <strong>26</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Routes & networks",
+      "difficulty": "medium",
+      "stemHtml": "<p>One resident whose house is located at L, needs to visit the post office as well as the bank. What is the minimum distance (in m) he has to walk starting from his residence and returning to his residence after visiting both the post office and the bank?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3200"
+        },
+        {
+          "id": "B",
+          "textHtml": "3000"
+        },
+        {
+          "id": "C",
+          "textHtml": "3000"
+        },
+        {
+          "id": "D",
+          "textHtml": "2700"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Coordinates.</strong> From the given lengths: P–O = 150, O–N = 300, N–M = 300 (width 750); M–L = 400, L–E = 200, E–D = 400 (height 1000). So the vertical lines are at x = 0 (A, H, I, P), 150 (B, G, J, O), 450 (C, F, K, N), 750 (D, E, L, M) and the horizontal lines at y = 1000 (top), 600 (H–E), 400 (I–L), 0 (bottom).</p><p><strong>Walkway lengths:</strong> AB 150, BC 300, CD 300; HG 150, GF 300, FE 300; IJ 150, JK 300, KL 300; PO 150, ON 300, NM 300; AH 400, HI 200, IP 400; BG 400, GJ 200, JO 400; CF 400, FK 200, KN 400; DE 400, EL 200, LM 400; diagonals IG = √(150² + 200²) = 250 and OK = √(300² + 400²) = 500.</p><p>Lakes: CDEF, GFKJ and KLMN.</p><p>The walk is L → P → B → L (or the reverse), so add the three shortest distances.</p><p><strong>L to P:</strong> L–K–O–P = 300 + 500 + 150 = 950 (L–M–N–O–P = 1150 is longer).<br><strong>P to B:</strong> P–I–G–B = 400 + 250 + 400 = 1050 (P–I–H–A–B and P–O–J–G–B are both 1150).<br><strong>B to L:</strong> B–C–D–E–L, B–G–F–E–L, B–C–F–K–L and B–G–F–K–L all give 1200.</p><p>Total = 950 + 1050 + 1200 = <strong>3200 m</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Routes & networks",
+      "difficulty": "medium",
+      "stemHtml": "<p>One person enters the gated area and decides to walk as much as possible before leaving the area without walking along any path more than once and always walking next to one of the lakes. Note that he may cross a point multiple times. How much distance (in m) will he walk within the gated area?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3200"
+        },
+        {
+          "id": "B",
+          "textHtml": "2800"
+        },
+        {
+          "id": "C",
+          "textHtml": "3000"
+        },
+        {
+          "id": "D",
+          "textHtml": "3800"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Coordinates.</strong> From the given lengths: P–O = 150, O–N = 300, N–M = 300 (width 750); M–L = 400, L–E = 200, E–D = 400 (height 1000). So the vertical lines are at x = 0 (A, H, I, P), 150 (B, G, J, O), 450 (C, F, K, N), 750 (D, E, L, M) and the horizontal lines at y = 1000 (top), 600 (H–E), 400 (I–L), 0 (bottom).</p><p><strong>Walkway lengths:</strong> AB 150, BC 300, CD 300; HG 150, GF 300, FE 300; IJ 150, JK 300, KL 300; PO 150, ON 300, NM 300; AH 400, HI 200, IP 400; BG 400, GJ 200, JO 400; CF 400, FK 200, KN 400; DE 400, EL 200, LM 400; diagonals IG = √(150² + 200²) = 250 and OK = √(300² + 400²) = 500.</p><p>Lakes: CDEF, GFKJ and KLMN.</p><p>“Always next to a lake” allows only the lake edges: CD, DE, EF, FC (lake 1); GF, FK, KJ, JG (lake 2); KL, LM, MN, NK (lake 3). (EL lies between the lakes but borders neither.)</p><p>He enters and leaves at C. In this network every point has even degree (F and K have 4, the rest 2), so a single closed walk from C can use <strong>every lake edge exactly once</strong>, e.g. C–D–E–F–G–J–K–L–M–N–K–F–C.</p><p>Total = (300 + 400 + 300 + 400) + (300 + 200 + 300 + 200) + (300 + 400 + 300 + 400) = 1400 + 1000 + 1400 = <strong>3800 m</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Routes & networks",
+      "difficulty": "hard",
+      "stemHtml": "<p>One resident takes a walk within the gated area starting from A and returning to A without going through any point (other than A) more than once. What is the maximum distance (in m) she can walk in this way?</p>",
+      "answer": "5100",
+      "solutionHtml": "<p><strong>Coordinates.</strong> From the given lengths: P–O = 150, O–N = 300, N–M = 300 (width 750); M–L = 400, L–E = 200, E–D = 400 (height 1000). So the vertical lines are at x = 0 (A, H, I, P), 150 (B, G, J, O), 450 (C, F, K, N), 750 (D, E, L, M) and the horizontal lines at y = 1000 (top), 600 (H–E), 400 (I–L), 0 (bottom).</p><p><strong>Walkway lengths:</strong> AB 150, BC 300, CD 300; HG 150, GF 300, FE 300; IJ 150, JK 300, KL 300; PO 150, ON 300, NM 300; AH 400, HI 200, IP 400; BG 400, GJ 200, JO 400; CF 400, FK 200, KN 400; DE 400, EL 200, LM 400; diagonals IG = √(150² + 200²) = 250 and OK = √(300² + 400²) = 500.</p><p>Lakes: CDEF, GFKJ and KLMN.</p><p>We need the longest loop through A that repeats no point. Corner points A, D, M, P each have only two walkways, so a loop through all of them must use AB, AH, CD, DE, LM, MN, PI, PO.</p><p>To pick up the long edges, use B–G (400) instead of B–C, and C–F (400). Then the loop <strong>A–B–G–F–C–D–E–L–M–N–K–J–O–P–I–H–A</strong> visits all 16 points:</p><p>150 + 400 + 300 + 400 + 300 + 400 + 200 + 400 + 300 + 400 + 300 + 400 + 150 + 400 + 200 + 400 = <strong>5100 m</strong>.</p><p><strong>Check:</strong> the other loops through all 16 points (for example A–B–C–D–E–L–M–N–K–F–G–J–O–P–I–H–A) give 4700 or less. Loops that skip a point to use the 500 m diagonal OK give at most 4900. So the maximum is 5100 m.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Routes & networks",
+      "difficulty": "hard",
+      "stemHtml": "<p>Visitors coming for morning walks are allowed to enter as long as they do not pass by any of the residences and do not cross any point (except C) more than once. What is the maximum distance (in m) that such a visitor can walk within the gated area?</p>",
+      "answer": "3500",
+      "solutionHtml": "<p><strong>Coordinates.</strong> From the given lengths: P–O = 150, O–N = 300, N–M = 300 (width 750); M–L = 400, L–E = 200, E–D = 400 (height 1000). So the vertical lines are at x = 0 (A, H, I, P), 150 (B, G, J, O), 450 (C, F, K, N), 750 (D, E, L, M) and the horizontal lines at y = 1000 (top), 600 (H–E), 400 (I–L), 0 (bottom).</p><p><strong>Walkway lengths:</strong> AB 150, BC 300, CD 300; HG 150, GF 300, FE 300; IJ 150, JK 300, KL 300; PO 150, ON 300, NM 300; AH 400, HI 200, IP 400; BG 400, GJ 200, JO 400; CF 400, FK 200, KN 400; DE 400, EL 200, LM 400; diagonals IG = √(150² + 200²) = 250 and OK = √(300² + 400²) = 500.</p><p>Lakes: CDEF, GFKJ and KLMN.</p><p>The visitor must start and end at C (the only entry/exit), may not use walkways AH or ML, may not pass through A, H, M or L, and may repeat no point except C.</p><p>With A, H, M, L removed, B connects only to C and G, and E only to D and F. The longest loop is <strong>C–B–G–J–I–P–O–N–K–F–E–D–C</strong>:</p><p>300 + 400 + 200 + 150 + 400 + 150 + 300 + 400 + 200 + 300 + 400 + 300 = <strong>3500 m</strong>.</p><p><strong>Check:</strong> a loop that uses the 500 m diagonal O–K has to skip N or P, and comes out shorter. Checking every loop through C confirms that 3500 m is the maximum.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many buyers gave ratings on Day 1?</p>",
+      "answer": "150",
+      "solutionHtml": "<p><strong>Day 2</strong> (from the chart): ratings 1, 2, 3, 4, 5 given by 5, 10, 5, 20, 10 buyers → 50 buyers, total 5 + 20 + 15 + 80 + 50 = 170.</p><p><strong>Day 1:</strong> with n buyers averaging 3, (3n + 170)/(n + 50) = 3.1 ⇒ 0.1n = 15 ⇒ <strong>n = 150</strong>.</p><p><strong>Day 3:</strong> let ratings 1 and 2 have a buyers each and rating 3 have 2a. Modes are 4 and 5, so they have equal counts b, larger than every other count. 4a + 2b = 100 ⇒ 2a + b = 50. With multiples of 10: a = 10 gives b = 30, rating-3 count 20 (valid); a = 20 gives b = 10 &lt; 40 (modes fail). So Day 3 = <strong>10, 10, 20, 30, 30</strong>, total 10 + 20 + 60 + 120 + 150 = 360.</p><p>From the cumulative-average equation, <strong>150</strong> buyers rated on Day 1.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the daily average rating of Day 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3.6"
+        },
+        {
+          "id": "B",
+          "textHtml": "3.5"
+        },
+        {
+          "id": "C",
+          "textHtml": "3.0"
+        },
+        {
+          "id": "D",
+          "textHtml": "3.2"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Day 2</strong> (from the chart): ratings 1, 2, 3, 4, 5 given by 5, 10, 5, 20, 10 buyers → 50 buyers, total 5 + 20 + 15 + 80 + 50 = 170.</p><p><strong>Day 1:</strong> with n buyers averaging 3, (3n + 170)/(n + 50) = 3.1 ⇒ 0.1n = 15 ⇒ <strong>n = 150</strong>.</p><p><strong>Day 3:</strong> let ratings 1 and 2 have a buyers each and rating 3 have 2a. Modes are 4 and 5, so they have equal counts b, larger than every other count. 4a + 2b = 100 ⇒ 2a + b = 50. With multiples of 10: a = 10 gives b = 30, rating-3 count 20 (valid); a = 20 gives b = 10 &lt; 40 (modes fail). So Day 3 = <strong>10, 10, 20, 30, 30</strong>, total 10 + 20 + 60 + 120 + 150 = 360.</p><p>Day 3 average = 360/100 = <strong>3.6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the median of all ratings given on Day 3?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Day 2</strong> (from the chart): ratings 1, 2, 3, 4, 5 given by 5, 10, 5, 20, 10 buyers → 50 buyers, total 5 + 20 + 15 + 80 + 50 = 170.</p><p><strong>Day 1:</strong> with n buyers averaging 3, (3n + 170)/(n + 50) = 3.1 ⇒ 0.1n = 15 ⇒ <strong>n = 150</strong>.</p><p><strong>Day 3:</strong> let ratings 1 and 2 have a buyers each and rating 3 have 2a. Modes are 4 and 5, so they have equal counts b, larger than every other count. 4a + 2b = 100 ⇒ 2a + b = 50. With multiples of 10: a = 10 gives b = 30, rating-3 count 20 (valid); a = 20 gives b = 10 &lt; 40 (modes fail). So Day 3 = <strong>10, 10, 20, 30, 30</strong>, total 10 + 20 + 60 + 120 + 150 = 360.</p><p>Sorted Day-3 ratings: positions 1–10 are 1s, 11–20 are 2s, 21–40 are 3s, 41–70 are 4s, 71–100 are 5s. The median is the average of the 50th and 51st values, both 4: median = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is true about the cumulative average ratings of Day 2 and Day 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The cumulative average of Day 3 decreased from Day 2."
+        },
+        {
+          "id": "B",
+          "textHtml": "The cumulative average of Day 3 increased by more than 8% from Day 2."
+        },
+        {
+          "id": "C",
+          "textHtml": "The cumulative average of Day 3 increased by less than 5% from Day 2."
+        },
+        {
+          "id": "D",
+          "textHtml": "The cumulative average of Day 3 increased by a percentage between 5% and 8% from Day 2."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Day 2</strong> (from the chart): ratings 1, 2, 3, 4, 5 given by 5, 10, 5, 20, 10 buyers → 50 buyers, total 5 + 20 + 15 + 80 + 50 = 170.</p><p><strong>Day 1:</strong> with n buyers averaging 3, (3n + 170)/(n + 50) = 3.1 ⇒ 0.1n = 15 ⇒ <strong>n = 150</strong>.</p><p><strong>Day 3:</strong> let ratings 1 and 2 have a buyers each and rating 3 have 2a. Modes are 4 and 5, so they have equal counts b, larger than every other count. 4a + 2b = 100 ⇒ 2a + b = 50. With multiples of 10: a = 10 gives b = 30, rating-3 count 20 (valid); a = 20 gives b = 10 &lt; 40 (modes fail). So Day 3 = <strong>10, 10, 20, 30, 30</strong>, total 10 + 20 + 60 + 120 + 150 = 360.</p><p>Cumulative total after Day 2 = 3.1 × 200 = 620. After Day 3: (620 + 360)/300 = 980/300 ≈ 3.267.</p><p>Change = (3.267 − 3.1)/3.1 = 0.167/3.1 ≈ 5.4%, an increase between 5% and 8%: <strong>statement 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bubble charts",
+      "difficulty": "easy",
+      "stemHtml": "<p>Assume that the annual rate of growth in PAT over the previous year (ARG) remained constant over the years for each of the six firms. Which among the firms A, B, C, and E had the highest ARG?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Firm E"
+        },
+        {
+          "id": "B",
+          "textHtml": "Firm B"
+        },
+        {
+          "id": "C",
+          "textHtml": "Firm A"
+        },
+        {
+          "id": "D",
+          "textHtml": "Firm C"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Reading the plots</strong> (ES, PAT):</p><p>2019 – A (800, 3000), B (1000, 2800), C (600, 2400), D (600, 3900), E (1200, 2400), F (800, 2500).<br>2023 – A (1300, 3900), B (1000, 3800), C (800, 3000), D (800, 2400), E (1400, 3500), F (1000, 3200).</p><p><strong>Circle sizes:</strong> the radii come in steps of 1 : 2 : 3 : 4, so PRD ∝ area ∝ 1 : 4 : 9 : 16. In units: 2019 – D 1, A 4, F 4, B 9, C 9, E 16; 2023 – A 4, C 4, D 4, F 4, B 9, E 9.</p><p>With a constant ARG, the firm with the largest ratio PAT<sub>2023</sub>/PAT<sub>2019</sub> has the highest ARG.</p><p>A: 3900/3000 = 1.30; B: 3800/2800 ≈ 1.36; C: 3000/2400 = 1.25; E: 3500/2400 ≈ 1.46. Highest: <strong>Firm E</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bubble charts",
+      "difficulty": "medium",
+      "stemHtml": "<p>The ratio of the amount of money spent by Firm C on R&amp;D in 2018 to that in 2023 is closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5 : 6"
+        },
+        {
+          "id": "B",
+          "textHtml": "9 : 5"
+        },
+        {
+          "id": "C",
+          "textHtml": "5 : 9"
+        },
+        {
+          "id": "D",
+          "textHtml": "9 : 4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Reading the plots</strong> (ES, PAT):</p><p>2019 – A (800, 3000), B (1000, 2800), C (600, 2400), D (600, 3900), E (1200, 2400), F (800, 2500).<br>2023 – A (1300, 3900), B (1000, 3800), C (800, 3000), D (800, 2400), E (1400, 3500), F (1000, 3200).</p><p><strong>Circle sizes:</strong> the radii come in steps of 1 : 2 : 3 : 4, so PRD ∝ area ∝ 1 : 4 : 9 : 16. In units: 2019 – D 1, A 4, F 4, B 9, C 9, E 16; 2023 – A 4, C 4, D 4, F 4, B 9, E 9.</p><p>R&amp;D spend = PAT × PRD. For C, PRD falls from 9 units (2019) to 4 units (2023), as the circle radius goes from 3 steps to 2.</p><p>2019 vs 2023: (2400 × 9) : (3000 × 4) = 21600 : 12000 = 1.8 = <strong>9 : 5</strong>.</p><p>Taking the question’s 2018 literally, with C’s PAT growing at a constant rate (2400 → 3000 over 4 years, about 5.7% a year), PAT<sub>2018</sub> ≈ 2270. If PRD stays at the 2019 level, the ratio is ≈ 1.70. That is still far closer to 9 : 5 (1.8) than to any other option (5 : 6, 5 : 9, 9 : 4 = 2.25). Answer: <strong>9 : 5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bubble charts",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which among the firms A, C, E, and F had the maximum PAT per employee in 2023?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Firm C"
+        },
+        {
+          "id": "B",
+          "textHtml": "Firm A"
+        },
+        {
+          "id": "C",
+          "textHtml": "Firm F"
+        },
+        {
+          "id": "D",
+          "textHtml": "Firm E"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Reading the plots</strong> (ES, PAT):</p><p>2019 – A (800, 3000), B (1000, 2800), C (600, 2400), D (600, 3900), E (1200, 2400), F (800, 2500).<br>2023 – A (1300, 3900), B (1000, 3800), C (800, 3000), D (800, 2400), E (1400, 3500), F (1000, 3200).</p><p><strong>Circle sizes:</strong> the radii come in steps of 1 : 2 : 3 : 4, so PRD ∝ area ∝ 1 : 4 : 9 : 16. In units: 2019 – D 1, A 4, F 4, B 9, C 9, E 16; 2023 – A 4, C 4, D 4, F 4, B 9, E 9.</p><p>2023 PAT/ES: A 3900/1300 = 3.0; C 3000/800 = 3.75; E 3500/1400 = 2.5; F 3200/1000 = 3.2. Maximum: <strong>Firm C</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bubble charts",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which among the firms C, D, E, and F had the least amount of R &amp; D spending per employee in 2023?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Firm E"
+        },
+        {
+          "id": "B",
+          "textHtml": "Firm D"
+        },
+        {
+          "id": "C",
+          "textHtml": "Firm F"
+        },
+        {
+          "id": "D",
+          "textHtml": "Firm C"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Reading the plots</strong> (ES, PAT):</p><p>2019 – A (800, 3000), B (1000, 2800), C (600, 2400), D (600, 3900), E (1200, 2400), F (800, 2500).<br>2023 – A (1300, 3900), B (1000, 3800), C (800, 3000), D (800, 2400), E (1400, 3500), F (1000, 3200).</p><p><strong>Circle sizes:</strong> the radii come in steps of 1 : 2 : 3 : 4, so PRD ∝ area ∝ 1 : 4 : 9 : 16. In units: 2019 – D 1, A 4, F 4, B 9, C 9, E 16; 2023 – A 4, C 4, D 4, F 4, B 9, E 9.</p><p>R&amp;D per employee ∝ PAT × PRD / ES (2023, PRD in units):</p><p>C: 3000 × 4/800 = 15; D: 2400 × 4/800 = 12; E: 3500 × 9/1400 = 22.5; F: 3200 × 4/1000 = 12.8. Least: <strong>Firm D</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping & ratings",
+      "difficulty": "hard",
+      "stemHtml": "<p>What best can be concluded about the number of players coached by Zara?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Exactly 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "Either 2 or 3"
+        },
+        {
+          "id": "C",
+          "textHtml": "Exactly 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Either 2 or 3 or 4"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Coaches.</strong> Player-4 is even (Xena or Yuki) and Player-1 is odd (Xena or Zara); they share a coach, so both are with <strong>Xena</strong>. Players 2, 3, 5 have three different coaches; 3 and 5 are odd (Xena or Zara), so Player-2 must be with <strong>Yuki</strong>, and 3, 5 split between Xena and Zara. If 5 (and so 7) were with Xena, Zara could only have Player-3 – fewer than two players. So 5 and 7 are with <strong>Zara</strong> and 3 is with <strong>Xena</strong>.</p><p><strong>Ratings.</strong> Players 5 and 7 share a rating and the other six ratings are distinct, so the values 1–7 are each used once, with one repeated: 28 + r<sub>5</sub> = 8 × 4 = 32 ⇒ <strong>r<sub>5</sub> = r<sub>7</sub> = 4</strong>. Player-2 is highest: <strong>7</strong>. r<sub>4</sub> = 2r<sub>8</sub> &lt; 4 ⇒ <strong>r<sub>4</sub> = 2, r<sub>8</sub> = 1</strong>. Players 1, 3, 6 take 3, 5, 6 in some order.</p><p><strong>Averages.</strong> Zara has only odd players; Players 1 and 3 are with Xena, so Zara = {5, 7}, average 4. Then Yuki’s average = 6 and Xena’s = 3. Yuki = {2} plus some of 6, 8: {2, 8} gives 4 and {2, 6, 8} would need r<sub>6</sub> = 10, so <strong>Yuki = {2, 6}</strong> with r<sub>6</sub> = 5. <strong>Xena = {1, 3, 4, 8}</strong>: r<sub>1</sub> + r<sub>3</sub> + 2 + 1 = 12 ⇒ r<sub>1</sub> + r<sub>3</sub> = 9, i.e. {3, 6} in either order. Xena (4) &gt; Yuki (2) ✓.</p><p>Zara trains exactly Players 5 and 7: <strong>exactly 2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping & ratings",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the rating of Player-7?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Coaches.</strong> Player-4 is even (Xena or Yuki) and Player-1 is odd (Xena or Zara); they share a coach, so both are with <strong>Xena</strong>. Players 2, 3, 5 have three different coaches; 3 and 5 are odd (Xena or Zara), so Player-2 must be with <strong>Yuki</strong>, and 3, 5 split between Xena and Zara. If 5 (and so 7) were with Xena, Zara could only have Player-3 – fewer than two players. So 5 and 7 are with <strong>Zara</strong> and 3 is with <strong>Xena</strong>.</p><p><strong>Ratings.</strong> Players 5 and 7 share a rating and the other six ratings are distinct, so the values 1–7 are each used once, with one repeated: 28 + r<sub>5</sub> = 8 × 4 = 32 ⇒ <strong>r<sub>5</sub> = r<sub>7</sub> = 4</strong>. Player-2 is highest: <strong>7</strong>. r<sub>4</sub> = 2r<sub>8</sub> &lt; 4 ⇒ <strong>r<sub>4</sub> = 2, r<sub>8</sub> = 1</strong>. Players 1, 3, 6 take 3, 5, 6 in some order.</p><p><strong>Averages.</strong> Zara has only odd players; Players 1 and 3 are with Xena, so Zara = {5, 7}, average 4. Then Yuki’s average = 6 and Xena’s = 3. Yuki = {2} plus some of 6, 8: {2, 8} gives 4 and {2, 6, 8} would need r<sub>6</sub> = 10, so <strong>Yuki = {2, 6}</strong> with r<sub>6</sub> = 5. <strong>Xena = {1, 3, 4, 8}</strong>: r<sub>1</sub> + r<sub>3</sub> + 2 + 1 = 12 ⇒ r<sub>1</sub> + r<sub>3</sub> = 9, i.e. {3, 6} in either order. Xena (4) &gt; Yuki (2) ✓.</p><p>r<sub>7</sub> = r<sub>5</sub> = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping & ratings",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the rating of Player-6?</p>",
+      "answer": "5",
+      "solutionHtml": "<p><strong>Coaches.</strong> Player-4 is even (Xena or Yuki) and Player-1 is odd (Xena or Zara); they share a coach, so both are with <strong>Xena</strong>. Players 2, 3, 5 have three different coaches; 3 and 5 are odd (Xena or Zara), so Player-2 must be with <strong>Yuki</strong>, and 3, 5 split between Xena and Zara. If 5 (and so 7) were with Xena, Zara could only have Player-3 – fewer than two players. So 5 and 7 are with <strong>Zara</strong> and 3 is with <strong>Xena</strong>.</p><p><strong>Ratings.</strong> Players 5 and 7 share a rating and the other six ratings are distinct, so the values 1–7 are each used once, with one repeated: 28 + r<sub>5</sub> = 8 × 4 = 32 ⇒ <strong>r<sub>5</sub> = r<sub>7</sub> = 4</strong>. Player-2 is highest: <strong>7</strong>. r<sub>4</sub> = 2r<sub>8</sub> &lt; 4 ⇒ <strong>r<sub>4</sub> = 2, r<sub>8</sub> = 1</strong>. Players 1, 3, 6 take 3, 5, 6 in some order.</p><p><strong>Averages.</strong> Zara has only odd players; Players 1 and 3 are with Xena, so Zara = {5, 7}, average 4. Then Yuki’s average = 6 and Xena’s = 3. Yuki = {2} plus some of 6, 8: {2, 8} gives 4 and {2, 6, 8} would need r<sub>6</sub> = 10, so <strong>Yuki = {2, 6}</strong> with r<sub>6</sub> = 5. <strong>Xena = {1, 3, 4, 8}</strong>: r<sub>1</sub> + r<sub>3</sub> + 2 + 1 = 12 ⇒ r<sub>1</sub> + r<sub>3</sub> = 9, i.e. {3, 6} in either order. Xena (4) &gt; Yuki (2) ✓.</p><p>Yuki’s average of 6 over Players 2 and 6 gives r<sub>6</sub> = 12 − 7 = <strong>5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping & ratings",
+      "difficulty": "hard",
+      "stemHtml": "<p>For how many players the ratings can be determined with certainty?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Coaches.</strong> Player-4 is even (Xena or Yuki) and Player-1 is odd (Xena or Zara); they share a coach, so both are with <strong>Xena</strong>. Players 2, 3, 5 have three different coaches; 3 and 5 are odd (Xena or Zara), so Player-2 must be with <strong>Yuki</strong>, and 3, 5 split between Xena and Zara. If 5 (and so 7) were with Xena, Zara could only have Player-3 – fewer than two players. So 5 and 7 are with <strong>Zara</strong> and 3 is with <strong>Xena</strong>.</p><p><strong>Ratings.</strong> Players 5 and 7 share a rating and the other six ratings are distinct, so the values 1–7 are each used once, with one repeated: 28 + r<sub>5</sub> = 8 × 4 = 32 ⇒ <strong>r<sub>5</sub> = r<sub>7</sub> = 4</strong>. Player-2 is highest: <strong>7</strong>. r<sub>4</sub> = 2r<sub>8</sub> &lt; 4 ⇒ <strong>r<sub>4</sub> = 2, r<sub>8</sub> = 1</strong>. Players 1, 3, 6 take 3, 5, 6 in some order.</p><p><strong>Averages.</strong> Zara has only odd players; Players 1 and 3 are with Xena, so Zara = {5, 7}, average 4. Then Yuki’s average = 6 and Xena’s = 3. Yuki = {2} plus some of 6, 8: {2, 8} gives 4 and {2, 6, 8} would need r<sub>6</sub> = 10, so <strong>Yuki = {2, 6}</strong> with r<sub>6</sub> = 5. <strong>Xena = {1, 3, 4, 8}</strong>: r<sub>1</sub> + r<sub>3</sub> + 2 + 1 = 12 ⇒ r<sub>1</sub> + r<sub>3</sub> = 9, i.e. {3, 6} in either order. Xena (4) &gt; Yuki (2) ✓.</p><p>Fixed: Player-2 = 7, Player-4 = 2, Player-5 = 4, Player-6 = 5, Player-7 = 4, Player-8 = 1. Players 1 and 3 are 3 and 6 in either order. So <strong>6</strong> ratings are certain.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping & ratings",
+      "difficulty": "hard",
+      "stemHtml": "<p>Who all were the players trained by Xena?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Player-1, Player-4, Player-6, Player-8"
+        },
+        {
+          "id": "B",
+          "textHtml": "Player-1, Player-3, Player-4, Player-6"
+        },
+        {
+          "id": "C",
+          "textHtml": "Player-1, Player-3, Player-4, Player-8"
+        },
+        {
+          "id": "D",
+          "textHtml": "Player-1, Player-3, Player-4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Coaches.</strong> Player-4 is even (Xena or Yuki) and Player-1 is odd (Xena or Zara); they share a coach, so both are with <strong>Xena</strong>. Players 2, 3, 5 have three different coaches; 3 and 5 are odd (Xena or Zara), so Player-2 must be with <strong>Yuki</strong>, and 3, 5 split between Xena and Zara. If 5 (and so 7) were with Xena, Zara could only have Player-3 – fewer than two players. So 5 and 7 are with <strong>Zara</strong> and 3 is with <strong>Xena</strong>.</p><p><strong>Ratings.</strong> Players 5 and 7 share a rating and the other six ratings are distinct, so the values 1–7 are each used once, with one repeated: 28 + r<sub>5</sub> = 8 × 4 = 32 ⇒ <strong>r<sub>5</sub> = r<sub>7</sub> = 4</strong>. Player-2 is highest: <strong>7</strong>. r<sub>4</sub> = 2r<sub>8</sub> &lt; 4 ⇒ <strong>r<sub>4</sub> = 2, r<sub>8</sub> = 1</strong>. Players 1, 3, 6 take 3, 5, 6 in some order.</p><p><strong>Averages.</strong> Zara has only odd players; Players 1 and 3 are with Xena, so Zara = {5, 7}, average 4. Then Yuki’s average = 6 and Xena’s = 3. Yuki = {2} plus some of 6, 8: {2, 8} gives 4 and {2, 6, 8} would need r<sub>6</sub> = 10, so <strong>Yuki = {2, 6}</strong> with r<sub>6</sub> = 5. <strong>Xena = {1, 3, 4, 8}</strong>: r<sub>1</sub> + r<sub>3</sub> + 2 + 1 = 12 ⇒ r<sub>1</sub> + r<sub>3</sub> = 9, i.e. {3, 6} in either order. Xena (4) &gt; Yuki (2) ✓.</p><p>Xena trained <strong>Players 1, 3, 4 and 8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

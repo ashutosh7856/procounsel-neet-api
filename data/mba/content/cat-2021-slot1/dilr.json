@@ -1,0 +1,663 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Sales by product subcategory",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2021-slot1/sales-by-subcategory.png"
+      ],
+      "contentHtml": "<p>The horizontal bars in the diagram represent 2020 aggregate sales (in ₹ million) of a company for the different subcategories of its products. The top four product subcategories (Bookcases, Chairs, Furnishings, Tables) belong to furniture product category; the bottom four product subcategories (Accessories, Copiers, Machines, Phones) belong to the technology product category while all other product subcategories belong to the office supply product category. For each of the product subcategories, there is a vertical line indicating the sales of the corresponding subcategory in 2019.</p>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Smoothies and fruit salad",
+      "contentHtml": "<p>Ganga, Kaveri, and Narmada are three women who buy four raw materials (Mango, Apple, Banana and Milk) and sell five finished products (Mango smoothie, Apple smoothie, Banana smoothie, Mixed fruit smoothie and Fruit salad). Table-1 gives information about the raw materials required to produce the five finished products. One unit of a finished product requires one unit of each of the raw materials mentioned in the second column of the table.</p><table><caption>Table I</caption><thead><tr><th>Finished product</th><th>Raw materials required</th></tr></thead><tbody><tr><td>Mango smoothie</td><td>Mango, Milk</td></tr><tr><td>Apple smoothie</td><td>Apple, Milk</td></tr><tr><td>Banana smoothie</td><td>Banana, Milk</td></tr><tr><td>Mixed fruit smoothie</td><td>Mango, Apple, Banana, Milk</td></tr><tr><td>Fruit salad</td><td>Mango, Apple, Banana</td></tr></tbody></table><p>One unit of milk, mango, apple, and banana cost ₹5, ₹3, ₹2, and ₹1 respectively. Each unit of a finished product is sold for a profit equal to two times the number of raw materials used to make that product. For example, apple smoothie is made with two raw materials (apple and milk) and will be sold for a profit of ₹4 per unit. Leftover raw materials are sold during the last business hour of the day for a loss of ₹1 per unit.</p><p>The amount, in rupees, received from sales (revenue) for each woman in each of the four business hours of the day is given in Table-2.</p><table><caption>Table II</caption><thead><tr><th>Business Hour</th><th>Ganga</th><th>Kaveri</th><th>Narmada</th></tr></thead><tbody><tr><td>Hour 1</td><td>23</td><td>19</td><td>31</td></tr><tr><td>Hour 2</td><td>21</td><td>22</td><td>21</td></tr><tr><td>Hour 3</td><td>29</td><td>30</td><td>23</td></tr><tr><td>Hour 4 (last hour)</td><td>30</td><td>27</td><td>22</td></tr></tbody></table><p>The following additional facts are known.</p><ol><li>No one except possibly Ganga sold any Mango smoothie.</li><li>Each woman sold either zero or one unit of any single finished product in any hour.</li><li>Each woman had exactly one unit each of two different raw materials as leftovers.</li><li>No one had any banana leftover.</li></ol>"
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "Journal papers by eight authors",
+      "contentHtml": "<p>A journal plans to publish 18 research papers, written by eight authors (A, B, C, D, E, F, G, and H) in four issues of the journal scheduled in January, April, July and October. Each of the research papers was written by exactly one of the eight authors. Five papers were scheduled in each of the first two issues, while four were scheduled in each of the last two issues. Every author wrote at least one paper and at most three papers. The total number of papers written by A, D, G and H was double the total number of papers written by the other four authors.</p><p>Four of the authors were from India and two each were from Japan and China. Each author belonged to exactly one of the three areas — Manufacturing, Automation and Logistics. Four of the authors were from the Logistics area and two were from the Automation area. As per the journal policy, none of the authors could have more than one paper in any issue of the journal.</p><p>The following facts are also known.</p><ol><li>F, an Indian author from the Logistics area, wrote only one paper. It was scheduled in the October issue.</li><li>A was from the Automation area and did not have a paper scheduled in the October issue.</li><li>None of the Indian authors were from the Manufacturing area and none of the Japanese or Chinese authors were from the Automation area.</li><li>A and H were from different countries, but had their papers scheduled in exactly the same issues.</li><li>C and E, both Chinese authors from different areas, had the same number of papers scheduled. Further, E had papers scheduled in consecutive issues of the journal but C did not.</li><li>B, from the Logistics area, had a paper scheduled in the April issue of the journal.</li><li>B and G belonged to the same country. None of their papers were scheduled in the same issue of the journal.</li><li>D, a Japanese author from the Manufacturing area, did not have a paper scheduled in the July issue.</li><li>C and H belonged to different areas.</li></ol>"
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Friends, acquaintances and strangers",
+      "contentHtml": "<p>Amudha, Bharatan, Chandran, Dhinesh, Ezhil, Fani and Gowtham are seven people in a town. Any pair of them could either be strangers, acquaintances, or friends. All relationships are mutual. For example, if Amudha is a friend of Bharatan, then Bharatan is also a friend of Amudha. Similarly, if Amudha is a stranger to Bharatan, then Bharatan is also a stranger to Amudha.</p><p>Partial information about the number of friends, acquaintances, and strangers of each of these people among them is given in the table below.</p><table><thead><tr><th></th><th>No. of Friends</th><th>No. of Acquaintances</th><th>No. of Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td></td><td>1</td><td>4</td></tr><tr><td>Bharatan</td><td></td><td></td><td></td></tr><tr><td>Chandran</td><td></td><td>1</td><td></td></tr><tr><td>Dhinesh</td><td></td><td></td><td>2</td></tr><tr><td>Ezhil</td><td></td><td></td><td>1</td></tr><tr><td>Fani</td><td>1</td><td></td><td></td></tr><tr><td>Gowtham</td><td></td><td>3</td><td>2</td></tr></tbody></table><p>The following additional facts are also known.</p><ol><li>Amudha, Bharatan, and Chandran are mutual strangers.</li><li>Amudha, Dhinesh, and Fani are Ezhil's friends.</li><li>Chandran and Gowtham are friends.</li><li>Every friend of Amudha is an acquaintance of Bharatan, and every acquaintance of Bharatan is a friend of Amudha.</li><li>Every friend of Bharatan is an acquaintance of Amudha, and every acquaintance of Amudha is a friend of Bharatan.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>The total sales (in ₹ million) in 2019 from products in office supplies category is closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18.0"
+        },
+        {
+          "id": "B",
+          "textHtml": "12.5"
+        },
+        {
+          "id": "C",
+          "textHtml": "16.5"
+        },
+        {
+          "id": "D",
+          "textHtml": "13.5"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (₹ million, 2019 → 2020, approx.): Furniture: Bookcases 1.9 → 2.2, Chairs 6.1 → 7.0, Furnishings 2.0 → 2.1, Tables 4.4 → 4.5. Office supply: Binders 3.6 → 5.3, Art 0.45 → 0.6, Appliances 1.9 → 3.1, Envelopes 0.35 → 0.2, Fasteners 0.1 → 0.1, Labels 0.2 → 0.3, Paper 1.5 → 2.0, Storage 4.3 → 5.1, Supplies 1.05 → 1.2. Technology: Accessories 3.05 → 4.4, Copiers 3.65 → 4.6, Machines 4.1 → 3.2, Phones 5.8 → 7.7.</p><p>Add the 2019 ticks of the nine office-supply subcategories: 3.6 + 0.45 + 1.9 + 0.35 + 0.1 + 0.2 + 1.5 + 4.3 + 1.05 ≈ <strong>13.5</strong>.</p><p>Check: the four big items (Binders, Appliances, Paper, Storage) give about 11.3, and the five small ones about 2.2, so the total is clearly nearer 13.5 than 12.5 or 16.5.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>The percentage increase in sales in Furniture category from 2019 to 2020 is closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20%"
+        },
+        {
+          "id": "B",
+          "textHtml": "1%"
+        },
+        {
+          "id": "C",
+          "textHtml": "8%"
+        },
+        {
+          "id": "D",
+          "textHtml": "25%"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (₹ million, 2019 → 2020, approx.): Furniture: Bookcases 1.9 → 2.2, Chairs 6.1 → 7.0, Furnishings 2.0 → 2.1, Tables 4.4 → 4.5. Office supply: Binders 3.6 → 5.3, Art 0.45 → 0.6, Appliances 1.9 → 3.1, Envelopes 0.35 → 0.2, Fasteners 0.1 → 0.1, Labels 0.2 → 0.3, Paper 1.5 → 2.0, Storage 4.3 → 5.1, Supplies 1.05 → 1.2. Technology: Accessories 3.05 → 4.4, Copiers 3.65 → 4.6, Machines 4.1 → 3.2, Phones 5.8 → 7.7.</p><p>Furniture 2019: 1.9 + 6.1 + 2.0 + 4.4 ≈ 14.4 to 14.5. Furniture 2020: 2.2 + 7.0 + 2.1 + 4.5 = 15.8.</p><p>Increase ≈ 1.3 on 14.5 ≈ 9%, which is closest to <strong>8%</strong>. The other options (1%, 20%, 25%) are far off.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many subcategories had sales of ₹ 4 million or more in 2019 and registered an increase in sales in excess of 25% in 2020?</p>",
+      "answer": "1",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (₹ million, 2019 → 2020, approx.): Furniture: Bookcases 1.9 → 2.2, Chairs 6.1 → 7.0, Furnishings 2.0 → 2.1, Tables 4.4 → 4.5. Office supply: Binders 3.6 → 5.3, Art 0.45 → 0.6, Appliances 1.9 → 3.1, Envelopes 0.35 → 0.2, Fasteners 0.1 → 0.1, Labels 0.2 → 0.3, Paper 1.5 → 2.0, Storage 4.3 → 5.1, Supplies 1.05 → 1.2. Technology: Accessories 3.05 → 4.4, Copiers 3.65 → 4.6, Machines 4.1 → 3.2, Phones 5.8 → 7.7.</p><p>Subcategories with 2019 sales ≥ 4 (tick at or right of 4): Chairs (6.1), Tables (4.4), Storage (4.3), Machines (4.1), Phones (5.8).</p><p>Growth: Chairs 7.0/6.1 ≈ +14%; Tables ≈ +2%; Storage 5.1/4.3 ≈ +19%; Machines fell; Phones 7.7/5.8 ≈ <strong>+33%</strong>.</p><p>Only Phones qualifies, so the answer is <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>The improvement index for a category is the maximum percentage increase in sales from 2019 to 2020 among any of its subcategories. The correct order of categories in increasing order of this improvement index is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "technology, furniture, office supply"
+        },
+        {
+          "id": "B",
+          "textHtml": "office supply, furniture, technology"
+        },
+        {
+          "id": "C",
+          "textHtml": "office supply, technology, furniture"
+        },
+        {
+          "id": "D",
+          "textHtml": "furniture, technology, office supply"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (₹ million, 2019 → 2020, approx.): Furniture: Bookcases 1.9 → 2.2, Chairs 6.1 → 7.0, Furnishings 2.0 → 2.1, Tables 4.4 → 4.5. Office supply: Binders 3.6 → 5.3, Art 0.45 → 0.6, Appliances 1.9 → 3.1, Envelopes 0.35 → 0.2, Fasteners 0.1 → 0.1, Labels 0.2 → 0.3, Paper 1.5 → 2.0, Storage 4.3 → 5.1, Supplies 1.05 → 1.2. Technology: Accessories 3.05 → 4.4, Copiers 3.65 → 4.6, Machines 4.1 → 3.2, Phones 5.8 → 7.7.</p><p>Furniture: best is Bookcases, 2.2/1.9 ≈ +15% (Chairs ≈ +14%).</p><p>Technology: best is Accessories, 4.4/3.05 ≈ +44% (Phones ≈ +33%, Copiers ≈ +26%).</p><p>Office supply: Appliances 3.1/1.9 ≈ <strong>+63%</strong> (Binders ≈ +46%).</p><p>Increasing order: furniture &lt; technology &lt; office supply, which is option <strong>D</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arithmetic puzzle",
+      "difficulty": "medium",
+      "stemHtml": "<p>What BEST can be concluded about the number of units of fruit salad sold in the first hour?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Exactly 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "Either 0 or 1 or 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either 1 or 2"
+        },
+        {
+          "id": "D",
+          "textHtml": "Exactly 1"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Prices.</strong> Price = cost + 2 × (number of raw materials): Mango smoothie 8 + 4 = <strong>12</strong>, Apple smoothie 7 + 4 = <strong>11</strong>, Banana smoothie 6 + 4 = <strong>10</strong>, Mixed fruit smoothie 11 + 8 = <strong>19</strong>, Fruit salad 6 + 6 = <strong>12</strong>. Leftovers sell at cost − 1: mango 2, apple 1, milk 4 (no banana leftovers). Two different leftovers give mango+apple = 3, mango+milk = 6 or apple+milk = 5, all sold in hour 4.</p><p><strong>Decoding the hours</strong> (each product at most once per hour, Mango smoothie only for Ganga):</p><ul><li>Kaveri: 19 = Mixed; 22 = Banana + Salad; 30 = Apple + Mixed; hour 4: 27 − 6 = 21 = Apple + Banana (leftover mango+milk) <em>or</em> 27 − 5 = 22 = Banana + Salad (leftover apple+milk). 27 − 3 = 24 is impossible for her.</li><li>Narmada: 31 = Salad + Mixed; 21 = Apple + Banana; 23 = Apple + Salad; hour 4: only 22 − 3 = 19 = Mixed works, so her leftovers are mango+apple.</li><li>Ganga: 23 = Apple + Salad <em>or</em> Apple + Mango smoothie; 21 = Apple + Banana; 29 = Banana + Mixed; hour 4: only 30 − 6 = 24 = Mango smoothie + Salad works, so her leftovers are mango+milk.</li></ul><p>Hour 1: Kaveri sold only a Mixed smoothie (0 salads), Narmada sold Salad + Mixed (1 salad), and Ganga’s 23 is Apple + Salad or Apple + Mango smoothie (1 or 0 salads).</p><p>Total fruit salads in hour 1 = <strong>either 1 or 2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arithmetic puzzle",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is NECESSARILY true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Narmada sold one unit of leftover milk."
+        },
+        {
+          "id": "B",
+          "textHtml": "Ganga did not sell any leftover mangoes."
+        },
+        {
+          "id": "C",
+          "textHtml": "Ganga did not sell any leftover apples."
+        },
+        {
+          "id": "D",
+          "textHtml": "Kaveri sold one unit of leftover mangoes"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Prices.</strong> Price = cost + 2 × (number of raw materials): Mango smoothie 8 + 4 = <strong>12</strong>, Apple smoothie 7 + 4 = <strong>11</strong>, Banana smoothie 6 + 4 = <strong>10</strong>, Mixed fruit smoothie 11 + 8 = <strong>19</strong>, Fruit salad 6 + 6 = <strong>12</strong>. Leftovers sell at cost − 1: mango 2, apple 1, milk 4 (no banana leftovers). Two different leftovers give mango+apple = 3, mango+milk = 6 or apple+milk = 5, all sold in hour 4.</p><p><strong>Decoding the hours</strong> (each product at most once per hour, Mango smoothie only for Ganga):</p><ul><li>Kaveri: 19 = Mixed; 22 = Banana + Salad; 30 = Apple + Mixed; hour 4: 27 − 6 = 21 = Apple + Banana (leftover mango+milk) <em>or</em> 27 − 5 = 22 = Banana + Salad (leftover apple+milk). 27 − 3 = 24 is impossible for her.</li><li>Narmada: 31 = Salad + Mixed; 21 = Apple + Banana; 23 = Apple + Salad; hour 4: only 22 − 3 = 19 = Mixed works, so her leftovers are mango+apple.</li><li>Ganga: 23 = Apple + Salad <em>or</em> Apple + Mango smoothie; 21 = Apple + Banana; 29 = Banana + Mixed; hour 4: only 30 − 6 = 24 = Mango smoothie + Salad works, so her leftovers are mango+milk.</li></ul><p>Ganga’s hour-4 revenue of 30 works only with leftovers mango + milk (6) plus Mango smoothie + Salad (24). So she had no leftover apple, and <strong>C</strong> is necessarily true.</p><p>A is false (Narmada’s leftovers are mango + apple). B is false (Ganga did sell a leftover mango). D is only possible: Kaveri may have had apple + milk instead.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arithmetic puzzle",
+      "difficulty": "hard",
+      "stemHtml": "<p>What BEST can be concluded about the total number of units of milk the three women had in the beginning?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Either 17 or 18 or 19 units."
+        },
+        {
+          "id": "B",
+          "textHtml": "Either 19 or 20 units."
+        },
+        {
+          "id": "C",
+          "textHtml": "Either 18 or 19 units."
+        },
+        {
+          "id": "D",
+          "textHtml": "Either 18 or 19 or 20 units."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Prices.</strong> Price = cost + 2 × (number of raw materials): Mango smoothie 8 + 4 = <strong>12</strong>, Apple smoothie 7 + 4 = <strong>11</strong>, Banana smoothie 6 + 4 = <strong>10</strong>, Mixed fruit smoothie 11 + 8 = <strong>19</strong>, Fruit salad 6 + 6 = <strong>12</strong>. Leftovers sell at cost − 1: mango 2, apple 1, milk 4 (no banana leftovers). Two different leftovers give mango+apple = 3, mango+milk = 6 or apple+milk = 5, all sold in hour 4.</p><p><strong>Decoding the hours</strong> (each product at most once per hour, Mango smoothie only for Ganga):</p><ul><li>Kaveri: 19 = Mixed; 22 = Banana + Salad; 30 = Apple + Mixed; hour 4: 27 − 6 = 21 = Apple + Banana (leftover mango+milk) <em>or</em> 27 − 5 = 22 = Banana + Salad (leftover apple+milk). 27 − 3 = 24 is impossible for her.</li><li>Narmada: 31 = Salad + Mixed; 21 = Apple + Banana; 23 = Apple + Salad; hour 4: only 22 − 3 = 19 = Mixed works, so her leftovers are mango+apple.</li><li>Ganga: 23 = Apple + Salad <em>or</em> Apple + Mango smoothie; 21 = Apple + Banana; 29 = Banana + Mixed; hour 4: only 30 − 6 = 24 = Mango smoothie + Salad works, so her leftovers are mango+milk.</li></ul><p>Milk goes into every smoothie (not the salad), plus any leftover milk.</p><p>Ganga: hour 1 Apple + (Salad or Mango smoothie) = 1 or 2; hour 2 = 2; hour 3 = 2; hour 4 Mango smoothie = 1; leftover milk 1. Total <strong>7 or 8</strong>.</p><p>Kaveri: hour 1 = 1; hour 2 = 1; hour 3 = 2; hour 4 is either Apple + Banana (2) + leftover milk (1) = 3, or Banana + Salad (1) + leftover milk (1) = 2. Total <strong>6 or 7</strong>.</p><p>Narmada: 1 + 2 + 1 + 1 = <strong>5</strong>, no leftover milk.</p><p>Total = 18, 19 or 20, and all three are achievable, so the answer is <strong>D</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arithmetic puzzle",
+      "difficulty": "medium",
+      "stemHtml": "<p>If it is known that three leftover units of mangoes were sold during the last business hour of the day, how many apple smoothies were sold during the day?</p>",
+      "answer": "6",
+      "solutionHtml": "<p><strong>Prices.</strong> Price = cost + 2 × (number of raw materials): Mango smoothie 8 + 4 = <strong>12</strong>, Apple smoothie 7 + 4 = <strong>11</strong>, Banana smoothie 6 + 4 = <strong>10</strong>, Mixed fruit smoothie 11 + 8 = <strong>19</strong>, Fruit salad 6 + 6 = <strong>12</strong>. Leftovers sell at cost − 1: mango 2, apple 1, milk 4 (no banana leftovers). Two different leftovers give mango+apple = 3, mango+milk = 6 or apple+milk = 5, all sold in hour 4.</p><p><strong>Decoding the hours</strong> (each product at most once per hour, Mango smoothie only for Ganga):</p><ul><li>Kaveri: 19 = Mixed; 22 = Banana + Salad; 30 = Apple + Mixed; hour 4: 27 − 6 = 21 = Apple + Banana (leftover mango+milk) <em>or</em> 27 − 5 = 22 = Banana + Salad (leftover apple+milk). 27 − 3 = 24 is impossible for her.</li><li>Narmada: 31 = Salad + Mixed; 21 = Apple + Banana; 23 = Apple + Salad; hour 4: only 22 − 3 = 19 = Mixed works, so her leftovers are mango+apple.</li><li>Ganga: 23 = Apple + Salad <em>or</em> Apple + Mango smoothie; 21 = Apple + Banana; 29 = Banana + Mixed; hour 4: only 30 − 6 = 24 = Mango smoothie + Salad works, so her leftovers are mango+milk.</li></ul><p>Ganga and Narmada already have a leftover mango each, so the third must be Kaveri’s. Her leftovers are mango + milk, and her hour-4 sales are Apple + Banana.</p><p>Apple smoothies: Ganga 2 (hours 1 and 2, since both hour-1 options include an apple smoothie), Kaveri 2 (hours 3 and 4), Narmada 2 (hours 2 and 3).</p><p>Total = <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the correct sequence of number of papers written by B, C, E and G, respectively?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3, 1, 1, 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "1, 3, 3, 1"
+        },
+        {
+          "id": "C",
+          "textHtml": "1, 2, 2, 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "1, 2, 2, 1"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> A + D + G + H = 12 with at most 3 each, so each of A, D, G, H wrote 3; B + C + E + F = 6 with F = 1 and C = E.</p><p>Automation authors must be Indian (fact 3), so A is Indian and H (different country) is not. C, E are the Chinese, so H and D are Japanese; B and G (same country) are then Indian, with F and A. C and E are in different areas, neither Automation, so one is Manufacturing and one is Logistics. With D, that fills Manufacturing, so H is Logistics, C is Manufacturing (fact 9) and E is Logistics. Logistics = F, B, H, E, so the second Automation author is G.</p><p>Issues: A and H: Jan, Apr, Jul. D: Jan, Apr, Oct. G avoids B’s April, so G: Jan, Jul, Oct, and B can then only be in April, so B = 1 and C = E = 2. One slot is left in each issue; E takes consecutive issues and C does not, so <strong>C: Jan, Oct</strong> and <strong>E: Apr, Jul</strong>.</p><table><thead><tr><th>Issue</th><th>Papers (author: country, area)</th></tr></thead><tbody><tr><td>Jan (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), G (Ind, Aut), C (Chi, Man)</td></tr><tr><td>Apr (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), B (Ind, Log), E (Chi, Log)</td></tr><tr><td>Jul (4)</td><td>A (Ind, Aut), H (Jap, Log), G (Ind, Aut), E (Chi, Log)</td></tr><tr><td>Oct (4)</td><td>D (Jap, Man), G (Ind, Aut), F (Ind, Log), C (Chi, Man)</td></tr></tbody></table><p>B = 1, C = 2, E = 2, G = 3, which is option <strong>C</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many papers were written by Indian authors?</p>",
+      "answer": "8",
+      "solutionHtml": "<p><strong>Key deductions.</strong> A + D + G + H = 12 with at most 3 each, so each of A, D, G, H wrote 3; B + C + E + F = 6 with F = 1 and C = E.</p><p>Automation authors must be Indian (fact 3), so A is Indian and H (different country) is not. C, E are the Chinese, so H and D are Japanese; B and G (same country) are then Indian, with F and A. C and E are in different areas, neither Automation, so one is Manufacturing and one is Logistics. With D, that fills Manufacturing, so H is Logistics, C is Manufacturing (fact 9) and E is Logistics. Logistics = F, B, H, E, so the second Automation author is G.</p><p>Issues: A and H: Jan, Apr, Jul. D: Jan, Apr, Oct. G avoids B’s April, so G: Jan, Jul, Oct, and B can then only be in April, so B = 1 and C = E = 2. One slot is left in each issue; E takes consecutive issues and C does not, so <strong>C: Jan, Oct</strong> and <strong>E: Apr, Jul</strong>.</p><table><thead><tr><th>Issue</th><th>Papers (author: country, area)</th></tr></thead><tbody><tr><td>Jan (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), G (Ind, Aut), C (Chi, Man)</td></tr><tr><td>Apr (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), B (Ind, Log), E (Chi, Log)</td></tr><tr><td>Jul (4)</td><td>A (Ind, Aut), H (Jap, Log), G (Ind, Aut), E (Chi, Log)</td></tr><tr><td>Oct (4)</td><td>D (Jap, Man), G (Ind, Aut), F (Ind, Log), C (Chi, Man)</td></tr></tbody></table><p>Indian authors are A (3), G (3), B (1) and F (1), so the total is <strong>8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statement(s) MUST be true?</p><p>Statement A: Every issue had at least one paper by author(s) from each country.</p><p>Statement B: Every issue had at most two papers by author(s) from each area.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Both the statements"
+        },
+        {
+          "id": "B",
+          "textHtml": "Neither of the statements"
+        },
+        {
+          "id": "C",
+          "textHtml": "Only Statement A"
+        },
+        {
+          "id": "D",
+          "textHtml": "Only Statement B"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> A + D + G + H = 12 with at most 3 each, so each of A, D, G, H wrote 3; B + C + E + F = 6 with F = 1 and C = E.</p><p>Automation authors must be Indian (fact 3), so A is Indian and H (different country) is not. C, E are the Chinese, so H and D are Japanese; B and G (same country) are then Indian, with F and A. C and E are in different areas, neither Automation, so one is Manufacturing and one is Logistics. With D, that fills Manufacturing, so H is Logistics, C is Manufacturing (fact 9) and E is Logistics. Logistics = F, B, H, E, so the second Automation author is G.</p><p>Issues: A and H: Jan, Apr, Jul. D: Jan, Apr, Oct. G avoids B’s April, so G: Jan, Jul, Oct, and B can then only be in April, so B = 1 and C = E = 2. One slot is left in each issue; E takes consecutive issues and C does not, so <strong>C: Jan, Oct</strong> and <strong>E: Apr, Jul</strong>.</p><table><thead><tr><th>Issue</th><th>Papers (author: country, area)</th></tr></thead><tbody><tr><td>Jan (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), G (Ind, Aut), C (Chi, Man)</td></tr><tr><td>Apr (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), B (Ind, Log), E (Chi, Log)</td></tr><tr><td>Jul (4)</td><td>A (Ind, Aut), H (Jap, Log), G (Ind, Aut), E (Chi, Log)</td></tr><tr><td>Oct (4)</td><td>D (Jap, Man), G (Ind, Aut), F (Ind, Log), C (Chi, Man)</td></tr></tbody></table><p>Statement A: Jan (A, G / H, D / C), Apr (A, B / H, D / E), Jul (A, G / H / E), Oct (G, F / D / C). Every issue has India, Japan and China, so it is true.</p><p>Statement B: April has three Logistics papers (H, B, E), so it is false.</p><p>Only Statement A, which is option <strong>C</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements is FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Every issue had exactly two papers by authors from Logistics area."
+        },
+        {
+          "id": "B",
+          "textHtml": "Every issue had at least one paper by author(s) from Automation area."
+        },
+        {
+          "id": "C",
+          "textHtml": "Every issue had exactly two papers by Indian authors"
+        },
+        {
+          "id": "D",
+          "textHtml": "Every issue had exactly one paper by a Chinese author"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> A + D + G + H = 12 with at most 3 each, so each of A, D, G, H wrote 3; B + C + E + F = 6 with F = 1 and C = E.</p><p>Automation authors must be Indian (fact 3), so A is Indian and H (different country) is not. C, E are the Chinese, so H and D are Japanese; B and G (same country) are then Indian, with F and A. C and E are in different areas, neither Automation, so one is Manufacturing and one is Logistics. With D, that fills Manufacturing, so H is Logistics, C is Manufacturing (fact 9) and E is Logistics. Logistics = F, B, H, E, so the second Automation author is G.</p><p>Issues: A and H: Jan, Apr, Jul. D: Jan, Apr, Oct. G avoids B’s April, so G: Jan, Jul, Oct, and B can then only be in April, so B = 1 and C = E = 2. One slot is left in each issue; E takes consecutive issues and C does not, so <strong>C: Jan, Oct</strong> and <strong>E: Apr, Jul</strong>.</p><table><thead><tr><th>Issue</th><th>Papers (author: country, area)</th></tr></thead><tbody><tr><td>Jan (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), G (Ind, Aut), C (Chi, Man)</td></tr><tr><td>Apr (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), B (Ind, Log), E (Chi, Log)</td></tr><tr><td>Jul (4)</td><td>A (Ind, Aut), H (Jap, Log), G (Ind, Aut), E (Chi, Log)</td></tr><tr><td>Oct (4)</td><td>D (Jap, Man), G (Ind, Aut), F (Ind, Log), C (Chi, Man)</td></tr></tbody></table><p>Logistics papers per issue: Jan 1 (H), Apr 3 (H, B, E), Jul 2, Oct 1 (F). So A is <strong>false</strong>.</p><p>B is true (A or G is in every issue). C is true (Jan A, G; Apr A, B; Jul A, G; Oct G, F). D is true (C, E, E, C).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements is FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "There were exactly two papers by authors from Manufacturing area in the January issue."
+        },
+        {
+          "id": "B",
+          "textHtml": "There were exactly two papers by authors from Manufacturing area in the July issue."
+        },
+        {
+          "id": "C",
+          "textHtml": "There was exactly one paper by an author from Logistics area in the October issue."
+        },
+        {
+          "id": "D",
+          "textHtml": "There was exactly one paper by an author from Manufacturing area in the April issue"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> A + D + G + H = 12 with at most 3 each, so each of A, D, G, H wrote 3; B + C + E + F = 6 with F = 1 and C = E.</p><p>Automation authors must be Indian (fact 3), so A is Indian and H (different country) is not. C, E are the Chinese, so H and D are Japanese; B and G (same country) are then Indian, with F and A. C and E are in different areas, neither Automation, so one is Manufacturing and one is Logistics. With D, that fills Manufacturing, so H is Logistics, C is Manufacturing (fact 9) and E is Logistics. Logistics = F, B, H, E, so the second Automation author is G.</p><p>Issues: A and H: Jan, Apr, Jul. D: Jan, Apr, Oct. G avoids B’s April, so G: Jan, Jul, Oct, and B can then only be in April, so B = 1 and C = E = 2. One slot is left in each issue; E takes consecutive issues and C does not, so <strong>C: Jan, Oct</strong> and <strong>E: Apr, Jul</strong>.</p><table><thead><tr><th>Issue</th><th>Papers (author: country, area)</th></tr></thead><tbody><tr><td>Jan (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), G (Ind, Aut), C (Chi, Man)</td></tr><tr><td>Apr (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), B (Ind, Log), E (Chi, Log)</td></tr><tr><td>Jul (4)</td><td>A (Ind, Aut), H (Jap, Log), G (Ind, Aut), E (Chi, Log)</td></tr><tr><td>Oct (4)</td><td>D (Jap, Man), G (Ind, Aut), F (Ind, Log), C (Chi, Man)</td></tr></tbody></table><p>The July issue has A, H, G, E, all Automation or Logistics, so it has <strong>no</strong> Manufacturing paper. B is false.</p><p>A: Jan has D and C, so it is true. C: Oct Logistics is F only, so it is true. D: April Manufacturing is D only, so it is true.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following is the correct sequence of number of papers by authors from Automation, Manufacturing and Logistics areas, respectively?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6, 5, 7"
+        },
+        {
+          "id": "B",
+          "textHtml": "6, 6, 6"
+        },
+        {
+          "id": "C",
+          "textHtml": "6, 7, 5"
+        },
+        {
+          "id": "D",
+          "textHtml": "5, 6, 7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> A + D + G + H = 12 with at most 3 each, so each of A, D, G, H wrote 3; B + C + E + F = 6 with F = 1 and C = E.</p><p>Automation authors must be Indian (fact 3), so A is Indian and H (different country) is not. C, E are the Chinese, so H and D are Japanese; B and G (same country) are then Indian, with F and A. C and E are in different areas, neither Automation, so one is Manufacturing and one is Logistics. With D, that fills Manufacturing, so H is Logistics, C is Manufacturing (fact 9) and E is Logistics. Logistics = F, B, H, E, so the second Automation author is G.</p><p>Issues: A and H: Jan, Apr, Jul. D: Jan, Apr, Oct. G avoids B’s April, so G: Jan, Jul, Oct, and B can then only be in April, so B = 1 and C = E = 2. One slot is left in each issue; E takes consecutive issues and C does not, so <strong>C: Jan, Oct</strong> and <strong>E: Apr, Jul</strong>.</p><table><thead><tr><th>Issue</th><th>Papers (author: country, area)</th></tr></thead><tbody><tr><td>Jan (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), G (Ind, Aut), C (Chi, Man)</td></tr><tr><td>Apr (5)</td><td>A (Ind, Aut), H (Jap, Log), D (Jap, Man), B (Ind, Log), E (Chi, Log)</td></tr><tr><td>Jul (4)</td><td>A (Ind, Aut), H (Jap, Log), G (Ind, Aut), E (Chi, Log)</td></tr><tr><td>Oct (4)</td><td>D (Jap, Man), G (Ind, Aut), F (Ind, Log), C (Chi, Man)</td></tr></tbody></table><p>Automation: A 3 + G 3 = 6. Manufacturing: D 3 + C 2 = 5. Logistics: H 3 + E 2 + B 1 + F 1 = 7.</p><p>So 6, 5, 7, which is option <strong>A</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Relationships",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who are Gowtham’s acquaintances?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Bharatan, Dhinesh and Ezhil"
+        },
+        {
+          "id": "B",
+          "textHtml": "Dhinesh, Ezhil and Fani"
+        },
+        {
+          "id": "C",
+          "textHtml": "Amudha, Dhinesh and Fani"
+        },
+        {
+          "id": "D",
+          "textHtml": "Amudha, Bharatan and Fani"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each person has 6 relationships).</p><ul><li>Amudha: 1 acquaintance, 4 strangers, so exactly 1 friend, which must be Ezhil. By fact 4, Bharatan’s only acquaintance is Ezhil.</li><li>Gowtham: 3 acquaintances, 2 strangers, so 1 friend, Chandran. Fani’s only friend is Ezhil.</li><li>Amudha’s single acquaintance is Bharatan’s only friend (fact 5). It cannot be Fani or Gowtham (their only friends are Ezhil and Chandran), so it is <strong>Dhinesh</strong>. Amudha is a stranger to B, C, F, G, and Bharatan is a stranger to A, C, F, G.</li><li>Gowtham’s strangers are Amudha and Bharatan, so his acquaintances are Dhinesh, Ezhil and Fani.</li><li>Ezhil: friends A, D, F; acquaintances B, G; his one stranger is Chandran.</li><li>Dhinesh already has A (acq), B (friend), E (friend), G (acq); he needs 2 strangers, so Chandran and Fani. Chandran’s one acquaintance must then be <strong>Fani</strong>.</li></ul><table><thead><tr><th></th><th>Friends</th><th>Acquaintances</th><th>Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td>E</td><td>D</td><td>B, C, F, G</td></tr><tr><td>Bharatan</td><td>D</td><td>E</td><td>A, C, F, G</td></tr><tr><td>Chandran</td><td>G</td><td>F</td><td>A, B, D, E</td></tr><tr><td>Dhinesh</td><td>B, E</td><td>A, G</td><td>C, F</td></tr><tr><td>Ezhil</td><td>A, D, F</td><td>B, G</td><td>C</td></tr><tr><td>Fani</td><td>E</td><td>C, G</td><td>A, B, D</td></tr><tr><td>Gowtham</td><td>C</td><td>D, E, F</td><td>A, B</td></tr></tbody></table><p>Gowtham’s friend is Chandran and his two strangers are Amudha and Bharatan, so his acquaintances are <strong>Dhinesh, Ezhil and Fani</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Relationships",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of these pairs share the same type of relationship?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(Bharatan, Ezhil) and (Fani, Gowtham)"
+        },
+        {
+          "id": "B",
+          "textHtml": "(Amudha, Gowtham) and (Ezhil, Fani)"
+        },
+        {
+          "id": "C",
+          "textHtml": "(Chandran, Ezhil) and (Dhinesh, Gowtham)"
+        },
+        {
+          "id": "D",
+          "textHtml": "(Bharatan, Chandran) and (Dhinesh, Ezhil)"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each person has 6 relationships).</p><ul><li>Amudha: 1 acquaintance, 4 strangers, so exactly 1 friend, which must be Ezhil. By fact 4, Bharatan’s only acquaintance is Ezhil.</li><li>Gowtham: 3 acquaintances, 2 strangers, so 1 friend, Chandran. Fani’s only friend is Ezhil.</li><li>Amudha’s single acquaintance is Bharatan’s only friend (fact 5). It cannot be Fani or Gowtham (their only friends are Ezhil and Chandran), so it is <strong>Dhinesh</strong>. Amudha is a stranger to B, C, F, G, and Bharatan is a stranger to A, C, F, G.</li><li>Gowtham’s strangers are Amudha and Bharatan, so his acquaintances are Dhinesh, Ezhil and Fani.</li><li>Ezhil: friends A, D, F; acquaintances B, G; his one stranger is Chandran.</li><li>Dhinesh already has A (acq), B (friend), E (friend), G (acq); he needs 2 strangers, so Chandran and Fani. Chandran’s one acquaintance must then be <strong>Fani</strong>.</li></ul><table><thead><tr><th></th><th>Friends</th><th>Acquaintances</th><th>Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td>E</td><td>D</td><td>B, C, F, G</td></tr><tr><td>Bharatan</td><td>D</td><td>E</td><td>A, C, F, G</td></tr><tr><td>Chandran</td><td>G</td><td>F</td><td>A, B, D, E</td></tr><tr><td>Dhinesh</td><td>B, E</td><td>A, G</td><td>C, F</td></tr><tr><td>Ezhil</td><td>A, D, F</td><td>B, G</td><td>C</td></tr><tr><td>Fani</td><td>E</td><td>C, G</td><td>A, B, D</td></tr><tr><td>Gowtham</td><td>C</td><td>D, E, F</td><td>A, B</td></tr></tbody></table><p>A: Bharatan–Ezhil are acquaintances and Fani–Gowtham are acquaintances, so they match.</p><p>B: stranger vs friend. C: stranger vs acquaintance. D: stranger vs friend.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Relationships",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who is an acquaintance of Amudha?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Fani"
+        },
+        {
+          "id": "B",
+          "textHtml": "Ezhil"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dhinesh"
+        },
+        {
+          "id": "D",
+          "textHtml": "Gowtham"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each person has 6 relationships).</p><ul><li>Amudha: 1 acquaintance, 4 strangers, so exactly 1 friend, which must be Ezhil. By fact 4, Bharatan’s only acquaintance is Ezhil.</li><li>Gowtham: 3 acquaintances, 2 strangers, so 1 friend, Chandran. Fani’s only friend is Ezhil.</li><li>Amudha’s single acquaintance is Bharatan’s only friend (fact 5). It cannot be Fani or Gowtham (their only friends are Ezhil and Chandran), so it is <strong>Dhinesh</strong>. Amudha is a stranger to B, C, F, G, and Bharatan is a stranger to A, C, F, G.</li><li>Gowtham’s strangers are Amudha and Bharatan, so his acquaintances are Dhinesh, Ezhil and Fani.</li><li>Ezhil: friends A, D, F; acquaintances B, G; his one stranger is Chandran.</li><li>Dhinesh already has A (acq), B (friend), E (friend), G (acq); he needs 2 strangers, so Chandran and Fani. Chandran’s one acquaintance must then be <strong>Fani</strong>.</li></ul><table><thead><tr><th></th><th>Friends</th><th>Acquaintances</th><th>Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td>E</td><td>D</td><td>B, C, F, G</td></tr><tr><td>Bharatan</td><td>D</td><td>E</td><td>A, C, F, G</td></tr><tr><td>Chandran</td><td>G</td><td>F</td><td>A, B, D, E</td></tr><tr><td>Dhinesh</td><td>B, E</td><td>A, G</td><td>C, F</td></tr><tr><td>Ezhil</td><td>A, D, F</td><td>B, G</td><td>C</td></tr><tr><td>Fani</td><td>E</td><td>C, G</td><td>A, B, D</td></tr><tr><td>Gowtham</td><td>C</td><td>D, E, F</td><td>A, B</td></tr></tbody></table><p>Amudha’s only acquaintance is also Bharatan’s only friend. Fani and Gowtham are ruled out because their only friends are Ezhil and Chandran, and Ezhil is Amudha’s friend. So it is <strong>Dhinesh</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Relationships",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who is an acquaintance of Chandran?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Fani"
+        },
+        {
+          "id": "B",
+          "textHtml": "Ezhil"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dhinesh"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bharatan"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each person has 6 relationships).</p><ul><li>Amudha: 1 acquaintance, 4 strangers, so exactly 1 friend, which must be Ezhil. By fact 4, Bharatan’s only acquaintance is Ezhil.</li><li>Gowtham: 3 acquaintances, 2 strangers, so 1 friend, Chandran. Fani’s only friend is Ezhil.</li><li>Amudha’s single acquaintance is Bharatan’s only friend (fact 5). It cannot be Fani or Gowtham (their only friends are Ezhil and Chandran), so it is <strong>Dhinesh</strong>. Amudha is a stranger to B, C, F, G, and Bharatan is a stranger to A, C, F, G.</li><li>Gowtham’s strangers are Amudha and Bharatan, so his acquaintances are Dhinesh, Ezhil and Fani.</li><li>Ezhil: friends A, D, F; acquaintances B, G; his one stranger is Chandran.</li><li>Dhinesh already has A (acq), B (friend), E (friend), G (acq); he needs 2 strangers, so Chandran and Fani. Chandran’s one acquaintance must then be <strong>Fani</strong>.</li></ul><table><thead><tr><th></th><th>Friends</th><th>Acquaintances</th><th>Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td>E</td><td>D</td><td>B, C, F, G</td></tr><tr><td>Bharatan</td><td>D</td><td>E</td><td>A, C, F, G</td></tr><tr><td>Chandran</td><td>G</td><td>F</td><td>A, B, D, E</td></tr><tr><td>Dhinesh</td><td>B, E</td><td>A, G</td><td>C, F</td></tr><tr><td>Ezhil</td><td>A, D, F</td><td>B, G</td><td>C</td></tr><tr><td>Fani</td><td>E</td><td>C, G</td><td>A, B, D</td></tr><tr><td>Gowtham</td><td>C</td><td>D, E, F</td><td>A, B</td></tr></tbody></table><p>Chandran is a stranger to Amudha, Bharatan, Ezhil (Ezhil’s only stranger) and Dhinesh (Dhinesh’s second stranger). Gowtham is his friend, so his one acquaintance is <strong>Fani</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Relationships",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many friends does Ezhil have?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each person has 6 relationships).</p><ul><li>Amudha: 1 acquaintance, 4 strangers, so exactly 1 friend, which must be Ezhil. By fact 4, Bharatan’s only acquaintance is Ezhil.</li><li>Gowtham: 3 acquaintances, 2 strangers, so 1 friend, Chandran. Fani’s only friend is Ezhil.</li><li>Amudha’s single acquaintance is Bharatan’s only friend (fact 5). It cannot be Fani or Gowtham (their only friends are Ezhil and Chandran), so it is <strong>Dhinesh</strong>. Amudha is a stranger to B, C, F, G, and Bharatan is a stranger to A, C, F, G.</li><li>Gowtham’s strangers are Amudha and Bharatan, so his acquaintances are Dhinesh, Ezhil and Fani.</li><li>Ezhil: friends A, D, F; acquaintances B, G; his one stranger is Chandran.</li><li>Dhinesh already has A (acq), B (friend), E (friend), G (acq); he needs 2 strangers, so Chandran and Fani. Chandran’s one acquaintance must then be <strong>Fani</strong>.</li></ul><table><thead><tr><th></th><th>Friends</th><th>Acquaintances</th><th>Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td>E</td><td>D</td><td>B, C, F, G</td></tr><tr><td>Bharatan</td><td>D</td><td>E</td><td>A, C, F, G</td></tr><tr><td>Chandran</td><td>G</td><td>F</td><td>A, B, D, E</td></tr><tr><td>Dhinesh</td><td>B, E</td><td>A, G</td><td>C, F</td></tr><tr><td>Ezhil</td><td>A, D, F</td><td>B, G</td><td>C</td></tr><tr><td>Fani</td><td>E</td><td>C, G</td><td>A, B, D</td></tr><tr><td>Gowtham</td><td>C</td><td>D, E, F</td><td>A, B</td></tr></tbody></table><p>Ezhil’s friends are Amudha, Dhinesh and Fani. Bharatan and Gowtham are acquaintances and Chandran is his only stranger, so he has <strong>3</strong> friends.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Relationships",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many people are either a friend or a friend-of-a-friend of Ezhil?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each person has 6 relationships).</p><ul><li>Amudha: 1 acquaintance, 4 strangers, so exactly 1 friend, which must be Ezhil. By fact 4, Bharatan’s only acquaintance is Ezhil.</li><li>Gowtham: 3 acquaintances, 2 strangers, so 1 friend, Chandran. Fani’s only friend is Ezhil.</li><li>Amudha’s single acquaintance is Bharatan’s only friend (fact 5). It cannot be Fani or Gowtham (their only friends are Ezhil and Chandran), so it is <strong>Dhinesh</strong>. Amudha is a stranger to B, C, F, G, and Bharatan is a stranger to A, C, F, G.</li><li>Gowtham’s strangers are Amudha and Bharatan, so his acquaintances are Dhinesh, Ezhil and Fani.</li><li>Ezhil: friends A, D, F; acquaintances B, G; his one stranger is Chandran.</li><li>Dhinesh already has A (acq), B (friend), E (friend), G (acq); he needs 2 strangers, so Chandran and Fani. Chandran’s one acquaintance must then be <strong>Fani</strong>.</li></ul><table><thead><tr><th></th><th>Friends</th><th>Acquaintances</th><th>Strangers</th></tr></thead><tbody><tr><td>Amudha</td><td>E</td><td>D</td><td>B, C, F, G</td></tr><tr><td>Bharatan</td><td>D</td><td>E</td><td>A, C, F, G</td></tr><tr><td>Chandran</td><td>G</td><td>F</td><td>A, B, D, E</td></tr><tr><td>Dhinesh</td><td>B, E</td><td>A, G</td><td>C, F</td></tr><tr><td>Ezhil</td><td>A, D, F</td><td>B, G</td><td>C</td></tr><tr><td>Fani</td><td>E</td><td>C, G</td><td>A, B, D</td></tr><tr><td>Gowtham</td><td>C</td><td>D, E, F</td><td>A, B</td></tr></tbody></table><p>Friends of Ezhil: Amudha, Dhinesh, Fani. Their friends: Amudha’s only friend is Ezhil, Fani’s only friend is Ezhil, and Dhinesh’s friends are Bharatan and Ezhil, which adds Bharatan.</p><p>So the people are Amudha, Dhinesh, Fani and Bharatan, a total of <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

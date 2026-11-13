@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>If 3<sup>a</sup> = 4, 4<sup>b</sup> = 5, 5<sup>c</sup> = 6, 6<sup>d</sup> = 7, 7<sup>e</sup> = 8 and 8<sup>f</sup> = 9, then the value of the product <em>abcdef</em> is</p>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Step 1:</strong> a = log<sub>3</sub>4, b = log<sub>4</sub>5, c = log<sub>5</sub>6, d = log<sub>6</sub>7, e = log<sub>7</sub>8, f = log<sub>8</sub>9.</p><p><strong>Step 2 (chain rule):</strong> log<sub>3</sub>4 × log<sub>4</sub>5 × … × log<sub>8</sub>9 = log<sub>3</sub>9 = 2.</p><p><strong>Check by substitution:</strong> 3<sup>abcdef</sup> = ((((3<sup>a</sup>)<sup>b</sup>)<sup>c</sup>…)<sup>f</sup> = 4<sup>bcdef</sup> = 5<sup>cdef</sup> = … = 9 = 3<sup>2</sup>.</p><p><strong>Answer: 2</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Modulus",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of distinct integer solutions (<em>x</em>, <em>y</em>) of the equation |<em>x</em> + <em>y</em>| + |<em>x</em> − <em>y</em>| = 2, is</p>",
+      "answer": "8",
+      "solutionHtml": "<p><strong>Key fact:</strong> |x + y| + |x − y| = 2 × max(|x|, |y|). So the equation is max(|x|, |y|) = 1.</p><p><strong>Count:</strong> integer points with max(|x|, |y|) = 1 are the points of the 3 × 3 grid around the origin except (0, 0): (±1, −1), (±1, 0), (±1, 1), (0, ±1) → 9 − 1 = 8.</p><p><strong>Check:</strong> (1, 0): 1 + 1 = 2 ✓; (1, 1): 2 + 0 = 2 ✓; (2, 0): 4 ✗.</p><p><strong>Answer: 8</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles – segment area",
+      "difficulty": "easy",
+      "stemHtml": "<p>A circular plot of land is divided into two regions by a chord of length 10√3 meters such that the chord subtends an angle of 120° at the center. Then, the area, in square meters, of the smaller region is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20(4π/3 + √3)"
+        },
+        {
+          "id": "B",
+          "textHtml": "20(4π/3 − √3)"
+        },
+        {
+          "id": "C",
+          "textHtml": "25(4π/3 − √3)"
+        },
+        {
+          "id": "D",
+          "textHtml": "25(4π/3 + √3)"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Chord = 2r sin(120°/2) = 2r × (√3/2) = r√3 = 10√3, so r = 10.</p><p><strong>Step 2:</strong> Sector area = (120/360) × π × 100 = 100π/3.</p><p><strong>Step 3:</strong> Triangle area = ½ r<sup>2</sup> sin 120° = ½ × 100 × (√3/2) = 25√3.</p><p><strong>Step 4:</strong> Smaller segment = 100π/3 − 25√3 = <strong>25(4π/3 − √3)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>A train travelled a certain distance at a uniform speed. Had the speed been 6 km per hour more, it would have needed 4 hours less. Had the speed been 6 km per hour less, it would have needed 6 hours more. The distance, in km, travelled by the train is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "800"
+        },
+        {
+          "id": "B",
+          "textHtml": "720"
+        },
+        {
+          "id": "C",
+          "textHtml": "780"
+        },
+        {
+          "id": "D",
+          "textHtml": "640"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let speed v, distance D. D/v − D/(v + 6) = 4 → 6D = 4v(v + 6). D/(v − 6) − D/v = 6 → 6D = 6v(v − 6).</p><p><strong>Step 2:</strong> 4v(v + 6) = 6v(v − 6) → 2v + 12 = 3v − 18 → v = 30 km/h.</p><p><strong>Step 3:</strong> D = v(v − 6) = 30 × 24 = 720 km.</p><p><strong>Check:</strong> 720/30 = 24 h; 720/36 = 20 h (4 less); 720/24 = 30 h (6 more). ✓ <strong>Answer: 720</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>Rajesh and Vimal own 20 hectares and 30 hectares of agricultural land, respectively, which are entirely covered by wheat and mustard crops. The cultivation area of wheat and mustard in the land owned by Vimal are in the ratio of 5 : 3. If the total cultivation area of wheat and mustard are in the ratio 11 : 9, then the ratio of cultivation area of wheat and mustard in the land owned by Rajesh is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4 : 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "3 : 7"
+        },
+        {
+          "id": "C",
+          "textHtml": "1 : 1"
+        },
+        {
+          "id": "D",
+          "textHtml": "7 : 9"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Vimal: wheat = 30 × 5/8 = 18.75 ha, mustard = 11.25 ha.</p><p><strong>Step 2:</strong> Total 50 ha in 11 : 9 → wheat 27.5 ha, mustard 22.5 ha.</p><p><strong>Step 3:</strong> Rajesh: wheat = 27.5 − 18.75 = 8.75, mustard = 22.5 − 11.25 = 11.25 → 8.75 : 11.25 = <strong>7 : 9</strong>.</p><p><strong>Check:</strong> 8.75 + 11.25 = 20 ha ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Compound interest",
+      "difficulty": "medium",
+      "stemHtml": "<p>Aman invests Rs 4000 in a bank at a certain rate of interest, compounded annually. If the ratio of the value of the investment after 3 years to the value of the investment after 5 years is 25 : 36, then the minimum number of years required for the value of the investment to exceed Rs 20000 is</p>",
+      "answer": "9",
+      "solutionHtml": "<p><strong>Step 1:</strong> Value after 5 years ÷ value after 3 years = (1 + r)<sup>2</sup> = 36/25, so 1 + r = 6/5 = 1.2 (20% p.a.).</p><p><strong>Step 2:</strong> Need 4000 × 1.2<sup>n</sup> &gt; 20000, i.e. 1.2<sup>n</sup> &gt; 5.</p><p><strong>Step 3:</strong> 1.2<sup>2</sup> = 1.44, 1.2<sup>4</sup> = 2.0736, 1.2<sup>8</sup> ≈ 4.2998 (&lt; 5), 1.2<sup>9</sup> ≈ 5.16 (&gt; 5).</p><p><strong>Answer: 9</strong> years.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Remainders",
+      "difficulty": "easy",
+      "stemHtml": "<p>If 10<sup>68</sup> is divided by 13, the remainder is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> 10<sup>3</sup> = 1000 = 13 × 76 + 12, so 10<sup>3</sup> ≡ −1 (mod 13) and 10<sup>6</sup> ≡ 1.</p><p><strong>Step 2:</strong> 68 = 6 × 11 + 2, so 10<sup>68</sup> ≡ 10<sup>2</sup> = 100 ≡ 100 − 91 = 9 (mod 13).</p><p><strong>Answer: 9</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Linear equations / averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>The average of three distinct real numbers is 28. If the smallest number is increased by 7 and the largest number is reduced by 10, the order of the numbers remains unchanged, and the new arithmetic mean becomes 2 more than the middle number, while the difference between the largest and the smallest numbers becomes 64. Then, the largest number in the original set of three numbers is</p>",
+      "answer": "70",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let the numbers be a &lt; b &lt; c with a + b + c = 84.</p><p><strong>Step 2:</strong> New sum = 84 + 7 − 10 = 81, new mean = 27 = b + 2 → b = 25.</p><p><strong>Step 3:</strong> (c − 10) − (a + 7) = 64 → c − a = 81, and a + c = 84 − 25 = 59 → c = 70, a = −11.</p><p><strong>Check:</strong> new numbers −4, 25, 60: order unchanged, mean 27 = 25 + 2, difference 64 ✓. <strong>Answer: 70</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Sets / percentages",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a group of 250 students, the percentage of girls was at least 44% and at most 60%. The rest of the students were boys. Each student opted for either swimming or running or both. If 50% of the boys and 80% of the girls opted for swimming while 70% of the boys and 60% of the girls opted for running, then the minimum and maximum possible number of students who opted for both swimming and running, are</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "75 and 96, respectively"
+        },
+        {
+          "id": "B",
+          "textHtml": "75 and 90, respectively"
+        },
+        {
+          "id": "C",
+          "textHtml": "72 and 88, respectively"
+        },
+        {
+          "id": "D",
+          "textHtml": "72 and 80, respectively"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let g girls, so 250 − g boys, with 110 ≤ g ≤ 150.</p><p><strong>Step 2:</strong> Everyone picks at least one, so Both = Swimming + Running − 250 = [0.5(250 − g) + 0.8g] + [0.7(250 − g) + 0.6g] − 250 = 50 + 0.2g.</p><p><strong>Step 3:</strong> Both increases with g: g = 110 → 72; g = 150 → 80. (Both values give whole numbers of students: e.g. g = 110, boys 140 → 70 swim, 98 run.)</p><p><strong>Answer: 72 and 80</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Surds",
+      "difficulty": "easy",
+      "stemHtml": "<p>If (a + b√3)<sup>2</sup> = 52 + 30√3, where a and b are natural numbers, then <em>a</em> + <em>b</em> equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> (a + b√3)<sup>2</sup> = a<sup>2</sup> + 3b<sup>2</sup> + 2ab√3. Compare: a<sup>2</sup> + 3b<sup>2</sup> = 52 and ab = 15.</p><p><strong>Step 2:</strong> ab = 15 → (a, b) ∈ {(1,15), (3,5), (5,3), (15,1)}. Only (5, 3) gives 25 + 27 = 52.</p><p><strong>Answer:</strong> a + b = <strong>8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Triangles – midpoints & medians",
+      "difficulty": "medium",
+      "stemHtml": "<p>The midpoints of sides AB, BC, and AC in ΔABC are M, N, and P, respectively. The medians drawn from A, B, and C intersect the line segments MP, MN and NP at X, Y, and Z, respectively. If the area of ΔABC is 1440 sq cm, then the area, in sq cm, of ΔXYZ is</p>",
+      "answer": "90",
+      "solutionHtml": "<p><strong>Step 1:</strong> MP joins the midpoints of AB and AC, so MP ∥ BC. The median AN cuts every segment parallel to BC at its midpoint, so X is the midpoint of MP. Likewise Y is the midpoint of MN and Z the midpoint of NP.</p><p><strong>Step 2:</strong> So ΔXYZ is the midpoint triangle of ΔMNP, which itself is the midpoint triangle of ΔABC. Each such step divides area by 4.</p><p><strong>Step 3:</strong> Area XYZ = 1440 ÷ 4 ÷ 4 = <strong>90</strong> sq cm.</p><p><strong>Check with coordinates:</strong> A(0,0), B(4,0), C(0,4) (area 8): M(2,0), N(2,2), P(0,2); X(1,1), Y(2,1), Z(1,2) → area ½. Ratio 1/16 ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Exponential equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>The sum of all distinct real values of <em>x</em> that satisfy the equation 10<sup>x</sup> + 4/10<sup>x</sup> = 91/2, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "log<sub>10</sub>2"
+        },
+        {
+          "id": "B",
+          "textHtml": "3log<sub>10</sub>2"
+        },
+        {
+          "id": "C",
+          "textHtml": "2log<sub>10</sub>2"
+        },
+        {
+          "id": "D",
+          "textHtml": "4log<sub>10</sub>2"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Put y = 10<sup>x</sup> &gt; 0: y + 4/y = 91/2 → 2y<sup>2</sup> − 91y + 8 = 0.</p><p><strong>Step 2:</strong> Discriminant 91<sup>2</sup> − 64 &gt; 0 and both roots are positive (sum 91/2, product 4), so there are two real x values.</p><p><strong>Step 3:</strong> 10<sup>x<sub>1</sub></sup> × 10<sup>x<sub>2</sub></sup> = y<sub>1</sub>y<sub>2</sub> = 4 → x<sub>1</sub> + x<sub>2</sub> = log<sub>10</sub>4 = <strong>2 log<sub>10</sub>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Modulus / max-min",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of distinct real values of x, satisfying the equation max{x, 2} − min{x, 2} = |x + 2| − |x − 2|, is</p>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Step 1:</strong> max{x, 2} − min{x, 2} = |x − 2|, so the equation is 2|x − 2| = |x + 2| (with the right side needing to be ≥ 0, which this form already ensures).</p><p><strong>Step 2:</strong> x ≥ 2: 2x − 4 = x + 2 → x = 6 ✓. −2 ≤ x &lt; 2: 4 − 2x = x + 2 → x = 2/3 ✓. x &lt; −2: 4 − 2x = −x − 2 → x = 6, not in range.</p><p><strong>Check:</strong> x = 6: 4 = 8 − 4 ✓; x = 2/3: 4/3 = 8/3 − 4/3 ✓.</p><p><strong>Answer: 2</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & replacement",
+      "difficulty": "medium",
+      "stemHtml": "<p>A certain amount of water was poured into a 300 litre container and the remaining portion of the container was filled with milk. Then an amount of this solution was taken out from the container which was twice the volume of water that was earlier poured into it, and water was poured to refill the container again. If the resulting solution contains 72% milk, then the amount of water, in litres, that was initially poured into the container was</p>",
+      "answer": "30",
+      "solutionHtml": "<p><strong>Step 1:</strong> Let w litres of water; milk = 300 − w. Removing 2w litres of the mixture leaves a fraction (300 − 2w)/300 of the milk.</p><p><strong>Step 2:</strong> Milk left = (300 − w)(300 − 2w)/300 = 72% of 300 = 216 → (300 − w)(300 − 2w) = 64800.</p><p><strong>Step 3:</strong> 2w<sup>2</sup> − 900w + 25200 = 0 → w<sup>2</sup> − 450w + 12600 = 0 → w = 30 or 420. Since 2w ≤ 300, w = 30.</p><p><strong>Check:</strong> milk 270; remove 60 L (1/5) → milk 216 = 72% ✓. <strong>Answer: 30</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "medium",
+      "stemHtml": "<p>For any non–zero real number x, let f(x) + 2f(1/x) = 3x. Then, the sum of all possible values of x for which f(x) = 3, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−2"
+        },
+        {
+          "id": "B",
+          "textHtml": "3"
+        },
+        {
+          "id": "C",
+          "textHtml": "2"
+        },
+        {
+          "id": "D",
+          "textHtml": "−3"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Step 1:</strong> Replace x by 1/x: f(1/x) + 2f(x) = 3/x.</p><p><strong>Step 2:</strong> Double this and subtract the original: 3f(x) = 6/x − 3x → f(x) = 2/x − x.</p><p><strong>Step 3:</strong> 2/x − x = 3 → x<sup>2</sup> + 3x − 2 = 0, which has two real non-zero roots (discriminant 17). Their sum = <strong>−3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit, loss & discount",
+      "difficulty": "easy",
+      "stemHtml": "<p>Gopi marks a price on a product in order to make 20% profit. Ravi gets 10% discount on this marked price, and thus saves Rs 15. Then, the profit, in rupees, made by Gopi by selling the product to Ravi, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "15"
+        },
+        {
+          "id": "D",
+          "textHtml": "25"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> 10% of marked price = 15 → MP = 150.</p><p><strong>Step 2:</strong> MP = 1.2 × CP → CP = 125. Selling price = 150 − 15 = 135.</p><p><strong>Step 3:</strong> Profit = 135 − 125 = <strong>Rs 10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Sequences & series",
+      "difficulty": "medium",
+      "stemHtml": "<p>Consider the sequence t<sub>1</sub> = 1, t<sub>2</sub> = −1 and t<sub>n</sub> = ((n − 3)/(n − 1)) t<sub>n−2</sub> for n ≥ 3. Then, the value of the sum 1/t<sub>2</sub> + 1/t<sub>4</sub> + 1/t<sub>6</sub> + …… + 1/t<sub>2022</sub> + 1/t<sub>2024</sub>, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−1022121"
+        },
+        {
+          "id": "B",
+          "textHtml": "−1026169"
+        },
+        {
+          "id": "C",
+          "textHtml": "−1024144"
+        },
+        {
+          "id": "D",
+          "textHtml": "−1023132"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> Even terms: t<sub>4</sub> = (1/3)(−1) = −1/3, t<sub>6</sub> = (3/5)(−1/3) = −1/5, t<sub>8</sub> = (5/7)(−1/5) = −1/7 … The product telescopes: <strong>t<sub>2k</sub> = −1/(2k − 1)</strong>.</p><p><strong>Step 2:</strong> 1/t<sub>2k</sub> = −(2k − 1). The sum runs over k = 1 to 1012: −(1 + 3 + 5 + … + 2023) = −1012<sup>2</sup>.</p><p><strong>Step 3:</strong> 1012<sup>2</sup> = 1024144, so the sum is <strong>−1024144</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Counting",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of all positive integers up to 500 with non-repeating digits is</p>",
+      "answer": "378",
+      "solutionHtml": "<p><strong>1-digit:</strong> 1–9 → 9.</p><p><strong>2-digit:</strong> first digit 9 ways (1–9), second 9 ways (0–9 except the first) → 81.</p><p><strong>3-digit, 100–499:</strong> first digit 1–4 (4 ways), second 9 ways, third 8 ways → 288. (500 itself repeats 0, so it is excluded.)</p><p><strong>Total:</strong> 9 + 81 + 288 = <strong>378</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Successive percentage change",
+      "difficulty": "easy",
+      "stemHtml": "<p>After two successive increments, Gopal's salary became 187.5% of his initial salary. If the percentage of salary increase in the second increment was twice of that in the first increment, then the percentage of salary increase in the first increment was</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20"
+        },
+        {
+          "id": "B",
+          "textHtml": "25"
+        },
+        {
+          "id": "C",
+          "textHtml": "27.5"
+        },
+        {
+          "id": "D",
+          "textHtml": "30"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> (1 + x)(1 + 2x) = 1.875 → 2x<sup>2</sup> + 3x − 0.875 = 0 → 16x<sup>2</sup> + 24x − 7 = 0.</p><p><strong>Step 2:</strong> x = (−24 + 32)/32 = 0.25, i.e. <strong>25%</strong>.</p><p><strong>Quick check from options:</strong> 1.25 × 1.5 = 1.875 ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>Sam can complete a job in 20 days when working alone. Mohit is twice as fast as Sam and thrice as fast as Ayna in the same job. They undertake a job with an arrangement where Sam and Mohit work together on the first day, Sam and Ayna on the second day, Mohit and Ayna on the third day, and this three–day pattern is repeated till the work gets completed. Then, the fraction of total work done by Sam is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3/20"
+        },
+        {
+          "id": "B",
+          "textHtml": "3/10"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/5"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/20"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> Take total work = 60 units. Sam 3/day, Mohit 6/day, Ayna 2/day.</p><p><strong>Step 2:</strong> Day 1 (S+M) 9, Day 2 (S+A) 5, Day 3 (M+A) 8 → 22 per 3-day cycle.</p><p><strong>Step 3:</strong> After 6 days: 44. Day 7: +9 = 53; Day 8: +5 = 58; Day 9: Mohit and Ayna finish the last 2 units.</p><p><strong>Step 4:</strong> Sam worked on days 1, 2, 4, 5, 7, 8 → 6 × 3 = 18 units. Fraction = 18/60 = <strong>3/10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Polygons",
+      "difficulty": "medium",
+      "stemHtml": "<p>A regular octagon ABCDEFGH has sides of length 6 cm each. Then the area, in sq. cm, of the square ACEG is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "36(2 + √2)"
+        },
+        {
+          "id": "B",
+          "textHtml": "72(1 + √2)"
+        },
+        {
+          "id": "C",
+          "textHtml": "36(1 + √2)"
+        },
+        {
+          "id": "D",
+          "textHtml": "72(2 + √2)"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Step 1:</strong> Each interior angle of a regular octagon is 135°. In ΔABC, AB = BC = 6 and ∠B = 135°.</p><p><strong>Step 2 (cosine rule):</strong> AC<sup>2</sup> = 36 + 36 − 2 × 36 × cos 135° = 72 + 36√2.</p><p><strong>Step 3:</strong> Area of square ACEG = AC<sup>2</sup> = 72 + 36√2 = <strong>36(2 + √2)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Linear equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>For some constant real numbers <em>p</em>, <em>k</em> and <em>a</em> consider the following system of linear equations in <em>x</em> and <em>y</em>:</p><p><em>px</em> − 4<em>y</em> = 2<br>3<em>x</em> + <em>ky</em> = <em>a</em></p><p>A necessary condition for the system to have no solution for (<em>x</em>, <em>y</em>) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "<em>ap</em> − 6 = 0"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "2<em>a</em> + <em>k</em> ≠ 0"
+        },
+        {
+          "id": "D",
+          "textHtml": "<em>kp</em> + 12 ≠ 0"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> No solution means the lines are parallel but distinct: p/3 = −4/k ≠ 2/a.</p><p><strong>Step 2:</strong> p/3 = −4/k gives kp = −12 (so kp + 12 = 0, and option D is wrong).</p><p><strong>Step 3:</strong> −4/k ≠ 2/a gives −4a ≠ 2k, i.e. <strong>2a + k ≠ 0</strong>. (Equivalently, with p = −12/k, the first equation becomes 3x + ky = −k/2, which must differ from 3x + ky = a.)</p><p><strong>Step 4:</strong> ap − 6 = 0 would make the second equation a multiple of the first (infinitely many solutions), so A is wrong. <strong>Answer: C</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

@@ -6,6 +6,13 @@ closed and the next one starts at the previous deadline; when the last section's
 time is over the attempt is scored and submitted. Advancing is deterministic, so
 it does not matter which request applies it.
 
+Exams other than CAT store ``timerBlocks`` on the attempt: the timed unit is then a block
+of sections sharing one timer (SNAP: all four sections, 60 min; XAT: Part 1 then GK) and
+answers may change in any section of the current block. ``currentSectionIndex`` /
+``currentSectionStartedAt`` / ``sectionLog`` then refer to blocks. ``sectionPlan`` stays one
+entry per section, so analysis/insights read it unchanged. CAT attempts have no
+``timerBlocks`` and every section is its own unit, exactly as before.
+
 All state changes go through ``store.occ_update`` (update-time precondition), so
 two concurrent requests can never both submit an attempt; only the request that
 actually submitted it records the student's question stats.
@@ -24,10 +31,13 @@ from api.auth import CurrentUser
 from api.db import SafeFirestore, get_db
 from api.db.firebase import DB_TIMEOUT
 
+from .confidence import apply_confidence, breakdown, clean_confidence
 from .deps import student
-from .exams import derive_tests
+from .exams import derive_tests, is_pyq
 from .models import Attempt, AttemptCreate, AttemptResult, AttemptsResponse, ResponsesPatch, SavedSeq
 from .public import public_question, reveal
+from .schedule import is_open
+from .score_stats import own_counted_score, percentile, record_first_score, test_stats
 from .scoring import normalize_answer, score_attempt
 from .stats import apply_answer
 from .store import ATTEMPTS, STATS, Bank, get_bank, iso, occ_update, parse_iso, query_eq, stat_id, user_stats, utcnow
@@ -44,17 +54,25 @@ def _plan(att: dict[str, Any]) -> list[dict[str, Any]]:
     return [s for s in att.get("sectionPlan") or [] if isinstance(s, dict)]
 
 
+def _units(att: dict[str, Any]) -> list[dict[str, Any]]:
+    """Timed units: the attempt's ``timerBlocks`` when present, else one per plan section (CAT)."""
+    blocks = [b for b in att.get("timerBlocks") or [] if isinstance(b, dict) and b.get("sectionIds")]
+    if blocks:
+        return blocks
+    return [{"id": s["id"], "sectionIds": [s["id"]], "durationMinutes": s.get("durationMinutes")} for s in _plan(att)]
+
+
 def section_deadline(att: dict[str, Any]) -> datetime:
-    plan = _plan(att)
+    plan = _units(att)
     index = min(int(att.get("currentSectionIndex") or 0), len(plan) - 1)
     started = parse_iso(att.get("currentSectionStartedAt")) or parse_iso(att.get("startedAt")) or utcnow()
     return started + timedelta(minutes=int(plan[index].get("durationMinutes") or 0))
 
 
 def advance(att: dict[str, Any], now: datetime) -> tuple[bool, bool]:
-    """Close sections whose time is over. Returns (changed, timeIsUp)."""
+    """Close sections (timer blocks) whose time is over. Returns (changed, timeIsUp)."""
     changed = False
-    plan = _plan(att)
+    plan = _units(att)
     while att.get("status") == "in_progress":
         deadline = section_deadline(att)
         if now < deadline:
@@ -77,11 +95,28 @@ def _close_section(att: dict[str, Any], index: int, at: datetime) -> None:
 def _open_section(att: dict[str, Any], index: int, at: datetime) -> None:
     att["currentSectionIndex"] = index
     att["currentSectionStartedAt"] = iso(at)
-    att.setdefault("sectionLog", []).append({"id": _plan(att)[index]["id"], "startedAt": iso(at), "endedAt": None})
+    att.setdefault("sectionLog", []).append({"id": _units(att)[index]["id"], "startedAt": iso(at), "endedAt": None})
 
 
 def _question_section(att: dict[str, Any]) -> dict[str, int]:
-    return {qid: i for i, section in enumerate(_plan(att)) for qid in section.get("questionIds") or []}
+    """questionId -> index of its timed unit (the section for CAT, the timer block otherwise)."""
+    if not att.get("timerBlocks"):
+        return {qid: i for i, section in enumerate(_plan(att)) for qid in section.get("questionIds") or []}
+    unit_of = {sid: i for i, unit in enumerate(_units(att)) for sid in unit.get("sectionIds") or []}
+    return {
+        qid: unit_of.get(section["id"], i)
+        for i, section in enumerate(_plan(att)) for qid in section.get("questionIds") or []
+    }
+
+
+def _scoring_version(att: dict[str, Any]) -> dict[str, Any]:
+    """What ``score_attempt`` needs, as stored on the attempt (extras only for non-CAT exams)."""
+    version: dict[str, Any] = {"marking": att.get("marking") or []}
+    if att.get("unansweredPenalty"):
+        version["unansweredPenalty"] = att["unansweredPenalty"]
+    if att.get("excludedSections"):
+        version["sections"] = [{"id": sid, "countsInTotal": False} for sid in att["excludedSections"]]
+    return version
 
 
 def _finalize(att: dict[str, Any], bank: Bank, now: datetime) -> None:
@@ -92,7 +127,7 @@ def _finalize(att: dict[str, Any], bank: Bank, now: datetime) -> None:
         (section["id"], [bank.questions[qid] for qid in section.get("questionIds") or [] if qid in bank.questions])
         for section in _plan(att)
     ]
-    scored = score_attempt(sections, att.get("responses") or {}, {"marking": att.get("marking") or []})
+    scored = score_attempt(sections, att.get("responses") or {}, _scoring_version(att))
     att["status"] = "submitted"
     att["submittedAt"] = iso(submitted_at)
     att["result"] = scored
@@ -134,6 +169,9 @@ def transition(
     att, submitted_now = occ_update(db, ATTEMPTS, attempt_id, mutate)
     if submitted_now:
         record_attempt_stats(db, bank, att, now)
+        # Built tests (drills.py) are one-off question mixes: no shared score histogram.
+        if att.get("kind") != "drill" and record_first_score(db, {**att, "id": attempt_id}):
+            att["scoreStatsCounted"] = True
     return att
 
 
@@ -147,7 +185,9 @@ def record_attempt_stats(db: SafeFirestore, bank: Bank, att: dict[str, Any], now
         question = bank.questions.get(qid)
         if answer is None or question is None or qid not in per_question:
             continue
-        doc = apply_answer(stats.get(qid), att["userId"], question, answer, bool(per_question[qid].get("isCorrect")), now, "attempt")
+        correct = bool(per_question[qid].get("isCorrect"))
+        doc = apply_answer(stats.get(qid), att["userId"], question, answer, correct, now, "attempt")
+        doc = apply_confidence(doc, (response or {}).get("confidence"), correct)
         batch.set(db.collection(STATS).document(stat_id(att["userId"], qid)), doc)
         pending += 1
         if pending >= 400:
@@ -197,7 +237,8 @@ def summary(att: dict[str, Any]) -> dict[str, Any]:
 
 def attempt_payload(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
     plan = _plan(att)
-    index = min(int(att.get("currentSectionIndex") or 0), len(plan) - 1)
+    units = _units(att)
+    index = min(int(att.get("currentSectionIndex") or 0), len(units) - 1)
     submitted = att.get("status") == "submitted"
     ends_at = att.get("submittedAt") if submitted else iso(section_deadline(att))
     questions = [
@@ -211,6 +252,7 @@ def attempt_payload(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
             "answer": r.get("answer"),
             "markedForReview": bool(r.get("markedForReview")),
             "timeSpentMs": int(r.get("timeSpentMs") or 0),
+            "confidence": clean_confidence(r.get("confidence")),
         }
         for qid, r in (att.get("responses") or {}).items()
         if isinstance(r, dict)
@@ -220,20 +262,41 @@ def attempt_payload(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
         "testId": att.get("testId") or "",
         "title": att.get("title") or "",
         "status": "submitted" if submitted else "in_progress",
-        "currentSection": plan[index]["id"],
+        "currentSection": units[index]["sectionIds"][0],
         "sectionOrder": [section["id"] for section in plan],
         "sectionEndsAt": ends_at or iso(utcnow()),
         "serverNow": iso(utcnow()),
         "questions": questions,
         "responses": responses,
         "savedSeq": int(att.get("savedSeq") or 0),
+        "examId": att.get("examId") or "cat",
+        "timerBlocks": [
+            {"id": u["id"], "name": u.get("name"), "sectionIds": list(u["sectionIds"]),
+             "durationMinutes": int(u.get("durationMinutes") or 1)}
+            for u in units
+        ],
+        "currentBlock": units[index]["id"],
     }
 
 
-def result_payload(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
+def procounsel_percentile(db: SafeFirestore, att: dict[str, Any]) -> dict[str, Any]:
+    """The attempt's standing among other ProCounsel students' first attempts of the same test."""
+    test_id = att.get("testId") or ""
+    score = (att.get("result") or {}).get("score", 0)
+    if att.get("scoreStatsCounted"):
+        own = score
+    else:
+        own = own_counted_score(
+            [{**data, "id": doc_id} for doc_id, data in query_eq(db, ATTEMPTS, "userId", att.get("userId"))], test_id
+        )
+    return percentile(test_stats(db, test_id), score, own)
+
+
+def result_payload(att: dict[str, Any], bank: Bank, db: SafeFirestore | None = None) -> dict[str, Any]:
     result = att.get("result") or {}
     per_question = result.get("perQuestion") or {}
     responses = att.get("responses") or {}
+    paper = bank.papers.get(att.get("paperId") or "") or {}
     questions = []
     for section in _plan(att):
         for qid in section.get("questionIds") or []:
@@ -248,6 +311,7 @@ def result_payload(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
                 "yourAnswer": normalize_answer(response.get("answer")),
                 "timeSpentMs": int(response.get("timeSpentMs") or 0),
                 "marks": marks.get("marks", 0),
+                "confidence": clean_confidence(response.get("confidence")),
             })
     return {
         "id": att["id"],
@@ -258,6 +322,12 @@ def result_payload(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
         "maxScore": result.get("maxScore", 0),
         "sections": result.get("sections") or [],
         "questions": questions,
+        "confidence": breakdown((q["confidence"], q["isCorrect"]) for q in questions),
+        "isPyq": is_pyq(paper),
+        "year": paper.get("year") if isinstance(paper.get("year"), int) else None,
+        "slot": paper.get("slot") if isinstance(paper.get("slot"), int) else None,
+        "procounselPercentile": procounsel_percentile(db, att) if db is not None else None,
+        "examId": att.get("examId") or "cat",
     }
 
 
@@ -270,13 +340,19 @@ def _attempt_doc_id(user_id: str, test_id: str, n: int) -> str:
 def create_attempt(body: AttemptCreate, user: CurrentUser = Depends(student), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
     bank = get_bank(db)
     test = derive_tests(bank).get(body.testId)
-    if test is None:
-        raise HTTPException(404, "Test not found.")
     attempts = user_attempts(db, bank, user)
+    if test is None:
+        # Built tests (drills.py) are created by POST /drills; here they can only be resumed / reopened.
+        own = sorted((a for a in attempts if a.get("testId") == body.testId), key=lambda a: a.get("status") != "in_progress")
+        if not own:
+            raise HTTPException(404, "Test not found.")
+        return attempt_payload(own[0], bank)
     existing = [a for a in attempts if a.get("testId") == body.testId]
     for att in existing:
         if att.get("status") == "in_progress":
             return attempt_payload(att, bank)
+    if not is_open(bank.papers.get(test["paperId"]) or {}, utcnow()):  # schedule window over (schedule.py)
+        raise HTTPException(409, "This mock is no longer available.")
     # A second live attempt sharing questions (e.g. a sectional of the paper whose full mock is running)
     # could be submitted at once and reveal the answer keys of the running mock.
     wanted = {qid for section in test["sectionPlan"] for qid in section["questionIds"]}
@@ -284,7 +360,15 @@ def create_attempt(body: AttemptCreate, user: CurrentUser = Depends(student), db
         raise HTTPException(409, "Submit your test in progress first; it shares questions with this one.")
 
     now = utcnow()
-    first = test["sectionPlan"][0]["id"]
+    plan, blocks = test["sectionPlan"], test.get("timerBlocks") or []
+    if body.sectionOrder and not test["locked"] and len(blocks) > 1:
+        # NMAT / GMAT: the student picks the block order once, before the first timer starts.
+        if sorted(body.sectionOrder) != sorted(b["id"] for b in blocks):
+            raise HTTPException(422, "sectionOrder must list every section of this test exactly once.")
+        blocks = sorted(blocks, key=lambda b: body.sectionOrder.index(b["id"]))  # type: ignore[union-attr]
+        rank = {sid: i for i, b in enumerate(blocks) for sid in b["sectionIds"]}
+        plan = sorted(plan, key=lambda s: rank[s["id"]])
+    first = plan[0]["id"] if test["examId"] == "cat" else blocks[0]["id"]
     doc = {
         "userId": user.user_id,
         "testId": test["id"],
@@ -296,7 +380,7 @@ def create_attempt(body: AttemptCreate, user: CurrentUser = Depends(student), db
         "examVersionYear": test["version"].get("year"),
         "marking": test["version"].get("marking") or [],
         "sectionOrderLocked": test["locked"],
-        "sectionPlan": test["sectionPlan"],
+        "sectionPlan": plan,
         "status": "in_progress",
         "currentSectionIndex": 0,
         "currentSectionStartedAt": iso(now),
@@ -308,6 +392,11 @@ def create_attempt(body: AttemptCreate, user: CurrentUser = Depends(student), db
         "result": None,
         "updatedAt": iso(now),
     }
+    if test["examId"] != "cat":  # CAT attempt docs keep their original shape (one timer per section)
+        version = test["version"]
+        doc["timerBlocks"] = blocks
+        doc["unansweredPenalty"] = version.get("unansweredPenalty")
+        doc["excludedSections"] = [s["id"] for s in version.get("sections") or [] if isinstance(s, dict) and s.get("countsInTotal") is False]
     for n in range(len(existing), len(existing) + 5):
         attempt_id = _attempt_doc_id(user.user_id, body.testId, n)
 
@@ -360,6 +449,7 @@ def save_responses(
                 "answer": answer,
                 "markedForReview": item.markedForReview,
                 "timeSpentMs": item.timeSpentMs,
+                "confidence": item.confidence if answer is not None else None,
             }
         att["responses"] = responses
         att["savedSeq"] = body.seq
@@ -382,9 +472,9 @@ def submit_section(
     def action(att: dict[str, Any], now: datetime) -> bool:
         if att.get("status") != "in_progress":
             raise HTTPException(409, "This attempt has already been submitted.")
-        plan = _plan(att)
+        plan = _units(att)
         index = int(att.get("currentSectionIndex") or 0)
-        if plan[index]["id"] != section_id:
+        if section_id != plan[index]["id"] and section_id not in plan[index]["sectionIds"]:
             raise HTTPException(409, f"{section_id} is not the current section.")
         if index >= len(plan) - 1:
             return True  # last section: submit the attempt
@@ -402,7 +492,7 @@ def submit_attempt(attempt_id: str, user: CurrentUser = Depends(student), db: Sa
     def action(att: dict[str, Any], _now: datetime) -> bool | None:
         return True if att.get("status") == "in_progress" else None  # submitted: same stored result
 
-    return result_payload({**transition(db, bank, attempt_id, user, action), "id": attempt_id}, bank)
+    return result_payload({**transition(db, bank, attempt_id, user, action), "id": attempt_id}, bank, db)
 
 
 @router.get("/attempts/{attempt_id}/result", response_model=AttemptResult)
@@ -411,7 +501,7 @@ def get_result(attempt_id: str, user: CurrentUser = Depends(student), db: SafeFi
     att = {**transition(db, bank, attempt_id, user), "id": attempt_id}
     if att.get("status") != "submitted":
         raise HTTPException(404, "Result is available after the attempt is submitted.")
-    return result_payload(att, bank)
+    return result_payload(att, bank, db)
 
 
 @router.get("/me/attempts", response_model=AttemptsResponse)

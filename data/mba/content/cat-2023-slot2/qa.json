@@ -1,0 +1,630 @@
+{
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Inequalities",
+   "difficulty": "medium",
+   "stemHtml": "<p>Any non-zero real numbers x, y such that y ≠ 3 and (x)/(y) &lt; (x + 3)/(y − 3), will satisfy the condition</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(x)/(y) &lt; (y)/(x)"
+    },
+    {
+     "id": "B",
+     "textHtml": "If y &gt; 10, then −x &gt; y"
+    },
+    {
+     "id": "C",
+     "textHtml": "If y &lt; 0, then −x &lt; y"
+    },
+    {
+     "id": "D",
+     "textHtml": "If x &lt; 0, then −x &lt; y"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Step 1:</strong> (x + 3)/(y − 3) − x/y &gt; 0 ⇒ [y(x + 3) − x(y − 3)] / [y(y − 3)] &gt; 0 ⇒ <strong>3(x + y) / [y(y − 3)] &gt; 0</strong>.</p><p><strong>Step 2:</strong> If y &lt; 0, both y and y − 3 are negative, so y(y − 3) &gt; 0. Then x + y &gt; 0, i.e. −x &lt; y. Option C always holds.</p><p><strong>Check the others:</strong> B: for y &gt; 10, y(y − 3) &gt; 0 gives x + y &gt; 0, i.e. −x &lt; y, the opposite of B. D: y = 1, x = −2 satisfies the condition (0 &lt; y &lt; 3 needs x + y &lt; 0) but −x = 2 &gt; y. A: x = 6, y = 4 satisfies the condition (1.5 &lt; 9), but x/y = 1.5 is not less than y/x ≈ 0.67, so A fails.</p><p>Answer: <strong>C</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Divisibility",
+   "difficulty": "easy",
+   "stemHtml": "<p>For any natural numbers m, n, and k, such that k divides both m + 2n and 3m + 4n, k must be a common divisor of</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2m and 3n"
+    },
+    {
+     "id": "B",
+     "textHtml": "2m and n"
+    },
+    {
+     "id": "C",
+     "textHtml": "m and n"
+    },
+    {
+     "id": "D",
+     "textHtml": "m and 2n"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>If k divides two numbers, it divides any integer combination of them.</p><p>3(m + 2n) − (3m + 4n) = <strong>2n</strong>, so k | 2n.</p><p>2(m + 2n) − (3m + 4n) = <strong>−m</strong>, so k | m.</p><p>So k divides m and 2n. (Example: m = 2, n = 1 gives 4 and 10, and k = 2 divides both but does not divide n or 3n, which rules out A, B and C.) Answer: <strong>m and 2n</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Exponents",
+   "difficulty": "medium",
+   "stemHtml": "<p>The sum of all possible values of x satisfying the equations 2<sup>4x<sup>2</sup></sup> − 2<sup>2x<sup>2</sup> + x + 16</sup> + 2<sup>2x + 30</sup> = 0, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3/2"
+    },
+    {
+     "id": "B",
+     "textHtml": "5/2"
+    },
+    {
+     "id": "C",
+     "textHtml": "1/2"
+    },
+    {
+     "id": "D",
+     "textHtml": "3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key move:</strong> let u = 2<sup>2x<sup>2</sup></sup> and v = 2<sup>x + 15</sup>. Then 2<sup>4x<sup>2</sup></sup> = u<sup>2</sup>, 2<sup>2x + 30</sup> = v<sup>2</sup> and 2<sup>2x<sup>2</sup> + x + 16</sup> = 2 · u · v.</p><p>The equation becomes u<sup>2</sup> − 2uv + v<sup>2</sup> = 0, i.e. (u − v)<sup>2</sup> = 0, so u = v.</p><p>2x<sup>2</sup> = x + 15 ⇒ 2x<sup>2</sup> − x − 15 = 0 ⇒ (x − 3)(2x + 5) = 0 ⇒ x = 3 or −5/2.</p><p>Sum = 3 − 5/2 = <strong>1/2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Powers and factors",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let a, b, m and n be natural numbers such that a &gt; 1 and b &gt; 1. If a<sup>m</sup> b<sup>n</sup> = 144<sup>145</sup>, then the largest possible value of n − m is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "289"
+    },
+    {
+     "id": "B",
+     "textHtml": "580"
+    },
+    {
+     "id": "C",
+     "textHtml": "579"
+    },
+    {
+     "id": "D",
+     "textHtml": "290"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>144<sup>145</sup> = (2<sup>4</sup> · 3<sup>2</sup>)<sup>145</sup> = 2<sup>580</sup> · 3<sup>290</sup>.</p><p>To make n as large as possible, take b = 2 (the smallest base), so n ≤ 580. Then a<sup>m</sup> must hold all of 3<sup>290</sup>, and the smallest m is 1 with a = 3<sup>290</sup>.</p><p>Best: a = 3<sup>290</sup>, m = 1, b = 2, n = 580, so n − m = <strong>579</strong>. (Any b with a factor of 3 caps n at 290.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let k be the largest integer such that the equation (x − 1)<sup>2</sup> + 2kx + 11 = 0 has no real roots. If y is a positive real number, then the least possible value of k/4y + 9y is (type in numerical)</p>",
+   "answer": "6",
+   "solutionHtml": "<p>Expand: x<sup>2</sup> + (2k − 2)x + 12 = 0. No real roots ⇒ (2k − 2)<sup>2</sup> &lt; 48 ⇒ (k − 1)<sup>2</sup> &lt; 12 ⇒ |k − 1| ≤ 3 for integers ⇒ largest k = <strong>4</strong>.</p><p>Then k/(4y) + 9y = 1/y + 9y ≥ 2√(1/y · 9y) = 6 by AM ≥ GM, with equality at y = 1/3.</p><p>Least value = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Factors",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of positive integers less than 50, having exactly two distinct factors other than 1 and itself, is (type in numerical)</p>",
+   "answer": "15",
+   "solutionHtml": "<p>Exactly two factors besides 1 and itself means exactly <strong>4 divisors</strong>: the number is p<sup>3</sup> or p × q (distinct primes).</p><p>p<sup>3</sup> &lt; 50: 8, 27 → 2.</p><p>p × q &lt; 50: with 2: 6, 10, 14, 22, 26, 34, 38, 46 (8); with 3: 15, 21, 33, 39 (4); with 5: 35 (1) → 13.</p><p>Total = 2 + 13 = <strong>15</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "easy",
+   "stemHtml": "<p>For some positive real number x, if log<sub>√3</sub>(x) + log<sub>x</sub>(25) / log<sub>x</sub>(0.008) = 16/3, then the value of log<sub>3</sub>(3x<sup>2</sup>) is</p>",
+   "answer": "7",
+   "solutionHtml": "<p><strong>Step 1:</strong> log<sub>x</sub>25 / log<sub>x</sub>0.008 = log<sub>0.008</sub>25. Since 0.008 = 1/125 = 5<sup>−3</sup> and 25 = 5<sup>2</sup>, this equals 2/(−3) = −2/3.</p><p><strong>Step 2:</strong> log<sub>√3</sub>x = 16/3 + 2/3 = 6 ⇒ x = (√3)<sup>6</sup> = 27.</p><p><strong>Step 3:</strong> log<sub>3</sub>(3 × 27<sup>2</sup>) = log<sub>3</sub>(3<sup>7</sup>) = <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Pipes and cisterns",
+   "difficulty": "medium",
+   "stemHtml": "<p>Pipes A and C are fill pipes while Pipe B is a drain pipe of a tank. Pipe B empties the full tank in one hour less than the time taken by Pipe A to fill the empty tank. When pipes A, B and C are turned on together, the empty tank is filled in two hours. If pipes B and C are turned on together when the tank is empty and Pipe B is turned off after one hour, then Pipe C takes another one hour and 15 minutes to fill the remaining tank. If Pipe A can fill the empty tank in less than five hours, then the time taken, in minutes, by Pipe C to fill the empty tank is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "60"
+    },
+    {
+     "id": "B",
+     "textHtml": "75"
+    },
+    {
+     "id": "C",
+     "textHtml": "120"
+    },
+    {
+     "id": "D",
+     "textHtml": "90"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let A take a hours, so B takes a − 1 hours, and let C take c hours.</p><p>(1) 1/a − 1/(a − 1) + 1/c = 1/2.</p><p>(2) B and C for 1 hour, then C for 1.25 hours: 2.25/c − 1/(a − 1) = 1.</p><p><strong>Eliminate 1/c:</strong> substitute 1/c from (1) into (2): 1.125 − 2.25/a + 1.25/(a − 1) = 1 ⇒ 2.25/a − 1.25/(a − 1) = 1/8 ⇒ a<sup>2</sup> − 9a + 18 = 0 ⇒ a = 3 or 6. Since a &lt; 5, a = 3.</p><p>1/c = 1/2 − 1/3 + 1/2 = 2/3 ⇒ c = 1.5 h = <strong>90 minutes</strong>.</p><p><strong>Check:</strong> B + C = 2/3 − 1/2 = 1/6 in the first hour; the remaining 5/6 at 2/3 per hour takes 1.25 h ✓.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "easy",
+   "stemHtml": "<p>Minu purchases a pair of sunglasses at Rs.1000 and sells to Kanu at 20% profit. Then, Kanu sells it back to Minu at 20% loss. Finally, Minu sells the same pair of sunglasses to Tanu. If the total profit made by Minu from all her transactions is Rs. 500, then the percentage of profit made by Minu when she sold the pair of sunglasses to Tanu is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "31.25%"
+    },
+    {
+     "id": "B",
+     "textHtml": "26%"
+    },
+    {
+     "id": "C",
+     "textHtml": "52%"
+    },
+    {
+     "id": "D",
+     "textHtml": "35.42%"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Minu → Kanu: sells at 1200, profit 200.</p><p>Kanu → Minu: 20% loss on 1200, so Minu buys back at 960.</p><p>Total profit 500 ⇒ the last sale makes 500 − 200 = 300, so she sells to Tanu at 1260.</p><p>Profit % on the last deal = 300/960 × 100 = <strong>31.25%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages & ratios",
+   "difficulty": "easy",
+   "stemHtml": "<p>In a company, 20% of the employees work in the manufacturing department. If the total salary obtained by all the manufacturing employees is one-sixth of the total salary obtained by all the employees in the company, then the ratio of the average salary obtained by the manufacturing employees to the average salary obtained by the non-manufacturing employees is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5 : 4"
+    },
+    {
+     "id": "B",
+     "textHtml": "4 : 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "5 : 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "6 : 5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Take 100 employees and a total salary of 6 units. Manufacturing: 20 people share 1 unit; others: 80 people share 5 units.</p><p>Averages: 1/20 : 5/80 = 1/20 : 1/16 = 16 : 20 = <strong>4 : 5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>Ravi is driving at a speed of 40 km/h on a road. Vijay is 54 meters behind Ravi and driving in the same direction as Ravi. Ashok is driving along the same road from the opposite direction at a speed of 50 km/h and is 225 meters away from Ravi. The speed, in km/h, at which Vijay should drive so that all the three cross each other at the same time, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "61.6"
+    },
+    {
+     "id": "B",
+     "textHtml": "64.4"
+    },
+    {
+     "id": "C",
+     "textHtml": "67.2"
+    },
+    {
+     "id": "D",
+     "textHtml": "58.8"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Ravi meets Ashok:</strong> closing speed 90 km/h = 25 m/s, so 225 m takes 9 s. In 9 s Ravi covers 40 × 5/18 × 9 = 100 m.</p><p><strong>Vijay</strong> must reach the same point, 54 + 100 = 154 m away, in 9 s: speed = 154/9 m/s = 154/9 × 18/5 = <strong>61.6 km/h</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Variation",
+   "difficulty": "medium",
+   "stemHtml": "<p>The price of a precious stone is directly proportional to the square of its weight. Sita has a precious stone weighing 18 units. If she breaks it into four pieces with each piece having distinct integer weight, then the difference between the highest and lowest possible values of the total price of the four pieces will be 288000. Then, the price of the original precious stone is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "972000"
+    },
+    {
+     "id": "B",
+     "textHtml": "1296000"
+    },
+    {
+     "id": "C",
+     "textHtml": "1620000"
+    },
+    {
+     "id": "D",
+     "textHtml": "1944000"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Price = k × w<sup>2</sup>. Four distinct positive integers add up to 18.</p><p><strong>Largest sum of squares:</strong> make one piece as large as possible: 1, 2, 3, 12 → 1 + 4 + 9 + 144 = 158.</p><p><strong>Smallest:</strong> make the pieces as equal as possible: 3, 4, 5, 6 → 9 + 16 + 25 + 36 = 86.</p><p>k(158 − 86) = 72k = 288000 ⇒ k = 4000. Original price = 4000 × 18<sup>2</sup> = <strong>1296000</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Compound interest",
+   "difficulty": "medium",
+   "stemHtml": "<p>Anil borrows Rs 2 lakhs at an interest rate of 8% per annum, compounded half-yearly. He repays Rs 10320 at the end of the first year and closes the loan by paying the outstanding amount at the end of the third year. Then, the total interest, in rupees, paid over the three years is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "33130"
+    },
+    {
+     "id": "B",
+     "textHtml": "45311"
+    },
+    {
+     "id": "C",
+     "textHtml": "51311"
+    },
+    {
+     "id": "D",
+     "textHtml": "40991"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>The rate is 4% per half-year.</p><p>After 1 year: 200000 × 1.04<sup>2</sup> = 216320. After repaying 10320, 206000 is outstanding.</p><p>After 2 more years (4 half-years): 206000 × 1.04<sup>4</sup> = 206000 × 1.16985856 ≈ 240990.86.</p><p>Total paid = 10320 + 240990.86 = 251310.86; interest = 251310.86 − 200000 ≈ <strong>51311</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "medium",
+   "stemHtml": "<p>Jayant bought a certain number of white shirts at the rate of Rs 1000 per piece and a certain number of blue shirts at the rate of Rs 1125 per piece. For each shirt, he then set a fixed market price which was 25% higher than the average cost of all the shirts. He sold all the shirts at a discount of 10% and made a total profit of Rs 51000. If he bought both colors of shirts, then the maximum possible total number of shirts that he could have bought is (type in numerical)</p>",
+   "answer": "407",
+   "solutionHtml": "<p>Selling price = 1.25 × 0.9 = 1.125 × average cost, so the profit is 12.5% of the total cost. Total cost = 51000 / 0.125 = 408000.</p><p>1000w + 1125b = 408000 ⇒ (÷125) <strong>8w + 9b = 3264</strong>.</p><p>To maximise w + b, use as many cheap white shirts as possible, so b is as small as possible but ≥ 1. 3264 is divisible by 8, so 9b must be too, i.e. b is a multiple of 8: b = 8 ⇒ w = (3264 − 72)/8 = 399.</p><p>Maximum total = 399 + 8 = <strong>407</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "easy",
+   "stemHtml": "<p>If certain amount of money is divided equally among n person, each one receives Rs 352. However, if two persons receive Rs 506 each and the remaining amount is divided equally among the other persons, each of them received less than or equal to Rs 330. Then, the maximum possible value of n is (type in numerical)</p>",
+   "answer": "16",
+   "solutionHtml": "<p>Total = 352n. The other n − 2 people get (352n − 1012)/(n − 2) ≤ 330.</p><p>352n − 1012 ≤ 330n − 660 ⇒ 22n ≤ 352 ⇒ n ≤ 16.</p><p><strong>Check n = 16:</strong> (5632 − 1012)/14 = 330 ✓. Maximum n = <strong>16</strong>.</p><p><strong>Quick view:</strong> the two people take 2 × 154 = 308 above the average, and each of the others gives up at least 22, so n − 2 ≤ 308/22 = 14.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures",
+   "difficulty": "easy",
+   "stemHtml": "<p>A container has 40 liters of milk. Then, 4 liters are removed from the container and replaced with 4 liters of water. This process of replacing 4 liters of the liquid in the container with an equal volume of water is continued repeatedly. The smallest number of times of doing this process, after which the volume of milk in the container becomes less than that of water, is (type in numerical)</p>",
+   "answer": "7",
+   "solutionHtml": "<p>Each replacement keeps 36/40 = 0.9 of the milk. After k rounds, milk = 40 × 0.9<sup>k</sup>.</p><p>Milk &lt; water ⇔ milk &lt; 20 ⇔ 0.9<sup>k</sup> &lt; 0.5.</p><p>0.9<sup>6</sup> = 0.531 (not yet), 0.9<sup>7</sup> = 0.478 ✓. Smallest number = <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles & triangles",
+   "difficulty": "easy",
+   "stemHtml": "<p>A triangle is drawn with its vertices on the circle C such that one of its sides is a diameter of C and the other two sides have their lengths in the ratio a:b. If the radius of the circle is r, then the area of the triangle is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "abr<sup>2</sup> / (a<sup>2</sup> + b<sup>2</sup>)"
+    },
+    {
+     "id": "B",
+     "textHtml": "abr<sup>2</sup> / (2(a<sup>2</sup> + b<sup>2</sup>))"
+    },
+    {
+     "id": "C",
+     "textHtml": "2abr<sup>2</sup> / (a<sup>2</sup> + b<sup>2</sup>)"
+    },
+    {
+     "id": "D",
+     "textHtml": "4abr<sup>2</sup> / (a<sup>2</sup> + b<sup>2</sup>)"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>An angle in a semicircle is 90°, so the triangle is right-angled with hypotenuse 2r.</p><p>Let the legs be ak and bk: k<sup>2</sup>(a<sup>2</sup> + b<sup>2</sup>) = 4r<sup>2</sup>.</p><p>Area = ½ · ak · bk = ½ab · 4r<sup>2</sup>/(a<sup>2</sup> + b<sup>2</sup>) = <strong>2abr<sup>2</sup>/(a<sup>2</sup> + b<sup>2</sup>)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a rectangle ABCD, AB = 9 cm and BC = 6 cm. P and Q are two points on BC such that the areas of the figures ABP, APQ, and AQCD are in geometric progression. If the area of the figure AQCD is four times the area of triangle ABP, then BP : PQ : QC is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1 : 1 : 2"
+    },
+    {
+     "id": "B",
+     "textHtml": "2 : 4 : 1"
+    },
+    {
+     "id": "C",
+     "textHtml": "1 : 2 : 1"
+    },
+    {
+     "id": "D",
+     "textHtml": "1 : 2 : 4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The areas are x, xr, xr<sup>2</sup> with xr<sup>2</sup> = 4x ⇒ r = 2. Together they fill the rectangle: x + 2x + 4x = 54 ⇒ x = 54/7.</p><p>Triangles ABP and APQ both have height AB = 9 (their bases lie on BC): BP = 2x/9 = 12/7, PQ = 2(2x)/9 = 24/7.</p><p>QC = 6 − 36/7 = 6/7. BP : PQ : QC = 12 : 24 : 6 = <strong>2 : 4 : 1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "medium",
+   "stemHtml": "<p>The area of the quadrilateral bounded by the Y-axis, the line x = 5, and the lines |x − y| − |x − 5| = 2, is (type in numerical)</p>",
+   "answer": "45",
+   "solutionHtml": "<p>Between x = 0 and x = 5, |x − 5| = 5 − x, so |x − y| = 7 − x.</p><p>That gives two lines: y − x = 7 − x ⇒ <strong>y = 7</strong>, and x − y = 7 − x ⇒ <strong>y = 2x − 7</strong>.</p><p>The region is a trapezium with parallel sides on x = 0 (from y = −7 to 7, length 14) and x = 5 (from y = 3 to 7, length 4), and width 5.</p><p>Area = ½ × (14 + 4) × 5 = <strong>45</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Progressions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let both the series a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, ….. and b<sub>1</sub>, b<sub>2</sub>, b<sub>3</sub>… be in arithmetic progression such that the common differences of both the series are prime numbers. If a<sub>5</sub> = b<sub>9</sub>, a<sub>19</sub> = b<sub>19</sub> and b<sub>2</sub> = 0, then a<sub>11</sub> equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "79"
+    },
+    {
+     "id": "B",
+     "textHtml": "84"
+    },
+    {
+     "id": "C",
+     "textHtml": "83"
+    },
+    {
+     "id": "D",
+     "textHtml": "86"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Let the common differences be p (for a) and q (for b). Since b<sub>2</sub> = 0, b<sub>n</sub> = (n − 2)q, so b<sub>9</sub> = 7q and b<sub>19</sub> = 17q.</p><p>a<sub>19</sub> − a<sub>5</sub> = 14p = b<sub>19</sub> − b<sub>9</sub> = 10q ⇒ 7p = 5q. Both are prime ⇒ p = 5, q = 7.</p><p>a<sub>5</sub> = 7q = 49, so a<sub>11</sub> = 49 + 6 × 5 = <strong>79</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Algebraic identities",
+   "difficulty": "easy",
+   "stemHtml": "<p>If p<sup>2</sup> + q<sup>2</sup> − 29 = 2pq − 20 = 52 − 2pq, then the difference between the maximum and minimum possible value of (p<sup>3</sup> − q<sup>3</sup>) is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "486"
+    },
+    {
+     "id": "B",
+     "textHtml": "378"
+    },
+    {
+     "id": "C",
+     "textHtml": "189"
+    },
+    {
+     "id": "D",
+     "textHtml": "243"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>2pq − 20 = 52 − 2pq ⇒ <strong>pq = 18</strong>. Then p<sup>2</sup> + q<sup>2</sup> = 2pq − 20 + 29 = 45.</p><p>(p − q)<sup>2</sup> = 45 − 36 = 9 ⇒ p − q = ±3.</p><p>p<sup>3</sup> − q<sup>3</sup> = (p − q)(p<sup>2</sup> + pq + q<sup>2</sup>) = (±3)(45 + 18) = ±189.</p><p>Difference = 189 − (−189) = <strong>378</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Progressions & remainders",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let a<sub>n</sub> and b<sub>n</sub> be two sequences such that a<sub>n</sub> = 13 + 6 (n − 1) and b<sub>n</sub> = 15 + 7 (n − 1) for all natural numbers n. Then, the largest three digit integer that is common to both these sequences, is (type in numerical)</p>",
+   "answer": "967",
+   "solutionHtml": "<p>a<sub>n</sub> takes the values 13, 19, 25, … (numbers ≥ 13 that leave remainder 1 on division by 6). b<sub>n</sub> takes 15, 22, 29, … (numbers ≥ 15 that leave remainder 1 on division by 7).</p><p>Common terms leave remainder 1 on division by lcm(6, 7) = 42: 43, 85, …, i.e. 42k + 1.</p><p>Largest three-digit: 42 × 23 + 1 = <strong>967</strong> (42 × 24 + 1 = 1009 is too big). Check: 967 = 13 + 6 × 159 = 15 + 7 × 136 ✓.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2023 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

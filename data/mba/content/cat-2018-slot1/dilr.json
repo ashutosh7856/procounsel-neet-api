@@ -1,0 +1,1065 @@
+{
+  "sets": [
+    {
+      "key": "matrix",
+      "kind": "dilr_set",
+      "title": "Filling a square matrix",
+      "contentHtml": "<p>You are given an n×n square matrix to be filled with numerals so that no two adjacent cells have the same numeral. Two cells are called adjacent if they touch each other horizontally, vertically or diagonally. So a cell in one of the four corners has three cells adjacent to it, and a cell in the first or last row or column which is not in the corner has five cells adjacent to it. Any other cell has eight cells adjacent to it.</p>"
+    },
+    {
+      "key": "recruit",
+      "kind": "dilr_set",
+      "title": "Recruitment test scores",
+      "contentHtml": "<p>A company administers a written test comprising of three sections of 20 marks each – Data Interpretation (DI), Written English (WE) and General Awareness (GA), for recruitment. A composite score for a candidate (out of 80) is calculated by doubling her marks in DI and adding it to the sum of her marks in the other two sections. Candidates who score less than 70% marks in two or more sections are disqualified. From among the rest, the four with the highest composite scores are recruited. If four or less candidates qualify, all who qualify are recruited.</p><p>Ten candidates appeared for the written test. Their marks in the test are given in the table below. Some marks in the table are missing, but the following facts are known:</p><ol><li>No two candidates had the same composite score.</li><li>Ajay was the unique highest scorer in WE.</li><li>Among the four recruited, Geeta had the lowest composite score.</li><li>Indu was recruited.</li><li>Danish, Harini, and Indu had scored the same marks in GA.</li><li>Indu and Jatin both scored 100% in exactly one section and Jatin’s composite score was 10 more than Indu’s.</li></ol><table><thead><tr><th>Candidate</th><th>DI (out of 20)</th><th>WE (out of 20)</th><th>GA (out of 20)</th></tr></thead><tbody><tr><td>Ajay</td><td>8</td><td></td><td>16</td></tr><tr><td>Bala</td><td></td><td>9</td><td>11</td></tr><tr><td>Chetna</td><td>19</td><td>4</td><td>12</td></tr><tr><td>Danish</td><td>8</td><td>15</td><td></td></tr><tr><td>Ester</td><td>12</td><td>18</td><td>16</td></tr><tr><td>Falak</td><td>15</td><td>7</td><td>10</td></tr><tr><td>Geeta</td><td>14</td><td></td><td>6</td></tr><tr><td>Harini</td><td>5</td><td></td><td></td></tr><tr><td>Indu</td><td></td><td>8</td><td></td></tr><tr><td>Jatin</td><td></td><td>16</td><td>14</td></tr></tbody></table>"
+    },
+    {
+      "key": "led",
+      "kind": "data",
+      "title": "LED television sales, 2016–2017",
+      "contentHtml": "<p>The multi-layered pie-chart below shows the sales of LED television sets for a big retail electronics outlet during 2016 and 2017. The outer layer shows the monthly sales during this period, with each label showing the month followed by sales figure of that month. For some months, the sales figures are not given in the chart. The middle-layer shows quarter-wise aggregate sales figures (in some cases, aggregate quarter-wise sales numbers are not given next to the quarter). The innermost layer shows annual sales. It is known that the sales figures during the three months of the second quarter (April, May, June) of 2016 form an arithmetic progression, as do the three monthly sales figures in the fourth quarter (October, November, December) of that year.</p>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2018-slot1/led-sales-pie.png"
+      ]
+    },
+    {
+      "key": "pumps",
+      "kind": "dilr_set",
+      "title": "Fuel contamination at petrol pumps",
+      "contentHtml": "<p>Fuel contamination levels at each of 20 petrol pumps P1, P2, …, P20 were recorded as either high, medium, or low.</p><ol><li>Contamination levels at three pumps among P1 – P5 were recorded as high.</li><li>P6 was the only pump among P1 – P10 where the contamination level was recorded as low.</li><li>P7 and P8 were the only two consecutively numbered pumps where the same levels of contamination were recorded.</li><li>High contamination levels were not recorded at any of the pumps P16 – P20.</li><li>The number of pumps where high contamination levels were recorded was twice the number of pumps where low contamination levels were recorded.</li></ol>"
+    },
+    {
+      "key": "sat",
+      "kind": "dilr_set",
+      "title": "Satellites and their purposes",
+      "contentHtml": "<p>1600 satellites were sent up by a country for several purposes. The purposes are classified as broadcasting (B), communication (C), surveillance (S), and others (O). A satellite can serve multiple purposes; however a satellite serving either B, or C, or S does not serve O. The following facts are known about the satellites:</p><ol><li>The numbers of satellites serving B, C, and S (though may be not exclusively) are in the ratio 2:1:1.</li><li>The number of satellites serving all three of B, C, and S is 100.</li><li>The number of satellites exclusively serving C is the same as the number of satellites exclusively serving S. This number is 30% of the number of satellites exclusively serving B.</li><li>The number of satellites serving O is the same as the number of satellites serving both C and S but not B.</li></ol>"
+    },
+    {
+      "key": "atm",
+      "kind": "dilr_set",
+      "title": "ATM note preferences",
+      "contentHtml": "<p>An ATM dispenses exactly Rs. 5000 per withdrawal using 100, 200 and 500 rupee notes. The ATM requires every customer to give her preference for one of the three denominations of notes. It then dispenses notes such that the number of notes of the customer’s preferred denomination exceeds the total number of notes of other denominations dispensed to her.</p>"
+    },
+    {
+      "key": "committee",
+      "kind": "dilr_set",
+      "title": "Three committees",
+      "contentHtml": "<p>Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. The following facts are also known about the committees:</p><ol><li>The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is 75% of the number of bureaucrats in the administration committee.</li><li>The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.</li><li>60% of the politicians are in the administration committee, and 20% are in the teaching committee.</li></ol>"
+    },
+    {
+      "key": "students",
+      "kind": "dilr_set",
+      "title": "Students, institutes and majors",
+      "contentHtml": "<p>Adriana, Bandita, Chitra, and Daisy are four female students, and Amit, Barun, Chetan, and Deb are four male students. Each of them studies in one of three institutes - X, Y, and Z. Each student majors in one subject among Marketing, Operations, and Finance, and minors in a different one among these three subjects. The following facts are known about the eight students:</p><ol><li>Three students are from X, three are from Y, and the remaining two students, both female, are from Z.</li><li>Both the male students from Y minor in Finance, while the female student from Y majors in Operations.</li><li>Only one male student majors in Operations, while three female students minor in Marketing.</li><li>One female and two male students major in Finance.</li><li>Adriana and Deb are from the same institute. Daisy and Amit are from the same institute.</li><li>Barun is from Y and majors in Operations. Chetan is from X and majors in Finance.</li><li>Daisy minors in Operations.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "TITA",
+      "setKey": "matrix",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid colouring",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the minimum number of different numerals needed to fill a 3×3 square matrix?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key fact:</strong> any 2×2 block of cells has all four cells mutually adjacent (horizontally, vertically or diagonally), so it needs 4 different numerals. Conversely, 4 always suffice: give cell (row r, column c) a numeral based on (r odd/even, c odd/even), i.e. repeat the block <code>1 2 / 3 4</code>. Two adjacent cells always differ in row or column by exactly 1, so they never get the same numeral.</p><p>Any 2×2 block in the 3×3 matrix needs 4 numerals, and the repeating pattern 1 2 1 / 3 4 3 / 1 2 1 works. Minimum = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "TITA",
+      "setKey": "matrix",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid colouring",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the minimum number of different numerals needed to fill a 5×5 square matrix?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Key fact:</strong> any 2×2 block of cells has all four cells mutually adjacent (horizontally, vertically or diagonally), so it needs 4 different numerals. Conversely, 4 always suffice: give cell (row r, column c) a numeral based on (r odd/even, c odd/even), i.e. repeat the block <code>1 2 / 3 4</code>. Two adjacent cells always differ in row or column by exactly 1, so they never get the same numeral.</p><p>The same 2×2 argument gives at least 4, and repeating the block over the 5×5 grid (rows 1 2 1 2 1 / 3 4 3 4 3 / …) gives exactly 4. Minimum = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "matrix",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid colouring",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose you are allowed to make one mistake, that is, one pair of adjacent cells can have the same numeral. What is the minimum number of different numerals required to fill a 5×5 matrix?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9"
+        },
+        {
+          "id": "B",
+          "textHtml": "25"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "16"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key fact:</strong> any 2×2 block of cells has all four cells mutually adjacent (horizontally, vertically or diagonally), so it needs 4 different numerals. Conversely, 4 always suffice: give cell (row r, column c) a numeral based on (r odd/even, c odd/even), i.e. repeat the block <code>1 2 / 3 4</code>. Two adjacent cells always differ in row or column by exactly 1, so they never get the same numeral.</p><p>With only 3 numerals, every 2×2 block would have to contain a repeated (adjacent) pair, i.e. a mistake. The 5×5 grid has four <strong>non-overlapping</strong> 2×2 blocks (rows 1–2 / 3–4 × columns 1–2 / 3–4), which would need 4 separate mistakes. One mistake is not enough, so 3 numerals fail.</p><p>4 numerals work with no mistake at all, so the minimum is still <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "matrix",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid colouring",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose that all the cells adjacent to any particular cell must have different numerals. What is the minimum number of different numerals needed to fill a 5×5 square matrix?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "16"
+        },
+        {
+          "id": "C",
+          "textHtml": "9"
+        },
+        {
+          "id": "D",
+          "textHtml": "25"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Take the centre cell of any 3×3 block: its 8 neighbours must be different from each other (new rule) and from the centre (original rule). So every 3×3 block needs <strong>9 different numerals</strong>.</p><p>9 is enough: label cell (r, c) by (r mod 3, c mod 3), i.e. repeat a 3×3 block of 1–9. Two cells that are both neighbours of the same cell differ by at most 2 in row and in column, so their labels can only match if they are the same cell. Minimum = <strong>9</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "recruit",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tables with missing data",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements MUST be true?</p><p>1. Jatin's composite score was more than that of Danish.<br>2. Indu scored less than Chetna in DI.<br>3. Jatin scored more than Indu in GA.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Both 1 and 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both 2 and 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Only 1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Working out the table</strong> (14 = 70% of 20; a candidate below 14 in two sections is out).</p><p>Jatin has WE 16 and GA 14, so his 100% section must be DI = 20; composite = 40 + 16 + 14 = <strong>70</strong>. Indu’s composite is then 60, so 2·DI + 8 + GA = 60, i.e. 2·DI + GA = 52. If her DI were 20, GA = 12 and she would be out (WE 8 and GA 12 both below 14) – but she was recruited. So Indu’s GA = 20, DI = 16.</p><p>Danish and Harini also have GA = 20. Danish = 16 + 15 + 20 = 51. Ajay has WE ≥ 19 (unique top, Ester has 18), so Ajay = 16 + WE + 16 = 51 or 52; since Danish has 51, Ajay’s WE = 20 and his composite is 52.</p><p>Bala, Chetna and Falak are below 14 in two sections, so they are out. Those still in: Jatin 70, Indu 60, Ester 58, Ajay 52, Danish 51, Geeta (34 + WE) and possibly Harini (30 + WE). Geeta is the fourth recruit, so 34 + WE &gt; 52, so WE ≥ 19; WE = 20 belongs to Ajay alone, so Geeta’s WE = 19, composite <strong>53</strong>.</p><p>Unknown: Bala’s DI and Harini’s WE (Harini’s composite 30 + WE ≤ 49).</p><p>1: Jatin 70 &gt; Danish 51 – true. 2: Indu’s DI 16 &lt; Chetna’s 19 – true. 3: Jatin’s GA 14 &lt; Indu’s 20 – false. Answer: <strong>both 1 and 2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "recruit",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tables with missing data",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements MUST be FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Harini’s composite score was less than that of Falak"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bala’s composite score was less than that of Ester"
+        },
+        {
+          "id": "C",
+          "textHtml": "Chetna scored more than Bala in DI"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bala scored same as Jatin in DI"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Working out the table</strong> (14 = 70% of 20; a candidate below 14 in two sections is out).</p><p>Jatin has WE 16 and GA 14, so his 100% section must be DI = 20; composite = 40 + 16 + 14 = <strong>70</strong>. Indu’s composite is then 60, so 2·DI + 8 + GA = 60, i.e. 2·DI + GA = 52. If her DI were 20, GA = 12 and she would be out (WE 8 and GA 12 both below 14) – but she was recruited. So Indu’s GA = 20, DI = 16.</p><p>Danish and Harini also have GA = 20. Danish = 16 + 15 + 20 = 51. Ajay has WE ≥ 19 (unique top, Ester has 18), so Ajay = 16 + WE + 16 = 51 or 52; since Danish has 51, Ajay’s WE = 20 and his composite is 52.</p><p>Bala, Chetna and Falak are below 14 in two sections, so they are out. Those still in: Jatin 70, Indu 60, Ester 58, Ajay 52, Danish 51, Geeta (34 + WE) and possibly Harini (30 + WE). Geeta is the fourth recruit, so 34 + WE &gt; 52, so WE ≥ 19; WE = 20 belongs to Ajay alone, so Geeta’s WE = 19, composite <strong>53</strong>.</p><p>Unknown: Bala’s DI and Harini’s WE (Harini’s composite 30 + WE ≤ 49).</p><p>D: if Bala’s DI were 20 (same as Jatin), his composite would be 40 + 9 + 11 = 60, equal to Indu’s – but no two composites are equal. So D must be false.</p><p>A (Harini 30 + WE vs Falak 47), B (Bala 2·DI + 20 vs Ester 58) and C all depend on the unknown marks and can be true.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "TITA",
+      "setKey": "recruit",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tables with missing data",
+      "difficulty": "hard",
+      "stemHtml": "<p>If all the candidates except Ajay and Danish had different marks in DI, and Bala's composite score was less than Chetna's composite score, then what is the maximum marks that Bala could have scored in DI?</p>",
+      "answer": "13",
+      "solutionHtml": "<p><strong>Working out the table</strong> (14 = 70% of 20; a candidate below 14 in two sections is out).</p><p>Jatin has WE 16 and GA 14, so his 100% section must be DI = 20; composite = 40 + 16 + 14 = <strong>70</strong>. Indu’s composite is then 60, so 2·DI + 8 + GA = 60, i.e. 2·DI + GA = 52. If her DI were 20, GA = 12 and she would be out (WE 8 and GA 12 both below 14) – but she was recruited. So Indu’s GA = 20, DI = 16.</p><p>Danish and Harini also have GA = 20. Danish = 16 + 15 + 20 = 51. Ajay has WE ≥ 19 (unique top, Ester has 18), so Ajay = 16 + WE + 16 = 51 or 52; since Danish has 51, Ajay’s WE = 20 and his composite is 52.</p><p>Bala, Chetna and Falak are below 14 in two sections, so they are out. Those still in: Jatin 70, Indu 60, Ester 58, Ajay 52, Danish 51, Geeta (34 + WE) and possibly Harini (30 + WE). Geeta is the fourth recruit, so 34 + WE &gt; 52, so WE ≥ 19; WE = 20 belongs to Ajay alone, so Geeta’s WE = 19, composite <strong>53</strong>.</p><p>Unknown: Bala’s DI and Harini’s WE (Harini’s composite 30 + WE ≤ 49).</p><p>Chetna’s composite = 38 + 4 + 12 = 54. Bala: 2·DI + 20 &lt; 54, so DI ≤ 16.</p><p>DI marks already used by the others: Jatin 20, Chetna 19, Indu 16, Falak 15, Geeta 14, Ester 12, Harini 5. So 16, 15 and 14 are taken and the largest allowed value is <strong>13</strong> (composite 46, not equal to anyone else’s).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "TITA",
+      "setKey": "recruit",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tables with missing data",
+      "difficulty": "hard",
+      "stemHtml": "<p>If all the candidates scored different marks in WE then what is the maximum marks that Harini could have scored in WE?</p>",
+      "answer": "14",
+      "solutionHtml": "<p><strong>Working out the table</strong> (14 = 70% of 20; a candidate below 14 in two sections is out).</p><p>Jatin has WE 16 and GA 14, so his 100% section must be DI = 20; composite = 40 + 16 + 14 = <strong>70</strong>. Indu’s composite is then 60, so 2·DI + 8 + GA = 60, i.e. 2·DI + GA = 52. If her DI were 20, GA = 12 and she would be out (WE 8 and GA 12 both below 14) – but she was recruited. So Indu’s GA = 20, DI = 16.</p><p>Danish and Harini also have GA = 20. Danish = 16 + 15 + 20 = 51. Ajay has WE ≥ 19 (unique top, Ester has 18), so Ajay = 16 + WE + 16 = 51 or 52; since Danish has 51, Ajay’s WE = 20 and his composite is 52.</p><p>Bala, Chetna and Falak are below 14 in two sections, so they are out. Those still in: Jatin 70, Indu 60, Ester 58, Ajay 52, Danish 51, Geeta (34 + WE) and possibly Harini (30 + WE). Geeta is the fourth recruit, so 34 + WE &gt; 52, so WE ≥ 19; WE = 20 belongs to Ajay alone, so Geeta’s WE = 19, composite <strong>53</strong>.</p><p>Unknown: Bala’s DI and Harini’s WE (Harini’s composite 30 + WE ≤ 49).</p><p>WE marks already used: Ajay 20, Geeta 19, Ester 18, Jatin 16, Danish 15, Bala 9, Indu 8, Falak 7, Chetna 4. Harini’s WE ≤ 19 and must avoid these.</p><p>17 is free, but then her composite = 30 + 17 = 47 = Falak’s composite (30 + 7 + 10) – not allowed. 16 and 15 are taken. 14 gives composite 44, which matches nobody (Bala’s composite is even and can avoid 44). Maximum = <strong>14</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "led",
+      "topic": "Data Interpretation",
+      "subtopic": "Pie charts",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the percentage increase in sales in December 2017 as compared to the sales in December 2016?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "50.00"
+        },
+        {
+          "id": "B",
+          "textHtml": "22.22"
+        },
+        {
+          "id": "C",
+          "textHtml": "38.46"
+        },
+        {
+          "id": "D",
+          "textHtml": "28.57"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Filling in the chart.</strong> 2016: Q1 = 80 + 60 + 100 = 240. Q2 = 150 with April 40 and an AP, so the middle term = 50: 40, 50, 60. Q3 = 75 + 120 + 55 = 250. Q4 = 360 with October 100 and an AP, middle = 120: 100, 120, <strong>140</strong>. (Total 1000.)</p><p>2017: Q1 = 120 + 100 + 160 = 380. Q2 = 60 + 75 + 65 = 200. Q3 = 220, so August = 220 − 60 − 70 = 90. Q4 = 500, so December = 500 − 150 − 170 = <strong>180</strong>.</p><p>December: 140 → 180, increase 40/140 = 2/7 = <strong>28.57%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "led",
+      "topic": "Data Interpretation",
+      "subtopic": "Pie charts",
+      "difficulty": "easy",
+      "stemHtml": "<p>In which quarter of 2017 was the percentage increase in sales from the same quarter of 2016 the highest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Q4"
+        },
+        {
+          "id": "B",
+          "textHtml": "Q1"
+        },
+        {
+          "id": "C",
+          "textHtml": "Q2"
+        },
+        {
+          "id": "D",
+          "textHtml": "Q3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Filling in the chart.</strong> 2016: Q1 = 80 + 60 + 100 = 240. Q2 = 150 with April 40 and an AP, so the middle term = 50: 40, 50, 60. Q3 = 75 + 120 + 55 = 250. Q4 = 360 with October 100 and an AP, middle = 120: 100, 120, <strong>140</strong>. (Total 1000.)</p><p>2017: Q1 = 120 + 100 + 160 = 380. Q2 = 60 + 75 + 65 = 200. Q3 = 220, so August = 220 − 60 − 70 = 90. Q4 = 500, so December = 500 − 150 − 170 = <strong>180</strong>.</p><p>Q1: 240 → 380 (+58.3%). Q2: 150 → 200 (+33.3%). Q3: 250 → 220 (a fall). Q4: 360 → 500 (+38.9%). Highest: <strong>Q1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "led",
+      "topic": "Data Interpretation",
+      "subtopic": "Pie charts",
+      "difficulty": "medium",
+      "stemHtml": "<p>During which quarter was the percentage decrease in sales from the previous quarter’s sales the highest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Q2 of 2017"
+        },
+        {
+          "id": "B",
+          "textHtml": "Q1 of 2017"
+        },
+        {
+          "id": "C",
+          "textHtml": "Q2 of 2016"
+        },
+        {
+          "id": "D",
+          "textHtml": "Q4 of 2017"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Filling in the chart.</strong> 2016: Q1 = 80 + 60 + 100 = 240. Q2 = 150 with April 40 and an AP, so the middle term = 50: 40, 50, 60. Q3 = 75 + 120 + 55 = 250. Q4 = 360 with October 100 and an AP, middle = 120: 100, 120, <strong>140</strong>. (Total 1000.)</p><p>2017: Q1 = 120 + 100 + 160 = 380. Q2 = 60 + 75 + 65 = 200. Q3 = 220, so August = 220 − 60 − 70 = 90. Q4 = 500, so December = 500 − 150 − 170 = <strong>180</strong>.</p><p>Quarterly sequence: 240, 150, 250, 360, 380, 200, 220, 500. Falls: 2016 Q2 (240 → 150, −37.5%) and 2017 Q2 (380 → 200, −47.4%). Highest fall: <strong>Q2 of 2017</strong>. (2017 Q1 and Q4 were increases.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "led",
+      "topic": "Data Interpretation",
+      "subtopic": "Pie charts",
+      "difficulty": "medium",
+      "stemHtml": "<p>During which month was the percentage increase in sales from the previous month’s sales the highest?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "October of 2017"
+        },
+        {
+          "id": "B",
+          "textHtml": "March of 2017"
+        },
+        {
+          "id": "C",
+          "textHtml": "March of 2016"
+        },
+        {
+          "id": "D",
+          "textHtml": "October of 2016"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Filling in the chart.</strong> 2016: Q1 = 80 + 60 + 100 = 240. Q2 = 150 with April 40 and an AP, so the middle term = 50: 40, 50, 60. Q3 = 75 + 120 + 55 = 250. Q4 = 360 with October 100 and an AP, middle = 120: 100, 120, <strong>140</strong>. (Total 1000.)</p><p>2017: Q1 = 120 + 100 + 160 = 380. Q2 = 60 + 75 + 65 = 200. Q3 = 220, so August = 220 − 60 − 70 = 90. Q4 = 500, so December = 500 − 150 − 170 = <strong>180</strong>.</p><p>Options: Oct 2017: 70 → 150, +114%. Mar 2017: 100 → 160, +60%. Mar 2016: 60 → 100, +66.7%. Oct 2016: 55 → 100, +81.8%. No other month comes close (the next best is Aug 2016 at +60%). Highest: <strong>October 2017</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "pumps",
+      "topic": "Logical Reasoning",
+      "subtopic": "Sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following MUST be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The contamination level at P10 was recorded as high"
+        },
+        {
+          "id": "B",
+          "textHtml": "The contamination level at P13 was recorded as low"
+        },
+        {
+          "id": "C",
+          "textHtml": "The contamination level at P12 was recorded as high"
+        },
+        {
+          "id": "D",
+          "textHtml": "The contamination level at P20 was recorded as medium"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Building the sequence</strong> (H/M/L; apart from P7–P8, no two neighbouring pumps are equal).</p><p>P1–P5 contain no L (P6 is the only L among P1–P10) and have 3 H, so they alternate: <strong>H M H M H</strong>. P6 = L. P7 = P8 ∈ {H, M}, and then P9, P10 alternate without L: either H H M H or M M H M for P7–P10.</p><p>P16–P20 have no H, so they alternate M/L: M L M L M (2 L) or L M L M L (3 L).</p><p>Let a = H among P7–P10 (3 or 1), b = L among P16–P20 (2 or 3), and h, l = H and L among P11–P15. Then 3 + a + h = 2(1 + b + l). With h ≤ 3 and P11 ≠ P10, the only cases that work are:</p><p>Case 1: P7–P10 = H H M H, P16–P20 = M L M L M, and P11–P15 has 2 H, 1 L, 2 M (P11 ≠ H, P15 ≠ M).<br>Case 2: P7–P10 = H H M H, P11–P15 = M H M H M, P16–P20 = L M L M L.</p><p>(If P7–P10 were M M H M, the formula forces P11–P15 = M H M H M, which clashes with P10 = M.) In every case P10 = H and the number of M is exactly 8.</p><p>P7–P10 is always H H M H, so <strong>P10 is high</strong> in every valid arrangement. P13, P12 and P20 vary between the cases.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "pumps",
+      "topic": "Logical Reasoning",
+      "subtopic": "Sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>What best can be said about the number of pumps at which the contamination levels were recorded as medium?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "More than 4"
+        },
+        {
+          "id": "B",
+          "textHtml": "At least 8"
+        },
+        {
+          "id": "C",
+          "textHtml": "At most 9"
+        },
+        {
+          "id": "D",
+          "textHtml": "Exactly 8"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Building the sequence</strong> (H/M/L; apart from P7–P8, no two neighbouring pumps are equal).</p><p>P1–P5 contain no L (P6 is the only L among P1–P10) and have 3 H, so they alternate: <strong>H M H M H</strong>. P6 = L. P7 = P8 ∈ {H, M}, and then P9, P10 alternate without L: either H H M H or M M H M for P7–P10.</p><p>P16–P20 have no H, so they alternate M/L: M L M L M (2 L) or L M L M L (3 L).</p><p>Let a = H among P7–P10 (3 or 1), b = L among P16–P20 (2 or 3), and h, l = H and L among P11–P15. Then 3 + a + h = 2(1 + b + l). With h ≤ 3 and P11 ≠ P10, the only cases that work are:</p><p>Case 1: P7–P10 = H H M H, P16–P20 = M L M L M, and P11–P15 has 2 H, 1 L, 2 M (P11 ≠ H, P15 ≠ M).<br>Case 2: P7–P10 = H H M H, P11–P15 = M H M H M, P16–P20 = L M L M L.</p><p>(If P7–P10 were M M H M, the formula forces P11–P15 = M H M H M, which clashes with P10 = M.) In every case P10 = H and the number of M is exactly 8.</p><p>Count M: P1–P5 give 2, P7–P10 give 1. Case 1: P11–P15 give 2 and P16–P20 give 3 → 8. Case 2: P11–P15 give 3 and P16–P20 give 2 → 8. So the count is <strong>exactly 8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "pumps",
+      "topic": "Logical Reasoning",
+      "subtopic": "Sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>If the contamination level at P11 was recorded as low, then which of the following MUST be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The contamination level at P15 was recorded as medium"
+        },
+        {
+          "id": "B",
+          "textHtml": "The contamination level at P18 was recorded as low"
+        },
+        {
+          "id": "C",
+          "textHtml": "The contamination level at P12 was recorded as high"
+        },
+        {
+          "id": "D",
+          "textHtml": "The contamination level at P14 was recorded as medium"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Building the sequence</strong> (H/M/L; apart from P7–P8, no two neighbouring pumps are equal).</p><p>P1–P5 contain no L (P6 is the only L among P1–P10) and have 3 H, so they alternate: <strong>H M H M H</strong>. P6 = L. P7 = P8 ∈ {H, M}, and then P9, P10 alternate without L: either H H M H or M M H M for P7–P10.</p><p>P16–P20 have no H, so they alternate M/L: M L M L M (2 L) or L M L M L (3 L).</p><p>Let a = H among P7–P10 (3 or 1), b = L among P16–P20 (2 or 3), and h, l = H and L among P11–P15. Then 3 + a + h = 2(1 + b + l). With h ≤ 3 and P11 ≠ P10, the only cases that work are:</p><p>Case 1: P7–P10 = H H M H, P16–P20 = M L M L M, and P11–P15 has 2 H, 1 L, 2 M (P11 ≠ H, P15 ≠ M).<br>Case 2: P7–P10 = H H M H, P11–P15 = M H M H M, P16–P20 = L M L M L.</p><p>(If P7–P10 were M M H M, the formula forces P11–P15 = M H M H M, which clashes with P10 = M.) In every case P10 = H and the number of M is exactly 8.</p><p>P11 = L means Case 1, with P16–P20 = M L M L M. P12–P15 hold 2 H and 2 M with no neighbours equal and P15 ≠ M (since P16 = M), so P15 = H, and the only arrangement is P12–P15 = M H M H.</p><p>So P15 = H, P18 = M, P12 = M, <strong>P14 = M</strong>. Only D holds.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "pumps",
+      "topic": "Logical Reasoning",
+      "subtopic": "Sequencing",
+      "difficulty": "hard",
+      "stemHtml": "<p>If contamination level at P15 was recorded as medium, then which of the following MUST be FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Contamination levels at P13 and P17 were recorded as the same"
+        },
+        {
+          "id": "B",
+          "textHtml": "Contamination levels at P11 and P16 were recorded as the same"
+        },
+        {
+          "id": "C",
+          "textHtml": "Contamination levels at P10 and P14 were recorded as the same"
+        },
+        {
+          "id": "D",
+          "textHtml": "Contamination level at P14 was recorded to be higher than that at P15"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Building the sequence</strong> (H/M/L; apart from P7–P8, no two neighbouring pumps are equal).</p><p>P1–P5 contain no L (P6 is the only L among P1–P10) and have 3 H, so they alternate: <strong>H M H M H</strong>. P6 = L. P7 = P8 ∈ {H, M}, and then P9, P10 alternate without L: either H H M H or M M H M for P7–P10.</p><p>P16–P20 have no H, so they alternate M/L: M L M L M (2 L) or L M L M L (3 L).</p><p>Let a = H among P7–P10 (3 or 1), b = L among P16–P20 (2 or 3), and h, l = H and L among P11–P15. Then 3 + a + h = 2(1 + b + l). With h ≤ 3 and P11 ≠ P10, the only cases that work are:</p><p>Case 1: P7–P10 = H H M H, P16–P20 = M L M L M, and P11–P15 has 2 H, 1 L, 2 M (P11 ≠ H, P15 ≠ M).<br>Case 2: P7–P10 = H H M H, P11–P15 = M H M H M, P16–P20 = L M L M L.</p><p>(If P7–P10 were M M H M, the formula forces P11–P15 = M H M H M, which clashes with P10 = M.) In every case P10 = H and the number of M is exactly 8.</p><p>P15 = M rules out Case 1 (there P15 ≠ M), so it is Case 2: P11–P15 = M H M H M, P16–P20 = L M L M L.</p><p>A: P13 = M, P17 = M – same (true). B: P11 = M, P16 = L – different, so B <strong>must be false</strong>. C: P10 = H, P14 = H (true). D: P14 = H &gt; P15 = M (true).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "sat",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "hard",
+      "stemHtml": "<p>What best can be said about the number of satellites serving C?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Must be between 450 and 725"
+        },
+        {
+          "id": "B",
+          "textHtml": "Must be at least 100"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cannot be more than 800"
+        },
+        {
+          "id": "D",
+          "textHtml": "Must be between 400 and 800"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Setting up the Venn diagram.</strong> Let B only = b, so C only = S only = 0.3b. All three = 100. Let BC only = x, BS only = y, CS only = z; then O = z.</p><p>C total = 0.3b + x + z + 100 and S total = 0.3b + y + z + 100; C = S gives <strong>x = y</strong>. B total = b + 2x + 100 = 2 × C total gives 0.4b = 2z + 100, so <strong>b = 5z + 250</strong>.</p><p>Total: 1.6b + 2x + 2z + 100 = 1600 gives <strong>x = 550 − 5z</strong>, so 0 ≤ z ≤ 110. Then C = S = 0.3b + x + z + 100 = <strong>725 − 2.5z</strong>, and B = 2C.</p><p>C = 725 − 2.5z with z from 0 to 110, so C runs from 725 − 275 = 450 to 725. The tightest correct statement is <strong>between 450 and 725</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "sat",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the minimum possible number of satellites serving B exclusively?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "500"
+        },
+        {
+          "id": "B",
+          "textHtml": "250"
+        },
+        {
+          "id": "C",
+          "textHtml": "200"
+        },
+        {
+          "id": "D",
+          "textHtml": "100"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Setting up the Venn diagram.</strong> Let B only = b, so C only = S only = 0.3b. All three = 100. Let BC only = x, BS only = y, CS only = z; then O = z.</p><p>C total = 0.3b + x + z + 100 and S total = 0.3b + y + z + 100; C = S gives <strong>x = y</strong>. B total = b + 2x + 100 = 2 × C total gives 0.4b = 2z + 100, so <strong>b = 5z + 250</strong>.</p><p>Total: 1.6b + 2x + 2z + 100 = 1600 gives <strong>x = 550 − 5z</strong>, so 0 ≤ z ≤ 110. Then C = S = 0.3b + x + z + 100 = <strong>725 − 2.5z</strong>, and B = 2C.</p><p>B only = b = 5z + 250, smallest when z = 0: <strong>250</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "sat",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>If at least 100 of the 1600 satellites were serving O, what can be said about the number of satellites serving S?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Exactly 475"
+        },
+        {
+          "id": "B",
+          "textHtml": "No conclusion is possible based on the given information"
+        },
+        {
+          "id": "C",
+          "textHtml": "At least 475"
+        },
+        {
+          "id": "D",
+          "textHtml": "At most 475"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Setting up the Venn diagram.</strong> Let B only = b, so C only = S only = 0.3b. All three = 100. Let BC only = x, BS only = y, CS only = z; then O = z.</p><p>C total = 0.3b + x + z + 100 and S total = 0.3b + y + z + 100; C = S gives <strong>x = y</strong>. B total = b + 2x + 100 = 2 × C total gives 0.4b = 2z + 100, so <strong>b = 5z + 250</strong>.</p><p>Total: 1.6b + 2x + 2z + 100 = 1600 gives <strong>x = 550 − 5z</strong>, so 0 ≤ z ≤ 110. Then C = S = 0.3b + x + z + 100 = <strong>725 − 2.5z</strong>, and B = 2C.</p><p>O = z ≥ 100, and z ≤ 110, so S = 725 − 2.5z ranges from 450 to 475: <strong>at most 475</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "sat",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the number of satellites serving at least two among B, C, and S is 1200, which of the following MUST be FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The number of satellites serving B is more than 1000"
+        },
+        {
+          "id": "B",
+          "textHtml": "The number of satellites serving B exclusively is exactly 250"
+        },
+        {
+          "id": "C",
+          "textHtml": "All 1600 satellites serve B or C or S"
+        },
+        {
+          "id": "D",
+          "textHtml": "The number of satellites serving C cannot be uniquely determined"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Setting up the Venn diagram.</strong> Let B only = b, so C only = S only = 0.3b. All three = 100. Let BC only = x, BS only = y, CS only = z; then O = z.</p><p>C total = 0.3b + x + z + 100 and S total = 0.3b + y + z + 100; C = S gives <strong>x = y</strong>. B total = b + 2x + 100 = 2 × C total gives 0.4b = 2z + 100, so <strong>b = 5z + 250</strong>.</p><p>Total: 1.6b + 2x + 2z + 100 = 1600 gives <strong>x = 550 − 5z</strong>, so 0 ≤ z ≤ 110. Then C = S = 0.3b + x + z + 100 = <strong>725 − 2.5z</strong>, and B = 2C.</p><p>At least two = x + y + z + 100 = 2(550 − 5z) + z + 100 = 1200 − 9z = 1200, so z = 0. Then b = 250, x = y = 550, O = 0, C = 725, B = 1450.</p><p>A, B and C are all true; C is fixed at 725, so D (‘cannot be uniquely determined’) <strong>must be false</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "TITA",
+      "setKey": "atm",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements / counting",
+      "difficulty": "medium",
+      "stemHtml": "<p>In how many diﬀerent ways can the ATM serve a customer who gives 500 rupee notes as her preference?</p>",
+      "answer": "7",
+      "solutionHtml": "<p>Let the customer get a five-hundreds, b two-hundreds and c hundreds: 5a + 2b + c = 50 with <strong>a &gt; b + c</strong>.</p><p>a = 10: (b, c) = (0, 0) → 1 way. a = 9: 2b + c = 5 → (0, 5), (1, 3), (2, 1); all have b + c &lt; 9 → 3 ways. a = 8: 2b + c = 10 with b + c = 10 − b &lt; 8 → b = 3, 4, 5 → 3 ways. a = 7: 2b + c = 15 needs b + c = 15 − b &lt; 7, i.e. b &gt; 8, impossible since 2b ≤ 15. Smaller a fail the same way.</p><p>Total = 1 + 3 + 3 = <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "TITA",
+      "setKey": "atm",
+      "topic": "Logical Reasoning",
+      "subtopic": "Optimisation",
+      "difficulty": "medium",
+      "stemHtml": "<p>If the ATM could serve only 10 customers with a stock of fifty 500 rupee notes and a sufficient number of notes of other denominations, what is the maximum number of customers among these 10 who could have given 500 rupee notes as their preferences?</p>",
+      "answer": "6",
+      "solutionHtml": "<p>From the possible ways for a 500-preference customer (5a + 2b + c = 50, a &gt; b + c), the fewest 500 notes is <strong>a = 8</strong> (with five 200s), since a = 7 or lower is impossible.</p><p>With 50 notes of 500, at most ⌊50/8⌋ = 6 such customers can be served (48 notes). The other 4 customers can prefer 100 or 200 notes and be paid with no 500s (e.g. fifty 100s, or twenty-five 200s). Maximum = <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-23",
+      "section": "DILR",
+      "number": 23,
+      "type": "MCQ",
+      "setKey": "atm",
+      "topic": "Logical Reasoning",
+      "subtopic": "Optimisation",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the maximum number of customers that the ATM can serve with a stock of fifty 500 rupee notes and a sufficient number of notes of other denominations, if all the customers are to be served with at most 20 notes per withdrawal?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "13"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "16"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>With at most 20 notes, Rs. 5000 cannot be paid without some 500 notes, so we want the preference that needs the fewest 500s per customer.</p><p><strong>200 preference:</strong> with a fives-hundreds among at most 20 notes, the most the rest can add is 200 × (20 − a), so 500a + 200(20 − a) ≥ 5000, giving a ≥ 4. a = 4 works: four 500s + fifteen 200s (19 notes, 15 &gt; 4).</p><p><strong>100 preference</strong> needs at least 7 (e.g. eleven 100s, two 200s, seven 500s), and <strong>500 preference</strong> needs at least 8, so both are worse.</p><p>Customers served ≤ ⌊50/4⌋ = <strong>12</strong>, achieved with 12 customers preferring 200 notes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-24",
+      "section": "DILR",
+      "number": 24,
+      "type": "MCQ",
+      "setKey": "atm",
+      "topic": "Logical Reasoning",
+      "subtopic": "Optimisation",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the number of 500 rupee notes required to serve 50 customers with 500 rupee notes as their preferences and another 50 customers with 100 rupee notes as their preferences, if the total number of notes to be dispensed is the smallest possible?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "750"
+        },
+        {
+          "id": "B",
+          "textHtml": "900"
+        },
+        {
+          "id": "C",
+          "textHtml": "800"
+        },
+        {
+          "id": "D",
+          "textHtml": "1400"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>500 preference:</strong> fewest notes = ten 500s (10 notes).</p><p><strong>100 preference:</strong> need c &gt; a + b. If c ≤ 9, then a + b ≤ 8 and the most possible is 900 + 8 × 500 = 4900 &lt; 5000, so c ≥ 10. With c = 10, 5a + 2b = 40 and a + b ≤ 9: only a = 8, b = 0 works – 18 notes. Larger c gives more notes (c = 11: 20 notes; c = 12: 22). So the minimum is ten 100s + eight 500s.</p><p>500 notes needed = 50 × 10 + 50 × 8 = <strong>900</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-25",
+      "section": "DILR",
+      "number": 25,
+      "type": "MCQ",
+      "setKey": "committee",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Based on the given information, which of the following statements MUST be FALSE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The size of the research committee is less than the size of the teaching committee"
+        },
+        {
+          "id": "B",
+          "textHtml": "The size of the research committee is less than the size of the administration committee"
+        },
+        {
+          "id": "C",
+          "textHtml": "In the administration committee the number of bureaucrats is equal to the number of educationalists"
+        },
+        {
+          "id": "D",
+          "textHtml": "In the teaching committee the number of educationalists is equal to the number of politicians"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Solving.</strong> Bureaucrats: research = teaching = 3k, administration = 4k. Educationalists: research is the average of the other two, so the total is 3 × (research). Politicians: 60% / 20% / 20%, so the total P is a multiple of 5 and each committee gets P/5 at least.</p><p>Total 24 = 10k + 3e<sub>R</sub> + P. k = 1 gives 3e<sub>R</sub> + P = 14 → P = 5, e<sub>R</sub> = 3 (P = 10 fails). k ≥ 2 leaves too little. So bureaucrats 3, 3, 4; politicians R 1, T 1, A 3; educationalists R = 3, T &lt; 3 with e<sub>T</sub> + e<sub>A</sub> = 6.</p><p>Two possibilities: e<sub>T</sub> = 1, e<sub>A</sub> = 5 (sizes R 7, T 5, A 12) or e<sub>T</sub> = 2, e<sub>A</sub> = 4 (sizes R 7, T 6, A 11).</p><p>Research has 7 members; teaching has 5 or 6. So A (research smaller than teaching) is <strong>always false</strong>. B is always true; C holds when e<sub>A</sub> = 4; D holds when e<sub>T</sub> = 1.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-26",
+      "section": "DILR",
+      "number": 26,
+      "type": "TITA",
+      "setKey": "committee",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the number of bureaucrats in the administration committee?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Solving.</strong> Bureaucrats: research = teaching = 3k, administration = 4k. Educationalists: research is the average of the other two, so the total is 3 × (research). Politicians: 60% / 20% / 20%, so the total P is a multiple of 5 and each committee gets P/5 at least.</p><p>Total 24 = 10k + 3e<sub>R</sub> + P. k = 1 gives 3e<sub>R</sub> + P = 14 → P = 5, e<sub>R</sub> = 3 (P = 10 fails). k ≥ 2 leaves too little. So bureaucrats 3, 3, 4; politicians R 1, T 1, A 3; educationalists R = 3, T &lt; 3 with e<sub>T</sub> + e<sub>A</sub> = 6.</p><p>Two possibilities: e<sub>T</sub> = 1, e<sub>A</sub> = 5 (sizes R 7, T 5, A 12) or e<sub>T</sub> = 2, e<sub>A</sub> = 4 (sizes R 7, T 6, A 11).</p><p>Bureaucrats in administration = 4k = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-27",
+      "section": "DILR",
+      "number": 27,
+      "type": "TITA",
+      "setKey": "committee",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the number of educationalists in the research committee?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Solving.</strong> Bureaucrats: research = teaching = 3k, administration = 4k. Educationalists: research is the average of the other two, so the total is 3 × (research). Politicians: 60% / 20% / 20%, so the total P is a multiple of 5 and each committee gets P/5 at least.</p><p>Total 24 = 10k + 3e<sub>R</sub> + P. k = 1 gives 3e<sub>R</sub> + P = 14 → P = 5, e<sub>R</sub> = 3 (P = 10 fails). k ≥ 2 leaves too little. So bureaucrats 3, 3, 4; politicians R 1, T 1, A 3; educationalists R = 3, T &lt; 3 with e<sub>T</sub> + e<sub>A</sub> = 6.</p><p>Two possibilities: e<sub>T</sub> = 1, e<sub>A</sub> = 5 (sizes R 7, T 5, A 12) or e<sub>T</sub> = 2, e<sub>A</sub> = 4 (sizes R 7, T 6, A 11).</p><p>e<sub>R</sub> = <strong>3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-28",
+      "section": "DILR",
+      "number": 28,
+      "type": "MCQ",
+      "setKey": "committee",
+      "topic": "Logical Reasoning",
+      "subtopic": "Distributions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following CANNOT be determined uniquely based on the given information?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The total number of bureaucrats in the three committees"
+        },
+        {
+          "id": "B",
+          "textHtml": "The size of the teaching committee"
+        },
+        {
+          "id": "C",
+          "textHtml": "The total number of educationalists in the three committees"
+        },
+        {
+          "id": "D",
+          "textHtml": "The size of the research committee"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving.</strong> Bureaucrats: research = teaching = 3k, administration = 4k. Educationalists: research is the average of the other two, so the total is 3 × (research). Politicians: 60% / 20% / 20%, so the total P is a multiple of 5 and each committee gets P/5 at least.</p><p>Total 24 = 10k + 3e<sub>R</sub> + P. k = 1 gives 3e<sub>R</sub> + P = 14 → P = 5, e<sub>R</sub> = 3 (P = 10 fails). k ≥ 2 leaves too little. So bureaucrats 3, 3, 4; politicians R 1, T 1, A 3; educationalists R = 3, T &lt; 3 with e<sub>T</sub> + e<sub>A</sub> = 6.</p><p>Two possibilities: e<sub>T</sub> = 1, e<sub>A</sub> = 5 (sizes R 7, T 5, A 12) or e<sub>T</sub> = 2, e<sub>A</sub> = 4 (sizes R 7, T 6, A 11).</p><p>Total bureaucrats = 10, total educationalists = 9 and research size = 7 are fixed. Teaching has 5 or 6 members – <strong>not unique</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-29",
+      "section": "DILR",
+      "number": 29,
+      "type": "MCQ",
+      "setKey": "students",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who are the students from the institute Z?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Chitra and Daisy"
+        },
+        {
+          "id": "B",
+          "textHtml": "Adriana and Daisy"
+        },
+        {
+          "id": "C",
+          "textHtml": "Bandita and Chitra"
+        },
+        {
+          "id": "D",
+          "textHtml": "Adriana and Bandita"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Institutes.</strong> Z has 2 females, so all 4 males are in X and Y. Y has two males and one female (clue 2), so X has two males and one female. Barun is in Y and Chetan in X, so Amit and Deb are split between X and Y.</p><p>If Amit were in Y, Daisy would be the Y female, who majors in Operations – but Daisy minors in Operations, a clash. So Amit is in X with Daisy, and <strong>Deb is in Y with Adriana</strong>. Z = <strong>Bandita and Chitra</strong>.</p><p><strong>Subjects.</strong> Males: Barun is the only male Ops major; Chetan majors in Finance; one more male majors in Finance. Deb (Y male) minors in Finance, so he can’t major in it – <strong>Amit majors in Finance</strong> and Deb majors in Marketing, minoring in Finance.</p><p>Females: Daisy minors in Ops, so the three Marketing minors are Adriana, Bandita and Chitra. Adriana (Y female) majors in Ops. Exactly one female majors in Finance; Bandita and Chitra (Marketing minors) major in Ops or Finance.</p><p>Z = <strong>Bandita and Chitra</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-30",
+      "section": "DILR",
+      "number": 30,
+      "type": "MCQ",
+      "setKey": "students",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which subject does Deb minor in?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Finance"
+        },
+        {
+          "id": "B",
+          "textHtml": "Marketing"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cannot be determined uniquely from the given information"
+        },
+        {
+          "id": "D",
+          "textHtml": "Operations"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Institutes.</strong> Z has 2 females, so all 4 males are in X and Y. Y has two males and one female (clue 2), so X has two males and one female. Barun is in Y and Chetan in X, so Amit and Deb are split between X and Y.</p><p>If Amit were in Y, Daisy would be the Y female, who majors in Operations – but Daisy minors in Operations, a clash. So Amit is in X with Daisy, and <strong>Deb is in Y with Adriana</strong>. Z = <strong>Bandita and Chitra</strong>.</p><p><strong>Subjects.</strong> Males: Barun is the only male Ops major; Chetan majors in Finance; one more male majors in Finance. Deb (Y male) minors in Finance, so he can’t major in it – <strong>Amit majors in Finance</strong> and Deb majors in Marketing, minoring in Finance.</p><p>Females: Daisy minors in Ops, so the three Marketing minors are Adriana, Bandita and Chitra. Adriana (Y female) majors in Ops. Exactly one female majors in Finance; Bandita and Chitra (Marketing minors) major in Ops or Finance.</p><p>Deb is a male from Y, and both Y males minor in <strong>Finance</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-31",
+      "section": "DILR",
+      "number": 31,
+      "type": "MCQ",
+      "setKey": "students",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which subject does Amit major in?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Cannot be determined uniquely from the given information"
+        },
+        {
+          "id": "B",
+          "textHtml": "Marketing"
+        },
+        {
+          "id": "C",
+          "textHtml": "Finance"
+        },
+        {
+          "id": "D",
+          "textHtml": "Operations"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Institutes.</strong> Z has 2 females, so all 4 males are in X and Y. Y has two males and one female (clue 2), so X has two males and one female. Barun is in Y and Chetan in X, so Amit and Deb are split between X and Y.</p><p>If Amit were in Y, Daisy would be the Y female, who majors in Operations – but Daisy minors in Operations, a clash. So Amit is in X with Daisy, and <strong>Deb is in Y with Adriana</strong>. Z = <strong>Bandita and Chitra</strong>.</p><p><strong>Subjects.</strong> Males: Barun is the only male Ops major; Chetan majors in Finance; one more male majors in Finance. Deb (Y male) minors in Finance, so he can’t major in it – <strong>Amit majors in Finance</strong> and Deb majors in Marketing, minoring in Finance.</p><p>Females: Daisy minors in Ops, so the three Marketing minors are Adriana, Bandita and Chitra. Adriana (Y female) majors in Ops. Exactly one female majors in Finance; Bandita and Chitra (Marketing minors) major in Ops or Finance.</p><p>Two males major in Finance: Chetan and, since Deb minors in Finance, <strong>Amit</strong>. So Amit majors in Finance.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-32",
+      "section": "DILR",
+      "number": 32,
+      "type": "MCQ",
+      "setKey": "students",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>If Chitra majors in Finance, which subject does Bandita major in?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Marketing"
+        },
+        {
+          "id": "B",
+          "textHtml": "Cannot be determined uniquely from the given information"
+        },
+        {
+          "id": "C",
+          "textHtml": "Finance"
+        },
+        {
+          "id": "D",
+          "textHtml": "Operations"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Institutes.</strong> Z has 2 females, so all 4 males are in X and Y. Y has two males and one female (clue 2), so X has two males and one female. Barun is in Y and Chetan in X, so Amit and Deb are split between X and Y.</p><p>If Amit were in Y, Daisy would be the Y female, who majors in Operations – but Daisy minors in Operations, a clash. So Amit is in X with Daisy, and <strong>Deb is in Y with Adriana</strong>. Z = <strong>Bandita and Chitra</strong>.</p><p><strong>Subjects.</strong> Males: Barun is the only male Ops major; Chetan majors in Finance; one more male majors in Finance. Deb (Y male) minors in Finance, so he can’t major in it – <strong>Amit majors in Finance</strong> and Deb majors in Marketing, minoring in Finance.</p><p>Females: Daisy minors in Ops, so the three Marketing minors are Adriana, Bandita and Chitra. Adriana (Y female) majors in Ops. Exactly one female majors in Finance; Bandita and Chitra (Marketing minors) major in Ops or Finance.</p><p>Only one female majors in Finance; if it is Chitra, Bandita cannot. Bandita minors in Marketing, so she cannot major in it either. Bandita majors in <strong>Operations</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

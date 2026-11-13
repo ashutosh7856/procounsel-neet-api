@@ -28,6 +28,8 @@ from google.cloud.firestore_v1.client import Client as _FirestoreClient
 from api.db import SafeFirestore
 from api.db.firebase import DB_TIMEOUT
 
+from .schedule import available_from, has_started
+
 EXAMS = "mbaExams"
 PAPERS = "mbaPapers"
 SETS = "mbaQuestionSets"
@@ -137,6 +139,7 @@ class Bank:
     sets: dict[str, dict[str, Any]] = field(default_factory=dict)
     questions: dict[str, dict[str, Any]] = field(default_factory=dict)  # published only
     loaded_at: float = 0.0
+    refresh_at: float | None = None  # epoch seconds when a scheduled paper goes live (reload then)
 
 
 _bank_lock = threading.Lock()
@@ -166,9 +169,13 @@ def get_bank(db: SafeFirestore) -> Bank:
     global _bank, _bank_db_id
     with _bank_lock:
         fresh = _bank is not None and _bank_db_id == id(db) and time.monotonic() - _bank.loaded_at < _bank_ttl()
-        if fresh:
+        if fresh and (_bank.refresh_at is None or time.time() < _bank.refresh_at):  # type: ignore[union-attr]
             return _bank  # type: ignore[return-value]
-    papers = {doc_id: {**data, "id": doc_id} for doc_id, data in stream_all(db, PAPERS) if _is_published(data)}
+    # A published paper scheduled for later (availableFrom, see schedule.py) stays out of the bank until then.
+    now = utcnow()
+    published = {doc_id: {**data, "id": doc_id} for doc_id, data in stream_all(db, PAPERS) if _is_published(data)}
+    papers = {doc_id: paper for doc_id, paper in published.items() if has_started(paper, now)}
+    upcoming = [start.timestamp() for paper in published.values() if (start := available_from(paper)) and start > now]
     bank = Bank(
         exams={doc_id: data for doc_id, data in stream_all(db, EXAMS)},
         papers=papers,
@@ -181,6 +188,7 @@ def get_bank(db: SafeFirestore) -> Bank:
             if _is_published(data) and (not data.get("paperId") or data["paperId"] in papers)
         },
         loaded_at=time.monotonic(),
+        refresh_at=min(upcoming) if upcoming else None,
     )
     with _bank_lock:
         _bank, _bank_db_id = bank, id(db)

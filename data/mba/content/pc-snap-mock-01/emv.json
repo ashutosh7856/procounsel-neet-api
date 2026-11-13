@@ -1,0 +1,345 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "EMV-01",
+      "section": "EMV",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Workplace Ethics",
+      "subtopic": "Financial integrity",
+      "difficulty": "easy",
+      "stemHtml": "<p>While helping compile the team’s expense report, you notice that a well-liked colleague has been adding small, false amounts to his travel reimbursement claims for several months. What is the most appropriate action?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Ignore it, since the amounts are small and raising it would hurt team morale."
+        },
+        {
+          "id": "B",
+          "textHtml": "Start adding similar small amounts to your own claims, since it is evidently tolerated."
+        },
+        {
+          "id": "C",
+          "textHtml": "Report the facts through the company’s prescribed channel (such as your manager, finance or the ethics helpline), without exaggeration or gossip."
+        },
+        {
+          "id": "D",
+          "textHtml": "Post about it in the office group chat so that everyone knows what he has been doing."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Principle: honesty and proper process.</strong> False claims are a misuse of company money regardless of size; the right response is to report verifiable facts to the people responsible for handling them, which protects the organisation while keeping the matter fair to the colleague.</p><p><strong>A</strong> condones fraud — small, repeated amounts are still dishonest. <strong>B</strong> makes you a participant. <strong>D</strong> humiliates the colleague publicly before any inquiry and bypasses due process.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-02",
+      "section": "EMV",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Workplace Ethics",
+      "subtopic": "Gifts and bribery",
+      "difficulty": "easy",
+      "stemHtml": "<p>You are on a panel evaluating bids for a large contract. One bidder sends an expensive smartwatch to your home “as a festival gift”. What should you do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Politely return the gift and disclose the offer to your organisation as its policy requires."
+        },
+        {
+          "id": "B",
+          "textHtml": "Keep the gift but make sure it does not influence your evaluation."
+        },
+        {
+          "id": "C",
+          "textHtml": "Keep the gift and give the bidder slightly higher marks to return the courtesy."
+        },
+        {
+          "id": "D",
+          "textHtml": "Return the gift and quietly disqualify the bidder without telling anyone."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Principle: avoid conflicts of interest and maintain transparency.</strong> A valuable gift from a bidder during an evaluation creates at least the appearance of bribery. Returning it and disclosing the offer protects both the process and you.</p><p><strong>B</strong> still creates a conflict of interest — private intentions cannot be verified by others. <strong>C</strong> is accepting a bribe. <strong>D</strong> is a unilateral, undisclosed penalty; the decision on the bidder belongs to the process, not to you alone.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-03",
+      "section": "EMV",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Personal Values",
+      "subtopic": "Accountability",
+      "difficulty": "medium",
+      "stemHtml": "<p>Your manager has praised a report you submitted and forwarded it to senior leadership. You now discover a calculation error in it that changes one of its key recommendations. What is the best course of action?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Say nothing, since the report has already been praised and the error may never be noticed."
+        },
+        {
+          "id": "B",
+          "textHtml": "Wait to see whether anyone notices, and correct it only if asked."
+        },
+        {
+          "id": "C",
+          "textHtml": "Quietly change the figures in your copy of the file without informing anyone."
+        },
+        {
+          "id": "D",
+          "textHtml": "Inform your manager promptly, explain the error and its impact, and provide a corrected version."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Principle: accountability — own your mistakes, especially when others will act on them.</strong> Leadership may make decisions based on a wrong recommendation; prompt disclosure with a correction limits the harm.</p><p><strong>A</strong> and <strong>B</strong> put your reputation ahead of the organisation’s decisions. <strong>C</strong> fixes nothing for the people already holding the wrong version and hides the error.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-04",
+      "section": "EMV",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Workplace Ethics",
+      "subtopic": "Credit and recognition",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a leadership meeting, your team lead presents an idea you developed as if it were entirely his own. What is the most appropriate response?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Interrupt the meeting and accuse him of stealing your idea in front of the leadership."
+        },
+        {
+          "id": "B",
+          "textHtml": "Later, speak to him privately and calmly about it, and keep a record of your contributions; escalate through proper channels only if the pattern continues."
+        },
+        {
+          "id": "C",
+          "textHtml": "Withhold your ideas from the team in future so that nobody can take credit for them."
+        },
+        {
+          "id": "D",
+          "textHtml": "Complain about him to colleagues so that his reputation suffers."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Principle: a proportionate, respectful response that seeks to correct the wrong.</strong> A private conversation gives the lead a chance to set the record straight (it may have been careless rather than deliberate), and documentation plus formal escalation remain available if needed.</p><p><strong>A</strong> is disproportionate and damages working relationships before he has had a chance to respond. <strong>C</strong> harms the team and the organisation, not just the lead. <strong>D</strong> is gossip — it damages reputations without resolving anything.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-05",
+      "section": "EMV",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Workplace Ethics",
+      "subtopic": "Conflict of interest",
+      "difficulty": "medium",
+      "stemHtml": "<p>You are asked to evaluate vendors for your company, and you find that one of the bidders is a firm owned by your cousin. You are confident you can be objective. What should you do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Disclose the relationship to your manager and step aside from evaluating that bid."
+        },
+        {
+          "id": "B",
+          "textHtml": "Evaluate all bids as usual, since you are confident you will be fair."
+        },
+        {
+          "id": "C",
+          "textHtml": "Reject your cousin’s bid outright to avoid any suspicion."
+        },
+        {
+          "id": "D",
+          "textHtml": "Tell your cousin the other bidders’ prices so the competition is “fair”."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Principle: disclose and recuse when a personal interest could affect a decision.</strong> Fairness must be seen, not merely felt; other bidders and the employer cannot verify your inner objectivity.</p><p><strong>B</strong> hides a real conflict of interest. <strong>C</strong> is unfair to your cousin’s firm, which may have the best bid — conflicts are handled by stepping aside, not by penalising the other party. <strong>D</strong> leaks confidential information and is clearly unethical.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-06",
+      "section": "EMV",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Business Ethics",
+      "subtopic": "Product safety",
+      "difficulty": "medium",
+      "stemHtml": "<p>A quality engineer tells you that a batch of electric heaters ready for dispatch may have a wiring fault that could cause overheating. The sales team insists the batch must ship today to meet the quarterly target. As the plant manager, what should you do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Ship the batch and plan to recall it later if complaints arrive."
+        },
+        {
+          "id": "B",
+          "textHtml": "Ship the batch but add a small warning label asking customers to be careful."
+        },
+        {
+          "id": "C",
+          "textHtml": "Hold the batch, get the possible fault tested, and inform senior management of the delay and the reason."
+        },
+        {
+          "id": "D",
+          "textHtml": "Let the sales head decide, since targets are his responsibility."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Principle: customer safety outweighs short-term financial targets.</strong> A plausible risk of fire must be checked before the product reaches customers; transparently informing management handles the business impact responsibly.</p><p><strong>A</strong> knowingly exposes customers to harm. <strong>B</strong> shifts risk onto customers who cannot fix a wiring fault. <strong>D</strong> abdicates the plant manager’s responsibility for product safety.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-07",
+      "section": "EMV",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Business Ethics",
+      "subtopic": "Data privacy",
+      "difficulty": "easy",
+      "stemHtml": "<p>You work in a bank’s customer service team. A friend who has just started an insurance agency asks you for a list of customers’ phone numbers to call with offers. What should you do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Share only the phone numbers, not account details, since that is harmless."
+        },
+        {
+          "id": "B",
+          "textHtml": "Share the list only with customers who have high balances."
+        },
+        {
+          "id": "C",
+          "textHtml": "Ask your friend to pay for the list."
+        },
+        {
+          "id": "D",
+          "textHtml": "Refuse, explaining that customer data is confidential and cannot be shared without proper authorisation and consent."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Principle: confidentiality and respect for customer consent.</strong> Customers gave their data to the bank for banking purposes; passing it to a third party for marketing breaches their trust and the bank’s rules.</p><p><strong>A</strong> and <strong>B</strong> are still unauthorised disclosure — phone numbers are personal data. <strong>C</strong> adds selling confidential information to the breach.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-08",
+      "section": "EMV",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Workplace Ethics",
+      "subtopic": "Discrimination and fairness",
+      "difficulty": "medium",
+      "stemHtml": "<p>Your manager privately tells you to reject all job applicants from a particular community, regardless of their qualifications. What should you do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Follow the instruction, since the manager is responsible for hiring decisions."
+        },
+        {
+          "id": "B",
+          "textHtml": "Decline to follow the instruction, continue to assess candidates on merit, and report the instruction to HR or the appropriate authority."
+        },
+        {
+          "id": "C",
+          "textHtml": "Follow the instruction but keep a note of it in case of future trouble."
+        },
+        {
+          "id": "D",
+          "textHtml": "Resign immediately without informing anyone of the reason."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Principle: fairness and equal opportunity — candidates must be judged on merit.</strong> Discriminating by community is unjust and typically unlawful; an instruction from a superior does not make it acceptable. Reporting it allows the organisation to stop it.</p><p><strong>A</strong> and <strong>C</strong> make you a participant in discrimination. <strong>D</strong> avoids personal involvement but leaves the injustice in place for every future applicant.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-09",
+      "section": "EMV",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Personal Values",
+      "subtopic": "Integrity",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following best describes <em>integrity</em>?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Acting consistently with one’s ethical principles, even when no one is watching and it is personally costly."
+        },
+        {
+          "id": "B",
+          "textHtml": "Following every instruction given by a superior without question."
+        },
+        {
+          "id": "C",
+          "textHtml": "Being popular and well liked by one’s colleagues."
+        },
+        {
+          "id": "D",
+          "textHtml": "Achieving one’s targets by whatever means are available."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Integrity means a consistent match between one’s values and one’s actions, independent of observation or reward.</p><p><strong>B</strong> describes obedience, which can conflict with integrity when instructions are wrong. <strong>C</strong> is popularity. <strong>D</strong> describes an ends-justify-the-means approach, which is the opposite of integrity.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "EMV-10",
+      "section": "EMV",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Personal Values",
+      "subtopic": "Honesty",
+      "difficulty": "easy",
+      "stemHtml": "<p>On your way to college, you find a wallet on the road containing ₹8,000 in cash and the owner’s identity card with an address. What is the most appropriate action?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Keep the cash and post the empty wallet to the owner."
+        },
+        {
+          "id": "B",
+          "textHtml": "Keep the wallet, since the owner was careless and you found it fairly."
+        },
+        {
+          "id": "C",
+          "textHtml": "Return the wallet with all its contents to the owner, or hand it in at the nearest police station."
+        },
+        {
+          "id": "D",
+          "textHtml": "Donate the cash to charity and throw away the wallet."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Principle: honesty and respect for others’ property.</strong> Finding something does not make it yours; the owner can be identified, so everything should go back to them (directly or via the police).</p><p><strong>A</strong> and <strong>B</strong> are taking someone else’s money. <strong>D</strong> may sound generous, but it is giving away money that is not yours to give.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}
