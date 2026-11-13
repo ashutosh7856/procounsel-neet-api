@@ -1,0 +1,771 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & alligations",
+   "difficulty": "easy",
+   "stemHtml": "<p>Two alcohol solutions, A and B, are mixed in the proportion 1:3 by volume. The volume of the mixture is then doubled by adding solution A such that the resulting mixture has 72% alcohol. If solution A has 60% alcohol, then the percentage of alcohol in solution B is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "90%"
+    },
+    {
+     "id": "B",
+     "textHtml": "92%"
+    },
+    {
+     "id": "C",
+     "textHtml": "94%"
+    },
+    {
+     "id": "D",
+     "textHtml": "89%"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Take 1 L of A and 3 L of B. Doubling the 4 L by adding A means 4 more litres of A, so the final mix is <strong>5 L of A and 3 L of B</strong>.</p><p>Alcohol: 5 × 60 + 3 × b = 8 × 72 → 300 + 3b = 576 → b = 92.</p><p>Alcohol in B = <strong>92%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Circular motion",
+   "difficulty": "easy",
+   "stemHtml": "<p>Anil, Sunil, and Ravi run along a circular path of length 3 km, starting from the same point at the same time, and going in the clockwise direction. If they run at speeds of 15 km/hr, 10 km/hr, and 8 km/hr, respectively, how much distance in km will Ravi have run when Anil and Sunil meet again for the first time at the starting point?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5.2"
+    },
+    {
+     "id": "B",
+     "textHtml": "4.6"
+    },
+    {
+     "id": "C",
+     "textHtml": "4.8"
+    },
+    {
+     "id": "D",
+     "textHtml": "4.2"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Lap times: Anil 3/15 = 1/5 hr = 12 min; Sunil 3/10 hr = 18 min.</p><p>They are both at the start together first after <strong>LCM(12, 18) = 36 min = 0.6 hr</strong>.</p><p>Ravi runs 8 × 0.6 = <strong>4.8 km</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "easy",
+   "stemHtml": "<p>The area, in sq. units, enclosed by the lines x = 2, y = |x - 2| + 4, the X-axis and the Y-axis is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10"
+    },
+    {
+     "id": "B",
+     "textHtml": "8"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "12"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>For 0 ≤ x ≤ 2, |x − 2| = 2 − x, so y = 6 − x: a line from (0, 6) to (2, 4).</p><p>The region is a trapezium with parallel sides 6 (at x = 0) and 4 (at x = 2) and width 2.</p><p>Area = ½ × (6 + 4) × 2 = <strong>10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Trains / relative speed",
+   "difficulty": "easy",
+   "stemHtml": "<p>A and B are two railway stations 90 km apart. A train leaves A at 9:00 am, heading towards B at a speed of 40 km/hr. Another train leaves B at 10:30 am, heading towards A at a speed of 20 km/hr. The trains meet each other at</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "11 : 45 am"
+    },
+    {
+     "id": "B",
+     "textHtml": "10 : 45 am"
+    },
+    {
+     "id": "C",
+     "textHtml": "11 : 00 am"
+    },
+    {
+     "id": "D",
+     "textHtml": "11 : 20 am"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>By 10:30 the first train has run 1.5 × 40 = 60 km, leaving 30 km between them.</p><p>Closing speed 40 + 20 = 60 km/hr → 30/60 = ½ hr.</p><p>They meet at <strong>11:00 am</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks obtained by Geeta, who scored 84%, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "399"
+    },
+    {
+     "id": "B",
+     "textHtml": "417"
+    },
+    {
+     "id": "C",
+     "textHtml": "439"
+    },
+    {
+     "id": "D",
+     "textHtml": "357"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Let the maximum marks be M. Asha − Bishnu = 34 + 23 = 57 marks = 12% of M → <strong>M = 475</strong>.</p><p>Geeta = 0.84 × 475 = <strong>399</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>If log<sub>a</sub>30 = A, log<sub>a</sub>(5/3) = −B and log<sub>2</sub>a = 1/3, then log<sub>3</sub>a equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2/(A + B) − 3"
+    },
+    {
+     "id": "B",
+     "textHtml": "2/(A + B − 3)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(A + B)/2 − 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "(A + B − 3)/2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>log<sub>2</sub>a = 1/3 → <strong>log<sub>a</sub>2 = 3</strong>.</p><p>log<sub>a</sub>30 = log<sub>a</sub>2 + log<sub>a</sub>3 + log<sub>a</sub>5 = A → log<sub>a</sub>3 + log<sub>a</sub>5 = A − 3.</p><p>log<sub>a</sub>5 − log<sub>a</sub>3 = −B. Subtracting: 2 log<sub>a</sub>3 = A − 3 + B → log<sub>a</sub>3 = (A + B − 3)/2.</p><p>So log<sub>3</sub>a = <strong>2/(A + B − 3)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Mensuration",
+   "difficulty": "easy",
+   "stemHtml": "<p>In a trapezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC = 5 cm, BC = 4 cm, the area of the trapezium in sq cm is</p>",
+   "answer": "28",
+   "solutionHtml": "<p>BC ⊥ DC makes BC the height, 4 cm. Drop a perpendicular DE from D to AB; DE = 4 and EB = DC = 5.</p><p>∠BAD = 45° makes triangle AED isosceles right-angled, so AE = DE = 4 and <strong>AB = 4 + 5 = 9</strong>. (If A were on the other side of E, the angle at A would be 135°, not 45°.)</p><p>Area = ½ × (9 + 5) × 4 = <strong>28</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Functions",
+   "difficulty": "easy",
+   "stemHtml": "<p>If f(x + y) = f(x) f(y) and f(5) = 4, then f(10) − f(−10) is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "14.0625"
+    },
+    {
+     "id": "B",
+     "textHtml": "3"
+    },
+    {
+     "id": "C",
+     "textHtml": "0"
+    },
+    {
+     "id": "D",
+     "textHtml": "15.9375"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>f(10) = f(5)·f(5) = 16.</p><p>f(0): f(5) = f(5)·f(0) → f(0) = 1. Then f(10)·f(−10) = f(0) = 1 → f(−10) = 1/16 = 0.0625.</p><p>f(10) − f(−10) = 16 − 0.0625 = <strong>15.9375</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>(2 × 4 × 8 × 16) / [(log<sub>2</sub>4)<sup>2</sup> (log<sub>4</sub>8)<sup>3</sup> (log<sub>8</sub>16)<sup>4</sup>] equals</p>",
+   "answer": "24",
+   "solutionHtml": "<p>Numerator: 2 × 4 × 8 × 16 = 2<sup>10</sup> = 1024.</p><p>log<sub>2</sub>4 = 2, log<sub>4</sub>8 = 3/2, log<sub>8</sub>16 = 4/3.</p><p>Denominator: 2<sup>2</sup> × (3/2)<sup>3</sup> × (4/3)<sup>4</sup> = 4 × 27/8 × 256/81 = 128/3.</p><p>Value = 1024 × 3/128 = <strong>24</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Integer ranges",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let N, x and y be positive integers such that N = x + y, 2 &lt; x &lt; 10 and 14 &lt; y &lt; 23. If N &gt; 25, then how many distinct values are possible for N?</p>",
+   "answer": "6",
+   "solutionHtml": "<p>x ∈ {3, …, 9}, y ∈ {15, …, 22}, so N = x + y takes every value from 18 to 31.</p><p>N &gt; 25 → N ∈ {26, 27, 28, 29, 30, 31}: <strong>6</strong> values.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "medium",
+   "stemHtml": "<p>A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "25"
+    },
+    {
+     "id": "B",
+     "textHtml": "22"
+    },
+    {
+     "id": "C",
+     "textHtml": "31"
+    },
+    {
+     "id": "D",
+     "textHtml": "35"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Take cost = Rs 1 per kg: total cost 35, marked price 1.2 per kg, target revenue 35 × 1.15 = 40.25.</p><p>Sales so far: 5 × 1.2 = 6 and 15 × 1.08 = 16.2, total 22.2.</p><p>Remaining 35 − 5 − 15 − 3 = 12 kg must bring 40.25 − 22.2 = 18.05 → price per kg = 1.504.</p><p>1.504 / 1.2 ≈ 1.253 → p ≈ 25.3, nearest to <strong>25</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>Vimla starts for office every day at 9 am and reaches exactly on time if she drives at her usual speed of 40 km/hr. She is late by 6 minutes if she drives at 35 km/hr. One day, she covers two-thirds of her distance to office in one-thirds of her usual time to reach office, and then stops for 8 minutes. The speed, in km/hr, at which she should drive the remaining distance to reach office exactly on time is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "27"
+    },
+    {
+     "id": "B",
+     "textHtml": "28"
+    },
+    {
+     "id": "C",
+     "textHtml": "26"
+    },
+    {
+     "id": "D",
+     "textHtml": "29"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>d/35 − d/40 = 1/10 hr → d/280 = 1/10 → <strong>d = 28 km</strong>; usual time = 28/40 hr = 42 min.</p><p>She covers 2/3 × 28 = 56/3 km in 14 min, then stops 8 min: 22 min used, 20 min left.</p><p>Remaining 28/3 km in 1/3 hr → speed = <strong>28 km/hr</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "TITA",
+   "topic": "Modern Maths",
+   "subtopic": "Counting",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many integers in the set {100, 101, 102, ..., 999} have at least one digit repeated?</p>",
+   "answer": "252",
+   "solutionHtml": "<p>Total three-digit numbers: 900.</p><p>All digits distinct: 9 (first digit, not 0) × 9 × 8 = 648.</p><p>At least one repeat: 900 − 648 = <strong>252</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "medium",
+   "stemHtml": "<p>A batsman played n + 2 innings and got out on all occasions. His average score in these n + 2 innings was 29 runs and he scored 38 and 15 runs in the last two innings. The batsman scored less than 38 runs in each of the first n innings. In these n innings, his average score was 30 runs and lowest score was x runs. The smallest possible value of x is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>29(n + 2) = 30n + 38 + 15 → 29n + 58 = 30n + 53 → <strong>n = 5</strong>.</p><p>First 5 innings total 150. To make the lowest score as small as possible, make the other four as large as allowed: 37 each = 148.</p><p>x = 150 − 148 = <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Linear equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "k ≠ 2"
+    },
+    {
+     "id": "B",
+     "textHtml": "|k| = 2"
+    },
+    {
+     "id": "C",
+     "textHtml": "k = 2"
+    },
+    {
+     "id": "D",
+     "textHtml": "|k| ≠ 2"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>A pair a<sub>1</sub>x + b<sub>1</sub>y = c<sub>1</sub>, a<sub>2</sub>x + b<sub>2</sub>y = c<sub>2</sub> has a unique solution iff a<sub>1</sub>b<sub>2</sub> − a<sub>2</sub>b<sub>1</sub> ≠ 0.</p><p>Here k·k − 4·1 ≠ 0 → k<sup>2</sup> ≠ 4 → <strong>|k| ≠ 2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Ages",
+   "difficulty": "easy",
+   "stemHtml": "<p>Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age, in years, is</p>",
+   "answer": "18",
+   "solutionHtml": "<p>Tom = t, Dick = 3t, Harry = 6t. Average = 10t/3.</p><p>3t = 10t/3 − 1 → t/3 = 1 → t = 3.</p><p>Harry = 6 × 3 = <strong>18</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "medium",
+   "stemHtml": "<p>The vertices of a triangle are (0, 0), (4, 0) and (3, 9). The area of the circle passing through these three points is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "12π/5"
+    },
+    {
+     "id": "B",
+     "textHtml": "14π/5"
+    },
+    {
+     "id": "C",
+     "textHtml": "205π/9"
+    },
+    {
+     "id": "D",
+     "textHtml": "123π/7"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>The centre is equidistant from (0, 0) and (4, 0), so it lies on x = 2. Let it be (2, k).</p><p>Equal distance to (0, 0) and (3, 9): 4 + k<sup>2</sup> = 1 + (k − 9)<sup>2</sup> → 4 = 82 − 18k → k = 13/3.</p><p>r<sup>2</sup> = 4 + 169/9 = 205/9. Area = <strong>205π/9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Compound interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>A person invested a certain amount of money at 10% annual interest, compounded half-yearly. After one and a half years, the interest and principal together became Rs 18522. The amount, in rupees, that the person had invested is</p>",
+   "answer": "16000",
+   "solutionHtml": "<p>Half-yearly rate 5%, three periods: P × 1.05<sup>3</sup> = 18522.</p><p>1.05<sup>3</sup> = (21/20)<sup>3</sup> = 9261/8000, and 18522 = 2 × 9261.</p><p>P = 2 × 8000 = <strong>16000</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Logarithms / indices",
+   "difficulty": "medium",
+   "stemHtml": "<p>If a, b, c are non-zero and 14<sup>a</sup> = 36<sup>b</sup> = 84<sup>c</sup>, then 6b(1/c − 1/a) is equal to</p>",
+   "answer": "3",
+   "solutionHtml": "<p>Let 14<sup>a</sup> = 36<sup>b</sup> = 84<sup>c</sup> = k. Then a = log k / log 14, b = log k / log 36, c = log k / log 84.</p><p>1/c − 1/a = (log 84 − log 14)/log k = log 6 / log k.</p><p>6b(1/c − 1/a) = 6 × (log k / log 36) × (log 6 / log k) = 6 × log 6 / (2 log 6) = <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "easy",
+   "stemHtml": "<p>The points (2, 1) and (−3, −4) are opposite vertices of a parallelogram. If the other two vertices lie on the line x + 9y + c = 0, then c is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "14"
+    },
+    {
+     "id": "B",
+     "textHtml": "15"
+    },
+    {
+     "id": "C",
+     "textHtml": "12"
+    },
+    {
+     "id": "D",
+     "textHtml": "13"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The diagonals of a parallelogram bisect each other, so the other diagonal passes through the midpoint of the given one: (−1/2, −3/2).</p><p>−1/2 + 9(−3/2) + c = 0 → c = 1/2 + 27/2 = <strong>14</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Inequalities with integers",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let m and n be natural numbers such that n is even and 0.2 &lt; m/20, n/m, n/11 &lt; 0.5. Then m − 2n equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "1"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>0.2 &lt; m/20 &lt; 0.5 → 4 &lt; m &lt; 10.</p><p>0.2 &lt; n/11 &lt; 0.5 → 2.2 &lt; n &lt; 5.5, and n even → <strong>n = 4</strong>.</p><p>n/m &lt; 0.5 → m &gt; 8 → <strong>m = 9</strong> (4/9 ≈ 0.44 is also &gt; 0.2).</p><p>m − 2n = 9 − 8 = <strong>1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Sequences",
+   "difficulty": "easy",
+   "stemHtml": "<p>If x<sub>1</sub> = −1 and x<sub>m</sub> = x<sub>m+1</sub> + (m + 1) for every positive integer m, then x<sub>100</sub> equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "-5150"
+    },
+    {
+     "id": "B",
+     "textHtml": "-5051"
+    },
+    {
+     "id": "C",
+     "textHtml": "-5050"
+    },
+    {
+     "id": "D",
+     "textHtml": "-5151"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>x<sub>m+1</sub> = x<sub>m</sub> − (m + 1): each step subtracts the next integer.</p><p>x<sub>100</sub> = −1 − (2 + 3 + … + 100) = −1 − (5050 − 1) = <strong>−5050</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-23",
+   "section": "QA",
+   "number": 23,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Divisibility",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many of the integers 1, 2, ….., 120, are divisible by none of 2, 5 and 7?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "40"
+    },
+    {
+     "id": "B",
+     "textHtml": "42"
+    },
+    {
+     "id": "C",
+     "textHtml": "41"
+    },
+    {
+     "id": "D",
+     "textHtml": "43"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Multiples up to 120: of 2 → 60, of 5 → 24, of 7 → 17; of 10 → 12, of 14 → 8, of 35 → 3; of 70 → 1.</p><p>Divisible by at least one: 60 + 24 + 17 − 12 − 8 − 3 + 1 = 79.</p><p>None: 120 − 79 = <strong>41</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-24",
+   "section": "QA",
+   "number": 24,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work exactly on time?</p>",
+   "answer": "40",
+   "solutionHtml": "<p>140 persons × 60 days build 1.5 km, i.e. 8400 person-days per 1.5 km.</p><p>The remaining 4.5 km needs 3 × 8400 = 25200 person-days in 140 days → 180 persons.</p><p>Additional = 180 − 140 = <strong>40</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-25",
+   "section": "QA",
+   "number": 25,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Factors",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many pairs (a, b) of positive integers are there such that a ≤ b and ab = 4<sup>2017</sup>?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2017"
+    },
+    {
+     "id": "B",
+     "textHtml": "2019"
+    },
+    {
+     "id": "C",
+     "textHtml": "2018"
+    },
+    {
+     "id": "D",
+     "textHtml": "2020"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>4<sup>2017</sup> = 2<sup>4034</sup>, so a = 2<sup>k</sup>, b = 2<sup>4034−k</sup>.</p><p>a ≤ b → k ≤ 2017, so k = 0, 1, …, 2017: <strong>2018</strong> pairs.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-26",
+   "section": "QA",
+   "number": 26,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let m and n be positive integers. If x<sup>2</sup> + mx + 2n = 0 and x<sup>2</sup> + 2nx + m = 0 have real roots, then the smallest possible value of m + n is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "8"
+    },
+    {
+     "id": "C",
+     "textHtml": "7"
+    },
+    {
+     "id": "D",
+     "textHtml": "6"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Real roots need m<sup>2</sup> ≥ 8n and 4n<sup>2</sup> ≥ 4m, i.e. <strong>m ≤ n<sup>2</sup></strong> and <strong>m<sup>2</sup> ≥ 8n</strong>.</p><p>n = 1: m ≤ 1 but m<sup>2</sup> ≥ 8, impossible. n = 2: m ≤ 4 and m<sup>2</sup> ≥ 16 → m = 4, sum 6. n ≥ 3 needs m<sup>2</sup> ≥ 24 → m ≥ 5, sum ≥ 8.</p><p>Smallest m + n = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

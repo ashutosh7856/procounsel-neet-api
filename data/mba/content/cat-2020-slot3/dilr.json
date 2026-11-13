@@ -1,0 +1,795 @@
+{
+ "sets": [
+  {
+   "key": "lr1",
+   "kind": "dilr_set",
+   "title": "Pooled blood tests",
+   "contentHtml": "<p>Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient’s blood sample is distributed.</p><table><thead><tr><th>Patient</th><th>Vials</th><th>Patient</th><th>Vials</th></tr></thead><tbody><tr><td>1</td><td>B, D, F, H</td><td>9</td><td>A, D, F, H</td></tr><tr><td>2</td><td>B, D, F, G</td><td>10</td><td>A, D, F, G</td></tr><tr><td>3</td><td>B, D, E, H</td><td>11</td><td>A, D, E, H</td></tr><tr><td>4</td><td>B, D, E, G</td><td>12</td><td>A, D, E, G</td></tr><tr><td>5</td><td>B, C, F, H</td><td>13</td><td>A, C, F, H</td></tr><tr><td>6</td><td>B, C, F, G</td><td>14</td><td>A, C, F, G</td></tr><tr><td>7</td><td>B, C, E, H</td><td>15</td><td>A, C, E, H</td></tr><tr><td>8</td><td>B, C, E, G</td><td>16</td><td>A, C, E, G</td></tr></tbody></table><p>If a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.</p>"
+  },
+  {
+   "key": "lr2",
+   "kind": "dilr_set",
+   "title": "The Hi-Lo game",
+   "contentHtml": "<p>The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.</p><p>Four players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:</p><p>1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.<br>2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.<br>3. Dipak’s score in the third round was less than his score in the first round but was more than his score in the second round.<br>4. In exactly two out of the six rounds, Arun was the only player who bid Hi.</p>"
+  },
+  {
+   "key": "lr3",
+   "kind": "dilr_set",
+   "title": "Online teaching facilities survey",
+   "contentHtml": "<p>A survey of 600 schools in India was conducted to gather information about their online teaching learning processes (OTLP). The following four facilities were studied.</p><p>F1: Own software for OTLP<br>F2: Trained teachers for OTLP<br>F3: Training materials for OTLP<br>F4: All students having Laptops</p><p>The following observations were summarized from the survey.</p><p>1. 80 schools did not have any of the four facilities – F1, F2, F3, F4.<br>2. 40 schools had all four facilities.<br>3. The number of schools with only F1, only F2, only F3, and only F4 was 25, 30, 26 and 20 respectively.<br>4. The number of schools with exactly three of the facilities was the same irrespective of which three were considered.<br>5. 313 schools had F2.<br>6. 26 schools had only F2 and F3 (but neither F1 nor F4).<br>7. Among the schools having F4, 24 had only F3, and 45 had only F2.<br>8. 162 schools had both F1 and F2.<br>9. The number of schools having F1 was the same as the number of schools having F4.</p>"
+  },
+  {
+   "key": "di1",
+   "kind": "dilr_set",
+   "title": "Grocery deliveries of XYZ",
+   "contentHtml": "<p>XYZ organization got into the business of delivering groceries to home at the beginning of the last month. They have a two-day delivery promise. However, their deliveries are unreliable. An order booked on a particular day may be delivered the next day or the day after. If the order is not delivered at the end of two days, then the order is declared as lost at the end of the second day. XYZ then does not deliver the order, but informs the customer, marks the order as lost, returns the payment and pays a penalty for non-delivery.</p><p>The following table provides details about the operations of XYZ for a week of the last month. The first column gives the date, the second gives the cumulative number of orders that were booked up to and including that day. The third column represents the number of orders delivered on that day. The last column gives the cumulative number of orders that were lost up to and including that day.</p><p>It is known that the numbers of orders that were booked on the 11th, 12th, and 13th of the last month that took two days to deliver were 4, 6, and 8 respectively.</p><table><thead><tr><th>Day</th><th>Cumulative orders booked</th><th>Orders delivered on day</th><th>Cumulative orders lost</th></tr></thead><tbody><tr><td>13th</td><td>219</td><td>11</td><td>91</td></tr><tr><td>14th</td><td>249</td><td>27</td><td>92</td></tr><tr><td>15th</td><td>277</td><td>23</td><td>94</td></tr><tr><td>16th</td><td>302</td><td>11</td><td>106</td></tr><tr><td>17th</td><td>327</td><td>21</td><td>118</td></tr><tr><td>18th</td><td>332</td><td>13</td><td>120</td></tr><tr><td>19th</td><td>337</td><td>14</td><td>129</td></tr></tbody></table>"
+  },
+  {
+   "key": "lr4",
+   "kind": "dilr_set",
+   "title": "Four daughters and the tree plots",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2020-slot3/dilr-tree-plots-grid.png"
+   ],
+   "contentHtml": "<p>A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure.</p><p>Figure as text (number of trees, with the daughter’s initial in brackets; blank = erased):</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X</th><td>12 (C)</td><td></td><td></td><td></td></tr><tr><th>Y</th><td>21 (A)</td><td></td><td></td><td>(A)</td></tr><tr><th>Z</th><td>(B)</td><td>(C)</td><td>9</td><td>28</td></tr></tbody></table><p>The plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:</p><p>1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.<br>2. The largest number of trees in a plot was 32, but it was not with Abha.<br>3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.<br>4. Both Abha and Bina got a higher number of plots than Dipti.<br>5. Only Bina, Chitra and Dipti got corner plots.<br>6. Dipti got two adjoining plots in the same row.<br>7. Bina was the only one who got a plot in each row and each column.<br>8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).<br>9. The number of mango trees was double the number of teak trees.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Binary coding",
+   "difficulty": "easy",
+   "stemHtml": "<p>Suppose vial C tests positive and vials A, E and H test negative. Which patient has the disease?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Patient 2"
+    },
+    {
+     "id": "B",
+     "textHtml": "Patient 6"
+    },
+    {
+     "id": "C",
+     "textHtml": "Patient 14"
+    },
+    {
+     "id": "D",
+     "textHtml": "Patient 8"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key structure:</strong> every patient is in exactly one vial of each pair A/B, C/D, E/F, G/H (A = patients 9–16, B = 1–8; C = 5–8, 13–16, D = the rest; E = 3, 4, 7, 8, 11, 12, 15, 16, F = the rest; G = even patients, H = odd). So with one sick patient, exactly one vial of each pair is positive, and the four positive vials identify the patient.</p><p>A negative → B positive; E negative → F positive; H negative → G positive. With C positive the patient’s vials are <strong>B, C, F, G</strong>, which is patient <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Binary coding",
+   "difficulty": "easy",
+   "stemHtml": "<p>Suppose vial A tests positive and vials D and G test negative. Which of the following vials should we test next to identify the patient with the disease?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Vial C"
+    },
+    {
+     "id": "B",
+     "textHtml": "Vial H"
+    },
+    {
+     "id": "C",
+     "textHtml": "Vial B"
+    },
+    {
+     "id": "D",
+     "textHtml": "Vial E"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key structure:</strong> every patient is in exactly one vial of each pair A/B, C/D, E/F, G/H (A = patients 9–16, B = 1–8; C = 5–8, 13–16, D = the rest; E = 3, 4, 7, 8, 11, 12, 15, 16, F = the rest; G = even patients, H = odd). So with one sick patient, exactly one vial of each pair is positive, and the four positive vials identify the patient.</p><p>A positive; D negative → C positive; G negative → H positive. Patients with A, C and H: <strong>13 (A, C, F, H)</strong> and <strong>15 (A, C, E, H)</strong>.</p><p>They differ only in the E/F pair, so testing <strong>vial E</strong> (or F) settles it. Of the options, only vial E does; C, H and B are already known (B must be negative since A is positive).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Binary coding",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which of the following combinations of test results is NOT possible?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Vial B positive, vials C, F and H negative"
+    },
+    {
+     "id": "B",
+     "textHtml": "Vials B and D positive, vials F and H negative"
+    },
+    {
+     "id": "C",
+     "textHtml": "Vials A and E positive, vials C and D negative"
+    },
+    {
+     "id": "D",
+     "textHtml": "Vials A and G positive, vials D and E negative"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key structure:</strong> every patient is in exactly one vial of each pair A/B, C/D, E/F, G/H (A = patients 9–16, B = 1–8; C = 5–8, 13–16, D = the rest; E = 3, 4, 7, 8, 11, 12, 15, 16, F = the rest; G = even patients, H = odd). So with one sick patient, exactly one vial of each pair is positive, and the four positive vials identify the patient.</p><p>In (C) both C and D are negative. Every patient is in C or D, so one of them must be positive. <strong>(C) is impossible.</strong></p><p>Check the rest: (A) B+, C−, F−, H− → B, D, E, G = patient 4. (B) B+, D+, F−, H− → B, D, E, G = patient 4. (D) A+, G+, D−, E− → A, C, F, G = patient 14. All possible.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Binary coding",
+   "difficulty": "hard",
+   "stemHtml": "<p>Suppose one of the lab assistants accidentally mixed two patients' blood samples before they were distributed to the vials. Which of the following correctly represents the set of all possible numbers of positive test results out of the eight vials?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "{5,6,7,8}"
+    },
+    {
+     "id": "B",
+     "textHtml": "{4,5}"
+    },
+    {
+     "id": "C",
+     "textHtml": "{4,5,6,7,8}"
+    },
+    {
+     "id": "D",
+     "textHtml": "{4,5,6,7}"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key structure:</strong> every patient is in exactly one vial of each pair A/B, C/D, E/F, G/H (A = patients 9–16, B = 1–8; C = 5–8, 13–16, D = the rest; E = 3, 4, 7, 8, 11, 12, 15, 16, F = the rest; G = even patients, H = odd). So with one sick patient, exactly one vial of each pair is positive, and the four positive vials identify the patient.</p><p>The mixed sample goes into the four vials of each of the two patients, i.e. into the <strong>union</strong> of their vial sets.</p><p>If neither of the two is sick, the sick patient alone gives exactly <strong>4</strong> positives.</p><p>If one of them is sick, every vial in the union is positive. Two patients share a vial in each pair where they agree and differ where they don’t; they differ in 1, 2, 3 or 4 pairs, so the union has 5, 6, 7 or 8 vials (e.g. 1 &amp; 2 → 5; 1 &amp; 4 → 6; 1 &amp; 8 → 7; 1 &amp; 16 → 8).</p><p>Possible counts: <strong>{4, 5, 6, 7, 8}</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scoring",
+   "difficulty": "hard",
+   "stemHtml": "<p>What were the bids by Arun, Bankim, Charu and Dipak, respectively in the first round?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Lo, Lo, Lo, Hi"
+    },
+    {
+     "id": "B",
+     "textHtml": "Hi, Lo, Lo, Hi"
+    },
+    {
+     "id": "C",
+     "textHtml": "Hi, Hi, Lo, Lo"
+    },
+    {
+     "id": "D",
+     "textHtml": "Hi, Lo, Lo, Lo"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Round totals:</strong> all Hi → −4; all Lo → +4; any mixed round → 0. Rounds 1–3 total 6 + 2 − 2 − 2 = +4; rounds 4–6: Arun +1, Bankim +1, Charu −3, Dipak −3 (total −4).</p><p><strong>Arun-only-Hi rounds</strong> (Arun +3, others −1): if both were in rounds 1–3, Arun’s third score would be 0, which is impossible. If neither, Arun needs 6 in three rounds with at most +2 per round → three 2-Hi rounds, total 0 ≠ 4. So exactly one is in rounds 1–3 and one in rounds 4–6.</p><p><strong>Rounds 1–3:</strong> Arun’s other two scores sum to 3 → +1 and +2. The +2 round is a 2-Hi round (total 0), so the other must total +4: an all-Lo round. Dipak: −1 (Arun-only) + 1 (all Lo) + x = 2 → x = +2, so Dipak is Arun’s Hi partner. Fact 3 (R2 &lt; R3 &lt; R1) gives <strong>R1: Arun &amp; Dipak Hi</strong> (D +2), <strong>R2: Arun alone Hi</strong> (D −1), <strong>R3: all Lo</strong> (D +1).</p><p><strong>Rounds 4–6:</strong> one Arun-alone round leaves Arun −2, Bankim +2, Charu −2, Dipak −2 over two rounds (total −4): one all-Hi round (−1 each) plus one round with Arun −1, Bankim +3, Charu −1, Dipak −1, i.e. <strong>Bankim alone Hi</strong>. Their order within rounds 4–6 is not fixed.</p><table><thead><tr><th>Round</th><th>Arun</th><th>Bankim</th><th>Charu</th><th>Dipak</th></tr></thead><tbody><tr><td>1</td><td>Hi (+2)</td><td>Lo (−2)</td><td>Lo (−2)</td><td>Hi (+2)</td></tr><tr><td>2</td><td>Hi (+3)</td><td>Lo (−1)</td><td>Lo (−1)</td><td>Lo (−1)</td></tr><tr><td>3</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td></tr><tr><td>4–6 (some order)</td><td>Arun alone Hi; all Hi; Bankim alone Hi</td><td colspan=\"3\"></td></tr></tbody></table><p>Round 1 is the 2-Hi round with Arun and Dipak bidding Hi: <strong>Hi, Lo, Lo, Hi</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scoring",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many rounds did Arun bid Hi?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Round totals:</strong> all Hi → −4; all Lo → +4; any mixed round → 0. Rounds 1–3 total 6 + 2 − 2 − 2 = +4; rounds 4–6: Arun +1, Bankim +1, Charu −3, Dipak −3 (total −4).</p><p><strong>Arun-only-Hi rounds</strong> (Arun +3, others −1): if both were in rounds 1–3, Arun’s third score would be 0, which is impossible. If neither, Arun needs 6 in three rounds with at most +2 per round → three 2-Hi rounds, total 0 ≠ 4. So exactly one is in rounds 1–3 and one in rounds 4–6.</p><p><strong>Rounds 1–3:</strong> Arun’s other two scores sum to 3 → +1 and +2. The +2 round is a 2-Hi round (total 0), so the other must total +4: an all-Lo round. Dipak: −1 (Arun-only) + 1 (all Lo) + x = 2 → x = +2, so Dipak is Arun’s Hi partner. Fact 3 (R2 &lt; R3 &lt; R1) gives <strong>R1: Arun &amp; Dipak Hi</strong> (D +2), <strong>R2: Arun alone Hi</strong> (D −1), <strong>R3: all Lo</strong> (D +1).</p><p><strong>Rounds 4–6:</strong> one Arun-alone round leaves Arun −2, Bankim +2, Charu −2, Dipak −2 over two rounds (total −4): one all-Hi round (−1 each) plus one round with Arun −1, Bankim +3, Charu −1, Dipak −1, i.e. <strong>Bankim alone Hi</strong>. Their order within rounds 4–6 is not fixed.</p><table><thead><tr><th>Round</th><th>Arun</th><th>Bankim</th><th>Charu</th><th>Dipak</th></tr></thead><tbody><tr><td>1</td><td>Hi (+2)</td><td>Lo (−2)</td><td>Lo (−2)</td><td>Hi (+2)</td></tr><tr><td>2</td><td>Hi (+3)</td><td>Lo (−1)</td><td>Lo (−1)</td><td>Lo (−1)</td></tr><tr><td>3</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td></tr><tr><td>4–6 (some order)</td><td>Arun alone Hi; all Hi; Bankim alone Hi</td><td colspan=\"3\"></td></tr></tbody></table><p>Arun bids Hi in round 1, round 2, the Arun-alone round and the all-Hi round: <strong>4</strong>. He bids Lo in round 3 and in the Bankim-alone round.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "TITA",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scoring",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many rounds did Bankim bid Lo?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Round totals:</strong> all Hi → −4; all Lo → +4; any mixed round → 0. Rounds 1–3 total 6 + 2 − 2 − 2 = +4; rounds 4–6: Arun +1, Bankim +1, Charu −3, Dipak −3 (total −4).</p><p><strong>Arun-only-Hi rounds</strong> (Arun +3, others −1): if both were in rounds 1–3, Arun’s third score would be 0, which is impossible. If neither, Arun needs 6 in three rounds with at most +2 per round → three 2-Hi rounds, total 0 ≠ 4. So exactly one is in rounds 1–3 and one in rounds 4–6.</p><p><strong>Rounds 1–3:</strong> Arun’s other two scores sum to 3 → +1 and +2. The +2 round is a 2-Hi round (total 0), so the other must total +4: an all-Lo round. Dipak: −1 (Arun-only) + 1 (all Lo) + x = 2 → x = +2, so Dipak is Arun’s Hi partner. Fact 3 (R2 &lt; R3 &lt; R1) gives <strong>R1: Arun &amp; Dipak Hi</strong> (D +2), <strong>R2: Arun alone Hi</strong> (D −1), <strong>R3: all Lo</strong> (D +1).</p><p><strong>Rounds 4–6:</strong> one Arun-alone round leaves Arun −2, Bankim +2, Charu −2, Dipak −2 over two rounds (total −4): one all-Hi round (−1 each) plus one round with Arun −1, Bankim +3, Charu −1, Dipak −1, i.e. <strong>Bankim alone Hi</strong>. Their order within rounds 4–6 is not fixed.</p><table><thead><tr><th>Round</th><th>Arun</th><th>Bankim</th><th>Charu</th><th>Dipak</th></tr></thead><tbody><tr><td>1</td><td>Hi (+2)</td><td>Lo (−2)</td><td>Lo (−2)</td><td>Hi (+2)</td></tr><tr><td>2</td><td>Hi (+3)</td><td>Lo (−1)</td><td>Lo (−1)</td><td>Lo (−1)</td></tr><tr><td>3</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td></tr><tr><td>4–6 (some order)</td><td>Arun alone Hi; all Hi; Bankim alone Hi</td><td colspan=\"3\"></td></tr></tbody></table><p>Bankim bids Lo in rounds 1, 2, 3 and in the Arun-alone round: <strong>4</strong>. He bids Hi only in the all-Hi round and in his own solo-Hi round.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scoring",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many rounds did all four players make identical bids?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>Round totals:</strong> all Hi → −4; all Lo → +4; any mixed round → 0. Rounds 1–3 total 6 + 2 − 2 − 2 = +4; rounds 4–6: Arun +1, Bankim +1, Charu −3, Dipak −3 (total −4).</p><p><strong>Arun-only-Hi rounds</strong> (Arun +3, others −1): if both were in rounds 1–3, Arun’s third score would be 0, which is impossible. If neither, Arun needs 6 in three rounds with at most +2 per round → three 2-Hi rounds, total 0 ≠ 4. So exactly one is in rounds 1–3 and one in rounds 4–6.</p><p><strong>Rounds 1–3:</strong> Arun’s other two scores sum to 3 → +1 and +2. The +2 round is a 2-Hi round (total 0), so the other must total +4: an all-Lo round. Dipak: −1 (Arun-only) + 1 (all Lo) + x = 2 → x = +2, so Dipak is Arun’s Hi partner. Fact 3 (R2 &lt; R3 &lt; R1) gives <strong>R1: Arun &amp; Dipak Hi</strong> (D +2), <strong>R2: Arun alone Hi</strong> (D −1), <strong>R3: all Lo</strong> (D +1).</p><p><strong>Rounds 4–6:</strong> one Arun-alone round leaves Arun −2, Bankim +2, Charu −2, Dipak −2 over two rounds (total −4): one all-Hi round (−1 each) plus one round with Arun −1, Bankim +3, Charu −1, Dipak −1, i.e. <strong>Bankim alone Hi</strong>. Their order within rounds 4–6 is not fixed.</p><table><thead><tr><th>Round</th><th>Arun</th><th>Bankim</th><th>Charu</th><th>Dipak</th></tr></thead><tbody><tr><td>1</td><td>Hi (+2)</td><td>Lo (−2)</td><td>Lo (−2)</td><td>Hi (+2)</td></tr><tr><td>2</td><td>Hi (+3)</td><td>Lo (−1)</td><td>Lo (−1)</td><td>Lo (−1)</td></tr><tr><td>3</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td></tr><tr><td>4–6 (some order)</td><td>Arun alone Hi; all Hi; Bankim alone Hi</td><td colspan=\"3\"></td></tr></tbody></table><p>Round 3 (all Lo) and the all-Hi round in rounds 4–6: <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scoring",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many rounds did Dipak gain exactly 1 point?</p>",
+   "answer": "1",
+   "solutionHtml": "<p><strong>Round totals:</strong> all Hi → −4; all Lo → +4; any mixed round → 0. Rounds 1–3 total 6 + 2 − 2 − 2 = +4; rounds 4–6: Arun +1, Bankim +1, Charu −3, Dipak −3 (total −4).</p><p><strong>Arun-only-Hi rounds</strong> (Arun +3, others −1): if both were in rounds 1–3, Arun’s third score would be 0, which is impossible. If neither, Arun needs 6 in three rounds with at most +2 per round → three 2-Hi rounds, total 0 ≠ 4. So exactly one is in rounds 1–3 and one in rounds 4–6.</p><p><strong>Rounds 1–3:</strong> Arun’s other two scores sum to 3 → +1 and +2. The +2 round is a 2-Hi round (total 0), so the other must total +4: an all-Lo round. Dipak: −1 (Arun-only) + 1 (all Lo) + x = 2 → x = +2, so Dipak is Arun’s Hi partner. Fact 3 (R2 &lt; R3 &lt; R1) gives <strong>R1: Arun &amp; Dipak Hi</strong> (D +2), <strong>R2: Arun alone Hi</strong> (D −1), <strong>R3: all Lo</strong> (D +1).</p><p><strong>Rounds 4–6:</strong> one Arun-alone round leaves Arun −2, Bankim +2, Charu −2, Dipak −2 over two rounds (total −4): one all-Hi round (−1 each) plus one round with Arun −1, Bankim +3, Charu −1, Dipak −1, i.e. <strong>Bankim alone Hi</strong>. Their order within rounds 4–6 is not fixed.</p><table><thead><tr><th>Round</th><th>Arun</th><th>Bankim</th><th>Charu</th><th>Dipak</th></tr></thead><tbody><tr><td>1</td><td>Hi (+2)</td><td>Lo (−2)</td><td>Lo (−2)</td><td>Hi (+2)</td></tr><tr><td>2</td><td>Hi (+3)</td><td>Lo (−1)</td><td>Lo (−1)</td><td>Lo (−1)</td></tr><tr><td>3</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td></tr><tr><td>4–6 (some order)</td><td>Arun alone Hi; all Hi; Bankim alone Hi</td><td colspan=\"3\"></td></tr></tbody></table><p>Dipak’s scores: +2 (R1), −1 (R2), +1 (R3), and −1, −1, −1 in rounds 4–6. Only round 3 gives +1: <strong>1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scoring",
+   "difficulty": "hard",
+   "stemHtml": "<p>In which of the following rounds, was Arun DEFINITELY the only player to bid Hi?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Second"
+    },
+    {
+     "id": "B",
+     "textHtml": "Fourth"
+    },
+    {
+     "id": "C",
+     "textHtml": "Third"
+    },
+    {
+     "id": "D",
+     "textHtml": "First"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Round totals:</strong> all Hi → −4; all Lo → +4; any mixed round → 0. Rounds 1–3 total 6 + 2 − 2 − 2 = +4; rounds 4–6: Arun +1, Bankim +1, Charu −3, Dipak −3 (total −4).</p><p><strong>Arun-only-Hi rounds</strong> (Arun +3, others −1): if both were in rounds 1–3, Arun’s third score would be 0, which is impossible. If neither, Arun needs 6 in three rounds with at most +2 per round → three 2-Hi rounds, total 0 ≠ 4. So exactly one is in rounds 1–3 and one in rounds 4–6.</p><p><strong>Rounds 1–3:</strong> Arun’s other two scores sum to 3 → +1 and +2. The +2 round is a 2-Hi round (total 0), so the other must total +4: an all-Lo round. Dipak: −1 (Arun-only) + 1 (all Lo) + x = 2 → x = +2, so Dipak is Arun’s Hi partner. Fact 3 (R2 &lt; R3 &lt; R1) gives <strong>R1: Arun &amp; Dipak Hi</strong> (D +2), <strong>R2: Arun alone Hi</strong> (D −1), <strong>R3: all Lo</strong> (D +1).</p><p><strong>Rounds 4–6:</strong> one Arun-alone round leaves Arun −2, Bankim +2, Charu −2, Dipak −2 over two rounds (total −4): one all-Hi round (−1 each) plus one round with Arun −1, Bankim +3, Charu −1, Dipak −1, i.e. <strong>Bankim alone Hi</strong>. Their order within rounds 4–6 is not fixed.</p><table><thead><tr><th>Round</th><th>Arun</th><th>Bankim</th><th>Charu</th><th>Dipak</th></tr></thead><tbody><tr><td>1</td><td>Hi (+2)</td><td>Lo (−2)</td><td>Lo (−2)</td><td>Hi (+2)</td></tr><tr><td>2</td><td>Hi (+3)</td><td>Lo (−1)</td><td>Lo (−1)</td><td>Lo (−1)</td></tr><tr><td>3</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td><td>Lo (+1)</td></tr><tr><td>4–6 (some order)</td><td>Arun alone Hi; all Hi; Bankim alone Hi</td><td colspan=\"3\"></td></tr></tbody></table><p>Round 2 is fixed as the Arun-alone round. The second such round is one of rounds 4–6, but which one is not determined. Round 1 is a 2-Hi round and round 3 is all Lo. Answer: <strong>Second</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the total number of schools having exactly three of the four facilities?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "200"
+    },
+    {
+     "id": "B",
+     "textHtml": "50"
+    },
+    {
+     "id": "C",
+     "textHtml": "64"
+    },
+    {
+     "id": "D",
+     "textHtml": "80"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Let each exactly-three region be t, and only-F1&amp;F2 = p, only-F1&amp;F3 = r, only-F1&amp;F4 = s. Fact 7 means only-F3&amp;F4 = 24 and only-F2&amp;F4 = 45; fact 6 gives only-F2&amp;F3 = 26.</p><p><strong>F2 = 313:</strong> 30 + 26 + 45 + p + 3t + 40 = 313 → p + 3t = 172.<br><strong>F1∩F2 = 162:</strong> p + 2t + 40 = 162 → p + 2t = 122.<br>So <strong>t = 50, p = 22</strong>.</p><p><strong>At least one facility:</strong> 600 − 80 = 520 = 101 (singles) + 200 (triples) + 40 + (26 + 24 + 45 + 22 + r + s) → r + s = 62.</p><p><strong>F1 = F4:</strong> F1 = 25 + 22 + r + s + 150 + 40; F4 = 20 + 24 + 45 + s + 150 + 40. Equating: 47 + r = 89 → <strong>r = 42, s = 20</strong>.</p><p>Exactly three = 4t = <strong>200</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the number of schools having facilities F2 and F4?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "85"
+    },
+    {
+     "id": "B",
+     "textHtml": "95"
+    },
+    {
+     "id": "C",
+     "textHtml": "45"
+    },
+    {
+     "id": "D",
+     "textHtml": "185"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let each exactly-three region be t, and only-F1&amp;F2 = p, only-F1&amp;F3 = r, only-F1&amp;F4 = s. Fact 7 means only-F3&amp;F4 = 24 and only-F2&amp;F4 = 45; fact 6 gives only-F2&amp;F3 = 26.</p><p><strong>F2 = 313:</strong> 30 + 26 + 45 + p + 3t + 40 = 313 → p + 3t = 172.<br><strong>F1∩F2 = 162:</strong> p + 2t + 40 = 162 → p + 2t = 122.<br>So <strong>t = 50, p = 22</strong>.</p><p><strong>At least one facility:</strong> 600 − 80 = 520 = 101 (singles) + 200 (triples) + 40 + (26 + 24 + 45 + 22 + r + s) → r + s = 62.</p><p><strong>F1 = F4:</strong> F1 = 25 + 22 + r + s + 150 + 40; F4 = 20 + 24 + 45 + s + 150 + 40. Equating: 47 + r = 89 → <strong>r = 42, s = 20</strong>.</p><p>F2∩F4 = only F2&amp;F4 (45) + the two triples containing both (F1F2F4, F2F3F4: 2 × 50) + all four (40) = <strong>185</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "TITA",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the number of schools having only facilities F1 and F3?</p>",
+   "answer": "42",
+   "solutionHtml": "<p>Let each exactly-three region be t, and only-F1&amp;F2 = p, only-F1&amp;F3 = r, only-F1&amp;F4 = s. Fact 7 means only-F3&amp;F4 = 24 and only-F2&amp;F4 = 45; fact 6 gives only-F2&amp;F3 = 26.</p><p><strong>F2 = 313:</strong> 30 + 26 + 45 + p + 3t + 40 = 313 → p + 3t = 172.<br><strong>F1∩F2 = 162:</strong> p + 2t + 40 = 162 → p + 2t = 122.<br>So <strong>t = 50, p = 22</strong>.</p><p><strong>At least one facility:</strong> 600 − 80 = 520 = 101 (singles) + 200 (triples) + 40 + (26 + 24 + 45 + 22 + r + s) → r + s = 62.</p><p><strong>F1 = F4:</strong> F1 = 25 + 22 + r + s + 150 + 40; F4 = 20 + 24 + 45 + s + 150 + 40. Equating: 47 + r = 89 → <strong>r = 42, s = 20</strong>.</p><p>Only F1 and F3 = r = <strong>42</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "TITA",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the number of schools having only facilities F1 and F4?</p>",
+   "answer": "20",
+   "solutionHtml": "<p>Let each exactly-three region be t, and only-F1&amp;F2 = p, only-F1&amp;F3 = r, only-F1&amp;F4 = s. Fact 7 means only-F3&amp;F4 = 24 and only-F2&amp;F4 = 45; fact 6 gives only-F2&amp;F3 = 26.</p><p><strong>F2 = 313:</strong> 30 + 26 + 45 + p + 3t + 40 = 313 → p + 3t = 172.<br><strong>F1∩F2 = 162:</strong> p + 2t + 40 = 162 → p + 2t = 122.<br>So <strong>t = 50, p = 22</strong>.</p><p><strong>At least one facility:</strong> 600 − 80 = 520 = 101 (singles) + 200 (triples) + 40 + (26 + 24 + 45 + 22 + r + s) → r + s = 62.</p><p><strong>F1 = F4:</strong> F1 = 25 + 22 + r + s + 150 + 40; F4 = 20 + 24 + 45 + s + 150 + 40. Equating: 47 + r = 89 → <strong>r = 42, s = 20</strong>.</p><p>Only F1 and F4 = s = <strong>20</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables",
+   "difficulty": "medium",
+   "stemHtml": "<p>Among the following days, the largest fraction of orders booked on which day was lost?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "13th"
+    },
+    {
+     "id": "B",
+     "textHtml": "16th"
+    },
+    {
+     "id": "C",
+     "textHtml": "15th"
+    },
+    {
+     "id": "D",
+     "textHtml": "14th"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>For orders booked on day d: x<sub>d</sub> delivered next day, y<sub>d</sub> delivered the day after, l<sub>d</sub> lost (counted on day d + 2). Then delivered on day D = x<sub>D−1</sub> + y<sub>D−2</sub>, and the increase in cumulative lost on day D = l<sub>D−2</sub>.</p><p>Lost: l<sub>12</sub> = 1, l<sub>13</sub> = 2, l<sub>14</sub> = 12, l<sub>15</sub> = 12, l<sub>16</sub> = 2, l<sub>17</sub> = 9. Given y<sub>11</sub> = 4, y<sub>12</sub> = 6, y<sub>13</sub> = 8.</p><p>13th: x<sub>12</sub> = 11 − 4 = 7; 14th: x<sub>13</sub> = 27 − 6 = 21; 15th: x<sub>14</sub> = 23 − 8 = 15; then y<sub>14</sub> = 30 − 15 − 12 = 3; 16th: x<sub>15</sub> = 11 − 3 = 8, y<sub>15</sub> = 28 − 8 − 12 = 8; 17th: x<sub>16</sub> = 21 − 8 = 13, y<sub>16</sub> = 25 − 13 − 2 = 10; 18th: x<sub>17</sub> = 13 − 10 = 3, y<sub>17</sub> = 25 − 3 − 9 = 13.</p><table><thead><tr><th>Booked on</th><th>Booked</th><th>Next day (x)</th><th>Day after (y)</th><th>Lost</th></tr></thead><tbody><tr><td>12th</td><td>14</td><td>7</td><td>6</td><td>1</td></tr><tr><td>13th</td><td>31</td><td>21</td><td>8</td><td>2</td></tr><tr><td>14th</td><td>30</td><td>15</td><td>3</td><td>12</td></tr><tr><td>15th</td><td>28</td><td>8</td><td>8</td><td>12</td></tr><tr><td>16th</td><td>25</td><td>13</td><td>10</td><td>2</td></tr><tr><td>17th</td><td>25</td><td>3</td><td>13</td><td>9</td></tr></tbody></table><p>(Bookings on the 14th–17th come from differences of the cumulative column; the 12th and 13th are x + y + lost.)</p><p>Fraction lost: 13th 2/31 ≈ 0.06; 14th 12/30 = 0.40; 15th 12/28 ≈ 0.43; 16th 2/25 = 0.08. Largest: <strong>15th</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables",
+   "difficulty": "medium",
+   "stemHtml": "<p>On which of the following days was the number of orders booked the highest?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "15th"
+    },
+    {
+     "id": "B",
+     "textHtml": "13th"
+    },
+    {
+     "id": "C",
+     "textHtml": "14th"
+    },
+    {
+     "id": "D",
+     "textHtml": "12th"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>For orders booked on day d: x<sub>d</sub> delivered next day, y<sub>d</sub> delivered the day after, l<sub>d</sub> lost (counted on day d + 2). Then delivered on day D = x<sub>D−1</sub> + y<sub>D−2</sub>, and the increase in cumulative lost on day D = l<sub>D−2</sub>.</p><p>Lost: l<sub>12</sub> = 1, l<sub>13</sub> = 2, l<sub>14</sub> = 12, l<sub>15</sub> = 12, l<sub>16</sub> = 2, l<sub>17</sub> = 9. Given y<sub>11</sub> = 4, y<sub>12</sub> = 6, y<sub>13</sub> = 8.</p><p>13th: x<sub>12</sub> = 11 − 4 = 7; 14th: x<sub>13</sub> = 27 − 6 = 21; 15th: x<sub>14</sub> = 23 − 8 = 15; then y<sub>14</sub> = 30 − 15 − 12 = 3; 16th: x<sub>15</sub> = 11 − 3 = 8, y<sub>15</sub> = 28 − 8 − 12 = 8; 17th: x<sub>16</sub> = 21 − 8 = 13, y<sub>16</sub> = 25 − 13 − 2 = 10; 18th: x<sub>17</sub> = 13 − 10 = 3, y<sub>17</sub> = 25 − 3 − 9 = 13.</p><table><thead><tr><th>Booked on</th><th>Booked</th><th>Next day (x)</th><th>Day after (y)</th><th>Lost</th></tr></thead><tbody><tr><td>12th</td><td>14</td><td>7</td><td>6</td><td>1</td></tr><tr><td>13th</td><td>31</td><td>21</td><td>8</td><td>2</td></tr><tr><td>14th</td><td>30</td><td>15</td><td>3</td><td>12</td></tr><tr><td>15th</td><td>28</td><td>8</td><td>8</td><td>12</td></tr><tr><td>16th</td><td>25</td><td>13</td><td>10</td><td>2</td></tr><tr><td>17th</td><td>25</td><td>3</td><td>13</td><td>9</td></tr></tbody></table><p>(Bookings on the 14th–17th come from differences of the cumulative column; the 12th and 13th are x + y + lost.)</p><p>Bookings: 12th 14, 13th 31, 14th 30, 15th 28. Highest: <strong>13th</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables",
+   "difficulty": "medium",
+   "stemHtml": "<p>The delivery ratio for a given day is defined as the ratio of the number of orders booked on that day which are delivered on the next day to the number of orders booked on that day which are delivered on the second day after booking. On which of the following days, was the delivery ratio the highest?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "13th"
+    },
+    {
+     "id": "B",
+     "textHtml": "15th"
+    },
+    {
+     "id": "C",
+     "textHtml": "14th"
+    },
+    {
+     "id": "D",
+     "textHtml": "16th"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>For orders booked on day d: x<sub>d</sub> delivered next day, y<sub>d</sub> delivered the day after, l<sub>d</sub> lost (counted on day d + 2). Then delivered on day D = x<sub>D−1</sub> + y<sub>D−2</sub>, and the increase in cumulative lost on day D = l<sub>D−2</sub>.</p><p>Lost: l<sub>12</sub> = 1, l<sub>13</sub> = 2, l<sub>14</sub> = 12, l<sub>15</sub> = 12, l<sub>16</sub> = 2, l<sub>17</sub> = 9. Given y<sub>11</sub> = 4, y<sub>12</sub> = 6, y<sub>13</sub> = 8.</p><p>13th: x<sub>12</sub> = 11 − 4 = 7; 14th: x<sub>13</sub> = 27 − 6 = 21; 15th: x<sub>14</sub> = 23 − 8 = 15; then y<sub>14</sub> = 30 − 15 − 12 = 3; 16th: x<sub>15</sub> = 11 − 3 = 8, y<sub>15</sub> = 28 − 8 − 12 = 8; 17th: x<sub>16</sub> = 21 − 8 = 13, y<sub>16</sub> = 25 − 13 − 2 = 10; 18th: x<sub>17</sub> = 13 − 10 = 3, y<sub>17</sub> = 25 − 3 − 9 = 13.</p><table><thead><tr><th>Booked on</th><th>Booked</th><th>Next day (x)</th><th>Day after (y)</th><th>Lost</th></tr></thead><tbody><tr><td>12th</td><td>14</td><td>7</td><td>6</td><td>1</td></tr><tr><td>13th</td><td>31</td><td>21</td><td>8</td><td>2</td></tr><tr><td>14th</td><td>30</td><td>15</td><td>3</td><td>12</td></tr><tr><td>15th</td><td>28</td><td>8</td><td>8</td><td>12</td></tr><tr><td>16th</td><td>25</td><td>13</td><td>10</td><td>2</td></tr><tr><td>17th</td><td>25</td><td>3</td><td>13</td><td>9</td></tr></tbody></table><p>(Bookings on the 14th–17th come from differences of the cumulative column; the 12th and 13th are x + y + lost.)</p><p>x/y: 13th 21/8 ≈ 2.6; 14th 15/3 = 5; 15th 8/8 = 1; 16th 13/10 = 1.3. Highest: <strong>14th</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables",
+   "difficulty": "medium",
+   "stemHtml": "<p>The average time taken to deliver orders booked on a particular day is computed as follows. Let the number of orders delivered the next day be x and the number of orders delivered the day after be y. Then the average time to deliver order is (x+2y)/(x+y). On which of the following days was the average time taken to deliver orders booked the least?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "16th"
+    },
+    {
+     "id": "B",
+     "textHtml": "15th"
+    },
+    {
+     "id": "C",
+     "textHtml": "13th"
+    },
+    {
+     "id": "D",
+     "textHtml": "14th"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>For orders booked on day d: x<sub>d</sub> delivered next day, y<sub>d</sub> delivered the day after, l<sub>d</sub> lost (counted on day d + 2). Then delivered on day D = x<sub>D−1</sub> + y<sub>D−2</sub>, and the increase in cumulative lost on day D = l<sub>D−2</sub>.</p><p>Lost: l<sub>12</sub> = 1, l<sub>13</sub> = 2, l<sub>14</sub> = 12, l<sub>15</sub> = 12, l<sub>16</sub> = 2, l<sub>17</sub> = 9. Given y<sub>11</sub> = 4, y<sub>12</sub> = 6, y<sub>13</sub> = 8.</p><p>13th: x<sub>12</sub> = 11 − 4 = 7; 14th: x<sub>13</sub> = 27 − 6 = 21; 15th: x<sub>14</sub> = 23 − 8 = 15; then y<sub>14</sub> = 30 − 15 − 12 = 3; 16th: x<sub>15</sub> = 11 − 3 = 8, y<sub>15</sub> = 28 − 8 − 12 = 8; 17th: x<sub>16</sub> = 21 − 8 = 13, y<sub>16</sub> = 25 − 13 − 2 = 10; 18th: x<sub>17</sub> = 13 − 10 = 3, y<sub>17</sub> = 25 − 3 − 9 = 13.</p><table><thead><tr><th>Booked on</th><th>Booked</th><th>Next day (x)</th><th>Day after (y)</th><th>Lost</th></tr></thead><tbody><tr><td>12th</td><td>14</td><td>7</td><td>6</td><td>1</td></tr><tr><td>13th</td><td>31</td><td>21</td><td>8</td><td>2</td></tr><tr><td>14th</td><td>30</td><td>15</td><td>3</td><td>12</td></tr><tr><td>15th</td><td>28</td><td>8</td><td>8</td><td>12</td></tr><tr><td>16th</td><td>25</td><td>13</td><td>10</td><td>2</td></tr><tr><td>17th</td><td>25</td><td>3</td><td>13</td><td>9</td></tr></tbody></table><p>(Bookings on the 14th–17th come from differences of the cumulative column; the 12th and 13th are x + y + lost.)</p><p>(x + 2y)/(x + y) = 1 + y/(x + y), which is smallest when x/y is largest. From the table: 13th 37/29 ≈ 1.28; 14th 21/18 ≈ 1.17; 15th 24/16 = 1.5; 16th 33/23 ≈ 1.43. Least: <strong>14th</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many mango trees were there in total?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "49"
+    },
+    {
+     "id": "B",
+     "textHtml": "98"
+    },
+    {
+     "id": "C",
+     "textHtml": "126"
+    },
+    {
+     "id": "D",
+     "textHtml": "84"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Plot counts:</strong> Bina has a plot in every row and column → at least 4. Dipti has 2 adjoining plots and fewer than Abha and Bina; all counts are even, so Dipti = 2, and Abha, Bina ≥ 4, Chitra ≥ 2 (X1, Z2). Total 12 → <strong>Abha 4, Bina 4, Chitra 2, Dipti 2</strong>.</p><p><strong>Owners:</strong> Chitra = X1, Z2 only. Dipti can’t touch X1 or Z2 (fact 8), which rules out X2, Y1, Y2, Y3, Z1, Z3; her same-row pair must be <strong>X3–X4</strong> (Y3–Y4 and Z3–Z4 fail). Corner Z4 can’t be Abha (fact 5), so it is Bina. Bina (Z1, Z4) still needs rows X, Y and columns 2, 3 → <strong>X2 and Y3</strong>. Abha = <strong>Y1, Y2, Y4, Z3</strong>.</p><p><strong>Teak:</strong> Y2 = t, Y3 = 2t, Y4 = 4t, all multiples of 3 or 4, distinct from 12, 21, 9, 28, and 4t ≠ 32 (Y4 is Abha’s). t = 3 gives 12 (taken), t = 6 gives 12, t = 8 gives 32 at Abha → <strong>t = 4: Y2 = 4, Y3 = 8, Y4 = 16</strong>. Teak = 21 + 28 = 49, mango = 98, so pine = 205 − 147 = 58 → Z1 + Z2 = 21.</p><p><strong>Mango:</strong> X2 + X3 + X4 = 98 − 12 = 86 with each ≤ 32 → must be {32, 30, 24}.</p><p><strong>Fact 1:</strong> Abha = 21 + 4 + 16 + 9 = 50 → Chitra = 30 → Z2 = 18, Z1 = 3; Dipti = 56 = X3 + X4 = 32 + 24 → X2 = 30. Bina = 30 + 8 + 3 + 28 = 69. Check: 50 + 69 + 30 + 56 = 205.</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X (mango)</th><td>12 C</td><td>30 B</td><td>32/24 D</td><td>24/32 D</td></tr><tr><th>Y (teak)</th><td>21 A</td><td>4 A</td><td>8 B</td><td>16 A</td></tr><tr><th>Z (pine)</th><td>3 B</td><td>18 C</td><td>9 A</td><td>28 B</td></tr></tbody></table><p>Mango = 2 × teak = 2 × 49 = <strong>98</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following is the correct sequence of trees received by Abha, Bina, Chitra and Dipti in that order?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "60, 39, 40, 66"
+    },
+    {
+     "id": "B",
+     "textHtml": "50, 69, 30, 56"
+    },
+    {
+     "id": "C",
+     "textHtml": "44, 87, 24, 50"
+    },
+    {
+     "id": "D",
+     "textHtml": "54, 57, 34, 60"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Plot counts:</strong> Bina has a plot in every row and column → at least 4. Dipti has 2 adjoining plots and fewer than Abha and Bina; all counts are even, so Dipti = 2, and Abha, Bina ≥ 4, Chitra ≥ 2 (X1, Z2). Total 12 → <strong>Abha 4, Bina 4, Chitra 2, Dipti 2</strong>.</p><p><strong>Owners:</strong> Chitra = X1, Z2 only. Dipti can’t touch X1 or Z2 (fact 8), which rules out X2, Y1, Y2, Y3, Z1, Z3; her same-row pair must be <strong>X3–X4</strong> (Y3–Y4 and Z3–Z4 fail). Corner Z4 can’t be Abha (fact 5), so it is Bina. Bina (Z1, Z4) still needs rows X, Y and columns 2, 3 → <strong>X2 and Y3</strong>. Abha = <strong>Y1, Y2, Y4, Z3</strong>.</p><p><strong>Teak:</strong> Y2 = t, Y3 = 2t, Y4 = 4t, all multiples of 3 or 4, distinct from 12, 21, 9, 28, and 4t ≠ 32 (Y4 is Abha’s). t = 3 gives 12 (taken), t = 6 gives 12, t = 8 gives 32 at Abha → <strong>t = 4: Y2 = 4, Y3 = 8, Y4 = 16</strong>. Teak = 21 + 28 = 49, mango = 98, so pine = 205 − 147 = 58 → Z1 + Z2 = 21.</p><p><strong>Mango:</strong> X2 + X3 + X4 = 98 − 12 = 86 with each ≤ 32 → must be {32, 30, 24}.</p><p><strong>Fact 1:</strong> Abha = 21 + 4 + 16 + 9 = 50 → Chitra = 30 → Z2 = 18, Z1 = 3; Dipti = 56 = X3 + X4 = 32 + 24 → X2 = 30. Bina = 30 + 8 + 3 + 28 = 69. Check: 50 + 69 + 30 + 56 = 205.</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X (mango)</th><td>12 C</td><td>30 B</td><td>32/24 D</td><td>24/32 D</td></tr><tr><th>Y (teak)</th><td>21 A</td><td>4 A</td><td>8 B</td><td>16 A</td></tr><tr><th>Z (pine)</th><td>3 B</td><td>18 C</td><td>9 A</td><td>28 B</td></tr></tbody></table><p>Abha 50, Bina 69, Chitra 30, Dipti 56: <strong>50, 69, 30, 56</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-21",
+   "section": "DILR",
+   "number": 21,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many pine trees did Chitra receive?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "18"
+    },
+    {
+     "id": "B",
+     "textHtml": "15"
+    },
+    {
+     "id": "C",
+     "textHtml": "21"
+    },
+    {
+     "id": "D",
+     "textHtml": "30"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Plot counts:</strong> Bina has a plot in every row and column → at least 4. Dipti has 2 adjoining plots and fewer than Abha and Bina; all counts are even, so Dipti = 2, and Abha, Bina ≥ 4, Chitra ≥ 2 (X1, Z2). Total 12 → <strong>Abha 4, Bina 4, Chitra 2, Dipti 2</strong>.</p><p><strong>Owners:</strong> Chitra = X1, Z2 only. Dipti can’t touch X1 or Z2 (fact 8), which rules out X2, Y1, Y2, Y3, Z1, Z3; her same-row pair must be <strong>X3–X4</strong> (Y3–Y4 and Z3–Z4 fail). Corner Z4 can’t be Abha (fact 5), so it is Bina. Bina (Z1, Z4) still needs rows X, Y and columns 2, 3 → <strong>X2 and Y3</strong>. Abha = <strong>Y1, Y2, Y4, Z3</strong>.</p><p><strong>Teak:</strong> Y2 = t, Y3 = 2t, Y4 = 4t, all multiples of 3 or 4, distinct from 12, 21, 9, 28, and 4t ≠ 32 (Y4 is Abha’s). t = 3 gives 12 (taken), t = 6 gives 12, t = 8 gives 32 at Abha → <strong>t = 4: Y2 = 4, Y3 = 8, Y4 = 16</strong>. Teak = 21 + 28 = 49, mango = 98, so pine = 205 − 147 = 58 → Z1 + Z2 = 21.</p><p><strong>Mango:</strong> X2 + X3 + X4 = 98 − 12 = 86 with each ≤ 32 → must be {32, 30, 24}.</p><p><strong>Fact 1:</strong> Abha = 21 + 4 + 16 + 9 = 50 → Chitra = 30 → Z2 = 18, Z1 = 3; Dipti = 56 = X3 + X4 = 32 + 24 → X2 = 30. Bina = 30 + 8 + 3 + 28 = 69. Check: 50 + 69 + 30 + 56 = 205.</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X (mango)</th><td>12 C</td><td>30 B</td><td>32/24 D</td><td>24/32 D</td></tr><tr><th>Y (teak)</th><td>21 A</td><td>4 A</td><td>8 B</td><td>16 A</td></tr><tr><th>Z (pine)</th><td>3 B</td><td>18 C</td><td>9 A</td><td>28 B</td></tr></tbody></table><p>Chitra’s pine plot is Z2 = <strong>18</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-22",
+   "section": "DILR",
+   "number": 22,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who got the plot with the smallest number of trees and how many trees did that plot have?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Bina, 3 trees"
+    },
+    {
+     "id": "B",
+     "textHtml": "Dipti, 6 trees"
+    },
+    {
+     "id": "C",
+     "textHtml": "Abha, 4 trees"
+    },
+    {
+     "id": "D",
+     "textHtml": "Bina, 4 trees"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Plot counts:</strong> Bina has a plot in every row and column → at least 4. Dipti has 2 adjoining plots and fewer than Abha and Bina; all counts are even, so Dipti = 2, and Abha, Bina ≥ 4, Chitra ≥ 2 (X1, Z2). Total 12 → <strong>Abha 4, Bina 4, Chitra 2, Dipti 2</strong>.</p><p><strong>Owners:</strong> Chitra = X1, Z2 only. Dipti can’t touch X1 or Z2 (fact 8), which rules out X2, Y1, Y2, Y3, Z1, Z3; her same-row pair must be <strong>X3–X4</strong> (Y3–Y4 and Z3–Z4 fail). Corner Z4 can’t be Abha (fact 5), so it is Bina. Bina (Z1, Z4) still needs rows X, Y and columns 2, 3 → <strong>X2 and Y3</strong>. Abha = <strong>Y1, Y2, Y4, Z3</strong>.</p><p><strong>Teak:</strong> Y2 = t, Y3 = 2t, Y4 = 4t, all multiples of 3 or 4, distinct from 12, 21, 9, 28, and 4t ≠ 32 (Y4 is Abha’s). t = 3 gives 12 (taken), t = 6 gives 12, t = 8 gives 32 at Abha → <strong>t = 4: Y2 = 4, Y3 = 8, Y4 = 16</strong>. Teak = 21 + 28 = 49, mango = 98, so pine = 205 − 147 = 58 → Z1 + Z2 = 21.</p><p><strong>Mango:</strong> X2 + X3 + X4 = 98 − 12 = 86 with each ≤ 32 → must be {32, 30, 24}.</p><p><strong>Fact 1:</strong> Abha = 21 + 4 + 16 + 9 = 50 → Chitra = 30 → Z2 = 18, Z1 = 3; Dipti = 56 = X3 + X4 = 32 + 24 → X2 = 30. Bina = 30 + 8 + 3 + 28 = 69. Check: 50 + 69 + 30 + 56 = 205.</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X (mango)</th><td>12 C</td><td>30 B</td><td>32/24 D</td><td>24/32 D</td></tr><tr><th>Y (teak)</th><td>21 A</td><td>4 A</td><td>8 B</td><td>16 A</td></tr><tr><th>Z (pine)</th><td>3 B</td><td>18 C</td><td>9 A</td><td>28 B</td></tr></tbody></table><p>Smallest plot: Z1 with 3 trees, which is Bina’s: <strong>Bina, 3 trees</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-23",
+   "section": "DILR",
+   "number": 23,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following statements is NOT true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Bina got 32 pine trees"
+    },
+    {
+     "id": "B",
+     "textHtml": "Dipti got 56 mango trees"
+    },
+    {
+     "id": "C",
+     "textHtml": "Chitra got 12 mango trees"
+    },
+    {
+     "id": "D",
+     "textHtml": "Abha got 41 teak trees"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Plot counts:</strong> Bina has a plot in every row and column → at least 4. Dipti has 2 adjoining plots and fewer than Abha and Bina; all counts are even, so Dipti = 2, and Abha, Bina ≥ 4, Chitra ≥ 2 (X1, Z2). Total 12 → <strong>Abha 4, Bina 4, Chitra 2, Dipti 2</strong>.</p><p><strong>Owners:</strong> Chitra = X1, Z2 only. Dipti can’t touch X1 or Z2 (fact 8), which rules out X2, Y1, Y2, Y3, Z1, Z3; her same-row pair must be <strong>X3–X4</strong> (Y3–Y4 and Z3–Z4 fail). Corner Z4 can’t be Abha (fact 5), so it is Bina. Bina (Z1, Z4) still needs rows X, Y and columns 2, 3 → <strong>X2 and Y3</strong>. Abha = <strong>Y1, Y2, Y4, Z3</strong>.</p><p><strong>Teak:</strong> Y2 = t, Y3 = 2t, Y4 = 4t, all multiples of 3 or 4, distinct from 12, 21, 9, 28, and 4t ≠ 32 (Y4 is Abha’s). t = 3 gives 12 (taken), t = 6 gives 12, t = 8 gives 32 at Abha → <strong>t = 4: Y2 = 4, Y3 = 8, Y4 = 16</strong>. Teak = 21 + 28 = 49, mango = 98, so pine = 205 − 147 = 58 → Z1 + Z2 = 21.</p><p><strong>Mango:</strong> X2 + X3 + X4 = 98 − 12 = 86 with each ≤ 32 → must be {32, 30, 24}.</p><p><strong>Fact 1:</strong> Abha = 21 + 4 + 16 + 9 = 50 → Chitra = 30 → Z2 = 18, Z1 = 3; Dipti = 56 = X3 + X4 = 32 + 24 → X2 = 30. Bina = 30 + 8 + 3 + 28 = 69. Check: 50 + 69 + 30 + 56 = 205.</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X (mango)</th><td>12 C</td><td>30 B</td><td>32/24 D</td><td>24/32 D</td></tr><tr><th>Y (teak)</th><td>21 A</td><td>4 A</td><td>8 B</td><td>16 A</td></tr><tr><th>Z (pine)</th><td>3 B</td><td>18 C</td><td>9 A</td><td>28 B</td></tr></tbody></table><p>Bina’s pine plots are Z1 (3) and Z4 (28) = 31, not 32. So (A) is false.</p><p>The others hold: Dipti mango 32 + 24 = 56; Chitra mango 12; Abha teak 21 + 4 + 16 = 41.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-24",
+   "section": "DILR",
+   "number": 24,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Grid arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which column had the highest number of trees?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Cannot be determined"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Plot counts:</strong> Bina has a plot in every row and column → at least 4. Dipti has 2 adjoining plots and fewer than Abha and Bina; all counts are even, so Dipti = 2, and Abha, Bina ≥ 4, Chitra ≥ 2 (X1, Z2). Total 12 → <strong>Abha 4, Bina 4, Chitra 2, Dipti 2</strong>.</p><p><strong>Owners:</strong> Chitra = X1, Z2 only. Dipti can’t touch X1 or Z2 (fact 8), which rules out X2, Y1, Y2, Y3, Z1, Z3; her same-row pair must be <strong>X3–X4</strong> (Y3–Y4 and Z3–Z4 fail). Corner Z4 can’t be Abha (fact 5), so it is Bina. Bina (Z1, Z4) still needs rows X, Y and columns 2, 3 → <strong>X2 and Y3</strong>. Abha = <strong>Y1, Y2, Y4, Z3</strong>.</p><p><strong>Teak:</strong> Y2 = t, Y3 = 2t, Y4 = 4t, all multiples of 3 or 4, distinct from 12, 21, 9, 28, and 4t ≠ 32 (Y4 is Abha’s). t = 3 gives 12 (taken), t = 6 gives 12, t = 8 gives 32 at Abha → <strong>t = 4: Y2 = 4, Y3 = 8, Y4 = 16</strong>. Teak = 21 + 28 = 49, mango = 98, so pine = 205 − 147 = 58 → Z1 + Z2 = 21.</p><p><strong>Mango:</strong> X2 + X3 + X4 = 98 − 12 = 86 with each ≤ 32 → must be {32, 30, 24}.</p><p><strong>Fact 1:</strong> Abha = 21 + 4 + 16 + 9 = 50 → Chitra = 30 → Z2 = 18, Z1 = 3; Dipti = 56 = X3 + X4 = 32 + 24 → X2 = 30. Bina = 30 + 8 + 3 + 28 = 69. Check: 50 + 69 + 30 + 56 = 205.</p><table><thead><tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th></tr></thead><tbody><tr><th>X (mango)</th><td>12 C</td><td>30 B</td><td>32/24 D</td><td>24/32 D</td></tr><tr><th>Y (teak)</th><td>21 A</td><td>4 A</td><td>8 B</td><td>16 A</td></tr><tr><th>Z (pine)</th><td>3 B</td><td>18 C</td><td>9 A</td><td>28 B</td></tr></tbody></table><p>Column 1: 12 + 21 + 3 = 36. Column 2: 30 + 4 + 18 = 52. Column 3: X3 + 17 = 49 or 41. Column 4: X4 + 44 = 68 or 76.</p><p>Whichever way X3/X4 split, <strong>column 4</strong> is highest.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

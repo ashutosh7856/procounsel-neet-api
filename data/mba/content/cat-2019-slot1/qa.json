@@ -1,0 +1,997 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>A person invested a total amount of Rs 15 lakh. A part of it was invested in a fixed deposit earning 6% annual interest, and the remaining amount was invested in two other deposits in the ratio 2 : 1, earning annual interest at the rates of 4% and 3%, respectively. If the total annual interest income is Rs 76000 then the amount (in Rs lakh) invested in the fixed deposit was</p>",
+   "answer": "9",
+   "solutionHtml": "<p>Let x lakh go into the FD. The rest, (15 − x), earns a blended rate of (2 × 4% + 1 × 3%)/3 = <strong>11/3 %</strong>.</p><p>0.06x + (15 − x)(0.11/3) = 0.76 → 0.18x + 1.65 − 0.11x = 2.28 → 0.07x = 0.63 → <strong>x = 9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Races",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a race of three horses, the first beat the second by 11 metres and the third by 90 metres. If the second beat the third by 80 metres, what was the length, in metres, of the racecourse?</p>",
+   "answer": "880",
+   "solutionHtml": "<p>Let the course be L. When the first finishes, the second has run L − 11 and the third L − 90. The ratio of their speeds stays fixed, and when the second finishes the third has run L − 80.</p><p>(L − 90)/(L − 11) = (L − 80)/L → L<sup>2</sup> − 90L = L<sup>2</sup> − 91L + 880 → <strong>L = 880</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "easy",
+   "stemHtml": "<p>If (5.55)<sup>x</sup> = (0.555)<sup>y</sup> = 1000, then the value of (1/x) − (1/y) is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2/3"
+    },
+    {
+     "id": "B",
+     "textHtml": "3"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "1/3"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Take log base 10: x log 5.55 = 3 and y log 0.555 = 3. So 1/x = (log 5.55)/3 and 1/y = (log 0.555)/3.</p><p>1/x − 1/y = (log 5.55 − log 0.555)/3 = (log 10)/3 = <strong>1/3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>The income of Amala is 20% more than that of Bimala and 20% less than that of Kamala. If Kamala's income goes down by 4% and Bimala's goes up by 10%, then the percentage by which Kamala's income would exceed Bimala's is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "29"
+    },
+    {
+     "id": "B",
+     "textHtml": "28"
+    },
+    {
+     "id": "C",
+     "textHtml": "31"
+    },
+    {
+     "id": "D",
+     "textHtml": "32"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Take Bimala = 100. Amala = 120 = 0.8 × Kamala, so Kamala = 150.</p><p>After the changes, Kamala = 144 and Bimala = 110. 144/110 = 1.309, so Kamala exceeds Bimala by about <strong>31%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Functions",
+   "difficulty": "easy",
+   "stemHtml": "<p>Consider a function f satisfying f(x + y) = f(x) f(y) where x, y are positive integers, and f(1) = 2. If f(a+1) + f(a+2) + … + f(a+n) = 16 (2<sup>n</sup> − 1) then a is equal to</p>",
+   "answer": "3",
+   "solutionHtml": "<p>f(n) = f(1)<sup>n</sup> = <strong>2<sup>n</sup></strong>.</p><p>The sum is 2<sup>a+1</sup> + … + 2<sup>a+n</sup> = 2<sup>a+1</sup>(2<sup>n</sup> − 1). Matching with 16(2<sup>n</sup> − 1) gives 2<sup>a+1</sup> = 16, so <strong>a = 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Functions",
+   "difficulty": "easy",
+   "stemHtml": "<p>For any positive integer n, let f(n) = n(n + 1) if n is even, and f(n) = n + 3 if n is odd. If m is a positive integer such that 8f(m + 1) − f(m) = 2, then m equals</p>",
+   "answer": "10",
+   "solutionHtml": "<p><strong>m even:</strong> m + 1 is odd, so 8(m + 4) − m(m + 1) = 2 → m<sup>2</sup> − 7m − 30 = 0 → (m − 10)(m + 3) = 0 → m = 10, which is even. ✓</p><p><strong>m odd:</strong> 8(m + 1)(m + 2) − (m + 3) = 2 gives 8m<sup>2</sup> + 23m + 11 = 0, with no positive root.</p><p>So <strong>m = 10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>In a class, 60% of the students are girls and the rest are boys. There are 30 more girls than boys. If 68% of the students, including 30 boys, pass an examination, the percentage of the girls who do not pass is</p>",
+   "answer": "20",
+   "solutionHtml": "<p>Girls − boys = 20% of the class = 30, so the class has 150 students: 90 girls and 60 boys.</p><p>Passed = 68% of 150 = 102, of whom 30 are boys, so 72 girls passed and 18 failed. 18/90 = <strong>20%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Sequences & series",
+   "difficulty": "easy",
+   "stemHtml": "<p>If a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> + … + a<sub>n</sub> = 3 × (2<sup>n+1</sup> − 2), for every n ≥ 1, then a<sub>11</sub> equals</p>",
+   "answer": "6144",
+   "solutionHtml": "<p>a<sub>11</sub> = S<sub>11</sub> − S<sub>10</sub> = 3(2<sup>12</sup> − 2) − 3(2<sup>11</sup> − 2) = 3 × 2<sup>11</sup> = <strong>6144</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "easy",
+   "stemHtml": "<p>Two cars travel the same distance starting at 10:00 am and 11:00 am, respectively, on the same day. They reach their common destination at the same point of time. If the first car travelled for at least 6 hours, then the highest possible value of the percentage by which the speed of the second car could exceed that of the first car is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "20"
+    },
+    {
+     "id": "B",
+     "textHtml": "25"
+    },
+    {
+     "id": "C",
+     "textHtml": "30"
+    },
+    {
+     "id": "D",
+     "textHtml": "10"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>If the first car takes t hours, the second takes t − 1, so speed ratio = t/(t − 1) = 1 + 1/(t − 1). This is largest when t is smallest, t = 6: ratio 6/5, i.e. <strong>20%</strong> faster.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Equations & modulus",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of solutions to the equation |x|(6x<sup>2</sup> + 1) = 5x<sup>2</sup> is</p>",
+   "answer": "5",
+   "solutionHtml": "<p>x = 0 is a solution.</p><p>For x ≠ 0, put u = |x| &gt; 0 (x<sup>2</sup> = u<sup>2</sup>) and divide by u: 6u<sup>2</sup> − 5u + 1 = 0 → (2u − 1)(3u − 1) = 0 → u = 1/2 or 1/3. Each gives x = ±u, adding 4 solutions.</p><p>Total = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let T be the triangle formed by the straight line 3x + 5y − 45 = 0 and the coordinate axes. Let the circumcircle of T have radius of length L, measured in the same unit as the coordinate axes. Then, the integer closest to L is</p>",
+   "answer": "9",
+   "solutionHtml": "<p>The intercepts are (15, 0) and (0, 9). T is right-angled at the origin, so <strong>its hypotenuse is a diameter</strong> of the circumcircle.</p><p>L = √(15<sup>2</sup> + 9<sup>2</sup>)/2 = √306/2 ≈ 17.49/2 ≈ 8.75, nearest integer <strong>9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the rectangular faces of a brick have their diagonals in the ratio 3 : 2√3 : √15, then the ratio of the length of the shortest edge of the brick to that of its longest edge is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1 : √3"
+    },
+    {
+     "id": "B",
+     "textHtml": "√3 : 2"
+    },
+    {
+     "id": "C",
+     "textHtml": "√2 : √3"
+    },
+    {
+     "id": "D",
+     "textHtml": "2 : √5"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>With edges a, b, c, the face diagonals squared are a<sup>2</sup> + b<sup>2</sup>, b<sup>2</sup> + c<sup>2</sup>, c<sup>2</sup> + a<sup>2</sup>, in the ratio <strong>9 : 12 : 15</strong>.</p><p>Take them as 9, 12, 15. Then a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = 18, so c<sup>2</sup> = 9, a<sup>2</sup> = 6, b<sup>2</sup> = 3. The edges are √3, √6, 3.</p><p>Shortest : longest = √3 : 3 = <strong>1 : √3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let x and y be positive real numbers such that log<sub>5</sub>(x + y) + log<sub>5</sub>(x − y) = 3, and log<sub>2</sub>y − log<sub>2</sub>x = 1 − log<sub>2</sub>3. Then xy equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "25"
+    },
+    {
+     "id": "B",
+     "textHtml": "150"
+    },
+    {
+     "id": "C",
+     "textHtml": "100"
+    },
+    {
+     "id": "D",
+     "textHtml": "250"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The first equation gives x<sup>2</sup> − y<sup>2</sup> = 5<sup>3</sup> = 125. The second gives y/x = 2/3.</p><p>x<sup>2</sup>(1 − 4/9) = 125 → x<sup>2</sup> = 225 → x = 15, y = 10. So xy = <strong>150</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Set theory / Venn",
+   "difficulty": "easy",
+   "stemHtml": "<p>A club has 256 members of whom 144 can play football, 123 can play tennis, and 132 can play cricket. Moreover, 58 members can play both football and tennis, 25 can play both cricket and tennis, while 63 can play both football and cricket. If every member can play at least one game, then the number of members who can play only tennis is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "45"
+    },
+    {
+     "id": "B",
+     "textHtml": "43"
+    },
+    {
+     "id": "C",
+     "textHtml": "32"
+    },
+    {
+     "id": "D",
+     "textHtml": "38"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>256 = 144 + 123 + 132 − 58 − 25 − 63 + (all three) = 253 + (all three), so <strong>3</strong> members play all three games.</p><p>Only tennis = 123 − 58 − 25 + 3 = <strong>43</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Algebraic identities",
+   "difficulty": "medium",
+   "stemHtml": "<p>The product of two positive numbers is 616. If the ratio of the difference of their cubes to the cube of their difference is 157:3, then the sum of the two numbers is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "50"
+    },
+    {
+     "id": "B",
+     "textHtml": "85"
+    },
+    {
+     "id": "C",
+     "textHtml": "58"
+    },
+    {
+     "id": "D",
+     "textHtml": "95"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>(a<sup>3</sup> − b<sup>3</sup>)/(a − b)<sup>3</sup> = (a<sup>2</sup> + ab + b<sup>2</sup>)/(a − b)<sup>2</sup> = 157/3.</p><p>With s = a + b and ab = 616: a<sup>2</sup> + ab + b<sup>2</sup> = s<sup>2</sup> − 616 and (a − b)<sup>2</sup> = s<sup>2</sup> − 2464.</p><p>3(s<sup>2</sup> − 616) = 157(s<sup>2</sup> − 2464) → 154s<sup>2</sup> = 385000 → s<sup>2</sup> = 2500 → <strong>s = 50</strong>.</p><p>Check: 44 × 14 = 616.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a circle of radius 11 cm, CD is a diameter and AB is a chord of length 20.5 cm. If AB and CD intersect at a point E inside the circle and CE has length 7 cm, then the difference of the lengths of BE and AE, in cm, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2.5"
+    },
+    {
+     "id": "B",
+     "textHtml": "3.5"
+    },
+    {
+     "id": "C",
+     "textHtml": "1.5"
+    },
+    {
+     "id": "D",
+     "textHtml": "0.5"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>ED = 22 − 7 = 15. By <strong>intersecting chords</strong>, AE × EB = CE × ED = 105, and AE + EB = 20.5.</p><p>(EB − AE)<sup>2</sup> = 20.5<sup>2</sup> − 4 × 105 = 420.25 − 420 = 0.25, so the difference is <strong>0.5</strong> cm.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>Three men and eight machines can finish a job in half the time taken by three machines and eight men to finish the same job. If two machines can finish the job in 13 days, then how many men can finish the job in 13 days?</p>",
+   "answer": "13",
+   "solutionHtml": "<p>Let a man do m and a machine M units a day. Half the time means double the rate: 3m + 8M = 2(8m + 3M) → 2M = 13m.</p><p>Two machines (2M) equal <strong>13 men</strong>, so 13 men finish the job in the same 13 days.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Ratio & interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>Amala, Bina, and Gouri invest money in the ratio 3 : 4 : 5 in fixed deposits having respective annual interest rates in the ratio 6 : 5 : 4. What is their total interest income (in Rs) after a year, if Bina's interest income exceeds Amala's by Rs 250?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "7250"
+    },
+    {
+     "id": "B",
+     "textHtml": "7000"
+    },
+    {
+     "id": "C",
+     "textHtml": "6350"
+    },
+    {
+     "id": "D",
+     "textHtml": "6000"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Interests are in the ratio 3×6 : 4×5 : 5×4 = 18 : 20 : 20.</p><p>Bina − Amala = 2 parts = 250, so 1 part = 125. Total = 58 × 125 = <strong>7250</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Equations & modulus",
+   "difficulty": "medium",
+   "stemHtml": "<p>The product of the distinct roots of |x<sup>2</sup> − x − 6| = x + 2 is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−24"
+    },
+    {
+     "id": "B",
+     "textHtml": "−4"
+    },
+    {
+     "id": "C",
+     "textHtml": "−8"
+    },
+    {
+     "id": "D",
+     "textHtml": "−16"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The right side must be ≥ 0, so x ≥ −2. Note x<sup>2</sup> − x − 6 = (x − 3)(x + 2).</p><p><strong>Case 1:</strong> (x − 3)(x + 2) = x + 2 → (x + 2)(x − 4) = 0 → x = −2, 4.</p><p><strong>Case 2:</strong> −(x − 3)(x + 2) = x + 2 → (x + 2)(x − 2) = 0 → x = −2, 2.</p><p>Distinct roots: −2, 2, 4 (each checks). Product = <strong>−16</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Equations (bounds)",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of the real roots of the equation 2cos(x(x + 1)) = 2<sup>x</sup> + 2<sup>−x</sup> is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "infinite"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "0"
+    },
+    {
+     "id": "D",
+     "textHtml": "1"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The left side is at most 2. By AM ≥ GM, the right side is at least 2, with equality only at x = 0.</p><p>So both sides must equal 2, which forces x = 0. Then the left side is 2cos 0 = 2. ✓ Exactly <strong>1</strong> root.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & alligation",
+   "difficulty": "easy",
+   "stemHtml": "<p>A chemist mixes two liquids 1 and 2. One litre of liquid 1 weighs 1 kg and one litre of liquid 2 weighs 800 gm. If half litre of the mixture weighs 480 gm, then the percentage of liquid 1 in the mixture, in terms of volume, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "80"
+    },
+    {
+     "id": "B",
+     "textHtml": "75"
+    },
+    {
+     "id": "C",
+     "textHtml": "85"
+    },
+    {
+     "id": "D",
+     "textHtml": "70"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The mixture weighs 960 g per litre. <strong>Alligation:</strong> (960 − 800) : (1000 − 960) = 160 : 40 = 4 : 1 for liquid 1 : liquid 2.</p><p>Liquid 1 = 4/5 = <strong>80%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles",
+   "difficulty": "easy",
+   "stemHtml": "<p>AB is a diameter of a circle of radius 5 cm. Let P and Q be two points on the circle so that the length of PB is 6 cm, and the length of AP is twice that of AQ. Then the length, in cm, of QB is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "8.5"
+    },
+    {
+     "id": "B",
+     "textHtml": "9.3"
+    },
+    {
+     "id": "C",
+     "textHtml": "9.1"
+    },
+    {
+     "id": "D",
+     "textHtml": "7.8"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>An angle in a semicircle is 90°, so APB and AQB are right triangles with hypotenuse AB = 10.</p><p>AP = √(100 − 36) = 8, so AQ = 4 and QB = √(100 − 16) = √84 ≈ 9.17. The nearest option is <strong>9.1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-23",
+   "section": "QA",
+   "number": 23,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Triangles & polygons",
+   "difficulty": "easy",
+   "stemHtml": "<p>Corners are cut off from an equilateral triangle T to produce a regular hexagon H. Then, the ratio of the area of H to the area of T is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3 : 4"
+    },
+    {
+     "id": "B",
+     "textHtml": "2 : 3"
+    },
+    {
+     "id": "C",
+     "textHtml": "5 : 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "4 : 5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>For the hexagon to be regular, each side of T is cut into three equal parts, so the cut corners are equilateral triangles with side 1/3 of T's side. <strong>Each corner has 1/9 of T's area.</strong></p><p>H = T − 3 × T/9 = 6T/9, so H : T = <strong>2 : 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-24",
+   "section": "QA",
+   "number": 24,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let S be the set of all points (x, y) in the x-y plane such that |x| + |y| ≤ 2 and |x| ≥ 1. Then, the area, in square units, of the region represented by S equals:</p>",
+   "answer": "2",
+   "solutionHtml": "<p>|x| + |y| ≤ 2 is a square (rhombus) with diagonals 4 and 4, of area 8.</p><p>Remove the strip |x| &lt; 1: there |y| ≤ 2 − |x|, with area 2 × ∫<sub>−1</sub><sup>1</sup>(2 − |x|)dx = 2 × 3 = 6.</p><p>Equivalently, the region is two corner triangles, each with base 2 (from y = −1 to 1 at x = ±1) and height 1, so each has area 1.</p><p>Area = 8 − 6 = <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-25",
+   "section": "QA",
+   "number": 25,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "medium",
+   "stemHtml": "<p>Ramesh and Gautam are among 22 students who write an examination. Ramesh scores 82.5. The average score of the 21 students other than Gautam is 62. The average score of all the 22 students is one more than the average score of the 21 students other than Ramesh. The score of Gautam is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "48"
+    },
+    {
+     "id": "B",
+     "textHtml": "49"
+    },
+    {
+     "id": "C",
+     "textHtml": "53"
+    },
+    {
+     "id": "D",
+     "textHtml": "51"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let T be the total of all 22. Without Gautam: T − G = 21 × 62 = 1302.</p><p>T/22 = (T − 82.5)/21 + 1 → 21T = 22T − 1815 + 462 → T = 1353.</p><p>G = 1353 − 1302 = <strong>51</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-26",
+   "section": "QA",
+   "number": 26,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Sequences & series",
+   "difficulty": "medium",
+   "stemHtml": "<p>If a<sub>1</sub>, a<sub>2</sub>, … are in A.P., then, 1/(√a<sub>1</sub> + √a<sub>2</sub>) + 1/(√a<sub>2</sub> + √a<sub>3</sub>) + … + 1/(√a<sub>n</sub> + √a<sub>n+1</sub>) is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(n − 1)/(√a<sub>1</sub> + √a<sub>n</sub>)"
+    },
+    {
+     "id": "B",
+     "textHtml": "n/(√a<sub>1</sub> − √a<sub>n+1</sub>)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(n − 1)/(√a<sub>1</sub> + √a<sub>n−1</sub>)"
+    },
+    {
+     "id": "D",
+     "textHtml": "n/(√a<sub>1</sub> + √a<sub>n+1</sub>)"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Rationalise each term: 1/(√a<sub>k</sub> + √a<sub>k+1</sub>) = (√a<sub>k+1</sub> − √a<sub>k</sub>)/d, where d is the common difference.</p><p>The sum <strong>telescopes</strong> to (√a<sub>n+1</sub> − √a<sub>1</sub>)/d. Multiply top and bottom by (√a<sub>n+1</sub> + √a<sub>1</sub>): (a<sub>n+1</sub> − a<sub>1</sub>)/[d(√a<sub>1</sub> + √a<sub>n+1</sub>)] = nd/[d(…)] = <strong>n/(√a<sub>1</sub> + √a<sub>n+1</sub>)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-27",
+   "section": "QA",
+   "number": 27,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>At their usual efficiency levels, A and B together finish a task in 12 days. If A had worked half as efficiently as she usually does, and B had worked thrice as efficiently as he usually does, the task would have been completed in 9 days. How many days would A take to finish the task if she works alone at her usual efficiency?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "24"
+    },
+    {
+     "id": "B",
+     "textHtml": "12"
+    },
+    {
+     "id": "C",
+     "textHtml": "18"
+    },
+    {
+     "id": "D",
+     "textHtml": "36"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Daily rates: a + b = 1/12 and a/2 + 3b = 1/9.</p><p>Substitute b = 1/12 − a: a/2 + 1/4 − 3a = 1/9 → (5/2)a = 1/4 − 1/9 = 5/36 → a = 1/18.</p><p>A alone takes <strong>18 days</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-28",
+   "section": "QA",
+   "number": 28,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>One can use three different transports which move at 10, 20, and 30 kmph, respectively. To reach from A to B, Amal took each mode of transport 1/3 of his total journey time, while Bimal took each mode of transport 1/3 of the total distance. The percentage by which Bimal’s travel time exceeds Amal’s travel time is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "22"
+    },
+    {
+     "id": "B",
+     "textHtml": "21"
+    },
+    {
+     "id": "C",
+     "textHtml": "19"
+    },
+    {
+     "id": "D",
+     "textHtml": "20"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Equal times give an average speed equal to the <strong>arithmetic mean</strong>: 20 km/h. Equal distances give the <strong>harmonic mean</strong>: 3/(1/10 + 1/20 + 1/30) = 180/11 km/h.</p><p>Time ratio = 20 ÷ (180/11) = 11/9 ≈ 1.222, so Bimal takes about <strong>22%</strong> longer.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-29",
+   "section": "QA",
+   "number": 29,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>Meena scores 40% in an examination and after review, even though her score is increased by 50%, she fails by 35 marks. If her post-review score is increased by 20%, she will have 7 marks more than the passing score. The percentage score needed for passing the examination is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "75"
+    },
+    {
+     "id": "B",
+     "textHtml": "60"
+    },
+    {
+     "id": "C",
+     "textHtml": "80"
+    },
+    {
+     "id": "D",
+     "textHtml": "70"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let the maximum be M. After review her score is 1.5 × 40% = 60% of M, and a further 20% raises it to 72% of M.</p><p>The jump from 0.60M to 0.72M covers 35 + 7 = 42 marks, so 0.12M = 42 and M = 350.</p><p>Pass mark = 0.6 × 350 + 35 = 245 = <strong>70%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-30",
+   "section": "QA",
+   "number": 30,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "easy",
+   "stemHtml": "<p>On selling a pen at 5% loss and a book at 15% gain, Karim gains Rs. 7. If he sells the pen at 5% gain and the book at 10% gain, he gains Rs. 13. What is the cost price of the book in Rupees?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "100"
+    },
+    {
+     "id": "B",
+     "textHtml": "80"
+    },
+    {
+     "id": "C",
+     "textHtml": "85"
+    },
+    {
+     "id": "D",
+     "textHtml": "95"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>−0.05p + 0.15b = 7 and 0.05p + 0.10b = 13.</p><p><strong>Add</strong> to eliminate p: 0.25b = 20, so b = <strong>80</strong> (and p = 100).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-31",
+   "section": "QA",
+   "number": 31,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>The wheels of bicycles A and B have radii 30 cm and 40 cm, respectively. While traveling a certain distance, each wheel of A required 5000 more revolutions than each wheel of B. If bicycle B traveled this distance in 45 minutes, then its speed, in km per hour, was</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "16π"
+    },
+    {
+     "id": "B",
+     "textHtml": "14π"
+    },
+    {
+     "id": "C",
+     "textHtml": "18π"
+    },
+    {
+     "id": "D",
+     "textHtml": "12π"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Circumferences are 0.6π m and 0.8π m. For a distance D: D/(0.6π) − D/(0.8π) = 5000 → D × (5/(12π)) = 5000 → D = 12000π m = 12π km.</p><p>Speed = 12π ÷ 0.75 = <strong>16π</strong> km/h.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-32",
+   "section": "QA",
+   "number": 32,
+   "type": "TITA",
+   "topic": "Modern Maths",
+   "subtopic": "Permutations & combinations",
+   "difficulty": "easy",
+   "stemHtml": "<p>With rectangular axes of coordinates, the number of paths from (1,1) to (8,10) via (4,6), where each step from any point (x, y) is either to (x, y+1) or to (x+1, y), is</p>",
+   "answer": "3920",
+   "solutionHtml": "<p>(1,1) → (4,6) takes 3 right and 5 up steps: <sup>8</sup>C<sub>3</sub> = 56 ways. (4,6) → (8,10) takes 4 right and 4 up: <sup>8</sup>C<sub>4</sub> = 70 ways.</p><p>Total = 56 × 70 = <strong>3920</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-33",
+   "section": "QA",
+   "number": 33,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Indices",
+   "difficulty": "medium",
+   "stemHtml": "<p>If m and n are integers such that (√2)<sup>19</sup> 3<sup>4</sup> 4<sup>2</sup> 9<sup>m</sup> 8<sup>n</sup> = 3<sup>n</sup> 16<sup>m</sup> (<sup>4</sup>√64) then m is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−16"
+    },
+    {
+     "id": "B",
+     "textHtml": "−24"
+    },
+    {
+     "id": "C",
+     "textHtml": "−20"
+    },
+    {
+     "id": "D",
+     "textHtml": "−12"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Write everything in powers of 2 and 3. Left: 2<sup>19/2 + 4 + 3n</sup> × 3<sup>4 + 2m</sup>. Right: 2<sup>4m + 3/2</sup> × 3<sup>n</sup> (since <sup>4</sup>√64 = 2<sup>3/2</sup>).</p><p>Powers of 3: n = 2m + 4. Powers of 2: 27/2 + 3n = 4m + 3/2 → 12 + 3n = 4m.</p><p>Substituting: 12 + 6m + 12 = 4m → <strong>m = −12</strong> (n = −20).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-34",
+   "section": "QA",
+   "number": 34,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Sequences & recurrences",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the population of a town is p in the beginning of any year then it becomes 3 + 2p in the beginning of the next year. If the population in the beginning of 2019 is 1000, then the population in the beginning of 2034 will be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(1003)2<sup>15</sup> − 3"
+    },
+    {
+     "id": "B",
+     "textHtml": "(997)2<sup>14</sup> + 3"
+    },
+    {
+     "id": "C",
+     "textHtml": "(1003)<sup>15</sup> + 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "(997)<sup>15</sup> − 3"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Add 3 to both sides: p' + 3 = 2(p + 3). So <strong>p + 3 doubles every year</strong>.</p><p>From 2019 to 2034 is 15 years: p + 3 = 1003 × 2<sup>15</sup>, so the population is <strong>(1003)2<sup>15</sup> − 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2019 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

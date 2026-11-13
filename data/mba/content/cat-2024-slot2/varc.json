@@ -1,0 +1,850 @@
+{
+  "sets": [
+    {
+      "key": "VARC-P1",
+      "kind": "passage",
+      "title": "Spices in medieval Europe",
+      "contentHtml": "<p>The passage below is accompanied by four questions. Based on the passage, choose the best answer for each question.</p><p>[S]pices were a global commodity centuries before European voyages. There was a complex chain of relations, yet consumers had little knowledge of producers and vice versa. Desire for spices helped fuel European colonial empires to create political, military and commercial networks under a single power.</p><p>Historians know a fair amount about the supply of spices in Europe during the medieval period – the origins, methods of transportation, the prices – but less about demand. Why go to such extraordinary efforts to procure expensive products from exotic lands? Still, demand was great enough to inspire the voyages of Christopher Columbus and Vasco Da Gama, launching the first fateful wave of European colonialism. . . .</p><p>So, why were spices so highly prized in Europe in the centuries from about 1000 to 1500? One widely disseminated explanation for medieval demand for spices was that they covered the taste of spoiled meat. . . .</p><p>Medieval purchasers consumed meat much fresher than what the average city-dweller in the developed world of today has at hand. However, refrigeration was not available, and some hot spices have been shown to serve as an anti-bacterial agent. Salting, smoking or drying meat were other means of preservation. Most spices used in cooking began as medical ingredients, and throughout the Middle Ages spices were used as both medicines and condiments. Above all, medieval recipes involve the combination of medical and culinary lore in order to balance food’s humeral properties and prevent disease. Most spices were hot and dry and so appropriate in sauces to counteract the moist and wet properties supposedly possessed by most meat and fish. . . .</p><p>Where spices came from was known in a vague sense centuries before the voyages of Columbus. Just how vague may be judged by looking at medieval world maps . . . To the medieval European imagination, the East was exotic and alluring. Medieval maps often placed India close to the so-called Earthly Paradise, the Garden of Eden described in the Bible.</p><p>Geographical knowledge has a lot to do with the perceptions of spices’ relative scarcity and the reasons for their high prices. An example of the varying notions of scarcity is the conflicting information about how pepper is harvested. As far back as the 7th century Europeans thought that pepper in India grew on trees “guarded” by serpents that would bite and poison anyone who attempted to gather the fruit. The only way to harvest pepper was to burn the trees, which would drive the snakes underground. Of course, this bit of lore would explain the shriveled black peppercorns, but not white, pink or other colors.</p><p>Spices never had the enduring allure or power of gold and silver or the commercial potential of new products such as tobacco, indigo or sugar. But the taste for spices did continue for a while beyond the Middle Ages. As late as the 17th century, the English and the Dutch were struggling for control of the Spice Islands: Dutch New Amsterdam, or New York, was exchanged by the British for one of the Moluccan Islands where nutmeg was grown.</p>"
+    },
+    {
+      "key": "VARC-P2",
+      "kind": "passage",
+      "title": "Opening up peer review data",
+      "contentHtml": "<p>The passage below is accompanied by four questions. Based on the passage, choose the best answer for each question.</p><p>The job of a peer reviewer is thankless. Collectively, academics spend around 70 million hours every year evaluating each other’s manuscripts on the behalf of scholarly journals – and they usually receive no monetary compensation and little if any recognition for their effort. Some do it as a way to keep abreast with developments in their field; some simply see it as a duty to the discipline. Either way, academic publishing would likely crumble without them.</p><p>In recent years, some scientists have begun posting their reviews online, mainly to claim credit for their work. Sites like Publons allow researchers to either share entire referee reports or simply list the journals for whom they’ve carried out a review....</p><p>The rise of Publons suggests that academics are increasingly placing value on the work of peer review and asking others, such as grant funders, to do the same. While that’s vital in the publish-or-perish culture of academia, there’s also immense value in the data underlying peer review. Sharing peer review data could help journals stamp out fraud, inefficiency, and systemic bias in academic publishing.....</p><p>Peer review data could also help root out bias. Last year, a study based on peer review data for nearly 24,000 submissions to the biomedical journal eLife found that women and non-Westerners were vastly underrepresented among peer reviewers. Only around one in every five reviewers was female, and less than two percent of reviewers were based in developing countries. ... Openly publishing peer review data could perhaps also help journals address another problem in academic publishing: fraudulent peer reviews. For instance, a minority of authors have been known to use phony email addresses to pose as an outside expert and review their own manuscripts....</p><p>Opponents of open peer review commonly argue that confidentiality is vital to the integrity of the review process; referees may be less critical of manuscripts if their reports are published, especially if they are revealing their identities by signing them. Some also hold concerns that open reviewing may deter referees from agreeing to judge manuscripts in the first place, or that they’ll take longer to do so out of fear of scrutiny...</p><p>Even when the content of reviews and the identity of reviewers can’t be shared publicly, perhaps journals could share the data with outside researchers for study. Or they could release other figures that wouldn’t compromise the anonymity of reviews but that might answer important questions about how long the reviewing process takes, how many researchers editors have to reach out to on average to find one who will carry out the work, and the geographic distribution of peer reviewers.</p><p>Of course, opening up data underlying the reviewing process will not fix peer review entirely, and there may be instances in which there are valid reasons to keep the content of peer reviews hidden and the identity of the referees confidential. But the norm should shift from opacity in all cases to opacity only when necessary.</p>"
+    },
+    {
+      "key": "VARC-P3",
+      "kind": "passage",
+      "title": "Unintended consequences of innovation",
+      "contentHtml": "<p>The passage below is accompanied by four questions. Based on the passage, choose the best answer for each question.</p><p>The history of any major technological or industrial advance is inevitably shadowed by a less predictable history of unintended consequences and secondary effects — what economists sometimes call “externalities.” Sometimes those consequences are innocuous ones, or even beneficial. Gutenberg invents the printing press, and literacy rates rise, which causes a significant part of the reading public to require spectacles for the first time, which creates a surge of investment in lens-making across Europe, which leads to the invention of the telescope and the microscope.</p><p>Oftentimes the secondary effects seem to belong to an entirely different sphere of society. When Willis Carrier hit upon the idea of air-conditioning, the technology was primarily intended for industrial use: ensuring cool, dry air for factories that required low-humidity environments. But...it touched off one of the largest migrations in the history of the United States, enabling the rise of metropolitan areas like Phoenix and Las Vegas that barely existed when Carrier first started tinkering with the idea in the early 1900s.</p><p>Sometimes the unintended consequence comes about when consumers use an invention in a surprising way. Edison famously thought his phonograph, which he sometimes called “the talking machine,” would primarily be used to take dictation....But then later innovators... discovered a much larger audience willing to pay for musical recordings made on descendants of Edison’s original invention. In other cases, the original innovation comes into the world disguised as a plaything...the way the animatronic dolls of the mid-1700s inspired Jacquard to invent the first “programmable” loom and Charles Babbage to invent the first machine that fit the modern definition of a computer, setting the stage for the revolution in programmable technology that would transform the 21st century in countless ways.</p><p>We live under the gathering storm of modern history’s most momentous unintended consequence....carbon-based climate change. Imagine the vast sweep of inventors whose ideas started the Industrial Revolution, all the entrepreneurs and scientists and hobbyists who had a hand in bringing it about. Line up a thousand of them and ask them all what they had been hoping to do with their work. Not one would say that their intent had been to deposit enough carbon in the atmosphere to create a greenhouse effect that trapped heat at the surface of the planet. And yet here we are.</p><p>Ethyl (leaded fuel) and Freon belonged to the same general class of secondary effect: innovations whose unintended consequences stem from some kind of waste by-product that they emit. But the potential health threats of Ethyl (unleaded fuel) were visible in the 1920s, unlike, say, the long-term effects of atmospheric carbon build up in the early days of the Industrial Revolution....</p><p>Indeed, it is reasonable to see CFCs (chlorofluorocarbons) as a forerunner of the kind of threat we will most likely face in the coming decades, as it becomes increasingly possible for individuals or small groups to create new scientific advances — through chemistry or biotechnology or materials science — setting off unintended consequences that reverberate on a global scale.</p>"
+    },
+    {
+      "key": "VARC-P4",
+      "kind": "passage",
+      "title": "Drivers of carnivore–human conflict",
+      "contentHtml": "<p>The passage below is accompanied by four questions. Based on the passage, choose the best answer for each question.</p><p>(...) There are three other common drivers for carnivore–human attacks, some of which are more preventable than others. Natural aggression-based conflicts – such as those involving females protecting their young or animals protecting a food source – can often be avoided as long as people stay away from those animals and their food.</p><p>Carnivores that recognise humans as a means to get food, are a different story. As they become more reliant on human food they might find at campsites or in rubbish bins, they become less avoidant of humans. Losing that instinctive fear response puts them into more situations where they could get into an altercation with a human, which often results in that bear being put down by humans. “A fed bear is a dead bear,” says Servheen, referring to a common saying among biologists and conservationists.</p><p>Predatory or predation-related attacks are quite rare, only accounting for 17% of attacks in North America since 1955. They occur when a carnivore views a human as prey and hunts it like it would any other animal it uses for food. (…)</p><p>Then there are animal attacks provoked by people taking pictures with them or feeding them in natural settings such as national parks which often end with animals being euthanised out of precaution. “Eventually, that animal becomes habituated to people, and [then] bad things happen to the animal. And the folks who initially wanted to make that connection don’t necessarily realise that,” says Christine Wilkinson, a postdoctoral researcher at UC Berkeley, California, who’s been studying coyote-human conflicts.</p><p>After conducting countless postmortems on all types of carnivore-human attacks spanning 75 years, Penteriani’s team believes 50% could have been avoided if humans reacted differently. A 2017 study co-authored by Penteriani found that engaging in risky behaviour around large carnivores increases the likelihood of an attack.</p><p>Two of the most common risky behaviours are parents leaving their children to play outside unattended and walking an unleashed dog, according to the study. Wilkinson says 66% of coyote attacks involve a dog. “[People] end up in a situation where their dog is being chased, or their dog chases a coyote, or maybe they’re walking their dog near a den that’s marked, and the coyote wants to escort them away,” says Wilkinson.</p><p>Experts believe climate change also plays a part in the escalation of human-carnivore conflicts, but the correlation still needs to be ironed out. “As finite resources become scarcer, carnivores and people are coming into more frequent contact, which means that more conflict could occur,” says Jen Miller, international programme specialist for the US Fish &amp; Wildlife Service. For example, she says, there was an uptick in lion attacks in western India during a drought when lions and people were relying on the same water sources.</p><p>(...) The likelihood of human-carnivore conflicts appears to be higher in areas of low-income countries dominated by vast rural landscapes and farmland, according to Penteriani’s research. “There are a lot of working landscapes in the Global South that are really heterogeneous, that are interspersed with carnivore habitats, forests and savannahs, which creates a lot more opportunity for these encounters, just statistically,” says Wilkinson.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "VARC-01",
+      "section": "VARC",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Summary",
+      "difficulty": "easy",
+      "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>Recent important scientific findings have emerged from crossing the boundaries of scientific fields. They stem from physicists collaborating with biologists, sociologists and others, to answer questions about our world. But physicists and their potential collaborators often find their cultures out of sync. For one, physicists often discard a lot of information while extracting broad patterns; for other scientists, information is not readily disposed. Further, many non-physicists are uncomfortable with mathematical models. Still, the desire to work on something new and different is real, and there are clear benefits from the collision of views.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Physicists have successfully buried their differences on research methods applied in other fields in their desire to find answers to baffling scientific questions."
+        },
+        {
+          "id": "B",
+          "textHtml": "Large data sets and mathematical models in physics research combined with the research methods of non-physicist collaborators have yielded important scientific findings."
+        },
+        {
+          "id": "C",
+          "textHtml": "Despite differences in their research styles, physicists' research collaborations with scholars from other disciplines have yielded important research findings."
+        },
+        {
+          "id": "D",
+          "textHtml": "The desire to diversify their research and answer important questions has led to several collaborations between physicists and other social scientists."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Structure of the passage:</strong> (i) cross-disciplinary work by physicists with other scientists has produced important findings; (ii) their research cultures clash (discarding information vs keeping it, comfort with mathematical models); (iii) still, the collaborations go on and the collision of views is beneficial.</p><p><strong>C</strong> captures all three: differences in research style, collaboration with other disciplines, and important findings as the outcome.</p><p><strong>A</strong> says the differences have been “successfully buried” – the passage says the cultures are still out of sync. <strong>B</strong> credits the findings to a combination of large data sets and mathematical models with other methods – the passage never says this; it mentions models only as a source of discomfort. <strong>D</strong> drops the central tension (the clash of cultures) and wrongly calls biologists etc. “other social scientists”.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-02",
+      "section": "VARC",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence placement",
+      "difficulty": "medium",
+      "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide where (option 1, 2, 3, or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> [T]he Europeans did not invent globalization.</p><p><strong>Paragraph:</strong> The first phase of globalization occurred long before the introduction of either steam or electric power...Chinese consumers at all social levels consumed vast quantities of spices, fragrant woods and unusual plants. The peoples of Southeast Asia who lived in forests gave up their traditional livelihoods and completely reoriented their economies to supply Chinese consumers ___(1)___ . These exchanges of the year 1000 opened some of the routes through which goods and peoples continued to travel after Columbus traversed the mid-Atlantic. ___(2)___. Yet the world of 1000 differed from that of 1492 in important ways....the travellers who encountered one another in the year 1000 were much closer technologically. ___(3)___. They changed and augmented what was already there since 1000. ___(4)___. If globalization hadn't yet begun, Europeans wouldn't have been able to penetrate the markets in so many places as quickly as they did after 1492.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Look for the pronoun that needs an antecedent.</strong> The sentence after blank 3 begins “<em>They</em> changed and augmented what was already there since 1000.” Without the missing sentence, “They” would refer to “the travellers who encountered one another in the year 1000” – but those travellers could not change what existed “since 1000”. The subject has to be the Europeans of 1492.</p><p>Placing the sentence at (3) gives: “The Europeans did not invent globalization. They changed and augmented what was already there since 1000.” The next sentence (after blank 4) then supports this: had globalization not already begun, Europeans could not have penetrated markets so quickly.</p><p>At (1) the sentence would interrupt the description of Chinese demand; at (2) it would sit between two points about the year-1000 routes and the 1000-vs-1492 contrast with no link; at (4) it would come after “They changed and augmented…”, leaving “They” without a referent. So the answer is <strong>Option 3</strong>, i.e. choice A.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-03",
+      "section": "VARC",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>Different from individuals, states conduct warfare operations using the DIME model–– \"diplomacy, information, military, and economics.\" Most states do everything they can to inflict pain and confusion on their enemies before deploying the military. In fact, attacks on vectors of information are a well-worn tactic of war and usually are the first target when the charge begins. It's common for telecom data and communications networks to be routinely monitored by governments, which is why the open data policies of the web are so concerning to many advocates of privacy and human rights. With the worldwide adoption of social media, more governments are getting involved in low-grade information warfare through the use of cyber troops. According to a study by the Oxford Internet Institute in 2020, cyber troops are \"government or political party actors tasked with manipulating public opinion online.\" The Oxford research group was able to identify 81 countries with active cyber troop operations utilizing many different strategies to spread false information, including spending millions on online advertising.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Governments primarily use the DIME model to deploy cyber troops who practise low-grade information warfare, seeking to manipulate public opinion with the objective of inflicting pain and confusion on their enemies."
+        },
+        {
+          "id": "B",
+          "textHtml": "Following the DIME model, many governments have taken advantage of open data policies of the web to deploy cyber troops who manipulate domestic public opinion, using advertising and other strategies to spread false information."
+        },
+        {
+          "id": "C",
+          "textHtml": "Using the DIME model, together with military operations, many governments simultaneously conduct information warfare with the help of cyber troops and routinely monitor telecom data and communications networks."
+        },
+        {
+          "id": "D",
+          "textHtml": "As part of conducting information warfare as per the DIME model, many governments routinely monitor telecom data and communications networks, and use cyber troops on social media to manipulate public opinion."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Core idea:</strong> states wage war through the DIME model, and the “information” element is pursued by routinely monitoring telecom/communication networks and, increasingly, by using cyber troops on social media to manipulate public opinion.</p><p><strong>D</strong> states exactly this: information warfare under the DIME model, routine monitoring of networks, and cyber troops manipulating public opinion.</p><p><strong>A</strong> says governments “primarily” use DIME to deploy cyber troops – DIME is a broad warfare model, and cyber troops are only one part of its information arm. <strong>B</strong> adds that governments exploit the web’s open data policies to manipulate <em>domestic</em> opinion – neither claim is made; open data policies are only said to worry privacy advocates. <strong>C</strong> says information warfare is conducted “together with”/“simultaneously” with military operations, whereas the passage says states inflict pain and confusion <em>before</em> deploying the military.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-04",
+      "section": "VARC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>If a trader brought white peppercorns from India to medieval Europe, all of the following are unlikely to happen, EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "medieval maps would be used as navigational aids."
+        },
+        {
+          "id": "B",
+          "textHtml": "Europeans would doubt the story of pepper harvesting."
+        },
+        {
+          "id": "C",
+          "textHtml": "the price of spices would decrease."
+        },
+        {
+          "id": "D",
+          "textHtml": "pepper would no longer be considered exotic."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>We need the one outcome that <strong>is</strong> likely. The passage says the snake-and-fire lore “would explain the shriveled black peppercorns, but not white, pink or other colors.” White peppercorns are therefore direct evidence against the story, so <strong>Europeans would doubt the story of pepper harvesting</strong> (B).</p><p><strong>A:</strong> nothing links peppercorns to using medieval maps for navigation; the maps are cited only to show how vague European geography was. <strong>C:</strong> one trader’s white pepper would not raise supply enough to lower spice prices in general. <strong>D:</strong> a new colour of pepper would, if anything, make it seem more exotic, not less. All three remain unlikely.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-05",
+      "section": "VARC",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>It can be inferred that all of the following contributed to a decline in the allure of spices, EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "increase in the availability or spices."
+        },
+        {
+          "id": "B",
+          "textHtml": "the development of refrigeration techniques."
+        },
+        {
+          "id": "C",
+          "textHtml": "changes in the system of medical treatment."
+        },
+        {
+          "id": "D",
+          "textHtml": "changes in European cuisine."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The passage gives the real sources of the spices’ appeal: their perceived <em>scarcity</em> (linked to vague geography and lore), their <em>medical</em> use in balancing the humours, and their place in medieval <em>cooking</em> (sauces to counter “moist” meat and fish).</p><p>So anything that weakened these would reduce their allure: greater availability (<strong>A</strong>, removes scarcity), a change in the system of medicine (<strong>C</strong>, removes the humoral rationale) and changes in European cuisine (<strong>D</strong>, removes the culinary role).</p><p><strong>B (refrigeration)</strong> does not fit. The passage rejects the popular idea that spices were prized for masking spoiled meat: medieval meat was fresher than ours, and preservation was done by salting, smoking or drying. Since spices were not valued as a preservative, the arrival of refrigeration cannot be inferred to have reduced their allure.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-06",
+      "section": "VARC",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>In the context of the passage, the people who heard the story of pepper trees being guarded by snakes would be least likely to arrive at the conclusion that</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "it is not advisable to go to India to harvest the pepper themselves."
+        },
+        {
+          "id": "B",
+          "textHtml": "this is why pepper is so hot."
+        },
+        {
+          "id": "C",
+          "textHtml": "pepper is costly for good reason."
+        },
+        {
+          "id": "D",
+          "textHtml": "it is no surprise that the pepper supply is so limited."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The author uses the snake story as an example of how lore shaped “perceptions of spices’ relative scarcity and the reasons for their high prices.” A listener would therefore draw conclusions about danger, scarcity and price.</p><p><strong>A</strong> (don’t go and harvest it yourself – the snakes are poisonous), <strong>C</strong> (pepper is costly for good reason) and <strong>D</strong> (no wonder supply is limited) all follow from the story’s danger and difficulty.</p><p><strong>B</strong> is the least likely: the story explains the <em>shrivelled black appearance</em> (the trees are burnt), not the pepper’s pungency. Nothing in the story or the passage connects the snakes or the fire to how hot pepper tastes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-07",
+      "section": "VARC",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>In the context of the passage, which one of the following conclusions CANNOT be reached?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "India was colonised for its spices and gold."
+        },
+        {
+          "id": "B",
+          "textHtml": "Tobacco was more marketable than spices."
+        },
+        {
+          "id": "C",
+          "textHtml": "Colonialism was motivated by the demand for spices."
+        },
+        {
+          "id": "D",
+          "textHtml": "The spice trade was a driver of colonial expansion."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> cannot be reached. The passage never says India was colonised, and gold appears only in a comparison (“Spices never had the enduring allure or power of gold and silver”). Linking India’s colonisation to spices <em>and gold</em> goes beyond the text.</p><p><strong>B</strong> follows from “Spices never had … the commercial potential of new products such as tobacco.” <strong>C</strong> and <strong>D</strong> follow from “Desire for spices helped fuel European colonial empires” and from spice demand inspiring the voyages that launched “the first fateful wave of European colonialism.”</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-08",
+      "section": "VARC",
+      "number": 8,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd one out",
+      "difficulty": "hard",
+      "stemHtml": "<p>Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><ol><li>The UK is a world leader in developing cultivated meat and the approval of a cultivated pet food is an important milestone.</li><li>If we’re to realise the full potential benefits of cultivated meat the government must invest in research and infrastructure.</li><li>The first UK applications for cultivated meat produced for humans remain under assessment with the Food Standards Agency.</li><li>The previous UK government had been looking at fast-tracking the approval of cultivated meat for human consumption.</li><li>It underscores the potential for new innovation to help reduce the negative impacts of intensive animal agriculture.</li></ol>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Fixed pair:</strong> 5 begins with “It underscores…”, and “It” can only be the approval of cultivated pet food in 1. So 1-5 go together.</p><p><strong>Build the paragraph:</strong> 3 gives the current status (human cultivated-meat applications are still under assessment). 1-5 then present the pet-food approval as a milestone that shows the technology’s promise, and 2 concludes that, to realise “the full potential benefits”, the government must invest. Order: <strong>3-1-5-2</strong> – present status, milestone, its significance, what is needed next.</p><p><strong>Odd one:</strong> 4 talks about what the <em>previous</em> government had been planning (fast-tracking approvals). This backward-looking political detail is not picked up by any other sentence, and it clashes with 3, which says the applications are simply still under assessment. Hence <strong>4</strong> is the odd sentence.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-09",
+      "section": "VARC",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence placement",
+      "difficulty": "medium",
+      "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide where (option 1, 2, 3, or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> Yet each day the flock produced eggs with calcareous shells though they apparently had not ingested any calcium from land which was entirely lacking in limestone.</p><p><strong>Paragraph:</strong> Early in this century a young Breton schoolboy who preparing himself for a scientific career began to notice a strange fact about hens in his father’s poultry yard.___ (1) ___. As they scratched the soil they constantly seemed to be pecking at specks of mica, a siliceous material dotting the ground. ___ (2) ___. No one could explain to Louis Kervran why the chickens selected the mica, or why each time a bird was killed for the family cooking pot no trace of the mica could be found in its gizzard. ____ (3) ____. It took Kervran many years to establish that the chickens were transmuting one element into another. ___ (4) ___.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 4"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 1"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The paragraph builds a puzzle in two halves: the mica the hens eat <em>disappears</em> (no trace in the gizzard), and calcium <em>appears</em> in the eggshells though the land has no limestone. The conclusion – the chickens were transmuting one element into another – needs both halves just before it.</p><p>At <strong>(3)</strong>: “…no trace of the mica could be found in its gizzard. <em>Yet</em> each day the flock produced eggs with calcareous shells… It took Kervran many years to establish that the chickens were transmuting one element into another.” “Yet” contrasts the missing mica with the unexplained calcium, and the next sentence resolves both.</p><p>At (1) the sentence would come before the hens’ mica-pecking is even introduced; at (2) it would separate the mica observation from “No one could explain… why the chickens selected the mica”; at (4) it would come after the mystery is already solved. So the answer is <strong>Option 3</strong>, i.e. choice B.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-10",
+      "section": "VARC",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>All of the following are listed as reasons why academics choose to review other scholars’ work EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Some use this as an opportunity to publicise their own review work."
+        },
+        {
+          "id": "B",
+          "textHtml": "It is seen as a form of service to the academic community."
+        },
+        {
+          "id": "C",
+          "textHtml": "It helps them keep current with cutting-edge ideas in their academic disciplines."
+        },
+        {
+          "id": "D",
+          "textHtml": "It is seen as an opportunity to expand their influence in the academic community."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The passage names these motives: “Some do it as a way to keep abreast with developments in their field” (<strong>C</strong>); “some simply see it as a duty to the discipline” (<strong>B</strong>, service to the community); and some now post their reviews online “mainly to claim credit for their work” (<strong>A</strong>, publicising their review work).</p><p>Nowhere does the passage say that reviewers seek to <strong>expand their influence</strong> in the academic community. So <strong>D</strong> is the exception.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-11",
+      "section": "VARC",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's view",
+      "difficulty": "easy",
+      "stemHtml": "<p>Based on the passage we can infer that the author would most probably support</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "greater transparency across the peer review process in academic publishing."
+        },
+        {
+          "id": "B",
+          "textHtml": "publicising peer review data rather than the publication of actual reviews."
+        },
+        {
+          "id": "C",
+          "textHtml": "preserving the anonymity of reviewers to protect them from criticism."
+        },
+        {
+          "id": "D",
+          "textHtml": "more careful screening to ensure the recruitment of content-familiar peer reviewers."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The author’s conclusion is that “the norm should shift from opacity in all cases to opacity only when necessary.” That is a call for <strong>greater transparency across the peer review process</strong> (A).</p><p><strong>B</strong> is too narrow: sharing data “rather than” reviews is offered only as a fallback for cases where reviews cannot be shared, not as the author’s preference. <strong>C</strong> reflects the opponents’ view, which the author answers. <strong>D</strong> (screening for content-familiar reviewers) is never discussed.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-12",
+      "section": "VARC",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "medium",
+      "stemHtml": "<p>According to the passage, which of the following is the only reason NOT given in favour of making peer review data public?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It could address various inefficiencies and fraudulent practices that continue in academic publishing process."
+        },
+        {
+          "id": "B",
+          "textHtml": "It would highlight the gender and race biases currently existing in the selection of reviewers."
+        },
+        {
+          "id": "C",
+          "textHtml": "It will deal with peer review fraud such as authors publishing bogus reviews of their work."
+        },
+        {
+          "id": "D",
+          "textHtml": "It can tackle the problem of selecting appropriately qualified reviewers for academic writing."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Reasons given in the passage: sharing data could help “stamp out fraud, inefficiency, and systemic bias” (<strong>A</strong>); the eLife study showed women and non-Westerners were underrepresented among reviewers, so data can expose such bias (<strong>B</strong>); and open data could help tackle fraudulent reviews where authors pose as outside experts to review their own work (<strong>C</strong>).</p><p>The passage never argues that open data would help in <strong>selecting appropriately qualified reviewers</strong>. The data it mentions concern time taken, number of researchers approached and geography – not reviewer qualifications. So <strong>D</strong> is the reason not given.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-13",
+      "section": "VARC",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, some are opposed to making peer reviews public for all the following reasons EXCEPT that it</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "deters reviewers from producing honest, if critical, reviews that are vital to the sound publishing process."
+        },
+        {
+          "id": "B",
+          "textHtml": "delays the manuscript evaluation process as reviewers would take longer to write their reviews."
+        },
+        {
+          "id": "C",
+          "textHtml": "leaves the reviewers unexposed to unwarranted and unjustified criticism or comments from others."
+        },
+        {
+          "id": "D",
+          "textHtml": "makes reviewers reluctant to review manuscripts, especially if these are critical of the submitted work."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The opponents’ arguments in the passage: referees may be less critical if their reports are published (<strong>A</strong>); open reviewing may deter referees from agreeing to review at all (<strong>D</strong>); and they may take longer out of fear of scrutiny (<strong>B</strong>).</p><p><strong>C</strong> says open review “leaves the reviewers <em>unexposed</em>” to criticism. That is the opposite of the opponents’ worry – their concern is that publication <em>exposes</em> reviewers to scrutiny. So C is not one of their reasons.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-14",
+      "section": "VARC",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>We can assume that the author would support all of the following views EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It has become far easier for people today to bring out innovations with dire worldwide consequences than it was earlier."
+        },
+        {
+          "id": "B",
+          "textHtml": "The emissions caused by the large-scale use of leaded fuel ought to have been addressed earlier than they were."
+        },
+        {
+          "id": "C",
+          "textHtml": "The by-products of leaded fuel, rather than the fuel itself, were responsible for the build-up of carbon-related gases in the atmosphere."
+        },
+        {
+          "id": "D",
+          "textHtml": "While technological advances in the past have had innocuous or beneficial outcomes, more recent advances have the potential to be more threatening globally."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> misreads the passage. Leaded fuel (Ethyl) is grouped with Freon as an innovation whose harm comes from a waste by-product, and its <em>health</em> threats are mentioned. The build-up of atmospheric carbon is attributed to the Industrial Revolution as a whole, not to leaded fuel’s by-products. The author never makes this link, so would not support C.</p><p><strong>A</strong> matches the last paragraph: it is becoming “increasingly possible for individuals or small groups” to set off globally reverberating consequences. <strong>B</strong> follows from “the potential health threats of Ethyl … were visible in the 1920s”, i.e. they could have been tackled earlier. <strong>D</strong> fits the arc from innocuous or beneficial past examples (spectacles, telescopes) to CFCs as a forerunner of the global threats “we will most likely face in the coming decades.”</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-15",
+      "section": "VARC",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following best conveys the main point of the first paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The full impact of technological advances cannot be estimated in the short run as the ripple effects often extend far beyond the original intent."
+        },
+        {
+          "id": "B",
+          "textHtml": "It is important to judge an invention not by its immediate outcomes, but by the holistic impact of its secondary effects."
+        },
+        {
+          "id": "C",
+          "textHtml": "The secondary effects of most major technological advances in the past, especially if they were unintended, have turned out to be beneficial."
+        },
+        {
+          "id": "D",
+          "textHtml": "The entire impact of a technological advance should be evaluated by the boost its secondary effects gives to generating further technological advances."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The first paragraph says every major advance is “shadowed by a less predictable history of unintended consequences”, and illustrates it with a chain: printing press → literacy → spectacles → lens-making → telescope and microscope. The point is that an invention’s effects ripple outward well beyond its purpose and cannot be foreseen at the outset – <strong>A</strong>.</p><p><strong>B</strong> turns a description into a prescription about how inventions should be judged. <strong>C</strong> claims that most secondary effects were beneficial, but the paragraph says only that they are “sometimes” innocuous or beneficial. <strong>D</strong> generalises from the single example in which the secondary effect led to further inventions.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-16",
+      "section": "VARC",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>The author lists all of the following examples as “externalities” of major technical advances EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "build-up of chlorofluorocarbons in the atmosphere"
+        },
+        {
+          "id": "B",
+          "textHtml": "extension of the phonograph to large-scale recording of music"
+        },
+        {
+          "id": "C",
+          "textHtml": "cooling and de-humidifying of factories through air-conditioning"
+        },
+        {
+          "id": "D",
+          "textHtml": "application of the Jacquard loom to modern IT programming"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Externalities are the <em>unintended</em> secondary effects of an advance. Cooling and de-humidifying factories was the <strong>intended</strong> use of air-conditioning (“primarily intended for industrial use: ensuring cool, dry air for factories”); the externality was the mass migration to cities like Phoenix and Las Vegas. So <strong>C</strong> is the exception.</p><p><strong>A</strong>: CFCs (Freon) are cited as an innovation whose unintended consequences come from a by-product. <strong>B</strong>: Edison expected dictation; large-scale music recording was the surprise use. <strong>D</strong>: playthings (animatronic dolls) led to the programmable loom and to the programmable technology of today – a secondary effect far from the original purpose.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-17",
+      "section": "VARC",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Purpose",
+      "difficulty": "medium",
+      "stemHtml": "<p>Carrier, Babbage, and Edison are mentioned in the passage to illustrate the author’s point that</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "these inventors could not have visualised the eventual impact of their inventions on society."
+        },
+        {
+          "id": "B",
+          "textHtml": "despite the original intention, the unintended consequences of their inventions were largely beneficial."
+        },
+        {
+          "id": "C",
+          "textHtml": "inventions typically end up being used for entirely different purposes than the intended ones."
+        },
+        {
+          "id": "D",
+          "textHtml": "the secondary effect of past inventions mostly resulted in the creation of new inventions."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>All three examples show that the eventual effect of an invention lay outside what its inventor had in mind: Carrier meant air-conditioning for factories, not a migration; Edison expected dictation, not a music industry; Babbage’s machine (inspired by toys) set off a programmable-technology revolution centuries later. The common point is that <strong>the inventors could not have foreseen the eventual impact</strong> – <strong>A</strong>.</p><p><strong>B</strong>: whether the effects were beneficial is not the point of these examples, and the passage goes on to stress harmful consequences. <strong>C</strong> overgeneralises (“typically”, “entirely different purposes”). <strong>D</strong> fits only Babbage’s case; Carrier’s led to migration and Edison’s to a new market, not to new inventions.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-18",
+      "section": "VARC",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Application",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, which of the following scenarios would MOST likely exacerbate the frequency of carnivore-human conflicts?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Unleashing dogs by pet owners in areas with known high concentrations of large carnivores."
+        },
+        {
+          "id": "B",
+          "textHtml": "Attempting to photograph wild animals from within secured viewing areas in national parks and protected zones."
+        },
+        {
+          "id": "C",
+          "textHtml": "Addressing the impact of climate change on the availability of resources for wildlife."
+        },
+        {
+          "id": "D",
+          "textHtml": "Implementing ‘food waste’ management strategies to prevent wild animals being attracted to human food sources."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The passage names walking an unleashed dog as one of the two most common risky behaviours, and says 66% of coyote attacks involve a dog. Unleashing dogs where large carnivores are concentrated would therefore <strong>increase</strong> conflicts – <strong>A</strong>.</p><p><strong>B</strong>: photographing from <em>secured</em> viewing areas avoids the close contact the passage warns about. <strong>C</strong> and <strong>D</strong> are mitigation measures (addressing resource scarcity, keeping animals away from human food); they would reduce conflicts, not increase them.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-19",
+      "section": "VARC",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements, if false, would be inconsistent with the concerns raised in the passage regarding the drivers of carnivore-human conflicts?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Predatory attacks by carnivores are a common occurrence and have steadily increased over the past few decades."
+        },
+        {
+          "id": "B",
+          "textHtml": "Human efforts to avoid risky behaviours around large carnivores have proven effective in reducing conflict incidents."
+        },
+        {
+          "id": "C",
+          "textHtml": "Carnivores lose their instinctive fear of humans, when consistently exposed to human food sources."
+        },
+        {
+          "id": "D",
+          "textHtml": "Climate change has had negligible effects on the frequency of carnivore-human interactions in affected regions."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>We need a statement the passage <em>asserts</em>; if it were false, the passage’s concern would be contradicted.</p><p><strong>C</strong> is asserted directly: as carnivores rely on human food “they become less avoidant of humans. Losing that instinctive fear response…” If C were false, this driver of conflict would collapse.</p><p><strong>A</strong> contradicts the passage (predatory attacks are “quite rare”), so its being false is consistent with the passage. <strong>B</strong> is not established – the passage says 50% of attacks <em>could</em> have been avoided, not that avoidance efforts have proven effective – so its truth or falsity does not matter. <strong>D</strong> also contradicts the passage (climate change “plays a part”), so D being false is consistent.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-20",
+      "section": "VARC",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "easy",
+      "stemHtml": "<p>Given the insights provided by Penteriani’s research and Wilkinson's statement, which of the following conclusions can be drawn about the relationship between landscape heterogeneity and human-carnivore conflicts?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Low-income countries with vast, contiguous wilderness areas are less prone to human-carnivore conflicts because these areas lack the human presence necessary for such encounters."
+        },
+        {
+          "id": "B",
+          "textHtml": "Homogeneous landscapes with uniform agricultural practices are more likely to experience high rates of human-carnivore conflicts due to the predictability of resources."
+        },
+        {
+          "id": "C",
+          "textHtml": "The diversity and interspersion of working landscapes with carnivore habitats in rural areas increase the statistical probability of encounters between humans and carnivores."
+        },
+        {
+          "id": "D",
+          "textHtml": "Landscape heterogeneity, characterized by a mix of farmland and natural habitats, inherently reduces the chances of human-carnivore conflicts by providing more refuge for wildlife away from human activity."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Wilkinson: working landscapes in the Global South are “really heterogeneous… interspersed with carnivore habitats, forests and savannahs, which creates a lot more opportunity for these encounters, just statistically.” This is <strong>C</strong> almost word for word.</p><p><strong>A</strong> (contiguous wilderness in low-income countries) and <strong>B</strong> (homogeneous landscapes) talk about landscapes the passage never discusses. <strong>D</strong> reverses the claim: heterogeneity is said to <em>increase</em> encounters, not reduce them.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-21",
+      "section": "VARC",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, what is a significant factor that contributes to the habituation of carnivores to human presence?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The predatory perception of humans as potential prey within the carnivores’ food chain."
+        },
+        {
+          "id": "B",
+          "textHtml": "The reduction in carnivores’ instinctive fear response, resulting from their reliance upon human-provided food."
+        },
+        {
+          "id": "C",
+          "textHtml": "The natural aggression exhibited by carnivores, exacerbated by human interference, particularly when they are safeguarding their offspring or food sources."
+        },
+        {
+          "id": "D",
+          "textHtml": "The increased scarcity of resources due to climate change, forcing carnivores to venture outside their natural habitats in search of sustenance."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The passage says that as carnivores “become more reliant on human food… they become less avoidant of humans,” losing their “instinctive fear response”. Feeding and close contact make animals “habituated to people”. That is <strong>B</strong>.</p><p><strong>A</strong> describes predatory attacks, a separate driver, which has nothing to do with habituation. <strong>C</strong> describes natural aggression-based conflicts (protecting young or food). <strong>D</strong> describes the possible role of climate change in bringing people and carnivores into contact, not habituation.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-22",
+      "section": "VARC",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd one out",
+      "difficulty": "medium",
+      "stemHtml": "<p>Five jumbled up sentences (labelled 1, 2, 3, 4 and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence and key in the number of that sentence as your answer.</p><ol><li>No known real researcher of human behaviour would say that gender is all nature or all nurture.</li><li>The evidence for a biological basis for gender certainly doesn’t mean we should be complacent in the face of sexism.</li><li>Many people are uncomfortable with the Idea that gender Is not purely a social construct.</li><li>Despite this empirical truth, researchers who study the biological basis of gender often face political pushback.</li><li>There’s a political preference for gender to be only a reflection of social factors and so entirely malleable.</li></ol>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Link:</strong> 4 begins “Despite this empirical truth…”, which must follow 1 (no serious researcher says gender is all nature or all nurture). So 1-4 go together.</p><p><strong>Paragraph:</strong> 1-4-3-5 – the scientific position (1); yet researchers of the biological basis face political pushback (4); because many people are uncomfortable with gender not being purely social (3); since there is a political preference for gender to be entirely social and malleable (5). The theme is the political resistance to biological research on gender.</p><p><strong>Odd one:</strong> 2 moves to a different point – that biological evidence does not justify complacency about sexism. That is a moral caveat, not part of the explanation of the pushback. Answer: <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-23",
+      "section": "VARC",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence placement",
+      "difficulty": "easy",
+      "stemHtml": "<p>There is a sentence that is missing in the paragraph below. Look at the paragraph and decide where (option 1, 2, 3, or 4) the following sentence would best fit.</p><p><strong>Sentence:</strong> Science has officially crowned us superior to our early-rising brethren.</p><p><strong>Paragraph:</strong> My fellow night owls, grab a strong cup of coffee and gather around: I have great news. ___(1)___. For a long time, our kind has been unfairly maligned. Stereotyped as lazy and undisciplined. Told we ought to be morning larks. Advised to go to bed early so we can wake before 5am and run a marathon before breakfast like all high-flyers seem to do. Now, however, we are having the last laugh. ___(2)___. It may be a tad more complicated than that. A study published last week, which you may have already seen while scrolling at 1am, suggests that staying up late could be good for brain power. ___(3)___. Is this study a thinly veiled PR exercise conducted by a caffeine-pill company? Nope, it’s legit. ___(4)___. Research led by academics at Imperial College London studied data on more than 26,000 people and found that “self-declared ‘night owls’ generally tend to have higher cognitive scores”.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The sentence after blank 2 reads “It may be a tad more complicated than that.” “That” needs a bold, simple claim just before it – and the missing sentence is exactly such a claim, delivered with comic exaggeration.</p><p>At <strong>(2)</strong>: “Now, however, we are having the last laugh. Science has officially crowned us superior to our early-rising brethren. It may be a tad more complicated than that.” The “last laugh” is explained, and the overstatement is then playfully toned down.</p><p>At (1) the sentence would come before the writer has described how night owls were maligned, and there is nothing after it for “that” to qualify. At (3) and (4) the writer is already giving the measured version of the finding, so a sweeping “officially crowned us superior” would be out of place. So the answer is <strong>Option 2</strong>, i.e. choice A.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-24",
+      "section": "VARC",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Summary",
+      "difficulty": "easy",
+      "stemHtml": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.</p><p>John Cleese told Fox News Digital that comedians do not have the freedom to be funny in 2022. “There’s always been limitations on what they’re allowed to say,” Cleese said. “I think it’s particularly worrying at the moment because you can only create in an atmosphere of freedom, where you're not checking everything you say critically before you move on. What you have to be able to do is to build without knowing where you’re going because you've never been there before. That’s what creativity is — you have to be allowed to build. And a lot of comedians now are sitting there and when they think of something, they say something like, ‘Can I get away with it? I don’t think so. So and so got into trouble, and he said that, oh, she said that.’ You see what I mean? And that’s the death of creativity.”</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Freedom and creativity are essential for comedy. Fear about offending people hinders originality."
+        },
+        {
+          "id": "B",
+          "textHtml": "Comedians must not check what they think and say. They must go where no one has gone before."
+        },
+        {
+          "id": "C",
+          "textHtml": "Comedians are being prevented from saying what they want and that is the death of this art form."
+        },
+        {
+          "id": "D",
+          "textHtml": "Creativity and critical thinking cannot work together. Comedians must first be creative, and later be critical."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Cleese’s argument: creativity needs freedom to build without self-censoring; today comedians check every idea out of fear of getting into trouble, and that kills creativity. <strong>A</strong> – freedom is essential for creative comedy, and fear of offending stifles originality – captures both halves.</p><p><strong>B</strong> turns the point into a command and adds “go where no one has gone before”, a misreading of a figure of speech. <strong>C</strong> says comedians are actively “prevented” and the art form is dying; Cleese describes self-censorship from fear and the death of <em>creativity</em>. <strong>D</strong> claims creativity and critical thinking can never work together and prescribes an order; Cleese only warns against critically checking everything while creating.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

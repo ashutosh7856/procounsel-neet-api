@@ -1,0 +1,1406 @@
+{
+  "sets": [
+    {
+      "key": "LRS-S1",
+      "kind": "dilr_set",
+      "section": "LRS",
+      "title": "Seven people in a row",
+      "contentHtml": "<p>Seven people — A, B, C, D, E, F and G — sit in a single row of seven seats, all facing North. 'Left' and 'right' are from their own point of view.</p><ul><li>D sits at one of the two ends of the row.</li><li>Exactly two people sit between D and B.</li><li>C sits immediately to the right of B.</li><li>G is an immediate neighbour of D.</li><li>F does not sit next to C.</li><li>Neither A nor F sits at an end of the row.</li><li>E sits somewhere to the right of A.</li></ul>"
+    },
+    {
+      "key": "LRS-S2",
+      "kind": "dilr_set",
+      "section": "LRS",
+      "title": "Training schedule",
+      "contentHtml": "<p>Six employees — J, K, L, M, N and O — each attend one training session on a different day from Monday to Saturday of the same week. The six sessions cover six different modules: Finance, HR, Marketing, Operations, Sales and Tech, one module per session.</p><ul><li>K attends on Wednesday.</li><li>The Finance session is held on the day immediately after J's session.</li><li>K does not attend the Finance session.</li><li>Exactly one person's session falls between M's session and K's session.</li><li>M attends the Tech session.</li><li>The HR session is on Monday.</li><li>N's session is on a later day than O's session.</li><li>The Sales session is on Saturday.</li><li>L attends either the Operations or the Marketing session.</li><li>The Marketing session is held earlier in the week than the Operations session.</li></ul>"
+    },
+    {
+      "key": "LRS-S3",
+      "kind": "dilr_set",
+      "section": "LRS",
+      "title": "Six friends at a round table",
+      "contentHtml": "<p>Six friends — P, Q, R, S, T and U — sit around a circular table at equal distances from one another, all facing the centre. 'Left' and 'right' are from each person's own point of view.</p><ul><li>Q sits second to the right of P.</li><li>S sits directly opposite P.</li><li>T is an immediate neighbour of Q.</li><li>U is not an immediate neighbour of S.</li></ul>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "LRS-01",
+      "section": "LRS",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Series",
+      "subtopic": "Number Series",
+      "difficulty": "easy",
+      "stemHtml": "<p>Find the next number in the series: 3, 7, 15, 31, 63, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "124"
+        },
+        {
+          "id": "B",
+          "textHtml": "131"
+        },
+        {
+          "id": "C",
+          "textHtml": "127"
+        },
+        {
+          "id": "D",
+          "textHtml": "126"
+        },
+        {
+          "id": "E",
+          "textHtml": "129"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Each term is double the previous term plus 1: 3 × 2 + 1 = 7, 7 × 2 + 1 = 15, 15 × 2 + 1 = 31, 31 × 2 + 1 = 63.</p><p>Next term = 63 × 2 + 1 = <strong>127</strong>. (Equivalently, the terms are 2<sup>n</sup> − 1.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-02",
+      "section": "LRS",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Series",
+      "subtopic": "Number Series",
+      "difficulty": "medium",
+      "stemHtml": "<p>Find the next number in the series: 4, 9, 25, 49, 121, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "144"
+        },
+        {
+          "id": "B",
+          "textHtml": "196"
+        },
+        {
+          "id": "C",
+          "textHtml": "143"
+        },
+        {
+          "id": "D",
+          "textHtml": "289"
+        },
+        {
+          "id": "E",
+          "textHtml": "169"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>The terms are squares of consecutive prime numbers: 2<sup>2</sup>, 3<sup>2</sup>, 5<sup>2</sup>, 7<sup>2</sup>, 11<sup>2</sup>.</p><p>The next prime is 13, so the next term is 13<sup>2</sup> = <strong>169</strong>. 144 (12<sup>2</sup>) breaks the prime pattern and 289 (17<sup>2</sup>) skips 13.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-03",
+      "section": "LRS",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Series",
+      "subtopic": "Letter Series",
+      "difficulty": "hard",
+      "stemHtml": "<p>Find the next term in the series: AZ, CX, FU, JQ, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "OL"
+        },
+        {
+          "id": "B",
+          "textHtml": "NL"
+        },
+        {
+          "id": "C",
+          "textHtml": "OK"
+        },
+        {
+          "id": "D",
+          "textHtml": "PL"
+        },
+        {
+          "id": "E",
+          "textHtml": "NM"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>First letters: A(1), C(3), F(6), J(10) — gaps of +2, +3, +4, so next is 10 + 5 = 15 = O.</p><p>Second letters: Z(26), X(24), U(21), Q(17) — gaps of −2, −3, −4, so next is 17 − 5 = 12 = L.</p><p>The next term is <strong>OL</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-04",
+      "section": "LRS",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Analogies",
+      "subtopic": "Word Analogy",
+      "difficulty": "easy",
+      "stemHtml": "<p>Pen : Write :: Knife : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Sharp"
+        },
+        {
+          "id": "B",
+          "textHtml": "Kitchen"
+        },
+        {
+          "id": "C",
+          "textHtml": "Steel"
+        },
+        {
+          "id": "D",
+          "textHtml": "Cut"
+        },
+        {
+          "id": "E",
+          "textHtml": "Blade"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The relation is <em>object : the action it is used for</em>. A pen is used to write; a knife is used to <strong>cut</strong>.</p><p>Sharp is a quality, Kitchen a place, Steel a material and Blade a part of the knife — none is the action.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-05",
+      "section": "LRS",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Analogies",
+      "subtopic": "Number Analogy",
+      "difficulty": "medium",
+      "stemHtml": "<p>6 : 222 :: 4 : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "64"
+        },
+        {
+          "id": "B",
+          "textHtml": "68"
+        },
+        {
+          "id": "C",
+          "textHtml": "72"
+        },
+        {
+          "id": "D",
+          "textHtml": "60"
+        },
+        {
+          "id": "E",
+          "textHtml": "80"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>222 = 6<sup>3</sup> + 6 = 216 + 6.</p><p>Applying the same rule: 4<sup>3</sup> + 4 = 64 + 4 = <strong>68</strong>. (64 alone is just the cube and misses the added number.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-06",
+      "section": "LRS",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Analogies",
+      "subtopic": "Letter Analogy",
+      "difficulty": "hard",
+      "stemHtml": "<p>DFH : WUS :: KMO : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "LNP"
+        },
+        {
+          "id": "B",
+          "textHtml": "PNM"
+        },
+        {
+          "id": "C",
+          "textHtml": "QOM"
+        },
+        {
+          "id": "D",
+          "textHtml": "NPL"
+        },
+        {
+          "id": "E",
+          "textHtml": "PNL"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Each letter is replaced by its 'opposite' letter in the alphabet (the pair positions add up to 27): D(4) ↔ W(23), F(6) ↔ U(21), H(8) ↔ S(19).</p><p>So K(11) → P(16), M(13) → N(14), O(15) → L(12), giving <strong>PNL</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-07",
+      "section": "LRS",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Coding-Decoding",
+      "subtopic": "Letter Shifting",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a certain code, MANGO is written as NBOHP. How is PEACH written in that code?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "QFBDI"
+        },
+        {
+          "id": "B",
+          "textHtml": "OFBDI"
+        },
+        {
+          "id": "C",
+          "textHtml": "QFBCI"
+        },
+        {
+          "id": "D",
+          "textHtml": "QGBDI"
+        },
+        {
+          "id": "E",
+          "textHtml": "RFBDI"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Each letter of MANGO is moved one place forward: M→N, A→B, N→O, G→H, O→P.</p><p>So PEACH becomes P→Q, E→F, A→B, C→D, H→I = <strong>QFBDI</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-08",
+      "section": "LRS",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Coding-Decoding",
+      "subtopic": "Opposite Letters",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a certain code, FISH is written as URHS. How is GOLD written in that code?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "TLWO"
+        },
+        {
+          "id": "B",
+          "textHtml": "TMOW"
+        },
+        {
+          "id": "C",
+          "textHtml": "SLOW"
+        },
+        {
+          "id": "D",
+          "textHtml": "TLOW"
+        },
+        {
+          "id": "E",
+          "textHtml": "ULOW"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Each letter is replaced by its opposite letter (positions add up to 27): F(6) → U(21), I(9) → R(18), S(19) → H(8), H(8) → S(19).</p><p>GOLD: G(7) → T(20), O(15) → L(12), L(12) → O(15), D(4) → W(23) = <strong>TLOW</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-09",
+      "section": "LRS",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Coding-Decoding",
+      "subtopic": "Word Codes",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a certain code language, 'pit na sor' means 'bright red sun', 'na lim ka' means 'red rose garden' and 'ka tup sor' means 'garden sun flower'. What is the code for 'rose'?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "na"
+        },
+        {
+          "id": "B",
+          "textHtml": "ka"
+        },
+        {
+          "id": "C",
+          "textHtml": "lim"
+        },
+        {
+          "id": "D",
+          "textHtml": "sor"
+        },
+        {
+          "id": "E",
+          "textHtml": "tup"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>'red' appears in the first two sentences and 'na' is the only code common to them, so red = na.</p><p>'garden' appears in the last two and 'ka' is common to them, so garden = ka. Similarly sun = sor (first and third).</p><p>In 'na lim ka' = 'red rose garden', the remaining code <strong>lim</strong> must mean rose.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-10",
+      "section": "LRS",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Blood Relations",
+      "subtopic": "Family Tree",
+      "difficulty": "easy",
+      "stemHtml": "<p>Pointing to a girl in a photograph, Ravi says, \"She is the daughter of the only son of my paternal grandfather.\" How is the girl related to Ravi?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Cousin"
+        },
+        {
+          "id": "B",
+          "textHtml": "Sister"
+        },
+        {
+          "id": "C",
+          "textHtml": "Niece"
+        },
+        {
+          "id": "D",
+          "textHtml": "Mother"
+        },
+        {
+          "id": "E",
+          "textHtml": "Aunt"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The only son of Ravi's paternal grandfather is Ravi's father.</p><p>The daughter of Ravi's father is Ravi's <strong>sister</strong>. She cannot be a cousin, because the grandfather has no other son.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-11",
+      "section": "LRS",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Blood Relations",
+      "subtopic": "Coded Relations",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a certain code, 'A + B' means 'A is the father of B', 'A − B' means 'A is the wife of B', 'A × B' means 'A is the brother of B' and 'A ÷ B' means 'A is the daughter of B'. If P ÷ Q − R × S, how is P related to S?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Daughter"
+        },
+        {
+          "id": "B",
+          "textHtml": "Sister"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cousin"
+        },
+        {
+          "id": "D",
+          "textHtml": "Granddaughter"
+        },
+        {
+          "id": "E",
+          "textHtml": "Niece"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>P ÷ Q: P is the daughter of Q. Q − R: Q is the wife of R, so R is P's father. R × S: R is the brother of S.</p><p>So S is a sibling of P's father, and P (a daughter) is S's <strong>niece</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-12",
+      "section": "LRS",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Direction Sense",
+      "subtopic": "Distance and Direction",
+      "difficulty": "medium",
+      "stemHtml": "<p>Kiran walks 10 km towards North, turns right and walks 6 km, turns right again and walks 18 km, and finally turns left and walks 2 km. How far is she from her starting point, and in which direction?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8√2 km, South-East"
+        },
+        {
+          "id": "B",
+          "textHtml": "8√2 km, North-East"
+        },
+        {
+          "id": "C",
+          "textHtml": "16 km, South"
+        },
+        {
+          "id": "D",
+          "textHtml": "10 km, South-East"
+        },
+        {
+          "id": "E",
+          "textHtml": "8 km, South-West"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Take the start as (0, 0). 10 km North → (0, 10). Right turn = East, 6 km → (6, 10). Right turn = South, 18 km → (6, −8). Left turn while facing South = East, 2 km → (8, −8).</p><p>She is 8 km East and 8 km South of the start: distance = √(8<sup>2</sup> + 8<sup>2</sup>) = <strong>8√2 km, South-East</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-13",
+      "section": "LRS",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Direction Sense",
+      "subtopic": "Shadows",
+      "difficulty": "medium",
+      "stemHtml": "<p>One morning shortly after sunrise, Neha was standing facing a pole. The shadow of the pole fell exactly to her right. Which direction was she facing?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "North"
+        },
+        {
+          "id": "B",
+          "textHtml": "East"
+        },
+        {
+          "id": "C",
+          "textHtml": "South"
+        },
+        {
+          "id": "D",
+          "textHtml": "West"
+        },
+        {
+          "id": "E",
+          "textHtml": "North-West"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Shortly after sunrise the sun is in the East, so shadows fall towards the West.</p><p>The shadow is to her right, so her right hand points West. A person whose right is West is facing <strong>South</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-14",
+      "section": "LRS",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Deductive Reasoning",
+      "subtopic": "Syllogisms",
+      "difficulty": "easy",
+      "stemHtml": "<p><em>Directions: Read the statements and the two conclusions that follow. Take the statements to be true even if they seem to differ from commonly known facts, and decide which conclusion(s) logically follow.</em></p><p><strong>Statements:</strong> All roses are flowers. Some flowers are red.</p><p><strong>Conclusions:</strong></p><p>I. Some roses are red.</p><p>II. Some flowers are roses.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either conclusion I or conclusion II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor conclusion II follows"
+        },
+        {
+          "id": "E",
+          "textHtml": "Both conclusions I and II follow"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>I:</strong> The red flowers may lie entirely outside the roses, so 'some roses are red' is possible but not certain — it does not follow.</p><p><strong>II:</strong> 'All roses are flowers' converts to 'some flowers are roses' — it follows.</p><p>Hence <strong>only II</strong> follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-15",
+      "section": "LRS",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Deductive Reasoning",
+      "subtopic": "Syllogisms",
+      "difficulty": "medium",
+      "stemHtml": "<p><em>Directions: Read the statements and the two conclusions that follow. Take the statements to be true even if they seem to differ from commonly known facts, and decide which conclusion(s) logically follow.</em></p><p><strong>Statements:</strong> No cat is a dog. All dogs are animals.</p><p><strong>Conclusions:</strong></p><p>I. Some animals are not cats.</p><p>II. No animal is a cat.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either conclusion I or conclusion II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor conclusion II follows"
+        },
+        {
+          "id": "E",
+          "textHtml": "Both conclusions I and II follow"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>I:</strong> All dogs are animals and no dog is a cat, so the animals that are dogs are not cats — 'some animals are not cats' follows.</p><p><strong>II:</strong> Cats could still be animals (outside the dog region); nothing rules this out, so II does not follow.</p><p>Hence <strong>only I</strong> follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-16",
+      "section": "LRS",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Deductive Reasoning",
+      "subtopic": "Syllogisms",
+      "difficulty": "medium",
+      "stemHtml": "<p><em>Directions: Read the statements and the two conclusions that follow. Take the statements to be true even if they seem to differ from commonly known facts, and decide which conclusion(s) logically follow.</em></p><p><strong>Statements:</strong> Some pens are books. Some books are pencils.</p><p><strong>Conclusions:</strong></p><p>I. Some pens are pencils.</p><p>II. No pen is a pencil.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either conclusion I or conclusion II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor conclusion II follows"
+        },
+        {
+          "id": "E",
+          "textHtml": "Both conclusions I and II follow"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Neither conclusion follows definitely: the pens and pencils may or may not overlap, because the two 'some' statements share only the term 'books'.</p><p>However, I ('some pens are pencils') and II ('no pen is a pencil') are about the same two terms and are exact contradictories — exactly one of them must be true.</p><p>Hence <strong>either I or II</strong> follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-17",
+      "section": "LRS",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Statement and Conclusion",
+      "subtopic": "Conclusions",
+      "difficulty": "easy",
+      "stemHtml": "<p><em>Directions: Read the statements and the two conclusions that follow. Take the statements to be true even if they seem to differ from commonly known facts, and decide which conclusion(s) logically follow.</em></p><p><strong>Statements:</strong> Every employee of the firm who completed the safety course received a bonus this year. Arjun, an employee of the firm, completed the safety course this year.</p><p><strong>Conclusions:</strong></p><p>I. Arjun received a bonus this year.</p><p>II. At least one employee of the firm who completed the safety course received a bonus this year.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either conclusion I or conclusion II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor conclusion II follows"
+        },
+        {
+          "id": "E",
+          "textHtml": "Both conclusions I and II follow"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>I:</strong> Arjun belongs to the group 'employees who completed the course', all of whom received a bonus — it follows.</p><p><strong>II:</strong> Arjun himself is such an employee and received a bonus, so at least one did — it follows.</p><p>Hence <strong>both</strong> follow.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-18",
+      "section": "LRS",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Statement and Conclusion",
+      "subtopic": "Conclusions",
+      "difficulty": "medium",
+      "stemHtml": "<p><em>Directions: Read the statements and the two conclusions that follow. Take the statements to be true even if they seem to differ from commonly known facts, and decide which conclusion(s) logically follow.</em></p><p><strong>Statement:</strong> Of the students who attended a free evening coaching programme, 80% cleared the entrance test, compared with 45% of the students who did not attend it.</p><p><strong>Conclusions:</strong></p><p>I. The coaching programme alone caused the higher success rate.</p><p>II. Every student who attended the coaching programme cleared the entrance test.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either conclusion I or conclusion II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor conclusion II follows"
+        },
+        {
+          "id": "E",
+          "textHtml": "Both conclusions I and II follow"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>I:</strong> The statement shows an association, not a cause. Students who chose to attend may have been more motivated or better prepared to begin with, so 'alone caused' does not follow.</p><p><strong>II:</strong> Only 80% of attendees cleared, so II is actually contradicted.</p><p>Hence <strong>neither</strong> follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-19",
+      "section": "LRS",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Assumption",
+      "difficulty": "medium",
+      "stemHtml": "<p>The municipal council of a hill town plans to cut the number of road accidents at the busy Clock Tower junction by installing traffic signals there. The council's engineer argues that since most accidents at the junction happen when vehicles from different roads enter it at the same time, signals that allow only one stream of traffic to move at a time will sharply reduce accidents.</p><p>Which of the following is an assumption on which the engineer's argument depends?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Traffic signals are cheaper to install than a roundabout."
+        },
+        {
+          "id": "B",
+          "textHtml": "The number of vehicles using the junction will fall after the signals are installed."
+        },
+        {
+          "id": "C",
+          "textHtml": "Accidents at other junctions in the town are mainly caused by speeding."
+        },
+        {
+          "id": "D",
+          "textHtml": "Most drivers at the junction will obey the signals rather than ignore them."
+        },
+        {
+          "id": "E",
+          "textHtml": "No accidents at all will occur at the junction once the signals are in place."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The plan works only if vehicles actually stop when their signal is red. If most drivers ignored the signals, streams would still enter together and accidents would not fall. So the argument depends on <strong>D</strong> (negating it destroys the conclusion).</p><p>A compares costs, which the argument does not discuss. B is not needed — the argument works even if traffic volume is unchanged. C concerns other junctions. E is too strong: the engineer claims a sharp reduction, not zero accidents.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-20",
+      "section": "LRS",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Weaken",
+      "difficulty": "medium",
+      "stemHtml": "<p>After a software firm replaced its old office chairs with ergonomic ones at the start of the third quarter, the average number of tasks completed per employee rose by 15% compared with the second quarter. The management concluded that the new chairs made employees more productive.</p><p>Which of the following, if true, most seriously weakens the management's conclusion?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Occupational health experts generally recommend ergonomic chairs for desk workers."
+        },
+        {
+          "id": "B",
+          "textHtml": "At the start of the third quarter, the firm also began paying employees a bonus for every task completed."
+        },
+        {
+          "id": "C",
+          "textHtml": "A few employees said they found the new chairs uncomfortable during the first week."
+        },
+        {
+          "id": "D",
+          "textHtml": "Several of the firm's competitors also use ergonomic chairs."
+        },
+        {
+          "id": "E",
+          "textHtml": "The number of employees at the firm was the same in both quarters."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> gives a strong alternative cause that began at exactly the same time: a per-task bonus directly rewards completing more tasks, so the 15% rise may have nothing to do with the chairs.</p><p>A slightly supports the conclusion. C describes a few employees for one week and hardly affects a quarter's average. D is irrelevant to this firm's result. E rules out one alternative explanation and so, if anything, strengthens the conclusion.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-21",
+      "section": "LRS",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Strengthen",
+      "difficulty": "medium",
+      "stemHtml": "<p>In the year after the city of Ranipur opened 40 km of protected bicycle lanes, the share of commuters who drove to work fell from 38% to 33%. City planners claim that the bicycle lanes caused the fall.</p><p>Which of the following, if true, most strengthens the planners' claim?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Many commuters in Ranipur own both a car and a bicycle."
+        },
+        {
+          "id": "B",
+          "textHtml": "The bicycle lanes were built at a lower cost than had been budgeted."
+        },
+        {
+          "id": "C",
+          "textHtml": "Fuel prices in Ranipur rose sharply during the same year."
+        },
+        {
+          "id": "D",
+          "textHtml": "Some commuters who stopped driving to work now travel by the city's buses."
+        },
+        {
+          "id": "E",
+          "textHtml": "In neighbouring cities with similar fuel prices and economic conditions but no new bicycle lanes, the share of commuters who drove to work did not change."
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>E</strong> works like a control group: comparable cities facing the same fuel prices and economy but without new lanes saw no fall, which makes the lanes the most likely cause.</p><p>A is neutral. B concerns cost, not effect. C offers a rival explanation and weakens the claim. D suggests some former drivers switched to buses rather than bicycles, which weakens rather than supports the claim.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-22",
+      "section": "LRS",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>Every trainee at Horizon Bank who scored above 80 in the final assessment was offered a permanent role. Some trainees who were offered a permanent role had not completed the optional finance module. Meera, a trainee, completed the optional finance module but was not offered a permanent role.</p><p>If the statements above are true, which of the following must also be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Meera did not score above 80 in the final assessment."
+        },
+        {
+          "id": "B",
+          "textHtml": "Completing the optional finance module lowers a trainee's assessment score."
+        },
+        {
+          "id": "C",
+          "textHtml": "Every trainee who was offered a permanent role scored above 80."
+        },
+        {
+          "id": "D",
+          "textHtml": "Some trainees who scored above 80 had not completed the optional finance module."
+        },
+        {
+          "id": "E",
+          "textHtml": "No trainee who completed the optional finance module was offered a permanent role."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>'Score above 80 → offered a role.' Meera was not offered a role, so by the contrapositive she cannot have scored above 80: <strong>A</strong> must be true.</p><p>B invents a causal link. C reverses the rule — others may have been offered roles for other reasons. D need not be true: the trainees without the module who got roles might have scored 80 or below. E is not supported; trainees who completed the module may well have been offered roles — Meera is just one case.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-23",
+      "section": "LRS",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Paradox",
+      "difficulty": "medium",
+      "stemHtml": "<p>After a district health department began using a new, faster diagnostic test for a certain fever, the number of reported cases in the district rose by 60% within a year. Yet the department maintains that the fever is not spreading any faster than before.</p><p>Which of the following, if true, best reconciles the rise in reported cases with the department's position?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The new test is more expensive than the old one."
+        },
+        {
+          "id": "B",
+          "textHtml": "Neighbouring districts also reported a rise in cases during the year."
+        },
+        {
+          "id": "C",
+          "textHtml": "The new test identifies mild cases that the old test often missed, and such patients were earlier not counted."
+        },
+        {
+          "id": "D",
+          "textHtml": "Most patients with the fever recover within two weeks."
+        },
+        {
+          "id": "E",
+          "textHtml": "The fever is more common during the monsoon months than in winter."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> explains how reported cases can rise without more actual infections: the old test missed mild cases, so the rise reflects better detection rather than faster spread.</p><p>A is about cost. B, if anything, suggests the fever really is spreading. D concerns recovery, not the number of cases. E describes a seasonal pattern that would affect both years alike, so it cannot explain a year-on-year rise.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-24",
+      "section": "LRS",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Flaw",
+      "difficulty": "easy",
+      "stemHtml": "<p>\"Every one of the twelve successful start-up founders I interviewed wakes up before 6 a.m. Clearly, anyone who wants to build a successful start-up should start waking up before 6 a.m.\"</p><p>Which of the following best describes the flaw in this reasoning?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It relies on the opinions of people who are not experts."
+        },
+        {
+          "id": "B",
+          "textHtml": "It treats a habit shared by some successful founders as a cause of their success, without checking whether unsuccessful founders share the same habit."
+        },
+        {
+          "id": "C",
+          "textHtml": "It uses a sample of founders that is too large to be meaningful."
+        },
+        {
+          "id": "D",
+          "textHtml": "It assumes that waking up early is harmful to health."
+        },
+        {
+          "id": "E",
+          "textHtml": "It fails to define what a start-up is."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The speaker sees a common trait among successful founders and concludes that adopting the trait will produce success. Without comparing unsuccessful founders (who may also wake early), the habit cannot be shown to cause success — this is <strong>B</strong>.</p><p>A is wrong because the argument uses the founders' behaviour, not their opinions. C is the opposite of any real concern (twelve is small, not large). D is not assumed. E is not the logical gap.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-25",
+      "section": "LRS",
+      "number": 25,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Evaluate the Argument",
+      "difficulty": "hard",
+      "stemHtml": "<p>A packaged-food company plans to reduce the sugar content of its best-selling breakfast cereal by 30%. It argues that this will increase the cereal's sales, because consumers are becoming more health-conscious.</p><p>The answer to which of the following questions would be most useful in evaluating the company's argument?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "How many other products does the company sell?"
+        },
+        {
+          "id": "B",
+          "textHtml": "Has the company's advertising agency handled health-food brands before?"
+        },
+        {
+          "id": "C",
+          "textHtml": "How does the price of sugar compare with that of the cereal's other ingredients?"
+        },
+        {
+          "id": "D",
+          "textHtml": "Will the cereal's regular buyers keep buying it if it tastes noticeably less sweet?"
+        },
+        {
+          "id": "E",
+          "textHtml": "In which year was the cereal first launched?"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Sales will rise only if new health-conscious buyers are gained <em>and</em> existing buyers are not lost. If regular buyers abandon a less sweet cereal, sales could fall despite the health trend. So the answer to <strong>D</strong> bears directly on the conclusion.</p><p>A and E are irrelevant to this cereal's sales. B concerns marketing capability only indirectly. C affects cost and profit, not sales volume.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-26",
+      "section": "LRS",
+      "number": 26,
+      "type": "MCQ",
+      "setKey": "LRS-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who sits at the extreme right end of the row?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "A"
+        },
+        {
+          "id": "B",
+          "textHtml": "C"
+        },
+        {
+          "id": "C",
+          "textHtml": "G"
+        },
+        {
+          "id": "D",
+          "textHtml": "D"
+        },
+        {
+          "id": "E",
+          "textHtml": "E"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1 to 7 from left to right): D is at seat 1 or 7 with exactly two people between D and B, so (D, B) is (1, 4) or (7, 4). C is immediately right of B, so C is at 5.</p><p>If D were at 7, G would be at 6 and seats 1, 2, 3 would hold A, E and F. Since neither A nor F may sit at an end, E would have to take seat 1 — but E must sit to the right of A, a contradiction. So D = 1, G = 2, B = 4, C = 5.</p><p>F is not at an end and not next to C (seat 6), so F = 3. A then takes 6 (not an end) and E takes 7, which is to the right of A. Final row: <strong>D G F B C A E</strong>.</p><p>Seat 7 (the right end) is occupied by <strong>E</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-27",
+      "section": "LRS",
+      "number": 27,
+      "type": "MCQ",
+      "setKey": "LRS-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many people sit between G and A?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "1"
+        },
+        {
+          "id": "E",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1 to 7 from left to right): D is at seat 1 or 7 with exactly two people between D and B, so (D, B) is (1, 4) or (7, 4). C is immediately right of B, so C is at 5.</p><p>If D were at 7, G would be at 6 and seats 1, 2, 3 would hold A, E and F. Since neither A nor F may sit at an end, E would have to take seat 1 — but E must sit to the right of A, a contradiction. So D = 1, G = 2, B = 4, C = 5.</p><p>F is not at an end and not next to C (seat 6), so F = 3. A then takes 6 (not an end) and E takes 7, which is to the right of A. Final row: <strong>D G F B C A E</strong>.</p><p>G is at seat 2 and A at seat 6; F, B and C sit between them — <strong>3</strong> people.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-28",
+      "section": "LRS",
+      "number": 28,
+      "type": "MCQ",
+      "setKey": "LRS-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "easy",
+      "stemHtml": "<p>Who sits exactly in the middle of the row?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "F"
+        },
+        {
+          "id": "B",
+          "textHtml": "B"
+        },
+        {
+          "id": "C",
+          "textHtml": "C"
+        },
+        {
+          "id": "D",
+          "textHtml": "G"
+        },
+        {
+          "id": "E",
+          "textHtml": "A"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1 to 7 from left to right): D is at seat 1 or 7 with exactly two people between D and B, so (D, B) is (1, 4) or (7, 4). C is immediately right of B, so C is at 5.</p><p>If D were at 7, G would be at 6 and seats 1, 2, 3 would hold A, E and F. Since neither A nor F may sit at an end, E would have to take seat 1 — but E must sit to the right of A, a contradiction. So D = 1, G = 2, B = 4, C = 5.</p><p>F is not at an end and not next to C (seat 6), so F = 3. A then takes 6 (not an end) and E takes 7, which is to the right of A. Final row: <strong>D G F B C A E</strong>.</p><p>The middle seat (seat 4) is occupied by <strong>B</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-29",
+      "section": "LRS",
+      "number": 29,
+      "type": "MCQ",
+      "setKey": "LRS-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following pairs sit next to each other?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "G and B"
+        },
+        {
+          "id": "B",
+          "textHtml": "A and B"
+        },
+        {
+          "id": "C",
+          "textHtml": "F and B"
+        },
+        {
+          "id": "D",
+          "textHtml": "D and F"
+        },
+        {
+          "id": "E",
+          "textHtml": "C and E"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1 to 7 from left to right): D is at seat 1 or 7 with exactly two people between D and B, so (D, B) is (1, 4) or (7, 4). C is immediately right of B, so C is at 5.</p><p>If D were at 7, G would be at 6 and seats 1, 2, 3 would hold A, E and F. Since neither A nor F may sit at an end, E would have to take seat 1 — but E must sit to the right of A, a contradiction. So D = 1, G = 2, B = 4, C = 5.</p><p>F is not at an end and not next to C (seat 6), so F = 3. A then takes 6 (not an end) and E takes 7, which is to the right of A. Final row: <strong>D G F B C A E</strong>.</p><p>F (seat 3) and B (seat 4) are neighbours: <strong>F and B</strong>. The other pairs are separated: G–B (2, 4), A–B (6, 4), D–F (1, 3), C–E (5, 7).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-30",
+      "section": "LRS",
+      "number": 30,
+      "type": "MCQ",
+      "setKey": "LRS-S2",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who attends the Finance session?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "J"
+        },
+        {
+          "id": "B",
+          "textHtml": "K"
+        },
+        {
+          "id": "C",
+          "textHtml": "N"
+        },
+        {
+          "id": "D",
+          "textHtml": "O"
+        },
+        {
+          "id": "E",
+          "textHtml": "L"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Solving the schedule:</strong> K is on Wednesday, so M (one session between them) is on Monday or Friday. Monday is HR and M takes Tech, so M is on Friday (Tech).</p><p>Finance cannot be Monday (HR), Friday (Tech) or Saturday (Sales), and not Wednesday (K does not take Finance), so it is Tuesday or Thursday. If Finance were Thursday, J would be on Wednesday — K's day. So Finance is Tuesday and J is on Monday (HR).</p><p>Marketing and Operations are left for Wednesday and Thursday; since Marketing comes first, K takes Marketing (Wednesday) and Thursday is Operations, which must be L. O and N take Tuesday and Saturday, and N is later, so O is Tuesday (Finance) and N is Saturday (Sales).</p><p>Final schedule: <strong>Mon J–HR, Tue O–Finance, Wed K–Marketing, Thu L–Operations, Fri M–Tech, Sat N–Sales</strong>.</p><p>The Finance session (Tuesday) is attended by <strong>O</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-31",
+      "section": "LRS",
+      "number": 31,
+      "type": "MCQ",
+      "setKey": "LRS-S2",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "medium",
+      "stemHtml": "<p>On which day does L attend a session?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Monday"
+        },
+        {
+          "id": "B",
+          "textHtml": "Tuesday"
+        },
+        {
+          "id": "C",
+          "textHtml": "Wednesday"
+        },
+        {
+          "id": "D",
+          "textHtml": "Friday"
+        },
+        {
+          "id": "E",
+          "textHtml": "Thursday"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>Solving the schedule:</strong> K is on Wednesday, so M (one session between them) is on Monday or Friday. Monday is HR and M takes Tech, so M is on Friday (Tech).</p><p>Finance cannot be Monday (HR), Friday (Tech) or Saturday (Sales), and not Wednesday (K does not take Finance), so it is Tuesday or Thursday. If Finance were Thursday, J would be on Wednesday — K's day. So Finance is Tuesday and J is on Monday (HR).</p><p>Marketing and Operations are left for Wednesday and Thursday; since Marketing comes first, K takes Marketing (Wednesday) and Thursday is Operations, which must be L. O and N take Tuesday and Saturday, and N is later, so O is Tuesday (Finance) and N is Saturday (Sales).</p><p>Final schedule: <strong>Mon J–HR, Tue O–Finance, Wed K–Marketing, Thu L–Operations, Fri M–Tech, Sat N–Sales</strong>.</p><p>L attends Operations on <strong>Thursday</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-32",
+      "section": "LRS",
+      "number": 32,
+      "type": "MCQ",
+      "setKey": "LRS-S2",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which module does K attend?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Marketing"
+        },
+        {
+          "id": "B",
+          "textHtml": "Operations"
+        },
+        {
+          "id": "C",
+          "textHtml": "HR"
+        },
+        {
+          "id": "D",
+          "textHtml": "Sales"
+        },
+        {
+          "id": "E",
+          "textHtml": "Tech"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Solving the schedule:</strong> K is on Wednesday, so M (one session between them) is on Monday or Friday. Monday is HR and M takes Tech, so M is on Friday (Tech).</p><p>Finance cannot be Monday (HR), Friday (Tech) or Saturday (Sales), and not Wednesday (K does not take Finance), so it is Tuesday or Thursday. If Finance were Thursday, J would be on Wednesday — K's day. So Finance is Tuesday and J is on Monday (HR).</p><p>Marketing and Operations are left for Wednesday and Thursday; since Marketing comes first, K takes Marketing (Wednesday) and Thursday is Operations, which must be L. O and N take Tuesday and Saturday, and N is later, so O is Tuesday (Finance) and N is Saturday (Sales).</p><p>Final schedule: <strong>Mon J–HR, Tue O–Finance, Wed K–Marketing, Thu L–Operations, Fri M–Tech, Sat N–Sales</strong>.</p><p>K attends <strong>Marketing</strong> on Wednesday.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-33",
+      "section": "LRS",
+      "number": 33,
+      "type": "MCQ",
+      "setKey": "LRS-S2",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Whose session is held on the day immediately before M's session?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "K"
+        },
+        {
+          "id": "B",
+          "textHtml": "L"
+        },
+        {
+          "id": "C",
+          "textHtml": "N"
+        },
+        {
+          "id": "D",
+          "textHtml": "O"
+        },
+        {
+          "id": "E",
+          "textHtml": "J"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the schedule:</strong> K is on Wednesday, so M (one session between them) is on Monday or Friday. Monday is HR and M takes Tech, so M is on Friday (Tech).</p><p>Finance cannot be Monday (HR), Friday (Tech) or Saturday (Sales), and not Wednesday (K does not take Finance), so it is Tuesday or Thursday. If Finance were Thursday, J would be on Wednesday — K's day. So Finance is Tuesday and J is on Monday (HR).</p><p>Marketing and Operations are left for Wednesday and Thursday; since Marketing comes first, K takes Marketing (Wednesday) and Thursday is Operations, which must be L. O and N take Tuesday and Saturday, and N is later, so O is Tuesday (Finance) and N is Saturday (Sales).</p><p>Final schedule: <strong>Mon J–HR, Tue O–Finance, Wed K–Marketing, Thu L–Operations, Fri M–Tech, Sat N–Sales</strong>.</p><p>M is on Friday; Thursday's session belongs to <strong>L</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-34",
+      "section": "LRS",
+      "number": 34,
+      "type": "MCQ",
+      "setKey": "LRS-S3",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "easy",
+      "stemHtml": "<p>Who sits directly opposite R?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P"
+        },
+        {
+          "id": "B",
+          "textHtml": "Q"
+        },
+        {
+          "id": "C",
+          "textHtml": "U"
+        },
+        {
+          "id": "D",
+          "textHtml": "T"
+        },
+        {
+          "id": "E",
+          "textHtml": "S"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Going round the table from P towards P's right, label the seats: P, 1st right, 2nd right, opposite, 2nd left, 1st left.</p><p>Q is second to P's right and S is opposite P. Q's two neighbours are therefore the seat immediately to P's right and S's seat; since S is not T, T sits immediately to P's right.</p><p>The two seats left are 2nd left of P (next to S) and 1st left of P. U cannot sit next to S, so U is immediately to P's left and R is second to P's left (next to S).</p><p>Order going to the right from P: <strong>P, T, Q, S, R, U</strong> (U is back next to P). Equivalently, going to P's left: P, U, R, S, Q, T.</p><p>Going round from R, the seats are R, S, Q, T — the third seat away (directly opposite) is <strong>T</strong>, who sits immediately to P's right.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-35",
+      "section": "LRS",
+      "number": 35,
+      "type": "MCQ",
+      "setKey": "LRS-S3",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who sits immediately to the left of P?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "T"
+        },
+        {
+          "id": "B",
+          "textHtml": "R"
+        },
+        {
+          "id": "C",
+          "textHtml": "U"
+        },
+        {
+          "id": "D",
+          "textHtml": "Q"
+        },
+        {
+          "id": "E",
+          "textHtml": "S"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Going round the table from P towards P's right, label the seats: P, 1st right, 2nd right, opposite, 2nd left, 1st left.</p><p>Q is second to P's right and S is opposite P. Q's two neighbours are therefore the seat immediately to P's right and S's seat; since S is not T, T sits immediately to P's right.</p><p>The two seats left are 2nd left of P (next to S) and 1st left of P. U cannot sit next to S, so U is immediately to P's left and R is second to P's left (next to S).</p><p>Order going to the right from P: <strong>P, T, Q, S, R, U</strong> (U is back next to P). Equivalently, going to P's left: P, U, R, S, Q, T.</p><p>The person immediately to P's left is <strong>U</strong>. (T is immediately to P's right.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRS-36",
+      "section": "LRS",
+      "number": 36,
+      "type": "MCQ",
+      "setKey": "LRS-S3",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Circular Arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>Who sits second to the left of Q?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "R"
+        },
+        {
+          "id": "B",
+          "textHtml": "T"
+        },
+        {
+          "id": "C",
+          "textHtml": "U"
+        },
+        {
+          "id": "D",
+          "textHtml": "S"
+        },
+        {
+          "id": "E",
+          "textHtml": "P"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Going round the table from P towards P's right, label the seats: P, 1st right, 2nd right, opposite, 2nd left, 1st left.</p><p>Q is second to P's right and S is opposite P. Q's two neighbours are therefore the seat immediately to P's right and S's seat; since S is not T, T sits immediately to P's right.</p><p>The two seats left are 2nd left of P (next to S) and 1st left of P. U cannot sit next to S, so U is immediately to P's left and R is second to P's left (next to S).</p><p>Order going to the right from P: <strong>P, T, Q, S, R, U</strong> (U is back next to P). Equivalently, going to P's left: P, U, R, S, Q, T.</p><p>Facing the centre, Q's immediate left is T (moving back towards P), and the next seat in that direction is P. So <strong>P</strong> is second to the left of Q. (R is second to Q's right.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (NMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

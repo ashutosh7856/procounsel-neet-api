@@ -1,0 +1,636 @@
+{
+  "examId": "cat",
+  "version": 1,
+  "updatedAt": "2026-11-13",
+  "about": "CAT syllabus map (section -> topic -> subtopic) with concept notes written by ProCounsel. Topics follow the question bank's topic labels; 'match' lists lowercase keywords that map the bank's free-text subtopics onto a syllabus subtopic (see api/mba/syllabus.py). Notes are general maths/verbal concepts, not official exam facts.",
+  "sections": [
+    {
+      "id": "VARC",
+      "title": "Verbal Ability & Reading Comprehension",
+      "topics": [
+        {
+          "id": "rc",
+          "title": "Reading Comprehension",
+          "bankTopics": ["Reading Comprehension"],
+          "subtopics": [
+            {
+              "id": "rc-main-idea",
+              "title": "Main idea, purpose & structure",
+              "match": ["main idea", "main claim", "main conclusion", "central idea", "summary", "primary purpose", "purpose", "structure", "theme", "paragraph"],
+              "notes": [
+                "The main idea is the one claim the whole passage supports. Test each option against every paragraph, not just the first or the last.",
+                "Options that are true but cover only one paragraph are too narrow; options that go beyond what the passage discusses are too broad.",
+                "For purpose questions, ask why the author wrote the passage: to argue, explain, compare, criticise or describe.",
+                "Map the passage as you read: one line per paragraph noting its job (claim, example, counter-view, conclusion).",
+                "A good summary keeps the author's stance and hedges (\"may\", \"some\", \"often\") intact."
+              ]
+            },
+            {
+              "id": "rc-inference",
+              "title": "Inference & implication",
+              "match": ["inference", "implication", "consistent", "paraphrase", "meaning of", "true statement"],
+              "notes": [
+                "An inference must follow from the passage without outside knowledge: a small, safe step beyond what is stated.",
+                "Prefer cautious options. Extreme words (always, never, only, all) need explicit support in the text.",
+                "A faithful paraphrase of the passage is a valid answer to \"which can be inferred\".",
+                "Eliminate options that sound true in real life but are not supported by the passage.",
+                "\"Consistent with the passage\" means nothing in the text contradicts it; it need not be stated outright."
+              ]
+            },
+            {
+              "id": "rc-detail",
+              "title": "Specific detail & EXCEPT questions",
+              "match": ["detail", "specific", "fact", "except", "not true", "(not)", "keyword", "reference"],
+              "notes": [
+                "Find the question's keyword in the passage and read two or three lines around it before choosing.",
+                "The right option usually paraphrases the text. An option that copies exact words but changes a relation (cause/effect, more/less) is a trap.",
+                "In EXCEPT/NOT questions three options are supported. Check each against the passage and pick the one that is not.",
+                "Mark the options you have already verified so you do not reread the passage again and again."
+              ]
+            },
+            {
+              "id": "rc-tone",
+              "title": "Author's view & tone",
+              "match": ["author", "tone", "attitude", "position"],
+              "notes": [
+                "Separate the author's own opinion from views the author only reports (\"critics argue\", \"some believe\").",
+                "Tone words come in degrees (critical, sceptical, ambivalent, neutral, appreciative). Match the strength as well as the direction.",
+                "Evaluative words such as unfortunately, merely, rightly or overstated reveal the author's stance.",
+                "Academic passages are rarely extreme: options like \"scathing\" or \"euphoric\" are usually wrong unless the language is clearly that strong."
+              ]
+            },
+            {
+              "id": "rc-strengthen",
+              "title": "Strengthen, weaken & assumptions",
+              "match": ["strengthen", "weaken", "assumption", "contradict", "critical reasoning"],
+              "notes": [
+                "First identify the conclusion and the evidence. A strengthener closes the gap between them; a weakener widens it.",
+                "An assumption is an unstated premise the argument needs. Negate the option: if the argument falls apart, it is the assumption.",
+                "Ignore options that are about the topic but not about the specific link in the argument.",
+                "A weakener need not disprove the conclusion; it only has to make it less likely."
+              ]
+            },
+            {
+              "id": "rc-application",
+              "title": "Function, examples & application",
+              "match": ["function", "example", "purpose of", "application", "analogy", "extension", "comparison", "odd pair"],
+              "notes": [
+                "For \"the author mentions X in order to\", find the claim X supports. Examples exist to illustrate, support or counter a point.",
+                "Application and analogy questions: reduce the passage's idea to an abstract pattern, then pick the option with the same pattern.",
+                "Ignore surface similarity (same subject matter) and match the logical structure instead.",
+                "\"The author would most likely agree\" questions stay within the passage's line of reasoning; do not extend it further than the author does."
+              ]
+            },
+            {
+              "id": "rc-vocab",
+              "title": "Vocabulary in context",
+              "match": ["vocabulary", "word in context", "meaning in context", "figurative", "(term)"],
+              "notes": [
+                "Words are tested in the sense the passage uses, which is often not the most common dictionary meaning.",
+                "Re-read the full sentence and substitute each option; the right one keeps the sentence's meaning and tone.",
+                "Use signal words (but, however, thus, similarly) to work out an unfamiliar word from its contrast or continuation.",
+                "Build vocabulary by reading editorials and long-form essays and noting new words with their sentences, not as isolated lists."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "va",
+          "title": "Verbal Ability",
+          "bankTopics": ["Verbal Ability"],
+          "subtopics": [
+            {
+              "id": "va-parajumbles",
+              "title": "Para jumbles",
+              "match": ["para jumble", "jumble", "sentence ordering"],
+              "notes": [
+                "Find a mandatory pair first: a sentence with a pronoun (this, they, such) or a connector (however, therefore) must follow the sentence it refers to.",
+                "The opening sentence introduces the topic and usually does not start with a pronoun or a connector.",
+                "Look for an order: chronology, general to specific, or problem → explanation → solution.",
+                "Once two or three links are fixed, build the sequence around them instead of testing every order.",
+                "When there are no options to check against, re-read your final sequence once as a paragraph."
+              ]
+            },
+            {
+              "id": "va-summary",
+              "title": "Para summary",
+              "match": ["summary"],
+              "notes": [
+                "The best summary captures the paragraph's main point and its key qualification, and adds nothing new.",
+                "Eliminate options that focus on an example or a detail instead of the central idea.",
+                "Watch the scope: a summary broader or stronger than the paragraph is wrong.",
+                "Say the paragraph's point to yourself in one sentence before reading the options."
+              ]
+            },
+            {
+              "id": "va-odd-one-out",
+              "title": "Odd sentence out",
+              "match": ["odd"],
+              "notes": [
+                "Four sentences form a coherent paragraph. The odd one is usually on the same broad topic but shifts focus, scope or viewpoint.",
+                "Build the paragraph from mandatory pairs first; the sentence that fits nowhere is the odd one.",
+                "Watch for a change of subject (a general idea to an unrelated specific case) or a change of time frame.",
+                "Do not drop a sentence only because its style differs; check whether it links logically."
+              ]
+            },
+            {
+              "id": "va-placement",
+              "title": "Sentence placement & completion",
+              "match": ["placement", "insertion", "completion"],
+              "notes": [
+                "Note what the sentence to be placed needs before it (a referent for \"this\" or \"such\") and what it leads into.",
+                "The correct slot makes the sentences on both sides connect smoothly.",
+                "Connectors in the sentence (however, as a result, for example) tell you its relation to the previous sentence.",
+                "For sentence completion, the ending must follow the paragraph's argument, not just its topic."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DILR",
+      "title": "Data Interpretation & Logical Reasoning",
+      "topics": [
+        {
+          "id": "di",
+          "title": "Data Interpretation",
+          "bankTopics": ["Data Interpretation"],
+          "subtopics": [
+            {
+              "id": "di-tables",
+              "title": "Tables & missing data",
+              "match": ["table"],
+              "notes": [
+                "Before calculating, read the headings, units and totals; many questions need only one row or column.",
+                "For missing data, write each constraint (row totals, column totals, percentages) as an equation and fill the easiest cells first.",
+                "Track which values are exact and which are only ranges; some questions ask for the minimum or maximum possible value.",
+                "Approximate when the options are far apart; calculate exactly only when they are close."
+              ]
+            },
+            {
+              "id": "di-charts",
+              "title": "Bar, line, pie & other charts",
+              "match": ["bar", "chart", "radar", "bubble", "scatter", "pie", "line graph"],
+              "notes": [
+                "Check the scale and whether the axis starts at zero; bar heights can mislead.",
+                "Pie charts: a share of p% is 3.6 × p degrees. Convert to absolute numbers only when needed.",
+                "In a stacked bar, a segment's value is the difference between its top and bottom readings.",
+                "Scatter and bubble charts show two or three variables. Note what each axis and the bubble size stand for before answering.",
+                "Radar charts plot several measures on spokes; compare values along the same spoke only."
+              ]
+            },
+            {
+              "id": "di-calculations",
+              "title": "Percentages, growth & averages in DI",
+              "match": ["arithmetic", "average", "percent", "growth", "investment", "median", "min / max", "ratio", "share", "revenue", "projection", "counting", "election"],
+              "notes": [
+                "Percentage change = (new − old) ÷ old × 100; percentage share = part ÷ total × 100.",
+                "Growth over n periods at r% each: final = initial × (1 + r/100)ⁿ. When a question asks for the rate, compare growth rates, not absolute increases.",
+                "Weighted average = Σ(value × weight) ÷ Σ(weights); it always lies between the smallest and largest values.",
+                "The median of an ordered list is the middle value (the average of the two middle values for an even count).",
+                "Use fraction equivalents for fast approximation: 1/6 ≈ 16.67%, 1/7 ≈ 14.29%, 1/8 = 12.5%, 1/9 ≈ 11.11%."
+              ]
+            },
+            {
+              "id": "di-networks",
+              "title": "Networks, routes & schedules",
+              "match": ["network", "route", "gantt", "schedule"],
+              "notes": [
+                "Draw the network: nodes for places or stages, arrows for flows, with the capacity or time on each edge.",
+                "Flow conservation: what enters a node equals what leaves it plus what stays there.",
+                "In a schedule or Gantt chart, a task starts only after the tasks it depends on finish; the longest chain of dependent tasks sets the minimum total time.",
+                "For minimum time or cost, list the routes systematically instead of trusting the shortest-looking one."
+              ]
+            },
+            {
+              "id": "di-venn",
+              "title": "Venn diagrams & set counting",
+              "match": ["venn", "sets"],
+              "notes": [
+                "Two sets: n(A ∪ B) = n(A) + n(B) − n(A ∩ B).",
+                "Three sets: n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(B ∩ C) − n(C ∩ A) + n(A ∩ B ∩ C).",
+                "\"Exactly two\" and \"at least two\" are different regions: draw the diagram and fill the centre (all three) first.",
+                "For maximum or minimum questions, push the overlaps to the extreme the totals allow and check that every region stays non-negative."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lr",
+          "title": "Logical Reasoning",
+          "bankTopics": ["Logical Reasoning"],
+          "subtopics": [
+            {
+              "id": "lr-arrangements",
+              "title": "Arrangements (linear, circular, grid)",
+              "match": ["arrangement", "grid", "matrix", "spatial", "ordering", "sequenc"],
+              "notes": [
+                "Draw the structure first (a row of seats, a circle, a grid) and place the fixed clues before the relative ones.",
+                "In a circle, fix one person to remove rotations: n people can sit around a table in (n − 1)! distinct ways.",
+                "When everyone faces the centre, a person's left-hand neighbour is the next seat clockwise (seen from above).",
+                "If a clue allows two cases, draw both and let later clues eliminate one instead of guessing.",
+                "Keep a \"cannot be here\" list for each position; it often forces the last few placements."
+              ]
+            },
+            {
+              "id": "lr-scheduling",
+              "title": "Scheduling, routes & processes",
+              "match": ["schedul", "process", "flow", "queue", "route", "network"],
+              "notes": [
+                "Lay out a timeline grid (days × slots, or time × resources) and mark every fixed constraint first.",
+                "Process and flow sets follow rules step by step: simulate the first few steps carefully and look for a repeating pattern.",
+                "Queues: track arrival, waiting and service time in a table; service starts only when the previous item finishes.",
+                "Re-read conditions such as \"before\", \"immediately before\" and \"not on consecutive days\"; they are the usual traps."
+              ]
+            },
+            {
+              "id": "lr-distributions",
+              "title": "Distributions, grouping & relationships",
+              "match": ["distribut", "group", "relationship", "deduction", "table", "ratio"],
+              "notes": [
+                "Make a table of people × attributes (or groups × items) and record ticks and crosses as you go.",
+                "Use totals: if each row or column must add up to a known value, the last unknown cell is forced.",
+                "For \"at least one\" and \"at most two\" conditions, list the extreme cases first.",
+                "Family-tree sets: draw generations as levels and record gender separately from relations."
+              ]
+            },
+            {
+              "id": "lr-tournaments",
+              "title": "Tournaments, games & scoring",
+              "match": ["tournament", "game", "scor", "rating", "rank", "election", "voting"],
+              "notes": [
+                "Round robin with n teams: each team plays n − 1 matches, n(n − 1)/2 matches in all.",
+                "Knockout with n teams: n − 1 matches, because each match eliminates exactly one team.",
+                "The total points handed out across all matches follows from the scoring rule; use it to check your table.",
+                "For \"minimum points to qualify\", let the other teams take as many points as the rules allow and see what is left.",
+                "Write ratings and ranks as an inequality chain, and watch for ties."
+              ]
+            },
+            {
+              "id": "lr-sets",
+              "title": "Venn-based reasoning",
+              "match": ["venn", "sets"],
+              "notes": [
+                "The counting rules are the same as in DI Venn diagrams; the skill is turning sentences into regions.",
+                "\"Only A\" excludes everyone in B or C; \"A and B\" includes those also in C unless the clue says \"only\".",
+                "Name each unknown region with a variable and write one equation per given total.",
+                "Counts cannot be negative or fractional; these integer limits often pin down a unique answer."
+              ]
+            },
+            {
+              "id": "lr-puzzles",
+              "title": "Number puzzles & optimisation",
+              "match": ["puzzle", "arithmetic", "equation", "maximi", "minimi", "quantitative", "weighing", "testing", "logical deduction", "comparison"],
+              "notes": [
+                "Translate each condition into an equation or inequality; the unknowns are usually whole numbers.",
+                "For maximise/minimise questions, start from the extreme case and adjust until every condition holds.",
+                "Balance puzzles: each weighing has three outcomes, so k weighings can tell apart at most 3ᵏ cases.",
+                "Check your final answer against every clue; one missed condition is the most common error in these sets."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QA",
+      "title": "Quantitative Ability",
+      "topics": [
+        {
+          "id": "arithmetic",
+          "title": "Arithmetic",
+          "bankTopics": ["Arithmetic"],
+          "subtopics": [
+            {
+              "id": "qa-percentages",
+              "title": "Percentages",
+              "match": ["percent", "successive"],
+              "notes": [
+                "x% of y = y% of x. Percentage change = change ÷ original × 100.",
+                "Successive changes of a% and b% give a net change of a + b + ab/100 per cent (use negative values for decreases).",
+                "If a price rises by r%, consumption must fall by r/(100 + r) × 100% to keep spending the same.",
+                "If A is r% more than B, then B is r/(100 + r) × 100% less than A.",
+                "Know fraction–percentage pairs: 1/3 ≈ 33.33%, 1/8 = 12.5%, 1/9 ≈ 11.11%, 1/11 ≈ 9.09%."
+              ]
+            },
+            {
+              "id": "qa-profit",
+              "title": "Profit, loss & discount",
+              "match": ["profit", "loss", "discount", "cost"],
+              "notes": [
+                "Profit % and loss % are on the cost price; discount % is on the marked price.",
+                "SP = CP × (1 + profit%/100); SP = MP × (1 − discount%/100).",
+                "A mark-up of m% followed by a discount of d% gives a net profit of m − d − md/100 per cent.",
+                "Selling two items at the same price, one at x% profit and one at x% loss, always gives a net loss of x²/100 per cent.",
+                "False weights at cost price: profit % = (true weight − false weight) ÷ false weight × 100."
+              ]
+            },
+            {
+              "id": "qa-interest",
+              "title": "Simple & compound interest",
+              "match": ["interest", "instalment", "returns"],
+              "notes": [
+                "SI = P × R × T ÷ 100; amount = P + SI.",
+                "CI amount = P(1 + R/100)ᵀ. Compounding k times a year: use rate R/k for kT periods.",
+                "CI − SI for 2 years = P(R/100)²; for 3 years = P(R/100)²(3 + R/100).",
+                "Equal instalments: bring each instalment back to today (divide by (1 + R/100)ⁿ) and set the total equal to the loan.",
+                "At R% compound interest money roughly doubles in 72/R years (the rule of 72 is an approximation)."
+              ]
+            },
+            {
+              "id": "qa-ratio-mixtures",
+              "title": "Ratio, proportion & mixtures",
+              "match": ["ratio", "proportion", "variation", "mixture", "alligation", "partnership"],
+              "notes": [
+                "If a : b = c : d then ad = bc. To combine a : b and b : c, make the common term equal first.",
+                "Alligation: mixing a cheaper item (price c) with a dearer one (price d) to get a mean price m needs the ratio (d − m) : (m − c).",
+                "Replacement: taking out x litres from V litres and refilling with water, n times, leaves V × (1 − x/V)ⁿ of the original liquid.",
+                "Partnership: profit is shared in the ratio of capital × time.",
+                "Direct variation y = kx; inverse variation y = k/x. Find k from one known pair."
+              ]
+            },
+            {
+              "id": "qa-averages",
+              "title": "Averages & ages",
+              "match": ["average", "ages"],
+              "notes": [
+                "Average = sum ÷ count. Working with sums is usually faster than working with averages.",
+                "If one of n items changes by x, the average changes by x/n.",
+                "The combined average of two groups lies closer to the larger group's average.",
+                "Ages: the difference between two people's ages never changes, and everyone ages by the same amount.",
+                "The average of an arithmetic progression is (first term + last term) ÷ 2."
+              ]
+            },
+            {
+              "id": "qa-time-work",
+              "title": "Time & work, pipes & cisterns",
+              "match": ["work", "pipe", "cistern", "wages"],
+              "notes": [
+                "If A finishes a job in a days, A does 1/a of it per day; rates add when people work together.",
+                "Take the total work as the LCM of the individual times to avoid fractions.",
+                "Men × days × hours ÷ work is constant: M₁D₁H₁/W₁ = M₂D₂H₂/W₂.",
+                "Pipes: a filling pipe has a positive rate and an emptying pipe a negative rate.",
+                "Alternate-day work: find the work done in one full cycle, then handle the last partial cycle separately. Wages are shared in the ratio of work done."
+              ]
+            },
+            {
+              "id": "qa-tsd",
+              "title": "Time, speed & distance",
+              "match": ["speed", "distance", "boat", "stream", "train", "race", "circular", "clock", "escalator"],
+              "notes": [
+                "Distance = speed × time; km/h × 5/18 = m/s.",
+                "Average speed over two equal distances at speeds a and b is 2ab/(a + b), not (a + b)/2.",
+                "Relative speed: add the speeds when moving towards each other, subtract when moving in the same direction.",
+                "Trains: passing a pole covers the train's length; passing a platform or another train covers the sum of the lengths.",
+                "Boats: downstream = b + s, upstream = b − s, so boat speed = (down + up)/2 and stream speed = (down − up)/2.",
+                "Circular track, same direction, same start: the runners first meet after track length ÷ (difference of speeds)."
+              ]
+            },
+            {
+              "id": "qa-word-problems",
+              "title": "Word problems & linear equations",
+              "match": ["linear", "working backwards", "sets"],
+              "notes": [
+                "Use one variable for the quantity asked and write everything else in terms of it.",
+                "n unknowns need n independent equations; with fewer, look for whole-number or range limits.",
+                "In MCQs, working back from the options is often fastest; start with a middle value.",
+                "Check the answer against the words of the question, not only against your equations."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "algebra",
+          "title": "Algebra",
+          "bankTopics": ["Algebra"],
+          "subtopics": [
+            {
+              "id": "qa-equations",
+              "title": "Linear & quadratic equations",
+              "match": ["equation", "quadratic", "polynomial", "identit"],
+              "notes": [
+                "For ax² + bx + c = 0: sum of roots = −b/a, product = c/a, discriminant D = b² − 4ac.",
+                "D > 0: two distinct real roots; D = 0: equal roots; D < 0: no real roots.",
+                "With rational coefficients, irrational roots come in pairs p ± √q.",
+                "Identities: (a + b)² = a² + 2ab + b²; a² − b² = (a + b)(a − b); a³ + b³ = (a + b)(a² − ab + b²).",
+                "Remainder theorem: p(x) divided by (x − a) leaves the remainder p(a)."
+              ]
+            },
+            {
+              "id": "qa-inequalities",
+              "title": "Inequalities, modulus & maxima–minima",
+              "match": ["inequalit", "modulus", "am-gm", "am–gm", "maxim", "minim", "max-min"],
+              "notes": [
+                "Multiplying or dividing an inequality by a negative number reverses its sign.",
+                "|x − a| is the distance of x from a, so |x − a| < k means a − k < x < a + k.",
+                "AM ≥ GM for non-negative numbers: (a + b)/2 ≥ √(ab), with equality when a = b.",
+                "With a fixed product, a sum is smallest when the numbers are equal; with a fixed sum, a product is largest when they are equal.",
+                "Solve modulus equations by splitting at the points where each expression inside changes sign."
+              ]
+            },
+            {
+              "id": "qa-functions",
+              "title": "Functions & graphs",
+              "match": ["function", "greatest integer", "graph"],
+              "notes": [
+                "Domain: where the function is defined (no division by zero, no even root of a negative number, log only of a positive number).",
+                "f(g(x)) means apply g first, then f; f⁻¹ undoes f.",
+                "[x], the greatest integer function, is the largest integer ≤ x, so [−1.5] = −2.",
+                "Shifts: f(x) + k moves the graph up by k, f(x − k) moves it right by k, −f(x) reflects it in the x-axis, f(−x) in the y-axis.",
+                "Even functions: f(−x) = f(x). Odd functions: f(−x) = −f(x)."
+              ]
+            },
+            {
+              "id": "qa-logs",
+              "title": "Logarithms, exponents & surds",
+              "match": ["log", "exponent", "indices", "surd", "power"],
+              "notes": [
+                "aᵐ × aⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁰ = 1, a⁻ⁿ = 1/aⁿ.",
+                "log(xy) = log x + log y; log(x/y) = log x − log y; log(xⁿ) = n log x.",
+                "Change of base: log_b a = log a ÷ log b, so log_b a × log_a b = 1.",
+                "logₐ x is defined only for x > 0, a > 0 and a ≠ 1; check every root you find against this.",
+                "Rationalise with the conjugate: 1/(√a + √b) = (√a − √b)/(a − b)."
+              ]
+            },
+            {
+              "id": "qa-progressions",
+              "title": "Progressions & series",
+              "match": ["progression", "sequence", "series", "recurrence"],
+              "notes": [
+                "AP: nth term = a + (n − 1)d; sum = n/2 × (2a + (n − 1)d) = n/2 × (first + last).",
+                "GP: nth term = arⁿ⁻¹; sum = a(rⁿ − 1)/(r − 1); infinite sum = a/(1 − r) when |r| < 1.",
+                "1 + 2 + … + n = n(n + 1)/2; sum of squares = n(n + 1)(2n + 1)/6; sum of cubes = [n(n + 1)/2]².",
+                "Take three numbers in AP as a − d, a, a + d and three in GP as a/r, a, ar.",
+                "For recurrences, write out the first few terms; a pattern or cycle usually appears quickly."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "number-system",
+          "title": "Number System",
+          "bankTopics": ["Number System"],
+          "subtopics": [
+            {
+              "id": "qa-factors",
+              "title": "Factors, divisibility, HCF & LCM",
+              "match": ["factor", "divis", "hcf", "lcm", "highest power", "power"],
+              "notes": [
+                "If N = pᵃ × qᵇ × rᶜ (p, q, r prime), N has (a + 1)(b + 1)(c + 1) factors.",
+                "For two numbers, HCF × LCM = the product of the numbers.",
+                "Divisibility: by 3 or 9 if the digit sum is; by 8 if the last three digits are; by 11 if the difference between the sums of alternate digits is a multiple of 11.",
+                "Highest power of a prime p in n! = ⌊n/p⌋ + ⌊n/p²⌋ + ⌊n/p³⌋ + …",
+                "Trailing zeros of n! = the highest power of 5 in n!."
+              ]
+            },
+            {
+              "id": "qa-remainders",
+              "title": "Remainders & unit digits",
+              "match": ["remainder", "unit digit", "cyclicity"],
+              "notes": [
+                "Remainders multiply and add: (a × b) mod n = (a mod n × b mod n) mod n.",
+                "Use negative remainders: 10 ≡ −1 (mod 11), so 10ᵏ leaves a remainder of (−1)ᵏ, i.e. 1 or 10.",
+                "Fermat: if p is prime and does not divide a, then a^(p − 1) leaves remainder 1 when divided by p.",
+                "Unit digits repeat in cycles of at most 4: 2 → 2, 4, 8, 6; 3 → 3, 9, 7, 1; 7 → 7, 9, 3, 1; 8 → 8, 4, 2, 6.",
+                "For two remainder conditions, list numbers that satisfy the larger divisor and test them against the other."
+              ]
+            },
+            {
+              "id": "qa-digits",
+              "title": "Digits, bases & number forms",
+              "match": ["digit", "base", "palindrome", "indices"],
+              "notes": [
+                "A two-digit number with digits a and b is 10a + b; reversing it changes the value by 9(a − b).",
+                "In base b, (xyz)_b = x·b² + y·b + z, and every digit must be less than b.",
+                "Every palindrome with an even number of digits is divisible by 11.",
+                "Counting numbers by their digits is a permutation problem; remember the first digit cannot be 0."
+              ]
+            },
+            {
+              "id": "qa-integers",
+              "title": "Integer solutions & parity",
+              "match": ["integer", "diophantine", "parity"],
+              "notes": [
+                "ax + by = c has integer solutions only if g = HCF(a, b) divides c; from one solution, the others step by (b/g, −a/g).",
+                "x₁ + x₂ + … + x_k = n has C(n − 1, k − 1) positive-integer solutions and C(n + k − 1, k − 1) non-negative ones.",
+                "Parity: odd + odd = even and odd × odd = odd. Use it to rule out cases quickly.",
+                "Factorise expressions like xy + ax + by by adding ab: xy + ax + by + ab = (x + b)(y + a)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geometry",
+          "title": "Geometry",
+          "bankTopics": ["Geometry"],
+          "subtopics": [
+            {
+              "id": "qa-triangles",
+              "title": "Triangles",
+              "match": ["triangle", "similar", "median", "bisector", "incircle", "trigonometry"],
+              "notes": [
+                "Area = ½ × base × height = ½ab sin C. Heron's formula: √(s(s − a)(s − b)(s − c)), with s the semi-perimeter.",
+                "Similar triangles with sides in ratio k have areas in ratio k².",
+                "The bisector of angle A divides BC in the ratio AB : AC.",
+                "Inradius r = area ÷ s; circumradius R = abc ÷ (4 × area).",
+                "Common Pythagorean triples: 3-4-5, 5-12-13, 8-15-17, 7-24-25.",
+                "The medians meet at the centroid, which divides each median 2 : 1 from the vertex."
+              ]
+            },
+            {
+              "id": "qa-circles",
+              "title": "Circles",
+              "match": ["circle", "tangent", "cyclic", "segment"],
+              "notes": [
+                "The angle at the centre is twice the angle at the circumference on the same arc; the angle in a semicircle is 90°.",
+                "A tangent is perpendicular to the radius at the point of contact; the two tangents from an outside point are equal.",
+                "In a cyclic quadrilateral, opposite angles add up to 180°.",
+                "Intersecting chords: AP × PB = CP × PD. Tangent and secant from P: PT² = PA × PB.",
+                "Sector area = (θ/360) × πr²; segment area = sector area − triangle area."
+              ]
+            },
+            {
+              "id": "qa-polygons",
+              "title": "Polygons & quadrilaterals",
+              "match": ["polygon", "quadrilateral", "rhombus", "trapezium", "parallelogram"],
+              "notes": [
+                "Interior angles of an n-sided polygon add up to (n − 2) × 180°; each exterior angle of a regular polygon is 360°/n.",
+                "An n-sided polygon has n(n − 3)/2 diagonals.",
+                "Rhombus: the diagonals bisect each other at right angles; area = ½ × d₁ × d₂.",
+                "Trapezium area = ½ × (sum of the parallel sides) × height.",
+                "A regular hexagon of side a is six equilateral triangles: area = (3√3/2)a²."
+              ]
+            },
+            {
+              "id": "qa-coordinate",
+              "title": "Coordinate geometry",
+              "match": ["coordinate", "lattice", "reflection"],
+              "notes": [
+                "Distance = √((x₂ − x₁)² + (y₂ − y₁)²); midpoint = ((x₁ + x₂)/2, (y₁ + y₂)/2).",
+                "Slope m = (y₂ − y₁)/(x₂ − x₁). Parallel lines have equal slopes; perpendicular lines have m₁ × m₂ = −1.",
+                "Distance from (x₁, y₁) to the line ax + by + c = 0 is |ax₁ + by₁ + c| ÷ √(a² + b²).",
+                "Triangle area from its vertices = ½|x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|.",
+                "Reflection of (x, y): in the x-axis (x, −y), in the y-axis (−x, y), in the line y = x (y, x)."
+              ]
+            },
+            {
+              "id": "qa-mensuration",
+              "title": "Mensuration (2D & 3D)",
+              "match": ["mensuration", "cylinder", "cone", "sphere", "3d", "volume", "solid"],
+              "notes": [
+                "Cylinder: volume πr²h, curved surface 2πrh.",
+                "Cone: volume ⅓πr²h, curved surface πrl, slant height l = √(r² + h²).",
+                "Sphere: volume (4/3)πr³, surface 4πr². Hemisphere: total surface 3πr².",
+                "Cuboid diagonal = √(l² + b² + h²). Cube of side a: volume a³, surface 6a².",
+                "Melting and recasting keeps the volume the same; cutting a solid increases its total surface area."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "modern-maths",
+          "title": "Modern Maths",
+          "bankTopics": ["Modern Maths"],
+          "subtopics": [
+            {
+              "id": "qa-pnc",
+              "title": "Permutations & combinations",
+              "match": ["permutation", "combination", "counting", "distribution", "arrangement"],
+              "notes": [
+                "nPr = n!/(n − r)! when order matters; nCr = n!/(r!(n − r)!) when it does not.",
+                "Arrangements of n items with p alike, q alike, … = n!/(p! q! …).",
+                "n identical items into k distinct boxes (boxes may be empty): C(n + k − 1, k − 1) ways.",
+                "Use the complement: \"at least one\" = total − \"none\".",
+                "Choosing 2 of m horizontal lines and 2 of n vertical lines makes C(m, 2) × C(n, 2) rectangles."
+              ]
+            },
+            {
+              "id": "qa-probability",
+              "title": "Probability",
+              "match": ["probab", "dice"],
+              "notes": [
+                "P(event) = favourable outcomes ÷ total equally likely outcomes, so 0 ≤ P ≤ 1.",
+                "P(A or B) = P(A) + P(B) − P(A and B). For independent events, P(A and B) = P(A) × P(B).",
+                "P(at least one) = 1 − P(none).",
+                "Two dice give 36 equally likely outcomes; a 6 × 6 grid makes sums easy to count.",
+                "Conditional probability: P(A | B) = P(A and B) ÷ P(B)."
+              ]
+            },
+            {
+              "id": "qa-sets",
+              "title": "Set theory",
+              "match": ["set"],
+              "notes": [
+                "n(A ∪ B) = n(A) + n(B) − n(A ∩ B); extend it by inclusion–exclusion for three sets.",
+                "Numbers up to N divisible by a or b = ⌊N/a⌋ + ⌊N/b⌋ − ⌊N/LCM(a, b)⌋.",
+                "A set with n elements has 2ⁿ subsets.",
+                "For \"maximum in none\" or \"minimum in all three\", give each region a variable and use the totals."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

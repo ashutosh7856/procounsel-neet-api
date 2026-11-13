@@ -1,0 +1,631 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>Anil can paint a house in 12 days while Barun can paint it in 16 days. Anil, Barun, and Chandu undertake to paint the house for ₹ 24000 and the three of them together complete the painting in 6 days. If Chandu is paid in proportion to the work done by him, then the amount in INR received by him is</p>",
+   "answer": "3000",
+   "solutionHtml": "<p><strong>Step 1:</strong> In 6 days Anil does 6/12 = 1/2 of the work and Barun does 6/16 = 3/8.</p><p><strong>Step 2:</strong> Chandu does the rest: 1 − 1/2 − 3/8 = <strong>1/8</strong>.</p><p><strong>Step 3:</strong> His pay = 24000 × 1/8 = <strong>₹ 3000</strong>.</p><p><strong>Check:</strong> Chandu’s rate = 1/6 − 1/12 − 1/16 = 1/48 per day; in 6 days that is 6/48 = 1/8.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "medium",
+   "stemHtml": "<p>The arithmetic mean of scores of 25 students in an examination is 50. Five of these students top the examination with the same score. If the scores of the other students are distinct integers with the lowest being 30, then the maximum possible score of the toppers is</p>",
+   "answer": "92",
+   "solutionHtml": "<p><strong>Step 1:</strong> Total score = 25 × 50 = 1250.</p><p><strong>Step 2:</strong> To make the toppers’ score as large as possible, make the other 20 scores as small as possible: distinct integers starting at 30, i.e., 30, 31, …, 49. Their sum = 20 × (30 + 49)/2 = <strong>790</strong>.</p><p><strong>Step 3:</strong> 5 × topper score = 1250 − 790 = 460, so topper score = <strong>92</strong>, which is indeed above 49.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & cost",
+   "difficulty": "easy",
+   "stemHtml": "<p>A shop owner bought a total of 64 shirts from a wholesale market that came in two sizes, small and large. The price of a small shirt was INR 50 less than that of a large shirt. She paid a total of INR 5000 for the large shirts, and a total of INR 1800 for the small shirts. Then, the price of a large shirt and a small shirt together, in INR, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "150"
+    },
+    {
+     "id": "B",
+     "textHtml": "175"
+    },
+    {
+     "id": "C",
+     "textHtml": "200"
+    },
+    {
+     "id": "D",
+     "textHtml": "225"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let a large shirt cost p, so a small one costs p − 50. Then 5000/p + 1800/(p − 50) = 64.</p><p><strong>Quick method:</strong> test p = 125 from the options’ range: 5000/125 = 40 large shirts, 1800/75 = 24 small shirts, 40 + 24 = 64. ✓</p><p>Large + small = 125 + 75 = <strong>200</strong>.</p><p><strong>Algebra check:</strong> 5000(p − 50) + 1800p = 64p(p − 50) gives 64p<sup>2</sup> − 10000p + 250000 = 0, i.e., 16p<sup>2</sup> − 2500p + 62500 = 0, whose roots are p = 125 and p = 31.25. The second makes the small shirt’s price negative, so p = 125.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "medium",
+   "stemHtml": "<p>The total of male and female populations in a city increased by 25% from 1970 to 1980. During the same period, the male population increased by 40% while the female population increased by 20%. From 1980 to 1990, the female population increased by 25%. In 1990, if the female population is twice the male population, then the percentage increase in the total of male and female populations in the city from 1970 to 1990 is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "68.25"
+    },
+    {
+     "id": "B",
+     "textHtml": "68.50"
+    },
+    {
+     "id": "C",
+     "textHtml": "69.25"
+    },
+    {
+     "id": "D",
+     "textHtml": "68.75"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Step 1:</strong> 1970: males M, females F. 1.4M + 1.2F = 1.25(M + F) gives 0.15M = 0.05F, so <strong>F = 3M</strong>. Take M = 100, F = 300 (total 400).</p><p><strong>Step 2:</strong> 1980: M = 140, F = 360. 1990: F = 360 × 1.25 = 450, and M = 450/2 = 225.</p><p><strong>Step 3:</strong> 1990 total = 675, so the increase is 275/400 = <strong>68.75%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>A tea shop offers tea in cups of three different sizes. The product of the prices, in INR, of three different sizes is equal to 800. The prices of the smallest size and the medium size are in the ratio 2 : 5. If the shop owner decides to increase the prices of the smallest and the medium ones by INR 6 keeping the price of the largest size unchanged, the product then changes to 3200. The sum of the original prices of three different sizes, in INR, is</p>",
+   "answer": "34",
+   "solutionHtml": "<p><strong>Step 1:</strong> Let the prices be 2k, 5k and L. Then 10k<sup>2</sup>L = 800 and (2k + 6)(5k + 6)L = 3200.</p><p><strong>Step 2:</strong> Divide: (2k + 6)(5k + 6) = 4 × 10k<sup>2</sup> → 10k<sup>2</sup> + 42k + 36 = 40k<sup>2</sup> → 5k<sup>2</sup> − 7k − 6 = 0 → (k − 2)(5k + 3) = 0, so <strong>k = 2</strong>.</p><p><strong>Step 3:</strong> Prices 4, 10 and L = 800/40 = 20. Sum = <strong>34</strong>.</p><p><strong>Check:</strong> 4 × 10 × 20 = 800 and 10 × 16 × 20 = 3200. ✓</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & alligations",
+   "difficulty": "easy",
+   "stemHtml": "<p>If a certain weight of an alloy of silver and copper is mixed with 3 kg of pure silver, the resulting alloy will have 90% silver by weight. If the same weight of the initial alloy is mixed with 2 kg of another alloy which has 90% silver by weight, the resulting alloy will have 84% silver by weight. Then, the weight of the initial alloy, in kg, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3"
+    },
+    {
+     "id": "B",
+     "textHtml": "2.5"
+    },
+    {
+     "id": "C",
+     "textHtml": "3.5"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Let the alloy weigh w kg and contain s kg of silver.</p><p><strong>Mix 1:</strong> s + 3 = 0.9(w + 3) → s = 0.9w − 0.3.</p><p><strong>Mix 2:</strong> s + 1.8 = 0.84(w + 2) → s = 0.84w − 0.12.</p><p>Equate: 0.06w = 0.18 → <strong>w = 3 kg</strong> (with s = 2.4 kg, i.e., 80% silver).</p><p><strong>Check:</strong> (2.4 + 3)/6 = 90% and (2.4 + 1.8)/5 = 84%. ✓</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Inequalities & modulus",
+   "difficulty": "hard",
+   "stemHtml": "<p>The number of distinct pairs of integers (m, n) satisfying |1 + mn| &lt; |m + n| &lt; 5 is</p>",
+   "answer": "12",
+   "solutionHtml": "<p><strong>Key move:</strong> square the first inequality: (m + n)<sup>2</sup> − (1 + mn)<sup>2</sup> = m<sup>2</sup> + n<sup>2</sup> − 1 − m<sup>2</sup>n<sup>2</sup> = −(m<sup>2</sup> − 1)(n<sup>2</sup> − 1) must be &gt; 0.</p><p>So (m<sup>2</sup> − 1)(n<sup>2</sup> − 1) &lt; 0: one of m<sup>2</sup>, n<sup>2</sup> is less than 1 (so that number is 0) and the other is greater than 1.</p><p>If m = 0, the condition becomes 1 &lt; |n| &lt; 5, so n = ±2, ±3, ±4: 6 pairs. Likewise n = 0 gives 6 pairs.</p><p>Total = <strong>12</strong>.</p><p><strong>Check:</strong> (0, 2): |1| = 1 &lt; |2| = 2 &lt; 5 ✓; (1, 3): |4| &lt; |4| fails, as predicted.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Linear equations (cost)",
+   "difficulty": "medium",
+   "stemHtml": "<p>One part of a hostel’s monthly expenses is fixed, and the other part is proportional to the number of its boarders. The hostel collects ₹ 1600 per month from each boarder. When the number of boarders is 50, the profit of the hostel is ₹ 200 per boarder, and when the number of boarders is 75, the profit of the hostel is ₹ 250 per boarder. When the number of boarders is 80, the total profit of the hostel, in INR, will be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "20200"
+    },
+    {
+     "id": "B",
+     "textHtml": "20800"
+    },
+    {
+     "id": "C",
+     "textHtml": "20500"
+    },
+    {
+     "id": "D",
+     "textHtml": "20000"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let the fixed cost be F and the cost per boarder be v.</p><p><strong>50 boarders:</strong> revenue 80000, profit 10000, so F + 50v = 70000.</p><p><strong>75 boarders:</strong> revenue 120000, profit 18750, so F + 75v = 101250.</p><p>Subtract: 25v = 31250 → v = 1250, F = 7500.</p><p><strong>80 boarders:</strong> profit = 80 × 1600 − 7500 − 80 × 1250 = 128000 − 107500 = <strong>₹ 20500</strong>.</p><p><strong>Quick check:</strong> profit per extra boarder = 1600 − 1250 = 350; going from 75 to 80 adds 5 × 350 = 1750 to 18750, giving 20500.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Triangles & quadrilaterals",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let ABCD be a parallelogram. The lengths of the side AD and the diagonal AC are 10 cm and 20 cm, respectively. If the angle ∠ADC is equal to 30° then the area of the parallelogram, in sq. cm, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "25(√5 + √15)"
+    },
+    {
+     "id": "B",
+     "textHtml": "25(√3 + √15)"
+    },
+    {
+     "id": "C",
+     "textHtml": "25(√5 + √15)/2"
+    },
+    {
+     "id": "D",
+     "textHtml": "25(√3 + √15)/2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> In triangle ADC, let DC = x. Cosine rule: AC<sup>2</sup> = AD<sup>2</sup> + x<sup>2</sup> − 2·AD·x·cos 30° → 400 = 100 + x<sup>2</sup> − 10√3 x.</p><p><strong>Step 2:</strong> x<sup>2</sup> − 10√3 x − 300 = 0 → x = (10√3 + √(300 + 1200))/2 = 5√3 + 5√15 (taking the positive root).</p><p><strong>Step 3:</strong> Area of parallelogram = AD × DC × sin 30° = 10 × x × 1/2 = 5x = <strong>25(√3 + √15)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Functions & quadratics",
+   "difficulty": "easy",
+   "stemHtml": "<p>If f(x) = x<sup>2</sup> − 7x and g(x) = x + 3, then the minimum value of f(g(x)) − 3x is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−16"
+    },
+    {
+     "id": "B",
+     "textHtml": "−15"
+    },
+    {
+     "id": "C",
+     "textHtml": "−12"
+    },
+    {
+     "id": "D",
+     "textHtml": "−20"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>f(g(x)) = (x + 3)<sup>2</sup> − 7(x + 3) = x<sup>2</sup> − x − 12.</p><p>So f(g(x)) − 3x = x<sup>2</sup> − 4x − 12 = (x − 2)<sup>2</sup> − 16.</p><p>Minimum value = <strong>−16</strong> (at x = 2).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Indices & logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>If n is a positive integer such that (<sup>7</sup>√10)(<sup>7</sup>√10)<sup>2</sup> … (<sup>7</sup>√10)<sup>n</sup> &gt; 999, then the smallest value of n is</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Step 1:</strong> The product is 10<sup>(1 + 2 + … + n)/7</sup> = 10<sup>n(n+1)/14</sup>.</p><p><strong>Step 2:</strong> 999 is just below 10<sup>3</sup> (log 999 ≈ 2.9996), so we need n(n + 1)/14 &gt; 2.9996. As n(n + 1) is an integer, this means n(n + 1) ≥ 42.</p><p><strong>Step 3:</strong> n = 5: 30/14 → 10<sup>2.14</sup> ≈ 138 &lt; 999. n = 6: 42/14 = 3 → 10<sup>3</sup> = 1000 &gt; 999. ✓</p><p>Smallest n = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "easy",
+   "stemHtml": "<p>In a tournament, a team has played 40 matches so far and won 30% of them. If they win 60% of the remaining matches, their overall win percentage will be 50%. Suppose they win 90% of the remaining matches, then the total number of matches won by the team in the tournament will be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "84"
+    },
+    {
+     "id": "B",
+     "textHtml": "78"
+    },
+    {
+     "id": "C",
+     "textHtml": "86"
+    },
+    {
+     "id": "D",
+     "textHtml": "80"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Step 1:</strong> Wins so far = 12. Let r matches remain: 12 + 0.6r = 0.5(40 + r) → 0.1r = 8 → <strong>r = 80</strong>.</p><p><strong>Step 2:</strong> Winning 90% of 80 = 72, so total wins = 12 + 72 = <strong>84</strong>.</p><p><strong>Alligation check:</strong> 30% and 60% average to 50% in the ratio 1 : 2, so remaining matches = 2 × 40 = 80.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration (optimisation)",
+   "difficulty": "medium",
+   "stemHtml": "<p>The cost of fencing a rectangular plot is ₹ 200 per ft along one side, and ₹ 100 per ft along the three other sides. If the area of the rectangular plot is 60000 sq. ft, then the lowest possible cost of fencing all four sides, in INR, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "100000"
+    },
+    {
+     "id": "B",
+     "textHtml": "120000"
+    },
+    {
+     "id": "C",
+     "textHtml": "160000"
+    },
+    {
+     "id": "D",
+     "textHtml": "90000"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let the expensive side have length a and the adjacent side b, with ab = 60000.</p><p>Cost = 200a + 100a + 2 × 100b = 300a + 200b.</p><p><strong>AM–GM:</strong> 300a + 200b ≥ 2√(300a × 200b) = 2√(60000 × 60000) = 120000, with equality when 300a = 200b = 60000, i.e., a = 200, b = 300 (and ab = 60000 ✓).</p><p>Lowest cost = <strong>₹ 120000</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>One day, Rahul started a work at 9 AM and Gautam joined him two hours later. They then worked together and completed the work at 5 PM the same day. If both had started at 9 AM and worked together, the work would have been completed 30 minutes earlier. Working alone, the time Rahul would have taken, in hours, to complete the work is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "12"
+    },
+    {
+     "id": "B",
+     "textHtml": "10"
+    },
+    {
+     "id": "C",
+     "textHtml": "11.5"
+    },
+    {
+     "id": "D",
+     "textHtml": "12.5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let Rahul and Gautam do r and g of the work per hour.</p><p>Actual: Rahul 8 hours, Gautam 6 hours → 8r + 6g = 1. Together from 9 AM: 7.5(r + g) = 1 → r + g = 2/15.</p><p>Then 8r + 6(2/15 − r) = 1 → 2r = 1 − 0.8 = 0.2 → r = 1/10.</p><p>Rahul alone takes <strong>10 hours</strong>.</p><p><strong>Quick view:</strong> In the second plan Gautam works 7.5 h instead of 6 h and Rahul 7.5 h instead of 8 h, so Gautam’s extra 1.5 h = Rahul’s 0.5 h, giving g = r/3. Then 8r + 2r = 1 → r = 1/10.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Modulus equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>If 3x + 2|y| + y = 7 and x + |x| + 3y = 1, then x + 2y is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "8/3"
+    },
+    {
+     "id": "B",
+     "textHtml": "−4/3"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "0"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Case x &lt; 0:</strong> the second equation gives 3y = 1, y = 1/3; then 3x + 1 = 7 gives x = 2, contradicting x &lt; 0.</p><p><strong>Case x ≥ 0:</strong> the second equation gives 2x + 3y = 1.</p><p>If y ≥ 0: 3x + 3y = 7; subtracting gives x = 6, then y = −11/3 &lt; 0, a contradiction.</p><p>If y &lt; 0: 3x − y = 7 → y = 3x − 7; then 2x + 9x − 21 = 1 → x = 2, y = −1. ✓ (x ≥ 0, y &lt; 0)</p><p>x + 2y = 2 − 2 = <strong>0</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Simple & compound interest",
+   "difficulty": "medium",
+   "stemHtml": "<p>Bank A offers 6% interest rate per annum compounded half yearly. Bank B and Bank C offer simple interest but the annual interest rate offered by Bank C is twice that of Bank B. Raju invests a certain amount in Bank B for a certain period and Rupa invests ₹ 10,000 in Bank C for twice that period. The interest that would accrue to Raju during that period is equal to the interest that would have accrued had he invested the same amount in Bank A for one year. The interest accrued, in INR, to Rupa is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1436"
+    },
+    {
+     "id": "B",
+     "textHtml": "3436"
+    },
+    {
+     "id": "C",
+     "textHtml": "2346"
+    },
+    {
+     "id": "D",
+     "textHtml": "2436"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Step 1:</strong> Bank A for one year: 3% per half-year → 1.03<sup>2</sup> − 1 = 6.09%.</p><p><strong>Step 2:</strong> Raju in Bank B at rate r for t years: r × t = 6.09%.</p><p><strong>Step 3:</strong> Rupa in Bank C at rate 2r for 2t years earns 4rt = 24.36% of 10000 = <strong>₹ 2436</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Rhombus",
+   "difficulty": "easy",
+   "stemHtml": "<p>A park is shaped like a rhombus and has area 96 sq m. If 40 m of fencing is needed to enclose the park, the cost, in INR, of laying electric wires along its two diagonals, at the rate of ₹ 125 per m, is</p>",
+   "answer": "3500",
+   "solutionHtml": "<p><strong>Step 1:</strong> Side = 40/4 = 10 m. With diagonals d<sub>1</sub>, d<sub>2</sub>: d<sub>1</sub>d<sub>2</sub>/2 = 96 → d<sub>1</sub>d<sub>2</sub> = 192, and (d<sub>1</sub>/2)<sup>2</sup> + (d<sub>2</sub>/2)<sup>2</sup> = 100 → d<sub>1</sub><sup>2</sup> + d<sub>2</sub><sup>2</sup> = 400.</p><p><strong>Step 2:</strong> (d<sub>1</sub> + d<sub>2</sub>)<sup>2</sup> = 400 + 384 = 784 → d<sub>1</sub> + d<sub>2</sub> = 28 m (diagonals 12 and 16).</p><p><strong>Step 3:</strong> Cost = 28 × 125 = <strong>₹ 3500</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Sequences & series",
+   "difficulty": "easy",
+   "stemHtml": "<p>Consider a sequence of real numbers x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, … such that x<sub>n+1</sub> = x<sub>n</sub> + n − 1 for all n ≥ 1. If x<sub>1</sub> = −1 then x<sub>100</sub> is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4949"
+    },
+    {
+     "id": "B",
+     "textHtml": "4850"
+    },
+    {
+     "id": "C",
+     "textHtml": "4950"
+    },
+    {
+     "id": "D",
+     "textHtml": "4849"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Adding the steps from n = 1 to 99: x<sub>100</sub> = x<sub>1</sub> + (0 + 1 + 2 + … + 98).</p><p>0 + 1 + … + 98 = 98 × 99/2 = 4851.</p><p>x<sub>100</sub> = −1 + 4851 = <strong>4850</strong>.</p><p><strong>Check with small terms:</strong> x<sub>2</sub> = −1 + 0 = −1, x<sub>3</sub> = −1 + 1 = 0, matching −1 + (0 + 1) = 0.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Circular motion",
+   "difficulty": "easy",
+   "stemHtml": "<p>Mira and Amal walk along a circular track, starting from the same point at the same time. If they walk in the same direction, then in 45 minutes, Amal completes exactly 3 more rounds than Mira. If they walk in opposite directions, then they meet for the first time exactly after 3 minutes. The number of rounds Mira walks in one hour is</p>",
+   "answer": "8",
+   "solutionHtml": "<p>Measure speeds in rounds per minute: Amal a, Mira m.</p><p>Same direction: 45(a − m) = 3 → a − m = 1/15.</p><p>Opposite directions: 3(a + m) = 1 → a + m = 1/3 = 5/15.</p><p>So m = (5/15 − 1/15)/2 = 2/15 rounds per minute → in 60 minutes Mira walks <strong>8</strong> rounds (Amal walks 12).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Triangles (angles)",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a triangle ABC, ∠BCA = 50°. D and E are points on AB and AC, respectively, such that AD = DE. If F is a point on BC such that BD = DF, then ∠FDE, in degrees, is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "72"
+    },
+    {
+     "id": "B",
+     "textHtml": "100"
+    },
+    {
+     "id": "C",
+     "textHtml": "96"
+    },
+    {
+     "id": "D",
+     "textHtml": "80"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let ∠A = A and ∠B = B, so A + B = 130°.</p><p>AD = DE → triangle ADE is isosceles: ∠DEA = A, so ∠ADE = 180° − 2A.</p><p>BD = DF → triangle BDF is isosceles: ∠DFB = B, so ∠BDF = 180° − 2B.</p><p><strong>Key move:</strong> the angles at D on the straight line AB add to 180°: ∠FDE = 180° − (180° − 2A) − (180° − 2B) = 2(A + B) − 180° = 260° − 180° = <strong>80°</strong>.</p><p><strong>Quick check:</strong> take A = B = 65° (equal angles): ∠ADE = 50°, ∠BDF = 50°, leaving 80°.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>For a real number a, if (log<sub>15</sub> a + log<sub>32</sub> a) / ((log<sub>15</sub> a)(log<sub>32</sub> a)) = 4 then a must lie in the range</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3 &lt; a &lt; 4"
+    },
+    {
+     "id": "B",
+     "textHtml": "2 &lt; a &lt; 3"
+    },
+    {
+     "id": "C",
+     "textHtml": "4 &lt; a &lt; 5"
+    },
+    {
+     "id": "D",
+     "textHtml": "a &gt; 5"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key move:</strong> split the fraction: 1/log<sub>32</sub> a + 1/log<sub>15</sub> a = log<sub>a</sub> 32 + log<sub>a</sub> 15 = log<sub>a</sub> 480.</p><p>So log<sub>a</sub> 480 = 4 → a<sup>4</sup> = 480.</p><p>Since 4<sup>4</sup> = 256 &lt; 480 &lt; 625 = 5<sup>4</sup>, we get <strong>4 &lt; a &lt; 5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Modern Maths",
+   "subtopic": "Permutations & combinations",
+   "difficulty": "easy",
+   "stemHtml": "<p>A four-digit number is formed by using only the digits 1, 2 and 3 such that both 2 and 3 appear at least once. The number of all such four-digit numbers is</p>",
+   "answer": "50",
+   "solutionHtml": "<p><strong>Inclusion–exclusion:</strong> all numbers from {1, 2, 3}: 3<sup>4</sup> = 81. Without a 2: 2<sup>4</sup> = 16. Without a 3: 16. Without both (all 1s): 1.</p><p>Required = 81 − 16 − 16 + 1 = <strong>50</strong>.</p><p><strong>Check by counting 1s:</strong> no 1s: 2<sup>4</sup> − 2 = 14; one 1: 4 × (2<sup>3</sup> − 2) = 24; two 1s: 6 × (2<sup>2</sup> − 2) = 12; total 14 + 24 + 12 = 50.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2021 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

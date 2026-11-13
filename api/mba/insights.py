@@ -4,13 +4,15 @@ Topic accuracy comes from ``mbaQuestionStats`` (every practice, daily and submit
 is counted there); average time per question comes from the student's submitted attempts (the
 only place time per question is recorded). A topic is called weak only with enough evidence
 (``MIN_EVIDENCE`` answers); below that it is labelled low-confidence and never flagged.
+
+``examId`` (default ``cat``) limits topics and the score trend to one exam.
 """
 
 from __future__ import annotations
 
 from typing import Any, Literal
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Query
 from pydantic import BaseModel
 
 from api.auth import CurrentUser
@@ -19,7 +21,8 @@ from api.db import SafeFirestore, get_db
 from .analysis import practice_href
 from .attempts import _plan, user_attempts
 from .deps import student
-from .models import SECTION_IDS, SectionId
+from .exams import exam_section_ids
+from .models import ExamSectionId
 from .scoring import normalize_answer
 from .stats import has_answered
 from .store import get_bank, user_stats
@@ -34,7 +37,7 @@ MAX_WEAK = 5
 
 
 class TopicInsight(BaseModel):
-    section: SectionId
+    section: ExamSectionId
     topic: str
     questions: int
     attempts: int
@@ -48,7 +51,7 @@ class TopicInsight(BaseModel):
 
 
 class TrendSection(BaseModel):
-    id: SectionId
+    id: ExamSectionId
     score: float
     maxScore: float
     accuracy: float | None
@@ -87,14 +90,21 @@ def _status(attempts: int, accuracy: float | None) -> str:
 
 
 @router.get("/me/insights", response_model=InsightsResponse)
-def insights(user: CurrentUser = Depends(student), db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+def insights(
+    examId: str = Query(default="cat", max_length=50),  # noqa: N803
+    user: CurrentUser = Depends(student),
+    db: SafeFirestore = Depends(get_db),
+) -> dict[str, Any]:
     bank = get_bank(db)
     stats = user_stats(db, user.user_id)
-    submitted = [a for a in user_attempts(db, bank, user) if a.get("status") == "submitted"]
+    section_ids = exam_section_ids(bank, examId)
+    submitted = [a for a in user_attempts(db, bank, user)
+                 if a.get("status") == "submitted" and (a.get("examId") or "cat") == examId]
 
     def key_of(question: dict[str, Any]) -> tuple[str, str] | None:
         topic = question.get("topic")
-        if question.get("section") not in SECTION_IDS or not isinstance(topic, str) or not topic.strip():
+        if (question.get("examId") or "cat") != examId or question.get("section") not in section_ids \
+                or not isinstance(topic, str) or not topic.strip():
             return None
         return question["section"], topic.strip()
 
@@ -131,9 +141,9 @@ def insights(user: CurrentUser = Depends(student), db: SafeFirestore = Depends(g
             "correct": row["correct"], "accuracy": accuracy,
             "avgTimeMs": row["timeMs"] // row["timed"] if row["timed"] else None, "timedAnswers": row["timed"],
             "confidence": "sufficient" if row["attempts"] >= MIN_EVIDENCE else "low",
-            "status": _status(row["attempts"], accuracy), "href": practice_href(section, topic),
+            "status": _status(row["attempts"], accuracy), "href": practice_href(section, topic, exam=examId),
         })
-    topics.sort(key=lambda t: (SECTION_IDS.index(t["section"]), t["topic"].lower()))
+    topics.sort(key=lambda t: (section_ids.index(t["section"]), t["topic"].lower()))
     weak = sorted((t for t in topics if t["status"] == "weak"), key=lambda t: (t["accuracy"] or 0, -t["attempts"]))
 
     trend = []
@@ -144,7 +154,7 @@ def insights(user: CurrentUser = Depends(student), db: SafeFirestore = Depends(g
             "submittedAt": att.get("submittedAt") or "", "score": result.get("score", 0), "maxScore": result.get("maxScore", 0),
             "sections": [
                 {"id": s["id"], "score": s.get("score", 0), "maxScore": s.get("maxScore", 0), "accuracy": s.get("accuracy")}
-                for s in result.get("sections") or [] if isinstance(s, dict) and s.get("id") in SECTION_IDS
+                for s in result.get("sections") or [] if isinstance(s, dict) and s.get("id") in section_ids
             ],
         })
 

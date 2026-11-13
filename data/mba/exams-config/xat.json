@@ -1,0 +1,101 @@
+{
+  "id": "xat",
+  "name": "Xavier Aptitude Test (XAT)",
+  "conductingBody": "XLRI - Xavier School of Management, Jamshedpur (on behalf of XAMI)",
+  "officialUrl": "https://xatonline.in/",
+  "adaptive": false,
+  "versions": [
+    {
+      "year": 2027,
+      "sections": [
+        {
+          "id": "VALR",
+          "name": "Verbal Ability and Logical Reasoning",
+          "questionCount": 26,
+          "durationMinutes": null
+        },
+        {
+          "id": "DM",
+          "name": "Decision Making",
+          "questionCount": 21,
+          "durationMinutes": null
+        },
+        {
+          "id": "QADI",
+          "name": "Quantitative Aptitude and Data Interpretation",
+          "questionCount": 28,
+          "durationMinutes": null
+        },
+        {
+          "id": "GK",
+          "name": "General Knowledge",
+          "questionCount": 20,
+          "durationMinutes": 10,
+          "countsInTotal": false
+        }
+      ],
+      "timerBlocks": [
+        {
+          "id": "PART1",
+          "name": "Part 1",
+          "sectionIds": [
+            "VALR",
+            "DM",
+            "QADI"
+          ],
+          "durationMinutes": 170
+        },
+        {
+          "id": "GK",
+          "name": "Part 2: General Knowledge",
+          "sectionIds": [
+            "GK"
+          ],
+          "durationMinutes": 10
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": -0.25,
+          "unanswered": 0,
+          "sections": [
+            "VALR",
+            "DM",
+            "QADI"
+          ]
+        },
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": 0,
+          "unanswered": 0,
+          "sections": [
+            "GK"
+          ]
+        }
+      ],
+      "unansweredPenalty": {
+        "sections": [
+          "VALR",
+          "DM",
+          "QADI"
+        ],
+        "freeCount": 12,
+        "marks": -0.1
+      },
+      "totalDurationMinutes": 180,
+      "sectionOrderLocked": true,
+      "scoring": "official",
+      "scoringNote": "Part 1: +1 correct, -0.25 wrong, and -0.10 for every unanswered question after the first 12 unanswered. Part 2 (GK): +1 correct, no negative marking; XLRI uses GK only in its own final selection, so it is shown separately and not added to the total. Question counts are officially 'about' 26/21/28/20.",
+      "source": {
+        "kind": "official",
+        "title": "XAT 2027: A Quick Overview (with XAT FAQs and the XAT 2027 Bulletin)",
+        "url": "https://xatonline.in/assets/pdf/xat-2027-overview.pdf",
+        "year": 2027,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

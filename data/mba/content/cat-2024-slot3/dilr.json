@@ -1,0 +1,657 @@
+{
+  "sets": [
+    {
+      "key": "S1",
+      "kind": "dilr_set",
+      "title": "ATMs on a road network",
+      "contentHtml": "<p>The figure below shows a network with three parallel roads represented by horizontal lines R-A, R-B, and R-C and another three parallel roads represented by vertical lines V1, V2, and V3. The figure also shows the distance (in km) between two adjacent intersections. Six ATMs are placed at six of the nine road intersections. Each ATM has a distinct integer cash requirement (in Rs. Lakhs), and the numbers at the end of each line in the figure indicate the total cash requirements of all ATMs placed on the corresponding road. For example, the total cash requirement of the ATM(s) placed on road R-A is Rs. 22 Lakhs.</p><p>The following additional information is known.</p><ol><li>The ATMs with the minimum and maximum cash requirements of Rs. 7 Lakhs and Rs. 15 Lakhs are placed on the same road.</li><li>The road distance between the ATM with the second highest cash requirement and the ATM located at the intersection of R-C and V3 is 12 km.</li></ol><p>(In the figure: V1–V2 = 4 km, V2–V3 = 7 km, R-A–R-B = 3 km, R-B–R-C = 5 km. Road totals: R-A 22, R-B 20, R-C 20, V1 15, V2 21, V3 26.)</p>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot3/atm-network.png"
+      ]
+    },
+    {
+      "key": "S2",
+      "kind": "dilr_set",
+      "title": "OTT subscribers",
+      "contentHtml": "<p>Over the top (OTT) subscribers of a platform are segregated into three categories: i) Kid, ii) Elder, and iii) Others.</p><p>Some of the subscribers used one app and the others used multiple apps to access the platform. The figure below shows the percentage of the total number of subscribers in 2023 and 2024 who belong to the ‘Kid’ and ‘Elder’ categories.</p><p>(Figure: Kid – 15% in 2023, 20% in 2024; Elder – 20% in 2023, 30% in 2024.)</p><p>The following additional facts are known about the numbers of subscribers.</p><ol><li>The total number of subscribers increased by 10% from 2023 to 2024.</li><li>In 2024, 1/2 of the subscribers from the ‘Kid’ category and 2/3 of the subscribers from the ‘Elder’ category subscribers use one app.</li><li>In 2023, the number of subscribers from the ‘Kid’ category who used multiple apps was the same as the number of subscribers from the ‘Elder’ category who used one app.</li><li>10,000 subscribers from the ‘Kid’ category used one app and 15,000 subscribers from the ‘Elder’ category used multiple apps in 2023.</li></ol>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot3/ott-subscribers.png"
+      ]
+    },
+    {
+      "key": "S3",
+      "kind": "dilr_set",
+      "title": "GDP and population of ten countries",
+      "contentHtml": "<p>Out of 10 countries -- Country 1 through Country 10 -- Country 9 has the highest gross domestic product (GDP), and Country 10 has the highest GDP per capita. GDP per capita is the GDP of a country divided by its population. The table below provides the following data about Country 1 through Country 8 for the year 2024.</p><ul><li>Column 1 gives the country's identity.</li><li>Column 2 gives the country’s GDP as a fraction of the GDP of Country 9.</li><li>Column 3 gives the country’s GDP per capita as a fraction of the GDP per capita of Country 10.</li><li>Column 4 gives the country’s annual GDP growth rate.</li><li>Column 5 gives the country’s annual population growth rate.</li></ul><table><thead><tr><th>Country</th><th>GDP</th><th>GDP per capita</th><th>GDP growth rate</th><th>Population growth rate</th></tr></thead><tbody><tr><td>Country 1</td><td>0.15</td><td>0.41</td><td>0.2%</td><td>–0.12%</td></tr><tr><td>Country 2</td><td>0.14</td><td>0.25</td><td>0.9%</td><td>–0.41%</td></tr><tr><td>Country 3</td><td>0.13</td><td>0.02</td><td>6.5%</td><td>0.70%</td></tr><tr><td>Country 4</td><td>0.12</td><td>0.38</td><td>0.5%</td><td>0.49%</td></tr><tr><td>Country 5</td><td>0.10</td><td>0.36</td><td>0.7%</td><td>0.31%</td></tr><tr><td>Country 6</td><td>0.08</td><td>0.08</td><td>3.2%</td><td>0.61%</td></tr><tr><td>Country 7</td><td>0.08</td><td>0.30</td><td>0.7%</td><td>–0.11%</td></tr><tr><td>Country 8</td><td>0.07</td><td>0.41</td><td>1.2%</td><td>0.71%</td></tr></tbody></table><p>Assume that the GDP growth rates and population growth rates of the countries will remain constant for the next three years.</p>"
+    },
+    {
+      "key": "S4",
+      "kind": "dilr_set",
+      "title": "Air-conditioner modes",
+      "contentHtml": "<p>The air-conditioner (AC) in a large room can be operated either in REGULAR mode or in POWER mode to reduce the temperature.</p><p>If the AC operates in REGULAR mode, then it brings down the temperature inside the room (called inside temperature) at a constant rate to the set temperature in 1 hour. If it operates in POWER mode, then this is achieved in 30 minutes.</p><p>If the AC is switched off, then the inside temperature rises at a constant rate so as to reach the temperature outside at the time of switching off in 1 hour. The temperature outside has been falling at a constant rate from 7 pm onward until 3 am on a particular night. The following graph shows the inside temperature between 11 pm (23:00) and 2 am (2:00) that night.</p><p>(Graph, inside temperature in °C: 23:00 – 38, 00:00 – 26, 00:30 – 31, 01:00 – 26, 01:30 – 30, 02:00 – 28, joined by straight lines.)</p><p>The following facts are known about the AC operation that night.</p><ul><li>The AC was turned on for the first time that night at 11 pm (23:00).</li><li>The AC setting was changed (including turning it on/off, and/or setting different temperatures) only at the beginning of the hour or at 30 minutes after the hour.</li><li>The AC was used in POWER mode for longer duration than in REGULAR mode during this 3-hour period.</li></ul>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2024-slot3/ac-inside-temperature.png"
+      ]
+    },
+    {
+      "key": "S5",
+      "kind": "dilr_set",
+      "title": "Nutrients in food grains",
+      "contentHtml": "<p>The table given below shows the amount, in grams, of carbohydrate, protein, fat and all other nutrients, per 100 grams of nutrients in seven food grains. The first column shows the foodgrain category and the second column its codename. The table has some missing values.</p><table><thead><tr><th>Food grain category</th><th>Codename of the food grain</th><th>Carbohydrate</th><th>Protein</th><th>Fat</th><th>Other nutrients</th></tr></thead><tbody><tr><td>Cereal</td><td>C1</td><td></td><td></td><td>0</td><td>12</td></tr><tr><td>Cereal</td><td>C2</td><td></td><td></td><td>3</td><td>10</td></tr><tr><td>Millet</td><td>M1</td><td>62</td><td>10</td><td></td><td></td></tr><tr><td>Millet</td><td>M2</td><td></td><td></td><td>7</td><td>16</td></tr><tr><td>Millet</td><td>M3</td><td>56</td><td></td><td>12</td><td></td></tr><tr><td>Pseudo-cereal</td><td>P1</td><td>66</td><td></td><td></td><td>10</td></tr><tr><td>Pseudo-cereal</td><td>P2</td><td></td><td>14</td><td></td><td>8</td></tr></tbody></table><p>(Composition per hundred grams of nutrients in the food grains; blank cells are missing values.)</p><p>The following additional facts are known.</p><ol><li>Both the pseudo-cereals had higher amounts of carbohydrate as well as higher amounts of protein than any millet.</li><li>Both the cereals had higher amounts of carbohydrate than any pseudo-cereal.</li><li>All the missing values of carbohydrate amounts (in grams) for all the foodgrains are non-zero multiples of 5.</li><li>All the missing values of protein, fat and other nutrients amounts (in grams) for all the foodgrains are non-zero multiples of 4.</li><li>P1 contained double the amount of protein that M3 contains.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements is correct?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The ATM placed at the (R-C, V2) intersection has a cash requirement of Rs. 9 Lakhs."
+        },
+        {
+          "id": "B",
+          "textHtml": "The cash requirement of the ATM placed at the (R-C, V2) intersection cannot be uniquely determined."
+        },
+        {
+          "id": "C",
+          "textHtml": "The ATM placed at the (R-C, V2) intersection has a cash requirement of Rs. 8 Lakhs."
+        },
+        {
+          "id": "D",
+          "textHtml": "There is no ATM placed at the (R-C, V2) intersection."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> All six totals add to 22+20+20 = 62 = 15+21+26. Values are distinct integers from 7 to 15, with 7 and 15 present, so the other four sum to 62 − 22 = 40.</p><p>7 and 15 share a road whose total is at least 22: only R-A works (V2 = 21 is too small; V3 = 26 would need a third ATM of 4). So <strong>R-A holds exactly 7 and 15</strong>.</p><p>R-B and R-C each total 20 using values from 8–14: that needs exactly two ATMs each (three would be ≥ 24), i.e. the pairs {8, 12} and {9, 11}. So the six values are <strong>7, 8, 9, 11, 12, 15</strong>.</p><p>Columns: if 15 is at (R-A, V1), V1 = 15 holds nothing else, 7 must be at V3 (7 at V2 would need two more ATMs summing to 14 on V2 — impossible), V2 = 12 + 9 and V3 = 7 + 8 + 11. If 7 is at (R-A, V1), V1 needs an 8 below it, 15 must be at V3 (15 at V2 would need a 6), V3 needs an 11, and V2 = 12 + 9.</p><p>Clue 2: 12 must be 12 km from the ATM at (R-C, V3). In both cases this forces 12 at (R-B, V2) (5 + 7 = 12 km), 9 at (R-C, V2) and 11 at (R-C, V3).</p><table><thead><tr><th>Case</th><th>R-A</th><th>R-B</th><th>R-C</th></tr></thead><tbody><tr><td>1</td><td>V1: 15, V3: 7</td><td>V2: 12, V3: 8</td><td>V2: 9, V3: 11</td></tr><tr><td>2</td><td>V1: 7, V3: 15</td><td>V1: 8, V2: 12</td><td>V2: 9, V3: 11</td></tr></tbody></table><p><strong>Answer: A.</strong> In both cases the ATM at (R-C, V2) has Rs. 9 Lakhs.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "TITA",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many ATMs have cash requirements of Rs. 10 Lakhs or more?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Key deductions.</strong> All six totals add to 22+20+20 = 62 = 15+21+26. Values are distinct integers from 7 to 15, with 7 and 15 present, so the other four sum to 62 − 22 = 40.</p><p>7 and 15 share a road whose total is at least 22: only R-A works (V2 = 21 is too small; V3 = 26 would need a third ATM of 4). So <strong>R-A holds exactly 7 and 15</strong>.</p><p>R-B and R-C each total 20 using values from 8–14: that needs exactly two ATMs each (three would be ≥ 24), i.e. the pairs {8, 12} and {9, 11}. So the six values are <strong>7, 8, 9, 11, 12, 15</strong>.</p><p>Columns: if 15 is at (R-A, V1), V1 = 15 holds nothing else, 7 must be at V3 (7 at V2 would need two more ATMs summing to 14 on V2 — impossible), V2 = 12 + 9 and V3 = 7 + 8 + 11. If 7 is at (R-A, V1), V1 needs an 8 below it, 15 must be at V3 (15 at V2 would need a 6), V3 needs an 11, and V2 = 12 + 9.</p><p>Clue 2: 12 must be 12 km from the ATM at (R-C, V3). In both cases this forces 12 at (R-B, V2) (5 + 7 = 12 km), 9 at (R-C, V2) and 11 at (R-C, V3).</p><table><thead><tr><th>Case</th><th>R-A</th><th>R-B</th><th>R-C</th></tr></thead><tbody><tr><td>1</td><td>V1: 15, V3: 7</td><td>V2: 12, V3: 8</td><td>V2: 9, V3: 11</td></tr><tr><td>2</td><td>V1: 7, V3: 15</td><td>V1: 8, V2: 12</td><td>V2: 9, V3: 11</td></tr></tbody></table><p><strong>Answer: 3.</strong> The values are 7, 8, 9, 11, 12, 15 in every case, so 11, 12 and 15 qualify.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following two statements is/are DEFINITELY true?</p><p>Statement A: Each of R-A, R-B, and R-C has two ATMs.<br>Statement B: Each of V1, V2, and V3 has two ATMs.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only Statement B"
+        },
+        {
+          "id": "B",
+          "textHtml": "Neither Statement A nor Statement B"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both Statement A and Statement B"
+        },
+        {
+          "id": "D",
+          "textHtml": "Only Statement A"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong> All six totals add to 22+20+20 = 62 = 15+21+26. Values are distinct integers from 7 to 15, with 7 and 15 present, so the other four sum to 62 − 22 = 40.</p><p>7 and 15 share a road whose total is at least 22: only R-A works (V2 = 21 is too small; V3 = 26 would need a third ATM of 4). So <strong>R-A holds exactly 7 and 15</strong>.</p><p>R-B and R-C each total 20 using values from 8–14: that needs exactly two ATMs each (three would be ≥ 24), i.e. the pairs {8, 12} and {9, 11}. So the six values are <strong>7, 8, 9, 11, 12, 15</strong>.</p><p>Columns: if 15 is at (R-A, V1), V1 = 15 holds nothing else, 7 must be at V3 (7 at V2 would need two more ATMs summing to 14 on V2 — impossible), V2 = 12 + 9 and V3 = 7 + 8 + 11. If 7 is at (R-A, V1), V1 needs an 8 below it, 15 must be at V3 (15 at V2 would need a 6), V3 needs an 11, and V2 = 12 + 9.</p><p>Clue 2: 12 must be 12 km from the ATM at (R-C, V3). In both cases this forces 12 at (R-B, V2) (5 + 7 = 12 km), 9 at (R-C, V2) and 11 at (R-C, V3).</p><table><thead><tr><th>Case</th><th>R-A</th><th>R-B</th><th>R-C</th></tr></thead><tbody><tr><td>1</td><td>V1: 15, V3: 7</td><td>V2: 12, V3: 8</td><td>V2: 9, V3: 11</td></tr><tr><td>2</td><td>V1: 7, V3: 15</td><td>V1: 8, V2: 12</td><td>V2: 9, V3: 11</td></tr></tbody></table><p><strong>Answer: D.</strong> Every horizontal road has exactly two ATMs in both cases, so Statement A is always true. In case 1, V1 has one ATM and V3 has three, so Statement B is not definitely true.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>What best can be said about the road distance (in km) between the ATMs having the second highest and the second lowest cash requirements?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4 km"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 km"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either 4 km or 7 km"
+        },
+        {
+          "id": "D",
+          "textHtml": "7 km"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> All six totals add to 22+20+20 = 62 = 15+21+26. Values are distinct integers from 7 to 15, with 7 and 15 present, so the other four sum to 62 − 22 = 40.</p><p>7 and 15 share a road whose total is at least 22: only R-A works (V2 = 21 is too small; V3 = 26 would need a third ATM of 4). So <strong>R-A holds exactly 7 and 15</strong>.</p><p>R-B and R-C each total 20 using values from 8–14: that needs exactly two ATMs each (three would be ≥ 24), i.e. the pairs {8, 12} and {9, 11}. So the six values are <strong>7, 8, 9, 11, 12, 15</strong>.</p><p>Columns: if 15 is at (R-A, V1), V1 = 15 holds nothing else, 7 must be at V3 (7 at V2 would need two more ATMs summing to 14 on V2 — impossible), V2 = 12 + 9 and V3 = 7 + 8 + 11. If 7 is at (R-A, V1), V1 needs an 8 below it, 15 must be at V3 (15 at V2 would need a 6), V3 needs an 11, and V2 = 12 + 9.</p><p>Clue 2: 12 must be 12 km from the ATM at (R-C, V3). In both cases this forces 12 at (R-B, V2) (5 + 7 = 12 km), 9 at (R-C, V2) and 11 at (R-C, V3).</p><table><thead><tr><th>Case</th><th>R-A</th><th>R-B</th><th>R-C</th></tr></thead><tbody><tr><td>1</td><td>V1: 15, V3: 7</td><td>V2: 12, V3: 8</td><td>V2: 9, V3: 11</td></tr><tr><td>2</td><td>V1: 7, V3: 15</td><td>V1: 8, V2: 12</td><td>V2: 9, V3: 11</td></tr></tbody></table><p><strong>Answer: C.</strong> Second highest = 12 at (R-B, V2); second lowest = 8. In case 1, 8 is at (R-B, V3): distance 7 km. In case 2, 8 is at (R-B, V1): distance 4 km. So it is either 4 km or 7 km.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "TITA",
+      "setKey": "S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the number of ATMs whose locations and cash requirements can both be uniquely determined?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Key deductions.</strong> All six totals add to 22+20+20 = 62 = 15+21+26. Values are distinct integers from 7 to 15, with 7 and 15 present, so the other four sum to 62 − 22 = 40.</p><p>7 and 15 share a road whose total is at least 22: only R-A works (V2 = 21 is too small; V3 = 26 would need a third ATM of 4). So <strong>R-A holds exactly 7 and 15</strong>.</p><p>R-B and R-C each total 20 using values from 8–14: that needs exactly two ATMs each (three would be ≥ 24), i.e. the pairs {8, 12} and {9, 11}. So the six values are <strong>7, 8, 9, 11, 12, 15</strong>.</p><p>Columns: if 15 is at (R-A, V1), V1 = 15 holds nothing else, 7 must be at V3 (7 at V2 would need two more ATMs summing to 14 on V2 — impossible), V2 = 12 + 9 and V3 = 7 + 8 + 11. If 7 is at (R-A, V1), V1 needs an 8 below it, 15 must be at V3 (15 at V2 would need a 6), V3 needs an 11, and V2 = 12 + 9.</p><p>Clue 2: 12 must be 12 km from the ATM at (R-C, V3). In both cases this forces 12 at (R-B, V2) (5 + 7 = 12 km), 9 at (R-C, V2) and 11 at (R-C, V3).</p><table><thead><tr><th>Case</th><th>R-A</th><th>R-B</th><th>R-C</th></tr></thead><tbody><tr><td>1</td><td>V1: 15, V3: 7</td><td>V2: 12, V3: 8</td><td>V2: 9, V3: 11</td></tr><tr><td>2</td><td>V1: 7, V3: 15</td><td>V1: 8, V2: 12</td><td>V2: 9, V3: 11</td></tr></tbody></table><p><strong>Answer: 3.</strong> Fixed in both cases: 12 at (R-B, V2), 9 at (R-C, V2), 11 at (R-C, V3). The positions of 7, 15 and 8 change between the cases.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many subscribers belonged to the ‘Others’ category in 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "45000"
+        },
+        {
+          "id": "B",
+          "textHtml": "55000"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cannot be determined"
+        },
+        {
+          "id": "D",
+          "textHtml": "65000"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Let the 2023 total be T and let x = Kid multiple-app users = Elder one-app users (2023).</p><p>Kid 2023: 10,000 + x = 0.15T. Elder 2023: x + 15,000 = 0.20T. Subtracting: 5,000 = 0.05T, so <strong>T = 1,00,000</strong>, Kid = 15,000, Elder = 20,000, x = 5,000.</p><p>2024: total = 1,10,000; Kid = 20% = 22,000 (11,000 one app, 11,000 multiple); Elder = 30% = 33,000 (22,000 one app, 11,000 multiple); Others = 55,000.</p><p><strong>Answer: B.</strong> Others 2024 = 1,10,000 × (100 − 20 − 30)% = 55,000.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>What percentage of subscribers in the ‘Kid’ category used multiple apps in 2023?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "50.00%"
+        },
+        {
+          "id": "B",
+          "textHtml": "5.00%"
+        },
+        {
+          "id": "C",
+          "textHtml": "33.33%"
+        },
+        {
+          "id": "D",
+          "textHtml": "25.50%"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Let the 2023 total be T and let x = Kid multiple-app users = Elder one-app users (2023).</p><p>Kid 2023: 10,000 + x = 0.15T. Elder 2023: x + 15,000 = 0.20T. Subtracting: 5,000 = 0.05T, so <strong>T = 1,00,000</strong>, Kid = 15,000, Elder = 20,000, x = 5,000.</p><p>2024: total = 1,10,000; Kid = 20% = 22,000 (11,000 one app, 11,000 multiple); Elder = 30% = 33,000 (22,000 one app, 11,000 multiple); Others = 55,000.</p><p><strong>Answer: C.</strong> Kid 2023 = 15,000, of whom 5,000 used multiple apps: 5,000/15,000 = 33.33%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>What was the percentage increase in the number of subscribers in the ‘Elder’ category from 2023 to 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "50%"
+        },
+        {
+          "id": "B",
+          "textHtml": "65%"
+        },
+        {
+          "id": "C",
+          "textHtml": "60%"
+        },
+        {
+          "id": "D",
+          "textHtml": "40%"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Let the 2023 total be T and let x = Kid multiple-app users = Elder one-app users (2023).</p><p>Kid 2023: 10,000 + x = 0.15T. Elder 2023: x + 15,000 = 0.20T. Subtracting: 5,000 = 0.05T, so <strong>T = 1,00,000</strong>, Kid = 15,000, Elder = 20,000, x = 5,000.</p><p>2024: total = 1,10,000; Kid = 20% = 22,000 (11,000 one app, 11,000 multiple); Elder = 30% = 33,000 (22,000 one app, 11,000 multiple); Others = 55,000.</p><p><strong>Answer: B.</strong> Elder: 20,000 → 33,000, an increase of 13,000/20,000 = 65%.</p><p><strong>Quick check:</strong> 1.1 × 30/20 = 1.65.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>What could be the minimum percentage of subscribers who used multiple apps in 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20.0%"
+        },
+        {
+          "id": "B",
+          "textHtml": "10.0%"
+        },
+        {
+          "id": "C",
+          "textHtml": "22.00%"
+        },
+        {
+          "id": "D",
+          "textHtml": "16.5%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key deductions.</strong> Let the 2023 total be T and let x = Kid multiple-app users = Elder one-app users (2023).</p><p>Kid 2023: 10,000 + x = 0.15T. Elder 2023: x + 15,000 = 0.20T. Subtracting: 5,000 = 0.05T, so <strong>T = 1,00,000</strong>, Kid = 15,000, Elder = 20,000, x = 5,000.</p><p>2024: total = 1,10,000; Kid = 20% = 22,000 (11,000 one app, 11,000 multiple); Elder = 30% = 33,000 (22,000 one app, 11,000 multiple); Others = 55,000.</p><p><strong>Answer: A.</strong> Multiple-app users in 2024 are at least Kid 11,000 + Elder 11,000 = 22,000. The 55,000 ‘Others’ have no constraint, so all of them may use one app. Minimum = 22,000/1,10,000 = 20%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which one among the countries 1 through 8, has the smallest population in 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Country 8"
+        },
+        {
+          "id": "B",
+          "textHtml": "Country 5"
+        },
+        {
+          "id": "C",
+          "textHtml": "Country 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Country 7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Key idea.</strong> Population = GDP ÷ GDP per capita. Since both columns are fractions of fixed references (Country 9’s GDP and Country 10’s per-capita GDP), population is proportional to (column 2) ÷ (column 3).</p><p>2024 relative populations: C1 0.15/0.41 ≈ 0.366, C2 0.56, C3 6.5, C4 ≈ 0.316, C5 ≈ 0.278, C6 1.0, C7 ≈ 0.267, C8 ≈ 0.171.</p><p><strong>Answer: A.</strong> Country 8 has the smallest ratio, 0.07/0.41 ≈ 0.171.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>The ratio of Country 4’s GDP to Country 5’s GDP in 2026 will be closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1.032"
+        },
+        {
+          "id": "B",
+          "textHtml": "1.195"
+        },
+        {
+          "id": "C",
+          "textHtml": "1.314"
+        },
+        {
+          "id": "D",
+          "textHtml": "0.963"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Step 1:</strong> In 2024 the ratio is 0.12/0.10 = 1.2.</p><p><strong>Step 2:</strong> 2026 is two years later: ratio = 1.2 × (1.005/1.007)<sup>2</sup> ≈ 1.2 × (0.99801)<sup>2</sup> ≈ 1.2 × 0.99602 ≈ 1.195.</p><p><strong>Answer: B.</strong> (Growth rates differ by only 0.2%, so the ratio falls only slightly below 1.2.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which one among the countries 1, 4, 5, and 7 will have the largest population in 2027?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Country 7"
+        },
+        {
+          "id": "B",
+          "textHtml": "Country 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "Country 5"
+        },
+        {
+          "id": "D",
+          "textHtml": "Country 1"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key idea.</strong> Population = GDP ÷ GDP per capita. Since both columns are fractions of fixed references (Country 9’s GDP and Country 10’s per-capita GDP), population is proportional to (column 2) ÷ (column 3).</p><p>2024 relative populations: C1 0.15/0.41 ≈ 0.366, C2 0.56, C3 6.5, C4 ≈ 0.316, C5 ≈ 0.278, C6 1.0, C7 ≈ 0.267, C8 ≈ 0.171.</p><p>Three years of growth: C1 0.366 × (0.9988)<sup>3</sup> ≈ 0.365; C4 0.316 × (1.0049)<sup>3</sup> ≈ 0.321; C5 0.278 × (1.0031)<sup>3</sup> ≈ 0.280; C7 0.267 × (0.9989)<sup>3</sup> ≈ 0.266.</p><p>Growth rates under 0.5% a year cannot close gaps of 10%+ in three years.</p><p><strong>Answer: D.</strong> Country 1 remains the largest.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "TITA",
+      "setKey": "S3",
+      "topic": "Data Interpretation",
+      "subtopic": "Tables",
+      "difficulty": "medium",
+      "stemHtml": "<p>For how many countries among Country 1 through Country 8 will the GDP per capita in 2027 be lower than that in 2024?</p>",
+      "answer": "0",
+      "solutionHtml": "<p><strong>Key idea:</strong> GDP per capita falls only if population grows faster than GDP, i.e. population growth rate &gt; GDP growth rate.</p><p>Compare columns 4 and 5: C1 0.2% vs −0.12%; C2 0.9% vs −0.41%; C3 6.5% vs 0.70%; C4 0.5% vs 0.49%; C5 0.7% vs 0.31%; C6 3.2% vs 0.61%; C7 0.7% vs −0.11%; C8 1.2% vs 0.71%.</p><p>In every country GDP grows faster than population (Country 4 only just: 0.5% &gt; 0.49%), so GDP per capita rises everywhere.</p><p><strong>Answer: 0.</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process analysis",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many times the AC must have been turned off between 11:01 pm and 1:59 am?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "1"
+        },
+        {
+          "id": "D",
+          "textHtml": "cannot be determined"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Key deductions.</strong> The AC can only cool, so the rising stretches (00:00–00:30 and 01:00–01:30) mean the AC was <strong>off</strong>; it was switched off at 00:00 and at 01:00 and switched on again at 00:30 and 01:30.</p><p>When off, the room heats at a rate that reaches the outside temperature (at switch-off) in 1 hour. 26 → 31 in 30 min means it would reach 36 in an hour: outside = <strong>36 °C at 00:00</strong>. 26 → 30 in 30 min: outside = <strong>34 °C at 01:00</strong>. So the outside temperature falls 2 °C per hour (38 °C at 23:00, matching the inside reading when the AC was first switched on).</p><p>AC-on time = 23:00–00:00 (1 h) + 00:30–01:00 + 01:30–02:00 = 2 h. If the first hour were entirely REGULAR, POWER could be at most 1 h – not longer than REGULAR. So POWER must be used in the first hour, which (because POWER reaches its set point in 30 min and the line falls steadily all hour) needs a <strong>setting change at 23:30</strong> (e.g. POWER to 32 then POWER to 26).</p><p><strong>Answer: B.</strong> Inside temperature rises only when the AC is off: from 00:00 and from 01:00. So it was turned off exactly twice.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "TITA",
+      "setKey": "S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process analysis",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the temperature outside, in degree Celsius, at 1 am?</p>",
+      "answer": "34",
+      "solutionHtml": "<p><strong>Key deductions.</strong> The AC can only cool, so the rising stretches (00:00–00:30 and 01:00–01:30) mean the AC was <strong>off</strong>; it was switched off at 00:00 and at 01:00 and switched on again at 00:30 and 01:30.</p><p>When off, the room heats at a rate that reaches the outside temperature (at switch-off) in 1 hour. 26 → 31 in 30 min means it would reach 36 in an hour: outside = <strong>36 °C at 00:00</strong>. 26 → 30 in 30 min: outside = <strong>34 °C at 01:00</strong>. So the outside temperature falls 2 °C per hour (38 °C at 23:00, matching the inside reading when the AC was first switched on).</p><p>AC-on time = 23:00–00:00 (1 h) + 00:30–01:00 + 01:30–02:00 = 2 h. If the first hour were entirely REGULAR, POWER could be at most 1 h – not longer than REGULAR. So POWER must be used in the first hour, which (because POWER reaches its set point in 30 min and the line falls steadily all hour) needs a <strong>setting change at 23:30</strong> (e.g. POWER to 32 then POWER to 26).</p><p><strong>Answer: 34.</strong> Switched off at 01:00 at 26 °C, the room reaches 30 °C at 01:30, i.e. 4 °C per half hour, so it would reach 34 °C in one hour – the outside temperature at 01:00.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "TITA",
+      "setKey": "S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process analysis",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the temperature outside, in degree Celsius, at 9 pm?</p>",
+      "answer": "42",
+      "solutionHtml": "<p><strong>Key deductions.</strong> The AC can only cool, so the rising stretches (00:00–00:30 and 01:00–01:30) mean the AC was <strong>off</strong>; it was switched off at 00:00 and at 01:00 and switched on again at 00:30 and 01:30.</p><p>When off, the room heats at a rate that reaches the outside temperature (at switch-off) in 1 hour. 26 → 31 in 30 min means it would reach 36 in an hour: outside = <strong>36 °C at 00:00</strong>. 26 → 30 in 30 min: outside = <strong>34 °C at 01:00</strong>. So the outside temperature falls 2 °C per hour (38 °C at 23:00, matching the inside reading when the AC was first switched on).</p><p>AC-on time = 23:00–00:00 (1 h) + 00:30–01:00 + 01:30–02:00 = 2 h. If the first hour were entirely REGULAR, POWER could be at most 1 h – not longer than REGULAR. So POWER must be used in the first hour, which (because POWER reaches its set point in 30 min and the line falls steadily all hour) needs a <strong>setting change at 23:30</strong> (e.g. POWER to 32 then POWER to 26).</p><p><strong>Answer: 42.</strong> Outside was 36 °C at 00:00 and 34 °C at 01:00 – falling 2 °C per hour at a constant rate. Three hours before midnight: 36 + 3 × 2 = 42 °C.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process analysis",
+      "difficulty": "hard",
+      "stemHtml": "<p>What best can be concluded about the number of times the AC must have either been turned on or the AC temperature setting been altered between 11:01 pm and 1:59 am?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Exactly 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "Either 2 or 3"
+        },
+        {
+          "id": "C",
+          "textHtml": "More than 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "Exactly 3"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key deductions.</strong> The AC can only cool, so the rising stretches (00:00–00:30 and 01:00–01:30) mean the AC was <strong>off</strong>; it was switched off at 00:00 and at 01:00 and switched on again at 00:30 and 01:30.</p><p>When off, the room heats at a rate that reaches the outside temperature (at switch-off) in 1 hour. 26 → 31 in 30 min means it would reach 36 in an hour: outside = <strong>36 °C at 00:00</strong>. 26 → 30 in 30 min: outside = <strong>34 °C at 01:00</strong>. So the outside temperature falls 2 °C per hour (38 °C at 23:00, matching the inside reading when the AC was first switched on).</p><p>AC-on time = 23:00–00:00 (1 h) + 00:30–01:00 + 01:30–02:00 = 2 h. If the first hour were entirely REGULAR, POWER could be at most 1 h – not longer than REGULAR. So POWER must be used in the first hour, which (because POWER reaches its set point in 30 min and the line falls steadily all hour) needs a <strong>setting change at 23:30</strong> (e.g. POWER to 32 then POWER to 26).</p><p><strong>Answer: D.</strong> Required events: setting change at 23:30, AC turned on at 00:30, AC turned on at 01:30. The remaining stretches (00:30–01:00 and 01:30–02:00) can each be done with one POWER setting, so nothing more is forced. Exactly 3.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "TITA",
+      "setKey": "S4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Process analysis",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the maximum difference between temperature outside and inside temperature, in degree Celsius, between 11:01 pm and 1:59 am?</p>",
+      "answer": "10",
+      "solutionHtml": "<p><strong>Key deductions.</strong> The AC can only cool, so the rising stretches (00:00–00:30 and 01:00–01:30) mean the AC was <strong>off</strong>; it was switched off at 00:00 and at 01:00 and switched on again at 00:30 and 01:30.</p><p>When off, the room heats at a rate that reaches the outside temperature (at switch-off) in 1 hour. 26 → 31 in 30 min means it would reach 36 in an hour: outside = <strong>36 °C at 00:00</strong>. 26 → 30 in 30 min: outside = <strong>34 °C at 01:00</strong>. So the outside temperature falls 2 °C per hour (38 °C at 23:00, matching the inside reading when the AC was first switched on).</p><p>AC-on time = 23:00–00:00 (1 h) + 00:30–01:00 + 01:30–02:00 = 2 h. If the first hour were entirely REGULAR, POWER could be at most 1 h – not longer than REGULAR. So POWER must be used in the first hour, which (because POWER reaches its set point in 30 min and the line falls steadily all hour) needs a <strong>setting change at 23:30</strong> (e.g. POWER to 32 then POWER to 26).</p><p>Outside: 38 at 23:00, 37 at 23:30, 36 at 00:00, 35 at 00:30, 34 at 01:00, 33 at 01:30. Inside: 38, 32, 26, 31, 26, 30.</p><p>Differences at the turning points: 5 (23:30), <strong>10 (00:00)</strong>, 4 (00:30), 8 (01:00), 3 (01:30). Both curves are straight between these points, so the maximum is at a turning point.</p><p><strong>Answer: 10.</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many foodgrains had a higher amount of carbohydrate per 100 grams of nutrients than M1?</p>",
+      "answer": "5",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each row sums to 100; missing carbs are multiples of 5, other missing values multiples of 4).</p><p>P2: carb + fat = 78 → carb ∈ {10, 30, 50, 70}. It must exceed every millet carb (62) → <strong>P2 carb 70, fat 8</strong>.</p><p>Cereals must beat 70. C1: carb + protein = 88 → carb a multiple of 20 → <strong>C1 = 80, protein 8</strong>. C2: carb + protein = 87 → carb ∈ {15, 35, 55, 75} → <strong>C2 = 75, protein 12</strong>.</p><p>P1: protein + fat = 24 and protein = 2 × M3 protein (a multiple of 8). P1 protein must exceed M1’s 10 → <strong>P1 protein 16, fat 8; M3 protein 8, other 24</strong>.</p><p>M2: carb + protein = 77 → (carb, protein) ∈ {(5,72), (25,52), (45,32), (65,12)}. Its protein must be below 14 (P2) → <strong>M2 carb 65, protein 12</strong> (65 &lt; 66, consistent).</p><p>Final carbs: C1 80, C2 75, M1 62, M2 65, M3 56, P1 66, P2 70. Proteins: C1 8, C2 12, M1 10, M2 12, M3 8, P1 16, P2 14.</p><p><strong>Answer: 5.</strong> Above 62 g: C1 (80), C2 (75), P2 (70), P1 (66), M2 (65). Only M3 (56) is lower.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "TITA",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many grams of protein were there in 100 grams of nutrients in M2?</p>",
+      "answer": "12",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each row sums to 100; missing carbs are multiples of 5, other missing values multiples of 4).</p><p>P2: carb + fat = 78 → carb ∈ {10, 30, 50, 70}. It must exceed every millet carb (62) → <strong>P2 carb 70, fat 8</strong>.</p><p>Cereals must beat 70. C1: carb + protein = 88 → carb a multiple of 20 → <strong>C1 = 80, protein 8</strong>. C2: carb + protein = 87 → carb ∈ {15, 35, 55, 75} → <strong>C2 = 75, protein 12</strong>.</p><p>P1: protein + fat = 24 and protein = 2 × M3 protein (a multiple of 8). P1 protein must exceed M1’s 10 → <strong>P1 protein 16, fat 8; M3 protein 8, other 24</strong>.</p><p>M2: carb + protein = 77 → (carb, protein) ∈ {(5,72), (25,52), (45,32), (65,12)}. Its protein must be below 14 (P2) → <strong>M2 carb 65, protein 12</strong> (65 &lt; 66, consistent).</p><p>Final carbs: C1 80, C2 75, M1 62, M2 65, M3 56, P1 66, P2 70. Proteins: C1 8, C2 12, M1 10, M2 12, M3 8, P1 16, P2 14.</p><p><strong>Answer: 12.</strong> M2’s protein must be a multiple of 4 below 14 with carb + protein = 77; only 12 (carb 65) works.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "TITA",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many grams of other nutrients were there in 100 grams of nutrients in M3?</p>",
+      "answer": "24",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each row sums to 100; missing carbs are multiples of 5, other missing values multiples of 4).</p><p>P2: carb + fat = 78 → carb ∈ {10, 30, 50, 70}. It must exceed every millet carb (62) → <strong>P2 carb 70, fat 8</strong>.</p><p>Cereals must beat 70. C1: carb + protein = 88 → carb a multiple of 20 → <strong>C1 = 80, protein 8</strong>. C2: carb + protein = 87 → carb ∈ {15, 35, 55, 75} → <strong>C2 = 75, protein 12</strong>.</p><p>P1: protein + fat = 24 and protein = 2 × M3 protein (a multiple of 8). P1 protein must exceed M1’s 10 → <strong>P1 protein 16, fat 8; M3 protein 8, other 24</strong>.</p><p>M2: carb + protein = 77 → (carb, protein) ∈ {(5,72), (25,52), (45,32), (65,12)}. Its protein must be below 14 (P2) → <strong>M2 carb 65, protein 12</strong> (65 &lt; 66, consistent).</p><p>Final carbs: C1 80, C2 75, M1 62, M2 65, M3 56, P1 66, P2 70. Proteins: C1 8, C2 12, M1 10, M2 12, M3 8, P1 16, P2 14.</p><p><strong>Answer: 24.</strong> M3: 56 + 8 + 12 + other = 100 → other = 24.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "TITA",
+      "setKey": "S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Table completion",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the median of the number of grams of protein in 100 grams of nutrients among these food grains?</p>",
+      "answer": "12",
+      "solutionHtml": "<p><strong>Key deductions</strong> (each row sums to 100; missing carbs are multiples of 5, other missing values multiples of 4).</p><p>P2: carb + fat = 78 → carb ∈ {10, 30, 50, 70}. It must exceed every millet carb (62) → <strong>P2 carb 70, fat 8</strong>.</p><p>Cereals must beat 70. C1: carb + protein = 88 → carb a multiple of 20 → <strong>C1 = 80, protein 8</strong>. C2: carb + protein = 87 → carb ∈ {15, 35, 55, 75} → <strong>C2 = 75, protein 12</strong>.</p><p>P1: protein + fat = 24 and protein = 2 × M3 protein (a multiple of 8). P1 protein must exceed M1’s 10 → <strong>P1 protein 16, fat 8; M3 protein 8, other 24</strong>.</p><p>M2: carb + protein = 77 → (carb, protein) ∈ {(5,72), (25,52), (45,32), (65,12)}. Its protein must be below 14 (P2) → <strong>M2 carb 65, protein 12</strong> (65 &lt; 66, consistent).</p><p>Final carbs: C1 80, C2 75, M1 62, M2 65, M3 56, P1 66, P2 70. Proteins: C1 8, C2 12, M1 10, M2 12, M3 8, P1 16, P2 14.</p><p>Proteins sorted: 8, 8, 10, 12, 12, 14, 16. The 4th of 7 values is the median.</p><p><strong>Answer: 12.</strong></p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

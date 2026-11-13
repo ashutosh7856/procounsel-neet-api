@@ -1,0 +1,771 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>A sum of money is split among Amal, Sunil and Mita so that the ratio of the shares of Amal and Sunil is 3:2, while the ratio of the shares of Sunil and Mita is 4:5. If the difference between the largest and the smallest of these three shares is Rs 400, then Sunil’s share, in rupees, is</p>",
+      "answer": "800",
+      "solutionHtml": "<p><strong>Combine the ratios:</strong> Amal : Sunil = 3 : 2 = 6 : 4 and Sunil : Mita = 4 : 5, so Amal : Sunil : Mita = 6 : 4 : 5.</p><p>Largest − smallest = 6 − 4 = 2 parts = Rs 400, so 1 part = Rs 200.</p><p>Sunil = 4 × 200 = <strong>Rs 800</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Linear equations in integers",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of pairs of integers (x, y) satisfying x ≥ y ≥ −20 and 2x + 5y = 99 is</p>",
+      "answer": "17",
+      "solutionHtml": "<p>2x = 99 − 5y must be even, so <strong>y is odd</strong>, and x = (99 − 5y)/2.</p><p>x ≥ y ⇒ 99 − 5y ≥ 2y ⇒ y ≤ 14.1, so y ≤ 13. Together with y ≥ −20 and y odd: y = −19, −17, …, 13.</p><p>Count = (13 − (−19))/2 + 1 = <strong>17</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Exponents",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of integers that satisfy the equality (x<sup>2</sup> − 5x + 7)<sup>x + 1</sup> = 1 is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>a<sup>b</sup> = 1 when (i) a = 1, (ii) b = 0 with a ≠ 0, or (iii) a = −1 with b even.</p><p>(i) x<sup>2</sup> − 5x + 7 = 1 ⇒ (x − 2)(x − 3) = 0 ⇒ x = 2, 3.</p><p>(ii) x + 1 = 0 ⇒ x = −1; base = 1 + 5 + 7 = 13 ≠ 0 ✓.</p><p>(iii) x<sup>2</sup> − 5x + 8 = 0 has discriminant 25 − 32 &lt; 0, no real roots.</p><p>So <strong>3</strong> integers: −1, 2, 3.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Simple & compound interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>For the same principal amount, the compound interest for two years at 5% per annum exceeds the simple interest for three years at 3% per annum by Rs. 1125. Then the principal amount in rupees is</p>",
+      "answer": "90000",
+      "solutionHtml": "<p>CI for 2 years at 5% = (1.05<sup>2</sup> − 1) = 10.25% of P. SI for 3 years at 3% = 9% of P.</p><p>Difference = 1.25% of P = 1125 ⇒ P = 1125 × 80 = <strong>90000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Linear equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>Aron bought some pencils and sharpeners. Spending the same amount of money as Aron, Aditya bought twice as many pencils and 10 less sharpeners. If the cost of one sharpener is Rs. 2 more than the cost of a pencil, then the minimum possible number of pencils bought by Aron and Aditya together is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "36"
+        },
+        {
+          "id": "B",
+          "textHtml": "33"
+        },
+        {
+          "id": "C",
+          "textHtml": "30"
+        },
+        {
+          "id": "D",
+          "textHtml": "27"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let Aron buy p pencils and s sharpeners, pencil price c, sharpener price c + 2.</p><p>Equal spending: pc + s(c + 2) = 2pc + (s − 10)(c + 2) ⇒ pc = 10(c + 2) ⇒ <strong>p = 10 + 20/c</strong>.</p><p>p must be a whole number greater than 10, so the least p is 11 (when c = 20).</p><p>Together they buy p + 2p = 3p = <strong>33</strong> pencils.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>In May, John bought the same amount of rice and the same amount of wheat as he had bought in April, but spent Rs. 150 more due to price increase of rice and wheat by 20% and 12%, respectively. If John had spent Rs. 450 on rice in April, then how much did he spend on wheat in May?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Rs. 560"
+        },
+        {
+          "id": "B",
+          "textHtml": "Rs. 570"
+        },
+        {
+          "id": "C",
+          "textHtml": "Rs. 580"
+        },
+        {
+          "id": "D",
+          "textHtml": "Rs. 590"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Extra on rice = 20% of 450 = Rs 90, so the extra on wheat = 150 − 90 = Rs 60.</p><p>60 is 12% of April’s wheat spend ⇒ April wheat = Rs 500.</p><p>May wheat = 500 × 1.12 = <strong>Rs 560</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Permutations & combinations",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many 4-digit numbers, each greater than 1000 and each having all four digits distinct, are there with 7 coming before 3?</p>",
+      "answer": "315",
+      "solutionHtml": "<p>Both 7 and 3 must appear. Choose their two positions (7 in the earlier one): C(4,2) = 6 ways; fill the other two places from the 8 remaining digits (0–9 except 3, 7), with no leading 0.</p><p><strong>7 in the first place</strong> (positions {1,2}, {1,3}, {1,4}): the other two places take 8 × 7 = 56 ways each → 3 × 56 = 168.</p><p><strong>7 not first</strong> (positions {2,3}, {2,4}, {3,4}): the first digit has 7 choices (not 0, 3, 7), the remaining place 7 choices → 3 × 49 = 147.</p><p>Total = 168 + 147 = <strong>315</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Maxima & minima",
+      "difficulty": "medium",
+      "stemHtml": "<p>If x and y are positive real numbers satisfying x + y = 102, then the minimum possible value of 2601(1 + 1/x)(1 + 1/y) is</p>",
+      "answer": "2704",
+      "solutionHtml": "<p>(1 + 1/x)(1 + 1/y) = 1 + (x + y + 1)/(xy) = 1 + 103/(xy).</p><p>This is least when xy is greatest; with x + y = 102 that is x = y = 51, xy = 2601.</p><p>Minimum = 2601(1 + 103/2601) = 2601 + 103 = <strong>2704</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Modulus equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>In how many ways can a pair of integers (x, a) be chosen such that x<sup>2</sup> − 2|x| + |a − 2| = 0?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "7"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Rewrite as |a − 2| = 2|x| − x<sup>2</sup> = |x|(2 − |x|). The right side must be ≥ 0, so |x| ∈ {0, 1, 2}.</p><p>|x| = 0: |a − 2| = 0 ⇒ (0, 2) → 1 pair.</p><p>|x| = 1: |a − 2| = 1 ⇒ a = 1 or 3, with x = ±1 → 4 pairs.</p><p>|x| = 2: |a − 2| = 0 ⇒ a = 2, with x = ±2 → 2 pairs.</p><p>Total = <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Circular motion",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two circular tracks T1 and T2 of radii 100 m and 20 m, respectively touch at a point A. Starting from A at the same time, Ram and Rahim are walking on track T1 and track T2 at speeds 15 km/hr and 5 km/hr respectively. The number of full rounds that Ram will make to meet Rahim again for the first time is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The tracks share only point A, so they can meet only when both are back at A.</p><p>Lap times (in the same units): Ram 2π(100)/15 = 40π/3; Rahim 2π(20)/5 = 8π.</p><p>First common time = LCM(40π/3, 8π) = 40π (= 3 Ram laps = 5 Rahim laps).</p><p>Ram completes <strong>3</strong> rounds.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic functions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let f(x) = x<sup>2</sup> + ax + b and g(x) = f(x + 1) − f(x − 1). If f(x) ≥ 0 for all real x, and g(20) = 72, then the smallest possible value of b is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "16"
+        },
+        {
+          "id": "D",
+          "textHtml": "0"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>g(x) = [(x + 1)<sup>2</sup> − (x − 1)<sup>2</sup>] + a[(x + 1) − (x − 1)] = 4x + 2a.</p><p>g(20) = 80 + 2a = 72 ⇒ a = −4.</p><p>f(x) ≥ 0 for all x needs discriminant ≤ 0: a<sup>2</sup> − 4b ≤ 0 ⇒ 16 ≤ 4b ⇒ b ≥ 4.</p><p>Smallest b = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let C1 and C2 be concentric circles such that the diameter of C1 is 2 cm longer than that of C2. If a chord of C1 has length 6 cm and is a tangent of C2, then the diameter, in cm, of C1 is</p>",
+      "answer": "10",
+      "solutionHtml": "<p>Radii R (C1) and r (C2) with R − r = 1. The chord of C1 touching C2 is at distance r from the centre, so its half-length satisfies R<sup>2</sup> − r<sup>2</sup> = 3<sup>2</sup> = 9.</p><p>(R − r)(R + r) = 9 ⇒ R + r = 9, so R = 5.</p><p>Diameter of C1 = <strong>10</strong> cm.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Mensuration",
+      "difficulty": "medium",
+      "stemHtml": "<p>The sum of the perimeters of an equilateral triangle and a rectangle is 90 cm. The area, T, of the triangle and the area, R, of the rectangle, both in sq cm, satisfy the relationship R = T<sup>2</sup>. If the sides of the rectangle are in the ratio 1:3, then the length, in cm, of the longer side of the rectangle, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "21"
+        },
+        {
+          "id": "B",
+          "textHtml": "18"
+        },
+        {
+          "id": "C",
+          "textHtml": "24"
+        },
+        {
+          "id": "D",
+          "textHtml": "27"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Rectangle sides x and 3x: perimeter 8x, area R = 3x<sup>2</sup>. Triangle side a: perimeter 3a, area T = (√3/4)a<sup>2</sup>, so T<sup>2</sup> = 3a<sup>4</sup>/16.</p><p>R = T<sup>2</sup> ⇒ 3x<sup>2</sup> = 3a<sup>4</sup>/16 ⇒ <strong>x = a<sup>2</sup>/4</strong>.</p><p>Perimeters: 3a + 8x = 90 ⇒ 3a + 2a<sup>2</sup> = 90 ⇒ 2a<sup>2</sup> + 3a − 90 = 0 ⇒ (a − 6)(2a + 15) = 0 ⇒ a = 6.</p><p>x = 9, so the longer side = 3x = <strong>27</strong> cm.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>The distance from B to C is thrice that from A to B. Two trains travel from A to C via B. The speed of train 2 is double that of train 1 while traveling from A to B and their speeds are interchanged while traveling from B to C. The ratio of the time taken by train 1 to that taken by train 2 in travelling from A to C is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7:5"
+        },
+        {
+          "id": "B",
+          "textHtml": "1:4"
+        },
+        {
+          "id": "C",
+          "textHtml": "5:7"
+        },
+        {
+          "id": "D",
+          "textHtml": "4:1"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let AB = d, BC = 3d. Train 1: speed v on AB, 2v on BC. Train 2: 2v on AB, v on BC.</p><p>Train 1 time = d/v + 3d/(2v) = 2.5 d/v. Train 2 time = d/(2v) + 3d/v = 3.5 d/v.</p><p>Ratio = 2.5 : 3.5 = <strong>5 : 7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a group of 10 students, the mean of the lowest 9 scores is 42 while the mean of the highest 9 scores is 47. For the entire group of 10 students, the maximum possible mean exceeds the minimum possible mean by</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let the lowest score be L and the highest H, total S. S − H = 378 and S − L = 423, so <strong>H − L = 45</strong> and the mean is (378 + H)/10.</p><p>The middle 8 scores sum to 378 − L = 423 − H and each lies between L and H: 8L ≤ 423 − H ≤ 8H.</p><p>8(H − 45) ≤ 423 − H ⇒ H ≤ 87; 423 − H ≤ 8H ⇒ H ≥ 47.</p><p>Mean ranges from (378 + 47)/10 = 42.5 to (378 + 87)/10 = 46.5, a difference of <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Geometric progression",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let the m-th and n-th terms of a geometric progression be 3/4 and 12, respectively, where m &lt; n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n − m is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−2"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "2"
+        },
+        {
+          "id": "D",
+          "textHtml": "−4"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Dividing the terms: r<sup>n − m</sup> = 12 ÷ (3/4) = 16, with n − m a positive integer.</p><p>Options: r = 2, n − m = 4 → 6; r = 4, n − m = 2 → 6; r = 16, n − m = 1 → 17; r = −2, n − m = 4 → 2; r = −4, n − m = 2 → <strong>−2</strong>.</p><p>Smallest value = <strong>−2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>A and B are two points on a straight line. Ram runs from A to B while Rahim runs from B to A. After crossing each other, Ram and Rahim reach their destinations in one minute and four minutes, respectively. If they start at the same time, then the ratio of Ram's speed to Rahim's speed is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2√2"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "√2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Standard result:</strong> if after meeting they take t<sub>1</sub> and t<sub>2</sub> to finish, then speed ratio = √(t<sub>2</sub>/t<sub>1</sub>).</p><p>Why: let them meet after time t. Ram covers in 1 minute what Rahim covered in t, and Rahim covers in 4 minutes what Ram covered in t: u × 1 = v × t and v × 4 = u × t. Dividing, u/(4v) = v/u ⇒ (u/v)<sup>2</sup> = 4.</p><p>Ram : Rahim = √(4/1) = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Races",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a car race, car A beats car B by 45 km, car B beats car C by 50 km, and car A beats C by 90 km. The distance (in km) over which the race has been conducted is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "550"
+        },
+        {
+          "id": "B",
+          "textHtml": "500"
+        },
+        {
+          "id": "C",
+          "textHtml": "475"
+        },
+        {
+          "id": "D",
+          "textHtml": "450"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let the race be d km. When A finishes, B has run d − 45 and C has run d − 90.</p><p>From B beating C by 50: speed ratio B : C = d : (d − 50). So (d − 45)/(d − 90) = d/(d − 50).</p><p>(d − 45)(d − 50) = d(d − 90) ⇒ −95d + 2250 = −90d ⇒ d = <strong>450</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>From an interior point of an equilateral triangle, perpendiculars are drawn on all three sides. The sum of the lengths of the three perpendiculars is s. Then the area of triangle is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2s<sup>2</sup>/√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "s<sup>2</sup>/(2√3)"
+        },
+        {
+          "id": "C",
+          "textHtml": "√3s<sup>2</sup>/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "s<sup>2</sup>/√3"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Joining the point to the vertices splits the triangle (side a) into three triangles: area = (1/2)a(p<sub>1</sub> + p<sub>2</sub> + p<sub>3</sub>) = (1/2)as. Also area = (1/2)a × h, so <strong>s equals the height h</strong>.</p><p>Height h = (√3/2)a ⇒ a = 2s/√3.</p><p>Area = (1/2) × (2s/√3) × s = <strong>s<sup>2</sup>/√3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Set theory / Venn diagrams",
+      "difficulty": "medium",
+      "stemHtml": "<p>Students in a college have to choose at least two subjects from Chemistry, Mathematics and Physics. The number of students choosing all three subjects is 18, choosing Mathematics as one of their subjects is 23 and choosing Physics as one of their subjects is 25. The smallest possible number of students who could choose Chemistry as one of their subjects is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "19"
+        },
+        {
+          "id": "B",
+          "textHtml": "22"
+        },
+        {
+          "id": "C",
+          "textHtml": "20"
+        },
+        {
+          "id": "D",
+          "textHtml": "21"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Every student takes 2 or 3 subjects. Let x = only M & P, y = only M & C, z = only P & C.</p><p>Maths: x + y + 18 = 23 ⇒ x + y = 5. Physics: x + z + 18 = 25 ⇒ x + z = 7.</p><p>Chemistry = y + z + 18 = (5 − x) + (7 − x) + 18 = 30 − 2x, smallest when x is largest, x = 5.</p><p>Chemistry = 30 − 10 = <strong>20</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit, loss & discount",
+      "difficulty": "medium",
+      "stemHtml": "<p>Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "60"
+        },
+        {
+          "id": "B",
+          "textHtml": "54"
+        },
+        {
+          "id": "C",
+          "textHtml": "55"
+        },
+        {
+          "id": "D",
+          "textHtml": "50"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let the label be L. 8 toys at 0.8L and 4 toys at 0.8L × 0.75 = 0.6L: revenue = 6.4L + 2.4L = 8.8L = 2112 ⇒ L = 240.</p><p>Cost = 2112/1.1 = 1920. Without discounts revenue = 12 × 240 = 2880.</p><p>Profit = 960/1920 = <strong>50%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Maxima & minima",
+      "difficulty": "medium",
+      "stemHtml": "<p>For real x, the maximum possible value of x/√(1 + x<sup>4</sup>) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1/√2"
+        },
+        {
+          "id": "B",
+          "textHtml": "1/2"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>For x ≤ 0 the value is ≤ 0, so take x &gt; 0 and divide by x: x/√(1 + x<sup>4</sup>) = 1/√(1/x<sup>2</sup> + x<sup>2</sup>).</p><p>By AM–GM, x<sup>2</sup> + 1/x<sup>2</sup> ≥ 2, with equality at x = 1.</p><p>Maximum = <strong>1/√2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-23",
+      "section": "QA",
+      "number": 23,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>John takes twice as much time as Jack to finish a job. Jack and Jim together take one-third of the time to finish the job than John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them working together. In how many days will Jim finish the job working alone?</p>",
+      "answer": "4",
+      "solutionHtml": "<p>Let Jack take j days, so John takes 2j. Jack + Jim take 2j/3, so their combined rate is 3/(2j); Jim’s rate = 3/(2j) − 1/j = 1/(2j), i.e. Jim also takes 2j days.</p><p>All three: 1/(2j) + 1/j + 1/(2j) = 2/j ⇒ time j/2.</p><p>2j − j/2 = 3 ⇒ j = 2, so Jim takes 2j = <strong>4</strong> days.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-24",
+      "section": "QA",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>The value of log<sub>a</sub>(a/b) + log<sub>b</sub>(b/a), for 1 &lt; a ≤ b cannot be equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−0.5"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "0"
+        },
+        {
+          "id": "D",
+          "textHtml": "−1"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>log<sub>a</sub>(a/b) + log<sub>b</sub>(b/a) = (1 − log<sub>a</sub>b) + (1 − log<sub>b</sub>a) = 2 − (t + 1/t), where t = log<sub>a</sub>b.</p><p>Since 1 &lt; a ≤ b, t ≥ 1 and so t + 1/t ≥ 2: the expression is <strong>≤ 0</strong>.</p><p>It equals 0 at a = b, −0.5 at t = 2 and can reach −1 too, but it can never be <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-25",
+      "section": "QA",
+      "number": 25,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "easy",
+      "stemHtml": "<p>If x and y are non-negative integers such that x + 9 = z, y + 1 = z and x + y &lt; z + 5, then the maximum possible value of 2x + y is</p>",
+      "answer": "23",
+      "solutionHtml": "<p>x = z − 9 and y = z − 1. Then x + y &lt; z + 5 ⇒ 2z − 10 &lt; z + 5 ⇒ z &lt; 15, so z ≤ 14 (and z ≥ 9 for x ≥ 0).</p><p>2x + y = 2(z − 9) + (z − 1) = 3z − 19, largest at z = 14: 42 − 19 = <strong>23</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-26",
+      "section": "QA",
+      "number": 26,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Coordinate geometry / circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let C be a circle of radius 5 meters having center at O. Let PQ be a chord of C that passes through points A and B where A is located 4 meters north of O and B is located 3 meters east of O. Then, the length of PQ, in meters, is nearest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8.8"
+        },
+        {
+          "id": "B",
+          "textHtml": "7.2"
+        },
+        {
+          "id": "C",
+          "textHtml": "7.8"
+        },
+        {
+          "id": "D",
+          "textHtml": "6.6"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Put O at the origin: A = (0, 4), B = (3, 0). Line AB: x/3 + y/4 = 1, i.e. 4x + 3y = 12.</p><p>Distance of O from AB = 12/√(16 + 9) = 12/5 = 2.4 (also the altitude of the 3-4-5 right triangle OAB).</p><p>Half-chord = √(25 − 5.76) = √19.24 ≈ 4.39, so PQ ≈ 8.77 ≈ <strong>8.8</strong> m.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2020 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

@@ -22,7 +22,7 @@ from pydantic import BaseModel, ConfigDict, Field
 from api.auth import CurrentAdmin, CurrentUser
 from api.db import SafeFirestore, get_db
 
-from .admin import content_admin
+from .admin_roles import reports_admin as content_admin  # "support" or "content" capability (admin_roles.py)
 from .attempts import _question_section, user_attempts
 from .deps import student
 from .models import SECTION_IDS, SectionId

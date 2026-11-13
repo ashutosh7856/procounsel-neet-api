@@ -1,0 +1,613 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "HCF and divisibility",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let A be the largest positive integer that divides all the numbers of the form 3<sup>k</sup> + 4<sup>k</sup> + 5<sup>k</sup>, and B be the largest positive integer that divides all the numbers of the form 4<sup>k</sup> + 3(4<sup>k</sup>) + 4<sup>k + 2</sup>, where k is any positive integer. Then (A + B) equals</p>",
+   "answer": "82",
+   "solutionHtml": "<p><strong>Finding A:</strong> k = 1 gives 12 and k = 2 gives 9 + 16 + 25 = 50. gcd(12, 50) = 2, so A &#8804; 2. The sum is always odd + even + odd = even, so A = 2.</p><p><strong>Finding B:</strong> factor out 4<sup>k</sup>: 4<sup>k</sup>(1 + 3 + 16) = 20 × 4<sup>k</sup>. For k = 1 this is 80, and every later value is a multiple of 80, so B = 80.</p><p>A + B = 2 + 80 = <strong>82</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Equations in integers",
+   "difficulty": "medium",
+   "stemHtml": "<p>For natural numbers x, y, and z, if xy + yz = 19 and yz + xz = 51, then the minimum possible value of xyz is</p>",
+   "answer": "34",
+   "solutionHtml": "<p><strong>Key move:</strong> xy + yz = y(x + z) = 19, which is prime. Since x + z &#8805; 2, we need y = 1 and x + z = 19.</p><p>Then z(x + y) = z(x + 1) = 51 = 3 × 17 with x + z = 19:</p><ul><li>z = 3, x + 1 = 17 &#8594; x = 16 (16 + 3 = 19 &#10003;), xyz = 48.</li><li>z = 17, x + 1 = 3 &#8594; x = 2 (2 + 17 = 19 &#10003;), xyz = 34.</li></ul><p>(z = 1 or 51 would break x + z = 19.) Minimum xyz = <strong>34</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>Alex invested his savings in two parts. The simple interest earned on the first part at 15% per annum for 4 years is the same as the simple interest earned on the second part at 12% per annum for 3 years. Then, the percentage of his savings invested in the first part is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "62.5%"
+    },
+    {
+     "id": "B",
+     "textHtml": "40%"
+    },
+    {
+     "id": "C",
+     "textHtml": "60%"
+    },
+    {
+     "id": "D",
+     "textHtml": "37.5%"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let the parts be P<sub>1</sub> and P<sub>2</sub>. Equal interest: P<sub>1</sub> × 15 × 4 = P<sub>2</sub> × 12 × 3, so 60P<sub>1</sub> = 36P<sub>2</sub> and P<sub>1</sub> : P<sub>2</sub> = 3 : 5.</p><p>First part = 3/8 = <strong>37.5%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let a and b be natural number. If a<sup>2</sup> + ab + a = 14 and b<sup>2</sup> + ab + b = 28, then (2a + b) equals</p>",
+   "answer": "8",
+   "solutionHtml": "<p><strong>Factor:</strong> a(a + b + 1) = 14 and b(a + b + 1) = 28.</p><p>Adding: (a + b)(a + b + 1) = 42 = 6 × 7, so a + b = 6 (natural numbers). Then a = 14/7 = 2 and b = 28/7 = 4.</p><p>2a + b = 4 + 4 = <strong>8</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Set theory",
+   "difficulty": "hard",
+   "stemHtml": "<p>In a class of 100 students, 73 like coffee, 80 like tea and 52 like lemonade. It may be possible that some students do not like any of these three drinks. Then the difference between the maximum and minimum possible number of students who like all the three drinks is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "48"
+    },
+    {
+     "id": "B",
+     "textHtml": "52"
+    },
+    {
+     "id": "C",
+     "textHtml": "47"
+    },
+    {
+     "id": "D",
+     "textHtml": "53"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Maximum:</strong> at most 52 (the size of the smallest set). Check it works: put all 52 lemonade-lovers in all three groups; the other 21 coffee and 28 tea fans fit among the remaining 48 students if at least 1 likes both coffee and tea. So max = 52.</p><p><strong>Minimum:</strong> let n<sub>1</sub>, n<sub>2</sub>, n<sub>3</sub> be the students who like exactly 1, 2, 3 drinks. Then n<sub>1</sub> + 2n<sub>2</sub> + 3n<sub>3</sub> = 205 and n<sub>1</sub> + n<sub>2</sub> + n<sub>3</sub> &#8804; 100. Subtracting, n<sub>2</sub> + 2n<sub>3</sub> &#8805; 105. Since n<sub>2</sub> + n<sub>3</sub> &#8804; 100, n<sub>3</sub> &#8805; 5.</p><p>n<sub>3</sub> = 5 is achievable: n<sub>2</sub> = 95, n<sub>1</sub> = 0, with 48 liking only coffee and tea, 20 only coffee and lemonade, 27 only tea and lemonade (coffee 48 + 20 + 5 = 73, tea 48 + 27 + 5 = 80, lemonade 20 + 27 + 5 = 52).</p><p>Difference = 52 &#8722; 5 = <strong>47</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures",
+   "difficulty": "easy",
+   "stemHtml": "<p>A mixture contains lemon juice and sugar syrup in equal proportion. If a new mixture is created by adding this mixture and sugar syrup in the ratio 1 : 3, then the ratio of lemon juice and sugar syrup in the new mixture is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1 : 4"
+    },
+    {
+     "id": "B",
+     "textHtml": "1 : 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "1 : 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "1 : 7"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Take 1 litre of the mixture (0.5 lemon + 0.5 syrup) and add 3 litres of syrup.</p><p>Lemon : syrup = 0.5 : 3.5 = <strong>1 : 7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Quadratics",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let a, b, c be non-zero real numbers such that b<sup>2</sup> &lt; 4ac, and f(x) = ax<sup>2</sup> + bx + c. If the set S consists of all integers m such that f(m) &lt; 0, then the set S must necessarily be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "the empty set"
+    },
+    {
+     "id": "B",
+     "textHtml": "either the empty set or the set of all integers"
+    },
+    {
+     "id": "C",
+     "textHtml": "the set of all integers"
+    },
+    {
+     "id": "D",
+     "textHtml": "the set of all positive integers"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>b<sup>2</sup> &lt; 4ac means the discriminant is negative, so f(x) has no real roots and <strong>never changes sign</strong>. It always has the sign of a.</p><p>If a &gt; 0, f(m) &gt; 0 for every m, so S is empty. If a &lt; 0, f(m) &lt; 0 for every m, so S is all integers. Both are possible (e.g. x<sup>2</sup> + x + 1 and &#8722;x<sup>2</sup> + x &#8722; 1).</p><p>So S is <strong>either the empty set or the set of all integers</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Profit and loss",
+   "difficulty": "medium",
+   "stemHtml": "<p>Amal buys 110 kg of syrup and 120 kg of juice, syrup being 20% less costly than juice, per kg. He sells 10 kg of syrup at 10% profit and 20 kg of juice at 20% profit. Mixing the remaining juice and syrup, Amal sells the mixture at Rs. 308.32 per kg and makes an overall profit of 64%. Then, Amal’s cost price for syrup, in rupees per kg, is</p>",
+   "answer": "160",
+   "solutionHtml": "<p>Let juice cost J per kg; syrup costs 0.8J.</p><p>Total cost = 110(0.8J) + 120J = 208J. A 64% profit means revenue = 1.64 × 208J = 341.12J.</p><p>Revenue in parts: 10 kg syrup at 1.1 × 0.8J = 8.8J; 20 kg juice at 1.2J = 24J; the remaining 100 + 100 = 200 kg of mixture at 308.32 = 61,664.</p><p>341.12J = 32.8J + 61,664, so 308.32J = 61,664 and J = 200. Syrup cost = 0.8 × 200 = <strong>160</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Ratio and proportion",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a village, the ratio of number of males to females is 5 : 4. The ratio of number of literate males to literate females is 2 : 3. The ratio of the number of illiterate males to illiterate females is 4 : 3. If 3600 males in the village are literate, then the total number of females in the village is</p>",
+   "answer": "43200",
+   "solutionHtml": "<p>Males = 5k, females = 4k. Literate males = 3600, so literate females = 3600 × 3/2 = 5400.</p><p>Illiterate: (5k &#8722; 3600) : (4k &#8722; 5400) = 4 : 3, so 15k &#8722; 10,800 = 16k &#8722; 21,600, giving k = 10,800.</p><p>Females = 4k = <strong>43,200</strong>. Check: illiterate males 50,400 and illiterate females 37,800 are in the ratio 4 : 3 &#10003;.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles and quadrilaterals",
+   "difficulty": "easy",
+   "stemHtml": "<p>All the vertices of a rectangle lie on a circle of radius R. If the perimeter of the rectangle is P, then the area of the rectangle is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(P<sup>2</sup>)/2 &#8722; 2PR"
+    },
+    {
+     "id": "B",
+     "textHtml": "(P<sup>2</sup>)/16 &#8722; R<sup>2</sup>"
+    },
+    {
+     "id": "C",
+     "textHtml": "(P<sup>2</sup>)/8 &#8722; 2R<sup>2</sup>"
+    },
+    {
+     "id": "D",
+     "textHtml": "(P<sup>2</sup>)/8 &#8722; (R<sup>2</sup>)/2"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let the sides be l and b. The diagonal is a diameter: l<sup>2</sup> + b<sup>2</sup> = 4R<sup>2</sup>. The perimeter gives l + b = P/2.</p><p><strong>Key identity:</strong> 2lb = (l + b)<sup>2</sup> &#8722; (l<sup>2</sup> + b<sup>2</sup>) = P<sup>2</sup>/4 &#8722; 4R<sup>2</sup>.</p><p>Area = lb = <strong>P<sup>2</sup>/8 &#8722; 2R<sup>2</sup></strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let ABCD be a parallelogram such that the coordinates of its three vertices A, B, C are (1, 1), (3, 4) and (&#8722;2, 8), respectively. Then, the coordinates of the vertex D are</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(0, 11)"
+    },
+    {
+     "id": "B",
+     "textHtml": "(&#8722;3, 4)"
+    },
+    {
+     "id": "C",
+     "textHtml": "(4, 5)"
+    },
+    {
+     "id": "D",
+     "textHtml": "(&#8722;4, 5)"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>The diagonals of a parallelogram bisect each other, so A + C = B + D.</p><p>D = A + C &#8722; B = (1 &#8722; 2 &#8722; 3, 1 + 8 &#8722; 4) = <strong>(&#8722;4, 5)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Modulus",
+   "difficulty": "medium",
+   "stemHtml": "<p>The largest real value of a for which the equation |x + a| + |x &#8722; 1| = 2 has an infinite number of solutions for x is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "&#8722;1"
+    },
+    {
+     "id": "B",
+     "textHtml": "0"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "2"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>|x &#8722; (&#8722;a)| + |x &#8722; 1| is the sum of distances from x to &#8722;a and to 1. Its minimum value is the distance between the two points, |1 + a|, reached at every x between them.</p><p>The equation has infinitely many solutions exactly when that minimum equals 2: |1 + a| = 2, so a = 1 or a = &#8722;3.</p><p>Largest value: <strong>a = 1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "TITA",
+   "topic": "Modern Maths",
+   "subtopic": "Permutations and combinations",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of ways of distributing 20 identical balloons among 4 children such that each child gets some balloons but no child gets an odd number of balloons, is</p>",
+   "answer": "84",
+   "solutionHtml": "<p>Each child gets an even, non-zero number: 2y<sub>1</sub>, &#8230;, 2y<sub>4</sub> with y<sub>i</sub> &#8805; 1.</p><p>So y<sub>1</sub> + y<sub>2</sub> + y<sub>3</sub> + y<sub>4</sub> = 10 with each y<sub>i</sub> &#8805; 1. The number of solutions is C(9, 3) = <strong>84</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Progressions",
+   "difficulty": "easy",
+   "stemHtml": "<p>For any natural number n, suppose the sum of the first n terms of an arithmetic progression is (n + 2n<sup>2</sup>). If the n<sup>th</sup> term of the progression is divisible by 9, then the smallest possible value of n is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "9"
+    },
+    {
+     "id": "B",
+     "textHtml": "7"
+    },
+    {
+     "id": "C",
+     "textHtml": "8"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>a<sub>n</sub> = S<sub>n</sub> &#8722; S<sub>n&#8722;1</sub> = (n + 2n<sup>2</sup>) &#8722; ((n &#8722; 1) + 2(n &#8722; 1)<sup>2</sup>) = 4n &#8722; 1.</p><p>Check n = 1, 2, 3, &#8230;: the terms are 3, 7, 11, 15, 19, 23, <strong>27</strong>. The first multiple of 9 is at n = <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Quadrilaterals",
+   "difficulty": "easy",
+   "stemHtml": "<p>A trapezium ABCD has side AD parallel to BC, &#8736;BAD = 90&#176;, BC = 3cm and AD = 8cm. If the perimeter of this trapezium is 36cm, then its area, in sq. cm, is</p>",
+   "answer": "66",
+   "solutionHtml": "<p>AB is perpendicular to both parallel sides, so it is the height h. Drop a perpendicular from C to AD: the horizontal gap is 8 &#8722; 3 = 5, so CD = &#8730;(25 + h<sup>2</sup>).</p><p>Perimeter: 3 + 8 + h + &#8730;(25 + h<sup>2</sup>) = 36, so &#8730;(25 + h<sup>2</sup>) = 25 &#8722; h. Squaring: 25 + h<sup>2</sup> = 625 &#8722; 50h + h<sup>2</sup>, so h = 12 (and CD = 13, a 5-12-13 triangle).</p><p>Area = (3 + 8)/2 × 12 = <strong>66</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Modulus",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let 0 &#8804; a &#8804; x &#8804; 100 and f(x) = |x &#8722; a| + |x &#8722; 100| + |x &#8722; a &#8722; 50|. Then the maximum value of f(x) becomes 100 when a is equal to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "50"
+    },
+    {
+     "id": "B",
+     "textHtml": "25"
+    },
+    {
+     "id": "C",
+     "textHtml": "100"
+    },
+    {
+     "id": "D",
+     "textHtml": "0"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>f is a sum of absolute values, so it is convex; on the interval a &#8804; x &#8804; 100 its maximum is at an endpoint.</p><p>f(a) = 0 + (100 &#8722; a) + 50 = 150 &#8722; a. f(100) = (100 &#8722; a) + 0 + |50 &#8722; a|.</p><p>For a &#8804; 50: f(100) = 150 &#8722; 2a &#8804; f(a), so the max is 150 &#8722; a = 100, giving a = 50. For a &gt; 50 both endpoint values are below 100 (f(a) &lt; 100, f(100) = 50).</p><p>So a = <strong>50</strong>. Check: max(f(50), f(100)) = max(100, 50) = 100 &#10003;.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Averages and parity",
+   "difficulty": "easy",
+   "stemHtml": "<p>The average of three integers is 13. When a natural number n is included, the average of these four integers remains an odd integer. The minimum possible value of n is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "1"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>The three integers sum to 39. We need (39 + n)/4 to be an odd integer, so 39 + n must be 4 × (an odd number).</p><p>With n &#8805; 1, 39 + n &#8805; 40. 40 = 4 × 10 (even, rejected); 44 = 4 × 11 (odd &#10003;). So n = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Greatest integer function",
+   "difficulty": "medium",
+   "stemHtml": "<p>For any real number x, let [x] be the largest integer less than or equal to x. If &#8721;<sub>n=1</sub><sup>N</sup> [1/5 + n/25] = 25, then N is</p>",
+   "answer": "44",
+   "solutionHtml": "<p>Write each term as [(5 + n)/25].</p><ul><li>n = 1 to 19: 5 + n &lt; 25, so the term is 0.</li><li>n = 20 to 44: 25 &#8804; 5 + n &#8804; 49, so the term is 1.</li><li>n = 45: (50)/25 = 2.</li></ul><p>The sum first equals 25 after 25 ones, i.e. n = 20 to 44. So N = <strong>44</strong> (N = 45 would give 27).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit and loss",
+   "difficulty": "medium",
+   "stemHtml": "<p>Ankita buys 4 kg cashews, 14 kg peanuts and 6 kg almonds when the cost of 7 kg cashews is the same as that of 30 kg peanuts or 9 kg almonds. She mixes all the three nuts and marks a price for the mixture in order to make a profit of Rs.1752. She sells 4 kg of the mixture at this marked price and the remaining at a 20% discount on the marked price, thus making a total profit of Rs. 744. Then the amount, in rupees, that she had spent in buying almonds is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1176"
+    },
+    {
+     "id": "B",
+     "textHtml": "1680"
+    },
+    {
+     "id": "C",
+     "textHtml": "2520"
+    },
+    {
+     "id": "D",
+     "textHtml": "1440"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let 7 kg cashews = 30 kg peanuts = 9 kg almonds = 630k. Prices per kg: cashew 90k, peanut 21k, almond 70k.</p><p>Cost = 4(90k) + 14(21k) + 6(70k) = 1074k for 24 kg. Let M be the marked price per kg.</p><p>Full price: 24M = 1074k + 1752. Actual sale: 4M + 20(0.8M) = 20M = 1074k + 744.</p><p><strong>Subtract:</strong> 4M = 1008, so M = 252. Then 1074k = 24 × 252 &#8722; 1752 = 4296, so k = 4.</p><p>Almonds cost 6 × 70 × 4 = <strong>Rs. 1680</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "easy",
+   "stemHtml": "<p>The average weight of students in a class increases by 600 gm when some new students join the class. If the average weight of the new students is 3 kg more than the average weight of the original students, then the ratio of the number of original students to the number of new students is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1 : 4"
+    },
+    {
+     "id": "B",
+     "textHtml": "1 : 2"
+    },
+    {
+     "id": "C",
+     "textHtml": "4 : 1"
+    },
+    {
+     "id": "D",
+     "textHtml": "3 : 1"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let n original students have average w and m new students average w + 3. The extra 3m kg spread over all n + m students raises the average by 0.6 kg:</p><p>3m/(n + m) = 0.6, so 3m = 0.6n + 0.6m, 2.4m = 0.6n and n = 4m.</p><p>n : m = <strong>4 : 1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Ratio and proportion",
+   "difficulty": "easy",
+   "stemHtml": "<p>Pinky is standing in a queue at a ticket counter. Suppose the ratio of the number of persons standing ahead of Pinky to the number of persons standing behind her in the queue is 3 : 5. If the total number of persons in the queue is less than 300, then the maximum possible number of persons standing ahead of Pinky is</p>",
+   "answer": "111",
+   "solutionHtml": "<p>Ahead = 3k, behind = 5k, so the total including Pinky is 8k + 1 &lt; 300. That gives 8k &#8804; 298 and k &#8804; 37.</p><p>Maximum ahead = 3 × 37 = <strong>111</strong> (total 297).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed and distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>Trains A and B start traveling at the same time towards each other with constant speeds from stations X and Y, respectively. Train A reaches station Y in 10 minutes while train B takes 9 minutes to reach station X after meeting train A. Then the total time taken, in minutes, by train B to travel from station Y to station X is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "12"
+    },
+    {
+     "id": "B",
+     "textHtml": "10"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "15"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let them meet after t minutes. After meeting, A needs 10 &#8722; t minutes and B needs 9 minutes.</p><p><strong>Meeting-point rule:</strong> t<sup>2</sup> = (A's time after meeting) × (B's time after meeting), so t<sup>2</sup> = 9(10 &#8722; t). Then t<sup>2</sup> + 9t &#8722; 90 = 0, (t + 15)(t &#8722; 6) = 0 and t = 6.</p><p>B's total time = 6 + 9 = <strong>15</strong> minutes.</p><p><strong>Check:</strong> A covers XY in 10 min, so by t = 6 it has gone 0.6 of the way and B 0.4 in 6 min. B's speed is then 1/15 of XY per minute, and the remaining 0.6 takes 9 min &#10003;.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

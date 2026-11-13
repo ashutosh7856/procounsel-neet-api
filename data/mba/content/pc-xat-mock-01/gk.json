@@ -1,0 +1,785 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "GK-01",
+      "section": "GK",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "Banking Institutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>In which year was the Reserve Bank of India established?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1935"
+        },
+        {
+          "id": "B",
+          "textHtml": "1947"
+        },
+        {
+          "id": "C",
+          "textHtml": "1949"
+        },
+        {
+          "id": "D",
+          "textHtml": "1950"
+        },
+        {
+          "id": "E",
+          "textHtml": "1969"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The RBI was established on 1 April 1935 under the Reserve Bank of India Act, 1934. It was nationalised in 1949 (option C is a common distractor); 1969 is the year of the first major bank nationalisation.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-02",
+      "section": "GK",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "Monetary Policy Terms",
+      "difficulty": "easy",
+      "stemHtml": "<p>In Indian monetary policy, the 'repo rate' is the rate at which:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "banks pay interest to depositors on savings accounts"
+        },
+        {
+          "id": "B",
+          "textHtml": "commercial banks lend to their most creditworthy customers"
+        },
+        {
+          "id": "C",
+          "textHtml": "the Reserve Bank of India lends short-term funds to commercial banks against government securities"
+        },
+        {
+          "id": "D",
+          "textHtml": "the Reserve Bank of India pays banks for funds they park with it"
+        },
+        {
+          "id": "E",
+          "textHtml": "the government taxes the profits of commercial banks"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The repo (repurchase) rate is the rate at which the central bank lends short-term money to banks against eligible securities. D describes the reverse repo rate; B is closer to a bank's prime/benchmark lending rate.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-03",
+      "section": "GK",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "Taxation",
+      "difficulty": "medium",
+      "stemHtml": "<p>The Goods and Services Tax (GST) was rolled out across India with effect from:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1 April 2016"
+        },
+        {
+          "id": "B",
+          "textHtml": "1 January 2017"
+        },
+        {
+          "id": "C",
+          "textHtml": "1 April 2017"
+        },
+        {
+          "id": "D",
+          "textHtml": "1 July 2016"
+        },
+        {
+          "id": "E",
+          "textHtml": "1 July 2017"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>GST came into force on 1 July 2017, following the Constitution (One Hundred and First Amendment) Act, 2016. It replaced a number of central and state indirect taxes with a single destination-based tax.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-04",
+      "section": "GK",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "Public Finance",
+      "difficulty": "medium",
+      "stemHtml": "<p>The fiscal deficit of a government is best defined as:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the excess of a country's imports over its exports"
+        },
+        {
+          "id": "B",
+          "textHtml": "total expenditure minus total receipts excluding borrowings"
+        },
+        {
+          "id": "C",
+          "textHtml": "revenue expenditure minus revenue receipts"
+        },
+        {
+          "id": "D",
+          "textHtml": "fiscal deficit minus interest payments"
+        },
+        {
+          "id": "E",
+          "textHtml": "the loss made by the central bank in a year"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Fiscal deficit = total expenditure − total non-debt receipts (i.e. receipts excluding borrowings); it measures the government's borrowing requirement. A is the trade deficit, C is the revenue deficit and D is the primary deficit.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-05",
+      "section": "GK",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "Regulators",
+      "difficulty": "hard",
+      "stemHtml": "<p>The Securities and Exchange Board of India (SEBI) was given statutory powers through an Act of Parliament in:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1988"
+        },
+        {
+          "id": "B",
+          "textHtml": "1991"
+        },
+        {
+          "id": "C",
+          "textHtml": "1995"
+        },
+        {
+          "id": "D",
+          "textHtml": "1992"
+        },
+        {
+          "id": "E",
+          "textHtml": "2000"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>SEBI was first set up in 1988 as a non-statutory body; it became a statutory regulator under the SEBI Act, 1992. Hence 1988 (A) is the trap.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-06",
+      "section": "GK",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "International Institutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which institution, created at the Bretton Woods conference of 1944, was set up chiefly to oversee the international monetary system and provide temporary balance-of-payments support to member countries?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The World Bank (IBRD)"
+        },
+        {
+          "id": "B",
+          "textHtml": "The World Trade Organization"
+        },
+        {
+          "id": "C",
+          "textHtml": "The International Monetary Fund"
+        },
+        {
+          "id": "D",
+          "textHtml": "The Asian Development Bank"
+        },
+        {
+          "id": "E",
+          "textHtml": "The Bank for International Settlements"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The IMF's role is monetary cooperation, exchange-rate surveillance and short-term balance-of-payments assistance. The IBRD (also a Bretton Woods institution) was created for reconstruction and development lending. The WTO was established only in 1995; the ADB (1966) and BIS (1930) were not created at Bretton Woods.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-07",
+      "section": "GK",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Indian Polity",
+      "subtopic": "Constitutional Amendments",
+      "difficulty": "medium",
+      "stemHtml": "<p>The words 'Socialist' and 'Secular' were added to the Preamble of the Constitution of India by which amendment?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "42nd Amendment"
+        },
+        {
+          "id": "B",
+          "textHtml": "44th Amendment"
+        },
+        {
+          "id": "C",
+          "textHtml": "24th Amendment"
+        },
+        {
+          "id": "D",
+          "textHtml": "52nd Amendment"
+        },
+        {
+          "id": "E",
+          "textHtml": "73rd Amendment"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The Constitution (Forty-second Amendment) Act, 1976 inserted 'Socialist', 'Secular' and 'Integrity' into the Preamble. The 44th (1978) reversed several emergency-era changes, the 52nd (1985) dealt with anti-defection and the 73rd (1992) with panchayats.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-08",
+      "section": "GK",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Indian Polity",
+      "subtopic": "Fundamental Duties",
+      "difficulty": "hard",
+      "stemHtml": "<p>The Fundamental Duties of citizens are contained in which Part of the Constitution of India?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Part III"
+        },
+        {
+          "id": "B",
+          "textHtml": "Part IV"
+        },
+        {
+          "id": "C",
+          "textHtml": "Part V"
+        },
+        {
+          "id": "D",
+          "textHtml": "Part IX"
+        },
+        {
+          "id": "E",
+          "textHtml": "Part IV-A"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Fundamental Duties are in Part IV-A (Article 51A), added by the 42nd Amendment in 1976. Part III contains Fundamental Rights, Part IV the Directive Principles, Part V the Union, and Part IX the Panchayats.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-09",
+      "section": "GK",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Indian Polity",
+      "subtopic": "Fundamental Rights",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which Article of the Constitution of India guarantees the right to move the Supreme Court for the enforcement of Fundamental Rights?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Article 14"
+        },
+        {
+          "id": "B",
+          "textHtml": "Article 19"
+        },
+        {
+          "id": "C",
+          "textHtml": "Article 21"
+        },
+        {
+          "id": "D",
+          "textHtml": "Article 32"
+        },
+        {
+          "id": "E",
+          "textHtml": "Article 226"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Article 32 (Right to Constitutional Remedies) lets a person move the Supreme Court directly. Article 226 empowers High Courts to issue writs, but it is not itself a Fundamental Right. Articles 14, 19 and 21 deal with equality, freedoms and life/personal liberty.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-10",
+      "section": "GK",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Indian Polity",
+      "subtopic": "Union Executive",
+      "difficulty": "medium",
+      "stemHtml": "<p>The President of India is elected by:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the people directly, through universal adult franchise"
+        },
+        {
+          "id": "B",
+          "textHtml": "an electoral college of the elected members of both Houses of Parliament and the elected members of the State Legislative Assemblies"
+        },
+        {
+          "id": "C",
+          "textHtml": "the members of the Lok Sabha only"
+        },
+        {
+          "id": "D",
+          "textHtml": "all members of both Houses of Parliament, including nominated members"
+        },
+        {
+          "id": "E",
+          "textHtml": "the Union Council of Ministers"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Under Article 54, the President is elected by an electoral college consisting of the elected members of both Houses of Parliament and the elected members of the Legislative Assemblies of the States (and of the Union Territories of Delhi and Puducherry). Nominated members do not vote, so D is wrong.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-11",
+      "section": "GK",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Geography",
+      "subtopic": "Indian Geography",
+      "difficulty": "medium",
+      "stemHtml": "<p>The Tropic of Cancer does NOT pass through which of the following Indian states?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Gujarat"
+        },
+        {
+          "id": "B",
+          "textHtml": "Mizoram"
+        },
+        {
+          "id": "C",
+          "textHtml": "Jharkhand"
+        },
+        {
+          "id": "D",
+          "textHtml": "Tripura"
+        },
+        {
+          "id": "E",
+          "textHtml": "Odisha"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>The Tropic of Cancer passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Odisha lies entirely south of it.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-12",
+      "section": "GK",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Geography",
+      "subtopic": "Indian Geography",
+      "difficulty": "easy",
+      "stemHtml": "<p>The Palk Strait lies between India and:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Sri Lanka"
+        },
+        {
+          "id": "B",
+          "textHtml": "the Maldives"
+        },
+        {
+          "id": "C",
+          "textHtml": "Myanmar"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bangladesh"
+        },
+        {
+          "id": "E",
+          "textHtml": "Indonesia"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The Palk Strait separates Tamil Nadu from the northern part of Sri Lanka.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-13",
+      "section": "GK",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "General Science",
+      "subtopic": "Biology",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which vitamin is synthesised in the human skin on exposure to sunlight?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Vitamin A"
+        },
+        {
+          "id": "B",
+          "textHtml": "Vitamin B12"
+        },
+        {
+          "id": "C",
+          "textHtml": "Vitamin D"
+        },
+        {
+          "id": "D",
+          "textHtml": "Vitamin C"
+        },
+        {
+          "id": "E",
+          "textHtml": "Vitamin K"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Ultraviolet-B light converts a cholesterol derivative in the skin into vitamin D₃ (cholecalciferol). The other vitamins must be obtained from diet (vitamin K is also produced by gut bacteria, not by the skin).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-14",
+      "section": "GK",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "General Science",
+      "subtopic": "Chemistry",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the chemical symbol for sodium?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "S"
+        },
+        {
+          "id": "B",
+          "textHtml": "Na"
+        },
+        {
+          "id": "C",
+          "textHtml": "So"
+        },
+        {
+          "id": "D",
+          "textHtml": "Sd"
+        },
+        {
+          "id": "E",
+          "textHtml": "K"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Sodium's symbol Na comes from its Latin name <em>natrium</em>. S is sulphur and K is potassium.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-15",
+      "section": "GK",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "General Science",
+      "subtopic": "Physics",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the SI unit of electrical resistance?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Volt"
+        },
+        {
+          "id": "B",
+          "textHtml": "Ampere"
+        },
+        {
+          "id": "C",
+          "textHtml": "Watt"
+        },
+        {
+          "id": "D",
+          "textHtml": "Ohm"
+        },
+        {
+          "id": "E",
+          "textHtml": "Farad"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Resistance is measured in ohms (Ω). The volt is the unit of potential difference, the ampere of current, the watt of power and the farad of capacitance.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-16",
+      "section": "GK",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "History",
+      "subtopic": "Modern Indian History",
+      "difficulty": "medium",
+      "stemHtml": "<p>The Battle of Plassey, which established the East India Company's dominance in Bengal, was fought in:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1764"
+        },
+        {
+          "id": "B",
+          "textHtml": "1757"
+        },
+        {
+          "id": "C",
+          "textHtml": "1857"
+        },
+        {
+          "id": "D",
+          "textHtml": "1761"
+        },
+        {
+          "id": "E",
+          "textHtml": "1526"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Plassey was fought in 1757 between Robert Clive's Company forces and Nawab Siraj-ud-Daulah. 1764 is the Battle of Buxar, 1761 the Third Battle of Panipat, 1857 the Revolt and 1526 the First Battle of Panipat.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-17",
+      "section": "GK",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "History",
+      "subtopic": "Freedom Struggle",
+      "difficulty": "easy",
+      "stemHtml": "<p>Mahatma Gandhi's Dandi March, which launched the Salt Satyagraha, took place in:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1919"
+        },
+        {
+          "id": "B",
+          "textHtml": "1920"
+        },
+        {
+          "id": "C",
+          "textHtml": "1942"
+        },
+        {
+          "id": "D",
+          "textHtml": "1947"
+        },
+        {
+          "id": "E",
+          "textHtml": "1930"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>The Dandi March began on 12 March 1930 from Sabarmati Ashram and reached Dandi on 6 April 1930. 1920 marks the Non-Cooperation Movement and 1942 the Quit India Movement.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-18",
+      "section": "GK",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "History",
+      "subtopic": "Modern Indian History",
+      "difficulty": "hard",
+      "stemHtml": "<p>Who was the first Governor-General of independent India?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Lord Mountbatten"
+        },
+        {
+          "id": "B",
+          "textHtml": "C. Rajagopalachari"
+        },
+        {
+          "id": "C",
+          "textHtml": "Lord Canning"
+        },
+        {
+          "id": "D",
+          "textHtml": "Warren Hastings"
+        },
+        {
+          "id": "E",
+          "textHtml": "Lord William Bentinck"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Lord Mountbatten continued as Governor-General of the Dominion of India from 15 August 1947 to June 1948. C. Rajagopalachari succeeded him as the first (and only) <em>Indian</em> Governor-General. Warren Hastings was the first Governor-General of Bengal, Bentinck the first Governor-General of India (1833), and Canning the first Viceroy (1858).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-19",
+      "section": "GK",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Business Basics",
+      "subtopic": "Accounting",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is the basic accounting equation underlying a balance sheet?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Assets = Revenue − Expenses"
+        },
+        {
+          "id": "B",
+          "textHtml": "Liabilities = Assets + Owners' equity"
+        },
+        {
+          "id": "C",
+          "textHtml": "Owners' equity = Assets + Liabilities"
+        },
+        {
+          "id": "D",
+          "textHtml": "Assets = Liabilities + Owners' equity"
+        },
+        {
+          "id": "E",
+          "textHtml": "Profit = Assets − Liabilities"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Everything a business owns (assets) is financed either by outsiders (liabilities) or by owners (equity): Assets = Liabilities + Owners' equity. Equivalently, equity = assets − liabilities, which rules out B, C and E; A confuses the balance sheet with the income statement.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "GK-20",
+      "section": "GK",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Economy and Business",
+      "subtopic": "Development Institutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which institution serves as India's apex development bank for agriculture and rural development?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "SIDBI"
+        },
+        {
+          "id": "B",
+          "textHtml": "EXIM Bank"
+        },
+        {
+          "id": "C",
+          "textHtml": "NABARD"
+        },
+        {
+          "id": "D",
+          "textHtml": "National Housing Bank"
+        },
+        {
+          "id": "E",
+          "textHtml": "IFCI"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>NABARD (National Bank for Agriculture and Rural Development), set up in 1982, is the apex body for agricultural and rural credit. SIDBI serves small industries, EXIM Bank finances foreign trade, NHB regulates/refinances housing finance and IFCI provides industrial finance.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    }
+  ]
+}

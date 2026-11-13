@@ -31,7 +31,7 @@ from api.db import SafeFirestore, get_db
 from .ai import DEFAULT_MODEL, OPENAI_TIMEOUT_SECONDS, _daily_limit
 from .attempts import _plan, transition
 from .deps import student
-from .models import SECTION_IDS, SectionId
+from .models import ExamSectionId
 from .scoring import normalize_answer
 from .store import AI_USAGE, Bank, get_bank, get_doc, iso, local_date, occ_update, utcnow
 
@@ -51,7 +51,7 @@ Outcome = Literal["correct", "incorrect", "skipped"]
 
 # ---------------------------------------------------------------- response models
 class SectionFacts(BaseModel):
-    id: SectionId
+    id: ExamSectionId  # any exam (XAT, SNAP…) — not only CAT
     questionCount: int
     score: float
     maxScore: float
@@ -78,14 +78,14 @@ class DifficultyFacts(Bucket):
 
 
 class TopicFacts(Bucket):
-    section: SectionId
+    section: ExamSectionId
     topic: str
     timeSpentMs: int
 
 
 class QuestionRef(BaseModel):
     questionId: str
-    section: SectionId
+    section: ExamSectionId
     number: int
     topic: str | None
     difficulty: Literal["easy", "medium", "hard"] | None
@@ -169,8 +169,8 @@ def _bucket(rows: list[dict[str, Any]]) -> dict[str, Any]:
             "skipped": len(rows) - attempted, "accuracy": _ratio(correct, attempted)}
 
 
-def practice_href(section: str | None = None, topic: str | None = None) -> str:
-    params = {k: v for k, v in (("section", section), ("topic", topic)) if v}
+def practice_href(section: str | None = None, topic: str | None = None, exam: str | None = None) -> str:
+    params = {k: v for k, v in (("exam", exam if exam != "cat" else None), ("section", section), ("topic", topic)) if v}
     return "/mba/practice" + (f"?{urlencode(params)}" if params else "")
 
 
@@ -237,7 +237,8 @@ def deterministic_analysis(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
         {"section": sid, "topic": topic, **_bucket(trows), "timeSpentMs": sum(r["timeSpentMs"] for r in trows)}
         for (sid, topic), trows in topics.items()
     ]
-    by_topic.sort(key=lambda t: (SECTION_IDS.index(t["section"]), -t["total"], t["topic"].lower()))
+    order = [s["id"] for s in _plan(att)]  # paper order (CAT: VARC, DILR, QA)
+    by_topic.sort(key=lambda t: (order.index(t["section"]) if t["section"] in order else len(order), -t["total"], t["topic"].lower()))
 
     missed_easy = [_ref(r) for r in rows if r["difficulty"] == "easy" and r["outcome"] != "correct"]
     sinks = []
@@ -258,10 +259,13 @@ def deterministic_analysis(att: dict[str, Any], bank: Bank) -> dict[str, Any]:
         "timeSinkCount": len(sinks),
     }
 
-    links = [{"id": f"section:{s['id']}", "label": f"Practise {SECTION_NAMES[s['id']]}", "href": practice_href(s["id"])} for s in sections]
+    exam = att.get("examId") or "cat"
+    links = [{"id": f"section:{s['id']}", "label": f"Practise {SECTION_NAMES.get(s['id'], s['id'])}",
+              "href": practice_href(s["id"], exam=exam)} for s in sections]
     for t in by_topic:
-        links.append({"id": f"topic:{t['section']}:{t['topic']}", "label": f"Practise {t['topic']} ({SECTION_NAMES[t['section']]})",
-                      "href": practice_href(t["section"], t["topic"])})
+        links.append({"id": f"topic:{t['section']}:{t['topic']}",
+                      "label": f"Practise {t['topic']} ({SECTION_NAMES.get(t['section'], t['section'])})",
+                      "href": practice_href(t["section"], t["topic"], exam=exam)})
     links.append({"id": "mistakes", "label": "Review your mistakes", "href": "/mba/mistakes"})
 
     low = attempted < LOW_EVIDENCE_ATTEMPTED

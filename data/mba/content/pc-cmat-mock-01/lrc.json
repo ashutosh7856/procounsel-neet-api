@@ -1,0 +1,697 @@
+{
+  "sets": [
+    {
+      "key": "LRC-S1",
+      "kind": "dilr_set",
+      "section": "LRC",
+      "title": "Seven colleagues in a row",
+      "contentHtml": "<p>Seven colleagues — J, K, L, M, N, O and P — sit in a single row of seven seats, all facing north. Seats are numbered 1 to 7 from left to right. The following is known:</p><ol><li>M sits at one of the two ends of the row.</li><li>Exactly two people sit between M and K.</li><li>L sits immediately to the right of K.</li><li>O sits third to the right of P.</li><li>N does not sit at either end of the row.</li><li>N does not sit next to L.</li><li>J sits somewhere to the left of N.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "LRC-01",
+      "section": "LRC",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "LRC-S1",
+      "topic": "Arrangements",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "easy",
+      "stemHtml": "<p>Who sits in the middle seat of the row?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "L"
+        },
+        {
+          "id": "B",
+          "textHtml": "P"
+        },
+        {
+          "id": "C",
+          "textHtml": "K"
+        },
+        {
+          "id": "D",
+          "textHtml": "O"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Since L is immediately right of K, K cannot be in seat 7. If M is in seat 1, K is in seat 4 and L in seat 5; the free seats are 2, 3, 6, 7, and O = P + 3 forces P = 3, O = 6, leaving seats 2 and 7 for J and N; N cannot be at an end, so N = 2, but then J (seat 7) is not left of N — contradiction. So M is in seat 7, K in seat 4, L in seat 5. Free seats: 1, 2, 3, 6. O = P + 3 gives P = 3, O = 6. Seats 1 and 2 remain for J and N; N is not at an end, so N = 2 and J = 1 (J left of N ✓; N not next to L ✓).</p><p><strong>Final row (seats 1 → 7):</strong> J, N, P, K, L, O, M — the only arrangement satisfying all conditions.</p><p>The middle seat is seat 4, occupied by <strong>K</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-02",
+      "section": "LRC",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "LRC-S1",
+      "topic": "Arrangements",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many people sit between J and O?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Since L is immediately right of K, K cannot be in seat 7. If M is in seat 1, K is in seat 4 and L in seat 5; the free seats are 2, 3, 6, 7, and O = P + 3 forces P = 3, O = 6, leaving seats 2 and 7 for J and N; N cannot be at an end, so N = 2, but then J (seat 7) is not left of N — contradiction. So M is in seat 7, K in seat 4, L in seat 5. Free seats: 1, 2, 3, 6. O = P + 3 gives P = 3, O = 6. Seats 1 and 2 remain for J and N; N is not at an end, so N = 2 and J = 1 (J left of N ✓; N not next to L ✓).</p><p><strong>Final row (seats 1 → 7):</strong> J, N, P, K, L, O, M — the only arrangement satisfying all conditions.</p><p>J is in seat 1 and O in seat 6, so seats 2–5 (N, P, K, L) lie between them: <strong>4</strong> people.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-03",
+      "section": "LRC",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "LRC-S1",
+      "topic": "Arrangements",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who sits immediately to the left of P?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "N"
+        },
+        {
+          "id": "B",
+          "textHtml": "J"
+        },
+        {
+          "id": "C",
+          "textHtml": "K"
+        },
+        {
+          "id": "D",
+          "textHtml": "O"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Since L is immediately right of K, K cannot be in seat 7. If M is in seat 1, K is in seat 4 and L in seat 5; the free seats are 2, 3, 6, 7, and O = P + 3 forces P = 3, O = 6, leaving seats 2 and 7 for J and N; N cannot be at an end, so N = 2, but then J (seat 7) is not left of N — contradiction. So M is in seat 7, K in seat 4, L in seat 5. Free seats: 1, 2, 3, 6. O = P + 3 gives P = 3, O = 6. Seats 1 and 2 remain for J and N; N is not at an end, so N = 2 and J = 1 (J left of N ✓; N not next to L ✓).</p><p><strong>Final row (seats 1 → 7):</strong> J, N, P, K, L, O, M — the only arrangement satisfying all conditions.</p><p>P is in seat 3; the seat immediately to the left (seat 2) is occupied by <strong>N</strong>. (K is immediately to P's right, not left.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-04",
+      "section": "LRC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "LRC-S1",
+      "topic": "Arrangements",
+      "subtopic": "Linear Arrangement",
+      "difficulty": "hard",
+      "stemHtml": "<p>If N and K interchange their seats, who will then sit immediately to the right of K?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "L"
+        },
+        {
+          "id": "B",
+          "textHtml": "J"
+        },
+        {
+          "id": "C",
+          "textHtml": "O"
+        },
+        {
+          "id": "D",
+          "textHtml": "P"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Solving the arrangement:</strong> Since L is immediately right of K, K cannot be in seat 7. If M is in seat 1, K is in seat 4 and L in seat 5; the free seats are 2, 3, 6, 7, and O = P + 3 forces P = 3, O = 6, leaving seats 2 and 7 for J and N; N cannot be at an end, so N = 2, but then J (seat 7) is not left of N — contradiction. So M is in seat 7, K in seat 4, L in seat 5. Free seats: 1, 2, 3, 6. O = P + 3 gives P = 3, O = 6. Seats 1 and 2 remain for J and N; N is not at an end, so N = 2 and J = 1 (J left of N ✓; N not next to L ✓).</p><p><strong>Final row (seats 1 → 7):</strong> J, N, P, K, L, O, M — the only arrangement satisfying all conditions.</p><p>After the swap, K moves to seat 2 and N to seat 4. The person in seat 3, immediately to K's right, is <strong>P</strong>. (L would be the answer only if K stayed in seat 4.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-05",
+      "section": "LRC",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Series",
+      "subtopic": "Number Series",
+      "difficulty": "easy",
+      "stemHtml": "<p>Find the next term: 3, 7, 15, 31, 63, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "125"
+        },
+        {
+          "id": "B",
+          "textHtml": "127"
+        },
+        {
+          "id": "C",
+          "textHtml": "126"
+        },
+        {
+          "id": "D",
+          "textHtml": "129"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Each term is (previous term × 2) + 1: 3×2+1 = 7, 7×2+1 = 15, 15×2+1 = 31, 31×2+1 = 63, so the next is 63×2+1 = <strong>127</strong>. Equivalently, the terms are 2<sup>n</sup> − 1 for n = 2, 3, 4, …; 2<sup>7</sup> − 1 = 127.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-06",
+      "section": "LRC",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Series",
+      "subtopic": "Number Series",
+      "difficulty": "medium",
+      "stemHtml": "<p>Find the next term: 4, 9, 25, 49, 121, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "144"
+        },
+        {
+          "id": "B",
+          "textHtml": "196"
+        },
+        {
+          "id": "C",
+          "textHtml": "169"
+        },
+        {
+          "id": "D",
+          "textHtml": "225"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The terms are squares of consecutive prime numbers: 2², 3², 5², 7², 11². The next prime is 13, so the next term is 13² = <strong>169</strong>. 144 (12²) and 196 (14²) are squares of non-primes; 225 is 15².</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-07",
+      "section": "LRC",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Series",
+      "subtopic": "Letter Series",
+      "difficulty": "medium",
+      "stemHtml": "<p>Find the next letter: B, E, I, N, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "S"
+        },
+        {
+          "id": "B",
+          "textHtml": "U"
+        },
+        {
+          "id": "C",
+          "textHtml": "R"
+        },
+        {
+          "id": "D",
+          "textHtml": "T"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Positions in the alphabet: B = 2, E = 5, I = 9, N = 14. The gaps are +3, +4, +5, so the next gap is +6: 14 + 6 = 20 = <strong>T</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-08",
+      "section": "LRC",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Coding-Decoding",
+      "subtopic": "Letter Coding",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a certain code language, MANGO is written as PHOBN. How is CHAIR written in that code?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "SJBID"
+        },
+        {
+          "id": "B",
+          "textHtml": "DIBJS"
+        },
+        {
+          "id": "C",
+          "textHtml": "RIAHC"
+        },
+        {
+          "id": "D",
+          "textHtml": "SJBDI"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Find the rule:</strong> Reverse MANGO → O G N A M. Shift each letter one step forward: O→P, G→H, N→O, A→B, M→N, giving PHOBN ✓.</p><p><strong>Apply:</strong> Reverse CHAIR → R I A H C; shift each forward: R→S, I→J, A→B, H→I, C→D ⇒ <strong>SJBID</strong>.</p><p>DIBJS applies only the shift (no reversal); RIAHC applies only the reversal; SJBDI garbles the last two letters.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-09",
+      "section": "LRC",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Coding-Decoding",
+      "subtopic": "Number Coding",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a certain code, CAT = 24 and BAT = 23. What is the code for DOG?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "26"
+        },
+        {
+          "id": "B",
+          "textHtml": "24"
+        },
+        {
+          "id": "C",
+          "textHtml": "28"
+        },
+        {
+          "id": "D",
+          "textHtml": "25"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Each word is coded as the sum of the alphabet positions of its letters: CAT = 3 + 1 + 20 = 24; BAT = 2 + 1 + 20 = 23 ✓. DOG = 4 + 15 + 7 = <strong>26</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-10",
+      "section": "LRC",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Blood Relations",
+      "subtopic": "Family Tree",
+      "difficulty": "easy",
+      "stemHtml": "<p>Pointing to a girl in a photograph, Raman (a man) says, “She is the only daughter of the only son of my paternal grandfather.” How is Raman related to the girl?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Cousin"
+        },
+        {
+          "id": "B",
+          "textHtml": "Brother"
+        },
+        {
+          "id": "C",
+          "textHtml": "Father"
+        },
+        {
+          "id": "D",
+          "textHtml": "Uncle"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Raman's paternal grandfather is his father's father. The grandfather's only son must therefore be Raman's father. The girl is the only daughter of Raman's father, so she is Raman's sister, and Raman is her <strong>brother</strong>.</p><p>Cousin would need the girl's parent to be a different child of the grandfather, but the grandfather has only one son, who is Raman's father. Nothing in the statement makes Raman a parent or uncle of the girl.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-11",
+      "section": "LRC",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Blood Relations",
+      "subtopic": "Coded Relations",
+      "difficulty": "medium",
+      "stemHtml": "<p>A + B means A is the mother of B; A − B means A is the brother of B; A × B means A is the father of B; A ÷ B means A is the sister of B. Which of the following means that P is the maternal uncle of Q?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P − R × Q"
+        },
+        {
+          "id": "B",
+          "textHtml": "P ÷ R + Q"
+        },
+        {
+          "id": "C",
+          "textHtml": "P − R + Q"
+        },
+        {
+          "id": "D",
+          "textHtml": "P × R − Q"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>P − R + Q:</strong> P is the brother of R, and R is the mother of Q. So P is the brother of Q's mother, i.e. Q's <strong>maternal uncle</strong>. ✓</p><p>P − R × Q: R is Q's father, so P is the paternal uncle. P ÷ R + Q: P is the sister of Q's mother, i.e. maternal aunt. P × R − Q: P is the father of R, who is Q's brother, so P is Q's father.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-12",
+      "section": "LRC",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Direction Sense",
+      "subtopic": "Distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>Meera walks 10 km towards north. She then turns right and walks 6 km, turns right again and walks 18 km, and finally turns left and walks 9 km. How far is she now from her starting point?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "15 km"
+        },
+        {
+          "id": "B",
+          "textHtml": "19 km"
+        },
+        {
+          "id": "C",
+          "textHtml": "21 km"
+        },
+        {
+          "id": "D",
+          "textHtml": "17 km"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Take the start as (0, 0) with north as +y and east as +x.</p><ul><li>10 km north → (0, 10).</li><li>Turn right (now facing east), 6 km → (6, 10).</li><li>Turn right (now facing south), 18 km → (6, −8).</li><li>Turn left (now facing east), 9 km → (15, −8).</li></ul><p>Distance = √(15² + 8²) = √289 = <strong>17 km</strong> (towards the south-east of the start).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-13",
+      "section": "LRC",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Direction Sense",
+      "subtopic": "Turns and Angles",
+      "difficulty": "hard",
+      "stemHtml": "<p>A man is facing west. He turns 135° in the clockwise direction and then 270° in the anticlockwise direction. Which direction is he facing now?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "North-east"
+        },
+        {
+          "id": "B",
+          "textHtml": "South-west"
+        },
+        {
+          "id": "C",
+          "textHtml": "South-east"
+        },
+        {
+          "id": "D",
+          "textHtml": "North-west"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Step 1:</strong> From west, a 90° clockwise turn faces north; another 45° clockwise faces north-east. So after 135° clockwise he faces north-east.</p><p><strong>Step 2:</strong> Turning 270° anticlockwise is the same as turning 90° clockwise. From north-east, 90° clockwise gives <strong>south-east</strong>.</p><p><strong>Check with bearings:</strong> west = 270°; 270 + 135 = 405 ≡ 45° (NE); 45 − 270 = −225 ≡ 135° (SE).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-14",
+      "section": "LRC",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Syllogisms",
+      "subtopic": "Two Conclusions",
+      "difficulty": "medium",
+      "stemHtml": "<p><strong>Statements:</strong> All pens are books. Some books are bags. No bag is a box.</p><p><strong>Conclusions:</strong></p><p>I. Some pens are bags.</p><p>II. Some books are not boxes.</p><p>Which conclusion(s) follow?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both I and II follow"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither I nor II follows"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Conclusion I:</strong> Pens lie inside books, and some books are bags, but the books that are bags need not include any pen. A valid diagram can keep pens and bags apart, so I does not follow.</p><p><strong>Conclusion II:</strong> The books that are bags cannot be boxes (no bag is a box). So at least those books are not boxes, and II definitely follows.</p><p>Hence <strong>only II</strong> follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-15",
+      "section": "LRC",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Syllogisms",
+      "subtopic": "Two Conclusions",
+      "difficulty": "hard",
+      "stemHtml": "<p><strong>Statements:</strong> Some managers are leaders. All leaders are speakers. No speaker is shy.</p><p><strong>Conclusions:</strong></p><p>I. Some managers are not shy.</p><p>II. No leader is shy.</p><p>Which conclusion(s) follow?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Either I or II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Both I and II follow"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Conclusion II:</strong> Every leader is a speaker and no speaker is shy, so no leader is shy. II follows.</p><p><strong>Conclusion I:</strong> Some managers are leaders; those managers are leaders and hence not shy. So some managers are not shy. I follows.</p><p>Hence <strong>both</strong> follow. “Either I or II” fits only when the two conclusions are complementary and neither is certain on its own, which is not the case here.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-16",
+      "section": "LRC",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Statement and Assumption",
+      "difficulty": "medium",
+      "stemHtml": "<p><strong>Statement:</strong> The city corporation has announced that owners of residential buildings who install rooftop solar panels before March will get a 50% rebate on this year's property tax.</p><p><strong>Assumptions:</strong></p><p>I. At least some building owners are likely to be encouraged to install solar panels by a property-tax rebate.</p><p>II. Every residential building in the city has a roof suitable for solar panels.</p><p>Which assumption(s) is/are implicit in the statement?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only I is implicit"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only II is implicit"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both I and II are implicit"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither I nor II is implicit"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>I is implicit:</strong> An incentive scheme makes sense only if the corporation expects the rebate to influence at least some owners. Without this belief the announcement would have no purpose.</p><p><strong>II is not implicit:</strong> The scheme rewards those who <em>do</em> install panels; it works even if many roofs are unsuitable. “Every” is an extreme claim the corporation does not need to believe.</p><p>Hence <strong>only I</strong> is implicit.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-17",
+      "section": "LRC",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Statement and Conclusion",
+      "difficulty": "medium",
+      "stemHtml": "<p><strong>Statement:</strong> In each of the last three years, every company in the logistics sector that moved to a four-day work week reported a fall in employee attrition.</p><p><strong>Conclusions:</strong></p><p>I. The four-day work week was the only reason for the fall in attrition at these companies.</p><p>II. None of the logistics companies that moved to a four-day work week reported a rise in attrition in any of these three years.</p><p>Which conclusion(s) follow?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Both I and II follow"
+        },
+        {
+          "id": "C",
+          "textHtml": "Only II follows"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither I nor II follows"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>I does not follow:</strong> The statement reports that the two things happened together; it says nothing about other causes (pay rises, a weak job market, etc.). “Only reason” claims a sole cause that the data cannot establish.</p><p><strong>II follows:</strong> Each such company reported a <em>fall</em> in attrition in each of the three years, so none of them could have reported a rise in any of those years. This restates the statement.</p><p>Hence <strong>only II</strong> follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-18",
+      "section": "LRC",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Analogies",
+      "subtopic": "Word Analogy",
+      "difficulty": "easy",
+      "stemHtml": "<p>Thermometer : Temperature :: Anemometer : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Humidity"
+        },
+        {
+          "id": "B",
+          "textHtml": "Wind speed"
+        },
+        {
+          "id": "C",
+          "textHtml": "Atmospheric pressure"
+        },
+        {
+          "id": "D",
+          "textHtml": "Rainfall"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>A thermometer measures temperature. In the same way an anemometer measures <strong>wind speed</strong>. Humidity is measured by a hygrometer, atmospheric pressure by a barometer and rainfall by a rain gauge.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-19",
+      "section": "LRC",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Analogies",
+      "subtopic": "Letter Analogy",
+      "difficulty": "medium",
+      "stemHtml": "<p>ACE : BDF :: PRT : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "QSU"
+        },
+        {
+          "id": "B",
+          "textHtml": "OQS"
+        },
+        {
+          "id": "C",
+          "textHtml": "QTV"
+        },
+        {
+          "id": "D",
+          "textHtml": "PSU"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Each letter of ACE moves one step forward to give BDF (A→B, C→D, E→F). Applying the same rule to PRT: P→Q, R→S, T→U ⇒ <strong>QSU</strong>. OQS moves each letter backward; QTV and PSU break the uniform +1 shift.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "LRC-20",
+      "section": "LRC",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Analogies",
+      "subtopic": "Number Analogy",
+      "difficulty": "medium",
+      "stemHtml": "<p>3 : 28 :: 5 : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "125"
+        },
+        {
+          "id": "B",
+          "textHtml": "124"
+        },
+        {
+          "id": "C",
+          "textHtml": "216"
+        },
+        {
+          "id": "D",
+          "textHtml": "126"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>28 = 3³ + 1. Applying the same rule to 5: 5³ + 1 = 125 + 1 = <strong>126</strong>. 125 forgets the +1, 124 uses −1, and 216 is 6³.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

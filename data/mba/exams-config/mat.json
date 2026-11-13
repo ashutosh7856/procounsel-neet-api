@@ -1,0 +1,77 @@
+{
+  "id": "mat",
+  "name": "Management Aptitude Test (MAT)",
+  "conductingBody": "All India Management Association (AIMA)",
+  "officialUrl": "https://mat.aima.in/",
+  "adaptive": false,
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "LCM",
+          "name": "Language Comprehension",
+          "questionCount": 30,
+          "durationMinutes": null
+        },
+        {
+          "id": "ICR",
+          "name": "Intelligence & Critical Reasoning",
+          "questionCount": 30,
+          "durationMinutes": null
+        },
+        {
+          "id": "MS",
+          "name": "Mathematical Skills",
+          "questionCount": 30,
+          "durationMinutes": null
+        },
+        {
+          "id": "DAS",
+          "name": "Data Analysis & Sufficiency",
+          "questionCount": 30,
+          "durationMinutes": null
+        },
+        {
+          "id": "EBE",
+          "name": "Economic & Business Environment",
+          "questionCount": 30,
+          "durationMinutes": null
+        }
+      ],
+      "timerBlocks": [
+        {
+          "id": "ALL",
+          "name": "MAT",
+          "sectionIds": [
+            "LCM",
+            "ICR",
+            "MS",
+            "DAS",
+            "EBE"
+          ],
+          "durationMinutes": 120
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": -0.25,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 120,
+      "sectionOrderLocked": false,
+      "scoring": "practice",
+      "scoringNote": "AIMA states -0.25 for every incorrect answer but not the marks for a correct one, and reports normalised scores (0-100 per section, 200-800 composite). This practice test counts 1 per correct answer and -0.25 per wrong answer; it is not an official MAT score.",
+      "source": {
+        "kind": "official",
+        "title": "MAT official website (AIMA) and MAT FAQ",
+        "url": "https://mat.aima.in/",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

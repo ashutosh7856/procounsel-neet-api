@@ -1,0 +1,631 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "easy",
+   "stemHtml": "<p>A group of N people worked on a project. They finished 35% of the project by working 7 hours a day for 10 days. Thereafter, 10 people left the group and the remaining people finished the rest of the project in 14 days by working 10 hours a day. Then the value of N is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "140"
+    },
+    {
+     "id": "B",
+     "textHtml": "36"
+    },
+    {
+     "id": "C",
+     "textHtml": "23"
+    },
+    {
+     "id": "D",
+     "textHtml": "150"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Work is proportional to person-hours.</p><p>35% took N × 7 × 10 = 70N person-hours, so 1% takes 2N.</p><p>The remaining 65% took (N − 10) × 14 × 10 = 140(N − 10). So <strong>65 × 2N = 140(N − 10)</strong>, i.e. 130N = 140N − 1400, which gives N = <strong>140</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Linear Diophantine equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>A donation box can receive only cheques of Rs.100, Rs.250, and Rs.500. On one good day, the donation box was found to contain exactly 100 cheques amounting to a total sum of Rs.15250. Then, the maximum possible number of cheques of Rs.500 that the donation box may have contained, is</p>",
+   "answer": "12",
+   "solutionHtml": "<p>Let the counts be a, b, c (Rs.100, 250, 500). Then a + b + c = 100 and 100a + 250b + 500c = 15250, i.e. 2a + 5b + 10c = 305.</p><p>Subtract twice the first equation: <strong>3b + 8c = 105</strong>. So 8c ≤ 105, i.e. c ≤ 13, and 105 − 8c must be divisible by 3. That needs c to be a multiple of 3.</p><p>Largest such c is 12: b = (105 − 96)/3 = 3, a = 85. Check: 8500 + 750 + 6000 = 15250. Maximum = <strong>12</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Permutations of digits",
+   "difficulty": "easy",
+   "stemHtml": "<p>The arithmetic mean of all the distinct numbers that can be obtained by rearranging the digits in 1421, including itself, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2592"
+    },
+    {
+     "id": "B",
+     "textHtml": "2442"
+    },
+    {
+     "id": "C",
+     "textHtml": "3333"
+    },
+    {
+     "id": "D",
+     "textHtml": "2222"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>There are 4!/2! = 12 distinct arrangements. By symmetry, each place (thousands, hundreds, tens, units) has the same average digit as the multiset {1, 1, 2, 4}: (1 + 1 + 2 + 4)/4 = 2.</p><p>So the mean number = 2 × 1111 = <strong>2222</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Relative speed (escalator)",
+   "difficulty": "easy",
+   "stemHtml": "<p>Moody takes 30 seconds to finish riding an escalator if he walks on it at his normal speed in the same direction. He takes 20 seconds to finish riding the escalator if he walks at twice his normal speed in the same direction. If Moody decides to stand still on the escalator, then the time, in seconds, needed to finish riding the escalator is</p>",
+   "answer": "60",
+   "solutionHtml": "<p>Let Moody's speed be v and the escalator's speed e. Length L = 30(v + e) = 20(2v + e).</p><p>30v + 30e = 40v + 20e gives <strong>e = v</strong>. So L = 30 × 2e = 60e.</p><p>Standing still: time = L/e = <strong>60</strong> seconds.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Polygon inequality",
+   "difficulty": "easy",
+   "stemHtml": "<p>The lengths of all four sides of a quadrilateral are integer valued. If three of its sides are of length 1 cm, 2 cm and 4 cm, then the total number of possible lengths of the fourth side is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "3"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>In any quadrilateral, each side is less than the sum of the other three.</p><p>Fourth side x: x &lt; 1 + 2 + 4 = 7, and 4 &lt; 1 + 2 + x, so x &gt; 1.</p><p>Integer values 2, 3, 4, 5, 6: <strong>5</strong> lengths.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Minimum value (AM–GM)",
+   "difficulty": "medium",
+   "stemHtml": "<p>The minimum possible value of (x<sup>2</sup> − 6x + 10)/(3 − x), for x &lt; 3, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−1/2"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "−2"
+    },
+    {
+     "id": "D",
+     "textHtml": "1/2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Write x<sup>2</sup> − 6x + 10 = (x − 3)<sup>2</sup> + 1 and put t = 3 − x &gt; 0.</p><p>The expression becomes (t<sup>2</sup> + 1)/t = <strong>t + 1/t ≥ 2</strong> by AM–GM, with equality at t = 1 (x = 2).</p><p>Minimum = <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Triangles (medians)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Suppose the medians BD and CE of a triangle ABC intersect at a point O. If area of triangle ABC is 108 sq. cm., then, the area of the triangle EOD, in sq. cm., is</p>",
+   "answer": "9",
+   "solutionHtml": "<p>D is the midpoint of AC, so area(ABD) = 108/2 = 54. E is the midpoint of AB, so area(EBD) = 54/2 = 27.</p><p>O is the centroid, so OD = BD/3. Triangles EOD and EBD share the vertex E and their bases lie on the same line BD, so <strong>area(EOD) = 27/3 = 9</strong>.</p><p>(In general, area EOD = 1/12 of area ABC.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work (alternate days)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Bob can finish a job in 40 days, if he works alone. Alex is twice as fast as Bob and thrice as fast as Cole in the same job. Suppose Alex and Bob work together on the first day, Bob and Cole work together on the second day, Cole and Alex work together on the third day, and then, they continue the work by repeating this three-day roster, with Alex and Bob working together on the fourth day, and so on. Then, the total number of days Alex would have worked when the job gets finished, is</p>",
+   "answer": "11",
+   "solutionHtml": "<p>Take the job as 120 units. Bob does 3/day, Alex 6/day, Cole 2/day.</p><p>Roster: Day 1 (A + B) = 9, Day 2 (B + C) = 5, Day 3 (C + A) = 8. That is <strong>22 units per 3-day cycle</strong>, with Alex working 2 of the 3 days.</p><p>5 cycles (15 days) do 110 units. Day 16 (A + B) brings it to 119, and Day 17 (B + C) finishes the job.</p><p>Alex worked 5 × 2 + 1 = <strong>11</strong> days.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Functions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let r be a real number and f(x) = 2x − r if x ≥ r, and f(x) = r if x &lt; r. Then, the equation f(x) = f(f(x)) holds for all real values of x where</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "x ≤ r"
+    },
+    {
+     "id": "B",
+     "textHtml": "x ≥ r"
+    },
+    {
+     "id": "C",
+     "textHtml": "x ≠ r"
+    },
+    {
+     "id": "D",
+     "textHtml": "x &gt; r"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>x &lt; r:</strong> f(x) = r, and f(r) = 2r − r = r, so f(f(x)) = r = f(x). It holds.</p><p><strong>x ≥ r:</strong> f(x) = 2x − r ≥ r, so f(f(x)) = 2(2x − r) − r = 4x − 3r. Setting this equal to 2x − r gives x = r. So among x ≥ r it holds only at x = r.</p><p>It therefore holds exactly for <strong>x ≤ r</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles (overlap area)",
+   "difficulty": "hard",
+   "stemHtml": "<p>In a triangle ABC, AB = AC = 8cm. A circle drawn with BC as diameter passes through A. Another circle drawn with center at A passes through B and C. Then the area, in sq. cm, of the overlapping region between the two circles is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "32 (π − 1)"
+    },
+    {
+     "id": "B",
+     "textHtml": "32π"
+    },
+    {
+     "id": "C",
+     "textHtml": "16 (π − 1)"
+    },
+    {
+     "id": "D",
+     "textHtml": "16π"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>A lies on the circle with diameter BC, so ∠A = 90°. Then BC = 8√2, and the small circle has radius 4√2 (area 32π). The big circle has centre A and radius 8.</p><p>The circles meet at B and C, so the overlap is bounded by the chord BC:</p><p>• On A's side of BC: the half of the small circle, area 16π, which lies inside the big circle.</p><p>• On the far side of BC: the big circle's minor segment on chord BC. It is a 90° sector minus the right triangle: 16π − 32. It bulges less than the small circle, so it lies inside the small circle.</p><p>Overlap = 16π + 16π − 32 = <strong>32(π − 1)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures",
+   "difficulty": "easy",
+   "stemHtml": "<p>A glass contains 500 cc of milk and a cup contains 500 cc of water. From the glass, 150 cc of milk is transferred to the cup and mixed thoroughly. Next, 150 cc of this mixture is transferred from the cup to the glass. Now, the amount of water in the glass and the amount of milk in the cup are in the ratio</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10 : 3"
+    },
+    {
+     "id": "B",
+     "textHtml": "1 : 1"
+    },
+    {
+     "id": "C",
+     "textHtml": "3 : 10"
+    },
+    {
+     "id": "D",
+     "textHtml": "10 : 13"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>After both transfers each vessel again holds 500 cc. Whatever water left the cup must have been replaced by the same volume of milk. So <strong>water in the glass = milk in the cup</strong>.</p><p>Check: the cup has 150 milk + 500 water. 150 cc of it carries 150 × 500/650 ≈ 115.4 water to the glass, and the milk left in the cup is 150 − 150 × 150/650 ≈ 115.4.</p><p>Ratio = <strong>1 : 1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Exponents",
+   "difficulty": "medium",
+   "stemHtml": "<p>If (√(7/5))<sup>3x − y</sup> = 875/2401 and (4a/b)<sup>6x − y</sup> = (2a/b)<sup>y − 6x</sup>, for all non-zero real values of a and b, then the value of x + y is</p>",
+   "answer": "14",
+   "solutionHtml": "<p>875/2401 = (125 × 7)/7<sup>4</sup> = 5<sup>3</sup>/7<sup>3</sup> = (7/5)<sup>−3</sup> = (√(7/5))<sup>−6</sup>. So <strong>3x − y = −6</strong>.</p><p>The second equation must hold for every non-zero a, b. If 6x − y = k, then (4a/b)<sup>k</sup> = (2a/b)<sup>−k</sup>, i.e. (8a<sup>2</sup>/b<sup>2</sup>)<sup>k</sup> = 1 for all a, b, which forces <strong>k = 0</strong>, i.e. y = 6x.</p><p>Then 3x − 6x = −6 gives x = 2, y = 12, so x + y = <strong>14</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Averages",
+   "difficulty": "hard",
+   "stemHtml": "<p>In an examination, the average marks of students in sections A and B are 32 and 60, respectively. The number of students in section A is 10 less than that in section B. If the average marks of all the students across both the sections combined is an integer, then the difference between the maximum and minimum possible number of students in section A is</p>",
+   "answer": "63",
+   "solutionHtml": "<p>Let A have n students and B have n + 10. Combined average = (32n + 60(n + 10))/(2n + 10) = (46n + 300)/(n + 5) = <strong>46 + 70/(n + 5)</strong>.</p><p>For an integer, n + 5 must divide 70. With n ≥ 1, n + 5 ≥ 6, so n + 5 ∈ {7, 10, 14, 35, 70}, i.e. n ∈ {2, 5, 9, 30, 65}.</p><p>Difference = 65 − 2 = <strong>63</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>Suppose k is any integer such that the equation 2x<sup>2</sup> + kx + 5 = 0 has no real roots and the equation x<sup>2</sup> + (k − 5)x + 1 = 0 has two distinct real roots for x. Then, the number of possible values of k is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "8"
+    },
+    {
+     "id": "B",
+     "textHtml": "9"
+    },
+    {
+     "id": "C",
+     "textHtml": "7"
+    },
+    {
+     "id": "D",
+     "textHtml": "13"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>No real roots: k<sup>2</sup> − 40 &lt; 0, so |k| ≤ 6 for integers, i.e. k ∈ {−6, …, 6}.</p><p>Two distinct real roots: (k − 5)<sup>2</sup> − 4 &gt; 0, so |k − 5| &gt; 2, i.e. k &lt; 3 or k &gt; 7.</p><p>Both together: k ∈ {−6, −5, …, 2}, which is <strong>9</strong> values.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Triangles (with motion)",
+   "difficulty": "hard",
+   "stemHtml": "<p>Two ships are approaching a port along straight routes at constant speeds. Initially, the two ships and the port formed an equilateral triangle with sides of length 24 km. When the slower ship travelled 8 km, the triangle formed by the new positions of the two ships and the port became right-angled. When the faster ship reaches the port, the distance, in km, between the other ship and the port will be</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "12"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "8"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The angle at the port stays 60°, so the right angle is at one of the ships. The slower ship is 16 km from the port. The faster ship has gone further, so it is less than 16 km away.</p><p>For the right angle at the faster ship, its distance = 16 cos 60° = 8 km. (A right angle at the slower ship would need the other to be 32 km away, which is impossible.)</p><p>So in the same time the faster ship covered 16 km and the slower 8 km: <strong>speed ratio 2 : 1</strong>. When the faster ship has covered all 24 km, the slower has covered 12 km and is <strong>12</strong> km from the port.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Remainders / LCM",
+   "difficulty": "medium",
+   "stemHtml": "<p>A school has less than 5000 students and if the students are divided equally into teams of either 9 or 10 or 12 or 25 each, exactly 4 are always left out. However, if they are divided into teams of 11 each, no one is left out. The maximum number of teams of 12 each that can be formed out of the students in the school is</p>",
+   "answer": "150",
+   "solutionHtml": "<p>LCM(9, 10, 12, 25) = 900, so N = 900k + 4 with N &lt; 5000, i.e. k ≤ 5.</p><p>Need 11 | N. Since 900 ≡ 9 (mod 11): 9k + 4 ≡ 0 (mod 11), i.e. 9k ≡ 7. Multiplying by 5 (the inverse of 9) gives k ≡ 35 ≡ 2. So k = 2 and <strong>N = 1804</strong> (= 11 × 164).</p><p>Teams of 12: 1804 = 12 × 150 + 4, so the answer is <strong>150</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Relative speed",
+   "difficulty": "easy",
+   "stemHtml": "<p>Two cars travel from different locations at constant speeds. To meet each other after starting at the same time, they take 1.5 hours if they travel towards each other, but 10.5 hours if they travel in the same direction. If the speed of the slower car is 60 km/hr, then the distance traveled, in km, by the slower car when it meets the other car while traveling towards each other, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "90"
+    },
+    {
+     "id": "B",
+     "textHtml": "100"
+    },
+    {
+     "id": "C",
+     "textHtml": "150"
+    },
+    {
+     "id": "D",
+     "textHtml": "120"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>With gap D: D = 1.5(a + b) = 10.5(a − b), so a + b = 7(a − b), which gives a = 4b/3 = 80 km/h.</p><p>Moving towards each other they meet after 1.5 h, so the slower car covers 60 × 1.5 = <strong>90</strong> km.</p><p>(Its distance depends only on the meeting time, which is given directly.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Averages (maximisation)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Consider six distinct natural numbers such that the average of the two smallest numbers is 14, and the average of the two largest numbers is 28. Then, the maximum possible value of the average of these six numbers is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "22.5"
+    },
+    {
+     "id": "B",
+     "textHtml": "24"
+    },
+    {
+     "id": "C",
+     "textHtml": "23"
+    },
+    {
+     "id": "D",
+     "textHtml": "23.5"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The two smallest sum to 28 and the two largest sum to 56, so we only need to make the middle two as large as possible.</p><p>They must be less than the fifth number e, where e + f = 56 and e &lt; f, so e ≤ 27. With e = 27, f = 29, the middle two can be 26 and 25 (taking e.g. 13, 15 as the smallest).</p><p>Max sum = 28 + 51 + 56 = 135, so the average is 135/6 = <strong>22.5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Inequalities (AM–GM)",
+   "difficulty": "medium",
+   "stemHtml": "<p>If c = 16x/y + 49y/x for some non-zero real numbers x and y, then c cannot take the value</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−70"
+    },
+    {
+     "id": "B",
+     "textHtml": "60"
+    },
+    {
+     "id": "C",
+     "textHtml": "−50"
+    },
+    {
+     "id": "D",
+     "textHtml": "−60"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Let t = x/y (any non-zero real). Then c = 16t + 49/t.</p><p>For t &gt; 0, AM–GM gives c ≥ 2√(16 × 49) = 56. For t &lt; 0, c ≤ −56. So <strong>c can never lie strictly between −56 and 56</strong>.</p><p>Among the options only −50 is in that gap, so the answer is <strong>−50</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Progressions",
+   "difficulty": "easy",
+   "stemHtml": "<p>The average of all 3-digit terms in the arithmetic progression 38, 55, 72, ..., is</p>",
+   "answer": "548",
+   "solutionHtml": "<p>The terms are 38 + 17k. The first 3-digit term is at k = 4: 106. The last is at the largest k with 17k ≤ 961, i.e. k = 56: 990.</p><p>The average of an AP equals the average of its first and last terms: (106 + 990)/2 = <strong>548</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations (surd roots)",
+   "difficulty": "medium",
+   "stemHtml": "<p>If (3 + 2√2) is a root of the equation ax<sup>2</sup> + bx + c = 0, and (4 + 2√3) is a root of the equation ay<sup>2</sup> + my + n = 0, where a, b, c, m and n are integers, then the value of (b/m + (c − 2b)/n) is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1"
+    },
+    {
+     "id": "B",
+     "textHtml": "3"
+    },
+    {
+     "id": "C",
+     "textHtml": "0"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>With integer coefficients, irrational roots come in conjugate pairs.</p><p>Roots 3 ± 2√2: sum 6, product 1, so b = −6a and c = a.</p><p>Roots 4 ± 2√3: sum 8, product 16 − 12 = 4, so m = −8a and n = 4a.</p><p>b/m = 6/8 = 3/4 and (c − 2b)/n = (a + 12a)/(4a) = 13/4. Total = 16/4 = <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>Nitu has an initial capital of Rs. 20,000. Out of this, she invests Rs. 8,000 at 5.5% in bank A, Rs. 5,000 at 5.6% in bank B and the remaining amount at x% in bank C, each rate being simple interest per annum. Her combined annual interest income from these investments is equal to 5% of the initial capital. If she had invested her entire initial capital in bank C alone, then her annual interest income, in rupees, would have been</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "800"
+    },
+    {
+     "id": "B",
+     "textHtml": "700"
+    },
+    {
+     "id": "C",
+     "textHtml": "1000"
+    },
+    {
+     "id": "D",
+     "textHtml": "900"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Total interest = 5% of 20,000 = 1000. Bank A: 440, bank B: 280, so bank C gives 1000 − 720 = 280 on Rs.7000, i.e. x = 4%.</p><p>All 20,000 at 4% = <strong>Rs.800</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

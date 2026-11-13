@@ -1,0 +1,814 @@
+{
+  "sets": [
+    {
+      "key": "VARC-P1",
+      "kind": "passage",
+      "title": "Tribal imagination, memory and time",
+      "contentHtml": "<p>Once a society accepts a secular mode of creativity, within which the creator replaces God, imaginative transactions assume a self-conscious form. The tribal imagination, on the other hand, is still to a large extent dreamlike and hallucinatory. It admits fusion between various planes of existence and levels of time in a natural and artless manner. In tribal stories, oceans fly in the sky as birds, mountains swim in water as fish, animals speak as humans and stars grow like plants. Spatial order and temporal sequence do not restrict the narrative. This is not to say that tribal creations have no conventions or rules, but simply that they admit the principle of association between emotion and the narrative motif. Thus stars, seas, mountains, trees, men and animals can be angry, sad or happy.</p><p>It might be said that tribal artists work more on the basis of their racial and sensory memory than on the basis of a cultivated imagination. In order to understand this distinction, we must understand the difference between imagination and memory. In the animate world, consciousness meets two immediate material realities: space and time. We put meaning into space by perceiving it in terms of images. The image-making faculty is a genetic gift to the human mind—this power of imagination helps us understand the space that envelops us. With regard to time, we make connections with the help of memory; one remembers being the same person today as one was yesterday.</p><p>The tribal mind has a more acute sense of time than the sense of space. Somewhere along the history of human civilization, tribal communities seem to have realized that domination over territorial space was not their lot. Thus, they seem to have turned almost obsessively to gaining domination over time. This urge is substantiated in their ritual of conversing with their dead ancestors: year after year, tribals in many parts of India worship terracotta or carved-wood objects representing their ancestors, aspiring to enter a trance in which they can converse with the dead. Over the centuries, an amazingly sharp memory has helped tribals classify material and natural objects into a highly complex system of knowledge. . . .</p><p>One of the main characteristics of the tribal arts is their distinct manner of constructing space and imagery, which might be described as ‘hallucinatory’. In both oral and visual forms of representation, tribal artists seem to interpret verbal or pictorial space as demarcated by an extremely flexible ‘frame’. The boundaries between art and non-art become almost invisible. A tribal epic can begin its narration from a trivial everyday event; tribal paintings merge with living space as if the two were one and the same. And within the narrative itself, or within the painted imagery, there is no deliberate attempt to follow a sequence. The episodes retold and the images created take on the apparently chaotic shapes of dreams. In a way, the syntax of language and the grammar of painting are the same, as if literature were painted words and painting were a song of images.</p>"
+    },
+    {
+      "key": "VARC-P2",
+      "kind": "passage",
+      "title": "AI as a moral arbiter",
+      "contentHtml": "<p>Imagine a world in which artificial intelligence is entrusted with the highest moral responsibilities: sentencing criminals, allocating medical resources, and even mediating conflicts between nations. This might seem like the pinnacle of human progress: an entity unburdened by emotion, prejudice or inconsistency, making ethical decisions with impeccable precision. . . .</p><p>Yet beneath this vision of an idealised moral arbiter lies a fundamental question: can a machine understand morality as humans do, or is it confined to a simulacrum of ethical reasoning? AI might replicate human decisions without improving on them, carrying forward the same biases, blind spots and cultural distortions from human moral judgment. In trying to emulate us, it might only reproduce our limitations, not transcend them. But there is a deeper concern. Moral judgment draws on intuition, historical awareness and context – qualities that resist formalisation. Ethics may be so embedded in lived experience that any attempt to encode it into formal structures risks flattening its most essential features. If so, AI would not merely reflect human shortcomings; it would strip morality of the very depth that makes ethical reflection possible in the first place.</p><p>Still, many have tried to formalise ethics, by treating certain moral claims not as conclusions, but as starting points. A classic example comes from utilitarianism, which often takes as a foundational axiom the principle that one should act to maximise overall wellbeing. From this, more specific principles can be derived, for example, that it is right to benefit the greatest number, or that actions should be judged by their consequences for total happiness. As computational resources increase, AI becomes increasingly well-suited to the task of starting from fixed ethical assumptions and reasoning through their implications in complex situations. But what, exactly, does it mean to formalise something like ethics? The question is easier to grasp by looking at fields in which formal systems have long played a central role. Physics, for instance, has relied on formalisation for centuries. There is no single physical theory that explains everything. Instead, we have many physical theories, each designed to describe specific aspects of the Universe: from the behaviour of quarks and electrons to the motion of galaxies. These theories often diverge. Aristotelian physics, for instance, explained falling objects in terms of natural motion toward Earth’s centre; Newtonian mechanics replaced this with a universal force of gravity. These explanations are not just different; they are incompatible. Yet both share a common structure: they begin with basic postulates – assumptions about motion, force or mass – and derive increasingly complex consequences. . . .</p><p>Ethical theories have a similar structure. Like physical theories, they attempt to describe a domain – in this case, the moral landscape. They aim to answer questions about which actions are right or wrong, and why. These theories also diverge and, even when they recommend similar actions, such as giving to charity, they justify them in different ways. Ethical theories also often begin with a small set of foundational principles or claims, from which they reason about more complex moral problems.</p>"
+    },
+    {
+      "key": "VARC-P3",
+      "kind": "passage",
+      "title": "The age of dams",
+      "contentHtml": "<p>Over the course of the twentieth century, humans built, on average, one large dam a day, hulking structures of steel and concrete designed to control flooding, facilitate irrigation, and generate electricity. Dams were also lucrative contracts, large-scale employers, and the physical instantiation of a messianic drive to conquer territories and control nature. Some of the results of that drive were charismatic mega-infrastructure—the Hoover on the Colorado River or the Aswan on the Nile—but most of the tens of thousands of dams that dot the Earth’s landscape have drawn little attention. These are the smaller, though not inconsequential, barriers that today impede the flow of water on nearly two-thirds of the world’s large waterways. Chances are, what your map calls a “lake” is actually a reservoir, and that thin blue line that emerges from it once flowed very differently.</p><p>Damming a river is always a partisan act. Even when explicit infrastructure goals—irrigation, flood control, electrification—were met, other consequences were significant and often deleterious. Across the world, river control displaced millions of people, threatening livelihoods, foodways, and cultures. In the western United States, dams were often an instrument of colonialism, used to dispossess Indigenous people and subsidize settler agriculture. And as dams slowed the flow of water, inhibited the movement of nutrients, and increased the amount of toxic algae and other parasites, they snuffed out entire river ecologies. Declining fish populations are the most evident effect, but dams also threaten a host of other animals—from birds and reptiles to fungi and plants—with extinction. Every major dam, then, is also a sacrifice zone, a place where lives, livelihoods, and ways of life are eliminated so that new sorts of landscapes can support water-intensive agriculture and cities that sprout downstream of new reservoirs.</p><p>Such sacrifices have been justified as offerings at the temples of modernity. Justified by—and for—whom, though? Over the course of the twentieth century, rarely were the costs and benefits weighed thoughtfully and decided democratically. As Kader Asmal, chair of the landmark 2000 World Commission on Dams, concluded, “There have been precious few, if any, comprehensive, independent analyses as to why dams came about, how dams perform over time, and whether we are getting a fair return from our $2 trillion investment.” A quarter century later, Asmal’s words ring ever truer. A litany of dams built in the mid-twentieth century are approaching the end of their expected lives, with worrying prospects for their durability. Droughts, magnified and multiplied by the effects of climate change, have forced more and more to run below capacity. If ever there were a time to rethink the mania for dams, it would be now.</p><p>There is some evidence that a combination of opposition, alternative energy sources, and a lack of viable projects has slowed the construction of major dams.</p><p>But a wave of recent and ongoing construction, from India and China to Ethiopia and Canada, continues to tilt the global balance firmly in favor of water impoundment.</p>"
+    },
+    {
+      "key": "VARC-P4",
+      "kind": "passage",
+      "title": "Forest acts in India",
+      "contentHtml": "<p>In 1982, a raging controversy broke out over a forest act drafted by the Government of India. This act sought to strengthen the already extensive powers enjoyed by the forest bureaucracy in controlling the extraction, disposal and sale of forest produce. It also gave forest officials greater powers to strictly regulate the entry of any person into reserved forest areas. While forest officials justified the act on the grounds that it was necessary to stop the continuing deforestation, it was bitterly opposed by representatives of grassroots organisations, who argued that it was a major violation of the rights of peasants and tribals living in and around forest areas. . . .</p><p>The debate over the draft forest act fuelled a larger controversy over the orientation of state forest policy. It was pointed out, for example, that the draft act was closely modelled on its predecessor, the Forest Act of 1878. The earlier Act rested on a usurpation of rights of ownership by the colonial state which had little precedent in precolonial history. It was further argued that the system of forestry introduced by the British—and continued, with little modification, after 1947—emphasised revenue generation and commercial exploitation, while its policing orientation excluded villagers who had the most longstanding claim on forest resources. Critics called for a complete overhaul of forest administration, pressing the government to formulate policy and legislation more appropriate to present needs. . . .</p><p>That debate is not over yet. The draft act was shelved, though it has not as yet been formally withdrawn. Meanwhile, the 1878 Act (as modified by an amendment in 1927) continues to be in operation. In response to its critics, the government has made some important changes in forest policy, e.g., no longer treating forests as a source of revenue, and stopping ecologically hazardous practices such as the clearfelling of natural forests. At the same time, it has shown little inclination to meet the major demand of the critics of forest policy—namely, abandoning the principle of state monopoly over forest land by handing over areas of degraded forests to individuals and communities for afforestation.</p><p>. . . [The] 1878 Forest Act itself was passed only after a bitter and prolonged debate within the colonial bureaucracy, in which protagonists put forward arguments strikingly similar to those being advanced today. As is well known, the Indian Forest Department owes its origin to the requirements of railway companies. The early years of the expansion of the railway network, c. 1853 onwards, led to tremendous deforestation in peninsular India owing to the railway’s requirements of fuelwood and construction timber. Huge quantities of durable timbers were also needed for use as sleepers across the newly laid tracks. Inexperienced in forestry, the British called in German experts to commence systematic forest management. The Indian Forest Department was started in 1864, with Dietrich Brandis, formerly a Lecturer at Bonn, as the first Inspector General of Forests. The new department needed legislative backing to function effectively, and in the following year, 1865, the first forest act was passed. . . .</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "VARC-01",
+      "section": "VARC",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>In investigating memory-beliefs, there are certain points which must be borne in mind. In the first place, everything constituting a memory-belief is happening now, not in that past time to which the belief is said to refer. It is not logically necessary to the existence of a memory-belief that the event remembered should have occurred, or even that the past should have existed at all. There is no logical impossibility in the hypothesis that the world sprang into being five minutes ago, exactly as it then was, with a population that “remembered” a wholly unreal past. There is no logically necessary connection between events at different times; therefore nothing that is happening now or will happen in the future can disprove the hypothesis that the world began five minutes ago. Hence the occurrences which are CALLED knowledge of the past are logically independent of the past; they are wholly analysable into present contents, which might, theoretically, be just what they are even if no past had existed.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "That which we call ‘knowledge of the past’ is logically independent of the past, since the act of remembering which forms memory-beliefs happens in the present, and does not need to be based in real past occurrences, or even need a past at all."
+        },
+        {
+          "id": "B",
+          "textHtml": "When we discuss the concept of memory-beliefs, we must understand that it is not logically impossible for the event remembered to have never happened at all; it could just be a figment of our imagination."
+        },
+        {
+          "id": "C",
+          "textHtml": "When investigating memory beliefs, we must keep in mind that an actual past event is not a prerequisite for a memory-belief to exist, and that what we know of the past could theoretically not need a past at all."
+        },
+        {
+          "id": "D",
+          "textHtml": "Memory-beliefs depend wholly on what is remembered in the present, and not on anything else; just as it is not logically impossible that the world came into being five minutes ago, and that everyone now just remembers a wholly imaginary past for it."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Core of the passage:</strong> a memory-belief is a present event, so it does not logically need the remembered event (or any past) to exist. The conclusion, flagged by “Hence”, is that so-called knowledge of the past is <strong>logically independent of the past</strong> and analysable into present contents.</p><p><strong>Option A</strong> states exactly this conclusion and gives its reason (remembering happens in the present and needs no real past). Correct.</p><p>B adds “a figment of our imagination”, which the author never says, and misses the conclusion about knowledge of the past.</p><p>C is close but drops the central reason – that everything in a memory-belief happens <em>now</em> – and so does not explain why the past is unnecessary.</p><p>D wrongly says memory-beliefs depend on “what is remembered in the present” and turns the five-minute hypothesis (an illustration) into a main claim.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-02",
+      "section": "VARC",
+      "number": 2,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd sentence out",
+      "difficulty": "medium",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.</p><p>1. The profound emotional impact of music has inspired ongoing research into its relationship with emotions.</p><p>2. Music is a universal phenomenon that utilizes a myriad brain resources.</p><p>3. This inherent connection to musical expression is deeply intertwined with human identity and experience.</p><p>4. The proclivity to create and appreciate music is ubiquitous among humans, permeating daily life across diverse societies.</p><p>5. Engaging with music is among the most cognitively demanding tasks a human can undergo, and it is identified across cultures.</p>",
+      "answer": "1",
+      "solutionHtml": "<p><strong>Common thread:</strong> sentences 2, 5, 4 and 3 are about music being universal and innate to humans.</p><p>2 opens (music is universal and uses many brain resources) → 5 expands both halves (cognitively demanding; found across cultures) → 4 restates the universality as a human proclivity across societies → 3 refers back with “This inherent connection” and links it to human identity. Order: 2-5-4-3.</p><p>Sentence <strong>1</strong> shifts to a different topic – research on music and <em>emotions</em> – which nothing else picks up. So the odd one out is <strong>1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-03",
+      "section": "VARC",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Weaken / except",
+      "difficulty": "medium",
+      "stemHtml": "<p>All of the following, if true, would weaken the passage’s claims about the hallucinatory tribal imagination EXCEPT that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "tribal stories depict the natural world in accordance with rational scientific knowledge."
+        },
+        {
+          "id": "B",
+          "textHtml": "tribal narratives exhibit a chronological beginning, middle, and end."
+        },
+        {
+          "id": "C",
+          "textHtml": "shamanic rituals involving conversing with the dead often feature in tribal stories."
+        },
+        {
+          "id": "D",
+          "textHtml": "tribal art excludes the depiction of the mundane reality of everyday life and objects."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The passage claims tribal imagination fuses planes of existence, ignores spatial order and temporal sequence, and merges art with everyday life.</p><p>A: a rationally scientific depiction of nature contradicts oceans flying and stars growing – weakens.</p><p>B: a chronological beginning, middle and end contradicts “no deliberate attempt to follow a sequence” – weakens.</p><p>D: excluding mundane everyday life contradicts “a tribal epic can begin its narration from a trivial everyday event” and paintings merging with living space – weakens.</p><p><strong>C</strong>: rituals of conversing with the dead appearing in stories fits the passage (tribals seek trances to converse with ancestors, and their stories fuse planes of existence and time). It does not weaken the claim, so it is the exception.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-04",
+      "section": "VARC",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>On the basis of the passage, which one of the following explains the main difference between imagination and memory?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Imagination needs to be cultivated whereas memory is more intuitive because it is racial and sensory."
+        },
+        {
+          "id": "B",
+          "textHtml": "Imagination helps humans make sense of space while memory helps them understand time."
+        },
+        {
+          "id": "C",
+          "textHtml": "Tribal groups value memory over imagination when it comes to creating art and literature."
+        },
+        {
+          "id": "D",
+          "textHtml": "Imagination is a genetic gift to humans whereas memory is central to human consciousness."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Paragraph 2: consciousness meets space and time; <strong>imagination</strong> (image-making) helps us understand <strong>space</strong>, and <strong>memory</strong> helps us make connections in <strong>time</strong>. That is option B.</p><p>A contrasts “cultivated” vs “racial and sensory” – that describes tribal artists, not the basic difference between the two faculties.</p><p>C is about what tribal groups value, not a difference between imagination and memory.</p><p>D: the passage calls imagination a genetic gift but never says memory is “central to consciousness” as the distinguishing point.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-05",
+      "section": "VARC",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "easy",
+      "stemHtml": "<p>Non-human living forms exhibit human emotions in tribal narratives because tribal narratives:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "are rudimentary and underdeveloped."
+        },
+        {
+          "id": "B",
+          "textHtml": "have a self-conscious form."
+        },
+        {
+          "id": "C",
+          "textHtml": "accommodate existential fluidity."
+        },
+        {
+          "id": "D",
+          "textHtml": "abandon all rules and regulations."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The passage says the tribal imagination “admits fusion between various planes of existence” and associates emotion with narrative motifs, so stars, seas and animals can be angry or happy. Moving freely between planes of existence = <strong>existential fluidity</strong> (C).</p><p>A: the passage never calls them rudimentary; it says they have their own conventions.</p><p>B: a “self-conscious form” is what secular creativity has, in contrast to the tribal imagination.</p><p>D: the passage explicitly says this does not mean tribal creations have no conventions or rules.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-06",
+      "section": "VARC",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "VARC-P1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which one of the following best explains why tribals in India worship their dead ancestors?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Tribals show respect to their ancestors through terracotta and carved-wood objects."
+        },
+        {
+          "id": "B",
+          "textHtml": "For tribals, conversing with the dead becomes a way of seeking control over time."
+        },
+        {
+          "id": "C",
+          "textHtml": "Tribals possess a sophisticated knowledge system that is based on memory."
+        },
+        {
+          "id": "D",
+          "textHtml": "Tribals seek territorial domination over the spaces that they inhabit."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Paragraph 3: having realised that domination over space was not their lot, tribals turned to <strong>gaining domination over time</strong>; this urge is “substantiated in their ritual of conversing with their dead ancestors”. So B explains the <em>why</em>.</p><p>A describes <em>how</em> they worship (terracotta, carved wood), not why.</p><p>C is a separate point about their memory-based knowledge system.</p><p>D is the opposite of the passage – they gave up on territorial domination.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-07",
+      "section": "VARC",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which one of the options below best summarises the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The passage rejects formal methods in principle. It holds that moral judgement cannot be expressed in disciplined terms and concludes that AI should not serve in courts, medicine, or diplomacy under any conditions."
+        },
+        {
+          "id": "B",
+          "textHtml": "The passage highlights administrative gains from automation. It treats reproducing human moral judgement as progress and argues that, as computational resources increase, AI can be responsible for decision-making across varied institutional settings."
+        },
+        {
+          "id": "C",
+          "textHtml": "The passage weighs the appeal of an impersonal AI judge against doubts about moral grasp. It warns that codification can erode case-sensitive judgement, allow axiom-led reasoning at scale, and use a physics analogy to model structured plurality."
+        },
+        {
+          "id": "D",
+          "textHtml": "The passage weighs the appeal of an impersonal AI judge against doubts about moral grasp. It claims codified schemes retain case nuance at scale and uses a physics analogy to predict convergence on a unified framework."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The passage (i) presents the appeal of an impartial AI judge, (ii) doubts whether AI can grasp morality and warns that encoding ethics may flatten intuition and context, (iii) notes AI is suited to reasoning from fixed axioms at scale, and (iv) uses physics – many incompatible theories sharing an axiom-based structure – as an analogy for ethics.</p><p><strong>C</strong> covers all four: appeal vs doubt, erosion of case-sensitive judgement, axiom-led reasoning at scale, and the physics analogy for <em>structured plurality</em>.</p><p>A: the passage does not reject formal methods outright or say AI must never serve “under any conditions”.</p><p>B: the passage treats mere reproduction of human judgement as a <em>limitation</em>, not progress.</p><p>D: the passage says codification risks <em>losing</em> nuance, and the physics analogy stresses divergence, not convergence on one framework.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-08",
+      "section": "VARC",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference / except",
+      "difficulty": "medium",
+      "stemHtml": "<p>All of the following can reasonably be inferred from the passage EXCEPT:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the appeal of an AI judge rests on immunity to bribery, partiality, and fatigue; yet the text questions whether procedural cleanliness amounts to moral understanding without lived context and interpretive depth."
+        },
+        {
+          "id": "B",
+          "textHtml": "with fixed moral starting points and expanding computational resources, the argument forecasts convergence on one ethical system and treats contextual judgement as unnecessary once formal reasoning scales across domains and cultures."
+        },
+        {
+          "id": "C",
+          "textHtml": "encoding ethics into fixed structures risks stripping away intuition, history, and context and, if that occurs, the depth that enables reflective judgement disappears. So, machines would mirror our limits rather than exceed them."
+        },
+        {
+          "id": "D",
+          "textHtml": "by analogy with physics, compact postulates can yield broad predictions across incompatible theories and ethics can likewise share structure while continuing to diverge rather than close on a single comprehensive framework."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>A: the AI judge is attractive for being free of emotion, prejudice and inconsistency, while the passage asks whether such a machine can really understand morality – inferable.</p><p><strong>B</strong>: the passage never forecasts convergence on one ethical system; it stresses that ethical (like physical) theories <em>diverge</em>, and it warns that context and intuition resist formalisation. B cannot be inferred – it is the answer.</p><p>C: directly follows from paragraph 2 (encoding ethics risks flattening intuition, history and context; AI would reproduce our limits).</p><p>D: matches the physics analogy – incompatible theories share a postulate-based structure, and ethics diverges similarly.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-09",
+      "section": "VARC",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Assumption",
+      "difficulty": "hard",
+      "stemHtml": "<p>The passage compares ethics to physics, where different theories apply to different aspects of a domain and says AI can reason from fixed starting points in complex cases. Which one of the assumptions below must hold for that comparison to guide practice?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "A single master framework replaces all others after translation into one code, so domain boundaries disappear in application."
+        },
+        {
+          "id": "B",
+          "textHtml": "Real cases never straddle different areas, so a case always fits exactly one framework without any overlap whatsoever."
+        },
+        {
+          "id": "C",
+          "textHtml": "Once formalised, all ethical frameworks yield the same recommendation in every case, so selection among them is unnecessary."
+        },
+        {
+          "id": "D",
+          "textHtml": "There is a principled way to decide which ethical framework applies to which class of cases, so the system can select the relevant starting points before deriving a recommendation."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>In physics, different theories cover different aspects of the Universe. For the analogy to help an AI decide real cases, there must be a way to know <strong>which ethical framework (which starting axioms) applies to which kind of case</strong> – otherwise the AI has no basis to choose its starting points. That is D.</p><p>A contradicts the analogy, which is about many coexisting frameworks, not one master code.</p><p>B is too extreme (“never”, “without any overlap whatsoever”) – the comparison does not require that cases never overlap.</p><p>C contradicts the passage, which says ethical theories diverge and justify actions differently.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-10",
+      "section": "VARC",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "VARC-P2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Vocabulary in context",
+      "difficulty": "hard",
+      "stemHtml": "<p>Choose the one option below that comes closest to being the opposite of “utilitarianism”.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The authors advocated an absolutist stance, following exceptionless rules regardless of outcomes and evaluating choices by broadest societal benefit."
+        },
+        {
+          "id": "B",
+          "textHtml": "The committee adopted a non-egoist framework, ranking policies by their contribution to overall social welfare and treating self-interest as a derivative concern within institutional evaluation."
+        },
+        {
+          "id": "C",
+          "textHtml": "The policy was cast as deontological ethics, selecting the option that delivered the highest total benefit to citizens while presenting duty as a secondary consideration in public decision-making."
+        },
+        {
+          "id": "D",
+          "textHtml": "The council followed a prioritarian approach, assigning greater moral weight to improvements for the worst-off rather than to maximising total welfare across the affected population."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>In the passage, utilitarianism means acting to <strong>maximise overall (total) wellbeing</strong>, judging actions by their consequences for total happiness.</p><p><strong>D</strong> (prioritarianism) explicitly rejects maximising total welfare and weights gains to the worst-off more – a consistent departure from utilitarian aggregation, so it is closest to the opposite.</p><p>A begins with exceptionless rules “regardless of outcomes” but then evaluates choices “by broadest societal benefit”, which is utilitarian – the description contradicts itself.</p><p>B ranks policies by contribution to overall social welfare – that is utilitarian.</p><p>C is labelled deontological but actually chooses the option with the highest total benefit and sidelines duty – again utilitarian in substance.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-11",
+      "section": "VARC",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's purpose",
+      "difficulty": "medium",
+      "stemHtml": "<p>What does the author wish to communicate by referring to the Hoover and Aswan dams in the first paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The designers and builders of these mega-structures were highly charismatic individuals."
+        },
+        {
+          "id": "B",
+          "textHtml": "The Colorado and Nile rivers may be seen as thin blue lines on a map."
+        },
+        {
+          "id": "C",
+          "textHtml": "By building dams like the Hoover and Aswan dams, large-scale employers became messianic figures."
+        },
+        {
+          "id": "D",
+          "textHtml": "The drive to control nature is evident not only in mega-infrastructures like the Hoover and Aswan dams, but in smaller dams as well."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The author says <em>some</em> results of the drive to control nature were charismatic mega-projects like the Hoover and Aswan, <strong>but most</strong> dams are smaller, little-noticed barriers that still block two-thirds of large waterways. The famous dams set up the contrast: the same drive is visible in smaller dams too (D).</p><p>A: “charismatic” describes the infrastructure, not its designers.</p><p>B: the “thin blue line” refers to rivers flowing out of reservoirs in general, not specifically to these rivers.</p><p>C: the passage never says employers became messianic figures; “messianic” describes the drive to conquer nature.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-12",
+      "section": "VARC",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Vocabulary in context",
+      "difficulty": "easy",
+      "stemHtml": "<p>The word “instantiation” is used in the first paragraph. Which one of the following pairs of terms would be the best substitute for it in the context of its usage in the paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Exemplification and manifestation"
+        },
+        {
+          "id": "B",
+          "textHtml": "Durability and timeliness"
+        },
+        {
+          "id": "C",
+          "textHtml": "Development and construction"
+        },
+        {
+          "id": "D",
+          "textHtml": "Concreteness and viability"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Dams were “the physical instantiation of a messianic drive” – i.e. the concrete <strong>example and embodiment</strong> of that drive. “Exemplification and manifestation” (A) fits exactly.</p><p>B (durability, timeliness) and D (concreteness, viability) do not mean “an instance of”.</p><p>C (development, construction) describes building dams, but the word refers to dams <em>being an expression of</em> a drive, not the act of building.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-13",
+      "section": "VARC",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference / except",
+      "difficulty": "medium",
+      "stemHtml": "<p>All of the following statements may be considered valid inferences from the passage EXCEPT that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "smaller, though not inconsequential, dams are safer than large dam projects."
+        },
+        {
+          "id": "B",
+          "textHtml": "dam-building has proved to be an extremely costly enterprise that may not be justifiable."
+        },
+        {
+          "id": "C",
+          "textHtml": "processes of colonisation have used dam-building to make people vacate their territories."
+        },
+        {
+          "id": "D",
+          "textHtml": "despite increasing evidence of opposition to dams as well as alternatives to them, they continue to be built."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong>: the passage calls smaller dams “not inconsequential” and never compares their safety with large dams. This cannot be inferred – the answer.</p><p>B: the $2 trillion investment, the doubt about a “fair return” and the call to rethink the mania for dams support it.</p><p>C: dams in the western US were used “to dispossess Indigenous people” – supported.</p><p>D: opposition and alternatives have slowed construction, but a wave of new dams continues – supported.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-14",
+      "section": "VARC",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "VARC-P3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Structure of the passage",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which one of the following sets of terms is closest to mapping the key arguments of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Lucrative contracts – Sacrifice zone – Expected lives – Global balance"
+        },
+        {
+          "id": "B",
+          "textHtml": "Physical instantiation – Partisan act – Decided democratically – Alternative energy"
+        },
+        {
+          "id": "C",
+          "textHtml": "Mega-infrastructure – Sacrifice zone – Worshipping modernity – Water impoundment"
+        },
+        {
+          "id": "D",
+          "textHtml": "Partisan act – Threatened livelihoods – Toxic algae – Quarter century"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Paragraph by paragraph: (1) dams as the drive to control nature, from <strong>mega-infrastructure</strong> to small dams; (2) every dam is a <strong>sacrifice zone</strong>; (3) the sacrifices were offerings at the temples of modernity – i.e. <strong>worshipping modernity</strong> without real cost-benefit analysis; (4) construction continues, tilting the balance towards <strong>water impoundment</strong>. Option C follows this sequence.</p><p>A: “lucrative contracts” and “expected lives” are side details, not key arguments.</p><p>B: “physical instantiation” and “alternative energy” are passing details; the ending stresses continued impoundment, not alternative energy.</p><p>D: “toxic algae” and “quarter century” are minor details.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-15",
+      "section": "VARC",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para jumbles",
+      "difficulty": "hard",
+      "stemHtml": "<p>The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.</p><p>1. The effigy of a candidate establishes a personal link between him and the voters; the candidate does not only offer a programme for judgement, he suggests a physical climate, a set of daily choices expressed in a morphology, a way of dressing, a posture.</p><p>2. Some candidates for Parliament adorn their electoral prospectus with a portrait; this presupposes that photography has a power to convert which must be analysed.</p><p>3. Inasmuch as photography is an ellipse of language and a condensation of an ‘ineffable’ social whole, it constitutes an antiintellectual weapon and tends to spirit away ‘politics’ (that is to say a body of problems and solutions) to the advantage of a ‘manner of being’, a socio-moral status.</p><p>4. Photography tends to restore the paternalistic nature of elections, whose elitist essence has been disrupted by proportional representation and the rule of parties (the Right seems to use it more than the Left).</p>",
+      "answer": "2143",
+      "solutionHtml": "<p><strong>Opener:</strong> 2 introduces the topic (candidates use portraits) and announces that photography’s power to convert “must be analysed”.</p><p><strong>1</strong> begins the analysis: the candidate’s effigy creates a <em>personal link</em> with voters.</p><p><strong>4</strong> draws the consequence of that personal link: photography restores the <em>paternalistic</em> (person-centred, elitist) nature of elections that party rule had disrupted.</p><p><strong>3</strong> generalises into the conclusion: photography is an anti-intellectual weapon that replaces politics with a “manner of being”.</p><p>Sequence: <strong>2143</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-16",
+      "section": "VARC",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para summary",
+      "difficulty": "medium",
+      "stemHtml": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage.</p><p>The return to the tailor is the juxtaposition of three key things for the mindful Indian shopper. The first is the conscious shift away from the homogeneity of fast fashion, the idea of a hundred other people owning exactly the same Zara trench coat or H&amp;M pleated skirt. The second is an actual understanding of the waste behind the fast fashion market, and wanting not to contribute to that anymore. The last is the shift toward customisation and fit—the idea of having imaginations brought to life and to have them fit exactly; without paying exorbitant rates for that bespoke tailoring. For the individual with a keen fashion sense and a genuine desire to move away from the waste and uniformity of fast fashion without paying the premium for it that indie brands would invariably demand, the tailor is the perfect crossover.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The mindful Indian shopper is shifting away from convenience and uniformity of clothing, and waste in fashion, to customisation and less exorbitantly priced clothing."
+        },
+        {
+          "id": "B",
+          "textHtml": "The mindful Indian shoppers are returning to the tailor with a genuine desire to wear clothes which are less expensive, fit them well and are yet fashionable."
+        },
+        {
+          "id": "C",
+          "textHtml": "All Indian shoppers are opting for customisation and a shift away from homogeneity over expensive clothing brands like Zara and H&amp;M."
+        },
+        {
+          "id": "D",
+          "textHtml": "In the Indian retail market, people believe that expensive branded clothes are wasteful and, therefore, are returning to the neighbourhood tailor."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The passage gives three reasons the mindful Indian shopper returns to the tailor: (1) moving away from the <strong>uniformity</strong> of fast fashion, (2) avoiding its <strong>waste</strong>, (3) wanting <strong>customisation and fit</strong> without paying a premium.</p><p><strong>A</strong> captures all three plus the cost point. Correct.</p><p>B covers fit, cost and fashion but leaves out the two drivers about uniformity and waste.</p><p>C overgeneralises (“All Indian shoppers”) and wrongly calls Zara and H&amp;M expensive brands.</p><p>D says branded clothes are seen as wasteful because they are <em>expensive</em>; the passage criticises fast fashion for waste and homogeneity, and says indie brands are the expensive option.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-17",
+      "section": "VARC",
+      "number": 17,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Para jumbles",
+      "difficulty": "hard",
+      "stemHtml": "<p>The four sentences (labelled 1, 2, 3, and 4) given below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer.</p><p>1. When I ask the distinguished LGBTQ activist and writer Cherie Moraga whether she uses Latinx to refer to herself, she tells me, ‘I worked too hard for the “a” in Latina to give it up! I refer to myself as Xicana.’</p><p>2. Of our accumulated ethnic population, only a third use Hispanic to identify themselves, a mere 14 percent use Latino, and less than 2 percent recognize Latinx.</p><p>3. They have done this, although gender in languages is grammatical, not sociological or sexual, and found in linguistic families throughout the world, from French to Russian to Japanese.</p><p>4. More recently, activists seeking to render our name gender neutral, out of respect for our LGBTQ members, have devised yet another name for us: Latinx.</p>",
+      "answer": "4312",
+      "solutionHtml": "<p><strong>4</strong> introduces the new name Latinx, coined by activists for gender neutrality.</p><p><strong>3</strong> must follow 4 directly: “They have done this” refers to the activists devising the name, and adds the author’s objection that grammatical gender is not sexual.</p><p><strong>1</strong> builds on the objection with a telling example: even a prominent LGBTQ activist – the group Latinx was meant to respect – rejects the term for herself.</p><p><strong>2</strong> closes with the numbers: few people use any of these labels, and under 2 percent recognise Latinx, confirming how little the new name has caught on.</p><p>Sequence: <strong>4312</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-18",
+      "section": "VARC",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Verbal Ability",
+      "subtopic": "Odd sentence out",
+      "difficulty": "hard",
+      "stemHtml": "<p>Five jumbled sentences (labelled 1, 2, 3, 4, and 5), related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd sentence out and key in the number of that sentence as your answer.</p><p>1. About half of all the oxygen we breathe is made near the surface of the ocean by phytoplankton that photosynthesize just like land-dwelling plants.</p><p>2. A team of scientists that includes Boston University experts has discovered they also produce oxygen on the seafloor.</p><p>3. The research team used deep-sea chambers that land on the seafloor and enclose the seawater, sediment, polymetallic nodules, and living organisms.</p><p>4. The discovery is a surprise considering oxygen is typically created by plants and organisms with help from the sun—not by rocks on the ocean floor.</p><p>5. The deep-sea rocks, called polymetallic nodules, don’t only host a surprising number of sea critters.</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Paragraph 1-5-2-4:</strong> 1 sets the context (most oxygen is made near the ocean surface by phytoplankton) → 5 turns to the seafloor rocks that “don’t only” host critters → 2 completes that thought (“they <em>also</em> produce oxygen on the seafloor”) → 4 explains why the discovery is surprising, contrasting rocks on the floor with sun-driven production at the surface described in 1.</p><p>Sentence <strong>3</strong> is a methodological detail about the chambers the team used. It does not fit the paragraph’s point (what was discovered and why it is surprising), so it is the odd one out.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-19",
+      "section": "VARC",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence placement",
+      "difficulty": "hard",
+      "stemHtml": "<p>The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2, 3, or 4 indicated in the paragraph.</p><p><strong>Sentence:</strong> Productivity gains, once expected to feed through to broader living standards, now primarily serve to enhance returns to wealth.</p><p><strong>Paragraph:</strong> Economists now argue that inequality is no longer a by-product of growth but a condition of it. ____ (1) ____. Unlike wages, wealth reflects not just income but also access to assets, favourable institutional conditions – such as low interest rates – and public policies like low taxes and housing shortages. ____ (2) ____. In other words, wealth depends on political choices in ways that income currently does not. It’s not just the inequality itself that is the issue but the erosion of mechanisms that once constrained it. ____ (3) ____. Wealth and income inequality are linked, but where wages have stagnated and collective bargaining has weakened, capital income – derived from profits, rents and interest – has been boosted by design. ____ (4) ____.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 4"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 2"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 1"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 3"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The first sentence says inequality is now a <em>condition</em> of growth. The missing sentence explains how: the gains from growth (productivity) now go to <strong>returns to wealth</strong> rather than to living standards.</p><p>It also introduces “wealth” in contrast to broad living standards (wages), which is exactly what the next sentence picks up: “<strong>Unlike wages, wealth</strong> reflects…”. Without the missing sentence, that contrast appears from nowhere.</p><p>Blank (2) would break the chain between the list of wealth’s drivers and “In other words, wealth depends on political choices”; (3) sits between two sentences about constraints on inequality and wage/capital income; (4) would only restate the capital-income point after the paragraph has made it.</p><p>Answer: blank <strong>(1)</strong>, which is listed as the third choice (“Option 1”).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-20",
+      "section": "VARC",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Sentence placement",
+      "difficulty": "medium",
+      "stemHtml": "<p>The given sentence is missing in the paragraph below. Decide where it best fits among the options 1, 2, 3, or 4 indicated in the paragraph.</p><p><strong>Sentence:</strong> In each of the affected males, the genetic defect was located to the X chromosome in the region of p11-12.</p><p><strong>Paragraph:</strong> The first suggested evidence of a human genetic mutation associated with aggressive behaviour came from a study in 1993. _____(1)____. Genetic and metabolic studies were conducted on a large Dutch family in which several of the males has a syndrome of borderline mental retardation and abnormal behaviour. _____(2)____. The undesirable behaviour included impulsive aggression, arson and exhibitionism. _____(3)____. A point mutation was identified in the eighth exon of the monoamine oxidase A (MAOA) structural gene which changes glutamine to a termination codon. _____(4)____.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Option 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "Option 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "Option 1"
+        },
+        {
+          "id": "D",
+          "textHtml": "Option 2"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The sentence refers to “the affected males”, so it must come after the males and their syndrome are described (after the Dutch family and the behaviour sentences). That rules out (1) and (2).</p><p>It narrows the defect down to a <strong>region</strong> of the X chromosome; the next logical step is pinpointing the exact <strong>point mutation</strong> in the MAOA gene. General location → precise mutation, so it fits at <strong>(3)</strong>.</p><p>At (4) it would go backwards, giving a vaguer location after the exact mutation has already been named.</p><p>Blank (3) is the first choice (“Option 3”).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-21",
+      "section": "VARC",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which one of the following best encapsulates the reason for the “raging controversy” developing into a “larger controversy”?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The 1982 draft forest act further enabled the commercial exploitation of forest resources by the forest bureaucracy."
+        },
+        {
+          "id": "B",
+          "textHtml": "The 1982 draft forest act violated the rights of tribals and peasants who lived in and around forest areas."
+        },
+        {
+          "id": "C",
+          "textHtml": "The 1982 draft forest act was unjustifiably defended by forest officials in the face of bitter opposition by grassroots organisations."
+        },
+        {
+          "id": "D",
+          "textHtml": "The 1982 draft forest act replicated colonial measures of control and regulation of forest resources."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Paragraph 2: the debate grew into a larger controversy over state forest policy because critics pointed out that the draft act was <strong>closely modelled on the colonial Forest Act of 1878</strong>, and that the British system had continued with little change after 1947. That is D.</p><p>B (violation of tribal and peasant rights) is the cause of the <em>original</em> raging controversy, not of its widening.</p><p>A and C are not given as the reasons the debate broadened; A also misattributes commercial exploitation to the 1982 draft specifically.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-22",
+      "section": "VARC",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Weaken / except",
+      "difficulty": "hard",
+      "stemHtml": "<p>All of the following, if true, would weaken the narrative presented in the passage EXCEPT that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "before British rule, peasants and tribal groups were denied access to forest resources by Indian rulers and their administrations."
+        },
+        {
+          "id": "B",
+          "textHtml": "the timber requirement for railway works in nineteenth century India was met through import from China, in exchange for spices."
+        },
+        {
+          "id": "C",
+          "textHtml": "certain tribal groups in India are responsible for climate change because their sustenance has historically depended on mass scale deforestation."
+        },
+        {
+          "id": "D",
+          "textHtml": "nineteenth century German forestry experts were infamous for violating the rights of indigenous communities that lived in forest regions."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The narrative: the colonial state took over forest ownership with <em>little precolonial precedent</em>; railway demand caused massive deforestation and led to the Forest Department; villagers have the most longstanding legitimate claim on forests.</p><p>A: if precolonial rulers already denied access, the colonial takeover had precedent – weakens.</p><p>B: if railway timber was imported, the link between railways and Indian deforestation (and the Department’s origin) is undermined – weakens.</p><p>C: if tribals caused mass deforestation, the critics’ case for handing forests to communities and their claim on forests is undermined – weakens.</p><p><strong>D</strong>: German experts being infamous for violating indigenous rights is consistent with (if anything, supports) the passage’s picture of an exclusionary forestry system. It does not weaken it.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-23",
+      "section": "VARC",
+      "number": 23,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail / except",
+      "difficulty": "medium",
+      "stemHtml": "<p>According to the passage, which one of the following is not common to the 1878 Forest Act and the 1982 draft forest act?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Both resulted in large scale deforestation."
+        },
+        {
+          "id": "B",
+          "textHtml": "Both sought to establish the state’s monopoly over forest resources."
+        },
+        {
+          "id": "C",
+          "textHtml": "Both reflect a colonial mindset."
+        },
+        {
+          "id": "D",
+          "textHtml": "Both sparked controversy and debate among the various stakeholders."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong>: the 1982 draft was shelved and never came into force, and the passage blames deforestation on railway demand, not on either act. So “both resulted in large scale deforestation” is not common – the answer.</p><p>B: both strengthened state control over forests (state monopoly) – common.</p><p>C: the draft was modelled on the colonial 1878 Act – both reflect a colonial mindset.</p><p>D: the 1878 Act followed “a bitter and prolonged debate”; the 1982 draft caused a “raging controversy” – common.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "VARC-24",
+      "section": "VARC",
+      "number": 24,
+      "type": "MCQ",
+      "setKey": "VARC-P4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, which one of the following reforms is yet to happen in India’s forest policies?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Involving local people in cultivating forests."
+        },
+        {
+          "id": "B",
+          "textHtml": "A ban on deforestation."
+        },
+        {
+          "id": "C",
+          "textHtml": "Recognising the state’s claim to forest land use."
+        },
+        {
+          "id": "D",
+          "textHtml": "Recognising the significance of forests to ecology."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The government has shown little inclination to meet the critics’ main demand: handing degraded forests to <strong>individuals and communities for afforestation</strong>. That is involving local people in cultivating forests (A).</p><p>B: no blanket ban on deforestation is discussed; clearfelling of natural forests has already been stopped.</p><p>C: the state’s claim is already recognised – that is the status quo critics oppose.</p><p>D: the government has already made ecologically motivated changes, such as stopping clearfelling.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 3",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

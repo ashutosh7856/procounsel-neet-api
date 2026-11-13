@@ -1,0 +1,51 @@
+{
+  "id": "nmat",
+  "name": "NMAT by GMAC",
+  "conductingBody": "Graduate Management Admission Council (GMAC)",
+  "officialUrl": "https://www.mba.com/exams/nmat",
+  "adaptive": true,
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "LS",
+          "name": "Language Skills",
+          "questionCount": 36,
+          "durationMinutes": 28
+        },
+        {
+          "id": "QS",
+          "name": "Quantitative Skills",
+          "questionCount": 36,
+          "durationMinutes": 52
+        },
+        {
+          "id": "LRS",
+          "name": "Logical Reasoning",
+          "questionCount": 36,
+          "durationMinutes": 40
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": 0,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 120,
+      "sectionOrderLocked": false,
+      "scoring": "practice",
+      "scoringNote": "The real NMAT is computer-adaptive and reports scaled scores (12-120 per section, 36-360 in total). This practice test is not adaptive: it shows a raw score of 1 per correct answer. NMAT has no negative marking. You choose the section order; each section has its own timer and you cannot go back to it.",
+      "source": {
+        "kind": "official",
+        "title": "NMAT by GMAC Exam - Terms and Conditions (India)",
+        "url": "https://www.mba.com/-/media/mbasite/nmat-modular/terms-condition-india-sri-lanka-bhutan-nepal-bangladesh.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

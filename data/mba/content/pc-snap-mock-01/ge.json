@@ -1,0 +1,356 @@
+{
+  "sets": [
+    {
+      "key": "GE-S1",
+      "kind": "passage",
+      "title": "The invisible work of maintenance",
+      "contentHtml": "<p>Cities love ribbon-cutting. A new flyover, a gleaming metro station or a renovated waterfront gives a mayor a photograph and gives voters something to point at. Maintenance offers no such moment. Nobody holds a ceremony when a drain is cleared before the monsoon or when an ageing water main is replaced before it bursts. The work is invisible precisely when it succeeds, and that invisibility shapes budgets more powerfully than any engineering report.</p><p>The consequences accumulate quietly. A road resurfaced every eight years instead of every five does not collapse in the sixth year; it deteriorates gradually, raising vehicle repair bills, slowing buses and pushing cyclists into traffic. Because these losses are spread thinly across thousands of residents, no single person has a strong reason to complain, while the savings appear neatly in one department's accounts. Deferred maintenance is therefore less a decision than a drift: each year's postponement looks reasonable on its own, and only the total is unreasonable.</p><p>Some economists describe the problem as a mismatch between who pays and who notices. Construction concentrates its benefits and announces them; upkeep diffuses its benefits and hides them. The remedy they propose is not greater virtue among officials but better accounting. If the condition of every public asset were recorded the way a company records depreciation, a city that let its pipes decay would show a loss on its books, and a budget that skipped repairs would no longer masquerade as a saving.</p><p>Critics reply that such accounts are easy to manipulate and that condition surveys are themselves expensive. Both objections have force, yet neither restores the old arrangement to respectability. A rough measure of decline is still more honest than a ledger that treats a crumbling bridge as if it were worth what it cost to build. The deeper lesson is that institutions tend to protect what they can see. Making maintenance visible may be the cheapest repair a city ever undertakes.</p>",
+      "section": "GE"
+    }
+  ],
+  "questions": [
+    {
+      "key": "GE-01",
+      "section": "GE",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "GE-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main idea",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following best captures the central argument of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Cities should halt all new construction until every existing asset has been fully repaired."
+        },
+        {
+          "id": "B",
+          "textHtml": "Maintenance is neglected largely because its benefits are invisible, and making its value visible through better accounting could correct this bias."
+        },
+        {
+          "id": "C",
+          "textHtml": "Municipal officials neglect maintenance mainly because they are dishonest and seek publicity."
+        },
+        {
+          "id": "D",
+          "textHtml": "Condition surveys of public assets are too costly and unreliable to be worth carrying out."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The passage moves from the observation that maintenance is invisible when it succeeds (para 1), to how this invisibility lets neglect accumulate (para 2), to the proposed remedy of depreciation-style accounting (para 3), and ends with “Making maintenance visible may be the cheapest repair”.</p><p><strong>A</strong> is too extreme; the author never asks for construction to stop. <strong>C</strong> contradicts the text, which says the remedy is “not greater virtue among officials” — the problem is structural, not dishonesty. <strong>D</strong> is the critics’ objection, which the author answers rather than endorses.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-02",
+      "section": "GE",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "GE-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "medium",
+      "stemHtml": "<p>By saying that deferred maintenance is “less a decision than a drift”, the author most likely means that:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "officials knowingly vote to abandon maintenance in a single, deliberate budget decision."
+        },
+        {
+          "id": "B",
+          "textHtml": "the condition of roads and pipes changes unpredictably from one year to the next."
+        },
+        {
+          "id": "C",
+          "textHtml": "neglect builds up through a series of postponements that each seem sensible on their own, without anyone explicitly choosing the overall outcome."
+        },
+        {
+          "id": "D",
+          "textHtml": "maintenance spending is decided randomly rather than through any budgeting process."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The very next clause explains the phrase: “each year's postponement looks reasonable on its own, and only the total is unreasonable.” A drift is an outcome nobody chose as a whole.</p><p><strong>A</strong> describes exactly the opposite — a single deliberate decision. <strong>B</strong> misreads “drift” as physical unpredictability; the passage says deterioration is gradual. <strong>D</strong> overstates: the budget process exists; the point is that its year-by-year logic produces an unintended total.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-03",
+      "section": "GE",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "GE-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's attitude",
+      "difficulty": "hard",
+      "stemHtml": "<p>How does the author respond to the critics mentioned in the final paragraph?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "By accepting that accounting reform is futile and that the old arrangement should continue."
+        },
+        {
+          "id": "B",
+          "textHtml": "By dismissing their objections as entirely without basis."
+        },
+        {
+          "id": "C",
+          "textHtml": "By recommending that condition surveys be handed over to private firms."
+        },
+        {
+          "id": "D",
+          "textHtml": "By conceding that their objections have some merit while arguing that an imperfect measure of decline is still better than the present practice."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The author writes “Both objections have force” (a concession) “yet neither restores the old arrangement to respectability” and “A rough measure of decline is still more honest…” (a rebuttal).</p><p><strong>B</strong> ignores the concession “Both objections have force”. <strong>A</strong> reverses the author’s conclusion. <strong>C</strong> introduces privatisation, which the passage never mentions.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-04",
+      "section": "GE",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Grammar",
+      "subtopic": "Error spotting",
+      "difficulty": "easy",
+      "stemHtml": "<p>Read the sentence and identify the part that contains a grammatical error.</p><p><em>One of my friend (A) / who works in Pune (B) / has offered to (C) / help us move next week. (D)</em></p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(A) One of my friend"
+        },
+        {
+          "id": "B",
+          "textHtml": "(B) who works in Pune"
+        },
+        {
+          "id": "C",
+          "textHtml": "(C) has offered to"
+        },
+        {
+          "id": "D",
+          "textHtml": "(D) help us move next week"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. “One of” must be followed by a plural noun, because it picks one member out of a group: <em>One of my <strong>friends</strong></em>.</p><p>The rest is correct: “who works” and “has offered” agree with the singular subject “one”, and “offered to help us move” is idiomatic.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-05",
+      "section": "GE",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Synonym in context",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the word closest in meaning to the word in bold as used in the sentence.</p><p><em>The committee’s report was so <strong>equivocal</strong> that both rival factions claimed it supported their position.</em></p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "emphatic"
+        },
+        {
+          "id": "B",
+          "textHtml": "exhaustive"
+        },
+        {
+          "id": "C",
+          "textHtml": "hostile"
+        },
+        {
+          "id": "D",
+          "textHtml": "ambiguous"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. <em>Equivocal</em> means open to more than one interpretation; that is exactly why both factions could claim the report backed them.</p><p><em>Emphatic</em> (A) is the opposite — a forceful, clear report would not support both sides. <em>Exhaustive</em> (B) refers to thoroughness, not meaning. <em>Hostile</em> (C) does not explain why both sides were pleased.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-06",
+      "section": "GE",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Antonym in context",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the word most nearly <strong>opposite</strong> in meaning to the word in bold.</p><p><em>Customers kept returning to the shop largely because of the owner’s <strong>affable</strong> manner.</em></p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "cordial"
+        },
+        {
+          "id": "B",
+          "textHtml": "surly"
+        },
+        {
+          "id": "C",
+          "textHtml": "talkative"
+        },
+        {
+          "id": "D",
+          "textHtml": "diffident"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. <em>Affable</em> means friendly and easy to talk to; <em>surly</em> means bad-tempered and unfriendly — its opposite.</p><p><em>Cordial</em> (A) is a near-synonym. <em>Talkative</em> (C) is unrelated to friendliness. <em>Diffident</em> (D) means shy or lacking confidence, which is not the opposite of friendly.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-07",
+      "section": "GE",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Sentence completion",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the pair of words that best completes the sentence.</p><p><em>Although the scheme was launched with great fanfare, its results were ______, prompting critics to describe it as more ______ than substance.</em></p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "disappointing … style"
+        },
+        {
+          "id": "B",
+          "textHtml": "outstanding … style"
+        },
+        {
+          "id": "C",
+          "textHtml": "disappointing … content"
+        },
+        {
+          "id": "D",
+          "textHtml": "predictable … depth"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. “Although … great fanfare” signals a contrast, so the results must be poor (<em>disappointing</em>); and “more style than substance” is the natural contrast between appearance and real value.</p><p><strong>B</strong> fails the contrast set up by “Although”. <strong>C</strong> gets the first blank but “more content than substance” is meaningless, since content and substance are near-synonyms. <strong>D</strong>: “predictable” does not contrast with fanfare, and “more depth than substance” is again not a contrast.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-08",
+      "section": "GE",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Verbal Ability",
+      "subtopic": "Para jumble",
+      "difficulty": "medium",
+      "stemHtml": "<p>Arrange the sentences P, Q, R and S in a logical order.</p><p>P. As a result, many users now hesitate before installing an app that asks to read their contacts.</p><p>Q. In the early years of smartphones, apps routinely requested permissions far beyond what they needed.</p><p>R. Over time, a series of data leaks made the cost of such permissions visible to ordinary users.</p><p>S. Few people read these requests carefully, and fewer still refused them.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "QRSP"
+        },
+        {
+          "id": "B",
+          "textHtml": "SQRP"
+        },
+        {
+          "id": "C",
+          "textHtml": "QSRP"
+        },
+        {
+          "id": "D",
+          "textHtml": "QSPR"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C (QSRP)</strong> is correct. Q introduces the situation (“In the early years…”). S follows with “these requests”, which refers back to the permissions in Q. R marks the change (“Over time… data leaks”), and P gives the consequence (“As a result”).</p><p><strong>A</strong> puts R before S, leaving “these requests” in S without an immediate referent and breaking the time sequence. <strong>B</strong> opens with S, whose “these requests” has nothing to refer to. <strong>D</strong> places “As a result” before the cause (the data leaks).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-09",
+      "section": "GE",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Grammar",
+      "subtopic": "Correct usage",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the word that correctly fills the blank.</p><p><em>Hardly had the meeting begun ______ the power supply failed.</em></p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "than"
+        },
+        {
+          "id": "B",
+          "textHtml": "when"
+        },
+        {
+          "id": "C",
+          "textHtml": "then"
+        },
+        {
+          "id": "D",
+          "textHtml": "that"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The fixed correlative pair is <em>hardly/scarcely … when</em>; it expresses that one event followed immediately after another.</p><p><em>Than</em> (A) pairs with <em>no sooner</em>, not <em>hardly</em> — a common confusion. <em>Then</em> (C) and <em>that</em> (D) do not complete this construction.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GE-10",
+      "section": "GE",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Idioms",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the meaning of the idiom in bold.</p><p><em>After weeks of debate, the company decided to <strong>bite the bullet</strong> and recall the entire faulty batch.</em></p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "to postpone a difficult decision"
+        },
+        {
+          "id": "B",
+          "textHtml": "to blame competitors for a failure"
+        },
+        {
+          "id": "C",
+          "textHtml": "to act rashly without thinking"
+        },
+        {
+          "id": "D",
+          "textHtml": "to face an unpleasant but necessary situation with courage"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. To <em>bite the bullet</em> is to accept and go through with something painful or costly because it is necessary — here, an expensive recall.</p><p><strong>A</strong> is the opposite (the company finally acted). <strong>B</strong> has no basis in the idiom. <strong>C</strong> is contradicted by “after weeks of debate”.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

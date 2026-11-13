@@ -140,8 +140,26 @@ class Feedback(BaseModel):
     fallback: bool  # true = the AI reply was unusable; outline comes from the question's guidance
 
 
+class FillerCount(BaseModel):
+    word: str
+    count: int
+
+
+class Delivery(BaseModel):
+    """Voice answers only: computed from the transcript and recording length (the audio itself is not kept)."""
+
+    durationSeconds: int
+    wordsPerMinute: int
+    pace: Literal["slow", "steady", "fast"]
+    fillerCount: int
+    fillers: list[FillerCount]
+    notes: list[str]
+
+
 class SessionAnswer(BaseModel):
     questionId: str
+    mode: Literal["text", "voice"]
+    delivery: Delivery | None  # voice answers only
     answerText: str
     wordCount: int
     overtime: bool

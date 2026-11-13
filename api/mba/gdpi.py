@@ -4,6 +4,10 @@ Contract: docs/mba-api.md "GDPI". Collections: ``mbaGdpiItems`` (content, import
 scripts/mba/import_gdpi.py) and ``mbaGdpiSessions`` (one mock PI or WAT per document).
 AI feedback shares the AI tutor's daily quota (``mbaAiUsage``, ``MBA_AI_DAILY_LIMIT``);
 each successful feedback counts once. Env: OPENAI_API_KEY (else 503), OPENAI_MODEL.
+
+Voice practice (PI only): the browser records an answer, the audio is sent once to OpenAI speech-to-text
+(``MBA_TRANSCRIBE_MODEL``, default ``gpt-4o-mini-transcribe``) and discarded — it is never stored. The transcript then
+goes through the same feedback flow, plus deterministic delivery stats from the transcript (filler words, words/min).
 """
 
 from __future__ import annotations
@@ -17,7 +21,8 @@ import time
 from datetime import timedelta
 from typing import Any
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, Request
+from fastapi.concurrency import run_in_threadpool
 
 from api.auth import CurrentUser
 from api.db import SafeFirestore, get_db
@@ -158,6 +163,8 @@ def _answer_out(question_id: str, raw: Any) -> dict[str, Any] | None:
     feedback = raw.get("feedback") if isinstance(raw.get("feedback"), dict) else {}
     return {
         "questionId": question_id,
+        "mode": "voice" if raw.get("mode") == "voice" else "text",
+        "delivery": _delivery_out(raw.get("delivery")),
         "answerText": raw["answerText"],
         "wordCount": int(raw.get("wordCount") or 0),
         "overtime": bool(raw.get("overtime")),
@@ -169,6 +176,20 @@ def _answer_out(question_id: str, raw: Any) -> dict[str, Any] | None:
             "fallback": bool(feedback.get("fallback")) or _scores(feedback) is None,
         },
         "answeredAt": raw.get("answeredAt") if isinstance(raw.get("answeredAt"), str) else "",
+    }
+
+
+def _delivery_out(raw: Any) -> dict[str, Any] | None:
+    if not isinstance(raw, dict) or not isinstance(raw.get("durationSeconds"), (int, float)):
+        return None
+    fillers = raw.get("fillers") if isinstance(raw.get("fillers"), dict) else {}
+    return {
+        "durationSeconds": int(raw["durationSeconds"]),
+        "wordsPerMinute": int(raw.get("wordsPerMinute") or 0),
+        "pace": raw.get("pace") if raw.get("pace") in ("slow", "steady", "fast") else "steady",
+        "fillerCount": int(raw.get("fillerCount") or 0),
+        "fillers": [{"word": str(w), "count": int(c)} for w, c in fillers.items() if isinstance(c, int) and c > 0],
+        "notes": _str_list(raw.get("notes"), 4),
     }
 
 
@@ -353,7 +374,7 @@ _OUTCOME_RE = re.compile(
 
 
 def build_feedback_messages(session_kind: str, item: dict[str, Any], answer_text: str, word_count: int,
-                            duration: int | None, overtime: bool) -> list[dict[str, str]]:
+                            duration: int | None, overtime: bool, spoken: bool = False) -> list[dict[str, str]]:
     parts = []
     if session_kind == "wat":
         parts.append(f"Format: WAT essay. Time limit {duration} minutes. Word count {word_count}"
@@ -361,7 +382,8 @@ def build_feedback_messages(session_kind: str, item: dict[str, Any], answer_text
         parts.append(f"Essay topic: {item['prompt']}")
     else:
         group = PI_GROUP_LABEL.get(item["group"], item["group"])
-        parts.append(f"Format: personal interview answer (typed). Question type: {group}"
+        how = "spoken, automatically transcribed (ignore transcription slips and filler words)" if spoken else "typed"
+        parts.append(f"Format: personal interview answer ({how}). Question type: {group}"
                      + (f" ({item['background']} background)" if item.get("background") else "") + f". Word count {word_count}.")
         parts.append(f"Interview question: {item['prompt']}")
     if item.get("framing"):
@@ -458,51 +480,55 @@ def _word_count(text: str) -> int:
     return len(re.findall(r"\S+", text))
 
 
-@router.post("/me/gdpi/sessions/{session_id}/answers", response_model=AnswerResponse)
-def submit_answer(session_id: str, body: AnswerInput, user: CurrentUser = Depends(student),
-                  db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
-    _require_ai()
-    doc = _own_session(db, user, session_id)
-    kind = doc.get("kind") if doc.get("kind") in ("pi", "wat") else "pi"
-    text = body.answerText.strip()
-    if len(text) > MAX_CHARS[kind]:
-        raise HTTPException(422, f"Answers are limited to {MAX_CHARS[kind]:,} characters.")
-    if len(text) < MIN_CHARS:
-        raise HTTPException(422, f"Write at least {MIN_CHARS} characters to get feedback.")
-    item = next((q for q in _questions(doc) if q["id"] == body.questionId), None)
-    if item is None:
-        raise HTTPException(404, "Question not in this session.")
-    previous = (doc.get("answers") or {}).get(body.questionId) if isinstance(doc.get("answers"), dict) else None
-    previous_out = _answer_out(body.questionId, previous)
-    if previous_out and not previous_out["feedback"]["fallback"]:
-        raise HTTPException(409, "This question already has feedback.")
-
+def _check_quota(db: SafeFirestore, user: CurrentUser) -> tuple[int, str, int]:
+    """(limit, usage doc id, used today); 429 when the shared daily AI quota is used up."""
     limit = _daily_limit()
     usage_id = f"{user.user_id}_{local_date().isoformat()}"
     used = int((get_doc(db, AI_USAGE, usage_id) or {}).get("count") or 0)
     if used >= limit:
         raise HTTPException(429, f"Daily AI limit reached ({limit}). It resets at midnight IST.")
+    return limit, usage_id, used
 
+
+def _answer_target(doc: dict[str, Any], question_id: str) -> dict[str, Any]:
+    item = next((q for q in _questions(doc) if q["id"] == question_id), None)
+    if item is None:
+        raise HTTPException(404, "Question not in this session.")
+    previous = (doc.get("answers") or {}).get(question_id) if isinstance(doc.get("answers"), dict) else None
+    previous_out = _answer_out(question_id, previous)
+    if previous_out and not previous_out["feedback"]["fallback"]:
+        raise HTTPException(409, "This question already has feedback.")
+    return item
+
+
+def _record_answer(db: SafeFirestore, user: CurrentUser, session_id: str, doc: dict[str, Any], item: dict[str, Any],
+                   text: str, quota: tuple[int, str, int], delivery: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Get AI feedback on ``text``, store the answer, count the quota once. Shared by typed and voice answers."""
+    limit, usage_id, used = quota
+    kind = doc.get("kind") if doc.get("kind") in ("pi", "wat") else "pi"
     now = utcnow()
     ends_at = parse_iso(doc.get("endsAt"))
     overtime = bool(ends_at and now > ends_at + timedelta(seconds=OVERTIME_GRACE_SECONDS))
     words = _word_count(text)
     duration = doc.get("durationMinutes") if isinstance(doc.get("durationMinutes"), int) else None
-    raw = call_openai_json(build_feedback_messages(kind, item, text, words, duration, overtime))
+    raw = call_openai_json(build_feedback_messages(kind, item, text, words, duration, overtime, spoken=delivery is not None))
     feedback = parse_feedback(raw) or fallback_feedback(item)
 
     stamp = iso(now)
     answer = {"answerText": text, "wordCount": words, "overtime": overtime, "feedback": feedback, "answeredAt": stamp}
+    if delivery is not None:
+        answer |= {"mode": "voice", "delivery": delivery}
+    question_id = item["id"]
     question_ids = [q["id"] for q in _questions(doc)]
 
     def mutate(current: dict[str, Any] | None) -> tuple[dict[str, Any] | None, dict[str, Any]]:
         if current is None:
             raise HTTPException(404, "Session not found.")
         answers = dict(current.get("answers") or {}) if isinstance(current.get("answers"), dict) else {}
-        existing = _answer_out(body.questionId, answers.get(body.questionId))
+        existing = _answer_out(question_id, answers.get(question_id))
         if existing and not existing["feedback"]["fallback"]:
             raise HTTPException(409, "This question already has feedback.")
-        answers[body.questionId] = answer
+        answers[question_id] = answer
         done = all(_answer_out(q, answers.get(q)) for q in question_ids)
         fields = {"answers": answers, "updatedAt": stamp}
         if done and current.get("status") != "completed":
@@ -519,4 +545,135 @@ def submit_answer(session_id: str, body: AnswerInput, user: CurrentUser = Depend
 
         remaining = max(0, limit - occ_update(db, AI_USAGE, usage_id, bump))
     out = session_out(session_id, updated)
-    return {"answer": _answer_out(body.questionId, answer), "session": out, "remainingToday": remaining}
+    return {"answer": _answer_out(question_id, answer), "session": out, "remainingToday": remaining}
+
+
+@router.post("/me/gdpi/sessions/{session_id}/answers", response_model=AnswerResponse)
+def submit_answer(session_id: str, body: AnswerInput, user: CurrentUser = Depends(student),
+                  db: SafeFirestore = Depends(get_db)) -> dict[str, Any]:
+    _require_ai()
+    doc = _own_session(db, user, session_id)
+    kind = doc.get("kind") if doc.get("kind") in ("pi", "wat") else "pi"
+    text = body.answerText.strip()
+    if len(text) > MAX_CHARS[kind]:
+        raise HTTPException(422, f"Answers are limited to {MAX_CHARS[kind]:,} characters.")
+    if len(text) < MIN_CHARS:
+        raise HTTPException(422, f"Write at least {MIN_CHARS} characters to get feedback.")
+    item = _answer_target(doc, body.questionId)
+    quota = _check_quota(db, user)
+    return _record_answer(db, user, session_id, doc, item, text, quota)
+
+
+# ---------------------------------------------------------------- voice answers (PI)
+AUDIO_TYPES = {  # content type (without parameters) -> file extension OpenAI recognises
+    "audio/webm": "webm", "audio/ogg": "ogg", "audio/mp4": "mp4", "audio/m4a": "m4a", "audio/x-m4a": "m4a",
+    "audio/mpeg": "mp3", "audio/wav": "wav", "audio/x-wav": "wav", "audio/aac": "m4a",
+}
+MAX_AUDIO_BYTES = 4 * 1024 * 1024  # below Vercel's 4.5 MB request limit (~3 min of browser Opus audio)
+MAX_VOICE_SECONDS = 180
+MIN_VOICE_SECONDS = 3
+TRANSCRIBE_DEFAULT_MODEL = "gpt-4o-mini-transcribe"
+# Asks the model to keep disfluencies so the filler count means something (models tend to clean them up).
+TRANSCRIBE_PROMPT = ("Verbatim transcript of a candidate answering an MBA admission interview question. "
+                     "Keep filler words exactly as spoken, for example: um, uh, er, like, you know, basically, actually.")
+FILLER_PATTERNS: tuple[tuple[str, str], ...] = (
+    ("um", r"\bu+m+\b|\bum+\b"), ("uh", r"\bu+h+\b"), ("er", r"\ber+m*\b"), ("ah", r"\ba+h+\b"), ("hmm", r"\bhm+\b"),
+    ("you know", r"\byou know\b(?!\s+(?:what|how|why|that|the|a|an|about)\b)"), ("I mean", r"\bi mean\b"),
+    ("basically", r"\bbasically\b"), ("actually", r"\bactually\b"), ("literally", r"\bliterally\b"),
+    ("kind of", r"\bkind of\b"), ("sort of", r"\bsort of\b"),
+    ("like", r"(?:^|[,.;:!?]\s*)like\s*,"),  # only the pause-marked "..., like, ..." filler, not "I'd like to"
+)
+_FILLER_RES = [(word, re.compile(pattern, re.I)) for word, pattern in FILLER_PATTERNS]
+# Guidance ranges for interview speech (coaching heuristic, shown as guidance, not a score).
+SLOW_WPM, FAST_WPM = 110, 170
+
+
+def transcribe_audio(audio: bytes, content_type: str) -> str:
+    """One speech-to-text call; the audio only lives in memory for this call. Isolated so checks can replace it."""
+    from openai import OpenAI, OpenAIError
+
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"], timeout=60, max_retries=1)
+    try:
+        result = client.audio.transcriptions.create(
+            model=os.getenv("MBA_TRANSCRIBE_MODEL") or TRANSCRIBE_DEFAULT_MODEL,
+            file=(f"answer.{AUDIO_TYPES[content_type]}", audio, content_type),
+            prompt=TRANSCRIBE_PROMPT,
+            response_format="json",
+        )
+    except OpenAIError as error:
+        raise HTTPException(503, "Voice transcription is unavailable right now. Please try again or type your answer.") from error
+    return (getattr(result, "text", "") or "").strip()
+
+
+def delivery_stats(transcript: str, seconds: float) -> dict[str, Any]:
+    """Deterministic delivery feedback from the transcript and the recording length."""
+    words = _word_count(transcript)
+    wpm = round(words / (seconds / 60)) if seconds > 0 else 0
+    fillers = {word: n for word, rx in _FILLER_RES if (n := len(rx.findall(transcript)))}
+    filler_count = sum(fillers.values())
+    pace = "slow" if wpm < SLOW_WPM else ("fast" if wpm > FAST_WPM else "steady")
+    notes = []
+    if pace == "slow":
+        notes.append(f"About {wpm} words a minute: a little slow. Plan your first line before you start so you open with energy.")
+    elif pace == "fast":
+        notes.append(f"About {wpm} words a minute: quite fast. Pause after each point so the panel can follow.")
+    else:
+        notes.append(f"About {wpm} words a minute: an easy pace to follow.")
+    per_100 = filler_count / words * 100 if words else 0
+    if filler_count == 0:
+        notes.append("No filler words picked up. (Transcription can miss some, so listen to yourself too.)")
+    elif per_100 >= 5:
+        top = max(fillers, key=lambda w: fillers[w])
+        notes.append(f"{filler_count} filler words ({top!r} most often). Try a short silent pause instead.")
+    else:
+        notes.append(f"{filler_count} filler word{'s' if filler_count != 1 else ''}: fine in moderation.")
+    if seconds < 30:
+        notes.append("Under 30 seconds: most PI answers need a bit more depth, such as one specific example.")
+    elif seconds > 150:
+        notes.append("Over 2.5 minutes: panels often cut in; aim to land your main point in the first minute.")
+    return {"durationSeconds": int(round(seconds)), "wordsPerMinute": wpm, "pace": pace, "fillerCount": filler_count,
+            "fillers": fillers, "notes": notes}
+
+
+@router.post("/me/gdpi/sessions/{session_id}/answers/voice", response_model=AnswerResponse)
+async def submit_voice_answer(
+    session_id: str,
+    request: Request,
+    questionId: str = Query(min_length=1, max_length=80),
+    durationSeconds: float = Query(ge=MIN_VOICE_SECONDS, le=MAX_VOICE_SECONDS + 5),
+    user: CurrentUser = Depends(student),
+    db: SafeFirestore = Depends(get_db),
+) -> dict[str, Any]:
+    """Body: the raw recording (``Content-Type: audio/webm`` etc.). The audio is discarded after transcription."""
+    _require_ai()
+    content_type = (request.headers.get("content-type") or "").split(";")[0].strip().lower()
+    if content_type not in AUDIO_TYPES:
+        raise HTTPException(415, "Send the recording as audio (webm, ogg, mp4/m4a, mp3 or wav).")
+    declared = request.headers.get("content-length")
+    if declared and declared.isdigit() and int(declared) > MAX_AUDIO_BYTES:
+        raise HTTPException(413, "That recording is too long. Keep answers under 3 minutes.")
+    audio = bytearray()
+    async for chunk in request.stream():
+        audio.extend(chunk)
+        if len(audio) > MAX_AUDIO_BYTES:
+            raise HTTPException(413, "That recording is too long. Keep answers under 3 minutes.")
+    if len(audio) < 1000:
+        raise HTTPException(422, "The recording is empty. Check your microphone and try again.")
+
+    def work() -> dict[str, Any]:
+        doc = _own_session(db, user, session_id)
+        if doc.get("kind") != "pi":
+            raise HTTPException(422, "Voice answers are for mock interviews only.")
+        item = _answer_target(doc, questionId)
+        quota = _check_quota(db, user)  # before the paid transcription call
+        transcript = transcribe_audio(bytes(audio), content_type)
+        if len(transcript) < MIN_CHARS:
+            raise HTTPException(422, "We couldn't make out enough of your answer. Speak a little closer to the mic and try again.")
+        text = transcript if len(transcript) <= MAX_CHARS["pi"] else transcript[:MAX_CHARS["pi"]].rsplit(" ", 1)[0]
+        seconds = min(float(durationSeconds), MAX_VOICE_SECONDS)
+        return _record_answer(db, user, session_id, doc, item, text, quota, delivery_stats(transcript, seconds))
+
+    try:
+        return await run_in_threadpool(work)
+    finally:
+        audio.clear()  # nothing of the recording is kept

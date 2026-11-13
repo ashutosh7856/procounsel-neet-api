@@ -1,0 +1,77 @@
+{
+  "id": "cmat",
+  "name": "Common Management Admission Test (CMAT)",
+  "conductingBody": "National Testing Agency (NTA)",
+  "officialUrl": "https://cmat.nta.nic.in/",
+  "adaptive": false,
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "QTDI",
+          "name": "Quantitative Techniques and Data Interpretation",
+          "questionCount": 20,
+          "durationMinutes": null
+        },
+        {
+          "id": "LRC",
+          "name": "Logical Reasoning",
+          "questionCount": 20,
+          "durationMinutes": null
+        },
+        {
+          "id": "LC",
+          "name": "Language Comprehension",
+          "questionCount": 20,
+          "durationMinutes": null
+        },
+        {
+          "id": "GA",
+          "name": "General Awareness",
+          "questionCount": 20,
+          "durationMinutes": null
+        },
+        {
+          "id": "IE",
+          "name": "Innovation & Entrepreneurship",
+          "questionCount": 20,
+          "durationMinutes": null
+        }
+      ],
+      "timerBlocks": [
+        {
+          "id": "ALL",
+          "name": "CMAT",
+          "sectionIds": [
+            "QTDI",
+            "LRC",
+            "LC",
+            "GA",
+            "IE"
+          ],
+          "durationMinutes": 180
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 4,
+          "incorrect": -1,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 180,
+      "sectionOrderLocked": false,
+      "scoring": "official",
+      "scoringNote": "+4 for a correct answer, -1 for a wrong answer, 0 if unanswered (400 marks in total). One 180-minute timer; no sectional time limits.",
+      "source": {
+        "kind": "official",
+        "title": "CMAT 2026 Information Bulletin (NTA)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3a381c2c35c9157f6b67fd07d5a200ae1/uploads/2025/10/202510171049586023.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

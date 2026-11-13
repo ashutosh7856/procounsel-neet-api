@@ -351,7 +351,7 @@ def build_week_plan(inp: PlanInputs) -> tuple[list[dict[str, Any]], dict[str, An
             left -= minutes
         if learn_left and day not in mock_on and left >= LEARN_MINUTES + 15 and "learn" not in taken:
             add(day, "learn", f"Learn {weakest} concepts", f"A {SECTION_NAMES[weakest]} lesson before practising it.", LEARN_MINUTES,
-                "/mba/learn", section=weakest)
+                "/mba/learn?tab=syllabus", section=weakest)
             learn_left -= 1
             left -= LEARN_MINUTES
         if left >= 70:
@@ -527,7 +527,8 @@ def auto_complete(db: SafeFirestore, bank: Bank, stats: dict[str, dict[str, Any]
     submitted = []
     for att in attempts:
         moment = parse_iso(att.get("submittedAt"))
-        if att.get("status") == "submitted" and moment and att.get("id") not in used_attempts:
+        # Built tests (kind "drill") are practice, not a planned mock.
+        if att.get("status") == "submitted" and moment and att.get("id") not in used_attempts and att.get("kind") != "drill":
             day = local_date(moment)
             if week_start <= day <= week_end:
                 submitted.append((day, att))

@@ -1,0 +1,645 @@
+{
+ "sets": [
+  {
+   "key": "DILR-S1",
+   "kind": "dilr_set",
+   "title": "Goals scored by four hockey players",
+   "contentHtml": "<p>The management of a university hockey team was evaluating performance of four women players - Amla, Bimla, Harita and Sarita for their possible selection in the university team for next year. For this purpose, the management was looking at the number of goals scored by them in the past 8 matches, numbered 1 through 8. The four players together had scored a total of 12 goals in these matches. In the 8 matches, each of them had scored at least one goal. No two players had scored the same total number of goals.</p><p>The following facts are known about the goals scored by these four players only. All the questions refer only to the goals scored by these four players.</p><ol><li>Only one goal was scored in every even numbered match.</li><li>Harita scored more goals than Bimla.</li><li>The highest goal scorer scored goals in exactly 3 matches including Match 4 and Match 8.</li><li>Bimla scored a goal in Match 1 and one each in three other consecutive matches.</li><li>An equal number of goals were scored in Match 3 and Match 7, which was different from the number of goals scored in either Match 1 or Match 5.</li><li>The match in which the highest number of goals was scored was unique and it was not Match 5.</li></ol>"
+  },
+  {
+   "key": "DILR-S2",
+   "kind": "dilr_set",
+   "title": "Interview tokens and funding",
+   "contentHtml": "<p>Adhara, Bithi, Chhaya, Dhanavi, Esther, and Fathima are the interviewers in a process that awards funding for new initiatives. Every interviewer individually interviews each of the candidates individually and awards a token only if she recommends funding. A token has a face value of 2, 3, 5, 7, 11, or 13. Each interviewer awards tokens of a single face value only.</p><p>Once all six interviews are over for a candidate, the candidate receives a funding that is Rs.1000 times the product of the face values of all the tokens. For example, if a candidate has tokens with face values 2, 5, and 7, then they get a funding of Rs.1000 × (2 × 5 × 7) = Rs.70,000.</p><p>Pragnyaa, Qahira, Rasheeda, Smera, and Tantra were five candidates who received funding. The funds they received, in descending order, were Rs.390,000, Rs.210,000, Rs.165,000, Rs.77,000, and Rs.66,000.</p><p>The following additional facts are known:</p><ol><li>Fathima awarded tokens to everyone except Qahira, while Adhara awarded tokens to no one except Pragnyaa.</li><li>Rasheeda received the highest number of tokens that anyone received, but she did not receive one from Esther.</li><li>Bithi awarded a token to Smera but not to Qahira, while Dhanavi awarded a token to Qahira but not to Smera.</li></ol>"
+  },
+  {
+   "key": "DILR-S3",
+   "kind": "dilr_set",
+   "title": "Class get-together",
+   "contentHtml": "<p>There are 15 girls and some boys among the graduating students in a class. They are planning a get-together, which can be either a 1-day event, or a 2-day event, or a 3-day event. There are 6 singers in the class, 4 of them are boys. There are 10 dancers in the class, 4 of them are girls. No dancer in the class is a singer.</p><p>Some students are not interested in attending the get-together. Those students who are interested in attending a 3-day event are also interested in attending a 2-day event; those who are interested in attending a 2-day event are also interested in attending a 1-day event.</p><p>The following facts are also known:</p><ol><li>All the girls and 80% of the boys are interested in attending a 1-day event. 60% of the boys are interested in attending a 2-day event.</li><li>Some of the girls are interested in attending a 1-day event, but not a 2-day event; some of the other girls are interested in attending both.</li><li>70% of the boys who are interested in attending a 2-day event are neither singers nor dancers. 60% of the girls who are interested in attending a 2-day event are neither singers nor dancers.</li><li>No girl is interested in attending a 3-day event. All male singers and 2 of the dancers are interested in attending a 3-day event.</li><li>The number of singers interested in attending a 2-day event is one more than the number of dancers interested in attending a 2-day event.</li></ol>"
+  },
+  {
+   "key": "DILR-S4",
+   "kind": "dilr_set",
+   "title": "City metro network",
+   "contentHtml": "<p>Shown in the figure is the schematic map of the metro lines in a city with rectangles denoting terminal stations (e.g. A), diamonds denoting junction stations (e.g. R) and small filled-up circles denoting other stations. Each train runs either in east-west or north-south direction, but not both. All trains stop for 2 minutes at each of the junction stations on the way and for 1 minute at each of the other stations. It takes 2 minutes to reach the next station for trains going in east-west direction and 3 minutes to reach the next station for trains going in north-south direction. From each terminal station, the first train starts at 6 am; the last trains leave the terminal stations at midnight. Otherwise, during the service hours, there are metro service every 15 minutes in the north-south lines and every 10 minutes in the east-west lines. A train must rest for at least 15 minutes after completing a trip at the terminal station, before it can undertake the next trip in the reverse direction. (All questions are related to this metro service only. Assume that if someone reaches a station exactly at the time a train is supposed to leave, (s)he can catch that train.)</p>",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2022-slot1/metro-map.png"
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many goals were scored in Match 7?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "Cannot be determined"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Four different positive totals adding to 12 are {1, 2, 3, 6} or {1, 2, 4, 5}. Bimla scored in Match 1 and in three other matches, one goal each, so Bimla = 4. Harita &gt; Bimla, so the split is {1, 2, 4, 5}: <strong>Harita 5</strong> (top scorer), <strong>Bimla 4</strong>, Amla and Sarita 1 and 2 in some order.</p><p>Harita scored in exactly 3 matches including 4 and 8. Even matches have one goal each, so she has 1 + 1 there and <strong>3 goals in one odd match</strong>. Bimla's three consecutive matches cannot include 4 or 8 (those single goals are Harita's), so they are <strong>5, 6, 7</strong>.</p><p>The odd matches carry 12 &#8722; 4 = 8 goals. If Harita's 3-goal match were 3 or 7, then M3 = M7 &#8805; 3 and M1, M5 &#8805; 1 force M3 = M7 = 3, giving two top matches (not allowed). If it were 5, then M5 &#8805; 4, but another match must exceed M5, which is impossible with 8 odd-match goals. So it is <strong>Match 1</strong>: M1 &#8805; 4. Then M3 = M7 = 1 and M5 = 2, M1 = 4 (M5 &#8800; 1 and the sum is 8).</p><table><thead><tr><th>Match</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Goals</td><td>4</td><td>1</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Scorers</td><td>H 3, B 1</td><td>A/S</td><td>A/S</td><td>H</td><td>B, A/S</td><td>B</td><td>B</td><td>H</td></tr></tbody></table><p>Amla and Sarita share the single goals in Matches 2, 3 and 5 (one of them scores 2, the other 1).</p><p>Match 7 had <strong>1</strong> goal (Bimla's).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following is the correct sequence of goals scored in matches 1, 3, 5 and 7?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3, 1, 2, 1"
+    },
+    {
+     "id": "B",
+     "textHtml": "5, 1, 0, 1"
+    },
+    {
+     "id": "C",
+     "textHtml": "3, 2, 1, 2"
+    },
+    {
+     "id": "D",
+     "textHtml": "4, 1, 2, 1"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Four different positive totals adding to 12 are {1, 2, 3, 6} or {1, 2, 4, 5}. Bimla scored in Match 1 and in three other matches, one goal each, so Bimla = 4. Harita &gt; Bimla, so the split is {1, 2, 4, 5}: <strong>Harita 5</strong> (top scorer), <strong>Bimla 4</strong>, Amla and Sarita 1 and 2 in some order.</p><p>Harita scored in exactly 3 matches including 4 and 8. Even matches have one goal each, so she has 1 + 1 there and <strong>3 goals in one odd match</strong>. Bimla's three consecutive matches cannot include 4 or 8 (those single goals are Harita's), so they are <strong>5, 6, 7</strong>.</p><p>The odd matches carry 12 &#8722; 4 = 8 goals. If Harita's 3-goal match were 3 or 7, then M3 = M7 &#8805; 3 and M1, M5 &#8805; 1 force M3 = M7 = 3, giving two top matches (not allowed). If it were 5, then M5 &#8805; 4, but another match must exceed M5, which is impossible with 8 odd-match goals. So it is <strong>Match 1</strong>: M1 &#8805; 4. Then M3 = M7 = 1 and M5 = 2, M1 = 4 (M5 &#8800; 1 and the sum is 8).</p><table><thead><tr><th>Match</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Goals</td><td>4</td><td>1</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Scorers</td><td>H 3, B 1</td><td>A/S</td><td>A/S</td><td>H</td><td>B, A/S</td><td>B</td><td>B</td><td>H</td></tr></tbody></table><p>Amla and Sarita share the single goals in Matches 2, 3 and 5 (one of them scores 2, the other 1).</p><p>Matches 1, 3, 5, 7: <strong>4, 1, 2, 1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following statement(s) is/are true?</p><p>Statement-1: Amla and Sarita never scored goals in the same match.<br>Statement-2: Harita and Sarita never scored goals in the same match.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "None of the statements"
+    },
+    {
+     "id": "B",
+     "textHtml": "Statement-1 only"
+    },
+    {
+     "id": "C",
+     "textHtml": "Both the statements"
+    },
+    {
+     "id": "D",
+     "textHtml": "Statement-2 only"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Four different positive totals adding to 12 are {1, 2, 3, 6} or {1, 2, 4, 5}. Bimla scored in Match 1 and in three other matches, one goal each, so Bimla = 4. Harita &gt; Bimla, so the split is {1, 2, 4, 5}: <strong>Harita 5</strong> (top scorer), <strong>Bimla 4</strong>, Amla and Sarita 1 and 2 in some order.</p><p>Harita scored in exactly 3 matches including 4 and 8. Even matches have one goal each, so she has 1 + 1 there and <strong>3 goals in one odd match</strong>. Bimla's three consecutive matches cannot include 4 or 8 (those single goals are Harita's), so they are <strong>5, 6, 7</strong>.</p><p>The odd matches carry 12 &#8722; 4 = 8 goals. If Harita's 3-goal match were 3 or 7, then M3 = M7 &#8805; 3 and M1, M5 &#8805; 1 force M3 = M7 = 3, giving two top matches (not allowed). If it were 5, then M5 &#8805; 4, but another match must exceed M5, which is impossible with 8 odd-match goals. So it is <strong>Match 1</strong>: M1 &#8805; 4. Then M3 = M7 = 1 and M5 = 2, M1 = 4 (M5 &#8800; 1 and the sum is 8).</p><table><thead><tr><th>Match</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Goals</td><td>4</td><td>1</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Scorers</td><td>H 3, B 1</td><td>A/S</td><td>A/S</td><td>H</td><td>B, A/S</td><td>B</td><td>B</td><td>H</td></tr></tbody></table><p>Amla and Sarita share the single goals in Matches 2, 3 and 5 (one of them scores 2, the other 1).</p><p>Amla's and Sarita's goals are the single A/S goals in Matches 2, 3 and 5, one goal per match, so they never score in the same match: Statement-1 is true. Harita scores only in Matches 1, 4 and 8, none of which is an A/S match: Statement-2 is true. <strong>Both</strong> are true.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following statement(s) is/are false?</p><p>Statement-1: In every match at least one player scored a goal.<br>Statement-2: No two players scored goals in the same number of matches.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Statement-2 only"
+    },
+    {
+     "id": "B",
+     "textHtml": "None of the statements"
+    },
+    {
+     "id": "C",
+     "textHtml": "Both the statements"
+    },
+    {
+     "id": "D",
+     "textHtml": "Statement-1 only"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Four different positive totals adding to 12 are {1, 2, 3, 6} or {1, 2, 4, 5}. Bimla scored in Match 1 and in three other matches, one goal each, so Bimla = 4. Harita &gt; Bimla, so the split is {1, 2, 4, 5}: <strong>Harita 5</strong> (top scorer), <strong>Bimla 4</strong>, Amla and Sarita 1 and 2 in some order.</p><p>Harita scored in exactly 3 matches including 4 and 8. Even matches have one goal each, so she has 1 + 1 there and <strong>3 goals in one odd match</strong>. Bimla's three consecutive matches cannot include 4 or 8 (those single goals are Harita's), so they are <strong>5, 6, 7</strong>.</p><p>The odd matches carry 12 &#8722; 4 = 8 goals. If Harita's 3-goal match were 3 or 7, then M3 = M7 &#8805; 3 and M1, M5 &#8805; 1 force M3 = M7 = 3, giving two top matches (not allowed). If it were 5, then M5 &#8805; 4, but another match must exceed M5, which is impossible with 8 odd-match goals. So it is <strong>Match 1</strong>: M1 &#8805; 4. Then M3 = M7 = 1 and M5 = 2, M1 = 4 (M5 &#8800; 1 and the sum is 8).</p><table><thead><tr><th>Match</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Goals</td><td>4</td><td>1</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Scorers</td><td>H 3, B 1</td><td>A/S</td><td>A/S</td><td>H</td><td>B, A/S</td><td>B</td><td>B</td><td>H</td></tr></tbody></table><p>Amla and Sarita share the single goals in Matches 2, 3 and 5 (one of them scores 2, the other 1).</p><p>Every match has at least 1 goal, so Statement-1 is true. Matches scored in: Harita 3 (1, 4, 8), Bimla 4 (1, 5, 6, 7), and Amla/Sarita 1 and 2 (one goal per match). These are 3, 4, 1, 2, all different, so Statement-2 is true. <strong>Neither</strong> statement is false.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Harita scored goals in one more match as compared to Sarita, which of the following statement(s) is/are necessarily true?</p><p>Statement-1: Amla scored goals in consecutive matches.<br>Statement-2: Sarita scored goals in consecutive matches.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Both the statements"
+    },
+    {
+     "id": "B",
+     "textHtml": "Statement-2 only"
+    },
+    {
+     "id": "C",
+     "textHtml": "None of the statements"
+    },
+    {
+     "id": "D",
+     "textHtml": "Statement-1 only"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Four different positive totals adding to 12 are {1, 2, 3, 6} or {1, 2, 4, 5}. Bimla scored in Match 1 and in three other matches, one goal each, so Bimla = 4. Harita &gt; Bimla, so the split is {1, 2, 4, 5}: <strong>Harita 5</strong> (top scorer), <strong>Bimla 4</strong>, Amla and Sarita 1 and 2 in some order.</p><p>Harita scored in exactly 3 matches including 4 and 8. Even matches have one goal each, so she has 1 + 1 there and <strong>3 goals in one odd match</strong>. Bimla's three consecutive matches cannot include 4 or 8 (those single goals are Harita's), so they are <strong>5, 6, 7</strong>.</p><p>The odd matches carry 12 &#8722; 4 = 8 goals. If Harita's 3-goal match were 3 or 7, then M3 = M7 &#8805; 3 and M1, M5 &#8805; 1 force M3 = M7 = 3, giving two top matches (not allowed). If it were 5, then M5 &#8805; 4, but another match must exceed M5, which is impossible with 8 odd-match goals. So it is <strong>Match 1</strong>: M1 &#8805; 4. Then M3 = M7 = 1 and M5 = 2, M1 = 4 (M5 &#8800; 1 and the sum is 8).</p><table><thead><tr><th>Match</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Goals</td><td>4</td><td>1</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Scorers</td><td>H 3, B 1</td><td>A/S</td><td>A/S</td><td>H</td><td>B, A/S</td><td>B</td><td>B</td><td>H</td></tr></tbody></table><p>Amla and Sarita share the single goals in Matches 2, 3 and 5 (one of them scores 2, the other 1).</p><p>Harita scored in 3 matches, so Sarita scored in 2. She has 2 goals in two of Matches 2, 3, 5, and Amla has 1 goal in the remaining one.</p><p>Amla scores in only one match, so Statement-1 cannot hold. Sarita could be in {2, 3} (consecutive) but also {2, 5} or {3, 5} (not consecutive), so Statement-2 is not necessarily true. <strong>None</strong> of the statements.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Puzzles",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many tokens did Qahira receive?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Divide each funding by 1000 and factorise: 390 = 2·3·5·13, 210 = 2·3·5·7, 165 = 3·5·11, 77 = 7·11, 66 = 2·3·11.</p><p>How many candidates each value reaches: 13 &#8594; one (390); 7 &#8594; two; 2, 5, 11 &#8594; three; 3 &#8594; four.</p><ul><li>Adhara gave a token to Pragnyaa only, so <strong>Adhara = 13</strong> and <strong>Pragnyaa = 390</strong>.</li><li>Rasheeda got the most tokens (4), so <strong>Rasheeda = 210</strong>.</li><li>Fathima gave to four candidates (all except Qahira), so <strong>Fathima = 3</strong> and Qahira is the one without a 3 among the rest: <strong>Qahira = 77</strong>.</li><li>Rasheeda (2, 3, 5, 7) got nothing from Esther, so Esther's value is 11 (13 is Adhara's): <strong>Esther = 11</strong>.</li><li>Dhanavi gave Qahira (7·11) a token, so <strong>Dhanavi = 7</strong>. Bithi and Chhaya are 2 and 5 in some order.</li></ul><p>Smera and Tantra are 165 and 66. Bithi gave to Smera: if <strong>Bithi = 2</strong>, Smera = 66, Tantra = 165, Chhaya = 5; if <strong>Bithi = 5</strong>, Smera = 165, Tantra = 66, Chhaya = 2. Both cases fit every condition.</p><p>Qahira = 77 = 7 × 11: tokens from Dhanavi and Esther only, so <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Puzzles",
+   "difficulty": "medium",
+   "stemHtml": "<p>Who among the following definitely received a token from Bithi but not from Dhanavi</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Rasheeda"
+    },
+    {
+     "id": "B",
+     "textHtml": "Pragnyaa"
+    },
+    {
+     "id": "C",
+     "textHtml": "Tantra"
+    },
+    {
+     "id": "D",
+     "textHtml": "Qahira"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Divide each funding by 1000 and factorise: 390 = 2·3·5·13, 210 = 2·3·5·7, 165 = 3·5·11, 77 = 7·11, 66 = 2·3·11.</p><p>How many candidates each value reaches: 13 &#8594; one (390); 7 &#8594; two; 2, 5, 11 &#8594; three; 3 &#8594; four.</p><ul><li>Adhara gave a token to Pragnyaa only, so <strong>Adhara = 13</strong> and <strong>Pragnyaa = 390</strong>.</li><li>Rasheeda got the most tokens (4), so <strong>Rasheeda = 210</strong>.</li><li>Fathima gave to four candidates (all except Qahira), so <strong>Fathima = 3</strong> and Qahira is the one without a 3 among the rest: <strong>Qahira = 77</strong>.</li><li>Rasheeda (2, 3, 5, 7) got nothing from Esther, so Esther's value is 11 (13 is Adhara's): <strong>Esther = 11</strong>.</li><li>Dhanavi gave Qahira (7·11) a token, so <strong>Dhanavi = 7</strong>. Bithi and Chhaya are 2 and 5 in some order.</li></ul><p>Smera and Tantra are 165 and 66. Bithi gave to Smera: if <strong>Bithi = 2</strong>, Smera = 66, Tantra = 165, Chhaya = 5; if <strong>Bithi = 5</strong>, Smera = 165, Tantra = 66, Chhaya = 2. Both cases fit every condition.</p><p>Bithi is 2 or 5 and Dhanavi is 7. Pragnyaa (2·3·5·13) has both 2 and 5 and no 7, so she got Bithi's token in either case and nothing from Dhanavi: <strong>Pragnyaa</strong>.</p><p>Rasheeda has a 7 (from Dhanavi). Tantra gets Bithi's token in only one of the two cases. Qahira got nothing from Bithi.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Puzzles",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many tokens did Chhaya award?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Divide each funding by 1000 and factorise: 390 = 2·3·5·13, 210 = 2·3·5·7, 165 = 3·5·11, 77 = 7·11, 66 = 2·3·11.</p><p>How many candidates each value reaches: 13 &#8594; one (390); 7 &#8594; two; 2, 5, 11 &#8594; three; 3 &#8594; four.</p><ul><li>Adhara gave a token to Pragnyaa only, so <strong>Adhara = 13</strong> and <strong>Pragnyaa = 390</strong>.</li><li>Rasheeda got the most tokens (4), so <strong>Rasheeda = 210</strong>.</li><li>Fathima gave to four candidates (all except Qahira), so <strong>Fathima = 3</strong> and Qahira is the one without a 3 among the rest: <strong>Qahira = 77</strong>.</li><li>Rasheeda (2, 3, 5, 7) got nothing from Esther, so Esther's value is 11 (13 is Adhara's): <strong>Esther = 11</strong>.</li><li>Dhanavi gave Qahira (7·11) a token, so <strong>Dhanavi = 7</strong>. Bithi and Chhaya are 2 and 5 in some order.</li></ul><p>Smera and Tantra are 165 and 66. Bithi gave to Smera: if <strong>Bithi = 2</strong>, Smera = 66, Tantra = 165, Chhaya = 5; if <strong>Bithi = 5</strong>, Smera = 165, Tantra = 66, Chhaya = 2. Both cases fit every condition.</p><p>Chhaya is 5 or 2. Value 5 appears in 390, 210, 165 and value 2 in 390, 210, 66: three candidates either way. So <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Puzzles",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many tokens did Smera receive?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Divide each funding by 1000 and factorise: 390 = 2·3·5·13, 210 = 2·3·5·7, 165 = 3·5·11, 77 = 7·11, 66 = 2·3·11.</p><p>How many candidates each value reaches: 13 &#8594; one (390); 7 &#8594; two; 2, 5, 11 &#8594; three; 3 &#8594; four.</p><ul><li>Adhara gave a token to Pragnyaa only, so <strong>Adhara = 13</strong> and <strong>Pragnyaa = 390</strong>.</li><li>Rasheeda got the most tokens (4), so <strong>Rasheeda = 210</strong>.</li><li>Fathima gave to four candidates (all except Qahira), so <strong>Fathima = 3</strong> and Qahira is the one without a 3 among the rest: <strong>Qahira = 77</strong>.</li><li>Rasheeda (2, 3, 5, 7) got nothing from Esther, so Esther's value is 11 (13 is Adhara's): <strong>Esther = 11</strong>.</li><li>Dhanavi gave Qahira (7·11) a token, so <strong>Dhanavi = 7</strong>. Bithi and Chhaya are 2 and 5 in some order.</li></ul><p>Smera and Tantra are 165 and 66. Bithi gave to Smera: if <strong>Bithi = 2</strong>, Smera = 66, Tantra = 165, Chhaya = 5; if <strong>Bithi = 5</strong>, Smera = 165, Tantra = 66, Chhaya = 2. Both cases fit every condition.</p><p>Smera is 66 = 2·3·11 or 165 = 3·5·11: three tokens in both cases, so <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Puzzles",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which of the following could be the amount of funding that Tantra received?</p><p>(a) Rs. 66,000<br>(b) Rs. 165,000</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only (b)"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only (a)"
+    },
+    {
+     "id": "C",
+     "textHtml": "Neither (a) nor (b)"
+    },
+    {
+     "id": "D",
+     "textHtml": "Both (a) and (b)"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Divide each funding by 1000 and factorise: 390 = 2·3·5·13, 210 = 2·3·5·7, 165 = 3·5·11, 77 = 7·11, 66 = 2·3·11.</p><p>How many candidates each value reaches: 13 &#8594; one (390); 7 &#8594; two; 2, 5, 11 &#8594; three; 3 &#8594; four.</p><ul><li>Adhara gave a token to Pragnyaa only, so <strong>Adhara = 13</strong> and <strong>Pragnyaa = 390</strong>.</li><li>Rasheeda got the most tokens (4), so <strong>Rasheeda = 210</strong>.</li><li>Fathima gave to four candidates (all except Qahira), so <strong>Fathima = 3</strong> and Qahira is the one without a 3 among the rest: <strong>Qahira = 77</strong>.</li><li>Rasheeda (2, 3, 5, 7) got nothing from Esther, so Esther's value is 11 (13 is Adhara's): <strong>Esther = 11</strong>.</li><li>Dhanavi gave Qahira (7·11) a token, so <strong>Dhanavi = 7</strong>. Bithi and Chhaya are 2 and 5 in some order.</li></ul><p>Smera and Tantra are 165 and 66. Bithi gave to Smera: if <strong>Bithi = 2</strong>, Smera = 66, Tantra = 165, Chhaya = 5; if <strong>Bithi = 5</strong>, Smera = 165, Tantra = 66, Chhaya = 2. Both cases fit every condition.</p><p>Tantra is Rs.165,000 when Bithi = 2 and Rs.66,000 when Bithi = 5. Both are possible: <strong>Both (a) and (b)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "TITA",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sets and Venn",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many boys are there in the class?</p>",
+   "answer": "50",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let there be b boys. Boys interested in a 2-day event = 0.6b, and 70% of them are neither singers nor dancers, so 0.42b is a whole number, which makes <strong>b a multiple of 50</strong>. The other 30% (0.18b) are singers or dancers, and there are only 4 + 6 = 10 male singers and dancers, so 0.18b &#8804; 10, b &#8804; 55. Hence <strong>b = 50</strong>: 40 boys for 1-day, 30 for 2-day (21 plain, 9 singers/dancers).</p><p>No girl is interested in 3 days, so the 2 dancers in the 3-day group are boys. All 4 male singers are in the 3-day (hence 2-day) group, so the 9 male singers/dancers in the 2-day group are <strong>4 singers + 5 male dancers</strong>.</p><p>Let g = girls interested in 2 days (some, but not all 15). 60% of them are plain, so g is a multiple of 5 and 0.4g girls are singers/dancers. Fact 5: (4 + f<sub>s</sub>) = (5 + f<sub>d</sub>) + 1, where f<sub>s</sub> &#8804; 2 and f<sub>d</sub> are female singers and dancers in the 2-day group. So f<sub>s</sub> = 2 + f<sub>d</sub>, giving <strong>f<sub>s</sub> = 2, f<sub>d</sub> = 0</strong>. Then 0.4g = 2, so <strong>g = 5</strong>.</p><p>2-day: 30 boys + 5 girls = 35 out of 65. The 6th male dancer is in the 1-day group or not; that cannot be fixed.</p><p>Boys = <strong>50</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sets and Venn",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following can be determined from the given information?</p><p>I. The number of boys who are interested in attending a 1-day event and are neither dancers nor singers.<br>II. The number of female dancers who are interested in attending a 1-day event.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Neither I nor II"
+    },
+    {
+     "id": "B",
+     "textHtml": "Both I and II"
+    },
+    {
+     "id": "C",
+     "textHtml": "Only I"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only II"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let there be b boys. Boys interested in a 2-day event = 0.6b, and 70% of them are neither singers nor dancers, so 0.42b is a whole number, which makes <strong>b a multiple of 50</strong>. The other 30% (0.18b) are singers or dancers, and there are only 4 + 6 = 10 male singers and dancers, so 0.18b &#8804; 10, b &#8804; 55. Hence <strong>b = 50</strong>: 40 boys for 1-day, 30 for 2-day (21 plain, 9 singers/dancers).</p><p>No girl is interested in 3 days, so the 2 dancers in the 3-day group are boys. All 4 male singers are in the 3-day (hence 2-day) group, so the 9 male singers/dancers in the 2-day group are <strong>4 singers + 5 male dancers</strong>.</p><p>Let g = girls interested in 2 days (some, but not all 15). 60% of them are plain, so g is a multiple of 5 and 0.4g girls are singers/dancers. Fact 5: (4 + f<sub>s</sub>) = (5 + f<sub>d</sub>) + 1, where f<sub>s</sub> &#8804; 2 and f<sub>d</sub> are female singers and dancers in the 2-day group. So f<sub>s</sub> = 2 + f<sub>d</sub>, giving <strong>f<sub>s</sub> = 2, f<sub>d</sub> = 0</strong>. Then 0.4g = 2, so <strong>g = 5</strong>.</p><p>2-day: 30 boys + 5 girls = 35 out of 65. The 6th male dancer is in the 1-day group or not; that cannot be fixed.</p><p>I: 40 boys are in the 1-day group, including 4 male singers and 5 or 6 male dancers (the 6th is undecided), so the count of plain boys is 31 or 30. Not determinable.</p><p>II: every girl is interested in the 1-day event, so all 4 female dancers are. Determinable. <strong>Only II</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sets and Venn",
+   "difficulty": "medium",
+   "stemHtml": "<p>What fraction of the class are interested in attending a 2-day event?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "7/13"
+    },
+    {
+     "id": "B",
+     "textHtml": "2/3"
+    },
+    {
+     "id": "C",
+     "textHtml": "9/13"
+    },
+    {
+     "id": "D",
+     "textHtml": "7/10"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let there be b boys. Boys interested in a 2-day event = 0.6b, and 70% of them are neither singers nor dancers, so 0.42b is a whole number, which makes <strong>b a multiple of 50</strong>. The other 30% (0.18b) are singers or dancers, and there are only 4 + 6 = 10 male singers and dancers, so 0.18b &#8804; 10, b &#8804; 55. Hence <strong>b = 50</strong>: 40 boys for 1-day, 30 for 2-day (21 plain, 9 singers/dancers).</p><p>No girl is interested in 3 days, so the 2 dancers in the 3-day group are boys. All 4 male singers are in the 3-day (hence 2-day) group, so the 9 male singers/dancers in the 2-day group are <strong>4 singers + 5 male dancers</strong>.</p><p>Let g = girls interested in 2 days (some, but not all 15). 60% of them are plain, so g is a multiple of 5 and 0.4g girls are singers/dancers. Fact 5: (4 + f<sub>s</sub>) = (5 + f<sub>d</sub>) + 1, where f<sub>s</sub> &#8804; 2 and f<sub>d</sub> are female singers and dancers in the 2-day group. So f<sub>s</sub> = 2 + f<sub>d</sub>, giving <strong>f<sub>s</sub> = 2, f<sub>d</sub> = 0</strong>. Then 0.4g = 2, so <strong>g = 5</strong>.</p><p>2-day: 30 boys + 5 girls = 35 out of 65. The 6th male dancer is in the 1-day group or not; that cannot be fixed.</p><p>(30 + 5)/(50 + 15) = 35/65 = <strong>7/13</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sets and Venn",
+   "difficulty": "medium",
+   "stemHtml": "<p>What BEST can be concluded about the number of male dancers who are interested in attending a 1-day event?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "4 or 6"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "5 or 6"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let there be b boys. Boys interested in a 2-day event = 0.6b, and 70% of them are neither singers nor dancers, so 0.42b is a whole number, which makes <strong>b a multiple of 50</strong>. The other 30% (0.18b) are singers or dancers, and there are only 4 + 6 = 10 male singers and dancers, so 0.18b &#8804; 10, b &#8804; 55. Hence <strong>b = 50</strong>: 40 boys for 1-day, 30 for 2-day (21 plain, 9 singers/dancers).</p><p>No girl is interested in 3 days, so the 2 dancers in the 3-day group are boys. All 4 male singers are in the 3-day (hence 2-day) group, so the 9 male singers/dancers in the 2-day group are <strong>4 singers + 5 male dancers</strong>.</p><p>Let g = girls interested in 2 days (some, but not all 15). 60% of them are plain, so g is a multiple of 5 and 0.4g girls are singers/dancers. Fact 5: (4 + f<sub>s</sub>) = (5 + f<sub>d</sub>) + 1, where f<sub>s</sub> &#8804; 2 and f<sub>d</sub> are female singers and dancers in the 2-day group. So f<sub>s</sub> = 2 + f<sub>d</sub>, giving <strong>f<sub>s</sub> = 2, f<sub>d</sub> = 0</strong>. Then 0.4g = 2, so <strong>g = 5</strong>.</p><p>2-day: 30 boys + 5 girls = 35 out of 65. The 6th male dancer is in the 1-day group or not; that cannot be fixed.</p><p>5 male dancers are in the 2-day group (so also the 1-day group). The 6th male dancer may or may not be among the 40 boys interested in 1 day. So the number is <strong>5 or 6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Sets and Venn",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many female dancers are interested in attending a 2-day event?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "0"
+    },
+    {
+     "id": "D",
+     "textHtml": "Cannot be determined"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let there be b boys. Boys interested in a 2-day event = 0.6b, and 70% of them are neither singers nor dancers, so 0.42b is a whole number, which makes <strong>b a multiple of 50</strong>. The other 30% (0.18b) are singers or dancers, and there are only 4 + 6 = 10 male singers and dancers, so 0.18b &#8804; 10, b &#8804; 55. Hence <strong>b = 50</strong>: 40 boys for 1-day, 30 for 2-day (21 plain, 9 singers/dancers).</p><p>No girl is interested in 3 days, so the 2 dancers in the 3-day group are boys. All 4 male singers are in the 3-day (hence 2-day) group, so the 9 male singers/dancers in the 2-day group are <strong>4 singers + 5 male dancers</strong>.</p><p>Let g = girls interested in 2 days (some, but not all 15). 60% of them are plain, so g is a multiple of 5 and 0.4g girls are singers/dancers. Fact 5: (4 + f<sub>s</sub>) = (5 + f<sub>d</sub>) + 1, where f<sub>s</sub> &#8804; 2 and f<sub>d</sub> are female singers and dancers in the 2-day group. So f<sub>s</sub> = 2 + f<sub>d</sub>, giving <strong>f<sub>s</sub> = 2, f<sub>d</sub> = 0</strong>. Then 0.4g = 2, so <strong>g = 5</strong>.</p><p>2-day: 30 boys + 5 girls = 35 out of 65. The 6th male dancer is in the 1-day group or not; that cannot be fixed.</p><p>From fact 5, f<sub>d</sub> = <strong>0</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Networks and schedules",
+   "difficulty": "easy",
+   "stemHtml": "<p>If Hari is ready to board a train at 8:05 am from station M, then when is the earliest that he can reach station N?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "9:06 am"
+    },
+    {
+     "id": "B",
+     "textHtml": "9:13 am"
+    },
+    {
+     "id": "C",
+     "textHtml": "9:11 am"
+    },
+    {
+     "id": "D",
+     "textHtml": "9:01 am"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Reading the map.</strong> Ordinary stations between stops: A&#8211;R 2, R&#8211;T 3, T&#8211;B 2 (same on C&#8211;S&#8211;V&#8211;D); M&#8211;R 3, R&#8211;S 9, S&#8211;N 5 (same on P&#8211;T&#8211;V&#8211;Q).</p><p>Leg time = 2 min per gap (E&#8211;W) or 3 min per gap (N&#8211;S), + 1 min per ordinary station, + 2 min per junction passed. Useful timings:</p><ul><li>E&#8211;W terminal &#8594; first junction (M&#8594;R, P&#8594;T): 4 gaps × 2 + 3 = 11 min; the train leaves the junction at +13.</li><li>Between junctions on E&#8211;W (R&#8594;S, T&#8594;V): 10 gaps × 2 + 9 = 29 min. Junction &#8594; N or Q: 6 × 2 + 5 = 17 min.</li><li>N&#8211;S terminal &#8594; first junction (A&#8594;R, B&#8594;T, C&#8594;S, D&#8594;V): 3 gaps × 3 + 2 = 11 min, leaving at +13. Between junctions (R&#8594;T, S&#8594;V): 4 × 3 + 3 = 15 min.</li><li>Full trips: E&#8211;W line 61 min; N&#8211;S line 41 min.</li></ul><p>Trains leave M every 10 min from 6:00, so the next one is at <strong>8:10</strong>. M to N is the whole E&#8211;W line: 20 gaps × 2 = 40, 17 ordinary stations × 1 = 17, junctions R and S × 2 = 4, total 61 min. Arrival: 8:10 + 61 min = <strong>9:11 am</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Networks and schedules",
+   "difficulty": "hard",
+   "stemHtml": "<p>If Priya is ready to board a train at 10:25 am from station T, then when is the earliest that she can reach station S?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "11:12 am"
+    },
+    {
+     "id": "B",
+     "textHtml": "11:28 am"
+    },
+    {
+     "id": "C",
+     "textHtml": "11:22 am"
+    },
+    {
+     "id": "D",
+     "textHtml": "11:07 am"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Reading the map.</strong> Ordinary stations between stops: A&#8211;R 2, R&#8211;T 3, T&#8211;B 2 (same on C&#8211;S&#8211;V&#8211;D); M&#8211;R 3, R&#8211;S 9, S&#8211;N 5 (same on P&#8211;T&#8211;V&#8211;Q).</p><p>Leg time = 2 min per gap (E&#8211;W) or 3 min per gap (N&#8211;S), + 1 min per ordinary station, + 2 min per junction passed. Useful timings:</p><ul><li>E&#8211;W terminal &#8594; first junction (M&#8594;R, P&#8594;T): 4 gaps × 2 + 3 = 11 min; the train leaves the junction at +13.</li><li>Between junctions on E&#8211;W (R&#8594;S, T&#8594;V): 10 gaps × 2 + 9 = 29 min. Junction &#8594; N or Q: 6 × 2 + 5 = 17 min.</li><li>N&#8211;S terminal &#8594; first junction (A&#8594;R, B&#8594;T, C&#8594;S, D&#8594;V): 3 gaps × 3 + 2 = 11 min, leaving at +13. Between junctions (R&#8594;T, S&#8594;V): 4 × 3 + 3 = 15 min.</li><li>Full trips: E&#8211;W line 61 min; N&#8211;S line 41 min.</li></ul><p><strong>Route T &#8594; R &#8594; S.</strong> Northbound trains leave B at :00, :15, :30, :45, reach T 11 min later and leave at +13. The 10:15 train reaches T at 10:26 and leaves at 10:28. T&#8594;R takes 15 min, so she is at R at <strong>10:43</strong>. Eastbound trains from M reach R at :x1 and leave at <strong>:x3</strong>; the 10:30 train from M leaves R exactly at 10:43, so she catches it (the exact-time rule). R&#8594;S takes 29 min: arrival <strong>11:12</strong>.</p><p><strong>Route T &#8594; V &#8594; S.</strong> Eastbound trains from P leave T at :x3: she takes the 10:33, reaches V at 11:02, and the next northbound train from D leaves V at 11:13 (D trains leave V at :13, :28, :43, :58), reaching S at 11:28. Slower.</p><p>Earliest: <strong>11:12 am</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Networks and schedules",
+   "difficulty": "hard",
+   "stemHtml": "<p>Haripriya is expected to reach station S late. What is the latest time by which she must be ready to board at station S if she must reach station B before 1 am via station R?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "11:39 pm"
+    },
+    {
+     "id": "B",
+     "textHtml": "11:43 pm"
+    },
+    {
+     "id": "C",
+     "textHtml": "11:49 am"
+    },
+    {
+     "id": "D",
+     "textHtml": "11:35 pm"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Reading the map.</strong> Ordinary stations between stops: A&#8211;R 2, R&#8211;T 3, T&#8211;B 2 (same on C&#8211;S&#8211;V&#8211;D); M&#8211;R 3, R&#8211;S 9, S&#8211;N 5 (same on P&#8211;T&#8211;V&#8211;Q).</p><p>Leg time = 2 min per gap (E&#8211;W) or 3 min per gap (N&#8211;S), + 1 min per ordinary station, + 2 min per junction passed. Useful timings:</p><ul><li>E&#8211;W terminal &#8594; first junction (M&#8594;R, P&#8594;T): 4 gaps × 2 + 3 = 11 min; the train leaves the junction at +13.</li><li>Between junctions on E&#8211;W (R&#8594;S, T&#8594;V): 10 gaps × 2 + 9 = 29 min. Junction &#8594; N or Q: 6 × 2 + 5 = 17 min.</li><li>N&#8211;S terminal &#8594; first junction (A&#8594;R, B&#8594;T, C&#8594;S, D&#8594;V): 3 gaps × 3 + 2 = 11 min, leaving at +13. Between junctions (R&#8594;T, S&#8594;V): 4 × 3 + 3 = 15 min.</li><li>Full trips: E&#8211;W line 61 min; N&#8211;S line 41 min.</li></ul><p><strong>Work backwards from the last southbound train.</strong> The last train leaves A at 12:00 midnight, reaches R at 12:11 and leaves R at 12:13. R&#8594;B is 7 gaps × 3 + 3 + 2 (at T) + 2 = 28 min, arriving 12:41 am, before 1 am. So she must be at R by <strong>12:13 am</strong>.</p><p>Westbound trains from N reach S after 17 min, leave S at +19, and reach R after another 29 min (+48 from N). We need N-departure + 48 &#8804; 12:13, so the N departure must be &#8804; 11:25 pm; the last such train is the <strong>11:20 pm</strong> from N. It leaves S at 11:20 + 19 = <strong>11:39 pm</strong> and reaches R at 12:08. The 11:30 train would reach R at 12:18, too late.</p><p>Latest time at S: <strong>11:39 pm</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Networks and schedules",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the minimum number of trains that are required to provide the service on the AB line (considering both north and south directions)?</p>",
+   "answer": "8",
+   "solutionHtml": "<p><strong>Reading the map.</strong> Ordinary stations between stops: A&#8211;R 2, R&#8211;T 3, T&#8211;B 2 (same on C&#8211;S&#8211;V&#8211;D); M&#8211;R 3, R&#8211;S 9, S&#8211;N 5 (same on P&#8211;T&#8211;V&#8211;Q).</p><p>Leg time = 2 min per gap (E&#8211;W) or 3 min per gap (N&#8211;S), + 1 min per ordinary station, + 2 min per junction passed. Useful timings:</p><ul><li>E&#8211;W terminal &#8594; first junction (M&#8594;R, P&#8594;T): 4 gaps × 2 + 3 = 11 min; the train leaves the junction at +13.</li><li>Between junctions on E&#8211;W (R&#8594;S, T&#8594;V): 10 gaps × 2 + 9 = 29 min. Junction &#8594; N or Q: 6 × 2 + 5 = 17 min.</li><li>N&#8211;S terminal &#8594; first junction (A&#8594;R, B&#8594;T, C&#8594;S, D&#8594;V): 3 gaps × 3 + 2 = 11 min, leaving at +13. Between junctions (R&#8594;T, S&#8594;V): 4 × 3 + 3 = 15 min.</li><li>Full trips: E&#8211;W line 61 min; N&#8211;S line 41 min.</li></ul><p>A one-way trip on AB takes 41 min (10 gaps × 3 = 30, 7 ordinary stations × 1 = 7, R and T × 2 = 4). With 15 min of rest, a train that leaves A at 6:00 can leave B no earlier than 6:56, so it takes the <strong>7:00</strong> slot. One round trip therefore takes 2 hours.</p><p>Departures from A at 6:00, 6:15, 6:30, 6:45 need 4 different trains; from 7:00 the trains arriving from B (which left B at 6:00, 6:15, &#8230;) take over the slots. Likewise B needs 4 trains. Total = <strong>8</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Data Interpretation",
+   "subtopic": "Networks and schedules",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the minimum number of trains that are required to provide the service in this city?</p>",
+   "answer": "48",
+   "solutionHtml": "<p><strong>Reading the map.</strong> Ordinary stations between stops: A&#8211;R 2, R&#8211;T 3, T&#8211;B 2 (same on C&#8211;S&#8211;V&#8211;D); M&#8211;R 3, R&#8211;S 9, S&#8211;N 5 (same on P&#8211;T&#8211;V&#8211;Q).</p><p>Leg time = 2 min per gap (E&#8211;W) or 3 min per gap (N&#8211;S), + 1 min per ordinary station, + 2 min per junction passed. Useful timings:</p><ul><li>E&#8211;W terminal &#8594; first junction (M&#8594;R, P&#8594;T): 4 gaps × 2 + 3 = 11 min; the train leaves the junction at +13.</li><li>Between junctions on E&#8211;W (R&#8594;S, T&#8594;V): 10 gaps × 2 + 9 = 29 min. Junction &#8594; N or Q: 6 × 2 + 5 = 17 min.</li><li>N&#8211;S terminal &#8594; first junction (A&#8594;R, B&#8594;T, C&#8594;S, D&#8594;V): 3 gaps × 3 + 2 = 11 min, leaving at +13. Between junctions (R&#8594;T, S&#8594;V): 4 × 3 + 3 = 15 min.</li><li>Full trips: E&#8211;W line 61 min; N&#8211;S line 41 min.</li></ul><p><strong>N&#8211;S lines (AB, CD):</strong> trip 41 min + 15 min rest = 56 min, so the next 15-min slot is 60 min after departure. Each terminal needs its own trains for 6:00&#8211;6:45 (4 trains), so 8 per line: 16.</p><p><strong>E&#8211;W lines (MN, PQ):</strong> trip 61 min (40 travel + 17 + 4) + 15 rest = 76 min, so the next 10-min slot is 80 min after departure. A train leaving N at 6:00 can leave M first at 7:20, so M needs its own trains for 6:00, 6:10, &#8230;, 7:10: 8 trains. N needs 8 too, so 16 per line: 32.</p><p>Trains cannot switch between E&#8211;W and N&#8211;S, so the total = 16 + 32 = <strong>48</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

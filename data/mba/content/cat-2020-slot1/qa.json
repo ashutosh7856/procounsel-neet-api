@@ -1,0 +1,771 @@
+{
+ "sets": [],
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Pigeonhole principle",
+   "difficulty": "easy",
+   "stemHtml": "<p>Among 100 students, x<sub>1</sub> have birthdays in January, x<sub>2</sub> have birthday in February, and so on. If x<sub>0</sub> = max (x<sub>1</sub>, x<sub>2</sub>, …, x<sub>12</sub>), then the smallest possible value of x<sub>0</sub> is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "12"
+    },
+    {
+     "id": "B",
+     "textHtml": "9"
+    },
+    {
+     "id": "C",
+     "textHtml": "8"
+    },
+    {
+     "id": "D",
+     "textHtml": "10"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>12 months share 100 birthdays. If every month had at most 8, the total would be at most 96 &lt; 100, so some month has at least 9: x<sub>0</sub> ≥ ⌈100/12⌉ = 9.</p><p>9 is achievable: eight months with 8 and four months with 9 give 64 + 36 = 100. Smallest x<sub>0</sub> = <strong>9</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Work backwards",
+   "difficulty": "easy",
+   "stemHtml": "<p>A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially?</p>",
+   "answer": "62",
+   "solutionHtml": "<p><strong>Work backwards.</strong> If he has S before a child, he is left with S − (S/2 + 1) = S/2 − 1. So S = 2(left + 1).</p><p>After the 5th child 0 is left → before the 5th: 2. Then before the 4th: 6, 3rd: 14, 2nd: 30, 1st: <strong>62</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>Veeru invested Rs 10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs 8000 at 10% simple annual interest. How many years after Veeru’s investment, will their balances, i.e., principal plus accumulated interest, be equal?</p>",
+   "answer": "12",
+   "solutionHtml": "<p>Let t be the years after Veeru's investment. Veeru: 10000 + 500t. Joy (invested for t − 2 years): 8000 + 800(t − 2) = 6400 + 800t.</p><p>10000 + 500t = 6400 + 800t → 300t = 3600 → t = <strong>12</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>If y is a negative number such that 2<sup>y<sup>2</sup> log<sub>3</sub>5</sup> = 5<sup>log<sub>2</sub>3</sup>, then y equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−log<sub>2</sub>(1/5)"
+    },
+    {
+     "id": "B",
+     "textHtml": "log<sub>2</sub>(1/5)"
+    },
+    {
+     "id": "C",
+     "textHtml": "−log<sub>2</sub>(1/3)"
+    },
+    {
+     "id": "D",
+     "textHtml": "log<sub>2</sub>(1/3)"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Take log base 2: y<sup>2</sup> log<sub>3</sub>5 = log<sub>2</sub>3 × log<sub>2</sub>5.</p><p>Since log<sub>3</sub>5 = log<sub>2</sub>5 / log<sub>2</sub>3, this gives y<sup>2</sup> (log<sub>2</sub>5 / log<sub>2</sub>3) = log<sub>2</sub>3 × log<sub>2</sub>5, so <strong>y<sup>2</sup> = (log<sub>2</sub>3)<sup>2</sup></strong>.</p><p>y is negative, so y = −log<sub>2</sub>3 = log<sub>2</sub>(1/3).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "easy",
+   "stemHtml": "<p>Leaving home at the same time, Amal reaches office at 10:15 am if he travels at 8 km/hr, and at 9:40 am if he travels at 15 km/hr. Leaving home at 9:10, at what speed, in km/hr, must he travel so as to reach office exactly at 10 am?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "14"
+    },
+    {
+     "id": "B",
+     "textHtml": "11"
+    },
+    {
+     "id": "C",
+     "textHtml": "13"
+    },
+    {
+     "id": "D",
+     "textHtml": "12"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Same distance d, times differ by 35 min: d/8 − d/15 = 35/60 → d × 7/120 = 7/12 → d = 10 km.</p><p>Leaving at 9:10 to arrive at 10:00 gives 50 min = 5/6 h, so speed = 10 ÷ 5/6 = <strong>12 km/h</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "medium",
+   "stemHtml": "<p>A train travelled at one-thirds of its usual speed, and hence reached the destination 30 minutes after the scheduled time. On its return journey, the train initially travelled at its usual speed for 5 minutes but then stopped for 4 minutes for an emergency. The percentage by which the train must now increase its usual speed so as to reach the destination at the scheduled time, is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "58"
+    },
+    {
+     "id": "B",
+     "textHtml": "61"
+    },
+    {
+     "id": "C",
+     "textHtml": "50"
+    },
+    {
+     "id": "D",
+     "textHtml": "67"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>At 1/3 speed the time is 3T, so 3T − T = 30 → usual time T = 15 min.</p><p>Return: 5 min at usual speed covers 1/3 of the distance, then a 4-min stop. 9 min are gone, 6 min remain for the other 2/3, which normally takes 10 min.</p><p>New speed / usual speed = 10/6 = 5/3, an increase of 66.7%, nearest <strong>67</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Equations (bounds)",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of real-valued solutions of the equation 2<sup>x</sup> + 2<sup>−x</sup> = 2 − (x − 2)<sup>2</sup> is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1"
+    },
+    {
+     "id": "B",
+     "textHtml": "0"
+    },
+    {
+     "id": "C",
+     "textHtml": "Infinite"
+    },
+    {
+     "id": "D",
+     "textHtml": "2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Compare ranges.</strong> By AM ≥ GM, 2<sup>x</sup> + 2<sup>−x</sup> ≥ 2, with equality only at x = 0.</p><p>The right side 2 − (x − 2)<sup>2</sup> ≤ 2, with equality only at x = 2.</p><p>Both sides would need to equal 2 at the same x, which cannot happen. Number of solutions = <strong>0</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures",
+   "difficulty": "easy",
+   "stemHtml": "<p>A solution, of volume 40 litres, has dye and water in the proportion 2 : 3. Water is added to the solution to change this proportion to 2 : 5. If one-fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining solution to bring the proportion back to 2 : 3?</p>",
+   "answer": "8",
+   "solutionHtml": "<p>Dye 16 L, water 24 L. For 2 : 5 the water becomes 40 L (dye fixed at 16), total 56 L.</p><p>Remove 1/4: dye 12 L, water 30 L. For 2 : 3 we need dye = 30 × 2/3 = 20 L, so add <strong>8</strong> litres.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Linear equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>Let A, B and C be three positive integers such that the sum of A and the mean of B and C is 5. In addition, the sum of B and the mean of A and C is 7. Then the sum of A and B is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "4"
+    },
+    {
+     "id": "C",
+     "textHtml": "7"
+    },
+    {
+     "id": "D",
+     "textHtml": "6"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>2A + B + C = 10 and A + 2B + C = 14. Subtract: B − A = 4.</p><p>Try A = 1, B = 5: 2 + 5 + C = 10 → C = 3 ✓. A = 2, B = 6 gives C = 0, which is not positive. So A + B = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Counting digits",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many 3-digit numbers are there, for which the product of their digits is more than 2 but less than 7?</p>",
+   "answer": "21",
+   "solutionHtml": "<p>Product of digits is 3, 4, 5 or 6 (no digit can be 0).</p><p>3: {1,1,3} → 3 numbers. 4: {1,1,4} → 3, {1,2,2} → 3. 5: {1,1,5} → 3. 6: {1,1,6} → 3, {1,2,3} → 6.</p><p>Total = 3 + 6 + 3 + 9 = <strong>21</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Relative speed",
+   "difficulty": "easy",
+   "stemHtml": "<p>A straight road connects points A and B. Car 1 travels from A to B and Car 2 travels from B to A, both leaving at the same time. After meeting each other, they take 45 minutes and 20 minutes, respectively, to complete their journeys. If Car 1 travels at the speed of 60 km/hr, then the speed of Car 2, in km/hr, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "100"
+    },
+    {
+     "id": "B",
+     "textHtml": "80"
+    },
+    {
+     "id": "C",
+     "textHtml": "90"
+    },
+    {
+     "id": "D",
+     "textHtml": "70"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Meeting-point rule:</strong> v<sub>1</sub>/v<sub>2</sub> = √(t<sub>2</sub>/t<sub>1</sub>), where t<sub>1</sub>, t<sub>2</sub> are the times taken after meeting.</p><p>v<sub>2</sub>/60 = √(45/20) = 3/2 → v<sub>2</sub> = <strong>90 km/h</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "medium",
+   "stemHtml": "<p>If log<sub>4</sub>5 = (log<sub>4</sub>y)(log<sub>6</sub>√5), then y equals</p>",
+   "answer": "36",
+   "solutionHtml": "<p>Write everything with natural logs: ln5/ln4 = (ln y/ln4) × (½ ln5 / ln6).</p><p>Cancel ln5/ln4: 1 = ln y / (2 ln6) → ln y = ln36 → y = <strong>36</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration (cone)",
+   "difficulty": "easy",
+   "stemHtml": "<p>A solid right circular cone of height 27 cm is cut into pieces along a plane parallel to its base at a height of 18 cm from the base. If the difference in volume of the two pieces is 225 cc, the volume, in cc, of the original cone is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "243"
+    },
+    {
+     "id": "B",
+     "textHtml": "232"
+    },
+    {
+     "id": "C",
+     "textHtml": "256"
+    },
+    {
+     "id": "D",
+     "textHtml": "264"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>The cut is 18 cm above the base, so the small top cone has height 9 = 1/3 of 27, and volume V/27. The frustum has 26V/27.</p><p>Difference = 25V/27 = 225 → V = <strong>243</strong> cc.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Trains",
+   "difficulty": "medium",
+   "stemHtml": "<p>Two persons are walking beside a railway track at respective speeds of 2 and 4 km per hour in the same direction. A train came from behind them and crossed them in 90 and 100 seconds, respectively. The time, in seconds, taken by the train to cross an electric post is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "78"
+    },
+    {
+     "id": "B",
+     "textHtml": "87"
+    },
+    {
+     "id": "C",
+     "textHtml": "75"
+    },
+    {
+     "id": "D",
+     "textHtml": "82"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Let the train speed be v km/h and its length L. Relative speeds are v − 2 and v − 4: L = (v − 2) × 90 = (v − 4) × 100 (in km/h × s).</p><p>90v − 180 = 100v − 400 → v = 22 km/h. L = 20 × 90/3600 = 0.5 km.</p><p>Time to pass a post = 0.5/22 h = 1800/22 ≈ 81.8 s → <strong>82</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Circles & quadrilaterals",
+   "difficulty": "easy",
+   "stemHtml": "<p>A circle is inscribed in a rhombus with diagonals 12 cm and 16 cm. The ratio of the area of circle to the area of rhombus is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "(2π)/15"
+    },
+    {
+     "id": "B",
+     "textHtml": "(3π)/25"
+    },
+    {
+     "id": "C",
+     "textHtml": "(6π)/25"
+    },
+    {
+     "id": "D",
+     "textHtml": "(5π)/18"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Half-diagonals 6 and 8 give side 10 and area ½ × 12 × 16 = 96.</p><p>Inradius = altitude of the right triangle from the centre to a side = 6 × 8 / 10 = 4.8.</p><p>Ratio = π(4.8)<sup>2</sup>/96 = 23.04π/96 = <strong>6π/25</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Functions (symmetry)",
+   "difficulty": "easy",
+   "stemHtml": "<p>If f(5 + x) = f(5- x) for every real x, and f(x) = 0 has four distinct real roots, then the sum of these roots is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10"
+    },
+    {
+     "id": "B",
+     "textHtml": "0"
+    },
+    {
+     "id": "C",
+     "textHtml": "40"
+    },
+    {
+     "id": "D",
+     "textHtml": "20"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>f(5 + x) = f(5 − x) means the graph is symmetric about x = 5, so roots come in pairs r and 10 − r, each pair summing to 10.</p><p>If 5 were a root, the other three roots would have to pair up, which is impossible; so the four distinct roots form two such pairs, and their sum = <strong>20</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Indices & surds",
+   "difficulty": "medium",
+   "stemHtml": "<p>If x = (4096)<sup>7 + 4√3</sup>, then which of the following equals 64?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "x<sup>7</sup>/x<sup>2√3</sup>"
+    },
+    {
+     "id": "B",
+     "textHtml": "x<sup>7/2</sup>/x<sup>4/√3</sup>"
+    },
+    {
+     "id": "C",
+     "textHtml": "x<sup>7/2</sup>/x<sup>2√3</sup>"
+    },
+    {
+     "id": "D",
+     "textHtml": "x<sup>7</sup>/x<sup>4√3</sup>"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>4096 = 64<sup>2</sup>, so x = 64<sup>2(7 + 4√3)</sup> and 64 = x<sup>1/(2(7 + 4√3))</sup>.</p><p><strong>Rationalise:</strong> 1/(7 + 4√3) = 7 − 4√3 (as (7 + 4√3)(7 − 4√3) = 1). So 64 = x<sup>(7 − 4√3)/2</sup> = x<sup>7/2 − 2√3</sup> = x<sup>7/2</sup>/x<sup>2√3</sup>, which is option C.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration (circle in rectangle)",
+   "difficulty": "medium",
+   "stemHtml": "<p>On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3√π (5 + 12/π)"
+    },
+    {
+     "id": "B",
+     "textHtml": "3√π (5/2 + 6/π)"
+    },
+    {
+     "id": "C",
+     "textHtml": "5√π (3 + 9/π)"
+    },
+    {
+     "id": "D",
+     "textHtml": "4√π (3 + 9/π)"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>Unpainted = 2/3 of painted, so painted = 3/5 of 135 = 81 = πr<sup>2</sup> → r = 9/√π.</p><p>The circle touches two opposite sides, so the shorter side = 2r = 18/√π and the other side = 135 ÷ (18/√π) = 7.5√π.</p><p>Perimeter = 2(18/√π + 7.5√π) = 15√π + 36/√π = <strong>3√π(5 + 12/π)</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "easy",
+   "stemHtml": "<p>The number of distinct real roots of the equation (x + 1/x)<sup>2</sup> − 3(x + 1/x) + 2 = 0 equals</p>",
+   "answer": "1",
+   "solutionHtml": "<p>Put t = x + 1/x: t<sup>2</sup> − 3t + 2 = 0 → t = 1 or 2.</p><p>For real x, |x + 1/x| ≥ 2, so t = 1 is impossible. t = 2 → x<sup>2</sup> − 2x + 1 = 0 → x = 1.</p><p>Distinct real roots: <strong>1</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Factors",
+   "difficulty": "medium",
+   "stemHtml": "<p>If a, b and c are positive integers such that ab = 432, bc = 96 and c &lt; 9, then the smallest possible value of a + b + c is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "59"
+    },
+    {
+     "id": "B",
+     "textHtml": "49"
+    },
+    {
+     "id": "C",
+     "textHtml": "56"
+    },
+    {
+     "id": "D",
+     "textHtml": "46"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>c must divide 96 and be &lt; 9: c ∈ {1, 2, 3, 4, 6, 8}, b = 96/c, and b must divide 432.</p><p>c = 8: b = 12, a = 36 → 56. c = 6: b = 16, a = 27 → 49. <strong>c = 4: b = 24, a = 18 → 46</strong>. c = 3: b = 32, 432/32 not an integer. c = 2: b = 48, a = 9 → 59. c = 1: b = 96, 432/96 not an integer.</p><p>Smallest sum = <strong>46</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Graphs & inequalities",
+   "difficulty": "medium",
+   "stemHtml": "<p>The area of the region satisfying the inequalities |x| - y ≤ 1, y ≥ 0 and y ≤ 1 is (in numerical value)</p>",
+   "answer": "3",
+   "solutionHtml": "<p>|x| − y ≤ 1 means |x| ≤ 1 + y. For each y from 0 to 1, x runs from −(1 + y) to 1 + y, a width of 2(1 + y).</p><p>The region is a trapezium with parallel sides 2 (at y = 0) and 4 (at y = 1) and height 1: area = ½ × (2 + 4) × 1 = <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "medium",
+   "stemHtml": "<p>In a group of people, 28% of the members are young while the rest are old. If 65% of the members are literates, and 25% of the literates are young, then the percentage of old people among the illiterates is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "59"
+    },
+    {
+     "id": "B",
+     "textHtml": "55"
+    },
+    {
+     "id": "C",
+     "textHtml": "66"
+    },
+    {
+     "id": "D",
+     "textHtml": "62"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Take 100 people: young 28, old 72. Literates 65, of whom young = 16.25, old = 48.75.</p><p>Illiterates = 35; old illiterates = 72 − 48.75 = 23.25. Percentage = 23.25/35 ≈ 66.4%, nearest <strong>66</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-23",
+   "section": "QA",
+   "number": 23,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Digits & averages",
+   "difficulty": "easy",
+   "stemHtml": "<p>The mean of all 4-digit even natural numbers of the form ‘aabb’, where a &gt; 0, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5050"
+    },
+    {
+     "id": "B",
+     "textHtml": "4864"
+    },
+    {
+     "id": "C",
+     "textHtml": "5544"
+    },
+    {
+     "id": "D",
+     "textHtml": "4466"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>aabb = 1100a + 11b, with a = 1…9 and b ∈ {0, 2, 4, 6, 8} (even), every pair allowed.</p><p>Mean = 1100 × mean(a) + 11 × mean(b) = 1100 × 5 + 11 × 4 = <strong>5544</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-24",
+   "section": "QA",
+   "number": 24,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Ratios / alloys",
+   "difficulty": "easy",
+   "stemHtml": "<p>An alloy is prepared by mixing three metals A, B and C in the proportion 3 : 4 : 7 by volume. Weights of the same volume of the metals A, B and C are in the ratio 5 : 2 : 6. In 130 kg of the alloy, the weight, in kg, of the metal C is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "48"
+    },
+    {
+     "id": "B",
+     "textHtml": "70"
+    },
+    {
+     "id": "C",
+     "textHtml": "84"
+    },
+    {
+     "id": "D",
+     "textHtml": "96"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Weight ∝ volume × density: A : B : C = 3×5 : 4×2 : 7×6 = 15 : 8 : 42 (total 65).</p><p>C = 42/65 × 130 = <strong>84 kg</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-25",
+   "section": "QA",
+   "number": 25,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "easy",
+   "stemHtml": "<p>A person spent Rs 50000 to purchase a desktop computer and a laptop computer. He sold the desktop at 20% profit and the laptop at 10% loss. If overall he made a 2% profit then the purchase price, in rupees, of the desktop is</p>",
+   "answer": "20000",
+   "solutionHtml": "<p>Let the desktop cost D. Then 0.2D − 0.1(50000 − D) = 0.02 × 50000 = 1000.</p><p>0.3D − 5000 = 1000 → D = <strong>20000</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-26",
+   "section": "QA",
+   "number": 26,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Equations (exponent = 1)",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many distinct positive integer-valued solutions exist to the equation (x<sup>2</sup> − 7x + 11)<sup>(x<sup>2</sup> − 13x + 42)</sup> = 1?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "6"
+    },
+    {
+     "id": "C",
+     "textHtml": "8"
+    },
+    {
+     "id": "D",
+     "textHtml": "2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>a<sup>b</sup> = 1 when (i) a = 1, (ii) a = −1 with b even, or (iii) b = 0 with a ≠ 0.</p><p>(i) x<sup>2</sup> − 7x + 11 = 1 → x = 2, 5.</p><p>(ii) x<sup>2</sup> − 7x + 11 = −1 → x = 3, 4; the exponents are 12 and 6, both even ✓.</p><p>(iii) x<sup>2</sup> − 13x + 42 = 0 → x = 6, 7; the bases are 5 and 11, both non-zero ✓.</p><p>Total <strong>6</strong> solutions.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

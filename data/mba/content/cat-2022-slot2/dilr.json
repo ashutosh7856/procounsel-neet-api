@@ -1,0 +1,649 @@
+{
+ "sets": [
+  {
+   "key": "S1",
+   "kind": "dilr_set",
+   "title": "Speciality supermarket products",
+   "contentHtml": "<p>A speciality supermarket sells 320 products. Each of these products was either a cosmetic product or a nutrition product. Each of these products was also either a foreign product or a domestic product. Each of these products had at least one of the two approvals – FDA or EU.</p><p>The following facts are also known:</p><ol><li>There were equal numbers of domestic and foreign products.</li><li>Half of the domestic products were FDA approved cosmetic products.</li><li>None of the foreign products had both the approvals, while 60 domestic products had both the approvals.</li><li>There were 140 nutrition products, half of them were foreign products.</li><li>There were 200 FDA approved products. 70 of them were foreign products and 120 of them were cosmetic products.</li></ol>"
+  },
+  {
+   "key": "S2",
+   "kind": "dilr_set",
+   "title": "Widget supplier routes",
+   "contentHtml": "<p>Every day a widget supplier supplies widgets from the warehouse (W) to four locations – Ahmednagar (A), Bikrampore (B), Chitrachak (C), and Deccan Park (D). The daily demand for widgets in each location is uncertain and independent of each other. Demands and corresponding probability values (in parenthesis) are given against each location (A, B, C, and D) in the figure below. For example, there is a 40% chance that the demand in Ahmednagar will be 50 units and a 60% chance that the demand will be 70 units. The lines in the figure connecting the locations and warehouse represent two-way roads connecting those places with the distances (in km) shown beside the line. The distances in both the directions along a road are equal. For example, the road from Ahmednagar to Bikrampore and the road from Bikrampore to Ahmednagar are both 6 km long.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2022-slot2/widget-network.png\" alt=\"Road network: A–B 6 km, B–C 4 km, C–D 6 km, D–A 8 km; warehouse W in the centre with roads W–A 5 km, W–B 10 km, W–C 12 km, W–D 2 km. Demands: A 50 (40%) or 70 (60%); B 40 (30%) or 60 (70%); C 70 (30%) or 100 (70%); D 30 (40%) or 50 (60%).\"></p><p>Every day the supplier gets the information about the demand values of the four locations and creates the travel route that starts from the warehouse and ends at a location after visiting all the locations exactly once. While making the route plan, the supplier goes to the locations in decreasing order of demand. If there is a tie for the choice of the next location, the supplier will go to the location closest to the current location. Also, while creating the route, the supplier can either follow the direct path (if available) from one location to another or can take the path via the warehouse. If both paths are available (direct and via warehouse), the supplier will choose the path with minimum distance.</p>",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2022-slot2/widget-network.png"
+   ]
+  },
+  {
+   "key": "S3",
+   "kind": "dilr_set",
+   "title": "Four companies: revenue, costs and employees",
+   "contentHtml": "<p>The two plots below show data for four companies code-named A, B, C, and D over three years - 2019, 2020, and 2021.</p><p>The first plot shows the revenues and costs incurred by the companies during these years. For example, in 2021, company C earned Rs.100 crores in revenue and spent Rs.30 crores. The profit of a company is defined as its revenue minus its costs.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2022-slot2/revenue-costs.png\" alt=\"Scatter plot of costs (Rs. crores, vertical axis 0–100) against revenue (Rs. crores, horizontal axis 0–120) for companies A, B, C and D in 2019 (triangles), 2020 (squares) and 2021 (circles).\"></p><p>The second plot shows the number of employees employed by the company (employee strength) at the start of each of these three years, as well as the number of new employees hired each year (new hires). For example, Company B had 250 employees at the start of 2021, and 30 new employees joined the company during the year.</p><p><img src=\"https://procounsel.co.in/mba/pyq/cat-2022-slot2/employees-hires.png\" alt=\"Scatter plot of new hires (vertical axis 0–50) against employee strength at the start of the year (horizontal axis 0–450) for companies A, B, C and D in 2019, 2020 and 2021.\"></p>",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2022-slot2/revenue-costs.png",
+    "https://procounsel.co.in/mba/pyq/cat-2022-slot2/employees-hires.png"
+   ]
+  },
+  {
+   "key": "S4",
+   "kind": "dilr_set",
+   "title": "TRICCEK salesmen",
+   "contentHtml": "<p>A few salesmen are employed to sell a product called TRICCEK among households in various housing complexes. On each day, a salesman is assigned to visit one housing complex. Once a salesman enters a housing complex, he can meet any number of households in the time available. However, if a household makes a complaint against the salesman, then he must leave the housing complex immediately and cannot meet any other household on that day. A household may buy any number of TRICCEK items or may not buy any item. The salesman needs to record the total number of TRICCEK items sold as well as the number of households met in each day. The success rate of a salesman for a day is defined as the ratio of the number of items sold to the number of households met on that day.</p><p>Some details about the performances of three salesmen - Tohri, Hokli and Lahur, on two particular days are given below.</p><ol><li>Over the two days, all three of them met the same total number of households, and each of them sold a total of 100 items.</li><li>On both days, Lahur met the same number of households and sold the same number of items.</li><li>Hokli could not sell any item on the second day because the first household he met on that day complained against him.</li><li>Tohri met 30 more households on the second day than on the first day.</li><li>Tohri’s success rate was twice that of Lahur’s on the first day, and it was 75% of Lahur’s on the second day.</li></ol>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams / grids",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many foreign products were FDA approved cosmetic products?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Grid.</strong> Domestic = Foreign = 160. Nutrition 140 (70 foreign, 70 domestic), so cosmetic 180 (90 + 90). Domestic FDA cosmetic = 80 (fact 2). FDA 200 = 70 foreign + 130 domestic; FDA cosmetic 120 = 80 domestic + <strong>40 foreign</strong>.</p><p>Foreign (no product has both): cosmetic 40 FDA-only + 50 EU-only; nutrition 30 FDA-only + 40 EU-only. Domestic: 130 FDA (60 both, 70 FDA-only) and 30 EU-only; cosmetic 80 FDA + 10 EU-only; nutrition 50 FDA + 20 EU-only. If x = domestic cosmetic products with both approvals, domestic nutrition with both = 60 − x.</p><p>FDA cosmetic products = 120, of which 80 are domestic (half of the 160 domestic products). Foreign FDA cosmetic = 120 − 80 = <strong>40</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams / grids",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many cosmetic products did not have FDA approval?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Cannot be determined"
+    },
+    {
+     "id": "B",
+     "textHtml": "10"
+    },
+    {
+     "id": "C",
+     "textHtml": "60"
+    },
+    {
+     "id": "D",
+     "textHtml": "50"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Grid.</strong> Domestic = Foreign = 160. Nutrition 140 (70 foreign, 70 domestic), so cosmetic 180 (90 + 90). Domestic FDA cosmetic = 80 (fact 2). FDA 200 = 70 foreign + 130 domestic; FDA cosmetic 120 = 80 domestic + <strong>40 foreign</strong>.</p><p>Foreign (no product has both): cosmetic 40 FDA-only + 50 EU-only; nutrition 30 FDA-only + 40 EU-only. Domestic: 130 FDA (60 both, 70 FDA-only) and 30 EU-only; cosmetic 80 FDA + 10 EU-only; nutrition 50 FDA + 20 EU-only. If x = domestic cosmetic products with both approvals, domestic nutrition with both = 60 − x.</p><p>Cosmetic products = 180, FDA-approved cosmetic = 120, so 180 − 120 = <strong>60</strong> have no FDA approval (10 domestic + 50 foreign).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams / grids",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which among the following options best represents the number of domestic cosmetic products that had both the approvals?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "At least 10 and at most 60"
+    },
+    {
+     "id": "B",
+     "textHtml": "At least 10 and at most 80"
+    },
+    {
+     "id": "C",
+     "textHtml": "At least 20 and at most 50"
+    },
+    {
+     "id": "D",
+     "textHtml": "At least 20 and at most 70"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Grid.</strong> Domestic = Foreign = 160. Nutrition 140 (70 foreign, 70 domestic), so cosmetic 180 (90 + 90). Domestic FDA cosmetic = 80 (fact 2). FDA 200 = 70 foreign + 130 domestic; FDA cosmetic 120 = 80 domestic + <strong>40 foreign</strong>.</p><p>Foreign (no product has both): cosmetic 40 FDA-only + 50 EU-only; nutrition 30 FDA-only + 40 EU-only. Domestic: 130 FDA (60 both, 70 FDA-only) and 30 EU-only; cosmetic 80 FDA + 10 EU-only; nutrition 50 FDA + 20 EU-only. If x = domestic cosmetic products with both approvals, domestic nutrition with both = 60 − x.</p><p>Let x = domestic cosmetic with both approvals. It is part of the 80 domestic FDA cosmetic products and of the 60 domestic products with both, so x ≤ 60.</p><p>The rest of the 60 (60 − x) are domestic nutrition products with both; these are inside the 50 domestic FDA nutrition products, so 60 − x ≤ 50 ⇒ x ≥ 10.</p><p>Hence <strong>10 ≤ x ≤ 60</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams / grids",
+   "difficulty": "medium",
+   "stemHtml": "<p>If 70 cosmetic products did not have EU approval, then how many nutrition products had both the approvals?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10"
+    },
+    {
+     "id": "B",
+     "textHtml": "50"
+    },
+    {
+     "id": "C",
+     "textHtml": "20"
+    },
+    {
+     "id": "D",
+     "textHtml": "30"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Grid.</strong> Domestic = Foreign = 160. Nutrition 140 (70 foreign, 70 domestic), so cosmetic 180 (90 + 90). Domestic FDA cosmetic = 80 (fact 2). FDA 200 = 70 foreign + 130 domestic; FDA cosmetic 120 = 80 domestic + <strong>40 foreign</strong>.</p><p>Foreign (no product has both): cosmetic 40 FDA-only + 50 EU-only; nutrition 30 FDA-only + 40 EU-only. Domestic: 130 FDA (60 both, 70 FDA-only) and 30 EU-only; cosmetic 80 FDA + 10 EU-only; nutrition 50 FDA + 20 EU-only. If x = domestic cosmetic products with both approvals, domestic nutrition with both = 60 − x.</p><p>Cosmetic without EU = cosmetic FDA-only = foreign 40 + domestic (80 − x). So 120 − x = 70 ⇒ x = 50.</p><p>Foreign products never have both, so nutrition with both = domestic 60 − x = <strong>10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams / grids",
+   "difficulty": "medium",
+   "stemHtml": "<p>If 50 nutrition products did not have EU approval, then how many domestic cosmetic products did not have EU approval?</p>",
+   "answer": "50",
+   "solutionHtml": "<p><strong>Grid.</strong> Domestic = Foreign = 160. Nutrition 140 (70 foreign, 70 domestic), so cosmetic 180 (90 + 90). Domestic FDA cosmetic = 80 (fact 2). FDA 200 = 70 foreign + 130 domestic; FDA cosmetic 120 = 80 domestic + <strong>40 foreign</strong>.</p><p>Foreign (no product has both): cosmetic 40 FDA-only + 50 EU-only; nutrition 30 FDA-only + 40 EU-only. Domestic: 130 FDA (60 both, 70 FDA-only) and 30 EU-only; cosmetic 80 FDA + 10 EU-only; nutrition 50 FDA + 20 EU-only. If x = domestic cosmetic products with both approvals, domestic nutrition with both = 60 − x.</p><p>Nutrition without EU = nutrition FDA-only = foreign 30 + domestic [50 − (60 − x)] = 30 + (x − 10) = x + 20. So x + 20 = 50 ⇒ x = 30.</p><p>Domestic cosmetic without EU = domestic cosmetic FDA-only = 80 − x = <strong>50</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes & networks",
+   "difficulty": "hard",
+   "stemHtml": "<p>If the last location visited is Ahmednagar, then what is the total distance covered in the route (in km)?</p>",
+   "answer": "35",
+   "solutionHtml": "<p><strong>This question is flawed as worded.</strong> Under the stated tie-break rule, Ahmednagar can never be the last location: whenever A and D tie, the supplier is at B and A (6 km) is nearer than D (12 km), so A is visited first. It was reportedly not counted in the official scoring. The working below shows the only route that ends at A, which gives the intended answer of 35 km.</p><p><strong>Effective distances</strong> (direct vs via W, take the smaller): A–B 6, B–C 4, C–D 6, <strong>A–D 7</strong> (via W 5 + 2 beats direct 8), A–C 17 (via W), B–D 12 (via W). From W: A 5, B 10, C 12, D 2.</p><p>Order = decreasing demand; ties go to the location nearer the current one. C (70/100) is always at least as large as every other demand.</p><p>For A to be last its demand must be the lowest, so A = 50 and B = 60 (if B = 40, B is lower), with D = 50 tied with A (D = 30 is lower). The order is then C, B and then A and D (both 50).</p><p>With A last the route is <strong>W → C → B → D → A</strong> = 12 + 4 + 12 + 7 = <strong>35 km</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes & networks",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the total number of widgets delivered in a day is 250 units, then what is the total distance covered in the route (in km)?</p>",
+   "answer": "38",
+   "solutionHtml": "<p><strong>Effective distances</strong> (direct vs via W, take the smaller): A–B 6, B–C 4, C–D 6, <strong>A–D 7</strong> (via W 5 + 2 beats direct 8), A–C 17 (via W), B–D 12 (via W). From W: A 5, B 10, C 12, D 2.</p><p>Order = decreasing demand; ties go to the location nearer the current one. C (70/100) is always at least as large as every other demand.</p><p><strong>Find the demands.</strong> With C = 100 the other three must total 150, which no combination gives (possible sums 120, 140, 160, 180). With C = 70 they must total 180 = 70 + 60 + 50, so A = 70, B = 60, D = 50.</p><p><strong>Route.</strong> A and C tie at 70; from W, A (5) is nearer than C (12), so A first, then C, B, D.</p><p>W → A → C → B → D = 5 + 17 + 4 + 12 = <strong>38 km</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes & probability",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the chance that the total number of widgets delivered in a day is 260 units and the route ends at Bikrampore?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10.80%"
+    },
+    {
+     "id": "B",
+     "textHtml": "17.64%"
+    },
+    {
+     "id": "C",
+     "textHtml": "33.33%"
+    },
+    {
+     "id": "D",
+     "textHtml": "7.56%"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Effective distances</strong> (direct vs via W, take the smaller): A–B 6, B–C 4, C–D 6, <strong>A–D 7</strong> (via W 5 + 2 beats direct 8), A–C 17 (via W), B–D 12 (via W). From W: A 5, B 10, C 12, D 2.</p><p>Order = decreasing demand; ties go to the location nearer the current one. C (70/100) is always at least as large as every other demand.</p><p><strong>Totals of 260:</strong> C = 70 cannot work (the others total at most 180). With C = 100, A + B + D = 160: (A, B, D) = (70, 60, 30), (70, 40, 50) or (50, 60, 50).</p><p>The route ends at B only if B is the smallest, which happens only for (70, 40, 50): order C, A, D, B.</p><p>Probability = P(C = 100) × P(A = 70) × P(B = 40) × P(D = 50) = 0.7 × 0.6 × 0.3 × 0.6 = 0.0756 = <strong>7.56%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes & probability",
+   "difficulty": "hard",
+   "stemHtml": "<p>If the first location visited from the warehouse is Ahmednagar, then what is the chance that the total distance covered in the route is 40 km?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3.24%"
+    },
+    {
+     "id": "B",
+     "textHtml": "30%"
+    },
+    {
+     "id": "C",
+     "textHtml": "18%"
+    },
+    {
+     "id": "D",
+     "textHtml": "5.4%"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Effective distances</strong> (direct vs via W, take the smaller): A–B 6, B–C 4, C–D 6, <strong>A–D 7</strong> (via W 5 + 2 beats direct 8), A–C 17 (via W), B–D 12 (via W). From W: A 5, B 10, C 12, D 2.</p><p>Order = decreasing demand; ties go to the location nearer the current one. C (70/100) is always at least as large as every other demand.</p><p>A is first only if A = 70 and C = 70 (a tie broken in favour of A, which is 5 km from W against 12 km for C). Then the route starts W → A → C = 5 + 17 = 22 km.</p><p>Remaining B and D: if B ≥ D (B = 60, or B = 40 with D = 30) the route is C → B → D = 4 + 12, total 38. Only <strong>B = 40, D = 50</strong> gives C → D → B = 6 + 12, total <strong>40 km</strong>.</p><p>Given A goes first, the chance is P(B = 40) × P(D = 50) = 0.3 × 0.6 = <strong>18%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Routes & networks",
+   "difficulty": "hard",
+   "stemHtml": "<p>If Ahmednagar is not the first location to be visited in a route and the total route distance is 29 km, then which of the following is a possible number of widgets delivered on that day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "220"
+    },
+    {
+     "id": "B",
+     "textHtml": "210"
+    },
+    {
+     "id": "C",
+     "textHtml": "200"
+    },
+    {
+     "id": "D",
+     "textHtml": "250"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Effective distances</strong> (direct vs via W, take the smaller): A–B 6, B–C 4, C–D 6, <strong>A–D 7</strong> (via W 5 + 2 beats direct 8), A–C 17 (via W), B–D 12 (via W). From W: A 5, B 10, C 12, D 2.</p><p>Order = decreasing demand; ties go to the location nearer the current one. C (70/100) is always at least as large as every other demand.</p><p>If A is not first, C is first (W → C = 12). Possible continuations: C → B → A → D = 4 + 6 + 7, total <strong>29</strong>; C → B → D → A = 35; C → D → … ≥ 31; C → A → … far longer. So the route is C, B, A, D.</p><p>That needs B ≥ A ≥ D: B = 60, A = 50, D = 30 or 50 (a 50–50 tie with D is broken towards A, 6 km from B). Totals: C + 60 + 50 + D ∈ {210, 230, 240, 260}.</p><p>Of the options, only <strong>210</strong> (C 70, B 60, A 50, D 30) is possible.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Scatter plots",
+   "difficulty": "easy",
+   "stemHtml": "<p>Considering all three years, which company had the highest annual profit?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Company B"
+    },
+    {
+     "id": "B",
+     "textHtml": "Company C"
+    },
+    {
+     "id": "C",
+     "textHtml": "Company A"
+    },
+    {
+     "id": "D",
+     "textHtml": "Company D"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Read revenue (R), cost (C) and profit (P = R − C), in Rs. crores:</p><table><thead><tr><th>Company</th><th>2019 R / C / P</th><th>2020 R / C / P</th><th>2021 R / C / P</th></tr></thead><tbody><tr><td>A</td><td>90 / 85 / 5</td><td>90 / 65 / 25</td><td>60 / 30 / 30</td></tr><tr><td>B</td><td>100 / 75 / 25</td><td>90 / 40 / 50</td><td>30 / 30 / 0</td></tr><tr><td>C</td><td>25 / 20 / 5</td><td>70 / 60 / 10</td><td>100 / 30 / 70</td></tr><tr><td>D</td><td>50 / 40 / 10</td><td>20 / 50 / −30</td><td>70 / 70 / 0</td></tr></tbody></table><p>The highest single-year profit is Company C’s <strong>70</strong> in 2021 (C also has the highest three-year total, 85).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Scatter plots",
+   "difficulty": "easy",
+   "stemHtml": "<p>Which of the four companies experienced the highest annual loss in any of the years?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Company A"
+    },
+    {
+     "id": "B",
+     "textHtml": "Company C"
+    },
+    {
+     "id": "C",
+     "textHtml": "Company D"
+    },
+    {
+     "id": "D",
+     "textHtml": "Company B"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>A loss means cost above revenue — a point above the line cost = revenue.</p><table><thead><tr><th>Company</th><th>2019 R / C / P</th><th>2020 R / C / P</th><th>2021 R / C / P</th></tr></thead><tbody><tr><td>A</td><td>90 / 85 / 5</td><td>90 / 65 / 25</td><td>60 / 30 / 30</td></tr><tr><td>B</td><td>100 / 75 / 25</td><td>90 / 40 / 50</td><td>30 / 30 / 0</td></tr><tr><td>C</td><td>25 / 20 / 5</td><td>70 / 60 / 10</td><td>100 / 30 / 70</td></tr><tr><td>D</td><td>50 / 40 / 10</td><td>20 / 50 / −30</td><td>70 / 70 / 0</td></tr></tbody></table><p>The only losses: D in 2020 (revenue 20, cost 50) = loss of <strong>30</strong>; D 2021 and B 2021 break even. So <strong>Company D</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Scatter plots",
+   "difficulty": "easy",
+   "stemHtml": "<p>The ratio of a company's annual profit to its annual costs is a measure of its performance. Which of the four companies had the lowest value of this ratio in 2019?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Company A"
+    },
+    {
+     "id": "B",
+     "textHtml": "Company B"
+    },
+    {
+     "id": "C",
+     "textHtml": "Company D"
+    },
+    {
+     "id": "D",
+     "textHtml": "Company C"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p>2019 values (Rs. crores), profit ÷ cost:</p><ul><li>A: (90 − 85)/85 = 5/85 ≈ 0.06</li><li>B: (100 − 75)/75 ≈ 0.33</li><li>C: (25 − 20)/20 = 0.25</li><li>D: (50 − 40)/40 = 0.25</li></ul><p>Lowest: <strong>Company A</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Scatter plots",
+   "difficulty": "medium",
+   "stemHtml": "<p>The total number of employees lost in 2019 and 2020 was the least for:</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Company C"
+    },
+    {
+     "id": "B",
+     "textHtml": "Company B"
+    },
+    {
+     "id": "C",
+     "textHtml": "Company A"
+    },
+    {
+     "id": "D",
+     "textHtml": "Company D"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Employees lost in a year = strength at start + new hires − strength at start of next year. From the second plot:</p><table><thead><tr><th>Company</th><th>2019 start / hires</th><th>2020 start / hires</th><th>2021 start / hires</th></tr></thead><tbody><tr><td>A</td><td>150 / 20</td><td>140 / 35</td><td>150 / 25</td></tr><tr><td>B</td><td>210 / 35</td><td>240 / 45</td><td>250 / 30</td></tr><tr><td>C</td><td>325 / 45</td><td>325 / 40</td><td>325 / 35</td></tr><tr><td>D</td><td>400 / 30</td><td>410 / 35</td><td>400 / 40</td></tr></tbody></table><ul><li>A: (150 + 20 − 140) + (140 + 35 − 150) = 30 + 25 = 55</li><li>B: (210 + 35 − 240) + (240 + 45 − 250) = 5 + 35 = <strong>40</strong></li><li>C: (325 + 45 − 325) + (325 + 40 − 325) = 45 + 40 = 85</li><li>D: (400 + 30 − 410) + (410 + 35 − 400) = 20 + 45 = 65</li></ul><p>Least: <strong>Company B</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Scatter plots",
+   "difficulty": "medium",
+   "stemHtml": "<p>Profit per employee is the ratio of a company's profit to its employee strength. For this purpose, the employee strength in a year is the average of the employee strength at the beginning of that year and the beginning of the next year. In 2020, which of the four companies had the highest profit per employee?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Company C"
+    },
+    {
+     "id": "B",
+     "textHtml": "Company B"
+    },
+    {
+     "id": "C",
+     "textHtml": "Company A"
+    },
+    {
+     "id": "D",
+     "textHtml": "Company D"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>2020 profits (Rs. crores): A 90 − 65 = 25, B 90 − 40 = 50, C 70 − 60 = 10, D 20 − 50 = −30.</p><p>Average strength (start of 2020 and start of 2021): A (140 + 150)/2 = 145, B (240 + 250)/2 = 245, C 325, D (410 + 400)/2 = 405.</p><p>Profit per employee: A 25/145 ≈ 0.17, <strong>B 50/245 ≈ 0.20</strong>, C 10/325 ≈ 0.03, D negative. Highest: <strong>Company B</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "TITA",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Equations & conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the total number of households met by Tohri, Hokli and Lahur on the first day?</p>",
+   "answer": "84",
+   "solutionHtml": "<p><strong>Solve the set.</strong> Lahur meets L households and sells 50 items each day. Everyone meets 2L households in total. Tohri: t and t + 30, so 2t + 30 = 2L, i.e. L = t + 15. Tohri sells x on day 1.</p><p>Day 1: x/t = 2 × 50/L ⇒ x = 100t/(t + 15). Day 2: (100 − x)/(t + 30) = 0.75 × 50/L. Since 100 − x = 1500/(t + 15), this gives 1500/(t + 30) = 37.5 ⇒ <strong>t = 10</strong>, L = 25, x = 40.</p><p>Hokli met 1 household on day 2 (sold 0), so on day 1 he met 2L − 1 = 49 and sold 100.</p><p>Summary — Day 1: Tohri 10 households / 40 items, Hokli 49 / 100, Lahur 25 / 50. Day 2: Tohri 40 / 60, Hokli 1 / 0, Lahur 25 / 50.</p><p>Day 1 households: 10 + 49 + 25 = <strong>84</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "TITA",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Equations & conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many TRICCEK items were sold by Tohri on the first day?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Solve the set.</strong> Lahur meets L households and sells 50 items each day. Everyone meets 2L households in total. Tohri: t and t + 30, so 2t + 30 = 2L, i.e. L = t + 15. Tohri sells x on day 1.</p><p>Day 1: x/t = 2 × 50/L ⇒ x = 100t/(t + 15). Day 2: (100 − x)/(t + 30) = 0.75 × 50/L. Since 100 − x = 1500/(t + 15), this gives 1500/(t + 30) = 37.5 ⇒ <strong>t = 10</strong>, L = 25, x = 40.</p><p>Hokli met 1 household on day 2 (sold 0), so on day 1 he met 2L − 1 = 49 and sold 100.</p><p>Summary — Day 1: Tohri 10 households / 40 items, Hokli 49 / 100, Lahur 25 / 50. Day 2: Tohri 40 / 60, Hokli 1 / 0, Lahur 25 / 50.</p><p>Tohri sold x = 100 × 10/25 = <strong>40</strong> items on day 1 (success rate 4 = 2 × Lahur’s 2).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Equations & conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many households did Lahur meet on the second day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "20 or less"
+    },
+    {
+     "id": "B",
+     "textHtml": "Between 21 and 29"
+    },
+    {
+     "id": "C",
+     "textHtml": "More than 35"
+    },
+    {
+     "id": "D",
+     "textHtml": "Between 30 and 35"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Solve the set.</strong> Lahur meets L households and sells 50 items each day. Everyone meets 2L households in total. Tohri: t and t + 30, so 2t + 30 = 2L, i.e. L = t + 15. Tohri sells x on day 1.</p><p>Day 1: x/t = 2 × 50/L ⇒ x = 100t/(t + 15). Day 2: (100 − x)/(t + 30) = 0.75 × 50/L. Since 100 − x = 1500/(t + 15), this gives 1500/(t + 30) = 37.5 ⇒ <strong>t = 10</strong>, L = 25, x = 40.</p><p>Hokli met 1 household on day 2 (sold 0), so on day 1 he met 2L − 1 = 49 and sold 100.</p><p>Summary — Day 1: Tohri 10 households / 40 items, Hokli 49 / 100, Lahur 25 / 50. Day 2: Tohri 40 / 60, Hokli 1 / 0, Lahur 25 / 50.</p><p>Lahur met L = <strong>25</strong> households each day, which lies between 21 and 29.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Equations & conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many households did Tohri meet on the first day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Between 21 and 40"
+    },
+    {
+     "id": "B",
+     "textHtml": "10 or less"
+    },
+    {
+     "id": "C",
+     "textHtml": "More than 40"
+    },
+    {
+     "id": "D",
+     "textHtml": "Between 11 and 20"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Solve the set.</strong> Lahur meets L households and sells 50 items each day. Everyone meets 2L households in total. Tohri: t and t + 30, so 2t + 30 = 2L, i.e. L = t + 15. Tohri sells x on day 1.</p><p>Day 1: x/t = 2 × 50/L ⇒ x = 100t/(t + 15). Day 2: (100 − x)/(t + 30) = 0.75 × 50/L. Since 100 − x = 1500/(t + 15), this gives 1500/(t + 30) = 37.5 ⇒ <strong>t = 10</strong>, L = 25, x = 40.</p><p>Hokli met 1 household on day 2 (sold 0), so on day 1 he met 2L − 1 = 49 and sold 100.</p><p>Summary — Day 1: Tohri 10 households / 40 items, Hokli 49 / 100, Lahur 25 / 50. Day 2: Tohri 40 / 60, Hokli 1 / 0, Lahur 25 / 50.</p><p>Tohri met t = <strong>10</strong> households on day 1 — “10 or less”.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Equations & conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following statements is FALSE?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Among the three, Tohri had the highest success rate on the second day."
+    },
+    {
+     "id": "B",
+     "textHtml": "Tohri had a higher success rate on the first day compared to the second day."
+    },
+    {
+     "id": "C",
+     "textHtml": "Among the three, Tohri had the highest success rate on the first day."
+    },
+    {
+     "id": "D",
+     "textHtml": "Among the three, Lahur had the lowest success rate on the first day."
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Solve the set.</strong> Lahur meets L households and sells 50 items each day. Everyone meets 2L households in total. Tohri: t and t + 30, so 2t + 30 = 2L, i.e. L = t + 15. Tohri sells x on day 1.</p><p>Day 1: x/t = 2 × 50/L ⇒ x = 100t/(t + 15). Day 2: (100 − x)/(t + 30) = 0.75 × 50/L. Since 100 − x = 1500/(t + 15), this gives 1500/(t + 30) = 37.5 ⇒ <strong>t = 10</strong>, L = 25, x = 40.</p><p>Hokli met 1 household on day 2 (sold 0), so on day 1 he met 2L − 1 = 49 and sold 100.</p><p>Summary — Day 1: Tohri 10 households / 40 items, Hokli 49 / 100, Lahur 25 / 50. Day 2: Tohri 40 / 60, Hokli 1 / 0, Lahur 25 / 50.</p><p>Success rates — Day 1: Tohri 40/10 = 4, Hokli 100/49 ≈ 2.04, Lahur 50/25 = 2. Day 2: Tohri 60/40 = 1.5, Hokli 0, Lahur 2.</p><p>A: on day 2 Lahur (2) beats Tohri (1.5) — <strong>false</strong>. B: Tohri 4 &gt; 1.5 — true. C: Tohri’s 4 is the highest on day 1 — true. D: Lahur’s 2 is below Hokli’s 2.04 — true.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

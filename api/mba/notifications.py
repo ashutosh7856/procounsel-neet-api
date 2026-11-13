@@ -17,11 +17,15 @@ from api.auth import CurrentUser
 from api.db import SafeFirestore, get_db
 
 from .attempts import user_attempts
+from .community import student_notifications as doubt_notifications
+from .counsellor_requests import student_notifications as counsellor_notifications
 from .deps import student
+from .exam_updates import student_notifications as exam_update_notifications
 from .planner import _week_tasks, exam_date_for, parse_day, week_start_of
 from .profile import load_profile
 from .shortlist import known_institutes
 from .stats import is_due
+from .support import student_notifications as ticket_notifications
 from .store import IST, get_bank, get_doc, iso, local_date, occ_update, parse_iso, user_stats, utcnow
 
 router = APIRouter()
@@ -33,7 +37,8 @@ DEADLINE_WINDOW_DAYS = 7
 NEW_MOCK_WINDOW_DAYS = 14
 MAX_DISMISSED = 200
 
-Kind = Literal["plan_today", "plan_overdue", "mistakes_due", "resume_mock", "cat_countdown", "shortlist_deadline", "new_mock"]
+Kind = Literal["plan_today", "plan_overdue", "mistakes_due", "resume_mock", "cat_countdown", "shortlist_deadline", "new_mock",
+               "counsellor_update", "doubt_reply", "support_reply", "exam_update"]
 
 
 class Notification(BaseModel):
@@ -124,7 +129,8 @@ def compute(db: SafeFirestore, user: CurrentUser) -> list[dict[str, Any]]:
         items.append({"id": f"mistakes-{today.isoformat()}", "kind": "mistakes_due", "title": f"{_plural(due, 'mistake')} due for review",
                       "detail": "Spaced review: retry them while they're fresh.", "href": "/mba/mistakes?due=true", "at": today_start})
 
-    exam, source = exam_date_for(load_profile(db, user.user_id))
+    profile = load_profile(db, user.user_id)
+    exam, source = exam_date_for(profile)
     if exam:
         countdown = _countdown(exam, today, source)
         if countdown:
@@ -155,6 +161,10 @@ def compute(db: SafeFirestore, user: CurrentUser) -> list[dict[str, Any]]:
         title = paper.get("title") if isinstance(paper.get("title"), str) and paper["title"].strip() else "A new mock"
         items.append({"id": f"new-mock-{paper_id}", "kind": "new_mock", "title": f"New mock: {title.strip()}",
                       "detail": "Full mock and sectionals are ready in Mock Tests.", "href": "/mba/mocks", "at": published})
+    items.extend(counsellor_notifications(db, user.user_id))  # counsellor assigned / request status changed
+    items.extend(doubt_notifications(db, user.user_id))  # replies on the student's doubts / group posts
+    items.extend(ticket_notifications(db, user.user_id))  # support replies on help-centre tickets
+    items.extend(exam_update_notifications(db, profile))  # admin-posted official exam updates for the student's exams
     return items
 
 

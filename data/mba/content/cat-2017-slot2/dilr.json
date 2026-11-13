@@ -1,0 +1,1065 @@
+{
+ "sets": [
+  {
+   "key": "di1",
+   "kind": "dilr_set",
+   "title": "Funky Pizzaria orders",
+   "contentHtml": "<p>Funky Pizzaria was required to supply pizzas to three different parties. The total number of pizzas it had to deliver was 800, 70% of which were to be delivered to Party 3 and the rest equally divided between Party 1 and Party 2.</p><p>Pizzas could be of Thin Crust (T) or Deep Dish (D) variety and come in either Normal Cheese (NC) or Extra Cheese (EC) versions. Hence, there are four types of pizzas: T-NC, T-EC, D-NC and D-EC. Partial information about proportions of T and NC pizzas ordered by the three parties is given below:</p><table><thead><tr><th></th><th>Thin Crust (T)</th><th>Normal Cheese (NC)</th></tr></thead><tbody><tr><td>Party 1</td><td>0.6</td><td></td></tr><tr><td>Party 2</td><td>0.55</td><td>0.3</td></tr><tr><td>Party 3</td><td></td><td>0.65</td></tr><tr><td>Total</td><td>0.375</td><td>0.52</td></tr></tbody></table>"
+  },
+  {
+   "key": "di2",
+   "kind": "dilr_set",
+   "title": "Elective change process",
+   "contentHtml": "<p>There were seven elective courses - E1 to E7 - running in a specific term in a college. Each of the 300 students enrolled had chosen just one elective from among these seven. However, before the start of the term, E7 was withdrawn as the instructor concerned had left the college. The students who had opted for E7 were allowed to join any of the remaining electives. Also, the students who had chosen other electives were given one chance to change their choice. The table below captures the movement of the students from one elective to another during this process. Movement from one elective to the same elective simply means no movement. Some numbers in the table got accidentally erased; however, it is known that these were either 0 or 1.</p><p><strong>Rows: from elective; columns: to elective</strong> (blank = erased, 0 or 1)</p><table><thead><tr><th>From \\ To</th><th>E1</th><th>E2</th><th>E3</th><th>E4</th><th>E5</th><th>E6</th></tr></thead><tbody><tr><td>E1</td><td>9</td><td>5</td><td>10</td><td>1</td><td>4</td><td>2</td></tr><tr><td>E2</td><td></td><td>34</td><td>8</td><td></td><td>2</td><td>2</td></tr><tr><td>E3</td><td>2</td><td>6</td><td>25</td><td></td><td></td><td>2</td></tr><tr><td>E4</td><td></td><td>3</td><td>2</td><td>14</td><td></td><td>4</td></tr><tr><td>E5</td><td></td><td>5</td><td></td><td></td><td>30</td><td></td></tr><tr><td>E6</td><td></td><td>7</td><td>3</td><td></td><td>2</td><td>9</td></tr><tr><td>E7</td><td>4</td><td>16</td><td>30</td><td>5</td><td>5</td><td>41</td></tr></tbody></table><p>Further, the following are known:</p><p>1. Before the change process there were 6 more students in E1 than in E4, but after the reshuffle, the number of students in E4 was 3 more than that in E1.</p><p>2. The number of students in E2 increased by 30 after the change process.</p><p>3. Before the change process, E4 had 2 more students than E6, while E2 had 10 more students than E3.</p>"
+  },
+  {
+   "key": "di3",
+   "kind": "dilr_set",
+   "title": "Distributing an old woman's assets",
+   "contentHtml": "<p>An old woman had the following assets:</p><p>(a) Rs. 70 lakh in bank deposits<br>(b) 1 house worth Rs. 50 lakh<br>(c) 3 flats, each worth Rs. 30 lakh<br>(d) Certain number of gold coins, each worth Rs. 1 lakh</p><p>She wanted to distribute her assets among her three children; Neeta, Seeta and Geeta.</p><p>The house, any of the flats or any of the coins were not to be split. That is, the house went entirely to one child; a flat went to one child and similarly, a gold coin went to one child.</p>"
+  },
+  {
+   "key": "di4",
+   "kind": "dilr_set",
+   "title": "Dorm repair costs",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2017-slot2/dilr-dorm-repair-costs.png"
+   ],
+   "contentHtml": "<p>At a management school, the oldest 10 dorms, numbered 1 to 10, need to be repaired urgently. The diagram above represents the estimated repair costs (in Rs. Crores) for the 10 dorms. For any dorm, the estimated repair cost (in Rs. Crores) is an integer. Repairs with estimated cost Rs. 1 or 2 Crores are considered light repairs, repairs with estimated cost Rs. 3 or 4 are considered moderate repairs and repairs with estimated cost Rs. 5 or 6 Crores are considered extensive repairs.</p><p>(The bar chart shows the number of dorms at each estimated repair cost: Rs. 1 Crore – 2 dorms, Rs. 2 Crores – 1, Rs. 3 Crores – 3, Rs. 4 Crores – 1, Rs. 5 Crores – 1, Rs. 6 Crores – 2.)</p><p>Further, the following are known:</p><p>1. Odd-numbered dorms do not need light repair; even-numbered dorms do not need moderate repair and dorms, whose numbers are divisible by 3, do not need extensive repair.</p><p>2. Dorms 4 to 9 all need different repair costs, with Dorm 7 needing the maximum and Dorm 8 needing the minimum.</p>"
+  },
+  {
+   "key": "lr1",
+   "kind": "dilr_set",
+   "title": "Tea taster",
+   "contentHtml": "<p>A tea taster was assigned to rate teas from six different locations - Munnar, Wayanad, Ooty, Darjeeling, Assam and Himachal. These teas were placed in six cups, numbered 1 to 6, not necessarily in the same order. The tea taster was asked to rate these teas on the strength of their flavour on a scale of 1 to 10. He gave a unique integer rating to each tea. Some other information is given below:</p><p>1. Cup 6 contained tea from Himachal.<br>2. Tea from Ooty got the highest rating, but it was not in Cup 3.<br>3. The rating of tea in Cup 3 was double the rating of the tea in Cup 5.<br>4. Only two cups got ratings in even numbers.<br>5. Cup 2 got the minimum rating and this rating was an even number.<br>6. Tea in Cup 3 got a higher rating than that in Cup 1.<br>7. The rating of tea from Wayanad was more than the rating of tea from Munnar, but less than that from Assam.</p>"
+  },
+  {
+   "key": "lr2",
+   "kind": "dilr_set",
+   "title": "Queen on a chessboard",
+   "contentHtml": "<p>In an 8 × 8 chessboard a queen placed anywhere can attack another piece if the piece is present in the same row, or in the same column or in any diagonal position in any possible 4 directions, provided there is no other piece in between in the path from the queen to that piece.</p><p>The columns are labelled a to h (left to right) and the rows are numbered 1 to 8 (bottom to top). The position of a piece is given by the combination of column and row labels. For example, position c5 means that the piece is in cth column and 5th row.</p>"
+  },
+  {
+   "key": "lr3",
+   "kind": "dilr_set",
+   "title": "Cheap Air seating",
+   "contentHtml": "<p>Eight friends: Ajit, Byomkesh, Gargi, Jayanta, Kikira, Manik, Prodosh and Tapesh are going to Delhi from Kolkata by a flight operated by Cheap Air. In the flight, sitting is arranged in 30 rows, numbered 1 to 30, each consisting of 6 seats, marked by letters A to F from left to right, respectively. Seats A to C are to the left of the aisle (the passage running from the front of the aircraft to the back), and seats D to F are to the right of the aisle. Seats A and F are by the windows and referred to as Window seats, C and D are by the aisle and are referred to as Aisle seats while B and E are referred to as Middle seats. Seats marked by consecutive letters are called consecutive seats (or seats next to each other). A seat number is a combination of the row number, followed by the letter indicating the position in the row; e.g., 1A is the left window seat in the first row, while 12E is the right middle seat in the 12th row.</p><p>Cheap Air charges Rs. 1000 extra for any seats in Rows 1, 12 and 13 as those have extra legroom. For Rows 2-10, it charges Rs. 300 extra for Window seats and Rs. 500 extra for Aisle seats. For Rows 11 and 14 to 20, it charges Rs. 200 extra for Window seats and Rs. 400 extra for Aisle seats. All other seats are available at no extra charge.</p><p>The following are known:</p><p>1. The eight friends were seated in six different rows.<br>2. They occupied 3 Window seats, 4 Aisle seats and 1 Middle seat.<br>3. Seven of them had to pay extra amounts, totaling to Rs. 4600, for their choices of seat. One of them did not pay any additional amount for his/her choice of seat.<br>4. Jayanta, Ajit and Byomkesh were sitting in seats marked by the same letter, in consecutive rows in increasing order of row numbers; but all of them paid different amounts for their choices of seat. One of these amounts may be zero.<br>5. Gargi was sitting next to Kikira, and Manik was sitting next to Jayanta.<br>6. Prodosh and Tapesh were sitting in seats marked by the same letter, in consecutive rows in increasing order of row numbers; but they paid different amounts for their choices of seat. One of these amounts may be zero.</p>"
+  },
+  {
+   "key": "lr4",
+   "kind": "dilr_set",
+   "title": "Finger-scan pass keys",
+   "contentHtml": "<p>A high security research lab requires the researchers to set a pass key sequence based on the scan of the five fingers of their left hands. When an employee first joins the lab, her fingers are scanned in an order of her choice, and then when she wants to re-enter the facility, she has to scan the five fingers in the same sequence.</p><p>The lab authorities are considering some relaxations of the scan order requirements, since it is observed that some employees often get locked-out because they forget the sequence.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables & proportions",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many Thin Crust pizzas were to be delivered to Party 3?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "398"
+    },
+    {
+     "id": "B",
+     "textHtml": "162"
+    },
+    {
+     "id": "C",
+     "textHtml": "196"
+    },
+    {
+     "id": "D",
+     "textHtml": "364"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Base numbers.</strong> Party 3 = 70% of 800 = 560; Parties 1 and 2 get 120 each.</p><p>Thin Crust: total 0.375 × 800 = 300; P1 = 0.6 × 120 = 72; P2 = 0.55 × 120 = 66; so P3 = 300 − 72 − 66 = 162.</p><p>Normal Cheese: total 0.52 × 800 = 416; P2 = 0.3 × 120 = 36; P3 = 0.65 × 560 = 364; so P1 = 416 − 36 − 364 = 16.</p><p>Thin Crust for Party 3 = <strong>162</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables & proportions",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many Normal Cheese pizzas were required to be delivered to Party 1?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "104"
+    },
+    {
+     "id": "B",
+     "textHtml": "84"
+    },
+    {
+     "id": "C",
+     "textHtml": "16"
+    },
+    {
+     "id": "D",
+     "textHtml": "196"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Base numbers.</strong> Party 3 = 70% of 800 = 560; Parties 1 and 2 get 120 each.</p><p>Thin Crust: total 0.375 × 800 = 300; P1 = 0.6 × 120 = 72; P2 = 0.55 × 120 = 66; so P3 = 300 − 72 − 66 = 162.</p><p>Normal Cheese: total 0.52 × 800 = 416; P2 = 0.3 × 120 = 36; P3 = 0.65 × 560 = 364; so P1 = 416 − 36 − 364 = 16.</p><p>Normal Cheese for Party 1 = <strong>16</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables & proportions",
+   "difficulty": "medium",
+   "stemHtml": "<p>For Party 2, if 50% of the Normal Cheese pizzas were of Thin Crust variety, what was the difference between the numbers of T-EC and D-EC pizzas to be delivered to Party 2?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "18"
+    },
+    {
+     "id": "B",
+     "textHtml": "12"
+    },
+    {
+     "id": "C",
+     "textHtml": "30"
+    },
+    {
+     "id": "D",
+     "textHtml": "24"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Base numbers.</strong> Party 3 = 70% of 800 = 560; Parties 1 and 2 get 120 each.</p><p>Thin Crust: total 0.375 × 800 = 300; P1 = 0.6 × 120 = 72; P2 = 0.55 × 120 = 66; so P3 = 300 − 72 − 66 = 162.</p><p>Normal Cheese: total 0.52 × 800 = 416; P2 = 0.3 × 120 = 36; P3 = 0.65 × 560 = 364; so P1 = 416 − 36 − 364 = 16.</p><p>Party 2: 120 pizzas, 66 Thin Crust, 54 Deep Dish, 36 Normal Cheese.</p><p>Half the NC are Thin: T-NC = 18, so T-EC = 66 − 18 = 48.</p><p>D-NC = 36 − 18 = 18, so D-EC = 54 − 18 = 36.</p><p>Difference = 48 − 36 = <strong>12</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "di1",
+   "topic": "Data Interpretation",
+   "subtopic": "Tables & proportions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Suppose that a T-NC pizza cost as much as a D-NC pizza, but 3/5th of the price of a D-EC pizza. A D-EC pizza costs Rs. 50 more than a T-EC pizza, and the latter costs Rs. 500.</p><p>If 25% of the Normal Cheese pizzas delivered to Party 1 were of Deep Dish variety, what was the total bill for Party 1?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Rs. 59480"
+    },
+    {
+     "id": "B",
+     "textHtml": "Rs. 59840"
+    },
+    {
+     "id": "C",
+     "textHtml": "Rs. 42520"
+    },
+    {
+     "id": "D",
+     "textHtml": "Rs. 45240"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Base numbers.</strong> Party 3 = 70% of 800 = 560; Parties 1 and 2 get 120 each.</p><p>Thin Crust: total 0.375 × 800 = 300; P1 = 0.6 × 120 = 72; P2 = 0.55 × 120 = 66; so P3 = 300 − 72 − 66 = 162.</p><p>Normal Cheese: total 0.52 × 800 = 416; P2 = 0.3 × 120 = 36; P3 = 0.65 × 560 = 364; so P1 = 416 − 36 − 364 = 16.</p><p><strong>Prices:</strong> T-EC = 500, D-EC = 550, T-NC = D-NC = (3/5) × 550 = 330.</p><p>Party 1: 120 pizzas, 72 Thin, 48 Deep, 16 NC. 25% of NC are Deep: D-NC = 4, T-NC = 12.</p><p>Then T-EC = 72 − 12 = 60 and D-EC = 48 − 4 = 44.</p><p>Bill = 12 × 330 + 4 × 330 + 60 × 500 + 44 × 550 = 5280 + 30000 + 24200 = <strong>Rs. 59480</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "di2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Movement table",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many elective courses among E1 to E6 had a decrease in their enrollments after the change process?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "2"
+    },
+    {
+     "id": "D",
+     "textHtml": "3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Filling the blanks.</strong> Row sums are 'before' numbers and column sums are 'after' numbers. E1 before = 31, E7 before = 101.</p><p>Condition 1: E4 before = 23 + (E4→E1) + (E4→E5) must be 31 − 6 = 25, so both blanks are 1.</p><p>Condition 3: E6 before = 21 + (E6→E1) + (E6→E4) must be 25 − 2 = 23, so both are 1.</p><p>Condition 2: column E2 = 76, so E2 before = 46 = 46 + (E2→E1) + (E2→E4), so both are 0. Then E3 before = 46 − 10 = 36 = 35 + (E3→E4) + (E3→E5), so exactly one of these is 1.</p><p>Total 300 gives E5 before = 300 − (31 + 46 + 36 + 25 + 23 + 101) = 38, so the four E5-row blanks add to 3.</p><p>Condition 1 (after): column E1 = 17 + (E5→E1) and column E4 = 21 + (E3→E4) + (E5→E4). E4 = E1 + 3 forces E5→E1 = 1, E3→E4 = 0, E5→E4 = 0. Hence E3→E5 = 1 and E5→E3 = E5→E6 = 1.</p><table><thead><tr><th>Elective</th><th>E1</th><th>E2</th><th>E3</th><th>E4</th><th>E5</th><th>E6</th></tr></thead><tbody><tr><td>Before</td><td>31</td><td>46</td><td>36</td><td>25</td><td>38</td><td>23</td></tr><tr><td>After</td><td>18</td><td>76</td><td>79</td><td>21</td><td>45</td><td>61</td></tr></tbody></table><p>Decreases: E1 (31 → 18) and E4 (25 → 21). All others rose. Answer: <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "di2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Movement table",
+   "difficulty": "hard",
+   "stemHtml": "<p>After the change process, which of the following is the correct sequence of number of students in the six electives E1 to E6?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "19, 76, 79, 21, 45, 60"
+    },
+    {
+     "id": "B",
+     "textHtml": "19, 76, 78, 22, 45, 60"
+    },
+    {
+     "id": "C",
+     "textHtml": "18, 76, 79, 23, 43, 61"
+    },
+    {
+     "id": "D",
+     "textHtml": "18, 76, 79, 21, 45, 61"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Filling the blanks.</strong> Row sums are 'before' numbers and column sums are 'after' numbers. E1 before = 31, E7 before = 101.</p><p>Condition 1: E4 before = 23 + (E4→E1) + (E4→E5) must be 31 − 6 = 25, so both blanks are 1.</p><p>Condition 3: E6 before = 21 + (E6→E1) + (E6→E4) must be 25 − 2 = 23, so both are 1.</p><p>Condition 2: column E2 = 76, so E2 before = 46 = 46 + (E2→E1) + (E2→E4), so both are 0. Then E3 before = 46 − 10 = 36 = 35 + (E3→E4) + (E3→E5), so exactly one of these is 1.</p><p>Total 300 gives E5 before = 300 − (31 + 46 + 36 + 25 + 23 + 101) = 38, so the four E5-row blanks add to 3.</p><p>Condition 1 (after): column E1 = 17 + (E5→E1) and column E4 = 21 + (E3→E4) + (E5→E4). E4 = E1 + 3 forces E5→E1 = 1, E3→E4 = 0, E5→E4 = 0. Hence E3→E5 = 1 and E5→E3 = E5→E6 = 1.</p><table><thead><tr><th>Elective</th><th>E1</th><th>E2</th><th>E3</th><th>E4</th><th>E5</th><th>E6</th></tr></thead><tbody><tr><td>Before</td><td>31</td><td>46</td><td>36</td><td>25</td><td>38</td><td>23</td></tr><tr><td>After</td><td>18</td><td>76</td><td>79</td><td>21</td><td>45</td><td>61</td></tr></tbody></table><p>After: <strong>18, 76, 79, 21, 45, 61</strong> (they add to 300).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "di2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Movement table",
+   "difficulty": "hard",
+   "stemHtml": "<p>After the change process, which course among E1 to E6 had the largest change in its enrollment as a percentage of its original enrollment?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "E1"
+    },
+    {
+     "id": "B",
+     "textHtml": "E2"
+    },
+    {
+     "id": "C",
+     "textHtml": "E3"
+    },
+    {
+     "id": "D",
+     "textHtml": "E6"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Filling the blanks.</strong> Row sums are 'before' numbers and column sums are 'after' numbers. E1 before = 31, E7 before = 101.</p><p>Condition 1: E4 before = 23 + (E4→E1) + (E4→E5) must be 31 − 6 = 25, so both blanks are 1.</p><p>Condition 3: E6 before = 21 + (E6→E1) + (E6→E4) must be 25 − 2 = 23, so both are 1.</p><p>Condition 2: column E2 = 76, so E2 before = 46 = 46 + (E2→E1) + (E2→E4), so both are 0. Then E3 before = 46 − 10 = 36 = 35 + (E3→E4) + (E3→E5), so exactly one of these is 1.</p><p>Total 300 gives E5 before = 300 − (31 + 46 + 36 + 25 + 23 + 101) = 38, so the four E5-row blanks add to 3.</p><p>Condition 1 (after): column E1 = 17 + (E5→E1) and column E4 = 21 + (E3→E4) + (E5→E4). E4 = E1 + 3 forces E5→E1 = 1, E3→E4 = 0, E5→E4 = 0. Hence E3→E5 = 1 and E5→E3 = E5→E6 = 1.</p><table><thead><tr><th>Elective</th><th>E1</th><th>E2</th><th>E3</th><th>E4</th><th>E5</th><th>E6</th></tr></thead><tbody><tr><td>Before</td><td>31</td><td>46</td><td>36</td><td>25</td><td>38</td><td>23</td></tr><tr><td>After</td><td>18</td><td>76</td><td>79</td><td>21</td><td>45</td><td>61</td></tr></tbody></table><p>Changes: E1 −13/31 ≈ −42%, E2 +30/46 ≈ +65%, E3 +43/36 ≈ +119%, E6 +38/23 ≈ +165%.</p><p>Largest: <strong>E6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "di2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Movement table",
+   "difficulty": "hard",
+   "stemHtml": "<p>Later, the college imposed a condition that if after the change of electives, the enrollment in any elective (other than E7) dropped to less than 20 students, all the students who had left that course will be required to re-enroll for that elective.</p><p>Which of the following is a correct sequence of electives in decreasing order of their final enrollments?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "E2, E3, E6, E5, E1, E4"
+    },
+    {
+     "id": "B",
+     "textHtml": "E3, E2, E6, E5, E4, E1"
+    },
+    {
+     "id": "C",
+     "textHtml": "E2, E5, E3, E1, E4, E6"
+    },
+    {
+     "id": "D",
+     "textHtml": "E2, E3, E5, E6, E1, E3"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Filling the blanks.</strong> Row sums are 'before' numbers and column sums are 'after' numbers. E1 before = 31, E7 before = 101.</p><p>Condition 1: E4 before = 23 + (E4→E1) + (E4→E5) must be 31 − 6 = 25, so both blanks are 1.</p><p>Condition 3: E6 before = 21 + (E6→E1) + (E6→E4) must be 25 − 2 = 23, so both are 1.</p><p>Condition 2: column E2 = 76, so E2 before = 46 = 46 + (E2→E1) + (E2→E4), so both are 0. Then E3 before = 46 − 10 = 36 = 35 + (E3→E4) + (E3→E5), so exactly one of these is 1.</p><p>Total 300 gives E5 before = 300 − (31 + 46 + 36 + 25 + 23 + 101) = 38, so the four E5-row blanks add to 3.</p><p>Condition 1 (after): column E1 = 17 + (E5→E1) and column E4 = 21 + (E3→E4) + (E5→E4). E4 = E1 + 3 forces E5→E1 = 1, E3→E4 = 0, E5→E4 = 0. Hence E3→E5 = 1 and E5→E3 = E5→E6 = 1.</p><table><thead><tr><th>Elective</th><th>E1</th><th>E2</th><th>E3</th><th>E4</th><th>E5</th><th>E6</th></tr></thead><tbody><tr><td>Before</td><td>31</td><td>46</td><td>36</td><td>25</td><td>38</td><td>23</td></tr><tr><td>After</td><td>18</td><td>76</td><td>79</td><td>21</td><td>45</td><td>61</td></tr></tbody></table><p>Only E1 (18) is below 20. The 22 students who left E1 (5 to E2, 10 to E3, 1 to E4, 4 to E5, 2 to E6) return.</p><p>Final: E1 = 40, E2 = 71, E3 = 69, E4 = 20, E5 = 41, E6 = 59. E4 is now exactly 20, not below, so nothing else changes.</p><p>Decreasing order: <strong>E2, E3, E6, E5, E1, E4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "di3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution",
+   "difficulty": "medium",
+   "stemHtml": "<p>Among the three, Neeta received the least amount in bank deposits, while Geeta received the highest. The value of the assets was distributed equally among the children, as were the gold coins.</p><p>How much did Seeta receive in bank deposits (in lakhs of rupees)?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "30"
+    },
+    {
+     "id": "B",
+     "textHtml": "40"
+    },
+    {
+     "id": "C",
+     "textHtml": "20"
+    },
+    {
+     "id": "D",
+     "textHtml": "10"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> The coins are split equally, so the other assets (70 + 50 + 90 = 210 lakh) are split equally too: 70 lakh each.</p><p>Ways to make 70 from the house and flats plus some bank money: house + 20; one flat + 40; two flats + 10. Three flats (90) or house + flat (80) is too much. The house and all three flats must be given out, so the three children get these three bundles (bank 20 + 40 + 10 = 70 ✓).</p><p>Least bank money = Neeta (two flats + 10). Most = Geeta (one flat + 40). Seeta gets the house + 20.</p><p>Seeta's bank deposits = <strong>20</strong> lakh.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "TITA",
+   "setKey": "di3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution",
+   "difficulty": "medium",
+   "stemHtml": "<p>Among the three, Neeta received the least amount in bank deposits, while Geeta received the highest. The value of the assets was distributed equally among the children, as were the gold coins.</p><p>How many flats did Neeta receive?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>Key deduction.</strong> The coins are split equally, so the other assets (70 + 50 + 90 = 210 lakh) are split equally too: 70 lakh each.</p><p>Ways to make 70 from the house and flats plus some bank money: house + 20; one flat + 40; two flats + 10. Three flats (90) or house + flat (80) is too much. The house and all three flats must be given out, so the three children get these three bundles (bank 20 + 40 + 10 = 70 ✓).</p><p>Least bank money = Neeta (two flats + 10). Most = Geeta (one flat + 40). Seeta gets the house + 20.</p><p>Neeta received <strong>2</strong> flats.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "di3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution",
+   "difficulty": "hard",
+   "stemHtml": "<p>The value of the assets distributed among Neeta, Seeta and Geeta was in the ratio of 1:2:3, while the gold coins were distributed among them in the ratio of 2:3:4. One child got all three flats and she did not get the house. One child, other than Geeta, got Rs. 30 lakh in bank deposits.</p><p>How many gold coins did the old woman have?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "72"
+    },
+    {
+     "id": "B",
+     "textHtml": "90"
+    },
+    {
+     "id": "C",
+     "textHtml": "180"
+    },
+    {
+     "id": "D",
+     "textHtml": "216"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Set-up.</strong> Let the coins be 2k, 3k, 4k (total 9k). Total value = 210 + 9k, so the shares are (210 + 9k)/6, /3 and /2.</p><p>Non-coin value: Neeta = 35 + 1.5k − 2k = 35 − k/2; Seeta = 70 + 3k − 3k = <strong>70</strong>; Geeta = 105 + 4.5k − 4k = 105 + k/2.</p><p>Neeta's non-coin share is below 35, so she cannot have the house or three flats. Seeta's 70 cannot include three flats (90). So Geeta has the three flats, and the house goes to Seeta: house 50 + bank 20 = 70. Neeta has only bank money.</p><p>Seeta has 20 in the bank, so the 'other than Geeta' child with 30 lakh is Neeta: 35 − k/2 = 30 gives k = 10.</p><p>Then Geeta = 105 + 5 = 110 = three flats (90) + bank 20. Check bank: 30 + 20 + 20 = 70 ✓.</p><p>Coins = 9k = <strong>90</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "TITA",
+   "setKey": "di3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distribution",
+   "difficulty": "hard",
+   "stemHtml": "<p>The value of the assets distributed among Neeta, Seeta and Geeta was in the ratio of 1:2:3, while the gold coins were distributed among them in the ratio of 2:3:4. One child got all three flats and she did not get the house. One child, other than Geeta, got Rs. 30 lakh in bank deposits.</p><p>How much did Geeta get in bank deposits (in lakhs of rupees)?</p>",
+   "answer": "20",
+   "solutionHtml": "<p><strong>Set-up.</strong> Let the coins be 2k, 3k, 4k (total 9k). Total value = 210 + 9k, so the shares are (210 + 9k)/6, /3 and /2.</p><p>Non-coin value: Neeta = 35 + 1.5k − 2k = 35 − k/2; Seeta = 70 + 3k − 3k = <strong>70</strong>; Geeta = 105 + 4.5k − 4k = 105 + k/2.</p><p>Neeta's non-coin share is below 35, so she cannot have the house or three flats. Seeta's 70 cannot include three flats (90). So Geeta has the three flats, and the house goes to Seeta: house 50 + bank 20 = 70. Neeta has only bank money.</p><p>Seeta has 20 in the bank, so the 'other than Geeta' child with 30 lakh is Neeta: 35 − k/2 = 30 gives k = 10.</p><p>Then Geeta = 105 + 5 = 110 = three flats (90) + bank 20. Check bank: 30 + 20 + 20 = 70 ✓.</p><p>Geeta's bank deposits = 110 − 90 = <strong>20</strong> lakh.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "di4",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart with conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following is NOT necessarily true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Dorm 1 needs a moderate repair"
+    },
+    {
+     "id": "B",
+     "textHtml": "Dorm 5 repair will cost no more than Rs. 4 Crores"
+    },
+    {
+     "id": "C",
+     "textHtml": "Dorm 7 needs an extensive repair"
+    },
+    {
+     "id": "D",
+     "textHtml": "Dorm 10 repair will cost no more than Rs. 4 Crores"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Grid.</strong> Costs available: 1, 1, 2 (light), 3, 3, 3, 4 (moderate), 5, 6, 6 (extensive).</p><p>Dorms 3 and 9 (odd, divisible by 3) are moderate; dorm 6 (even, divisible by 3) is light. Odd dorms are 3–6 and even dorms are 1, 2, 5 or 6.</p><p>Dorm 8 is the minimum of dorms 4–9 and dorm 6 is light, so dorm 8 is light and cheaper than dorm 6: dorm 8 = 1, dorm 6 = 2. Dorm 4 cannot be light (the remaining light value 1 would repeat dorm 8), so it is extensive. Dorm 7 is the maximum and above dorm 4, so dorm 7 = 6 and dorm 4 = 5.</p><p>The remaining 6 and 1 go to dorms 2 and 10 in some order. Odd dorms 1, 3, 5, 9 take 3, 3, 3, 4. Dorms 5 and 9 must differ, so they are {3, 4}, and dorms 1 and 3 are both 3.</p><table><thead><tr><th>Dorm</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr></thead><tbody><tr><td>Cost (Rs. Cr)</td><td>3</td><td>1/6</td><td>3</td><td>5</td><td>3/4</td><td>2</td><td>6</td><td>1</td><td>4/3</td><td>6/1</td></tr></tbody></table><p>Dorm 1 = 3 (moderate) ✓, dorm 5 ≤ 4 ✓, dorm 7 = 6 (extensive) ✓. Dorm 10 can be 1 or 6, so <strong>D</strong> is not necessarily true.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "TITA",
+   "setKey": "di4",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart with conditions",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the total cost of repairing the odd-numbered dorms (in Rs. Crores)?</p>",
+   "answer": "19",
+   "solutionHtml": "<p><strong>Grid.</strong> Costs available: 1, 1, 2 (light), 3, 3, 3, 4 (moderate), 5, 6, 6 (extensive).</p><p>Dorms 3 and 9 (odd, divisible by 3) are moderate; dorm 6 (even, divisible by 3) is light. Odd dorms are 3–6 and even dorms are 1, 2, 5 or 6.</p><p>Dorm 8 is the minimum of dorms 4–9 and dorm 6 is light, so dorm 8 is light and cheaper than dorm 6: dorm 8 = 1, dorm 6 = 2. Dorm 4 cannot be light (the remaining light value 1 would repeat dorm 8), so it is extensive. Dorm 7 is the maximum and above dorm 4, so dorm 7 = 6 and dorm 4 = 5.</p><p>The remaining 6 and 1 go to dorms 2 and 10 in some order. Odd dorms 1, 3, 5, 9 take 3, 3, 3, 4. Dorms 5 and 9 must differ, so they are {3, 4}, and dorms 1 and 3 are both 3.</p><table><thead><tr><th>Dorm</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr></thead><tbody><tr><td>Cost (Rs. Cr)</td><td>3</td><td>1/6</td><td>3</td><td>5</td><td>3/4</td><td>2</td><td>6</td><td>1</td><td>4/3</td><td>6/1</td></tr></tbody></table><p>Odd dorms: 3 + 3 + (dorm 5 + dorm 9 = 3 + 4) + 6 = <strong>19</strong>, whichever way dorms 5 and 9 go.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "TITA",
+   "setKey": "di4",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart with conditions",
+   "difficulty": "hard",
+   "stemHtml": "<p>Suppose further that:</p><p>1. 4 of the 10 dorms needing repair are women's dorms and need a total of Rs. 20 Crores for repair.</p><p>2. Only one of Dorms 1 to 5 is a women's dorm.</p><p>What is the cost for repairing Dorm 9 (in Rs. Crores)?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Grid.</strong> Costs available: 1, 1, 2 (light), 3, 3, 3, 4 (moderate), 5, 6, 6 (extensive).</p><p>Dorms 3 and 9 (odd, divisible by 3) are moderate; dorm 6 (even, divisible by 3) is light. Odd dorms are 3–6 and even dorms are 1, 2, 5 or 6.</p><p>Dorm 8 is the minimum of dorms 4–9 and dorm 6 is light, so dorm 8 is light and cheaper than dorm 6: dorm 8 = 1, dorm 6 = 2. Dorm 4 cannot be light (the remaining light value 1 would repeat dorm 8), so it is extensive. Dorm 7 is the maximum and above dorm 4, so dorm 7 = 6 and dorm 4 = 5.</p><p>The remaining 6 and 1 go to dorms 2 and 10 in some order. Odd dorms 1, 3, 5, 9 take 3, 3, 3, 4. Dorms 5 and 9 must differ, so they are {3, 4}, and dorms 1 and 3 are both 3.</p><table><thead><tr><th>Dorm</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr></thead><tbody><tr><td>Cost (Rs. Cr)</td><td>3</td><td>1/6</td><td>3</td><td>5</td><td>3/4</td><td>2</td><td>6</td><td>1</td><td>4/3</td><td>6/1</td></tr></tbody></table><p><strong>Women's dorms.</strong> Three of the four come from dorms 6–10 and one from dorms 1–5, total 20.</p><p>Dorms 6–10 cost 2, 6, 1, (3 or 4), (6 or 1). Dorms 1–5 cost at most 6 (dorm 2 if it is 6), but if dorm 2 = 6 then dorm 10 = 1.</p><p>If dorm 10 = 6: the best three are 7 + 10 + 9 = 6 + 6 + (3 or 4). With dorm 9 = 4 we need 4 from dorms 1–5, but dorm 5 would then be 3, so this fails. With dorm 9 = 3 the three add to 15 and we need 5 from dorms 1–5, which is dorm 4 ✓. Any other three from 6–10 add to at most 14, needing 6 or more, which dorms 1–5 cannot give (dorm 2 is 1 here).</p><p>If dorm 10 = 1: the best three from 6–10 add to 6 + 4 + 2 = 12, needing 8. Impossible.</p><p>So the women's dorms are <strong>4, 7, 9, 10</strong> with dorm 9 = 3 and dorm 10 = 6 (5 + 6 + 3 + 6 = 20).</p><p>Dorm 9 costs <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "di4",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar chart with conditions",
+   "difficulty": "hard",
+   "stemHtml": "<p>Suppose further that:</p><p>1. 4 of the 10 dorms needing repair are women's dorms and need a total of Rs. 20 Crores for repair.</p><p>2. Only one of Dorms 1 to 5 is a women's dorm.</p><p>Which of the following is a women's dorm?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Dorm 2"
+    },
+    {
+     "id": "B",
+     "textHtml": "Dorm 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "Dorm 8"
+    },
+    {
+     "id": "D",
+     "textHtml": "Dorm 10"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Grid.</strong> Costs available: 1, 1, 2 (light), 3, 3, 3, 4 (moderate), 5, 6, 6 (extensive).</p><p>Dorms 3 and 9 (odd, divisible by 3) are moderate; dorm 6 (even, divisible by 3) is light. Odd dorms are 3–6 and even dorms are 1, 2, 5 or 6.</p><p>Dorm 8 is the minimum of dorms 4–9 and dorm 6 is light, so dorm 8 is light and cheaper than dorm 6: dorm 8 = 1, dorm 6 = 2. Dorm 4 cannot be light (the remaining light value 1 would repeat dorm 8), so it is extensive. Dorm 7 is the maximum and above dorm 4, so dorm 7 = 6 and dorm 4 = 5.</p><p>The remaining 6 and 1 go to dorms 2 and 10 in some order. Odd dorms 1, 3, 5, 9 take 3, 3, 3, 4. Dorms 5 and 9 must differ, so they are {3, 4}, and dorms 1 and 3 are both 3.</p><table><thead><tr><th>Dorm</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr></thead><tbody><tr><td>Cost (Rs. Cr)</td><td>3</td><td>1/6</td><td>3</td><td>5</td><td>3/4</td><td>2</td><td>6</td><td>1</td><td>4/3</td><td>6/1</td></tr></tbody></table><p><strong>Women's dorms.</strong> Three of the four come from dorms 6–10 and one from dorms 1–5, total 20.</p><p>Dorms 6–10 cost 2, 6, 1, (3 or 4), (6 or 1). Dorms 1–5 cost at most 6 (dorm 2 if it is 6), but if dorm 2 = 6 then dorm 10 = 1.</p><p>If dorm 10 = 6: the best three are 7 + 10 + 9 = 6 + 6 + (3 or 4). With dorm 9 = 4 we need 4 from dorms 1–5, but dorm 5 would then be 3, so this fails. With dorm 9 = 3 the three add to 15 and we need 5 from dorms 1–5, which is dorm 4 ✓. Any other three from 6–10 add to at most 14, needing 6 or more, which dorms 1–5 cannot give (dorm 2 is 1 here).</p><p>If dorm 10 = 1: the best three from 6–10 add to 6 + 4 + 2 = 12, needing 8. Impossible.</p><p>So the women's dorms are <strong>4, 7, 9, 10</strong> with dorm 9 = 3 and dorm 10 = 6 (5 + 6 + 3 + 6 = 20).</p><p>Among the options, <strong>Dorm 10</strong> is a women's dorm.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "TITA",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the second highest rating given?</p>",
+   "answer": "7",
+   "solutionHtml": "<p><strong>Ratings.</strong> Cup 3 = 2 × Cup 5 is even. Cup 2 is even (the minimum), so these are the only two even cups and everything else is odd.</p><p>Cup 5 is odd and above cup 2. If cup 2 = 2 and cup 5 = 3, then cup 3 = 6. Cup 5 = 5 would give cup 3 = 10, the top rating, but the top tea (Ooty) is not in cup 3. Cup 2 = 4 forces cup 5 ≥ 5, which has the same problem. So cup 2 = 2, cup 5 = 3, cup 3 = 6.</p><p>Cup 1 is odd, below 6 and not 3: cup 1 = 5. Cups 4 and 6 are odd and above 2, from {7, 9}. Ooty is the highest and not in cup 6 (Himachal), so Ooty = cup 4 = 9 and Himachal = cup 6 = 7.</p><table><thead><tr><th>Cup</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Rating</td><td>5</td><td>2</td><td>6</td><td>9</td><td>3</td><td>7</td></tr><tr><td>Tea</td><td>?</td><td>?</td><td>?</td><td>Ooty</td><td>?</td><td>Himachal</td></tr></tbody></table><p>Munnar, Wayanad, Darjeeling and Assam fill cups 1, 2, 3, 5 (ratings 5, 2, 6, 3), with Munnar &lt; Wayanad &lt; Assam.</p><p>Second highest = <strong>7</strong> (Himachal, cup 6).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "TITA",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the number of the cup that contained tea from Ooty?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Ratings.</strong> Cup 3 = 2 × Cup 5 is even. Cup 2 is even (the minimum), so these are the only two even cups and everything else is odd.</p><p>Cup 5 is odd and above cup 2. If cup 2 = 2 and cup 5 = 3, then cup 3 = 6. Cup 5 = 5 would give cup 3 = 10, the top rating, but the top tea (Ooty) is not in cup 3. Cup 2 = 4 forces cup 5 ≥ 5, which has the same problem. So cup 2 = 2, cup 5 = 3, cup 3 = 6.</p><p>Cup 1 is odd, below 6 and not 3: cup 1 = 5. Cups 4 and 6 are odd and above 2, from {7, 9}. Ooty is the highest and not in cup 6 (Himachal), so Ooty = cup 4 = 9 and Himachal = cup 6 = 7.</p><table><thead><tr><th>Cup</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Rating</td><td>5</td><td>2</td><td>6</td><td>9</td><td>3</td><td>7</td></tr><tr><td>Tea</td><td>?</td><td>?</td><td>?</td><td>Ooty</td><td>?</td><td>Himachal</td></tr></tbody></table><p>Munnar, Wayanad, Darjeeling and Assam fill cups 1, 2, 3, 5 (ratings 5, 2, 6, 3), with Munnar &lt; Wayanad &lt; Assam.</p><p>Ooty is in cup <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the tea from Munnar did not get the minimum rating, what was the rating of the tea from Wayanad?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "6"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Ratings.</strong> Cup 3 = 2 × Cup 5 is even. Cup 2 is even (the minimum), so these are the only two even cups and everything else is odd.</p><p>Cup 5 is odd and above cup 2. If cup 2 = 2 and cup 5 = 3, then cup 3 = 6. Cup 5 = 5 would give cup 3 = 10, the top rating, but the top tea (Ooty) is not in cup 3. Cup 2 = 4 forces cup 5 ≥ 5, which has the same problem. So cup 2 = 2, cup 5 = 3, cup 3 = 6.</p><p>Cup 1 is odd, below 6 and not 3: cup 1 = 5. Cups 4 and 6 are odd and above 2, from {7, 9}. Ooty is the highest and not in cup 6 (Himachal), so Ooty = cup 4 = 9 and Himachal = cup 6 = 7.</p><table><thead><tr><th>Cup</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Rating</td><td>5</td><td>2</td><td>6</td><td>9</td><td>3</td><td>7</td></tr><tr><td>Tea</td><td>?</td><td>?</td><td>?</td><td>Ooty</td><td>?</td><td>Himachal</td></tr></tbody></table><p>Munnar, Wayanad, Darjeeling and Assam fill cups 1, 2, 3, 5 (ratings 5, 2, 6, 3), with Munnar &lt; Wayanad &lt; Assam.</p><p>The remaining ratings are 2, 3, 5, 6. Munnar is not 2, so Munnar &lt; Wayanad &lt; Assam must be 3 &lt; 5 &lt; 6, and Darjeeling gets 2.</p><p>Wayanad = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "lr1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>If cups containing teas from Wayanad and Ooty had consecutive numbers, which of the following statements may be true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Cup 5 contains tea from Assam"
+    },
+    {
+     "id": "B",
+     "textHtml": "Cup 1 contains tea from Darjeeling"
+    },
+    {
+     "id": "C",
+     "textHtml": "Tea from Wayanad has got a rating of 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "Tea from Darjeeling got the minimum rating"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Ratings.</strong> Cup 3 = 2 × Cup 5 is even. Cup 2 is even (the minimum), so these are the only two even cups and everything else is odd.</p><p>Cup 5 is odd and above cup 2. If cup 2 = 2 and cup 5 = 3, then cup 3 = 6. Cup 5 = 5 would give cup 3 = 10, the top rating, but the top tea (Ooty) is not in cup 3. Cup 2 = 4 forces cup 5 ≥ 5, which has the same problem. So cup 2 = 2, cup 5 = 3, cup 3 = 6.</p><p>Cup 1 is odd, below 6 and not 3: cup 1 = 5. Cups 4 and 6 are odd and above 2, from {7, 9}. Ooty is the highest and not in cup 6 (Himachal), so Ooty = cup 4 = 9 and Himachal = cup 6 = 7.</p><table><thead><tr><th>Cup</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>Rating</td><td>5</td><td>2</td><td>6</td><td>9</td><td>3</td><td>7</td></tr><tr><td>Tea</td><td>?</td><td>?</td><td>?</td><td>Ooty</td><td>?</td><td>Himachal</td></tr></tbody></table><p>Munnar, Wayanad, Darjeeling and Assam fill cups 1, 2, 3, 5 (ratings 5, 2, 6, 3), with Munnar &lt; Wayanad &lt; Assam.</p><p>Ooty is cup 4, so Wayanad is cup 3 (6) or cup 5 (3). Cup 3 is impossible: Assam would need more than 6, but only 2, 3, 5 are left. So Wayanad = cup 5 (3), Munnar = cup 2 (2), and Assam and Darjeeling share cups 1 and 3 (5 and 6) either way.</p><p>A: cup 5 is Wayanad ✗. C: Wayanad is 3 ✗. D: Munnar has the minimum ✗. <strong>B</strong> (Darjeeling in cup 1, Assam in cup 3) is possible.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-21",
+   "section": "DILR",
+   "number": 21,
+   "type": "MCQ",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Chessboard",
+   "difficulty": "easy",
+   "stemHtml": "<p>If the queen is at c5, and the other pieces at positions c2, g1, g3, g5 and a3, how many are under attack by the queen? There are no other pieces on the board.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "3"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "5"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Check each of the queen's lines from c5:</p><p>Column c downward: c4, c3 are empty, so <strong>c2</strong> is attacked.</p><p>Row 5 to the right: d5, e5, f5 are empty, so <strong>g5</strong> is attacked.</p><p>Diagonal down-right: d4, e3, f2, then <strong>g1</strong>, attacked.</p><p>Diagonal down-left: b4, then <strong>a3</strong>, attacked.</p><p>g3 is not on any line from c5 (4 columns across, 2 rows down).</p><p>Pieces under attack: <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-22",
+   "section": "DILR",
+   "number": 22,
+   "type": "MCQ",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Chessboard",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the other pieces are only at positions a1, a3, b4, d7, h7 and h8, then which of the following positions of the queen results in the maximum number of pieces being under attack?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "f8"
+    },
+    {
+     "id": "B",
+     "textHtml": "a7"
+    },
+    {
+     "id": "C",
+     "textHtml": "c1"
+    },
+    {
+     "id": "D",
+     "textHtml": "d3"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p>Count the first piece hit along each of the 8 directions:</p><p><strong>f8</strong>: row 8 → h8; diagonal down-left e7, d6, c5 → b4. Total 2.</p><p><strong>a7</strong>: row 7 → d7; column down → a3. Total 2.</p><p><strong>c1</strong>: row 1 left → a1; diagonal up-left b2 → a3. Total 2.</p><p><strong>d3</strong>: row 3 left → a3; column up d4, d5, d6 → d7; diagonal up-right e4, f5, g6 → h7. Total 3.</p><p>Maximum at <strong>d3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-23",
+   "section": "DILR",
+   "number": 23,
+   "type": "MCQ",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Chessboard",
+   "difficulty": "hard",
+   "stemHtml": "<p>If the other pieces are only at positions a1, a3, b4, d7, h7 and h8, then from how many positions the queen cannot attack any of the pieces?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "0"
+    },
+    {
+     "id": "B",
+     "textHtml": "3"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "6"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key idea:</strong> if the queen shares any line with a piece, it attacks something along that line (a piece in between is attacked instead). So we need empty squares that share no row, column or diagonal with any piece.</p><p>Rows used: 1, 3, 4, 7, 8. Columns used: a, b, d, h. Candidates: columns c, e, f, g in rows 2, 5, 6 (12 squares).</p><p>Number the columns a = 1 … h = 8. The pieces' (row − column) values are {0, 2, 3, −1} and their (row + column) values are {2, 4, 6, 11, 15, 16}.</p><p>Remove candidates that match: c2 (−1), c5 (2), e5 (0), f5 (−1), c6 (3), e6 (sum 11), f6 (0), g6 (−1).</p><p>Left: e2, f2, g2, g5, so <strong>4</strong> positions.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-24",
+   "section": "DILR",
+   "number": 24,
+   "type": "MCQ",
+   "setKey": "lr2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Chessboard",
+   "difficulty": "medium",
+   "stemHtml": "<p>Suppose the queen is the only piece on the board and it is at position d5. In how many positions can another piece be placed on the board such that it is safe from attack from the queen?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "32"
+    },
+    {
+     "id": "B",
+     "textHtml": "35"
+    },
+    {
+     "id": "C",
+     "textHtml": "36"
+    },
+    {
+     "id": "D",
+     "textHtml": "37"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Squares attacked from d5: row 5 → 7; column d → 7; diagonal a2–g8 → 6 others; diagonal a8–h1 → 7 others. Total 27.</p><p>Safe squares = 64 − 1 (queen) − 27 = <strong>36</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-25",
+   "section": "DILR",
+   "number": 25,
+   "type": "MCQ",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Seating arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>In which row was Manik sitting?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10"
+    },
+    {
+     "id": "B",
+     "textHtml": "11"
+    },
+    {
+     "id": "C",
+     "textHtml": "12"
+    },
+    {
+     "id": "D",
+     "textHtml": "13"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Rows.</strong> Manik shares Jayanta's row and Gargi shares Kikira's. That already gives 6 rows (J/M, A, B, G/K, P, T), so all six are different.</p><p><strong>J, A, B:</strong> three consecutive rows, same seat type, three different charges. Only rows 10, 11, 12 work (e.g. window 300/200/1000, aisle 500/400/1000). A middle seat gives 0, 0, 1000 there, which repeats. So J = row 10, A = 11, B = 12.</p><p><strong>Suppose J, A, B are at windows</strong> (1500). The other five are 4 aisles + 1 middle, and M (next to window J) is the middle seat, paying 0. G, K, P, T are aisles and all pay. G+K in one row = 800, 1000 or 2000. P+T in consecutive rows outside 10–12, with different charges = 1500 (rows 1, 2) or 1400 (rows 13, 14). No combination makes 3100. ✗</p><p><strong>So J, A, B are aisles:</strong> 500 + 400 + 1000 = 1900. Left: 3 windows, 1 aisle, 1 middle. P and T share a letter, so they are windows. G–K are adjacent, so they are window + middle (a window seat is never next to an aisle seat). That leaves Manik in the aisle next to Jayanta (C–D across the aisle) in row 10, paying 500.</p><p>Remaining: 4600 − 1900 − 500 = 2200 from G, K, P, T, with exactly one zero. P+T window pairs: rows 1–2 = 1300, 13–14 = 1200, 20–21 = 200 (Tapesh in row 21 pays 0). G+K window + middle: rows 1/12/13 = 2000, rows 2–10 = 300, rows 11/14–20 = 200. Only 200 + 2000 = 2200 works: P = row 20, T = row 21 (0), and G, K in row 1 or 13 paying 1000 each.</p><p>Manik is next to Jayanta in row <strong>10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-26",
+   "section": "DILR",
+   "number": 26,
+   "type": "MCQ",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Seating arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>How much extra did Jayanta pay for his choice of seat?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Rs. 300"
+    },
+    {
+     "id": "B",
+     "textHtml": "Rs. 400"
+    },
+    {
+     "id": "C",
+     "textHtml": "Rs. 500"
+    },
+    {
+     "id": "D",
+     "textHtml": "Rs. 1000"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Rows.</strong> Manik shares Jayanta's row and Gargi shares Kikira's. That already gives 6 rows (J/M, A, B, G/K, P, T), so all six are different.</p><p><strong>J, A, B:</strong> three consecutive rows, same seat type, three different charges. Only rows 10, 11, 12 work (e.g. window 300/200/1000, aisle 500/400/1000). A middle seat gives 0, 0, 1000 there, which repeats. So J = row 10, A = 11, B = 12.</p><p><strong>Suppose J, A, B are at windows</strong> (1500). The other five are 4 aisles + 1 middle, and M (next to window J) is the middle seat, paying 0. G, K, P, T are aisles and all pay. G+K in one row = 800, 1000 or 2000. P+T in consecutive rows outside 10–12, with different charges = 1500 (rows 1, 2) or 1400 (rows 13, 14). No combination makes 3100. ✗</p><p><strong>So J, A, B are aisles:</strong> 500 + 400 + 1000 = 1900. Left: 3 windows, 1 aisle, 1 middle. P and T share a letter, so they are windows. G–K are adjacent, so they are window + middle (a window seat is never next to an aisle seat). That leaves Manik in the aisle next to Jayanta (C–D across the aisle) in row 10, paying 500.</p><p>Remaining: 4600 − 1900 − 500 = 2200 from G, K, P, T, with exactly one zero. P+T window pairs: rows 1–2 = 1300, 13–14 = 1200, 20–21 = 200 (Tapesh in row 21 pays 0). G+K window + middle: rows 1/12/13 = 2000, rows 2–10 = 300, rows 11/14–20 = 200. Only 200 + 2000 = 2200 works: P = row 20, T = row 21 (0), and G, K in row 1 or 13 paying 1000 each.</p><p>Jayanta: aisle seat in row 10, <strong>Rs. 500</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-27",
+   "section": "DILR",
+   "number": 27,
+   "type": "MCQ",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Seating arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>How much extra did Gargi pay for her choice of seat?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "0"
+    },
+    {
+     "id": "B",
+     "textHtml": "Rs. 300"
+    },
+    {
+     "id": "C",
+     "textHtml": "Rs. 500"
+    },
+    {
+     "id": "D",
+     "textHtml": "Rs. 1000"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Rows.</strong> Manik shares Jayanta's row and Gargi shares Kikira's. That already gives 6 rows (J/M, A, B, G/K, P, T), so all six are different.</p><p><strong>J, A, B:</strong> three consecutive rows, same seat type, three different charges. Only rows 10, 11, 12 work (e.g. window 300/200/1000, aisle 500/400/1000). A middle seat gives 0, 0, 1000 there, which repeats. So J = row 10, A = 11, B = 12.</p><p><strong>Suppose J, A, B are at windows</strong> (1500). The other five are 4 aisles + 1 middle, and M (next to window J) is the middle seat, paying 0. G, K, P, T are aisles and all pay. G+K in one row = 800, 1000 or 2000. P+T in consecutive rows outside 10–12, with different charges = 1500 (rows 1, 2) or 1400 (rows 13, 14). No combination makes 3100. ✗</p><p><strong>So J, A, B are aisles:</strong> 500 + 400 + 1000 = 1900. Left: 3 windows, 1 aisle, 1 middle. P and T share a letter, so they are windows. G–K are adjacent, so they are window + middle (a window seat is never next to an aisle seat). That leaves Manik in the aisle next to Jayanta (C–D across the aisle) in row 10, paying 500.</p><p>Remaining: 4600 − 1900 − 500 = 2200 from G, K, P, T, with exactly one zero. P+T window pairs: rows 1–2 = 1300, 13–14 = 1200, 20–21 = 200 (Tapesh in row 21 pays 0). G+K window + middle: rows 1/12/13 = 2000, rows 2–10 = 300, rows 11/14–20 = 200. Only 200 + 2000 = 2200 works: P = row 20, T = row 21 (0), and G, K in row 1 or 13 paying 1000 each.</p><p>Gargi sits in row 1 or 13 (window or middle), so she pays <strong>Rs. 1000</strong> either way.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-28",
+   "section": "DILR",
+   "number": 28,
+   "type": "MCQ",
+   "setKey": "lr3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Seating arrangement",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who among the following did not pay any extra amount for his/her choice of seat?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Kikira"
+    },
+    {
+     "id": "B",
+     "textHtml": "Manik"
+    },
+    {
+     "id": "C",
+     "textHtml": "Gargi"
+    },
+    {
+     "id": "D",
+     "textHtml": "Tapesh"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Rows.</strong> Manik shares Jayanta's row and Gargi shares Kikira's. That already gives 6 rows (J/M, A, B, G/K, P, T), so all six are different.</p><p><strong>J, A, B:</strong> three consecutive rows, same seat type, three different charges. Only rows 10, 11, 12 work (e.g. window 300/200/1000, aisle 500/400/1000). A middle seat gives 0, 0, 1000 there, which repeats. So J = row 10, A = 11, B = 12.</p><p><strong>Suppose J, A, B are at windows</strong> (1500). The other five are 4 aisles + 1 middle, and M (next to window J) is the middle seat, paying 0. G, K, P, T are aisles and all pay. G+K in one row = 800, 1000 or 2000. P+T in consecutive rows outside 10–12, with different charges = 1500 (rows 1, 2) or 1400 (rows 13, 14). No combination makes 3100. ✗</p><p><strong>So J, A, B are aisles:</strong> 500 + 400 + 1000 = 1900. Left: 3 windows, 1 aisle, 1 middle. P and T share a letter, so they are windows. G–K are adjacent, so they are window + middle (a window seat is never next to an aisle seat). That leaves Manik in the aisle next to Jayanta (C–D across the aisle) in row 10, paying 500.</p><p>Remaining: 4600 − 1900 − 500 = 2200 from G, K, P, T, with exactly one zero. P+T window pairs: rows 1–2 = 1300, 13–14 = 1200, 20–21 = 200 (Tapesh in row 21 pays 0). G+K window + middle: rows 1/12/13 = 2000, rows 2–10 = 300, rows 11/14–20 = 200. Only 200 + 2000 = 2200 works: P = row 20, T = row 21 (0), and G, K in row 1 or 13 paying 1000 each.</p><p>The only zero is <strong>Tapesh</strong> (window seat, row 21).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-29",
+   "section": "DILR",
+   "number": 29,
+   "type": "TITA",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Permutations",
+   "difficulty": "easy",
+   "stemHtml": "<p>The lab has decided to allow a variation in the sequence of scans of the five fingers so that at most two scans (out of five) are out of place. For example, if the original sequence is Thumb (T), index finger (I), middle finger (M), ring finger (R) and little finger (L) then TLMRI is also allowed, but TMRLI is not.</p><p>How many different sequences of scans are allowed for any given person's original scan?</p>",
+   "answer": "11",
+   "solutionHtml": "<p>Exactly one finger out of place is impossible (its position would have to be filled by another finger, which would then also be out of place).</p><p>Exactly two out of place means the two fingers swap: C(5, 2) = 10 ways. Add the original sequence: <strong>11</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-30",
+   "section": "DILR",
+   "number": 30,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Permutations",
+   "difficulty": "medium",
+   "stemHtml": "<p>The lab has decided to allow variations of the original sequence so that input of the scanned sequence of five fingers is allowed to vary from the original sequence by one place for any of the fingers. Thus, for example, if TIMRL is the original sequence, then ITRML is also allowed, but LIMRT is not.</p><p>How many different sequences are allowed for any given person's original scan?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "7"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "8"
+    },
+    {
+     "id": "D",
+     "textHtml": "13"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>If every finger moves at most one place, the only possible changes are swaps of neighbouring fingers that do not overlap.</p><p>Count with n positions: f(n) = f(n−1) (last finger stays) + f(n−2) (last two swap). f(1) = 1, f(2) = 2, f(3) = 3, f(4) = 5, f(5) = <strong>8</strong>.</p><p>Check by listing: none (1), one swap (4), two non-overlapping swaps (3): 1 + 4 + 3 = 8.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-31",
+   "section": "DILR",
+   "number": 31,
+   "type": "TITA",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Permutations",
+   "difficulty": "medium",
+   "stemHtml": "<p>The lab has now decided to require six scans in the pass key sequence, where exactly one finger is scanned twice, and the other fingers are scanned exactly once, which can be done in any order. For example, a possible sequence is TIMTRL.</p><p>Suppose the lab allows a variation of the original sequence (of six inputs) where at most two scans (out of six) are out of place, as long as the finger originally scanned twice is scanned twice and other fingers are scanned once.</p><p>How many different sequences of scans are allowed for any given person's original scan?</p>",
+   "answer": "15",
+   "solutionHtml": "<p>A new sequence with exactly two positions changed comes from swapping two positions that hold different fingers.</p><p>Pairs of positions: C(6, 2) = 15. Swapping the two copies of the repeated finger changes nothing, so 14 new sequences.</p><p>Add the original: <strong>15</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-32",
+   "section": "DILR",
+   "number": 32,
+   "type": "MCQ",
+   "setKey": "lr4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Permutations",
+   "difficulty": "hard",
+   "stemHtml": "<p>The lab has now decided to require six scans in the pass key sequence, where exactly one finger is scanned twice, and the other fingers are scanned exactly once, which can be done in any order. For example, a possible sequence is TIMTRL.</p><p>Suppose the lab allows a variation of the original sequence (of six inputs) so that input in the form of scanned sequence of six fingers is allowed to vary from the original sequence by one place for any of the fingers, as long as the finger originally scanned twice is scanned twice and other fingers are scanned once.</p><p>How many different sequences of scans are allowed if the original scan sequence is LRLTIM?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "8"
+    },
+    {
+     "id": "B",
+     "textHtml": "11"
+    },
+    {
+     "id": "C",
+     "textHtml": "13"
+    },
+    {
+     "id": "D",
+     "textHtml": "14"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p>Moving each scan by at most one place means making non-overlapping swaps of neighbours. For 6 positions the count is f(6) = f(5) + f(4) = 8 + 5 = 13.</p><p>Repeats could only merge two of these if a swap exchanged two identical letters. In LRLTIM the neighbouring pairs are LR, RL, LT, TI, IM, and no two neighbours are the same. So all 13 sequences are different: <strong>13</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2017 Slot 2",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

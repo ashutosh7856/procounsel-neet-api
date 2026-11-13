@@ -1,0 +1,705 @@
+{
+  "sets": [
+    {
+      "key": "ALR-S1",
+      "kind": "dilr_set",
+      "title": "Six colleagues in a row",
+      "contentHtml": "<p>Six colleagues — P, Q, R, S, T and U — sit in a single row of six seats, all facing north. (“Left” and “right” are from their own point of view.)</p><ul><li>Q sits third from the left end.</li><li>R and U sit at the two ends of the row, not necessarily in that order.</li><li>P sits immediately to the right of Q.</li><li>S does not sit next to U.</li><li>T sits somewhere to the left of S.</li></ul>",
+      "section": "ALR"
+    },
+    {
+      "key": "ALR-S2",
+      "kind": "dilr_set",
+      "title": "Departments and joining years",
+      "contentHtml": "<p>Five employees — Kavya, Lalit, Mohan, Neha and Omar — work in five different departments (HR, Finance, Sales, IT and Legal) and joined the company in five different years from 2017 to 2021 (one per year).</p><ul><li>The person in IT joined in 2019.</li><li>Kavya works in Finance and joined exactly two years after Mohan.</li><li>Lalit joined in 2021 and does not work in Legal.</li><li>The person in HR joined in 2017.</li><li>Neha joined before Omar.</li></ul>",
+      "section": "ALR"
+    }
+  ],
+  "questions": [
+    {
+      "key": "ALR-01",
+      "section": "ALR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "ALR-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Seating arrangement",
+      "difficulty": "easy",
+      "stemHtml": "<p>Who sits at the extreme right end of the row?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "U"
+        },
+        {
+          "id": "B",
+          "textHtml": "T"
+        },
+        {
+          "id": "C",
+          "textHtml": "S"
+        },
+        {
+          "id": "D",
+          "textHtml": "R"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1–6 from left to right): Q = 3, so P = 4. R and U take seats 1 and 6, leaving seats 2 and 5 for S and T.</p><ul><li>If U = 1: S cannot be in 2 (next to U), so S = 5, T = 2. T (2) is left of S (5) ✓.</li><li>If U = 6: S cannot be in 5, so S = 2, T = 5. But then T is to the right of S ✗.</li></ul><p>Unique arrangement (left to right): <strong>U, T, Q, P, S, R</strong>.</p><p>The person in seat 6 (extreme right) is <strong>R</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-02",
+      "section": "ALR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "ALR-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Seating arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many people sit between U and S?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Three"
+        },
+        {
+          "id": "B",
+          "textHtml": "Two"
+        },
+        {
+          "id": "C",
+          "textHtml": "Four"
+        },
+        {
+          "id": "D",
+          "textHtml": "One"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1–6 from left to right): Q = 3, so P = 4. R and U take seats 1 and 6, leaving seats 2 and 5 for S and T.</p><ul><li>If U = 1: S cannot be in 2 (next to U), so S = 5, T = 2. T (2) is left of S (5) ✓.</li><li>If U = 6: S cannot be in 5, so S = 2, T = 5. But then T is to the right of S ✗.</li></ul><p>Unique arrangement (left to right): <strong>U, T, Q, P, S, R</strong>.</p><p>U is in seat 1 and S in seat 5, so T, Q and P (seats 2–4) sit between them: <strong>three</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-03",
+      "section": "ALR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "ALR-S1",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Seating arrangement",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who sits second to the right of Q?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "P"
+        },
+        {
+          "id": "B",
+          "textHtml": "S"
+        },
+        {
+          "id": "C",
+          "textHtml": "R"
+        },
+        {
+          "id": "D",
+          "textHtml": "T"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the arrangement</strong> (seats 1–6 from left to right): Q = 3, so P = 4. R and U take seats 1 and 6, leaving seats 2 and 5 for S and T.</p><ul><li>If U = 1: S cannot be in 2 (next to U), so S = 5, T = 2. T (2) is left of S (5) ✓.</li><li>If U = 6: S cannot be in 5, so S = 2, T = 5. But then T is to the right of S ✗.</li></ul><p>Unique arrangement (left to right): <strong>U, T, Q, P, S, R</strong>.</p><p>Q is in seat 3; second to the right is seat 5, which is <strong>S</strong>. (P is only immediately to the right.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-04",
+      "section": "ALR",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-decoding",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a certain code, CODE is written as DQGI. How is BEAM written in that code?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "CFBN"
+        },
+        {
+          "id": "B",
+          "textHtml": "CGDP"
+        },
+        {
+          "id": "C",
+          "textHtml": "DGCQ"
+        },
+        {
+          "id": "D",
+          "textHtml": "CGDQ"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Each letter moves forward by its position in the word: C+1 = D, O+2 = Q, D+3 = G, E+4 = I, giving DQGI.</p><p>Apply the same rule to BEAM: B+1 = C, E+2 = G, A+3 = D, M+4 = Q → <strong>CGDQ</strong>.</p><p>CFBN shifts every letter by 1; CGDP makes an error on the last letter (M+3); DGCQ shifts the first letter by 2.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-05",
+      "section": "ALR",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Coding-decoding",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a code language, ‘sky is blue’ is written as ‘ta ka mo’, ‘blue sea is deep’ as ‘ra mo ka pi’ and ‘sea is green’ as ‘ka lu ra’. What is the code for ‘deep’?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "pi"
+        },
+        {
+          "id": "B",
+          "textHtml": "ra"
+        },
+        {
+          "id": "C",
+          "textHtml": "mo"
+        },
+        {
+          "id": "D",
+          "textHtml": "lu"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>‘is’ appears in all three sentences; the only code common to all three is <em>ka</em>, so is = ka.</p><p>‘blue’ appears in sentences 1 and 2; apart from ka, the common code is <em>mo</em>, so blue = mo.</p><p>‘sea’ appears in sentences 2 and 3; apart from ka, the common code is <em>ra</em>, so sea = ra.</p><p>In sentence 2 (blue sea is deep = ra mo ka pi), the only code left is <strong>pi</strong> = deep.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-06",
+      "section": "ALR",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Blood relations",
+      "difficulty": "easy",
+      "stemHtml": "<p>Introducing a girl, Ravi, a man, says, “Her mother is the only daughter of my mother.” How is the girl related to Ravi?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Sister"
+        },
+        {
+          "id": "B",
+          "textHtml": "Niece"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cousin"
+        },
+        {
+          "id": "D",
+          "textHtml": "Daughter"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Since Ravi is a man, the only daughter of his mother is his sister. The girl’s mother is therefore Ravi’s sister, which makes the girl Ravi’s <strong>niece</strong>.</p><p>She cannot be his sister (her mother is his sister, not his mother) or his daughter; a cousin would need her parent to be Ravi’s aunt or uncle.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-07",
+      "section": "ALR",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Blood relations",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose: ‘A + B’ means A is the father of B; ‘A − B’ means A is the wife of B; ‘A × B’ means A is the brother of B. If P × Q + R − S, how is P related to R?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Father"
+        },
+        {
+          "id": "B",
+          "textHtml": "Brother"
+        },
+        {
+          "id": "C",
+          "textHtml": "Grandfather"
+        },
+        {
+          "id": "D",
+          "textHtml": "Paternal uncle"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Read left to right: P × Q → P is Q’s brother. Q + R → Q is R’s father. R − S → R is S’s wife (so R is female).</p><p>P is the brother of R’s father, i.e. R’s <strong>paternal uncle</strong>.</p><p>P is not R’s father (that is Q), not R’s brother (P is a generation above R), and not a grandfather.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-08",
+      "section": "ALR",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Direction sense",
+      "difficulty": "medium",
+      "stemHtml": "<p>Meera walks 6 km towards the north, turns right and walks 8 km, then turns right again and walks 12 km. How far is she from her starting point, and in which direction?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "14 km, south-east"
+        },
+        {
+          "id": "B",
+          "textHtml": "10 km, north-east"
+        },
+        {
+          "id": "C",
+          "textHtml": "10 km, south-east"
+        },
+        {
+          "id": "D",
+          "textHtml": "6 km, south"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Take the start as (0, 0). After 6 km north: (0, 6). Turning right from north means facing east; 8 km → (8, 6). Turning right again means facing south; 12 km → (8, −6).</p><p>Distance = √(8² + 6²) = √100 = <strong>10 km</strong>. She is east (x = +8) and south (y = −6) of the start, i.e. <strong>south-east</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-09",
+      "section": "ALR",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Direction sense",
+      "difficulty": "medium",
+      "stemHtml": "<p>A man is facing east. He turns 90° clockwise and then 225° anticlockwise. Which direction is he facing now?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "North-west"
+        },
+        {
+          "id": "B",
+          "textHtml": "North-east"
+        },
+        {
+          "id": "C",
+          "textHtml": "South-west"
+        },
+        {
+          "id": "D",
+          "textHtml": "South-east"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>East turned 90° clockwise → south.</p><p>From south, anticlockwise: 90° → east, 180° → north, a further 45° (total 225°) → <strong>north-west</strong>.</p><p>Check with bearings: east = 90°; +90° = 180°; −225° = −45° ≡ 315°, which is north-west.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-10",
+      "section": "ALR",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Syllogisms",
+      "difficulty": "easy",
+      "stemHtml": "<p><strong>Statements:</strong> All pens are tools. Some tools are costly.</p><p><strong>Conclusions:</strong> I. Some pens are costly. II. Some tools are pens.</p><p>Assuming the statements to be true, which conclusion(s) logically follow?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both conclusions I and II follow"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor II follows"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>II follows:</strong> since all pens are tools (and pens exist), those pens are tools, so some tools are pens.</p><p><strong>I does not follow:</strong> the costly tools may be entirely different from the pens. A diagram with pens inside tools and the costly part of tools lying outside pens satisfies both statements, so I is only a possibility.</p><p>Hence only conclusion II follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-11",
+      "section": "ALR",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Syllogisms",
+      "difficulty": "hard",
+      "stemHtml": "<p><strong>Statements:</strong> Some books are pens. No pen is a pencil. All pencils are erasers.</p><p><strong>Conclusions:</strong> I. Some books are not pencils. II. Some erasers are not pens.</p><p>Assuming the statements to be true, which conclusion(s) logically follow?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both conclusions I and II follow"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor II follows"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>I follows:</strong> the books that are pens cannot be pencils (no pen is a pencil), so some books are not pencils.</p><p><strong>II follows:</strong> every pencil is an eraser, and no pencil is a pen; so the erasers that are pencils are not pens. Hence some erasers are not pens.</p><p>Both conclusions follow. (Checked by enumerating every possible arrangement of the four sets.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-12",
+      "section": "ALR",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Number series",
+      "difficulty": "easy",
+      "stemHtml": "<p>Find the next number in the series: 3, 7, 15, 31, 63, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "125"
+        },
+        {
+          "id": "B",
+          "textHtml": "129"
+        },
+        {
+          "id": "C",
+          "textHtml": "131"
+        },
+        {
+          "id": "D",
+          "textHtml": "127"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Each term is (previous term × 2) + 1: 3×2+1 = 7, 7×2+1 = 15, 15×2+1 = 31, 31×2+1 = 63, so next = 63×2+1 = <strong>127</strong>.</p><p>(Equivalently the terms are 2ⁿ − 1: 4−1, 8−1, … , 128−1.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-13",
+      "section": "ALR",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Number series",
+      "difficulty": "medium",
+      "stemHtml": "<p>Find the next number in the series: 4, 9, 25, 49, 121, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "169"
+        },
+        {
+          "id": "B",
+          "textHtml": "144"
+        },
+        {
+          "id": "C",
+          "textHtml": "196"
+        },
+        {
+          "id": "D",
+          "textHtml": "225"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The terms are squares of consecutive prime numbers: 2², 3², 5², 7², 11². The next prime is 13, so the next term is 13² = <strong>169</strong>.</p><p>144 = 12² and 196 = 14² use non-primes; 225 = 15² skips the pattern.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-14",
+      "section": "ALR",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Letter series",
+      "difficulty": "medium",
+      "stemHtml": "<p>Find the next letter in the series: B, E, J, Q, ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "X"
+        },
+        {
+          "id": "B",
+          "textHtml": "Y"
+        },
+        {
+          "id": "C",
+          "textHtml": "Z"
+        },
+        {
+          "id": "D",
+          "textHtml": "W"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Alphabet positions: B = 2, E = 5, J = 10, Q = 17. Differences are +3, +5, +7 (consecutive odd numbers), so the next difference is +9: 17 + 9 = 26 = <strong>Z</strong>.</p><p>(The positions are also n² + 1 for n = 1, 2, 3, 4; the next is 5² + 1 = 26.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-15",
+      "section": "ALR",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Statement and conclusions",
+      "difficulty": "easy",
+      "stemHtml": "<p><strong>Statement:</strong> The municipal corporation has announced that water supply to Ward 7 will be suspended on Sunday for pipeline repairs.</p><p><strong>Conclusions:</strong> I. Residents of Ward 7 would do well to store some water before Sunday. II. Pipelines in Ward 7 have never been repaired before.</p><p>Which conclusion(s) follow from the statement?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only conclusion I follows"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only conclusion II follows"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both conclusions I and II follow"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither conclusion I nor II follows"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>I follows:</strong> the announcement exists precisely so that residents can prepare for a day without supply; storing water is the natural, practical inference.</p><p><strong>II does not follow:</strong> the statement says nothing about past repairs. Repairs on Sunday do not imply that no repair was ever done earlier.</p><p>Hence only I follows.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-16",
+      "section": "ALR",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Statement and assumptions",
+      "difficulty": "medium",
+      "stemHtml": "<p><strong>Statement:</strong> An advertisement by a railway ticketing service says, “Book your tickets online and skip the queue.”</p><p><strong>Assumptions:</strong> I. Many people would prefer to avoid standing in queues. II. Online booking is actually available to the public.</p><p>Which assumption(s) are implicit in the statement?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only assumption I is implicit"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only assumption II is implicit"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both assumptions I and II are implicit"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neither assumption I nor II is implicit"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>I is implicit:</strong> the advertisement uses “skip the queue” as a selling point, which only makes sense if people dislike queuing.</p><p><strong>II is implicit:</strong> an advertiser urging people to book online must assume the facility exists and is open to them; otherwise the message is pointless.</p><p>Both assumptions are implicit.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-17",
+      "section": "ALR",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Calendar",
+      "difficulty": "medium",
+      "stemHtml": "<p>If 1 March of a non-leap year is a Monday, what day of the week is 1 June of the same year?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Monday"
+        },
+        {
+          "id": "B",
+          "textHtml": "Tuesday"
+        },
+        {
+          "id": "C",
+          "textHtml": "Wednesday"
+        },
+        {
+          "id": "D",
+          "textHtml": "Thursday"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Days from 1 March to 1 June = 31 (March) + 30 (April) + 31 (May) = 92 days.</p><p>92 = 13 × 7 + 1, so there is 1 odd day. Monday + 1 = <strong>Tuesday</strong>.</p><p>(Whether the year is a leap year does not matter here since February is not crossed. Check: 1 March 2021 was a Monday and 1 June 2021 a Tuesday.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-18",
+      "section": "ALR",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Logical Reasoning",
+      "subtopic": "Analogy",
+      "difficulty": "easy",
+      "stemHtml": "<p>Thermometer : Temperature :: Anemometer : ?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Humidity"
+        },
+        {
+          "id": "B",
+          "textHtml": "Air pressure"
+        },
+        {
+          "id": "C",
+          "textHtml": "Rainfall"
+        },
+        {
+          "id": "D",
+          "textHtml": "Wind speed"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>A thermometer measures temperature; an anemometer measures <strong>wind speed</strong>.</p><p>Humidity is measured by a hygrometer, air pressure by a barometer, rainfall by a rain gauge.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-19",
+      "section": "ALR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "ALR-S2",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Puzzle",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who works in the Legal department?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Lalit"
+        },
+        {
+          "id": "B",
+          "textHtml": "Mohan"
+        },
+        {
+          "id": "C",
+          "textHtml": "Omar"
+        },
+        {
+          "id": "D",
+          "textHtml": "Neha"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Solving the set:</strong> Lalit = 2021. Kavya (Finance) cannot have joined in 2017 (HR), 2019 (IT) or 2021 (Lalit), and must be at least two years after someone, so Kavya = 2020 and Mohan = 2018.</p><p>The remaining years 2017 and 2019 go to Neha and Omar; since Neha joined before Omar, Neha = 2017 (HR) and Omar = 2019 (IT).</p><p>Mohan and Lalit share Sales and Legal; Lalit is not in Legal, so Lalit = Sales and Mohan = Legal.</p><p>Final: Neha–HR–2017, Mohan–Legal–2018, Omar–IT–2019, Kavya–Finance–2020, Lalit–Sales–2021.</p><p>Legal = <strong>Mohan</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "ALR-20",
+      "section": "ALR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "ALR-S2",
+      "topic": "Analytical Reasoning",
+      "subtopic": "Puzzle",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following combinations is correct?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Omar – Sales – 2019"
+        },
+        {
+          "id": "B",
+          "textHtml": "Kavya – Finance – 2018"
+        },
+        {
+          "id": "C",
+          "textHtml": "Neha – HR – 2017"
+        },
+        {
+          "id": "D",
+          "textHtml": "Mohan – IT – 2018"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Solving the set:</strong> Lalit = 2021. Kavya (Finance) cannot have joined in 2017 (HR), 2019 (IT) or 2021 (Lalit), and must be at least two years after someone, so Kavya = 2020 and Mohan = 2018.</p><p>The remaining years 2017 and 2019 go to Neha and Omar; since Neha joined before Omar, Neha = 2017 (HR) and Omar = 2019 (IT).</p><p>Mohan and Lalit share Sales and Legal; Lalit is not in Legal, so Lalit = Sales and Mohan = Legal.</p><p>Final: Neha–HR–2017, Mohan–Legal–2018, Omar–IT–2019, Kavya–Finance–2020, Lalit–Sales–2021.</p><p>Only <strong>Neha – HR – 2017</strong> matches. Omar is in IT, Kavya joined in 2020, and Mohan is in Legal.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

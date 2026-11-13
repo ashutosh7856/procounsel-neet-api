@@ -1,0 +1,685 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "GA-01",
+      "section": "GA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "Regulators",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which body is the statutory regulator of the securities (stock) market in India?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Reserve Bank of India (RBI)"
+        },
+        {
+          "id": "B",
+          "textHtml": "NITI Aayog"
+        },
+        {
+          "id": "C",
+          "textHtml": "Securities and Exchange Board of India (SEBI)"
+        },
+        {
+          "id": "D",
+          "textHtml": "Insurance Regulatory and Development Authority of India (IRDAI)"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. SEBI, given statutory powers under the SEBI Act, 1992, regulates the securities market, protects investors and supervises intermediaries such as stock exchanges and brokers.</p><p><strong>A</strong> RBI is the central bank and regulates banks and monetary policy. <strong>B</strong> NITI Aayog is a policy think tank with no regulatory role. <strong>D</strong> IRDAI regulates insurance.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-02",
+      "section": "GA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "RBI",
+      "difficulty": "easy",
+      "stemHtml": "<p>In which year was the Reserve Bank of India established?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1935"
+        },
+        {
+          "id": "B",
+          "textHtml": "1947"
+        },
+        {
+          "id": "C",
+          "textHtml": "1949"
+        },
+        {
+          "id": "D",
+          "textHtml": "1969"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The RBI was set up under the Reserve Bank of India Act, 1934 and began operations on 1 April 1935.</p><p><strong>C</strong> 1949 is the year the RBI was nationalised. <strong>D</strong> 1969 is the year of the nationalisation of 14 major commercial banks. <strong>B</strong> 1947 is the year of Independence, not the RBI's founding.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-03",
+      "section": "GA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "RBI",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is NOT a function of the Reserve Bank of India?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Acting as banker to the Government"
+        },
+        {
+          "id": "B",
+          "textHtml": "Acting as lender of last resort to banks"
+        },
+        {
+          "id": "C",
+          "textHtml": "Issuing currency notes"
+        },
+        {
+          "id": "D",
+          "textHtml": "Assessing and collecting income tax"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Income tax is administered by the Income Tax Department under the Central Board of Direct Taxes (Ministry of Finance), not by the RBI.</p><p><strong>A</strong>, <strong>B</strong> and <strong>C</strong> are classic central-bank functions of the RBI: it manages the Government's banking transactions, provides emergency liquidity to banks as lender of last resort, and has the sole right to issue currency notes (other than the one-rupee note, which is issued by the Government).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-04",
+      "section": "GA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "Planning and Policy Institutions",
+      "difficulty": "easy",
+      "stemHtml": "<p>NITI Aayog was constituted in 2015 to replace which body?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Finance Commission"
+        },
+        {
+          "id": "B",
+          "textHtml": "Planning Commission"
+        },
+        {
+          "id": "C",
+          "textHtml": "National Development Council"
+        },
+        {
+          "id": "D",
+          "textHtml": "Reserve Bank of India's Monetary Policy Department"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. NITI Aayog (National Institution for Transforming India) was set up on 1 January 2015 in place of the Planning Commission. It functions as the Government's policy think tank and promotes cooperative federalism; unlike the Planning Commission, it does not allocate funds to states.</p><p><strong>A</strong> The Finance Commission is a constitutional body (Article 280) and continues to exist. <strong>C</strong> and <strong>D</strong> were not replaced by NITI Aayog.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-05",
+      "section": "GA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "Taxation",
+      "difficulty": "medium",
+      "stemHtml": "<p>The Goods and Services Tax (GST) introduced in India is best described as a</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "direct tax levied on the income of manufacturers"
+        },
+        {
+          "id": "B",
+          "textHtml": "destination-based tax on the consumption of goods and services"
+        },
+        {
+          "id": "C",
+          "textHtml": "tax on the wealth held by individuals"
+        },
+        {
+          "id": "D",
+          "textHtml": "origin-based tax collected only by the state where goods are produced"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. GST is an indirect tax on the supply of goods and services. It is destination-based: the tax revenue accrues to the state where the goods or services are consumed, not where they are produced. Input tax credit at each stage means only the value added is effectively taxed.</p><p><strong>A</strong> and <strong>C</strong> describe direct taxes (on income or wealth), whereas GST is indirect. <strong>D</strong> reverses the principle — GST is destination-based, not origin-based.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-06",
+      "section": "GA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "Monetary Policy",
+      "difficulty": "medium",
+      "stemHtml": "<p>In Indian monetary policy, the <em>repo rate</em> is the rate at which</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "commercial banks lend to their most creditworthy customers"
+        },
+        {
+          "id": "B",
+          "textHtml": "the Government borrows from the public through bonds"
+        },
+        {
+          "id": "C",
+          "textHtml": "commercial banks park their surplus funds with the RBI"
+        },
+        {
+          "id": "D",
+          "textHtml": "the RBI lends short-term funds to commercial banks against government securities"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. 'Repo' stands for repurchase agreement: banks sell government securities to the RBI with an agreement to buy them back, which is effectively a short-term loan from the RBI at the repo rate.</p><p><strong>C</strong> describes the reverse repo (banks lending surplus funds to the RBI). <strong>A</strong> describes a bank's lending rate to customers. <strong>B</strong> refers to government borrowing, not the repo rate.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-07",
+      "section": "GA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Indian Polity and Constitution",
+      "subtopic": "Fundamental Rights",
+      "difficulty": "easy",
+      "stemHtml": "<p>The Fundamental Rights are contained in which Part of the Constitution of India?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Part III"
+        },
+        {
+          "id": "B",
+          "textHtml": "Part IV"
+        },
+        {
+          "id": "C",
+          "textHtml": "Part IVA"
+        },
+        {
+          "id": "D",
+          "textHtml": "Part V"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Part III (Articles 12–35) lists the Fundamental Rights.</p><p><strong>B</strong> Part IV contains the Directive Principles of State Policy. <strong>C</strong> Part IVA contains the Fundamental Duties (Article 51A). <strong>D</strong> Part V deals with the Union (executive, Parliament, etc.).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-08",
+      "section": "GA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Indian Polity and Constitution",
+      "subtopic": "Constitutional History",
+      "difficulty": "easy",
+      "stemHtml": "<p>The Constitution of India came into force on</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "15 August 1947"
+        },
+        {
+          "id": "B",
+          "textHtml": "26 November 1949"
+        },
+        {
+          "id": "C",
+          "textHtml": "26 January 1950"
+        },
+        {
+          "id": "D",
+          "textHtml": "2 October 1950"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The Constitution came into force on 26 January 1950, celebrated as Republic Day.</p><p><strong>B</strong> 26 November 1949 is the date the Constituent Assembly adopted the Constitution (observed as Constitution Day); a few provisions came into force then, but the Constitution as a whole commenced on 26 January 1950. <strong>A</strong> is Independence Day. <strong>D</strong> has no constitutional significance.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-09",
+      "section": "GA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Indian Polity and Constitution",
+      "subtopic": "Parliament",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who presides over a joint sitting of the two Houses of Parliament in India?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The President of India"
+        },
+        {
+          "id": "B",
+          "textHtml": "The Vice-President of India"
+        },
+        {
+          "id": "C",
+          "textHtml": "The Prime Minister of India"
+        },
+        {
+          "id": "D",
+          "textHtml": "The Speaker of the Lok Sabha"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. A joint sitting is summoned by the President under Article 108 to resolve a deadlock over a bill, but it is presided over by the Speaker of the Lok Sabha (in the Speaker's absence, the Deputy Speaker, and then the Deputy Chairman of the Rajya Sabha).</p><p><strong>A</strong> The President summons but does not preside. <strong>B</strong> The Vice-President is the ex officio Chairman of the Rajya Sabha but does not preside over joint sittings. <strong>C</strong> The Prime Minister has no presiding role.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-10",
+      "section": "GA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Indian Polity and Constitution",
+      "subtopic": "Fundamental Rights",
+      "difficulty": "medium",
+      "stemHtml": "<p>Article 21 of the Constitution of India deals with</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "protection of life and personal liberty"
+        },
+        {
+          "id": "B",
+          "textHtml": "abolition of untouchability"
+        },
+        {
+          "id": "C",
+          "textHtml": "equality before law"
+        },
+        {
+          "id": "D",
+          "textHtml": "right to constitutional remedies"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Article 21 provides that no person shall be deprived of life or personal liberty except according to procedure established by law.</p><p><strong>B</strong> is Article 17, <strong>C</strong> is Article 14 and <strong>D</strong> is Article 32.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-11",
+      "section": "GA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Geography",
+      "subtopic": "Indian Geography",
+      "difficulty": "hard",
+      "stemHtml": "<p>The Tropic of Cancer passes through all of the following Indian states EXCEPT</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Rajasthan"
+        },
+        {
+          "id": "B",
+          "textHtml": "Jharkhand"
+        },
+        {
+          "id": "C",
+          "textHtml": "Odisha"
+        },
+        {
+          "id": "D",
+          "textHtml": "Mizoram"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The Tropic of Cancer (about 23.5° N) passes through eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Odisha lies entirely south of it.</p><p><strong>A</strong>, <strong>B</strong> and <strong>D</strong> are all on that list.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-12",
+      "section": "GA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Geography",
+      "subtopic": "Indian Geography",
+      "difficulty": "easy",
+      "stemHtml": "<p>The Palk Strait separates India from</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Maldives"
+        },
+        {
+          "id": "B",
+          "textHtml": "Sri Lanka"
+        },
+        {
+          "id": "C",
+          "textHtml": "Myanmar"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bangladesh"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The Palk Strait lies between Tamil Nadu and the northern part of Sri Lanka.</p><p><strong>A</strong> The Maldives lie to the south-west across the Arabian Sea/Indian Ocean. <strong>C</strong> and <strong>D</strong> share land borders with India and are not separated from it by the Palk Strait.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-13",
+      "section": "GA",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "International Organisations",
+      "subtopic": "Headquarters",
+      "difficulty": "medium",
+      "stemHtml": "<p>The headquarters of the International Monetary Fund (IMF) is located in</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Washington, D.C."
+        },
+        {
+          "id": "B",
+          "textHtml": "Geneva"
+        },
+        {
+          "id": "C",
+          "textHtml": "New York"
+        },
+        {
+          "id": "D",
+          "textHtml": "Paris"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The IMF, created at the Bretton Woods Conference (1944), is headquartered in Washington, D.C., as is its sister institution the World Bank.</p><p><strong>B</strong> Geneva hosts the WTO and WHO. <strong>C</strong> New York hosts the UN headquarters. <strong>D</strong> Paris hosts UNESCO and the OECD.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-14",
+      "section": "GA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "International Organisations",
+      "subtopic": "Trade Institutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>The World Trade Organization (WTO), which came into being on 1 January 1995, succeeded which arrangement?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The Bretton Woods Agreement"
+        },
+        {
+          "id": "B",
+          "textHtml": "The European Economic Community"
+        },
+        {
+          "id": "C",
+          "textHtml": "The General Agreement on Tariffs and Trade (GATT)"
+        },
+        {
+          "id": "D",
+          "textHtml": "The United Nations Conference on Trade and Development (UNCTAD)"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The WTO was established by the Marrakesh Agreement following the Uruguay Round and replaced GATT (in force since 1948) as the institutional framework for multilateral trade rules. GATT's text survives as part of WTO law.</p><p><strong>A</strong> created the IMF and World Bank. <strong>B</strong> is a European regional body. <strong>D</strong> UNCTAD still exists as a UN body.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-15",
+      "section": "GA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "General Science",
+      "subtopic": "Physics",
+      "difficulty": "easy",
+      "stemHtml": "<p>The SI unit of electric current is the</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "volt"
+        },
+        {
+          "id": "B",
+          "textHtml": "ohm"
+        },
+        {
+          "id": "C",
+          "textHtml": "watt"
+        },
+        {
+          "id": "D",
+          "textHtml": "ampere"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The ampere is one of the seven SI base units and measures electric current.</p><p><strong>A</strong> volt measures potential difference, <strong>B</strong> ohm measures resistance and <strong>C</strong> watt measures power.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-16",
+      "section": "GA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "General Science",
+      "subtopic": "Biology",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which vitamin is synthesised in the human skin on exposure to sunlight?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Vitamin A"
+        },
+        {
+          "id": "B",
+          "textHtml": "Vitamin D"
+        },
+        {
+          "id": "C",
+          "textHtml": "Vitamin C"
+        },
+        {
+          "id": "D",
+          "textHtml": "Vitamin K"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Ultraviolet-B radiation in sunlight converts a cholesterol derivative in the skin into vitamin D, which helps the body absorb calcium.</p><p><strong>A</strong> and <strong>C</strong> come mainly from diet. <strong>D</strong> Vitamin K is obtained from food and produced by gut bacteria, not by sunlight on the skin.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-17",
+      "section": "GA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "General Science",
+      "subtopic": "Chemistry / Environment",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which gas makes up the largest proportion of the Earth's atmosphere by volume?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Nitrogen"
+        },
+        {
+          "id": "B",
+          "textHtml": "Oxygen"
+        },
+        {
+          "id": "C",
+          "textHtml": "Argon"
+        },
+        {
+          "id": "D",
+          "textHtml": "Carbon dioxide"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Dry air is about 78% nitrogen by volume.</p><p><strong>B</strong> Oxygen is about 21%, <strong>C</strong> argon a little under 1%, and <strong>D</strong> carbon dioxide only a few hundredths of a per cent.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-18",
+      "section": "GA",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "History",
+      "subtopic": "Modern Indian History",
+      "difficulty": "medium",
+      "stemHtml": "<p>The Battle of Plassey, which laid the foundation of British political power in Bengal, was fought in</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1764"
+        },
+        {
+          "id": "B",
+          "textHtml": "1799"
+        },
+        {
+          "id": "C",
+          "textHtml": "1857"
+        },
+        {
+          "id": "D",
+          "textHtml": "1757"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. In 1757 the East India Company's forces under Robert Clive defeated Siraj-ud-Daulah, the Nawab of Bengal, at Plassey.</p><p><strong>A</strong> 1764 is the Battle of Buxar. <strong>B</strong> 1799 is the year Tipu Sultan was killed in the Fourth Anglo-Mysore War. <strong>C</strong> 1857 is the year of the Revolt.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-19",
+      "section": "GA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "History",
+      "subtopic": "Indian National Movement",
+      "difficulty": "hard",
+      "stemHtml": "<p>Mahatma Gandhi's Dandi March (Salt Satyagraha) launched which of the following movements, and in which year?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Non-Cooperation Movement, 1920"
+        },
+        {
+          "id": "B",
+          "textHtml": "Civil Disobedience Movement, 1930"
+        },
+        {
+          "id": "C",
+          "textHtml": "Quit India Movement, 1942"
+        },
+        {
+          "id": "D",
+          "textHtml": "Champaran Satyagraha, 1917"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Gandhi set out from Sabarmati Ashram on 12 March 1930 and broke the salt law at Dandi, which began the Civil Disobedience Movement.</p><p><strong>A</strong> The Non-Cooperation Movement began in 1920, <strong>C</strong> Quit India in 1942, and <strong>D</strong> Champaran in 1917 — none was launched by the Dandi March.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "GA-20",
+      "section": "GA",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Indian Economy and Banking",
+      "subtopic": "Public Finance",
+      "difficulty": "hard",
+      "stemHtml": "<p>The fiscal deficit of a government is defined as</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "total expenditure minus revenue receipts only"
+        },
+        {
+          "id": "B",
+          "textHtml": "revenue expenditure minus revenue receipts"
+        },
+        {
+          "id": "C",
+          "textHtml": "total expenditure minus total receipts excluding borrowings and other liabilities"
+        },
+        {
+          "id": "D",
+          "textHtml": "fiscal deficit minus interest payments"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), i.e. total receipts excluding borrowings. It shows how much the government must borrow in the year.</p><p><strong>B</strong> is the revenue deficit. <strong>D</strong> is the primary deficit. <strong>A</strong> ignores non-debt capital receipts (such as recovery of loans and disinvestment proceeds), so it is not the standard definition.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

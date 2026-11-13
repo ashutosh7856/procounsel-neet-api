@@ -1,0 +1,634 @@
+{
+ "sets": [
+  {
+   "key": "S1",
+   "kind": "dilr_set",
+   "title": "Train seat reservations",
+   "contentHtml": "<p>A train travels from Station A to Station E, passing through stations B, C, and D, in that order. The train has a seating capacity of 200. A ticket may be booked from any station to any other station ahead on the route, but not to any earlier station.</p><p>A ticket from one station to another reserves one seat on every intermediate segment of the route. For example, a ticket from B to E reserves a seat in the intermediate segments B – C, C – D, and D – E.</p><p>The occupancy factor for a segment is the total number of seats reserved in the segment as a percentage of the seating capacity. The total number of seats reserved for any segment cannot exceed 200.</p><p>The following information is known.</p><ol><li>Segment C – D had an occupancy factor of 95%. Only segment B – C had a higher occupancy factor.</li><li>Exactly 40 tickets were booked from B to C and 30 tickets were booked from B to E.</li><li>Among the seats reserved on segment D – E, exactly four-sevenths were from stations before C.</li><li>The number of tickets booked from A to C was equal to that booked from A to E, and it was higher than that from B to E.</li><li>No tickets were booked from A to B, from B to D and from D to E.</li><li>The number of tickets booked for any segment was a multiple of 10.</li></ol>"
+  },
+  {
+   "key": "S2",
+   "kind": "dilr_set",
+   "title": "InnovateX ratings and promotions",
+   "contentHtml": "<p>At InnovateX, six employees, Asha, Bunty, Chintu, Dolly, Eklavya, and Falguni, were split into two groups of three each: Elite led by Manager Kuku, and Novice led by Manager Lalu.</p><p>At the end of each quarter, Kuku and Lalu handed out ratings to all members in their respective groups. In each group, each employee received a distinct integer rating from 1 to 3.</p><p>The score for an employee at the end of a quarter is defined as their cumulative rating from the beginning of the year. At the end of each quarter the employee in Novice with the highest score was promoted to Elite, and the employee in Elite with the minimum score was demoted to Novice. If there was a tie in scores, the employee with a higher rating in the latest quarter was ranked higher.</p><ol><li>Asha, Bunty, and Chintu were in Elite at the beginning of Quarter 1. All of them were in Novice at the beginning of Quarter 4.</li><li>Dolly and Falguni were the only employees who got the same rating across all the quarters.</li><li>The following is known about ratings given by Lalu:<ul><li>Bunty received a rating of 1 in Quarter 2.</li><li>Asha and Dolly received ratings of 1 and 2, respectively, in Quarter 3.</li></ul></li></ol>"
+  },
+  {
+   "key": "S3",
+   "kind": "dilr_set",
+   "title": "Moving around a round table",
+   "contentHtml": "<p>A round table has seven chairs around it. The chairs are numbered 1 through 7 in a clockwise direction. Four friends, Aslam, Bashir, Chhavi, and Davies, sit on four of the chairs. In the starting position, Aslam and Chhavi are sitting next to each other, while for Bashir as well as Davies, there are empty chairs on either side of the chairs that they are sitting on.</p><p>The friends take turns moving either clockwise or counter clockwise from their chair. The friend who has to move in a turn occupies the first empty chair in whichever direction (s)he chooses to move. Aslam moves first (Turn 1), followed by Bashir, Chhavi, and Davies (Turns 2, 3, and 4, respectively). Then Aslam moves again followed by Bashir, and Chhavi (Turns 5, 6, and 7, respectively).</p><p>The following information is known.</p><ol><li>The four friends occupy adjacent chairs only at the end of Turn 2 and Turn 6.</li><li>Davies occupies Chair 2 after Turn 1 and Chair 4 after Turn 5, and Chhavi occupies Chair 7 after Turn 2.</li></ol>"
+  },
+  {
+   "key": "S4",
+   "kind": "dilr_set",
+   "title": "Answering by tapping feet",
+   "contentHtml": "<p>Alia, Badal, Clive, Dilshan, and Ehsaan played a game in which each asks a unique question to all the others and they respond by tapping their feet, either once or twice or thrice. One tap means “Yes”, two taps mean “No”, and three taps mean “Maybe”.</p><p>A total of 40 taps were heard across the five questions. Each question received at least one “Yes”, one “No”, and one “Maybe.”</p><p>The following information is known.</p><ol><li>Alia tapped a total of 6 times and received 9 taps to her question. She responded “Yes” to the questions asked by both Clive and Dilshan.</li><li>Dilshan and Ehsaan tapped a total of 11 and 9 times respectively. Dilshan responded “No” to Badal.</li><li>Badal, Dilshan, and Ehsaan received equal number of taps to their respective questions.</li><li>No one responded “Yes” more than twice.</li><li>No one’s answer to Alia’s question matched the answer that Alia gave to that person’s question. This was also true for Ehsaan.</li><li>Clive tapped more times in total than Badal.</li></ol>"
+  },
+  {
+   "key": "S5",
+   "kind": "dilr_set",
+   "title": "Import tariffs among five countries",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2025-slot1/tariff-percentages.png",
+    "https://procounsel.co.in/mba/pyq/cat-2025-slot1/tariff-amounts.png"
+   ],
+   "contentHtml": "<p>Five countries engage in trade with each other. Each country levies import tariffs on the other countries. The import tariff levied by Country X on Country Y is calculated by multiplying the corresponding tariff percentage with the total imports of Country X from Country Y.</p><p>The radar chart depicts different import tariff percentages charged by each of the five countries on the others. For example, US (the blue line in the chart) charges 20%, 40%, 30%, and 30% import tariff percentages on imports from France, India, Japan, and UK, respectively. The bar chart depicts the import tariffs levied by each country on other countries. For example, US charged import tariff of 3 billion USD on UK.</p><p>Assume that imports from one country to another equals the exports from the latter to the former.</p><p>The trade surplus of Country X with Country Y is defined as follows.<br>Trade surplus = Exports from Country X to Country Y – Imports to Country X from Country Y.</p><p>A negative trade surplus is called trade deficit.</p>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Quantitative reasoning",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the occupancy factor for segment D – E?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "35%"
+    },
+    {
+     "id": "B",
+     "textHtml": "70%"
+    },
+    {
+     "id": "C",
+     "textHtml": "84%"
+    },
+    {
+     "id": "D",
+     "textHtml": "77%"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Setting up:</strong> Let AC = AE = a (with a &gt; BE = 30). Given BC = 40, BE = 30, and AB = BD = DE = 0.</p><p><strong>D–E segment:</strong> seats = AE + BE + CE. Seats from stations before C = AE + BE = a + 30 = 4/7 of D–E, so CE = 3(a + 30)/4. For CE to be a multiple of 10, a + 30 must be a multiple of 40: a + 30 = 80 (a = 50) or 120 (a = 90, but then D–E = 210 &gt; 200). So <strong>a = 50, CE = 60, D–E = 140</strong>.</p><p><strong>B–C segment:</strong> AC + AD + AE + BC + BE = 170 + AD must exceed 190 (it is the only segment above C–D) and be at most 200, so <strong>AD = 30</strong> and B–C = 200.</p><p><strong>C–D segment:</strong> AD + AE + BE + CD + CE = 30 + 50 + 30 + CD + 60 = 190, so <strong>CD = 20</strong>. (A–B = 130, lower than C–D, as required.)</p><table><thead><tr><th>Ticket</th><th>AC</th><th>AD</th><th>AE</th><th>BC</th><th>BE</th><th>CD</th><th>CE</th></tr></thead><tbody><tr><td>Count</td><td>50</td><td>30</td><td>50</td><td>40</td><td>30</td><td>20</td><td>60</td></tr></tbody></table><p>D–E seats = AE + BE + CE = 50 + 30 + 60 = 140, so the occupancy factor = 140/200 = <strong>70%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Quantitative reasoning",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many tickets were booked from Station A to Station E?</p>",
+   "answer": "50",
+   "solutionHtml": "<p><strong>Setting up:</strong> Let AC = AE = a (with a &gt; BE = 30). Given BC = 40, BE = 30, and AB = BD = DE = 0.</p><p><strong>D–E segment:</strong> seats = AE + BE + CE. Seats from stations before C = AE + BE = a + 30 = 4/7 of D–E, so CE = 3(a + 30)/4. For CE to be a multiple of 10, a + 30 must be a multiple of 40: a + 30 = 80 (a = 50) or 120 (a = 90, but then D–E = 210 &gt; 200). So <strong>a = 50, CE = 60, D–E = 140</strong>.</p><p><strong>B–C segment:</strong> AC + AD + AE + BC + BE = 170 + AD must exceed 190 (it is the only segment above C–D) and be at most 200, so <strong>AD = 30</strong> and B–C = 200.</p><p><strong>C–D segment:</strong> AD + AE + BE + CD + CE = 30 + 50 + 30 + CD + 60 = 190, so <strong>CD = 20</strong>. (A–B = 130, lower than C–D, as required.)</p><table><thead><tr><th>Ticket</th><th>AC</th><th>AD</th><th>AE</th><th>BC</th><th>BE</th><th>CD</th><th>CE</th></tr></thead><tbody><tr><td>Count</td><td>50</td><td>30</td><td>50</td><td>40</td><td>30</td><td>20</td><td>60</td></tr></tbody></table><p>Tickets from A to E = a = <strong>50</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Quantitative reasoning",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many tickets were booked from Station C?</p>",
+   "answer": "80",
+   "solutionHtml": "<p><strong>Setting up:</strong> Let AC = AE = a (with a &gt; BE = 30). Given BC = 40, BE = 30, and AB = BD = DE = 0.</p><p><strong>D–E segment:</strong> seats = AE + BE + CE. Seats from stations before C = AE + BE = a + 30 = 4/7 of D–E, so CE = 3(a + 30)/4. For CE to be a multiple of 10, a + 30 must be a multiple of 40: a + 30 = 80 (a = 50) or 120 (a = 90, but then D–E = 210 &gt; 200). So <strong>a = 50, CE = 60, D–E = 140</strong>.</p><p><strong>B–C segment:</strong> AC + AD + AE + BC + BE = 170 + AD must exceed 190 (it is the only segment above C–D) and be at most 200, so <strong>AD = 30</strong> and B–C = 200.</p><p><strong>C–D segment:</strong> AD + AE + BE + CD + CE = 30 + 50 + 30 + CD + 60 = 190, so <strong>CD = 20</strong>. (A–B = 130, lower than C–D, as required.)</p><table><thead><tr><th>Ticket</th><th>AC</th><th>AD</th><th>AE</th><th>BC</th><th>BE</th><th>CD</th><th>CE</th></tr></thead><tbody><tr><td>Count</td><td>50</td><td>30</td><td>50</td><td>40</td><td>30</td><td>20</td><td>60</td></tr></tbody></table><p>Tickets from C = CD + CE = 20 + 60 = <strong>80</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Quantitative reasoning",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the difference between the number of tickets booked to Station C and the number of tickets booked to Station D?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Setting up:</strong> Let AC = AE = a (with a &gt; BE = 30). Given BC = 40, BE = 30, and AB = BD = DE = 0.</p><p><strong>D–E segment:</strong> seats = AE + BE + CE. Seats from stations before C = AE + BE = a + 30 = 4/7 of D–E, so CE = 3(a + 30)/4. For CE to be a multiple of 10, a + 30 must be a multiple of 40: a + 30 = 80 (a = 50) or 120 (a = 90, but then D–E = 210 &gt; 200). So <strong>a = 50, CE = 60, D–E = 140</strong>.</p><p><strong>B–C segment:</strong> AC + AD + AE + BC + BE = 170 + AD must exceed 190 (it is the only segment above C–D) and be at most 200, so <strong>AD = 30</strong> and B–C = 200.</p><p><strong>C–D segment:</strong> AD + AE + BE + CD + CE = 30 + 50 + 30 + CD + 60 = 190, so <strong>CD = 20</strong>. (A–B = 130, lower than C–D, as required.)</p><table><thead><tr><th>Ticket</th><th>AC</th><th>AD</th><th>AE</th><th>BC</th><th>BE</th><th>CD</th><th>CE</th></tr></thead><tbody><tr><td>Count</td><td>50</td><td>30</td><td>50</td><td>40</td><td>30</td><td>20</td><td>60</td></tr></tbody></table><p>To C: AC + BC = 50 + 40 = 90. To D: AD + BD + CD = 30 + 0 + 20 = 50. Difference = <strong>40</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Quantitative reasoning",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many tickets were booked to travel in exactly one segment?</p>",
+   "answer": "60",
+   "solutionHtml": "<p><strong>Setting up:</strong> Let AC = AE = a (with a &gt; BE = 30). Given BC = 40, BE = 30, and AB = BD = DE = 0.</p><p><strong>D–E segment:</strong> seats = AE + BE + CE. Seats from stations before C = AE + BE = a + 30 = 4/7 of D–E, so CE = 3(a + 30)/4. For CE to be a multiple of 10, a + 30 must be a multiple of 40: a + 30 = 80 (a = 50) or 120 (a = 90, but then D–E = 210 &gt; 200). So <strong>a = 50, CE = 60, D–E = 140</strong>.</p><p><strong>B–C segment:</strong> AC + AD + AE + BC + BE = 170 + AD must exceed 190 (it is the only segment above C–D) and be at most 200, so <strong>AD = 30</strong> and B–C = 200.</p><p><strong>C–D segment:</strong> AD + AE + BE + CD + CE = 30 + 50 + 30 + CD + 60 = 190, so <strong>CD = 20</strong>. (A–B = 130, lower than C–D, as required.)</p><table><thead><tr><th>Ticket</th><th>AC</th><th>AD</th><th>AE</th><th>BC</th><th>BE</th><th>CD</th><th>CE</th></tr></thead><tbody><tr><td>Count</td><td>50</td><td>30</td><td>50</td><td>40</td><td>30</td><td>20</td><td>60</td></tr></tbody></table><p>One-segment tickets are AB, BC, CD and DE: 0 + 40 + 20 + 0 = <strong>60</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ranking and scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was Eklavya’s score at the end of Quarter 2?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Who moved when:</strong> three swaps happen (end of Q1, Q2, Q3), and all of Asha, Bunty, Chintu end up in Novice. So <strong>every swap demoted one of A/B/C and promoted one of D/E/F</strong>; nobody moved twice. Bunty is with Lalu in Q2, so Bunty was demoted after Q1; Asha is with Lalu in Q3, so Asha was demoted after Q2; Chintu after Q3. Dolly is with Lalu in Q3, so Dolly was promoted after Q3, and her constant rating is 2.</p><p><strong>Q1:</strong> Bunty is demoted, so Bunty got 1 in Elite. In Novice, Dolly got 2. If Falguni got 1 and stayed, her constant rating 1 would clash with the Novice Q2 ratings (Bunty 1, Dolly 2, so the third gets 3). So <strong>Falguni got 3 and was promoted, Eklavya got 1</strong>.</p><p><strong>Q2:</strong> Novice: Bunty 1, Dolly 2, Eklavya 3. Scores: Dolly 4, Eklavya 4. The tie goes to the higher latest rating, so <strong>Eklavya is promoted</strong>. Elite: Falguni 3, and Asha/Chintu share 1 and 2. Asha must be demoted, which forces <strong>Asha 1, Chintu 2</strong> in Q2 (the reverse would demote Chintu). Asha’s Q1 rating can be 2 or 3.</p><p><strong>Q3:</strong> Novice: Asha 1, Dolly 2, Bunty 3. Elite: Falguni 3, and Chintu/Eklavya share 1 and 2. Chintu must be demoted, so <strong>Chintu 1, Eklavya 2</strong>.</p><table><thead><tr><th>Employee</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Score after Q3</th></tr></thead><tbody><tr><td>Asha</td><td>2 or 3</td><td>1</td><td>1</td><td>4 or 5</td></tr><tr><td>Bunty</td><td>1</td><td>1</td><td>3</td><td>5</td></tr><tr><td>Chintu</td><td>3 or 2</td><td>2</td><td>1</td><td>6 or 5</td></tr><tr><td>Dolly</td><td>2</td><td>2</td><td>2</td><td>6</td></tr><tr><td>Eklavya</td><td>1</td><td>3</td><td>2</td><td>6</td></tr><tr><td>Falguni</td><td>3</td><td>3</td><td>3</td><td>9</td></tr></tbody></table><p>(Asha and Chintu share 2 and 3 in Q1.)</p><p>Eklavya: 1 (Q1) + 3 (Q2) = <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ranking and scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many employees changed groups more than once up to the beginning of Quarter 4?</p>",
+   "answer": "0",
+   "solutionHtml": "<p><strong>Who moved when:</strong> three swaps happen (end of Q1, Q2, Q3), and all of Asha, Bunty, Chintu end up in Novice. So <strong>every swap demoted one of A/B/C and promoted one of D/E/F</strong>; nobody moved twice. Bunty is with Lalu in Q2, so Bunty was demoted after Q1; Asha is with Lalu in Q3, so Asha was demoted after Q2; Chintu after Q3. Dolly is with Lalu in Q3, so Dolly was promoted after Q3, and her constant rating is 2.</p><p><strong>Q1:</strong> Bunty is demoted, so Bunty got 1 in Elite. In Novice, Dolly got 2. If Falguni got 1 and stayed, her constant rating 1 would clash with the Novice Q2 ratings (Bunty 1, Dolly 2, so the third gets 3). So <strong>Falguni got 3 and was promoted, Eklavya got 1</strong>.</p><p><strong>Q2:</strong> Novice: Bunty 1, Dolly 2, Eklavya 3. Scores: Dolly 4, Eklavya 4. The tie goes to the higher latest rating, so <strong>Eklavya is promoted</strong>. Elite: Falguni 3, and Asha/Chintu share 1 and 2. Asha must be demoted, which forces <strong>Asha 1, Chintu 2</strong> in Q2 (the reverse would demote Chintu). Asha’s Q1 rating can be 2 or 3.</p><p><strong>Q3:</strong> Novice: Asha 1, Dolly 2, Bunty 3. Elite: Falguni 3, and Chintu/Eklavya share 1 and 2. Chintu must be demoted, so <strong>Chintu 1, Eklavya 2</strong>.</p><table><thead><tr><th>Employee</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Score after Q3</th></tr></thead><tbody><tr><td>Asha</td><td>2 or 3</td><td>1</td><td>1</td><td>4 or 5</td></tr><tr><td>Bunty</td><td>1</td><td>1</td><td>3</td><td>5</td></tr><tr><td>Chintu</td><td>3 or 2</td><td>2</td><td>1</td><td>6 or 5</td></tr><tr><td>Dolly</td><td>2</td><td>2</td><td>2</td><td>6</td></tr><tr><td>Eklavya</td><td>1</td><td>3</td><td>2</td><td>6</td></tr><tr><td>Falguni</td><td>3</td><td>3</td><td>3</td><td>9</td></tr></tbody></table><p>(Asha and Chintu share 2 and 3 in Q1.)</p><p>Each of the three swaps moved one of Asha/Bunty/Chintu down and one of Dolly/Eklavya/Falguni up; any other swap would leave someone from A/B/C in Elite at the start of Q4. So nobody changed groups twice: <strong>0</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ranking and scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was Bunty’s score at the end of Quarter 3?</p>",
+   "answer": "5",
+   "solutionHtml": "<p><strong>Who moved when:</strong> three swaps happen (end of Q1, Q2, Q3), and all of Asha, Bunty, Chintu end up in Novice. So <strong>every swap demoted one of A/B/C and promoted one of D/E/F</strong>; nobody moved twice. Bunty is with Lalu in Q2, so Bunty was demoted after Q1; Asha is with Lalu in Q3, so Asha was demoted after Q2; Chintu after Q3. Dolly is with Lalu in Q3, so Dolly was promoted after Q3, and her constant rating is 2.</p><p><strong>Q1:</strong> Bunty is demoted, so Bunty got 1 in Elite. In Novice, Dolly got 2. If Falguni got 1 and stayed, her constant rating 1 would clash with the Novice Q2 ratings (Bunty 1, Dolly 2, so the third gets 3). So <strong>Falguni got 3 and was promoted, Eklavya got 1</strong>.</p><p><strong>Q2:</strong> Novice: Bunty 1, Dolly 2, Eklavya 3. Scores: Dolly 4, Eklavya 4. The tie goes to the higher latest rating, so <strong>Eklavya is promoted</strong>. Elite: Falguni 3, and Asha/Chintu share 1 and 2. Asha must be demoted, which forces <strong>Asha 1, Chintu 2</strong> in Q2 (the reverse would demote Chintu). Asha’s Q1 rating can be 2 or 3.</p><p><strong>Q3:</strong> Novice: Asha 1, Dolly 2, Bunty 3. Elite: Falguni 3, and Chintu/Eklavya share 1 and 2. Chintu must be demoted, so <strong>Chintu 1, Eklavya 2</strong>.</p><table><thead><tr><th>Employee</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Score after Q3</th></tr></thead><tbody><tr><td>Asha</td><td>2 or 3</td><td>1</td><td>1</td><td>4 or 5</td></tr><tr><td>Bunty</td><td>1</td><td>1</td><td>3</td><td>5</td></tr><tr><td>Chintu</td><td>3 or 2</td><td>2</td><td>1</td><td>6 or 5</td></tr><tr><td>Dolly</td><td>2</td><td>2</td><td>2</td><td>6</td></tr><tr><td>Eklavya</td><td>1</td><td>3</td><td>2</td><td>6</td></tr><tr><td>Falguni</td><td>3</td><td>3</td><td>3</td><td>9</td></tr></tbody></table><p>(Asha and Chintu share 2 and 3 in Q1.)</p><p>Bunty: 1 + 1 + 3 = <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ranking and scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>For how many employees can the scores at the end of Quarter 3 be determined with certainty?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Who moved when:</strong> three swaps happen (end of Q1, Q2, Q3), and all of Asha, Bunty, Chintu end up in Novice. So <strong>every swap demoted one of A/B/C and promoted one of D/E/F</strong>; nobody moved twice. Bunty is with Lalu in Q2, so Bunty was demoted after Q1; Asha is with Lalu in Q3, so Asha was demoted after Q2; Chintu after Q3. Dolly is with Lalu in Q3, so Dolly was promoted after Q3, and her constant rating is 2.</p><p><strong>Q1:</strong> Bunty is demoted, so Bunty got 1 in Elite. In Novice, Dolly got 2. If Falguni got 1 and stayed, her constant rating 1 would clash with the Novice Q2 ratings (Bunty 1, Dolly 2, so the third gets 3). So <strong>Falguni got 3 and was promoted, Eklavya got 1</strong>.</p><p><strong>Q2:</strong> Novice: Bunty 1, Dolly 2, Eklavya 3. Scores: Dolly 4, Eklavya 4. The tie goes to the higher latest rating, so <strong>Eklavya is promoted</strong>. Elite: Falguni 3, and Asha/Chintu share 1 and 2. Asha must be demoted, which forces <strong>Asha 1, Chintu 2</strong> in Q2 (the reverse would demote Chintu). Asha’s Q1 rating can be 2 or 3.</p><p><strong>Q3:</strong> Novice: Asha 1, Dolly 2, Bunty 3. Elite: Falguni 3, and Chintu/Eklavya share 1 and 2. Chintu must be demoted, so <strong>Chintu 1, Eklavya 2</strong>.</p><table><thead><tr><th>Employee</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Score after Q3</th></tr></thead><tbody><tr><td>Asha</td><td>2 or 3</td><td>1</td><td>1</td><td>4 or 5</td></tr><tr><td>Bunty</td><td>1</td><td>1</td><td>3</td><td>5</td></tr><tr><td>Chintu</td><td>3 or 2</td><td>2</td><td>1</td><td>6 or 5</td></tr><tr><td>Dolly</td><td>2</td><td>2</td><td>2</td><td>6</td></tr><tr><td>Eklavya</td><td>1</td><td>3</td><td>2</td><td>6</td></tr><tr><td>Falguni</td><td>3</td><td>3</td><td>3</td><td>9</td></tr></tbody></table><p>(Asha and Chintu share 2 and 3 in Q1.)</p><p>Bunty (5), Dolly (6), Eklavya (6) and Falguni (9) are fixed. Asha and Chintu depend on how they shared 2 and 3 in Q1 (both cases satisfy every condition). Answer: <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ranking and scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following statements is/are NECESSARILY true?<br>I. Asha received a rating of 2 in Quarter 1.<br>II. Asha received a rating of 1 in Quarter 2.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only II"
+    },
+    {
+     "id": "B",
+     "textHtml": "Only I"
+    },
+    {
+     "id": "C",
+     "textHtml": "Both I and II"
+    },
+    {
+     "id": "D",
+     "textHtml": "Neither I nor II"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Who moved when:</strong> three swaps happen (end of Q1, Q2, Q3), and all of Asha, Bunty, Chintu end up in Novice. So <strong>every swap demoted one of A/B/C and promoted one of D/E/F</strong>; nobody moved twice. Bunty is with Lalu in Q2, so Bunty was demoted after Q1; Asha is with Lalu in Q3, so Asha was demoted after Q2; Chintu after Q3. Dolly is with Lalu in Q3, so Dolly was promoted after Q3, and her constant rating is 2.</p><p><strong>Q1:</strong> Bunty is demoted, so Bunty got 1 in Elite. In Novice, Dolly got 2. If Falguni got 1 and stayed, her constant rating 1 would clash with the Novice Q2 ratings (Bunty 1, Dolly 2, so the third gets 3). So <strong>Falguni got 3 and was promoted, Eklavya got 1</strong>.</p><p><strong>Q2:</strong> Novice: Bunty 1, Dolly 2, Eklavya 3. Scores: Dolly 4, Eklavya 4. The tie goes to the higher latest rating, so <strong>Eklavya is promoted</strong>. Elite: Falguni 3, and Asha/Chintu share 1 and 2. Asha must be demoted, which forces <strong>Asha 1, Chintu 2</strong> in Q2 (the reverse would demote Chintu). Asha’s Q1 rating can be 2 or 3.</p><p><strong>Q3:</strong> Novice: Asha 1, Dolly 2, Bunty 3. Elite: Falguni 3, and Chintu/Eklavya share 1 and 2. Chintu must be demoted, so <strong>Chintu 1, Eklavya 2</strong>.</p><table><thead><tr><th>Employee</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Score after Q3</th></tr></thead><tbody><tr><td>Asha</td><td>2 or 3</td><td>1</td><td>1</td><td>4 or 5</td></tr><tr><td>Bunty</td><td>1</td><td>1</td><td>3</td><td>5</td></tr><tr><td>Chintu</td><td>3 or 2</td><td>2</td><td>1</td><td>6 or 5</td></tr><tr><td>Dolly</td><td>2</td><td>2</td><td>2</td><td>6</td></tr><tr><td>Eklavya</td><td>1</td><td>3</td><td>2</td><td>6</td></tr><tr><td>Falguni</td><td>3</td><td>3</td><td>3</td><td>9</td></tr></tbody></table><p>(Asha and Chintu share 2 and 3 in Q1.)</p><p>Asha’s Q2 rating must be 1 (otherwise Chintu, not Asha, is demoted after Q2), so II is necessarily true. Her Q1 rating can be 2 or 3, so I is not necessarily true. Answer: <strong>Only II</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the number of the chair initially occupied by Bashir?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Starting position:</strong> Davies does not move until Turn 4, so ‘Chair 2 after Turn 1’ means he started in <strong>Chair 2</strong>. Chhavi does not move until Turn 3, so she started in <strong>Chair 7</strong>. Davies needs chairs 1 and 3 empty, so Aslam (next to Chhavi) is in <strong>Chair 6</strong>. Bashir needs empty chairs on both sides, which is possible only in <strong>Chair 4</strong>.</p><p><strong>Turns 1–2:</strong> if Aslam moved to 5, no move by Bashir makes all four adjacent after Turn 2. So <strong>Aslam → 1</strong>, then <strong>Bashir → 3</strong>, giving 7, 1, 2, 3 (adjacent).</p><p><strong>Turns 3–4:</strong> Davies must reach Chair 4 in Turn 4. Going clockwise from 2 he passes 3 (occupied) to 4, which works only if 4 is empty. So <strong>Chhavi → 6</strong> (not 4) in Turn 3, then <strong>Davies → 4</strong>.</p><p><strong>Turns 5–6:</strong> if Aslam went to 2, no move by Bashir would make all four adjacent after Turn 6. So <strong>Aslam → 7</strong>, then <strong>Bashir → 5</strong>, giving 4, 5, 6, 7.</p><p><strong>Turn 7:</strong> Chhavi goes from 6 to 1 or to 3; either way the four are not adjacent, as required.</p><table><thead><tr><th>After</th><th>Aslam</th><th>Bashir</th><th>Chhavi</th><th>Davies</th></tr></thead><tbody><tr><td>Start</td><td>6</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 1</td><td>1</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 2</td><td>1</td><td>3</td><td>7</td><td>2</td></tr><tr><td>Turn 3</td><td>1</td><td>3</td><td>6</td><td>2</td></tr><tr><td>Turn 4</td><td>1</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 5</td><td>7</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 6</td><td>7</td><td>5</td><td>6</td><td>4</td></tr><tr><td>Turn 7</td><td>7</td><td>5</td><td>1 or 3</td><td>4</td></tr></tbody></table><p>Bashir started in Chair <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>Who sits on the chair numbered 4 at the end of Turn 3?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Bashir"
+    },
+    {
+     "id": "B",
+     "textHtml": "Chhavi"
+    },
+    {
+     "id": "C",
+     "textHtml": "Davies"
+    },
+    {
+     "id": "D",
+     "textHtml": "No one"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Starting position:</strong> Davies does not move until Turn 4, so ‘Chair 2 after Turn 1’ means he started in <strong>Chair 2</strong>. Chhavi does not move until Turn 3, so she started in <strong>Chair 7</strong>. Davies needs chairs 1 and 3 empty, so Aslam (next to Chhavi) is in <strong>Chair 6</strong>. Bashir needs empty chairs on both sides, which is possible only in <strong>Chair 4</strong>.</p><p><strong>Turns 1–2:</strong> if Aslam moved to 5, no move by Bashir makes all four adjacent after Turn 2. So <strong>Aslam → 1</strong>, then <strong>Bashir → 3</strong>, giving 7, 1, 2, 3 (adjacent).</p><p><strong>Turns 3–4:</strong> Davies must reach Chair 4 in Turn 4. Going clockwise from 2 he passes 3 (occupied) to 4, which works only if 4 is empty. So <strong>Chhavi → 6</strong> (not 4) in Turn 3, then <strong>Davies → 4</strong>.</p><p><strong>Turns 5–6:</strong> if Aslam went to 2, no move by Bashir would make all four adjacent after Turn 6. So <strong>Aslam → 7</strong>, then <strong>Bashir → 5</strong>, giving 4, 5, 6, 7.</p><p><strong>Turn 7:</strong> Chhavi goes from 6 to 1 or to 3; either way the four are not adjacent, as required.</p><table><thead><tr><th>After</th><th>Aslam</th><th>Bashir</th><th>Chhavi</th><th>Davies</th></tr></thead><tbody><tr><td>Start</td><td>6</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 1</td><td>1</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 2</td><td>1</td><td>3</td><td>7</td><td>2</td></tr><tr><td>Turn 3</td><td>1</td><td>3</td><td>6</td><td>2</td></tr><tr><td>Turn 4</td><td>1</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 5</td><td>7</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 6</td><td>7</td><td>5</td><td>6</td><td>4</td></tr><tr><td>Turn 7</td><td>7</td><td>5</td><td>1 or 3</td><td>4</td></tr></tbody></table><p>After Turn 3 the occupied chairs are 1, 2, 3, 6. Chair 4 is empty: <strong>No one</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the chairs are occupied at the end of Turn 6?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Chairs numbered 1, 2, 6, and 7"
+    },
+    {
+     "id": "B",
+     "textHtml": "Chairs numbered 2, 3, 4, and 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "Chairs numbered 1, 2, 3, and 4"
+    },
+    {
+     "id": "D",
+     "textHtml": "Chairs numbered 4, 5, 6, and 7"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Starting position:</strong> Davies does not move until Turn 4, so ‘Chair 2 after Turn 1’ means he started in <strong>Chair 2</strong>. Chhavi does not move until Turn 3, so she started in <strong>Chair 7</strong>. Davies needs chairs 1 and 3 empty, so Aslam (next to Chhavi) is in <strong>Chair 6</strong>. Bashir needs empty chairs on both sides, which is possible only in <strong>Chair 4</strong>.</p><p><strong>Turns 1–2:</strong> if Aslam moved to 5, no move by Bashir makes all four adjacent after Turn 2. So <strong>Aslam → 1</strong>, then <strong>Bashir → 3</strong>, giving 7, 1, 2, 3 (adjacent).</p><p><strong>Turns 3–4:</strong> Davies must reach Chair 4 in Turn 4. Going clockwise from 2 he passes 3 (occupied) to 4, which works only if 4 is empty. So <strong>Chhavi → 6</strong> (not 4) in Turn 3, then <strong>Davies → 4</strong>.</p><p><strong>Turns 5–6:</strong> if Aslam went to 2, no move by Bashir would make all four adjacent after Turn 6. So <strong>Aslam → 7</strong>, then <strong>Bashir → 5</strong>, giving 4, 5, 6, 7.</p><p><strong>Turn 7:</strong> Chhavi goes from 6 to 1 or to 3; either way the four are not adjacent, as required.</p><table><thead><tr><th>After</th><th>Aslam</th><th>Bashir</th><th>Chhavi</th><th>Davies</th></tr></thead><tbody><tr><td>Start</td><td>6</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 1</td><td>1</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 2</td><td>1</td><td>3</td><td>7</td><td>2</td></tr><tr><td>Turn 3</td><td>1</td><td>3</td><td>6</td><td>2</td></tr><tr><td>Turn 4</td><td>1</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 5</td><td>7</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 6</td><td>7</td><td>5</td><td>6</td><td>4</td></tr><tr><td>Turn 7</td><td>7</td><td>5</td><td>1 or 3</td><td>4</td></tr></tbody></table><p>After Turn 6: Davies 4, Bashir 5, Chhavi 6, Aslam 7, so chairs <strong>4, 5, 6 and 7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Arrangements",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following BEST describes the friends sitting on chairs adjacent to the one occupied by Bashir at the end of Turn 7?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Davies only"
+    },
+    {
+     "id": "B",
+     "textHtml": "Chhavi and Davies"
+    },
+    {
+     "id": "C",
+     "textHtml": "Aslam and Chhavi"
+    },
+    {
+     "id": "D",
+     "textHtml": "Chhavi only"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Starting position:</strong> Davies does not move until Turn 4, so ‘Chair 2 after Turn 1’ means he started in <strong>Chair 2</strong>. Chhavi does not move until Turn 3, so she started in <strong>Chair 7</strong>. Davies needs chairs 1 and 3 empty, so Aslam (next to Chhavi) is in <strong>Chair 6</strong>. Bashir needs empty chairs on both sides, which is possible only in <strong>Chair 4</strong>.</p><p><strong>Turns 1–2:</strong> if Aslam moved to 5, no move by Bashir makes all four adjacent after Turn 2. So <strong>Aslam → 1</strong>, then <strong>Bashir → 3</strong>, giving 7, 1, 2, 3 (adjacent).</p><p><strong>Turns 3–4:</strong> Davies must reach Chair 4 in Turn 4. Going clockwise from 2 he passes 3 (occupied) to 4, which works only if 4 is empty. So <strong>Chhavi → 6</strong> (not 4) in Turn 3, then <strong>Davies → 4</strong>.</p><p><strong>Turns 5–6:</strong> if Aslam went to 2, no move by Bashir would make all four adjacent after Turn 6. So <strong>Aslam → 7</strong>, then <strong>Bashir → 5</strong>, giving 4, 5, 6, 7.</p><p><strong>Turn 7:</strong> Chhavi goes from 6 to 1 or to 3; either way the four are not adjacent, as required.</p><table><thead><tr><th>After</th><th>Aslam</th><th>Bashir</th><th>Chhavi</th><th>Davies</th></tr></thead><tbody><tr><td>Start</td><td>6</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 1</td><td>1</td><td>4</td><td>7</td><td>2</td></tr><tr><td>Turn 2</td><td>1</td><td>3</td><td>7</td><td>2</td></tr><tr><td>Turn 3</td><td>1</td><td>3</td><td>6</td><td>2</td></tr><tr><td>Turn 4</td><td>1</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 5</td><td>7</td><td>3</td><td>6</td><td>4</td></tr><tr><td>Turn 6</td><td>7</td><td>5</td><td>6</td><td>4</td></tr><tr><td>Turn 7</td><td>7</td><td>5</td><td>1 or 3</td><td>4</td></tr></tbody></table><p>Bashir is in Chair 5. Chair 4 has Davies; Chair 6 is empty once Chhavi leaves it in Turn 7 (to 1 or 3). So the only neighbour is <strong>Davies</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "TITA",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Logical deduction",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many taps did Clive receive for his question?</p>",
+   "answer": "7",
+   "solutionHtml": "<p><strong>Taps per question:</strong> each question gets 4 answers including at least one Y (1), N (2) and M (3), so 6 + one extra answer: 7, 8 or 9 taps. Alia received 9 (extra M). With Badal, Dilshan, Ehsaan each receiving t: 9 + Clive + 3t = 40, so t = 8 and <strong>Clive received 7</strong> (extra Y). Badal, Dilshan and Ehsaan each got Y, N, N, M.</p><p><strong>Alia’s answers:</strong> Y to Clive and Dilshan, total 6, so 4 taps for Badal and Ehsaan. She cannot say Y again (at most two), so <strong>N to Badal and N to Ehsaan</strong>.</p><p><strong>Working through the rest</strong> (no reply to Alia or Ehsaan may equal their reply to that person; Dilshan 11 taps with N to Badal; Ehsaan 9 taps; Clive &gt; Badal; total 40) leaves a single grid:</p><table><thead><tr><th>Responder ↓ / Question of →</th><th>Alia</th><th>Badal</th><th>Clive</th><th>Dilshan</th><th>Ehsaan</th><th>Taps given</th></tr></thead><tbody><tr><td>Alia</td><td>–</td><td>N</td><td>Y</td><td>Y</td><td>N</td><td>6</td></tr><tr><td>Badal</td><td>Y</td><td>–</td><td>N</td><td>N</td><td>Y</td><td>6</td></tr><tr><td>Clive</td><td>N</td><td>Y</td><td>–</td><td>M</td><td>N</td><td>8</td></tr><tr><td>Dilshan</td><td>M</td><td>N</td><td>M</td><td>–</td><td>M</td><td>11</td></tr><tr><td>Ehsaan</td><td>M</td><td>M</td><td>Y</td><td>N</td><td>–</td><td>9</td></tr><tr><td>Taps received</td><td>9</td><td>8</td><td>7</td><td>8</td><td>8</td><td>40</td></tr></tbody></table><p>Key steps: Badal’s question needs Y and M from Clive and Ehsaan; Ehsaan’s answer to Alia is Y or M (not N); Dilshan’s 9 taps over Alia, Clive and Ehsaan force M, M, M; then Ehsaan’s 9 taps and the ‘no matching answer’ rule fix Ehsaan’s row, and Badal 6 &lt; Clive 8 fixes the rest.</p><p>From the tap count alone: 9 + Clive + 3 × 8 = 40, so Clive received <strong>7</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Logical deduction",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which two people tapped an equal number of times in total?</p>",
+   "answer": "B",
+   "solutionHtml": "<p><strong>Taps per question:</strong> each question gets 4 answers including at least one Y (1), N (2) and M (3), so 6 + one extra answer: 7, 8 or 9 taps. Alia received 9 (extra M). With Badal, Dilshan, Ehsaan each receiving t: 9 + Clive + 3t = 40, so t = 8 and <strong>Clive received 7</strong> (extra Y). Badal, Dilshan and Ehsaan each got Y, N, N, M.</p><p><strong>Alia’s answers:</strong> Y to Clive and Dilshan, total 6, so 4 taps for Badal and Ehsaan. She cannot say Y again (at most two), so <strong>N to Badal and N to Ehsaan</strong>.</p><p><strong>Working through the rest</strong> (no reply to Alia or Ehsaan may equal their reply to that person; Dilshan 11 taps with N to Badal; Ehsaan 9 taps; Clive &gt; Badal; total 40) leaves a single grid:</p><table><thead><tr><th>Responder ↓ / Question of →</th><th>Alia</th><th>Badal</th><th>Clive</th><th>Dilshan</th><th>Ehsaan</th><th>Taps given</th></tr></thead><tbody><tr><td>Alia</td><td>–</td><td>N</td><td>Y</td><td>Y</td><td>N</td><td>6</td></tr><tr><td>Badal</td><td>Y</td><td>–</td><td>N</td><td>N</td><td>Y</td><td>6</td></tr><tr><td>Clive</td><td>N</td><td>Y</td><td>–</td><td>M</td><td>N</td><td>8</td></tr><tr><td>Dilshan</td><td>M</td><td>N</td><td>M</td><td>–</td><td>M</td><td>11</td></tr><tr><td>Ehsaan</td><td>M</td><td>M</td><td>Y</td><td>N</td><td>–</td><td>9</td></tr><tr><td>Taps received</td><td>9</td><td>8</td><td>7</td><td>8</td><td>8</td><td>40</td></tr></tbody></table><p>Key steps: Badal’s question needs Y and M from Clive and Ehsaan; Ehsaan’s answer to Alia is Y or M (not N); Dilshan’s 9 taps over Alia, Clive and Ehsaan force M, M, M; then Ehsaan’s 9 taps and the ‘no matching answer’ rule fix Ehsaan’s row, and Badal 6 &lt; Clive 8 fixes the rest.</p><p>Taps given: Alia 6, Badal 6, Clive 8, Dilshan 11, Ehsaan 9. The two equal ones are <strong>Alia and Badal</strong> (option B).</p><p>In the actual exam this was a type-in question; options are added here so it can be scored fairly.</p><p>In the actual exam this was a type-in question; options are added here so it can be scored fairly.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   },
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Badal and Clive"
+    },
+    {
+     "id": "B",
+     "textHtml": "Alia and Badal"
+    },
+    {
+     "id": "C",
+     "textHtml": "Clive and Ehsaan"
+    },
+    {
+     "id": "D",
+     "textHtml": "Alia and Ehsaan"
+    }
+   ]
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Logical deduction",
+   "difficulty": "hard",
+   "stemHtml": "<p>What was Clive’s response to Ehsaan’s question?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Yes"
+    },
+    {
+     "id": "B",
+     "textHtml": "Maybe"
+    },
+    {
+     "id": "C",
+     "textHtml": "Cannot be determined"
+    },
+    {
+     "id": "D",
+     "textHtml": "No"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Taps per question:</strong> each question gets 4 answers including at least one Y (1), N (2) and M (3), so 6 + one extra answer: 7, 8 or 9 taps. Alia received 9 (extra M). With Badal, Dilshan, Ehsaan each receiving t: 9 + Clive + 3t = 40, so t = 8 and <strong>Clive received 7</strong> (extra Y). Badal, Dilshan and Ehsaan each got Y, N, N, M.</p><p><strong>Alia’s answers:</strong> Y to Clive and Dilshan, total 6, so 4 taps for Badal and Ehsaan. She cannot say Y again (at most two), so <strong>N to Badal and N to Ehsaan</strong>.</p><p><strong>Working through the rest</strong> (no reply to Alia or Ehsaan may equal their reply to that person; Dilshan 11 taps with N to Badal; Ehsaan 9 taps; Clive &gt; Badal; total 40) leaves a single grid:</p><table><thead><tr><th>Responder ↓ / Question of →</th><th>Alia</th><th>Badal</th><th>Clive</th><th>Dilshan</th><th>Ehsaan</th><th>Taps given</th></tr></thead><tbody><tr><td>Alia</td><td>–</td><td>N</td><td>Y</td><td>Y</td><td>N</td><td>6</td></tr><tr><td>Badal</td><td>Y</td><td>–</td><td>N</td><td>N</td><td>Y</td><td>6</td></tr><tr><td>Clive</td><td>N</td><td>Y</td><td>–</td><td>M</td><td>N</td><td>8</td></tr><tr><td>Dilshan</td><td>M</td><td>N</td><td>M</td><td>–</td><td>M</td><td>11</td></tr><tr><td>Ehsaan</td><td>M</td><td>M</td><td>Y</td><td>N</td><td>–</td><td>9</td></tr><tr><td>Taps received</td><td>9</td><td>8</td><td>7</td><td>8</td><td>8</td><td>40</td></tr></tbody></table><p>Key steps: Badal’s question needs Y and M from Clive and Ehsaan; Ehsaan’s answer to Alia is Y or M (not N); Dilshan’s 9 taps over Alia, Clive and Ehsaan force M, M, M; then Ehsaan’s 9 taps and the ‘no matching answer’ rule fix Ehsaan’s row, and Badal 6 &lt; Clive 8 fixes the rest.</p><p>From the grid, Clive answered Ehsaan’s question with two taps: <strong>No</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "TITA",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Logical deduction",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many “Yes” responses were received across all the questions?</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Taps per question:</strong> each question gets 4 answers including at least one Y (1), N (2) and M (3), so 6 + one extra answer: 7, 8 or 9 taps. Alia received 9 (extra M). With Badal, Dilshan, Ehsaan each receiving t: 9 + Clive + 3t = 40, so t = 8 and <strong>Clive received 7</strong> (extra Y). Badal, Dilshan and Ehsaan each got Y, N, N, M.</p><p><strong>Alia’s answers:</strong> Y to Clive and Dilshan, total 6, so 4 taps for Badal and Ehsaan. She cannot say Y again (at most two), so <strong>N to Badal and N to Ehsaan</strong>.</p><p><strong>Working through the rest</strong> (no reply to Alia or Ehsaan may equal their reply to that person; Dilshan 11 taps with N to Badal; Ehsaan 9 taps; Clive &gt; Badal; total 40) leaves a single grid:</p><table><thead><tr><th>Responder ↓ / Question of →</th><th>Alia</th><th>Badal</th><th>Clive</th><th>Dilshan</th><th>Ehsaan</th><th>Taps given</th></tr></thead><tbody><tr><td>Alia</td><td>–</td><td>N</td><td>Y</td><td>Y</td><td>N</td><td>6</td></tr><tr><td>Badal</td><td>Y</td><td>–</td><td>N</td><td>N</td><td>Y</td><td>6</td></tr><tr><td>Clive</td><td>N</td><td>Y</td><td>–</td><td>M</td><td>N</td><td>8</td></tr><tr><td>Dilshan</td><td>M</td><td>N</td><td>M</td><td>–</td><td>M</td><td>11</td></tr><tr><td>Ehsaan</td><td>M</td><td>M</td><td>Y</td><td>N</td><td>–</td><td>9</td></tr><tr><td>Taps received</td><td>9</td><td>8</td><td>7</td><td>8</td><td>8</td><td>40</td></tr></tbody></table><p>Key steps: Badal’s question needs Y and M from Clive and Ehsaan; Ehsaan’s answer to Alia is Y or M (not N); Dilshan’s 9 taps over Alia, Clive and Ehsaan force M, M, M; then Ehsaan’s 9 taps and the ‘no matching answer’ rule fix Ehsaan’s row, and Badal 6 &lt; Clive 8 fixes the rest.</p><p>Alia’s question had 1 Y, Clive’s had 2, and Badal’s, Dilshan’s and Ehsaan’s had 1 each: 1 + 1 + 2 + 1 + 1 = <strong>6</strong>. (This needs only the taps-per-question step.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts (radar + bar)",
+   "difficulty": "medium",
+   "stemHtml": "<p>How much is Japan's export to India worth?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "8.5 Billion USD"
+    },
+    {
+     "id": "B",
+     "textHtml": "7.0 Billion USD"
+    },
+    {
+     "id": "C",
+     "textHtml": "16.0 Billion USD"
+    },
+    {
+     "id": "D",
+     "textHtml": "1.75 Billion USD"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key move:</strong> imports of X from Y = (tariff X charged on Y) ÷ (tariff % X charges Y). Read the bar from X’s group and the percentage from X’s line on the radar (the centre of the radar is 10%, the rings are 20–50%). Exports of Y to X are the same number.</p><table><thead><tr><th>Importer (charges)</th><th>From US</th><th>From France</th><th>From India</th><th>From Japan</th><th>From UK</th></tr></thead><tbody><tr><td>US</td><td>–</td><td>6 ÷ 20% = 30</td><td>4.5 ÷ 40% = 11.25</td><td>7 ÷ 30% ≈ 23.3</td><td>3 ÷ 30% = 10</td></tr><tr><td>France</td><td>5.5 ÷ 30% ≈ 18.3</td><td>–</td><td>6.5 ÷ 40% = 16.25</td><td>4 ÷ 30% ≈ 13.3</td><td>4.5 ÷ 40% = 11.25</td></tr><tr><td>India</td><td>9 ÷ 40% = 22.5</td><td>5 ÷ 50% = 10</td><td>–</td><td>3.5 ÷ 50% = 7</td><td>5 ÷ 20% = 25</td></tr><tr><td>Japan</td><td>4 ÷ 40% = 10</td><td>3 ÷ 30% = 10</td><td>8 ÷ 50% = 16</td><td>–</td><td>3 ÷ 40% = 7.5</td></tr><tr><td>UK</td><td>2.5 ÷ 20% = 12.5</td><td>4 ÷ 30% ≈ 13.3</td><td>3 ÷ 30% = 10</td><td>6 ÷ 40% = 15</td><td>–</td></tr></tbody></table><p>(All values in billion USD.)</p><p>Japan’s exports to India = India’s imports from Japan = India’s tariff on Japan ÷ India’s rate on Japan = 3.5 ÷ 0.5 = <strong>7.0 billion USD</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts (radar + bar)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which among the following is the highest?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Exports by France to Japan"
+    },
+    {
+     "id": "B",
+     "textHtml": "Imports by France from India"
+    },
+    {
+     "id": "C",
+     "textHtml": "Imports by US from France"
+    },
+    {
+     "id": "D",
+     "textHtml": "Exports by Japan to UK"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key move:</strong> imports of X from Y = (tariff X charged on Y) ÷ (tariff % X charges Y). Read the bar from X’s group and the percentage from X’s line on the radar (the centre of the radar is 10%, the rings are 20–50%). Exports of Y to X are the same number.</p><table><thead><tr><th>Importer (charges)</th><th>From US</th><th>From France</th><th>From India</th><th>From Japan</th><th>From UK</th></tr></thead><tbody><tr><td>US</td><td>–</td><td>6 ÷ 20% = 30</td><td>4.5 ÷ 40% = 11.25</td><td>7 ÷ 30% ≈ 23.3</td><td>3 ÷ 30% = 10</td></tr><tr><td>France</td><td>5.5 ÷ 30% ≈ 18.3</td><td>–</td><td>6.5 ÷ 40% = 16.25</td><td>4 ÷ 30% ≈ 13.3</td><td>4.5 ÷ 40% = 11.25</td></tr><tr><td>India</td><td>9 ÷ 40% = 22.5</td><td>5 ÷ 50% = 10</td><td>–</td><td>3.5 ÷ 50% = 7</td><td>5 ÷ 20% = 25</td></tr><tr><td>Japan</td><td>4 ÷ 40% = 10</td><td>3 ÷ 30% = 10</td><td>8 ÷ 50% = 16</td><td>–</td><td>3 ÷ 40% = 7.5</td></tr><tr><td>UK</td><td>2.5 ÷ 20% = 12.5</td><td>4 ÷ 30% ≈ 13.3</td><td>3 ÷ 30% = 10</td><td>6 ÷ 40% = 15</td><td>–</td></tr></tbody></table><p>(All values in billion USD.)</p><p>France → Japan = Japan’s imports from France = 3 ÷ 0.3 = 10. France’s imports from India = 6.5 ÷ 0.4 = 16.25. US imports from France = 6 ÷ 0.2 = <strong>30</strong>. Japan → UK = UK’s imports from Japan = 6 ÷ 0.4 = 15. The highest is <strong>imports by US from France</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-21",
+   "section": "DILR",
+   "number": 21,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts (radar + bar)",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the trade surplus/trade deficit of India with UK?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Deficit of 10.0 Billion USD"
+    },
+    {
+     "id": "B",
+     "textHtml": "Surplus of 15.0 Billion USD"
+    },
+    {
+     "id": "C",
+     "textHtml": "Surplus of 10.0 Billion USD"
+    },
+    {
+     "id": "D",
+     "textHtml": "Deficit of 15.0 Billion USD"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key move:</strong> imports of X from Y = (tariff X charged on Y) ÷ (tariff % X charges Y). Read the bar from X’s group and the percentage from X’s line on the radar (the centre of the radar is 10%, the rings are 20–50%). Exports of Y to X are the same number.</p><table><thead><tr><th>Importer (charges)</th><th>From US</th><th>From France</th><th>From India</th><th>From Japan</th><th>From UK</th></tr></thead><tbody><tr><td>US</td><td>–</td><td>6 ÷ 20% = 30</td><td>4.5 ÷ 40% = 11.25</td><td>7 ÷ 30% ≈ 23.3</td><td>3 ÷ 30% = 10</td></tr><tr><td>France</td><td>5.5 ÷ 30% ≈ 18.3</td><td>–</td><td>6.5 ÷ 40% = 16.25</td><td>4 ÷ 30% ≈ 13.3</td><td>4.5 ÷ 40% = 11.25</td></tr><tr><td>India</td><td>9 ÷ 40% = 22.5</td><td>5 ÷ 50% = 10</td><td>–</td><td>3.5 ÷ 50% = 7</td><td>5 ÷ 20% = 25</td></tr><tr><td>Japan</td><td>4 ÷ 40% = 10</td><td>3 ÷ 30% = 10</td><td>8 ÷ 50% = 16</td><td>–</td><td>3 ÷ 40% = 7.5</td></tr><tr><td>UK</td><td>2.5 ÷ 20% = 12.5</td><td>4 ÷ 30% ≈ 13.3</td><td>3 ÷ 30% = 10</td><td>6 ÷ 40% = 15</td><td>–</td></tr></tbody></table><p>(All values in billion USD.)</p><p>India’s exports to UK = UK’s imports from India = 3 ÷ 0.3 = 10. India’s imports from UK = 5 ÷ 0.2 = 25. Surplus = 10 − 25 = −15, i.e. a <strong>deficit of 15.0 billion USD</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-22",
+   "section": "DILR",
+   "number": 22,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts (radar + bar)",
+   "difficulty": "medium",
+   "stemHtml": "<p>Among France and UK, who has/have trade surplus(es) with US?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Neither France nor UK"
+    },
+    {
+     "id": "B",
+     "textHtml": "Both France and UK"
+    },
+    {
+     "id": "C",
+     "textHtml": "Only France"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only UK"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key move:</strong> imports of X from Y = (tariff X charged on Y) ÷ (tariff % X charges Y). Read the bar from X’s group and the percentage from X’s line on the radar (the centre of the radar is 10%, the rings are 20–50%). Exports of Y to X are the same number.</p><table><thead><tr><th>Importer (charges)</th><th>From US</th><th>From France</th><th>From India</th><th>From Japan</th><th>From UK</th></tr></thead><tbody><tr><td>US</td><td>–</td><td>6 ÷ 20% = 30</td><td>4.5 ÷ 40% = 11.25</td><td>7 ÷ 30% ≈ 23.3</td><td>3 ÷ 30% = 10</td></tr><tr><td>France</td><td>5.5 ÷ 30% ≈ 18.3</td><td>–</td><td>6.5 ÷ 40% = 16.25</td><td>4 ÷ 30% ≈ 13.3</td><td>4.5 ÷ 40% = 11.25</td></tr><tr><td>India</td><td>9 ÷ 40% = 22.5</td><td>5 ÷ 50% = 10</td><td>–</td><td>3.5 ÷ 50% = 7</td><td>5 ÷ 20% = 25</td></tr><tr><td>Japan</td><td>4 ÷ 40% = 10</td><td>3 ÷ 30% = 10</td><td>8 ÷ 50% = 16</td><td>–</td><td>3 ÷ 40% = 7.5</td></tr><tr><td>UK</td><td>2.5 ÷ 20% = 12.5</td><td>4 ÷ 30% ≈ 13.3</td><td>3 ÷ 30% = 10</td><td>6 ÷ 40% = 15</td><td>–</td></tr></tbody></table><p>(All values in billion USD.)</p><p>France: exports to US = 6 ÷ 0.2 = 30; imports from US = 5.5 ÷ 0.3 ≈ 18.3, so it has a surplus. UK: exports to US = 3 ÷ 0.3 = 10; imports from US = 2.5 ÷ 0.2 = 12.5, so it has a deficit. Answer: <strong>Only France</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2025 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

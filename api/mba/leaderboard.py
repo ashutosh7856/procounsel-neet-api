@@ -313,6 +313,43 @@ def daily_board(
     }
 
 
+def weekly_key(r: dict[str, Any]) -> tuple[Any, ...]:
+    return (-r["daysActive"], -(r["improvement"] if r["improvement"] is not None else -9), -r["accuracy"])
+
+
+def _weekly_build(db: SafeFirestore, end: date) -> list[dict[str, Any]]:
+    opted = _opted(db)
+    if end == local_date():
+        _sync_today(db, opted)
+    week: dict[str, dict[str, int]] = {}
+    prev: dict[str, dict[str, int]] = {}
+    for offset in range(14):
+        day = end - timedelta(days=offset)
+        bucket = week if offset < 7 else prev
+        for uid, doc in _existing(db, day.isoformat()).items():
+            answered = int(doc.get("answered") or 0)
+            if uid not in opted or answered <= 0:
+                continue
+            row = bucket.setdefault(uid, {"days": 0, "answered": 0, "correct": 0})
+            row["days"] += 1
+            row["answered"] += answered
+            row["correct"] += int(doc.get("correct") or 0)
+    rows = []
+    for uid, w in week.items():
+        acc = round(w["correct"] / w["answered"], 4)
+        p = prev.get(uid)
+        prev_acc = round(p["correct"] / p["answered"], 4) if p else None
+        rows.append({"userId": uid, "displayName": opted[uid], "daysActive": w["days"], "answered": w["answered"],
+                     "accuracy": acc, "previousAccuracy": prev_acc,
+                     "improvement": round(acc - prev_acc, 4) if prev_acc is not None else None})
+    return _rank(rows, weekly_key)
+
+
+def weekly_rows(db: SafeFirestore, end: date) -> list[dict[str, Any]]:
+    """Ranked weekly rows of every opted-in student, userIds included (internal: also used by study groups)."""
+    return _cached(("weekly", end.isoformat()), db, lambda: _weekly_build(db, end))
+
+
 @router.get("/leaderboard/weekly", response_model=WeeklyBoard)
 def weekly_board(
     date_: str | None = Query(default=None, alias="date", max_length=10),
@@ -326,34 +363,7 @@ def weekly_board(
         _sync_user(db, user.user_id)
         _cache_clear()
 
-    def build() -> list[dict[str, Any]]:
-        opted = _opted(db)
-        if end == local_date():
-            _sync_today(db, opted)
-        week: dict[str, dict[str, int]] = {}
-        prev: dict[str, dict[str, int]] = {}
-        for offset in range(14):
-            day = end - timedelta(days=offset)
-            bucket = week if offset < 7 else prev
-            for uid, doc in _existing(db, day.isoformat()).items():
-                answered = int(doc.get("answered") or 0)
-                if uid not in opted or answered <= 0:
-                    continue
-                row = bucket.setdefault(uid, {"days": 0, "answered": 0, "correct": 0})
-                row["days"] += 1
-                row["answered"] += answered
-                row["correct"] += int(doc.get("correct") or 0)
-        rows = []
-        for uid, w in week.items():
-            acc = round(w["correct"] / w["answered"], 4)
-            p = prev.get(uid)
-            prev_acc = round(p["correct"] / p["answered"], 4) if p else None
-            rows.append({"userId": uid, "displayName": opted[uid], "daysActive": w["days"], "answered": w["answered"],
-                         "accuracy": acc, "previousAccuracy": prev_acc,
-                         "improvement": round(acc - prev_acc, 4) if prev_acc is not None else None})
-        return _rank(rows, lambda r: (-r["daysActive"], -(r["improvement"] if r["improvement"] is not None else -9), -r["accuracy"]))
-
-    rows = _cached(("weekly", end.isoformat()), db, build)
+    rows = weekly_rows(db, end)
     entries, you = _public(rows, user.user_id, WEEKLY_FIELDS)
     return {
         "weekStart": start.isoformat(), "weekEnd": end.isoformat(), "participants": len(rows), "optedIn": prefs["optedIn"],

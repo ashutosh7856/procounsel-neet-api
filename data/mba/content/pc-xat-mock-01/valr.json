@@ -1,0 +1,1061 @@
+{
+  "sets": [
+    {
+      "key": "VALR-S1",
+      "kind": "passage",
+      "section": "VALR",
+      "title": "Knowing more than we can tell",
+      "contentHtml": "<p>When a master potter in Khurja is asked how she knows the kiln is ready, she will often say that she simply knows. Managers who hear this answer tend to treat it as an evasion, a reluctance to share a trade secret. More often it is the literal truth. The potter has learned to read the colour of the flame, the sound of the draught and the smell of the clay at a dozen stages of firing, and she integrates these signals so quickly that the judgement arrives before any explanation could be assembled. Philosophers have a tidy phrase for this condition — we know more than we can tell — and the phrase has become a cliché in management writing. Its implications, however, are still routinely ignored.</p><p>The most common way organisations ignore it is by assuming that whatever matters can be written down. A firm facing the retirement of its senior engineers commissions a manual; consultants interview the veterans, record their procedures and produce a binder of impressive thickness. Two years later the new engineers follow the binder faithfully, and the plant still runs worse. The binder captured what the veterans did in the situations they could remember describing; it could not capture how they noticed which situation they were in. The procedures were correct. The perception that triggered them was missing.</p><p>None of this means that documentation is useless. Written procedures are excellent at preserving decisions that have already been made explicit: safety thresholds, regulatory steps, the order in which valves must be opened. Their failure is narrower and more stubborn. They cannot transmit the ability to recognise, in a messy and novel situation, which of the written rules applies. That ability is acquired the way the potter acquired hers — through repeated exposure, under the eye of someone who already has it, with correction arriving close to the moment of error.</p><p>This is why apprenticeship, which much of modern management regards as quaint, has proved so durable in the trades where skill is hardest to specify. Apprenticeship is slow and expensive, and it depends on the willingness of experts to tolerate the mistakes of novices. But it is the only arrangement that reliably places the learner where tacit knowledge can be absorbed: beside the practitioner, in real conditions, for long enough that patterns begin to register without being named.</p><p>The irony is that many organisations destroy apprenticeship precisely while trying to become more efficient. When senior staff are measured purely on their own output, every hour spent supervising a junior is an hour of lost productivity, and rational experts stop teaching. The organisation's knowledge then lives in fewer and fewer heads, until a retirement or a resignation removes it entirely — at which point a consultant is hired to write a manual.</p>"
+    },
+    {
+      "key": "VALR-S2",
+      "kind": "passage",
+      "section": "VALR",
+      "title": "The arithmetic of surprise",
+      "contentHtml": "<p>Scientific journals like to publish findings that surprise. A study showing that a familiar drug works as expected attracts little attention; a study claiming that a common breakfast cereal improves memory in adults is reported around the world. Editors are not being frivolous when they favour the unexpected. A finding that confirms what everyone already believed adds little to knowledge, and journal space has always been scarce. Yet the preference for surprise carries a cost that is rarely acknowledged: surprising findings are, on average, less likely to be true.</p><p>The reason is not that researchers who chase surprises are careless. It is arithmetic. Suppose that among all the hypotheses tested in some field, only a small fraction are actually correct. Every study has some chance of producing a positive result by accident, even when the hypothesis behind it is false. If true hypotheses are rare, the accidental positives from the large pool of false hypotheses can outnumber the genuine positives from the small pool of true ones. A hypothesis is surprising precisely because, before the study, it seemed unlikely — and the less likely a hypothesis was to begin with, the larger the share of its positive results that are flukes.</p><p>This does not mean that surprising findings should be ignored. Many of the most important discoveries were unexpected when they were made. It means that a surprising finding should be treated as the beginning of an inquiry rather than its end. The appropriate response to a single striking study is to try to reproduce it, ideally with a larger sample and with a procedure fixed in advance, so that researchers cannot, even unconsciously, keep adjusting their analysis until the result they hoped for appears.</p><p>Replication, however, is unglamorous. A successful repetition of someone else's experiment merely confirms what has already been announced; a failed repetition invites accusations of incompetence and is hard to publish. Careers are built on new claims, not on checking old ones. The result is a literature in which striking findings are reported once, cited many times and tested seldom.</p><p>Some fields have begun to respond. Certain journals now accept studies for publication on the strength of their design, before the results are known, so that a careful experiment is published whether its outcome is exciting or dull. Such reforms do not remove the appetite for surprise, and perhaps they should not. They simply ensure that the appetite is fed with findings that have a better chance of surviving a second look.</p>"
+    },
+    {
+      "key": "VALR-S3",
+      "kind": "passage",
+      "section": "VALR",
+      "title": "Two ways to translate",
+      "contentHtml": "<p>Every translator eventually faces the same choice, though it presents itself in a thousand forms. A Bengali novel describes a character eating rice with his hand. Should the English version keep the detail, which may strike some readers as unfamiliar, or quietly replace it with something that sounds natural but erases a fact about how the character lives? The first approach, often called foreignising, keeps the reader aware that the text came from elsewhere. The second, domesticating, lets the reader forget it.</p><p>Domestication has long been the commercial default. Publishers worry that readers will abandon a book that feels foreign on every page, and reviewers praise translations that “read as if originally written in English”. The phrase is meant as a compliment, but it describes a peculiar achievement: a work whose success is measured by how thoroughly it hides its own origin. A reader who finishes such a book may believe she has encountered another culture when she has mostly encountered her own, lightly rearranged. Domestication also flatters the translator, whose labour becomes invisible at exactly the moment it succeeds, and whose choices are therefore rarely questioned.</p><p>Foreignising has hazards of its own. A translation that preserves every unfamiliar idiom can become a museum of curiosities, in which the original's ordinary speech appears exotic simply because it has been carried across word for word. A phrase that a Bengali reader would pass over without noticing becomes, in English, a conspicuous oddity, and the translator has added a strangeness that the original never had. Fidelity to the words can thus produce infidelity to the experience of reading.</p><p>The better translators treat the choice not as a policy to be adopted once but as a judgement to be made sentence by sentence. Where a detail carries meaning — where the way a man eats tells us something about his class, or about his quiet refusal of a host's cutlery — they keep it, trusting the reader to adapt. Where a turn of phrase is merely the original language's ordinary way of saying something, they render it as ordinary English. The question they ask is not “how foreign should this feel?” but “how did this feel to its first readers?”</p>"
+    },
+    {
+      "key": "VALR-S4",
+      "kind": "passage",
+      "section": "VALR",
+      "title": "Poem: The Ledger",
+      "contentHtml": "<p>Read the following poem and answer the questions that follow.</p><p><strong>The Ledger</strong></p><p>My grandfather kept a ledger of the rain,<br>inch by careful inch, for forty years —<br>not to sell it, not to boast of it,<br>but because a thing that falls and leaves<br>should be written somewhere, once.</p><p>When the river took the lower field<br>he did not curse; he turned a page,<br>and wrote the number down, and underlined it.</p><p>I have the book. I cannot read the sky<br>the way he could. But on the worst nights<br>I open it, and find that every flood<br>was followed, in his hand, by a dry month.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "VALR-01",
+      "section": "VALR",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "VALR-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Main Idea",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following best captures the central argument of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Written manuals are of no real value in transferring expertise within an organisation."
+        },
+        {
+          "id": "B",
+          "textHtml": "Traditional crafts are run more efficiently than modern industrial firms."
+        },
+        {
+          "id": "C",
+          "textHtml": "Some expertise can be passed on only through close, supervised practice, and organisations that neglect this steadily lose knowledge."
+        },
+        {
+          "id": "D",
+          "textHtml": "Experts deliberately withhold what they know in order to protect their position."
+        },
+        {
+          "id": "E",
+          "textHtml": "Consultants are chiefly responsible for the decline of apprenticeship."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The passage argues that tacit knowledge (knowing which situation one is in) cannot be written down, that it is transmitted through apprenticeship, and that organisations which stop apprenticeship lose their knowledge.</p><p><strong>A</strong> fails: paragraph 3 begins 'None of this means that documentation is useless' and lists what manuals do well.</p><p><strong>D</strong> fails: the author says the potter's answer is 'more often … the literal truth', not an evasion. <strong>E</strong> fails: consultants appear only as the futile remedy, not the cause; the cause is measuring seniors purely on their own output. <strong>B</strong> is never claimed.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-02",
+      "section": "VALR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "VALR-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, why did the plant continue to run worse even though the new engineers followed the binder faithfully?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The veterans refused to disclose their most important procedures to the consultants."
+        },
+        {
+          "id": "B",
+          "textHtml": "Many of the procedures recorded in the binder were technically incorrect."
+        },
+        {
+          "id": "C",
+          "textHtml": "The new engineers did not actually follow the procedures in the binder."
+        },
+        {
+          "id": "D",
+          "textHtml": "The binder could not convey how the veterans recognised which situation they were facing."
+        },
+        {
+          "id": "E",
+          "textHtml": "The binder was too long to be consulted during day-to-day operations."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct: 'it could not capture how they noticed which situation they were in … The perception that triggered them was missing.'</p><p><strong>B</strong> is directly contradicted ('The procedures were correct'). <strong>C</strong> is contradicted ('follow the binder faithfully'). <strong>A</strong> and <strong>E</strong> are not stated; the thickness of the binder is mentioned ironically, not as the cause.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-03",
+      "section": "VALR",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "VALR-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "hard",
+      "stemHtml": "<p>With which of the following statements would the author most probably agree?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Evaluating senior staff partly on how well they develop juniors could help an organisation retain its knowledge."
+        },
+        {
+          "id": "B",
+          "textHtml": "Apprenticeship should replace written documentation altogether in skilled trades."
+        },
+        {
+          "id": "C",
+          "textHtml": "With enough interviews, all of an expert's knowledge can eventually be codified."
+        },
+        {
+          "id": "D",
+          "textHtml": "The potter's claim that she 'simply knows' is usually a way of guarding a trade secret."
+        },
+        {
+          "id": "E",
+          "textHtml": "Efficiency and the preservation of knowledge can never be pursued together."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The last paragraph blames the loss of knowledge on measuring seniors 'purely on their own output', which makes teaching irrational. Changing that incentive removes the cause the author identifies, so the author would agree.</p><p><strong>B</strong> overreaches: the author values manuals for explicit rules (safety thresholds, valve order). <strong>C</strong> contradicts the thesis that 'we know more than we can tell'. <strong>D</strong> contradicts paragraph 1. <strong>E</strong> is too absolute: the author says <em>many</em> organisations destroy apprenticeship in the pursuit of efficiency, not that the two goals are inherently incompatible.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-04",
+      "section": "VALR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "VALR-S1",
+      "topic": "Reading Comprehension",
+      "subtopic": "Tone",
+      "difficulty": "medium",
+      "stemHtml": "<p>The final sentence of the passage ('at which point a consultant is hired to write a manual') is best described as:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "celebratory, praising the ability of firms to recover lost knowledge."
+        },
+        {
+          "id": "B",
+          "textHtml": "ironic, suggesting that firms respond to the loss with a remedy the passage has already shown to be inadequate."
+        },
+        {
+          "id": "C",
+          "textHtml": "neutral, describing a widely recommended best practice."
+        },
+        {
+          "id": "D",
+          "textHtml": "apologetic, conceding that the author's criticism of manuals was overstated."
+        },
+        {
+          "id": "E",
+          "textHtml": "nostalgic, lamenting the disappearance of medieval craft guilds."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Paragraph 2 showed that the consultant's manual fails to transmit perception. Ending with the same remedy closes a loop: the organisation repeats the very mistake the passage diagnosed. The paragraph even opens with 'The irony is…'.</p><p><strong>A</strong> and <strong>C</strong> miss the critical stance. <strong>D</strong> is wrong because nothing is conceded. <strong>E</strong> introduces guilds, which are never mentioned.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-05",
+      "section": "VALR",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "VALR-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "easy",
+      "stemHtml": "<p>According to the passage, surprising findings are less likely to be true because:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "researchers who look for surprising results tend to be more careless than others."
+        },
+        {
+          "id": "B",
+          "textHtml": "journals knowingly publish results they suspect to be false."
+        },
+        {
+          "id": "C",
+          "textHtml": "surprising hypotheses cannot be tested with large samples."
+        },
+        {
+          "id": "D",
+          "textHtml": "editors generally lack training in statistics."
+        },
+        {
+          "id": "E",
+          "textHtml": "when a hypothesis is unlikely to begin with, accidental positives form a larger share of its positive results."
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>E</strong> is correct: paragraph 2 says 'the less likely a hypothesis was to begin with, the larger the share of its positive results that are flukes' — an argument from arithmetic.</p><p><strong>A</strong> is explicitly denied ('The reason is not that researchers … are careless'). <strong>B</strong>, <strong>C</strong> and <strong>D</strong> are never asserted; the passage even says editors are 'not being frivolous'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-06",
+      "section": "VALR",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "VALR-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Author's Attitude",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author's attitude towards journals' preference for surprising findings is best described as:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "dismissive — the preference is irrational and should be abolished."
+        },
+        {
+          "id": "B",
+          "textHtml": "understanding but cautionary — the preference has a reasonable basis yet carries an underappreciated cost."
+        },
+        {
+          "id": "C",
+          "textHtml": "accusatory — the preference is the main cause of scientific fraud."
+        },
+        {
+          "id": "D",
+          "textHtml": "wholly approving — the preference advances knowledge without any drawback."
+        },
+        {
+          "id": "E",
+          "textHtml": "indifferent — the preference has no bearing on the reliability of research."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The author says editors 'are not being frivolous' (a confirming finding adds little; space is scarce), yet the preference 'carries a cost that is rarely acknowledged'. The final paragraph says the appetite for surprise perhaps should not be removed.</p><p><strong>A</strong> contradicts 'perhaps they should not' remove it. <strong>C</strong>: fraud is never mentioned. <strong>D</strong> ignores the cost. <strong>E</strong> contradicts the whole argument.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-07",
+      "section": "VALR",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "VALR-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Purpose",
+      "difficulty": "medium",
+      "stemHtml": "<p>The author recommends that a replication use 'a procedure fixed in advance' primarily in order to:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "make the replication cheaper than the original study."
+        },
+        {
+          "id": "B",
+          "textHtml": "ensure that the replication reaches the same result as the original study."
+        },
+        {
+          "id": "C",
+          "textHtml": "allow journals to publish the replication more quickly."
+        },
+        {
+          "id": "D",
+          "textHtml": "prevent researchers from adjusting their analysis until a hoped-for result emerges."
+        },
+        {
+          "id": "E",
+          "textHtml": "guarantee that the sample is larger than in the original study."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct: the sentence continues, 'so that researchers cannot, even unconsciously, keep adjusting their analysis until the result they hoped for appears'.</p><p><strong>B</strong> is wrong: the point is an unbiased test, not a predetermined outcome. <strong>E</strong> confuses the two separate recommendations (larger sample <em>and</em> fixed procedure). <strong>A</strong> and <strong>C</strong> are not mentioned.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-08",
+      "section": "VALR",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "VALR-S2",
+      "topic": "Reading Comprehension",
+      "subtopic": "Application",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following initiatives would be most consistent with the reasoning of the passage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "A research funder sets aside part of its budget for independent repetitions of widely cited, striking findings."
+        },
+        {
+          "id": "B",
+          "textHtml": "A journal decides to publish only studies whose results confirm established theories."
+        },
+        {
+          "id": "C",
+          "textHtml": "A scientific society discourages its members from reporting unexpected results."
+        },
+        {
+          "id": "D",
+          "textHtml": "A university requires every study, regardless of field, to use an identical sample size."
+        },
+        {
+          "id": "E",
+          "textHtml": "A hiring committee ranks candidates purely by how often their new claims have been cited."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. The passage's diagnosis is that striking findings are 'cited many times and tested seldom' because replication is unrewarded. Funding replications of exactly those findings addresses the gap.</p><p><strong>B</strong> and <strong>C</strong> contradict the author's view that surprising findings should not be ignored. <strong>D</strong> is a mechanical rule the passage never suggests. <strong>E</strong> worsens the problem: 'Careers are built on new claims, not on checking old ones.'</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-09",
+      "section": "VALR",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "VALR-S3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Inference",
+      "difficulty": "easy",
+      "stemHtml": "<p>The author regards the reviewers' compliment that a translation 'reads as if originally written in English' as:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the highest standard that any translation can achieve."
+        },
+        {
+          "id": "B",
+          "textHtml": "evidence that the translator has adopted a foreignising approach."
+        },
+        {
+          "id": "C",
+          "textHtml": "praise for something that may amount to concealing the work's origin."
+        },
+        {
+          "id": "D",
+          "textHtml": "a phrase used mainly by readers of the original language."
+        },
+        {
+          "id": "E",
+          "textHtml": "irrelevant to whether a translated book sells well."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct: the author calls it 'a peculiar achievement: a work whose success is measured by how thoroughly it hides its own origin'.</p><p><strong>A</strong> misses the author's reservation. <strong>B</strong> reverses it — the compliment rewards domestication. <strong>E</strong> contradicts the link to the 'commercial default'. <strong>D</strong> is unsupported.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-10",
+      "section": "VALR",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "VALR-S3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Detail",
+      "difficulty": "medium",
+      "stemHtml": "<p>According to the passage, which of the following is a risk of foreignising?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It erases details about how characters in the original live."
+        },
+        {
+          "id": "B",
+          "textHtml": "It leads publishers to refuse to print translated books."
+        },
+        {
+          "id": "C",
+          "textHtml": "It forces the translator to add explanatory footnotes on every page."
+        },
+        {
+          "id": "D",
+          "textHtml": "It lets readers forget that the text came from another culture."
+        },
+        {
+          "id": "E",
+          "textHtml": "It can make the original's ordinary expressions seem strange, adding an oddity the original never had."
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>E</strong> is correct: paragraph 3 says a phrase a Bengali reader 'would pass over without noticing becomes, in English, a conspicuous oddity'.</p><p><strong>A</strong> and <strong>D</strong> describe the effects of <em>domesticating</em>, not foreignising. <strong>B</strong> and <strong>C</strong> are not mentioned.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-11",
+      "section": "VALR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "VALR-S3",
+      "topic": "Reading Comprehension",
+      "subtopic": "Application",
+      "difficulty": "hard",
+      "stemHtml": "<p>A translator is working on a Tamil short story. Which approach would the 'better translators' described in the passage most likely take?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Translate every idiom literally, since fidelity to the words is the translator's first duty."
+        },
+        {
+          "id": "B",
+          "textHtml": "Replace all culturally specific details with familiar English equivalents so that the story reads smoothly."
+        },
+        {
+          "id": "C",
+          "textHtml": "Retain a detail about a character's dress that signals her social standing, but render a routine greeting as natural English."
+        },
+        {
+          "id": "D",
+          "textHtml": "Add a footnote explaining the literal meaning of every Tamil word that has been translated."
+        },
+        {
+          "id": "E",
+          "textHtml": "Ask the publisher to choose one approach, foreignising or domesticating, for the whole book."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. The better translators decide 'sentence by sentence': keep details that 'carry meaning' (here, the dress signals social standing) and render 'merely … ordinary' phrasing (a routine greeting) as ordinary English.</p><p><strong>A</strong> is pure foreignising, which the author says can produce 'infidelity to the experience of reading'. <strong>B</strong> is pure domesticating. <strong>E</strong> treats the choice as a single policy, which the passage rejects. <strong>D</strong> is not discussed and would itself make ordinary words conspicuous.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-12",
+      "section": "VALR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "VALR-S4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Poetry",
+      "difficulty": "easy",
+      "stemHtml": "<p>The grandfather's practice of recording the rain is best described as:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "an act of attentive witness, undertaken neither for profit nor for pride."
+        },
+        {
+          "id": "B",
+          "textHtml": "a commercial record kept so that he could sell information about the weather."
+        },
+        {
+          "id": "C",
+          "textHtml": "a scientific project aimed at predicting the next flood."
+        },
+        {
+          "id": "D",
+          "textHtml": "a way of blaming the weather for the loss of his fields."
+        },
+        {
+          "id": "E",
+          "textHtml": "a habit that the speaker regards as pointless."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct: 'not to sell it, not to boast of it, / but because a thing that falls and leaves / should be written somewhere, once' — the motive is to bear witness.</p><p><strong>B</strong> is ruled out by 'not to sell it'. <strong>D</strong> is ruled out by 'he did not curse'. <strong>C</strong> is not suggested — the speaker even says he 'cannot read the sky'. <strong>E</strong> contradicts the comfort the speaker finds in the book.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-13",
+      "section": "VALR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "VALR-S4",
+      "topic": "Reading Comprehension",
+      "subtopic": "Poetry",
+      "difficulty": "medium",
+      "stemHtml": "<p>What does the speaker find consoling in the ledger 'on the worst nights'?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It teaches him to read the sky as his grandfather did."
+        },
+        {
+          "id": "B",
+          "textHtml": "It records his grandfather's anger at the river."
+        },
+        {
+          "id": "C",
+          "textHtml": "It proves that floods were rare in his grandfather's time."
+        },
+        {
+          "id": "D",
+          "textHtml": "It shows that, in the past, each period of hardship was followed by relief."
+        },
+        {
+          "id": "E",
+          "textHtml": "It allows him to predict the exact amount of rain to come."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct: he finds 'that every flood / was followed, in his hand, by a dry month' — a record that bad times passed.</p><p><strong>A</strong> is contradicted ('I cannot read the sky / the way he could'). <strong>B</strong> is contradicted ('he did not curse'). <strong>C</strong>: the ledger records floods, but nothing says they were rare. <strong>E</strong> overstates; the comfort is a pattern of relief, not a forecast.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-14",
+      "section": "VALR",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Assumption",
+      "difficulty": "medium",
+      "stemHtml": "<p>A city's transport department plans to convert one of the three car lanes on a busy arterial road into a dedicated bus lane. It argues that this will reduce the average commuting time of people travelling along the road, because a full bus carries as many people as about forty cars while taking up the road space of only three.</p><p>Which of the following is an assumption on which the department's argument depends?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Buses produce less pollution per passenger than cars."
+        },
+        {
+          "id": "B",
+          "textHtml": "Enough commuters on this road will travel by bus for the bus lane to carry a substantial share of them."
+        },
+        {
+          "id": "C",
+          "textHtml": "Every car owner who uses the road will sell his or her car."
+        },
+        {
+          "id": "D",
+          "textHtml": "The city does not have the money to build an additional road."
+        },
+        {
+          "id": "E",
+          "textHtml": "Bus fares on the route will be reduced once the bus lane opens."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The argument relies on the bus lane moving many people. If few commuters take the bus, the lane will carry few people while the remaining two lanes become more congested, and average commuting time could rise. Negating B destroys the argument.</p><p><strong>A</strong> concerns pollution, not commuting time. <strong>C</strong> is far stronger than needed. <strong>D</strong> is irrelevant to whether this plan works. <strong>E</strong> might help, but the argument does not require it — buses could fill up without any fare cut.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-15",
+      "section": "VALR",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Weaken",
+      "difficulty": "easy",
+      "stemHtml": "<p>Employees of a firm who attended its optional mindfulness workshop took 30% fewer sick days in the following year than employees who did not attend. The head of HR concludes that the workshop improves employees' health and should therefore be made compulsory for all staff.</p><p>Which of the following, if true, most seriously weakens the HR head's conclusion?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The workshop was conducted by a certified and experienced instructor."
+        },
+        {
+          "id": "B",
+          "textHtml": "Some employees who attended the workshop said they found parts of it boring."
+        },
+        {
+          "id": "C",
+          "textHtml": "Sick days fell across the whole industry during the same year."
+        },
+        {
+          "id": "D",
+          "textHtml": "The workshop costs the firm very little to run."
+        },
+        {
+          "id": "E",
+          "textHtml": "Employees who chose to attend were, on average, younger and had also taken fewer sick days than non-attendees in the years before the workshop."
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>E</strong> is correct. It shows the attendees were already healthier before the workshop (self-selection), so the difference in sick days may have nothing to do with the workshop.</p><p><strong>C</strong> affects attendees and non-attendees alike, so it does not explain the <em>difference</em> between them. <strong>A</strong> slightly supports the workshop. <strong>B</strong> concerns enjoyment, not health outcomes. <strong>D</strong> supports making it compulsory rather than weakening the causal claim.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-16",
+      "section": "VALR",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Strengthen",
+      "difficulty": "medium",
+      "stemHtml": "<p>Excavations at an ancient settlement show that its grain-storage pits became progressively larger over a period of two centuries. Archaeologists conclude that the community's agricultural output increased during this period.</p><p>Which of the following, if true, most strengthens the archaeologists' conclusion?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Residue analysis shows that the pits were emptied and refilled every year, and that the grain in them was of locally grown varieties."
+        },
+        {
+          "id": "B",
+          "textHtml": "Neighbouring settlements of the same period also had large storage pits."
+        },
+        {
+          "id": "C",
+          "textHtml": "In the later part of the period, the inhabitants used improved digging tools that made large pits easier to make."
+        },
+        {
+          "id": "D",
+          "textHtml": "The climate grew more unpredictable over the period, leading households to store grain for several years at a time."
+        },
+        {
+          "id": "E",
+          "textHtml": "Grain was the staple food of the community throughout the period."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. It rules out two alternative explanations for larger pits: multi-year stockpiling (the pits held one year's grain) and imported grain (the grain was local). What remains is that more grain was grown each year.</p><p><strong>C</strong> and <strong>D</strong> offer alternative explanations and so weaken the conclusion. <strong>B</strong> is about other settlements. <strong>E</strong> is background that does not link pit size to output.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-17",
+      "section": "VALR",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Inference / Deduction",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a certain industrial cluster:</p><ul><li>Every firm that exports to Europe holds a particular quality certification.</li><li>Some firms that hold the certification do not export at all.</li><li>Every firm that exports at all exports to Europe, to Japan, or to both.</li></ul><p>Which of the following must be true of the firms in this cluster?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Every firm that holds the certification exports to Europe."
+        },
+        {
+          "id": "B",
+          "textHtml": "No firm that exports to Japan holds the certification."
+        },
+        {
+          "id": "C",
+          "textHtml": "Any firm that exports but does not hold the certification exports to Japan."
+        },
+        {
+          "id": "D",
+          "textHtml": "Some firms export to both Europe and Japan."
+        },
+        {
+          "id": "E",
+          "textHtml": "Every firm that does not hold the certification is an exporter."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> must be true. Take an exporter without the certification. It cannot export to Europe (all Europe exporters are certified). Since every exporter sells to Europe or Japan, it must export to Japan.</p><p><strong>A</strong> is false: some certified firms do not export at all. <strong>B</strong>, <strong>D</strong> and <strong>E</strong> are possible but not forced; e.g. a cluster with one certified Europe-only exporter, one certified non-exporter and one uncertified non-exporter satisfies every statement while making B true but D and E false, and adding a certified Japan exporter makes B false.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-18",
+      "section": "VALR",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Paradox",
+      "difficulty": "hard",
+      "stemHtml": "<p>After a city introduced a congestion charge for vehicles entering its central district, motor traffic in the district fell sharply. Yet the number of road accidents reported in the district rose during the first year of the charge.</p><p>Which of the following, if true, best helps to explain this apparent discrepancy?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Revenue from the charge was spent on resurfacing the district's roads."
+        },
+        {
+          "id": "B",
+          "textHtml": "The number of accidents in the areas surrounding the district fell during the same year."
+        },
+        {
+          "id": "C",
+          "textHtml": "Some drivers chose to pay the charge rather than change their routes."
+        },
+        {
+          "id": "D",
+          "textHtml": "With fewer vehicles on the roads, average speeds in the district rose considerably, and the number of cyclists and pedestrians there increased greatly."
+        },
+        {
+          "id": "E",
+          "textHtml": "Accident reporting procedures in other cities did not change during the year."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Faster traffic and many more vulnerable road users (cyclists, pedestrians) can raise the number of accidents even though fewer vehicles are present — reconciling both facts.</p><p><strong>A</strong> would, if anything, reduce accidents. <strong>B</strong> concerns other areas, not the rise inside the district. <strong>C</strong> is consistent with a fall in traffic but does not explain more accidents. <strong>E</strong> is about other cities and is irrelevant.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-19",
+      "section": "VALR",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Critical Reasoning",
+      "subtopic": "Flaw",
+      "difficulty": "medium",
+      "stemHtml": "<p>Ravi argues: “Every hugely successful startup founder I have read about dropped out of college. Clearly, dropping out of college improves a person's chances of building a successful startup.”</p><p>Which of the following best describes the flaw in Ravi's reasoning?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "It assumes that most startups fail within their first year."
+        },
+        {
+          "id": "B",
+          "textHtml": "It draws a causal conclusion from examples of successes alone, ignoring the many dropouts who did not succeed."
+        },
+        {
+          "id": "C",
+          "textHtml": "It relies on the opinion of an authority speaking outside his area of expertise."
+        },
+        {
+          "id": "D",
+          "textHtml": "It attacks the character of people who complete their college education."
+        },
+        {
+          "id": "E",
+          "textHtml": "It uses the word 'successful' in two different senses."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Ravi looks only at founders who became famous (survivorship bias). To show that dropping out improves the odds, one would need to compare success rates of dropouts and graduates, including the many dropouts whose ventures failed or who never started one.</p><p><strong>A</strong>, <strong>C</strong> and <strong>D</strong> describe things the argument does not do. <strong>E</strong>: 'successful' is used consistently.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-20",
+      "section": "VALR",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Para Jumbles",
+      "subtopic": "Sentence Ordering",
+      "difficulty": "medium",
+      "stemHtml": "<p>The sentences given below, labelled P, Q, R, S and T, form a coherent paragraph when arranged in the right order. Choose the most logical order.</p><ul><li>P. It is soft enough to be cut with simple tools when first quarried, but it hardens after years of exposure to the air.</li><li>Q. Builders therefore carved and shaped each block soon after it was quarried, while it was still easy to work.</li><li>R. That combination made it ideal for a people who had no iron tools.</li><li>S. The sandstone found in the region has an unusual property.</li><li>T. The temples they carved in this way have outlasted many later buildings made of harder stone.</li></ul>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "PSRQT"
+        },
+        {
+          "id": "B",
+          "textHtml": "SRPQT"
+        },
+        {
+          "id": "C",
+          "textHtml": "SQPRT"
+        },
+        {
+          "id": "D",
+          "textHtml": "PRSQT"
+        },
+        {
+          "id": "E",
+          "textHtml": "SPRQT"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>SPRQT</strong> is correct. S introduces 'an unusual property'; P explains it (soft when quarried, hardens later); R refers back to 'that combination'; Q draws the practical consequence ('therefore' carve while soft); T gives the outcome ('carved in this way').</p><p>Options starting with P (A, D) fail because 'It' in P has no antecedent. B places R ('That combination') before the combination is described. C places Q ('while it was still easy to work') before the softness is mentioned.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-21",
+      "section": "VALR",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Para Jumbles",
+      "subtopic": "Sentence Ordering",
+      "difficulty": "medium",
+      "stemHtml": "<p>The sentences given below, labelled P, Q, R, S and T, form a coherent paragraph when arranged in the right order. Choose the most logical order.</p><ul><li>P. Each town set its clocks by the sun, so that noon in one town might arrive several minutes before noon in a town a little to the west.</li><li>Q. Before the railways, this hardly mattered, since no one could travel fast enough to notice.</li><li>R. Trains changed that, because a timetable is useless if every station keeps a different time.</li><li>S. Railway companies therefore adopted a single standard time along their lines, and governments eventually followed.</li><li>T. For most of history, there was no such thing as a national time.</li></ul>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "TPQRS"
+        },
+        {
+          "id": "B",
+          "textHtml": "PQTRS"
+        },
+        {
+          "id": "C",
+          "textHtml": "TRPQS"
+        },
+        {
+          "id": "D",
+          "textHtml": "QPTSR"
+        },
+        {
+          "id": "E",
+          "textHtml": "TPRSQ"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>TPQRS</strong> is correct. T states the general point; P illustrates it (local solar time); Q says 'this' (the difference between towns) did not matter before railways; R says trains 'changed that'; S gives the consequence ('therefore' standard time).</p><p>B puts the general opening T in the middle and leaves R without a clear referent for 'that'. C places railways (R) before the situation they changed. D opens with Q, whose 'this' has no antecedent. E ends with Q, putting the pre-railway situation after its resolution.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-22",
+      "section": "VALR",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Grammar and Usage",
+      "subtopic": "Sentence Correction",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following sentences is grammatically correct?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Neither the manager nor the employees was aware of the change."
+        },
+        {
+          "id": "B",
+          "textHtml": "The committee have submitted its report."
+        },
+        {
+          "id": "C",
+          "textHtml": "Each of the candidates has submitted a statement of purpose."
+        },
+        {
+          "id": "D",
+          "textHtml": "She is one of those leaders who is always ready to listen."
+        },
+        {
+          "id": "E",
+          "textHtml": "Having finished the report, the computer was shut down by Meera."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct: the subject 'Each' is singular and takes 'has'.</p><p><strong>A</strong>: with 'neither … nor', the verb agrees with the nearer subject 'employees' → 'were'. <strong>B</strong> mixes plural 'have' with singular 'its'. <strong>D</strong>: 'who' refers to 'leaders' (plural) → 'who are'. <strong>E</strong> is a dangling modifier — it says the computer finished the report.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-23",
+      "section": "VALR",
+      "number": 23,
+      "type": "MCQ",
+      "topic": "Grammar and Usage",
+      "subtopic": "Fill in the Blank (Tense)",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the option that correctly completes the sentence:</p><p>“If I ______ about the delay earlier, I would have informed the clients.”</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "knew"
+        },
+        {
+          "id": "B",
+          "textHtml": "had been knowing"
+        },
+        {
+          "id": "C",
+          "textHtml": "have known"
+        },
+        {
+          "id": "D",
+          "textHtml": "would know"
+        },
+        {
+          "id": "E",
+          "textHtml": "had known"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>E</strong> is correct. A third conditional (an unreal past) takes the past perfect in the if-clause and 'would have + past participle' in the main clause: 'If I had known …, I would have informed …'.</p><p><strong>A</strong> ('knew') belongs to the second conditional and clashes with 'would have informed'. <strong>B</strong>: 'know' is a stative verb and is not used in the continuous. <strong>C</strong> and <strong>D</strong> are not used in an unreal past if-clause.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-24",
+      "section": "VALR",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Word in Context",
+      "difficulty": "easy",
+      "stemHtml": "<p>Choose the word closest in meaning to the word in bold as used in the sentence:</p><p>“Despite the poor quarterly numbers, the CEO remained <strong>sanguine</strong> about the product's long-term prospects.”</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "anxious"
+        },
+        {
+          "id": "B",
+          "textHtml": "optimistic"
+        },
+        {
+          "id": "C",
+          "textHtml": "bloody"
+        },
+        {
+          "id": "D",
+          "textHtml": "indifferent"
+        },
+        {
+          "id": "E",
+          "textHtml": "secretive"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. 'Despite the poor … numbers … remained' signals a positive attitude in spite of bad news; 'sanguine' means confidently optimistic.</p><p><strong>C</strong> reflects an archaic/literal sense (relating to blood) that does not fit the context. <strong>A</strong> is the opposite. <strong>D</strong> and <strong>E</strong> do not fit 'about the … prospects' after 'despite'.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-25",
+      "section": "VALR",
+      "number": 25,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the Blanks",
+      "difficulty": "hard",
+      "stemHtml": "<p>Choose the pair of words that best completes the sentence:</p><p>“The new policy was introduced as a stop-gap, but bureaucratic inertia made it effectively ______; a decade later, few officials even remembered that it had once been described as ______.”</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "permanent … essential"
+        },
+        {
+          "id": "B",
+          "textHtml": "obsolete … provisional"
+        },
+        {
+          "id": "C",
+          "textHtml": "temporary … permanent"
+        },
+        {
+          "id": "D",
+          "textHtml": "permanent … provisional"
+        },
+        {
+          "id": "E",
+          "textHtml": "ephemeral … interim"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. 'Introduced as a stop-gap, but … inertia' means it became <em>permanent</em>; officials forgot it had been called <em>provisional</em> — exactly the contrast the sentence sets up.</p><p><strong>A</strong>: 'essential' does not contrast with permanence or recall the stop-gap origin. <strong>B</strong>: inertia keeps a policy alive, not 'obsolete'. <strong>C</strong> reverses the logic. <strong>E</strong>: 'ephemeral' contradicts inertia keeping it alive for a decade.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    },
+    {
+      "key": "VALR-26",
+      "section": "VALR",
+      "number": 26,
+      "type": "MCQ",
+      "topic": "Vocabulary",
+      "subtopic": "Fill in the Blank",
+      "difficulty": "medium",
+      "stemHtml": "<p>Choose the word that best completes the sentence:</p><p>“The auditor's report was deliberately ______: it raised just enough doubts to protect the firm legally while committing itself to no firm conclusion.”</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "equivocal"
+        },
+        {
+          "id": "B",
+          "textHtml": "unequivocal"
+        },
+        {
+          "id": "C",
+          "textHtml": "exhaustive"
+        },
+        {
+          "id": "D",
+          "textHtml": "laudatory"
+        },
+        {
+          "id": "E",
+          "textHtml": "succinct"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. 'Equivocal' means ambiguous, open to more than one interpretation — a report that raises doubts but commits to nothing.</p><p><strong>B</strong> means clear and unambiguous, the opposite. <strong>C</strong> (thorough), <strong>D</strong> (praising) and <strong>E</strong> (brief) do not describe avoiding a conclusion.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review",
+        "retrievedAt": "2026-11-13"
+      }
+    }
+  ]
+}

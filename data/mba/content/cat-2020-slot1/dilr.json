@@ -1,0 +1,792 @@
+{
+ "sets": [
+  {
+   "key": "S1",
+   "kind": "dilr_set",
+   "title": "Medicine trial",
+   "contentHtml": "<p>1000 patients currently suffering from a disease were selected to study the effectiveness of treatment of four types of medicines — A, B, C and D. These patients were first randomly assigned into two groups of equal size, called treatment group and control group. The patients in the control group were not treated with any of these medicines; instead they were given a dummy medicine, called placebo, containing only sugar and starch. The following information is known about the patients in the treatment group.</p><ol type=\"a\"><li>A total of 250 patients were treated with type A medicine and a total of 210 patients were treated with type C medicine.</li><li>25 patients were treated with type A medicine only. 20 patients were treated with type C medicine only. 10 patients were treated with type D medicine only.</li><li>35 patients were treated with type A and type D medicines only. 20 patients were treated with type A and type B medicines only. 30 patients were treated with type A and type C medicines only. 20 patients were treated with type C and type D medicines only.</li><li>100 patients were treated with exactly three types of medicines.</li><li>40 patients were treated with medicines of types A, B and C, but not with medicines of type D. 20 patients were treated with medicines of types A, C and D, but not with medicines of type B.</li><li>50 patients were given all the four types of medicines. 75 patients were treated with exactly one type of medicine.</li></ol>"
+  },
+  {
+   "key": "S2",
+   "kind": "dilr_set",
+   "title": "Institute–vendor contracts",
+   "contentHtml": "<p>Four institutes, A, B, C, and D, had contracts with four vendors W, X, Y, and Z during the ten calendar years from 2010 to 2019. The contracts were either multi-year contracts running for several consecutive years or single-year contracts. No institute had more than one contract with the same vendor. However, in a calendar year, an institute may have had contracts with multiple vendors, and a vendor may have had contracts with multiple institutes. It is known that over the decade, the institutes each got into two contracts with two of these vendors, and each vendor got into two contracts with two of these institutes.</p><p>The following facts are also known about these contracts.</p><ol type=\"I\"><li>Vendor Z had at least one contract in every year.</li><li>Vendor X had one or more contracts in every year up to 2015, but no contract in any year after that.</li><li>Vendor Y had contracts in 2010 and 2019. Vendor W had contracts only in 2012.</li><li>There were five contracts in 2012.</li><li>There were exactly four multi-year contracts. Institute B had a 7-year contract, D had a 4-year contract, and A and C had one 3-year contract each. The other four contracts were single year contracts.</li><li>Institute C had one or more contracts in 2012 but did not have any contract in 2011.</li><li>Institutes B and D each had exactly one contract in 2012. Institute D did not have any contract in 2010.</li></ol>"
+  },
+  {
+   "key": "S3",
+   "kind": "dilr_set",
+   "title": "Missed board examinations",
+   "contentHtml": "<p>In a certain board examination, students were to appear for examination in five subjects: English, Hindi, Mathematics, Science and Social Science. Due to a certain emergency situation, a few of the examinations could not be conducted for some students. Hence, some students missed one examination and some others missed two examinations. Nobody missed more than two examinations.</p><p>The board adopted the following policy for awarding marks to students. If a student appeared in all five examinations, then the marks awarded in each of the examinations were on the basis of the scores obtained by them in those examinations.</p><p>If a student missed only one examination, then the marks awarded in that examination was the average of the best three among the four scores in the examinations they appeared for.</p><p>If a student missed two examinations, then the marks awarded in each of these examinations was the average of the best two among the three scores in the examinations they appeared for.</p><p>The marks obtained by six students in the examination are given in the table below. Each of them missed either one or two examinations.</p><table><thead><tr><th></th><th>English</th><th>Hindi</th><th>Mathematics</th><th>Science</th><th>Social Science</th></tr></thead><tbody><tr><td>Alva</td><td>80</td><td>75</td><td>70</td><td>75</td><td>60</td></tr><tr><td>Bithi</td><td>90</td><td>80</td><td>55</td><td>85</td><td>85</td></tr><tr><td>Carl</td><td>75</td><td>80</td><td>90</td><td>100</td><td>90</td></tr><tr><td>Deep</td><td>70</td><td>90</td><td>100</td><td>90</td><td>80</td></tr><tr><td>Esha</td><td>80</td><td>85</td><td>95</td><td>60</td><td>55</td></tr><tr><td>Foni</td><td>83</td><td>72</td><td>78</td><td>88</td><td>83</td></tr></tbody></table><p>The following facts are also known.</p><ol type=\"I\"><li>Four of these students appeared in each of the English, Hindi, Science, and Social Science examinations.</li><li>The student who missed the Mathematics examination did not miss any other examination.</li><li>One of the students who missed the Hindi examination did not miss any other examination. The other student who missed the Hindi examination also missed the Science examination.</li></ol>"
+  },
+  {
+   "key": "S4",
+   "kind": "dilr_set",
+   "title": "Cab driver ratings",
+   "contentHtml": "<p>The local office of the APP-CAB company evaluates the performance of five cab drivers, Arun, Barun, Chandan, Damodaran, and Eman for their monthly payment based on ratings in five different parameters (P1 to P5) as given below:</p><ul><li>P1: timely arrival</li><li>P2: behaviour</li><li>P3: comfortable ride</li><li>P4: driver's familiarity with the route</li><li>P5: value for money</li></ul><p>Based on feedback from the customers, the office assigns a rating from 1 to 5 in each of these parameters. Each rating is an integer from a low value of 1 to a high value of 5. The final rating of a driver is the average of his ratings in these five parameters. The monthly payment of the drivers has two parts – a fixed payment and final rating-based bonus. If a driver gets a rating of 1 in any of the parameters, he is not eligible to get bonus. To be eligible for bonus a driver also needs to get a rating of five in at least one of the parameters.</p><p>The partial information related to the ratings of the drivers in different parameters and the monthly payment structure (in rupees) is given in the table below:</p><table><thead><tr><th></th><th>P1</th><th>P2</th><th>P3</th><th>P4</th><th>P5</th><th>Fixed Payment</th><th>Bonus</th></tr></thead><tbody><tr><td>Arun</td><td></td><td></td><td></td><td>4</td><td></td><td>Rs. 1000</td><td>Rs. 250 × Final Rating</td></tr><tr><td>Barun</td><td>3</td><td></td><td></td><td></td><td></td><td>Rs. 1200</td><td>Rs. 200 × Final Rating</td></tr><tr><td>Chandan</td><td></td><td></td><td>2</td><td></td><td></td><td>Rs. 1400</td><td>Rs. 100 × Final Rating</td></tr><tr><td>Damodaran</td><td></td><td>3</td><td></td><td></td><td></td><td>Rs. 1300</td><td>Rs. 150 × Final Rating</td></tr><tr><td>Eman</td><td></td><td></td><td></td><td></td><td>2</td><td>Rs. 1100</td><td>Rs. 200 × Final Rating</td></tr></tbody></table><p>The following additional facts are known.</p><ol><li>Arun and Barun have got a rating of 5 in exactly one of the parameters. Chandan has got a rating of 5 in exactly two parameters.</li><li>None of drivers has got the same rating in three parameters.</li></ol>"
+  },
+  {
+   "key": "S5",
+   "kind": "dilr_set",
+   "title": "Percussion experts",
+   "contentHtml": "<p>Ten musicians (A, B, C, D, E, F, G, H, I and J) are experts in at least one of the following three percussion instruments: tabla, mridangam, and ghatam. Among them, three are experts in tabla but not in mridangam or ghatam, another three are experts in mridangam but not in tabla or ghatam, and one is an expert in ghatam but not in tabla or mridangam. Further, two are experts in tabla and mridangam but not in ghatam, and one is an expert in tabla and ghatam but not in mridangam.</p><p>The following facts are known about these ten musicians.</p><ol><li>Both A and B are experts in mridangam, but only one of them is also an expert in tabla.</li><li>D is an expert in both tabla and ghatam.</li><li>Both F and G are experts in tabla, but only one of them is also an expert in mridangam.</li><li>Neither I nor J is an expert in tabla.</li><li>Neither H nor I is an expert in mridangam, but only one of them is an expert in ghatam.</li></ol>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many patients were treated with medicine type B?</p>",
+   "answer": "340",
+   "solutionHtml": "<p><strong>Fill the Venn regions (treatment group = 500).</strong> Exactly one = 75, so B only = 75 − 25 − 20 − 10 = <strong>20</strong>. Exactly three = 100 with ABC = 40 and ACD = 20, so ABD + BCD = 40. From A = 250: 25 + (35 + 20 + 30) + (40 + 20 + ABD) + 50 = 250, so <strong>ABD = 30</strong> and <strong>BCD = 10</strong>. From C = 210: 20 + 30 + 20 + BC + 40 + 20 + 10 + 50 = 210, so <strong>BC only = 20</strong>. Exactly two = 500 − 75 − 100 − 50 = 275, and AD + AB + AC + CD + BC = 35 + 20 + 30 + 20 + 20 = 125, so <strong>BD only = 150</strong>.</p><p>B = B only 20 + AB 20 + BC 20 + BD 150 + ABC 40 + ABD 30 + BCD 10 + all four 50 = <strong>340</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of patients who were treated with medicine types B, C and D, but not type A was:</p>",
+   "answer": "10",
+   "solutionHtml": "<p><strong>Fill the Venn regions (treatment group = 500).</strong> Exactly one = 75, so B only = 75 − 25 − 20 − 10 = <strong>20</strong>. Exactly three = 100 with ABC = 40 and ACD = 20, so ABD + BCD = 40. From A = 250: 25 + (35 + 20 + 30) + (40 + 20 + ABD) + 50 = 250, so <strong>ABD = 30</strong> and <strong>BCD = 10</strong>. From C = 210: 20 + 30 + 20 + BC + 40 + 20 + 10 + 50 = 210, so <strong>BC only = 20</strong>. Exactly two = 500 − 75 − 100 − 50 = 275, and AD + AB + AC + CD + BC = 35 + 20 + 30 + 20 + 20 = 125, so <strong>BD only = 150</strong>.</p><p>B, C and D but not A is the BCD-only region: 40 − ABD (30) = <strong>10</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many patients were treated with medicine types B and D only?</p>",
+   "answer": "150",
+   "solutionHtml": "<p><strong>Fill the Venn regions (treatment group = 500).</strong> Exactly one = 75, so B only = 75 − 25 − 20 − 10 = <strong>20</strong>. Exactly three = 100 with ABC = 40 and ACD = 20, so ABD + BCD = 40. From A = 250: 25 + (35 + 20 + 30) + (40 + 20 + ABD) + 50 = 250, so <strong>ABD = 30</strong> and <strong>BCD = 10</strong>. From C = 210: 20 + 30 + 20 + BC + 40 + 20 + 10 + 50 = 210, so <strong>BC only = 20</strong>. Exactly two = 500 − 75 − 100 − 50 = 275, and AD + AB + AC + CD + BC = 35 + 20 + 30 + 20 + 20 = 125, so <strong>BD only = 150</strong>.</p><p>B and D only = 275 − 125 = <strong>150</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "TITA",
+   "setKey": "S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>The number of patients who were treated with medicine type D was:</p>",
+   "answer": "325",
+   "solutionHtml": "<p><strong>Fill the Venn regions (treatment group = 500).</strong> Exactly one = 75, so B only = 75 − 25 − 20 − 10 = <strong>20</strong>. Exactly three = 100 with ABC = 40 and ACD = 20, so ABD + BCD = 40. From A = 250: 25 + (35 + 20 + 30) + (40 + 20 + ABD) + 50 = 250, so <strong>ABD = 30</strong> and <strong>BCD = 10</strong>. From C = 210: 20 + 30 + 20 + BC + 40 + 20 + 10 + 50 = 210, so <strong>BC only = 20</strong>. Exactly two = 500 − 75 − 100 − 50 = 275, and AD + AB + AC + CD + BC = 35 + 20 + 30 + 20 + 20 = 125, so <strong>BD only = 150</strong>.</p><p>D = D only 10 + AD 35 + CD 20 + BD 150 + ACD 20 + ABD 30 + BCD 10 + all four 50 = <strong>325</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>In which of the following years were there two or more contracts?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2015"
+    },
+    {
+     "id": "B",
+     "textHtml": "2017"
+    },
+    {
+     "id": "C",
+     "textHtml": "2018"
+    },
+    {
+     "id": "D",
+     "textHtml": "2016"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> 8 contracts: B 7-yr, D 4-yr, A 3-yr, C 3-yr, plus 4 singles. W's two contracts are singles in 2012. Y needs 2010 and 2019, which no single contract can span. Z must cover 10 years with two contracts, so it needs the 7-yr contract (B), plus a 3-yr (exactly covering) or the 4-yr. X must cover 2010–2015 with two contracts and no 7-yr.</p><p>If Z = 7 + 4, X = 3 + 3 (one X in 2012), so Z needs two contracts in 2012 to reach five; but a 7 + 4 cover of 2010–2019 cannot overlap in 2012. So <strong>Z = B(7) + a 3-yr</strong>, disjoint, and <strong>X = 4-yr (D) + a 3-yr</strong> overlapping exactly in 2012 (2012 = W 2 + Z 1 + X 2): X: 2010–2012 and D 2012–2015. Y then has two singles (2010, 2019).</p><p>C has no contract in 2011, so C is not X 2010–2012 → A–X 2010–2012, and C–Z must be 2017–2019 with B–Z 2010–2016. B and D each have only one contract in 2012 (B–Z, D–X), so their singles are Y, and W goes to A and C (2012). D has nothing in 2010 → D–Y 2019, B–Y 2010.</p><p><strong>Grid:</strong> A: X 2010–12, W 2012 · B: Z 2010–16, Y 2010 · C: W 2012, Z 2017–19 · D: X 2012–15, Y 2019. Contracts per year: 2010: 3, 2011: 2, 2012: 5, 2013–2015: 2 each, 2016–2018: 1 each, 2019: 2.</p><p>2015 has B–Z and D–X = <strong>2 contracts</strong>; 2016, 2017, 2018 have one each. Answer: <strong>2015</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following is true?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "D had a contract with Y in 2019"
+    },
+    {
+     "id": "B",
+     "textHtml": "B had a contract with Z in 2017"
+    },
+    {
+     "id": "C",
+     "textHtml": "B had a contract with Y in 2019"
+    },
+    {
+     "id": "D",
+     "textHtml": "D had a contract with X in 2011"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> 8 contracts: B 7-yr, D 4-yr, A 3-yr, C 3-yr, plus 4 singles. W's two contracts are singles in 2012. Y needs 2010 and 2019, which no single contract can span. Z must cover 10 years with two contracts, so it needs the 7-yr contract (B), plus a 3-yr (exactly covering) or the 4-yr. X must cover 2010–2015 with two contracts and no 7-yr.</p><p>If Z = 7 + 4, X = 3 + 3 (one X in 2012), so Z needs two contracts in 2012 to reach five; but a 7 + 4 cover of 2010–2019 cannot overlap in 2012. So <strong>Z = B(7) + a 3-yr</strong>, disjoint, and <strong>X = 4-yr (D) + a 3-yr</strong> overlapping exactly in 2012 (2012 = W 2 + Z 1 + X 2): X: 2010–2012 and D 2012–2015. Y then has two singles (2010, 2019).</p><p>C has no contract in 2011, so C is not X 2010–2012 → A–X 2010–2012, and C–Z must be 2017–2019 with B–Z 2010–2016. B and D each have only one contract in 2012 (B–Z, D–X), so their singles are Y, and W goes to A and C (2012). D has nothing in 2010 → D–Y 2019, B–Y 2010.</p><p><strong>Grid:</strong> A: X 2010–12, W 2012 · B: Z 2010–16, Y 2010 · C: W 2012, Z 2017–19 · D: X 2012–15, Y 2019. Contracts per year: 2010: 3, 2011: 2, 2012: 5, 2013–2015: 2 each, 2016–2018: 1 each, 2019: 2.</p><p>D's single contract with Y is in 2019, so <strong>A</strong> is true. B–Z ends in 2016, B–Y is in 2010, and D–X starts in 2012.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>In how many years during this period was there only one contract?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3"
+    },
+    {
+     "id": "B",
+     "textHtml": "2"
+    },
+    {
+     "id": "C",
+     "textHtml": "5"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> 8 contracts: B 7-yr, D 4-yr, A 3-yr, C 3-yr, plus 4 singles. W's two contracts are singles in 2012. Y needs 2010 and 2019, which no single contract can span. Z must cover 10 years with two contracts, so it needs the 7-yr contract (B), plus a 3-yr (exactly covering) or the 4-yr. X must cover 2010–2015 with two contracts and no 7-yr.</p><p>If Z = 7 + 4, X = 3 + 3 (one X in 2012), so Z needs two contracts in 2012 to reach five; but a 7 + 4 cover of 2010–2019 cannot overlap in 2012. So <strong>Z = B(7) + a 3-yr</strong>, disjoint, and <strong>X = 4-yr (D) + a 3-yr</strong> overlapping exactly in 2012 (2012 = W 2 + Z 1 + X 2): X: 2010–2012 and D 2012–2015. Y then has two singles (2010, 2019).</p><p>C has no contract in 2011, so C is not X 2010–2012 → A–X 2010–2012, and C–Z must be 2017–2019 with B–Z 2010–2016. B and D each have only one contract in 2012 (B–Z, D–X), so their singles are Y, and W goes to A and C (2012). D has nothing in 2010 → D–Y 2019, B–Y 2010.</p><p><strong>Grid:</strong> A: X 2010–12, W 2012 · B: Z 2010–16, Y 2010 · C: W 2012, Z 2017–19 · D: X 2012–15, Y 2019. Contracts per year: 2010: 3, 2011: 2, 2012: 5, 2013–2015: 2 each, 2016–2018: 1 each, 2019: 2.</p><p>Only one contract in 2016, 2017 and 2018: <strong>3 years</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What BEST can be concluded about the number of contracts in 2010?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "at least 3"
+    },
+    {
+     "id": "B",
+     "textHtml": "at least 4"
+    },
+    {
+     "id": "C",
+     "textHtml": "exactly 3"
+    },
+    {
+     "id": "D",
+     "textHtml": "exactly 4"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> 8 contracts: B 7-yr, D 4-yr, A 3-yr, C 3-yr, plus 4 singles. W's two contracts are singles in 2012. Y needs 2010 and 2019, which no single contract can span. Z must cover 10 years with two contracts, so it needs the 7-yr contract (B), plus a 3-yr (exactly covering) or the 4-yr. X must cover 2010–2015 with two contracts and no 7-yr.</p><p>If Z = 7 + 4, X = 3 + 3 (one X in 2012), so Z needs two contracts in 2012 to reach five; but a 7 + 4 cover of 2010–2019 cannot overlap in 2012. So <strong>Z = B(7) + a 3-yr</strong>, disjoint, and <strong>X = 4-yr (D) + a 3-yr</strong> overlapping exactly in 2012 (2012 = W 2 + Z 1 + X 2): X: 2010–2012 and D 2012–2015. Y then has two singles (2010, 2019).</p><p>C has no contract in 2011, so C is not X 2010–2012 → A–X 2010–2012, and C–Z must be 2017–2019 with B–Z 2010–2016. B and D each have only one contract in 2012 (B–Z, D–X), so their singles are Y, and W goes to A and C (2012). D has nothing in 2010 → D–Y 2019, B–Y 2010.</p><p><strong>Grid:</strong> A: X 2010–12, W 2012 · B: Z 2010–16, Y 2010 · C: W 2012, Z 2017–19 · D: X 2012–15, Y 2019. Contracts per year: 2010: 3, 2011: 2, 2012: 5, 2013–2015: 2 each, 2016–2018: 1 each, 2019: 2.</p><p>2010: A–X, B–Z, B–Y, so <strong>exactly 3</strong>. The arrangement is unique.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which institutes had multiple contracts during the same year?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "B only"
+    },
+    {
+     "id": "B",
+     "textHtml": "A and B only"
+    },
+    {
+     "id": "C",
+     "textHtml": "B and C only"
+    },
+    {
+     "id": "D",
+     "textHtml": "A only"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> 8 contracts: B 7-yr, D 4-yr, A 3-yr, C 3-yr, plus 4 singles. W's two contracts are singles in 2012. Y needs 2010 and 2019, which no single contract can span. Z must cover 10 years with two contracts, so it needs the 7-yr contract (B), plus a 3-yr (exactly covering) or the 4-yr. X must cover 2010–2015 with two contracts and no 7-yr.</p><p>If Z = 7 + 4, X = 3 + 3 (one X in 2012), so Z needs two contracts in 2012 to reach five; but a 7 + 4 cover of 2010–2019 cannot overlap in 2012. So <strong>Z = B(7) + a 3-yr</strong>, disjoint, and <strong>X = 4-yr (D) + a 3-yr</strong> overlapping exactly in 2012 (2012 = W 2 + Z 1 + X 2): X: 2010–2012 and D 2012–2015. Y then has two singles (2010, 2019).</p><p>C has no contract in 2011, so C is not X 2010–2012 → A–X 2010–2012, and C–Z must be 2017–2019 with B–Z 2010–2016. B and D each have only one contract in 2012 (B–Z, D–X), so their singles are Y, and W goes to A and C (2012). D has nothing in 2010 → D–Y 2019, B–Y 2010.</p><p><strong>Grid:</strong> A: X 2010–12, W 2012 · B: Z 2010–16, Y 2010 · C: W 2012, Z 2017–19 · D: X 2012–15, Y 2019. Contracts per year: 2010: 3, 2011: 2, 2012: 5, 2013–2015: 2 each, 2016–2018: 1 each, 2019: 2.</p><p>A has X and W in 2012; B has Z and Y in 2010. C's and D's two contracts never overlap. Answer: <strong>A and B only</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "S2",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which institutes and vendors had more than one contracts in any year?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "A, B, W, and X"
+    },
+    {
+     "id": "B",
+     "textHtml": "A, D, W, and Z"
+    },
+    {
+     "id": "C",
+     "textHtml": "B, D, W, and X"
+    },
+    {
+     "id": "D",
+     "textHtml": "B, W, X, and Z"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> 8 contracts: B 7-yr, D 4-yr, A 3-yr, C 3-yr, plus 4 singles. W's two contracts are singles in 2012. Y needs 2010 and 2019, which no single contract can span. Z must cover 10 years with two contracts, so it needs the 7-yr contract (B), plus a 3-yr (exactly covering) or the 4-yr. X must cover 2010–2015 with two contracts and no 7-yr.</p><p>If Z = 7 + 4, X = 3 + 3 (one X in 2012), so Z needs two contracts in 2012 to reach five; but a 7 + 4 cover of 2010–2019 cannot overlap in 2012. So <strong>Z = B(7) + a 3-yr</strong>, disjoint, and <strong>X = 4-yr (D) + a 3-yr</strong> overlapping exactly in 2012 (2012 = W 2 + Z 1 + X 2): X: 2010–2012 and D 2012–2015. Y then has two singles (2010, 2019).</p><p>C has no contract in 2011, so C is not X 2010–2012 → A–X 2010–2012, and C–Z must be 2017–2019 with B–Z 2010–2016. B and D each have only one contract in 2012 (B–Z, D–X), so their singles are Y, and W goes to A and C (2012). D has nothing in 2010 → D–Y 2019, B–Y 2010.</p><p><strong>Grid:</strong> A: X 2010–12, W 2012 · B: Z 2010–16, Y 2010 · C: W 2012, Z 2017–19 · D: X 2012–15, Y 2019. Contracts per year: 2010: 3, 2011: 2, 2012: 5, 2013–2015: 2 each, 2016–2018: 1 each, 2019: 2.</p><p>Institutes: A (2012), B (2010). Vendors: W (A and C in 2012), X (A and D in 2012). Z's two contracts (2010–16, 2017–19) and Y's (2010, 2019) never overlap. Answer: <strong>A, B, W and X</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Deductions from table",
+   "difficulty": "medium",
+   "stemHtml": "<p>Who among the following did not appear for the Mathematics examination?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Carl"
+    },
+    {
+     "id": "B",
+     "textHtml": "Alva"
+    },
+    {
+     "id": "C",
+     "textHtml": "Foni"
+    },
+    {
+     "id": "D",
+     "textHtml": "Esha"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Which marks can be averages?</strong> One missed exam: its mark = mean of the best 3 of the other 4. Two missed: both marks are equal and = mean of the best 2 of the other 3. Checking each row:</p><ul><li>Alva: H only (80, 75, 70 → 75), Sc only, or H & Sc (both 75; best two of 80, 70, 60 = 75).</li><li>Bithi: Sc only, SS only, or Sc & SS (85; best two of 90, 80, 55).</li><li>Carl: M only, SS only, or M & SS (90; best two of 75, 80, 100).</li><li>Deep: H only, Sc only, or H & Sc (90; best two of 70, 100, 80).</li><li>Esha: only E works (85, 95, 60 → 80).</li><li>Foni: E only, SS only, or E & SS (83; best two of 72, 78, 88).</li></ul><p>Misses: E, H, Sc, SS two each and M one, total 9 over 6 students, so 3 students missed two and 3 missed one. Only Carl can miss M, and that student missed nothing else, so <strong>Carl: M only</strong>. E's two missers can only be Esha and Foni. Hindi's two missers can only be <strong>Alva and Deep</strong>: one H only, the other H & Sc. SS: Carl is out, so <strong>Bithi and Foni</strong> (Foni: E & SS). Sc needs a second misser other than the H-only student, so <strong>Bithi: Sc & SS</strong>.</p><p>Result: Carl M; Esha E; Foni E, SS; Bithi Sc, SS; one of Alva/Deep H only, the other H, Sc.</p><p>Only Carl's Mathematics mark (90) can be an average. Answer: <strong>Carl</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Deductions from table",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which students did not appear for the English examination?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Carl and Deep"
+    },
+    {
+     "id": "B",
+     "textHtml": "Esha and Foni"
+    },
+    {
+     "id": "C",
+     "textHtml": "Alva and Bithi"
+    },
+    {
+     "id": "D",
+     "textHtml": "Cannot be determined"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Which marks can be averages?</strong> One missed exam: its mark = mean of the best 3 of the other 4. Two missed: both marks are equal and = mean of the best 2 of the other 3. Checking each row:</p><ul><li>Alva: H only (80, 75, 70 → 75), Sc only, or H & Sc (both 75; best two of 80, 70, 60 = 75).</li><li>Bithi: Sc only, SS only, or Sc & SS (85; best two of 90, 80, 55).</li><li>Carl: M only, SS only, or M & SS (90; best two of 75, 80, 100).</li><li>Deep: H only, Sc only, or H & Sc (90; best two of 70, 100, 80).</li><li>Esha: only E works (85, 95, 60 → 80).</li><li>Foni: E only, SS only, or E & SS (83; best two of 72, 78, 88).</li></ul><p>Misses: E, H, Sc, SS two each and M one, total 9 over 6 students, so 3 students missed two and 3 missed one. Only Carl can miss M, and that student missed nothing else, so <strong>Carl: M only</strong>. E's two missers can only be Esha and Foni. Hindi's two missers can only be <strong>Alva and Deep</strong>: one H only, the other H & Sc. SS: Carl is out, so <strong>Bithi and Foni</strong> (Foni: E & SS). Sc needs a second misser other than the H-only student, so <strong>Bithi: Sc & SS</strong>.</p><p>Result: Carl M; Esha E; Foni E, SS; Bithi Sc, SS; one of Alva/Deep H only, the other H, Sc.</p><p>English was missed by <strong>Esha and Foni</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Deductions from table",
+   "difficulty": "medium",
+   "stemHtml": "<p>What BEST can be concluded about the students who did not appear for the Hindi examination?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Alva and Esha"
+    },
+    {
+     "id": "B",
+     "textHtml": "Alva and Deep"
+    },
+    {
+     "id": "C",
+     "textHtml": "Deep and Esha"
+    },
+    {
+     "id": "D",
+     "textHtml": "Two among Alva, Deep and Esha"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Which marks can be averages?</strong> One missed exam: its mark = mean of the best 3 of the other 4. Two missed: both marks are equal and = mean of the best 2 of the other 3. Checking each row:</p><ul><li>Alva: H only (80, 75, 70 → 75), Sc only, or H & Sc (both 75; best two of 80, 70, 60 = 75).</li><li>Bithi: Sc only, SS only, or Sc & SS (85; best two of 90, 80, 55).</li><li>Carl: M only, SS only, or M & SS (90; best two of 75, 80, 100).</li><li>Deep: H only, Sc only, or H & Sc (90; best two of 70, 100, 80).</li><li>Esha: only E works (85, 95, 60 → 80).</li><li>Foni: E only, SS only, or E & SS (83; best two of 72, 78, 88).</li></ul><p>Misses: E, H, Sc, SS two each and M one, total 9 over 6 students, so 3 students missed two and 3 missed one. Only Carl can miss M, and that student missed nothing else, so <strong>Carl: M only</strong>. E's two missers can only be Esha and Foni. Hindi's two missers can only be <strong>Alva and Deep</strong>: one H only, the other H & Sc. SS: Carl is out, so <strong>Bithi and Foni</strong> (Foni: E & SS). Sc needs a second misser other than the H-only student, so <strong>Bithi: Sc & SS</strong>.</p><p>Result: Carl M; Esha E; Foni E, SS; Bithi Sc, SS; one of Alva/Deep H only, the other H, Sc.</p><p>Hindi was missed by <strong>Alva and Deep</strong>. Esha's Hindi mark 85 is not the mean of her best three other marks (80, 95, 60 → 235/3).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Deductions from table",
+   "difficulty": "medium",
+   "stemHtml": "<p>What BEST can be concluded about the students who missed the Science examination?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Alva and Bithi"
+    },
+    {
+     "id": "B",
+     "textHtml": "Deep and Bithi"
+    },
+    {
+     "id": "C",
+     "textHtml": "Alva and Deep"
+    },
+    {
+     "id": "D",
+     "textHtml": "Bithi and one out of Alva and Deep"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Which marks can be averages?</strong> One missed exam: its mark = mean of the best 3 of the other 4. Two missed: both marks are equal and = mean of the best 2 of the other 3. Checking each row:</p><ul><li>Alva: H only (80, 75, 70 → 75), Sc only, or H & Sc (both 75; best two of 80, 70, 60 = 75).</li><li>Bithi: Sc only, SS only, or Sc & SS (85; best two of 90, 80, 55).</li><li>Carl: M only, SS only, or M & SS (90; best two of 75, 80, 100).</li><li>Deep: H only, Sc only, or H & Sc (90; best two of 70, 100, 80).</li><li>Esha: only E works (85, 95, 60 → 80).</li><li>Foni: E only, SS only, or E & SS (83; best two of 72, 78, 88).</li></ul><p>Misses: E, H, Sc, SS two each and M one, total 9 over 6 students, so 3 students missed two and 3 missed one. Only Carl can miss M, and that student missed nothing else, so <strong>Carl: M only</strong>. E's two missers can only be Esha and Foni. Hindi's two missers can only be <strong>Alva and Deep</strong>: one H only, the other H & Sc. SS: Carl is out, so <strong>Bithi and Foni</strong> (Foni: E & SS). Sc needs a second misser other than the H-only student, so <strong>Bithi: Sc & SS</strong>.</p><p>Result: Carl M; Esha E; Foni E, SS; Bithi Sc, SS; one of Alva/Deep H only, the other H, Sc.</p><p>Science: Bithi for certain, plus whichever of Alva and Deep missed both Hindi and Science. Both cases fit, so <strong>Bithi and one of Alva and Deep</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Deductions from table",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many out of these six students missed exactly one examination?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Which marks can be averages?</strong> One missed exam: its mark = mean of the best 3 of the other 4. Two missed: both marks are equal and = mean of the best 2 of the other 3. Checking each row:</p><ul><li>Alva: H only (80, 75, 70 → 75), Sc only, or H & Sc (both 75; best two of 80, 70, 60 = 75).</li><li>Bithi: Sc only, SS only, or Sc & SS (85; best two of 90, 80, 55).</li><li>Carl: M only, SS only, or M & SS (90; best two of 75, 80, 100).</li><li>Deep: H only, Sc only, or H & Sc (90; best two of 70, 100, 80).</li><li>Esha: only E works (85, 95, 60 → 80).</li><li>Foni: E only, SS only, or E & SS (83; best two of 72, 78, 88).</li></ul><p>Misses: E, H, Sc, SS two each and M one, total 9 over 6 students, so 3 students missed two and 3 missed one. Only Carl can miss M, and that student missed nothing else, so <strong>Carl: M only</strong>. E's two missers can only be Esha and Foni. Hindi's two missers can only be <strong>Alva and Deep</strong>: one H only, the other H & Sc. SS: Carl is out, so <strong>Bithi and Foni</strong> (Foni: E & SS). Sc needs a second misser other than the H-only student, so <strong>Bithi: Sc & SS</strong>.</p><p>Result: Carl M; Esha E; Foni E, SS; Bithi Sc, SS; one of Alva/Deep H only, the other H, Sc.</p><p>9 missed exams among 6 students with 1 or 2 each gives 3 two-missers and <strong>3</strong> one-missers (Carl, Esha and one of Alva/Deep).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "TITA",
+   "setKey": "S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Deductions from table",
+   "difficulty": "medium",
+   "stemHtml": "<p>For how many students can we be definite about which examinations they missed?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Which marks can be averages?</strong> One missed exam: its mark = mean of the best 3 of the other 4. Two missed: both marks are equal and = mean of the best 2 of the other 3. Checking each row:</p><ul><li>Alva: H only (80, 75, 70 → 75), Sc only, or H & Sc (both 75; best two of 80, 70, 60 = 75).</li><li>Bithi: Sc only, SS only, or Sc & SS (85; best two of 90, 80, 55).</li><li>Carl: M only, SS only, or M & SS (90; best two of 75, 80, 100).</li><li>Deep: H only, Sc only, or H & Sc (90; best two of 70, 100, 80).</li><li>Esha: only E works (85, 95, 60 → 80).</li><li>Foni: E only, SS only, or E & SS (83; best two of 72, 78, 88).</li></ul><p>Misses: E, H, Sc, SS two each and M one, total 9 over 6 students, so 3 students missed two and 3 missed one. Only Carl can miss M, and that student missed nothing else, so <strong>Carl: M only</strong>. E's two missers can only be Esha and Foni. Hindi's two missers can only be <strong>Alva and Deep</strong>: one H only, the other H & Sc. SS: Carl is out, so <strong>Bithi and Foni</strong> (Foni: E & SS). Sc needs a second misser other than the H-only student, so <strong>Bithi: Sc & SS</strong>.</p><p>Result: Carl M; Esha E; Foni E, SS; Bithi Sc, SS; one of Alva/Deep H only, the other H, Sc.</p><p>Fully determined: Carl, Esha, Foni and Bithi = <strong>4</strong>. Alva and Deep could swap.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Maximise / minimise",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Damodaran does not get a bonus, what is the maximum possible value of his final rating?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3.6"
+    },
+    {
+     "id": "B",
+     "textHtml": "3.8"
+    },
+    {
+     "id": "C",
+     "textHtml": "3.2"
+    },
+    {
+     "id": "D",
+     "textHtml": "3.4"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Rules to use.</strong> Ratings 1–5; no value appears three times in a row of five; bonus needs no 1 and at least one 5. Arun and Barun have exactly one 5, Chandan exactly two.</p><p>Damodaran has P2 = 3 and no bonus, so he either has no 5 or has a 1.</p><p>No 5: best is 4, 4, 3 with the given 3, and the last value cannot be 3 (third 3) or 4 (third 4), so 2: total 3 + 4 + 4 + 3 + 2 = 16 (3.2).</p><p>With a 1: 3 + 5 + 5 + 4 + 1 = 18, using each value at most twice. Maximum final rating = 18/5 = <strong>3.6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Maximise / minimise",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Eman gets a bonus, what is the minimum possible value of his final rating?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3.4"
+    },
+    {
+     "id": "B",
+     "textHtml": "2.8"
+    },
+    {
+     "id": "C",
+     "textHtml": "3.0"
+    },
+    {
+     "id": "D",
+     "textHtml": "3.2"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Rules to use.</strong> Ratings 1–5; no value appears three times in a row of five; bonus needs no 1 and at least one 5. Arun and Barun have exactly one 5, Chandan exactly two.</p><p>Eman has P5 = 2 and needs a 5 with no 1. Smallest other ratings: one more 2 (no third), then 3, 3: 2 + 2 + 3 + 3 + 5 = 15. Minimum final rating = <strong>3.0</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Maximise / minimise",
+   "difficulty": "medium",
+   "stemHtml": "<p>If all five drivers get bonus, what is the minimum possible value of the monthly payment (in rupees) that a driver gets?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1700"
+    },
+    {
+     "id": "B",
+     "textHtml": "1740"
+    },
+    {
+     "id": "C",
+     "textHtml": "1750"
+    },
+    {
+     "id": "D",
+     "textHtml": "1600"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Rules to use.</strong> Ratings 1–5; no value appears three times in a row of five; bonus needs no 1 and at least one 5. Arun and Barun have exactly one 5, Chandan exactly two.</p><p>Minimum payment for each driver (no 1s, required 5s, no value three times):</p><ul><li>Arun: 4, 5, 2, 2, 3 = 16 → 3.2 → 1000 + 800 = 1800</li><li>Barun: 3, 5, 2, 2, 3 = 15 → 3.0 → 1200 + 600 = 1800</li><li>Chandan: 2, 5, 5, 2, 3 = 17 → 3.4 → 1400 + 340 = 1740</li><li>Damodaran: 3, 5, 2, 2, 3 = 15 → 3.0 → 1300 + 450 = 1750</li><li>Eman: 2, 5, 2, 3, 3 = 15 → 3.0 → 1100 + 600 = 1700</li></ul><p>The lowest a driver can be paid is Eman's <strong>Rs 1700</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Maximise / minimise",
+   "difficulty": "hard",
+   "stemHtml": "<p>If all five drivers get bonus, what is the maximum possible value of the monthly payment (in rupees) that a driver gets?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1960"
+    },
+    {
+     "id": "B",
+     "textHtml": "1950"
+    },
+    {
+     "id": "C",
+     "textHtml": "2050"
+    },
+    {
+     "id": "D",
+     "textHtml": "1900"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Rules to use.</strong> Ratings 1–5; no value appears three times in a row of five; bonus needs no 1 and at least one 5. Arun and Barun have exactly one 5, Chandan exactly two.</p><p>Maximum payment for each driver:</p><ul><li>Arun (one 5, P4 = 4): 5, 4, 4, 3, 3 = 19 → 3.8 → 1000 + 950 = 1950</li><li>Barun (one 5, P1 = 3): 5, 4, 4, 3, 3 = 19 → 3.8 → 1200 + 760 = <strong>1960</strong></li><li>Chandan: 5, 5, 4, 4, 2 = 20 → 4.0 → 1800</li><li>Damodaran: 5, 5, 4, 4, 3 = 21 → 4.2 → 1300 + 630 = 1930</li><li>Eman: 5, 5, 4, 4, 2 = 20 → 4.0 → 1900</li></ul><p>The highest possible payment is Barun's <strong>Rs 1960</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-21",
+   "section": "DILR",
+   "number": 21,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn / grouping",
+   "difficulty": "medium",
+   "stemHtml": "<p>Who among the following is DEFINITELY an expert in tabla but not in either mridangam or ghatam?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "C"
+    },
+    {
+     "id": "B",
+     "textHtml": "F"
+    },
+    {
+     "id": "C",
+     "textHtml": "H"
+    },
+    {
+     "id": "D",
+     "textHtml": "A"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Categories:</strong> T only 3, M only 3, G only 1, TM 2, TG 1 (no one in M and G).</p><p>D is the TG expert. One of A/B is TM and the other M only; one of F/G is TM and the other T only, so both TM places are taken. H and I are not in M; I is not in T either, so I is in G only. Then H is not in G, so <strong>H is T only</strong>. J is not in T, and G only is taken by I, so <strong>J is M only</strong>.</p><p>Remaining places: one T only and one M only, for C and E in some order.</p><p>Only <strong>H</strong> is definitely T only. C could be M only, F could be TM, and A is in M.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-22",
+   "section": "DILR",
+   "number": 22,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn / grouping",
+   "difficulty": "medium",
+   "stemHtml": "<p>Who among the following is DEFINITELY an expert in mridangam but not in either tabla or ghatam?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "B"
+    },
+    {
+     "id": "B",
+     "textHtml": "E"
+    },
+    {
+     "id": "C",
+     "textHtml": "J"
+    },
+    {
+     "id": "D",
+     "textHtml": "G"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Categories:</strong> T only 3, M only 3, G only 1, TM 2, TG 1 (no one in M and G).</p><p>D is the TG expert. One of A/B is TM and the other M only; one of F/G is TM and the other T only, so both TM places are taken. H and I are not in M; I is not in T either, so I is in G only. Then H is not in G, so <strong>H is T only</strong>. J is not in T, and G only is taken by I, so <strong>J is M only</strong>.</p><p>Remaining places: one T only and one M only, for C and E in some order.</p><p><strong>J</strong> is definitely M only. B could be TM, E could be T only, and G is in T.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-23",
+   "section": "DILR",
+   "number": 23,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn / grouping",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which of the following pairs CANNOT have any musician who is an expert in both tabla and mridangam but not in ghatam?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "A and B"
+    },
+    {
+     "id": "B",
+     "textHtml": "F and G"
+    },
+    {
+     "id": "C",
+     "textHtml": "C and E"
+    },
+    {
+     "id": "D",
+     "textHtml": "C and F"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Categories:</strong> T only 3, M only 3, G only 1, TM 2, TG 1 (no one in M and G).</p><p>D is the TG expert. One of A/B is TM and the other M only; one of F/G is TM and the other T only, so both TM places are taken. H and I are not in M; I is not in T either, so I is in G only. Then H is not in G, so <strong>H is T only</strong>. J is not in T, and G only is taken by I, so <strong>J is M only</strong>.</p><p>Remaining places: one T only and one M only, for C and E in some order.</p><p>The two TM experts are one of A/B and one of F/G. <strong>C and E</strong> fill the T-only and M-only places, so neither can be TM.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-24",
+   "section": "DILR",
+   "number": 24,
+   "type": "MCQ",
+   "setKey": "S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Venn / grouping",
+   "difficulty": "medium",
+   "stemHtml": "<p>If C is an expert in mridangam and F is not, then which are the three musicians who are experts in tabla but not in either mridangam or ghatam?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "E, F and H"
+    },
+    {
+     "id": "B",
+     "textHtml": "C, E and G"
+    },
+    {
+     "id": "C",
+     "textHtml": "E, G and H"
+    },
+    {
+     "id": "D",
+     "textHtml": "C, G and H"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Categories:</strong> T only 3, M only 3, G only 1, TM 2, TG 1 (no one in M and G).</p><p>D is the TG expert. One of A/B is TM and the other M only; one of F/G is TM and the other T only, so both TM places are taken. H and I are not in M; I is not in T either, so I is in G only. Then H is not in G, so <strong>H is T only</strong>. J is not in T, and G only is taken by I, so <strong>J is M only</strong>.</p><p>Remaining places: one T only and one M only, for C and E in some order.</p><p>C in M makes C M only, so E is T only. F not in M makes F T only (and G TM). T only = <strong>E, F and H</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2020 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

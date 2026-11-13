@@ -30,6 +30,42 @@ Checks: schema; `questionCount` may be `null` (not announced yet, e.g. 2026); ev
 has a `source.url`, MCQ and TITA marking rules, unique year, and section durations that add
 up to `totalDurationMinutes`.
 
+### Other MBA exams — `data/mba/exams-config/<examId>.json`
+
+```bash
+.venv/bin/python -m scripts.mba.seed_exam --exam xat --dry-run
+.venv/bin/python -m scripts.mba.seed_exam --all --dry-run     # CAT + xat, snap, nmat, cmat, mat, gmat, mah-mba-cet
+.venv/bin/python -m scripts.mba.seed_exam --exam xat          # writes mbaExams/xat
+```
+
+Same `Exam` shape (docs/mba-api.md → Shared types) plus the multi-exam fields; every value comes from the exam
+body's own site or bulletin (sources: `data/mba/SOURCES.md` §6.5; unknown → `null`, never estimated):
+
+```json
+{ "id": "xat", "name": "Xavier Aptitude Test (XAT)", "conductingBody": "...", "officialUrl": "https://xatonline.in/",
+  "adaptive": false,
+  "versions": [ { "year": 2027,
+    "sections": [ { "id": "VALR", "name": "Verbal Ability and Logical Reasoning", "questionCount": 26, "durationMinutes": null },
+                  { "id": "GK", "name": "General Knowledge", "questionCount": 20, "durationMinutes": 10, "countsInTotal": false } ],
+    "timerBlocks": [ { "id": "PART1", "name": "Part 1", "sectionIds": ["VALR", "DM", "QADI"], "durationMinutes": 170 },
+                     { "id": "GK", "name": "Part 2: General Knowledge", "sectionIds": ["GK"], "durationMinutes": 10 } ],
+    "marking": [ { "type": "MCQ", "correct": 1, "incorrect": -0.25, "unanswered": 0, "sections": ["VALR", "DM", "QADI"] },
+                 { "type": "MCQ", "correct": 1, "incorrect": 0, "unanswered": 0, "sections": ["GK"] } ],
+    "unansweredPenalty": { "sections": ["VALR", "DM", "QADI"], "freeCount": 12, "marks": -0.1 },
+    "totalDurationMinutes": 180, "sectionOrderLocked": true,
+    "scoring": "official", "scoringNote": "plain-language summary shown on the start screen",
+    "source": { "kind": "official", "title": "...", "url": "https://...", "year": 2027, "retrievedAt": "2026-11-11" } } ] }
+```
+
+- `timerBlocks`: sections that share one timer (free movement between them). Omit it when every section has its own
+  `durationMinutes` (CAT, NMAT, GMAT). A one-section block has that section's id. Blocks must cover every section once
+  and add up to `totalDurationMinutes`.
+- `sectionOrderLocked: false` lets the student pick the block order before starting (NMAT, GMAT).
+- `marking[].sections` limits a rule to some sections; `countsInTotal: false` scores a section separately.
+- `scoring: "practice"` marks a scheme that is not the exam's own score (NMAT/GMAT are adaptive and scaled; MAT does
+  not state marks per correct answer) and `scoringNote` says so in plain words; `adaptive: true` for adaptive exams.
+- Section ids: `^[A-Z][A-Z0-9]{0,11}$`, never VARC/DILR/QA (reserved for CAT, whose CAT-only features key on them).
+
 ## Papers / mocks — `import_paper.py`
 
 ```bash
@@ -52,11 +88,17 @@ The argument is a content directory (preferred) or a single JSON file.
 
 - `id`: lowercase letters, digits, `-` (3–81 chars). For an official paper with `year` and
   `slot` it may be omitted and becomes `cat-{year}-slot{slot}`.
-- `examVersionYear`: which `mbaExams/cat` version's pattern, timing and marking apply. It must
-  exist in `data/mba/cat_exam.json`. Defaults to `year` when omitted.
-- `year`, `slot`: integers or `null` (ProCounsel original mocks have none). `examId` defaults to `"cat"`.
+- `examVersionYear`: which `mbaExams/<examId>` version's pattern, timing and marking apply. It must
+  exist in the exam's config file. Defaults to `year` when omitted.
+- `year`, `slot`: integers or `null` (ProCounsel original mocks have none).
+- `examId`: defaults to `"cat"` (config `data/mba/cat_exam.json`); any other exam needs
+  `data/mba/exams-config/<examId>.json`, e.g. `{ "id": "pc-xat-mock-01", "examId": "xat", "examVersionYear": 2027, … }`.
 
-Section fragments `varc.json`, `dilr.json`, `qa.json` (at least one; no other `.json` files allowed):
+Section fragments, one per section, named `<sectionId lowercased>.json` (at least one; no other `.json` files
+allowed): `varc.json`, `dilr.json`, `qa.json` for CAT; for other exams the ids in their config, e.g. XAT
+`valr.json`, `dm.json`, `qadi.json`, `gk.json`; SNAP `ge.json`, `alr.json`, `qdids.json`, `emv.json`; NMAT `ls.json`,
+`qs.json`, `lrs.json`; CMAT `qtdi.json`, `lrc.json`, `lc.json`, `ga.json`, `ie.json`. Every question type must have a
+marking rule for its section in that exam version (the other exams have MCQ rules only).
 
 ```json
 { "sets": [ { "key": "rc1", "kind": "passage", "title": "Optional", "contentHtml": "<p>Passage…</p>" } ],
@@ -85,6 +127,12 @@ Section fragments `varc.json`, `dilr.json`, `qa.json` (at least one; no other `.
   Either way the stored `number` is the position within the section.
 - `difficulty`: `easy` | `medium` | `hard` (optional). `topic`, `subtopic`, `solutionHtml`
   optional strings (a missing solution is a warning — the AI tutor then has only the key).
+- `alternativeApproaches` (optional): up to 5 non-empty HTML strings, other ways to solve the
+  question (e.g. "plug in the options", a shortcut). Shown after the main solution.
+- `videoUrl` (optional): a video solution link; must start with `https://` (a YouTube link
+  is typical). Like the solution, both are only shown after the student has answered.
+- Images: put `<img src="https://…">` in `stemHtml` / `solutionHtml` / set `contentHtml`
+  (or a set's `images`); no extra field is needed.
 - `source` on every question (defaults its `title` to the paper source title):
   `kind` is `official` | `licensed` | `faculty` | `original`; `url` is **required** for
   `official` and `licensed`, optional otherwise.
@@ -95,12 +143,18 @@ Section fragments `varc.json`, `dilr.json`, `qa.json` (at least one; no other `.
 One JSON file `{ "paper": { …paper.json… }, "sets": [ … ], "questions": [ … ] }` with the same
 fields; here every set needs a `section` too.
 
+The Admin panel (MBA Content → *Import JSON*) takes this single-file form and imports it as a NEW
+draft paper through the same `paper_format.build_paper_docs` (docs/mba-api.md → "Admin authoring");
+*Export JSON* on a paper gives back this form. Papers can also be authored question by question in
+the Admin panel — the per-item checks (`check_paper`, `check_set`, `check_question`) are the ones the
+importer uses.
+
 ### What gets written
 
 | Collection | Doc id | Notes |
 |---|---|---|
 | `mbaQuestionSets` | `{paperId}-{setKey lowercased}` | |
-| `mbaQuestions` | `{paperId}-{key lowercased}` | stores `correctAnswer` (from `answer`) and `solutionHtml`; the API strips them |
+| `mbaQuestions` | `{paperId}-{key lowercased}` | stores `correctAnswer` (from `answer`), `solutionHtml`, `alternativeApproaches`, `videoUrl`; the API strips them until the question is answered |
 | `mbaPapers` | `{paperId}` | `title`, `examVersionYear`, `year`, `slot`, `source`, `sections: [{id, questionIds}]`, `questionCount` (written last) |
 
 - Every document gets `status: "draft"`, or `"published"` with `--publish`. Re-running
@@ -109,6 +163,8 @@ fields; here every set needs a `section` too.
   `status: "archived"` (never deleted).
 - Students see only `published` questions; a paper (and its full + sectional tests) is
   offered only when the paper and **all** of its questions are `published`.
+- ProCounsel originals for other exams: `data/mba/content/pc-xat-mock-01`, `pc-snap-mock-01`, `pc-nmat-mock-01`,
+  `pc-cmat-mock-01` (full length, `source.kind: "original"`, AI-drafted and answer-checked, pending faculty review).
 - Warnings (not errors): section sizes that differ from the exam version's `questionCount`,
   unused sets, missing solutions.
 - Faculty review happens in the Admin panel ("MBA Content", `/api/v1/mba/admin`, see

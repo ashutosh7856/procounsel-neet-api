@@ -4,7 +4,11 @@
 * TITA: trimmed strings compared exactly; when both sides are plain decimal numbers
   (ASCII digits, optional sign and point — no exponents, separators or other digit
   scripts) they are compared numerically ("12" == "12.0" == "012", "1e1" != "10").
-* Marks per question type come from the exam version's ``marking`` rules.
+* Marks per question type come from the exam version's ``marking`` rules; a rule may be
+  limited to some ``sections`` (XAT: Part 1 has negative marking, GK has none).
+* ``unansweredPenalty`` (XAT): every unanswered question of the listed sections beyond the
+  first ``freeCount`` (in paper order) scores ``marks`` instead of the rule's ``unanswered``.
+* A section with ``countsInTotal: false`` (XAT GK) is scored but left out of score/maxScore.
 """
 
 from __future__ import annotations
@@ -68,19 +72,22 @@ def pick_version(exam: dict[str, Any] | None, year: int | None) -> dict[str, Any
     return versions[-1]
 
 
-def marking_rule(version: dict[str, Any] | None, qtype: str) -> dict[str, float]:
-    for rule in (version or {}).get("marking") or []:
-        if isinstance(rule, dict) and rule.get("type") == qtype:
-            return {
-                "correct": float(rule.get("correct") or 0),
-                "incorrect": float(rule.get("incorrect") or 0),
-                "unanswered": float(rule.get("unanswered") or 0),
-            }
+def marking_rule(version: dict[str, Any] | None, qtype: str, section: str | None = None) -> dict[str, float]:
+    rules = [r for r in (version or {}).get("marking") or [] if isinstance(r, dict) and r.get("type") == qtype]
+    # A rule limited to the question's section wins; otherwise the first rule for every section.
+    limited = [r for r in rules if section is not None and section in (r.get("sections") or [])]
+    general = [r for r in rules if not r.get("sections")]
+    for rule in limited[:1] or general[:1] or (rules[:1] if section is None else []):
+        return {
+            "correct": float(rule.get("correct") or 0),
+            "incorrect": float(rule.get("incorrect") or 0),
+            "unanswered": float(rule.get("unanswered") or 0),
+        }
     raise ValueError(f"Exam version has no marking rule for {qtype} questions.")
 
 
 def question_marks(question: dict[str, Any], answer: Any, version: dict[str, Any] | None) -> tuple[float, bool | None]:
-    rule = marking_rule(version, str(question.get("type") or "MCQ"))
+    rule = marking_rule(version, str(question.get("type") or "MCQ"), question.get("section"))
     correct = is_correct(question, answer)
     if correct is None:
         return rule["unanswered"], None
@@ -105,14 +112,25 @@ def score_attempt(
     total = total_max = 0.0
     section_rows: list[dict[str, Any]] = []
     per_question: dict[str, dict[str, Any]] = {}
+    penalty = (version or {}).get("unansweredPenalty") if isinstance((version or {}).get("unansweredPenalty"), dict) else None
+    penalised = set(penalty.get("sections") or []) if penalty else set()
+    free_left = int(penalty.get("freeCount") or 0) if penalty else 0
+    excluded = {s.get("id") for s in (version or {}).get("sections") or [] if isinstance(s, dict) and s.get("countsInTotal") is False}
     for section_id, questions in sections:
         score = max_score = 0.0
+        section_penalty = 0.0
         correct_n = incorrect_n = unanswered_n = time_ms = 0
         for question in questions:
             qid = str(question.get("id"))
             response = responses.get(qid) or {}
             marks, correct = question_marks(question, response.get("answer"), version)
-            max_score += marking_rule(version, str(question.get("type") or "MCQ"))["correct"]
+            if correct is None and section_id in penalised:
+                if free_left > 0:
+                    free_left -= 1
+                else:
+                    section_penalty += float(penalty["marks"]) - marks  # type: ignore[index]
+                    marks = float(penalty["marks"])  # type: ignore[index]
+            max_score += marking_rule(version, str(question.get("type") or "MCQ"), question.get("section"))["correct"]
             score += marks
             time_ms += int(response.get("timeSpentMs") or 0)
             if correct is None:
@@ -134,6 +152,11 @@ def score_attempt(
             "accuracy": round(correct_n / attempted, 4) if attempted else None,
             "timeSpentMs": time_ms,
         })
+        if section_penalty:
+            section_rows[-1]["penalty"] = _clean(section_penalty)
+        if section_id in excluded:
+            section_rows[-1]["countsInTotal"] = False
+            continue
         total += score
         total_max += max_score
     return {"score": _clean(total), "maxScore": _clean(total_max), "sections": section_rows, "perQuestion": per_question}

@@ -1,0 +1,979 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let x, y, z be three positive real numbers in a geometric progression such that x &lt; y &lt; z. If 5x, 16y, and 12z are in an arithmetic progression then the common ratio of the geometric progression is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1/6"
+        },
+        {
+          "id": "B",
+          "textHtml": "3/2"
+        },
+        {
+          "id": "C",
+          "textHtml": "5/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "3/6"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Write y = xr, z = xr<sup>2</sup> with r &gt; 1 (since x &lt; y &lt; z).</p><p>AP condition: 2 × 16y = 5x + 12z → 32r = 5 + 12r<sup>2</sup> → 12r<sup>2</sup> − 32r + 5 = 0 → (6r − 1)(2r − 5) = 0.</p><p>r = 1/6 or 5/2; since r &gt; 1, r = <strong>5/2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "easy",
+      "stemHtml": "<p>Humans and robots can both perform a job but at different efficiencies. Fifteen humans and five robots working together take thirty days to finish the job, whereas five humans and fifteen robots working together take sixty days to finish it. How many days will fifteen humans working together (without any robot) take to finish it?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "45"
+        },
+        {
+          "id": "B",
+          "textHtml": "36"
+        },
+        {
+          "id": "C",
+          "textHtml": "40"
+        },
+        {
+          "id": "D",
+          "textHtml": "32"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let a human do h and a robot r units per day. Same job: 30(15h + 5r) = 60(5h + 15r) → 450h + 150r = 300h + 900r → <strong>h = 5r</strong>.</p><p>Job = 30(75r + 5r) = 2400r. Fifteen humans do 75r per day → 2400/75 = <strong>32 days</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Pipes & cisterns",
+      "difficulty": "easy",
+      "stemHtml": "<p>A tank is fitted with pipes, some filling it and the rest draining it. All filling pipes fill at the same rate, and all draining pipes drain at the same rate. The empty tank gets completely filled in 6 hours when 6 filling and 5 draining pipes are on, but this time becomes 60 hours when 5 filling and 6 draining pipes are on. In how many hours will the empty tank get completely filled when one draining and two filling pipes are on?</p>",
+      "answer": "10",
+      "solutionHtml": "<p>Let each filling pipe add f and each draining pipe remove d per hour. Tank = 6(6f − 5d) = 60(5f − 6d) → 36f − 30d = 300f − 360d → 330d = 264f → <strong>d = 0.8f</strong>.</p><p>Tank = 6(6f − 4f) = 12f. Two fillers and one drain: 2f − 0.8f = 1.2f per hour → 12f / 1.2f = <strong>10 hours</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Squares",
+      "difficulty": "medium",
+      "stemHtml": "<p>Points E, F, G, H lie on the sides AB, BC, CD, and DA, respectively, of a square ABCD. If EFGH is also a square whose area is 62.5% of that of ABCD and CG is longer than EB, then the ratio of length of EB to that of CG is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3 : 8"
+        },
+        {
+          "id": "B",
+          "textHtml": "2 : 5"
+        },
+        {
+          "id": "C",
+          "textHtml": "1 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4 : 9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>For a square EFGH inscribed in square ABCD, the four corner triangles are congruent, so AE = BF = CG = DH = t and EB = 1 − t (taking side ABCD = 1).</p><p>EF<sup>2</sup> = EB<sup>2</sup> + BF<sup>2</sup> = (1 − t)<sup>2</sup> + t<sup>2</sup> = 0.625 → 2t<sup>2</sup> − 2t + 0.375 = 0 → t<sup>2</sup> − t + 3/16 = 0 → t = 3/4 or 1/4.</p><p>CG = t is the longer one, so CG = 3/4, EB = 1/4 → EB : CG = <strong>1 : 3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>Given an equilateral triangle T1 with side 24 cm, a second triangle T2 is formed by joining the midpoints of the sides of T1. Then a third triangle T3 is formed by joining the midpoints of the sides of T2. If this process of forming triangles is continued, the sum of the areas, in sq cm, of infinitely many such triangles T1, T2, T3,... will be</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "248√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "192√3"
+        },
+        {
+          "id": "C",
+          "textHtml": "188√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "164√3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Area of T1 = (√3/4) × 24<sup>2</sup> = 144√3. Joining midpoints halves the side, so each area is <strong>1/4</strong> of the previous one.</p><p>Sum = 144√3 / (1 − 1/4) = 144√3 × 4/3 = <strong>192√3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>If x is a positive quantity such that 2<sup>x</sup> = 3<sup>log<sub>5</sub>2</sup>, then x is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1 + log<sub>3</sub>(5/3)"
+        },
+        {
+          "id": "B",
+          "textHtml": "log<sub>5</sub>9"
+        },
+        {
+          "id": "C",
+          "textHtml": "log<sub>5</sub>8"
+        },
+        {
+          "id": "D",
+          "textHtml": "1 + log<sub>5</sub>(3/5)"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Take log base 2: x = log<sub>5</sub>2 × log<sub>2</sub>3 = <strong>log<sub>5</sub>3</strong> (chain rule of logs).</p><p>Check the options: 1 + log<sub>5</sub>(3/5) = log<sub>5</sub>5 + log<sub>5</sub>3 − log<sub>5</sub>5 = log<sub>5</sub>3. ✓</p><p>A = log<sub>3</sub>5, B = 2 log<sub>5</sub>3, C = 3 log<sub>5</sub>2 – none equal log<sub>5</sub>3. Answer: <strong>D</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures",
+      "difficulty": "easy",
+      "stemHtml": "<p>A trader sells 10 litres of a mixture of paints A and B, where the amount of B in the mixture does not exceed that of A. The cost of paint A per litre is Rs. 8 more than that of paint B. If the trader sells the entire mixture for Rs. 264 and makes a profit of 10%, then the highest possible cost of paint B, in Rs. per litre, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20"
+        },
+        {
+          "id": "B",
+          "textHtml": "22"
+        },
+        {
+          "id": "C",
+          "textHtml": "16"
+        },
+        {
+          "id": "D",
+          "textHtml": "26"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Cost of the mixture = 264/1.1 = 240. Let a litres of A and (10 − a) of B, and B cost b per litre: 10b + 8a = 240 → b = 24 − 0.8a.</p><p>b is largest when a is smallest. B ≤ A means a ≥ 5, so b = 24 − 4 = <strong>Rs. 20</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>Raju and Lalitha originally had marbles in the ratio 4:9. Then Lalitha gave some of her marbles to Raju. As a result, the ratio of the number of marbles with Raju to that with Lalitha became 5:6. What fraction of her original number of marbles was given by Lalitha to Raju?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6/19"
+        },
+        {
+          "id": "B",
+          "textHtml": "7/33"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/4"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/5"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Quick way:</strong> the total stays the same. Take total = 13 × 11 = 143: originally Raju 44, Lalitha 99; afterwards 65 and 78.</p><p>Lalitha gave 99 − 78 = 21, i.e. 21/99 = <strong>7/33</strong> of her original marbles.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>When they work alone, B needs 25% more time to finish a job than A does. They two finish the job in 13 days in the following manner: A works alone till half the job is done, then A and B work together for four days, and finally B works alone to complete the remaining 5% of the job. In how many days can B alone finish the entire job?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "16"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "18"
+        },
+        {
+          "id": "D",
+          "textHtml": "22"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let A take a days; B takes 1.25a, so B’s rate is 0.8 of A’s. In 4 days together they do 4(1 + 0.8)/a = 7.2/a of the job.</p><p>Work: 0.5 + 7.2/a + 0.05 = 1 → 7.2/a = 0.45 → a = 16. Check the time: 8 + 4 + (0.05 × 20 = 1) = 13 days ✓.</p><p>B alone: 1.25 × 16 = <strong>20 days</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss / mixtures",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two types of tea, A and B, are mixed and then sold at Rs. 40 per kg. The profit is 10% if A and B are mixed in the ratio 3 : 2, and 5% if this ratio is 2 : 3. The cost prices, per kg, of A and B are in the ratio</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "17 : 25"
+        },
+        {
+          "id": "B",
+          "textHtml": "21 : 25"
+        },
+        {
+          "id": "C",
+          "textHtml": "18 : 25"
+        },
+        {
+          "id": "D",
+          "textHtml": "19 : 24"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Cost per kg of mix: 40/1.1 = 400/11 for 3 : 2, and 40/1.05 = 800/21 for 2 : 3.</p><p>So 3a + 2b = 2000/11 and 2a + 3b = 4000/21. Multiply the first by 3 and the second by 2 and subtract: 5a = 6000/11 − 8000/21 = 38000/231 → a = 7600/231.</p><p>Then 2b = 2000/11 − 3a = (42000 − 22800)/231 → b = 9600/231. a : b = 7600 : 9600 = <strong>19 : 24</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>In an apartment complex, the number of people aged 51 years and above is 30 and there are at most 39 people whose ages are below 51 years. The average age of all the people in the apartment complex is 38 years. What is the largest possible average age, in years, of the people whose ages are below 51 years?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "26"
+        },
+        {
+          "id": "B",
+          "textHtml": "27"
+        },
+        {
+          "id": "C",
+          "textHtml": "28"
+        },
+        {
+          "id": "D",
+          "textHtml": "25"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let n (≤ 39) people be below 51. To make their average as large as possible, make the 30 older people as young as allowed: each exactly 51 (total 1530).</p><p>Younger group’s total = 38(30 + n) − 1530 = 38n − 390, average = 38 − 390/n, which grows with n. At n = 39: 38 − 10 = <strong>28</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a circle with center O and radius 1 cm, an arc AB makes an angle 60 degrees at O. Let R be the region bounded by the radii OA, OB and the arc AB. If C and D are two points on OA and OB, respectively, such that OC = OD and the area of triangle OCD is half that of R, then the length of OC, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(π/4)<sup>1/2</sup>"
+        },
+        {
+          "id": "B",
+          "textHtml": "(π/(3√3))<sup>1/2</sup>"
+        },
+        {
+          "id": "C",
+          "textHtml": "(π/6)<sup>1/2</sup>"
+        },
+        {
+          "id": "D",
+          "textHtml": "(π/(4√3))<sup>1/2</sup>"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Sector area R = (60/360)π(1)<sup>2</sup> = π/6.</p><p>Triangle OCD with OC = OD = k and angle 60° is equilateral: area = (√3/4)k<sup>2</sup> = π/12 → k<sup>2</sup> = π/(3√3).</p><p>OC = <strong>(π/(3√3))<sup>1/2</sup></strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Divisibility",
+      "difficulty": "easy",
+      "stemHtml": "<p>The number of integers x such that 0.25 &lt; 2<sup>x</sup> &lt; 200, and 2<sup>x</sup> + 2 is perfectly divisible by either 3 or 4, is</p>",
+      "answer": "5",
+      "solutionHtml": "<p>0.25 &lt; 2<sup>x</sup> &lt; 200 gives x = −1, 0, 1, …, 7.</p><p>2<sup>x</sup> + 2: x = −1 → 2.5 (not an integer); 0 → 3 ✓; 1 → 4 ✓; 2 → 6 ✓; 3 → 10 ✗; 4 → 18 ✓; 5 → 34 ✗; 6 → 66 ✓; 7 → 130 ✗.</p><p>Count = <strong>5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let ABCD be a rectangle inscribed in a circle of radius 13 cm. Which one of the following pairs can represent, in cm, the possible length and breadth of ABCD?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "25, 9"
+        },
+        {
+          "id": "B",
+          "textHtml": "24, 12"
+        },
+        {
+          "id": "C",
+          "textHtml": "24, 10"
+        },
+        {
+          "id": "D",
+          "textHtml": "25, 10"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The diagonal of an inscribed rectangle is a diameter = 26, so l<sup>2</sup> + b<sup>2</sup> = 676.</p><p>24<sup>2</sup> + 10<sup>2</sup> = 576 + 100 = 676 ✓. The others give 706, 720 and 725. Answer: <strong>24, 10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Quadrilaterals",
+      "difficulty": "medium",
+      "stemHtml": "<p>In a parallelogram ABCD of area 72 sq cm, the sides CD and AD have lengths 9 cm and 16 cm, respectively. Let P be a point on CD such that AP is perpendicular to CD. Then the area, in sq cm, of triangle APD is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "32√3"
+        },
+        {
+          "id": "B",
+          "textHtml": "18√3"
+        },
+        {
+          "id": "C",
+          "textHtml": "24√3"
+        },
+        {
+          "id": "D",
+          "textHtml": "12√3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>AP is the height on base CD: 9 × AP = 72 → AP = 8.</p><p>In right triangle APD: DP = √(16<sup>2</sup> − 8<sup>2</sup>) = √192 = 8√3. (P is the foot of the perpendicular on line CD; since 8√3 &gt; 9 it actually lies on CD extended, but the area is the same.)</p><p>Area = ½ × 8 × 8√3 = <strong>32√3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Exponents",
+      "difficulty": "easy",
+      "stemHtml": "<p>Given that x<sup>2018</sup>y<sup>2017</sup> = 1/2 and x<sup>2016</sup>y<sup>2019</sup> = 8, the value of x<sup>2</sup> + y<sup>3</sup> is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "33/4"
+        },
+        {
+          "id": "B",
+          "textHtml": "37/4"
+        },
+        {
+          "id": "C",
+          "textHtml": "35/4"
+        },
+        {
+          "id": "D",
+          "textHtml": "31/4"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Divide the equations: x<sup>2</sup>/y<sup>2</sup> = (1/2)/8 = 1/16 → y = ±4x.</p><p>If y = 4x: 4<sup>2017</sup>x<sup>4035</sup> = 1/2 → x<sup>4035</sup> = 2<sup>−4035</sup> → x = 1/2, y = 2. (y = −4x gives x = −1/2, y = 2, the same x<sup>2</sup> and y.)</p><p>x<sup>2</sup> + y<sup>3</sup> = 1/4 + 8 = <strong>33/4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>In an examination, the maximum possible score is N while the pass mark is 45% of N. A candidate obtains 36 marks, but falls short of the pass mark by 68%. Which one of the following is then correct?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "243 ≤ N ≤ 252"
+        },
+        {
+          "id": "B",
+          "textHtml": "N ≥ 253"
+        },
+        {
+          "id": "C",
+          "textHtml": "201 ≤ N ≤ 242"
+        },
+        {
+          "id": "D",
+          "textHtml": "N ≤ 200"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Falling short by 68% of the pass mark means 36 = 32% of the pass mark → pass mark = 112.5.</p><p>0.45N = 112.5 → N = 250, which lies in <strong>243 ≤ N ≤ 252</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let f(x) = min{2x<sup>2</sup>, 52 − 5x}, where x is any positive real number. Then the maximum possible value of f(x) is</p>",
+      "answer": "32",
+      "solutionHtml": "<p>For x &gt; 0, 2x<sup>2</sup> increases and 52 − 5x decreases, so the minimum of the two is largest where they meet.</p><p>2x<sup>2</sup> = 52 − 5x → 2x<sup>2</sup> + 5x − 52 = 0 → (x − 4)(2x + 13) = 0 → x = 4. f(4) = 2 × 16 = <strong>32</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>Point P lies between points A and B such that the length of BP is thrice that of AP. Car 1 starts from A and moves towards B. Simultaneously, car 2 starts from B and moves towards A. Car 2 reaches P one hour after car 1 reaches P. If the speed of car 2 is half that of car 1, then the time, in minutes, taken by car 1 in reaching P from A is</p>",
+      "answer": "12",
+      "solutionHtml": "<p>Let AP = d, BP = 3d, car 1 speed 2v, car 2 speed v. Car 1 takes d/(2v); car 2 takes 3d/v = 6 × (d/(2v)).</p><p>So car 2 takes 6 times as long as car 1: difference = 5t = 60 min → t = <strong>12 minutes</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Compound interest",
+      "difficulty": "medium",
+      "stemHtml": "<p>John borrowed Rs.2,10,000 from a bank at an interest rate of 10% per annum, compounded annually. The loan was repaid in two equal installments, the first after one year and the second after another year. The first installment was interest of one year plus part of the principal amount, while the second was the rest of the principal amount plus due interest thereon. Then each installment, in Rs., is</p>",
+      "answer": "121000",
+      "solutionHtml": "<p>The present values of the two equal instalments x add up to the loan: x/1.1 + x/1.21 = 210000.</p><p>x(1.1 + 1)/1.21 = 210000 → x = 210000 × 1.21/2.1 = <strong>121000</strong>.</p><p>Check: after year 1 the debt is 231000; paying 121000 leaves 110000, which grows to 121000 by year 2 ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "medium",
+      "stemHtml": "<p>A CAT aspirant appears for a certain number of tests. His average score increases by 1 if the first 10 tests are not considered, and decreases by 1 if the last 10 tests are not considered. If his average scores for the first 10 and the last 10 tests are 20 and 30, respectively, then the total number of tests taken by him is</p>",
+      "answer": "60",
+      "solutionHtml": "<p>Let there be n tests with total S. Without the first 10: (S − 200)/(n − 10) = m + 1; without the last 10: (S − 300)/(n − 10) = m − 1, where m is the overall average.</p><p>Subtract: 100/(n − 10) = 2 → n − 10 = 50 → n = <strong>60</strong>. (Check: m = 25, total 1500.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>Train T leaves station X for station Y at 3 pm. Train S, traveling at three quarters of the speed of T, leaves Y for X at 4 pm. The two trains pass each other at a station Z, where the distance between X and Z is three-fifths of that between X and Y. How many hours does train T take for its journey from X to Y?</p>",
+      "answer": "15",
+      "solutionHtml": "<p>Let T’s speed be 4v and S’s 3v, and let them meet t hours after 3 pm. T covers 3/5 of XY in t hours; S covers 2/5 in (t − 1) hours.</p><p>(3/5)/(2/5) = 4t / (3(t − 1)) → 9(t − 1) = 8t → t = 9.</p><p>T covers 3/5 of the distance in 9 hours, so the whole journey takes 9 × 5/3 = <strong>15 hours</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-23",
+      "section": "QA",
+      "number": 23,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Mensuration",
+      "difficulty": "easy",
+      "stemHtml": "<p>A right circular cone, of height 12 ft, stands on its base which has diameter 8 ft. The tip of the cone is cut off with a plane which is parallel to the base and 9 ft from the base. With π = 22/7, the volume, in cubic ft, of the remaining part of the cone is</p>",
+      "answer": "198",
+      "solutionHtml": "<p>Full cone: r = 4, h = 12. The cut-off tip has height 12 − 9 = 3, a quarter of the height, so its radius = 1.</p><p>Remaining volume = (1/3)π(4<sup>2</sup> × 12 − 1<sup>2</sup> × 3) = (1/3)(22/7)(189) = 22 × 9 = <strong>198</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-24",
+      "section": "QA",
+      "number": 24,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>If log<sub>12</sub>81 = p, then 3((4 − p)/(4 + p)) is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "log<sub>2</sub>8"
+        },
+        {
+          "id": "B",
+          "textHtml": "log<sub>4</sub>16"
+        },
+        {
+          "id": "C",
+          "textHtml": "log<sub>6</sub>8"
+        },
+        {
+          "id": "D",
+          "textHtml": "log<sub>6</sub>16"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>p = 4 log 3 / log 12. Then 4 − p = 4(log 12 − log 3)/log 12 = 4 log 4/log 12 = 8 log 2/log 12, and 4 + p = 4(log 12 + log 3)/log 12 = 4 log 36/log 12 = 8 log 6/log 12.</p><p>(4 − p)/(4 + p) = log 2/log 6, so 3 × that = 3 log 2/log 6 = log 8/log 6 = <strong>log<sub>6</sub>8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-25",
+      "section": "QA",
+      "number": 25,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "medium",
+      "stemHtml": "<p>A wholesaler bought walnuts and peanuts, the price of walnut per kg being thrice that of peanut per kg. He then sold 8 kg of peanuts at a profit of 10% and 16 kg of walnuts at a profit of 20% to a shopkeeper. However, the shopkeeper lost 5 kg of walnuts and 3 kg of peanuts in transit. He then mixed the remaining nuts and sold the mixture at Rs. 166 per kg, thus making an overall profit of 25%. At what price, in Rs. per kg, did the wholesaler buy the walnuts?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "86"
+        },
+        {
+          "id": "B",
+          "textHtml": "96"
+        },
+        {
+          "id": "C",
+          "textHtml": "84"
+        },
+        {
+          "id": "D",
+          "textHtml": "98"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let peanuts cost the wholesaler p per kg, walnuts 3p. The shopkeeper pays 8 × 1.1p + 16 × 3.6p = 66.4p.</p><p>He sells 16 − 5 + 8 − 3 = 16 kg at 166 → 2656 = 1.25 × 66.4p = 83p → p = 32.</p><p>Walnuts: 3 × 32 = <strong>Rs. 96 per kg</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-26",
+      "section": "QA",
+      "number": 26,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Functions / recursion",
+      "difficulty": "easy",
+      "stemHtml": "<p>If f(x + 2) = f(x) + f(x + 1) for all positive integers x, and f(11) = 91, f(15) = 617, then f(10) equals</p>",
+      "answer": "54",
+      "solutionHtml": "<p>Let f(12) = a. Then f(13) = 91 + a, f(14) = 91 + 2a, f(15) = 182 + 3a = 617 → a = 145.</p><p>f(12) = f(10) + f(11) → f(10) = 145 − 91 = <strong>54</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-27",
+      "section": "QA",
+      "number": 27,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "easy",
+      "stemHtml": "<p>While multiplying three real numbers, Ashok took one of the numbers as 73 instead of 37. As a result, the product went up by 720. Then the minimum possible value of the sum of squares of the other two numbers is</p>",
+      "answer": "40",
+      "solutionHtml": "<p>If the other two numbers are a and b, the product rises by ab(73 − 37) = 36ab = 720 → ab = 20.</p><p>a<sup>2</sup> + b<sup>2</sup> ≥ 2ab = 40, with equality when a = b = √20. Minimum = <strong>40</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-28",
+      "section": "QA",
+      "number": 28,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>The distance from A to B is 60 km. Partha and Narayan start from A at the same time and move towards B. Partha takes four hours more than Narayan to reach B. Moreover, Partha reaches the mid-point of A and B two hours before Narayan reaches B. The speed of Partha, in km per hour, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let Narayan take t hours; Partha takes t + 4, and reaches the midpoint in (t + 4)/2 hours.</p><p>(t + 4)/2 = t − 2 → t = 8. Partha takes 12 hours → speed = 60/12 = <strong>5 km/h</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-29",
+      "section": "QA",
+      "number": 29,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a circle, two parallel chords on the same side of a diameter have lengths 4 cm and 6 cm. If the distance between these chords is 1 cm, then the radius of the circle, in cm, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "√13"
+        },
+        {
+          "id": "B",
+          "textHtml": "√14"
+        },
+        {
+          "id": "C",
+          "textHtml": "√11"
+        },
+        {
+          "id": "D",
+          "textHtml": "√12"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Distances from the centre: √(r<sup>2</sup> − 4) for the 4 cm chord and √(r<sup>2</sup> − 9) for the 6 cm chord. Same side, so √(r<sup>2</sup> − 4) − √(r<sup>2</sup> − 9) = 1.</p><p>Try r<sup>2</sup> = 13: √9 − √4 = 3 − 2 = 1 ✓. Radius = <strong>√13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-30",
+      "section": "QA",
+      "number": 30,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Set theory",
+      "difficulty": "easy",
+      "stemHtml": "<p>If among 200 students, 105 like pizza and 134 like burger, then the number of students who like only burger can possibly be</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "93"
+        },
+        {
+          "id": "B",
+          "textHtml": "26"
+        },
+        {
+          "id": "C",
+          "textHtml": "96"
+        },
+        {
+          "id": "D",
+          "textHtml": "23"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Only burger = 134 − (both). Both is at least 105 + 134 − 200 = 39 and at most 105.</p><p>So only burger lies between 134 − 105 = 29 and 134 − 39 = 95. Of the options only <strong>93</strong> fits.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-31",
+      "section": "QA",
+      "number": 31,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Permutations & combinations",
+      "difficulty": "easy",
+      "stemHtml": "<p>How many numbers with two or more digits can be formed with the digits 1,2,3,4,5,6,7,8,9, so that in every such number, each digit is used at most once and the digits appear in the ascending order?</p>",
+      "answer": "502",
+      "solutionHtml": "<p>Each choice of a set of digits gives exactly one ascending number, so count subsets of {1, …, 9} with at least 2 elements.</p><p>2<sup>9</sup> − (empty set) − (9 singletons) = 512 − 1 − 9 = <strong>502</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-32",
+      "section": "QA",
+      "number": 32,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>If u<sup>2</sup> + (u − 2v − 1)<sup>2</sup> = −4v(u + v), then what is the value of u + 3v?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0"
+        },
+        {
+          "id": "B",
+          "textHtml": "-1/4"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/4"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Move everything to one side: u<sup>2</sup> + 4uv + 4v<sup>2</sup> + (u − 2v − 1)<sup>2</sup> = 0 → <strong>(u + 2v)<sup>2</sup> + (u − 2v − 1)<sup>2</sup> = 0</strong>.</p><p>Both squares are 0: u = −2v and u − 2v = 1 → −4v = 1 → v = −1/4, u = 1/2.</p><p>u + 3v = 1/2 − 3/4 = <strong>−1/4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-33",
+      "section": "QA",
+      "number": 33,
+      "type": "MCQ",
+      "topic": "Modern Maths",
+      "subtopic": "Logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>If log<sub>2</sub>(5 + log<sub>3</sub> a) = 3 and log<sub>5</sub>(4a + 12 + log<sub>2</sub> b) = 3, then a + b is equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "40"
+        },
+        {
+          "id": "B",
+          "textHtml": "67"
+        },
+        {
+          "id": "C",
+          "textHtml": "59"
+        },
+        {
+          "id": "D",
+          "textHtml": "32"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>5 + log<sub>3</sub>a = 2<sup>3</sup> = 8 → log<sub>3</sub>a = 3 → a = 27.</p><p>4(27) + 12 + log<sub>2</sub>b = 5<sup>3</sup> = 125 → log<sub>2</sub>b = 5 → b = 32. a + b = <strong>59</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-34",
+      "section": "QA",
+      "number": 34,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Set theory",
+      "difficulty": "medium",
+      "stemHtml": "<p>Each of 74 students in a class studies at least one of the three subjects H, E and P. Ten students study all three subjects, while twenty study H and E, but not P. Every student who studies P also studies H or E or both. If the number of students studying H equals that studying E, then the number of students studying H is</p>",
+      "answer": "52",
+      "solutionHtml": "<p>Regions: all three = 10, H and E only = 20, P only = 0. Let H only = h, E only = e, H and P only = x, E and P only = y. Then h + e + x + y = 74 − 30 = 44.</p><p>H = h + x + 30 and E = e + y + 30. H = E means h + x = e + y = 22.</p><p>H = 22 + 30 = <strong>52</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2018 Slot 1",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

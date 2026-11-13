@@ -1,0 +1,631 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>A company has 40 employees whose names are listed in a certain order. In the year 2022, the average bonus of the first 30 employees was Rs. 40000, of the last 30 employees was Rs. 60000, and of the first 10 and last 10 employees together was Rs. 50000. Next year, the average bonus of the first 10 employees increased by 100%, of the last 10 employees increased by 200% and of the remaining employees was unchanged. Then, the average bonus, in rupees, of all the 40 employees together in the year 2023 was</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "90000"
+        },
+        {
+          "id": "B",
+          "textHtml": "80000"
+        },
+        {
+          "id": "C",
+          "textHtml": "95000"
+        },
+        {
+          "id": "D",
+          "textHtml": "85000"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let the 2022 bonus totals be F (first 10), M (middle 20), L (last 10), in thousands.</p><p>F + M = 30 × 40 = 1200; M + L = 30 × 60 = 1800; F + L = 20 × 50 = 1000.</p><p><strong>Add all three:</strong> 2(F + M + L) = 4000 ⇒ F + M + L = 2000, so F = 200, L = 800, M = 1000.</p><p>2023: F doubles to 400, L triples to 2400, M stays 1000. Total = 3800 ⇒ average = 3800/40 = 95 thousand = <strong>Rs. 95000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Remainders",
+      "difficulty": "easy",
+      "stemHtml": "<p>When 3<sup>333</sup> is divided by 11, the remainder is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "1"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Key move:</strong> 3<sup>5</sup> = 243 = 22 × 11 + 1, so 3<sup>5</sup> ≡ 1 (mod 11).</p><p>333 = 5 × 66 + 3, so 3<sup>333</sup> = (3<sup>5</sup>)<sup>66</sup> × 3<sup>3</sup> ≡ 1 × 27 ≡ 27 − 22 = <strong>5</strong> (mod 11).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Number System",
+      "subtopic": "Indices",
+      "difficulty": "easy",
+      "stemHtml": "<p>If <em>m</em> and <em>n</em> are natural numbers such that <em>n</em> &gt; 1, and <em>m</em><sup><em>n</em></sup> = 2<sup>25</sup> × 3<sup>40</sup>, then <em>m</em> − <em>n</em> equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "209937"
+        },
+        {
+          "id": "B",
+          "textHtml": "209947"
+        },
+        {
+          "id": "C",
+          "textHtml": "209942"
+        },
+        {
+          "id": "D",
+          "textHtml": "209932"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>m is of the form 2<sup>a</sup>3<sup>b</sup> with an = 25 and bn = 40, so n divides both 25 and 40, i.e. n divides gcd(25, 40) = 5. With n &gt; 1, <strong>n = 5</strong>.</p><p>Then m = 2<sup>5</sup> × 3<sup>8</sup> = 32 × 6561 = 209952, and m − n = 209952 − 5 = <strong>209947</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures",
+      "difficulty": "easy",
+      "stemHtml": "<p>A vessel contained a certain amount of a solution of acid and water. When 2 litres of water was added to it, the new solution had 50% acid concentration. When 15 litres of acid was further added to this new solution, the final solution had 80% acid concentration. The ratio of water and acid in the original solution was</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4 : 5"
+        },
+        {
+          "id": "B",
+          "textHtml": "3 : 5"
+        },
+        {
+          "id": "C",
+          "textHtml": "5 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "5 : 4"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let the original solution have a litres of acid and w litres of water.</p><p>After adding 2 L water: acid = 50% ⇒ a = w + 2.</p><p>After adding 15 L acid: acid is 80%, so water is 20%: w + 2 = 0.2(a + w + 17). Substituting a = w + 2: w + 2 = 0.2(2w + 19) ⇒ 5w + 10 = 2w + 19 ⇒ w = 3, a = 5.</p><p>Water : acid = <strong>3 : 5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Surds",
+      "difficulty": "medium",
+      "stemHtml": "<p>If (x + 6√2)<sup>1/2</sup> − (x − 6√2)<sup>1/2</sup> = 2√2, then x equals</p>",
+      "answer": "11",
+      "solutionHtml": "<p>Let u = √(x + 6√2) and v = √(x − 6√2). Then u − v = 2√2 and u<sup>2</sup> − v<sup>2</sup> = 12√2.</p><p><strong>Divide:</strong> u + v = 12√2 / 2√2 = 6. So u = (6 + 2√2)/2 = 3 + √2.</p><p>x + 6√2 = u<sup>2</sup> = 9 + 6√2 + 2 = 11 + 6√2 ⇒ <strong>x = 11</strong>. (Check: v = 3 − √2 and v<sup>2</sup> = 11 − 6√2 ✓.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Compound interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anil invests Rs 22000 for 6 years in a scheme with 4% interest per annum, compounded half-yearly. Separately, Sunil invests a certain amount in the same scheme for 5 years, and then reinvests the entire amount he receives at the end of 5 years, for one year at 10% simple interest. If the amounts received by both at the end of 6 years are equal, then the initial investment, in rupees, made by Sunil is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20860"
+        },
+        {
+          "id": "B",
+          "textHtml": "20808"
+        },
+        {
+          "id": "C",
+          "textHtml": "20480"
+        },
+        {
+          "id": "D",
+          "textHtml": "20640"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Half-yearly rate = 2%. Anil gets 22000 × 1.02<sup>12</sup>. Sunil, investing P, gets P × 1.02<sup>10</sup> × 1.10.</p><p><strong>Cancel 1.02<sup>10</sup>:</strong> P × 1.1 = 22000 × 1.02<sup>2</sup> = 22000 × 1.0404 ⇒ P = 20000 × 1.0404 = <strong>20808</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "medium",
+      "stemHtml": "<p>Amal and Vimal together can complete a task in 150 days, while Vimal and Sunil together can complete the same task in 100 days. Amal starts working on the task and works for 75 days, then Vimal takes over and works for 135 days. Finally, Sunil takes over and completes the remaining task in 45 days. If Amal had started the task alone and worked on all days, Vimal had worked on every second day, and Sunil had worked on every third day, then the number of days required to complete the task would have been</p>",
+      "answer": "139",
+      "solutionHtml": "<p>Let daily rates be a, v, s (task = 1). a + v = 1/150, v + s = 1/100, and 75a + 135v + 45s = 1.</p><p>Write 75a + 135v + 45s = 75(a + v) + 15v + 45(v + s) = 1/2 + 15v + 45/100 = 1 ⇒ 15v = 0.05 ⇒ v = 1/300. Then a = 1/300 and s = 1/150.</p><p><strong>Take the task as 300 units:</strong> Amal 1, Vimal 1, Sunil 2 units per day.</p><p>Every 6 days: Amal works 6 days (6), Vimal 3 days (3), Sunil 2 days (4) = 13 units. 23 such blocks = 138 days give 299 units. On day 139 Amal alone adds the last unit (whichever day Vimal and Sunil start, day 139 needs only 1 more unit).</p><p>Answer: <strong>139</strong> days.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time, speed & distance",
+      "difficulty": "easy",
+      "stemHtml": "<p>A bus starts at 9 am and follows a fixed route every day. One day, it traveled at a constant speed of 60 km per hour and reached its destination 3.5 hours later than its scheduled arrival time. Next day, it traveled two-thirds of its route in one-third of its total scheduled travel time, and the remaining part of the route at 40 km per hour to reach just on time. The scheduled arrival time of the bus is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10:30 pm"
+        },
+        {
+          "id": "B",
+          "textHtml": "7:00 pm"
+        },
+        {
+          "id": "C",
+          "textHtml": "7:30 pm"
+        },
+        {
+          "id": "D",
+          "textHtml": "9:00 pm"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let the route be D km and the scheduled travel time T hours.</p><p>Day 2: the last D/3 took the remaining 2T/3 at 40 km/h ⇒ D/3 = 40 × 2T/3 ⇒ D = 80T.</p><p>Day 1: D/60 = T + 3.5 ⇒ 80T/60 = T + 3.5 ⇒ T/3 = 3.5 ⇒ <strong>T = 10.5 h</strong>.</p><p>Scheduled arrival = 9 am + 10 h 30 min = <strong>7:30 pm</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "medium",
+      "stemHtml": "<p>A function <em>f</em> maps the set of natural numbers to whole numbers, such that <em>f</em>(<em>xy</em>) = <em>f</em>(<em>x</em>)<em>f</em>(<em>y</em>) + <em>f</em>(<em>x</em>) + <em>f</em>(<em>y</em>) for all <em>x</em>, <em>y</em> and <em>f</em>(<em>p</em>) = 1 for every prime number p. Then, the value of <em>f</em>(160000) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8191"
+        },
+        {
+          "id": "B",
+          "textHtml": "2047"
+        },
+        {
+          "id": "C",
+          "textHtml": "4095"
+        },
+        {
+          "id": "D",
+          "textHtml": "1023"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Key move:</strong> add 1 to both sides: f(xy) + 1 = (f(x) + 1)(f(y) + 1). So g(n) = f(n) + 1 is multiplicative over every factorisation, with g(p) = 2 for each prime.</p><p>160000 = 2<sup>8</sup> × 5<sup>4</sup>, a product of 12 primes (with repetition), so g(160000) = 2<sup>12</sup> = 4096.</p><p>f(160000) = 4096 − 1 = <strong>4095</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "easy",
+      "stemHtml": "<p>The sum of the infinite series (1/5)((1/5) − (1/7)) + (1/5)<sup>2</sup>((1/5)<sup>2</sup> − (1/7)<sup>2</sup>) + (1/5)<sup>3</sup>((1/5)<sup>3</sup> − (1/7)<sup>3</sup>) + ..... equal to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5/408"
+        },
+        {
+          "id": "B",
+          "textHtml": "7/816"
+        },
+        {
+          "id": "C",
+          "textHtml": "7/408"
+        },
+        {
+          "id": "D",
+          "textHtml": "5/816"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The n-th term is (1/5)<sup>n</sup>(1/5)<sup>n</sup> − (1/5)<sup>n</sup>(1/7)<sup>n</sup> = (1/25)<sup>n</sup> − (1/35)<sup>n</sup>.</p><p><strong>Split into two GPs:</strong> Σ(1/25)<sup>n</sup> = (1/25)/(1 − 1/25) = 1/24 and Σ(1/35)<sup>n</sup> = 1/34.</p><p>Sum = 1/24 − 1/34 = (34 − 24)/816 = 10/816 = <strong>5/408</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "medium",
+      "stemHtml": "<p>A fruit seller has a stock of mangoes, bananas and apples with at least one fruit of each type. At the beginning of a day, the number of mangoes make up 40% of his stock. That day, he sells half of the mangoes, 96 bananas and 40% of the apples. At the end of the day, he ends up selling 50% of the fruits. The smallest possible total number of fruits in the stock at the beginning of the day is</p>",
+      "answer": "340",
+      "solutionHtml": "<p>Let the total be N, apples a and bananas b. Mangoes = 0.4N, so a + b = 0.6N.</p><p>Sold: 0.2N + 96 + 0.4a = 0.5N ⇒ 0.4a = 0.3N − 96 ⇒ a = 0.75N − 240, and b = 0.6N − a = 240 − 0.15N.</p><p><strong>Integrality:</strong> half the mangoes, 0.2N, must be a whole number ⇒ 5 | N; a = 0.75N − 240 must be a whole number ⇒ 4 | N. So N is a multiple of 20 (then 0.4a = 0.3N − 96 is also whole).</p><p><strong>Bounds:</strong> a ≥ 1 ⇒ 0.75N &gt; 240 ⇒ N &gt; 320; b ≥ 96 ⇒ N ≤ 960.</p><p>Smallest multiple of 20 above 320: <strong>N = 340</strong>. Check: mangoes 136, apples 15, bananas 189; sold 68 + 96 + 6 = 170 = 50% of 340 ✓.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Profit & loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>Bina incurs 19% loss when she sells a product at Rs. 4860 to Shyam, who in turn sells this product to Hari. If Bina would have sold this product to Shyam at the purchase price of Hari, she would have obtained 17% profit. Then, the profit, in rupees, made by Shyam is</p>",
+      "answer": "2160",
+      "solutionHtml": "<p>Bina’s cost = 4860/0.81 = 6000.</p><p>Hari’s purchase price = Bina’s cost × 1.17 = 7020.</p><p>Shyam bought at 4860 and sold at 7020, so his profit = 7020 − 4860 = <strong>2160</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "medium",
+      "stemHtml": "<p>Three circles of equal radii touch (but not cross) each other externally. Two other circles, <em>X</em> and <em>Y</em>, are drawn such that both touch (but not cross) each of the three previous circles. If the radius of <em>X</em> is more than that of <em>Y</em>, the ratio of the radii of <em>X</em> and <em>Y</em> is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4 + 2√3 : 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "7 + 4√3 : 1"
+        },
+        {
+          "id": "C",
+          "textHtml": "2 + √3 : 1"
+        },
+        {
+          "id": "D",
+          "textHtml": "4 + √3 : 1"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let each equal circle have radius r. Their centres form an equilateral triangle of side 2r, whose circumradius is 2r/√3.</p><p>The small circle Y sits in the middle, touching all three externally: radius = 2r/√3 − r = r(2 − √3)/√3.</p><p>The large circle X encloses all three, touching them internally: radius = 2r/√3 + r = r(2 + √3)/√3.</p><p>Ratio X : Y = (2 + √3)/(2 − √3) = (2 + √3)<sup>2</sup> = <strong>7 + 4√3 : 1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Modulus",
+      "difficulty": "easy",
+      "stemHtml": "<p>If <em>x</em> and <em>y</em> satisfy the equations |x| + x + y = 15 and x + |y| − y = 20, then (x − y) equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "15"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>If y ≥ 0, the second equation gives x = 20, and then the first gives 40 + y = 15, so y = −25, which contradicts y ≥ 0. So <strong>y &lt; 0</strong> and the second equation becomes x − 2y = 20.</p><p>If x &lt; 0, the first equation gives y = 15, which contradicts y &lt; 0. So <strong>x ≥ 0</strong> and the first equation becomes 2x + y = 15.</p><p>Solving: x = 20 + 2y ⇒ 40 + 5y = 15 ⇒ y = −5, x = 10. Hence x − y = <strong>15</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>The roots α, β of the equation 3x<sup>2</sup> + λx − 1 = 0, satisfy 1/α<sup>2</sup> + 1/β<sup>2</sup> = 15.</p><p>The value of (α<sup>3</sup> + β<sup>3</sup>)<sup>2</sup>, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "16"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "1"
+        },
+        {
+          "id": "D",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let s = α + β = −λ/3; αβ = −1/3.</p><p>1/α<sup>2</sup> + 1/β<sup>2</sup> = (α<sup>2</sup> + β<sup>2</sup>)/(αβ)<sup>2</sup> = (s<sup>2</sup> + 2/3)/(1/9) = 9s<sup>2</sup> + 6 = 15 ⇒ <strong>s<sup>2</sup> = 1</strong>.</p><p>α<sup>3</sup> + β<sup>3</sup> = s<sup>3</sup> − 3αβ·s = s<sup>3</sup> + s = s(s<sup>2</sup> + 1) = 2s.</p><p>(α<sup>3</sup> + β<sup>3</sup>)<sup>2</sup> = 4s<sup>2</sup> = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities",
+      "difficulty": "medium",
+      "stemHtml": "<p>All the values of x satisfying the inequality 1/(x + 5) ≤ 1/(2x − 3) are</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "−5 &lt; x &lt; 3/2 or 3/2 &lt; x ≤ 8"
+        },
+        {
+          "id": "B",
+          "textHtml": "−5 &lt; x &lt; 3/2 or x &gt; 3/2"
+        },
+        {
+          "id": "C",
+          "textHtml": "x &lt; −5 or x &gt; 3/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "x &lt; −5 or 3/2 &lt; x ≤ 8"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Bring everything to one side: 1/(2x − 3) − 1/(x + 5) ≥ 0 ⇒ (8 − x)/((2x − 3)(x + 5)) ≥ 0.</p><p>Critical points: −5, 3/2, 8 (x ≠ −5, 3/2). Sign check:</p><p>x &lt; −5: (+)/(+) &gt; 0 ✓; −5 &lt; x &lt; 3/2: (+)/(−) &lt; 0 ✗; 3/2 &lt; x &lt; 8: (+)/(+) &gt; 0 ✓; x = 8: 0 ✓; x &gt; 8: (−)/(+) ✗.</p><p>Solution: <strong>x &lt; −5 or 3/2 &lt; x ≤ 8</strong>. (Do not cross-multiply directly – the denominators can be negative.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ages",
+      "difficulty": "easy",
+      "stemHtml": "<p>When Rajesh's age was same as the present age of Garima, the ratio of their ages was 3 : 2. When Garima’s age becomes the same as the present age of Rajesh, the ratio of the ages of Rajesh and Garima will become</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2 : 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 : 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "4 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "3 : 2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let the age gap be d (Rajesh is older), and let Garima be G now.</p><p>d years ago Rajesh was G and Garima was G − d: G : (G − d) = 3 : 2 ⇒ G = 3d. So now Garima = 3d and Rajesh = 4d.</p><p>d years from now Garima = 4d and Rajesh = 5d ⇒ ratio <strong>5 : 4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Counting",
+      "difficulty": "medium",
+      "stemHtml": "<p>P, Q, R and S are four towns. One can travel between P and Q along 3 direct paths, between Q and S along 4 direct paths, and between P and R along 4 direct paths. There is no direct path between P and S, while there are few direct paths between Q and R, and between R and S. One can travel from P to S either via Q, or via R, or via Q followed by R, respectively, in exactly 62 possible ways. One can also travel from Q to R either directly, or via P, or via S, in exactly 27 possible ways. Then, the number of direct paths between Q and R is</p>",
+      "answer": "7",
+      "solutionHtml": "<p>Let x = direct Q–R paths and y = direct R–S paths.</p><p>P to S: via Q = 3 × 4 = 12; via R = 4y; via Q then R = 3 × x × y. So 12 + 4y + 3xy = 62 ⇒ y(4 + 3x) = 50.</p><p>Q to R: direct x; via P = 3 × 4 = 12; via S = 4y. So x + 12 + 4y = 27 ⇒ x + 4y = 15.</p><p>From x + 4y = 15 with positive integers, (x, y) is (11, 1), (7, 2) or (3, 3). Only (7, 2) gives y(4 + 3x) = 2 × 25 = 50 ✓. So the number of direct Q–R paths is <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Coordinate geometry",
+      "difficulty": "easy",
+      "stemHtml": "<p>The coordinates of the three vertices of a triangle are: (1, 2), (7, 2), and (1, 10). Then the radius of the in circle of the triangle is</p>",
+      "answer": "2",
+      "solutionHtml": "<p>The triangle is right-angled at (1, 2), with legs 6 (along y = 2) and 8 (along x = 1); hypotenuse = 10.</p><p><strong>Right-triangle inradius:</strong> r = (a + b − c)/2 = (6 + 8 − 10)/2 = <strong>2</strong>. (Or r = Area/s = 24/12 = 2.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "medium",
+      "stemHtml": "<p>If <em>a</em>, <em>b</em> and <em>c</em> are positive real numbers such that <em>a</em> &gt; 10 ≥ <em>b</em> ≥ <em>c</em> and log<sub>8</sub>(a + b)/log<sub>2</sub> c + log<sub>27</sub>(a − b)/log<sub>3</sub> c = 2/3, then the greatest possible integer value of a is</p>",
+      "answer": "14",
+      "solutionHtml": "<p>log<sub>8</sub>(a + b) = (1/3)log<sub>2</sub>(a + b), so the first term is (1/3)log<sub>c</sub>(a + b). Similarly the second term is (1/3)log<sub>c</sub>(a − b).</p><p>Sum: (1/3)log<sub>c</sub>((a + b)(a − b)) = 2/3 ⇒ a<sup>2</sup> − b<sup>2</sup> = c<sup>2</sup> ⇒ <strong>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup></strong>.</p><p>With c ≤ b ≤ 10: a<sup>2</sup> ≤ 100 + 100 = 200 ⇒ a ≤ √200 ≈ 14.14.</p><p>a = 14 works: b = 10, c = √96 ≈ 9.8 (c ≤ b, c ≠ 1, a − b &gt; 0 ✓). Greatest integer value: <strong>14</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Equations",
+      "difficulty": "easy",
+      "stemHtml": "<p>If <em>x</em> and <em>y</em> are real numbers such that 4<em>x</em><sup>2</sup> + 4<em>y</em><sup>2</sup> − 4<em>xy</em> − 6<em>y</em> + 3 = 0, then the value of (4<em>x</em> + 5<em>y</em>) is</p>",
+      "answer": "7",
+      "solutionHtml": "<p><strong>Complete squares:</strong> 4x<sup>2</sup> − 4xy + y<sup>2</sup> + 3y<sup>2</sup> − 6y + 3 = (2x − y)<sup>2</sup> + 3(y − 1)<sup>2</sup> = 0.</p><p>A sum of squares of real numbers is 0 only if each is 0: y = 1 and 2x = y ⇒ x = 1/2.</p><p>4x + 5y = 2 + 5 = <strong>7</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "easy",
+      "stemHtml": "<p>ABCD is a trapezium in which AB is parallel to CD. The sides AD and BC when extended, intersect at point E.</p><p>If AB = 2 cm, CD = 1 cm, and perimeter of ABCD is 6 cm, then the perimeter, in cm, of ∆AEB is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "9"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Since CD ∥ AB, triangles EDC and EAB are similar with ratio CD : AB = 1 : 2. So D and C are the midpoints of EA and EB: ED = DA and EC = CB.</p><p>Perimeter of ABCD: 2 + 1 + AD + BC = 6 ⇒ AD + BC = 3.</p><p>Perimeter of ∆AEB = AB + EA + EB = 2 + 2AD + 2BC = 2 + 6 = <strong>8 cm</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2024 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

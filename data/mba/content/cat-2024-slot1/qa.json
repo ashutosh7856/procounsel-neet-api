@@ -1,0 +1,630 @@
+{
+ "questions": [
+  {
+   "key": "QA-01",
+   "section": "QA",
+   "number": 1,
+   "type": "MCQ",
+   "topic": "Number System",
+   "subtopic": "Remainders",
+   "difficulty": "easy",
+   "stemHtml": "<p>When 10<sup>100</sup> is divided by 7, the remainder is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "6"
+    },
+    {
+     "id": "B",
+     "textHtml": "1"
+    },
+    {
+     "id": "C",
+     "textHtml": "4"
+    },
+    {
+     "id": "D",
+     "textHtml": "3"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Step 1:</strong> 10 ≡ 3 (mod 7), so we need 3<sup>100</sup> mod 7.</p><p><strong>Step 2:</strong> 3<sup>6</sup> ≡ 1 (mod 7) (Fermat). 100 = 6 × 16 + 4, so 3<sup>100</sup> ≡ 3<sup>4</sup> = 81 ≡ 81 − 77 = 4.</p><p>Remainder = <strong>4</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-02",
+   "section": "QA",
+   "number": 2,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Time, speed & distance",
+   "difficulty": "easy",
+   "stemHtml": "<p>Two places A and B are 45 kms apart and connected by a straight road. Anil goes from A to B while Sunil goes from B to A. Starting at the same time, they cross each other in exactly 1 hour 30 minutes. If Anil reaches B exactly 1 hour 15 minutes after Sunil reaches A, the speed of Anil, in km per hour, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "14"
+    },
+    {
+     "id": "B",
+     "textHtml": "12"
+    },
+    {
+     "id": "C",
+     "textHtml": "16"
+    },
+    {
+     "id": "D",
+     "textHtml": "18"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> Relative speed: (a + s) × 1.5 = 45, so a + s = 30.</p><p><strong>Step 2:</strong> 45/a − 45/s = 5/4 (hours).</p><p><strong>Check options:</strong> a = 12 → s = 18: 45/12 − 45/18 = 3.75 − 2.5 = 1.25 h ✓. (a = 14 → s = 16 gives 3.21 − 2.81 ≈ 0.4 h ✗.)</p><p>Anil's speed = <strong>12 km/h</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-03",
+   "section": "QA",
+   "number": 3,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Averages",
+   "difficulty": "easy",
+   "stemHtml": "<p>There are four numbers such that average of first two numbers is 1 more than the first number, average of first three numbers is 2 more than average of first two numbers, and average of first four numbers is 3 more than average of first three numbers. Then, the difference between the largest and the smallest numbers, is</p>",
+   "answer": "15",
+   "solutionHtml": "<p>Let the numbers be p, q, r, s.</p><p><strong>Step 1:</strong> (p + q)/2 = p + 1 → q = p + 2.</p><p><strong>Step 2:</strong> Average of three = p + 3 → p + q + r = 3p + 9 → r = p + 7.</p><p><strong>Step 3:</strong> Average of four = p + 6 → sum = 4p + 24 → s = 4p + 24 − (3p + 9) = p + 15.</p><p>The numbers are p, p + 2, p + 7, p + 15, so largest − smallest = <strong>15</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-04",
+   "section": "QA",
+   "number": 4,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Permutations of digits",
+   "difficulty": "medium",
+   "stemHtml": "<p>The sum of all four-digit numbers that can be formed with the distinct non-zero digits a, b, c, and d, with each digit appearing exactly once in every number, is 153310 + n, where n is a single digit natural number. Then, the value of (a + b + c + d + n) is</p>",
+   "answer": "31",
+   "solutionHtml": "<p><strong>Step 1:</strong> There are 4! = 24 numbers; each digit appears 6 times in each place. Sum = 6 × 1111 × (a + b + c + d) = 6666 × S.</p><p><strong>Step 2:</strong> 6666 × S = 153310 + n with 1 ≤ n ≤ 9. 6666 × 23 = 153318, so S = 23 and n = 8.</p><p>a + b + c + d + n = 23 + 8 = <strong>31</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-05",
+   "section": "QA",
+   "number": 5,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Percentages",
+   "difficulty": "medium",
+   "stemHtml": "<p>In September, the incomes of Kamal, Amal and Vimal are in the ratio 8 : 6 : 5. They rent a house together, and Kamal pays 15%, Amal pays 12% and Vimal pays 18% of their respective incomes to cover the total house rent in that month. In October, the house rent remains unchanged while their incomes increase by 10%, 12% and 15%, respectively. In October, the percentage of their total income that will be paid as house rent, is nearest to</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "13.26"
+    },
+    {
+     "id": "B",
+     "textHtml": "14.84"
+    },
+    {
+     "id": "C",
+     "textHtml": "12.75"
+    },
+    {
+     "id": "D",
+     "textHtml": "15.18"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Step 1:</strong> Take incomes 800, 600, 500. Rent = 120 + 72 + 90 = 282.</p><p><strong>Step 2:</strong> October incomes: 880 + 672 + 575 = 2127.</p><p><strong>Step 3:</strong> 282/2127 × 100 ≈ <strong>13.26%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-06",
+   "section": "QA",
+   "number": 6,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Simple interest",
+   "difficulty": "easy",
+   "stemHtml": "<p>An amount of Rs 10000 is deposited in bank A for a certain number of years at a simple interest of 5% per annum. On maturity, the total amount received is deposited in bank B for another 5 years at a simple interest of 6% per annum. If the interests received from bank A and bank B are in the ratio 10 : 13, then the investment period, in years, in bank A is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "6"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "5"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> Interest from A for t years = 500t. Amount moved to B = 10000 + 500t.</p><p><strong>Step 2:</strong> Interest from B = 0.06 × 5 × (10000 + 500t) = 3000 + 150t.</p><p><strong>Step 3:</strong> 500t/(3000 + 150t) = 10/13 → 6500t = 30000 + 1500t → t = 6.</p><p>Check: A's interest 3000, B's interest 0.3 × 13000 = 3900; 3000 : 3900 = 10 : 13 ✓. Answer: <strong>6 years</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-07",
+   "section": "QA",
+   "number": 7,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Quadratic equations",
+   "difficulty": "medium",
+   "stemHtml": "<p>If the equations x<sup>2</sup> + mx + 9 = 0, x<sup>2</sup> + nx + 17 = 0 and x<sup>2</sup> + (m + n)x + 35 = 0 have a common negative root, then the value of (2m + 3n) is</p>",
+   "answer": "38",
+   "solutionHtml": "<p>Let α be the common root.</p><p><strong>Step 1:</strong> Adding the first two equations: 2α<sup>2</sup> + (m + n)α + 26 = 0. Subtracting the third: α<sup>2</sup> − 9 = 0, so α = −3 (negative root).</p><p><strong>Step 2:</strong> 9 − 3m + 9 = 0 → m = 6. 9 − 3n + 17 = 0 → n = 26/3.</p><p><strong>Check:</strong> third equation at −3: 9 − 3(6 + 26/3) + 35 = 44 − 18 − 26 = 0 ✓.</p><p>2m + 3n = 12 + 26 = <strong>38</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-08",
+   "section": "QA",
+   "number": 8,
+   "type": "TITA",
+   "topic": "Algebra",
+   "subtopic": "Logarithms",
+   "difficulty": "easy",
+   "stemHtml": "<p>If x is a positive real number such that 4 log<sub>10</sub> x + 4 log<sub>100</sub> x + 8 log<sub>1000</sub> x = 13, then greatest integer not exceeding x, is</p>",
+   "answer": "31",
+   "solutionHtml": "<p><strong>Step 1:</strong> Let L = log<sub>10</sub> x. Then log<sub>100</sub> x = L/2 and log<sub>1000</sub> x = L/3.</p><p><strong>Step 2:</strong> 4L + 2L + (8/3)L = (26/3)L = 13 → L = 3/2.</p><p><strong>Step 3:</strong> x = 10<sup>3/2</sup> = 10√10 ≈ 31.62.</p><p>Greatest integer not exceeding x = <strong>31</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-09",
+   "section": "QA",
+   "number": 9,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Inequalities / perfect squares",
+   "difficulty": "medium",
+   "stemHtml": "<p>Let x, y, and z be real numbers satisfying<br>4(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>) = a<br>4(x − y − z) = 3 + a<br>Then a equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1⅓"
+    },
+    {
+     "id": "B",
+     "textHtml": "3"
+    },
+    {
+     "id": "C",
+     "textHtml": "1"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> Subtract the second equation from the first: 4x<sup>2</sup> − 4x + 4y<sup>2</sup> + 4y + 4z<sup>2</sup> + 4z = −3.</p><p><strong>Step 2:</strong> Add 3 to both sides and complete squares: (2x − 1)<sup>2</sup> + (2y + 1)<sup>2</sup> + (2z + 1)<sup>2</sup> = 0.</p><p><strong>Step 3:</strong> A sum of real squares is 0 only if each is 0: x = 1/2, y = z = −1/2.</p><p>a = 4(1/4 + 1/4 + 1/4) = <strong>3</strong>. Check: 4(1/2 + 1/2 + 1/2) = 6 = 3 + 3 ✓.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-10",
+   "section": "QA",
+   "number": 10,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Coordinate geometry",
+   "difficulty": "hard",
+   "stemHtml": "<p>In the XY-plane, the area, in sq. units, of the region defined by the inequalities y ≥ x + 4 and −4 ≤ x<sup>2</sup> + y<sup>2</sup> + 4(x − y) ≤ 0 is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "3π"
+    },
+    {
+     "id": "B",
+     "textHtml": "2π"
+    },
+    {
+     "id": "C",
+     "textHtml": "π"
+    },
+    {
+     "id": "D",
+     "textHtml": "4π"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> x<sup>2</sup> + 4x + y<sup>2</sup> − 4y = (x + 2)<sup>2</sup> + (y − 2)<sup>2</sup> − 8.</p><p><strong>Step 2:</strong> −4 ≤ (x + 2)<sup>2</sup> + (y − 2)<sup>2</sup> − 8 ≤ 0 → 4 ≤ (x + 2)<sup>2</sup> + (y − 2)<sup>2</sup> ≤ 8: a ring centred at (−2, 2) between radii 2 and 2√2. Its area = π(8 − 4) = 4π.</p><p><strong>Step 3:</strong> The line y = x + 4 passes through the centre (−2, 2) (since 2 = −2 + 4), so it cuts the ring exactly in half.</p><p>Area = 4π/2 = <strong>2π</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-11",
+   "section": "QA",
+   "number": 11,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Mixtures & replacement",
+   "difficulty": "easy",
+   "stemHtml": "<p>A glass is filled with milk. Two-thirds of its content is poured out and replaced with water. If this process of pouring out two-thirds the content and replacing with water is repeated three more times, then the final ratio of milk to water in the glass, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1 : 26"
+    },
+    {
+     "id": "B",
+     "textHtml": "1 : 80"
+    },
+    {
+     "id": "C",
+     "textHtml": "1 : 27"
+    },
+    {
+     "id": "D",
+     "textHtml": "1 : 81"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> Each operation leaves 1/3 of the milk. The process is done 4 times in all (once + three more).</p><p><strong>Step 2:</strong> Milk left = (1/3)<sup>4</sup> = 1/81 of the glass; water = 80/81.</p><p>Milk : water = <strong>1 : 80</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-12",
+   "section": "QA",
+   "number": 12,
+   "type": "MCQ",
+   "topic": "Modern Maths",
+   "subtopic": "Functions / counting",
+   "difficulty": "medium",
+   "stemHtml": "<p>Consider two sets A = {2, 3, 5, 7, 11, 13} and B = {1, 8, 27}. Let f be a function from A to B such that for every element b in B, there is at least one element a in A such that f(a) = b. Then, the total number of such functions f is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "667"
+    },
+    {
+     "id": "B",
+     "textHtml": "540"
+    },
+    {
+     "id": "C",
+     "textHtml": "537"
+    },
+    {
+     "id": "D",
+     "textHtml": "665"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>We need the number of <strong>onto</strong> functions from a 6-element set to a 3-element set.</p><p><strong>Inclusion–exclusion:</strong> 3<sup>6</sup> − 3 × 2<sup>6</sup> + 3 × 1<sup>6</sup> = 729 − 192 + 3 = <strong>540</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-13",
+   "section": "QA",
+   "number": 13,
+   "type": "MCQ",
+   "topic": "Geometry",
+   "subtopic": "Mensuration (3D)",
+   "difficulty": "medium",
+   "stemHtml": "<p>The surface area of a closed rectangular box, which is inscribed in a sphere, is 846 sq cm, and the sum of the lengths of all its edges is 144 cm. The volume, in cubic cm, of the sphere is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "1125π√2"
+    },
+    {
+     "id": "B",
+     "textHtml": "750π√2"
+    },
+    {
+     "id": "C",
+     "textHtml": "1125π"
+    },
+    {
+     "id": "D",
+     "textHtml": "750π"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Step 1:</strong> Let the sides be a, b, c. 4(a + b + c) = 144 → a + b + c = 36; 2(ab + bc + ca) = 846.</p><p><strong>Step 2:</strong> a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> = 36<sup>2</sup> − 846 = 1296 − 846 = 450.</p><p><strong>Step 3:</strong> The box's space diagonal is the sphere's diameter: √450 = 15√2, so r = 15/√2.</p><p><strong>Step 4:</strong> V = (4/3)πr<sup>3</sup> = (4/3)π × 3375/(2√2) = 1125√2 π. Answer: <strong>1125π√2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-14",
+   "section": "QA",
+   "number": 14,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Profit & loss",
+   "difficulty": "easy",
+   "stemHtml": "<p>The selling price of a product is fixed to ensure 40% profit. If the product had cost 40% less and had been sold for 5 rupees less, then the resulting profit would have been 50%. The original selling price, in rupees, of the product is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10"
+    },
+    {
+     "id": "B",
+     "textHtml": "15"
+    },
+    {
+     "id": "C",
+     "textHtml": "20"
+    },
+    {
+     "id": "D",
+     "textHtml": "14"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Step 1:</strong> Let cost = c, so SP = 1.4c.</p><p><strong>Step 2:</strong> New cost = 0.6c and new SP = 1.4c − 5 = 1.5 × 0.6c = 0.9c → 0.5c = 5 → c = 10.</p><p>Original SP = 1.4 × 10 = <strong>₹14</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-15",
+   "section": "QA",
+   "number": 15,
+   "type": "MCQ",
+   "topic": "Arithmetic",
+   "subtopic": "Working backwards",
+   "difficulty": "easy",
+   "stemHtml": "<p>A shop wants to sell a certain quantity (in kg) of grains. It sells half the quantity and an additional 3 kg of these grains to the first customer. Then, it sells half of the remaining quantity and an additional 3 kg of these grains to the second customer. Finally, when the shop sells half of the remaining quantity and an additional 3 kg of these grains to the third customer, there are no grains left. The initial quantity, in kg, of grains is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "42"
+    },
+    {
+     "id": "B",
+     "textHtml": "18"
+    },
+    {
+     "id": "C",
+     "textHtml": "36"
+    },
+    {
+     "id": "D",
+     "textHtml": "50"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Work backwards.</strong> If x kg are present before a sale, x/2 − 3 is left after it, so before a sale x = 2 × (left + 3).</p><p>Before the third sale: 2 × (0 + 3) = 6. Before the second: 2 × (6 + 3) = 18. Before the first: 2 × (18 + 3) = <strong>42 kg</strong>.</p><p>Check: 42 → sell 24 → 18 → sell 12 → 6 → sell 6 → 0 ✓.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-16",
+   "section": "QA",
+   "number": 16,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Surds",
+   "difficulty": "medium",
+   "stemHtml": "<p>If (a + b√n) is the positive square root of (29 − 12√5), where a and b are integers, and n is a natural number, then the maximum possible value of (a + b + n) is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "18"
+    },
+    {
+     "id": "C",
+     "textHtml": "6"
+    },
+    {
+     "id": "D",
+     "textHtml": "22"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> 29 − 12√5 = 9 + 20 − 2 × 3 × 2√5 = (2√5 − 3)<sup>2</sup>.</p><p><strong>Step 2:</strong> 2√5 ≈ 4.47 &gt; 3, so the positive root is −3 + 2√5.</p><p><strong>Step 3:</strong> Write it as a + b√n with integers a, b: a = −3, and b√n = 2√5 = 1 × √20. So (a, b, n) = (−3, 2, 5) → sum 4, or (−3, 1, 20) → sum 18.</p><p>Maximum = <strong>18</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-17",
+   "section": "QA",
+   "number": 17,
+   "type": "TITA",
+   "topic": "Geometry",
+   "subtopic": "Triangles (inradius)",
+   "difficulty": "easy",
+   "stemHtml": "<p>ABCD is a rectangle with sides AB = 56 cm and BC = 45 cm, and E is the midpoint of side CD. Then, the length, in cm, of radius of incircle of ΔADE is</p>",
+   "answer": "10",
+   "solutionHtml": "<p><strong>Step 1:</strong> In ΔADE, ∠D = 90°, AD = 45 and DE = 56/2 = 28.</p><p><strong>Step 2:</strong> AE = √(45<sup>2</sup> + 28<sup>2</sup>) = √(2025 + 784) = √2809 = 53.</p><p><strong>Step 3:</strong> For a right triangle, r = (sum of legs − hypotenuse)/2 = (45 + 28 − 53)/2 = <strong>10 cm</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-18",
+   "section": "QA",
+   "number": 18,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Ratio & proportion",
+   "difficulty": "easy",
+   "stemHtml": "<p>A fruit seller has a total of 187 fruits consisting of apples, mangoes and oranges. The number of apples and mangoes are in the ratio 5 : 2. After she sells 75 apples, 26 mangoes and half of the oranges, the ratio of number of unsold apples to number of unsold oranges becomes 3 : 2. The total number of unsold fruits is</p>",
+   "answer": "66",
+   "solutionHtml": "<p><strong>Step 1:</strong> Apples 5k, mangoes 2k, oranges 187 − 7k.</p><p><strong>Step 2:</strong> (5k − 75) / ((187 − 7k)/2) = 3/2 → 4(5k − 75) = 3(187 − 7k) → 20k − 300 = 561 − 21k → k = 21.</p><p><strong>Step 3:</strong> Apples 105, mangoes 42, oranges 40. Unsold: 30 + 16 + 20 = <strong>66</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-19",
+   "section": "QA",
+   "number": 19,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Exponents",
+   "difficulty": "medium",
+   "stemHtml": "<p>The sum of all real values of k for which (1/8)<sup>k</sup> × (1/32768)<sup>1/3</sup> = (1/8) × (1/32768)<sup>1/k</sup>, is</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "−4/3"
+    },
+    {
+     "id": "B",
+     "textHtml": "−2/3"
+    },
+    {
+     "id": "C",
+     "textHtml": "4/3"
+    },
+    {
+     "id": "D",
+     "textHtml": "2/3"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Step 1:</strong> 32768 = 2<sup>15</sup> = 8<sup>5</sup>. Write everything as powers of 8.</p><p><strong>Step 2:</strong> 8<sup>−k − 5/3</sup> = 8<sup>−1 − 5/k</sup> → k + 5/3 = 1 + 5/k.</p><p><strong>Step 3:</strong> Multiply by 3k: 3k<sup>2</sup> + 5k = 3k + 15 → 3k<sup>2</sup> + 2k − 15 = 0. Discriminant 4 + 180 &gt; 0, so both roots are real (and non-zero).</p><p>Sum of roots = <strong>−2/3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-20",
+   "section": "QA",
+   "number": 20,
+   "type": "MCQ",
+   "topic": "Algebra",
+   "subtopic": "Arithmetic progression",
+   "difficulty": "easy",
+   "stemHtml": "<p>Suppose x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ..., x<sub>100</sub> are in arithmetic progression such that x<sub>5</sub> = −4 and 2x<sub>6</sub> + 2x<sub>9</sub> = x<sub>11</sub> + x<sub>13</sub>. Then, x<sub>100</sub> equals</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "204"
+    },
+    {
+     "id": "B",
+     "textHtml": "−194"
+    },
+    {
+     "id": "C",
+     "textHtml": "206"
+    },
+    {
+     "id": "D",
+     "textHtml": "−196"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p>Let the first term be a and common difference d.</p><p><strong>Step 1:</strong> 2(a + 5d) + 2(a + 8d) = (a + 10d) + (a + 12d) → 4a + 26d = 2a + 22d → a = −2d.</p><p><strong>Step 2:</strong> x<sub>5</sub> = a + 4d = 2d = −4 → d = −2, a = 4.</p><p><strong>Step 3:</strong> x<sub>100</sub> = 4 + 99 × (−2) = <strong>−194</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-21",
+   "section": "QA",
+   "number": 21,
+   "type": "TITA",
+   "topic": "Arithmetic",
+   "subtopic": "Time & work",
+   "difficulty": "medium",
+   "stemHtml": "<p>Renu would take 15 days working 4 hours per day to complete a certain task whereas Seema would take 8 days working 5 hours per day to complete the same task. They decide to work together to complete this task. Seema agrees to work for double the number of hours per day as Renu, while Renu agrees to work for double the number of days as Seema. If Renu works 2 hours per day, then the number of days Seema will work, is</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Step 1:</strong> Renu needs 60 hours, Seema 40 hours. Take the task as 120 units: Renu does 2 units/hour, Seema 3 units/hour.</p><p><strong>Step 2:</strong> Renu works 2 h/day, Seema 4 h/day. If Seema works d days, Renu works 2d days.</p><p><strong>Step 3:</strong> Renu: 2d × 2 × 2 = 8d units; Seema: d × 4 × 3 = 12d units. 20d = 120 → d = <strong>6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "QA-22",
+   "section": "QA",
+   "number": 22,
+   "type": "TITA",
+   "topic": "Number System",
+   "subtopic": "Greatest integer function",
+   "difficulty": "easy",
+   "stemHtml": "<p>For any natural number n, let a<sub>n</sub> be the largest integer not exceeding √n. Then the value of a<sub>1</sub> + a<sub>2</sub> + ... + a<sub>50</sub> is</p>",
+   "answer": "217",
+   "solutionHtml": "<p><strong>Key move:</strong> a<sub>n</sub> = k for k<sup>2</sup> ≤ n ≤ (k + 1)<sup>2</sup> − 1, i.e. for 2k + 1 values of n.</p><p>k = 1: n = 1–3 (3 terms) → 3; k = 2: 4–8 (5) → 10; k = 3: 9–15 (7) → 21; k = 4: 16–24 (9) → 36; k = 5: 25–35 (11) → 55; k = 6: 36–48 (13) → 78; k = 7: 49–50 (2) → 14.</p><p>Sum = 3 + 10 + 21 + 36 + 55 + 78 + 14 = <strong>217</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

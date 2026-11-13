@@ -1,0 +1,657 @@
+{
+ "sets": [
+  {
+   "key": "DILR-S1",
+   "kind": "dilr_set",
+   "title": "QUIET tournament",
+   "contentHtml": "<p>The game of QUIET is played between two teams. Six teams, numbered 1, 2, 3, 4, 5, and 6, play in a QUIET tournament. These teams are divided equally into two groups. In the tournament, each team plays every other team in the same group only once, and each team in the other group exactly twice. The tournament has several rounds, each of which consists of a few games. Every team plays exactly one game in each round. The following additional facts are known about the schedule of games in the tournament.</p><ol><li>Each team played against a team from the other group in Round 8.</li><li>In Round 4 and Round 7, the match-ups, that is the pair of teams playing against each other, were identical. In Round 5 and Round 8, the match-ups were identical.</li><li>Team 4 played Team 6 in both Round 1 and Round 2.</li><li>Team 1 played Team 5 ONLY once and that was in Round 2.</li><li>Team 3 played Team 4 in Round 3. Team 1 played Team 6 in Round 6.</li><li>In Round 8, Team 3 played Team 6, while Team 2 played Team 5.</li></ol>"
+  },
+  {
+   "key": "DILR-S2",
+   "kind": "dilr_set",
+   "title": "Countries visited",
+   "contentHtml": "<p>The chart below provides complete information about the number of countries visited by Dheeraj, Samantha and Nitesh, in Asia, Europe and the rest of the world (ROW).</p><p>The following additional facts are known about the countries visited by them.</p><ol><li>32 countries were visited by at least one of them.</li><li>USA (in ROW) is the only country that was visited by all three of them.</li><li>China (in Asia) is the only country that was visited by both Dheeraj and Nitesh, but not by Samantha.</li><li>France (in Europe) is the only country outside Asia, which was visited by both Dheeraj and Samantha, but not by Nitesh.</li><li>Half of the countries visited by both Samantha and Nitesh are in Europe.</li></ol>",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2024-slot1/countries-visited.png"
+   ]
+  },
+  {
+   "key": "DILR-S3",
+   "kind": "dilr_set",
+   "title": "Candlestick plot of seven shares",
+   "contentHtml": "<p>The chart below shows the price data for seven shares – A, B, C, D, E, F, and G as a candlestick plot for a particular day. The vertical axis shows the price of the share in rupees. A share whose closing price (price at the end of the day) is more than its opening price (price at the start of the day) is called a bullish share; otherwise, it is called a bearish share. All bullish and bearish shares are shown in green and red colour respectively.</p>",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2024-slot1/share-candlesticks.png"
+   ]
+  },
+  {
+   "key": "DILR-S4",
+   "kind": "dilr_set",
+   "title": "Stars given to bloggers",
+   "contentHtml": "<p>Six web surfers M, N, O, P, X, and Y each had 30 stars which they distributed among four bloggers A, B, C, and D. The number of stars received by A and B from the six web surfers is shown in the figure below.</p><p>The following additional facts are known regarding the number of stars received by the bloggers from the surfers.</p><ol><li>The numbers of stars received by the bloggers from the surfers were all multiples of 5 (including 0).</li><li>The total numbers of stars received by the bloggers were the same.</li><li>Each blogger received a different number of stars from M.</li><li>Two surfers gave all their stars to a single blogger.</li><li>D received more stars than C from Y.</li></ol>",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2024-slot1/stars-a-b.png"
+   ]
+  },
+  {
+   "key": "DILR-S5",
+   "kind": "dilr_set",
+   "title": "Class representative election",
+   "contentHtml": "<p>Two students, Amiya and Ramya are the only candidates in an election for the position of class representative. Students will vote based on the intensity level of Amiya’s and Ramya’s campaigns and the type of campaigns they run. Each campaign is said to have a level of 1 if it is a staid campaign and a level of 2 if it is a vigorous campaign. Campaigns can be of two types, they can either focus on issues, or on attacking the other candidate.</p><p>If Amiya and Ramya both run campaigns focusing on issues, then</p><ul><li>The percentage of students voting in the election will be 20 times the sum of the levels of campaigning of the two students. For example, if Amiya and Ramya both run vigorous campaigns, then 20 × (2+2)%, that is, 80% of the students will vote in the election.</li><li>Among voting students, the percentage of votes for each candidate will be proportional to the levels of their campaigns. For example, if Amiya runs a staid (i.e., level 1) campaign while Ramya runs a vigorous (i.e., level 2) campaign, then Amiya will receive 1/3 of the votes cast, and Ramya will receive the other 2/3.</li></ul><p>The above-mentioned percentages change as follows if at least one of them runs a campaign attacking their opponent.</p><ul><li>If Amiya runs a campaign attacking Ramya and Ramya runs a campaign focusing on issues, then 10% of the students who would have otherwise voted for Amiya will vote for Ramya, and another 10% who would have otherwise voted for Amiya, will not vote at all.</li><li>If Ramya runs a campaign attacking Amiya and Amiya runs a campaign focusing on issues, then 20% of the students who would have otherwise voted for Ramya will vote for Amiya, and another 5% who would have otherwise voted for Ramya, will not vote at all.</li><li>If both run campaigns attacking each other, then 10% of the students who would have otherwise voted for them had they run campaigns focusing on issues, will not vote at all.</li></ul>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many rounds were there in the tournament?</p>",
+   "answer": "8",
+   "solutionHtml": "<p><strong>Number of rounds.</strong> Each team plays 2 in-group games + 3 × 2 cross-group games = <strong>8 games</strong>, one per round, so there are 8 rounds.</p><p>The groups have 3 teams each, so a team plays the other 2 teams of its group once and the 3 teams of the other group twice: 2 + 6 = 8 games. Since every team plays exactly one game per round, there are <strong>8</strong> rounds.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the number of the team that played Team 1 in Round 5?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Groups.</strong> Team 4 played Team 6 twice (Rounds 1 and 2), so 4 and 6 are in different groups. Team 1 played Team 5 only once, so 1 and 5 are in the same group. Round 8 is all cross-group games: 3–6, 2–5 and therefore 1–4, so 1 and 4 are in different groups. Then 1 is in 6's group (both are opposite 4): <strong>Group X = {1, 5, 6}</strong>, <strong>Group Y = {2, 3, 4}</strong>.</p><p>In Round 8, 3–6 and 2–5 are played, so the remaining teams 1 and 4 play each other. Round 5 has the same match-ups as Round 8, so Team 1 played <strong>Team 4</strong> in Round 5.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "medium",
+   "stemHtml": "<p>Which team among the teams numbered 2, 3, 4, and 5 was not part of the same group?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "4"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "2"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Groups.</strong> Team 4 played Team 6 twice (Rounds 1 and 2), so 4 and 6 are in different groups. Team 1 played Team 5 only once, so 1 and 5 are in the same group. Round 8 is all cross-group games: 3–6, 2–5 and therefore 1–4, so 1 and 4 are in different groups. Then 1 is in 6's group (both are opposite 4): <strong>Group X = {1, 5, 6}</strong>, <strong>Group Y = {2, 3, 4}</strong>.</p><p>Teams 2, 3 and 4 form one group; Team 5 is in the other group with 1 and 6. Answer: <strong>5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the number of the team that played Team 1 in Round 7?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>Groups.</strong> Team 4 played Team 6 twice (Rounds 1 and 2), so 4 and 6 are in different groups. Team 1 played Team 5 only once, so 1 and 5 are in the same group. Round 8 is all cross-group games: 3–6, 2–5 and therefore 1–4, so 1 and 4 are in different groups. Then 1 is in 6's group (both are opposite 4): <strong>Group X = {1, 5, 6}</strong>, <strong>Group Y = {2, 3, 4}</strong>.</p><p><strong>Schedule.</strong> R5 = R8 = {1–4, 2–5, 3–6}, which uses up both games of each of these cross pairs. Cross pairs still needing two games: 1–2, 1–3, 5–3, 5–4, 6–2 (6–4 is done in R1, R2). R4 = R7 must be a matching made of pairs played twice: 6 can only take 2, then 4 must take 5 and 1 takes 3, so <strong>R4 = R7 = {1–3, 4–5, 2–6}</strong>. Left: 1–2 (×2), 3–5 (×2), 5–6, 2–4. Fill: R1 = {4–6, 1–2, 3–5}, R2 = {4–6, 1–5, 2–3}, R3 = {3–4, 1–2, 5–6}, R6 = {1–6, 2–4, 3–5}.</p><table><thead><tr><th>Round</th><th>Games</th></tr></thead><tbody><tr><td>1</td><td>4–6, 1–2, 3–5</td></tr><tr><td>2</td><td>4–6, 1–5, 2–3</td></tr><tr><td>3</td><td>3–4, 1–2, 5–6</td></tr><tr><td>4</td><td>1–3, 4–5, 2–6</td></tr><tr><td>5</td><td>1–4, 2–5, 3–6</td></tr><tr><td>6</td><td>1–6, 2–4, 3–5</td></tr><tr><td>7</td><td>1–3, 4–5, 2–6</td></tr><tr><td>8</td><td>1–4, 2–5, 3–6</td></tr></tbody></table><p>Round 7 = Round 4 = {1–3, 4–5, 2–6}, so Team 1 played <strong>Team 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Scheduling",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the number of the team that played Team 6 in Round 3?</p>",
+   "answer": "5",
+   "solutionHtml": "<p><strong>Groups.</strong> Team 4 played Team 6 twice (Rounds 1 and 2), so 4 and 6 are in different groups. Team 1 played Team 5 only once, so 1 and 5 are in the same group. Round 8 is all cross-group games: 3–6, 2–5 and therefore 1–4, so 1 and 4 are in different groups. Then 1 is in 6's group (both are opposite 4): <strong>Group X = {1, 5, 6}</strong>, <strong>Group Y = {2, 3, 4}</strong>.</p><p><strong>Schedule.</strong> R5 = R8 = {1–4, 2–5, 3–6}, which uses up both games of each of these cross pairs. Cross pairs still needing two games: 1–2, 1–3, 5–3, 5–4, 6–2 (6–4 is done in R1, R2). R4 = R7 must be a matching made of pairs played twice: 6 can only take 2, then 4 must take 5 and 1 takes 3, so <strong>R4 = R7 = {1–3, 4–5, 2–6}</strong>. Left: 1–2 (×2), 3–5 (×2), 5–6, 2–4. Fill: R1 = {4–6, 1–2, 3–5}, R2 = {4–6, 1–5, 2–3}, R3 = {3–4, 1–2, 5–6}, R6 = {1–6, 2–4, 3–5}.</p><table><thead><tr><th>Round</th><th>Games</th></tr></thead><tbody><tr><td>1</td><td>4–6, 1–2, 3–5</td></tr><tr><td>2</td><td>4–6, 1–5, 2–3</td></tr><tr><td>3</td><td>3–4, 1–2, 5–6</td></tr><tr><td>4</td><td>1–3, 4–5, 2–6</td></tr><tr><td>5</td><td>1–4, 2–5, 3–6</td></tr><tr><td>6</td><td>1–6, 2–4, 3–5</td></tr><tr><td>7</td><td>1–3, 4–5, 2–6</td></tr><tr><td>8</td><td>1–4, 2–5, 3–6</td></tr></tbody></table><p>Round 3 has 3–4. Among 1, 2, 5, 6, the pair 1–2 still needs two games and they can only fit into R1 and R3 (R2 has 1–5, R6 has 1–6), so R3 = {3–4, 1–2, 5–6}. Team 6 played <strong>Team 5</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many countries in Asia were visited by at least one of Dheeraj, Samantha and Nitesh?</p>",
+   "answer": "3",
+   "solutionHtml": "<p><strong>From the chart:</strong> Dheeraj: Asia 3, Europe 7, ROW 1 (total 11); Samantha: Asia 0, Europe 9, ROW 4 (13); Nitesh: Asia 1, Europe 6, ROW 12 (19). Sum = 43.</p><p><strong>Overlaps.</strong> 43 = 32 + (countries visited by exactly two) + 2 × (by all three). All three = 1 (USA), so exactly-two = 43 − 32 − 2 = 9. D&amp;N only = 1 (China). D&amp;S only = 1 (France; Samantha visited no Asian country). So S&amp;N only = 7. Countries visited by both S and N = 7 + 1 (USA) = 8, half in Europe = 4. Samantha has no Asia and USA is ROW, so S&amp;N-only = 4 in Europe + 3 in ROW.</p><table><thead><tr><th>Region</th><th>Only D</th><th>Only S</th><th>Only N</th><th>D&amp;S only</th><th>D&amp;N only</th><th>S&amp;N only</th><th>All three</th></tr></thead><tbody><tr><td>Asia</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1 (China)</td><td>0</td><td>0</td></tr><tr><td>Europe</td><td>6</td><td>4</td><td>2</td><td>1 (France)</td><td>0</td><td>4</td><td>0</td></tr><tr><td>ROW</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>3</td><td>1 (USA)</td></tr></tbody></table><p>Check: 3 + 17 + 12 = 32 countries.</p><p>Asia: Dheeraj 3, Nitesh 1, Samantha 0. Nitesh's one Asian country is China, which Dheeraj also visited. So the Asian countries are Dheeraj's 3: answer <strong>3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many countries in Europe were visited only by Nitesh?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>From the chart:</strong> Dheeraj: Asia 3, Europe 7, ROW 1 (total 11); Samantha: Asia 0, Europe 9, ROW 4 (13); Nitesh: Asia 1, Europe 6, ROW 12 (19). Sum = 43.</p><p><strong>Overlaps.</strong> 43 = 32 + (countries visited by exactly two) + 2 × (by all three). All three = 1 (USA), so exactly-two = 43 − 32 − 2 = 9. D&amp;N only = 1 (China). D&amp;S only = 1 (France; Samantha visited no Asian country). So S&amp;N only = 7. Countries visited by both S and N = 7 + 1 (USA) = 8, half in Europe = 4. Samantha has no Asia and USA is ROW, so S&amp;N-only = 4 in Europe + 3 in ROW.</p><table><thead><tr><th>Region</th><th>Only D</th><th>Only S</th><th>Only N</th><th>D&amp;S only</th><th>D&amp;N only</th><th>S&amp;N only</th><th>All three</th></tr></thead><tbody><tr><td>Asia</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1 (China)</td><td>0</td><td>0</td></tr><tr><td>Europe</td><td>6</td><td>4</td><td>2</td><td>1 (France)</td><td>0</td><td>4</td><td>0</td></tr><tr><td>ROW</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>3</td><td>1 (USA)</td></tr></tbody></table><p>Check: 3 + 17 + 12 = 32 countries.</p><p>Nitesh visited 6 European countries; 4 of them were also visited by Samantha (S&amp;N only), none by Dheeraj (the only D&amp;N country is China, and the only triple is USA). Only Nitesh: 6 − 4 = <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many countries in the ROW were visited by both Nitesh and Samantha?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>From the chart:</strong> Dheeraj: Asia 3, Europe 7, ROW 1 (total 11); Samantha: Asia 0, Europe 9, ROW 4 (13); Nitesh: Asia 1, Europe 6, ROW 12 (19). Sum = 43.</p><p><strong>Overlaps.</strong> 43 = 32 + (countries visited by exactly two) + 2 × (by all three). All three = 1 (USA), so exactly-two = 43 − 32 − 2 = 9. D&amp;N only = 1 (China). D&amp;S only = 1 (France; Samantha visited no Asian country). So S&amp;N only = 7. Countries visited by both S and N = 7 + 1 (USA) = 8, half in Europe = 4. Samantha has no Asia and USA is ROW, so S&amp;N-only = 4 in Europe + 3 in ROW.</p><table><thead><tr><th>Region</th><th>Only D</th><th>Only S</th><th>Only N</th><th>D&amp;S only</th><th>D&amp;N only</th><th>S&amp;N only</th><th>All three</th></tr></thead><tbody><tr><td>Asia</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1 (China)</td><td>0</td><td>0</td></tr><tr><td>Europe</td><td>6</td><td>4</td><td>2</td><td>1 (France)</td><td>0</td><td>4</td><td>0</td></tr><tr><td>ROW</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>3</td><td>1 (USA)</td></tr></tbody></table><p>Check: 3 + 17 + 12 = 32 countries.</p><p>Both S and N: 3 ROW countries visited by S and N only, plus USA (all three) = <strong>4</strong>. (Check: Samantha's 4 ROW countries are exactly these.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Venn diagrams",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many countries in Europe were visited by exactly one of Dheeraj, Samantha and Nitesh?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "5"
+    },
+    {
+     "id": "B",
+     "textHtml": "10"
+    },
+    {
+     "id": "C",
+     "textHtml": "12"
+    },
+    {
+     "id": "D",
+     "textHtml": "14"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>From the chart:</strong> Dheeraj: Asia 3, Europe 7, ROW 1 (total 11); Samantha: Asia 0, Europe 9, ROW 4 (13); Nitesh: Asia 1, Europe 6, ROW 12 (19). Sum = 43.</p><p><strong>Overlaps.</strong> 43 = 32 + (countries visited by exactly two) + 2 × (by all three). All three = 1 (USA), so exactly-two = 43 − 32 − 2 = 9. D&amp;N only = 1 (China). D&amp;S only = 1 (France; Samantha visited no Asian country). So S&amp;N only = 7. Countries visited by both S and N = 7 + 1 (USA) = 8, half in Europe = 4. Samantha has no Asia and USA is ROW, so S&amp;N-only = 4 in Europe + 3 in ROW.</p><table><thead><tr><th>Region</th><th>Only D</th><th>Only S</th><th>Only N</th><th>D&amp;S only</th><th>D&amp;N only</th><th>S&amp;N only</th><th>All three</th></tr></thead><tbody><tr><td>Asia</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1 (China)</td><td>0</td><td>0</td></tr><tr><td>Europe</td><td>6</td><td>4</td><td>2</td><td>1 (France)</td><td>0</td><td>4</td><td>0</td></tr><tr><td>ROW</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td>3</td><td>1 (USA)</td></tr></tbody></table><p>Check: 3 + 17 + 12 = 32 countries.</p><p>Europe, exactly one person: only D = 7 − 1 (France) = 6; only S = 9 − 1 (France) − 4 (with N) = 4; only N = 6 − 4 = 2. Total = <strong>12</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts",
+   "difficulty": "easy",
+   "stemHtml": "<p>Daily Share Price Variability (SPV) is defined as (Day’s high price − Day’s low price) / (Average of the opening and closing prices during the day). Which among the shares A, C, D and F had the highest SPV on that day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "A"
+    },
+    {
+     "id": "B",
+     "textHtml": "C"
+    },
+    {
+     "id": "C",
+     "textHtml": "F"
+    },
+    {
+     "id": "D",
+     "textHtml": "D"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Reading the chart</strong> (open, close, high, low in ₹):</p><table><thead><tr><th>Share</th><th>Type</th><th>Open</th><th>Close</th><th>High</th><th>Low</th></tr></thead><tbody><tr><td>A</td><td>Bearish</td><td>2200</td><td>1800</td><td>2400</td><td>1200</td></tr><tr><td>B</td><td>Bearish</td><td>2000</td><td>1700</td><td>2000</td><td>1400</td></tr><tr><td>C</td><td>Bullish</td><td>800</td><td>1200</td><td>1400</td><td>800</td></tr><tr><td>D</td><td>Bullish</td><td>500</td><td>1000</td><td>1200</td><td>300</td></tr><tr><td>E</td><td>Bearish</td><td>1300</td><td>1100</td><td>1400</td><td>1100</td></tr><tr><td>F</td><td>Bearish</td><td>1800</td><td>1600</td><td>2000</td><td>1200</td></tr><tr><td>G</td><td>Bullish</td><td>1200</td><td>1700</td><td>1900</td><td>1000</td></tr></tbody></table><p>For red (bearish) candles the top of the body is the opening price; for green (bullish) candles the bottom of the body is the opening price.</p><p>A: 1200/2000 = 0.60; C: 600/1000 = 0.60; D: 900/750 = <strong>1.20</strong>; F: 800/1700 ≈ 0.47. The highest is <strong>D</strong> (option D).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "TITA",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts",
+   "difficulty": "medium",
+   "stemHtml": "<p>Daily Share Price Variability (SPV) is defined as (Day’s high price − Day’s low price) / (Average of the opening and closing prices during the day). How many shares had an SPV greater than 0.5 on that day?</p>",
+   "answer": "4",
+   "solutionHtml": "<p><strong>Reading the chart</strong> (open, close, high, low in ₹):</p><table><thead><tr><th>Share</th><th>Type</th><th>Open</th><th>Close</th><th>High</th><th>Low</th></tr></thead><tbody><tr><td>A</td><td>Bearish</td><td>2200</td><td>1800</td><td>2400</td><td>1200</td></tr><tr><td>B</td><td>Bearish</td><td>2000</td><td>1700</td><td>2000</td><td>1400</td></tr><tr><td>C</td><td>Bullish</td><td>800</td><td>1200</td><td>1400</td><td>800</td></tr><tr><td>D</td><td>Bullish</td><td>500</td><td>1000</td><td>1200</td><td>300</td></tr><tr><td>E</td><td>Bearish</td><td>1300</td><td>1100</td><td>1400</td><td>1100</td></tr><tr><td>F</td><td>Bearish</td><td>1800</td><td>1600</td><td>2000</td><td>1200</td></tr><tr><td>G</td><td>Bullish</td><td>1200</td><td>1700</td><td>1900</td><td>1000</td></tr></tbody></table><p>For red (bearish) candles the top of the body is the opening price; for green (bullish) candles the bottom of the body is the opening price.</p><p>SPV = (High − Low) / ((Open + Close)/2): A = 1200/2000 = 0.60; B = 600/1850 ≈ 0.32; C = 600/1000 = 0.60; D = 900/750 = 1.20; E = 300/1200 = 0.25; F = 800/1700 ≈ 0.47; G = 900/1450 ≈ 0.62.</p><p>Greater than 0.5: A, C, D, G → <strong>4</strong> shares.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts",
+   "difficulty": "easy",
+   "stemHtml": "<p>Daily loss for a share is defined as (Opening price − Closing price) / (Opening price). Which among the shares A, B, F and G had the highest daily loss on that day?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "G"
+    },
+    {
+     "id": "B",
+     "textHtml": "F"
+    },
+    {
+     "id": "C",
+     "textHtml": "A"
+    },
+    {
+     "id": "D",
+     "textHtml": "B"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Reading the chart</strong> (open, close, high, low in ₹):</p><table><thead><tr><th>Share</th><th>Type</th><th>Open</th><th>Close</th><th>High</th><th>Low</th></tr></thead><tbody><tr><td>A</td><td>Bearish</td><td>2200</td><td>1800</td><td>2400</td><td>1200</td></tr><tr><td>B</td><td>Bearish</td><td>2000</td><td>1700</td><td>2000</td><td>1400</td></tr><tr><td>C</td><td>Bullish</td><td>800</td><td>1200</td><td>1400</td><td>800</td></tr><tr><td>D</td><td>Bullish</td><td>500</td><td>1000</td><td>1200</td><td>300</td></tr><tr><td>E</td><td>Bearish</td><td>1300</td><td>1100</td><td>1400</td><td>1100</td></tr><tr><td>F</td><td>Bearish</td><td>1800</td><td>1600</td><td>2000</td><td>1200</td></tr><tr><td>G</td><td>Bullish</td><td>1200</td><td>1700</td><td>1900</td><td>1000</td></tr></tbody></table><p>For red (bearish) candles the top of the body is the opening price; for green (bullish) candles the bottom of the body is the opening price.</p><p>A: 400/2200 ≈ 18.2%; B: 300/2000 = 15%; F: 200/1800 ≈ 11.1%; G is bullish (a gain, not a loss). Highest loss: <strong>A</strong> (option C).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Data Interpretation",
+   "subtopic": "Charts",
+   "difficulty": "easy",
+   "stemHtml": "<p>What would have been the percentage wealth gain for a trader, who bought equal numbers of all bullish shares at opening price and sold them at their day’s high?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "50%"
+    },
+    {
+     "id": "B",
+     "textHtml": "100%"
+    },
+    {
+     "id": "C",
+     "textHtml": "72%"
+    },
+    {
+     "id": "D",
+     "textHtml": "80%"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Reading the chart</strong> (open, close, high, low in ₹):</p><table><thead><tr><th>Share</th><th>Type</th><th>Open</th><th>Close</th><th>High</th><th>Low</th></tr></thead><tbody><tr><td>A</td><td>Bearish</td><td>2200</td><td>1800</td><td>2400</td><td>1200</td></tr><tr><td>B</td><td>Bearish</td><td>2000</td><td>1700</td><td>2000</td><td>1400</td></tr><tr><td>C</td><td>Bullish</td><td>800</td><td>1200</td><td>1400</td><td>800</td></tr><tr><td>D</td><td>Bullish</td><td>500</td><td>1000</td><td>1200</td><td>300</td></tr><tr><td>E</td><td>Bearish</td><td>1300</td><td>1100</td><td>1400</td><td>1100</td></tr><tr><td>F</td><td>Bearish</td><td>1800</td><td>1600</td><td>2000</td><td>1200</td></tr><tr><td>G</td><td>Bullish</td><td>1200</td><td>1700</td><td>1900</td><td>1000</td></tr></tbody></table><p>For red (bearish) candles the top of the body is the opening price; for green (bullish) candles the bottom of the body is the opening price.</p><p>Bullish shares: C, D, G. Buy one of each at open: 800 + 500 + 1200 = 2500. Sell at day's high: 1400 + 1200 + 1900 = 4500. Gain = 2000/2500 = <strong>80%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "easy",
+   "stemHtml": "<p>What was the total number of stars received by D?</p>",
+   "answer": "45",
+   "solutionHtml": "<p><strong>From the chart</strong> (all values are multiples of 5, so the two short bars for A are 5 each): A gets M 10, N 25, O 0, P 5, X 0, Y 5 (total 45); B gets P 25, Y 20 (total 45).</p><p><strong>Totals.</strong> 6 × 30 = 180 stars, equal for all four bloggers, so each gets 45; C and D share 90. What remains for C + D from each surfer: M 20, N 5, O 30, P 0, X 30, Y 5.</p><p><strong>Y:</strong> D &gt; C and C + D = 5 → D 5, C 0. <strong>M:</strong> A 10 and B 0 are taken and C, D must differ from them and each other with sum 20 → {5, 15}. <strong>O and X:</strong> P split between A and B, so the two surfers who gave everything to one blogger are O and X. If both went to C, C ≥ 60; if neither, C ≤ 20 + 5 = 25 &lt; 45. So one of O, X goes to C and the other to D (which one is unknown). Then C = 30 + C<sub>M</sub> + C<sub>N</sub> = 45 → C<sub>M</sub> + C<sub>N</sub> = 15 → C<sub>M</sub> = 15, C<sub>N</sub> = 0; so D<sub>M</sub> = 5, D<sub>N</sub> = 5.</p><table><thead><tr><th>Surfer</th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody><tr><td>M</td><td>10</td><td>0</td><td>15</td><td>5</td></tr><tr><td>N</td><td>25</td><td>0</td><td>0</td><td>5</td></tr><tr><td>O</td><td>0</td><td>0</td><td>30 or 0</td><td>0 or 30</td></tr><tr><td>P</td><td>5</td><td>25</td><td>0</td><td>0</td></tr><tr><td>X</td><td>0</td><td>0</td><td>0 or 30</td><td>30 or 0</td></tr><tr><td>Y</td><td>5</td><td>20</td><td>0</td><td>5</td></tr><tr><td>Total</td><td>45</td><td>45</td><td>45</td><td>45</td></tr></tbody></table><p>Total stars = 6 × 30 = 180, shared equally by 4 bloggers → D received <strong>45</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "medium",
+   "stemHtml": "<p>What was the number of stars received by D from Y?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "10"
+    },
+    {
+     "id": "B",
+     "textHtml": "0"
+    },
+    {
+     "id": "C",
+     "textHtml": "5"
+    },
+    {
+     "id": "D",
+     "textHtml": "cannot be determined"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>From the chart</strong> (all values are multiples of 5, so the two short bars for A are 5 each): A gets M 10, N 25, O 0, P 5, X 0, Y 5 (total 45); B gets P 25, Y 20 (total 45).</p><p><strong>Totals.</strong> 6 × 30 = 180 stars, equal for all four bloggers, so each gets 45; C and D share 90. What remains for C + D from each surfer: M 20, N 5, O 30, P 0, X 30, Y 5.</p><p><strong>Y:</strong> D &gt; C and C + D = 5 → D 5, C 0. <strong>M:</strong> A 10 and B 0 are taken and C, D must differ from them and each other with sum 20 → {5, 15}. <strong>O and X:</strong> P split between A and B, so the two surfers who gave everything to one blogger are O and X. If both went to C, C ≥ 60; if neither, C ≤ 20 + 5 = 25 &lt; 45. So one of O, X goes to C and the other to D (which one is unknown). Then C = 30 + C<sub>M</sub> + C<sub>N</sub> = 45 → C<sub>M</sub> + C<sub>N</sub> = 15 → C<sub>M</sub> = 15, C<sub>N</sub> = 0; so D<sub>M</sub> = 5, D<sub>N</sub> = 5.</p><table><thead><tr><th>Surfer</th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody><tr><td>M</td><td>10</td><td>0</td><td>15</td><td>5</td></tr><tr><td>N</td><td>25</td><td>0</td><td>0</td><td>5</td></tr><tr><td>O</td><td>0</td><td>0</td><td>30 or 0</td><td>0 or 30</td></tr><tr><td>P</td><td>5</td><td>25</td><td>0</td><td>0</td></tr><tr><td>X</td><td>0</td><td>0</td><td>0 or 30</td><td>30 or 0</td></tr><tr><td>Y</td><td>5</td><td>20</td><td>0</td><td>5</td></tr><tr><td>Total</td><td>45</td><td>45</td><td>45</td><td>45</td></tr></tbody></table><p>Y gave A 5 and B 20, leaving 5 for C and D. D got more than C, so D got <strong>5</strong> (option C).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many surfers distributed their stars among exactly 2 bloggers?</p>",
+   "answer": "2",
+   "solutionHtml": "<p><strong>From the chart</strong> (all values are multiples of 5, so the two short bars for A are 5 each): A gets M 10, N 25, O 0, P 5, X 0, Y 5 (total 45); B gets P 25, Y 20 (total 45).</p><p><strong>Totals.</strong> 6 × 30 = 180 stars, equal for all four bloggers, so each gets 45; C and D share 90. What remains for C + D from each surfer: M 20, N 5, O 30, P 0, X 30, Y 5.</p><p><strong>Y:</strong> D &gt; C and C + D = 5 → D 5, C 0. <strong>M:</strong> A 10 and B 0 are taken and C, D must differ from them and each other with sum 20 → {5, 15}. <strong>O and X:</strong> P split between A and B, so the two surfers who gave everything to one blogger are O and X. If both went to C, C ≥ 60; if neither, C ≤ 20 + 5 = 25 &lt; 45. So one of O, X goes to C and the other to D (which one is unknown). Then C = 30 + C<sub>M</sub> + C<sub>N</sub> = 45 → C<sub>M</sub> + C<sub>N</sub> = 15 → C<sub>M</sub> = 15, C<sub>N</sub> = 0; so D<sub>M</sub> = 5, D<sub>N</sub> = 5.</p><table><thead><tr><th>Surfer</th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody><tr><td>M</td><td>10</td><td>0</td><td>15</td><td>5</td></tr><tr><td>N</td><td>25</td><td>0</td><td>0</td><td>5</td></tr><tr><td>O</td><td>0</td><td>0</td><td>30 or 0</td><td>0 or 30</td></tr><tr><td>P</td><td>5</td><td>25</td><td>0</td><td>0</td></tr><tr><td>X</td><td>0</td><td>0</td><td>0 or 30</td><td>30 or 0</td></tr><tr><td>Y</td><td>5</td><td>20</td><td>0</td><td>5</td></tr><tr><td>Total</td><td>45</td><td>45</td><td>45</td><td>45</td></tr></tbody></table><p>M: A, C, D (3); N: A, D (2); O: one blogger; P: A, B (2); X: one blogger; Y: A, B, D (3). Exactly two bloggers: N and P → <strong>2</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following can be determined with certainty?<br>I. The number of stars received by C from M<br>II. The number of stars received by D from O</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Neither I nor II"
+    },
+    {
+     "id": "B",
+     "textHtml": "Both I and II"
+    },
+    {
+     "id": "C",
+     "textHtml": "Only I"
+    },
+    {
+     "id": "D",
+     "textHtml": "Only II"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>From the chart</strong> (all values are multiples of 5, so the two short bars for A are 5 each): A gets M 10, N 25, O 0, P 5, X 0, Y 5 (total 45); B gets P 25, Y 20 (total 45).</p><p><strong>Totals.</strong> 6 × 30 = 180 stars, equal for all four bloggers, so each gets 45; C and D share 90. What remains for C + D from each surfer: M 20, N 5, O 30, P 0, X 30, Y 5.</p><p><strong>Y:</strong> D &gt; C and C + D = 5 → D 5, C 0. <strong>M:</strong> A 10 and B 0 are taken and C, D must differ from them and each other with sum 20 → {5, 15}. <strong>O and X:</strong> P split between A and B, so the two surfers who gave everything to one blogger are O and X. If both went to C, C ≥ 60; if neither, C ≤ 20 + 5 = 25 &lt; 45. So one of O, X goes to C and the other to D (which one is unknown). Then C = 30 + C<sub>M</sub> + C<sub>N</sub> = 45 → C<sub>M</sub> + C<sub>N</sub> = 15 → C<sub>M</sub> = 15, C<sub>N</sub> = 0; so D<sub>M</sub> = 5, D<sub>N</sub> = 5.</p><table><thead><tr><th>Surfer</th><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead><tbody><tr><td>M</td><td>10</td><td>0</td><td>15</td><td>5</td></tr><tr><td>N</td><td>25</td><td>0</td><td>0</td><td>5</td></tr><tr><td>O</td><td>0</td><td>0</td><td>30 or 0</td><td>0 or 30</td></tr><tr><td>P</td><td>5</td><td>25</td><td>0</td><td>0</td></tr><tr><td>X</td><td>0</td><td>0</td><td>0 or 30</td><td>30 or 0</td></tr><tr><td>Y</td><td>5</td><td>20</td><td>0</td><td>5</td></tr><tr><td>Total</td><td>45</td><td>45</td><td>45</td><td>45</td></tr></tbody></table><p>I: C got 15 from M in every case, so it is determined. II: O's 30 stars went entirely to C or entirely to D (X's went to the other), and both cases work, so it cannot be determined. <strong>Only I</strong> (option C).</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "MCQ",
+   "setKey": "DILR-S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scenarios",
+   "difficulty": "easy",
+   "stemHtml": "<p>If both of them run staid campaigns attacking the other, then what percentage of students will vote in the election?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "60%"
+    },
+    {
+     "id": "B",
+     "textHtml": "64%"
+    },
+    {
+     "id": "C",
+     "textHtml": "40%"
+    },
+    {
+     "id": "D",
+     "textHtml": "36%"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Set-up (as % of all students).</strong> Let Amiya's level be a and Ramya's r (each 1 or 2). With both on issues, turnout = 20(a + r)% and votes are proportional to levels, so <strong>Amiya gets 20a% and Ramya 20r%</strong>.</p><ul><li>Amiya attacks, Ramya issues: Amiya 16a, Ramya 20r + 2a, turnout 20(a + r) − 2a.</li><li>Ramya attacks, Amiya issues: Amiya 20a + 4r, Ramya 15r, turnout 20(a + r) − r.</li><li>Both attack: Amiya 18a, Ramya 18r, turnout 18(a + r).</li></ul><p>Staid issue campaigns would give turnout 20 × (1 + 1) = 40%. Both attacking removes 10% of these voters: 0.9 × 40 = <strong>36%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "MCQ",
+   "setKey": "DILR-S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scenarios",
+   "difficulty": "medium",
+   "stemHtml": "<p>What is the minimum percentage of students who will vote in the election?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "32%"
+    },
+    {
+     "id": "B",
+     "textHtml": "40%"
+    },
+    {
+     "id": "C",
+     "textHtml": "36%"
+    },
+    {
+     "id": "D",
+     "textHtml": "38%"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Set-up (as % of all students).</strong> Let Amiya's level be a and Ramya's r (each 1 or 2). With both on issues, turnout = 20(a + r)% and votes are proportional to levels, so <strong>Amiya gets 20a% and Ramya 20r%</strong>.</p><ul><li>Amiya attacks, Ramya issues: Amiya 16a, Ramya 20r + 2a, turnout 20(a + r) − 2a.</li><li>Ramya attacks, Amiya issues: Amiya 20a + 4r, Ramya 15r, turnout 20(a + r) − r.</li><li>Both attack: Amiya 18a, Ramya 18r, turnout 18(a + r).</li></ul><p>Turnout is smallest at the lowest levels a = r = 1: issues 40%; Amiya attacks 40 − 2 = 38%; Ramya attacks 40 − 1 = 39%; both attack 36%. Minimum = <strong>36%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "DILR-S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scenarios",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Amiya runs a campaign focusing on issues, then what is the maximum percentage of votes that she can get?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "40%"
+    },
+    {
+     "id": "B",
+     "textHtml": "36%"
+    },
+    {
+     "id": "C",
+     "textHtml": "48%"
+    },
+    {
+     "id": "D",
+     "textHtml": "44%"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Set-up (as % of all students).</strong> Let Amiya's level be a and Ramya's r (each 1 or 2). With both on issues, turnout = 20(a + r)% and votes are proportional to levels, so <strong>Amiya gets 20a% and Ramya 20r%</strong>.</p><ul><li>Amiya attacks, Ramya issues: Amiya 16a, Ramya 20r + 2a, turnout 20(a + r) − 2a.</li><li>Ramya attacks, Amiya issues: Amiya 20a + 4r, Ramya 15r, turnout 20(a + r) − r.</li><li>Both attack: Amiya 18a, Ramya 18r, turnout 18(a + r).</li></ul><p>If Ramya also focuses on issues, Amiya gets 20a ≤ 40%. If Ramya attacks, Amiya gets 20a + 4r; with a = r = 2 that is 40 + 8 = <strong>48%</strong> (of all students), the maximum.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-21",
+   "section": "DILR",
+   "number": 21,
+   "type": "MCQ",
+   "setKey": "DILR-S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scenarios",
+   "difficulty": "medium",
+   "stemHtml": "<p>If Ramya runs a campaign attacking Amiya, then what is the minimum percentage of votes that she is guaranteed to get?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "30%"
+    },
+    {
+     "id": "B",
+     "textHtml": "15%"
+    },
+    {
+     "id": "C",
+     "textHtml": "12%"
+    },
+    {
+     "id": "D",
+     "textHtml": "18%"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Set-up (as % of all students).</strong> Let Amiya's level be a and Ramya's r (each 1 or 2). With both on issues, turnout = 20(a + r)% and votes are proportional to levels, so <strong>Amiya gets 20a% and Ramya 20r%</strong>.</p><ul><li>Amiya attacks, Ramya issues: Amiya 16a, Ramya 20r + 2a, turnout 20(a + r) − 2a.</li><li>Ramya attacks, Amiya issues: Amiya 20a + 4r, Ramya 15r, turnout 20(a + r) − r.</li><li>Both attack: Amiya 18a, Ramya 18r, turnout 18(a + r).</li></ul><p>Ramya attacking: if Amiya focuses on issues Ramya gets 15r; if Amiya also attacks, Ramya gets 18r. The lowest possible is 15 × 1 = <strong>15%</strong> (staid campaign by Ramya, Amiya on issues), so she is guaranteed at least 15%.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-22",
+   "section": "DILR",
+   "number": 22,
+   "type": "MCQ",
+   "setKey": "DILR-S5",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games & scenarios",
+   "difficulty": "hard",
+   "stemHtml": "<p>What is the maximum possible voting margin with which one of the candidates can win?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "20%"
+    },
+    {
+     "id": "B",
+     "textHtml": "29%"
+    },
+    {
+     "id": "C",
+     "textHtml": "26%"
+    },
+    {
+     "id": "D",
+     "textHtml": "28%"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Set-up (as % of all students).</strong> Let Amiya's level be a and Ramya's r (each 1 or 2). With both on issues, turnout = 20(a + r)% and votes are proportional to levels, so <strong>Amiya gets 20a% and Ramya 20r%</strong>.</p><ul><li>Amiya attacks, Ramya issues: Amiya 16a, Ramya 20r + 2a, turnout 20(a + r) − 2a.</li><li>Ramya attacks, Amiya issues: Amiya 20a + 4r, Ramya 15r, turnout 20(a + r) − r.</li><li>Both attack: Amiya 18a, Ramya 18r, turnout 18(a + r).</li></ul><p>Margin is largest when the levels differ (one at 2, the other at 1):</p><ul><li>Both issues: 40 vs 20 → 20.</li><li>Amiya attacks, Ramya issues: a = 1, r = 2 → 16 vs 42 → 26 (a = 2, r = 1 → 32 vs 24 → 8).</li><li>Ramya attacks, Amiya issues: a = 2, r = 1 → 44 vs 15 → <strong>29</strong>.</li><li>Both attack: 36 vs 18 → 18.</li></ul><p>Maximum margin = <strong>29%</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2024 Slot 1",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

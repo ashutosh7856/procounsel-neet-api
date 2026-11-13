@@ -1,0 +1,630 @@
+{
+  "questions": [
+    {
+      "key": "QA-01",
+      "section": "QA",
+      "number": 1,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Triangles – area ratio",
+      "difficulty": "easy",
+      "stemHtml": "<p>Let D and E be points on sides AB and AC, respectively, of a triangle ABC, such that AD : BD = 2 : 1 and AE : CE = 2 : 3. If the area of the triangle ADE is 8 sq cm, then the area of the triangle ABC, in sq cm, is</p>",
+      "answer": "30",
+      "solutionHtml": "<p>Triangles ADE and ABC share angle A, so their areas are in the ratio (AD × AE) : (AB × AC).</p><p>AD/AB = 2/3 and AE/AC = 2/5, so area ADE / area ABC = (2/3)(2/5) = 4/15.</p><p>Area ABC = 8 × 15/4 = <strong>30</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-02",
+      "section": "QA",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Trains",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two trains A and B were moving in opposite directions, their speeds being in the ratio 5 : 3. The front end of A crossed the rear end of B 46 seconds after the front ends of the trains had crossed each other. It took another 69 seconds for the rear ends of the trains to cross each other. The ratio of length of train A to that of train B is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3 : 2"
+        },
+        {
+          "id": "B",
+          "textHtml": "2 : 1"
+        },
+        {
+          "id": "C",
+          "textHtml": "5 : 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "2 : 3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the relative speed be r (the trains move in opposite directions, so r = 5k + 3k = 8k).</p><p>From the moment the fronts meet, the front of A reaches the rear of B after a relative distance equal to the length of B: L<sub>B</sub> = 46r.</p><p>The rear ends cross when the relative distance covered equals L<sub>A</sub> + L<sub>B</sub>, which takes 46 + 69 = 115 s: L<sub>A</sub> + L<sub>B</sub> = 115r, so L<sub>A</sub> = 69r.</p><p>L<sub>A</sub> : L<sub>B</sub> = 69 : 46 = <strong>3 : 2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-03",
+      "section": "QA",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Partnership",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anil, Bobby and Chintu jointly invest in a business and agree to share the overall profit in proportion to their investments. Anil’s share of investment is 70%. His share of profit decreases by Rs. 420 if the overall profit goes down from 18% to 15%. Chintu’s share of profit increases by Rs. 80 if the overall profit goes up from 15% to 17%. The amount, in INR, invested by Bobby is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2200"
+        },
+        {
+          "id": "B",
+          "textHtml": "2400"
+        },
+        {
+          "id": "C",
+          "textHtml": "2000"
+        },
+        {
+          "id": "D",
+          "textHtml": "1800"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let the total investment be I. A 3% fall in profit is 0.03I in total, and Anil loses 70% of it: 0.7 × 0.03I = 420, so <strong>I = 20000</strong>.</p><p>A 2% rise is 0.02I = 400 in total, and Chintu gains 80 of it, i.e. 20%. So Chintu invested 4000.</p><p>Bobby = 20000 − 14000 − 4000 = <strong>2000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-04",
+      "section": "QA",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Quadrilaterals",
+      "difficulty": "medium",
+      "stemHtml": "<p>The sides AB and CD of a trapezium ABCD are parallel, with AB being the smaller side. P is the midpoint of CD and ABPD is a parallelogram. If the difference between the areas of the parallelogram ABPD and the triangle BPC is 10 sq cm, then the area, in sq cm, of the trapezium ABCD is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "40"
+        },
+        {
+          "id": "B",
+          "textHtml": "25"
+        },
+        {
+          "id": "C",
+          "textHtml": "20"
+        },
+        {
+          "id": "D",
+          "textHtml": "30"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>ABPD is a parallelogram, so DP = AB. P is the midpoint of CD, so PC = DP = AB and CD = 2AB. Let h be the height.</p><p>Parallelogram ABPD = AB·h. Triangle BPC = ½·PC·h = ½·AB·h. Difference = ½·AB·h = 10, so <strong>AB·h = 20</strong>.</p><p>Trapezium = ½(AB + 2AB)·h = 1.5·AB·h = <strong>30</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-05",
+      "section": "QA",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & profit",
+      "difficulty": "medium",
+      "stemHtml": "<p>A person buys tea of three different qualities at Rs. 800, Rs. 500, and Rs. 300 per kg, respectively, and the amounts bought are in the proportion 2 : 3 : 5. She mixes all the tea and sells one-sixth of the mixture at Rs. 700 per kg. The price, in INR per kg, at which she should sell the remaining tea, to make an overall profit of 50%, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "688"
+        },
+        {
+          "id": "B",
+          "textHtml": "675"
+        },
+        {
+          "id": "C",
+          "textHtml": "653"
+        },
+        {
+          "id": "D",
+          "textHtml": "692"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Take 2, 3 and 5 kg (10 kg in all). Cost = 1600 + 1500 + 1500 = 4600, so the target revenue = 1.5 × 4600 = 6900.</p><p>One-sixth (10/6 kg) sold at 700 gives 7000/6. The remaining 50/6 kg must bring in 6900 − 7000/6 = 34400/6.</p><p>Price = (34400/6) ÷ (50/6) = 34400/50 = <strong>688</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-06",
+      "section": "QA",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Rhombus",
+      "difficulty": "medium",
+      "stemHtml": "<p>If a rhombus has area 12 sq cm and side length 5 cm, then the length, in cm, of its longer diagonal is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "√13 + √12"
+        },
+        {
+          "id": "B",
+          "textHtml": "√37 + √13"
+        },
+        {
+          "id": "C",
+          "textHtml": "(√13 + √12)/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "(√37 + √13)/2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>With diagonals p and q: area = pq/2 = 12, so pq = 24. The half-diagonals and a side form a right triangle: (p/2)<sup>2</sup> + (q/2)<sup>2</sup> = 25, so p<sup>2</sup> + q<sup>2</sup> = 100.</p><p>(p + q)<sup>2</sup> = 100 + 48 = 148, so p + q = 2√37. (p − q)<sup>2</sup> = 100 − 48 = 52, so p − q = 2√13.</p><p>Longer diagonal p = √37 + √13 (≈ 9.69, while q ≈ 2.48 and pq = 37 − 13 = 24 ✓). Answer: <strong>√37 + √13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-07",
+      "section": "QA",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Three positive integers x, y and z are in arithmetic progression. If y − x &gt; 2 and xyz = 5(x + y + z), then z − x equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "14"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Write x = y − d, z = y + d with d = y − x &gt; 2. Then x + y + z = 3y, and the equation becomes (y − d)·y·(y + d) = 15y, i.e. <strong>(y − d)(y + d) = 15</strong>.</p><p>Both factors are positive integers: 1 × 15 gives y = 8, d = 7, and 3 × 5 gives y = 4, d = 1 (rejected, since d &gt; 2).</p><p>So x, y, z = 1, 8, 15 (check: 120 = 5 × 24). z − x = <strong>14</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-08",
+      "section": "QA",
+      "number": 8,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Digits",
+      "difficulty": "easy",
+      "stemHtml": "<p>For a 4-digit number, the sum of its digits in the thousands, hundreds and tens places is 14, the sum of its digits in the hundreds, tens and units places is 15, and the tens place digit is 4 more than the units place digit. Then the highest possible 4-digit number satisfying the above conditions is</p>",
+      "answer": "4195",
+      "solutionHtml": "<p>Let the number be abcd. Subtracting a + b + c = 14 from b + c + d = 15 gives <strong>d = a + 1</strong>, and c = d + 4.</p><p>c ≤ 9 gives d ≤ 5, so a = d − 1 ≤ 4. To maximise the number, maximise a: a = 4, d = 5, c = 9, b = 14 − 4 − 9 = 1.</p><p>Number = <strong>4195</strong> (check: 4+1+9 = 14, 1+9+5 = 15, 9 = 5 + 4).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-09",
+      "section": "QA",
+      "number": 9,
+      "type": "TITA",
+      "topic": "Modern Maths",
+      "subtopic": "Distributions",
+      "difficulty": "easy",
+      "stemHtml": "<p>The number of ways of distributing 15 identical balloons, 6 identical pencils and 3 identical erasers among 3 children, such that each child gets at least four balloons and one pencil, is</p>",
+      "answer": "1000",
+      "solutionHtml": "<p>The three items are distributed independently, so multiply the counts.</p><p>Balloons: after giving 4 to each, 3 remain for 3 children: C(3+2, 2) = 10.</p><p>Pencils: after giving 1 to each, 3 remain: C(5, 2) = 10.</p><p>Erasers: 3 identical among 3 children, no restriction: C(5, 2) = 10.</p><p>Total = 10 × 10 × 10 = <strong>1000</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-10",
+      "section": "QA",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Exponents",
+      "difficulty": "medium",
+      "stemHtml": "<p>For all possible integers n satisfying 2.25 ≤ 2 + 2<sup>n + 2</sup> ≤ 202, the number of integer values of 3 + 3<sup>n + 1</sup> is</p>",
+      "answer": "7",
+      "solutionHtml": "<p>Subtract 2: 0.25 ≤ 2<sup>n+2</sup> ≤ 200, i.e. 2<sup>−2</sup> ≤ 2<sup>n+2</sup> ≤ 200 &lt; 2<sup>8</sup>. So −2 ≤ n + 2 ≤ 7, giving <strong>n = −4, −3, …, 5</strong> (10 values).</p><p>3 + 3<sup>n+1</sup> is an integer only when n + 1 ≥ 0, i.e. n = −1, 0, 1, …, 5.</p><p>That is <strong>7</strong> values (4, 6, 12, 30, 84, 246, 732).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-11",
+      "section": "QA",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>Raj invested Rs. 10000 in a fund. At the end of first year, he incurred a loss but his balance was more than Rs. 5000. This balance, when invested for another year, grew and the percentage of growth in the second year was five times the percentage of loss in the first year. If the gain of Raj from the initial investment over the two year period is 35%, then the percentage of loss in the first year is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10"
+        },
+        {
+          "id": "B",
+          "textHtml": "15"
+        },
+        {
+          "id": "C",
+          "textHtml": "70"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the loss be p (as a fraction). Then (1 − p)(1 + 5p) = 1.35, so 1 + 4p − 5p<sup>2</sup> = 1.35, i.e. 100p<sup>2</sup> − 80p + 7 = 0, i.e. (10p − 1)(10p − 7) = 0.</p><p>p = 0.1 or 0.7. A 70% loss would leave Rs. 3000, below Rs. 5000, so p = 0.1.</p><p><strong>Quick check:</strong> 10000 → 9000 → 9000 × 1.5 = 13500, a 35% gain. Answer: <strong>10</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-12",
+      "section": "QA",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Pipes & cisterns",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two pipes A and B are attached to an empty water tank. Pipe A fills the tank while pipe B drains it. If pipe A is opened at 2 pm and pipe B is opened at 3 pm, then the tank becomes full at 10 pm. Instead, if pipe A is opened at 2 pm and pipe B is opened at 4 pm, then the tank becomes full at 6 pm. If pipe B is not opened at all, then the time, in minutes, taken to fill the tank is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "264"
+        },
+        {
+          "id": "B",
+          "textHtml": "144"
+        },
+        {
+          "id": "C",
+          "textHtml": "140"
+        },
+        {
+          "id": "D",
+          "textHtml": "120"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let A fill a tank per hour and B drain b per hour.</p><p>Case 1: A runs 8 h, B 7 h: 8a − 7b = 1. Case 2: A runs 4 h, B 2 h: 4a − 2b = 1, i.e. 8a − 4b = 2.</p><p>Subtract: 3b = 1, so b = 1/3. Then 4a = 1 + 2/3, so <strong>a = 5/12</strong>.</p><p>A alone takes 12/5 h = <strong>144</strong> minutes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-13",
+      "section": "QA",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>A box has 450 balls, each either white or black, there being as many metallic white balls as metallic black balls. If 40% of the white balls and 50% of the black balls are metallic, then the number of non-metallic balls in the box is</p>",
+      "answer": "250",
+      "solutionHtml": "<p>0.4W = 0.5B, so W : B = 5 : 4. With W + B = 450: W = 250, B = 200.</p><p>Metallic = 100 + 100 = 200, so non-metallic = 450 − 200 = <strong>250</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-14",
+      "section": "QA",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions – range",
+      "difficulty": "medium",
+      "stemHtml": "<p>For all real values of x, the range of the function f(x) = (x<sup>2</sup> + 2x + 4)/(2x<sup>2</sup> + 4x + 9) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(3/7, 1/2)"
+        },
+        {
+          "id": "B",
+          "textHtml": "[3/7, 1/2)"
+        },
+        {
+          "id": "C",
+          "textHtml": "[3/7, 8/9)"
+        },
+        {
+          "id": "D",
+          "textHtml": "[4/9, 8/9]"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Put t = (x + 1)<sup>2</sup> ≥ 0. Then x<sup>2</sup> + 2x + 4 = t + 3 and 2x<sup>2</sup> + 4x + 9 = 2t + 7, so <strong>f = (t + 3)/(2t + 7)</strong>.</p><p>f = 1/2 − 1/(2(2t + 7)), which increases with t. At t = 0 (x = −1), f = 3/7, which is attained. As t → ∞, f → 1/2 but never reaches it.</p><p>Range = <strong>[3/7, 1/2)</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-15",
+      "section": "QA",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Logarithms",
+      "difficulty": "easy",
+      "stemHtml": "<p>If log<sub>2</sub> [3 + log<sub>3</sub> {4 + log<sub>4</sub> (x − 1)}] − 2 = 0, then 4x equals</p>",
+      "answer": "5",
+      "solutionHtml": "<p>Peel off one log at a time:</p><p>log<sub>2</sub>[…] = 2, so 3 + log<sub>3</sub>{…} = 4, so log<sub>3</sub>{…} = 1, so 4 + log<sub>4</sub>(x − 1) = 3, so log<sub>4</sub>(x − 1) = −1, so x − 1 = 1/4.</p><p>x = 5/4, so 4x = <strong>5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-16",
+      "section": "QA",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>Consider the pair of equations: x<sup>2</sup> − xy − x = 22 and y<sup>2</sup> − xy + y = 34. If x &gt; y, then x − y equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Factor: x(x − y − 1) = 22 and y(y − x + 1) = 34, i.e. −y(x − y − 1) = 34.</p><p><strong>Add them</strong>: (x − y)(x − y − 1) = 56. With u = x − y: u<sup>2</sup> − u − 56 = 0, so u = 8 or −7.</p><p>Since x &gt; y, x − y = <strong>8</strong> (e.g. x = 22/7, y = −34/7).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-17",
+      "section": "QA",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Sequences",
+      "difficulty": "medium",
+      "stemHtml": "<p>For a sequence of real numbers x<sub>1</sub>, x<sub>2</sub>, …, x<sub>n</sub>, if x<sub>1</sub> − x<sub>2</sub> + x<sub>3</sub> − … + (−1)<sup>n + 1</sup> x<sub>n</sub> = n<sup>2</sup> + 2n for all natural numbers n, then the sum x<sub>49</sub> + x<sub>50</sub> equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "200"
+        },
+        {
+          "id": "B",
+          "textHtml": "−2"
+        },
+        {
+          "id": "C",
+          "textHtml": "2"
+        },
+        {
+          "id": "D",
+          "textHtml": "−200"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let S<sub>n</sub> = n<sup>2</sup> + 2n. Then (−1)<sup>n+1</sup>x<sub>n</sub> = S<sub>n</sub> − S<sub>n−1</sub> = 2n + 1.</p><p>x<sub>49</sub> = +99 and x<sub>50</sub> = −101.</p><p>Sum = <strong>−2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-18",
+      "section": "QA",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures – replacement",
+      "difficulty": "easy",
+      "stemHtml": "<p>From a container filled with milk, 9 litres of milk are drawn and replaced with water. Next, from the same container, 9 litres are drawn and again replaced with water. If the volumes of milk and water in the container are now in the ratio of 16 : 9, then the capacity of the container, in litres, is</p>",
+      "answer": "45",
+      "solutionHtml": "<p>After two replacements, the milk fraction is (1 − 9/V)<sup>2</sup> = 16/25.</p><p>1 − 9/V = 4/5, so 9/V = 1/5 and V = <strong>45</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-19",
+      "section": "QA",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Modulus",
+      "difficulty": "medium",
+      "stemHtml": "<p>For a real number x the condition |3x − 20| + |3x − 40| = 20 necessarily holds if</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7 &lt; x &lt; 12"
+        },
+        {
+          "id": "B",
+          "textHtml": "9 &lt; x &lt; 14"
+        },
+        {
+          "id": "C",
+          "textHtml": "10 &lt; x &lt; 15"
+        },
+        {
+          "id": "D",
+          "textHtml": "6 &lt; x &lt; 11"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>|a − 20| + |a − 40| ≥ 20, with equality <strong>exactly when 20 ≤ a ≤ 40</strong> (a between the two points). With a = 3x: 20/3 ≤ x ≤ 40/3, i.e. about 6.67 ≤ x ≤ 13.33.</p><p>The condition holds for every x in the option only if the interval lies inside [6.67, 13.33]. Only <strong>7 &lt; x &lt; 12</strong> does. The others include values such as 13.5, 14.5 or 6.5.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-20",
+      "section": "QA",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a football tournament, a player has played a certain number of matches and 10 more matches are to be played. If he scores a total of one goal over the next 10 matches, his overall average will be 0.15 goals per match. On the other hand, if he scores a total of two goals over the next 10 matches, his overall average will be 0.2 goals per match. The number of matches he has played is</p>",
+      "answer": "10",
+      "solutionHtml": "<p>The total number of matches N is the same in both scenarios. One extra goal raises the average by 0.05, so N = 1/0.05 = 20.</p><p>Matches already played = 20 − 10 = <strong>10</strong> (he has scored 2 goals so far: 3/20 = 0.15 ✓).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-21",
+      "section": "QA",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose one of the roots of the equation ax<sup>2</sup> − bx + c = 0 is 2 + √3, where a, b and c are rational numbers and a ≠ 0. If b = c<sup>3</sup> then |a| equals</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "1"
+        },
+        {
+          "id": "D",
+          "textHtml": "3"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The coefficients are rational, so the other root is the conjugate <strong>2 − √3</strong>.</p><p>Sum of roots = b/a = 4, so b = 4a. Product = c/a = 1, so c = a.</p><p>b = c<sup>3</sup> gives 4a = a<sup>3</sup>, so a<sup>2</sup> = 4 (a ≠ 0) and |a| = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "QA-22",
+      "section": "QA",
+      "number": 22,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "easy",
+      "stemHtml": "<p>Anil can paint a house in 60 days while Bimal can paint it in 84 days. Anil starts painting and after 10 days, Bimal and Charu join him. Together, they complete the painting in 14 more days. If they are paid a total of Rs. 21000 for the job, then the share of Charu, in INR, proportionate to the work done by him, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9100"
+        },
+        {
+          "id": "B",
+          "textHtml": "9150"
+        },
+        {
+          "id": "C",
+          "textHtml": "9000"
+        },
+        {
+          "id": "D",
+          "textHtml": "9200"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Anil works 24 days: 24/60 = 2/5 of the job. Bimal works 14 days: 14/84 = 1/6.</p><p>Charu does 1 − 2/5 − 1/6 = (30 − 12 − 5)/30 = <strong>13/30</strong>.</p><p>Share = 21000 × 13/30 = <strong>9100</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2021 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}

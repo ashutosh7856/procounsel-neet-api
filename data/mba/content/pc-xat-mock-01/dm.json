@@ -1,0 +1,867 @@
+{
+  "sets": [
+    {
+      "key": "DM-S1",
+      "kind": "passage",
+      "section": "DM",
+      "title": "Expense claims at Northfield Foods",
+      "contentHtml": "<p>Meera Iyer heads the western-region sales team of Northfield Foods, a mid-sized packaged-foods company. Rakesh, the best performer in her team, has beaten his target by about 40% for three consecutive quarters and is widely expected to be promoted to area manager next month.</p><p>While approving quarterly expenses, Meera notices that several of Rakesh's travel claims show taxi fares for days on which the GPS log of his company-provided two-wheeler shows him riding the same routes. Over six months the excess claimed comes to about ₹18,000. Northfield's code of conduct says that any suspected misreporting of expenses must be referred to the HR compliance cell, which investigates and recommends action ranging from recovery and a written warning to termination, depending on intent and amount. The code expressly forbids managers from \"settling\" such matters privately.</p><p>Meera knows that Rakesh is supporting an ailing parent. She also knows that losing him just before the festive season could cost the region its annual target, and cost her a part of her own bonus. Last week two other members of the team asked her, half-jokingly, whether \"top performers get a different rulebook\".</p>"
+    },
+    {
+      "key": "DM-S2",
+      "kind": "passage",
+      "section": "DM",
+      "title": "Staffing four client projects",
+      "contentHtml": "<p>Arora &amp; Bhatt Advisory has four consultants — P, Q, R and S — and four client projects — W, X, Y and Z — starting together. Each consultant leads exactly one project and each project gets exactly one consultant. Because of differences in experience and travel, the cost to the firm (in ₹ lakh) of each consultant leading each project is:</p><table><tr><th>Consultant</th><th>W</th><th>X</th><th>Y</th><th>Z</th></tr><tr><td>P</td><td>14</td><td>10</td><td>18</td><td>12</td></tr><tr><td>Q</td><td>11</td><td>13</td><td>15</td><td>16</td></tr><tr><td>R</td><td>17</td><td>12</td><td>11</td><td>14</td></tr><tr><td>S</td><td>13</td><td>15</td><td>16</td><td>10</td></tr></table><p>The managing partner wants the assignment that minimises the total cost to the firm.</p>"
+    },
+    {
+      "key": "DM-S3",
+      "kind": "passage",
+      "section": "DM",
+      "title": "The Kalindi Dairy contract",
+      "contentHtml": "<p>Kalindi Dairy Cooperative collects milk from about 1,200 small farmer-members and sells branded milk and paneer through roughly 400 neighbourhood shops in one city. The shops are loyal but pay on average 60 days after delivery, and twice this year the cooperative has had to delay payments to its members. Some members have begun selling part of their milk to private collectors who pay cash.</p><p>A large supermarket chain has now offered a three-year contract to buy 60% of Kalindi's output. It will pay within 7 days, but at a price about 8% below Kalindi's current average realisation, and it wants Kalindi to stop supplying its branded paneer to any other retailer in the city for the contract period. The cooperative's board, made up of elected farmer-members, must decide how to respond. Board members are divided: some see the contract as a lifeline, others fear that the cooperative will become dependent on a single buyer and lose the shop network it has built over twenty years.</p>"
+    },
+    {
+      "key": "DM-S4",
+      "kind": "passage",
+      "section": "DM",
+      "title": "Choosing a task force",
+      "contentHtml": "<p>The CEO of a logistics company wants a four-member task force to redesign the company's returns process. Seven managers are available: Anil and Bela from Finance; Chetan and Divya from Marketing; Esha and Farhan from Operations; and Gopal from HR. The task force must satisfy all of the following conditions:</p><ul><li>It must include at least one member each from Finance, Marketing and Operations.</li><li>Bela and Divya, who have a long-running dispute, cannot both be selected.</li><li>If Esha is selected, Gopal must also be selected.</li><li>Chetan and Farhan are jointly running a pilot, so either both are selected or neither is.</li></ul>"
+    },
+    {
+      "key": "DM-S5",
+      "kind": "passage",
+      "section": "DM",
+      "title": "A data leak at Kitebox",
+      "contentHtml": "<p>Nisha founded Kitebox, an online tutoring start-up for school students. On a Monday, a security researcher informs her that a server run by one of Kitebox's vendors was misconfigured and had exposed the names, phone numbers and school names of about 40,000 students for roughly two weeks. Kitebox's engineers close the gap within hours. There is no evidence so far that anyone copied the data.</p><p>Kitebox's privacy policy and the data-protection rules that apply to it require the company to inform the regulator and the affected users of such a breach promptly. Kitebox is also ten days away from signing a funding round; the investors' due-diligence questionnaire asks whether the company has had any data-security incident in the last twelve months. Kitebox's CTO argues that since nothing appears to have been misused, notifying families will only cause panic, and that the matter can be \"handled quietly\" after the funding closes.</p>"
+    },
+    {
+      "key": "DM-S6",
+      "kind": "passage",
+      "section": "DM",
+      "title": "Kitchen contracts for a food festival",
+      "contentHtml": "<p>A caterer will run a stall at a month-long food festival, selling a single thali at ₹100. She must choose one of three kitchen arrangements offered by the organisers:</p><ul><li><strong>Alpha:</strong> a fixed fee of ₹60,000 for the month; her cost per thali (ingredients, staff, fuel) is then ₹40.</li><li><strong>Beta:</strong> no fixed fee; the organisers supply everything and charge her ₹70 per thali sold.</li><li><strong>Gamma:</strong> a fixed fee of ₹36,000; the organisers supply some inputs, and her cost per thali is ₹50.</li></ul><p>From past festivals she estimates that she will sell 1,500 thalis with probability 0.3, 2,500 thalis with probability 0.5 and 4,000 thalis with probability 0.2. Ignore all other costs.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DM-01",
+      "section": "DM",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DM-S1",
+      "topic": "Decision Making",
+      "subtopic": "Ethics and HR policy",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the most appropriate first step for Meera?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Quietly ask Rakesh to repay ₹18,000 and warn him that any repetition will be reported."
+        },
+        {
+          "id": "B",
+          "textHtml": "Wait until the festive season is over and then decide whether to raise the matter."
+        },
+        {
+          "id": "C",
+          "textHtml": "Refer the discrepancy, with the supporting records, to the HR compliance cell without presuming that Rakesh is guilty, and keep the matter confidential."
+        },
+        {
+          "id": "D",
+          "textHtml": "Reject all of Rakesh's pending claims and withhold his incentive for the quarter."
+        },
+        {
+          "id": "E",
+          "textHtml": "Discuss the case at the next team meeting to show that nobody is above the rules."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Principle:</strong> follow the organisation's due process — the code of conduct requires referral to the compliance cell, and a fair process neither prejudges nor publicises an allegation.</p><p>Option C does exactly this: it hands the evidence to the body that is supposed to judge intent and amount, and protects Rakesh's reputation until a finding is made.</p><p>Option B lets Meera's own bonus and the festive target delay a mandatory step — a clear conflict of interest. Option A is a private settlement, which the code expressly forbids. Option D punishes Rakesh before any investigation. Option E breaches confidentiality and publicly prejudges a case that has not been investigated.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-02",
+      "section": "DM",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DM-S1",
+      "topic": "Decision Making",
+      "subtopic": "Ethics and HR policy",
+      "difficulty": "medium",
+      "stemHtml": "<p>When Meera tells Rakesh that the matter has been referred, he says that \"everyone in the field does this\" and that inflated taxi claims are an informal way of making up for low daily allowances. Which response by Meera is the most appropriate?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Raise the daily allowance for her own team on her own authority so that nobody needs to inflate claims."
+        },
+        {
+          "id": "B",
+          "textHtml": "Withdraw the referral, because the practice seems widespread and singling out Rakesh would be unfair."
+        },
+        {
+          "id": "C",
+          "textHtml": "Tell Rakesh that what others do is irrelevant and refuse to discuss the allowance issue at all."
+        },
+        {
+          "id": "D",
+          "textHtml": "Ask Rakesh to name the colleagues who do the same, so that they can be reported along with him."
+        },
+        {
+          "id": "E",
+          "textHtml": "Tell Rakesh that his explanation can be placed before the compliance cell, and separately inform senior management that the allowance structure — and possibly other employees' claims — may need review."
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p><strong>Principle:</strong> an individual case goes through due process, while a possible systemic cause is raised through the proper channel — both, not one instead of the other.</p><p>Option E gives Rakesh a fair hearing (his explanation reaches the body that decides) and addresses the root cause he points to without excusing the misreporting.</p><p>Option B: a wrong does not become acceptable because it may be common; withdrawing the referral also breaks the code. Option C ignores a possibly genuine problem that could be causing wider misreporting. Option D turns an investigation into pressure on Rakesh to inform on colleagues on the basis of hearsay. Option A is outside a regional manager's authority and treats the symptom, not the policy.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-03",
+      "section": "DM",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "DM-S1",
+      "topic": "Decision Making",
+      "subtopic": "Ethics and HR policy",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is the strongest argument against making an exception for Rakesh because of his performance?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "If rules are enforced only against average performers, employees learn that results can buy immunity, which erodes trust and invites further violations."
+        },
+        {
+          "id": "B",
+          "textHtml": "Rakesh's sales figures might themselves be overstated."
+        },
+        {
+          "id": "C",
+          "textHtml": "₹18,000 is large enough to hurt the company's profits."
+        },
+        {
+          "id": "D",
+          "textHtml": "Rakesh's family situation is a private matter that Meera should not take into account at all."
+        },
+        {
+          "id": "E",
+          "textHtml": "Promoting Rakesh would upset the two team members who joked about the rulebook."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Principle:</strong> consistency — the argument must explain why performance should not change how a rule is applied.</p><p>Option A does so directly: selective enforcement teaches the whole team that rules are negotiable for high performers, and the team's joke shows this perception is already forming.</p><p>Option B is speculation with no basis in the case. Option C is weak — the amount is small for a company; the issue is integrity, not the sum. Option D is about compassion, not about the exception for performance, and circumstances may legitimately affect the penalty. Option E concerns morale over one promotion, a much narrower point than the integrity of the system.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-04",
+      "section": "DM",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DM-S1",
+      "topic": "Decision Making",
+      "subtopic": "Ethics and HR policy",
+      "difficulty": "hard",
+      "stemHtml": "<p>The compliance cell concludes that the misreporting was deliberate but small. It recommends recovery of the amount, a written warning, and postponing Rakesh's promotion by one cycle. Rakesh then threatens to resign and join a competitor. What should Meera do?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Ask the compliance cell to drop the promotion deferral so that Rakesh is not tempted to leave."
+        },
+        {
+          "id": "B",
+          "textHtml": "Accept the outcome, explain it to Rakesh clearly, encourage him to stay and rebuild his record, and start contingency planning for his territory in case he leaves."
+        },
+        {
+          "id": "C",
+          "textHtml": "Offer Rakesh a personal payment from her own bonus so that he stays through the festive season."
+        },
+        {
+          "id": "D",
+          "textHtml": "Warn Rakesh that if he resigns she will tell the competitor about the investigation."
+        },
+        {
+          "id": "E",
+          "textHtml": "Overrule the recommendation and promote him, since the money has been recovered."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Principle:</strong> respect the outcome of a fair process while managing the business risk legitimately.</p><p>Option B upholds the decision, treats Rakesh with respect (the penalty is proportionate and leaves him a path back), and protects the region against the risk of his departure.</p><p>Option A and Option E let a resignation threat undo a legitimate finding, which is exactly the double standard the team suspects. Option C is an improper side payment that rewards the threat. Option D is retaliation and a breach of confidentiality.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-05",
+      "section": "DM",
+      "number": 5,
+      "type": "MCQ",
+      "setKey": "DM-S2",
+      "topic": "Decision Making",
+      "subtopic": "Assignment problem",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the minimum total cost (in ₹ lakh) at which all four projects can be staffed?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "46"
+        },
+        {
+          "id": "B",
+          "textHtml": "40"
+        },
+        {
+          "id": "C",
+          "textHtml": "44"
+        },
+        {
+          "id": "D",
+          "textHtml": "42"
+        },
+        {
+          "id": "E",
+          "textHtml": "48"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Each consultant's cheapest project: P→X (10), Q→W (11), R→Y (11), S→Z (10). These four projects are all different, so this is a valid assignment and no assignment can cost less than the sum of each consultant's minimum.</p><p>Total = 10 + 11 + 11 + 10 = <strong>42</strong>. (40 is impossible: it is below the sum of the row minima.) Checking all 24 possible assignments confirms 42 is the unique minimum; the next best costs 48.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-06",
+      "section": "DM",
+      "number": 6,
+      "type": "MCQ",
+      "setKey": "DM-S2",
+      "topic": "Decision Making",
+      "subtopic": "Assignment problem",
+      "difficulty": "medium",
+      "stemHtml": "<p>P is suddenly unavailable. The firm can hire a freelancer, T, whose costs (₹ lakh) for W, X, Y and Z would be 12, 11, 14 and 13 respectively. What is the new minimum total cost?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "43"
+        },
+        {
+          "id": "B",
+          "textHtml": "42"
+        },
+        {
+          "id": "C",
+          "textHtml": "44"
+        },
+        {
+          "id": "D",
+          "textHtml": "45"
+        },
+        {
+          "id": "E",
+          "textHtml": "46"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The new consultants are Q, R, S and T. Q→W (11), R→Y (11) and S→Z (10) are still each consultant's cheapest choice and leave X for T at 11, which is also T's cheapest project.</p><p>Total = 11 + 11 + 10 + 11 = <strong>43</strong>. Since every consultant gets his own minimum, nothing cheaper exists (checking all 24 assignments confirms it; the next best is 46). 42 would need T to cost 10 on X, which it does not.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-07",
+      "section": "DM",
+      "number": 7,
+      "type": "MCQ",
+      "setKey": "DM-S2",
+      "topic": "Decision Making",
+      "subtopic": "Assignment problem",
+      "difficulty": "hard",
+      "stemHtml": "<p>Suppose the cost of P leading project X rises (all other costs unchanged). By more than how much (in ₹ lakh) must it rise before assigning P to X can no longer be part of any minimum-cost plan?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        },
+        {
+          "id": "E",
+          "textHtml": "6"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>The best plan with P on X costs 42 and contains P–X once, so each ₹1 lakh rise adds ₹1 lakh to it.</p><p>The best plan that does <em>not</em> use P on X: try all assignments with P on W, Y or Z. P→W (14), Q→X (13), R→Y (11), S→Z (10) = 48 is the cheapest such plan (checking all 18 assignments without P on X confirms nothing costs less than 48).</p><p>So the P–X plan remains optimal as long as 42 + rise ≤ 48, i.e. a rise of up to 6 (at exactly 6 the two plans tie). Only when the rise exceeds <strong>6</strong> does P leave X in every optimal plan. Options 2, 3 and 4 are too small (the P–X plan still costs less than 48); at 8 the switch has already happened, but the threshold is 6.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-08",
+      "section": "DM",
+      "number": 8,
+      "type": "MCQ",
+      "setKey": "DM-S3",
+      "topic": "Decision Making",
+      "subtopic": "Business strategy",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is the most appropriate course of action for Kalindi's board?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Accept the contract exactly as offered, since prompt payment is the cooperative's most urgent need."
+        },
+        {
+          "id": "B",
+          "textHtml": "Negotiate a smaller volume share with an exit clause and a narrower or time-limited exclusivity, so that the chain's prompt payments ease cash flow while the shop network is retained."
+        },
+        {
+          "id": "C",
+          "textHtml": "Reject the offer outright to protect the twenty-year-old shop network."
+        },
+        {
+          "id": "D",
+          "textHtml": "Accept the contract and stop supplying the neighbourhood shops altogether to simplify operations."
+        },
+        {
+          "id": "E",
+          "textHtml": "Postpone the decision for a year to see whether the shops start paying faster."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Principle:</strong> solve the urgent problem (members' payments) without creating a bigger long-term risk (dependence on one buyer and loss of the shop channel).</p><p>Option B uses the chain's offer to fix cash flow, limits concentration risk through a smaller share and an exit clause, and narrows exclusivity so the shops — which the members built over twenty years — are not lost.</p><p>Option A solves cash flow but locks 60% of output and the city paneer market into one buyer for three years. Option C ignores the payment crisis that is already driving members away. Option D maximises dependence. Option E lets the payment problem — and member defections — continue with no reason to expect improvement.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-09",
+      "section": "DM",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "DM-S3",
+      "topic": "Decision Making",
+      "subtopic": "Business strategy",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following, if true, most strengthens the case for accepting the chain's offer largely as proposed?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Kalindi's paneer is more popular than its milk among supermarket shoppers."
+        },
+        {
+          "id": "B",
+          "textHtml": "The chain has recently signed similar contracts with two other dairies in nearby cities."
+        },
+        {
+          "id": "C",
+          "textHtml": "The neighbourhood shops have promised to remain loyal to Kalindi's brand."
+        },
+        {
+          "id": "D",
+          "textHtml": "A survey shows that a third of members will leave the cooperative within six months if payments are delayed again, and the cooperative cannot fund faster payments any other way."
+        },
+        {
+          "id": "E",
+          "textHtml": "The 8% price cut is smaller than the price cut the chain demanded from another supplier."
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The case for accepting rests on how urgent and unavoidable the cash-flow problem is. Option D shows that without prompt payments the cooperative may lose a third of its members — its very supply base — and that there is no alternative source of funds. That makes the chain's prompt payment worth the lower price and the exclusivity.</p><p>Option B says nothing about whether the deal is good for Kalindi. Option C actually supports keeping the shops. Option A is about product popularity, not about the terms. Option E is a comparison with another supplier and does not change Kalindi's own trade-off.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-10",
+      "section": "DM",
+      "number": 10,
+      "type": "MCQ",
+      "setKey": "DM-S3",
+      "topic": "Decision Making",
+      "subtopic": "Business strategy",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following is LEAST relevant to the board's decision?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The cost of financing 60-day credit to the shops through a bank loan."
+        },
+        {
+          "id": "B",
+          "textHtml": "The chain's record of renewing or cancelling supplier contracts after the first term."
+        },
+        {
+          "id": "C",
+          "textHtml": "The chain's chief executive studied at the same college as the cooperative's chairman."
+        },
+        {
+          "id": "D",
+          "textHtml": "Whether members would accept a lower price in exchange for regular payment."
+        },
+        {
+          "id": "E",
+          "textHtml": "The share of Kalindi's paneer sales that come from the neighbourhood shops."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>The decision turns on cash flow, price, dependence on one buyer and the value of the shop channel. Option B bears on dependence risk, Option A on the alternative way to solve the payment problem, Option D on members' preferences (the board represents them), and Option E on what exclusivity would cost.</p><p>Option C — a personal connection between two executives — has no bearing on the merits of the contract (if anything, it should be disclosed and kept out of the decision).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-11",
+      "section": "DM",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "DM-S4",
+      "topic": "Decision Making",
+      "subtopic": "Selection under constraints",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many different task forces can the CEO form?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "5"
+        },
+        {
+          "id": "B",
+          "textHtml": "4"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        },
+        {
+          "id": "E",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Case 1 — Chetan and Farhan both selected (Marketing and Operations covered); two more, including at least one from Finance, and not Esha unless Gopal is also there (that would need 5 people, so no Esha). From {Anil, Bela, Divya, Gopal} pick 2 with at least one of Anil/Bela and not Bela+Divya: Anil+Bela, Anil+Divya, Anil+Gopal, Bela+Gopal → 4 teams.</p><p>Case 2 — neither Chetan nor Farhan. Then Marketing needs Divya and Operations needs Esha, so Gopal must come too; the fourth member must be from Finance and cannot be Bela (Divya is in): Anil, Divya, Esha, Gopal → 1 team.</p><p>Total = 4 + 1 = <strong>5</strong> (confirmed by checking all 35 groups of four).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-12",
+      "section": "DM",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "DM-S4",
+      "topic": "Decision Making",
+      "subtopic": "Selection under constraints",
+      "difficulty": "easy",
+      "stemHtml": "<p>If Esha is selected, which of the following is the task force?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Anil, Bela, Esha and Gopal"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bela, Chetan, Esha and Gopal"
+        },
+        {
+          "id": "C",
+          "textHtml": "Anil, Chetan, Esha and Farhan"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bela, Divya, Esha and Gopal"
+        },
+        {
+          "id": "E",
+          "textHtml": "Anil, Divya, Esha and Gopal"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Esha requires Gopal. Two places remain, and Finance and Marketing must both be covered, so one is from each. Chetan would bring Farhan (a fifth member), so Marketing must be Divya; then Finance cannot be Bela. Hence <strong>Anil, Divya, Esha, Gopal</strong>.</p><p>Option B has Chetan without Farhan; Option C has Esha without Gopal; Option D pairs Bela with Divya; Option A has no Marketing member.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-13",
+      "section": "DM",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DM-S4",
+      "topic": "Decision Making",
+      "subtopic": "Selection under constraints",
+      "difficulty": "medium",
+      "stemHtml": "<p>If Gopal is not selected, which of the following must be true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Divya is selected."
+        },
+        {
+          "id": "B",
+          "textHtml": "Bela is selected."
+        },
+        {
+          "id": "C",
+          "textHtml": "Anil, Chetan and Farhan are all selected."
+        },
+        {
+          "id": "D",
+          "textHtml": "Exactly one Finance manager is selected."
+        },
+        {
+          "id": "E",
+          "textHtml": "Esha is selected."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Without Gopal, Esha is out, so Operations must be Farhan, which brings Chetan. The remaining two places come from Anil, Bela and Divya, with Bela and Divya not together: Anil + Bela or Anil + Divya. Anil is in both, so <strong>Anil, Chetan and Farhan</strong> are always selected.</p><p>Option B and Option A are each true in only one of the two teams; Option D fails for Anil+Bela (two Finance members); Option E is impossible without Gopal.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-14",
+      "section": "DM",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "DM-S4",
+      "topic": "Decision Making",
+      "subtopic": "Selection under constraints",
+      "difficulty": "hard",
+      "stemHtml": "<p>The dispute between Bela and Divya is resolved, and the CEO drops the condition that they cannot both be selected. All other conditions remain. How many task forces are now possible?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "5"
+        },
+        {
+          "id": "C",
+          "textHtml": "6"
+        },
+        {
+          "id": "D",
+          "textHtml": "7"
+        },
+        {
+          "id": "E",
+          "textHtml": "9"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Only teams containing both Bela and Divya are added to the original 5.</p><p>With Chetan and Farhan: Bela, Divya, Chetan, Farhan — valid (Finance, Marketing, Operations all present, no Esha) → 1 new team.</p><p>Without Chetan and Farhan: Operations needs Esha, who needs Gopal: Bela, Divya, Esha, Gopal — valid → 1 new team.</p><p>Total = 5 + 2 = <strong>7</strong> (confirmed by enumeration).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-15",
+      "section": "DM",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "DM-S5",
+      "topic": "Decision Making",
+      "subtopic": "Business ethics",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the most appropriate course of action for Nisha?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Follow the CTO's advice and deal with the matter after the funding round closes."
+        },
+        {
+          "id": "B",
+          "textHtml": "Notify the regulator and the affected families as required, disclose the incident truthfully in the due-diligence questionnaire, and review the vendor's security arrangements."
+        },
+        {
+          "id": "C",
+          "textHtml": "Notify the regulator but not the families, to avoid panic."
+        },
+        {
+          "id": "D",
+          "textHtml": "Inform the investors privately but not the regulator or the families, since the gap has been fixed."
+        },
+        {
+          "id": "E",
+          "textHtml": "Terminate the vendor immediately and publicly blame it for the breach, without notifying anyone else."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Principle:</strong> legal and contractual obligations and honesty towards those affected come before short-term business convenience.</p><p>Option B meets the notification duty to both the regulator and users, answers the investors truthfully (a false answer would be misrepresentation) and addresses the cause.</p><p>Option A deliberately delays a required notification and implies a false questionnaire answer. Option C and Option D each meet only part of the obligation. Option E shifts blame — Kitebox remains responsible for data it handed to its vendor — and still informs no one who is required to be informed.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-16",
+      "section": "DM",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DM-S5",
+      "topic": "Decision Making",
+      "subtopic": "Business ethics",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is the strongest counter to the CTO's argument that families need not be told because there is no evidence of misuse?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The engineers took several hours, not minutes, to fix the gap."
+        },
+        {
+          "id": "B",
+          "textHtml": "The security researcher may publish the story anyway."
+        },
+        {
+          "id": "C",
+          "textHtml": "Investors generally prefer founders who take risks."
+        },
+        {
+          "id": "D",
+          "textHtml": "Other start-ups have suffered bigger breaches without serious consequences."
+        },
+        {
+          "id": "E",
+          "textHtml": "The duty to notify does not depend on proof of misuse; families need the information to protect themselves, for example against fraudulent calls using their children's details."
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>The CTO's argument is that, without misuse, notice serves no purpose. Option E answers it on both grounds: the obligation is triggered by exposure, not by proven misuse, and the purpose of notice is to let those affected guard against harm that may not yet be visible.</p><p>Option B is a prudential reason (getting caught), not a reason why notification is right. Option C is irrelevant. Option D, if anything, supports the CTO. Option A is a minor operational point that does not touch the argument.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-17",
+      "section": "DM",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DM-S5",
+      "topic": "Decision Making",
+      "subtopic": "Business ethics",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following steps would do most to prevent a similar incident in future?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Share with vendors only the data they actually need, require them to meet defined security standards, and audit their systems periodically."
+        },
+        {
+          "id": "B",
+          "textHtml": "Buy cyber-insurance large enough to cover any future fines."
+        },
+        {
+          "id": "C",
+          "textHtml": "Ask students to stop giving their phone numbers to the platform."
+        },
+        {
+          "id": "D",
+          "textHtml": "Replace the vendor with the cheapest alternative available."
+        },
+        {
+          "id": "E",
+          "textHtml": "Add a clause to the terms of use stating that Kitebox is not liable for vendor errors."
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The breach happened because personal data sat on a vendor's poorly configured server. Option A tackles both causes: data minimisation reduces what can leak, and standards plus audits reduce the chance of misconfiguration.</p><p>Option B shifts financial loss but prevents nothing. Option C pushes the burden onto users and may stop the service working. Option D could worsen security. Option E tries to avoid responsibility rather than reduce risk, and would not override legal duties anyway.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-18",
+      "section": "DM",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "DM-S5",
+      "topic": "Decision Making",
+      "subtopic": "Stakeholder analysis",
+      "difficulty": "medium",
+      "stemHtml": "<p>Whose interests are most directly harmed if Kitebox delays notification until after the funding round?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Kitebox's employees, whose jobs depend on the funding"
+        },
+        {
+          "id": "B",
+          "textHtml": "The new investors, who would pay a slightly higher price for the shares"
+        },
+        {
+          "id": "C",
+          "textHtml": "The vendor, whose reputation would suffer later instead of now"
+        },
+        {
+          "id": "D",
+          "textHtml": "The students and their families, whose exposed details could be misused before they know to be careful"
+        },
+        {
+          "id": "E",
+          "textHtml": "The security researcher, who reported the issue"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The affected data belongs to the students and families; during any delay they remain exposed without being able to protect themselves, which is the most direct harm. Hence Option D.</p><p>The investors in Option B are harmed by concealment, but financially and indirectly — and they could also be protected by a truthful questionnaire answer alone. Option C would, if anything, benefit from the delay. The employees in Option A actually benefit in the short run. Option E is not harmed in any material way.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-19",
+      "section": "DM",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "DM-S6",
+      "topic": "Decision Making",
+      "subtopic": "Decisions under uncertainty",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which arrangement gives the caterer the highest expected profit, and what is that profit?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Beta, ₹75,000"
+        },
+        {
+          "id": "B",
+          "textHtml": "Gamma, ₹89,000"
+        },
+        {
+          "id": "C",
+          "textHtml": "Alpha, ₹90,000"
+        },
+        {
+          "id": "D",
+          "textHtml": "Alpha, ₹1,00,000"
+        },
+        {
+          "id": "E",
+          "textHtml": "Gamma, ₹96,000"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Profit per thali: Alpha ₹60 (minus ₹60,000 fixed), Beta ₹30, Gamma ₹50 (minus ₹36,000 fixed).</p><p>Expected sales = 0.3 × 1,500 + 0.5 × 2,500 + 0.2 × 4,000 = 450 + 1,250 + 800 = 2,500 thalis. Since profit is linear in sales, expected profit = profit at 2,500:</p><ul><li>Alpha: 60 × 2,500 − 60,000 = ₹90,000</li><li>Beta: 30 × 2,500 = ₹75,000</li><li>Gamma: 50 × 2,500 − 36,000 = ₹89,000</li></ul><p>The highest is <strong>Alpha, ₹90,000</strong> — only ₹1,000 ahead of Gamma, so Option B is the close trap.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-20",
+      "section": "DM",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "DM-S6",
+      "topic": "Decision Making",
+      "subtopic": "Decisions under uncertainty",
+      "difficulty": "medium",
+      "stemHtml": "<p>The caterer has a large loan to repay and wants to choose the arrangement whose profit in the <em>worst</em> demand scenario is as high as possible. Which should she choose?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Alpha"
+        },
+        {
+          "id": "B",
+          "textHtml": "Beta"
+        },
+        {
+          "id": "C",
+          "textHtml": "Gamma"
+        },
+        {
+          "id": "D",
+          "textHtml": "Alpha and Gamma are equally good"
+        },
+        {
+          "id": "E",
+          "textHtml": "All three are equally good"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>The worst scenario is 1,500 thalis. Profits then: Alpha 60 × 1,500 − 60,000 = ₹30,000; Beta 30 × 1,500 = ₹45,000; Gamma 50 × 1,500 − 36,000 = ₹39,000.</p><p>The maximin choice is <strong>Beta</strong> (₹45,000). Alpha, best on average, is worst here because of its high fixed fee.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "DM-21",
+      "section": "DM",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "DM-S6",
+      "topic": "Decision Making",
+      "subtopic": "Decisions under uncertainty",
+      "difficulty": "hard",
+      "stemHtml": "<p>For which range of sales would Gamma be strictly more profitable than both Alpha and Beta?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Gamma is never strictly the most profitable"
+        },
+        {
+          "id": "B",
+          "textHtml": "More than 1,200 but fewer than 2,400 thalis"
+        },
+        {
+          "id": "C",
+          "textHtml": "More than 1,800 but fewer than 2,000 thalis"
+        },
+        {
+          "id": "D",
+          "textHtml": "More than 2,000 thalis"
+        },
+        {
+          "id": "E",
+          "textHtml": "More than 1,800 but fewer than 2,400 thalis"
+        }
+      ],
+      "answer": "E",
+      "solutionHtml": "<p>Gamma vs Beta: 50q − 36,000 &gt; 30q ⇒ 20q &gt; 36,000 ⇒ q &gt; 1,800.</p><p>Gamma vs Alpha: 50q − 36,000 &gt; 60q − 60,000 ⇒ 24,000 &gt; 10q ⇒ q &lt; 2,400.</p><p>So Gamma is best for <strong>1,800 &lt; q &lt; 2,400</strong>. (2,000 is where Alpha overtakes Beta, but it is not a boundary for Gamma: at 2,000 thalis Gamma earns ₹64,000 against ₹60,000 for each of the others.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (XAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

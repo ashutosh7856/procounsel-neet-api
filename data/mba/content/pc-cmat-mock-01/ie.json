@@ -1,0 +1,685 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "IE-01",
+      "section": "IE",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Types of Innovation",
+      "subtopic": "Incremental Innovation",
+      "difficulty": "easy",
+      "stemHtml": "<p>A phone maker launches this year's model with a slightly longer battery life and a marginally better camera than last year's. This is an example of</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "incremental innovation"
+        },
+        {
+          "id": "B",
+          "textHtml": "disruptive innovation"
+        },
+        {
+          "id": "C",
+          "textHtml": "radical innovation"
+        },
+        {
+          "id": "D",
+          "textHtml": "business model innovation"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. <em>Incremental innovation</em> means small, continuous improvements to an existing product, service or process.</p><p><strong>B</strong> Disruptive innovation creates a new market or enters at the low end with a simpler, cheaper offering. <strong>C</strong> Radical innovation involves fundamentally new technology. <strong>D</strong> Business model innovation changes how a firm creates or captures value, not the product's specifications.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-02",
+      "section": "IE",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Types of Innovation",
+      "subtopic": "Disruptive Innovation",
+      "difficulty": "medium",
+      "stemHtml": "<p>According to Clayton Christensen's theory, a <em>disruptive innovation</em> typically</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "is a better product launched by a market leader for its most demanding customers"
+        },
+        {
+          "id": "B",
+          "textHtml": "requires the most advanced technology available at the time"
+        },
+        {
+          "id": "C",
+          "textHtml": "starts by serving low-end or new customers with a simpler, cheaper offering and then moves upmarket, eventually displacing established firms"
+        },
+        {
+          "id": "D",
+          "textHtml": "improves an existing product slightly every year"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Christensen described disruptive innovations as offerings that initially look inferior by mainstream measures but are simpler, cheaper or more convenient; they gain a foothold among overlooked or new customers and improve until they challenge incumbents.</p><p><strong>A</strong> describes <em>sustaining</em> innovation by incumbents. <strong>B</strong> is wrong because disruption is about the business approach, not necessarily advanced technology. <strong>D</strong> describes incremental innovation.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-03",
+      "section": "IE",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Types of Innovation",
+      "subtopic": "Process Innovation",
+      "difficulty": "medium",
+      "stemHtml": "<p>A garment manufacturer redesigns its factory floor so that each shirt passes through fewer hand-offs, cutting production time per shirt by a third. The shirts themselves are unchanged. This is best classified as</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "product innovation"
+        },
+        {
+          "id": "B",
+          "textHtml": "process innovation"
+        },
+        {
+          "id": "C",
+          "textHtml": "disruptive innovation"
+        },
+        {
+          "id": "D",
+          "textHtml": "marketing innovation"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. <em>Process innovation</em> is the introduction of a new or significantly improved method of production or delivery. Here the product is unchanged; only the way it is made has changed.</p><p><strong>A</strong> fails because the product is the same. <strong>C</strong> fails because no new market or low-end entry is involved. <strong>D</strong> would involve changes in pricing, promotion, packaging or placement.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-04",
+      "section": "IE",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Types of Innovation",
+      "subtopic": "Business Model Innovation",
+      "difficulty": "medium",
+      "stemHtml": "<p>A software company stops selling one-time perpetual licences and instead charges customers a monthly subscription for the same software. This change is an example of</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "product innovation"
+        },
+        {
+          "id": "B",
+          "textHtml": "incremental product innovation"
+        },
+        {
+          "id": "C",
+          "textHtml": "process innovation"
+        },
+        {
+          "id": "D",
+          "textHtml": "business model innovation"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. A <em>business model</em> describes how a firm creates, delivers and captures value. Changing the revenue model from one-time sales to recurring subscriptions changes how value is captured, even though the software is the same.</p><p><strong>A</strong> and <strong>B</strong> fail because the product is unchanged. <strong>C</strong> fails because the method of producing the software is not what changed.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-05",
+      "section": "IE",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Lean Startup",
+      "subtopic": "Minimum Viable Product",
+      "difficulty": "easy",
+      "stemHtml": "<p>In the lean startup approach, a <em>Minimum Viable Product (MVP)</em> is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "the cheapest possible version of the product, to be sold at the lowest price in the market"
+        },
+        {
+          "id": "B",
+          "textHtml": "the final product launched after all features have been perfected"
+        },
+        {
+          "id": "C",
+          "textHtml": "the version of a new product that lets the team collect the maximum amount of validated learning about customers with the least effort"
+        },
+        {
+          "id": "D",
+          "textHtml": "a product that meets only the minimum legal and safety requirements"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Eric Ries defines an MVP as the version of a new product that allows a team to collect the maximum amount of validated learning about customers with the least effort. Its purpose is learning, not price or polish.</p><p><strong>A</strong> confuses 'minimum' with lowest price. <strong>B</strong> is the opposite of an MVP. <strong>D</strong> confuses 'viable' with regulatory compliance.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-06",
+      "section": "IE",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Lean Startup",
+      "subtopic": "Pivot",
+      "difficulty": "medium",
+      "stemHtml": "<p>In lean startup terminology, a <em>pivot</em> refers to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "a structured course correction that changes one or more fundamental elements of the business to test a new hypothesis, while keeping what has been learned"
+        },
+        {
+          "id": "B",
+          "textHtml": "the decision to shut the business down completely"
+        },
+        {
+          "id": "C",
+          "textHtml": "a sudden increase in marketing spending to boost sales"
+        },
+        {
+          "id": "D",
+          "textHtml": "the sale of the startup to a larger company"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Ries describes a pivot as a structured course correction designed to test a new fundamental hypothesis about the product, strategy or engine of growth — for example, changing the customer segment while keeping the technology.</p><p><strong>B</strong> is closing down, the opposite of pivoting. <strong>C</strong> is merely a tactical change. <strong>D</strong> is an exit (acquisition).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-07",
+      "section": "IE",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Lean Startup",
+      "subtopic": "Build–Measure–Learn",
+      "difficulty": "easy",
+      "stemHtml": "<p>The feedback loop at the core of the lean startup method is correctly ordered as</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Measure → Build → Learn"
+        },
+        {
+          "id": "B",
+          "textHtml": "Learn → Measure → Build"
+        },
+        {
+          "id": "C",
+          "textHtml": "Build → Learn → Measure"
+        },
+        {
+          "id": "D",
+          "textHtml": "Build → Measure → Learn"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. In the Build–Measure–Learn loop, a team turns ideas into a product (often an MVP), measures how customers respond, and learns whether to persevere or pivot; the learning then feeds the next round of building.</p><p>The other orders do not match the standard loop: you cannot measure customer response before something is built, and learning comes from the measurement.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-08",
+      "section": "IE",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Startup Financing",
+      "subtopic": "Bootstrapping",
+      "difficulty": "easy",
+      "stemHtml": "<p>An entrepreneur funds her new venture entirely from personal savings and the revenue it earns from its first customers, without taking money from outside investors. This is called</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "crowdfunding"
+        },
+        {
+          "id": "B",
+          "textHtml": "bootstrapping"
+        },
+        {
+          "id": "C",
+          "textHtml": "venture debt"
+        },
+        {
+          "id": "D",
+          "textHtml": "angel investing"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. <em>Bootstrapping</em> means starting and growing a business with the founder's own resources and internally generated revenue, without external equity or loans.</p><p><strong>A</strong> crowdfunding raises small amounts from many people. <strong>C</strong> venture debt is borrowing from lenders. <strong>D</strong> angel investing involves an outside individual investor.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-09",
+      "section": "IE",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Startup Financing",
+      "subtopic": "Angel Investors",
+      "difficulty": "medium",
+      "stemHtml": "<p>An <em>angel investor</em> is best described as</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "a high-net-worth individual who invests personal funds in an early-stage startup, usually in exchange for equity"
+        },
+        {
+          "id": "B",
+          "textHtml": "a bank that gives a startup a collateral-free loan"
+        },
+        {
+          "id": "C",
+          "textHtml": "a fund that invests money pooled from institutions in later-stage companies"
+        },
+        {
+          "id": "D",
+          "textHtml": "a government agency that gives grants to startups"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Angel investors are individuals who invest their <em>own</em> money at an early stage (often seed stage), typically for equity or convertible instruments, and frequently also offer mentoring.</p><p><strong>B</strong> is debt from a bank. <strong>C</strong> describes a venture capital or private equity fund, which invests other people's pooled money. <strong>D</strong> is a grant-making body, not an investor taking equity.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-10",
+      "section": "IE",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Startup Financing",
+      "subtopic": "Funding Stages",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which sequence shows the typical order in which a venture-backed startup raises funds as it grows?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Series A → Seed → Series B → IPO"
+        },
+        {
+          "id": "B",
+          "textHtml": "Seed → IPO → Series A → Series B"
+        },
+        {
+          "id": "C",
+          "textHtml": "Series B → Series A → Seed → IPO"
+        },
+        {
+          "id": "D",
+          "textHtml": "Seed → Series A → Series B → IPO"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. Seed funding supports the idea and early product; Series A funds scaling once there is evidence of product-market fit; Series B and later rounds fund expansion; an Initial Public Offering (IPO) lists the company's shares on a stock exchange, typically when it is mature.</p><p>Each of the other options places a later stage before an earlier one.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-11",
+      "section": "IE",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Startup Financing",
+      "subtopic": "Venture Capital",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following is NOT a typical feature of venture capital (VC) financing?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The VC firm invests money pooled from limited partners into a portfolio of startups."
+        },
+        {
+          "id": "B",
+          "textHtml": "The investor takes an equity stake and often a board seat."
+        },
+        {
+          "id": "C",
+          "textHtml": "The startup must make fixed interest payments to the VC firm regardless of its performance."
+        },
+        {
+          "id": "D",
+          "textHtml": "The investor expects a few highly successful companies to make up for many failures."
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Fixed interest payments regardless of performance are a feature of <em>debt</em>. Venture capital is equity: the VC's return comes from the rising value of its stake, realised at an exit such as an acquisition or IPO.</p><p><strong>A</strong>, <strong>B</strong> and <strong>D</strong> are standard features of VC: pooled funds from limited partners managed by general partners, equity with governance rights, and a portfolio approach in which a few large successes compensate for many failures.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-12",
+      "section": "IE",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Intellectual Property",
+      "subtopic": "Trademark",
+      "difficulty": "easy",
+      "stemHtml": "<p>A startup wants exclusive rights to use its distinctive logo and brand name on its products. Which form of intellectual property protection is most appropriate?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Patent"
+        },
+        {
+          "id": "B",
+          "textHtml": "Trademark"
+        },
+        {
+          "id": "C",
+          "textHtml": "Copyright"
+        },
+        {
+          "id": "D",
+          "textHtml": "Geographical Indication"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. A <em>trademark</em> protects signs — names, logos, symbols — that distinguish one enterprise's goods or services from others'.</p><p><strong>A</strong> A patent protects inventions. <strong>C</strong> Copyright protects original literary, artistic, musical and similar works, not brand identity in trade. <strong>D</strong> A Geographical Indication protects products whose qualities come from a specific region (e.g. Darjeeling tea), not a single firm's brand.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-13",
+      "section": "IE",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Intellectual Property",
+      "subtopic": "Patent",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following is NOT generally a requirement for an invention to be granted a patent?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Novelty"
+        },
+        {
+          "id": "B",
+          "textHtml": "Inventive step (non-obviousness)"
+        },
+        {
+          "id": "C",
+          "textHtml": "Industrial applicability (usefulness)"
+        },
+        {
+          "id": "D",
+          "textHtml": "Proven commercial success in the market"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The standard patentability criteria are novelty, inventive step (non-obviousness to a person skilled in the field) and industrial applicability. An invention does not need to have been sold, let alone succeeded commercially — in fact, public disclosure before filing can destroy novelty.</p><p><strong>A</strong>, <strong>B</strong> and <strong>C</strong> are the three core requirements.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-14",
+      "section": "IE",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Intellectual Property",
+      "subtopic": "Copyright",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following is protected by copyright?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "The text of an original novel"
+        },
+        {
+          "id": "B",
+          "textHtml": "A new chemical process for making cheaper fertiliser"
+        },
+        {
+          "id": "C",
+          "textHtml": "The idea of a food-delivery app"
+        },
+        {
+          "id": "D",
+          "textHtml": "A brand name used on packaged snacks"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. Copyright protects the original <em>expression</em> of ideas in literary, artistic, musical and dramatic works (and software code) — the text of a novel is a literary work.</p><p><strong>B</strong> is an invention, protected by a patent. <strong>C</strong> fails because copyright protects expression, not ideas. <strong>D</strong> is protected as a trademark.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-15",
+      "section": "IE",
+      "number": 15,
+      "type": "MCQ",
+      "topic": "Business Planning and Analysis",
+      "subtopic": "Break-even Analysis",
+      "difficulty": "medium",
+      "stemHtml": "<p>A startup making water bottles has fixed costs of ₹2,40,000 per month. Each bottle sells for ₹500 and has a variable cost of ₹300. How many bottles must it sell per month to break even?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "800"
+        },
+        {
+          "id": "B",
+          "textHtml": "1,200"
+        },
+        {
+          "id": "C",
+          "textHtml": "480"
+        },
+        {
+          "id": "D",
+          "textHtml": "2,000"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. Break-even quantity = Fixed costs ÷ Contribution per unit, where contribution per unit = Selling price − Variable cost per unit.</p><p>Contribution = ₹500 − ₹300 = ₹200. Break-even = 2,40,000 ÷ 200 = <strong>1,200 bottles</strong>. Check: revenue 1,200 × 500 = ₹6,00,000; total cost 2,40,000 + 1,200 × 300 = ₹6,00,000.</p><p><strong>A</strong> (800) wrongly divides by the variable cost (2,40,000 ÷ 300). <strong>C</strong> (480) divides by the price (2,40,000 ÷ 500). <strong>D</strong> (2,000) results from using a contribution of ₹120.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-16",
+      "section": "IE",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Business Planning and Analysis",
+      "subtopic": "SWOT Analysis",
+      "difficulty": "easy",
+      "stemHtml": "<p>In a SWOT analysis of a small coffee chain, a large international competitor announcing that it will open outlets in the same city would be classified as a</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Strength"
+        },
+        {
+          "id": "B",
+          "textHtml": "Weakness"
+        },
+        {
+          "id": "C",
+          "textHtml": "Threat"
+        },
+        {
+          "id": "D",
+          "textHtml": "Opportunity"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. In SWOT, Strengths and Weaknesses are <em>internal</em> to the firm, while Opportunities and Threats are <em>external</em>. A new competitor entering the market is an external factor that could harm the firm — a Threat.</p><p><strong>A</strong> and <strong>B</strong> are internal categories. <strong>D</strong> is external but refers to favourable conditions.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-17",
+      "section": "IE",
+      "number": 17,
+      "type": "MCQ",
+      "topic": "Entrepreneurship Concepts",
+      "subtopic": "Social Entrepreneurship",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which statement best describes <em>social entrepreneurship</em>?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Using entrepreneurial and business methods to address a social problem, with social impact as the primary goal"
+        },
+        {
+          "id": "B",
+          "textHtml": "Running a business that donates a fixed share of its profits to charity while its main aim remains profit maximisation"
+        },
+        {
+          "id": "C",
+          "textHtml": "Any business that is active on social media"
+        },
+        {
+          "id": "D",
+          "textHtml": "Government provision of free public services"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>A</strong> is correct. A social entrepreneur applies entrepreneurial approaches — innovation, sustainable revenue models, scaling — to a social or environmental problem, and measures success mainly by social impact.</p><p><strong>B</strong> describes corporate philanthropy: the primary goal is still profit. <strong>C</strong> confuses 'social' with social media. <strong>D</strong> is public provision, not entrepreneurship.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-18",
+      "section": "IE",
+      "number": 18,
+      "type": "MCQ",
+      "topic": "Entrepreneurship Concepts",
+      "subtopic": "Design Thinking",
+      "difficulty": "medium",
+      "stemHtml": "<p>In the five-stage design thinking model (Empathise, Define, Ideate, Prototype, Test), which stage comes immediately after <em>Define</em>?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Empathise"
+        },
+        {
+          "id": "B",
+          "textHtml": "Ideate"
+        },
+        {
+          "id": "C",
+          "textHtml": "Prototype"
+        },
+        {
+          "id": "D",
+          "textHtml": "Test"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>B</strong> is correct. The sequence is Empathise (understand users) → Define (state the problem from the user's point of view) → <strong>Ideate</strong> (generate many possible solutions) → Prototype (build quick versions) → Test (try them with users). Ideation comes after the problem is defined.</p><p><strong>A</strong> comes before Define. <strong>C</strong> and <strong>D</strong> come later, after ideas have been generated. (In practice the stages can loop back, but the standard order is as above.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-19",
+      "section": "IE",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Business Planning and Analysis",
+      "subtopic": "Business Plan",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which section of a business plan gives a concise overview of the entire plan, is placed at the very beginning, and is usually written last?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Financial projections"
+        },
+        {
+          "id": "B",
+          "textHtml": "Market analysis"
+        },
+        {
+          "id": "C",
+          "textHtml": "Operations plan"
+        },
+        {
+          "id": "D",
+          "textHtml": "Executive summary"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>D</strong> is correct. The <em>executive summary</em> condenses the business idea, market, team, financial highlights and funding needs into a short opening section. Because it summarises everything else, it is normally written after the other sections.</p><p><strong>A</strong>, <strong>B</strong> and <strong>C</strong> are detailed sections dealing with one aspect each.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "IE-20",
+      "section": "IE",
+      "number": 20,
+      "type": "MCQ",
+      "topic": "Entrepreneurship Concepts",
+      "subtopic": "Government Initiatives",
+      "difficulty": "hard",
+      "stemHtml": "<p>The Startup India initiative of the Government of India, aimed at building an ecosystem for startups, was launched in</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2014"
+        },
+        {
+          "id": "B",
+          "textHtml": "2015"
+        },
+        {
+          "id": "C",
+          "textHtml": "2016"
+        },
+        {
+          "id": "D",
+          "textHtml": "2019"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>C</strong> is correct. Startup India was launched by the Government of India in January 2016, with an action plan covering simplification of compliance, funding support and incentives, and industry–academia partnerships.</p><p><strong>A</strong> 2014 is the year Make in India was launched, a separate initiative. <strong>B</strong>: the initiative was announced in the Independence Day address of August 2015, but its formal launch, with the action plan, took place on 16 January 2016. <strong>D</strong> does not match.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (CMAT pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

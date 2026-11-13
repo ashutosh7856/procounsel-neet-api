@@ -1,4 +1,4 @@
-# ProCounsel MBA — developer handoff (2026-11-12)
+# ProCounsel MBA — developer handoff (2026-11-13)
 
 What is built, what is left from the product PDF
 (`ProCounsel_MBA_Product_Feature_and_Implementation_Proposal.pdf`), and where things live.
@@ -23,65 +23,56 @@ good first task for the next developer.
 
 ## Built (PDF modules)
 
-Dashboard ("Road to IIM" levels, countdown, priorities, streak) · question bank + practice
-(204 original CAT-pattern questions, filters, bookmarks, answer reveal) · mock engine
-(server timers, autosave, resume, idempotent submit, scoring, review; 3 full + 9 sectionals) ·
-mistake notebook with spaced review · daily challenge + opt-in leaderboard · AI tutor (hints) ·
-AI mock analyst + deterministic analysis · topic insights / weakness detector · study planner
-(rule-based weekly plan, auto-complete, .ics) · in-app notifications · GDPI prep (231 WAT/GD/PI
-items, AI mock PI and timed WAT with feedback) · Learn tab (lists existing courses) ·
-college data (21 IIMs + 44 others, official sources), eligibility check, compare, ROI,
-deadlines, shortlist + application checklist · counsellor requests (Admin assigns) ·
-question issue reports (Admin triage) · Admin content review/edit/publish · 129 public MBA
-SEO/AEO pages + CAT score calculator, CAT college predictor, free-mocks page.
+Dashboard ("Road to IIM" levels, countdown, priorities, streak, score estimate, exam updates) ·
+question bank + practice (204 ProCounsel originals + **1,854 actual CAT questions, 24 papers
+2017–2025**, source/year filters, bookmarks, confidence tags) · mock engine (server timers,
+autosave, resume, idempotent submit, per-exam timer blocks and marking) · **past papers**
+(`/mba/pyq`, full + sectional, ProCounsel percentile per paper once 20+ students took it) ·
+**score estimator** (`/me/score-estimate`, range + confidence from mocks/PYQs/practice/daily) ·
+**practice modes** (timed drills, weak-topic and mixed sets, custom test builder) · **other exams**
+(XAT, SNAP, NMAT, CMAT, MAT, GMAT, MAH-CET configs from official sources; original mocks for
+XAT/SNAP/NMAT/CMAT) · mistake notebook · daily challenge + leaderboard · AI tutor, **AI section
+coaches** (VARC/DILR/Quant), "Explain my plan", AI mock analyst · insights · study planner ·
+**CAT syllabus** (47 subtopics, concept notes, progress, private notes) · notifications ·
+GDPI prep (+ **voice answers**, **mock interview booking**) · **community** (question doubts,
+faculty escalation queue, study groups, events) · **help centre + support tickets** · colleges
+(all 65, eligibility, compare, ROI, deadlines, shortlist, checklist, **document upload**,
+**admission outcomes**) · **counsellor workflow** (real assignment, pipeline, notes, follow-ups,
+CSV, student consent) · **exam-update feed** · Admin: content review, **paper/question authoring
+for every exam**, scheduling, versioning, **finer roles**, **ops panel** (AI cost), **metrics**,
+doubts, support, events, requests · **GA4 funnel events** · **delete my MBA data** ·
+public SEO/AEO pages (130 routes incl. `/cat-previous-year-papers`).
 
 ## Left from the PDF
 
-### Blocked by data (not code)
-- **PYQs** — IIMs don't publish past papers publicly. Bank uses ProCounsel originals.
-- **Score → percentile estimator** — no official benchmark data. Don't fake it.
+1. **Paid plans** — skipped on purpose (free at launch). Entitlement checks would go server-side.
+2. **Email/SMS/WhatsApp notifications** — in-app only; needs DLT-registered MSG91 templates /
+   Meta WhatsApp approval.
+3. **Notifying the counsellor directly** — needs a Java endpoint to push/email one counsellor;
+   admins use the per-counsellor view meanwhile. Counsellor-side view inside the Java app.
+4. **GDPI video practice** and college-specific interview pages (no official WAT/PI format data).
+5. **Real-time peer rooms/chat** — not built by design (threads + groups instead).
+6. **GMAT Data Insights multi-part questions** — not representable; GMAT practice is MCQ only and
+   non-adaptive (labelled as such). No mocks yet for MAT, GMAT, MAH-CET.
+7. **Error monitoring** (e.g. Sentry) — not added.
 
-### Product features not built
-1. **Other exams (XAT, SNAP, NMAT, CMAT, MAT, GMAT)** — mock engine is CAT-only
-   (`SectionId` = VARC/DILR/QA in `api/mba/models.py`). Needs per-exam versioned configs
-   (sections, timing, marking — data already in `data/mba/exams/*.json`), engine
-   generalisation, then content. ~1–2 days engine + content time.
-2. **Native LMS** — Learn tab only lists existing Java courses (matched by "MBA/CAT" in the
-   title; Java course model has no exam tag). Missing: proper MBA/exam tag on courses,
-   lesson completion/progress, lesson notes/bookmarks, syllabus hierarchy
-   (section → topic → lesson), faculty lesson CMS/versioning.
-3. **Practice modes** — timed drills, mixed/weak-topic sets, custom test builder,
-   question randomisation, scheduled tests.
-4. **Test authoring UI** — papers are authored as JSON and imported; Admin can only
-   review/edit/publish. Missing: create questions/papers in Admin, test scheduling/versions.
-5. **Question extras** — alternative approaches, diagrams/images, solution videos,
-   student self-rated confidence.
-6. **Section coaches (AI)** — VARC/DILR/Quant-specific coaches; AI explanation for the planner.
-7. **Community** — study groups/cohorts, peer rooms, community Q&A, faculty doubt hours,
-   weekly quizzes/webinars (could reuse existing live sessions), moderation + anti-cheating.
-8. **Applications** — document upload (checklist is tick-only), student-controlled sharing
-   with counsellor, admission outcome tracking.
-9. **Counsellor workflow** — assignment is a recorded name only: no notification to the
-   counsellor, no counsellor-side view of assigned MBA students, no follow-up history.
-10. **GDPI extras** — recorded (audio/video) practice, faculty/counsellor mock interview
-    booking, college-specific interview spaces.
-11. **Notifications** — in-app only. Email/SMS/WhatsApp need DLT-registered templates
-    (MSG91) / Meta approval; exam-update feed (admit card, answer key, results) is manual.
-12. **Support** — help centre, tickets, doubt escalation.
-13. **Admin roles** — only `MBA_CONTENT_ADMIN_ROLES` (default `superAdmin,COURSE`); no
-    separate faculty / test manager / student-support roles.
-14. **Paid plans** — skipped (free at launch). Entitlement checks would go server-side.
-15. **Ops** — AI cost/usage dashboard, consent + data retention/deletion workflows,
-    scheduled Firestore backups (`gcloud firestore export`), error monitoring.
-16. **Analytics** — PDF success metrics (activation, time-to-value, mock completion,
-    plan adherence) as GA4 events + a weekly report.
+## Content review queue (faculty)
+- PYQ papers were transcribed from the supplied PDFs and solved by us (2017–2020 cross-checked
+  against the publisher key; disagreements documented in each solution). Judgement-call answers
+  (mostly VARC para-jumbles/odd-one-out) should be skimmed in Admin before/after publishing.
+  Known points: cat-2025-slot1 DILR-16 converted from type-in to MCQ (answer was names);
+  cat-2022-slot2 DILR-06 reportedly dropped by IIM (solution says so); a few source typos fixed
+  (e.g. cat-2025-slot3 QA-02 sign) — verify against an official copy if available.
+- New original mocks pc-xat/snap/nmat/cmat-mock-01 are drafts; flagged items listed in the
+  multi-exam section of docs/mba-api.md history / PR notes.
 
 ## Known gaps / small fixes
-- In-app colleges list (`/mba/colleges`) shows IIMs only, but the shortlist API now accepts
-  all 44 bundled colleges — add non-IIM colleges to that list/search.
 - Leaderboard records a day's results only when someone loads a board that day.
 - AI quota is checked before and counted after the model call (can slightly exceed under
   parallel requests). Content cache TTL is 5 min (`MBA_BANK_TTL_SECONDS`).
+- ProCounsel percentile only counts attempts submitted after this release (no backfill).
+- Built tests across several sections use one timer per section, not one shared clock.
+- Admin lists for doubts/tickets read whole collections — add paging as volume grows.
 - `docs/database.md` was deleted in a commit — restore with `git checkout <rev> -- docs/database.md`.
 - 60-percentile SEO page is gated (only 4 official cutoffs ≤60); author bylines are generic
   until real counsellor names/credentials are added.
@@ -96,4 +87,7 @@ SEO/AEO pages + CAT score calculator, CAT college predictor, free-mocks page.
   must stay (read at runtime by applications/planner).
 - Website/Admin: `VITE_NEET_COUNSELLING_API_URL` = the API URL (GitHub secret).
 - After Website deploy: resubmit sitemap in Google Search Console + Bing Webmaster Tools.
+- New optional env: `BUCKET_NAME=procounsellor-71824.firebasestorage.app` (document upload), `MBA_TRANSCRIBE_MODEL`,
+  `MBA_ADMIN_ROLES_*`, `MBA_AI_PRICE_*`, `MBA_METRICS_TTL_SECONDS`. Website: `VITE_GA4_MEASUREMENT_ID`.
+- After the API deploy: `seed_exam --all` (other exams) and import the 4 non-CAT mocks as drafts.
 - Rotate secrets that were shared in chat (Firebase key, Razorpay, Twilio, MSG91, mail, Zoom, YouTube, Facebook).

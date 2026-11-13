@@ -1,0 +1,613 @@
+{
+  "sets": [],
+  "questions": [
+    {
+      "key": "QA-01",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>The equations 3x<sup>2</sup> − 5x + p = 0 and 2x<sup>2</sup> − 2x + q = 0 have one common root. The sum of the other roots of these two equations is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8/3 + p + (1/3)q"
+        },
+        {
+          "id": "B",
+          "textHtml": "2/3 − 2p + (2/3)q"
+        },
+        {
+          "id": "C",
+          "textHtml": "8/3 − p + (3/2)q"
+        },
+        {
+          "id": "D",
+          "textHtml": "2/3 − p + (3/2)q"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let α be the common root, β and γ the other roots. Sums of roots: α + β = 5/3 and α + γ = 1, so <strong>β + γ = 8/3 − 2α</strong>.</p><p><strong>Find α:</strong> multiply the equations by 2 and 3: 6α<sup>2</sup> − 10α + 2p = 0 and 6α<sup>2</sup> − 6α + 3q = 0. Subtracting gives −4α + 2p − 3q = 0, so α = (2p − 3q)/4.</p><p>β + γ = 8/3 − (2p − 3q)/2 = <strong>8/3 − p + (3/2)q</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-02",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Polygons / areas",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let ABCDEF be a regular hexagon and P and Q be the midpoints of AB and CD, respectively. Then, the ratio of the areas of trapezium PBCQ and hexagon ABCDEF is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6 : 19"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 : 24"
+        },
+        {
+          "id": "C",
+          "textHtml": "7 : 24"
+        },
+        {
+          "id": "D",
+          "textHtml": "6 : 25"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Take side 1 with centre at the origin: A(1, 0), B(1/2, √3/2), C(−1/2, √3/2), D(−1, 0).</p><p>P = midpoint of AB = (3/4, √3/4), Q = midpoint of CD = (−3/4, √3/4). So PQ ∥ BC with PQ = 3/2, BC = 1, and the height between them is √3/2 − √3/4 = √3/4.</p><p>Area(PBCQ) = ½ × (1 + 3/2) × √3/4 = <strong>5√3/16</strong>. Area(hexagon) = 6 × (√3/4) = 3√3/2 = 24√3/16.</p><p>Ratio = <strong>5 : 24</strong>.</p><p><strong>Check:</strong> the hexagon is 24 small triangles of area √3/16 (each of the 6 equilateral triangles split into 4). The trapezium covers 5 of them.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-03",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Logarithms / AM-GM",
+      "difficulty": "medium",
+      "stemHtml": "<p>If log<sub>64</sub>x<sup>2</sup> + log<sub>8</sub>√y + 3log<sub>512</sub>(√y z) = 4, where x, y and z are positive real numbers, then the minimum possible value of (x + y + z) is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "96"
+        },
+        {
+          "id": "B",
+          "textHtml": "36"
+        },
+        {
+          "id": "C",
+          "textHtml": "24"
+        },
+        {
+          "id": "D",
+          "textHtml": "48"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Write every log in base 2 (64 = 2<sup>6</sup>, 8 = 2<sup>3</sup>, 512 = 2<sup>9</sup>):</p><p>log<sub>64</sub>x<sup>2</sup> = (2/6)log<sub>2</sub>x = (1/3)log<sub>2</sub>x; log<sub>8</sub>√y = (1/6)log<sub>2</sub>y; 3log<sub>512</sub>(√y z) = (3/9)(½log<sub>2</sub>y + log<sub>2</sub>z) = (1/6)log<sub>2</sub>y + (1/3)log<sub>2</sub>z.</p><p>Sum = (1/3)(log<sub>2</sub>x + log<sub>2</sub>y + log<sub>2</sub>z) = 4, so <strong>xyz = 2<sup>12</sup> = 4096</strong>.</p><p>By AM ≥ GM, x + y + z ≥ 3 × ∛4096 = 3 × 16 = <strong>48</strong>, with equality at x = y = z = 16.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-04",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities / modulus",
+      "difficulty": "easy",
+      "stemHtml": "<p>The set of all real values of x for which (x<sup>2</sup> − |x + 9| + x) &gt; 0, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "(−∞, −3) ∪ (3, ∞)"
+        },
+        {
+          "id": "B",
+          "textHtml": "(−9, −3) ∪ (3, ∞)"
+        },
+        {
+          "id": "C",
+          "textHtml": "(−∞, −9) ∪ (9, ∞)"
+        },
+        {
+          "id": "D",
+          "textHtml": "(−∞, −9) ∪ (3, ∞)"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Case x ≥ −9:</strong> |x + 9| = x + 9, so the expression is x<sup>2</sup> − 9 &gt; 0, giving x &lt; −3 or x &gt; 3. Within this case: [−9, −3) ∪ (3, ∞).</p><p><strong>Case x &lt; −9:</strong> |x + 9| = −x − 9, so the expression is x<sup>2</sup> + 2x + 9 = (x + 1)<sup>2</sup> + 8 &gt; 0, always true. All of (−∞, −9) works.</p><p>Union: <strong>(−∞, −3) ∪ (3, ∞)</strong>.</p><p><strong>Quick check:</strong> x = −10 gives 100 − 1 − 10 = 89 &gt; 0, which rules out options B and D.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-05",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>A certain amount of money was divided among Pinu, Meena, Rinu and Seema. Pinu received 20% of the total amount and Meena received 40% of the remaining amount. If Seema received 20% less than Pinu, the ratio of the amounts received by Pinu and Rinu is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2 : 1"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 : 8"
+        },
+        {
+          "id": "C",
+          "textHtml": "1 : 2"
+        },
+        {
+          "id": "D",
+          "textHtml": "8 : 5"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Take the total as 100. Pinu = 20. Remaining 80, so Meena = 40% of 80 = 32. Seema = 20 × 0.8 = 16.</p><p>Rinu = 100 − 20 − 32 − 16 = 32.</p><p>Pinu : Rinu = 20 : 32 = <strong>5 : 8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-06",
+      "number": 6,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Time & work",
+      "difficulty": "easy",
+      "stemHtml": "<p>Ankita is twice as efficient as Bipin, while Bipin is twice as efficient as Chandan. All three of them start together on a job, and Bipin leaves the job after 20 days. If the job got completed in 60 days, the number of days needed by Chandan to complete the job alone, is</p>",
+      "answer": "340",
+      "solutionHtml": "<p>Let Chandan do 1 unit/day. Then Bipin does 2 and Ankita 4.</p><p>Ankita and Chandan work all 60 days: (4 + 1) × 60 = 300 units. Bipin works 20 days: 2 × 20 = 40 units. Job = <strong>340 units</strong>.</p><p>Chandan alone: 340 ÷ 1 = <strong>340 days</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-07",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let a<sub>n</sub> be the n<sup>th</sup> term of a decreasing infinite geometric progression. If a<sub>1</sub> + a<sub>2</sub> + a<sub>3</sub> = 52 and a<sub>1</sub>a<sub>2</sub> + a<sub>2</sub>a<sub>3</sub> + a<sub>3</sub>a<sub>1</sub> = 624, then the sum of this geometric progression is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "54"
+        },
+        {
+          "id": "B",
+          "textHtml": "60"
+        },
+        {
+          "id": "C",
+          "textHtml": "57"
+        },
+        {
+          "id": "D",
+          "textHtml": "63"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the terms be a, ar, ar<sup>2</sup>. Then a(1 + r + r<sup>2</sup>) = 52 and a<sup>2</sup>r + a<sup>2</sup>r<sup>3</sup> + a<sup>2</sup>r<sup>2</sup> = a<sup>2</sup>r(1 + r + r<sup>2</sup>) = 624.</p><p><strong>Divide:</strong> ar = 624/52 = 12, so the middle term is 12.</p><p>12/r + 12 + 12r = 52, so 3/r + 3r = 10, i.e. 3r<sup>2</sup> − 10r + 3 = 0, giving r = 1/3 or 3. Decreasing means r = 1/3, so a = 36 (terms 36, 12, 4).</p><p>Sum to infinity = 36/(1 − 1/3) = <strong>54</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-08",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Functions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Let f(x) = x/(2x − 1) and g(x) = x/(x − 1). Then, the domain of the function h(x) = f(g(x)) + g(f(x)) is all real numbers except</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1/2, 1, and 3/2"
+        },
+        {
+          "id": "B",
+          "textHtml": "−1/2, 1/2, and 1"
+        },
+        {
+          "id": "C",
+          "textHtml": "−1, 1/2 and 1"
+        },
+        {
+          "id": "D",
+          "textHtml": "1/2, and 1"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>f(g(x)):</strong> needs g defined (x ≠ 1) and 2g(x) − 1 ≠ 0, i.e. g(x) ≠ 1/2: x/(x − 1) = 1/2 gives 2x = x − 1, so x = −1 is excluded.</p><p><strong>g(f(x)):</strong> needs f defined (x ≠ 1/2) and f(x) ≠ 1: x/(2x − 1) = 1 gives x = 1, excluded (already).</p><p>Excluded values: <strong>−1, 1/2 and 1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-09",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Compound interest / instalments",
+      "difficulty": "easy",
+      "stemHtml": "<p>A loan of Rs 1000 is fully repaid by two installments of Rs 530 and Rs 594, paid at the end of first and second year, respectively. If the interest is compounded annually, then the rate of interest, in percentage, is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8"
+        },
+        {
+          "id": "B",
+          "textHtml": "9"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "11"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the growth factor be k = 1 + r. After year 1 the balance is 1000k − 530, and after year 2 that grows to exactly 594: (1000k − 530)k = 594.</p><p><strong>Test the options:</strong> k = 1.08: 1080 − 530 = 550, and 550 × 1.08 = 594. ✓</p><p>(Formally 1000k<sup>2</sup> − 530k − 594 = 0 gives k = (530 + √(280900 + 2376000))/2000 = (530 + 1630)/2000 = 1.08.)</p><p>Rate = <strong>8%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-10",
+      "number": 10,
+      "type": "TITA",
+      "topic": "Geometry",
+      "subtopic": "Circles / tangents",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two tangents drawn from a point P touch a circle with center O at points Q and R. Points A and B lie on PQ and PR, respectively, such that AB is also a tangent to the same circle. If ∠AOB = 50°, then ∠APB, in degrees, equals</p>",
+      "answer": "80",
+      "solutionHtml": "<p>Let AB touch the circle at S. OA bisects ∠QOS and OB bisects ∠SOR, so <strong>∠AOB = ½∠QOR</strong>.</p><p>In quadrilateral PQOR the angles at Q and R are 90°, so ∠QOR = 180° − ∠P.</p><p>Hence ∠AOB = 90° − ∠P/2. With 50 = 90 − ∠P/2, ∠APB = <strong>80°</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-11",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures & alligations",
+      "difficulty": "medium",
+      "stemHtml": "<p>A mixture of coffee and cocoa, 16% of which is coffee, costs Rs 240 per kg. Another mixture of coffee and cocoa, of which 36% is coffee, costs Rs 320 per kg. If a new mixture of coffee and cocoa costs Rs 376 per kg, then the quantity, in kg, of coffee in 10 kg of this new mixture is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "2.5"
+        },
+        {
+          "id": "C",
+          "textHtml": "4"
+        },
+        {
+          "id": "D",
+          "textHtml": "5"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>The price per kg is linear in the coffee fraction. Going from 16% to 36% coffee (+20 points) raises the price by Rs 80, so <strong>each percentage point of coffee adds Rs 4</strong>.</p><p>Rs 376 is Rs 56 above Rs 320, i.e. 14 more points: 36% + 14% = <strong>50%</strong> coffee.</p><p><strong>Check with prices:</strong> 0.16c + 0.84k = 240 and 0.36c + 0.64k = 320 give c − k = 400, k = 176, c = 576. Then 176 + 400f = 376 gives f = 0.5.</p><p>Coffee in 10 kg = <strong>5 kg</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-12",
+      "number": 12,
+      "type": "TITA",
+      "topic": "Algebra",
+      "subtopic": "Maxima & minima",
+      "difficulty": "medium",
+      "stemHtml": "<p>If a, b, c and d are integers such that their sum is 46, then the minimum possible value of (a − b)<sup>2</sup> + (a − c)<sup>2</sup> + (a − d)<sup>2</sup> is</p>",
+      "answer": "2",
+      "solutionHtml": "<p>Let b = a + x, c = a + y, d = a + z with integers x, y, z. Then 4a + (x + y + z) = 46, so <strong>x + y + z ≡ 2 (mod 4)</strong>, and we minimise x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup>.</p><p>A value of 0 needs x = y = z = 0 (sum 0). A value of 1 needs a single ±1 (sum ±1). Neither is ≡ 2 mod 4.</p><p>A value of 2: x = y = 1, z = 0 gives sum 2 ✓. Example: a = 11, b = 12, c = 12, d = 11 (sum 46), value = 1 + 1 + 0 = <strong>2</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-13",
+      "number": 13,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Averages",
+      "difficulty": "easy",
+      "stemHtml": "<p>The average number of copies of a book sold per day by a shopkeeper is 60 in the initial seven days and 63 in the initial eight days, after the book launch. On the ninth day, she sells 11 copies less than the eighth day, and the average number of copies sold per day from second day to ninth day becomes 66. The number of copies sold on the first day of the book launch is</p>",
+      "answer": "49",
+      "solutionHtml": "<p>Days 1-7 total = 420; days 1-8 total = 8 × 63 = 504, so day 8 = 84 and day 9 = 73.</p><p>Days 1-9 total = 504 + 73 = 577. Days 2-9 total = 8 × 66 = 528.</p><p>Day 1 = 577 − 528 = <strong>49</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-14",
+      "number": 14,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Exponential equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>If 9<sup>x<sup>2</sup>+2x−3</sup> − 4(3<sup>x<sup>2</sup>+2x−2</sup>) + 27 = 0, then the products of all possible value of x is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "15"
+        },
+        {
+          "id": "B",
+          "textHtml": "20"
+        },
+        {
+          "id": "C",
+          "textHtml": "5"
+        },
+        {
+          "id": "D",
+          "textHtml": "30"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Let t = 3<sup>x<sup>2</sup>+2x−3</sup>. Then 9<sup>x<sup>2</sup>+2x−3</sup> = t<sup>2</sup> and 3<sup>x<sup>2</sup>+2x−2</sup> = 3t.</p><p>t<sup>2</sup> − 12t + 27 = 0, so t = 3 or t = 9.</p><p>t = 3: x<sup>2</sup> + 2x − 3 = 1, i.e. x<sup>2</sup> + 2x − 4 = 0 (two real roots, product −4).<br>t = 9: x<sup>2</sup> + 2x − 3 = 2, i.e. x<sup>2</sup> + 2x − 5 = 0 (two real roots, product −5).</p><p>All four roots are real and distinct. Product = (−4)(−5) = <strong>20</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-15",
+      "number": 15,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Integer solutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>Suppose a, b, c are three distinct natural number, such that 3ac = 8(a + b). Then, the smallest possible value of 3a + 2b + c is</p>",
+      "answer": "12",
+      "solutionHtml": "<p>Solve for b: <strong>b = a(3c − 8)/8</strong>, so we need 3c &gt; 8 (c ≥ 3) and 8 | a(3c − 8).</p><ul><li>c = 3: b = a/8, so a ≥ 8: (8, 1, 3) gives 29.</li><li>c = 4: b = a/2: a = 2, b = 1 gives 3a + 2b + c = 6 + 2 + 4 = <strong>12</strong> (a = 4 would make b = c).</li><li>c = 5, 6, 7: b = 7a/8, 5a/4, 13a/8 need a ≥ 8, 4, 8, all giving more than 12.</li><li>c ≥ 8: c alone is at least 8 and 3a + 2b ≥ 3 + 2·2 = 7 (b = a(3c−8)/8 ≥ 2), so the total is at least 15.</li></ul><p>Check (a, b, c) = (2, 1, 4): 3·2·4 = 24 = 8(2 + 1). ✓ Minimum = <strong>12</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-16",
+      "number": 16,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles / ratios",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a ∆ABC, points D and E are on the sides BC and AC, respectively. BE and AD intersect at point T such that AD : AT = 4 : 3, and BE : BT = 5 : 4. Point F lies on AC such that DF is parallel to BE. Then, BD : CD is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "9 : 4"
+        },
+        {
+          "id": "B",
+          "textHtml": "7 : 4"
+        },
+        {
+          "id": "C",
+          "textHtml": "15 : 4"
+        },
+        {
+          "id": "D",
+          "textHtml": "11 : 4"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>From the ratios, AT : TD = 3 : 1 and BT : TE = 4 : 1. Let BE = 5k, so TE = k.</p><p><strong>Triangle ADF:</strong> TE ∥ DF, so TE/DF = AT/AD = 3/4, giving DF = 4k/3.</p><p><strong>Triangle CBE:</strong> DF ∥ BE, so DF/BE = CD/CB, i.e. (4k/3)/(5k) = 4/15 = CD/CB.</p><p>So CD = 4 parts and CB = 15 parts, giving BD = 11 parts. BD : CD = <strong>11 : 4</strong>.</p><p><strong>Mass-point check:</strong> masses A = 1, D = 3 (from AT : TD = 3 : 1); B = m, E = 4m (from BT : TE = 4 : 1). D = B + C gives C = 3 − m, and E = A + C gives 4m = 4 − m, so m = 4/5 and C = 11/5. BD : DC = C : B = 11 : 4.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-17",
+      "number": 17,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Factors / divisors",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of divisors of (2<sup>6</sup> × 3<sup>5</sup> × 5<sup>3</sup> × 7<sup>2</sup>), which are of the form (3r + 1), where r is a non-negative integer, is</p>",
+      "answer": "42",
+      "solutionHtml": "<p>A divisor ≡ 1 (mod 3) cannot contain 3. Take divisors 2<sup>a</sup>5<sup>c</sup>7<sup>d</sup> with a ≤ 6, c ≤ 3, d ≤ 2.</p><p>Mod 3: 2 ≡ −1, 5 ≡ −1, 7 ≡ 1, so the divisor ≡ (−1)<sup>a+c</sup>. We need <strong>a + c even</strong>.</p><p>a even (0, 2, 4, 6) = 4 ways and odd = 3 ways; c even (0, 2) = 2 ways and odd = 2 ways. Even sum: 4×2 + 3×2 = 14. d: 3 ways.</p><p>Total = 14 × 3 = <strong>42</strong> (including the divisor 1, which is 3·0 + 1).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-18",
+      "number": 18,
+      "type": "TITA",
+      "topic": "Arithmetic",
+      "subtopic": "Boats & streams",
+      "difficulty": "medium",
+      "stemHtml": "<p>Rita and Sneha can row a boat at 5 km/h and 6 km/h in still water, respectively. In a river flowing with a constant velocity, Sneha takes 48 minutes more to row 14 km upstream than to row the same distance downstream. If Rita starts from a certain location in the river, and returns downstream to the same location, taking a total of 100 minutes, then the total distance, in km, Rita will cover is</p>",
+      "answer": "8",
+      "solutionHtml": "<p><strong>Stream speed v:</strong> 14/(6 − v) − 14/(6 + v) = 48/60 = 0.8, so 28v/(36 − v<sup>2</sup>) = 0.8, i.e. v<sup>2</sup> + 35v − 36 = 0, giving v = 1 km/h. (Check: 14/5 − 14/7 = 2.8 − 2 = 0.8 h ✓.)</p><p><strong>Rita:</strong> upstream 4 km/h, downstream 6 km/h. For a one-way distance d: d/4 + d/6 = 100/60, so 5d/12 = 5/3, d = 4 km.</p><p>Total distance = 2 × 4 = <strong>8 km</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-19",
+      "number": 19,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit, loss & discount",
+      "difficulty": "medium",
+      "stemHtml": "<p>An item with a cost price of Rs. 1650 is sold at a certain discount on a fixed marked price to earn a profit of 20% on the cost price. If the discount was doubled, the profit would have been Rs. 110. The rate of discount, in percentage, at which the profit percentage would be equal to the rate of discount, is nearest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "18"
+        },
+        {
+          "id": "B",
+          "textHtml": "12"
+        },
+        {
+          "id": "C",
+          "textHtml": "16"
+        },
+        {
+          "id": "D",
+          "textHtml": "14"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>SP = 1.2 × 1650 = 1980. With double discount, SP = 1650 + 110 = 1760.</p><p>If M is the marked price and d the discount: M(1 − d) = 1980 and M(1 − 2d) = 1760. Subtracting gives Md = 220, so <strong>M = 2200</strong> (and d = 10%).</p><p>Need x% discount = x% profit: 2200(1 − x/100) = 1650(1 + x/100), so 550 = 38.5x and x = 14.29.</p><p>Nearest: <strong>14</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-20",
+      "number": 20,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Indices / digits",
+      "difficulty": "easy",
+      "stemHtml": "<p>The sum of digits of the number (625)<sup>65</sup> × (128)<sup>36</sup>, is</p>",
+      "answer": "25",
+      "solutionHtml": "<p>625<sup>65</sup> = 5<sup>260</sup> and 128<sup>36</sup> = 2<sup>252</sup>.</p><p>Product = 5<sup>8</sup> × (5 × 2)<sup>252</sup> = 390625 × 10<sup>252</sup>.</p><p>Digit sum = 3 + 9 + 0 + 6 + 2 + 5 = <strong>25</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-21",
+      "number": 21,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Ratio & proportion",
+      "difficulty": "easy",
+      "stemHtml": "<p>The ratio of expenditures of Lakshmi and Meenakshi is 2 : 3, and the ratio of income of Lakshmi to expenditure of Meenakshi is 6 : 7. If excess of income over expenditure is saved by Lakshmi and Meenakshi, and the ratio of their savings is 4 : 9, then the ratio of their incomes is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3 : 5"
+        },
+        {
+          "id": "B",
+          "textHtml": "5 : 6"
+        },
+        {
+          "id": "C",
+          "textHtml": "7 : 8"
+        },
+        {
+          "id": "D",
+          "textHtml": "2 : 1"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let the expenditures be 14k (L) and 21k (M), chosen so that L’s income = (6/7) × 21k = 18k.</p><p>L’s savings = 18k − 14k = 4k. Savings ratio 4 : 9 gives M’s savings = 9k, so M’s income = 21k + 9k = 30k.</p><p>Incomes 18k : 30k = <strong>3 : 5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    },
+    {
+      "key": "QA-22",
+      "number": 22,
+      "type": "TITA",
+      "topic": "Number System",
+      "subtopic": "Integer solutions",
+      "difficulty": "medium",
+      "stemHtml": "<p>If m and n are integers such that (m + 2n)(2m + n) = 27, then the maximum possible value of 2m − 3n is</p>",
+      "answer": "17",
+      "solutionHtml": "<p>Let u = m + 2n and v = 2m + n, so uv = 27. Then m = (2v − u)/3 and n = (2u − v)/3, which must be integers.</p><p>Factor pairs (u, v): (1, 27), (27, 1), (−1, −27), (−27, −1) fail divisibility by 3. The rest:</p><ul><li>(3, 9): m = 5, n = −1, so 2m − 3n = 13</li><li>(9, 3): m = −1, n = 5, so −17</li><li>(−3, −9): m = −5, n = 1, so −13</li><li>(−9, −3): m = 1, n = −5, so 2 + 15 = <strong>17</strong></li></ul><p>Check (1, −5): (1 − 10)(2 − 5) = (−9)(−3) = 27 ✓. Maximum = <strong>17</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "QA"
+    }
+  ]
+}

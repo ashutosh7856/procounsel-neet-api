@@ -1,0 +1,70 @@
+{
+  "id": "mah-mba-cet",
+  "name": "MAH-MBA/MMS-CET",
+  "conductingBody": "State Common Entrance Test Cell, Maharashtra State, Mumbai",
+  "officialUrl": "https://cetcell.mahacet.org/",
+  "adaptive": false,
+  "versions": [
+    {
+      "year": 2026,
+      "sections": [
+        {
+          "id": "LOGR",
+          "name": "Logical Reasoning",
+          "questionCount": 75,
+          "durationMinutes": null
+        },
+        {
+          "id": "ABR",
+          "name": "Abstract Reasoning",
+          "questionCount": 25,
+          "durationMinutes": null
+        },
+        {
+          "id": "QAPT",
+          "name": "Quantitative Aptitude",
+          "questionCount": 50,
+          "durationMinutes": null
+        },
+        {
+          "id": "VERB",
+          "name": "Verbal Ability / Reading Comprehension",
+          "questionCount": 50,
+          "durationMinutes": null
+        }
+      ],
+      "timerBlocks": [
+        {
+          "id": "ALL",
+          "name": "MAH-MBA/MMS-CET",
+          "sectionIds": [
+            "LOGR",
+            "ABR",
+            "QAPT",
+            "VERB"
+          ],
+          "durationMinutes": 150
+        }
+      ],
+      "marking": [
+        {
+          "type": "MCQ",
+          "correct": 1,
+          "incorrect": 0,
+          "unanswered": 0
+        }
+      ],
+      "totalDurationMinutes": 150,
+      "sectionOrderLocked": false,
+      "scoring": "official",
+      "scoringNote": "1 mark per question, no negative marking (200 marks). One 150-minute timer; attempt any question at any time.",
+      "source": {
+        "kind": "official",
+        "title": "Information Brochure MAH-MBA/MMS-CET 2026",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MAH-MBA-MMS-CET-2026-Information-Brochure.pdf",
+        "year": 2026,
+        "retrievedAt": "2026-11-11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+ "sets": [
+  {
+   "key": "DILR-S1",
+   "kind": "dilr_set",
+   "title": "AI and ML course grades",
+   "contentHtml": "<p>All the first-year students in the computer science (CS) department in a university take both the courses (i) AI and (ii) ML. Students from other departments (non-CS students) can also take one of these two courses, but not both. Students who fail in a course get an F grade; others pass and are awarded A or B or C grades depending on their performance. The following are some additional facts about the number of students who took these two courses this year and the grades they obtained.</p><ol><li>The numbers of non-CS students who took AI and ML were in the ratio 2 : 5.</li><li>The number of non-CS students who took either AI or ML was equal to the number of CS students.</li><li>The numbers of non-CS students who failed in the two courses were the same and their total is equal to the number of CS students who got a C grade in ML.</li><li>In both the courses, 50% of the students who passed got a B grade. But, while the numbers of students who got A and C grades were the same for AI, they were in the ratio 3 : 2 for ML.</li><li>No CS student failed in AI, while no non-CS student got an A grade in AI.</li><li>The numbers of CS students who got A, B and C grades respectively in AI were in the ratio 3 : 5 : 2, while in ML the ratio was 4 : 5 : 2.</li><li>The ratio of the total number of non-CS students failing in one of the two courses to the number of CS students failing in one of the two courses was 3 : 1.</li><li>30 students failed in ML.</li></ol>"
+  },
+  {
+   "key": "DILR-S2",
+   "kind": "dilr_set",
+   "title": "Mortality study age profiles",
+   "images": [
+    "https://procounsel.co.in/mba/pyq/cat-2022-slot3/age-profiles.png"
+   ],
+   "contentHtml": "<p>In the following, a year corresponds to 1st of January of that year.</p><p>A study to determine the mortality rate for a disease began in 1980. The study chose 1000 males and 1000 females and followed them for forty years or until they died, whichever came first. The 1000 males chosen in 1980 consisted of 250 each of ages 10 to less than 20, 20 to less than 30, 30 to less than 40, and 40 to less than 50. The 1000 females chosen in 1980 also consisted of 250 each of ages 10 to less than 20, 20 to less than 30, 30 to less than 40, and 40 to less than 50.</p><p>The four figures below depict the age profile of those among the 2000 individuals who were still alive in 1990, 2000, 2010, and 2020. The blue bars in each figure represent the number of males in each age group at that point in time, while the pink bars represent the number of females in each age group at that point in time. The numbers next to the bars give the exact numbers being represented by the bars. For example, we know that 230 males among those tracked and who were alive in 1990 were aged between 20 and 30.</p><p>The numbers shown in the figures (males / females):</p><table><thead><tr><th>Age group</th><th>1990</th><th>2000</th><th>2010</th><th>2020</th></tr></thead><tbody><tr><td>20–30</td><td>230 / 240</td><td>0 / 0</td><td>0 / 0</td><td>0 / 0</td></tr><tr><td>30–40</td><td>235 / 225</td><td>180 / 210</td><td>0 / 0</td><td>0 / 0</td></tr><tr><td>40–50</td><td>210 / 190</td><td>205 / 175</td><td>150 / 160</td><td>0 / 0</td></tr><tr><td>50–60</td><td>190 / 220</td><td>160 / 150</td><td>165 / 145</td><td>140 / 100</td></tr><tr><td>60–70</td><td>0 / 0</td><td>100 / 120</td><td>90 / 100</td><td>125 / 105</td></tr><tr><td>70–80</td><td>0 / 0</td><td>0 / 0</td><td>25 / 30</td><td>50 / 60</td></tr><tr><td>80–90</td><td>0 / 0</td><td>0 / 0</td><td>0 / 0</td><td>5 / 18</td></tr></tbody></table>"
+  },
+  {
+   "key": "DILR-S3",
+   "kind": "dilr_set",
+   "title": "New cases in four neighbourhoods",
+   "contentHtml": "<p>There are only four neighbourhoods in a city - Levmisto, Tyhrmisto, Pesmisto and Kitmisto. During the onset of a pandemic, the number of new cases of a disease in each of these neighbourhoods was recorded over a period of five days. On each day, the number of new cases recorded in any of the neighbourhoods was either 0, 1, 2 or 3.</p><p>The following facts are also known:</p><ol><li>There was at least one new case in every neighbourhood on Day 1.</li><li>On each of the five days, there were more new cases in Kitmisto than in Pesmisto.</li><li>The number of new cases in the city in a day kept increasing during the five-day period. The number of new cases on Day 3 was exactly one more than that on Day 2.</li><li>The maximum number of new cases in a day in Pesmisto was 2, and this happened only once during the five-day period.</li><li>Kitmisto is the only place to have 3 new cases on Day 2.</li><li>The total numbers of new cases in Levmisto, Tyhrmisto, Pesmisto and Kitmisto over the five-day period were 12, 12, 5 and 14 respectively.</li></ol>"
+  },
+  {
+   "key": "DILR-S4",
+   "kind": "dilr_set",
+   "title": "Pairs and bets over eight rounds",
+   "contentHtml": "<p>Pulak, Qasim, Ritesh, and Suresh participated in a tournament comprising of eight rounds. In each round, they formed two pairs, with each of them being in exactly one pair. The only restriction in the pairing was that the pairs would change in successive rounds. For example, if Pulak formed a pair with Qasim in the first round, then he would have to form a pair with Ritesh or Suresh in the second round. He would be free to pair with Qasim again in the third round. In each round, each pair decided whether to play the game in that round or not. If they decided not to play, then no money was exchanged between them. If they decided to play, they had to bet either Rs.1 or Rs.2 in that round. For example, if they chose to bet Rs.2, then the player winning the game got Rs.2 from the one losing the game.</p><p>At the beginning of the tournament, the players had Rs.10 each. The following table shows partial information about the amounts that the players had at the end of each of the eight rounds. It shows every time a player had Rs.10 at the end of a round, as well as every time, at the end of a round, a player had either the minimum or the maximum amount that he would have had across the eight rounds. For example, Suresh had Rs.10 at the end of Rounds 1, 3, and 8 and not after any of the other rounds. The maximum amount that he had at the end of any round was Rs.13 (at the end of Round 5), and the minimum amount he had at the end of any round was Rs.8 (at the end of Round 2). At the end of all other rounds, he must have had either Rs.9, Rs.11, or Rs.12.</p><p>It was also known that Pulak and Qasim had the same amount of money with them at the end of Round 4.</p><table><thead><tr><th></th><th>Pulak</th><th>Qasim</th><th>Ritesh</th><th>Suresh</th></tr></thead><tbody><tr><td>Round 1</td><td></td><td>Rs.8</td><td>Rs.10</td><td>Rs.10</td></tr><tr><td>Round 2</td><td>Rs.13</td><td>Rs.10</td><td></td><td>Rs.8</td></tr><tr><td>Round 3</td><td></td><td></td><td></td><td>Rs.10</td></tr><tr><td>Round 4</td><td></td><td></td><td></td><td></td></tr><tr><td>Round 5</td><td>Rs.10</td><td>Rs.10</td><td></td><td>Rs.13</td></tr><tr><td>Round 6</td><td></td><td></td><td></td><td></td></tr><tr><td>Round 7</td><td></td><td>Rs.12</td><td>Rs.4</td><td></td></tr><tr><td>Round 8</td><td>Rs.13</td><td></td><td></td><td>Rs.10</td></tr></tbody></table>"
+  }
+ ],
+ "questions": [
+  {
+   "key": "DILR-01",
+   "section": "DILR",
+   "number": 1,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ratios and sets",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many students took AI?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "210"
+    },
+    {
+     "id": "B",
+     "textHtml": "90"
+    },
+    {
+     "id": "C",
+     "textHtml": "60"
+    },
+    {
+     "id": "D",
+     "textHtml": "270"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let the CS students be n; non-CS took AI and ML in the ratio 2 : 5, say 2k and 5k, with 7k = n (fact 2).</p><p><strong>AI:</strong> CS grades A : B : C = 3p : 5p : 2p with no CS fails, so n = 10p. Non-CS got no A, so total A = 3p. Then total C = 3p and total B = A + C = 6p (B is half of the passes). So non-CS got C = p and B = p, and non-CS AI fails = 2k − 2p.</p><p><strong>Fails:</strong> non-CS fails are equal in both courses, 2k − 2p each, total 4(k − p) = CS C-grades in ML = 2q (CS ML grades 4q : 5q : 2q). CS fail only in ML, and that number is 4(k − p)/3 (fact 7). ML fails: 2(k − p) + 4(k − p)/3 = 30, so <strong>k − p = 9</strong>. Hence non-CS fail 18 per course, 2q = 36 gives q = 18, and CS ML fails = 12.</p><p>n = 11q + 12 = 210, so p = 21 and k = 30. Non-CS: AI 60, ML 150.</p><p>Students taking AI = all CS students + non-CS AI students = 210 + 60 = <strong>270</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-02",
+   "section": "DILR",
+   "number": 2,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ratios and sets",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many CS students failed in ML?</p>",
+   "answer": "12",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let the CS students be n; non-CS took AI and ML in the ratio 2 : 5, say 2k and 5k, with 7k = n (fact 2).</p><p><strong>AI:</strong> CS grades A : B : C = 3p : 5p : 2p with no CS fails, so n = 10p. Non-CS got no A, so total A = 3p. Then total C = 3p and total B = A + C = 6p (B is half of the passes). So non-CS got C = p and B = p, and non-CS AI fails = 2k − 2p.</p><p><strong>Fails:</strong> non-CS fails are equal in both courses, 2k − 2p each, total 4(k − p) = CS C-grades in ML = 2q (CS ML grades 4q : 5q : 2q). CS fail only in ML, and that number is 4(k − p)/3 (fact 7). ML fails: 2(k − p) + 4(k − p)/3 = 30, so <strong>k − p = 9</strong>. Hence non-CS fail 18 per course, 2q = 36 gives q = 18, and CS ML fails = 12.</p><p>n = 11q + 12 = 210, so p = 21 and k = 30. Non-CS: AI 60, ML 150.</p><p>Non-CS fails total 36, and this is 3 times the CS fails, so CS students who failed in ML = 36 ÷ 3 = <strong>12</strong>. Check: 18 non-CS + 12 CS = 30 ML fails.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-03",
+   "section": "DILR",
+   "number": 3,
+   "type": "TITA",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ratios and sets",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many non-CS students got A grade in ML?</p>",
+   "answer": "27",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let the CS students be n; non-CS took AI and ML in the ratio 2 : 5, say 2k and 5k, with 7k = n (fact 2).</p><p><strong>AI:</strong> CS grades A : B : C = 3p : 5p : 2p with no CS fails, so n = 10p. Non-CS got no A, so total A = 3p. Then total C = 3p and total B = A + C = 6p (B is half of the passes). So non-CS got C = p and B = p, and non-CS AI fails = 2k − 2p.</p><p><strong>Fails:</strong> non-CS fails are equal in both courses, 2k − 2p each, total 4(k − p) = CS C-grades in ML = 2q (CS ML grades 4q : 5q : 2q). CS fail only in ML, and that number is 4(k − p)/3 (fact 7). ML fails: 2(k − p) + 4(k − p)/3 = 30, so <strong>k − p = 9</strong>. Hence non-CS fail 18 per course, 2q = 36 gives q = 18, and CS ML fails = 12.</p><p>n = 11q + 12 = 210, so p = 21 and k = 30. Non-CS: AI 60, ML 150.</p><p><strong>ML grades.</strong> CS: A 72, B 90, C 36, F 12. Non-CS: 150 − 18 = 132 passes, split as a, b, c. Totals need A : C = 3 : 2 and B = A + C: 2(72 + a) = 3(36 + c) and 90 + b = 108 + a + c. With a + b + c = 132 this gives a + c = 57, c = 30, <strong>a = 27, b = 75</strong>. Check: A 99, B 165, C 66: 99 : 66 = 3 : 2 and 165 = 99 + 66.</p><p>Non-CS A grades in ML = <strong>27</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-04",
+   "section": "DILR",
+   "number": 4,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ratios and sets",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many students got A grade in AI?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "84"
+    },
+    {
+     "id": "B",
+     "textHtml": "42"
+    },
+    {
+     "id": "C",
+     "textHtml": "63"
+    },
+    {
+     "id": "D",
+     "textHtml": "99"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let the CS students be n; non-CS took AI and ML in the ratio 2 : 5, say 2k and 5k, with 7k = n (fact 2).</p><p><strong>AI:</strong> CS grades A : B : C = 3p : 5p : 2p with no CS fails, so n = 10p. Non-CS got no A, so total A = 3p. Then total C = 3p and total B = A + C = 6p (B is half of the passes). So non-CS got C = p and B = p, and non-CS AI fails = 2k − 2p.</p><p><strong>Fails:</strong> non-CS fails are equal in both courses, 2k − 2p each, total 4(k − p) = CS C-grades in ML = 2q (CS ML grades 4q : 5q : 2q). CS fail only in ML, and that number is 4(k − p)/3 (fact 7). ML fails: 2(k − p) + 4(k − p)/3 = 30, so <strong>k − p = 9</strong>. Hence non-CS fail 18 per course, 2q = 36 gives q = 18, and CS ML fails = 12.</p><p>n = 11q + 12 = 210, so p = 21 and k = 30. Non-CS: AI 60, ML 150.</p><p>All A grades in AI went to CS students: 3p = 3 × 21 = <strong>63</strong>. (CS AI grades: 63, 105, 42; non-CS: B 21, C 21, F 18.)</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-05",
+   "section": "DILR",
+   "number": 5,
+   "type": "MCQ",
+   "setKey": "DILR-S1",
+   "topic": "Logical Reasoning",
+   "subtopic": "Ratios and sets",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many non-CS students got B grade in ML?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "165"
+    },
+    {
+     "id": "B",
+     "textHtml": "25"
+    },
+    {
+     "id": "C",
+     "textHtml": "90"
+    },
+    {
+     "id": "D",
+     "textHtml": "75"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Let the CS students be n; non-CS took AI and ML in the ratio 2 : 5, say 2k and 5k, with 7k = n (fact 2).</p><p><strong>AI:</strong> CS grades A : B : C = 3p : 5p : 2p with no CS fails, so n = 10p. Non-CS got no A, so total A = 3p. Then total C = 3p and total B = A + C = 6p (B is half of the passes). So non-CS got C = p and B = p, and non-CS AI fails = 2k − 2p.</p><p><strong>Fails:</strong> non-CS fails are equal in both courses, 2k − 2p each, total 4(k − p) = CS C-grades in ML = 2q (CS ML grades 4q : 5q : 2q). CS fail only in ML, and that number is 4(k − p)/3 (fact 7). ML fails: 2(k − p) + 4(k − p)/3 = 30, so <strong>k − p = 9</strong>. Hence non-CS fail 18 per course, 2q = 36 gives q = 18, and CS ML fails = 12.</p><p>n = 11q + 12 = 210, so p = 21 and k = 30. Non-CS: AI 60, ML 150.</p><p><strong>ML grades.</strong> CS: A 72, B 90, C 36, F 12. Non-CS: 150 − 18 = 132 passes, split as a, b, c. Totals need A : C = 3 : 2 and B = A + C: 2(72 + a) = 3(36 + c) and 90 + b = 108 + a + c. With a + b + c = 132 this gives a + c = 57, c = 30, <strong>a = 27, b = 75</strong>. Check: A 99, B 165, C 66: 99 : 66 = 3 : 2 and 165 = 99 + 66.</p><p>Non-CS B grades in ML = <strong>75</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-06",
+   "section": "DILR",
+   "number": 6,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar charts",
+   "difficulty": "easy",
+   "stemHtml": "<p>In 2000, what was the ratio of the number of dead males to dead females among those being tracked?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "41 : 43"
+    },
+    {
+     "id": "B",
+     "textHtml": "71 : 69"
+    },
+    {
+     "id": "C",
+     "textHtml": "129 : 131"
+    },
+    {
+     "id": "D",
+     "textHtml": "109 : 107"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Follow each cohort through the charts.</strong> Someone aged 10–20 in 1980 is in the 20–30 bar in 1990, 30–40 in 2000, and so on. Each cohort starts with 250 (males / females):</p><table><thead><tr><th>1980 age</th><th>1990</th><th>2000</th><th>2010</th><th>2020</th></tr></thead><tbody><tr><td>10–20</td><td>230 / 240</td><td>180 / 210</td><td>150 / 160</td><td>140 / 100</td></tr><tr><td>20–30</td><td>235 / 225</td><td>205 / 175</td><td>165 / 145</td><td>125 / 105</td></tr><tr><td>30–40</td><td>210 / 190</td><td>160 / 150</td><td>90 / 100</td><td>50 / 60</td></tr><tr><td>40–50</td><td>190 / 220</td><td>100 / 120</td><td>25 / 30</td><td>5 / 18</td></tr></tbody></table><p>Alive in 2000: males 180 + 205 + 160 + 100 = 645, females 210 + 175 + 150 + 120 = 655.</p><p>Dead: males 1000 − 645 = 355, females 1000 − 655 = 345. Ratio 355 : 345 = <strong>71 : 69</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-07",
+   "section": "DILR",
+   "number": 7,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar charts",
+   "difficulty": "easy",
+   "stemHtml": "<p>How many people who were being tracked and who were between 30 and 40 years of age in 1980 survived until 2010?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "190"
+    },
+    {
+     "id": "B",
+     "textHtml": "110"
+    },
+    {
+     "id": "C",
+     "textHtml": "310"
+    },
+    {
+     "id": "D",
+     "textHtml": "90"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Follow each cohort through the charts.</strong> Someone aged 10–20 in 1980 is in the 20–30 bar in 1990, 30–40 in 2000, and so on. Each cohort starts with 250 (males / females):</p><table><thead><tr><th>1980 age</th><th>1990</th><th>2000</th><th>2010</th><th>2020</th></tr></thead><tbody><tr><td>10–20</td><td>230 / 240</td><td>180 / 210</td><td>150 / 160</td><td>140 / 100</td></tr><tr><td>20–30</td><td>235 / 225</td><td>205 / 175</td><td>165 / 145</td><td>125 / 105</td></tr><tr><td>30–40</td><td>210 / 190</td><td>160 / 150</td><td>90 / 100</td><td>50 / 60</td></tr><tr><td>40–50</td><td>190 / 220</td><td>100 / 120</td><td>25 / 30</td><td>5 / 18</td></tr></tbody></table><p>The 30–40 cohort of 1980 is in the 60–70 group in 2010: 90 males + 100 females = <strong>190</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-08",
+   "section": "DILR",
+   "number": 8,
+   "type": "MCQ",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar charts",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many individuals who were being tracked and who were less than 30 years of age in 1980 survived until 2020?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "230"
+    },
+    {
+     "id": "B",
+     "textHtml": "580"
+    },
+    {
+     "id": "C",
+     "textHtml": "470"
+    },
+    {
+     "id": "D",
+     "textHtml": "240"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Follow each cohort through the charts.</strong> Someone aged 10–20 in 1980 is in the 20–30 bar in 1990, 30–40 in 2000, and so on. Each cohort starts with 250 (males / females):</p><table><thead><tr><th>1980 age</th><th>1990</th><th>2000</th><th>2010</th><th>2020</th></tr></thead><tbody><tr><td>10–20</td><td>230 / 240</td><td>180 / 210</td><td>150 / 160</td><td>140 / 100</td></tr><tr><td>20–30</td><td>235 / 225</td><td>205 / 175</td><td>165 / 145</td><td>125 / 105</td></tr><tr><td>30–40</td><td>210 / 190</td><td>160 / 150</td><td>90 / 100</td><td>50 / 60</td></tr><tr><td>40–50</td><td>190 / 220</td><td>100 / 120</td><td>25 / 30</td><td>5 / 18</td></tr></tbody></table><p>Under 30 in 1980 means the 10–20 and 20–30 cohorts. In 2020 they are in the 50–60 and 60–70 groups: (140 + 100) + (125 + 105) = 240 + 230 = <strong>470</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-09",
+   "section": "DILR",
+   "number": 9,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar charts",
+   "difficulty": "medium",
+   "stemHtml": "<p>How many of the males who were being tracked and who were between 20 and 30 years of age in 1980 died in the period 2000 to 2010?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Follow each cohort through the charts.</strong> Someone aged 10–20 in 1980 is in the 20–30 bar in 1990, 30–40 in 2000, and so on. Each cohort starts with 250 (males / females):</p><table><thead><tr><th>1980 age</th><th>1990</th><th>2000</th><th>2010</th><th>2020</th></tr></thead><tbody><tr><td>10–20</td><td>230 / 240</td><td>180 / 210</td><td>150 / 160</td><td>140 / 100</td></tr><tr><td>20–30</td><td>235 / 225</td><td>205 / 175</td><td>165 / 145</td><td>125 / 105</td></tr><tr><td>30–40</td><td>210 / 190</td><td>160 / 150</td><td>90 / 100</td><td>50 / 60</td></tr><tr><td>40–50</td><td>190 / 220</td><td>100 / 120</td><td>25 / 30</td><td>5 / 18</td></tr></tbody></table><p>Males aged 20–30 in 1980 are in the 40–50 group in 2000 (205) and the 50–60 group in 2010 (165). Deaths in between = 205 − 165 = <strong>40</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-10",
+   "section": "DILR",
+   "number": 10,
+   "type": "TITA",
+   "setKey": "DILR-S2",
+   "topic": "Data Interpretation",
+   "subtopic": "Bar charts",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many of the females who were being tracked and who were between 20 and 30 years of age in 1980 died between the ages of 50 and 60?</p>",
+   "answer": "40",
+   "solutionHtml": "<p><strong>Follow each cohort through the charts.</strong> Someone aged 10–20 in 1980 is in the 20–30 bar in 1990, 30–40 in 2000, and so on. Each cohort starts with 250 (males / females):</p><table><thead><tr><th>1980 age</th><th>1990</th><th>2000</th><th>2010</th><th>2020</th></tr></thead><tbody><tr><td>10–20</td><td>230 / 240</td><td>180 / 210</td><td>150 / 160</td><td>140 / 100</td></tr><tr><td>20–30</td><td>235 / 225</td><td>205 / 175</td><td>165 / 145</td><td>125 / 105</td></tr><tr><td>30–40</td><td>210 / 190</td><td>160 / 150</td><td>90 / 100</td><td>50 / 60</td></tr><tr><td>40–50</td><td>190 / 220</td><td>100 / 120</td><td>25 / 30</td><td>5 / 18</td></tr></tbody></table><p>Females aged 20–30 in 1980 are in the 50–60 bar in 2010 (145) and have moved to the 60–70 bar by 2020 (105). The ones who were in the 50–60 group and died before reaching 60–70 number 145 − 105 = <strong>40</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-11",
+   "section": "DILR",
+   "number": 11,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>What BEST can be concluded about the total number of new cases in the city on Day 2?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Exactly 7"
+    },
+    {
+     "id": "B",
+     "textHtml": "Either 6 or 7"
+    },
+    {
+     "id": "C",
+     "textHtml": "Either 7 or 8"
+    },
+    {
+     "id": "D",
+     "textHtml": "Exactly 8"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Pesmisto's 5 cases with a single 2 must be 2, 1, 1, 1, 0 in some order. Since Kitmisto &gt; Pesmisto, on Pesmisto's 2-day Kitmisto has 3, so <strong>no day can total 12</strong> (Pesmisto is never 3). So Day 5 ≤ 11 and Day 4 ≤ 10.</p><p>Daily totals are increasing with Day 3 = Day 2 + 1 and sum 12 + 12 + 5 + 14 = 43. On Day 2 only Kitmisto has 3, so Day 2 ≤ 3 + 2 + 2 + 2 = 9. Trying the options, the only sequence that works is <strong>5, 8, 9, 10, 11</strong>.</p><p>Day 5 = 11 forces Pesmisto 2 and the other three 3 each. Day 1 = 5 with every place ≥ 1 and Kitmisto &gt; Pesmisto gives L 1, T 1, P 1, K 2. Day 2 = 8: K 3, L and T at most 2 and P at most 1, so L 2, T 2, P 1. Kitmisto then needs 3 on Days 3 and 4 (total 14). Levmisto and Tyhrmisto need 6 more over Days 3 and 4, so they have 3 each on both days. Totals 9 and 10 then give Pesmisto 0 on Day 3 and 1 on Day 4.</p><table><thead><tr><th></th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>Levmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Tyhrmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Pesmisto</td><td>1</td><td>1</td><td>0</td><td>1</td><td>2</td></tr><tr><td>Kitmisto</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Total</td><td>5</td><td>8</td><td>9</td><td>10</td><td>11</td></tr></tbody></table><p>Day 2 total = <strong>exactly 8</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-12",
+   "section": "DILR",
+   "number": 12,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>What BEST can be concluded about the number of new cases in Levmisto on Day 3?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Exactly 2"
+    },
+    {
+     "id": "B",
+     "textHtml": "Exactly 3"
+    },
+    {
+     "id": "C",
+     "textHtml": "Either 0 or 1"
+    },
+    {
+     "id": "D",
+     "textHtml": "Either 2 or 3"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Pesmisto's 5 cases with a single 2 must be 2, 1, 1, 1, 0 in some order. Since Kitmisto &gt; Pesmisto, on Pesmisto's 2-day Kitmisto has 3, so <strong>no day can total 12</strong> (Pesmisto is never 3). So Day 5 ≤ 11 and Day 4 ≤ 10.</p><p>Daily totals are increasing with Day 3 = Day 2 + 1 and sum 12 + 12 + 5 + 14 = 43. On Day 2 only Kitmisto has 3, so Day 2 ≤ 3 + 2 + 2 + 2 = 9. Trying the options, the only sequence that works is <strong>5, 8, 9, 10, 11</strong>.</p><p>Day 5 = 11 forces Pesmisto 2 and the other three 3 each. Day 1 = 5 with every place ≥ 1 and Kitmisto &gt; Pesmisto gives L 1, T 1, P 1, K 2. Day 2 = 8: K 3, L and T at most 2 and P at most 1, so L 2, T 2, P 1. Kitmisto then needs 3 on Days 3 and 4 (total 14). Levmisto and Tyhrmisto need 6 more over Days 3 and 4, so they have 3 each on both days. Totals 9 and 10 then give Pesmisto 0 on Day 3 and 1 on Day 4.</p><table><thead><tr><th></th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>Levmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Tyhrmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Pesmisto</td><td>1</td><td>1</td><td>0</td><td>1</td><td>2</td></tr><tr><td>Kitmisto</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Total</td><td>5</td><td>8</td><td>9</td><td>10</td><td>11</td></tr></tbody></table><p>Levmisto on Day 3 = <strong>exactly 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-13",
+   "section": "DILR",
+   "number": 13,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>On which day(s) did Pesmisto not have any new case?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Only Day 3"
+    },
+    {
+     "id": "B",
+     "textHtml": "Both Day 2 and Day 3"
+    },
+    {
+     "id": "C",
+     "textHtml": "Only Day 2"
+    },
+    {
+     "id": "D",
+     "textHtml": "Both Day 2 and Day 4"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Pesmisto's 5 cases with a single 2 must be 2, 1, 1, 1, 0 in some order. Since Kitmisto &gt; Pesmisto, on Pesmisto's 2-day Kitmisto has 3, so <strong>no day can total 12</strong> (Pesmisto is never 3). So Day 5 ≤ 11 and Day 4 ≤ 10.</p><p>Daily totals are increasing with Day 3 = Day 2 + 1 and sum 12 + 12 + 5 + 14 = 43. On Day 2 only Kitmisto has 3, so Day 2 ≤ 3 + 2 + 2 + 2 = 9. Trying the options, the only sequence that works is <strong>5, 8, 9, 10, 11</strong>.</p><p>Day 5 = 11 forces Pesmisto 2 and the other three 3 each. Day 1 = 5 with every place ≥ 1 and Kitmisto &gt; Pesmisto gives L 1, T 1, P 1, K 2. Day 2 = 8: K 3, L and T at most 2 and P at most 1, so L 2, T 2, P 1. Kitmisto then needs 3 on Days 3 and 4 (total 14). Levmisto and Tyhrmisto need 6 more over Days 3 and 4, so they have 3 each on both days. Totals 9 and 10 then give Pesmisto 0 on Day 3 and 1 on Day 4.</p><table><thead><tr><th></th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>Levmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Tyhrmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Pesmisto</td><td>1</td><td>1</td><td>0</td><td>1</td><td>2</td></tr><tr><td>Kitmisto</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Total</td><td>5</td><td>8</td><td>9</td><td>10</td><td>11</td></tr></tbody></table><p>Pesmisto had 0 cases <strong>only on Day 3</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-14",
+   "section": "DILR",
+   "number": 14,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the two statements below is/are necessarily false?</p><p>Statement A: There were 2 new cases in Tyhrmisto on Day 3.<br>Statement B: There were no new cases in Pesmisto on Day 2.</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Statement B only"
+    },
+    {
+     "id": "B",
+     "textHtml": "Both Statement A and Statement B"
+    },
+    {
+     "id": "C",
+     "textHtml": "Neither Statement A nor Statement B"
+    },
+    {
+     "id": "D",
+     "textHtml": "Statement A only"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Pesmisto's 5 cases with a single 2 must be 2, 1, 1, 1, 0 in some order. Since Kitmisto &gt; Pesmisto, on Pesmisto's 2-day Kitmisto has 3, so <strong>no day can total 12</strong> (Pesmisto is never 3). So Day 5 ≤ 11 and Day 4 ≤ 10.</p><p>Daily totals are increasing with Day 3 = Day 2 + 1 and sum 12 + 12 + 5 + 14 = 43. On Day 2 only Kitmisto has 3, so Day 2 ≤ 3 + 2 + 2 + 2 = 9. Trying the options, the only sequence that works is <strong>5, 8, 9, 10, 11</strong>.</p><p>Day 5 = 11 forces Pesmisto 2 and the other three 3 each. Day 1 = 5 with every place ≥ 1 and Kitmisto &gt; Pesmisto gives L 1, T 1, P 1, K 2. Day 2 = 8: K 3, L and T at most 2 and P at most 1, so L 2, T 2, P 1. Kitmisto then needs 3 on Days 3 and 4 (total 14). Levmisto and Tyhrmisto need 6 more over Days 3 and 4, so they have 3 each on both days. Totals 9 and 10 then give Pesmisto 0 on Day 3 and 1 on Day 4.</p><table><thead><tr><th></th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>Levmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Tyhrmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Pesmisto</td><td>1</td><td>1</td><td>0</td><td>1</td><td>2</td></tr><tr><td>Kitmisto</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Total</td><td>5</td><td>8</td><td>9</td><td>10</td><td>11</td></tr></tbody></table><p>Tyhrmisto had 3 on Day 3, so A is false. Pesmisto had 1 on Day 2, so B is false. The grid is unique, so <strong>both are necessarily false</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-15",
+   "section": "DILR",
+   "number": 15,
+   "type": "MCQ",
+   "setKey": "DILR-S3",
+   "topic": "Logical Reasoning",
+   "subtopic": "Distributions",
+   "difficulty": "hard",
+   "stemHtml": "<p>On how many days did Levmisto and Tyhrmisto have the same number of new cases?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "2"
+    },
+    {
+     "id": "B",
+     "textHtml": "5"
+    },
+    {
+     "id": "C",
+     "textHtml": "3"
+    },
+    {
+     "id": "D",
+     "textHtml": "4"
+    }
+   ],
+   "answer": "B",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Pesmisto's 5 cases with a single 2 must be 2, 1, 1, 1, 0 in some order. Since Kitmisto &gt; Pesmisto, on Pesmisto's 2-day Kitmisto has 3, so <strong>no day can total 12</strong> (Pesmisto is never 3). So Day 5 ≤ 11 and Day 4 ≤ 10.</p><p>Daily totals are increasing with Day 3 = Day 2 + 1 and sum 12 + 12 + 5 + 14 = 43. On Day 2 only Kitmisto has 3, so Day 2 ≤ 3 + 2 + 2 + 2 = 9. Trying the options, the only sequence that works is <strong>5, 8, 9, 10, 11</strong>.</p><p>Day 5 = 11 forces Pesmisto 2 and the other three 3 each. Day 1 = 5 with every place ≥ 1 and Kitmisto &gt; Pesmisto gives L 1, T 1, P 1, K 2. Day 2 = 8: K 3, L and T at most 2 and P at most 1, so L 2, T 2, P 1. Kitmisto then needs 3 on Days 3 and 4 (total 14). Levmisto and Tyhrmisto need 6 more over Days 3 and 4, so they have 3 each on both days. Totals 9 and 10 then give Pesmisto 0 on Day 3 and 1 on Day 4.</p><table><thead><tr><th></th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Day 4</th><th>Day 5</th></tr></thead><tbody><tr><td>Levmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Tyhrmisto</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Pesmisto</td><td>1</td><td>1</td><td>0</td><td>1</td><td>2</td></tr><tr><td>Kitmisto</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Total</td><td>5</td><td>8</td><td>9</td><td>10</td><td>11</td></tr></tbody></table><p>Levmisto and Tyhrmisto both read 1, 2, 3, 3, 3, so they are equal on all <strong>5</strong> days.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-16",
+   "section": "DILR",
+   "number": 16,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games and tournaments",
+   "difficulty": "hard",
+   "stemHtml": "<p>What BEST can be said about the amount of money that Ritesh had with him at the end of Round 8?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Rs. 5 or Rs. 6"
+    },
+    {
+     "id": "B",
+     "textHtml": "Rs. 4 or Rs. 5"
+    },
+    {
+     "id": "C",
+     "textHtml": "Exactly Rs. 6"
+    },
+    {
+     "id": "D",
+     "textHtml": "Exactly Rs. 5"
+    }
+   ],
+   "answer": "C",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Money always totals Rs.40. From the table, Pulak's range is 10–13 (10 only in Round 5, 13 only in Rounds 2 and 8). Qasim's is 8–12 (8 only in R1, 12 only in R7, 10 in R2 and R5, otherwise 9 or 11). Ritesh's is 4–10 (10 only in R1, 4 only in R7, otherwise 5–9).</p><p><strong>R1:</strong> P = 40 − 28 = 12, so P beat Q for Rs.2 and R–S did not play. <strong>R2:</strong> R = 9. The changes P +1, Q +2, R −1, S −2 fit only the pairing (PR)(QS).</p><p><strong>R6–R8:</strong> Q goes 10 → ? → 12 with the middle value 9 or 11, so Q6 = 11 and Q rises by 1 in each of R6 and R7. Q8 can only be 11 (12 − 1), so R8 = 40 − 13 − 10 − 11 = 6, a gain of 2 from 4. In R8, R must take Rs.2 from S (S7 = 12) and Q loses 1 to P (P7 = 12): (PQ)(RS). Checking R6 = 5 or 6, only R6 = 5 fits R7. So <strong>R6: (QS) Rs.1, (PR) Rs.2</strong>, with P6 = 12 and S6 = 12. <strong>R7: (QR) Rs.1, (PS) no game</strong>.</p><p><strong>R4–R5:</strong> P4 = Q4 must be 11, and both lose 1 in R5, so each plays R or S. That gives R4 = 6 and S4 = 12. Since R5 ≠ R6's (QS)(PR), <strong>R5 is (PS)(QR)</strong>. <strong>R3:</strong> only (PS) with Rs.2 (S wins) and (QR) with Rs.1 (Q wins) works, giving P 11, Q 11, R 8, S 10. <strong>R4:</strong> (PQ) no game, (RS) Rs.2 with S winning.</p><table><thead><tr><th>End of round</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Pulak</td><td>12</td><td>13</td><td>11</td><td>11</td><td>10</td><td>12</td><td>12</td><td>13</td></tr><tr><td>Qasim</td><td>8</td><td>10</td><td>11</td><td>11</td><td>10</td><td>11</td><td>12</td><td>11</td></tr><tr><td>Ritesh</td><td>10</td><td>9</td><td>8</td><td>6</td><td>7</td><td>5</td><td>4</td><td>6</td></tr><tr><td>Suresh</td><td>10</td><td>8</td><td>10</td><td>12</td><td>13</td><td>12</td><td>12</td><td>10</td></tr></tbody></table><p>Pairings: R1 (PQ)(RS), R2 (PR)(QS), R3 (PS)(QR), R4 (PQ)(RS), R5 (PS)(QR), R6 (PR)(QS), R7 (PS)(QR), R8 (PQ)(RS).</p><p>Qasim must have Rs.11 after Round 8, so Ritesh has 40 − 13 − 10 − 11 = <strong>exactly Rs.6</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-17",
+   "section": "DILR",
+   "number": 17,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games and tournaments",
+   "difficulty": "hard",
+   "stemHtml": "<p>What BEST can be said about the amount of money that Pulak had with him at the end of Round 6?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Rs. 11 or Rs. 12"
+    },
+    {
+     "id": "B",
+     "textHtml": "Rs. 12 or Rs. 13"
+    },
+    {
+     "id": "C",
+     "textHtml": "Exactly Rs. 11"
+    },
+    {
+     "id": "D",
+     "textHtml": "Exactly Rs. 12"
+    }
+   ],
+   "answer": "D",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Money always totals Rs.40. From the table, Pulak's range is 10–13 (10 only in Round 5, 13 only in Rounds 2 and 8). Qasim's is 8–12 (8 only in R1, 12 only in R7, 10 in R2 and R5, otherwise 9 or 11). Ritesh's is 4–10 (10 only in R1, 4 only in R7, otherwise 5–9).</p><p><strong>R1:</strong> P = 40 − 28 = 12, so P beat Q for Rs.2 and R–S did not play. <strong>R2:</strong> R = 9. The changes P +1, Q +2, R −1, S −2 fit only the pairing (PR)(QS).</p><p><strong>R6–R8:</strong> Q goes 10 → ? → 12 with the middle value 9 or 11, so Q6 = 11 and Q rises by 1 in each of R6 and R7. Q8 can only be 11 (12 − 1), so R8 = 40 − 13 − 10 − 11 = 6, a gain of 2 from 4. In R8, R must take Rs.2 from S (S7 = 12) and Q loses 1 to P (P7 = 12): (PQ)(RS). Checking R6 = 5 or 6, only R6 = 5 fits R7. So <strong>R6: (QS) Rs.1, (PR) Rs.2</strong>, with P6 = 12 and S6 = 12. <strong>R7: (QR) Rs.1, (PS) no game</strong>.</p><p><strong>R4–R5:</strong> P4 = Q4 must be 11, and both lose 1 in R5, so each plays R or S. That gives R4 = 6 and S4 = 12. Since R5 ≠ R6's (QS)(PR), <strong>R5 is (PS)(QR)</strong>. <strong>R3:</strong> only (PS) with Rs.2 (S wins) and (QR) with Rs.1 (Q wins) works, giving P 11, Q 11, R 8, S 10. <strong>R4:</strong> (PQ) no game, (RS) Rs.2 with S winning.</p><table><thead><tr><th>End of round</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Pulak</td><td>12</td><td>13</td><td>11</td><td>11</td><td>10</td><td>12</td><td>12</td><td>13</td></tr><tr><td>Qasim</td><td>8</td><td>10</td><td>11</td><td>11</td><td>10</td><td>11</td><td>12</td><td>11</td></tr><tr><td>Ritesh</td><td>10</td><td>9</td><td>8</td><td>6</td><td>7</td><td>5</td><td>4</td><td>6</td></tr><tr><td>Suresh</td><td>10</td><td>8</td><td>10</td><td>12</td><td>13</td><td>12</td><td>12</td><td>10</td></tr></tbody></table><p>Pairings: R1 (PQ)(RS), R2 (PR)(QS), R3 (PS)(QR), R4 (PQ)(RS), R5 (PS)(QR), R6 (PR)(QS), R7 (PS)(QR), R8 (PQ)(RS).</p><p>Pulak had <strong>exactly Rs.12</strong> after Round 6.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-18",
+   "section": "DILR",
+   "number": 18,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games and tournaments",
+   "difficulty": "hard",
+   "stemHtml": "<p>How much money (in Rs.) did Ritesh have at the end of Round 4?</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Money always totals Rs.40. From the table, Pulak's range is 10–13 (10 only in Round 5, 13 only in Rounds 2 and 8). Qasim's is 8–12 (8 only in R1, 12 only in R7, 10 in R2 and R5, otherwise 9 or 11). Ritesh's is 4–10 (10 only in R1, 4 only in R7, otherwise 5–9).</p><p><strong>R1:</strong> P = 40 − 28 = 12, so P beat Q for Rs.2 and R–S did not play. <strong>R2:</strong> R = 9. The changes P +1, Q +2, R −1, S −2 fit only the pairing (PR)(QS).</p><p><strong>R6–R8:</strong> Q goes 10 → ? → 12 with the middle value 9 or 11, so Q6 = 11 and Q rises by 1 in each of R6 and R7. Q8 can only be 11 (12 − 1), so R8 = 40 − 13 − 10 − 11 = 6, a gain of 2 from 4. In R8, R must take Rs.2 from S (S7 = 12) and Q loses 1 to P (P7 = 12): (PQ)(RS). Checking R6 = 5 or 6, only R6 = 5 fits R7. So <strong>R6: (QS) Rs.1, (PR) Rs.2</strong>, with P6 = 12 and S6 = 12. <strong>R7: (QR) Rs.1, (PS) no game</strong>.</p><p><strong>R4–R5:</strong> P4 = Q4 must be 11, and both lose 1 in R5, so each plays R or S. That gives R4 = 6 and S4 = 12. Since R5 ≠ R6's (QS)(PR), <strong>R5 is (PS)(QR)</strong>. <strong>R3:</strong> only (PS) with Rs.2 (S wins) and (QR) with Rs.1 (Q wins) works, giving P 11, Q 11, R 8, S 10. <strong>R4:</strong> (PQ) no game, (RS) Rs.2 with S winning.</p><table><thead><tr><th>End of round</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Pulak</td><td>12</td><td>13</td><td>11</td><td>11</td><td>10</td><td>12</td><td>12</td><td>13</td></tr><tr><td>Qasim</td><td>8</td><td>10</td><td>11</td><td>11</td><td>10</td><td>11</td><td>12</td><td>11</td></tr><tr><td>Ritesh</td><td>10</td><td>9</td><td>8</td><td>6</td><td>7</td><td>5</td><td>4</td><td>6</td></tr><tr><td>Suresh</td><td>10</td><td>8</td><td>10</td><td>12</td><td>13</td><td>12</td><td>12</td><td>10</td></tr></tbody></table><p>Pairings: R1 (PQ)(RS), R2 (PR)(QS), R3 (PS)(QR), R4 (PQ)(RS), R5 (PS)(QR), R6 (PR)(QS), R7 (PS)(QR), R8 (PQ)(RS).</p><p>Ritesh had <strong>Rs.6</strong> after Round 4.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-19",
+   "section": "DILR",
+   "number": 19,
+   "type": "TITA",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games and tournaments",
+   "difficulty": "hard",
+   "stemHtml": "<p>How many games were played with a bet of Rs. 2?</p>",
+   "answer": "6",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Money always totals Rs.40. From the table, Pulak's range is 10–13 (10 only in Round 5, 13 only in Rounds 2 and 8). Qasim's is 8–12 (8 only in R1, 12 only in R7, 10 in R2 and R5, otherwise 9 or 11). Ritesh's is 4–10 (10 only in R1, 4 only in R7, otherwise 5–9).</p><p><strong>R1:</strong> P = 40 − 28 = 12, so P beat Q for Rs.2 and R–S did not play. <strong>R2:</strong> R = 9. The changes P +1, Q +2, R −1, S −2 fit only the pairing (PR)(QS).</p><p><strong>R6–R8:</strong> Q goes 10 → ? → 12 with the middle value 9 or 11, so Q6 = 11 and Q rises by 1 in each of R6 and R7. Q8 can only be 11 (12 − 1), so R8 = 40 − 13 − 10 − 11 = 6, a gain of 2 from 4. In R8, R must take Rs.2 from S (S7 = 12) and Q loses 1 to P (P7 = 12): (PQ)(RS). Checking R6 = 5 or 6, only R6 = 5 fits R7. So <strong>R6: (QS) Rs.1, (PR) Rs.2</strong>, with P6 = 12 and S6 = 12. <strong>R7: (QR) Rs.1, (PS) no game</strong>.</p><p><strong>R4–R5:</strong> P4 = Q4 must be 11, and both lose 1 in R5, so each plays R or S. That gives R4 = 6 and S4 = 12. Since R5 ≠ R6's (QS)(PR), <strong>R5 is (PS)(QR)</strong>. <strong>R3:</strong> only (PS) with Rs.2 (S wins) and (QR) with Rs.1 (Q wins) works, giving P 11, Q 11, R 8, S 10. <strong>R4:</strong> (PQ) no game, (RS) Rs.2 with S winning.</p><table><thead><tr><th>End of round</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Pulak</td><td>12</td><td>13</td><td>11</td><td>11</td><td>10</td><td>12</td><td>12</td><td>13</td></tr><tr><td>Qasim</td><td>8</td><td>10</td><td>11</td><td>11</td><td>10</td><td>11</td><td>12</td><td>11</td></tr><tr><td>Ritesh</td><td>10</td><td>9</td><td>8</td><td>6</td><td>7</td><td>5</td><td>4</td><td>6</td></tr><tr><td>Suresh</td><td>10</td><td>8</td><td>10</td><td>12</td><td>13</td><td>12</td><td>12</td><td>10</td></tr></tbody></table><p>Pairings: R1 (PQ)(RS), R2 (PR)(QS), R3 (PS)(QR), R4 (PQ)(RS), R5 (PS)(QR), R6 (PR)(QS), R7 (PS)(QR), R8 (PQ)(RS).</p><p>Rs.2 games: R1 (PQ), R2 (QS), R3 (PS), R4 (RS), R6 (PR), R8 (RS), so <strong>6</strong> games.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  },
+  {
+   "key": "DILR-20",
+   "section": "DILR",
+   "number": 20,
+   "type": "MCQ",
+   "setKey": "DILR-S4",
+   "topic": "Logical Reasoning",
+   "subtopic": "Games and tournaments",
+   "difficulty": "hard",
+   "stemHtml": "<p>Which of the following pairings was made in Round 5?</p>",
+   "options": [
+    {
+     "id": "A",
+     "textHtml": "Pulak and Suresh"
+    },
+    {
+     "id": "B",
+     "textHtml": "Qasim and Suresh"
+    },
+    {
+     "id": "C",
+     "textHtml": "Pulak and Qasim"
+    },
+    {
+     "id": "D",
+     "textHtml": "Pulak and Ritesh"
+    }
+   ],
+   "answer": "A",
+   "solutionHtml": "<p><strong>Key deduction.</strong> Money always totals Rs.40. From the table, Pulak's range is 10–13 (10 only in Round 5, 13 only in Rounds 2 and 8). Qasim's is 8–12 (8 only in R1, 12 only in R7, 10 in R2 and R5, otherwise 9 or 11). Ritesh's is 4–10 (10 only in R1, 4 only in R7, otherwise 5–9).</p><p><strong>R1:</strong> P = 40 − 28 = 12, so P beat Q for Rs.2 and R–S did not play. <strong>R2:</strong> R = 9. The changes P +1, Q +2, R −1, S −2 fit only the pairing (PR)(QS).</p><p><strong>R6–R8:</strong> Q goes 10 → ? → 12 with the middle value 9 or 11, so Q6 = 11 and Q rises by 1 in each of R6 and R7. Q8 can only be 11 (12 − 1), so R8 = 40 − 13 − 10 − 11 = 6, a gain of 2 from 4. In R8, R must take Rs.2 from S (S7 = 12) and Q loses 1 to P (P7 = 12): (PQ)(RS). Checking R6 = 5 or 6, only R6 = 5 fits R7. So <strong>R6: (QS) Rs.1, (PR) Rs.2</strong>, with P6 = 12 and S6 = 12. <strong>R7: (QR) Rs.1, (PS) no game</strong>.</p><p><strong>R4–R5:</strong> P4 = Q4 must be 11, and both lose 1 in R5, so each plays R or S. That gives R4 = 6 and S4 = 12. Since R5 ≠ R6's (QS)(PR), <strong>R5 is (PS)(QR)</strong>. <strong>R3:</strong> only (PS) with Rs.2 (S wins) and (QR) with Rs.1 (Q wins) works, giving P 11, Q 11, R 8, S 10. <strong>R4:</strong> (PQ) no game, (RS) Rs.2 with S winning.</p><table><thead><tr><th>End of round</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th></tr></thead><tbody><tr><td>Pulak</td><td>12</td><td>13</td><td>11</td><td>11</td><td>10</td><td>12</td><td>12</td><td>13</td></tr><tr><td>Qasim</td><td>8</td><td>10</td><td>11</td><td>11</td><td>10</td><td>11</td><td>12</td><td>11</td></tr><tr><td>Ritesh</td><td>10</td><td>9</td><td>8</td><td>6</td><td>7</td><td>5</td><td>4</td><td>6</td></tr><tr><td>Suresh</td><td>10</td><td>8</td><td>10</td><td>12</td><td>13</td><td>12</td><td>12</td><td>10</td></tr></tbody></table><p>Pairings: R1 (PQ)(RS), R2 (PR)(QS), R3 (PS)(QR), R4 (PQ)(RS), R5 (PS)(QR), R6 (PR)(QS), R7 (PS)(QR), R8 (PQ)(RS).</p><p>Round 5 pairing: (PS)(QR), so <strong>Pulak and Suresh</strong>.</p>",
+   "source": {
+    "kind": "official",
+    "title": "CAT 2022 Slot 3",
+    "url": "https://iimcat.ac.in"
+   }
+  }
+ ]
+}

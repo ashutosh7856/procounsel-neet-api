@@ -1,7 +1,8 @@
 """Student shortlist of institutes: ``mbaShortlists/{userId}`` (one document per student).
 
 Document: ``{ userId, items: { <slug>: { status, deadline, notes, createdAt, updatedAt, checklist? } }, updatedAt }``
-(``checklist`` is owned by api/mba/applications.py and preserved by PUT).
+(``checklist`` and ``outcome`` are owned by api/mba/applications.py and preserved by PUT; removing an institute
+also deletes the documents uploaded for it, see doc_store.py).
 Writes use optimistic concurrency (``occ_update``).
 """
 
@@ -18,6 +19,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from api.auth import CurrentUser
 from api.db import SafeFirestore, get_db
 
+from . import doc_store
 from .deps import student
 from .program_models import SLUG_RE, ShortlistDeleteResponse, ShortlistInput, ShortlistItem, ShortlistResponse
 from .programs import load_institutes
@@ -126,9 +128,10 @@ def put_shortlist_item(slug: str, body: ShortlistInput, user: CurrentUser = Depe
             "createdAt": _str((previous or {}).get("createdAt")) or now,
             "updatedAt": now,
         }
-        # The document checklist (api/mba/applications.py) lives on the same entry; a PUT keeps it.
-        if previous is not None and isinstance(previous.get("checklist"), dict):
-            entry["checklist"] = previous["checklist"]
+        # The document checklist and admission outcome (api/mba/applications.py) live on the same entry; a PUT keeps them.
+        for kept in ("checklist", "outcome"):
+            if previous is not None and isinstance(previous.get(kept), dict):
+                entry[kept] = previous[kept]
         items[slug] = entry
         return {"userId": user.user_id, "items": items, "updatedAt": now}, entry
 
@@ -148,4 +151,6 @@ def delete_shortlist_item(slug: str, user: CurrentUser = Depends(student), db: S
         items.pop(slug)
         return {"items": items, "updatedAt": now}, True
 
-    return {"removed": occ_update(db, SHORTLISTS, user.user_id, mutate)}
+    removed = occ_update(db, SHORTLISTS, user.user_id, mutate)
+    doc_store.remove_where(db, user.user_id, slug)  # uploaded documents for this institute go with it
+    return {"removed": removed}

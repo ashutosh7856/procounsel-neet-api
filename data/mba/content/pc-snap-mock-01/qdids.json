@@ -1,0 +1,707 @@
+{
+  "sets": [
+    {
+      "key": "QDIDS-S1",
+      "kind": "data",
+      "title": "Quarterly sales of five stores",
+      "contentHtml": "<p>The table shows the quarterly sales (in ₹ lakh) of five stores of a retail chain in one financial year.</p><table><tr><th>Store</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr><tr><td>Alpha</td><td>120</td><td>135</td><td>150</td><td>165</td></tr><tr><td>Beta</td><td>140</td><td>126</td><td>154</td><td>180</td></tr><tr><td>Gamma</td><td>95</td><td>110</td><td>120</td><td>135</td></tr><tr><td>Delta</td><td>160</td><td>150</td><td>140</td><td>170</td></tr><tr><td>Epsilon</td><td>105</td><td>125</td><td>130</td><td>140</td></tr></table>",
+      "section": "QDIDS"
+    },
+    {
+      "key": "QDIDS-S2",
+      "kind": "passage",
+      "title": "Data sufficiency directions",
+      "contentHtml": "<p><strong>Directions (Data Sufficiency):</strong> Each question is followed by two statements, I and II. Decide whether the data in the statements are sufficient to answer the question, and choose:</p><ul><li><strong>A</strong> — if statement I alone is sufficient, but statement II alone is not;</li><li><strong>B</strong> — if statement II alone is sufficient, but statement I alone is not;</li><li><strong>C</strong> — if both statements together are sufficient, but neither alone is;</li><li><strong>D</strong> — if the statements are not sufficient even together.</li></ul>",
+      "section": "QDIDS"
+    }
+  ],
+  "questions": [
+    {
+      "key": "QDIDS-01",
+      "section": "QDIDS",
+      "number": 1,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Percentages",
+      "difficulty": "easy",
+      "stemHtml": "<p>A’s salary is 25% more than B’s salary. By what percentage is B’s salary less than A’s?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "20%"
+        },
+        {
+          "id": "B",
+          "textHtml": "25%"
+        },
+        {
+          "id": "C",
+          "textHtml": "22.5%"
+        },
+        {
+          "id": "D",
+          "textHtml": "15%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Let B = 100, then A = 125.</p><p>B is less than A by 25, as a percentage of A: 25/125 × 100 = <strong>20%</strong>.</p><p>25% is the trap: the base changes from B to A.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-02",
+      "section": "QDIDS",
+      "number": 2,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Profit and loss",
+      "difficulty": "easy",
+      "stemHtml": "<p>A shopkeeper marks his goods 40% above the cost price and then allows a discount of 15% on the marked price. What is his profit percentage?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "25%"
+        },
+        {
+          "id": "B",
+          "textHtml": "21%"
+        },
+        {
+          "id": "C",
+          "textHtml": "19%"
+        },
+        {
+          "id": "D",
+          "textHtml": "17%"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Let CP = 100. Marked price = 140. Selling price = 140 × 0.85 = 119.</p><p>Profit = 19 on 100, i.e. <strong>19%</strong>.</p><p>25% (= 40 − 15) is the common error of subtracting percentages directly.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-03",
+      "section": "QDIDS",
+      "number": 3,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Compound interest",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the compound interest on ₹20,000 for 3 years at 10% per annum, compounded annually?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "₹6,000"
+        },
+        {
+          "id": "B",
+          "textHtml": "₹6,620"
+        },
+        {
+          "id": "C",
+          "textHtml": "₹6,200"
+        },
+        {
+          "id": "D",
+          "textHtml": "₹6,862"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Amount = 20,000 × (1.1)³ = 20,000 × 1.331 = ₹26,620.</p><p>CI = 26,620 − 20,000 = <strong>₹6,620</strong>.</p><p>₹6,000 is the simple interest for the same period.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-04",
+      "section": "QDIDS",
+      "number": 4,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Time and work",
+      "difficulty": "medium",
+      "stemHtml": "<p>A can complete a job in 12 days and B in 18 days. They work together for 4 days, after which A leaves. In how many more days will B finish the remaining work?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "6"
+        },
+        {
+          "id": "B",
+          "textHtml": "7"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "8"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Combined daily work = 1/12 + 1/18 = 3/36 + 2/36 = 5/36.</p><p>Work done in 4 days = 20/36 = 5/9. Remaining = 4/9.</p><p>B alone: (4/9) ÷ (1/18) = 4/9 × 18 = <strong>8 days</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-05",
+      "section": "QDIDS",
+      "number": 5,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Speed, time and distance",
+      "difficulty": "medium",
+      "stemHtml": "<p>Two trains, 150 m and 210 m long, run on parallel tracks in opposite directions at 54 km/h and 36 km/h respectively. How long do they take to cross each other completely?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12 seconds"
+        },
+        {
+          "id": "B",
+          "textHtml": "14.4 seconds"
+        },
+        {
+          "id": "C",
+          "textHtml": "16 seconds"
+        },
+        {
+          "id": "D",
+          "textHtml": "36 seconds"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Relative speed (opposite directions) = 54 + 36 = 90 km/h = 90 × 5/18 = 25 m/s.</p><p>Distance to be covered = sum of lengths = 150 + 210 = 360 m.</p><p>Time = 360 ÷ 25 = <strong>14.4 seconds</strong>.</p><p>36 seconds results from using the speed difference (10 m/s), which applies only to trains moving in the same direction.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-06",
+      "section": "QDIDS",
+      "number": 6,
+      "type": "MCQ",
+      "topic": "Arithmetic",
+      "subtopic": "Mixtures and alligation",
+      "difficulty": "medium",
+      "stemHtml": "<p>A 40-litre mixture contains milk and water in the ratio 3 : 1. How many litres of water must be added to make the ratio 3 : 2?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "10 litres"
+        },
+        {
+          "id": "B",
+          "textHtml": "12 litres"
+        },
+        {
+          "id": "C",
+          "textHtml": "15 litres"
+        },
+        {
+          "id": "D",
+          "textHtml": "20 litres"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Milk = 30 L, water = 10 L.</p><p>For milk : water = 3 : 2 with 30 L of milk, water must be 20 L. Water to add = 20 − 10 = <strong>10 litres</strong>.</p><p>20 litres is the final quantity of water, not the amount added.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-07",
+      "section": "QDIDS",
+      "number": 7,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Quadratic equations",
+      "difficulty": "medium",
+      "stemHtml": "<p>The roots of the equation x² − 7x + k = 0 differ by 3. What is the value of k?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12"
+        },
+        {
+          "id": "B",
+          "textHtml": "6"
+        },
+        {
+          "id": "C",
+          "textHtml": "8"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Let the roots be α and β. Then α + β = 7 and α − β = 3, giving α = 5, β = 2.</p><p>k = αβ = <strong>10</strong>.</p><p>Check: x² − 7x + 10 = (x − 5)(x − 2), roots 5 and 2, difference 3 ✓.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-08",
+      "section": "QDIDS",
+      "number": 8,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Progressions",
+      "difficulty": "medium",
+      "stemHtml": "<p>The 3rd term of an arithmetic progression is 11 and the 7th term is 23. What is the sum of the first 20 terms?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "640"
+        },
+        {
+          "id": "B",
+          "textHtml": "700"
+        },
+        {
+          "id": "C",
+          "textHtml": "670"
+        },
+        {
+          "id": "D",
+          "textHtml": "610"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>a + 2d = 11 and a + 6d = 23 → 4d = 12 → d = 3, a = 5.</p><p>S₂₀ = 20/2 × [2a + 19d] = 10 × [10 + 57] = <strong>670</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-09",
+      "section": "QDIDS",
+      "number": 9,
+      "type": "MCQ",
+      "topic": "Algebra",
+      "subtopic": "Inequalities and modulus",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many integers x satisfy |2x − 5| &lt; 9?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "7"
+        },
+        {
+          "id": "B",
+          "textHtml": "8"
+        },
+        {
+          "id": "C",
+          "textHtml": "9"
+        },
+        {
+          "id": "D",
+          "textHtml": "10"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>|2x − 5| &lt; 9 ⇔ −9 &lt; 2x − 5 &lt; 9 ⇔ −4 &lt; 2x &lt; 14 ⇔ −2 &lt; x &lt; 7.</p><p>Integers: −1, 0, 1, 2, 3, 4, 5, 6 → <strong>8</strong>.</p><p>Both endpoints −2 and 7 are excluded because the inequality is strict.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-10",
+      "section": "QDIDS",
+      "number": 10,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Triangles",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the area of a triangle whose sides are 13 cm, 14 cm and 15 cm?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "91 cm²"
+        },
+        {
+          "id": "B",
+          "textHtml": "78 cm²"
+        },
+        {
+          "id": "C",
+          "textHtml": "96 cm²"
+        },
+        {
+          "id": "D",
+          "textHtml": "84 cm²"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Semi-perimeter s = (13 + 14 + 15)/2 = 21.</p><p>By Heron’s formula, area = √[21 × (21−13) × (21−14) × (21−15)] = √(21 × 8 × 7 × 6) = √7056 = <strong>84 cm²</strong>.</p><p>(Alternatively, the altitude to the side 14 is 12, splitting it into 5 + 9: area = ½ × 14 × 12 = 84.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-11",
+      "section": "QDIDS",
+      "number": 11,
+      "type": "MCQ",
+      "topic": "Geometry",
+      "subtopic": "Circles",
+      "difficulty": "hard",
+      "stemHtml": "<p>In a circle, a chord of length 16 cm is at a distance of 6 cm from the centre. What is the length of a chord of the same circle that is 8 cm from the centre?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12 cm"
+        },
+        {
+          "id": "B",
+          "textHtml": "10 cm"
+        },
+        {
+          "id": "C",
+          "textHtml": "14 cm"
+        },
+        {
+          "id": "D",
+          "textHtml": "9 cm"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>The perpendicular from the centre bisects a chord. For the first chord: r² = 8² + 6² = 100, so r = 10 cm.</p><p>For a chord at distance 8 cm: half-length = √(10² − 8²) = √36 = 6, so the chord = <strong>12 cm</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-12",
+      "section": "QDIDS",
+      "number": 12,
+      "type": "MCQ",
+      "topic": "Permutations and Combinations",
+      "subtopic": "Arrangements with repetition",
+      "difficulty": "medium",
+      "stemHtml": "<p>In how many distinct ways can the letters of the word BANANA be arranged?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "120"
+        },
+        {
+          "id": "B",
+          "textHtml": "720"
+        },
+        {
+          "id": "C",
+          "textHtml": "60"
+        },
+        {
+          "id": "D",
+          "textHtml": "90"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>BANANA has 6 letters with A repeated 3 times and N repeated 2 times.</p><p>Distinct arrangements = 6! ÷ (3! × 2!) = 720 ÷ 12 = <strong>60</strong>.</p><p>120 divides only by 3!; 720 ignores repetition altogether.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-13",
+      "section": "QDIDS",
+      "number": 13,
+      "type": "MCQ",
+      "topic": "Probability",
+      "subtopic": "Dice",
+      "difficulty": "hard",
+      "stemHtml": "<p>Two fair six-sided dice are thrown together. What is the probability that the sum of the numbers shown is a prime number?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1/3"
+        },
+        {
+          "id": "B",
+          "textHtml": "7/18"
+        },
+        {
+          "id": "C",
+          "textHtml": "1/2"
+        },
+        {
+          "id": "D",
+          "textHtml": "5/12"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Possible prime sums: 2, 3, 5, 7, 11.</p><p>Favourable outcomes: sum 2 → 1, sum 3 → 2, sum 5 → 4, sum 7 → 6, sum 11 → 2. Total = 15.</p><p>Probability = 15/36 = <strong>5/12</strong>.</p><p>(A common slip is to forget sum 11 or to count 9 as prime.)</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-14",
+      "section": "QDIDS",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "QDIDS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – totals",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which store recorded the highest total sales for the year?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Beta"
+        },
+        {
+          "id": "B",
+          "textHtml": "Delta"
+        },
+        {
+          "id": "C",
+          "textHtml": "Alpha"
+        },
+        {
+          "id": "D",
+          "textHtml": "Epsilon"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>Annual totals (₹ lakh): Alpha = 570, Beta = 600, Gamma = 460, <strong>Delta = 620</strong>, Epsilon = 500.</p><p>Beta has the highest Q4 figure, but Delta leads on the full-year total.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-15",
+      "section": "QDIDS",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "QDIDS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – percentage change",
+      "difficulty": "medium",
+      "stemHtml": "<p>By approximately what percentage did Beta’s sales increase from Q2 to Q4?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "42.9%"
+        },
+        {
+          "id": "B",
+          "textHtml": "30.0%"
+        },
+        {
+          "id": "C",
+          "textHtml": "37.5%"
+        },
+        {
+          "id": "D",
+          "textHtml": "54.0%"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>Increase = 180 − 126 = 54. Percentage increase = 54/126 × 100 ≈ <strong>42.9%</strong>.</p><p>30.0% wrongly uses Q4 (180) as the base; 54.0% wrongly treats the absolute increase as a percentage.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-16",
+      "section": "QDIDS",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "QDIDS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – share",
+      "difficulty": "hard",
+      "stemHtml": "<p>The combined Q3 sales of all five stores form approximately what percentage of their combined sales for the whole year?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "24.8%"
+        },
+        {
+          "id": "B",
+          "textHtml": "26.1%"
+        },
+        {
+          "id": "C",
+          "textHtml": "23.9%"
+        },
+        {
+          "id": "D",
+          "textHtml": "25.2%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>Q3 total = 150 + 154 + 120 + 140 + 130 = 694.</p><p>Annual total = 570 + 600 + 460 + 620 + 500 = 2,750.</p><p>Share = 694/2,750 × 100 ≈ <strong>25.2%</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-17",
+      "section": "QDIDS",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "QDIDS-S1",
+      "topic": "Data Interpretation",
+      "subtopic": "Table – trend",
+      "difficulty": "easy",
+      "stemHtml": "<p>In how many stores did sales increase in every quarter compared with the previous quarter?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "1"
+        },
+        {
+          "id": "B",
+          "textHtml": "2"
+        },
+        {
+          "id": "C",
+          "textHtml": "3"
+        },
+        {
+          "id": "D",
+          "textHtml": "4"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p>Alpha: 120 → 135 → 150 → 165 ✓. Beta: 140 → 126 ✗ (falls in Q2). Gamma: 95 → 110 → 120 → 135 ✓. Delta: 160 → 150 ✗. Epsilon: 105 → 125 → 130 → 140 ✓.</p><p>Answer: <strong>3</strong> stores (Alpha, Gamma, Epsilon).</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-18",
+      "section": "QDIDS",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "QDIDS-S2",
+      "topic": "Data Sufficiency",
+      "subtopic": "Mensuration",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the area of rectangle ABCD?</p><p>I. The perimeter of ABCD is 34 cm.</p><p>II. The diagonal of ABCD is 13 cm and its length is 12 cm.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Statement I alone is sufficient, but statement II alone is not"
+        },
+        {
+          "id": "B",
+          "textHtml": "Statement II alone is sufficient, but statement I alone is not"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both statements together are sufficient, but neither alone is"
+        },
+        {
+          "id": "D",
+          "textHtml": "Statements I and II together are not sufficient"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>I alone:</strong> length + breadth = 17, but many pairs are possible (e.g. 12 × 5 = 60, 10 × 7 = 70). Not sufficient.</p><p><strong>II alone:</strong> breadth = √(13² − 12²) = 5, so area = 12 × 5 = 60 cm². Sufficient.</p><p>Hence <strong>B</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-19",
+      "section": "QDIDS",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "QDIDS-S2",
+      "topic": "Data Sufficiency",
+      "subtopic": "Algebra",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the value of the integer x?</p><p>I. x² = 49</p><p>II. x &gt; 0</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Statement I alone is sufficient, but statement II alone is not"
+        },
+        {
+          "id": "B",
+          "textHtml": "Statement II alone is sufficient, but statement I alone is not"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both statements together are sufficient, but neither alone is"
+        },
+        {
+          "id": "D",
+          "textHtml": "Statements I and II together are not sufficient"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>I alone:</strong> x = 7 or x = −7. Not sufficient.</p><p><strong>II alone:</strong> only says x is positive. Not sufficient.</p><p><strong>Together:</strong> x = 7. Sufficient, so the answer is <strong>C</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    },
+    {
+      "key": "QDIDS-20",
+      "section": "QDIDS",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "QDIDS-S2",
+      "topic": "Data Sufficiency",
+      "subtopic": "Number system",
+      "difficulty": "medium",
+      "stemHtml": "<p>n is a positive integer. Is n divisible by 6?</p><p>I. n is divisible by 12.</p><p>II. n is divisible by 3.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Statement I alone is sufficient, but statement II alone is not"
+        },
+        {
+          "id": "B",
+          "textHtml": "Statement II alone is sufficient, but statement I alone is not"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both statements together are sufficient, but neither alone is"
+        },
+        {
+          "id": "D",
+          "textHtml": "Statements I and II together are not sufficient"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>I alone:</strong> 12 = 6 × 2, so every multiple of 12 is a multiple of 6 — the answer is a definite “yes”. Sufficient.</p><p><strong>II alone:</strong> n = 6 gives “yes” but n = 9 gives “no”. Not sufficient.</p><p>Hence <strong>A</strong>.</p>",
+      "source": {
+        "kind": "original",
+        "title": "ProCounsel original (SNAP pattern) - AI-drafted, pending faculty review"
+      }
+    }
+  ]
+}

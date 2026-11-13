@@ -1,0 +1,637 @@
+{
+  "sets": [
+    {
+      "key": "DILR-S1",
+      "kind": "dilr_set",
+      "title": "Musicians and Gurus",
+      "contentHtml": "<p>Ananya Raga, Bhaskar Tala, Charu Veena, and Devendra Sur are four musicians. Each of them started and completed their training as students under each of three Gurus — Pandit Meghnath, Ustad Samiran, and Acharya Raghunath between 2013 and 2024, including both the years. Each Guru trains any student for consecutive years only, for a span of 2, 3, or 4 years, with each Guru having a different span. During some of these years, a student may not have trained under these Gurus; however, they never trained under multiple Gurus in the same year. In none of these years, any of these Gurus trained more than two of these students at the same time. When two students train under the same Guru at the same time, they are referred to as Gurubhai, irrespective of their gender.</p><p>The following additional facts are known.</p><ol><li>Ustad Samiran never trained more than one of these students in the same year.</li><li>Acharya Raghunath did not train any of these students during 2015-2018, as well as during 2021-24.</li><li>Ananya and Devendra were never Gurubhai; neither were Bhaskar and Charu. All other pairs of musicians were Gurubhai for exactly 2 years.</li><li>In 2013, Ananya and Bhaskar started their trainings under Pandit Meghnath and under Ustad Samiran, respectively.</li></ol>"
+    },
+    {
+      "key": "DILR-S2",
+      "kind": "dilr_set",
+      "title": "Sustainability Index",
+      "contentHtml": "<p>The Sustainability Index (SI) of a country at a point in time is an integer between 1 and 100. This question is related to SI of six countries – A, B, C, D, E, and F – at three different points in time – 2016, 2020, and 2024. The plot represents the exact changes in their SI, with X-coordinate representing % increase in 2020 from 2016, i.e., (SI in 2020 minus SI in 2016) / (SI in 2016), and Y-coordinate representing % increase in 2024 from 2020. At any point in time, the country with highest SI is ranked 1, while the country with the lowest SI is ranked 6. The following additional facts are known.</p><ol><li>In 2016, B, C, E, and A had ranks 1, 2, 3, and 4 respectively.</li><li>F had lower SI than any other country in 2016, 2020, and 2024.</li><li>In 2024, E was the only country with SI of 90.</li><li>The range of SI of the six countries was 60 in 2016 as well as in 2024.</li></ol>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2025-slot2/dilr-si-scatter.png"
+      ]
+    },
+    {
+      "key": "DILR-S3",
+      "kind": "dilr_set",
+      "title": "Pollution Measures",
+      "contentHtml": "<p>The two most populous cities and the non-urban region (NUR) of each of three states, Whimshire, Fogglia, and Humbleset, are assigned Pollution Measures (PMs). These nine PMs are all distinct multiples of 10, ranging from 10 to 90. The six cities in increasing order of their PMs are: Blusterburg, Noodleton, Splutterville, Quackford, Mumpypore, Zingaloo.</p><p>The Pollution Index (PI) of a state is a weighted average of the PMs of its NUR and cities, with a weight of 50% for the NUR, and 25% each for its two cities.</p><p>There is only one pair of an NUR and a city (considering all cities and all NURs) where the PM of the NUR is greater than that of the city. That NUR and the city both belong to Humbleset.</p><p>The PIs of all three states are distinct integers, with Humbleset and Fogglia having the highest and the lowest PI respectively.</p>"
+    },
+    {
+      "key": "DILR-S4",
+      "kind": "dilr_set",
+      "title": "Research papers",
+      "contentHtml": "<p>The following charts depict details of research papers written by four authors, Arman, Brajen, Chintan, and Devon. The papers were of four types, single-author, two-author, three-author, and four-author, that is, written by one, two, three, or all four of these authors, respectively. No other authors were involved in writing these papers.</p><p>The following additional facts are known.</p><ol><li>Each of the authors wrote at least one of each of the four types of papers.</li><li>The four authors wrote different numbers of single-author papers.</li><li>Both Chintan and Devon wrote more three-author papers than Brajen</li><li>The number of single-author and two-author papers written by Brajen were the same.</li></ol>",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2025-slot2/dilr-papers-by-author.png",
+        "https://procounsel.co.in/mba/pyq/cat-2025-slot2/dilr-papers-by-type.png"
+      ]
+    },
+    {
+      "key": "DILR-S5",
+      "kind": "dilr_set",
+      "title": "Balls and hoops",
+      "contentHtml": "<p>There are six spherical balls, B1, B2, B3, B4, B5, and B6, and four circular hoops H1, H2, H3, and H4.</p><p>Each ball was tested on each hoop once, by attempting to pass the ball through the hoop. If the diameter of a ball is not larger than the diameter of the hoop, the ball passes through the hoop and makes a “ping”. Any ball having a diameter larger than that of the hoop gets stuck on that hoop and does not make a ping.</p><p>The following additional information is known:</p><ol><li>B1 and B6 each made a ping on H4, but B5 did not.</li><li>B4 made a ping on H3, but B1 did not.</li><li>All balls, except B3, made pings on H1.</li><li>None of the balls, except B2, made a ping on H2.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "number": 1,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>In which of the following years were Ananya and Bhaskar Gurubhai?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2021"
+        },
+        {
+          "id": "B",
+          "textHtml": "2018"
+        },
+        {
+          "id": "C",
+          "textHtml": "2014"
+        },
+        {
+          "id": "D",
+          "textHtml": "2020"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Spans.</strong> Ustad Samiran (US) trains one student at a time, so 4 students × his span ≤ 12 years, giving span ≤ 3. Acharya Raghunath (AR) can train only in 2013-14 or 2019-20 (two-year windows), so his span is <strong>2</strong>. Hence US = <strong>3</strong> years and Pandit Meghnath (PM) = <strong>4</strong> years. Each student trains 9 of the 12 years.</p><p><strong>US is busy every year</strong> (4 × 3 = 12). AR holds at most two students per window and must take all four, so exactly two students share AR in 2013-14 and two in 2019-20. Ananya (PM) and Bhaskar (US) are busy in 2013-14, so <strong>Charu and Devendra</strong> are with AR in 2013-14 (their 2 Gurubhai years) and <strong>Ananya and Bhaskar</strong> are with AR in 2019-20 (their 2 years).</p><p><strong>The rest.</strong> Ananya: PM 2013-16, AR 2019-20, so US must be 2022-24 (2021-23 would leave 2024 as a single year for US, which no student can fill). Bhaskar: US 2013-15, AR 2019-20, so PM 2021-24. Charu and Devendra take US in 2016-18 and 2019-21. Ananya–Charu must be Gurubhai for exactly 2 years, which can only happen under PM with Ananya (2013-16): Charu PM 2015-18, so Charu US 2019-21 and Devendra US 2016-18. Bhaskar–Devendra need 2 years under PM with Bhaskar (2021-24): Devendra PM 2019-22.</p><table><thead><tr><th>Student</th><th>AR (2 yrs)</th><th>US (3 yrs)</th><th>PM (4 yrs)</th></tr></thead><tbody><tr><td>Ananya</td><td>2019-20</td><td>2022-24</td><td>2013-16</td></tr><tr><td>Bhaskar</td><td>2019-20</td><td>2013-15</td><td>2021-24</td></tr><tr><td>Charu</td><td>2013-14</td><td>2019-21</td><td>2015-18</td></tr><tr><td>Devendra</td><td>2013-14</td><td>2016-18</td><td>2019-22</td></tr></tbody></table><p>Gurubhai: C-D 2013-14 (AR), A-B 2019-20 (AR), A-C 2015-16 (PM), B-D 2021-22 (PM).</p><p>Ananya and Bhaskar were together under Acharya Raghunath in 2019-20, so the answer is <strong>2020</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-02",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>In which year did Charu begin her training under Pandit Meghnath?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2021"
+        },
+        {
+          "id": "B",
+          "textHtml": "2015"
+        },
+        {
+          "id": "C",
+          "textHtml": "2016"
+        },
+        {
+          "id": "D",
+          "textHtml": "2017"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Spans.</strong> Ustad Samiran (US) trains one student at a time, so 4 students × his span ≤ 12 years, giving span ≤ 3. Acharya Raghunath (AR) can train only in 2013-14 or 2019-20 (two-year windows), so his span is <strong>2</strong>. Hence US = <strong>3</strong> years and Pandit Meghnath (PM) = <strong>4</strong> years. Each student trains 9 of the 12 years.</p><p><strong>US is busy every year</strong> (4 × 3 = 12). AR holds at most two students per window and must take all four, so exactly two students share AR in 2013-14 and two in 2019-20. Ananya (PM) and Bhaskar (US) are busy in 2013-14, so <strong>Charu and Devendra</strong> are with AR in 2013-14 (their 2 Gurubhai years) and <strong>Ananya and Bhaskar</strong> are with AR in 2019-20 (their 2 years).</p><p><strong>The rest.</strong> Ananya: PM 2013-16, AR 2019-20, so US must be 2022-24 (2021-23 would leave 2024 as a single year for US, which no student can fill). Bhaskar: US 2013-15, AR 2019-20, so PM 2021-24. Charu and Devendra take US in 2016-18 and 2019-21. Ananya–Charu must be Gurubhai for exactly 2 years, which can only happen under PM with Ananya (2013-16): Charu PM 2015-18, so Charu US 2019-21 and Devendra US 2016-18. Bhaskar–Devendra need 2 years under PM with Bhaskar (2021-24): Devendra PM 2019-22.</p><table><thead><tr><th>Student</th><th>AR (2 yrs)</th><th>US (3 yrs)</th><th>PM (4 yrs)</th></tr></thead><tbody><tr><td>Ananya</td><td>2019-20</td><td>2022-24</td><td>2013-16</td></tr><tr><td>Bhaskar</td><td>2019-20</td><td>2013-15</td><td>2021-24</td></tr><tr><td>Charu</td><td>2013-14</td><td>2019-21</td><td>2015-18</td></tr><tr><td>Devendra</td><td>2013-14</td><td>2016-18</td><td>2019-22</td></tr></tbody></table><p>Gurubhai: C-D 2013-14 (AR), A-B 2019-20 (AR), A-C 2015-16 (PM), B-D 2021-22 (PM).</p><p>Charu must overlap exactly 2 years with Ananya (PM 2013-16) and cannot start before 2015 (AR in 2013-14), so her PM span is 2015-18. Answer: <strong>2015</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-03",
+      "number": 3,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>In which of the following years were Bhaskar and Devendra Gurubhai?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "2018"
+        },
+        {
+          "id": "B",
+          "textHtml": "2020"
+        },
+        {
+          "id": "C",
+          "textHtml": "2015"
+        },
+        {
+          "id": "D",
+          "textHtml": "2022"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Spans.</strong> Ustad Samiran (US) trains one student at a time, so 4 students × his span ≤ 12 years, giving span ≤ 3. Acharya Raghunath (AR) can train only in 2013-14 or 2019-20 (two-year windows), so his span is <strong>2</strong>. Hence US = <strong>3</strong> years and Pandit Meghnath (PM) = <strong>4</strong> years. Each student trains 9 of the 12 years.</p><p><strong>US is busy every year</strong> (4 × 3 = 12). AR holds at most two students per window and must take all four, so exactly two students share AR in 2013-14 and two in 2019-20. Ananya (PM) and Bhaskar (US) are busy in 2013-14, so <strong>Charu and Devendra</strong> are with AR in 2013-14 (their 2 Gurubhai years) and <strong>Ananya and Bhaskar</strong> are with AR in 2019-20 (their 2 years).</p><p><strong>The rest.</strong> Ananya: PM 2013-16, AR 2019-20, so US must be 2022-24 (2021-23 would leave 2024 as a single year for US, which no student can fill). Bhaskar: US 2013-15, AR 2019-20, so PM 2021-24. Charu and Devendra take US in 2016-18 and 2019-21. Ananya–Charu must be Gurubhai for exactly 2 years, which can only happen under PM with Ananya (2013-16): Charu PM 2015-18, so Charu US 2019-21 and Devendra US 2016-18. Bhaskar–Devendra need 2 years under PM with Bhaskar (2021-24): Devendra PM 2019-22.</p><table><thead><tr><th>Student</th><th>AR (2 yrs)</th><th>US (3 yrs)</th><th>PM (4 yrs)</th></tr></thead><tbody><tr><td>Ananya</td><td>2019-20</td><td>2022-24</td><td>2013-16</td></tr><tr><td>Bhaskar</td><td>2019-20</td><td>2013-15</td><td>2021-24</td></tr><tr><td>Charu</td><td>2013-14</td><td>2019-21</td><td>2015-18</td></tr><tr><td>Devendra</td><td>2013-14</td><td>2016-18</td><td>2019-22</td></tr></tbody></table><p>Gurubhai: C-D 2013-14 (AR), A-B 2019-20 (AR), A-C 2015-16 (PM), B-D 2021-22 (PM).</p><p>Devendra’s PM span 2019-22 overlaps Bhaskar’s PM span 2021-24 in 2021-22. Answer: <strong>2022</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-04",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following statements is TRUE?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Ananya was training under Ustad Samiran in 2018."
+        },
+        {
+          "id": "B",
+          "textHtml": "Charu was training under Ustad Samiran in 2019."
+        },
+        {
+          "id": "C",
+          "textHtml": "Ananya was training under Ustad Samiran in 2015."
+        },
+        {
+          "id": "D",
+          "textHtml": "Charu was training under Ustad Samiran in 2018."
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Spans.</strong> Ustad Samiran (US) trains one student at a time, so 4 students × his span ≤ 12 years, giving span ≤ 3. Acharya Raghunath (AR) can train only in 2013-14 or 2019-20 (two-year windows), so his span is <strong>2</strong>. Hence US = <strong>3</strong> years and Pandit Meghnath (PM) = <strong>4</strong> years. Each student trains 9 of the 12 years.</p><p><strong>US is busy every year</strong> (4 × 3 = 12). AR holds at most two students per window and must take all four, so exactly two students share AR in 2013-14 and two in 2019-20. Ananya (PM) and Bhaskar (US) are busy in 2013-14, so <strong>Charu and Devendra</strong> are with AR in 2013-14 (their 2 Gurubhai years) and <strong>Ananya and Bhaskar</strong> are with AR in 2019-20 (their 2 years).</p><p><strong>The rest.</strong> Ananya: PM 2013-16, AR 2019-20, so US must be 2022-24 (2021-23 would leave 2024 as a single year for US, which no student can fill). Bhaskar: US 2013-15, AR 2019-20, so PM 2021-24. Charu and Devendra take US in 2016-18 and 2019-21. Ananya–Charu must be Gurubhai for exactly 2 years, which can only happen under PM with Ananya (2013-16): Charu PM 2015-18, so Charu US 2019-21 and Devendra US 2016-18. Bhaskar–Devendra need 2 years under PM with Bhaskar (2021-24): Devendra PM 2019-22.</p><table><thead><tr><th>Student</th><th>AR (2 yrs)</th><th>US (3 yrs)</th><th>PM (4 yrs)</th></tr></thead><tbody><tr><td>Ananya</td><td>2019-20</td><td>2022-24</td><td>2013-16</td></tr><tr><td>Bhaskar</td><td>2019-20</td><td>2013-15</td><td>2021-24</td></tr><tr><td>Charu</td><td>2013-14</td><td>2019-21</td><td>2015-18</td></tr><tr><td>Devendra</td><td>2013-14</td><td>2016-18</td><td>2019-22</td></tr></tbody></table><p>Gurubhai: C-D 2013-14 (AR), A-B 2019-20 (AR), A-C 2015-16 (PM), B-D 2021-22 (PM).</p><p>Ustad Samiran’s sequence: Bhaskar 2013-15, Devendra 2016-18, Charu 2019-21, Ananya 2022-24. Only “Charu under Ustad Samiran in 2019” is true.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-05",
+      "number": 5,
+      "type": "TITA",
+      "setKey": "DILR-S1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>In how many of the years between 2013-24, were only two of these four musicians training under these three Gurus?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Spans.</strong> Ustad Samiran (US) trains one student at a time, so 4 students × his span ≤ 12 years, giving span ≤ 3. Acharya Raghunath (AR) can train only in 2013-14 or 2019-20 (two-year windows), so his span is <strong>2</strong>. Hence US = <strong>3</strong> years and Pandit Meghnath (PM) = <strong>4</strong> years. Each student trains 9 of the 12 years.</p><p><strong>US is busy every year</strong> (4 × 3 = 12). AR holds at most two students per window and must take all four, so exactly two students share AR in 2013-14 and two in 2019-20. Ananya (PM) and Bhaskar (US) are busy in 2013-14, so <strong>Charu and Devendra</strong> are with AR in 2013-14 (their 2 Gurubhai years) and <strong>Ananya and Bhaskar</strong> are with AR in 2019-20 (their 2 years).</p><p><strong>The rest.</strong> Ananya: PM 2013-16, AR 2019-20, so US must be 2022-24 (2021-23 would leave 2024 as a single year for US, which no student can fill). Bhaskar: US 2013-15, AR 2019-20, so PM 2021-24. Charu and Devendra take US in 2016-18 and 2019-21. Ananya–Charu must be Gurubhai for exactly 2 years, which can only happen under PM with Ananya (2013-16): Charu PM 2015-18, so Charu US 2019-21 and Devendra US 2016-18. Bhaskar–Devendra need 2 years under PM with Bhaskar (2021-24): Devendra PM 2019-22.</p><table><thead><tr><th>Student</th><th>AR (2 yrs)</th><th>US (3 yrs)</th><th>PM (4 yrs)</th></tr></thead><tbody><tr><td>Ananya</td><td>2019-20</td><td>2022-24</td><td>2013-16</td></tr><tr><td>Bhaskar</td><td>2019-20</td><td>2013-15</td><td>2021-24</td></tr><tr><td>Charu</td><td>2013-14</td><td>2019-21</td><td>2015-18</td></tr><tr><td>Devendra</td><td>2013-14</td><td>2016-18</td><td>2019-22</td></tr></tbody></table><p>Gurubhai: C-D 2013-14 (AR), A-B 2019-20 (AR), A-C 2015-16 (PM), B-D 2021-22 (PM).</p><p>Students in training each year: 2013: 4, 2014: 4, 2015: 3 (A, B, C), 2016: 3 (A, C, D), <strong>2017: 2</strong> (C, D), <strong>2018: 2</strong> (C, D), 2019: 4, 2020: 4, 2021: 3 (B, C, D), 2022: 3 (A, B, D), <strong>2023: 2</strong> (A, B), <strong>2024: 2</strong> (A, B).</p><p>Answer: <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-06",
+      "number": 6,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot / percentages",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the SI of E in 2016?</p>",
+      "answer": "60",
+      "solutionHtml": "<p><strong>Read the plot</strong> (x = % change 2016→2020, y = % change 2020→2024): A (+25%, +50%), B (−25%, −25%), C (−20%, +40%), D (+100%, +20%), E (+25%, +20%), F (+100%, −25%). So the 2024 value = 2016 value × multiplier: A × 1.875, B × 0.5625, C × 1.12, D × 2.4, E × 1.5, F × 1.5.</p><p><strong>E:</strong> 1.5 × E<sub>2016</sub> = 90, so E<sub>2016</sub> = 60 (2020: 75).</p><p><strong>Integer values</strong> force: B<sub>2016</sub> a multiple of 16 (9B/16), C a multiple of 25 (28C/25), A a multiple of 8 (15A/8), D a multiple of 5, F even.</p><p><strong>2016 ranks:</strong> B &gt; C &gt; E = 60 &gt; A &gt; D &gt; F, and range 60 means B − F = 60. C is a multiple of 25 between 60 and B ≤ 100, so C = 75; then B ∈ {80, 96}. If B = 96, F = 36 and both B<sub>2024</sub> and F<sub>2024</sub> are 54, so F is not strictly lowest. Hence <strong>B = 80, F = 20</strong>: B 60 → 45, F 40 → 30.</p><p><strong>2024 range 60</strong> with minimum F = 30 means the maximum is 90 = E, so every other country is below 90: 1.875A &lt; 90 gives A ≤ 40. F is lowest in 2020 (40), so 1.25A &gt; 40 gives A &gt; 32. Hence <strong>A = 40</strong> (50 → 75). D is a multiple of 5 with 20 &lt; D &lt; 37.5 (not fixed, but not needed).</p><table><thead><tr><th>Country</th><th>2016</th><th>2020</th><th>2024</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>50</td><td>75</td></tr><tr><td>B</td><td>80</td><td>60</td><td>45</td></tr><tr><td>C</td><td>75</td><td>60</td><td>84</td></tr><tr><td>D</td><td>25/30/35</td><td>2D</td><td>2.4D</td></tr><tr><td>E</td><td>60</td><td>75</td><td>90</td></tr><tr><td>F</td><td>20</td><td>40</td><td>30</td></tr></tbody></table><p>E rose 25% then 20%: E<sub>2016</sub> × 1.25 × 1.2 = 90, so E<sub>2016</sub> = <strong>60</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-07",
+      "number": 7,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot / percentages",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the SI of F in 2020?</p>",
+      "answer": "40",
+      "solutionHtml": "<p><strong>Read the plot</strong> (x = % change 2016→2020, y = % change 2020→2024): A (+25%, +50%), B (−25%, −25%), C (−20%, +40%), D (+100%, +20%), E (+25%, +20%), F (+100%, −25%). So the 2024 value = 2016 value × multiplier: A × 1.875, B × 0.5625, C × 1.12, D × 2.4, E × 1.5, F × 1.5.</p><p><strong>E:</strong> 1.5 × E<sub>2016</sub> = 90, so E<sub>2016</sub> = 60 (2020: 75).</p><p><strong>Integer values</strong> force: B<sub>2016</sub> a multiple of 16 (9B/16), C a multiple of 25 (28C/25), A a multiple of 8 (15A/8), D a multiple of 5, F even.</p><p><strong>2016 ranks:</strong> B &gt; C &gt; E = 60 &gt; A &gt; D &gt; F, and range 60 means B − F = 60. C is a multiple of 25 between 60 and B ≤ 100, so C = 75; then B ∈ {80, 96}. If B = 96, F = 36 and both B<sub>2024</sub> and F<sub>2024</sub> are 54, so F is not strictly lowest. Hence <strong>B = 80, F = 20</strong>: B 60 → 45, F 40 → 30.</p><p><strong>2024 range 60</strong> with minimum F = 30 means the maximum is 90 = E, so every other country is below 90: 1.875A &lt; 90 gives A ≤ 40. F is lowest in 2020 (40), so 1.25A &gt; 40 gives A &gt; 32. Hence <strong>A = 40</strong> (50 → 75). D is a multiple of 5 with 20 &lt; D &lt; 37.5 (not fixed, but not needed).</p><table><thead><tr><th>Country</th><th>2016</th><th>2020</th><th>2024</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>50</td><td>75</td></tr><tr><td>B</td><td>80</td><td>60</td><td>45</td></tr><tr><td>C</td><td>75</td><td>60</td><td>84</td></tr><tr><td>D</td><td>25/30/35</td><td>2D</td><td>2.4D</td></tr><tr><td>E</td><td>60</td><td>75</td><td>90</td></tr><tr><td>F</td><td>20</td><td>40</td><td>30</td></tr></tbody></table><p>F<sub>2016</sub> = B<sub>2016</sub> − 60 = 20, doubled by 2020: <strong>40</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-08",
+      "number": 8,
+      "type": "TITA",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot / percentages",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the SI of C in 2024?</p>",
+      "answer": "84",
+      "solutionHtml": "<p><strong>Read the plot</strong> (x = % change 2016→2020, y = % change 2020→2024): A (+25%, +50%), B (−25%, −25%), C (−20%, +40%), D (+100%, +20%), E (+25%, +20%), F (+100%, −25%). So the 2024 value = 2016 value × multiplier: A × 1.875, B × 0.5625, C × 1.12, D × 2.4, E × 1.5, F × 1.5.</p><p><strong>E:</strong> 1.5 × E<sub>2016</sub> = 90, so E<sub>2016</sub> = 60 (2020: 75).</p><p><strong>Integer values</strong> force: B<sub>2016</sub> a multiple of 16 (9B/16), C a multiple of 25 (28C/25), A a multiple of 8 (15A/8), D a multiple of 5, F even.</p><p><strong>2016 ranks:</strong> B &gt; C &gt; E = 60 &gt; A &gt; D &gt; F, and range 60 means B − F = 60. C is a multiple of 25 between 60 and B ≤ 100, so C = 75; then B ∈ {80, 96}. If B = 96, F = 36 and both B<sub>2024</sub> and F<sub>2024</sub> are 54, so F is not strictly lowest. Hence <strong>B = 80, F = 20</strong>: B 60 → 45, F 40 → 30.</p><p><strong>2024 range 60</strong> with minimum F = 30 means the maximum is 90 = E, so every other country is below 90: 1.875A &lt; 90 gives A ≤ 40. F is lowest in 2020 (40), so 1.25A &gt; 40 gives A &gt; 32. Hence <strong>A = 40</strong> (50 → 75). D is a multiple of 5 with 20 &lt; D &lt; 37.5 (not fixed, but not needed).</p><table><thead><tr><th>Country</th><th>2016</th><th>2020</th><th>2024</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>50</td><td>75</td></tr><tr><td>B</td><td>80</td><td>60</td><td>45</td></tr><tr><td>C</td><td>75</td><td>60</td><td>84</td></tr><tr><td>D</td><td>25/30/35</td><td>2D</td><td>2.4D</td></tr><tr><td>E</td><td>60</td><td>75</td><td>90</td></tr><tr><td>F</td><td>20</td><td>40</td><td>30</td></tr></tbody></table><p>C<sub>2016</sub> = 75 (the only multiple of 25 between 60 and B), so 75 × 0.8 = 60 in 2020 and 60 × 1.4 = <strong>84</strong> in 2024.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-09",
+      "number": 9,
+      "type": "MCQ",
+      "setKey": "DILR-S2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot / percentages",
+      "difficulty": "hard",
+      "stemHtml": "<p>What was the SI of B in 2024?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "54"
+        },
+        {
+          "id": "B",
+          "textHtml": "60"
+        },
+        {
+          "id": "C",
+          "textHtml": "45"
+        },
+        {
+          "id": "D",
+          "textHtml": "80"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Read the plot</strong> (x = % change 2016→2020, y = % change 2020→2024): A (+25%, +50%), B (−25%, −25%), C (−20%, +40%), D (+100%, +20%), E (+25%, +20%), F (+100%, −25%). So the 2024 value = 2016 value × multiplier: A × 1.875, B × 0.5625, C × 1.12, D × 2.4, E × 1.5, F × 1.5.</p><p><strong>E:</strong> 1.5 × E<sub>2016</sub> = 90, so E<sub>2016</sub> = 60 (2020: 75).</p><p><strong>Integer values</strong> force: B<sub>2016</sub> a multiple of 16 (9B/16), C a multiple of 25 (28C/25), A a multiple of 8 (15A/8), D a multiple of 5, F even.</p><p><strong>2016 ranks:</strong> B &gt; C &gt; E = 60 &gt; A &gt; D &gt; F, and range 60 means B − F = 60. C is a multiple of 25 between 60 and B ≤ 100, so C = 75; then B ∈ {80, 96}. If B = 96, F = 36 and both B<sub>2024</sub> and F<sub>2024</sub> are 54, so F is not strictly lowest. Hence <strong>B = 80, F = 20</strong>: B 60 → 45, F 40 → 30.</p><p><strong>2024 range 60</strong> with minimum F = 30 means the maximum is 90 = E, so every other country is below 90: 1.875A &lt; 90 gives A ≤ 40. F is lowest in 2020 (40), so 1.25A &gt; 40 gives A &gt; 32. Hence <strong>A = 40</strong> (50 → 75). D is a multiple of 5 with 20 &lt; D &lt; 37.5 (not fixed, but not needed).</p><table><thead><tr><th>Country</th><th>2016</th><th>2020</th><th>2024</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>50</td><td>75</td></tr><tr><td>B</td><td>80</td><td>60</td><td>45</td></tr><tr><td>C</td><td>75</td><td>60</td><td>84</td></tr><tr><td>D</td><td>25/30/35</td><td>2D</td><td>2.4D</td></tr><tr><td>E</td><td>60</td><td>75</td><td>90</td></tr><tr><td>F</td><td>20</td><td>40</td><td>30</td></tr></tbody></table><p>B<sub>2016</sub> = 80, so 80 × 0.75 = 60 in 2020 and 60 × 0.75 = <strong>45</strong> in 2024. (B = 96 would give 54, but then F would also be 54 in 2024, which violates fact 2.)</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-10",
+      "number": 10,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements / weighted average",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the PI of Whimshire?</p>",
+      "answer": "45",
+      "solutionHtml": "<p><strong>Ordering.</strong> If an NUR exceeds a city, it exceeds every smaller city too. Only one NUR-city pair has NUR &gt; city, so that city is the smallest, <strong>Blusterburg</strong>, and it lies in Humbleset along with that NUR. The other two NURs are below all cities. So: two NURs = 10, 20; Blusterburg 30; Humbleset NUR 40; Noodleton 50, Splutterville 60, Quackford 70, Mumpypore 80, Zingaloo 90.</p><p><strong>Integer PI.</strong> PI = NUR/2 + (c<sub>1</sub> + c<sub>2</sub>)/4. NUR/2 is an integer here, so each state’s two cities must sum to a multiple of 20 (their tens digits have the same parity).</p><p><strong>Humbleset</strong> = 20 + (30 + x)/4 with x odd-tens: 50, 70 or 90.</p><ul><li>x = 50: H = 40; the others get {60, 80} and {70, 90} with NURs 10/20, giving 40 &amp; 50 or 45 &amp; 45. H is not highest. ✗</li><li>x = 70: H = 45; the others get {50, 90} and {60, 80} (both sum 140 → 35), giving 40 and 45, a tie with H. ✗</li><li>x = 90: H = 50; the others get {50, 70} (→30) and {60, 80} (→35). NUR 10 with {50, 70} = 35 and NUR 20 with {60, 80} = 45 works; the swap gives 40 and 40 (tie). ✓</li></ul><table><thead><tr><th>State</th><th>NUR</th><th>Cities</th><th>PI</th></tr></thead><tbody><tr><td>Humbleset</td><td>40</td><td>Blusterburg 30, Zingaloo 90</td><td>50</td></tr><tr><td>Whimshire</td><td>20</td><td>Splutterville 60, Mumpypore 80</td><td>45</td></tr><tr><td>Fogglia</td><td>10</td><td>Noodleton 50, Quackford 70</td><td>35</td></tr></tbody></table><p>Whimshire = 20/2 + (60 + 80)/4 = 10 + 35 = <strong>45</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-11",
+      "number": 11,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements / weighted average",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the PI of Fogglia?</p>",
+      "answer": "35",
+      "solutionHtml": "<p><strong>Ordering.</strong> If an NUR exceeds a city, it exceeds every smaller city too. Only one NUR-city pair has NUR &gt; city, so that city is the smallest, <strong>Blusterburg</strong>, and it lies in Humbleset along with that NUR. The other two NURs are below all cities. So: two NURs = 10, 20; Blusterburg 30; Humbleset NUR 40; Noodleton 50, Splutterville 60, Quackford 70, Mumpypore 80, Zingaloo 90.</p><p><strong>Integer PI.</strong> PI = NUR/2 + (c<sub>1</sub> + c<sub>2</sub>)/4. NUR/2 is an integer here, so each state’s two cities must sum to a multiple of 20 (their tens digits have the same parity).</p><p><strong>Humbleset</strong> = 20 + (30 + x)/4 with x odd-tens: 50, 70 or 90.</p><ul><li>x = 50: H = 40; the others get {60, 80} and {70, 90} with NURs 10/20, giving 40 &amp; 50 or 45 &amp; 45. H is not highest. ✗</li><li>x = 70: H = 45; the others get {50, 90} and {60, 80} (both sum 140 → 35), giving 40 and 45, a tie with H. ✗</li><li>x = 90: H = 50; the others get {50, 70} (→30) and {60, 80} (→35). NUR 10 with {50, 70} = 35 and NUR 20 with {60, 80} = 45 works; the swap gives 40 and 40 (tie). ✓</li></ul><table><thead><tr><th>State</th><th>NUR</th><th>Cities</th><th>PI</th></tr></thead><tbody><tr><td>Humbleset</td><td>40</td><td>Blusterburg 30, Zingaloo 90</td><td>50</td></tr><tr><td>Whimshire</td><td>20</td><td>Splutterville 60, Mumpypore 80</td><td>45</td></tr><tr><td>Fogglia</td><td>10</td><td>Noodleton 50, Quackford 70</td><td>35</td></tr></tbody></table><p>Fogglia = 10/2 + (50 + 70)/4 = 5 + 30 = <strong>35</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-12",
+      "number": 12,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements / weighted average",
+      "difficulty": "hard",
+      "stemHtml": "<p>What is the PI of Humbleset?</p>",
+      "answer": "50",
+      "solutionHtml": "<p><strong>Ordering.</strong> If an NUR exceeds a city, it exceeds every smaller city too. Only one NUR-city pair has NUR &gt; city, so that city is the smallest, <strong>Blusterburg</strong>, and it lies in Humbleset along with that NUR. The other two NURs are below all cities. So: two NURs = 10, 20; Blusterburg 30; Humbleset NUR 40; Noodleton 50, Splutterville 60, Quackford 70, Mumpypore 80, Zingaloo 90.</p><p><strong>Integer PI.</strong> PI = NUR/2 + (c<sub>1</sub> + c<sub>2</sub>)/4. NUR/2 is an integer here, so each state’s two cities must sum to a multiple of 20 (their tens digits have the same parity).</p><p><strong>Humbleset</strong> = 20 + (30 + x)/4 with x odd-tens: 50, 70 or 90.</p><ul><li>x = 50: H = 40; the others get {60, 80} and {70, 90} with NURs 10/20, giving 40 &amp; 50 or 45 &amp; 45. H is not highest. ✗</li><li>x = 70: H = 45; the others get {50, 90} and {60, 80} (both sum 140 → 35), giving 40 and 45, a tie with H. ✗</li><li>x = 90: H = 50; the others get {50, 70} (→30) and {60, 80} (→35). NUR 10 with {50, 70} = 35 and NUR 20 with {60, 80} = 45 works; the swap gives 40 and 40 (tie). ✓</li></ul><table><thead><tr><th>State</th><th>NUR</th><th>Cities</th><th>PI</th></tr></thead><tbody><tr><td>Humbleset</td><td>40</td><td>Blusterburg 30, Zingaloo 90</td><td>50</td></tr><tr><td>Whimshire</td><td>20</td><td>Splutterville 60, Mumpypore 80</td><td>45</td></tr><tr><td>Fogglia</td><td>10</td><td>Noodleton 50, Quackford 70</td><td>35</td></tr></tbody></table><p>Humbleset = 40/2 + (30 + 90)/4 = 20 + 30 = <strong>50</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-13",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements / weighted average",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which pair of cities definitely belong to the same state?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Blusterburg, Mumpypore"
+        },
+        {
+          "id": "B",
+          "textHtml": "Mumpypore, Zingaloo"
+        },
+        {
+          "id": "C",
+          "textHtml": "Noodleton, Quackford"
+        },
+        {
+          "id": "D",
+          "textHtml": "Splutterville, Quackford"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Ordering.</strong> If an NUR exceeds a city, it exceeds every smaller city too. Only one NUR-city pair has NUR &gt; city, so that city is the smallest, <strong>Blusterburg</strong>, and it lies in Humbleset along with that NUR. The other two NURs are below all cities. So: two NURs = 10, 20; Blusterburg 30; Humbleset NUR 40; Noodleton 50, Splutterville 60, Quackford 70, Mumpypore 80, Zingaloo 90.</p><p><strong>Integer PI.</strong> PI = NUR/2 + (c<sub>1</sub> + c<sub>2</sub>)/4. NUR/2 is an integer here, so each state’s two cities must sum to a multiple of 20 (their tens digits have the same parity).</p><p><strong>Humbleset</strong> = 20 + (30 + x)/4 with x odd-tens: 50, 70 or 90.</p><ul><li>x = 50: H = 40; the others get {60, 80} and {70, 90} with NURs 10/20, giving 40 &amp; 50 or 45 &amp; 45. H is not highest. ✗</li><li>x = 70: H = 45; the others get {50, 90} and {60, 80} (both sum 140 → 35), giving 40 and 45, a tie with H. ✗</li><li>x = 90: H = 50; the others get {50, 70} (→30) and {60, 80} (→35). NUR 10 with {50, 70} = 35 and NUR 20 with {60, 80} = 45 works; the swap gives 40 and 40 (tie). ✓</li></ul><table><thead><tr><th>State</th><th>NUR</th><th>Cities</th><th>PI</th></tr></thead><tbody><tr><td>Humbleset</td><td>40</td><td>Blusterburg 30, Zingaloo 90</td><td>50</td></tr><tr><td>Whimshire</td><td>20</td><td>Splutterville 60, Mumpypore 80</td><td>45</td></tr><tr><td>Fogglia</td><td>10</td><td>Noodleton 50, Quackford 70</td><td>35</td></tr></tbody></table><p>Noodleton (50) and Quackford (70) are both in Fogglia. Every other pair splits across states. Answer: <strong>Noodleton, Quackford</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-14",
+      "number": 14,
+      "type": "TITA",
+      "setKey": "DILR-S3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements / weighted average",
+      "difficulty": "hard",
+      "stemHtml": "<p>For how many of the cities and NURs is it possible to identify their PM and the state they belong to?</p>",
+      "answer": "9",
+      "solutionHtml": "<p><strong>Ordering.</strong> If an NUR exceeds a city, it exceeds every smaller city too. Only one NUR-city pair has NUR &gt; city, so that city is the smallest, <strong>Blusterburg</strong>, and it lies in Humbleset along with that NUR. The other two NURs are below all cities. So: two NURs = 10, 20; Blusterburg 30; Humbleset NUR 40; Noodleton 50, Splutterville 60, Quackford 70, Mumpypore 80, Zingaloo 90.</p><p><strong>Integer PI.</strong> PI = NUR/2 + (c<sub>1</sub> + c<sub>2</sub>)/4. NUR/2 is an integer here, so each state’s two cities must sum to a multiple of 20 (their tens digits have the same parity).</p><p><strong>Humbleset</strong> = 20 + (30 + x)/4 with x odd-tens: 50, 70 or 90.</p><ul><li>x = 50: H = 40; the others get {60, 80} and {70, 90} with NURs 10/20, giving 40 &amp; 50 or 45 &amp; 45. H is not highest. ✗</li><li>x = 70: H = 45; the others get {50, 90} and {60, 80} (both sum 140 → 35), giving 40 and 45, a tie with H. ✗</li><li>x = 90: H = 50; the others get {50, 70} (→30) and {60, 80} (→35). NUR 10 with {50, 70} = 35 and NUR 20 with {60, 80} = 45 works; the swap gives 40 and 40 (tie). ✓</li></ul><table><thead><tr><th>State</th><th>NUR</th><th>Cities</th><th>PI</th></tr></thead><tbody><tr><td>Humbleset</td><td>40</td><td>Blusterburg 30, Zingaloo 90</td><td>50</td></tr><tr><td>Whimshire</td><td>20</td><td>Splutterville 60, Mumpypore 80</td><td>45</td></tr><tr><td>Fogglia</td><td>10</td><td>Noodleton 50, Quackford 70</td><td>35</td></tr></tbody></table><p>The arrangement is unique, so all 6 cities and 3 NURs are fully identified: <strong>9</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-15",
+      "number": 15,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar charts / distribution",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the total number of two-author and three-author papers written by Brajen?</p>",
+      "answer": "4",
+      "solutionHtml": "<p><strong>Charts:</strong> papers per author: Arman 5, Brajen 8, Chintan 12, Devon 10 (total 35). Papers by type: single 10, two-author 4, three-author 3, four-author 2. Check: 10 + 8 + 9 + 8 = 35 author-slots.</p><p><strong>Four-author:</strong> each author is on both, so 2 each. That leaves single + two + three = 3 (A), 6 (B), 10 (C), 8 (D).</p><p><strong>Arman:</strong> at least 1 of each, total 3, so 1, 1, 1. <strong>Brajen:</strong> s = t and 2s + h = 6 with h ≤ 3, so s = t = h = 2.</p><p><strong>Three-author slots</strong> 9 = 1 + 2 + h<sub>C</sub> + h<sub>D</sub>, so h<sub>C</sub> + h<sub>D</sub> = 6. Both exceed Brajen’s 2 and are ≤ 3, so both = 3. Chintan and Devon are on all three three-author papers; the third author is Arman on one and Brajen on two.</p><p><strong>Singles and two-author:</strong> s<sub>C</sub> + s<sub>D</sub> = 10 − 3 = 7 and t<sub>C</sub> + t<sub>D</sub> = 8 − 3 = 5, with s<sub>C</sub> + t<sub>C</sub> = 7 and s<sub>D</sub> + t<sub>D</sub> = 5. Singles must differ from 1 and 2 and from each other, so (s<sub>C</sub>, s<sub>D</sub>) = (4, 3) giving t<sub>C</sub> = 3, t<sub>D</sub> = 2, or (3, 4) giving t<sub>C</sub> = 4, t<sub>D</sub> = 1. Both cases can be realised.</p><table><thead><tr><th>Author</th><th>Single</th><th>Two</th><th>Three</th><th>Four</th></tr></thead><tbody><tr><td>Arman</td><td>1</td><td>1</td><td>1</td><td>2</td></tr><tr><td>Brajen</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Chintan</td><td>4 or 3</td><td>3 or 4</td><td>3</td><td>2</td></tr><tr><td>Devon</td><td>3 or 4</td><td>2 or 1</td><td>3</td><td>2</td></tr></tbody></table><p>Brajen: 2 two-author + 2 three-author = <strong>4</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-16",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar charts / distribution",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements is/are NECESSARILY true?</p><p>i. Chintan wrote exactly three two-author papers.<br>ii. Chintan wrote more single-author papers than Devon.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only ii"
+        },
+        {
+          "id": "B",
+          "textHtml": "Both i and ii"
+        },
+        {
+          "id": "C",
+          "textHtml": "Neither i nor ii"
+        },
+        {
+          "id": "D",
+          "textHtml": "Only i"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Charts:</strong> papers per author: Arman 5, Brajen 8, Chintan 12, Devon 10 (total 35). Papers by type: single 10, two-author 4, three-author 3, four-author 2. Check: 10 + 8 + 9 + 8 = 35 author-slots.</p><p><strong>Four-author:</strong> each author is on both, so 2 each. That leaves single + two + three = 3 (A), 6 (B), 10 (C), 8 (D).</p><p><strong>Arman:</strong> at least 1 of each, total 3, so 1, 1, 1. <strong>Brajen:</strong> s = t and 2s + h = 6 with h ≤ 3, so s = t = h = 2.</p><p><strong>Three-author slots</strong> 9 = 1 + 2 + h<sub>C</sub> + h<sub>D</sub>, so h<sub>C</sub> + h<sub>D</sub> = 6. Both exceed Brajen’s 2 and are ≤ 3, so both = 3. Chintan and Devon are on all three three-author papers; the third author is Arman on one and Brajen on two.</p><p><strong>Singles and two-author:</strong> s<sub>C</sub> + s<sub>D</sub> = 10 − 3 = 7 and t<sub>C</sub> + t<sub>D</sub> = 8 − 3 = 5, with s<sub>C</sub> + t<sub>C</sub> = 7 and s<sub>D</sub> + t<sub>D</sub> = 5. Singles must differ from 1 and 2 and from each other, so (s<sub>C</sub>, s<sub>D</sub>) = (4, 3) giving t<sub>C</sub> = 3, t<sub>D</sub> = 2, or (3, 4) giving t<sub>C</sub> = 4, t<sub>D</sub> = 1. Both cases can be realised.</p><table><thead><tr><th>Author</th><th>Single</th><th>Two</th><th>Three</th><th>Four</th></tr></thead><tbody><tr><td>Arman</td><td>1</td><td>1</td><td>1</td><td>2</td></tr><tr><td>Brajen</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Chintan</td><td>4 or 3</td><td>3 or 4</td><td>3</td><td>2</td></tr><tr><td>Devon</td><td>3 or 4</td><td>2 or 1</td><td>3</td><td>2</td></tr></tbody></table><p>Two cases survive: Chintan (single, two-author) = (4, 3) with Devon (3, 2), or Chintan (3, 4) with Devon (4, 1). In the second case Chintan wrote 4 two-author papers and fewer singles than Devon, so neither statement must hold. Answer: <strong>Neither i nor ii</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-17",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar charts / distribution",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements is/are NECESSARILY true?</p><p>i. Arman wrote three-author papers only with Chintan and Devon.<br>ii. Brajen wrote three-author papers only with Chintan and Devon.</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only I"
+        },
+        {
+          "id": "B",
+          "textHtml": "Neither i or ii"
+        },
+        {
+          "id": "C",
+          "textHtml": "Only ii"
+        },
+        {
+          "id": "D",
+          "textHtml": "Both i and ii"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Charts:</strong> papers per author: Arman 5, Brajen 8, Chintan 12, Devon 10 (total 35). Papers by type: single 10, two-author 4, three-author 3, four-author 2. Check: 10 + 8 + 9 + 8 = 35 author-slots.</p><p><strong>Four-author:</strong> each author is on both, so 2 each. That leaves single + two + three = 3 (A), 6 (B), 10 (C), 8 (D).</p><p><strong>Arman:</strong> at least 1 of each, total 3, so 1, 1, 1. <strong>Brajen:</strong> s = t and 2s + h = 6 with h ≤ 3, so s = t = h = 2.</p><p><strong>Three-author slots</strong> 9 = 1 + 2 + h<sub>C</sub> + h<sub>D</sub>, so h<sub>C</sub> + h<sub>D</sub> = 6. Both exceed Brajen’s 2 and are ≤ 3, so both = 3. Chintan and Devon are on all three three-author papers; the third author is Arman on one and Brajen on two.</p><p><strong>Singles and two-author:</strong> s<sub>C</sub> + s<sub>D</sub> = 10 − 3 = 7 and t<sub>C</sub> + t<sub>D</sub> = 8 − 3 = 5, with s<sub>C</sub> + t<sub>C</sub> = 7 and s<sub>D</sub> + t<sub>D</sub> = 5. Singles must differ from 1 and 2 and from each other, so (s<sub>C</sub>, s<sub>D</sub>) = (4, 3) giving t<sub>C</sub> = 3, t<sub>D</sub> = 2, or (3, 4) giving t<sub>C</sub> = 4, t<sub>D</sub> = 1. Both cases can be realised.</p><table><thead><tr><th>Author</th><th>Single</th><th>Two</th><th>Three</th><th>Four</th></tr></thead><tbody><tr><td>Arman</td><td>1</td><td>1</td><td>1</td><td>2</td></tr><tr><td>Brajen</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Chintan</td><td>4 or 3</td><td>3 or 4</td><td>3</td><td>2</td></tr><tr><td>Devon</td><td>3 or 4</td><td>2 or 1</td><td>3</td><td>2</td></tr></tbody></table><p>Chintan and Devon each wrote 3 three-author papers, which is all of them. So every three-author paper is {Chintan, Devon, X}, with X = Arman once and Brajen twice. Both statements are necessarily true: <strong>Both i and ii</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-18",
+      "number": 18,
+      "type": "TITA",
+      "setKey": "DILR-S4",
+      "topic": "Data Interpretation",
+      "subtopic": "Bar charts / distribution",
+      "difficulty": "medium",
+      "stemHtml": "<p>If Devon wrote more than one two-author papers, then how many two-author papers did Chintan write?</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Charts:</strong> papers per author: Arman 5, Brajen 8, Chintan 12, Devon 10 (total 35). Papers by type: single 10, two-author 4, three-author 3, four-author 2. Check: 10 + 8 + 9 + 8 = 35 author-slots.</p><p><strong>Four-author:</strong> each author is on both, so 2 each. That leaves single + two + three = 3 (A), 6 (B), 10 (C), 8 (D).</p><p><strong>Arman:</strong> at least 1 of each, total 3, so 1, 1, 1. <strong>Brajen:</strong> s = t and 2s + h = 6 with h ≤ 3, so s = t = h = 2.</p><p><strong>Three-author slots</strong> 9 = 1 + 2 + h<sub>C</sub> + h<sub>D</sub>, so h<sub>C</sub> + h<sub>D</sub> = 6. Both exceed Brajen’s 2 and are ≤ 3, so both = 3. Chintan and Devon are on all three three-author papers; the third author is Arman on one and Brajen on two.</p><p><strong>Singles and two-author:</strong> s<sub>C</sub> + s<sub>D</sub> = 10 − 3 = 7 and t<sub>C</sub> + t<sub>D</sub> = 8 − 3 = 5, with s<sub>C</sub> + t<sub>C</sub> = 7 and s<sub>D</sub> + t<sub>D</sub> = 5. Singles must differ from 1 and 2 and from each other, so (s<sub>C</sub>, s<sub>D</sub>) = (4, 3) giving t<sub>C</sub> = 3, t<sub>D</sub> = 2, or (3, 4) giving t<sub>C</sub> = 4, t<sub>D</sub> = 1. Both cases can be realised.</p><table><thead><tr><th>Author</th><th>Single</th><th>Two</th><th>Three</th><th>Four</th></tr></thead><tbody><tr><td>Arman</td><td>1</td><td>1</td><td>1</td><td>2</td></tr><tr><td>Brajen</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Chintan</td><td>4 or 3</td><td>3 or 4</td><td>3</td><td>2</td></tr><tr><td>Devon</td><td>3 or 4</td><td>2 or 1</td><td>3</td><td>2</td></tr></tbody></table><p>Devon’s two-author count is 2 or 1. More than one means 2, so Chintan wrote 5 − 2 = <strong>3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-19",
+      "number": 19,
+      "type": "TITA",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ordering / comparisons",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the total number of pings made by B1, B2, and B3?</p>",
+      "answer": "6",
+      "solutionHtml": "<p>A ball pings on a hoop iff ball ≤ hoop.</p><ul><li>(4) Only B2 pings on H2: B2 ≤ H2 &lt; every other ball.</li><li>(2) B4 ≤ H3 &lt; B1. (1) B1, B6 ≤ H4 &lt; B5. (3) every ball except B3 ≤ H1 &lt; B3.</li></ul><p>Chain: <strong>B2 ≤ H2 &lt; B4 ≤ H3 &lt; B1 ≤ H4 &lt; B5 ≤ H1 &lt; B3</strong>, with B6 somewhere in (H2, H4] (it may be above or below H3).</p><p>Hoops: <strong>H2 &lt; H3 &lt; H4 &lt; H1</strong>.</p><p>Pings: B1 → H4, H1 (2); B2 → all 4; B3 → 0; B4 → H3, H4, H1 (3); B5 → H1 (1); B6 → H4, H1 and possibly H3 (2 or 3).</p><p>B1: 2, B2: 4, B3: 0. Total = <strong>6</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-20",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ordering / comparisons",
+      "difficulty": "medium",
+      "stemHtml": "<p>Which of the following statements about the relative sizes of the balls is NOT NECESSARILY true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "B1 &lt; B6 &lt; B3"
+        },
+        {
+          "id": "B",
+          "textHtml": "B2 &lt; B1 &lt; B5"
+        },
+        {
+          "id": "C",
+          "textHtml": "B4 &lt; B5 &lt; B3"
+        },
+        {
+          "id": "D",
+          "textHtml": "B1 &lt; B5 &lt; B3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p>A ball pings on a hoop iff ball ≤ hoop.</p><ul><li>(4) Only B2 pings on H2: B2 ≤ H2 &lt; every other ball.</li><li>(2) B4 ≤ H3 &lt; B1. (1) B1, B6 ≤ H4 &lt; B5. (3) every ball except B3 ≤ H1 &lt; B3.</li></ul><p>Chain: <strong>B2 ≤ H2 &lt; B4 ≤ H3 &lt; B1 ≤ H4 &lt; B5 ≤ H1 &lt; B3</strong>, with B6 somewhere in (H2, H4] (it may be above or below H3).</p><p>Hoops: <strong>H2 &lt; H3 &lt; H4 &lt; H1</strong>.</p><p>Pings: B1 → H4, H1 (2); B2 → all 4; B3 → 0; B4 → H3, H4, H1 (3); B5 → H1 (1); B6 → H4, H1 and possibly H3 (2 or 3).</p><p>B2 &lt; B1 &lt; B5, B4 &lt; B5 &lt; B3 and B1 &lt; B5 &lt; B3 all follow from the chain. B6 is only known to lie in (H2, H4], so it can be smaller than B1 (for example B6 ≤ H3 &lt; B1). <strong>B1 &lt; B6 &lt; B3</strong> is not necessarily true.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-21",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ordering / comparisons",
+      "difficulty": "easy",
+      "stemHtml": "<p>Which of the following statements about the relative sizes of the hoops is true?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "H2 &lt; H4 &lt; H3 &lt; H1"
+        },
+        {
+          "id": "B",
+          "textHtml": "H2 &lt; H3 &lt; H4 &lt; H1"
+        },
+        {
+          "id": "C",
+          "textHtml": "H1 &lt; H3 &lt; H4 &lt; H2"
+        },
+        {
+          "id": "D",
+          "textHtml": "H1 &lt; H4 &lt; H3 &lt; H2"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p>A ball pings on a hoop iff ball ≤ hoop.</p><ul><li>(4) Only B2 pings on H2: B2 ≤ H2 &lt; every other ball.</li><li>(2) B4 ≤ H3 &lt; B1. (1) B1, B6 ≤ H4 &lt; B5. (3) every ball except B3 ≤ H1 &lt; B3.</li></ul><p>Chain: <strong>B2 ≤ H2 &lt; B4 ≤ H3 &lt; B1 ≤ H4 &lt; B5 ≤ H1 &lt; B3</strong>, with B6 somewhere in (H2, H4] (it may be above or below H3).</p><p>Hoops: <strong>H2 &lt; H3 &lt; H4 &lt; H1</strong>.</p><p>Pings: B1 → H4, H1 (2); B2 → all 4; B3 → 0; B4 → H3, H4, H1 (3); B5 → H1 (1); B6 → H4, H1 and possibly H3 (2 or 3).</p><p>From the chain: H2 &lt; B4 ≤ H3 &lt; B1 ≤ H4 &lt; B5 ≤ H1, so <strong>H2 &lt; H3 &lt; H4 &lt; H1</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    },
+    {
+      "key": "DILR-22",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "DILR-S5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Ordering / comparisons",
+      "difficulty": "medium",
+      "stemHtml": "<p>What BEST can be said about the total number of pings from all the tests undertaken?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "12 or 13 or 14"
+        },
+        {
+          "id": "B",
+          "textHtml": "13 or 14"
+        },
+        {
+          "id": "C",
+          "textHtml": "At least 9"
+        },
+        {
+          "id": "D",
+          "textHtml": "12 or 13"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p>A ball pings on a hoop iff ball ≤ hoop.</p><ul><li>(4) Only B2 pings on H2: B2 ≤ H2 &lt; every other ball.</li><li>(2) B4 ≤ H3 &lt; B1. (1) B1, B6 ≤ H4 &lt; B5. (3) every ball except B3 ≤ H1 &lt; B3.</li></ul><p>Chain: <strong>B2 ≤ H2 &lt; B4 ≤ H3 &lt; B1 ≤ H4 &lt; B5 ≤ H1 &lt; B3</strong>, with B6 somewhere in (H2, H4] (it may be above or below H3).</p><p>Hoops: <strong>H2 &lt; H3 &lt; H4 &lt; H1</strong>.</p><p>Pings: B1 → H4, H1 (2); B2 → all 4; B3 → 0; B4 → H3, H4, H1 (3); B5 → H1 (1); B6 → H4, H1 and possibly H3 (2 or 3).</p><p>Fixed pings: 2 + 4 + 0 + 3 + 1 = 10 (B1 to B5). B6 gives 2 or 3. Total = <strong>12 or 13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2025 Slot 2",
+        "url": "https://iimcat.ac.in"
+      },
+      "section": "DILR"
+    }
+  ]
+}

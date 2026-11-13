@@ -1,0 +1,1071 @@
+{
+  "sets": [
+    {
+      "key": "di1",
+      "kind": "dilr_set",
+      "title": "Store revenue and cost shares",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2019-slot2/dilr-store-radar.png"
+      ],
+      "contentHtml": "<p>A large store has only three departments, Clothing, Produce, and Electronics. The following figure shows the percentages of revenue and cost from the three departments for the years 2016, 2017 and 2018. The dotted lines depict percentage levels. So for example, in 2016, 50% of store's revenue came from its Electronics department while 40% of its costs were incurred in the Produce department.</p><p>In this setup, Profit is computed as (Revenue – Cost) and Percentage Profit as Profit/Cost × 100%.</p><p>It is known that</p><ol><li>The percentage profit for the store in 2016 was 100%.</li><li>The store’s revenue doubled from 2016 to 2017, and its cost doubled from 2016 to 2018.</li><li>There was no profit from the Electronics department in 2017.</li><li>In 2018, the revenue from the Clothing department was the same as the cost incurred in the Produce department.</li></ol>"
+    },
+    {
+      "key": "lr1",
+      "kind": "dilr_set",
+      "title": "Coin pouches in a 3 × 3 grid",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2019-slot2/dilr-pouch-grid.png"
+      ],
+      "contentHtml": "<p>(Figure: a 3 × 3 grid of slots, each slot holding three pouches drawn as filled circles.)</p><table><thead><tr><th></th><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr></thead><tbody><tr><td>Row 1</td><td>(2, 4)</td><td>(6, 8)</td><td>(1, 3)</td></tr><tr><td>Row 2</td><td>(3, 5)</td><td>(1, 1)</td><td>(6, 20)</td></tr><tr><td>Row 3</td><td>(1, 2)</td><td>(1, 2)</td><td>(2, 5)</td></tr></tbody></table><p>Three pouches (each represented by a filled circle) are kept in each of the nine slots in a 3 × 3 grid, as shown in the figure. Every pouch has a certain number of one-rupee coins. The minimum and maximum amounts of money (in rupees) among the three pouches in each of the nine slots are given in the table. For example, we know that among the three pouches kept in the second column of the first row, the minimum amount in a pouch is Rs. 6 and the maximum amount is Rs. 8.</p><p>There are nine pouches in any of the three columns, as well as in any of the three rows. It is known that the average amount of money (in rupees) kept in the nine pouches in any column or in any row is an integer. It is also known that the total amount of money kept in the three pouches in the first column of the third row is Rs. 4.</p>"
+    },
+    {
+      "key": "lr2",
+      "kind": "dilr_set",
+      "title": "Campus proposals and union election survey",
+      "contentHtml": "<p>Students in a college are discussing two proposals –</p><p>A: a proposal by the authorities to introduce dress code on campus, and<br>B: a proposal by the students to allow multinational food franchises to set up outlets on college campus.<br>A student does not necessarily support either of the two proposals.</p><p>In an upcoming election for student union president, there are two candidates in fray: Sunita and Ragini. Every student prefers one of the two candidates.<br>A survey was conducted among the students by picking a sample of 500 students. The following information was noted from this survey.</p><ol><li>250 students supported proposal A and 250 students supported proposal B.</li><li>Among the 200 students who preferred Sunita as student union president, 80% supported proposal A.</li><li>Among those who preferred Ragini, 30% supported proposal A.</li><li>20% of those who supported proposal B preferred Sunita.</li><li>40% of those who did not support proposal B preferred Ragini.</li><li>Every student who preferred Sunita and supported proposal B also supported proposal A.</li><li>Among those who preferred Ragini, 20% did not support any of the proposals.</li></ol>"
+    },
+    {
+      "key": "lr3",
+      "kind": "dilr_set",
+      "title": "Language teams",
+      "contentHtml": "<p>In the table below the check marks indicate all languages spoken by five people: Paula, Quentin, Robert, Sally and Terence. For example, Paula speaks only Chinese and English.</p><table><thead><tr><th></th><th>Arabic</th><th>Basque</th><th>Chinese</th><th>Dutch</th><th>English</th><th>French</th></tr></thead><tbody><tr><td>Paula</td><td></td><td></td><td>√</td><td></td><td>√</td><td></td></tr><tr><td>Quentin</td><td></td><td></td><td></td><td>√</td><td>√</td><td></td></tr><tr><td>Robert</td><td>√</td><td></td><td></td><td></td><td></td><td>√</td></tr><tr><td>Sally</td><td></td><td>√</td><td></td><td></td><td>√</td><td></td></tr><tr><td>Terence</td><td></td><td></td><td>√</td><td></td><td></td><td>√</td></tr></tbody></table><p>These five people form three teams, Team 1, Team 2 and Team 3. Each team has either 2 or 3 members. A team is said to speak a particular language if at least one of its members speak that language.</p><p>The following facts are known.</p><ol><li>Each team speaks exactly four languages and has the same number of members.</li><li>English and Chinese are spoken by all three teams, Basque and French by exactly two teams and the other languages by exactly one team.</li><li>None of the teams include both Quentin and Robert.</li><li>Paula and Sally are together in exactly two teams.</li><li>Robert is in Team 1 and Quentin is in Team 3.</li></ol>"
+    },
+    {
+      "key": "lr4",
+      "kind": "dilr_set",
+      "title": "Clinic doctors and token queue",
+      "contentHtml": "<p>Three doctors, Dr. Ben, Dr. Kane and Dr. Wayne visit a particular clinic Monday to Saturday to see patients. Dr. Ben sees each patient for 10 minutes and charges Rs. 100/-. Dr. Kane sees each patient for 15 minutes and charges Rs. 200/-, while Dr. Wayne sees each patient for 25 minutes and charges Rs. 300/-.</p><p>The clinic has three rooms numbered 1, 2 and 3 which are assigned to the three doctors as per the following table.</p><table><thead><tr><th>Room No.</th><th>Monday &amp; Tuesday</th><th>Wednesday &amp; Thursday</th><th>Friday &amp; Saturday</th></tr></thead><tbody><tr><td>1</td><td>Ben</td><td>Wayne</td><td>Kane</td></tr><tr><td>2</td><td>Kane</td><td>Ben</td><td>Wayne</td></tr><tr><td>3</td><td>Wayne</td><td>Kane</td><td>Ben</td></tr></tbody></table><p>The clinic is open from 9 a.m. to 11.30 a.m. every Monday to Saturday.</p><p>On arrival each patient is handed a numbered token indicating their position in the queue, starting with token number 1 every day. As soon as any doctor becomes free, the next patient in the queue enters that emptied room for consultation. If at any time, more than one room is free then the waiting patient enters the room with the smallest number. For example, if the next two patients in the queue have token numbers 7 and 8 and if rooms numbered 1 and 3 are free, then patient with token number 7 enters room number 1 and patient with token number 8 enters room number 3.</p>"
+    },
+    {
+      "key": "di2",
+      "kind": "dilr_set",
+      "title": "Monsoon rainfall vs LPA",
+      "images": [
+        "https://procounsel.co.in/mba/pyq/cat-2019-slot2/dilr-rainfall-scatter.png"
+      ],
+      "contentHtml": "<p>To compare the rainfall data, India Meteorological Department (IMD) calculated the Long Period Average (LPA) of rainfall during period June-August for each of the 16 states. The figure given below shows the actual rainfall (measured in mm) during June-August, 2019 and the percentage deviations from LPA of respective states in 2018. Each state along with its actual rainfall is presented in the figure.</p><p>(Scatter plot: x-axis actual rainfall June–August 2019 in mm, 0 to 3000; y-axis deviation from LPA in %, −70 to 40. Each point is labelled with the state and its rainfall.)</p>"
+    },
+    {
+      "key": "lr5",
+      "kind": "dilr_set",
+      "title": "Midterm and endterm question setters",
+      "contentHtml": "<p>The first year students in a business school are split into six sections. In 2019 the Business Statistics course was taught in these six sections by Annie, Beti, Chetan, Dave, Esha, and Fakir. All six sections had a common midterm (MT) and a common endterm (ET) worth 100 marks each. ET contained more questions than MT. Questions for MT and ET were prepared collectively by the six faculty members. Considering MT and ET together, each faculty member prepared the same number of questions.</p><p>Each of MT and ET had at least four questions that were worth 5 marks, at least three questions that were worth 10 marks, and at least two questions that were worth 15 marks. In both MT and ET, all the 5-mark questions preceded the 10-mark questions, and all the 15-mark questions followed the 10-mark questions.</p><p>The following additional facts are known.</p><ol type=\"i\"><li>Annie prepared the fifth question for both MT and ET. For MT, this question carried 5 marks.</li><li>Annie prepared one question for MT. Every other faculty member prepared more than one questions for MT.</li><li>All questions prepared by a faculty member appeared consecutively in MT as well as ET.</li><li>Chetan prepared the third question in both MT and ET; and Esha prepared the eighth question in both.</li><li>Fakir prepared the first question of MT and the last one in ET. Dave prepared the last question of MT and the first one in ET.</li></ol>"
+    },
+    {
+      "key": "lr6",
+      "kind": "dilr_set",
+      "title": "Rifle shooting rounds",
+      "contentHtml": "<p>Ten players, as listed in the table below, participated in a rifle shooting competition comprising of 10 rounds. Each round had 6 participants. Players numbered 1 through 6 participated in Round 1, players 2 through 7 in Round 2,..., players 5 through 10 in Round 5, players 6 through 10 and 1 in Round 6, players 7 through 10, 1 and 2 in Round 7 and so on.</p><p>The top three performances in each round were awarded 7, 3 and 1 points respectively. There were no ties in any of the 10 rounds. The table below gives the total number of points obtained by the 10 players after Round 6 and Round 10.</p><table><thead><tr><th>Player No.</th><th>Player Name</th><th>Points after Round 6</th><th>Points after Round 10</th></tr></thead><tbody><tr><td>1</td><td>Amita</td><td>8</td><td>18</td></tr><tr><td>2</td><td>Bala</td><td>2</td><td>5</td></tr><tr><td>3</td><td>Chen</td><td>3</td><td>6</td></tr><tr><td>4</td><td>David</td><td>6</td><td>6</td></tr><tr><td>5</td><td>Eric</td><td>3</td><td>10</td></tr><tr><td>6</td><td>Fatima</td><td>10</td><td>10</td></tr><tr><td>7</td><td>Gordon</td><td>17</td><td>17</td></tr><tr><td>8</td><td>Hansa</td><td>1</td><td>4</td></tr><tr><td>9</td><td>Ikea</td><td>2</td><td>17</td></tr><tr><td>10</td><td>Joshin</td><td>14</td><td>17</td></tr></tbody></table><p>The following information is known about Rounds 1 through 6:</p><ol><li>Gordon did not score consecutively in any two rounds.</li><li>Eric and Fatima both scored in a round.</li></ol><p>The following information is known about Rounds 7 through 10:</p><ol><li>Only two players scored in three consecutive rounds. One of them was Chen. No other player scored in any two consecutive rounds.</li><li>Joshin scored in Round 7, while Amita scored in Round 10.</li><li>No player scored in all the four rounds.</li></ol>"
+    }
+  ],
+  "questions": [
+    {
+      "key": "DILR-01",
+      "section": "DILR",
+      "number": 1,
+      "type": "TITA",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Radar chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the percentage profit of the store in 2018?</p>",
+      "answer": "25",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (dotted levels are 10%, 20%, …, 50%):</p><table><thead><tr><th>Share</th><th>Clothing</th><th>Produce</th><th>Electronics</th></tr></thead><tbody><tr><td>Revenue 2016</td><td>20%</td><td>30%</td><td>50%</td></tr><tr><td>Revenue 2017</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Revenue 2018</td><td>40%</td><td>40%</td><td>20%</td></tr><tr><td>Cost 2016</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Cost 2017</td><td>30%</td><td>30%</td><td>40%</td></tr><tr><td>Cost 2018</td><td>20%</td><td>50%</td><td>30%</td></tr></tbody></table><p><strong>Absolute values.</strong> Let 2016 cost = 100. Profit 100% ⇒ 2016 revenue = 200. Revenue doubles ⇒ 2017 revenue = 400. Cost doubles ⇒ 2018 cost = 200.</p><p>2017: Electronics revenue = 30% × 400 = 120 = Electronics cost = 40% × C<sub>2017</sub> ⇒ C<sub>2017</sub> = 300.</p><p>2018: Clothing revenue = 40% × R<sub>2018</sub> = Produce cost = 50% × 200 = 100 ⇒ R<sub>2018</sub> = 250.</p><table><thead><tr><th>Year</th><th>Revenue</th><th>Cost</th><th>Profit</th><th>Profit %</th></tr></thead><tbody><tr><td>2016</td><td>200</td><td>100</td><td>100</td><td>100%</td></tr><tr><td>2017</td><td>400</td><td>300</td><td>100</td><td>33.3%</td></tr><tr><td>2018</td><td>250</td><td>200</td><td>50</td><td>25%</td></tr></tbody></table><p>2018 profit % = 50/200 × 100 = <strong>25</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-02",
+      "section": "DILR",
+      "number": 2,
+      "type": "MCQ",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Radar chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the ratio of revenue generated from the Produce department in 2017 to that in 2018?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "4 : 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "9 : 16"
+        },
+        {
+          "id": "C",
+          "textHtml": "8 : 5"
+        },
+        {
+          "id": "D",
+          "textHtml": "16 : 9"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (dotted levels are 10%, 20%, …, 50%):</p><table><thead><tr><th>Share</th><th>Clothing</th><th>Produce</th><th>Electronics</th></tr></thead><tbody><tr><td>Revenue 2016</td><td>20%</td><td>30%</td><td>50%</td></tr><tr><td>Revenue 2017</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Revenue 2018</td><td>40%</td><td>40%</td><td>20%</td></tr><tr><td>Cost 2016</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Cost 2017</td><td>30%</td><td>30%</td><td>40%</td></tr><tr><td>Cost 2018</td><td>20%</td><td>50%</td><td>30%</td></tr></tbody></table><p><strong>Absolute values.</strong> Let 2016 cost = 100. Profit 100% ⇒ 2016 revenue = 200. Revenue doubles ⇒ 2017 revenue = 400. Cost doubles ⇒ 2018 cost = 200.</p><p>2017: Electronics revenue = 30% × 400 = 120 = Electronics cost = 40% × C<sub>2017</sub> ⇒ C<sub>2017</sub> = 300.</p><p>2018: Clothing revenue = 40% × R<sub>2018</sub> = Produce cost = 50% × 200 = 100 ⇒ R<sub>2018</sub> = 250.</p><table><thead><tr><th>Year</th><th>Revenue</th><th>Cost</th><th>Profit</th><th>Profit %</th></tr></thead><tbody><tr><td>2016</td><td>200</td><td>100</td><td>100</td><td>100%</td></tr><tr><td>2017</td><td>400</td><td>300</td><td>100</td><td>33.3%</td></tr><tr><td>2018</td><td>250</td><td>200</td><td>50</td><td>25%</td></tr></tbody></table><p>Produce revenue: 2017 = 40% × 400 = 160; 2018 = 40% × 250 = 100. Ratio = 160 : 100 = <strong>8 : 5</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-03",
+      "section": "DILR",
+      "number": 3,
+      "type": "TITA",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Radar chart",
+      "difficulty": "easy",
+      "stemHtml": "<p>What percentage of the total profits for the store in 2016 was from the Electronics department?</p>",
+      "answer": "70",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (dotted levels are 10%, 20%, …, 50%):</p><table><thead><tr><th>Share</th><th>Clothing</th><th>Produce</th><th>Electronics</th></tr></thead><tbody><tr><td>Revenue 2016</td><td>20%</td><td>30%</td><td>50%</td></tr><tr><td>Revenue 2017</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Revenue 2018</td><td>40%</td><td>40%</td><td>20%</td></tr><tr><td>Cost 2016</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Cost 2017</td><td>30%</td><td>30%</td><td>40%</td></tr><tr><td>Cost 2018</td><td>20%</td><td>50%</td><td>30%</td></tr></tbody></table><p><strong>Absolute values.</strong> Let 2016 cost = 100. Profit 100% ⇒ 2016 revenue = 200. Revenue doubles ⇒ 2017 revenue = 400. Cost doubles ⇒ 2018 cost = 200.</p><p>2017: Electronics revenue = 30% × 400 = 120 = Electronics cost = 40% × C<sub>2017</sub> ⇒ C<sub>2017</sub> = 300.</p><p>2018: Clothing revenue = 40% × R<sub>2018</sub> = Produce cost = 50% × 200 = 100 ⇒ R<sub>2018</sub> = 250.</p><table><thead><tr><th>Year</th><th>Revenue</th><th>Cost</th><th>Profit</th><th>Profit %</th></tr></thead><tbody><tr><td>2016</td><td>200</td><td>100</td><td>100</td><td>100%</td></tr><tr><td>2017</td><td>400</td><td>300</td><td>100</td><td>33.3%</td></tr><tr><td>2018</td><td>250</td><td>200</td><td>50</td><td>25%</td></tr></tbody></table><p>2016 Electronics: revenue = 50% × 200 = 100, cost = 30% × 100 = 30, profit = 70. Total profit = 100, so the share is <strong>70</strong>%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-04",
+      "section": "DILR",
+      "number": 4,
+      "type": "MCQ",
+      "setKey": "di1",
+      "topic": "Data Interpretation",
+      "subtopic": "Radar chart",
+      "difficulty": "medium",
+      "stemHtml": "<p>What was the approximate difference in profit percentages of the store in 2017 and 2018?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "8.3"
+        },
+        {
+          "id": "B",
+          "textHtml": "15.5"
+        },
+        {
+          "id": "C",
+          "textHtml": "25.0"
+        },
+        {
+          "id": "D",
+          "textHtml": "33.3"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Reading the chart</strong> (dotted levels are 10%, 20%, …, 50%):</p><table><thead><tr><th>Share</th><th>Clothing</th><th>Produce</th><th>Electronics</th></tr></thead><tbody><tr><td>Revenue 2016</td><td>20%</td><td>30%</td><td>50%</td></tr><tr><td>Revenue 2017</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Revenue 2018</td><td>40%</td><td>40%</td><td>20%</td></tr><tr><td>Cost 2016</td><td>30%</td><td>40%</td><td>30%</td></tr><tr><td>Cost 2017</td><td>30%</td><td>30%</td><td>40%</td></tr><tr><td>Cost 2018</td><td>20%</td><td>50%</td><td>30%</td></tr></tbody></table><p><strong>Absolute values.</strong> Let 2016 cost = 100. Profit 100% ⇒ 2016 revenue = 200. Revenue doubles ⇒ 2017 revenue = 400. Cost doubles ⇒ 2018 cost = 200.</p><p>2017: Electronics revenue = 30% × 400 = 120 = Electronics cost = 40% × C<sub>2017</sub> ⇒ C<sub>2017</sub> = 300.</p><p>2018: Clothing revenue = 40% × R<sub>2018</sub> = Produce cost = 50% × 200 = 100 ⇒ R<sub>2018</sub> = 250.</p><table><thead><tr><th>Year</th><th>Revenue</th><th>Cost</th><th>Profit</th><th>Profit %</th></tr></thead><tbody><tr><td>2016</td><td>200</td><td>100</td><td>100</td><td>100%</td></tr><tr><td>2017</td><td>400</td><td>300</td><td>100</td><td>33.3%</td></tr><tr><td>2018</td><td>250</td><td>200</td><td>50</td><td>25%</td></tr></tbody></table><p>2017: 100/300 = 33.33%; 2018: 50/200 = 25%. Difference ≈ <strong>8.3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-05",
+      "section": "DILR",
+      "number": 5,
+      "type": "TITA",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid / numbers",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the total amount of money (in rupees) in the three pouches kept in the first column of the second row?</p>",
+      "answer": "13",
+      "solutionHtml": "<p><strong>Key idea.</strong> A slot with (min, max) holds min, max and a middle pouch between them, so its total lies in [2·min + max, min + 2·max]. Every row and column total must be a multiple of 9.</p><p>Totals possible: R1: 8–10, 20–22, 5–7; R2: 11–13, 3, 32–46; R3: 4 (given), 4–5, 9–12.</p><p>Column 1: (8–10) + (11–13) + 4 = 23–27 ⇒ must be 27 ⇒ R1C1 = 10, R2C1 = 13.<br>Column 2: (20–22) + 3 + (4–5) = 27–30 ⇒ 27 ⇒ R1C2 = 20, R3C2 = 4.<br>Row 1: 10 + 20 + (5–7) ⇒ 36 ⇒ R1C3 = 6.<br>Row 3: 4 + 4 + (9–12) ⇒ 18 ⇒ R3C3 = 10.<br>Column 3: 6 + (32–46) + 10 ⇒ 54 ⇒ R2C3 = 38 (check Row 2: 13 + 3 + 38 = 54 ✓).</p><table><thead><tr><th>Slot</th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>2, 4, 4 (10)</td><td>6, 6, 8 (20)</td><td>1, 2, 3 (6)</td></tr><tr><td>R2</td><td>3, 5, 5 (13)</td><td>1, 1, 1 (3)</td><td>6, 12, 20 (38)</td></tr><tr><td>R3</td><td>1, 1, 2 (4)</td><td>1, 1, 2 (4)</td><td>2, 3, 5 (10)</td></tr></tbody></table><p>Row 2, Column 1 total = <strong>13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-06",
+      "section": "DILR",
+      "number": 6,
+      "type": "TITA",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid / numbers",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many pouches contain exactly one coin?</p>",
+      "answer": "8",
+      "solutionHtml": "<p><strong>Key idea.</strong> A slot with (min, max) holds min, max and a middle pouch between them, so its total lies in [2·min + max, min + 2·max]. Every row and column total must be a multiple of 9.</p><p>Totals possible: R1: 8–10, 20–22, 5–7; R2: 11–13, 3, 32–46; R3: 4 (given), 4–5, 9–12.</p><p>Column 1: (8–10) + (11–13) + 4 = 23–27 ⇒ must be 27 ⇒ R1C1 = 10, R2C1 = 13.<br>Column 2: (20–22) + 3 + (4–5) = 27–30 ⇒ 27 ⇒ R1C2 = 20, R3C2 = 4.<br>Row 1: 10 + 20 + (5–7) ⇒ 36 ⇒ R1C3 = 6.<br>Row 3: 4 + 4 + (9–12) ⇒ 18 ⇒ R3C3 = 10.<br>Column 3: 6 + (32–46) + 10 ⇒ 54 ⇒ R2C3 = 38 (check Row 2: 13 + 3 + 38 = 54 ✓).</p><table><thead><tr><th>Slot</th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>2, 4, 4 (10)</td><td>6, 6, 8 (20)</td><td>1, 2, 3 (6)</td></tr><tr><td>R2</td><td>3, 5, 5 (13)</td><td>1, 1, 1 (3)</td><td>6, 12, 20 (38)</td></tr><tr><td>R3</td><td>1, 1, 2 (4)</td><td>1, 1, 2 (4)</td><td>2, 3, 5 (10)</td></tr></tbody></table><p>Pouches with Rs. 1: R1C3 (1), R2C2 (3), R3C1 (2), R3C2 (2) ⇒ <strong>8</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-07",
+      "section": "DILR",
+      "number": 7,
+      "type": "TITA",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid / numbers",
+      "difficulty": "medium",
+      "stemHtml": "<p>What is the number of slots for which the average amount (in rupees) of its three pouches is an integer?</p>",
+      "answer": "2",
+      "solutionHtml": "<p><strong>Key idea.</strong> A slot with (min, max) holds min, max and a middle pouch between them, so its total lies in [2·min + max, min + 2·max]. Every row and column total must be a multiple of 9.</p><p>Totals possible: R1: 8–10, 20–22, 5–7; R2: 11–13, 3, 32–46; R3: 4 (given), 4–5, 9–12.</p><p>Column 1: (8–10) + (11–13) + 4 = 23–27 ⇒ must be 27 ⇒ R1C1 = 10, R2C1 = 13.<br>Column 2: (20–22) + 3 + (4–5) = 27–30 ⇒ 27 ⇒ R1C2 = 20, R3C2 = 4.<br>Row 1: 10 + 20 + (5–7) ⇒ 36 ⇒ R1C3 = 6.<br>Row 3: 4 + 4 + (9–12) ⇒ 18 ⇒ R3C3 = 10.<br>Column 3: 6 + (32–46) + 10 ⇒ 54 ⇒ R2C3 = 38 (check Row 2: 13 + 3 + 38 = 54 ✓).</p><table><thead><tr><th>Slot</th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>2, 4, 4 (10)</td><td>6, 6, 8 (20)</td><td>1, 2, 3 (6)</td></tr><tr><td>R2</td><td>3, 5, 5 (13)</td><td>1, 1, 1 (3)</td><td>6, 12, 20 (38)</td></tr><tr><td>R3</td><td>1, 1, 2 (4)</td><td>1, 1, 2 (4)</td><td>2, 3, 5 (10)</td></tr></tbody></table><p>Slot totals: 10, 20, 6, 13, 3, 38, 4, 4, 10. Only 6 and 3 are multiples of 3 ⇒ <strong>2</strong> slots.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-08",
+      "section": "DILR",
+      "number": 8,
+      "type": "TITA",
+      "setKey": "lr1",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grid / numbers",
+      "difficulty": "medium",
+      "stemHtml": "<p>The number of slots for which the total amount in its three pouches strictly exceeds Rs. 10 is</p>",
+      "answer": "3",
+      "solutionHtml": "<p><strong>Key idea.</strong> A slot with (min, max) holds min, max and a middle pouch between them, so its total lies in [2·min + max, min + 2·max]. Every row and column total must be a multiple of 9.</p><p>Totals possible: R1: 8–10, 20–22, 5–7; R2: 11–13, 3, 32–46; R3: 4 (given), 4–5, 9–12.</p><p>Column 1: (8–10) + (11–13) + 4 = 23–27 ⇒ must be 27 ⇒ R1C1 = 10, R2C1 = 13.<br>Column 2: (20–22) + 3 + (4–5) = 27–30 ⇒ 27 ⇒ R1C2 = 20, R3C2 = 4.<br>Row 1: 10 + 20 + (5–7) ⇒ 36 ⇒ R1C3 = 6.<br>Row 3: 4 + 4 + (9–12) ⇒ 18 ⇒ R3C3 = 10.<br>Column 3: 6 + (32–46) + 10 ⇒ 54 ⇒ R2C3 = 38 (check Row 2: 13 + 3 + 38 = 54 ✓).</p><table><thead><tr><th>Slot</th><th>C1</th><th>C2</th><th>C3</th></tr></thead><tbody><tr><td>R1</td><td>2, 4, 4 (10)</td><td>6, 6, 8 (20)</td><td>1, 2, 3 (6)</td></tr><tr><td>R2</td><td>3, 5, 5 (13)</td><td>1, 1, 1 (3)</td><td>6, 12, 20 (38)</td></tr><tr><td>R3</td><td>1, 1, 2 (4)</td><td>1, 1, 2 (4)</td><td>2, 3, 5 (10)</td></tr></tbody></table><p>Totals above 10: 20, 13 and 38 ⇒ <strong>3</strong> slots.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-09",
+      "section": "DILR",
+      "number": 9,
+      "type": "TITA",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagram",
+      "difficulty": "medium",
+      "stemHtml": "<p>Among the students surveyed who supported proposal A, what percentage preferred Sunita for student union president?</p>",
+      "answer": "64",
+      "solutionHtml": "<p><strong>Building the table.</strong> Sunita 200, Ragini 300.</p><p>Sunita: A = 160; B = 20% × 250 = 50, and all 50 also support A. Not-B = 250, of which Ragini 40% = 100, so Sunita not-B = 150. Sunita: A only = 160 − 50 = 110; neither = 200 − 50 − 110 = 40; B only = 0.</p><p>Ragini: A = 30% × 300 = 90; B = 250 − 50 = 200; neither = 20% × 300 = 60. Ragini not-B = 100 ⇒ A only = 100 − 60 = 40 ⇒ A∩B = 90 − 40 = 50 ⇒ B only = 200 − 50 = 150.</p><table><thead><tr><th></th><th>A and B</th><th>A only</th><th>B only</th><th>Neither</th><th>Total</th></tr></thead><tbody><tr><td>Sunita</td><td>50</td><td>110</td><td>0</td><td>40</td><td>200</td></tr><tr><td>Ragini</td><td>50</td><td>40</td><td>150</td><td>60</td><td>300</td></tr><tr><td>Total</td><td>100</td><td>150</td><td>150</td><td>100</td><td>500</td></tr></tbody></table><p>Supporters of A = 250, of whom Sunita = 160 ⇒ 160/250 = <strong>64</strong>%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-10",
+      "section": "DILR",
+      "number": 10,
+      "type": "TITA",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagram",
+      "difficulty": "medium",
+      "stemHtml": "<p>What percentage of the students surveyed who did not support proposal A preferred Ragini as student union president?</p>",
+      "answer": "84",
+      "solutionHtml": "<p><strong>Building the table.</strong> Sunita 200, Ragini 300.</p><p>Sunita: A = 160; B = 20% × 250 = 50, and all 50 also support A. Not-B = 250, of which Ragini 40% = 100, so Sunita not-B = 150. Sunita: A only = 160 − 50 = 110; neither = 200 − 50 − 110 = 40; B only = 0.</p><p>Ragini: A = 30% × 300 = 90; B = 250 − 50 = 200; neither = 20% × 300 = 60. Ragini not-B = 100 ⇒ A only = 100 − 60 = 40 ⇒ A∩B = 90 − 40 = 50 ⇒ B only = 200 − 50 = 150.</p><table><thead><tr><th></th><th>A and B</th><th>A only</th><th>B only</th><th>Neither</th><th>Total</th></tr></thead><tbody><tr><td>Sunita</td><td>50</td><td>110</td><td>0</td><td>40</td><td>200</td></tr><tr><td>Ragini</td><td>50</td><td>40</td><td>150</td><td>60</td><td>300</td></tr><tr><td>Total</td><td>100</td><td>150</td><td>150</td><td>100</td><td>500</td></tr></tbody></table><p>Not supporting A = 500 − 250 = 250. Ragini among them = 150 (B only) + 60 (neither) = 210 ⇒ 210/250 = <strong>84</strong>%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-11",
+      "section": "DILR",
+      "number": 11,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagram",
+      "difficulty": "medium",
+      "stemHtml": "<p>What percentage of the students surveyed who supported both proposals A and B preferred Sunita as student union president?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "25"
+        },
+        {
+          "id": "B",
+          "textHtml": "50"
+        },
+        {
+          "id": "C",
+          "textHtml": "20"
+        },
+        {
+          "id": "D",
+          "textHtml": "40"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Building the table.</strong> Sunita 200, Ragini 300.</p><p>Sunita: A = 160; B = 20% × 250 = 50, and all 50 also support A. Not-B = 250, of which Ragini 40% = 100, so Sunita not-B = 150. Sunita: A only = 160 − 50 = 110; neither = 200 − 50 − 110 = 40; B only = 0.</p><p>Ragini: A = 30% × 300 = 90; B = 250 − 50 = 200; neither = 20% × 300 = 60. Ragini not-B = 100 ⇒ A only = 100 − 60 = 40 ⇒ A∩B = 90 − 40 = 50 ⇒ B only = 200 − 50 = 150.</p><table><thead><tr><th></th><th>A and B</th><th>A only</th><th>B only</th><th>Neither</th><th>Total</th></tr></thead><tbody><tr><td>Sunita</td><td>50</td><td>110</td><td>0</td><td>40</td><td>200</td></tr><tr><td>Ragini</td><td>50</td><td>40</td><td>150</td><td>60</td><td>300</td></tr><tr><td>Total</td><td>100</td><td>150</td><td>150</td><td>100</td><td>500</td></tr></tbody></table><p>Both A and B = 50 + 50 = 100; Sunita = 50 ⇒ <strong>50</strong>%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-12",
+      "section": "DILR",
+      "number": 12,
+      "type": "MCQ",
+      "setKey": "lr2",
+      "topic": "Logical Reasoning",
+      "subtopic": "Venn diagram",
+      "difficulty": "medium",
+      "stemHtml": "<p>How many of the students surveyed supported proposal B, did not support proposal A and preferred Ragini as student union president?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "150"
+        },
+        {
+          "id": "B",
+          "textHtml": "210"
+        },
+        {
+          "id": "C",
+          "textHtml": "200"
+        },
+        {
+          "id": "D",
+          "textHtml": "40"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Building the table.</strong> Sunita 200, Ragini 300.</p><p>Sunita: A = 160; B = 20% × 250 = 50, and all 50 also support A. Not-B = 250, of which Ragini 40% = 100, so Sunita not-B = 150. Sunita: A only = 160 − 50 = 110; neither = 200 − 50 − 110 = 40; B only = 0.</p><p>Ragini: A = 30% × 300 = 90; B = 250 − 50 = 200; neither = 20% × 300 = 60. Ragini not-B = 100 ⇒ A only = 100 − 60 = 40 ⇒ A∩B = 90 − 40 = 50 ⇒ B only = 200 − 50 = 150.</p><table><thead><tr><th></th><th>A and B</th><th>A only</th><th>B only</th><th>Neither</th><th>Total</th></tr></thead><tbody><tr><td>Sunita</td><td>50</td><td>110</td><td>0</td><td>40</td><td>200</td></tr><tr><td>Ragini</td><td>50</td><td>40</td><td>150</td><td>60</td><td>300</td></tr><tr><td>Total</td><td>100</td><td>150</td><td>150</td><td>100</td><td>500</td></tr></tbody></table><p>Ragini, B only = <strong>150</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-13",
+      "section": "DILR",
+      "number": 13,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who among the following four is not a member of Team 2?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Sally"
+        },
+        {
+          "id": "B",
+          "textHtml": "Terence"
+        },
+        {
+          "id": "C",
+          "textHtml": "Paula"
+        },
+        {
+          "id": "D",
+          "textHtml": "Quentin"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Deductions.</strong> Arabic (only Robert) and Dutch (only Quentin) are each spoken by one team, so Robert is only in Team 1 and Quentin only in Team 3.</p><p>Team 1 has Robert (Arabic, French) and needs English and Chinese with exactly four languages, so no Basque or Dutch: it needs Paula (Chinese, English) and cannot have Sally. Team 1 has no Basque, so Basque is in Teams 2 and 3 ⇒ Sally is in Teams 2 and 3.</p><p>Team 3: Quentin + Sally give Dutch, English, Basque; Chinese must come from Paula (Terence would add French, making five) ⇒ Team 3 = {Quentin, Sally, Paula}, so every team has 3 members. Team 1's third member must be Terence ⇒ Team 1 = {Robert, Paula, Terence}. French needs a second team, which must be Team 2 via Terence ⇒ Team 2 = {Sally, Terence, Paula}.</p><table><thead><tr><th>Team</th><th>Members</th><th>Languages</th></tr></thead><tbody><tr><td>1</td><td>Robert, Paula, Terence</td><td>Arabic, Chinese, English, French</td></tr><tr><td>2</td><td>Paula, Sally, Terence</td><td>Basque, Chinese, English, French</td></tr><tr><td>3</td><td>Paula, Quentin, Sally</td><td>Basque, Chinese, Dutch, English</td></tr></tbody></table><p>Team 2 = Paula, Sally, Terence, so <strong>Quentin</strong> is not in it.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-14",
+      "section": "DILR",
+      "number": 14,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who among the following four people is a part of exactly two teams?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Quentin"
+        },
+        {
+          "id": "B",
+          "textHtml": "Robert"
+        },
+        {
+          "id": "C",
+          "textHtml": "Paula"
+        },
+        {
+          "id": "D",
+          "textHtml": "Sally"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Deductions.</strong> Arabic (only Robert) and Dutch (only Quentin) are each spoken by one team, so Robert is only in Team 1 and Quentin only in Team 3.</p><p>Team 1 has Robert (Arabic, French) and needs English and Chinese with exactly four languages, so no Basque or Dutch: it needs Paula (Chinese, English) and cannot have Sally. Team 1 has no Basque, so Basque is in Teams 2 and 3 ⇒ Sally is in Teams 2 and 3.</p><p>Team 3: Quentin + Sally give Dutch, English, Basque; Chinese must come from Paula (Terence would add French, making five) ⇒ Team 3 = {Quentin, Sally, Paula}, so every team has 3 members. Team 1's third member must be Terence ⇒ Team 1 = {Robert, Paula, Terence}. French needs a second team, which must be Team 2 via Terence ⇒ Team 2 = {Sally, Terence, Paula}.</p><table><thead><tr><th>Team</th><th>Members</th><th>Languages</th></tr></thead><tbody><tr><td>1</td><td>Robert, Paula, Terence</td><td>Arabic, Chinese, English, French</td></tr><tr><td>2</td><td>Paula, Sally, Terence</td><td>Basque, Chinese, English, French</td></tr><tr><td>3</td><td>Paula, Quentin, Sally</td><td>Basque, Chinese, Dutch, English</td></tr></tbody></table><p>Quentin and Robert are in one team each, Paula in all three, <strong>Sally</strong> in two (Teams 2 and 3).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-15",
+      "section": "DILR",
+      "number": 15,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Who among the five people is a member of all teams?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Paula"
+        },
+        {
+          "id": "B",
+          "textHtml": "No one"
+        },
+        {
+          "id": "C",
+          "textHtml": "Sally"
+        },
+        {
+          "id": "D",
+          "textHtml": "Terence"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Deductions.</strong> Arabic (only Robert) and Dutch (only Quentin) are each spoken by one team, so Robert is only in Team 1 and Quentin only in Team 3.</p><p>Team 1 has Robert (Arabic, French) and needs English and Chinese with exactly four languages, so no Basque or Dutch: it needs Paula (Chinese, English) and cannot have Sally. Team 1 has no Basque, so Basque is in Teams 2 and 3 ⇒ Sally is in Teams 2 and 3.</p><p>Team 3: Quentin + Sally give Dutch, English, Basque; Chinese must come from Paula (Terence would add French, making five) ⇒ Team 3 = {Quentin, Sally, Paula}, so every team has 3 members. Team 1's third member must be Terence ⇒ Team 1 = {Robert, Paula, Terence}. French needs a second team, which must be Team 2 via Terence ⇒ Team 2 = {Sally, Terence, Paula}.</p><table><thead><tr><th>Team</th><th>Members</th><th>Languages</th></tr></thead><tbody><tr><td>1</td><td>Robert, Paula, Terence</td><td>Arabic, Chinese, English, French</td></tr><tr><td>2</td><td>Paula, Sally, Terence</td><td>Basque, Chinese, English, French</td></tr><tr><td>3</td><td>Paula, Quentin, Sally</td><td>Basque, Chinese, Dutch, English</td></tr></tbody></table><p><strong>Paula</strong> is in Teams 1, 2 and 3.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-16",
+      "section": "DILR",
+      "number": 16,
+      "type": "MCQ",
+      "setKey": "lr3",
+      "topic": "Logical Reasoning",
+      "subtopic": "Grouping",
+      "difficulty": "medium",
+      "stemHtml": "<p>Apart from Chinese and English, which languages are spoken by Team 1?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Basque and Dutch"
+        },
+        {
+          "id": "B",
+          "textHtml": "Arabic and French"
+        },
+        {
+          "id": "C",
+          "textHtml": "Basque and French"
+        },
+        {
+          "id": "D",
+          "textHtml": "Arabic and Basque"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Deductions.</strong> Arabic (only Robert) and Dutch (only Quentin) are each spoken by one team, so Robert is only in Team 1 and Quentin only in Team 3.</p><p>Team 1 has Robert (Arabic, French) and needs English and Chinese with exactly four languages, so no Basque or Dutch: it needs Paula (Chinese, English) and cannot have Sally. Team 1 has no Basque, so Basque is in Teams 2 and 3 ⇒ Sally is in Teams 2 and 3.</p><p>Team 3: Quentin + Sally give Dutch, English, Basque; Chinese must come from Paula (Terence would add French, making five) ⇒ Team 3 = {Quentin, Sally, Paula}, so every team has 3 members. Team 1's third member must be Terence ⇒ Team 1 = {Robert, Paula, Terence}. French needs a second team, which must be Team 2 via Terence ⇒ Team 2 = {Sally, Terence, Paula}.</p><table><thead><tr><th>Team</th><th>Members</th><th>Languages</th></tr></thead><tbody><tr><td>1</td><td>Robert, Paula, Terence</td><td>Arabic, Chinese, English, French</td></tr><tr><td>2</td><td>Paula, Sally, Terence</td><td>Basque, Chinese, English, French</td></tr><tr><td>3</td><td>Paula, Quentin, Sally</td><td>Basque, Chinese, Dutch, English</td></tr></tbody></table><p>Team 1 (Robert, Paula, Terence) also speaks <strong>Arabic and French</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-17",
+      "section": "DILR",
+      "number": 17,
+      "type": "MCQ",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the maximum number of patients that the clinic can cater to on any single day?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "30"
+        },
+        {
+          "id": "B",
+          "textHtml": "12"
+        },
+        {
+          "id": "C",
+          "textHtml": "15"
+        },
+        {
+          "id": "D",
+          "textHtml": "31"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Basics.</strong> The clinic is open 150 minutes. With a full queue, Ben sees 150/10 = 15 patients, Kane 150/15 = 10 and Wayne 150/25 = 6.</p><p>Maximum = 15 + 10 + 6 = <strong>31</strong> (room allocation does not matter, since each doctor works the full 150 minutes).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-18",
+      "section": "DILR",
+      "number": 18,
+      "type": "MCQ",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "easy",
+      "stemHtml": "<p>The queue is never empty on one particular Saturday. Which of the three doctors would earn the maximum amount in consultation charges on that day?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Dr. Ben"
+        },
+        {
+          "id": "B",
+          "textHtml": "Dr. Wayne"
+        },
+        {
+          "id": "C",
+          "textHtml": "Both Dr. Wayne and Dr. Kane"
+        },
+        {
+          "id": "D",
+          "textHtml": "Dr. Kane"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Basics.</strong> The clinic is open 150 minutes. With a full queue, Ben sees 150/10 = 15 patients, Kane 150/15 = 10 and Wayne 150/25 = 6.</p><p>Earnings with a full queue: Ben 15 × 100 = 1500, Kane 10 × 200 = 2000, Wayne 6 × 300 = 1800. <strong>Dr. Kane</strong> earns the most.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-19",
+      "section": "DILR",
+      "number": 19,
+      "type": "MCQ",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>Mr. Singh visited the clinic on Monday, Wednesday, and Friday of a particular week, arriving at 8:50 a.m. on each of the three days. His token number was 13 on all three days. On which day was he at the clinic for the maximum duration?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Monday"
+        },
+        {
+          "id": "B",
+          "textHtml": "Wednesday"
+        },
+        {
+          "id": "C",
+          "textHtml": "Same duration on all three days"
+        },
+        {
+          "id": "D",
+          "textHtml": "Friday"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Basics.</strong> The clinic is open 150 minutes. With a full queue, Ben sees 150/10 = 15 patients, Kane 150/15 = 10 and Wayne 150/25 = 6.</p><p>All 13 patients are waiting at 9:00, so simulate (minutes after 9:00; rooms that free together are filled lowest number first).</p><p><strong>Monday</strong> (R1 Ben 10, R2 Kane 15, R3 Wayne 25): tokens 1, 2, 3 at 0; 4→R1 at 10; 5→R2 at 15; 6→R1 at 20; 7→R3 at 25; 8→R1, 9→R2 at 30; 10→R1 at 40; 11→R2 at 45; at 50 rooms 1 and 3 free: 12→R1, <strong>13→R3 (Wayne)</strong>, done at 75 (10:15).</p><p><strong>Wednesday</strong> (R1 Wayne, R2 Ben, R3 Kane): the free times are the same as Monday; at 50 rooms 1 and 2 free: 12→R1 (Wayne), <strong>13→R2 (Ben)</strong>, done at 60 (10:00).</p><p><strong>Friday</strong> (R1 Kane, R2 Wayne, R3 Ben): at 50 rooms 2 and 3 free: 12→R2 (Wayne), <strong>13→R3 (Ben)</strong>, done at 60 (10:00).</p><p>He stays longest on <strong>Monday</strong> (85 minutes vs 70).</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-20",
+      "section": "DILR",
+      "number": 20,
+      "type": "MCQ",
+      "setKey": "lr4",
+      "topic": "Logical Reasoning",
+      "subtopic": "Scheduling",
+      "difficulty": "hard",
+      "stemHtml": "<p>On a slow Thursday, only two patients are waiting at 9 a.m. After that two patients keep arriving at exact 15 minute intervals starting at 9:15 a.m. -- i.e. at 9:15 a.m., 9:30 a.m., 9:45 a.m. etc. Then the total duration in minutes when all three doctors are simultaneously free is</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "0"
+        },
+        {
+          "id": "B",
+          "textHtml": "15"
+        },
+        {
+          "id": "C",
+          "textHtml": "10"
+        },
+        {
+          "id": "D",
+          "textHtml": "30"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Basics.</strong> The clinic is open 150 minutes. With a full queue, Ben sees 150/10 = 15 patients, Kane 150/15 = 10 and Wayne 150/25 = 6.</p><p>Thursday: R1 Wayne (25 min), R2 Ben (10), R3 Kane (15).</p><p>0: two patients → Wayne (0–25), Ben (0–10). 15: two → Ben (15–25), Kane (15–30). 30: two → Wayne (30–55), Ben (30–40). 45: two → Ben (45–55), Kane (45–60). The pattern repeats every 30 minutes.</p><p>Wayne is idle only in the gaps 25–30, 55–60, …, and Kane is busy in exactly those gaps (15–30, 45–60, …). So the three are never free together: <strong>0</strong> minutes.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-21",
+      "section": "DILR",
+      "number": 21,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot",
+      "difficulty": "easy",
+      "stemHtml": "<p>If a ‘Heavy Monsoon State’ is defined as a state with actual rainfall from June-August, 2019 of 900 mm or more, then approximately what percentage of ‘Heavy Monsoon States’ have a negative deviation from respective LPAs in 2019?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "57.14"
+        },
+        {
+          "id": "B",
+          "textHtml": "14.29"
+        },
+        {
+          "id": "C",
+          "textHtml": "75.00"
+        },
+        {
+          "id": "D",
+          "textHtml": "42.86"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Points read from the figure</strong> (rainfall mm, deviation %):</p><table><thead><tr><th>State</th><th>Rainfall</th><th>Deviation</th></tr></thead><tbody><tr><td>Rajasthan</td><td>300</td><td>+15</td></tr><tr><td>Delhi</td><td>300</td><td>−40</td></tr><tr><td>Jharkhand</td><td>400</td><td>−35</td></tr><tr><td>Manipur</td><td>400</td><td>−60</td></tr><tr><td>Gujarat</td><td>600</td><td>+25</td></tr><tr><td>Karnataka</td><td>600</td><td>+20</td></tr><tr><td>MP</td><td>600</td><td>+10</td></tr><tr><td>Assam</td><td>600</td><td>−10</td></tr><tr><td>WB</td><td>600</td><td>−30</td></tr><tr><td>Maharashtra</td><td>1000</td><td>+30</td></tr><tr><td>Arunachal</td><td>1000</td><td>−10</td></tr><tr><td>Mizoram</td><td>1100</td><td>+10</td></tr><tr><td>Sikkim</td><td>1350</td><td>+25</td></tr><tr><td>Kerala</td><td>1500</td><td>−10</td></tr><tr><td>Meghalaya</td><td>1750</td><td>−15</td></tr><tr><td>Goa</td><td>2700</td><td>+15</td></tr></tbody></table><p>Rainfall ≥ 900: Maharashtra, Arunachal, Mizoram, Sikkim, Kerala, Meghalaya, Goa = 7. Negative: Arunachal, Kerala, Meghalaya = 3. 3/7 = <strong>42.86</strong>%.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-22",
+      "section": "DILR",
+      "number": 22,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot",
+      "difficulty": "easy",
+      "stemHtml": "<p>If a ‘Low Monsoon State’ is defined as a state with actual rainfall from June-August, 2019 of 750 mm or less, then what is the median ‘deviation from LPA’ (as defined in the Y-axis of the figure) of ‘Low Monsoon States’?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "-30%"
+        },
+        {
+          "id": "B",
+          "textHtml": "-20%"
+        },
+        {
+          "id": "C",
+          "textHtml": "10%"
+        },
+        {
+          "id": "D",
+          "textHtml": "-10%"
+        }
+      ],
+      "answer": "D",
+      "solutionHtml": "<p><strong>Points read from the figure</strong> (rainfall mm, deviation %):</p><table><thead><tr><th>State</th><th>Rainfall</th><th>Deviation</th></tr></thead><tbody><tr><td>Rajasthan</td><td>300</td><td>+15</td></tr><tr><td>Delhi</td><td>300</td><td>−40</td></tr><tr><td>Jharkhand</td><td>400</td><td>−35</td></tr><tr><td>Manipur</td><td>400</td><td>−60</td></tr><tr><td>Gujarat</td><td>600</td><td>+25</td></tr><tr><td>Karnataka</td><td>600</td><td>+20</td></tr><tr><td>MP</td><td>600</td><td>+10</td></tr><tr><td>Assam</td><td>600</td><td>−10</td></tr><tr><td>WB</td><td>600</td><td>−30</td></tr><tr><td>Maharashtra</td><td>1000</td><td>+30</td></tr><tr><td>Arunachal</td><td>1000</td><td>−10</td></tr><tr><td>Mizoram</td><td>1100</td><td>+10</td></tr><tr><td>Sikkim</td><td>1350</td><td>+25</td></tr><tr><td>Kerala</td><td>1500</td><td>−10</td></tr><tr><td>Meghalaya</td><td>1750</td><td>−15</td></tr><tr><td>Goa</td><td>2700</td><td>+15</td></tr></tbody></table><p>Rainfall ≤ 750: the 9 states from Rajasthan to WB. Deviations sorted: −60, −40, −35, −30, −10, 10, 15, 20, 25. Median (5th) = <strong>−10%</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-23",
+      "section": "DILR",
+      "number": 23,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot",
+      "difficulty": "easy",
+      "stemHtml": "<p>What is the average rainfall of all states that have actual rainfall of 600 mm or less in 2019 and have a negative deviation from LPA?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "500 mm"
+        },
+        {
+          "id": "B",
+          "textHtml": "460 mm"
+        },
+        {
+          "id": "C",
+          "textHtml": "367 mm"
+        },
+        {
+          "id": "D",
+          "textHtml": "450 mm"
+        }
+      ],
+      "answer": "B",
+      "solutionHtml": "<p><strong>Points read from the figure</strong> (rainfall mm, deviation %):</p><table><thead><tr><th>State</th><th>Rainfall</th><th>Deviation</th></tr></thead><tbody><tr><td>Rajasthan</td><td>300</td><td>+15</td></tr><tr><td>Delhi</td><td>300</td><td>−40</td></tr><tr><td>Jharkhand</td><td>400</td><td>−35</td></tr><tr><td>Manipur</td><td>400</td><td>−60</td></tr><tr><td>Gujarat</td><td>600</td><td>+25</td></tr><tr><td>Karnataka</td><td>600</td><td>+20</td></tr><tr><td>MP</td><td>600</td><td>+10</td></tr><tr><td>Assam</td><td>600</td><td>−10</td></tr><tr><td>WB</td><td>600</td><td>−30</td></tr><tr><td>Maharashtra</td><td>1000</td><td>+30</td></tr><tr><td>Arunachal</td><td>1000</td><td>−10</td></tr><tr><td>Mizoram</td><td>1100</td><td>+10</td></tr><tr><td>Sikkim</td><td>1350</td><td>+25</td></tr><tr><td>Kerala</td><td>1500</td><td>−10</td></tr><tr><td>Meghalaya</td><td>1750</td><td>−15</td></tr><tr><td>Goa</td><td>2700</td><td>+15</td></tr></tbody></table><p>Rainfall ≤ 600 and negative: Delhi 300, Jharkhand 400, Manipur 400, Assam 600, WB 600. Average = 2300/5 = <strong>460 mm</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-24",
+      "section": "DILR",
+      "number": 24,
+      "type": "MCQ",
+      "setKey": "di2",
+      "topic": "Data Interpretation",
+      "subtopic": "Scatter plot",
+      "difficulty": "hard",
+      "stemHtml": "<p>The LPA of a state for a year is defined as the average rainfall in the preceding 10 years considering the period of June-August. For example, LPA in 2018 is the average rainfall during 2009-2018 and LPA in 2019 is the average rainfall during 2010-2019. It is also observed that the actual rainfall in Gujarat in 2019 is 20% more than the rainfall in 2009. The LPA of Gujarat in 2019 is closest to</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "490 mm"
+        },
+        {
+          "id": "B",
+          "textHtml": "505 mm"
+        },
+        {
+          "id": "C",
+          "textHtml": "525 mm"
+        },
+        {
+          "id": "D",
+          "textHtml": "475 mm"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Points read from the figure</strong> (rainfall mm, deviation %):</p><table><thead><tr><th>State</th><th>Rainfall</th><th>Deviation</th></tr></thead><tbody><tr><td>Rajasthan</td><td>300</td><td>+15</td></tr><tr><td>Delhi</td><td>300</td><td>−40</td></tr><tr><td>Jharkhand</td><td>400</td><td>−35</td></tr><tr><td>Manipur</td><td>400</td><td>−60</td></tr><tr><td>Gujarat</td><td>600</td><td>+25</td></tr><tr><td>Karnataka</td><td>600</td><td>+20</td></tr><tr><td>MP</td><td>600</td><td>+10</td></tr><tr><td>Assam</td><td>600</td><td>−10</td></tr><tr><td>WB</td><td>600</td><td>−30</td></tr><tr><td>Maharashtra</td><td>1000</td><td>+30</td></tr><tr><td>Arunachal</td><td>1000</td><td>−10</td></tr><tr><td>Mizoram</td><td>1100</td><td>+10</td></tr><tr><td>Sikkim</td><td>1350</td><td>+25</td></tr><tr><td>Kerala</td><td>1500</td><td>−10</td></tr><tr><td>Meghalaya</td><td>1750</td><td>−15</td></tr><tr><td>Goa</td><td>2700</td><td>+15</td></tr></tbody></table><p>Gujarat: 600 mm in 2019, 25% above the LPA shown ⇒ LPA<sub>2018</sub> = 600/1.25 = 480 (average of 2009–2018).</p><p>Rainfall in 2009 = 600/1.2 = 500. Moving the 10-year window drops 2009 and adds 2019: LPA<sub>2019</sub> = 480 + (600 − 500)/10 = <strong>490 mm</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-25",
+      "section": "DILR",
+      "number": 25,
+      "type": "MCQ",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>The second question in ET was prepared by:</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Chetan"
+        },
+        {
+          "id": "B",
+          "textHtml": "Beti"
+        },
+        {
+          "id": "C",
+          "textHtml": "Dave"
+        },
+        {
+          "id": "D",
+          "textHtml": "Esha"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Counting questions.</strong> With a fives, b tens, c fifteens: 5a + 10b + 15c = 100 ⇒ a + 2b + 3c = 20 (a ≥ 4, b ≥ 3, c ≥ 2). Options: (8,3,2) = 13 questions, (6,4,2) = 12, (4,5,2) = 11, (5,3,3) = 11. So each paper has 11–13 questions; ET &gt; MT and the total must be a multiple of 6 ⇒ MT = 11, ET = 13 (total 24, 4 per person).</p><p>ET with 13 questions must be (8, 3, 2). MT's Q5 is a 5-marker, so MT has at least 5 fives ⇒ MT = (5, 3, 3).</p><p><strong>MT.</strong> Annie has 1 MT question, the other five have 2 each. Fakir Q1–2, Chetan Q3–4, Annie Q5, Dave Q10–11. Esha has Q8; if Esha took Q7–8, Q6 and Q9 would be single slots, impossible for Beti ⇒ Beti Q6–7, Esha Q8–9.</p><p><strong>ET.</strong> Annie has 3, others 2 each. Dave Q1–2, Chetan Q3–4, Annie Q5–7, Esha Q8–9, Beti Q10–11, Fakir Q12–13.</p><table><thead><tr><th>Paper</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th>Q5</th><th>Q6</th><th>Q7</th><th>Q8</th><th>Q9</th><th>Q10</th><th>Q11</th><th>Q12</th><th>Q13</th></tr></thead><tbody><tr><td>MT setter</td><td>F</td><td>F</td><td>C</td><td>C</td><td>A</td><td>B</td><td>B</td><td>E</td><td>E</td><td>D</td><td>D</td><td>–</td><td>–</td></tr><tr><td>MT marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td><td>15</td><td>–</td><td>–</td></tr><tr><td>ET setter</td><td>D</td><td>D</td><td>C</td><td>C</td><td>A</td><td>A</td><td>A</td><td>E</td><td>E</td><td>B</td><td>B</td><td>F</td><td>F</td></tr><tr><td>ET marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td></tr></tbody></table><p>ET Q2 was prepared by <strong>Dave</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-26",
+      "section": "DILR",
+      "number": 26,
+      "type": "MCQ",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>How many 5‐mark questions were there in MT and ET combined?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "13"
+        },
+        {
+          "id": "B",
+          "textHtml": "10"
+        },
+        {
+          "id": "C",
+          "textHtml": "Cannot be determined"
+        },
+        {
+          "id": "D",
+          "textHtml": "12"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Counting questions.</strong> With a fives, b tens, c fifteens: 5a + 10b + 15c = 100 ⇒ a + 2b + 3c = 20 (a ≥ 4, b ≥ 3, c ≥ 2). Options: (8,3,2) = 13 questions, (6,4,2) = 12, (4,5,2) = 11, (5,3,3) = 11. So each paper has 11–13 questions; ET &gt; MT and the total must be a multiple of 6 ⇒ MT = 11, ET = 13 (total 24, 4 per person).</p><p>ET with 13 questions must be (8, 3, 2). MT's Q5 is a 5-marker, so MT has at least 5 fives ⇒ MT = (5, 3, 3).</p><p><strong>MT.</strong> Annie has 1 MT question, the other five have 2 each. Fakir Q1–2, Chetan Q3–4, Annie Q5, Dave Q10–11. Esha has Q8; if Esha took Q7–8, Q6 and Q9 would be single slots, impossible for Beti ⇒ Beti Q6–7, Esha Q8–9.</p><p><strong>ET.</strong> Annie has 3, others 2 each. Dave Q1–2, Chetan Q3–4, Annie Q5–7, Esha Q8–9, Beti Q10–11, Fakir Q12–13.</p><table><thead><tr><th>Paper</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th>Q5</th><th>Q6</th><th>Q7</th><th>Q8</th><th>Q9</th><th>Q10</th><th>Q11</th><th>Q12</th><th>Q13</th></tr></thead><tbody><tr><td>MT setter</td><td>F</td><td>F</td><td>C</td><td>C</td><td>A</td><td>B</td><td>B</td><td>E</td><td>E</td><td>D</td><td>D</td><td>–</td><td>–</td></tr><tr><td>MT marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td><td>15</td><td>–</td><td>–</td></tr><tr><td>ET setter</td><td>D</td><td>D</td><td>C</td><td>C</td><td>A</td><td>A</td><td>A</td><td>E</td><td>E</td><td>B</td><td>B</td><td>F</td><td>F</td></tr><tr><td>ET marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td></tr></tbody></table><p>5-mark questions: 5 in MT + 8 in ET = <strong>13</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-27",
+      "section": "DILR",
+      "number": 27,
+      "type": "MCQ",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>Who prepared 15-mark questions for MT and ET?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Only Beti, Dave, Esha and Fakir"
+        },
+        {
+          "id": "B",
+          "textHtml": "Only Esha and Fakir"
+        },
+        {
+          "id": "C",
+          "textHtml": "Only Dave, Esha and Fakir"
+        },
+        {
+          "id": "D",
+          "textHtml": "Only Dave and Fakir"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Counting questions.</strong> With a fives, b tens, c fifteens: 5a + 10b + 15c = 100 ⇒ a + 2b + 3c = 20 (a ≥ 4, b ≥ 3, c ≥ 2). Options: (8,3,2) = 13 questions, (6,4,2) = 12, (4,5,2) = 11, (5,3,3) = 11. So each paper has 11–13 questions; ET &gt; MT and the total must be a multiple of 6 ⇒ MT = 11, ET = 13 (total 24, 4 per person).</p><p>ET with 13 questions must be (8, 3, 2). MT's Q5 is a 5-marker, so MT has at least 5 fives ⇒ MT = (5, 3, 3).</p><p><strong>MT.</strong> Annie has 1 MT question, the other five have 2 each. Fakir Q1–2, Chetan Q3–4, Annie Q5, Dave Q10–11. Esha has Q8; if Esha took Q7–8, Q6 and Q9 would be single slots, impossible for Beti ⇒ Beti Q6–7, Esha Q8–9.</p><p><strong>ET.</strong> Annie has 3, others 2 each. Dave Q1–2, Chetan Q3–4, Annie Q5–7, Esha Q8–9, Beti Q10–11, Fakir Q12–13.</p><table><thead><tr><th>Paper</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th>Q5</th><th>Q6</th><th>Q7</th><th>Q8</th><th>Q9</th><th>Q10</th><th>Q11</th><th>Q12</th><th>Q13</th></tr></thead><tbody><tr><td>MT setter</td><td>F</td><td>F</td><td>C</td><td>C</td><td>A</td><td>B</td><td>B</td><td>E</td><td>E</td><td>D</td><td>D</td><td>–</td><td>–</td></tr><tr><td>MT marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td><td>15</td><td>–</td><td>–</td></tr><tr><td>ET setter</td><td>D</td><td>D</td><td>C</td><td>C</td><td>A</td><td>A</td><td>A</td><td>E</td><td>E</td><td>B</td><td>B</td><td>F</td><td>F</td></tr><tr><td>ET marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td></tr></tbody></table><p>15-markers: MT Q9 (Esha), Q10–11 (Dave); ET Q12–13 (Fakir) ⇒ <strong>only Dave, Esha and Fakir</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-28",
+      "section": "DILR",
+      "number": 28,
+      "type": "MCQ",
+      "setKey": "lr5",
+      "topic": "Logical Reasoning",
+      "subtopic": "Arrangements",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which of the following questions did Beti prepare in ET?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Fourth question"
+        },
+        {
+          "id": "B",
+          "textHtml": "Seventh question"
+        },
+        {
+          "id": "C",
+          "textHtml": "Tenth question"
+        },
+        {
+          "id": "D",
+          "textHtml": "Ninth question"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Counting questions.</strong> With a fives, b tens, c fifteens: 5a + 10b + 15c = 100 ⇒ a + 2b + 3c = 20 (a ≥ 4, b ≥ 3, c ≥ 2). Options: (8,3,2) = 13 questions, (6,4,2) = 12, (4,5,2) = 11, (5,3,3) = 11. So each paper has 11–13 questions; ET &gt; MT and the total must be a multiple of 6 ⇒ MT = 11, ET = 13 (total 24, 4 per person).</p><p>ET with 13 questions must be (8, 3, 2). MT's Q5 is a 5-marker, so MT has at least 5 fives ⇒ MT = (5, 3, 3).</p><p><strong>MT.</strong> Annie has 1 MT question, the other five have 2 each. Fakir Q1–2, Chetan Q3–4, Annie Q5, Dave Q10–11. Esha has Q8; if Esha took Q7–8, Q6 and Q9 would be single slots, impossible for Beti ⇒ Beti Q6–7, Esha Q8–9.</p><p><strong>ET.</strong> Annie has 3, others 2 each. Dave Q1–2, Chetan Q3–4, Annie Q5–7, Esha Q8–9, Beti Q10–11, Fakir Q12–13.</p><table><thead><tr><th>Paper</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th><th>Q5</th><th>Q6</th><th>Q7</th><th>Q8</th><th>Q9</th><th>Q10</th><th>Q11</th><th>Q12</th><th>Q13</th></tr></thead><tbody><tr><td>MT setter</td><td>F</td><td>F</td><td>C</td><td>C</td><td>A</td><td>B</td><td>B</td><td>E</td><td>E</td><td>D</td><td>D</td><td>–</td><td>–</td></tr><tr><td>MT marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td><td>15</td><td>–</td><td>–</td></tr><tr><td>ET setter</td><td>D</td><td>D</td><td>C</td><td>C</td><td>A</td><td>A</td><td>A</td><td>E</td><td>E</td><td>B</td><td>B</td><td>F</td><td>F</td></tr><tr><td>ET marks</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>10</td><td>10</td><td>10</td><td>15</td><td>15</td></tr></tbody></table><p>Beti prepared ET Q10 and Q11, so the <strong>tenth question</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-29",
+      "section": "DILR",
+      "number": 29,
+      "type": "MCQ",
+      "setKey": "lr6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments / scoring",
+      "difficulty": "hard",
+      "stemHtml": "<p>What were the scores of Chen, David, and Eric respectively after Round 3?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "3, 6, 3"
+        },
+        {
+          "id": "B",
+          "textHtml": "3, 0, 3"
+        },
+        {
+          "id": "C",
+          "textHtml": "3, 3, 3"
+        },
+        {
+          "id": "D",
+          "textHtml": "3, 3, 0"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Rounds 1–6.</strong> Joshin plays only R5, R6 and has 14 ⇒ 7 + 7. Gordon (R2–R6, no consecutive scores) has 17 = 7 + 7 + 3 in R2, R4, R6; R6's 7 is Joshin's ⇒ Gordon R2 = 7, R4 = 7, R6 = 3. Amita (R1, R6) has 8 = 7 + 1 ⇒ R1 = 7, R6 = 1. Bala (R1, R2) = 1 + 1. Ikea (R4–R6) = 1 + 1 in R4, R5. Hansa's 1 must be R3. R3's 7 can only be Fatima's (no one else can reach a 7) ⇒ Fatima R3 = 7.</p><p>The five remaining 3s (R1–R5) go to Chen (one), David (two), Eric (one), Fatima (one). Eric and Fatima scored in the same round only if Eric takes R3's 3 (Fatima has 7 there). Then R5's 3 is Fatima's, R4's 3 is David's, and R1/R2 3s go to Chen and David in some order.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R1</td><td>Amita</td><td>Chen/David</td><td>Bala</td></tr><tr><td>R2</td><td>Gordon</td><td>David/Chen</td><td>Bala</td></tr><tr><td>R3</td><td>Fatima</td><td>Eric</td><td>Hansa</td></tr><tr><td>R4</td><td>Gordon</td><td>David</td><td>Ikea</td></tr><tr><td>R5</td><td>Joshin</td><td>Fatima</td><td>Ikea</td></tr><tr><td>R6</td><td>Joshin</td><td>Gordon</td><td>Amita</td></tr></tbody></table><p><strong>Rounds 7–10</strong> (points gained: Amita 10, Bala 3, Chen 3, Eric 7, Hansa 3, Ikea 15, Joshin 3). Eric plays only R10 ⇒ Eric R10 = 7. Ikea (R7–R9) 15 = 7 + 7 + 1, so Ikea scores in three consecutive rounds; Chen (R8–R10) 3 = 1 + 1 + 1. Amita 10 = 7 + 3 with the 3 in R10. Joshin R7 = 3. Ikea R8 = R9 = 7, R7 = 1 ⇒ Amita R7 = 7. R9's 3 = Bala, R8's 3 = Hansa.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R7</td><td>Amita</td><td>Joshin</td><td>Ikea</td></tr><tr><td>R8</td><td>Ikea</td><td>Hansa</td><td>Chen</td></tr><tr><td>R9</td><td>Ikea</td><td>Bala</td><td>Chen</td></tr><tr><td>R10</td><td>Eric</td><td>Amita</td><td>Chen</td></tr></tbody></table><p>After R3: Chen 3 (R1 or R2), David 3 (the other of R1/R2), Eric 3 (R3) ⇒ <strong>3, 3, 3</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-30",
+      "section": "DILR",
+      "number": 30,
+      "type": "MCQ",
+      "setKey": "lr6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments / scoring",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which three players were in the last three positions after Round 4?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Bala, Ikea, Joshin"
+        },
+        {
+          "id": "B",
+          "textHtml": "Bala, Hansa, Ikea"
+        },
+        {
+          "id": "C",
+          "textHtml": "Hansa, Ikea, Joshin"
+        },
+        {
+          "id": "D",
+          "textHtml": "Bala, Chen, Gordon"
+        }
+      ],
+      "answer": "C",
+      "solutionHtml": "<p><strong>Rounds 1–6.</strong> Joshin plays only R5, R6 and has 14 ⇒ 7 + 7. Gordon (R2–R6, no consecutive scores) has 17 = 7 + 7 + 3 in R2, R4, R6; R6's 7 is Joshin's ⇒ Gordon R2 = 7, R4 = 7, R6 = 3. Amita (R1, R6) has 8 = 7 + 1 ⇒ R1 = 7, R6 = 1. Bala (R1, R2) = 1 + 1. Ikea (R4–R6) = 1 + 1 in R4, R5. Hansa's 1 must be R3. R3's 7 can only be Fatima's (no one else can reach a 7) ⇒ Fatima R3 = 7.</p><p>The five remaining 3s (R1–R5) go to Chen (one), David (two), Eric (one), Fatima (one). Eric and Fatima scored in the same round only if Eric takes R3's 3 (Fatima has 7 there). Then R5's 3 is Fatima's, R4's 3 is David's, and R1/R2 3s go to Chen and David in some order.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R1</td><td>Amita</td><td>Chen/David</td><td>Bala</td></tr><tr><td>R2</td><td>Gordon</td><td>David/Chen</td><td>Bala</td></tr><tr><td>R3</td><td>Fatima</td><td>Eric</td><td>Hansa</td></tr><tr><td>R4</td><td>Gordon</td><td>David</td><td>Ikea</td></tr><tr><td>R5</td><td>Joshin</td><td>Fatima</td><td>Ikea</td></tr><tr><td>R6</td><td>Joshin</td><td>Gordon</td><td>Amita</td></tr></tbody></table><p><strong>Rounds 7–10</strong> (points gained: Amita 10, Bala 3, Chen 3, Eric 7, Hansa 3, Ikea 15, Joshin 3). Eric plays only R10 ⇒ Eric R10 = 7. Ikea (R7–R9) 15 = 7 + 7 + 1, so Ikea scores in three consecutive rounds; Chen (R8–R10) 3 = 1 + 1 + 1. Amita 10 = 7 + 3 with the 3 in R10. Joshin R7 = 3. Ikea R8 = R9 = 7, R7 = 1 ⇒ Amita R7 = 7. R9's 3 = Bala, R8's 3 = Hansa.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R7</td><td>Amita</td><td>Joshin</td><td>Ikea</td></tr><tr><td>R8</td><td>Ikea</td><td>Hansa</td><td>Chen</td></tr><tr><td>R9</td><td>Ikea</td><td>Bala</td><td>Chen</td></tr><tr><td>R10</td><td>Eric</td><td>Amita</td><td>Chen</td></tr></tbody></table><p>After R4: Amita 7, Bala 2, Chen 3, David 6, Eric 3, Fatima 7, Gordon 14, Hansa 1, Ikea 1, Joshin 0. Last three: <strong>Hansa, Ikea, Joshin</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-31",
+      "section": "DILR",
+      "number": 31,
+      "type": "MCQ",
+      "setKey": "lr6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments / scoring",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which player scored points in maximum number of rounds?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Ikea"
+        },
+        {
+          "id": "B",
+          "textHtml": "Joshin"
+        },
+        {
+          "id": "C",
+          "textHtml": "Chen"
+        },
+        {
+          "id": "D",
+          "textHtml": "Amita"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Rounds 1–6.</strong> Joshin plays only R5, R6 and has 14 ⇒ 7 + 7. Gordon (R2–R6, no consecutive scores) has 17 = 7 + 7 + 3 in R2, R4, R6; R6's 7 is Joshin's ⇒ Gordon R2 = 7, R4 = 7, R6 = 3. Amita (R1, R6) has 8 = 7 + 1 ⇒ R1 = 7, R6 = 1. Bala (R1, R2) = 1 + 1. Ikea (R4–R6) = 1 + 1 in R4, R5. Hansa's 1 must be R3. R3's 7 can only be Fatima's (no one else can reach a 7) ⇒ Fatima R3 = 7.</p><p>The five remaining 3s (R1–R5) go to Chen (one), David (two), Eric (one), Fatima (one). Eric and Fatima scored in the same round only if Eric takes R3's 3 (Fatima has 7 there). Then R5's 3 is Fatima's, R4's 3 is David's, and R1/R2 3s go to Chen and David in some order.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R1</td><td>Amita</td><td>Chen/David</td><td>Bala</td></tr><tr><td>R2</td><td>Gordon</td><td>David/Chen</td><td>Bala</td></tr><tr><td>R3</td><td>Fatima</td><td>Eric</td><td>Hansa</td></tr><tr><td>R4</td><td>Gordon</td><td>David</td><td>Ikea</td></tr><tr><td>R5</td><td>Joshin</td><td>Fatima</td><td>Ikea</td></tr><tr><td>R6</td><td>Joshin</td><td>Gordon</td><td>Amita</td></tr></tbody></table><p><strong>Rounds 7–10</strong> (points gained: Amita 10, Bala 3, Chen 3, Eric 7, Hansa 3, Ikea 15, Joshin 3). Eric plays only R10 ⇒ Eric R10 = 7. Ikea (R7–R9) 15 = 7 + 7 + 1, so Ikea scores in three consecutive rounds; Chen (R8–R10) 3 = 1 + 1 + 1. Amita 10 = 7 + 3 with the 3 in R10. Joshin R7 = 3. Ikea R8 = R9 = 7, R7 = 1 ⇒ Amita R7 = 7. R9's 3 = Bala, R8's 3 = Hansa.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R7</td><td>Amita</td><td>Joshin</td><td>Ikea</td></tr><tr><td>R8</td><td>Ikea</td><td>Hansa</td><td>Chen</td></tr><tr><td>R9</td><td>Ikea</td><td>Bala</td><td>Chen</td></tr><tr><td>R10</td><td>Eric</td><td>Amita</td><td>Chen</td></tr></tbody></table><p>Rounds scored: Ikea 5 (R4, R5, R7, R8, R9); Amita 4 (R1, R6, R7, R10); Chen 4 (one of R1/R2, R8–R10); Joshin 3. Maximum: <strong>Ikea</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    },
+    {
+      "key": "DILR-32",
+      "section": "DILR",
+      "number": 32,
+      "type": "MCQ",
+      "setKey": "lr6",
+      "topic": "Logical Reasoning",
+      "subtopic": "Tournaments / scoring",
+      "difficulty": "hard",
+      "stemHtml": "<p>Which players scored points in the last round?</p>",
+      "options": [
+        {
+          "id": "A",
+          "textHtml": "Amita, Chen, Eric"
+        },
+        {
+          "id": "B",
+          "textHtml": "Amita, Chen, David"
+        },
+        {
+          "id": "C",
+          "textHtml": "Amita, Bala, Chen"
+        },
+        {
+          "id": "D",
+          "textHtml": "Amita, Eric, Joshin"
+        }
+      ],
+      "answer": "A",
+      "solutionHtml": "<p><strong>Rounds 1–6.</strong> Joshin plays only R5, R6 and has 14 ⇒ 7 + 7. Gordon (R2–R6, no consecutive scores) has 17 = 7 + 7 + 3 in R2, R4, R6; R6's 7 is Joshin's ⇒ Gordon R2 = 7, R4 = 7, R6 = 3. Amita (R1, R6) has 8 = 7 + 1 ⇒ R1 = 7, R6 = 1. Bala (R1, R2) = 1 + 1. Ikea (R4–R6) = 1 + 1 in R4, R5. Hansa's 1 must be R3. R3's 7 can only be Fatima's (no one else can reach a 7) ⇒ Fatima R3 = 7.</p><p>The five remaining 3s (R1–R5) go to Chen (one), David (two), Eric (one), Fatima (one). Eric and Fatima scored in the same round only if Eric takes R3's 3 (Fatima has 7 there). Then R5's 3 is Fatima's, R4's 3 is David's, and R1/R2 3s go to Chen and David in some order.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R1</td><td>Amita</td><td>Chen/David</td><td>Bala</td></tr><tr><td>R2</td><td>Gordon</td><td>David/Chen</td><td>Bala</td></tr><tr><td>R3</td><td>Fatima</td><td>Eric</td><td>Hansa</td></tr><tr><td>R4</td><td>Gordon</td><td>David</td><td>Ikea</td></tr><tr><td>R5</td><td>Joshin</td><td>Fatima</td><td>Ikea</td></tr><tr><td>R6</td><td>Joshin</td><td>Gordon</td><td>Amita</td></tr></tbody></table><p><strong>Rounds 7–10</strong> (points gained: Amita 10, Bala 3, Chen 3, Eric 7, Hansa 3, Ikea 15, Joshin 3). Eric plays only R10 ⇒ Eric R10 = 7. Ikea (R7–R9) 15 = 7 + 7 + 1, so Ikea scores in three consecutive rounds; Chen (R8–R10) 3 = 1 + 1 + 1. Amita 10 = 7 + 3 with the 3 in R10. Joshin R7 = 3. Ikea R8 = R9 = 7, R7 = 1 ⇒ Amita R7 = 7. R9's 3 = Bala, R8's 3 = Hansa.</p><table><thead><tr><th>Round</th><th>7</th><th>3</th><th>1</th></tr></thead><tbody><tr><td>R7</td><td>Amita</td><td>Joshin</td><td>Ikea</td></tr><tr><td>R8</td><td>Ikea</td><td>Hansa</td><td>Chen</td></tr><tr><td>R9</td><td>Ikea</td><td>Bala</td><td>Chen</td></tr><tr><td>R10</td><td>Eric</td><td>Amita</td><td>Chen</td></tr></tbody></table><p>R10: Eric 7, Amita 3, Chen 1 ⇒ <strong>Amita, Chen, Eric</strong>.</p>",
+      "source": {
+        "kind": "official",
+        "title": "CAT 2019 Slot 2",
+        "url": "https://iimcat.ac.in"
+      }
+    }
+  ]
+}
